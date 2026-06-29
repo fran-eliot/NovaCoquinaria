@@ -4,7 +4,7 @@
 
 **Fecha:** 2026-06-29
 
-**Autor:** Francisco Ramírez Martín
+**Autor:** Fran Ramírez
 
 ---
 
@@ -141,6 +141,7 @@ Sin modificar el contenido del repositorio.
 
 # Referencias
 
-* ADR-0001 - Filosofía del Proyecto.
-* README.md.
-* ESPECIFICACION_DE_DOCUMENTOS.md.
+- [ADR-0001 - Filosofía del Proyecto](./ADR-0001-filosofia-del-proyecto.md)
+- [README](../../README.md)
+- [ESPECIFICACION_DE_DOCUMENTOS](../../ESPECIFICACION_DE_DOCUMENTOS.md)
+
