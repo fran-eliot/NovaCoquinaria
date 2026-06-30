@@ -4,7 +4,7 @@
 
 **Fecha:** 2026-06-29
 
-**Autor:** Francisco Ramírez Martín
+**Autor:** Fran Ramírez
 
 ---
 
