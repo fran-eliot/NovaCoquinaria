@@ -6,7 +6,7 @@ titulo: Conversiones de unidades
 categoria: Tablas
 estado: estable
 version: 1.0.0
-ultima_revision: 2026-06-29
+ultima_revision: 2026-07-01
 etiquetas:
 
 * conversiones
