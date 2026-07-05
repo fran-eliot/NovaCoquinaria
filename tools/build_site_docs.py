@@ -10,6 +10,8 @@ INCLUDE = [
     "CHANGELOG.md",
     "CONTRIBUTING.md",
     "LICENSE.md",
+    "GUIA_DE_ESTILO.md",
+    "ESPECIFICACION_DE_DOCUMENTOS.md",
     "00_Bases",
     "01_Arroces",
     "04_Verduras",
@@ -21,6 +23,17 @@ INCLUDE = [
     "docs",
 ]
 
+IGNORE_DIRS = {
+    ".git",
+    ".venv",
+    "site",
+    "site_docs",
+    "__pycache__",
+}
+
+TEXT_EXTENSIONS = {".md", ".yml", ".yaml"}
+
+
 def copy_item(relative_path: str) -> None:
     src = ROOT / relative_path
     dst = SITE_DOCS / relative_path
@@ -30,10 +43,45 @@ def copy_item(relative_path: str) -> None:
         return
 
     if src.is_dir():
-        shutil.copytree(src, dst, ignore=shutil.ignore_patterns("diagrams", "images", "templates"))
+        shutil.copytree(
+            src,
+            dst,
+            ignore=shutil.ignore_patterns(*IGNORE_DIRS),
+        )
     else:
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dst)
+
+
+def normalize_links_in_file(path: Path) -> None:
+    if path.suffix.lower() not in TEXT_EXTENSIONS:
+        return
+
+    content = path.read_text(encoding="utf-8")
+
+    replacements = {
+        "README.md": "index.md",
+        "README": "index",  
+    }
+
+    for old, new in replacements.items():
+        content = content.replace(old, new)
+
+    path.write_text(content, encoding="utf-8")
+
+
+def normalize_links() -> None:
+    for path in SITE_DOCS.rglob("*"):
+        if path.is_file():
+            normalize_links_in_file(path)
+
+
+def create_index_files() -> None:
+    for readme in SITE_DOCS.rglob("README.md"):
+        index = readme.parent / "index.md"
+        if not index.exists():
+            shutil.copy2(readme, index)
+
 
 def main() -> None:
     if SITE_DOCS.exists():
@@ -46,7 +94,12 @@ def main() -> None:
 
     shutil.copy2(SITE_DOCS / "README.md", SITE_DOCS / "index.md")
 
+
+    create_index_files()
+    normalize_links()
+
     print("site_docs generado correctamente.")
+
 
 if __name__ == "__main__":
     main()

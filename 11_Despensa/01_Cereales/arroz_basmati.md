@@ -69,7 +69,7 @@ No suele utilizarse para:
 
 Consultar:
 
-* `../../98_Tablas/01_Cocciones/tiempos_coccion.md`
+* [Tiempos de cocción](../../98_Tablas/01_Cocciones/tiempos_coccion.md)
 
 Como referencia general:
 
@@ -101,7 +101,7 @@ Mantener en recipiente hermético protegido de humedad y luz.
 
 Consultar:
 
-* `../../98_Tablas/04_Conservacion/conservacion_congelacion.md`
+* [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)
 
 ---
 
@@ -109,7 +109,7 @@ Consultar:
 
 Consultar:
 
-* `../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md`
+* [Sustituciones de ingredientes](../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md)
 
 Las mejores alternativas son:
 

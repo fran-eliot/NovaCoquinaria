@@ -7,6 +7,7 @@ repo_name: NovaCoquinaria
 
 docs_dir: site_docs
 site_dir: site
+use_directory_urls: false
 
 theme:
   name: material
@@ -53,13 +54,13 @@ nav:
       - Arquitectura: docs/ARQUITECTURA.md
       - Roadmap: docs/ROADMAP.md
   - Bases:
-      - Inicio: 00_Bases/README.md
+      - Inicio: 00_Bases/index.md
       - Mise en place: 00_Bases/01_Fundamentos/mise_en_place.md
       - Saltear: 00_Bases/03_Tecnicas/saltear.md
       - Sofreír: 00_Bases/03_Tecnicas/sofreir.md
       - Wok: 00_Bases/03_Tecnicas/wok.md
   - Tablas:
-      - Inicio: 98_Tablas/README.md
+      - Inicio: 98_Tablas/index.md
       - Tiempos de cocción: 98_Tablas/01_Cocciones/tiempos_coccion.md
       - Temperaturas de horno: 98_Tablas/02_Hornos/temperaturas_horno.md
       - Conversiones: 98_Tablas/03_Conversiones/conversiones_unidades.md
