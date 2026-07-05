@@ -189,6 +189,14 @@ El verdadero valor del proyecto no se medirá por el número de recetas almacena
 
 ---
 
+# Estado actual
+
+NovaCoquinaria ya dispone de una arquitectura documental estable, una base de conocimiento reutilizable y una colección inicial de recetas normalizadas.
+
+Las siguientes etapas se centrarán en la consolidación del repositorio y en su futura explotación mediante herramientas software.
+
+---
+
 # Conclusión
 
 NovaCoquinaria no es el destino.

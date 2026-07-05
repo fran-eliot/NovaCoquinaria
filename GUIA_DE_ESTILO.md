@@ -1,7 +1,8 @@
 # GUÍA DE ESTILO
 
 > **Versión:** 1.0
-> **Proyecto:** GASTRO - Manual Personal de Cocina
+> **Proyecto:** NovaCoquinaria
+> **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
@@ -269,25 +270,23 @@ Siempre que sea aplicable, las recetas seguirán esta estructura:
 ```text
 Descripción
 
+Información general
+
 Ingredientes
 
-Preparación
+Mise en place
+
+Elaboracion
 
 Variantes
 
-Trucos
-
-Errores frecuentes
+Presentación
 
 Conservación
 
-Congelación
-
-Recalentado
-
-Acompañamientos
-
 Referencias
+
+Principio NovaCoquinaria
 ```
 
 No todos los apartados serán obligatorios.

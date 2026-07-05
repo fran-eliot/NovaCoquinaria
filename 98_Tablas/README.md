@@ -191,3 +191,15 @@ Si una tabla crece demasiado, dividirla por dominio.
 # Utilizado por
 
 Este módulo será utilizado por recetas, técnicas, documentos de despensa y plantillas del repositorio.
+
+---
+
+## Información del módulo
+
+| Campo | Valor |
+|--------|-------|
+| Dominio | Consulta rápida |
+| Estado | En desarrollo |
+| Tipo de contenido | Tiempos, equivalencias y seguridad |
+| Dependencias | Ninguna |
+| Utilizado por | Todo el repositorio |

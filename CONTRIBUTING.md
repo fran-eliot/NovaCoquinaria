@@ -1,8 +1,8 @@
 # CONTRIBUTING
 
 > **Versión:** 1.0
-> **Proyecto:** GASTRO - Manual Personal de Cocina
-
+> **Proyecto:** NovaCoquinaria
+> **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
 ---
 
 # Objetivo
@@ -107,7 +107,17 @@ Antes de considerar terminado un documento comprobar:
 
 ---
 
-## 7. Integrar
+## 7. Validar reutilización
+
+Comprobar que el documento:
+
+- reutiliza conocimiento existente;
+- no introduce duplicidades;
+- enlaza las técnicas, ingredientes o plantillas correspondientes.
+
+---
+
+## 8. Integrar
 
 Si el documento modifica conocimiento ya existente deberá actualizarse:
 
