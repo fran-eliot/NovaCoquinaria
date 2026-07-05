@@ -189,3 +189,15 @@ Se priorizará siempre ampliar documentos existentes antes que crear otros nuevo
 # Utilizado por
 
 Este módulo constituye la base técnica sobre la que se apoyan todos los documentos culinarios de NovaCoquinaria.
+
+---
+
+## Información del módulo
+
+| Campo | Valor |
+|--------|-------|
+| Dominio | Fundamentos culinarios |
+| Estado | En desarrollo |
+| Tipo de contenido | Técnicas, cortes y organización |
+| Dependencias | Ninguna |
+| Utilizado por | Todo el repositorio |

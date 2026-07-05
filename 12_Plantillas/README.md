@@ -135,3 +135,15 @@ Cada plantilla deberá incluir:
 # Utilizado por
 
 Este módulo será utilizado por recetas, menús y futuras herramientas de planificación culinaria.
+
+---
+
+## Información del módulo
+
+| Campo | Valor |
+|--------|-------|
+| Dominio | Patrones reutilizabls |
+| Estado | En desarrollo |
+| Tipo de contenido | Elaboraciones base |
+| Dependencias | Ninguna |
+| Utilizado por | Recetas |

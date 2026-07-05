@@ -1,7 +1,8 @@
 # ESPECIFICACIÓN DE DOCUMENTOS
 
 > **Versión:** 1.0
-> **Proyecto:** GASTRO - Manual Personal de Cocina
+> **Proyecto:** NovaCoquinaria
+> **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
@@ -142,16 +143,15 @@ Describir una elaboración culinaria concreta.
 ### Estructura
 
 * Descripción
+* Información general
 * Ingredientes
-* Preparación
+* Mise en place
+* Elaboración
 * Variantes
-* Trucos
-* Errores frecuentes
+* Presentación
 * Conservación
-* Congelación
-* Recalentado
-* Acompañamientos
 * Referencias
+* Principio NovaCoquinaria
 
 ---
 

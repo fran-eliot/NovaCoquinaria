@@ -23,7 +23,7 @@ El conocimiento culinario constituye el núcleo del sistema.
 
 Todas las aplicaciones presentes o futuras consumirán dicho conocimiento, pero ninguna será propietaria de él.
 
-El repositorio Markdown constituye la única fuente de verdad.
+El repositorio Markdown constituye la fuente de verdad del conocimiento culinario. Las futuras aplicaciones consumirán dicho conocimiento sin modificarlo.
 
 ---
 
@@ -157,6 +157,25 @@ Incluye:
 * ingredientes;
 * tablas;
 * plantillas.
+
+---
+
+## Capa de Plantillas
+
+Actúa como puente entre el conocimiento teórico y las recetas.
+
+Las plantillas definen patrones reutilizables de elaboración que pueden aplicarse a múltiples platos sin repetir instrucciones comunes.
+
+Ejemplos:
+
+* sofrito mediterráneo;
+* salteado asiático;
+* salsa china base;
+* curry base;
+* vinagreta base.
+
+Esta capa reduce la duplicación de información y garantiza que las recetas se centren únicamente en los aspectos específicos de cada elaboración.
+
 
 ---
 

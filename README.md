@@ -1,56 +1,26 @@
-# 🍳 GASTRO - Manual Personal de Cocina
+# 🍳 NovaCoquinaria
 
-> *"No es un recetario. Es una base de conocimiento culinario construida como si fuera un proyecto de software."*
-
----
-
-# GASTRO
-
-GASTRO es un repositorio personal de cocina cuyo objetivo es documentar, organizar y mejorar el conocimiento culinario de forma estructurada, modular y reutilizable.
-
-A diferencia de un recetario tradicional, este proyecto no pretende únicamente almacenar recetas, sino construir un **manual técnico de cocina** que evolucione continuamente.
-
-Cada receta, técnica, ingrediente o tabla de referencia se documenta siguiendo criterios similares a los utilizados en proyectos de ingeniería de software:
-
-* Modularidad
-* Reutilización
-* Mantenibilidad
-* Consistencia
-* Documentación
-* Evolución continua
+> **Más que un recetario: un Sistema de Gestión del Conocimiento Culinario.**
 
 ---
 
-# Objetivos
+# Descripción
 
-El proyecto persigue varios objetivos:
+**NovaCoquinaria** es un repositorio personal de cocina construido como si fuera un proyecto de software.
 
-* Centralizar todas las recetas personales.
-* Documentar técnicas culinarias.
-* Evitar duplicar conocimiento.
-* Comprender el fundamento de cada elaboración.
-* Facilitar la experimentación y mejora de recetas.
-* Mantener una estructura escalable durante años.
+Su objetivo no es únicamente almacenar recetas, sino capturar, organizar y reutilizar conocimiento culinario de forma modular, mantenible y preparada para evolucionar durante años.
+
+El sistema interno recibe el nombre de **GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)**.
 
 ---
 
 # Filosofía
 
-Las recetas son únicamente una parte del conocimiento.
+En NovaCoquinaria, una receta no debe repetir conocimiento general.
 
-Cuando una explicación pueda reutilizarse en varias recetas, se documentará una única vez en un documento base y el resto de recetas harán referencia a él.
+Las técnicas, ingredientes, tablas y plantillas se documentan una sola vez y se reutilizan mediante referencias.
 
-Ejemplo:
-
-❌ Explicar cómo hacer un sofrito en 25 recetas.
-
-✅ Crear un único documento:
-
-```text
-00_Bases/tecnicas_sofrito.md
-```
-
-y enlazarlo desde todas las recetas que lo utilicen.
+Una receta funciona como un caso de uso: combina conocimientos ya existentes para elaborar un plato concreto.
 
 ---
 
@@ -58,7 +28,7 @@ y enlazarlo desde todas las recetas que lo utilicen.
 
 ```text
 00_Bases/
-        Conocimientos generales de cocina
+        Fundamentos y técnicas culinarias
 
 01_Arroces/
 02_Pastas/
@@ -82,216 +52,127 @@ y enlazarlo desde todas las recetas que lo utilicen.
 
 99_Notas/
         Ideas, experimentos y pendientes
+
+docs/
+        Arquitectura, visión, roadmap y ADR
 ```
 
 ---
 
-# Principios de documentación
+# Módulos principales
 
-Todo documento debe cumplir, en la medida de lo posible, los siguientes principios:
+## 98_Tablas
+
+Tablas maestras de consulta rápida:
+
+* conversiones;
+* tiempos de cocción;
+* temperaturas de horno;
+* conservación;
+* seguridad alimentaria;
+* sustituciones.
+
+## 00_Bases
+
+Fundamentos y técnicas culinarias:
+
+* mise en place;
+* saltear;
+* sofreír;
+* cocinar al wok;
+* organización culinaria.
+
+## 11_Despensa
+
+Catálogo práctico de ingredientes:
+
+* salsas;
+* condimentos;
+* aceites;
+* especias;
+* cereales;
+* productos de uso frecuente.
+
+## 12_Plantillas
+
+Patrones reutilizables:
+
+* salteado asiático;
+* curry base;
+* salsa china base;
+* marinada asiática;
+* teriyaki base;
+* sofrito mediterráneo;
+* vinagreta base.
+
+## Recetas
+
+Aplicaciones concretas del conocimiento:
+
+* arroces;
+* verduras;
+* carnes;
+* pescados y mariscos;
+* cocina asiática;
+* futuras familias de recetas.
+
+---
+
+# Principios
 
 ## 1. Un único lugar para cada conocimiento
 
-Cada concepto debe documentarse una sola vez.
-
-Las recetas harán referencia a los documentos base cuando sea necesario.
-
----
+Cada técnica, ingrediente o patrón debe documentarse una sola vez.
 
 ## 2. Reutilización
 
-Evitar copiar y pegar información.
+Las recetas enlazan al conocimiento existente en lugar de repetirlo.
 
-Siempre que una técnica aparezca en varias recetas, deberá documentarse por separado.
+## 3. Claridad
 
----
+Todo documento debe ser útil mientras se cocina.
 
-## 3. Mejora continua
+## 4. Evolución continua
 
-Todos los documentos pueden evolucionar.
+Ningún documento se considera definitivo.
 
-Las recetas nunca se consideran "terminadas".
+## 5. Preparación para automatización
 
-Siempre pueden mejorarse.
-
----
-
-## 4. Explicar el porqué
-
-No limitarse a indicar pasos.
-
-Siempre que aporte valor se documentará:
-
-* por qué se hace
-* qué ocurre durante la elaboración
-* qué errores son habituales
-* cómo mejorar el resultado
+Los documentos se estructuran para poder ser usados en el futuro por una web, aplicación, buscador o asistente con IA.
 
 ---
 
-# Estructura de una receta
+# Documentación del proyecto
 
-Las recetas seguirán una estructura homogénea.
+Documentos principales:
 
-```text
-Descripción
-
-Ingredientes
-
-Preparación
-
-Variantes
-
-Trucos
-
-Errores frecuentes
-
-Conservación
-
-Congelación
-
-Recalentado
-
-Acompañamientos
-
-Referencias
-```
-
-No todos los apartados serán obligatorios, pero se mantendrá la máxima consistencia posible.
+* [Guía de estilo](./GUIA_DE_ESTILO.md)
+* [Especificación de documentos](./ESPECIFICACION_DE_DOCUMENTOS.md)
+* [Contribución](./CONTRIBUTING.md)
+* [Changelog](./CHANGELOG.md)
+* [Arquitectura](./docs/ARQUITECTURA.md)
+* [Visión](./docs/VISION.md)
+* [Roadmap](./docs/ROADMAP.md)
+* [ADR](./docs/adr/)
 
 ---
 
-# Documentos base
+# Estado actual
 
-Los documentos contenidos en **00_Bases** recogen conocimientos reutilizables.
+El proyecto dispone ya de:
 
-Ejemplos:
-
-* técnicas culinarias
-* proporciones
-* tiempos de cocción
-* seguridad alimentaria
-* conservación
-* congelación
-* salsas base
-* marinadas
-* espesantes
-* organización de la cocina
-
-Estos documentos sirven de apoyo a todas las recetas.
-
----
-
-# Despensa
-
-La carpeta **11_Despensa** documenta ingredientes.
-
-Cada ingrediente incluye, cuando proceda:
-
-* descripción
-* origen
-* variedades
-* sabor
-* usos culinarios
-* sustituciones
-* conservación
-* combinaciones recomendadas
-* recetas relacionadas
-
----
-
-# Plantillas
-
-Las plantillas describen estructuras reutilizables de elaboración.
-
-No son recetas.
-
-Ejemplos:
-
-* arroz base
-* curry base
-* salteado asiático
-* salsa base
-* crema base
-* guiso base
-
-Una receta concreta se construye a partir de una o varias plantillas.
-
----
-
-# Tablas
-
-Las tablas permiten localizar información rápidamente.
-
-Ejemplos:
-
-* tiempos de cocción
-* temperaturas de horno
-* equivalencias
-* conversiones
-* conservación
-* sustituciones
-
----
-
-# Convenciones
-
-## Nombres de archivos
-
-* minúsculas
-* palabras separadas mediante "_"
-* nombres descriptivos
-
-Ejemplos:
-
-```text
-arroz_chaufa.md
-
-caballa_japonesa.md
-
-salsa_teriyaki.md
-```
-
----
-
-## Formato
-
-Todos los documentos utilizarán Markdown.
-
-Las listas, tablas y encabezados seguirán una estructura uniforme.
-
----
-
-# Evolución del proyecto
-
-Este repositorio está vivo.
-
-Cada nueva receta, técnica o ingrediente puede provocar:
-
-* la creación de un nuevo documento
-* la mejora de uno existente
-* una reorganización de la estructura
-
-El objetivo no es acumular recetas, sino construir un sistema de conocimiento culinario cada vez más completo, coherente y reutilizable.
-
----
-
-# Hoja de ruta
-
-Prioridad de desarrollo:
-
-1. README
-2. Documentos base
-3. Tablas
-4. Despensa
-5. Plantillas
-6. Recetas
-7. Revisión y mejora continua
+* arquitectura documental;
+* ADR fundacionales;
+* tablas de referencia;
+* fundamentos culinarios;
+* despensa asiática inicial;
+* plantillas culinarias reutilizables;
+* colección inicial de recetas normalizadas.
 
 ---
 
 # Licencia
 
-Repositorio personal de uso privado.
+Repositorio privado de uso personal.
 
-Su contenido podrá modificarse, reorganizarse y ampliarse continuamente conforme evolucione la experiencia culinaria del autor.
+La estrategia de publicación y licencia definitiva se decidirá antes de hacer público el proyecto.

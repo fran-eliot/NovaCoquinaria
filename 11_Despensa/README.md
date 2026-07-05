@@ -115,3 +115,15 @@ Solo se crearán nuevos documentos cuando un ingrediente aparezca con frecuencia
 # Utilizado por
 
 Todos los módulos del proyecto, especialmente recetas y plantillas.
+
+---
+
+## Información del módulo
+
+| Campo | Valor |
+|--------|-------|
+| Dominio | Ingredientes |
+| Estado | En desarrollo |
+| Tipo de contenido | Productos y materias primas |
+| Dependencias | Ninguna |
+| Utilizado por | Plantillas y recetas |
