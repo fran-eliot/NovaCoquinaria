@@ -101,7 +101,7 @@ Mantener en recipiente hermético protegido de humedad y luz.
 
 Consultar:
 
-* [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)
+* [Conservación, congelación y recalentado](../../98_Tablas/04_Conservacion/conservacion_congelacion.md)
 
 ---
 
