@@ -1,0 +1,47 @@
+site_name: NovaCoquinaria
+site_description: Sistema de Gestión del Conocimiento Culinario
+site_author: Fran Ramírez
+
+repo_url: https://github.com/fran-eliot/NovaCoquinaria
+repo_name: NovaCoquinaria
+
+docs_dir: site_docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Inicio: index.md
+  - Proyecto:
+      - Manifiesto: MANIFESTO.md
+      - Changelog: CHANGELOG.md
+      - Contribuir: CONTRIBUTING.md
+      - Calidad: docs/QUALITY.md
+  - Arquitectura:
+      - Visión: docs/VISION.md
+      - Arquitectura: docs/ARQUITECTURA.md
+      - Roadmap: docs/ROADMAP.md
+  - Bases:
+      - Inicio: 00_Bases/README.md
+      - Mise en place: 00_Bases/01_Fundamentos/mise_en_place.md
+      - Saltear: 00_Bases/03_Tecnicas/saltear.md
+      - Sofreír: 00_Bases/03_Tecnicas/sofreir.md
+      - Wok: 00_Bases/03_Tecnicas/wok.md
+  - Tablas:
+      - Inicio: 98_Tablas/README.md
+      - Tiempos de cocción: 98_Tablas/01_Cocciones/tiempos_coccion.md
+      - Temperaturas de horno: 98_Tablas/02_Hornos/temperaturas_horno.md
+      - Conversiones: 98_Tablas/03_Conversiones/conversiones_unidades.md
+      - Conservación: 98_Tablas/04_Conservacion/conservacion_congelacion.md
+      - Seguridad alimentaria: 98_Tablas/05_Seguridad/seguridad_alimentaria.md
+      - Sustituciones: 98_Tablas/06_Sustituciones/sustituciones_ingredientes.md
