@@ -83,6 +83,88 @@ def create_index_files() -> None:
             shutil.copy2(readme, index)
 
 
+def create_home_page() -> None:
+    content = """# 🍳 NovaCoquinaria
+
+> Sistema de Gestión del Conocimiento Culinario.
+
+NovaCoquinaria no es solo un recetario. Es una base de conocimiento culinario construida con principios de arquitectura documental, reutilización y mejora continua.
+
+## Explorar
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-page-variant: **Bases**
+
+    ---
+
+    Técnicas, fundamentos y conocimiento culinario reutilizable.
+
+    [:octicons-arrow-right-24: Explorar bases](00_Bases/)
+
+-   :material-food-apple: **Despensa**
+
+    ---
+
+    Ingredientes, salsas, aceites, condimentos y productos clave.
+
+    [:octicons-arrow-right-24: Explorar despensa](11_Despensa/)
+
+-   :material-shape-outline: **Plantillas**
+
+    ---
+
+    Patrones reutilizables para crear recetas sin duplicar conocimiento.
+
+    [:octicons-arrow-right-24: Explorar plantillas](12_Plantillas/)
+
+-   :material-silverware-fork-knife: **Recetas**
+
+    ---
+
+    Elaboraciones normalizadas conectadas con técnicas, ingredientes y tablas.
+
+    [:octicons-arrow-right-24: Ver recetas](01_Arroces/arroz_chaufa.md)
+
+-   :material-table: **Tablas**
+
+    ---
+
+    Tiempos, conversiones, conservación, seguridad alimentaria y sustituciones.
+
+    [:octicons-arrow-right-24: Consultar tablas](98_Tablas/)
+
+-   :material-sitemap: **Arquitectura**
+
+    ---
+
+    Visión, decisiones arquitectónicas, roadmap y calidad documental.
+
+    [:octicons-arrow-right-24: Ver arquitectura](docs/ARQUITECTURA.md)
+
+</div>
+
+## Filosofía
+
+El conocimiento se documenta una sola vez y se reutiliza mediante referencias.
+
+Las recetas no repiten explicaciones generales: orquestan técnicas, ingredientes, plantillas y tablas existentes.
+
+## Estado
+
+NovaCoquinaria dispone de una base inicial estable formada por:
+
+- fundamentos culinarios;
+- tablas de referencia;
+- despensa estructurada;
+- plantillas reutilizables;
+- recetas normalizadas;
+- documentación arquitectónica.
+
+"""
+    (SITE_DOCS / "index.md").write_text(content, encoding="utf-8")
+
+
 def main() -> None:
     if SITE_DOCS.exists():
         shutil.rmtree(SITE_DOCS)
@@ -97,6 +179,7 @@ def main() -> None:
 
     create_index_files()
     normalize_links()
+    create_home_page()
 
     print("site_docs generado correctamente.")
 
