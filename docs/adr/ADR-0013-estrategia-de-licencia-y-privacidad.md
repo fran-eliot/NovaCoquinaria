@@ -190,8 +190,8 @@ sin comprometer privacidad ni derechos de autor.
 
 # Dependencias
 
-* [ADR-0011 - Separación entre Marca, Producto, Sistema y Repositorio](./ADR-0011-separacion-marca-producto-sistema-repositorio.md)
-* [ADR-0012 - Preparación para Publicación Web con MkDocs](./ADR-0012-preparacion-publicacion-web-mkdocs.md)
+* [ADR-0011 - Separación entre Marca, Producto, Sistema y Repositorio](./ADR-0011-separacion-entre-marca-producto-sistema-y-repositorio.md)
+* [ADR-0012 - Preparación para Publicación Web con MkDocs](./ADR-0012-preparacion-para-publicacion-web-mkdocs.md)
 
 ---
 

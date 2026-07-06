@@ -90,7 +90,7 @@ Antes de comenzar:
 
 Consultar:
 
-* `../00_Bases/01_Fundamentos/mise_en_place.md`
+* [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)
 
 ---
 
@@ -142,7 +142,7 @@ Consumir preferentemente recién elaborado.
 
 Consultar:
 
-* `../98_Tablas/04_Conservacion/conservacion_congelacion.md`
+* [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)
 
 ---
 

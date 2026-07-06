@@ -1,0 +1,99 @@
+site_name: NovaCoquinaria
+site_description: Sistema de Gestión del Conocimiento Culinario
+site_author: Fran Ramírez
+
+repo_url: https://github.com/fran-eliot/NovaCoquinaria
+repo_name: NovaCoquinaria
+
+docs_dir: site_docs
+site_dir: site
+use_directory_urls: false
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+theme:
+  name: material
+  language: es
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - Inicio: index.md
+  - Proyecto:
+      - Manifiesto: MANIFESTO.md
+      - Changelog: CHANGELOG.md
+      - Contribuir: CONTRIBUTING.md
+      - Calidad: docs/QUALITY.md
+  - Arquitectura:
+      - Visión: docs/VISION.md
+      - Arquitectura: docs/ARQUITECTURA.md
+      - Roadmap: docs/ROADMAP.md
+  - Bases:
+      - Inicio: 00_Bases/index.md
+      - Mise en place: 00_Bases/01_Fundamentos/mise_en_place.md
+      - Saltear: 00_Bases/03_Tecnicas/saltear.md
+      - Sofreír: 00_Bases/03_Tecnicas/sofreir.md
+      - Wok: 00_Bases/03_Tecnicas/wok.md
+  - Tablas:
+      - Inicio: 98_Tablas/index.md
+      - Tiempos de cocción: 98_Tablas/01_Cocciones/tiempos_coccion.md
+      - Temperaturas de horno: 98_Tablas/02_Hornos/temperaturas_horno.md
+      - Conversiones: 98_Tablas/03_Conversiones/conversiones_unidades.md
+      - Conservación: 98_Tablas/04_Conservacion/conservacion_congelacion.md
+      - Seguridad alimentaria: 98_Tablas/05_Seguridad/seguridad_alimentaria.md
+      - Sustituciones: 98_Tablas/06_Sustituciones/sustituciones_ingredientes.md
+  - Recetas:
+      - Arroces:
+          - Arroz Chaufa: 01_Arroces/arroz_chaufa.md
+          - Arroz con higadillos: 01_Arroces/arroz_higadillos.md
+          - Arroz caldoso: 01_Arroces/arroz_caldoso_alcachofas_marisco.md
+      - Verduras:
+          - Brócoli: 04_Verduras/brocoli.md
+          - Champiñones al ajillo: 04_Verduras/champiñones_ajillo.md
+          - Champiñones Sichuan: 04_Verduras/champiñones_sichuan.md
+          - Habas con jamón: 04_Verduras/habas_jamon.md
+      - Carnes:
+          - Lomo asiático: 05_Carnes/lomo_asiatico.md
+          - Ternera con bambú: 05_Carnes/ternera_bambu.md
+          - Ternera con salsa de ostras: 05_Carnes/ternera_salsa_ostras.md
+          - Hamburguesa asiática: 05_Carnes/hamburguesa_asiatica.md
+          - Hamburguesa especiada: 05_Carnes/hamburguesa_especiada.md
+          - Medallones asiáticos: 05_Carnes/medallones_solomillo_asiaticos.md
+      - Pescados y mariscos:
+          - Caballa japonesa: 06_Pescados_y_Mariscos/caballa_japonesa.md
+          - Gambas al ajillo: 06_Pescados_y_Mariscos/gambas_ajillo.md
+          - Tintorera asiática: 06_Pescados_y_Mariscos/tintorera_asiatica.md

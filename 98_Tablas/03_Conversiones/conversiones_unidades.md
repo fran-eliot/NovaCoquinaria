@@ -155,7 +155,6 @@ Salvo que se explique claramente que la cantidad es flexible.
 
 # Véase también
 
-* [Equivalencias culinarias](../03_Conversiones/equivalencias_culinarias.md)
 * [Temperaturas de horno](../02_Hornos/temperaturas_horno.md)
 * [Tiempos de cocción](../01_Cocciones/tiempos_coccion.md)
 
