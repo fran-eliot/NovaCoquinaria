@@ -10,7 +10,7 @@
 |----------|:------:|-------|-------------|
 | v0.1.0 | ✅ Publicada | 2026-06-30 | Primera estructura funcional del repositorio y documentación inicial del proyecto. |
 | v1.0.0 | ✅ Publicada | 2026-07-05 | Primera versión estable de la arquitectura SGCC y de la base de conocimiento. |
-| v1.1.0 | 🚧 En desarrollo | 2026-07 | Portal web basado en MkDocs Material y mejora de la experiencia de consulta. |
+| v1.1.0 | ✅ Publicada | 2026-07-07 | Portal web basado en MkDocs Material y mejora de la experiencia de consulta. |
 | v2.0.0 | 📅 Planificada | — | Plataforma software para la gestión del conocimiento culinario. |
 
 ---
