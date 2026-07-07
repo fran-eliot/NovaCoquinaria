@@ -99,7 +99,7 @@ Comienza la integración de **MkDocs Material**.
 
 ---
 
-## 2026-07-07 · Identidad visual
+## 2026-07-06 · Identidad visual
 
 Se incorpora la identidad gráfica del proyecto.
 
@@ -111,6 +111,21 @@ Se incorpora la identidad gráfica del proyecto.
 - Favicon.
 - Tema claro/oscuro.
 - Mejora de la experiencia de usuario.
+
+---
+
+### 2026-07-07
+
+Release v1.1.0 publicada.
+
+Se consolida:
+
+- Portal MkDocs
+- Identidad visual
+- Documentación de gestión
+- Continuidad del proyecto
+
+Con esta versión concluye la primera etapa de NovaCoquinaria, centrada en la definición de su arquitectura, la organización del conocimiento culinario y la construcción de una infraestructura documental preparada para evolucionar en futuras versiones.
 
 ---
 
