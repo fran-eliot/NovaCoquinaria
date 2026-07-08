@@ -5,20 +5,19 @@ tipo: receta
 titulo: Gambas al ajillo
 categoria: Pescados y mariscos
 cocina:
-
-* mediterranea
-  dificultad: fácil
-  tiempo_preparacion: 5 min
-  tiempo_coccion: 8 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* gambas
-* ajo
-* marisco
-* tapa
+- mediterranea
+dificultad: fácil
+tiempo_preparacion: 5 min
+tiempo_coccion: 8 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- gambas
+- ajo
+- marisco
+- tapa
 
 ---
 

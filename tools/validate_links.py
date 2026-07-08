@@ -2,10 +2,12 @@ import re
 from pathlib import Path
 
 from common import (
+    LINK_VALIDATION_EXCLUDED_DIRS,
     ROOT_DIR,
     iter_markdown_files,
     print_error,
     print_ok,
+    relative_path,
 )
 
 
@@ -28,8 +30,18 @@ def validate_links():
     errors = 0
     checked_links = 0
 
+  
     for path in iter_markdown_files():
+
         content = path.read_text(encoding="utf-8")
+    
+        relative = relative_path(path)
+
+        if any(
+            relative == directory or relative.startswith(f"{directory}/")
+            for directory in LINK_VALIDATION_EXCLUDED_DIRS
+        ):
+            continue
 
         for match in LINK_PATTERN.finditer(content):
             raw_target = match.group(1).strip()

@@ -8,12 +8,11 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-02
 etiquetas:
-
-* salsa
-* pescado
-* umami
-* cocina tailandesa
-* cocina vietnamita
+- salsa
+- pescado
+- umami
+- cocina tailandesa
+- cocina vietnamita
 
 ---
 

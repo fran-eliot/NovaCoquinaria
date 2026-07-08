@@ -5,20 +5,19 @@ tipo: receta
 titulo: Arroz caldoso de alcachofas y marisco
 categoria: Arroces
 cocina:
-
-* mediterranea
-  dificultad: media
-  tiempo_preparacion: 20 min
-  tiempo_coccion: 35 min
-  raciones: 2
-  estado: borrador
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* arroz
-* marisco
-* alcachofa
-* caldoso
+- mediterranea
+dificultad: media
+tiempo_preparacion: 20 min
+tiempo_coccion: 35 min
+raciones: 2
+estado: borrador
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- arroz
+- marisco
+- alcachofa
+- caldoso
 
 ---
 

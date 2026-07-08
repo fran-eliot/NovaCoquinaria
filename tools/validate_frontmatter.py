@@ -3,6 +3,7 @@ from common import (
     iter_markdown_files,
     print_error,
     print_ok,
+    requires_frontmatter,
 )
 
 
@@ -30,8 +31,9 @@ def validate_frontmatter():
             continue
 
         if frontmatter is None:
-            print_error(path, "Front Matter ausente")
-            errors += 1
+            if requires_frontmatter(path):
+                print_error(path, "Front Matter ausente")
+                errors += 1
             continue
 
         missing_fields = REQUIRED_FIELDS - set(frontmatter.keys())

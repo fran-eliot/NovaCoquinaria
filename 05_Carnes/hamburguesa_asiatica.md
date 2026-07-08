@@ -5,20 +5,19 @@ tipo: receta
 titulo: Hamburguesa asiática
 categoria: Carnes
 cocina:
-
-* fusion
-  dificultad: fácil
-  tiempo_preparacion: 20 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* hamburguesa
-* ternera
-* fusion
-* asiatica
+- fusion
+dificultad: fácil
+tiempo_preparacion: 20 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- hamburguesa
+- ternera
+- fusion
+- asiatica
 
 ---
 

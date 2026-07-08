@@ -15,6 +15,42 @@ EXCLUDED_DIRS = {
     "__pycache__",
 }
 
+FRONTMATTER_REQUIRED_DIRS = {
+    "00_Bases",
+    "01_Arroces",
+    "02_Pastas",
+    "03_Legumbres",
+    "04_Verduras",
+    "05_Carnes",
+    "06_Pescados_y_Mariscos",
+    "07_Cocina_Asiatica",
+    "08_Postres",
+    "09_Bebidas",
+    "10_Horno",
+    "11_Despensa",
+    "12_Plantillas",
+    "98_Tablas",
+    "docs/architecture",
+}
+
+FRONTMATTER_OPTIONAL_FILES = {
+    "README.md",
+    "CHANGELOG.md",
+    "CONTEXT.md",
+    "CONTRIBUTING.md",
+    "ESPECIFICACION_DE_DOCUMENTOS.md",
+    "GUIA_DE_ESTILO.md",
+    "LICENSE.md",
+    "MANIFESTO.md",
+    "NovaCoquinaria.md",
+    "tools/README.md",
+    "tools/templates/home.md",
+}
+
+LINK_VALIDATION_EXCLUDED_DIRS = {
+    "tools/templates",
+}
+
 FRONTMATTER_PATTERN = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 
@@ -100,3 +136,19 @@ def load_documents():
         )
 
     return documents
+
+
+def requires_frontmatter(path: Path) -> bool:
+    """Indica si un documento debe tener Front Matter obligatorio."""
+    relative = relative_path(path)
+
+    if relative in FRONTMATTER_OPTIONAL_FILES:
+        return False
+    
+    if path.name == "BACKLOG.md":
+        return False
+
+    return any(
+        relative == directory or relative.startswith(f"{directory}/")
+        for directory in FRONTMATTER_REQUIRED_DIRS
+    )

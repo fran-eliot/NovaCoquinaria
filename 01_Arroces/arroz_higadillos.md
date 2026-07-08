@@ -5,20 +5,19 @@ tipo: receta
 titulo: Arroz con higadillos
 categoria: Arroces
 cocina:
-
-* mediterranea
-  dificultad: media
-  tiempo_preparacion: 15 min
-  tiempo_coccion: 35 min
-  raciones: 2
-  estado: borrador
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* arroz
-* casqueria
-* higadillos
-* sofrito
+- mediterranea
+dificultad: media
+tiempo_preparacion: 15 min
+tiempo_coccion: 35 min
+raciones: 2
+estado: borrador
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- arroz
+- casqueria
+- higadillos
+- sofrito
 
 ---
 

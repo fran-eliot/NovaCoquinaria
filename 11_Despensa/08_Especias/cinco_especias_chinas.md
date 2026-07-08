@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-02
 etiquetas:
-
-* especias
-* china
-* cinco especias
-* five spice
+- especias
+- china
+- cinco especias
+- five spice
 
 ---
 

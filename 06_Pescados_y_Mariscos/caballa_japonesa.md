@@ -5,20 +5,19 @@ tipo: receta
 titulo: Caballa japonesa
 categoria: Pescados y mariscos
 cocina:
-
-* japonesa
-  dificultad: fácil
-  tiempo_preparacion: 15 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* caballa
-* pescado
-* japonesa
-* plancha
+- japonesa
+dificultad: fácil
+tiempo_preparacion: 15 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- caballa
+- pescado
+- japonesa
+- plancha
 
 ---
 

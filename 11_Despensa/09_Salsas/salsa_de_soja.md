@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* soja
-* salsa
-* umami
-* cocina asiatica
+- soja
+- salsa
+- umami
+- cocina asiatica
 
 ---
 

@@ -5,20 +5,19 @@ tipo: receta
 titulo: Tintorera asiática
 categoria: Pescados y mariscos
 cocina:
-
-* asiatica
-  dificultad: fácil
-  tiempo_preparacion: 15 min
-  tiempo_coccion: 8 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-02
-  etiquetas:
-* tintorera
-* pescado
-* wok
-* asiatica
+- asiatica
+dificultad: fácil
+tiempo_preparacion: 15 min
+tiempo_coccion: 8 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-02
+etiquetas:
+- tintorera
+- pescado
+- wok
+- asiatica
 
 ---
 

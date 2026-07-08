@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* wok
-* cocina asiática
-* salteado
-* alta temperatura
+- wok
+- cocina asiática
+- salteado
+- alta temperatura
 
 ---
 

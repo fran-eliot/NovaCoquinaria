@@ -5,20 +5,19 @@ tipo: receta
 titulo: Ternera con bambú
 categoria: Carnes
 cocina:
-
-* china
-  dificultad: fácil
-  tiempo_preparacion: 20 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* ternera
-* bambu
-* wok
-* cocina asiatica
+- china
+dificultad: fácil
+tiempo_preparacion: 20 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- ternera
+- bambu
+- wok
+- cocina asiatica
 
 ---
 

@@ -5,20 +5,19 @@ tipo: receta
 titulo: Hamburguesa especiada
 categoria: Carnes
 cocina:
-
-* mediterranea
-* fusion
-  dificultad: fácil
-  tiempo_preparacion: 15 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* hamburguesa
-* especias
-* ternera
+- mediterranea
+- fusion
+dificultad: fácil
+tiempo_preparacion: 15 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- hamburguesa
+- especias
+- ternera
 
 ---
 
