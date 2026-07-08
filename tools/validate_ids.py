@@ -1,8 +1,7 @@
 from collections import defaultdict
 
 from common import (
-    extract_frontmatter,
-    iter_markdown_files,
+    load_documents,
     print_error,
     print_ok,
 )
@@ -12,20 +11,10 @@ def validate_ids():
     ids = defaultdict(list)
     errors = 0
 
-    for path in iter_markdown_files():
-        try:
-            frontmatter = extract_frontmatter(path)
-        except ValueError:
-            # Ya lo detecta validate_frontmatter.py
-            continue
+    for document in load_documents():
 
-        if not frontmatter:
-            continue
-
-        document_id = frontmatter.get("id")
-
-        if document_id:
-            ids[document_id].append(path)
+        if document.id:
+            ids[document.id].append(document.path)
 
     for document_id, paths in sorted(ids.items()):
         if len(paths) > 1:

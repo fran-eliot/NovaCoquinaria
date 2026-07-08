@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+from models import Document
 import yaml
 
 
@@ -71,3 +72,31 @@ def print_warning(path: Path, message: str):
 
 def print_ok(message: str):
     print(f"[OK] {message}")
+
+
+def load_documents():
+    """
+    Carga todos los documentos Markdown válidos del repositorio.
+    """
+
+    documents = []
+
+    for path in iter_markdown_files():
+
+        try:
+            frontmatter = extract_frontmatter(path)
+        except ValueError:
+            continue
+
+        if frontmatter is None:
+            continue
+
+        documents.append(
+            Document(
+                path=path,
+                frontmatter=frontmatter,
+                content=read_text(path),
+            )
+        )
+
+    return documents
