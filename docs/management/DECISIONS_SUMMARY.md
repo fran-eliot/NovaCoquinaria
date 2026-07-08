@@ -49,4 +49,4 @@ Reutilizar siempre.
 ## Referencias
 
 - [ARQUITECTURA](../ARQUITECTURA.md)
-- [CHAT_CONTEXT](CHAT_CONTEXT.md)
+- [AI_ONBOARDING](AI_ONBOARDING.md)

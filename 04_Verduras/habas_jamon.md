@@ -5,20 +5,19 @@ tipo: receta
 titulo: Habas con jamón
 categoria: Verduras
 cocina:
-
-* mediterranea
-  dificultad: fácil
-  tiempo_preparacion: 10 min
-  tiempo_coccion: 15 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* habas
-* jamon
-* verduras
-* tapa
+- mediterranea
+dificultad: fácil
+tiempo_preparacion: 10 min
+tiempo_coccion: 15 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- habas
+- jamon
+- verduras
+- tapa
 
 ---
 

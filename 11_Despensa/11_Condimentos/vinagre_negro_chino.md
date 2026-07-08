@@ -8,12 +8,11 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-02
 etiquetas:
-
-* vinagre
-* chinkiang
-* cocina china
-* acidez
-* umami
+- vinagre
+- chinkiang
+- cocina china
+- acidez
+- umami
 
 ---
 

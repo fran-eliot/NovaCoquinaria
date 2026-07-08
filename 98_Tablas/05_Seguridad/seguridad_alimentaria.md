@@ -8,12 +8,11 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* seguridad
-* higiene
-* temperaturas
-* contaminación
-* alimentos
+- seguridad
+- higiene
+- temperaturas
+- contaminación
+- alimentos
 
 ---
 

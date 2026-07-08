@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* tablas
-* referencia
-* consulta
-* indice
+- tablas
+- referencia
+- consulta
+- indice
 
 ---
 
@@ -110,7 +109,7 @@ Ampliar una tabla existente cuando:
 Ejemplo:
 
 * `00_Bases/tecnicas/coccion_arroz.md` explica cómo cocer arroz.
-* `98_Tablas/01_Cocciones/tiempos_coccion_arroz.md` resume tiempos y proporciones.
+* `98_Tablas/01_Cocciones/tiempos_coccion.md` resume tiempos y proporciones.
 
 ---
 
@@ -121,7 +120,7 @@ Las recetas deben enlazar a las tablas cuando necesiten datos generales.
 Ejemplo:
 
 ```markdown
-Ver también: [Tiempos de cocción del arroz](../../98_Tablas/01_Cocciones/tiempos_coccion_arroz.md)
+Ver también: [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)
 ```
 
 ---

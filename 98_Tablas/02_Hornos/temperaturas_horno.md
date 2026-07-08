@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* horno
-* temperatura
-* cocción
-* referencia
+- horno
+- temperatura
+- cocción
+- referencia
 
 ---
 

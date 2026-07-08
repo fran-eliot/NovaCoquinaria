@@ -5,20 +5,19 @@ tipo: receta
 titulo: Champiñones al ajillo
 categoria: Verduras
 cocina:
-
-* mediterranea
-  dificultad: fácil
-  tiempo_preparacion: 5 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* champiñones
-* ajo
-* tapa
-* verduras
+- mediterranea
+dificultad: fácil
+tiempo_preparacion: 5 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- champiñones
+- ajo
+- tapa
+- verduras
 
 ---
 

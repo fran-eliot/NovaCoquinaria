@@ -8,10 +8,9 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-02
 etiquetas:
-
-* plantillas
-* patrones
-* reutilizacion
+- plantillas
+- patrones
+- reutilizacion
 
 ---
 

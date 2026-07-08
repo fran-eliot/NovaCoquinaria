@@ -5,22 +5,21 @@ tipo: receta
 titulo: Medallones de solomillo asiáticos
 categoria: Carnes
 cocina:
-
-* fusion
-* asiatica
-  dificultad: media
-  tiempo_preparacion: 15 min
-  tiempo_coccion: 10 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* solomillo
-* ternera
-* cerdo
-* fusion
-* asiatica
+- fusion
+- asiatica
+dificultad: media
+tiempo_preparacion: 15 min
+tiempo_coccion: 10 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- solomillo
+- ternera
+- cerdo
+- fusion
+- asiatica
 
 ---
 

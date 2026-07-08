@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-01
 etiquetas:
-
-* mirin
-* cocina japonesa
-* fermentados
-* umami
+- mirin
+- cocina japonesa
+- fermentados
+- umami
 
 ---
 

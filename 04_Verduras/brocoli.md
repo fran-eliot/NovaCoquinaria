@@ -5,20 +5,19 @@ tipo: receta
 titulo: Brócoli salteado
 categoria: Verduras
 cocina:
-
-* mediterranea
-* asiatica
-  dificultad: fácil
-  tiempo_preparacion: 10 min
-  tiempo_coccion: 8 min
-  raciones: 2
-  estado: estable
-  version: 1.0.0
-  ultima_revision: 2026-07-03
-  etiquetas:
-* brocoli
-* verduras
-* saludable
+- mediterranea
+- asiatica
+dificultad: fácil
+tiempo_preparacion: 10 min
+tiempo_coccion: 8 min
+raciones: 2
+estado: estable
+version: 1.0.0
+ultima_revision: 2026-07-03
+etiquetas:
+- brocoli
+- verduras
+- saludable
 
 ---
 

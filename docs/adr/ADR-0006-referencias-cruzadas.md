@@ -76,12 +76,12 @@ Ejemplo:
 ```markdown
 # Dependencias
 
-- [Salteado en Wok](../../00_Bases/salteado_en_wok.md)
-- [Salsa de Soja](../../11_Despensa/salsa_de_soja.md)
+- [Salteado en Wok](../../00_Bases/03_Tecnicas/wok.md)
+- [Salsa de Soja](../../11_Despensa/09_Salsas/salsa_de_soja.md)
 
 # Véase también
 
-- [Salsa Teriyaki](../../07_Cocina_Asiatica/salsa_teriyaki.md)
+- [Salsa Teriyaki](../../12_Plantillas/02_Salsas/salsa_teriyaki_base.md)
 
 # Utilizado por
 

@@ -8,11 +8,10 @@ estado: estable
 version: 1.0.0
 ultima_revision: 2026-07-03
 etiquetas:
-
-* vinagreta
-* salsa
-* aliño
-* cocina mediterranea
+- vinagreta
+- salsa
+- aliño
+- cocina mediterranea
 
 ---
 
