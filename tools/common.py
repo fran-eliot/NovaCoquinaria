@@ -129,7 +129,7 @@ def load_documents():
 
         documents.append(
             Document(
-                path=path,
+                path=path.relative_to(ROOT_DIR),
                 frontmatter=frontmatter,
                 content=read_text(path),
             )
