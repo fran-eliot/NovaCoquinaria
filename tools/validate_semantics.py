@@ -1,27 +1,8 @@
 from generate_graph import build_graph
 from common import ROOT_DIR, print_ok, print_warning
+from semantic_rules import SEMANTIC_RULES
 
 
-EXPECTED_OUTGOING_TYPES = {
-    "receta": {
-        "base",
-        "tecnica",
-        "ingrediente",
-        "plantilla",
-        "tabla",
-    },
-    "plantilla": {
-        "base",
-        "tecnica",
-        "ingrediente",
-        "tabla",
-    },
-    "tecnica": {
-        "tabla",
-        "ingrediente",
-        "base",
-    },
-}
 
 
 def outgoing_documents(graph, document):
@@ -44,7 +25,12 @@ def validate_semantics():
         graph.nodes.values(),
         key=lambda d: (d.tipo or "", d.graph_label),
     ):
-        expected_types = EXPECTED_OUTGOING_TYPES.get(document.tipo)
+        rule = SEMANTIC_RULES.get(document.tipo)
+
+        if not rule:
+            continue
+
+        expected_types = rule["expected_outgoing_types"]
 
         if not expected_types:
             continue
