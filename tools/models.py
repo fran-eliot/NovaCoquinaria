@@ -3,6 +3,8 @@ from pathlib import Path
 import re
 
 LINK_PATTERN = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+
+
 @dataclass(slots=True)
 class Document:
     """
@@ -65,3 +67,17 @@ class Document:
                 links.append(target)
 
         return links
+    
+    @property
+    def graph_id(self) -> str:
+        """
+        Identificador estable para el grafo.
+        """
+        return (self.id or self.relative_path).replace("-", "_")
+    
+    @property
+    def graph_label(self) -> str:
+        """
+        Texto visible en el grafo.
+        """
+        return self.titulo or self.filename

@@ -1,0 +1,339 @@
+graph TD
+
+ARC_0015["ARC-0015
+Automatización del SGCC"]
+ARC_0016["ARC-0016
+Pipeline de Calidad"]
+ARC_0017["ARC-0017
+Framework de Herramientas"]
+BAS_0000["BAS-0000
+Fundamentos culinarios"]
+BAS_0001["BAS-0001
+Mise en place"]
+BAS_0002["BAS-0002
+Saltear"]
+BAS_0003["BAS-0003
+Cocinar al wok"]
+BAS_0004["BAS-0004
+Sofreír"]
+ING_0000["ING-0000
+Despensa"]
+ING_0001["ING-0001
+Arroz basmati"]
+ING_0002["ING-0002
+Salsa de soja"]
+ING_0003["ING-0003
+Mirin"]
+ING_0004["ING-0004
+Salsa de ostras"]
+ING_0005["ING-0005
+Aceite de sésamo"]
+ING_0006["ING-0006
+Miso"]
+ING_0007["ING-0007
+Salsa de pescado"]
+ING_0008["ING-0008
+Vinagre de arroz"]
+ING_0009["ING-0009
+Vinagre negro chino (Chinkiang)"]
+ING_0010["ING-0010
+Cinco especias chinas"]
+ING_0011["ING-0011
+Curry amarillo"]
+PLA_0000["PLA-0000
+Plantillas culinarias"]
+PLA_0001["PLA-0001
+Salteado asiático"]
+PLA_0002["PLA-0002
+Curry base"]
+PLA_0003["PLA-0003
+Salsa china base"]
+PLA_0004["PLA-0004
+Marinada asiática"]
+PLA_0005["PLA-0005
+Salsa teriyaki base"]
+PLA_0006["PLA-0006
+Sofrito mediterráneo"]
+PLA_0007["PLA-0007
+Vinagreta base"]
+REC_0001["REC-0001
+Arroz Chaufa"]
+REC_0002["REC-0002
+Arroz con higadillos"]
+REC_0003["REC-0003
+Arroz caldoso de alcachofas y marisco"]
+REC_0004["REC-0004
+Lomo asiático"]
+REC_0005["REC-0005
+Ternera con salsa de ostras"]
+REC_0006["REC-0006
+Ternera con bambú"]
+REC_0007["REC-0007
+Hamburguesa asiática"]
+REC_0008["REC-0008
+Medallones de solomillo asiáticos"]
+REC_0009["REC-0009
+Caballa japonesa"]
+REC_0010["REC-0010
+Champiñones Sichuan"]
+REC_0011["REC-0011
+Champiñones al ajillo"]
+REC_0012["REC-0012
+Brócoli salteado"]
+REC_0013["REC-0013
+Habas con jamón"]
+REC_0014["REC-0014
+Gambas al ajillo"]
+REC_0015["REC-0015
+Tintorera asiática"]
+REC_0016["REC-0016
+Hamburguesa especiada"]
+TAB_0000["TAB-0000
+Índice de tablas"]
+TAB_0001["TAB-0001
+Conversiones de unidades"]
+TAB_0002["TAB-0002
+Tiempos de cocción"]
+TAB_0003["TAB-0003
+Temperaturas de horno"]
+TAB_0004["TAB-0004
+Sustituciones de ingredientes"]
+TAB_0005["TAB-0005
+Conservación, congelación y recalentado"]
+TAB_0006["TAB-0006
+Seguridad alimentaria"]
+
+    ARC_0016 --> ARC_0015
+    ARC_0017 --> ARC_0015
+    ARC_0017 --> ARC_0016
+    BAS_0000 --> ING_0000
+    BAS_0000 --> PLA_0000
+    BAS_0000 --> TAB_0000
+    BAS_0001 --> BAS_0002
+    BAS_0001 --> BAS_0003
+    BAS_0001 --> BAS_0004
+    BAS_0001 --> PLA_0001
+    BAS_0002 --> BAS_0001
+    BAS_0002 --> TAB_0002
+    BAS_0002 --> TAB_0004
+    BAS_0003 --> BAS_0001
+    BAS_0003 --> BAS_0002
+    BAS_0003 --> TAB_0002
+    BAS_0004 --> BAS_0001
+    BAS_0004 --> BAS_0002
+    BAS_0004 --> BAS_0003
+    ING_0001 --> BAS_0003
+    ING_0001 --> TAB_0002
+    ING_0001 --> TAB_0004
+    ING_0001 --> TAB_0005
+    ING_0002 --> BAS_0002
+    ING_0002 --> BAS_0003
+    ING_0002 --> ING_0003
+    ING_0002 --> ING_0004
+    ING_0002 --> ING_0005
+    ING_0002 --> TAB_0004
+    ING_0003 --> BAS_0002
+    ING_0003 --> BAS_0003
+    ING_0003 --> ING_0002
+    ING_0003 --> ING_0004
+    ING_0003 --> ING_0005
+    ING_0003 --> TAB_0004
+    ING_0004 --> BAS_0002
+    ING_0004 --> BAS_0003
+    ING_0004 --> ING_0002
+    ING_0004 --> ING_0003
+    ING_0004 --> ING_0005
+    ING_0004 --> TAB_0004
+    ING_0005 --> BAS_0002
+    ING_0005 --> BAS_0003
+    ING_0005 --> ING_0002
+    ING_0005 --> ING_0003
+    ING_0005 --> ING_0004
+    ING_0005 --> TAB_0004
+    ING_0006 --> ING_0002
+    ING_0006 --> ING_0003
+    ING_0006 --> ING_0005
+    ING_0006 --> TAB_0004
+    ING_0007 --> ING_0002
+    ING_0007 --> ING_0003
+    ING_0007 --> ING_0006
+    ING_0007 --> TAB_0004
+    ING_0008 --> ING_0002
+    ING_0008 --> ING_0003
+    ING_0008 --> ING_0009
+    ING_0008 --> TAB_0004
+    ING_0009 --> BAS_0002
+    ING_0009 --> BAS_0003
+    ING_0009 --> ING_0002
+    ING_0009 --> ING_0004
+    ING_0009 --> ING_0008
+    ING_0009 --> TAB_0004
+    ING_0010 --> BAS_0002
+    ING_0010 --> BAS_0003
+    PLA_0001 --> BAS_0001
+    PLA_0001 --> BAS_0002
+    PLA_0001 --> BAS_0003
+    PLA_0001 --> ING_0002
+    PLA_0001 --> ING_0003
+    PLA_0001 --> ING_0004
+    PLA_0001 --> ING_0005
+    PLA_0001 --> TAB_0002
+    PLA_0003 --> BAS_0001
+    PLA_0003 --> BAS_0002
+    PLA_0003 --> BAS_0003
+    PLA_0003 --> ING_0002
+    PLA_0003 --> ING_0003
+    PLA_0003 --> ING_0004
+    PLA_0003 --> ING_0005
+    PLA_0003 --> ING_0008
+    PLA_0003 --> ING_0009
+    PLA_0003 --> TAB_0004
+    PLA_0004 --> BAS_0001
+    PLA_0004 --> BAS_0002
+    PLA_0004 --> BAS_0003
+    PLA_0004 --> ING_0002
+    PLA_0004 --> ING_0003
+    PLA_0004 --> ING_0004
+    PLA_0004 --> ING_0005
+    PLA_0004 --> ING_0006
+    PLA_0004 --> ING_0007
+    PLA_0005 --> BAS_0002
+    PLA_0005 --> BAS_0003
+    PLA_0005 --> ING_0002
+    PLA_0005 --> ING_0003
+    PLA_0005 --> ING_0005
+    PLA_0005 --> ING_0006
+    PLA_0006 --> BAS_0004
+    PLA_0007 --> ING_0002
+    PLA_0007 --> ING_0003
+    PLA_0007 --> ING_0005
+    PLA_0007 --> ING_0008
+    PLA_0007 --> ING_0009
+    PLA_0007 --> TAB_0001
+    PLA_0007 --> TAB_0004
+    REC_0001 --> BAS_0001
+    REC_0001 --> BAS_0003
+    REC_0001 --> ING_0001
+    REC_0001 --> ING_0002
+    REC_0001 --> ING_0003
+    REC_0001 --> ING_0005
+    REC_0001 --> PLA_0001
+    REC_0002 --> BAS_0001
+    REC_0002 --> BAS_0004
+    REC_0002 --> PLA_0006
+    REC_0002 --> TAB_0002
+    REC_0002 --> TAB_0005
+    REC_0003 --> BAS_0001
+    REC_0003 --> BAS_0004
+    REC_0003 --> PLA_0006
+    REC_0003 --> TAB_0002
+    REC_0003 --> TAB_0005
+    REC_0004 --> BAS_0001
+    REC_0004 --> BAS_0002
+    REC_0004 --> BAS_0003
+    REC_0004 --> ING_0002
+    REC_0004 --> ING_0003
+    REC_0004 --> ING_0004
+    REC_0004 --> ING_0005
+    REC_0004 --> ING_0010
+    REC_0004 --> PLA_0001
+    REC_0004 --> PLA_0003
+    REC_0004 --> PLA_0004
+    REC_0004 --> TAB_0002
+    REC_0005 --> BAS_0001
+    REC_0005 --> BAS_0002
+    REC_0005 --> BAS_0003
+    REC_0005 --> ING_0002
+    REC_0005 --> ING_0003
+    REC_0005 --> ING_0004
+    REC_0005 --> ING_0005
+    REC_0005 --> PLA_0001
+    REC_0005 --> PLA_0003
+    REC_0005 --> PLA_0004
+    REC_0005 --> TAB_0002
+    REC_0005 --> TAB_0005
+    REC_0006 --> BAS_0001
+    REC_0006 --> BAS_0002
+    REC_0006 --> BAS_0003
+    REC_0006 --> ING_0002
+    REC_0006 --> ING_0003
+    REC_0006 --> ING_0004
+    REC_0006 --> ING_0005
+    REC_0006 --> PLA_0001
+    REC_0006 --> PLA_0003
+    REC_0006 --> PLA_0004
+    REC_0006 --> TAB_0002
+    REC_0006 --> TAB_0005
+    REC_0007 --> BAS_0001
+    REC_0007 --> ING_0002
+    REC_0007 --> ING_0005
+    REC_0007 --> ING_0010
+    REC_0007 --> PLA_0003
+    REC_0007 --> PLA_0004
+    REC_0008 --> BAS_0001
+    REC_0008 --> ING_0002
+    REC_0008 --> ING_0003
+    REC_0008 --> ING_0004
+    REC_0008 --> ING_0005
+    REC_0008 --> PLA_0003
+    REC_0008 --> TAB_0002
+    REC_0009 --> BAS_0001
+    REC_0009 --> ING_0002
+    REC_0009 --> ING_0003
+    REC_0009 --> ING_0005
+    REC_0009 --> PLA_0005
+    REC_0009 --> TAB_0002
+    REC_0010 --> BAS_0001
+    REC_0010 --> BAS_0002
+    REC_0010 --> BAS_0003
+    REC_0010 --> ING_0002
+    REC_0010 --> ING_0005
+    REC_0010 --> ING_0009
+    REC_0010 --> PLA_0001
+    REC_0010 --> PLA_0003
+    REC_0011 --> BAS_0001
+    REC_0011 --> BAS_0004
+    REC_0011 --> TAB_0002
+    REC_0011 --> TAB_0005
+    REC_0012 --> BAS_0001
+    REC_0012 --> BAS_0002
+    REC_0012 --> TAB_0002
+    REC_0012 --> TAB_0005
+    REC_0013 --> BAS_0001
+    REC_0013 --> BAS_0004
+    REC_0013 --> TAB_0002
+    REC_0013 --> TAB_0005
+    REC_0014 --> BAS_0001
+    REC_0014 --> BAS_0004
+    REC_0014 --> TAB_0002
+    REC_0014 --> TAB_0005
+    REC_0015 --> BAS_0001
+    REC_0015 --> BAS_0002
+    REC_0015 --> BAS_0003
+    REC_0015 --> ING_0002
+    REC_0015 --> ING_0004
+    REC_0015 --> ING_0005
+    REC_0015 --> ING_0009
+    REC_0015 --> PLA_0001
+    REC_0015 --> PLA_0003
+    REC_0015 --> TAB_0002
+    REC_0016 --> BAS_0001
+    REC_0016 --> ING_0010
+    REC_0016 --> TAB_0002
+    TAB_0000 --> BAS_0000
+    TAB_0000 --> ING_0000
+    TAB_0000 --> PLA_0000
+    TAB_0000 --> TAB_0002
+    TAB_0001 --> TAB_0002
+    TAB_0001 --> TAB_0003
+    TAB_0002 --> TAB_0001
+    TAB_0002 --> TAB_0003
+    TAB_0003 --> TAB_0001
+    TAB_0003 --> TAB_0002
+    TAB_0004 --> TAB_0001
+    TAB_0004 --> TAB_0002
+    TAB_0004 --> TAB_0003
+    TAB_0005 --> TAB_0002
+    TAB_0005 --> TAB_0006
+    TAB_0006 --> TAB_0002
+    TAB_0006 --> TAB_0005

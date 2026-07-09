@@ -1,5 +1,7 @@
 from dataclasses import dataclass, field
 
+from models import Document
+
 
 @dataclass(slots=True)
 class KnowledgeGraph:
@@ -10,17 +12,18 @@ class KnowledgeGraph:
     Cada arista representa una referencia mediante enlace Markdown.
     """
 
-    nodes: set[str] = field(default_factory=set)
+    nodes: dict[str, Document] = field(default_factory=dict)
     edges: dict[str, set[str]] = field(default_factory=dict)
 
-    def add_node(self, node: str):
-        self.nodes.add(node)
-        self.edges.setdefault(node, set())
+    def add_node(self, document: Document):
+        self.nodes[document.graph_id] = document
+        self.edges.setdefault(document.graph_id, set())
 
-    def add_edge(self, source: str, target: str):
+    def add_edge(self, source: Document, target: Document):
         self.add_node(source)
         self.add_node(target)
-        self.edges[source].add(target)
+
+        self.edges[source.graph_id].add(target.graph_id)
 
     def neighbours(self, node: str) -> set[str]:
         return self.edges.get(node, set())
