@@ -51,6 +51,45 @@ Ejemplos:
 
 # Historial
 
+## [1.3.0] - 2026-07-09
+
+### Añadido
+
+* Primer Knowledge Graph de NovaCoquinaria.
+* Modelo `KnowledgeGraph` para representar relaciones entre documentos.
+* Generador Mermaid del grafo documental.
+* Estadísticas avanzadas del grafo.
+* Detección de conocimiento reutilizable huérfano.
+* Validación semántica básica del SGCC.
+* Reglas semánticas separadas en `semantic_rules.py`.
+
+### Mejorado
+
+* El modelo `Document` incorpora identidad y etiqueta de grafo.
+* Las herramientas dejan de trabajar solo con rutas y pasan a operar sobre entidades documentales.
+* Se mejora la trazabilidad entre recetas, ingredientes, técnicas, plantillas y tablas.
+
+---
+
+## [1.2.0] - 2026-07-08
+
+### Añadido
+
+* Framework de herramientas del SGCC.
+* Validación de Front Matter.
+* Validación de identificadores únicos.
+* Validación de enlaces internos.
+* Ejecución unificada con `validate_all.py`.
+* Estadísticas básicas del repositorio.
+* Documento base `Mise en place`.
+
+### Mejorado
+
+* Introducción de un pipeline local de calidad.
+* Separación entre automatización, validación y generación.
+
+---
+
 ## [1.0.0] - 2026-07-04
 
 ### Añadido
