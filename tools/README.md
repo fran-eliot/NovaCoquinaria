@@ -29,7 +29,15 @@ Las herramientas deben:
 | `validate_ids.py` | Verifica que los identificadores sean únicos |
 | `validate_links.py` | Detecta enlaces internos rotos |
 | `validate_all.py` | Ejecuta todas las validaciones principales |
+| `validate_semantics.py` | Comprueba advertencias semánticas básicas del SGCC |
+| `semantic_rules.py` | Define reglas semánticas reutilizables para el grafo de conocimiento |
 | `generate_stats.py` | Muestra estadísticas básicas del repositorio |
+| `generate_graph.py` | Genera el grafo de conocimiento en formato Mermaid |
+| `generate_graph_stats.py` | Genera estadísticas avanzadas del grafo de conocimiento |
+| `find_orphans.py` | Detecta conocimiento reutilizable no referenciado |
+| `graph.py` | Define el modelo interno del grafo de conocimiento |
+| `models.py` | Define el modelo documental reutilizado por las herramientas |
+| `common.py` | Centraliza utilidades compartidas |
 
 ---
 
@@ -51,6 +59,30 @@ Para consultar estadísticas:
 
 ```bash
 python tools/generate_stats.py
+```
+
+Para generar el grafo de conocimiento:
+
+```bash
+python tools/generate_graph.py
+```
+
+Para generar estadísticas avanzadas del grafo:
+
+```bash
+python tools/generate_graph_stats.py
+```
+
+Para detectar conocimiento reutilizable huérfano:
+
+```bash
+python tools/find_orphans.py
+```
+
+Para ejecutar validaciones semánticas:
+
+```bash
+python tools/validate_semantics.py
 ```
 
 ---
