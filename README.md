@@ -142,6 +142,45 @@ Los documentos se estructuran para poder ser usados en el futuro por una web, ap
 
 ---
 
+## Calidad y automatización
+
+NovaCoquinaria dispone de un framework propio de herramientas para proteger la integridad del SGCC.
+
+Incluye:
+
+- validación de Front Matter;
+- control de identificadores únicos;
+- validación de enlaces internos;
+- generación de estadísticas;
+- construcción automática de `site_docs/`.
+
+Validación principal:
+
+```bash
+python tools/validate_all.py
+```
+
+---
+
+## Knowledge Graph
+
+El proyecto genera un grafo documental a partir de los enlaces internos entre documentos.
+
+Permite:
+
+- visualizar relaciones;
+- detectar conocimiento reutilizable huérfano;
+- identificar documentos especialmente reutilizados;
+- generar estadísticas de conectividad;
+- realizar validaciones semánticas iniciales.
+
+```bash
+python tools/generate_graph.py
+python tools/generate_graph_stats.py
+```
+
+---
+
 # Documentación del proyecto
 
 Documentos principales:
@@ -159,15 +198,16 @@ Documentos principales:
 
 # Estado actual
 
-El proyecto dispone ya de:
+El proyecto dispone de:
 
-* arquitectura documental;
-* ADR fundacionales;
-* tablas de referencia;
-* fundamentos culinarios;
-* despensa asiática inicial;
-* plantillas culinarias reutilizables;
-* colección inicial de recetas normalizadas.
+- arquitectura documental estable;
+- portal MkDocs Material;
+- pipeline automático de calidad;
+- framework de herramientas reutilizable;
+- Knowledge Graph documental;
+- validación semántica básica;
+- gobernanza mediante estrategia, deuda y madurez del conocimiento;
+- colección inicial de conocimiento culinario normalizado.
 
 ---
 
