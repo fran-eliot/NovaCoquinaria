@@ -161,7 +161,7 @@ Esta versión marca el paso desde un repositorio validado hacia un sistema capaz
 
 ---
 
-## 2026-07-11 · Gobernanza del conocimiento
+## 2026-07-11 · Release v1.4.0  Gobernanza del conocimiento
 
 ### Gobernanza del conocimiento
 

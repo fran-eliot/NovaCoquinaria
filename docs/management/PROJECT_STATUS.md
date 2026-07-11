@@ -11,7 +11,7 @@
 | Proyecto | NovaCoquinaria |
 | Tipo | Sistema de Gestión del Conocimiento Culinario (SGCC) |
 | Inicio | 29/06/2026 |
-| Versión actual | v1.4.0 (en desarrollo) |
+| Versión actual | v1.4.0 |
 | Estado | 🟢 Desarrollo activo |
 | Licencia | Pendiente de publicación |
 
