@@ -65,6 +65,14 @@ Nunca editar:
 site_docs/
 ```
 
+Los contenidos de site_docs se generan automáticamente mediante:
+
+```bash
+python tools/build_site_docs.py
+```
+
+Toda modificación realizada directamente en site_docs se perderá en la siguiente generación.
+
 ---
 
 # Lectura recomendada
@@ -76,7 +84,7 @@ Para comprender el proyecto, consultar en este orden:
 3. [ROADMAP](../ROADMAP.md)
 4. [DECISIONS_SUMMARY](DECISIONS_SUMMARY.md)
 5. [BITACORA](BITACORA.md)
-6. [ADR](../adr/)
+6. [ADR](../adr/README.md)
 
 ---
 

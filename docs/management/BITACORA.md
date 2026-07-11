@@ -161,6 +161,21 @@ Esta versión marca el paso desde un repositorio validado hacia un sistema capaz
 
 ---
 
+## 2026-07-11 · Gobernanza del conocimiento
+
+### Gobernanza del conocimiento
+
+- Definido el modelo de gobernanza del SGCC.
+- Incorporados los documentos:
+  - KNOWLEDGE_STRATEGY
+  - KNOWLEDGE_DEBT
+  - KNOWLEDGE_MATURITY
+- Actualizada la documentación de onboarding y estructura.
+- Consolidada la separación entre arquitectura, gestión y conocimiento.
+- Esta versión marca la transición desde la construcción de la infraestructura documental hacia el desarrollo sistemático del conocimiento culinario.
+
+---
+
 ## Próximos hitos
 
 - Publicación mediante GitHub Pages.

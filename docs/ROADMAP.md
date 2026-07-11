@@ -21,19 +21,23 @@ Cada fase debe consolidar una capa del sistema antes de avanzar a la siguiente.
 
 ```text
 Visión
-  ↓
+    ↓
 Arquitectura
-  ↓
+    ↓
 Base de conocimiento
-  ↓
-Recetas normalizadas
-  ↓
-Automatización
-  ↓
+    ↓
+Recetas reutilizables
+    ↓
+Calidad y Automatización
+    ↓
+Knowledge Graph
+    ↓
+Gobernanza del conocimiento
+    ↓
 Publicación
-  ↓
+    ↓
 Plataforma
-  ↓
+    ↓
 Inteligencia
 ```
 
@@ -161,7 +165,7 @@ Automatizar tareas repetitivas de mantenimiento y validación.
 
 # Nivel VI - Publicación Web
 
-**Estado:** Pendiente
+**Estado:** 🟡 En consolidación
 
 ## Objetivo
 
@@ -186,7 +190,7 @@ Convertir el repositorio en documentación navegable.
 
 # Nivel VII - Knowledge Graph
 
-**Estado:** Completado en versión inicial
+**Estado:** Operativo y en evolución
 
 ## Objetivo
 
@@ -206,7 +210,25 @@ NovaCoquinaria puede analizar la reutilización y conectividad de su propio cono
 
 ---
 
-# Nivel VIII - Plataforma
+# Nivel VIII - Gobernanza de conocimiento
+
+## Objetivo
+
+Definir los principios que gobiernan la evolución del conocimiento del SGCC.
+
+## Entregables
+
+- [KNOWLEDGE_STRATEGY](./management/KNOWLEDGE_STRATEGY.md)
+- [KNOWLEDGE_DEBT](./management/KNOWLEDGE_DEBT.md)
+- [KNOWLEDGE_MATURITY](./management/KNOWLEDGE_MATURITY.md)
+
+## Resultado
+
+NovaCoquinaria dispone de un modelo explícito para planificar, evaluar y mejorar la evolución de su conocimiento reutilizable.
+
+---
+
+# Nivel IX - Plataforma
 
 **Estado:** Visión futura
 
@@ -226,7 +248,7 @@ Construir herramientas software sobre la base de conocimiento.
 
 ---
 
-# Nivel IX - Inteligencia
+# Nivel X - Inteligencia
 
 **Estado:** Visión futura
 
@@ -249,16 +271,15 @@ Incorporar inteligencia artificial y búsqueda semántica sobre el conocimiento 
 
 # Prioridad actual
 
-La prioridad inmediata es completar la fase de **Revisión y Calidad**.
+La prioridad inmediata es consolidar la gobernanza del conocimiento y ampliar el conocimiento reutilizable.
 
 Orden recomendado:
 
-1. Revisar `README.md`.
-2. Revisar `CHANGELOG.md`.
-3. Revisar `ROADMAP.md`.
-4. Revisar enlaces internos.
-5. Revisar Front Matter e IDs.
-6. Preparar release `v1.0.0`.
+1. Completar dominios prioritarios.
+2. Reducir deuda de conocimiento.
+3. Incrementar reutilización.
+4. Mejorar conectividad.
+5. Ampliar recetas.
 
 ---
 
@@ -272,6 +293,7 @@ Antes de añadir una tarea al roadmap, evaluar:
 * ¿Ayuda a estructurar futuras recetas?
 * ¿Prepara el sistema para automatización?
 * ¿Mantiene la coherencia con la visión del proyecto?
+* ¿Incrementa el valor del Knowledge Graph?
 
 ---
 
@@ -280,12 +302,14 @@ Antes de añadir una tarea al roadmap, evaluar:
 * [VISION](./VISION.md)
 * [ARQUITECTURA](./ARQUITECTURA.md)
 * [README](../README.md)
-* [ADR](./adr/)
+* [ADR](./adr/README.md)
 
 ---
 
 # Conclusión
 
-El roadmap de NovaCoquinaria no se basa en fechas, sino en madurez.
+El roadmap de NovaCoquinaria no se basa en fechas, sino en niveles de madurez.
 
-El objetivo no es avanzar rápido, sino construir una base de conocimiento culinario sólida, coherente y preparada para evolucionar durante años.
+Cada fase consolida una capacidad del Sistema de Gestión del Conocimiento Culinario antes de incorporar la siguiente.
+
+El objetivo no es únicamente recopilar recetas, sino construir una plataforma de conocimiento culinario reutilizable, mantenible y preparada para evolucionar durante años.

@@ -105,4 +105,4 @@
 * [Knowledge Debt](KNOWLEDGE_DEBT.md)
 * [Knowledge Maturity](KNOWLEDGE_MATURITY.md)
 * [AI Onboarding](AI_ONBOARDING.md)
-* [ADR](../adr/)
+* [ADR](../adr/README.md)

@@ -11,7 +11,7 @@
 | Proyecto | NovaCoquinaria |
 | Tipo | Sistema de Gestión del Conocimiento Culinario (SGCC) |
 | Inicio | 29/06/2026 |
-| Versión actual | v1.3.0  |
+| Versión actual | v1.4.0 (en desarrollo) |
 | Estado | 🟢 Desarrollo activo |
 | Licencia | Pendiente de publicación |
 
@@ -77,14 +77,27 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 
 | Área | Estado |
 |------|--------|
-| Arquitectura | ✅ Estable |
-| Documentación | ✅ Estable |
-| SGCC | ✅ Estable |
-| Recetas | 🟡 En crecimiento |
+| Arquitectura documental | ✅ Estable |
+| Framework documental | ✅ Operativo |
+| Pipeline de calidad | ✅ Operativo |
+| Knowledge Graph | ✅ Operativo |
+| Gobernanza del conocimiento | ✅ Estable |
+| Sistema SGCC | ✅ Estable |
+| Base de conocimiento | 🟡 En crecimiento |
 | Portal MkDocs | 🟡 En consolidación |
 | Publicación pública | ⏳ Pendiente |
-| Automatización | ✅ Operativa |
-| Knowledge Graph | ✅ Inicial operativo |
+
+---
+
+### Fase actual
+
+**v1.4.0 — Gobernanza y expansión del conocimiento**
+
+Objetivos principales:
+
+- Consolidar el modelo de gobernanza del SGCC.
+- Reducir la deuda de conocimiento prioritaria.
+- Ampliar el conocimiento reutilizable antes de incorporar nuevas recetas.
 
 ---
 
@@ -92,8 +105,9 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 
 ### Corto plazo
 
-- Completar la colección inicial de recetas.
-- Mejorar la navegación del portal.
+- Consolidar la gobernanza del conocimiento.
+- Resolver deuda de conocimiento prioritaria.
+- Completar los primeros dominios culinarios reutilizables.
 - Publicar mediante GitHub Pages.
 
 ### Medio plazo
@@ -116,8 +130,8 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 - [Arquitectura](../ARQUITECTURA.md)
 - [Visión](../VISION.md)
 - [Roadmap](../ROADMAP.md)
-- [ADR (Architecture Decision Records)](../adr/)
+- [ADR (Architecture Decision Records)](../adr/README.md)
 
 ---
 
-**Última actualización:** 09/07/2026
+**Última actualización:** 11/07/2026
