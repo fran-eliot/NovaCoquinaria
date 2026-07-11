@@ -117,7 +117,7 @@ Cada receta actúa como una aplicación concreta de:
 
 # Nivel IV - Revisión y Calidad
 
-**Estado:** En curso
+**Estado:** Completado
 
 ## Objetivo
 
@@ -141,7 +141,7 @@ La fase estará completa cuando el repositorio pueda considerarse estable como p
 
 # Nivel V - Automatización
 
-**Estado:** Pendiente
+**Estado:** Completado en versión inicial
 
 ## Objetivo
 
@@ -184,7 +184,29 @@ Convertir el repositorio en documentación navegable.
 
 ---
 
-# Nivel VII - Plataforma
+# Nivel VII - Knowledge Graph
+
+**Estado:** Completado en versión inicial
+
+## Objetivo
+
+Analizar las relaciones entre documentos del SGCC mediante un grafo de conocimiento.
+
+## Entregables
+
+* Modelo interno `KnowledgeGraph`.
+* Generación de grafo Mermaid.
+* Estadísticas avanzadas del grafo.
+* Detección de conocimiento reutilizable huérfano.
+* Validación semántica básica.
+
+## Resultado
+
+NovaCoquinaria puede analizar la reutilización y conectividad de su propio conocimiento documental.
+
+---
+
+# Nivel VIII - Plataforma
 
 **Estado:** Visión futura
 
@@ -204,7 +226,7 @@ Construir herramientas software sobre la base de conocimiento.
 
 ---
 
-# Nivel VIII - Inteligencia
+# Nivel IX - Inteligencia
 
 **Estado:** Visión futura
 

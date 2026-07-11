@@ -11,7 +11,7 @@
 | Proyecto | NovaCoquinaria |
 | Tipo | Sistema de Gestión del Conocimiento Culinario (SGCC) |
 | Inicio | 29/06/2026 |
-| Versión actual | v1.1.0  |
+| Versión actual | v1.3.0  |
 | Estado | 🟢 Desarrollo activo |
 | Licencia | Pendiente de publicación |
 
@@ -53,6 +53,26 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 
 ---
 
+### ✅ v1.2 – Framework de calidad
+
+- Framework de herramientas.
+- Validación de Front Matter.
+- Validación de IDs únicos.
+- Validación de enlaces internos.
+- Pipeline local de calidad.
+- Estadísticas básicas.
+
+### ✅ v1.3 – Knowledge Graph
+
+- Modelo interno de grafo de conocimiento.
+- Grafo Mermaid.
+- Estadísticas avanzadas.
+- Detección de huérfanos reutilizables.
+- Validación semántica básica.
+- Reglas semánticas separadas.
+
+---
+
 ## Estado actual
 
 | Área | Estado |
@@ -63,6 +83,8 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 | Recetas | 🟡 En crecimiento |
 | Portal MkDocs | 🟡 En consolidación |
 | Publicación pública | ⏳ Pendiente |
+| Automatización | ✅ Operativa |
+| Knowledge Graph | ✅ Inicial operativo |
 
 ---
 
@@ -98,4 +120,4 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias en
 
 ---
 
-**Última actualización:** 07/07/2026
+**Última actualización:** 09/07/2026

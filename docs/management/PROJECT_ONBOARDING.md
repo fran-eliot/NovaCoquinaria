@@ -67,14 +67,48 @@ site_docs/
 
 ---
 
-# Arquitectura
+# Lectura recomendada
 
-Antes de realizar cambios importantes conviene leer:
+Para comprender el proyecto, consultar en este orden:
 
-1. ARQUITECTURA.md
-2. VISION.md
-3. ROADMAP.md
-4. ADR
+1. [PROJECT_STATUS](PROJECT_STATUS.md)
+2. [ARQUITECTURA](../ARQUITECTURA.md)
+3. [ROADMAP](../ROADMAP.md)
+4. [DECISIONS_SUMMARY](DECISIONS_SUMMARY.md)
+5. [BITACORA](BITACORA.md)
+6. [ADR](../adr/)
+
+---
+
+# Gobernanza del conocimiento
+
+La evolución del conocimiento se gobierna mediante:
+
+- [KNOWLEDGE_STRATEGY](KNOWLEDGE_STRATEGY.md)
+- [KNOWLEDGE_DEBT](KNOWLEDGE_DEBT.md)
+- [KNOWLEDGE_MATURITY](KNOWLEDGE_MATURITY.md)
+
+Estos documentos definen respectivamente:
+
+- cómo debe crecer el conocimiento;
+- qué carencias estructurales existen;
+- qué grado de madurez ha alcanzado.
+
+---
+
+# Calidad y herramientas
+
+Antes de integrar cambios relevantes:
+
+```bash
+python tools/validate_all.py
+python tools/generate_graph.py
+python tools/generate_graph_stats.py
+python tools/find_orphans.py
+python tools/validate_semantics.py
+```
+
+El Knowledge Graph permite analizar la reutilización y conectividad del conocimiento.
 
 ---
 
