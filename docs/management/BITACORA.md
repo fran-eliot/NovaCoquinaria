@@ -129,6 +129,53 @@ Con esta versión concluye la primera etapa de NovaCoquinaria, centrada en la de
 
 ---
 
+## 2026-07-09 · Release v1.2.0
+
+Se incorpora el primer framework de calidad y automatización del SGCC.
+
+### Hitos
+
+- Validación automática de Front Matter.
+- Validación de identificadores únicos.
+- Validación de enlaces internos.
+- Pipeline local `validate_all.py`.
+- Estadísticas básicas del repositorio.
+- Documento base `Mise en place`.
+
+---
+
+## 2026-07-09 · Release v1.3.0
+
+NovaCoquinaria incorpora su primer **Knowledge Graph**.
+
+### Hitos
+
+- Modelo interno `KnowledgeGraph`.
+- Generación de grafo Mermaid.
+- Estadísticas avanzadas del grafo.
+- Detección de conocimiento reutilizable huérfano.
+- Validación semántica básica.
+- Separación de reglas semánticas en `semantic_rules.py`.
+
+Esta versión marca el paso desde un repositorio validado hacia un sistema capaz de analizar relaciones entre documentos.
+
+---
+
+## 2026-07-11 · Gobernanza del conocimiento
+
+### Gobernanza del conocimiento
+
+- Definido el modelo de gobernanza del SGCC.
+- Incorporados los documentos:
+  - KNOWLEDGE_STRATEGY
+  - KNOWLEDGE_DEBT
+  - KNOWLEDGE_MATURITY
+- Actualizada la documentación de onboarding y estructura.
+- Consolidada la separación entre arquitectura, gestión y conocimiento.
+- Esta versión marca la transición desde la construcción de la infraestructura documental hacia el desarrollo sistemático del conocimiento culinario.
+
+---
+
 ## Próximos hitos
 
 - Publicación mediante GitHub Pages.

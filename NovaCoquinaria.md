@@ -46,11 +46,15 @@ Los principios fundamentales del proyecto son:
 
 ## Corto plazo
 
-Consolidar la base documental y ampliar la colección de recetas.
+- Consolidar la gobernanza del conocimiento.
+- Resolver deuda de conocimiento prioritaria.
+- Ampliar bases, técnicas, ingredientes y plantillas reutilizables.
 
 ## Medio plazo
 
-Publicar un portal web de consulta.
+- Mejorar la publicación y navegación del portal.
+- Enriquecer el Knowledge Graph.
+- Ampliar el catálogo de recetas sobre conocimiento consolidado.
 
 ## Largo plazo
 
@@ -82,6 +86,10 @@ Sin embargo, se diseña desde el principio para que pueda resultar útil a otras
 
 El proyecto utiliza actualmente:
 
+- Python
+- PyYAML
+- Mermaid
+- Knowledge Graph documental
 - Markdown
 - MkDocs Material
 - Git
@@ -98,6 +106,9 @@ Consultar:
 - [PROJECT_STATUS](./docs/management/PROJECT_STATUS.md)
 - [ROADMAP](./docs/ROADMAP.md)
 - [BITACORA](./docs/management/BITACORA.md)
+- [Knowledge Strategy](./docs/management/KNOWLEDGE_STRATEGY.md)
+- [Knowledge Debt](./docs/management/KNOWLEDGE_DEBT.md)
+- [Knowledge Maturity](./docs/management/KNOWLEDGE_MATURITY.md)
 
 ---
 

@@ -33,7 +33,7 @@ Si es tu primera visita, este es el recorrido recomendado:
 
     Técnicas, fundamentos y conocimiento culinario reutilizable.
 
-    [:octicons-arrow-right-24: Explorar bases](00_Bases/)
+    [:octicons-arrow-right-24: Explorar bases](00_Bases/index.md)
 
 -   :material-food-apple: **Despensa**
 
@@ -41,7 +41,7 @@ Si es tu primera visita, este es el recorrido recomendado:
 
     Ingredientes, salsas, aceites, condimentos y productos clave.
 
-    [:octicons-arrow-right-24: Explorar despensa](11_Despensa/)
+    [:octicons-arrow-right-24: Explorar despensa](11_Despensa/index.md)
 
 -   :material-shape-outline: **Plantillas**
 
@@ -49,7 +49,7 @@ Si es tu primera visita, este es el recorrido recomendado:
 
     Patrones reutilizables para crear recetas sin duplicar conocimiento.
 
-    [:octicons-arrow-right-24: Explorar plantillas](12_Plantillas/)
+    [:octicons-arrow-right-24: Explorar plantillas](12_Plantillas/index.md)
 
 -   :material-silverware-fork-knife: **Recetas**
 
@@ -65,7 +65,7 @@ Si es tu primera visita, este es el recorrido recomendado:
 
     Tiempos, conversiones, conservación, seguridad alimentaria y sustituciones.
 
-    [:octicons-arrow-right-24: Consultar tablas](98_Tablas/)
+    [:octicons-arrow-right-24: Consultar tablas](98_Tablas/index.md)
 
 -   :material-sitemap: **Arquitectura**
 
@@ -86,11 +86,12 @@ El conocimiento se documenta una sola vez y se reutiliza mediante referencias.
 | Estado | Descripción |
 |---------|-------------|
 | ✅ | Arquitectura documental consolidada |
-| ✅ | Base de conocimiento reutilizable |
-| ✅ | Recetas iniciales normalizadas |
-| 🚧 | Portal web con MkDocs |
-| 🔜 | Automatización y GitHub Pages |
-| 🔜 | Plataforma software |
+| ✅ | Pipeline de calidad operativo |
+| ✅ | Knowledge Graph operativo |
+| ✅ | Gobernanza del conocimiento estable |
+| 🟡 | Base de conocimiento en expansión |
+| 🟡 | Portal MkDocs en consolidación |
+| ⏳ | Publicación mediante GitHub Pages |
 
 ---
 

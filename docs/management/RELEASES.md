@@ -11,6 +11,8 @@
 | v0.1.0 | ✅ Publicada | 2026-06-30 | Primera estructura funcional del repositorio y documentación inicial del proyecto. |
 | v1.0.0 | ✅ Publicada | 2026-07-05 | Primera versión estable de la arquitectura SGCC y de la base de conocimiento. |
 | v1.1.0 | ✅ Publicada | 2026-07-07 | Portal web basado en MkDocs Material y mejora de la experiencia de consulta. |
+| v1.2.0 | ✅ Publicada | 2026-07-09 | Framework de calidad y automatización del SGCC. |
+| v1.3.0 | ✅ Publicada | 2026-07-09 | Knowledge Graph, análisis de relaciones y validación semántica básica. |
 | v2.0.0 | 📅 Planificada | — | Plataforma software para la gestión del conocimiento culinario. |
 
 ---
@@ -49,6 +51,28 @@
 - Logo e identidad visual.
 - Script `build_site_docs.py`.
 - Publicación preparada para GitHub Pages.
+
+---
+
+### v1.2.0 — Framework de calidad
+
+- Framework de herramientas.
+- Validadores automáticos.
+- Pipeline local de calidad.
+- Estadísticas básicas del repositorio.
+- Documento base `Mise en place`.
+
+---
+
+### v1.3.0 — Knowledge Graph
+
+- Modelo interno `KnowledgeGraph`.
+- Generación de grafo Mermaid.
+- Estadísticas avanzadas del grafo.
+- Detección de documentos reutilizables huérfanos.
+- Validación semántica básica.
+- Reglas semánticas reutilizables.
+
 ---
 
 ### v2.0.0 — Plataforma

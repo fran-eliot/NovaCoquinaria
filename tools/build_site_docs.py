@@ -80,9 +80,12 @@ def normalize_links() -> None:
 def create_index_files() -> None:
     for readme in SITE_DOCS.rglob("README.md"):
         index = readme.parent / "index.md"
+
         if not index.exists():
             shutil.copy2(readme, index)
 
+        readme.unlink()
+        
 
 def create_home_page() -> None:
     content = HOME_TEMPLATE.read_text(encoding="utf-8")

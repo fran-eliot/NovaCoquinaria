@@ -25,18 +25,56 @@
 
 ## Documentación técnica
 
+## Documentación técnica
+
 ```text
 docs/
 ├── adr/
-├── management/
+│   └── Decisiones arquitectónicas
+├── architecture/
+│   └── Automatización, pipeline de calidad y framework de herramientas
 ├── diagrams/
+│   └── Grafo de conocimiento e informes generados
 ├── images/
+├── management/
+│   ├── Estado, releases y bitácora
+│   ├── Onboarding y continuidad
+│   └── Gobernanza del conocimiento
 ├── templates/
 ├── ARQUITECTURA.md
 ├── QUALITY.md
 ├── ROADMAP.md
 └── VISION.md
 ```
+
+---
+
+## Herramientas
+
+```text
+tools/
+├── common.py
+├── models.py
+├── graph.py
+├── semantic_rules.py
+├── validate_all.py
+├── validate_frontmatter.py
+├── validate_ids.py
+├── validate_links.py
+├── validate_semantics.py
+├── generate_graph.py
+├── generate_graph_stats.py
+├── generate_stats.py
+├── find_orphans.py
+└── build_site_docs.py
+```
+
+Las herramientas se dividen en:
+
+- validadores;
+- generadores;
+- modelos compartidos;
+- procesos de construcción.
 
 ---
 

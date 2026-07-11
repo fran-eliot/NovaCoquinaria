@@ -181,7 +181,7 @@ El verdadero valor del proyecto no se medirá por el número de recetas almacena
 
 ## Decisiones arquitectónicas
 
-* [ADR](./adr/)
+* [ADR](./adr/README.md)
 
 ## Documentación principal
 
