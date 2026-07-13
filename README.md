@@ -6,7 +6,7 @@
 
 # Descripción
 
-**NovaCoquinaria** es un repositorio personal de cocina construido como si fuera un proyecto de software.
+**NovaCoquinaria** es un repositorio personal de cocina desarrollado aplicando principios de ingeniería del software y gestión del conocimiento.
 
 Su objetivo no es únicamente almacenar recetas, sino capturar, organizar y reutilizar conocimiento culinario de forma modular, mantenible y preparada para evolucionar durante años.
 
@@ -144,7 +144,7 @@ Los documentos se estructuran para poder ser usados en el futuro por una web, ap
 
 ## Calidad y automatización
 
-NovaCoquinaria dispone de un framework propio de herramientas para proteger la integridad del SGCC.
+NovaCoquinaria dispone de un framework propio de herramientas que garantiza la coherencia y calidad del conocimiento almacenado para proteger la integridad del SGCC.
 
 Incluye:
 
@@ -179,6 +179,8 @@ python tools/generate_graph.py
 python tools/generate_graph_stats.py
 ```
 
+El grafo constituye una representación estructural del conocimiento del SGCC y sirve como base para futuras capacidades de análisis e inteligencia.
+
 ---
 
 # Documentación del proyecto
@@ -208,6 +210,8 @@ El proyecto dispone de:
 - validación semántica básica;
 - gobernanza mediante estrategia, deuda y madurez del conocimiento;
 - colección inicial de conocimiento culinario normalizado.
+
+El proyecto inicia ahora la consolidación de dominios culinarios reutilizables como siguiente etapa de evolución.
 
 ---
 

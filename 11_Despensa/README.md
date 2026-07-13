@@ -59,8 +59,23 @@ La despensa se organiza por grandes familias de ingredientes:
 * Aceites
 * Condimentos
 * Conservas
+* Bases Culinarias
 
 Esta clasificación podrá ampliarse conforme evolucione el proyecto.
+
+---
+
+### Bases culinarias
+
+Ingredientes que constituyen la base líquida o estructural de numerosas elaboraciones y que suelen reutilizarse en múltiples dominios culinarios.
+
+Ejemplos:
+
+- leche de coco;
+- caldos;
+- fumets;
+- dashi;
+- nata para cocinar.
 
 ---
 

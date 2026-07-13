@@ -87,6 +87,31 @@ Aunque existen múltiples variantes, suele incluir:
 
 ---
 
+# Formatos habituales
+
+El curry amarillo puede encontrarse como:
+
+- pasta de curry (la más habitual en cocina tailandesa);
+- mezcla seca de especias;
+- mezcla casera preparada previamente.
+
+La pasta suele proporcionar un sabor más complejo gracias a la incorporación de ingredientes frescos.
+
+---
+
+# Cantidad orientativa
+
+Como referencia:
+
+| Preparación | Cantidad |
+|-------------|---------:|
+| 2 raciones | 1 cucharada |
+| 4 raciones | 2 cucharadas |
+
+La intensidad final dependerá del fabricante y de la concentración de la pasta.
+
+---
+
 # Cuándo utilizarlo
 
 Especialmente adecuado para:
@@ -183,7 +208,7 @@ Es preferible comenzar con poca cantidad e incrementar si es necesario.
 
 ---
 
-# Huella en NovaCoquinaria
+# Relaciones dentro del SGCC
 
 ## Técnicas relacionadas
 

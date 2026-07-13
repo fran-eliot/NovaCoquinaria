@@ -176,6 +176,23 @@ Esta versión marca el paso desde un repositorio validado hacia un sistema capaz
 
 ---
 
+## 2026-07-13 · Marco de gobernanza completado
+
+Se completa el conjunto de documentación estratégica y metodológica del SGCC.
+
+### Hitos
+
+- Incorporación de `DEVELOPMENT_WORKFLOW.md`.
+- Revisión y consolidación de `README.md`.
+- Revisión y consolidación de `VISION.md`.
+- Definición oficial del workflow de desarrollo.
+- Estabilización de la documentación de gobernanza.
+- Inicio de la transición hacia el desarrollo sistemático de dominios culinarios.
+
+Con este hito finaliza la etapa de construcción del marco metodológico del proyecto. A partir de este momento el foco principal de NovaCoquinaria pasa a ser la expansión del conocimiento culinario mediante el desarrollo de dominios reutilizables.
+
+---
+
 ## Próximos hitos
 
 - Publicación mediante GitHub Pages.
