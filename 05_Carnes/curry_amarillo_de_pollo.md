@@ -19,7 +19,7 @@ Esta receta constituye la implementación de referencia del dominio **Currys** d
 
 # Objetivo
 
-Aplicar la plantilla **Curry base** para elaborar un curry amarillo clásico utilizando pollo como proteína principal.
+Aplicar la plantilla [Curry base](../12_Plantillas/04_Cocciones/curry_base.md) para elaborar un curry amarillo clásico utilizando pollo como proteína principal.
 
 ---
 
@@ -40,16 +40,16 @@ Aplicar la plantilla **Curry base** para elaborar un curry amarillo clásico uti
 ## Principales
 
 - 600 g de pechuga o contramuslo de pollo
-- 400 ml de leche de coco
-- 2 cucharadas de curry amarillo
+- 400 ml de [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)
+- 2 cucharadas de [Curry amarillo](../11_Despensa/08_Especias/curry_amarillo.md)
 - 1 cebolla
 - 2 dientes de ajo
 - 1 cucharadita de jengibre fresco rallado
 
 ## Condimentos
 
-- 1 cucharada de salsa de pescado
-- 1 cucharada de salsa de soja
+- 1 cucharada de [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md)
+- 1 cucharada de [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)
 - 1 cucharadita de azúcar (opcional)
 - Pimienta negra
 
@@ -61,7 +61,7 @@ Aplicar la plantilla **Curry base** para elaborar un curry amarillo clásico uti
 
 - Cilantro fresco
 - Zumo de lima
-- Arroz basmati como acompañamiento
+- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md) como acompañamiento
 
 ---
 
@@ -69,7 +69,7 @@ Aplicar la plantilla **Curry base** para elaborar un curry amarillo clásico uti
 
 ## Mise en place
 
-Preparar todos los ingredientes siguiendo la técnica **Mise en place**.
+Preparar todos los ingredientes siguiendo la técnica [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)
 
 - Cortar el pollo en dados.
 - Picar la cebolla.
@@ -202,17 +202,3 @@ Valores aproximados por ración (sin acompañamiento).
 
 Esta receta constituye la receta canónica inicial del dominio **Currys** y sirve como referencia para futuras variantes desarrolladas dentro del SGCC.
 
----
-
-# Referencias
-
-- [Curry base](../12_Plantillas/04_Cocciones/curry_base.md)
-- [Curry amarillo](../11_Despensa/08_Especias/curry_amarillo.md)
-- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)
-- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)
-- [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md)
-- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)
-- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)
-- [Tabla de tiempos](../98_Tablas/01_Cocciones/tiempos_coccion.md)
-- [Tabla de sustituciones](../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md)
-- [Tabla de Conservación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)
