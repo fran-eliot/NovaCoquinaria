@@ -1,9 +1,10 @@
 ---
-title: Workflow de Desarrollo
+id: DOC-0009
+titulo: Workflow de Desarrollo
+tipo: gestion
 version: 1.0
-status: stable
-owner: NovaCoquinaria
-updated: 2026-07-13
+estado: estable
+ultima_revision: 2026-07-13
 ---
 
 # Workflow de Desarrollo
