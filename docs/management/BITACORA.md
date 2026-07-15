@@ -193,6 +193,22 @@ Con este hito finaliza la etapa de construcción del marco metodológico del pro
 
 ---
 
+## 2026-07-14 · Primer dominio culinario consolidado
+
+Se completa la primera iteración del dominio Currys.
+
+### Hitos
+
+- Finalización de REC-0017 · Curry amarillo de pollo.
+- Integración del conocimiento reutilizable del dominio.
+- Eliminación de la deuda asociada a Curry base.
+- Integración completa en el Knowledge Graph.
+- Validación documental y semántica sin incidencias.
+
+El dominio Currys constituye la primera validación completa del modelo de desarrollo del SGCC y servirá como referencia para futuros dominios culinarios.
+
+---
+
 ## Próximos hitos
 
 - Publicación mediante GitHub Pages.

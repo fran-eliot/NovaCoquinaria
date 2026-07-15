@@ -4,8 +4,8 @@
 
 ## Resumen
 
-- Nodos: 59
-- Relaciones: 271
+- Nodos: 63
+- Relaciones: 319
 
 ## Documentos por tipo
 
@@ -15,7 +15,7 @@
 | base | 1 |
 | gestion | 5 |
 | guia | 1 |
-| ingrediente | 12 |
+| ingrediente | 16 |
 | modulo | 3 |
 | plantilla | 7 |
 | receta | 17 |
@@ -26,16 +26,16 @@
 
 | ID | Tipo | Documento | Referencias |
 |---|---|---|---:|
-| BAS-0001 | base | Mise en place | 25 |
+| BAS-0001 | base | Mise en place | 29 |
+| ING-0002 | ingrediente | Salsa de soja | 27 |
 | TAB-0002 | tabla | Tiempos de cocción | 24 |
-| ING-0002 | ingrediente | Salsa de soja | 24 |
+| BAS-0002 | tecnica | Saltear | 23 |
 | BAS-0003 | tecnica | Cocinar al wok | 19 |
-| BAS-0002 | tecnica | Saltear | 19 |
-| ING-0005 | ingrediente | Aceite de sésamo | 18 |
-| ING-0003 | ingrediente | Mirin | 17 |
+| ING-0005 | ingrediente | Aceite de sésamo | 19 |
+| ING-0003 | ingrediente | Mirin | 18 |
+| BAS-0004 | tecnica | Sofreír | 14 |
 | TAB-0004 | tabla | Sustituciones de ingredientes | 13 |
 | ING-0004 | ingrediente | Salsa de ostras | 12 |
-| TAB-0005 | tabla | Conservación, congelación y recalentado | 11 |
 
 ## Conocimiento reutilizable huérfano
 
