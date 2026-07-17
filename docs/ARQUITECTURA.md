@@ -42,6 +42,29 @@ La arquitectura del sistema se basa en los siguientes principios:
 
 ---
 
+# Principios de Diseño del Conocimiento
+
+El SGCC se construye siguiendo una serie de principios destinados a maximizar la reutilización y minimizar la duplicación del conocimiento.
+
+Estos principios se desarrollan mediante las correspondientes Architectural Decision Records (ADR).
+
+Entre ellos destacan:
+
+- El conocimiento común se documenta una única vez.
+- Las recetas implementan patrones culinarios en lugar de duplicar procedimientos.
+- Los ingredientes, técnicas y plantillas constituyen la fuente principal de conocimiento reutilizable.
+- El crecimiento del sistema prioriza los conceptos de mayor reutilización antes que la completitud temática.
+- Cada documento nuevo debe aumentar el valor del conjunto del SGCC.
+
+---
+
+Consultar:
+
+- [ADR-0015 · Arquitectura basada en reutilización del conocimiento](./adr/ADR-0015-arquitectura-basada-en-reutilizacion-del-conocimiento.md)
+- [ADR-0016 · Priorización del conocimiento por reutilización](./adr/ADR-0016-priorizacion-del-conocimiento-por-reutilizacion.md)
+
+---
+
 # Arquitectura General
 
 ```text
@@ -107,25 +130,24 @@ El conocimiento se organiza mediante entidades especializadas.
 ```text
                  Conocimiento
 
-                      │
+                       │
 
-      ┌───────────────┼───────────────┐
-      │               │               │
-      ▼               ▼               ▼
+     ┌───────────┬────────────┬─────────────┐
+     │           │            │             │
+     ▼           ▼            ▼             ▼
 
- Ingredientes     Técnicas      Plantillas
+ Ingredientes Técnicas Plantillas Tablas
 
-      │               │               │
-      └───────────────┼───────────────┘
+     │           │            │             │
+     └───────────┴────────────┴─────────────┘
 
-                      ▼
+                       ▼
 
-                  Recetas
+                    Recetas
 
-                      ▼
+                       ▼
 
-                    Menús
-                 (Evolución futura)
+               Menús (futuro)
 ```
 
 Las relaciones entre entidades forman un grafo de conocimiento.

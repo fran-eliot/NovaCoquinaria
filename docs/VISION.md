@@ -73,6 +73,18 @@ Un mismo conocimiento debe documentarse una única vez y reutilizarse mediante r
 
 ---
 
+## El sistema vale más que la suma de sus documentos
+
+Cada nuevo documento debe incrementar el valor global del SGCC.
+
+No se trata únicamente de añadir contenido, sino de fortalecer la red de conocimiento mediante relaciones, reutilización y coherencia.
+
+Una receta aislada tiene valor.
+
+Una receta conectada con ingredientes, técnicas, plantillas y tablas multiplica ese valor.
+
+---
+
 ## Aprender cocinando
 
 Cada elaboración es una oportunidad para:
@@ -195,9 +207,9 @@ El verdadero valor del proyecto no se medirá por el número de recetas almacena
 
 # Estado actual
 
-NovaCoquinaria ya dispone de una arquitectura documental estable, una base de conocimiento reutilizable y una colección inicial de recetas normalizadas.
+NovaCoquinaria dispone actualmente de una arquitectura documental estable y de un modelo de conocimiento basado en ingredientes, técnicas, plantillas, tablas y recetas interrelacionadas.
 
-La siguiente etapa del proyecto se centrará en consolidar dominios culinarios reutilizables, comenzando por el dominio Currys y extendiendo progresivamente el conocimiento transversal del SGCC.
+El proyecto evoluciona hacia un auténtico Sistema de Gestión del Conocimiento Culinario (SGCC), donde cada nuevo documento se integra dentro de un grafo de conocimiento reutilizable preparado para automatización, inteligencia artificial y futuras aplicaciones.
 
 ---
 
