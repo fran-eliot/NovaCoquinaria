@@ -105,7 +105,7 @@ Una pasta o mezcla de curry.
 
 Ejemplos:
 
-* curry amarillo;
+* [curry amarillo](../../11_Despensa/08_Especias/curry_amarillo.md);
 * curry verde;
 * curry rojo;
 * Massaman.
@@ -138,11 +138,11 @@ Preferiblemente dos o tres variedades con tiempos de cocción similares.
 
 Según la receta:
 
-* salsa de pescado;
-* salsa de soja;
+* [salsa de pescado](../../11_Despensa/09_Salsas/salsa_de_pescado.md);
+* [salsa de soja](../../11_Despensa/09_Salsas/salsa_de_soja.md);
 * azúcar;
 * lima;
-* vinagre de arroz.
+* [vinagre de arroz](../../11_Despensa/11_Condimentos/vinagre_de_arroz.md).
 
 ---
 
@@ -152,7 +152,7 @@ Según la receta:
 
 Consultar:
 
-* Mise en place.
+* [Mise en place](../../00_Bases/01_Fundamentos/mise_en_place.md)
 
 ---
 
@@ -226,11 +226,25 @@ Más lima.
 
 # Variantes
 
-* Curry amarillo.
+* [Curry amarillo](../../11_Despensa/08_Especias/curry_amarillo.md)
 * Curry verde.
 * Curry rojo.
 * Massaman.
 * Panang.
+
+---
+
+# Adaptaciones
+
+La plantilla admite múltiples variaciones:
+
+- sustituir la proteína;
+- cambiar la mezcla de curry;
+- variar las verduras según temporada;
+- modificar la proporción de leche de coco y caldo;
+- ajustar el equilibrio final según el perfil buscado.
+
+El patrón general permanece inalterado.
 
 ---
 
@@ -258,16 +272,16 @@ Más lima.
 
 ## Técnicas
 
-* Mise en place.
-* Sofreír.
+* [Mise en place](../../00_Bases/01_Fundamentos/mise_en_place.md)
+* [Sofreír](../../00_Bases/03_Tecnicas/sofreir.md)
 
 ## Ingredientes
 
-* Curry amarillo.
+* [Curry amarillo](../../11_Despensa/08_Especias/curry_amarillo.md)
 * Curry verde.
 * Leche de coco.
-* Salsa de pescado.
-* Salsa de soja.
+* [salsa de pescado](../../11_Despensa/09_Salsas/salsa_de_pescado.md)
+* [salsa de soja](../../11_Despensa/09_Salsas/salsa_de_soja.md)
 
 ---
 

@@ -5,7 +5,7 @@
 
 ---
 
-# Nuestra Visión
+# Visión
 
 NovaCoquinaria nace con una idea sencilla:
 
@@ -27,7 +27,7 @@ NovaCoquinaria pretende convertirse en un sistema capaz de capturar, organizar y
 
 Cada nuevo aprendizaje debe enriquecer el conjunto del sistema.
 
-Cada receta debe aportar conocimiento reutilizable.
+Cada receta debe reutilizar conocimiento existente y, cuando sea necesario, contribuir a ampliarlo.
 
 Cada documento debe tener una finalidad clara.
 
@@ -37,7 +37,7 @@ El conocimiento acumulado debe permanecer accesible y mantenerse vivo con el pas
 
 # Qué queremos construir
 
-Queremos desarrollar un **Sistema de Gestión del Conocimiento Culinario (SGCC)** basado en principios similares a los utilizados en ingeniería del software y gestión documental.
+NovaCoquinaria evoluciona hacia un **Sistema de Gestión del Conocimiento Culinario (SGCC)** basado en principios similares a los utilizados en ingeniería del software y gestión documental.
 
 Este sistema deberá permitir:
 
@@ -73,6 +73,18 @@ Un mismo conocimiento debe documentarse una única vez y reutilizarse mediante r
 
 ---
 
+## El sistema vale más que la suma de sus documentos
+
+Cada nuevo documento debe incrementar el valor global del SGCC.
+
+No se trata únicamente de añadir contenido, sino de fortalecer la red de conocimiento mediante relaciones, reutilización y coherencia.
+
+Una receta aislada tiene valor.
+
+Una receta conectada con ingredientes, técnicas, plantillas y tablas multiplica ese valor.
+
+---
+
 ## Aprender cocinando
 
 Cada elaboración es una oportunidad para:
@@ -101,6 +113,8 @@ El sistema está diseñado para evolucionar durante años sin perder coherencia.
 La tecnología no es el objetivo.
 
 Es una herramienta para preservar, organizar y hacer más útil el conocimiento culinario.
+
+El conocimiento constituye el verdadero producto de NovaCoquinaria; la tecnología únicamente facilita su preservación, evolución y reutilización.
 
 ---
 
@@ -133,6 +147,8 @@ Entre las posibles evoluciones del proyecto se encuentran:
 * análisis nutricional;
 * asistentes culinarios basados en inteligencia artificial;
 * agentes especializados para cocina, organización de despensa y batch cooking.
+
+Todos estos avances deberán construirse sin comprometer la independencia del conocimiento respecto de las herramientas que lo utilicen.
 
 Todas estas herramientas compartirán siempre la misma fuente de conocimiento.
 
@@ -191,16 +207,20 @@ El verdadero valor del proyecto no se medirá por el número de recetas almacena
 
 # Estado actual
 
-NovaCoquinaria ya dispone de una arquitectura documental estable, una base de conocimiento reutilizable y una colección inicial de recetas normalizadas.
+NovaCoquinaria dispone actualmente de una arquitectura documental estable y de un modelo de conocimiento basado en ingredientes, técnicas, plantillas, tablas y recetas interrelacionadas.
 
-Las siguientes etapas se centrarán en la consolidación del repositorio y en su futura explotación mediante herramientas software.
+El proyecto evoluciona hacia un auténtico Sistema de Gestión del Conocimiento Culinario (SGCC), donde cada nuevo documento se integra dentro de un grafo de conocimiento reutilizable preparado para automatización, inteligencia artificial y futuras aplicaciones.
 
 ---
 
 # Conclusión
+
+NovaCoquinaria no organiza documentos; organiza conocimiento. Los documentos son simplemente la representación persistente de ese conocimiento.
 
 NovaCoquinaria no es el destino.
 
 Es el punto de partida para construir un sistema vivo de conocimiento culinario.
 
 Cada receta, cada técnica y cada ingrediente documentado contribuirán a un objetivo mayor: crear una base de conocimiento sólida, mantenible y preparada para acompañar toda una vida de aprendizaje en la cocina.
+
+El conocimiento culinario es un patrimonio personal. NovaCoquinaria existe para preservarlo, enriquecerlo y hacerlo útil durante toda la vida.

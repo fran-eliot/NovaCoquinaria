@@ -55,10 +55,9 @@ Ejemplos:
 
 Documentos existentes que todavía no desarrollan suficientemente su contenido.
 
-| Documento      | Observación         | Prioridad |
-| -------------- | ------------------- | :-------: |
-| Curry base     | Documento esqueleto |    Alta   |
-| Vinagreta base | Documento esqueleto |    Alta   |
+| Documento | Observación | Prioridad |
+|-----------|-------------|:---------:|
+| Vinagreta base | Documento esqueleto sin reutilización | Alta |
 
 ---
 
@@ -68,7 +67,7 @@ Documentos correctamente documentados, pero apenas utilizados desde otros elemen
 
 | Documento      | Observación                     |
 | -------------- | ------------------------------- |
-| Curry amarillo | Sin reutilización significativa |
+
 
 ---
 
@@ -90,7 +89,6 @@ Dominios culinarios cuyo conocimiento reutilizable resulta insuficiente para sop
 
 Ejemplos actuales:
 
-* Currys.
 * Cocina mediterránea.
 
 ---
@@ -110,8 +108,7 @@ Documentos cuyo contenido requiere una revisión completa de:
 
 ## Prioridad alta
 
-* Completar `Curry base`.
-* Completar `Vinagreta base`.
+* Completar Vinagreta base.
 * Documentar la técnica de deglasado.
 * Documentar la técnica de reducción.
 
@@ -119,8 +116,7 @@ Documentos cuyo contenido requiere una revisión completa de:
 
 ## Prioridad media
 
-* Incrementar la reutilización de `Curry amarillo`.
-* Ampliar el dominio de currys.
+* Consolidar variantes del dominio Currys.
 * Revisar cobertura del dominio mediterráneo.
 
 ---
@@ -129,6 +125,23 @@ Documentos cuyo contenido requiere una revisión completa de:
 
 * Revisiones editoriales generales.
 * Ampliación progresiva de ingredientes secundarios.
+
+---
+
+# Deuda resuelta
+
+## Dominio Currys
+
+Durante la versión actual se han resuelto los siguientes elementos de deuda:
+
+- Compleción de la plantilla **Curry base**.
+- Documentación del ingrediente **Leche de coco**.
+- Integración de **Curry amarillo** dentro del dominio.
+- Creación de **REC-0017 · Curry amarillo de pollo** como receta de referencia.
+- Eliminación de advertencias semánticas del dominio.
+- Integración completa en el Knowledge Graph.
+
+El dominio Currys dispone ahora de una base sólida para desarrollar nuevas variantes reutilizando el conocimiento existente.
 
 ---
 
@@ -159,6 +172,10 @@ Cada elemento podrá:
 * eliminarse cuando deje de ser relevante.
 
 No existe el objetivo de mantener este documento vacío.
+
+La aparición de nueva deuda no implica un deterioro del proyecto.
+
+Por el contrario, refleja la evolución natural del conocimiento y permite priorizar de forma objetiva las futuras mejoras del SGCC.
 
 Su función es reflejar de forma transparente las áreas donde el conocimiento puede seguir mejorando.
 
