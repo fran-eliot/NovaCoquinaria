@@ -6,7 +6,7 @@ titulo: Especificación de Colecciones de Conocimiento
 version: 1.0
 estado: estable
 ultima_revision: 2026-07-10
----------------------------
+---
 
 # Especificación de Colecciones de Conocimiento
 
@@ -222,8 +222,8 @@ Ejemplo:
 ```markdown
 ## Técnicas
 
-- [x] [Cocinar al wok](../../00_Bases/03_Tecnicas/wok.md)
-- [x] [Saltear](../../00_Bases/03_Tecnicas/saltear.md)
+- [x] [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)
+- [x] [Saltear](../00_Bases/03_Tecnicas/saltear.md)
 - [ ] Gestión del calor
 ```
 
@@ -342,7 +342,7 @@ No contiene el conocimiento que organiza.
 
 ## Referencias
 
-* [ADR-0015 · Desarrollo del conocimiento mediante colecciones](adr/ADR-0015-desarrollo-del-conocimiento-mediante-colecciones.md)
+* [ADR-0015 · Desarrollo del conocimiento mediante colecciones](./adr/ADR-0015-arquitectura-basada-en-reutilizacion-del-conocimiento.md)
 * [Arquitectura](ARQUITECTURA.md)
 * [Especificación de documentos](../ESPECIFICACION_DE_DOCUMENTOS.md)
 * [Gestión del conocimiento](adr/ADR-0014-gestion-del-conocimiento.md)

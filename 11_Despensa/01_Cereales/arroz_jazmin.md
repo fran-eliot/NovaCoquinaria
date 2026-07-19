@@ -224,11 +224,11 @@ Combina especialmente bien con:
 ## Plantillas
 
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 
 ## Recetas
 
-- [Curry amarillo de pollo](../../05_Carnes/curry_amarillo_pollo.md)
+- [Curry amarillo de pollo](../../05_Carnes/curry_amarillo_de_pollo.md)
 - Arroz frito con huevo — pendiente
 - Arroz frito con pollo — pendiente
 - Arroz frito con gambas — pendiente
@@ -268,7 +268,7 @@ Cuando se utiliza como acompañamiento debe conservar su aroma y su textura tier
 ## Plantillas
 
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 
 ## Tablas
 

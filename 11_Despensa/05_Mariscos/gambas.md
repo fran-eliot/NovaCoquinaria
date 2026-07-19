@@ -321,7 +321,7 @@ Combinan especialmente bien con:
 
 ## Plantillas
 
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 
 ## Recetas
@@ -355,7 +355,7 @@ Combinan especialmente bien con:
 
 ## Plantillas
 
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 
 ## Tablas

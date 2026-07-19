@@ -1,5 +1,6 @@
 ---
 id: REC-0001
+tipo: receta
 titulo: Arroz chaufa
 descripcion: Versión peruana del arroz frito de la cocina chifa, elaborada con arroz salteado al wok, cerdo, huevo y cebolleta.
 categoria: Arroces
@@ -19,7 +20,7 @@ raciones: 2
 estado: Estable
 version: 2.0.0
 fecha_creacion: 2026-07-03
-fecha_actualizacion: 2026-07-17
+ultima_revision: 2026-07-17
 autor: NovaCoquinaria
 ---
 
