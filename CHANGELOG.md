@@ -1,161 +1,227 @@
 # CHANGELOG
 
-Todas las modificaciones relevantes del proyecto **NovaCoquinaria / GASTRO** se documentarán en este archivo.
+Todas las modificaciones relevantes de **NovaCoquinaria** se documentan en este archivo.
 
-El formato está inspirado en **Keep a Changelog**, adaptado a las necesidades del proyecto.
+El formato está inspirado en **Keep a Changelog**, adaptado a las necesidades del proyecto y complementado por la documentación de gobernanza del SGCC.
+
+---
+
+# Propósito
+
+El CHANGELOG registra los cambios funcionales introducidos en cada versión del proyecto.
+
+Debe responder únicamente a la pregunta:
+
+> **¿Qué cambió en esta versión?**
+
+No explica el contexto histórico (BITÁCORA), el estado actual (PROJECT_STATUS) ni los objetivos de cada versión (RELEASES).
 
 ---
 
 # Tipos de cambios
 
+Las modificaciones se clasifican utilizando las siguientes categorías.
+
 ## Añadido
 
-Nuevos documentos, recetas, técnicas, ingredientes, tablas o módulos.
-
-## Modificado
-
-Cambios funcionales importantes, reorganización de documentos o cambios de estructura.
+Nuevas funcionalidades, documentos, herramientas o módulos.
 
 ## Mejorado
 
-Ampliaciones, explicaciones más completas, nuevas referencias cruzadas o mejoras documentales.
+Mejoras funcionales, ampliaciones del conocimiento o incremento de la reutilización.
+
+## Modificado
+
+Cambios de comportamiento, reorganizaciones o refactorizaciones relevantes.
 
 ## Corregido
 
-Corrección de errores, cantidades, tiempos, enlaces, ortografía o referencias.
+Corrección de errores, inconsistencias o problemas detectados.
 
 ## Eliminado
 
-Documentos retirados, información obsoleta o duplicidades eliminadas.
+Contenido obsoleto, duplicado o retirado del proyecto.
 
 ---
 
-# Versionado
+# Política de versionado
 
-El proyecto sigue versionado semántico adaptado:
+NovaCoquinaria utiliza **Semantic Versioning (SemVer)**.
 
 ```text
 MAJOR.MINOR.PATCH
 ```
 
-Ejemplos:
+Donde:
 
-```text
-1.0.0
-1.1.0
-1.1.1
-2.0.0
-```
+- **MAJOR** → cambios incompatibles o evolución arquitectónica significativa.
+- **MINOR** → nuevas funcionalidades compatibles.
+- **PATCH** → correcciones, mejoras y mantenimiento.
 
 ---
 
 # Historial
 
+## [1.4.0] - 2026-07-11
+
+### Añadido
+
+- Documento `DEVELOPMENT_WORKFLOW.md`.
+- `KNOWLEDGE_STRATEGY.md`.
+- `KNOWLEDGE_DEBT.md`.
+- `KNOWLEDGE_MATURITY.md`.
+- Marco completo de gobernanza del conocimiento.
+
+### Mejorado
+
+- Consolidación de la documentación estratégica.
+- Separación definitiva entre arquitectura, gobernanza y conocimiento.
+- Definición del workflow oficial de desarrollo del SGCC.
+
+### Modificado
+
+- El proyecto entra en una nueva fase centrada en la expansión sistemática del conocimiento culinario.
+
+---
+
 ## [1.3.0] - 2026-07-09
 
 ### Añadido
 
-* Primer Knowledge Graph de NovaCoquinaria.
-* Modelo `KnowledgeGraph` para representar relaciones entre documentos.
-* Generador Mermaid del grafo documental.
-* Estadísticas avanzadas del grafo.
-* Detección de conocimiento reutilizable huérfano.
-* Validación semántica básica del SGCC.
-* Reglas semánticas separadas en `semantic_rules.py`.
+- Primer Knowledge Graph de NovaCoquinaria.
+- Modelo `KnowledgeGraph`.
+- Generación automática del grafo Mermaid.
+- Estadísticas avanzadas del grafo.
+- Detección de conocimiento reutilizable huérfano.
+- Validación semántica básica.
+- Reglas semánticas separadas en `semantic_rules.py`.
 
 ### Mejorado
 
-* El modelo `Document` incorpora identidad y etiqueta de grafo.
-* Las herramientas dejan de trabajar solo con rutas y pasan a operar sobre entidades documentales.
-* Se mejora la trazabilidad entre recetas, ingredientes, técnicas, plantillas y tablas.
+- El modelo documental incorpora identidad lógica.
+- Las herramientas trabajan sobre entidades documentales y no únicamente sobre archivos.
+- Incremento de la trazabilidad entre documentos.
 
 ---
 
-## [1.2.0] - 2026-07-08
+## [1.2.0] - 2026-07-09
 
 ### Añadido
 
-* Framework de herramientas del SGCC.
-* Validación de Front Matter.
-* Validación de identificadores únicos.
-* Validación de enlaces internos.
-* Ejecución unificada con `validate_all.py`.
-* Estadísticas básicas del repositorio.
-* Documento base `Mise en place`.
+- Framework documental.
+- Validación de Front Matter.
+- Validación de identificadores únicos.
+- Validación de enlaces internos.
+- Pipeline `validate_all.py`.
+- Estadísticas básicas del repositorio.
+- Documento base `Mise en place`.
 
 ### Mejorado
 
-* Introducción de un pipeline local de calidad.
-* Separación entre automatización, validación y generación.
+- Separación entre validación, generación y automatización.
+- Introducción del primer Quality Gate documental.
 
 ---
 
-## [1.0.0] - 2026-07-04
+## [1.1.0] - 2026-07-07
 
 ### Añadido
 
-* Arquitectura documental completa del proyecto.
-* Documentos principales:
-
-  * `README.md`
-  * `GUIA_DE_ESTILO.md`
-  * `ESPECIFICACION_DE_DOCUMENTOS.md`
-  * `CONTRIBUTING.md`
-  * `CHANGELOG.md`
-  * `LICENSE.md`
-* Documentación estratégica:
-
-  * `docs/ARQUITECTURA.md`
-  * `docs/VISION.md`
-  * `docs/ROADMAP.md`
-* ADR fundacionales.
-* Módulo `98_Tablas` con tablas de referencia culinaria.
-* Módulo `00_Bases` con fundamentos y técnicas iniciales.
-* Módulo `11_Despensa` con ingredientes fundamentales, especialmente de cocina asiática.
-* Módulo `12_Plantillas` con patrones culinarios reutilizables.
-* Colección inicial de recetas normalizadas.
+- Portal basado en MkDocs Material.
+- Landing Page personalizada.
+- Identidad visual.
+- Logo.
+- Favicon.
+- Navegación principal.
+- Generación automática de `site_docs`.
 
 ### Mejorado
 
-* Separación entre recetas, técnicas, ingredientes, tablas y plantillas.
-* Uso de Front Matter YAML en documentos estructurados.
-* Uso de identificadores únicos y estables.
-* Referencias cruzadas entre documentos.
-* Reutilización del conocimiento culinario para evitar duplicidades.
-* Organización del repositorio como base de conocimiento, no como recetario plano.
+- Experiencia de navegación.
+- Organización de la documentación publicada.
+- Preparación para GitHub Pages.
+
+---
+
+## [1.0.0] - 2026-07-05
+
+### Añadido
+
+- Arquitectura documental completa.
+- Documentación estratégica.
+- ADR fundacionales.
+- Organización modular del SGCC.
+- Bases culinarias iniciales.
+- Despensa.
+- Patrones reutilizables.
+- Tablas.
+- Primer conjunto de recetas normalizadas.
+
+### Mejorado
+
+- Referencias cruzadas.
+- Identificadores estables.
+- Front Matter YAML.
+- Modelo documental reutilizable.
 
 ### Modificado
 
-* Evolución del proyecto desde **GASTRO** como repositorio personal hacia **NovaCoquinaria** como marca y producto documental.
-* Refactorización de la estructura inicial para soportar crecimiento modular.
-* Normalización de las recetas originales siguiendo el modelo del SGCC.
+- Evolución desde un repositorio de recetas hacia un Sistema de Gestión del Conocimiento Culinario.
+
+---
+
+## [0.1.0] - 2026-06-30
+
+### Añadido
+
+- Estructura inicial del repositorio.
+- Primer README.
+- Primeras recetas.
+- Primeras bases culinarias.
+- Organización inicial del proyecto.
 
 ---
 
 # Próximas versiones
 
-## [1.1.0] - Pendiente
+## [2.0.0]
 
-Objetivos posibles:
+Objetivos previstos:
 
-* Revisión editorial completa.
-* Validación de enlaces relativos.
-* Mejora de Front Matter.
-* Nuevas recetas basadas en plantillas existentes.
-* Primeras automatizaciones de validación.
-* Preparación para publicación web con MkDocs.
+- Plataforma software.
+- API REST.
+- Motor de búsqueda semántica.
+- Planificador semanal.
+- Lista inteligente de la compra.
+- Integración con IA.
 
 ---
 
-# Criterios
+# Criterios de registro
 
-Registrar únicamente cambios significativos.
+Registrar únicamente cambios con impacto funcional o arquitectónico.
 
 No registrar:
 
-* pequeñas correcciones tipográficas;
-* cambios de formato sin impacto;
-* modificaciones temporales.
+- correcciones tipográficas;
+- cambios de formato;
+- reorganizaciones menores;
+- modificaciones temporales;
+- trabajo en progreso.
 
-El objetivo del historial es reflejar la evolución funcional del repositorio.
+El objetivo es mantener un historial claro, estable y útil para comprender la evolución funcional del proyecto.
+
+---
+
+# Relación con otros documentos
+
+Este documento complementa:
+
+- [RELEASES](docs/management/RELEASES.md)
+- [BITACORA](docs/management/BITACORA.md)
+- [PROJECT_STATUS](docs/management/PROJECT_STATUS.md)
+
+No sustituye a ninguno de ellos.
+
+Su responsabilidad consiste exclusivamente en registrar **qué cambios relevantes incorpora cada versión publicada**.
 

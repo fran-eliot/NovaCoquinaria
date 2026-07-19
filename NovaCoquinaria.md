@@ -1,16 +1,16 @@
 # NovaCoquinaria
 
-> Más que un recetario: un Sistema de Gestión del Conocimiento Culinario.
+> Construyendo un Sistema de Gestión del Conocimiento Culinario reutilizable, evolutivo e independiente de la tecnología.
 
 ---
 
 # ¿Qué es?
 
-NovaCoquinaria es un proyecto personal cuyo objetivo es construir una base de conocimiento culinario reutilizable.
+NovaCoquinaria es un proyecto personal de ingeniería del conocimiento cuyo objetivo es construir y mantener un Sistema de Gestión del Conocimiento Culinario (SGCC), cuya arquitectura conceptual recibe el nombre de GASTRO.
 
-No pretende almacenar recetas aisladas.
+No se centra en almacenar recetas, sino en capturar, estructurar, relacionar y reutilizar conocimiento culinario de forma modular, evolutiva e independiente de cualquier tecnología concreta.
 
-Pretende organizar el conocimiento culinario de forma modular para que pueda reutilizarse, evolucionar y servir como base para futuras aplicaciones.
+El proyecto combina principios de cocina, gestión documental e ingeniería del software para preservar conocimiento útil durante toda la vida.
 
 ---
 
@@ -28,37 +28,67 @@ NovaCoquinaria evita esa duplicación.
 
 Cada conocimiento se documenta una sola vez y las recetas lo reutilizan mediante referencias.
 
+El objetivo es reducir la duplicación, mejorar la consistencia y facilitar la evolución del conocimiento a largo plazo.
+
 ---
 
 # Filosofía
 
 Los principios fundamentales del proyecto son:
 
+- El conocimiento es el activo principal.
+
+- Markdown constituye la fuente única de verdad.
+
 - Documentar una sola vez.
+
 - Reutilizar siempre.
-- Evitar duplicidades.
-- Evolucionar mediante pequeñas mejoras.
-- Mantener una arquitectura clara.
+
+- El modelo lógico es independiente del repositorio.
+
+- El conocimiento evoluciona mediante pequeñas mejoras.
+
+- Las decisiones arquitectónicas se documentan mediante ADR.
+
+
+---
+
+# Qué hace diferente a NovaCoquinaria
+
+NovaCoquinaria organiza el conocimiento en entidades reutilizables.
+
+Las recetas representan únicamente una aplicación concreta de dicho conocimiento.
+
+El conocimiento se estructura mediante:
+
+- ingredientes;
+- técnicas;
+- patrones culinarios;
+- platos canónicos;
+- variantes;
+- tablas de referencia.
+
+Todos ellos forman una red de conocimiento conectada mediante relaciones explícitas.
+
+Cada entidad puede evolucionar de forma independiente sin afectar a la organización global del conocimiento.
 
 ---
 
 # Objetivos
 
-## Corto plazo
+## Objetivos del proyecto
 
-- Consolidar la gobernanza del conocimiento.
-- Resolver deuda de conocimiento prioritaria.
-- Ampliar bases, técnicas, ingredientes y plantillas reutilizables.
+- preservar conocimiento culinario verificable y reutilizable;
+- reutilizar conocimiento;
+- facilitar el aprendizaje continuo;
+- servir de base para herramientas futuras.
 
-## Medio plazo
+## Próximos hitos
 
-- Mejorar la publicación y navegación del portal.
-- Enriquecer el Knowledge Graph.
-- Ampliar el catálogo de recetas sobre conocimiento consolidado.
-
-## Largo plazo
-
-Convertirse en una plataforma completa de gestión del conocimiento culinario.
+- consolidar el modelo de conocimiento;
+- ampliar el grafo;
+- automatizar validaciones;
+- enriquecer las colecciones culinarias.
 
 ---
 
@@ -74,6 +104,26 @@ NovaCoquinaria apuesta por:
 
 ---
 
+## GASTRO
+
+La arquitectura interna que soporta NovaCoquinaria recibe el nombre de GASTRO (Sistema de Gestión del Conocimiento Culinario).
+
+GASTRO define el modelo conceptual, las entidades, las relaciones y los principios que permiten organizar el conocimiento culinario de forma coherente y reutilizable.
+
+```text
+NovaCoquinaria
+       │
+       ▼
+GASTRO (SGCC)
+       │
+ ┌─────┼───────────────┐
+ ▼     ▼               ▼
+
+Conocimiento  Documentación  Herramientas
+```
+
+---
+
 # Público
 
 Actualmente el proyecto está orientado principalmente a su autor.
@@ -82,24 +132,49 @@ Sin embargo, se diseña desde el principio para que pueda resultar útil a otras
 
 ---
 
-# Tecnologías
+# Arquitectura Técnica
+
+Para conocer la arquitectura, consulte [ARQUITECTURA](./docs/ARQUITECTURA.md)
 
 El proyecto utiliza actualmente:
 
-- Python
-- PyYAML
+## Modelo Documental
+
+- Markdown
+- Front Matter YAML
+- Referencias cruzadas
 - Mermaid
 - Knowledge Graph documental
-- Markdown
+
+## Gobierno
+
+- Architecture Decision Records (ADR)
+- Semantic Versioning
+
+## Herramientas e infraestructura
+
+- Python
+- PyYAML
+- MkDocs
 - MkDocs Material
+- Knowledge Graph
 - Git
 - GitHub
-- Semantic Versioning
-- Architecture Decision Records (ADR)
 
 ---
 
 # Estado
+
+NovaCoquinaria ha superado la fase de definición inicial.
+
+Actualmente dispone de:
+
+- arquitectura documental estable;
+- modelo de conocimiento formal;
+- herramientas automáticas de validación;
+- Knowledge Graph;
+- publicación mediante MkDocs;
+- estrategia de evolución documentada.
 
 Consultar:
 
@@ -110,12 +185,26 @@ Consultar:
 - [Knowledge Debt](./docs/management/KNOWLEDGE_DEBT.md)
 - [Knowledge Maturity](./docs/management/KNOWLEDGE_MATURITY.md)
 
+El proyecto continúa evolucionando mediante un enfoque incremental basado en documentación, reutilización y mejora continua.
+
+---
+
+# Más que un repositorio
+
+NovaCoquinaria no pretende organizar documentos.
+
+Pretende organizar conocimiento.
+
+Los documentos son únicamente la representación persistente de ese conocimiento.
+
+Cualquier herramienta futura —sitio web, aplicación móvil, API o asistente basado en inteligencia artificial— deberá utilizar la misma base de conocimiento sin modificar su estructura conceptual.
+
 ---
 
 # Visión
 
-NovaCoquinaria aspira a convertirse en una plataforma abierta de conocimiento culinario donde la documentación y el software evolucionen conjuntamente.
+NovaCoquinaria aspira a convertirse en una plataforma abierta de ingeniería del conocimiento culinario donde documentación, herramientas y software evolucionen conjuntamente sobre una misma base de conocimiento.
 
 ---
 
-> Documentar una vez. Reutilizar siempre.
+> Documentar una vez. Relacionar siempre. Reutilizar continuamente

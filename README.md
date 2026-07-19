@@ -10,7 +10,9 @@
 
 Su objetivo no es únicamente almacenar recetas, sino capturar, organizar y reutilizar conocimiento culinario de forma modular, mantenible y preparada para evolucionar durante años.
 
-El sistema interno recibe el nombre de **GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)**.
+La arquitectura interna del proyecto recibe el nombre de **GASTRO (Sistema de Gestión del Conocimiento Culinario, SGCC)**.
+
+GASTRO constituye el modelo conceptual que permite capturar, organizar, relacionar y reutilizar conocimiento culinario de forma estructurada, convirtiendo NovaCoquinaria en una base de conocimiento evolutiva y no simplemente en un recetario digital.
 
 ---
 
@@ -22,11 +24,48 @@ Las técnicas, ingredientes, tablas y plantillas se documentan una sola vez y se
 
 Una receta funciona como un caso de uso: combina conocimientos ya existentes para elaborar un plato concreto.
 
+Para comprender la filosofía del proyecto, consulte [NovaCoquinaria](./NovaCoquinaria.md)
+
+---
+
+# Arquitectura conceptual
+
+NovaCoquinaria distingue claramente dos niveles:
+
+## Conocimiento culinario
+
+Representa el dominio funcional del proyecto:
+
+- ingredientes;
+- técnicas;
+- patrones culinarios;
+- platos canónicos;
+- variantes;
+- tablas de referencia.
+
+Estos elementos forman una red de conocimiento reutilizable donde cada documento representa una entidad única.
+
+## Infraestructura del conocimiento
+
+Proporciona el soporte para mantener y evolucionar el SGCC:
+
+- arquitectura documental;
+- ADR (Architecture Decision Records);
+- herramientas de validación;
+- Knowledge Graph;
+- portal MkDocs;
+- documentación de gobierno;
+- automatización.
+
+Esta separación permite que el conocimiento evolucione independientemente de la estructura física del repositorio.
+
 ---
 
 # Organización del repositorio
 
 ```text
+CONOCIMIENTO CULINARIO
+
 00_Bases/
         Fundamentos y técnicas culinarias
 
@@ -53,8 +92,14 @@ Una receta funciona como un caso de uso: combina conocimientos ya existentes par
 99_Notas/
         Ideas, experimentos y pendientes
 
+────────────────────────────
+
+INFRAESTRUCTURA
+
 docs/
-        Arquitectura, visión, roadmap y ADR
+tools/
+site_docs/
+mkdocs.yml
 ```
 
 ---
@@ -140,6 +185,14 @@ Ningún documento se considera definitivo.
 
 Los documentos se estructuran para poder ser usados en el futuro por una web, aplicación, buscador o asistente con IA.
 
+## 6. Modelo lógico independiente
+
+El conocimiento se define mediante entidades y relaciones, no por la ubicación física de los documentos dentro del repositorio.
+
+## 7. El conocimiento forma una red
+
+NovaCoquinaria modela el conocimiento como un grafo semántico donde ingredientes, técnicas, patrones, platos y variantes se relacionan entre sí para maximizar la reutilización y minimizar la duplicación.
+
 ---
 
 ## Calidad y automatización
@@ -179,7 +232,7 @@ python tools/generate_graph.py
 python tools/generate_graph_stats.py
 ```
 
-El grafo constituye una representación estructural del conocimiento del SGCC y sirve como base para futuras capacidades de análisis e inteligencia.
+El grafo constituye la representación semántica del SGCC y permite evolucionar hacia capacidades avanzadas como navegación por relaciones, análisis de reutilización, búsqueda contextual e inferencia sobre el conocimiento culinario.
 
 ---
 
@@ -187,14 +240,24 @@ El grafo constituye una representación estructural del conocimiento del SGCC y 
 
 Documentos principales:
 
-* [Guía de estilo](./GUIA_DE_ESTILO.md)
-* [Especificación de documentos](./ESPECIFICACION_DE_DOCUMENTOS.md)
-* [Contribución](./CONTRIBUTING.md)
-* [Changelog](./CHANGELOG.md)
-* [Arquitectura](./docs/ARQUITECTURA.md)
-* [Visión](./docs/VISION.md)
-* [Roadmap](./docs/ROADMAP.md)
-* [ADR](./docs/adr/)
+## Documentación fundacional
+
+- [Visión](./docs/VISION.md)
+- [Arquitectura](./docs/ARQUITECTURA.md)
+- [Modelo de conocimiento](./docs/MODELO_DE_CONOCIMIENTO.md)
+- [Roadmap](./docs/ROADMAP.md)
+
+## Gobierno del proyecto
+
+- [ADR](./docs/adr/)
+- [Changelog](./CHANGELOG.md)
+- [Contribución](./CONTRIBUTING.md)
+
+## Convenciones
+
+- [Guía de estilo](./GUIA_DE_ESTILO.md)
+- [Especificación de documentos](./ESPECIFICACION_DE_DOCUMENTOS.md)
+
 
 ---
 
@@ -209,9 +272,19 @@ El proyecto dispone de:
 - Knowledge Graph documental;
 - validación semántica básica;
 - gobernanza mediante estrategia, deuda y madurez del conocimiento;
-- colección inicial de conocimiento culinario normalizado.
+- colección inicial de conocimiento culinario normalizado;
+- modelo de conocimiento formalizado;
+- separación entre modelo lógico y estructura física del conocimiento;
 
 El proyecto inicia ahora la consolidación de dominios culinarios reutilizables como siguiente etapa de evolución.
+
+---
+
+# Evolución
+
+NovaCoquinaria se desarrolla de forma iterativa mediante principios de ingeniería del conocimiento.
+
+Cada nueva funcionalidad, modelo o cambio arquitectónico relevante se documenta mediante ADR y pasa a formar parte del Sistema de Gestión del Conocimiento Culinario (SGCC), garantizando la coherencia y evolución sostenible del proyecto.
 
 ---
 

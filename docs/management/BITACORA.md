@@ -1,225 +1,315 @@
+---
+id: DOC-0014
+titulo: Bitácora del Proyecto
+tipo: gestion
+version: 1.1
+estado: estable
+ultima_revision: 2026-07-19
+---
+
 # Bitácora del Proyecto
 
-> Registro cronológico de los principales hitos de NovaCoquinaria.
+> Registro cronológico de los principales hitos que han marcado la evolución de NovaCoquinaria.
 
 ---
 
-## Propósito
+# Propósito
 
-La Bitácora documenta la evolución del proyecto a lo largo del tiempo.
+La Bitácora documenta la historia del proyecto.
 
-No pretende sustituir al **CHANGELOG** ni al historial de Git, sino explicar los hitos que han marcado la evolución de NovaCoquinaria y las decisiones más relevantes adoptadas durante su desarrollo.
+Su objetivo es explicar cómo ha evolucionado NovaCoquinaria desde su creación hasta la actualidad, recogiendo los hitos que han definido su identidad, arquitectura y metodología.
+
+No sustituye al **CHANGELOG**, al historial de Git ni a las **RELEASES**.
+
+Cada entrada responde a una pregunta distinta:
+
+> **¿Qué ocurrió y por qué fue importante para la evolución del proyecto?**
 
 ---
 
-## Criterios de registro
+# Criterios de registro
 
-La Bitácora solo recoge:
+La Bitácora únicamente recoge acontecimientos que modifican significativamente el proyecto.
 
-- Releases.
+Se registran:
+
+- Releases importantes.
 - Cambios arquitectónicos.
-- Nuevos módulos.
-- Cambios de filosofía.
+- Cambios metodológicos.
+- Incorporación de nuevos marcos de trabajo.
 - Grandes refactorizaciones.
-- Incorporación de nuevas tecnologías.
+- Evolución del modelo de conocimiento.
+- Cambios de filosofía del proyecto.
+- Nuevas capacidades relevantes.
 
-No registra cambios menores ni tareas cotidianas.
+No se registran:
+
+- tareas cotidianas;
+- pequeños cambios documentales;
+- correcciones menores;
+- commits individuales;
+- trabajo en progreso.
 
 ---
 
-# 2026
+# Historia del proyecto
 
-## 2026-06-29 · Inicio del proyecto
+## 2026-06-29 · Nacimiento de NovaCoquinaria
+
+### Qué ocurrió
 
 Se crea el repositorio **NovaCoquinaria** con el objetivo inicial de organizar una colección personal de recetas utilizando Markdown como formato principal de documentación.
 
+### Importancia
+
+Este día marca el origen del proyecto y el comienzo de una evolución que posteriormente transformará un simple recetario en un Sistema de Gestión del Conocimiento Culinario.
+
 ---
 
-## 2026-06-30 · Release v0.1.0
+## 2026-06-30 · Release v0.1.0 · Fundación del proyecto
 
-Primera versión funcional del proyecto.
+### Qué ocurrió
 
-### Hitos
+Se publica la primera versión funcional.
 
-- Creación de la estructura inicial del repositorio.
-- Primeros documentos base.
+### Principales hitos
+
+- Creación de la estructura inicial.
+- Primeros documentos.
 - Primeras recetas.
 - Primeras bases culinarias.
 - Definición del estilo documental.
+
+### Importancia
+
+Se establecen los primeros cimientos sobre los que evolucionará toda la arquitectura del proyecto.
 
 ---
 
 ## 2026-07-01 · Nacimiento del SGCC
 
-El proyecto evoluciona desde un simple recetario hacia un **Sistema de Gestión del Conocimiento Culinario (SGCC)**.
+### Qué ocurrió
 
-### Decisiones
+NovaCoquinaria deja de concebirse como un simple repositorio de recetas y pasa a definirse como un **Sistema de Gestión del Conocimiento Culinario (SGCC)**.
+
+### Principales decisiones
 
 - Separación entre recetas y conocimiento reutilizable.
-- Introducción de Bases, Despensa, Plantillas y Tablas.
 - Organización modular del conocimiento.
+- Aparición de entidades especializadas.
+- Inicio del enfoque basado en reutilización.
+
+### Importancia
+
+Este constituye probablemente el cambio conceptual más importante de toda la historia del proyecto.
 
 ---
 
-## 2026-07-03 · Arquitectura documental
+## 2026-07-03 · Consolidación de la arquitectura documental
 
-Se consolida la arquitectura documental del proyecto.
+### Qué ocurrió
 
-### Hitos
+Se define la arquitectura documental que gobernará el proyecto.
+
+### Principales hitos
 
 - Incorporación de ADR.
 - Front Matter YAML.
 - Sistema de referencias cruzadas.
-- Estructura definitiva del repositorio.
+- Organización estructurada del repositorio.
+
+### Importancia
+
+La documentación deja de ser un conjunto de archivos para convertirse en un sistema arquitectónico coherente.
 
 ---
 
-## 2026-07-05 · Release v1.0.0
+## 2026-07-05 · Release v1.0.0 · Primera versión estable
 
-Primera versión estable.
+### Qué ocurrió
 
-### Hitos
+Se publica la primera versión estable del SGCC.
+
+### Principales hitos
 
 - Arquitectura consolidada.
-- Documentación técnica completa.
-- Base de conocimiento inicial.
-- Publicación de la primera Release.
+- Documentación estratégica.
+- Base inicial de conocimiento.
+- Primera Release oficial.
+
+### Importancia
+
+NovaCoquinaria alcanza un nivel suficiente de estabilidad para comenzar a evolucionar de forma sostenible.
 
 ---
 
-## 2026-07-06 · Portal web
+## 2026-07-06 · Portal documental
 
-Comienza la integración de **MkDocs Material**.
+### Qué ocurrió
 
-### Decisiones
+Comienza la integración del portal basado en MkDocs Material.
 
-- Markdown continúa siendo la fuente de verdad.
-- `site_docs` pasa a generarse automáticamente.
-- MkDocs se utiliza únicamente como herramienta de publicación.
+### Principales decisiones
+
+- Markdown continúa siendo la única fuente de verdad.
+- `site_docs` pasa a ser un artefacto generado.
+- Separación entre documentación fuente y documentación publicada.
+
+### Importancia
+
+Se establece una arquitectura de publicación completamente desacoplada del conocimiento original.
 
 ---
 
 ## 2026-07-06 · Identidad visual
 
-Se incorpora la identidad gráfica del proyecto.
+### Qué ocurrió
 
-### Hitos
+El proyecto incorpora su primera identidad gráfica.
 
-- Landing page.
+### Principales hitos
+
+- Landing Page.
 - Tarjetas de navegación.
 - Logo.
 - Favicon.
 - Tema claro/oscuro.
 - Mejora de la experiencia de usuario.
 
----
+### Importancia
 
-### 2026-07-07
-
-Release v1.1.0 publicada.
-
-Se consolida:
-
-- Portal MkDocs
-- Identidad visual
-- Documentación de gestión
-- Continuidad del proyecto
-
-Con esta versión concluye la primera etapa de NovaCoquinaria, centrada en la definición de su arquitectura, la organización del conocimiento culinario y la construcción de una infraestructura documental preparada para evolucionar en futuras versiones.
+NovaCoquinaria comienza a consolidarse también como producto documental.
 
 ---
 
-## 2026-07-09 · Release v1.2.0
+## 2026-07-07 · Release v1.1.0 · Portal documental consolidado
 
-Se incorpora el primer framework de calidad y automatización del SGCC.
+### Qué ocurrió
 
-### Hitos
+Se publica la primera versión centrada en la experiencia de consulta.
 
-- Validación automática de Front Matter.
-- Validación de identificadores únicos.
-- Validación de enlaces internos.
-- Pipeline local `validate_all.py`.
-- Estadísticas básicas del repositorio.
-- Documento base `Mise en place`.
+### Principales hitos
 
----
+- Portal MkDocs.
+- Identidad visual.
+- Documentación de gestión.
+- Continuidad del proyecto.
 
-## 2026-07-09 · Release v1.3.0
+### Importancia
 
-NovaCoquinaria incorpora su primer **Knowledge Graph**.
-
-### Hitos
-
-- Modelo interno `KnowledgeGraph`.
-- Generación de grafo Mermaid.
-- Estadísticas avanzadas del grafo.
-- Detección de conocimiento reutilizable huérfano.
-- Validación semántica básica.
-- Separación de reglas semánticas en `semantic_rules.py`.
-
-Esta versión marca el paso desde un repositorio validado hacia un sistema capaz de analizar relaciones entre documentos.
+Finaliza la primera etapa de construcción de la infraestructura documental.
 
 ---
 
-## 2026-07-11 · Release v1.4.0  Gobernanza del conocimiento
+## 2026-07-09 · Release v1.2.0 · Framework de calidad
 
-### Gobernanza del conocimiento
+### Qué ocurrió
 
-- Definido el modelo de gobernanza del SGCC.
-- Incorporados los documentos:
-  - KNOWLEDGE_STRATEGY
-  - KNOWLEDGE_DEBT
-  - KNOWLEDGE_MATURITY
-- Actualizada la documentación de onboarding y estructura.
-- Consolidada la separación entre arquitectura, gestión y conocimiento.
-- Esta versión marca la transición desde la construcción de la infraestructura documental hacia el desarrollo sistemático del conocimiento culinario.
+Se incorpora el primer marco de validación documental.
+
+### Principales hitos
+
+- Validación automática.
+- Framework de herramientas.
+- Pipeline documental.
+- Estadísticas básicas.
+- Documento base *Mise en place*.
+
+### Importancia
+
+La calidad documental pasa a estar apoyada por herramientas automáticas.
 
 ---
 
-## 2026-07-13 · Marco de gobernanza completado
+## 2026-07-09 · Release v1.3.0 · Knowledge Graph
 
-Se completa el conjunto de documentación estratégica y metodológica del SGCC.
+### Qué ocurrió
 
-### Hitos
+NovaCoquinaria incorpora su primer grafo de conocimiento.
 
-- Incorporación de `DEVELOPMENT_WORKFLOW.md`.
-- Revisión y consolidación de `README.md`.
-- Revisión y consolidación de `VISION.md`.
-- Definición oficial del workflow de desarrollo.
-- Estabilización de la documentación de gobernanza.
-- Inicio de la transición hacia el desarrollo sistemático de dominios culinarios.
+### Principales hitos
 
-Con este hito finaliza la etapa de construcción del marco metodológico del proyecto. A partir de este momento el foco principal de NovaCoquinaria pasa a ser la expansión del conocimiento culinario mediante el desarrollo de dominios reutilizables.
+- Knowledge Graph.
+- Grafo Mermaid.
+- Estadísticas avanzadas.
+- Validación semántica.
+- Detección de conocimiento huérfano.
+
+### Importancia
+
+El proyecto evoluciona desde un repositorio validado hacia un sistema capaz de comprender las relaciones existentes entre sus propios documentos.
+
+---
+
+## 2026-07-11 · Release v1.4.0 · Gobernanza del conocimiento
+
+### Qué ocurrió
+
+Se completa el marco metodológico del SGCC.
+
+### Principales hitos
+
+- Modelo de gobernanza.
+- Estrategia del conocimiento.
+- Gestión de deuda documental.
+- Modelo de madurez.
+- Workflow oficial de desarrollo.
+
+### Importancia
+
+Finaliza la construcción de la infraestructura metodológica del proyecto y comienza la etapa de expansión sistemática del conocimiento culinario.
 
 ---
 
 ## 2026-07-14 · Primer dominio culinario consolidado
 
-Se completa la primera iteración del dominio Currys.
+### Qué ocurrió
 
-### Hitos
+Se completa la primera iteración íntegra del dominio **Currys**.
 
-- Finalización de REC-0017 · Curry amarillo de pollo.
-- Integración del conocimiento reutilizable del dominio.
-- Eliminación de la deuda asociada a Curry base.
+### Principales hitos
+
+- Finalización de la receta canónica.
+- Consolidación del conocimiento reutilizable.
+- Eliminación de la deuda asociada.
 - Integración completa en el Knowledge Graph.
 - Validación documental y semántica sin incidencias.
 
-El dominio Currys constituye la primera validación completa del modelo de desarrollo del SGCC y servirá como referencia para futuros dominios culinarios.
+### Importancia
+
+Este dominio constituye la primera validación completa del modelo metodológico definido por el SGCC y servirá como referencia para el desarrollo de futuros dominios.
 
 ---
 
-## Próximos hitos
+# Próximos hitos
+
+Entre los principales objetivos previstos destacan:
 
 - Publicación mediante GitHub Pages.
-- Automatización del portal.
-- Nuevas colecciones de recetas.
-- Plataforma software.
+- Automatización completa del portal documental.
+- Consolidación de nuevos dominios culinarios.
+- Evolución del Knowledge Graph.
+- Inicio del desarrollo de la plataforma software.
 
 ---
 
-## Referencias
+# Mantenimiento
+
+La Bitácora deberá actualizarse únicamente cuando se produzcan hitos relevantes para la evolución del proyecto.
+
+No es necesario registrar cambios menores o trabajo cotidiano.
+
+---
+
+# Relación con otros documentos
+
+Este documento complementa:
 
 - [PROJECT_STATUS](PROJECT_STATUS.md)
 - [RELEASES](RELEASES.md)
+- [CHANGELOG](../../CHANGELOG.md)
 - [ROADMAP](../ROADMAP.md)
+
+No sustituye a ninguno de ellos.
+
+Su responsabilidad consiste exclusivamente en conservar la memoria histórica de NovaCoquinaria y explicar los acontecimientos que han marcado su evolución.

@@ -2,6 +2,20 @@
 
 > Guía rápida para comprender NovaCoquinaria y comenzar a colaborar en su desarrollo.
 
+Este documento asume que ya se ha leído el README y constituye el siguiente paso recomendado para comenzar a trabajar en el proyecto.
+
+---
+
+# Primeros 10 minutos
+
+Si acabas de incorporarte al proyecto:
+
+1. Lee [README](../../README.md)
+2. Lee [NovaCoquinaria](../../NovaCoquinaria.md)
+3. Consulta [CONTEXT](../../CONTEXT.md)
+4. Revisa [PROJECT_STATUS](./PROJECT_STATUS.md)
+5. Continúa con este documento.
+
 ---
 
 # Objetivo
@@ -26,26 +40,36 @@ Las recetas son únicamente una parte del sistema.
 
 Los principios fundamentales del proyecto son:
 
+- El conocimiento es el activo principal.
+
+- Markdown constituye la fuente única de verdad.
+
 - Documentar una sola vez.
+
 - Reutilizar siempre.
-- Evitar duplicidades.
-- Priorizar la arquitectura sobre la automatización.
-- Mantener Markdown como fuente de verdad.
+
+- El modelo lógico es independiente del repositorio.
+
+- El conocimiento evoluciona mediante pequeñas mejoras.
+
+- Las decisiones arquitectónicas se documentan mediante ADR.
 
 ---
 
-# Organización
+# Modelo de conocimiento
 
-El conocimiento se divide en:
+NovaCoquinaria organiza el conocimiento mediante entidades.
 
-- Bases
-- Recetas
-- Despensa
-- Plantillas
-- Tablas
-- Documentación técnica
+Las principales son:
 
-Cada documento debe tener una única responsabilidad.
+- ingredientes;
+- técnicas;
+- patrones culinarios;
+- platos canónicos;
+- variantes;
+- tablas de referencia.
+
+Cada entidad posee una única responsabilidad y se relaciona con las demás mediante referencias explícitas.
 
 ---
 
@@ -79,12 +103,14 @@ Toda modificación realizada directamente en site_docs se perderá en la siguien
 
 Para comprender el proyecto, consultar en este orden:
 
-1. [PROJECT_STATUS](PROJECT_STATUS.md)
-2. [ARQUITECTURA](../ARQUITECTURA.md)
-3. [ROADMAP](../ROADMAP.md)
-4. [DECISIONS_SUMMARY](DECISIONS_SUMMARY.md)
-5. [BITACORA](BITACORA.md)
-6. [ADR](../adr/README.md)
+1. [README](../../README.md)
+2. [NovaCoquinaria](../../NovaCoquinaria.md)
+3. [CONTEXT](../../CONTEXT.md)
+4. [PROJECT_STATUS](PROJECT_STATUS.md)
+5. [ARQUITECTURA](../ARQUITECTURA.md)
+6. [Modelo de Conocimiento](../MODELO_DE_CONOCIMIENTO.md)
+7. [DECISIONS_SUMMARY](DECISIONS_SUMMARY.md)
+8. [ROADMAP](../ROADMAP.md)
 
 ---
 
@@ -116,6 +142,8 @@ python tools/find_orphans.py
 python tools/validate_semantics.py
 ```
 
+Ningún cambio debe integrarse si compromete la coherencia del modelo de conocimiento, aunque las validaciones automáticas sean satisfactorias.
+
 El Knowledge Graph permite analizar la reutilización y conectividad del conocimiento.
 
 ---
@@ -134,10 +162,18 @@ Consultar:
 
 El proyecto utiliza:
 
+## Gobierno
+
+- ADR.
 - Semantic Versioning.
+
+## Documentación
+
 - Front Matter YAML.
 - Referencias cruzadas.
-- ADR.
+
+## Desarrollo
+
 - Pull Request por funcionalidad.
 - Commits pequeños y descriptivos.
 
@@ -145,13 +181,29 @@ El proyecto utiliza:
 
 # Forma habitual de trabajo
 
-1. Crear rama.
-2. Implementar.
-3. Revisar.
-4. Commit.
-5. Push.
-6. Pull Request.
-7. Merge.
+```text
+Comprender
+
+↓
+
+Diseñar
+
+↓
+
+Documentar
+
+↓
+
+Validar
+
+↓
+
+Relacionar
+
+↓
+
+Integrar
+```
 
 ---
 
@@ -184,6 +236,10 @@ Debe priorizar siempre:
 2. Simplicidad.
 3. Reutilización.
 4. Mantenibilidad.
+
+El asistente debe cuestionar las decisiones cuando detecte incoherencias con la arquitectura o con el modelo de conocimiento.
+
+Su función no es únicamente ejecutar instrucciones, sino contribuir a preservar la calidad del sistema.
 
 ---
 
@@ -219,3 +275,25 @@ Consultar:
 - [RELEASES](RELEASES.md)
 - [ARQUITECTURA](../ARQUITECTURA.md)
 - [ROADMAP](../ROADMAP.md)
+
+---
+
+# Checklist de incorporación
+
+Antes de empezar asegúrate de comprender:
+
+☐ Qué es NovaCoquinaria.
+
+☐ Qué es GASTRO.
+
+☐ Cómo se organiza el conocimiento.
+
+☐ Cuál es la fuente de verdad.
+
+☐ Qué documentos gobiernan el proyecto.
+
+☐ Cómo validar un cambio.
+
+☐ Dónde consultar el estado del proyecto.
+
+☐ Saber cuál es el papel de este documento dentro del sistema documental.
