@@ -1,13 +1,13 @@
 # CONTRIBUTING
 
-> **Versión:** 1.0
+> **Versión:** 2.0
 > **Proyecto:** NovaCoquinaria
 > **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
 ---
 
 # Objetivo
 
-Este documento describe el procedimiento recomendado para incorporar nuevo conocimiento al repositorio GASTRO.
+Este documento describe el procedimiento recomendado para incorporar nuevo conocimiento al proyecto NovaCoquinaria mediante la arquitectura GASTRO.
 
 Aunque actualmente el proyecto tiene un único autor, estas normas garantizan la coherencia, la reutilización del conocimiento y la calidad de la documentación.
 
@@ -15,11 +15,36 @@ Aunque actualmente el proyecto tiene un único autor, estas normas garantizan la
 
 # Filosofía
 
-En GASTRO no se añaden recetas.
+En NovaCoquinaria no se incorporan simplemente documentos.
 
-Se incorpora conocimiento culinario.
+Se incorpora conocimiento.
 
-Cada nueva aportación debe mejorar el repositorio y no limitarse a aumentar el número de documentos.
+Cada contribución debe aumentar, mejorar o relacionar el conocimiento existente antes que incrementar el número de archivos del repositorio.
+
+---
+
+# Flujo de contribución
+
+```text
+Nueva idea
+      │
+      ▼
+¿Existe ya?
+      │
+ ┌────┴────┐
+ │         │
+Sí         No
+ │         │
+Ampliar    Crear entidad
+ │         │
+ └────┬────┘
+      ▼
+Relacionar
+      ▼
+Validar
+      ▼
+Integrar
+```
 
 ---
 
@@ -32,11 +57,13 @@ Antes de crear un documento nuevo, seguir siempre el siguiente proceso.
 Preguntarse:
 
 * ¿Qué estoy documentando?
-* ¿Es realmente una receta?
-* ¿Es una técnica?
 * ¿Es un ingrediente?
+* ¿Es una técnica?
+* ¿Es un patrón culinario?
+* ¿Es un plato canónico?
+* ¿Es una variante?
 * ¿Es una tabla?
-* ¿Es una plantilla reutilizable?
+* ¿Es un documento de arquitectura?
 
 No crear una receta cuando el conocimiento pertenece a otra categoría.
 
@@ -54,23 +81,36 @@ Siempre debe priorizarse ampliar un documento existente frente a crear uno nuevo
 
 ---
 
-## 3. Elegir el tipo de documento
+## 3. Clasificar el conocimiento
+
+Determinar si la información:
+
+- amplía una entidad existente;
+- crea una nueva entidad;
+- establece una nueva relación;
+- corrige conocimiento existente.
+
+Solo después decidir el tipo de documento adecuado.
+
+---
+
+## 4. Elegir el tipo de documento
 
 Seleccionar el tipo adecuado según la especificación del proyecto.
 
 Tipos disponibles:
 
+* Documentación fundacional
 * Arquitectura
-* Base
+* Gestión
+* Entidades del conocimiento (ingredientes, técnicas, patrones, platos canónicos, variantes…)
+* Tabla de referencia
 * Receta
-* Ingrediente
-* Plantilla
-* Tabla
 * Nota
 
 ---
 
-## 4. Redactar
+## 5. Redactar
 
 Escribir el documento respetando:
 
@@ -80,44 +120,46 @@ Escribir el documento respetando:
 
 ---
 
-## 5. Añadir referencias
+## 6. Añadir referencias
 
 Todo documento deberá enlazar aquellos contenidos relacionados que ya existan.
 
 Ejemplos:
 
-* técnicas
-* ingredientes
-* recetas
-* tablas
-* plantillas
+- ingredientes
+- técnicas
+- patrones culinarios
+- platos canónicos
+- variantes
+- tablas
 
 ---
 
-## 6. Revisar
+## 7. Revisar
 
 Antes de considerar terminado un documento comprobar:
 
 * ortografía
 * claridad
 * estructura
-* coherencia
+* coherencia con la documentación existente
 * ausencia de duplicidades
 * referencias internas
 
 ---
 
-## 7. Validar reutilización
+## 8. Validar reutilización
 
 Comprobar que el documento:
 
 - reutiliza conocimiento existente;
 - no introduce duplicidades;
-- enlaza las técnicas, ingredientes o plantillas correspondientes.
+- enlaza las entidades relacionadas;
+- mantiene la coherencia del modelo de conocimiento.
 
 ---
 
-## 8. Integrar
+## 9. Integrar
 
 Si el documento modifica conocimiento ya existente deberá actualizarse:
 
@@ -125,6 +167,7 @@ Si el documento modifica conocimiento ya existente deberá actualizarse:
 * índices
 * documentos relacionados
 * historial de cambios
+* Knowledge Graph
 
 ---
 
@@ -175,6 +218,7 @@ Antes de incorporar un documento responder afirmativamente a todas estas pregunt
 * ¿Evita duplicidades?
 * ¿Incluye referencias?
 * ¿Aporta conocimiento útil?
+* ¿Respeta el modelo de conocimiento del proyecto?
 
 Si alguna respuesta es negativa, revisar el documento.
 
@@ -199,6 +243,16 @@ La mejora continua forma parte de la filosofía del proyecto.
 
 Antes de guardar cualquier documento formular siempre esta pregunta:
 
-> **¿Estoy mejorando la base de conocimiento o simplemente estoy añadiendo información?**
+> **¿Estoy aumentando el conocimiento del sistema? ¿O simplemente estoy añadiendo información?**
 
 Si únicamente se está añadiendo información, debe replantearse el diseño del documento.
+
+---
+
+## Documentos relacionados
+
+- [CONTEXT](./CONTEXT.md)
+- [MANIFESTO](./MANIFESTO.md)
+- [GUIA_DE_ESTILO](./GUIA_DE_ESTILO.md)
+- [ESPECIFICACION_DE_DOCUMENTOS](./ESPECIFICACION_DE_DOCUMENTOS.md)
+- [MODELO_DE_CONOCIMIENTO](./docs/MODELO_DE_CONOCIMIENTO.md)

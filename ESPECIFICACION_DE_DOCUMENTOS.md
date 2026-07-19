@@ -341,4 +341,6 @@ Antes de crear un documento nuevo, responder siempre a estas preguntas:
 4. ¿Será reutilizable?
 5. ¿Podrá ser comprendido tanto por una persona como por una aplicación?
 
+Cada documento debe responder a una única pregunta principal. Si responde a dos preguntas distintas, probablemente deba dividirse o redistribuirse.
+
 Si alguna respuesta es negativa, deberá revisarse el diseño antes de incorporar el documento al repositorio.

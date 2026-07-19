@@ -1,51 +1,37 @@
 ---
-
 id: REC-0001
-tipo: receta
-titulo: Arroz Chaufa
+titulo: Arroz chaufa
+descripcion: Versión peruana del arroz frito de la cocina chifa, elaborada con arroz salteado al wok, cerdo, huevo y cebolleta.
 categoria: Arroces
-origen: Perú
-cocina:
-- peruana
-- china
-dificultad: fácil
-tiempo_preparacion: 20 min
-tiempo_coccion: 10 min
+cocina: Chifa
+subcategoria: Arroz frito
+tags:
+  - arroz
+  - chifa
+  - perú
+  - cerdo
+  - wok
+  - salteado
+dificultad: Fácil
+tiempo_preparacion: 15 min
+tiempo_cocinado: 10 min
 raciones: 2
-estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
-etiquetas:
-- arroz
-- wok
-- pollo
-- salteado
-
+estado: Estable
+version: 2.0.0
+fecha_creacion: 2026-07-03
+fecha_actualizacion: 2026-07-17
+autor: NovaCoquinaria
 ---
 
-# Arroz Chaufa
+# Arroz chaufa
 
 ## Descripción
 
-El arroz chaufa es uno de los platos más representativos de la cocina **chifa**, fruto de la influencia china en Perú.
+El arroz chaufa es uno de los platos más representativos de la cocina **chifa**, nacida de la fusión entre la gastronomía china cantonesa y la peruana.
 
-Se basa en arroz cocido del día anterior salteado rápidamente al wok junto con proteína, verduras, huevo y una salsa de inspiración china.
+Comparte gran parte de su técnica con el arroz frito chino tradicional, pero incorpora ingredientes y matices propios como abundante cebolleta, salsa de soja, aceite de sésamo y, con frecuencia, lomo de cerdo.
 
----
-
-# Información general
-
-**Dificultad**
-
-Fácil.
-
-**Tiempo total**
-
-30 minutos aproximadamente.
-
-**Raciones**
-
-2.
+Esta receta implementa la plantilla **Arroz frito base**, adaptándola a las características propias del chaufa.
 
 ---
 
@@ -53,117 +39,146 @@ Fácil.
 
 ## Base
 
-* 300 g de arroz basmati cocido y frío.
-* 200 g de pollo, cerdo, gambas o ternera.
-* 2 huevos.
-* 2 cebolletas.
-* Aceite para saltear.
+- 300 g de arroz jazmín o basmati cocido y completamente frío
+- 200 g de lomo de cerdo
+- 2 huevos
+- 2 cebolletas
+- 1 diente de ajo
+- Un trozo pequeño de jengibre
+- 2 cucharadas de aceite vegetal
 
-## Salsa
+## Sazonado
 
-* 2 cucharadas de salsa de soja.
-* 1 cucharadita de mirin (opcional).
-* Unas gotas de aceite de sésamo.
-
-Opcionalmente:
-
-* salsa de ostras;
-* salsa de pescado.
+- 2 cucharadas de salsa de soja
+- 1 cucharadita de aceite de sésamo
+- 1 cucharadita de mirin (opcional)
+- Pimienta blanca
 
 ---
 
-# Mise en place
+# Preparación
 
-Antes de comenzar:
+Seguir el procedimiento descrito en:
 
-* cortar la proteína en dados pequeños;
-* picar la cebolleta;
-* batir los huevos;
-* preparar la salsa;
-* separar el arroz con un tenedor.
+- **PLA-0008 · Arroz frito base**
 
-Consultar:
+Aplicando las siguientes particularidades:
 
-* [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)
+1. Cortar el lomo de cerdo en dados pequeños.
+2. Saltearlo a fuego muy fuerte hasta dorarlo ligeramente.
+3. Reservarlo temporalmente.
+4. Preparar el arroz siguiendo la plantilla base.
+5. Incorporar abundante cebolleta durante el último minuto de cocinado.
+6. Añadir nuevamente el cerdo antes de servir.
+7. Finalizar con unas gotas de aceite de sésamo.
 
 ---
 
-# Elaboración
+# Características del chaufa
 
-1. Preparar el wok muy caliente.
-2. Cocinar la proteína y reservar.
-3. Cocinar el huevo ligeramente revuelto.
-4. Incorporar el arroz y saltearlo.
-5. Añadir nuevamente la proteína.
-6. Incorporar la salsa preparada.
-7. Añadir la cebolleta.
-8. Finalizar con unas gotas de aceite de sésamo.
+A diferencia del arroz frito chino más clásico:
 
-Servir inmediatamente.
+- utiliza una mayor cantidad de cebolleta;
+- suele incorporar cerdo como proteína principal;
+- presenta una influencia peruana en el equilibrio de sabores;
+- busca un marcado aroma a wok manteniendo una elaboración sencilla y rápida.
 
 ---
 
 # Variantes
 
-Puede prepararse con:
+Son habituales las versiones con:
 
-* pollo;
-* cerdo;
-* gambas;
-* ternera;
-* tofu.
-
-También admite:
-
-* guisantes;
-* zanahoria;
-* maíz;
-* brotes de soja.
+- pollo;
+- gambas;
+- ternera;
+- marisco mixto;
+- char siu;
+- combinación de varias proteínas.
 
 ---
 
-# Presentación
+# Maridaje
 
-Servir recién hecho.
+Combina especialmente bien con:
 
-Opcionalmente decorar con:
-
-* cebollino;
-* sésamo tostado;
-* cilantro.
+- wantán frito;
+- sopa wantán;
+- tallarines saltados;
+- salsa de ají peruano.
 
 ---
 
 # Conservación
 
-Consumir preferentemente recién preparado.
+- Refrigerar hasta 48 horas.
+- Recalentar únicamente a fuego fuerte.
+- No recomendable congelar una vez cocinado.
 
-Consultar:
+---
 
-* `../../98_Tablas/04_Conservacion/conservacion_congelacion.md`
+# Consejos
+
+- Utilizar arroz del día anterior.
+- Mantener el wok muy caliente.
+- No remover continuamente el arroz.
+- Incorporar la cebolleta casi al final para conservar su frescura.
+
+---
+
+# Errores frecuentes
+
+- Utilizar arroz recién cocido.
+- Cocinar demasiado el cerdo.
+- Exceso de salsa de soja.
+- Sobrecargar el wok.
+- Cocinar a temperatura insuficiente.
+
+---
+
+# Relaciones SGCC
+
+## Implementa
+
+- PLA-0008 · Arroz frito base
+
+## Utiliza
+
+### Ingredientes
+
+- Arroz jazmín o basmati
+- Lomo de cerdo
+- Huevo
+- Cebolleta
+- Ajo
+- Jengibre
+
+### Condimentos
+
+- Salsa de soja
+- Aceite de sésamo
+- Mirin
+
+### Técnicas
+
+- Salteado al wok
+- Mise en place
 
 ---
 
 # Referencias
 
-## Técnicas
-
-* [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)
-* [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)
-
-## Plantillas
-
-* [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)
-
-## Ingredientes
-
-* [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)
-* [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)
-* [Mirin](../11_Despensa/09_Salsas/mirin.md)
-* [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)
+- Plantilla: Arroz frito base
+- Técnica: Salteado asiático
+- Ingrediente: Arroz jazmín
+- Ingrediente: Arroz basmati
+- Ingrediente: Salsa de soja
 
 ---
 
-# Principio de NovaCoquinaria
+# Historial
 
-> El mejor arroz chaufa comienza con un arroz cocido el día anterior y un wok muy caliente.
+| Versión | Fecha | Cambios |
+|----------|------------|----------------------------------------------|
+| 2.0.0 | 2026-07-17 | Adaptación al modelo SGCC basado en plantillas reutilizables. |
+| 1.0.0 | 2026-07-03 | Primera versión de la receta. |

@@ -1,88 +1,187 @@
+---
+id: DOC-0012
+titulo: Resumen de Decisiones
+tipo: gestion
+version: 1.1
+estado: estable
+ultima_revision: 2026-07-19
+---
+
 # Resumen de Decisiones
 
-> Síntesis de los principios arquitectónicos y metodológicos vigentes en NovaCoquinaria.
+> Síntesis ejecutiva de las decisiones arquitectónicas, metodológicas y organizativas vigentes en NovaCoquinaria.
 
 ---
 
-## Fuente de verdad
+# Propósito
 
-* Markdown es la única fuente de verdad.
-* `site_docs/` es un artefacto generado automáticamente.
-* MkDocs publica el conocimiento, pero no lo gobierna.
-* No se editará manualmente ningún contenido generado.
+Este documento recopila las decisiones que actualmente gobiernan el proyecto.
 
----
+Su finalidad es ofrecer una referencia rápida para comprender cómo funciona NovaCoquinaria sin necesidad de consultar todos los **Architecture Decision Records (ADR)**.
 
-## Organización del conocimiento
+No sustituye a los ADR, sino que resume únicamente aquellas decisiones que permanecen vigentes.
 
-* El conocimiento se organiza de forma modular.
-* Bases, técnicas, ingredientes, plantillas, tablas y recetas tienen responsabilidades diferenciadas.
-* Cada conocimiento debe documentarse una sola vez.
-* Las recetas reutilizan conocimiento mediante referencias.
-* Se prioriza ampliar documentos existentes frente a crear duplicidades.
+La justificación, alternativas evaluadas y contexto histórico continúan documentándose en los ADR correspondientes.
 
 ---
 
-## Modelo documental
+# Principios fundamentales
 
-* Los documentos estructurados utilizan Front Matter YAML.
-* Cada documento dispone de un identificador único y estable.
-* Los documentos se relacionan mediante enlaces relativos.
-* Los identificadores no dependen de la ruta física del archivo.
+Las siguientes decisiones constituyen la base del proyecto.
 
----
+## El conocimiento es el activo principal
 
-## Calidad y automatización
+NovaCoquinaria se concibe como un **Sistema de Gestión del Conocimiento Culinario (SGCC)**.
 
-* El repositorio dispone de validaciones automáticas de:
-
-  * Front Matter;
-  * identificadores únicos;
-  * enlaces internos.
-* Las validaciones estructurales pueden actuar como Quality Gate.
-* Las advertencias semánticas no son bloqueantes mientras el modelo esté en evolución.
-* Las herramientas deben ser simples, auditables y reutilizables.
+Las recetas representan únicamente una parte del conocimiento gestionado.
 
 ---
 
-## Knowledge Graph
+## Documentar una sola vez
 
-* Los documentos con Front Matter forman nodos del grafo.
-* Los enlaces Markdown representan relaciones entre documentos.
-* Los nodos se identifican mediante IDs estables y títulos.
-* El grafo se utiliza para analizar:
+Cada concepto debe documentarse una única vez.
 
-  * reutilización;
-  * conectividad;
-  * conocimiento huérfano;
-  * relaciones semánticas.
+El conocimiento reutilizable será referenciado desde el resto de documentos para evitar duplicidades.
 
 ---
 
-## Gobernanza del conocimiento
+## Reutilizar antes que crear
 
-* `KNOWLEDGE_STRATEGY.md` define cómo debe crecer el conocimiento.
-* `KNOWLEDGE_DEBT.md` registra carencias estructurales.
-* `KNOWLEDGE_MATURITY.md` evalúa su evolución.
-* La planificación del conocimiento pertenece a `docs/management/`.
-* No se introduce una nueva capa arquitectónica cuando una necesidad puede resolverse mediante gestión documental.
+Siempre que exista conocimiento válido deberá ampliarse antes de crear nuevos documentos.
+
+La reutilización tiene prioridad sobre la duplicación.
 
 ---
 
-## Desarrollo
+## La arquitectura evoluciona por necesidad
 
-* Se utiliza Semantic Versioning.
-* Cada objetivo relevante se desarrolla en una rama.
-* Cada iteración coherente se integra mediante Pull Request.
-* Los commits deben ser pequeños y descriptivos.
-* La arquitectura y la calidad tienen prioridad sobre las nuevas funcionalidades.
+La arquitectura únicamente se modifica cuando una necesidad real del conocimiento lo justifica.
+
+No se incorporan nuevas capas ni complejidad innecesaria.
 
 ---
 
-## Prioridad de decisión
+# Fuente de verdad
+
+Se mantienen las siguientes decisiones:
+
+- Markdown constituye la única fuente de verdad.
+- `site_docs/` es un artefacto generado automáticamente.
+- MkDocs publica el conocimiento, pero no lo gobierna.
+- Ningún documento generado debe editarse manualmente.
+
+---
+
+# Organización del conocimiento
+
+El conocimiento del SGCC se organiza mediante entidades especializadas con responsabilidades claramente diferenciadas.
+
+Las principales decisiones son:
+
+- el conocimiento es modular;
+- cada entidad tiene una responsabilidad única;
+- cada documento aporta un valor específico al sistema;
+- las recetas reutilizan conocimiento mediante referencias;
+- las relaciones entre documentos forman un Knowledge Graph.
+
+---
+
+# Modelo documental
+
+Todo documento estructurado sigue las siguientes decisiones:
+
+- utiliza Front Matter YAML;
+- dispone de un identificador único y estable;
+- mantiene enlaces relativos entre documentos;
+- el identificador nunca depende de la ubicación física del archivo;
+- la organización lógica prevalece sobre la estructura del repositorio.
+
+---
+
+# Calidad y automatización
+
+Las siguientes decisiones gobiernan la calidad del proyecto.
+
+## Validación automática
+
+El repositorio incorpora validaciones para:
+
+- Front Matter;
+- identificadores únicos;
+- enlaces internos;
+- reglas semánticas;
+- Knowledge Graph;
+- documentos huérfanos.
+
+Estas validaciones pueden actuar como *Quality Gate* del proyecto.
+
+---
+
+## Validación arquitectónica
+
+La calidad arquitectónica continúa dependiendo de revisión humana.
+
+Se verifica especialmente:
+
+- ausencia de duplicidades;
+- coherencia con el modelo de conocimiento;
+- reutilización adecuada;
+- cumplimiento de los ADR;
+- consistencia documental.
+
+La automatización complementa la revisión arquitectónica, pero no la sustituye.
+
+---
+
+# Knowledge Graph
+
+Las decisiones actuales establecen que:
+
+- cada documento estructurado representa un nodo;
+- las referencias Markdown representan relaciones;
+- las entidades se identifican mediante IDs estables;
+- el grafo constituye una representación lógica del conocimiento.
+
+El Knowledge Graph se utiliza para:
+
+- analizar reutilización;
+- detectar conocimiento huérfano;
+- estudiar conectividad;
+- validar relaciones semánticas.
+
+---
+
+# Gobernanza del conocimiento
+
+La evolución del conocimiento se rige por los siguientes documentos:
+
+- `KNOWLEDGE_STRATEGY.md`
+- `KNOWLEDGE_DEBT.md`
+- `KNOWLEDGE_MATURITY.md`
+- `DEVELOPMENT_WORKFLOW.md`
+
+Las decisiones metodológicas pertenecen a la documentación de gestión y no requieren modificaciones de la arquitectura cuando pueden resolverse mediante procesos documentales.
+
+---
+
+# Desarrollo del proyecto
+
+Las decisiones operativas actuales son:
+
+- utilización de Semantic Versioning;
+- desarrollo mediante ramas independientes;
+- integración mediante Pull Request;
+- commits pequeños, descriptivos y revisables;
+- prioridad de la calidad sobre la velocidad de desarrollo.
+
+---
+
+# Prioridad de decisión
+
+Cuando varias alternativas sean posibles, se seguirá siempre el siguiente orden:
 
 1. Coherencia arquitectónica.
-2. Calidad documental.
+2. Calidad del conocimiento.
 3. Reutilización.
 4. Simplicidad.
 5. Automatización.
@@ -90,19 +189,44 @@
 
 ---
 
-## Filosofía
+# Filosofía del proyecto
 
-> Documentar una vez. Reutilizar siempre.
+Las decisiones anteriores pueden resumirse en los siguientes principios.
+
+> **Documentar una vez. Reutilizar siempre.**
+
+> **El conocimiento precede a las recetas.**
+
+> **La arquitectura debe servir al conocimiento, nunca al contrario.**
 
 ---
 
-## Referencias
+# Revisión del documento
 
-* [Arquitectura](../ARQUITECTURA.md)
-* [Roadmap](../ROADMAP.md)
-* [Project Onboarding](PROJECT_ONBOARDING.md)
-* [Knowledge Strategy](KNOWLEDGE_STRATEGY.md)
-* [Knowledge Debt](KNOWLEDGE_DEBT.md)
-* [Knowledge Maturity](KNOWLEDGE_MATURITY.md)
-* [AI Onboarding](AI_ONBOARDING.md)
-* [ADR](../adr/README.md)
+Este resumen deberá actualizarse cuando:
+
+- se apruebe un nuevo ADR relevante;
+- cambie un principio metodológico;
+- evolucione el modelo arquitectónico del SGCC.
+
+No es necesario modificarlo para cambios menores de implementación.
+
+---
+
+# Relación con otros documentos
+
+Este documento complementa:
+
+- [ARQUITECTURA](../ARQUITECTURA.md)
+- [VISION](../VISION.md)
+- [PROJECT_STRUCTURE](PROJECT_STRUCTURE.md)
+- [DEVELOPMENT_WORKFLOW](DEVELOPMENT_WORKFLOW.md)
+- [KNOWLEDGE_STRATEGY](KNOWLEDGE_STRATEGY.md)
+- [KNOWLEDGE_DEBT](KNOWLEDGE_DEBT.md)
+- [KNOWLEDGE_MATURITY](KNOWLEDGE_MATURITY.md)
+- [AI_ONBOARDING](AI_ONBOARDING.md)
+- [ADR](../adr/README.md)
+
+No sustituye a los ADR.
+
+Su responsabilidad consiste exclusivamente en ofrecer una visión resumida de las decisiones actualmente vigentes.

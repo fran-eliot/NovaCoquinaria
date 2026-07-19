@@ -1,15 +1,14 @@
 # MANIFESTO
 
-> **Proyecto:** NovaCoquinaria
-> **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
+> Principios que guían la evolución de NovaCoquinaria y de la arquitectura GASTRO.
 
 ---
 
 # Manifiesto
 
-NovaCoquinaria nace de una idea sencilla:
+NovaCoquinaria nace de una convicción sencilla:
 
-**El conocimiento culinario merece organizarse con el mismo rigor que cualquier disciplina técnica.**
+**El conocimiento culinario merece organizarse con el mismo rigor que cualquier otra disciplina del conocimiento.**
 
 Una receta es mucho más que una lista de ingredientes.
 
@@ -19,7 +18,7 @@ Ese conocimiento no debería perderse, repetirse ni depender de la memoria.
 
 Por ello, NovaCoquinaria no pretende ser únicamente un recetario.
 
-Pretende convertirse en una base de conocimiento culinario personal, estructurada, reutilizable y preparada para evolucionar durante toda la vida.
+Pretende convertirse en un Sistema de Gestión del Conocimiento Culinario estructurado, reutilizable y preparado para evolucionar durante toda la vida.
 
 ---
 
@@ -65,7 +64,7 @@ Siempre podrá evolucionar.
 
 La arquitectura existe para facilitar el aprendizaje.
 
-No para complicarlo.
+La complejidad debe aparecer únicamente cuando aporte un beneficio claro para el conocimiento.
 
 Cada documento debe aportar valor.
 
@@ -75,9 +74,19 @@ Nada más.
 
 ## Reutilización
 
-Las técnicas, ingredientes, plantillas y tablas existen para evitar repetir información.
+Las técnicas, ingredientes, patrones culinarios y demás entidades del conocimiento existen para evitar repetir información.
 
 El objetivo es construir conocimiento modular y conectado.
+
+---
+
+## El conocimiento forma una red
+
+Los documentos no existen de forma aislada.
+
+Cada ingrediente, técnica, patrón o receta adquiere valor al relacionarse con el resto del conocimiento.
+
+La reutilización nace de esas relaciones.
 
 ---
 
@@ -97,9 +106,9 @@ Nunca al contrario.
 
 NovaCoquinaria está diseñado para crecer.
 
-Hoy es un repositorio.
+Hoy es un Sistema de Gestión del Conocimiento Culinario.
 
-Mañana podrá ser un sitio web, una API, una aplicación móvil o un asistente basado en inteligencia artificial.
+Mañana podrá materializarse como un sitio web, una API, una aplicación móvil o un asistente basado en inteligencia artificial.
 
 La arquitectura debe permitir esa evolución sin perder coherencia.
 
@@ -109,7 +118,8 @@ La arquitectura debe permitir esa evolución sin perder coherencia.
 
 Cada nuevo documento deberá responder a una pregunta sencilla:
 
-> **¿Estoy aumentando el conocimiento del sistema o simplemente añadiendo información?**
+> **¿Estoy aumentando el conocimiento del sistema?**
+> **¿O simplemente estoy reorganizando información existente?**
 
 Si únicamente añade información, probablemente todavía no esté suficientemente pensado.
 
@@ -117,10 +127,17 @@ Si únicamente añade información, probablemente todavía no esté suficienteme
 
 # Nuestro objetivo
 
-Construir una base de conocimiento culinario clara, mantenible y útil.
+Construir un Sistema de Gestión del Conocimiento Culinario claro, mantenible y útil.
 
 Un sistema que permita cocinar mejor hoy y seguir aprendiendo dentro de diez o veinte años.
 
 Porque cocinar no consiste únicamente en preparar platos.
 
 Consiste en comprender, conservar y transmitir conocimiento.
+
+---
+
+> NovaCoquinaria no aspira a recopilar recetas.
+> Aspira a conservar conocimiento.
+> Porque una receta puede olvidarse.
+> El conocimiento permanece.

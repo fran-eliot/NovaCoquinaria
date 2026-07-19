@@ -4,7 +4,7 @@ titulo: Workflow de Desarrollo
 tipo: gestion
 version: 1.0
 estado: estable
-ultima_revision: 2026-07-13
+ultima_revision: 2026-07-19
 ---
 
 # Workflow de Desarrollo
@@ -25,15 +25,17 @@ Todo el desarrollo del SGCC se rige por los siguientes principios:
 2. Cada documento debe aportar un valor claro al sistema.
 3. Reutilizar siempre que sea posible antes de crear nuevo contenido.
 4. La arquitectura solo evoluciona cuando una necesidad real del conocimiento lo justifica.
-5. Cada dominio debe poder desarrollarse y consolidarse de forma independiente.
+5. Cada iniciativa de conocimiento debe poder evolucionar de forma independiente.
 
 ---
 
 # Ciclo de desarrollo
 
-Cada nuevo dominio seguirá el mismo ciclo de vida.
+Cada nueva iniciativa de conocimiento seguirá el mismo ciclo de vida.
 
 ```text
+Idea u oportunidad
+        ↓
 Selección del dominio
         ↓
 Inventario del conocimiento existente
@@ -49,24 +51,27 @@ Desarrollo de variantes
 Validación automática
         ↓
 Consolidación del dominio
+        ↓
+Actualización de PROJECT_STATUS
+        ↓
+Registro en BITÁCORA
+        ↓
+Preparación de Release (si procede)
+        ↓
+Nueva iteración
 ```
 
 ---
 
-# Fase 1 · Selección del dominio
+# Fase 1 · Selección de la iniciativa de conocimiento
 
-El desarrollo comienza escogiendo un dominio culinario.
+El desarrollo comienza escogiendo una iniciativa de conocimiento.
 
-Ejemplos:
-
-- Currys
-- Wok
-- Arroces
-- Cocina mediterránea
-- Marinados
-- Salsas
-
-Cada dominio constituye una unidad independiente de conocimiento.
+- un dominio culinario;
+- una técnica;
+- una colección de ingredientes;
+- una arquitectura documental;
+- una mejora transversal.
 
 ---
 
@@ -79,7 +84,7 @@ Se identifican:
 - ingredientes;
 - técnicas;
 - bases;
-- plantillas;
+- patrones culinarios reutilizables;
 - tablas;
 - recetas.
 
@@ -105,7 +110,7 @@ Por ejemplo:
 
 - ingredientes;
 - técnicas;
-- plantillas;
+- patrones culinarios reutilizables;
 - tablas.
 
 ---
@@ -134,12 +139,21 @@ Todo cambio deberá superar el pipeline documental.
 
 Validaciones mínimas:
 
+## Validación automática
+
 - Front Matter.
 - Identificadores únicos.
 - Enlaces internos.
 - Validación semántica.
 - Knowledge Graph.
 - Detección de documentos huérfanos.
+
+## Validación arquitectónica
+
+- ausencia de duplicidades;
+- coherencia con el modelo de conocimiento;
+- reutilización adecuada;
+- cumplimiento de los ADR.
 
 ---
 
@@ -149,7 +163,7 @@ Un dominio se considera consolidado cuando:
 
 - dispone del conocimiento reutilizable necesario;
 - cuenta con una receta canónica;
-- reutiliza correctamente ingredientes, técnicas y plantillas;
+- ingredientes, técnicas, patrones culinarios y demás entidades reutilizables;
 - supera todas las validaciones automáticas;
 - no presenta deuda significativa.
 
@@ -167,15 +181,56 @@ La metodología podrá evolucionar cuando la experiencia práctica así lo justi
 
 El desarrollo seguirá siempre este orden de preferencia:
 
-1. Corregir deuda de conocimiento.
-2. Crear conocimiento reutilizable.
-3. Consolidar dominios.
-4. Crear nuevas recetas.
-5. Evolucionar la arquitectura (solo si es necesario).
+1. Corregir deuda de conocimiento
+2. Mejorar conocimiento existente
+3. Crear conocimiento reutilizable
+4. Consolidar iniciativas
+5. Incorporar nuevas recetas
+6. Evolucionar la arquitectura
+
+---
+
+# Tipos de evolución
+
+El workflow puede aplicarse a diferentes tipos de cambios:
+
+- incorporación de nuevo conocimiento;
+- ampliación de conocimiento existente;
+- reorganización documental;
+- evolución de herramientas;
+- evolución de la arquitectura (mediante ADR).
 
 ---
 
 # Relación con otros documentos
+
+
+## Integración con el ciclo de vida del proyecto
+
+```text
+Idea
+   │
+   ▼
+CONTRIBUTING
+   │
+   ▼
+DEVELOPMENT_WORKFLOW
+   │
+   ▼
+Validación
+   │
+   ▼
+PROJECT_STATUS
+   │
+   ▼
+BITÁCORA
+   │
+   ▼
+RELEASES
+   │
+   ▼
+ROADMAP
+```
 
 Este documento complementa:
 
@@ -185,5 +240,11 @@ Este documento complementa:
 - [KNOWLEDGE_STRATEGY](./KNOWLEDGE_STRATEGY.md)
 - [KNOWLEDGE_DEBT](./KNOWLEDGE_DEBT.md)
 - [KNOWLEDGE_MATURITY](./KNOWLEDGE_MATURITY.md)
+- [PROJECT_ONBOARDING](./PROJECT_ONBOARDING.md)
+- [CONTRIBUTING](../../CONTRIBUTING.md)
+- [PROJECT_STRUCTURE](./PROJECT_STRUCTURE.md)
+- [PROJECT_STATUS](./PROJECT_STATUS.md)
+- [BITACORA](./BITACORA.md)
+- [RELEASES](./RELEASES.md)
 
 No sustituye a ninguno de ellos; describe únicamente el proceso de desarrollo del SGCC.
