@@ -521,7 +521,7 @@ Consultar:
 
 - [Marinada asiática](../03_Marinadas/marinada_asiatica.md)
 - [Salsa china base](../02_Salsas/salsa_china_base.md)
-- [Salteado asiático](salteado_asiatico.md)
+- [Salteado asiático](../04_Cocciones/salteado_asiatico.md)
 
 ## Tablas
 

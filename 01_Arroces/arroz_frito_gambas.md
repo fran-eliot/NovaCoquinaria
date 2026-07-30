@@ -1,5 +1,6 @@
 ---
 id: REC-0021
+tipo: receta
 titulo: Arroz frito con gambas
 descripcion: Variante del arroz frito asiático elaborada con gambas, huevo y verduras salteadas al wok.
 categoria: Arroces
@@ -18,7 +19,7 @@ raciones: 2
 estado: Estable
 version: 1.0.0
 fecha_creacion: 2026-07-17
-fecha_actualizacion: 2026-07-17
+ultima_revision: 2026-07-17
 autor: NovaCoquinaria
 ---
 
@@ -171,7 +172,7 @@ Combina especialmente bien con:
 
 # Referencias
 
-- [Plantilla: Arroz frito base](../12_Plantillas/arroz_frito_base.md)
+- [Plantilla: Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Ingrediente: Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)
 - [Ingrediente: Gambas](../11_Despensa/05_Mariscos/gambas.md)
 - [Ingrediente: Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md)

@@ -4,207 +4,143 @@
 
 ---
 
-# ¿Qué es?
+# ¿Qué es NovaCoquinaria?
 
-NovaCoquinaria es un proyecto personal de ingeniería del conocimiento cuyo objetivo es construir y mantener un Sistema de Gestión del Conocimiento Culinario (SGCC), cuya arquitectura conceptual recibe el nombre de GASTRO.
+NovaCoquinaria es un proyecto personal de ingeniería del conocimiento cuyo propósito es construir y mantener un **Sistema de Gestión del Conocimiento Culinario (SGCC)** capaz de capturar, estructurar, relacionar y reutilizar conocimiento culinario de forma organizada y sostenible.
 
-No se centra en almacenar recetas, sino en capturar, estructurar, relacionar y reutilizar conocimiento culinario de forma modular, evolutiva e independiente de cualquier tecnología concreta.
+El proyecto nace de una idea sencilla: el verdadero valor de una receta no reside únicamente en el plato que produce, sino en el conocimiento que concentra. Técnicas, ingredientes, procesos, proporciones, decisiones y experiencia constituyen un patrimonio que merece conservarse y evolucionar con el tiempo.
 
-El proyecto combina principios de cocina, gestión documental e ingeniería del software para preservar conocimiento útil durante toda la vida.
+Por ello, NovaCoquinaria no se concibe como un recetario digital, sino como una base de conocimiento preparada para crecer durante toda una vida.
 
 ---
 
 # ¿Por qué existe?
 
-La mayoría de recetarios repiten continuamente:
+La mayoría de los recetarios tradicionales almacenan recetas como documentos independientes.
+
+Como consecuencia, el mismo conocimiento se repite continuamente:
 
 - técnicas;
 - ingredientes;
+- procesos;
 - consejos;
 - tiempos;
 - explicaciones.
 
-NovaCoquinaria evita esa duplicación.
+NovaCoquinaria propone un enfoque diferente.
 
-Cada conocimiento se documenta una sola vez y las recetas lo reutilizan mediante referencias.
+Cada conocimiento se documenta una única vez y posteriormente se reutiliza mediante relaciones explícitas entre las distintas entidades que forman el sistema.
 
-El objetivo es reducir la duplicación, mejorar la consistencia y facilitar la evolución del conocimiento a largo plazo.
-
----
-
-# Filosofía
-
-Los principios fundamentales del proyecto son:
-
-- El conocimiento es el activo principal.
-
-- Markdown constituye la fuente única de verdad.
-
-- Documentar una sola vez.
-
-- Reutilizar siempre.
-
-- El modelo lógico es independiente del repositorio.
-
-- El conocimiento evoluciona mediante pequeñas mejoras.
-
-- Las decisiones arquitectónicas se documentan mediante ADR.
-
+De esta forma, el crecimiento del proyecto incrementa el valor del conjunto sin aumentar innecesariamente la duplicación de información.
 
 ---
 
 # Qué hace diferente a NovaCoquinaria
 
-NovaCoquinaria organiza el conocimiento en entidades reutilizables.
+El proyecto organiza el conocimiento culinario como una red de entidades especializadas e interconectadas.
 
-Las recetas representan únicamente una aplicación concreta de dicho conocimiento.
-
-El conocimiento se estructura mediante:
+Entre ellas se encuentran:
 
 - ingredientes;
 - técnicas;
 - patrones culinarios;
 - platos canónicos;
 - variantes;
-- tablas de referencia.
+- tablas de referencia;
+- recetas.
 
-Todos ellos forman una red de conocimiento conectada mediante relaciones explícitas.
+Cada entidad posee una responsabilidad específica y puede evolucionar de forma independiente sin comprometer la coherencia global del sistema.
 
-Cada entidad puede evolucionar de forma independiente sin afectar a la organización global del conocimiento.
-
----
-
-# Objetivos
-
-## Objetivos del proyecto
-
-- preservar conocimiento culinario verificable y reutilizable;
-- reutilizar conocimiento;
-- facilitar el aprendizaje continuo;
-- servir de base para herramientas futuras.
-
-## Próximos hitos
-
-- consolidar el modelo de conocimiento;
-- ampliar el grafo;
-- automatizar validaciones;
-- enriquecer las colecciones culinarias.
+Las recetas dejan de ser el elemento central para convertirse en una aplicación concreta del conocimiento previamente consolidado.
 
 ---
 
-# Valores
+# GASTRO: la arquitectura conceptual
 
-NovaCoquinaria apuesta por:
+La arquitectura conceptual que sustenta NovaCoquinaria recibe el nombre de **GASTRO**.
 
-- claridad;
-- calidad;
-- mantenibilidad;
-- reutilización;
-- aprendizaje continuo.
+GASTRO define el modelo mediante el cual el conocimiento culinario se organiza, relaciona y evoluciona.
 
----
-
-## GASTRO
-
-La arquitectura interna que soporta NovaCoquinaria recibe el nombre de GASTRO (Sistema de Gestión del Conocimiento Culinario).
-
-GASTRO define el modelo conceptual, las entidades, las relaciones y los principios que permiten organizar el conocimiento culinario de forma coherente y reutilizable.
+NovaCoquinaria constituye la implementación práctica de esa arquitectura.
 
 ```text
 NovaCoquinaria
-       │
-       ▼
-GASTRO (SGCC)
-       │
- ┌─────┼───────────────┐
- ▼     ▼               ▼
-
-Conocimiento  Documentación  Herramientas
+        │
+        ▼
+GASTRO
+(Arquitectura conceptual)
+        │
+        ▼
+Sistema de Gestión del
+Conocimiento Culinario (SGCC)
 ```
+
+La arquitectura conceptual es independiente tanto de la organización física del repositorio como de las herramientas utilizadas para gestionar el conocimiento.
+
+---
+
+# Valores del proyecto
+
+NovaCoquinaria se desarrolla conforme a cinco valores fundamentales:
+
+- claridad;
+- reutilización;
+- mantenibilidad;
+- aprendizaje continuo;
+- evolución sostenible.
+
+Estos valores orientan todas las decisiones de diseño y desarrollo del proyecto.
+
+Los principios que los sustentan se describen en el documento **MANIFESTO**.
 
 ---
 
 # Público
 
-Actualmente el proyecto está orientado principalmente a su autor.
+El proyecto está concebido inicialmente para uso personal.
 
-Sin embargo, se diseña desde el principio para que pueda resultar útil a otras personas interesadas en documentar y organizar conocimiento culinario.
-
----
-
-# Arquitectura Técnica
-
-Para conocer la arquitectura, consulte [ARQUITECTURA](./docs/ARQUITECTURA.md)
-
-El proyecto utiliza actualmente:
-
-## Modelo Documental
-
-- Markdown
-- Front Matter YAML
-- Referencias cruzadas
-- Mermaid
-- Knowledge Graph documental
-
-## Gobierno
-
-- Architecture Decision Records (ADR)
-- Semantic Versioning
-
-## Herramientas e infraestructura
-
-- Python
-- PyYAML
-- MkDocs
-- MkDocs Material
-- Knowledge Graph
-- Git
-- GitHub
+Sin embargo, desde su diseño adopta principios generales de ingeniería del conocimiento que permiten que su arquitectura pueda servir de inspiración para otros proyectos orientados a la gestión estructurada del conocimiento culinario.
 
 ---
 
-# Estado
+# Qué no es NovaCoquinaria
 
-NovaCoquinaria ha superado la fase de definición inicial.
+NovaCoquinaria no pretende ser:
 
-Actualmente dispone de:
+- un simple recetario digital;
+- una colección de documentos independientes;
+- una base de datos de recetas;
+- una aplicación ligada a una tecnología concreta.
 
-- arquitectura documental estable;
-- modelo de conocimiento formal;
-- herramientas automáticas de validación;
-- Knowledge Graph;
-- publicación mediante MkDocs;
-- estrategia de evolución documentada.
-
-Consultar:
-
-- [PROJECT_STATUS](./docs/management/PROJECT_STATUS.md)
-- [ROADMAP](./docs/ROADMAP.md)
-- [BITACORA](./docs/management/BITACORA.md)
-- [Knowledge Strategy](./docs/management/KNOWLEDGE_STRATEGY.md)
-- [Knowledge Debt](./docs/management/KNOWLEDGE_DEBT.md)
-- [Knowledge Maturity](./docs/management/KNOWLEDGE_MATURITY.md)
-
-El proyecto continúa evolucionando mediante un enfoque incremental basado en documentación, reutilización y mejora continua.
+Su propósito es construir una base de conocimiento coherente, reutilizable y preparada para evolucionar.
 
 ---
 
-# Más que un repositorio
+# Relación con el resto de la documentación
+
+Cada documento del proyecto responde a una responsabilidad específica.
+
+NovaCoquinaria constituye el documento de identidad del proyecto.
+
+La información especializada se desarrolla en los documentos correspondientes:
+
+- **VISION** — dirección estratégica y objetivos a largo plazo;
+- **MANIFESTO** — principios fundamentales del proyecto;
+- **ARQUITECTURA** — diseño global del sistema;
+- **MODELO_DE_CONOCIMIENTO** — entidades y relaciones del SGCC;
+- **ROADMAP** — evolución prevista;
+- **PROJECT_STATUS** — estado actual del proyecto.
+
+---
+
+# Conclusión
 
 NovaCoquinaria no pretende organizar documentos.
 
 Pretende organizar conocimiento.
 
-Los documentos son únicamente la representación persistente de ese conocimiento.
-
-Cualquier herramienta futura —sitio web, aplicación móvil, API o asistente basado en inteligencia artificial— deberá utilizar la misma base de conocimiento sin modificar su estructura conceptual.
+Cada receta, técnica, ingrediente o patrón incorporado al sistema representa una nueva pieza de una base de conocimiento diseñada para preservar la experiencia culinaria, facilitar el aprendizaje continuo y servir de fundamento a futuras herramientas construidas sobre una misma arquitectura conceptual.
 
 ---
 
-# Visión
-
-NovaCoquinaria aspira a convertirse en una plataforma abierta de ingeniería del conocimiento culinario donde documentación, herramientas y software evolucionen conjuntamente sobre una misma base de conocimiento.
-
----
-
-> Documentar una vez. Relacionar siempre. Reutilizar continuamente
+> Documentar una vez. Relacionar siempre. Reutilizar continuamente.

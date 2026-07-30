@@ -2,103 +2,225 @@
 id: ARC-0015
 tipo: arquitectura
 titulo: Automatización del SGCC
-version: 1.0
-estado: borrador
-ultima_revision: 2026-07-08
+version: 2.0
+estado: estable
+ultima_revision: 2026-07-20
 ---
 
 # Automatización del SGCC
 
-## Objetivo
+> **Proyecto:** NovaCoquinaria
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
-Este documento define la estrategia de automatización de NovaCoquinaria.
+---
 
-La automatización no sustituye al conocimiento culinario ni modifica la fuente de verdad del proyecto.
+# Objetivo
 
-Su función es proteger la coherencia arquitectónica, mejorar la calidad documental y reducir tareas repetitivas.
+Este documento define el papel de la automatización dentro de la arquitectura de NovaCoquinaria.
 
-## Principios
+La automatización constituye una capacidad transversal cuya finalidad es preservar la calidad, coherencia y mantenibilidad del Sistema de Gestión del Conocimiento Culinario.
 
-La automatización del proyecto seguirá estos principios:
+No genera conocimiento culinario.
 
-- Markdown seguirá siendo la única fuente de verdad.
-- `site_docs/` seguirá siendo un artefacto generado.
-- Los scripts no deberán introducir conocimiento culinario nuevo.
-- Las validaciones deberán detectar problemas, no ocultarlos.
-- Toda automatización deberá ser simple, auditable y mantenible.
+No sustituye la revisión humana.
 
-## Alcance inicial
+No modifica la fuente oficial de verdad.
 
-La automatización inicial se centrará en:
+---
 
-- validación de Front Matter YAML;
-- detección de identificadores duplicados;
-- validación de enlaces internos;
-- generación de estadísticas del repositorio;
-- apoyo a la generación de documentación publicada.
+# Papel de la automatización
 
-## Fuera de alcance
+Dentro del SGCC, la automatización actúa como mecanismo de apoyo a la arquitectura.
 
-Quedan fuera de esta fase:
+Su responsabilidad consiste en:
 
-- bases de datos;
-- API;
-- aplicación web dinámica;
-- grafo de conocimiento;
-- generación automática de recetas;
-- modificación automática de contenido culinario.
+- validar;
+- detectar inconsistencias;
+- generar artefactos derivados;
+- facilitar la publicación;
+- reducir tareas repetitivas.
 
-## Herramientas previstas
+Nunca sustituye el criterio editorial.
 
-Las herramientas iniciales se ubicarán en:
+---
+
+# Principios
+
+Toda automatización del proyecto deberá respetar los siguientes principios.
+
+## La fuente de verdad permanece inalterada
+
+Markdown constituye la única fuente oficial del conocimiento.
+
+La automatización nunca modifica directamente dicho conocimiento.
+
+---
+
+## La automatización protege el conocimiento
+
+Las herramientas existen para preservar la coherencia del sistema.
+
+Nunca deben alterar su significado.
+
+---
+
+## Los artefactos son derivados
+
+Todo contenido generado automáticamente constituye un artefacto derivado.
+
+Ejemplos:
+
+- site_docs;
+- índices;
+- estadísticas;
+- documentación publicada.
+
+---
+
+## Automatizar únicamente aquello que aporta valor
+
+La automatización deberá eliminar tareas repetitivas, pero nunca introducir complejidad innecesaria.
+
+---
+
+## Transparencia
+
+Toda automatización deberá ser:
+
+- comprensible;
+- auditable;
+- reproducible;
+- mantenible.
+
+---
+
+# Alcance
+
+Actualmente la automatización cubre las siguientes áreas.
+
+## Calidad documental
+
+- validación estructural;
+- validación documental;
+- control de referencias.
+
+---
+
+## Generación
+
+- documentación publicada;
+- estadísticas;
+- índices.
+
+---
+
+## Infraestructura
+
+- preparación de publicación;
+- procesos auxiliares.
+
+---
+
+# Fuera del alcance
+
+La automatización no incorpora conocimiento culinario.
+
+Quedan expresamente fuera de su responsabilidad:
+
+- creación de recetas;
+- modificación automática de documentación;
+- toma de decisiones editoriales;
+- sustitución del criterio humano;
+- generación automática de conocimiento.
+
+---
+
+# Evolución prevista
+
+La automatización evolucionará acompañando al crecimiento del SGCC.
+
+Su desarrollo seguirá esta progresión.
 
 ```text
-tools/
+Validación
+
+↓
+
+Generación
+
+↓
+
+Análisis
+
+↓
+
+Automatización semántica
+
+↓
+
+Asistencia inteligente
 ```
 
-## Scripts previstos
+Cada nueva capacidad deberá respetar siempre los principios definidos en este documento.
+
+---
+
+# Relación con la arquitectura
+
+La automatización constituye una capacidad transversal.
 
 ```text
-validate_frontmatter.py
-validate_ids.py
-validate_links.py
-generate_stats.py
-build_site_docs.py
+Markdown
+
+↓
+
+Automatización
+
+↓
+
+Calidad
+
+↓
+
+Publicación
 ```
 
-## Relación con MkDocs
+Su finalidad consiste en proteger la arquitectura documental y facilitar su evolución.
 
-MkDocs utilizará `site_docs/` como directorio de publicación.
+---
 
-El contenido de `site_docs/` deberá generarse a partir del Markdown original del repositorio.
+# Relaciones documentales
 
-No se editará manualmente.
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| QUALITY_PIPELINE | Flujo de validación |
+| TOOLS_FRAMEWORK | Arquitectura técnica |
+| QUALITY | Modelo de calidad |
+| ARQUITECTURA | Arquitectura del SGCC |
 
-## Criterios de calidad
+---
 
-Una automatización será aceptable cuando:
+# Documentación relacionada
 
-- sea comprensible;
-- no añada complejidad innecesaria;
-- pueda ejecutarse localmente;
-- produzca mensajes claros;
-- falle de forma explícita ante inconsistencias;
-- respete la arquitectura documental existente.
+## Arquitectura
 
-## Evolución prevista
+- ARQUITECTURA
+- QUALITY
+- QUALITY_PIPELINE
+- TOOLS_FRAMEWORK
 
-La automatización podrá evolucionar en fases:
+## ADR
 
-1. Validaciones básicas.
-2. Informes de calidad.
-3. Generación de índices.
-4. Validación semántica de relaciones.
-5. Preparación para grafo de conocimiento.
+- ADR-0003 · Markdown como fuente de verdad
+- ADR-0012 · Preparación para publicación web MkDocs
+- ADR-0014 · Gestión del conocimiento
 
-## Referencias
+---
 
-* [Arquitectura](../ARQUITECTURA.md)
-* [Quality](../QUALITY.md)
-* [ADR-0003 Markdown como fuente de verdad](../adr/ADR-0003-markdown-como-fuente-de-verdad.md)
-* [ADR-0012 Preparación para publicación web MkDocs](../adr/ADR-0012-preparacion-para-publicacion-web-mkdocs.md)
-* [ADR-0014 Gestión del conocimiento](../adr/ADR-0014-gestion-del-conocimiento.md)
+# Conclusión
+
+La automatización constituye una capacidad de infraestructura del SGCC.
+
+Su misión no consiste en producir conocimiento, sino en preservar su calidad, facilitar su evolución y garantizar que el crecimiento del proyecto continúe siendo sostenible.
+
+Toda automatización deberá estar siempre al servicio de la arquitectura y del conocimiento, nunca al contrario.

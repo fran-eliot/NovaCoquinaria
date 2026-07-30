@@ -1,183 +1,285 @@
-# Estructura del Proyecto
+---
+id: DOC-0021
+titulo: Estructura del Proyecto
+tipo: gestion
+version: 2.0
+estado: estable
+ultima_revision: 2026-07-30
+---
 
-> Resumen de la organización del repositorio NovaCoquinaria.
+# PROJECT_STRUCTURE
+
+> **Proyecto:** NovaCoquinaria  
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-# Filosofía de la estructura
+# Objetivo
 
-La estructura física del repositorio existe para soportar el modelo lógico del conocimiento.
+Este documento describe la **estructura física del repositorio** de NovaCoquinaria.
 
-Los directorios organizan los documentos, pero no definen el conocimiento.
+Su finalidad es facilitar la localización de archivos y directorios, así como explicar la organización general del proyecto.
 
-El verdadero modelo del sistema está representado por las entidades, sus relaciones y las decisiones arquitectónicas documentadas mediante ADR.
+No define la arquitectura del SGCC ni el modelo de conocimiento.
+
+La organización física del repositorio constituye únicamente una implementación del sistema documental.
 
 ---
 
-# Organización lógica
+# Principios de organización
+
+La estructura del repositorio sigue los siguientes principios:
+
+- organización por responsabilidades;
+- separación entre conocimiento y documentación;
+- independencia entre modelo lógico y estructura física;
+- crecimiento incremental;
+- simplicidad de navegación.
+
+La ubicación de un documento no determina su significado conceptual.
+
+---
+
+# Organización general
 
 ```text
-Conocimiento
-        │
-        ▼
-Entidades
-        │
-        ▼
-Relaciones
-        │
-        ▼
-Knowledge Graph
-        │
-        ▼
-Documentos Markdown
-        │
-        ▼
 Repositorio
+
+├── Conocimiento
+├── Documentación
+├── Infraestructura
+├── Recursos
+└── Publicación
 ```
 
 ---
 
-## Arquitectura documental
+# Directorios principales
 
-La documentación de NovaCoquinaria se organiza por responsabilidades:
+## Conocimiento
 
-| Documento | Responsabilidad |
-|------------|-----------------|
-| README | Presentación del proyecto |
-| CONTEXT | Índice maestro de navegación |
-| NovaCoquinaria | Identidad del proyecto |
-| MANIFESTO | Principios permanentes |
-| VISION | Dirección estratégica |
-| ARQUITECTURA | Diseño del sistema |
-| MODELO_DE_CONOCIMIENTO | Ontología del conocimiento |
-| PROJECT_ONBOARDING | Incorporación de colaboradores |
-| CONTRIBUTING | Proceso de contribución |
-| PROJECT_STRUCTURE | Organización física |
+Contiene el conocimiento culinario gestionado por el SGCC.
 
----
+```text
+00_Bases/
+01_Arroces/
+02_Pastas/
+03_Legumbres/
+04_Verduras/
+05_Carnes/
+06_Pescados_y_Mariscos/
+07_Cocina_Asiatica/
+08_Postres/
+09_Bebidas/
+10_Horno/
+11_Despensa/
+12_Plantillas/
+98_Tablas/
+99_Notas/
+```
 
-## Directorios principales
+Cada directorio agrupa un dominio funcional del conocimiento.
 
-### Conocimiento
-
-| Directorio | Propósito |
-|------------|-----------|
-| `00_Bases/` | Fundamentos y técnicas culinarias reutilizables. |
-| `01_Arroces/` | Dominio culinario especializado en arroces. |
-| `04_Verduras/` | Dominio culinario especializado en verduras. |
-| `05_Carnes/` | Dominio culinario especializado en carnes. |
-| `06_Pescados_y_Mariscos/` | Dominio culinario especializado en pescados y mariscos. |
-| `11_Despensa/` | Ingredientes, salsas, especias y productos. |
-| `12_Plantillas/` | Patrones y estructuras reutilizables para representar conocimiento culinario. |
-| `98_Tablas/` | Tablas de referencia culinarias. |
-
-### Documentación
-
-| Directorio | Propósito |
-|------------|-----------|
-| `docs/` | Documentación técnica y arquitectónica. |
-
-### Infraestructura
-
-
-| Directorio | Propósito |
-|------------|-----------|
-| `assets/` | Recursos gráficos del proyecto. |
-| `tools/` | Scripts y herramientas auxiliares. |
-| `site_docs/` | Documentación generada para MkDocs (no editar manualmente). |
+La organización podrá evolucionar sin alterar el modelo conceptual.
 
 ---
 
-## Documentación técnica
+## Documentación
 
-La documentación técnica complementa el modelo de conocimiento y describe la arquitectura, el gobierno y la evolución del proyecto.
+Contiene la documentación técnica, arquitectónica y de gestión del proyecto.
 
 ```text
 docs/
-├── adr/
-│   └── Decisiones arquitectónicas
-├── architecture/
-│   └── Arquitectura del sistema
-├── diagrams/
-│   └── Diagramas generados y manuales
-├── images/ 
-│   └── Recursos gráficos
-├── management/
-│   └── Gobierno del proyecto
-├── templates/
-│   └── Plantillas reutilizables
-├── ARQUITECTURA.md
-├── QUALITY.md
-├── ROADMAP.md
-└── VISION.md
 ```
+
+Incluye:
+
+- arquitectura;
+- gobernanza;
+- gestión;
+- decisiones arquitectónicas;
+- diagramas;
+- especificaciones.
 
 ---
 
 ## Herramientas
 
+Contiene los procesos de automatización y validación.
+
 ```text
 tools/
-├── common.py
-├── models.py
-├── graph.py
-├── semantic_rules.py
-├── validate_all.py
-├── validate_frontmatter.py
-├── validate_ids.py
-├── validate_links.py
-├── validate_semantics.py
-├── generate_graph.py
-├── generate_graph_stats.py
-├── generate_stats.py
-├── find_orphans.py
-└── build_site_docs.py
 ```
 
-Las herramientas se dividen en:
+Incluye:
 
 - validadores;
 - generadores;
-- modelos compartidos;
-- procesos de construcción.
+- scripts de mantenimiento;
+- utilidades compartidas.
 
 ---
 
-## Principios de organización
+## Recursos
 
-- Markdown es la única fuente de verdad.
-- El modelo lógico es independiente del repositorio.
-- La estructura física puede evolucionar sin alterar el conocimiento.
-- Cada documento tiene una única responsabilidad.
-- Las entidades se relacionan mediante referencias explícitas.
-- `site_docs` es siempre un artefacto generado.
-- El Knowledge Graph representa la organización semántica del sistema.
+Contiene recursos auxiliares utilizados por el proyecto.
 
----
+```text
+assets/
+```
 
-## Evolución de la estructura
+Ejemplos:
 
-La organización del repositorio no es estática.
-
-Podrá modificarse cuando:
-
-- mejore la reutilización;
-- simplifique la navegación;
-- reduzca duplicidades;
-- refleje mejor la evolución del modelo de conocimiento.
-
-Toda reorganización significativa deberá documentarse mediante un ADR.
+- imágenes;
+- iconografía;
+- diagramas;
+- recursos gráficos.
 
 ---
 
-## Referencias
+## Publicación
 
-- [README](../../README.md)
-- [CONTEXT](../../CONTEXT.md)
-- [NovaCoquinaria](../../NovaCoquinaria.md)
-- [Arquitectura](../ARQUITECTURA.md)
-- [Modelo de conocimiento](../MODELO_DE_CONOCIMIENTO.md)
-- [PROJECT_ONBOARDING](../management/PROJECT_ONBOARDING.md)
-- [CONTRIBUTING](../../CONTRIBUTING.md)
-- [ADR-0002 Estructura del repositorio](../adr/ADR-0002-estructura-del-repositorio.md)
-- [Visión](../VISION.md)
+```text
+site_docs/
+```
+
+Contiene la documentación generada automáticamente para MkDocs.
+
+**Nunca debe editarse manualmente.**
+
+Markdown continúa siendo la única fuente de verdad del sistema.
+
+---
+
+# Organización documental
+
+La documentación se organiza por responsabilidades.
+
+```text
+Identidad
+
+Arquitectura
+
+Gobernanza
+
+Gestión
+
+Operación
+```
+
+La navegación entre documentos se realiza mediante referencias cruzadas y no mediante la estructura de carpetas.
+
+---
+
+# Organización del conocimiento
+
+El conocimiento culinario se distribuye por dominios.
+
+```text
+Dominios
+
+↓
+
+Entidades
+
+↓
+
+Relaciones
+
+↓
+
+Recetas
+```
+
+La clasificación física facilita la navegación, pero no constituye el modelo del conocimiento.
+
+---
+
+# Relación entre estructura física y modelo lógico
+
+El SGCC distingue claramente dos niveles.
+
+## Modelo lógico
+
+Describe:
+
+- entidades;
+- relaciones;
+- reglas;
+- restricciones.
+
+Se documenta en:
+
+- MODELO_DE_CONOCIMIENTO.md
+
+---
+
+## Estructura física
+
+Describe:
+
+- directorios;
+- archivos;
+- organización del repositorio.
+
+Se documenta en este documento.
+
+Ambos niveles evolucionan de forma independiente.
+
+---
+
+# Evolución de la estructura
+
+La estructura física podrá modificarse cuando contribuya a:
+
+- mejorar la navegación;
+- reducir complejidad;
+- facilitar el mantenimiento;
+- adaptarse a la evolución del proyecto.
+
+Toda reorganización significativa deberá documentarse mediante la correspondiente ADR.
+
+---
+
+# Relaciones entre documentos
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| CONTEXT | Índice maestro |
+| PROJECT_STRUCTURE | Organización física del repositorio |
+| ARQUITECTURA | Diseño del SGCC |
+| MODELO_DE_CONOCIMIENTO | Modelo conceptual |
+| PROJECT_ONBOARDING | Incorporación de colaboradores |
+| CONTRIBUTING | Normas de contribución |
+
+---
+
+# Documentación relacionada
+
+## Navegación
+
+- CONTEXT
+
+## Arquitectura
+
+- ARQUITECTURA
+- MODELO_DE_CONOCIMIENTO
+
+## Incorporación
+
+- PROJECT_ONBOARDING
+- CONTRIBUTING
+
+## Decisiones
+
+- ADR-0002 · Estructura del repositorio
+
+---
+
+# Conclusión
+
+La estructura física del repositorio constituye una implementación organizada del SGCC.
+
+Su objetivo es facilitar el mantenimiento y la navegación del proyecto, manteniendo siempre la independencia entre la organización de los archivos y el modelo conceptual del conocimiento.
+
+Esta separación permite reorganizar el repositorio cuando sea necesario sin alterar el significado ni las relaciones del conocimiento que contiene.

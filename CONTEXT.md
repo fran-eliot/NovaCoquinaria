@@ -1,157 +1,181 @@
 # CONTEXT
 
-> Mapa de navegación de la documentación de NovaCoquinaria.
-
-Este documento proporciona una visión global de la documentación del proyecto y ayuda a localizar rápidamente la información adecuada según el objetivo de cada consulta.
-
-No sustituye al README ni a la documentación especializada; actúa como punto de entrada y guía de navegación para colaboradores humanos y asistentes de IA.
+> **Proyecto:** NovaCoquinaria  
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-# Mapa conceptual
+# Objetivo
+
+Este documento constituye el **índice maestro de la documentación** de NovaCoquinaria.
+
+Su finalidad es facilitar la navegación por el sistema documental, indicando dónde se encuentra cada tipo de información y cuál es la responsabilidad de cada documento.
+
+No sustituye al README, al onboarding ni a la documentación especializada.
+
+Su única responsabilidad consiste en orientar al lector hacia la documentación adecuada.
+
+---
+
+# Mapa documental
 
 ```text
 NovaCoquinaria
 │
-├── Documentación fundacional
-│
+├── Identidad
 ├── Arquitectura
-│
-├── Gobierno del proyecto
-│
-├── Gestión del conocimiento
-│
-├── Desarrollo e infraestructura
-│
-└── Publicación
+├── Gobernanza
+├── Gestión
+├── Operación
+└── Conocimiento
 ```
 
 ---
 
-# Primera lectura recomendada
+# Estructura documental
 
-Si es la primera vez que trabajas con NovaCoquinaria, el orden recomendado es:
+## Identidad
 
-1. [README](README.md)
-2. [NovaCoquinaria](./NovaCoquinaria.md)
-3. [VISION](./docs/VISION.md)
-4. [ARQUITECTURA](./docs/ARQUITECTURA.md)
-5. [Modelo de Conocimiento](./docs/MODELO_DE_CONOCIMIENTO.md)
-6. [Roadmap](./docs/ROADMAP.md)
+Describe qué es el proyecto y cuál es su propósito.
 
----
-
-# Navegación por objetivos
-
-## Quiero entender el proyecto
-
-- [README](./README.md)
-- [NovaCoquinaria](./NovaCoquinaria.md)
-- [Manifiesto](./MANIFESTO.md)
-- [VISION](./docs/VISION.md)
-- [ARQUITECTURA](./docs/ARQUITECTURA.md)
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| README | Punto de entrada al proyecto |
+| NovaCoquinaria | Identidad del proyecto |
+| MANIFESTO | Principios permanentes |
+| VISION | Dirección estratégica |
 
 ---
 
-## Quiero entender el conocimiento
+## Arquitectura
 
-- [Modelo de Conocimiento](./docs/MODELO_DE_CONOCIMIENTO.md)
-- [Especificación de colecciones](./docs/ESPECIFICACION_DE_COLECCIONES.md)
-- [Estrategia del conocimiento](./docs/management/KNOWLEDGE_STRATEGY.md)
-- [Madurez del conocimiento](./docs/management/KNOWLEDGE_MATURITY.md)
+Describe cómo está diseñado el sistema.
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| ARQUITECTURA | Diseño global del SGCC |
+| MODELO_DE_CONOCIMIENTO | Modelo conceptual del conocimiento |
+| ADR | Evolución arquitectónica |
 
 ---
 
-## Quiero conocer decisiones arquitectónicas
+## Gobernanza
 
-- [ADR](./docs/adr/)
-- [Sumario de decisiones](./docs/management/DECISIONS_SUMMARY.md)
+Define cómo se mantiene y evoluciona el proyecto.
 
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| CONTEXT | Índice maestro |
+| PROJECT_STRUCTURE | Organización física del repositorio |
+| PROJECT_ONBOARDING | Incorporación de colaboradores |
+| CONTRIBUTING | Normas de contribución |
+| DEVELOPMENT_WORKFLOW | Proceso oficial de desarrollo |
+
+---
+
+## Gestión
+
+Permite conocer el estado y evolución del proyecto.
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| PROJECT_STATUS | Estado actual |
+| ROADMAP | Evolución prevista |
+| BITACORA | Historial de hitos |
+| RELEASES | Versiones publicadas |
+| CHANGELOG | Historial de cambios |
+
+---
+
+## Operación
+
+Describe el funcionamiento operativo del proyecto.
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| QUALITY | Calidad documental |
+| GUIA_DE_ESTILO | Convenciones de escritura |
+| ESPECIFICACION_DE_DOCUMENTOS | Estructura documental |
+| TOOLS | Herramientas del proyecto |
+
+---
+
+## Conocimiento
+
+Documenta el dominio culinario gestionado por el SGCC.
+
+Incluye:
+
+- ingredientes;
+- técnicas;
+- patrones culinarios;
+- platos canónicos;
+- variantes;
+- recetas;
+- tablas;
+- bases culinarias.
+
+---
+
+# Recorridos recomendados
+
+## Quiero conocer el proyecto
+
+1. README
+2. NovaCoquinaria
+3. VISION
+4. MANIFESTO
+
+---
+
+## Quiero comprender la arquitectura
+
+1. ARQUITECTURA
+2. MODELO_DE_CONOCIMIENTO
+3. ADR
 
 ---
 
 ## Quiero empezar a colaborar
 
-- [CONTRIBUTING](CONTRIBUTING.md)
-- [PROJECT_ONBOARDING](./docs/management/PROJECT_ONBOARDING.md)
-- [AI ONBOARDING](./docs/management/AI_ONBOARDING.md)
-- [Guía de estilo](GUIA_DE_ESTILO.md)
+1. PROJECT_ONBOARDING
+2. CONTRIBUTING
+3. DEVELOPMENT_WORKFLOW
 
 ---
 
-## Quiero saber el estado actual
+## Quiero saber en qué estado está el proyecto
 
-- [Estado del proyecto](./docs/management/PROJECT_STATUS.md)
-- [Bitácora](./docs/management/BITACORA.md)
-- [Roadmap](./docs/ROADMAP.md)
-- [Releases](./docs/management/RELEASES.md)
-
----
-
-## Quiero saber cómo evoluciona el proyecto
-
-- [Roadmap](./docs/ROADMAP.md)
-- [Bitácora](./docs/management/BITACORA.md)
-- [Changelog](./CHANGELOG.md)
-- [Releases](./docs/management/RELEASES.md)
+1. PROJECT_STATUS
+2. BITACORA
+3. ROADMAP
+4. RELEASES
 
 ---
 
-## Quiero trabajar en el código
+## Quiero localizar un documento
 
-### Desarrollo
+Utiliza la estructura documental de este índice para identificar el área funcional correspondiente.
 
-- [Flujo de desarrollo](./docs/management/DEVELOPMENT_WORKFLOW.md)
-- [Tools Framework](./tools/README.md)
-- [Quality](./docs/QUALITY.md)
-
-### Mantenimiento
-
-- [Limitaciones conocidas](docs/management/KNOWN_ISSUES.md)
-- [Ideas futuras](docs/management/FUTURE_IDEAS.md)
+Cada documento del proyecto posee una única responsabilidad.
 
 ---
 
-## Publicación
+# Principios de navegación
 
-La documentación publicada mediante MkDocs se genera automáticamente.
-
-No editar:
-
-```text
-site_docs/
-```
-
-Fuente de verdad:
-
-- Markdown del repositorio.
-- Ningún archivo de `site_docs/` debe editarse manualmente.
-
----
-
-## Principios
-
-La documentación del proyecto sigue varios principios:
+La documentación del proyecto sigue las siguientes reglas:
 
 - un documento, una responsabilidad;
+- una responsabilidad, un documento;
 - referencias cruzadas antes que duplicación;
 - evolución mediante ADR;
-- documentación versionada;
-- conocimiento reutilizable;
-- el conocimiento se organiza mediante entidades y relaciones, no mediante jerarquías de carpetas.
+- Markdown como fuente de verdad;
+- navegación basada en responsabilidades y no únicamente en directorios.
 
 ---
 
-## ¿No sabes dónde buscar?
+# Mantenimiento
 
-- Si quieres entender NovaCoquinaria, comienza por el README.
-- Si buscas un documento concreto, utiliza las categorías anteriores.
-- Si tienes dudas sobre la estructura del proyecto, consulta este documento antes que cualquier otro.
+Siempre que se incorpore un nuevo documento relevante deberá evaluarse su inclusión en este índice.
 
----
-
-# Convenciones
-
-Este documento actúa como índice maestro de la documentación.
-
-Siempre que se incorpore un nuevo documento relevante al proyecto deberá evaluarse si debe incluirse en este índice para mantener actualizada la navegación de NovaCoquinaria.
+CONTEXT constituye el punto central de navegación de toda la documentación del proyecto y debe mantenerse sincronizado con la arquitectura documental vigente.

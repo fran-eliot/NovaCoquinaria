@@ -30,7 +30,7 @@ etiquetas:
 
 Preparación básica de arroz frito en la que el arroz previamente cocido y enfriado se saltea a alta temperatura con huevo, aromáticos y una condimentación ligera.
 
-Es una de las recetas fundamentales de la cocina al wok y constituye la implementación más sencilla del patrón [Arroz frito base](../12_Plantillas/04_Cocciones/arroz_frito_base.md).
+Es una de las recetas fundamentales de la cocina al wok y constituye la implementación más sencilla del patrón [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md).
 
 La clave del plato reside en utilizar arroz frío y relativamente seco, mantener una temperatura elevada y evitar el exceso de salsa.
 
@@ -54,7 +54,7 @@ La receta sirve como base para futuras variantes con pollo, ternera, gambas, tof
 
 Esta receta implementa la plantilla:
 
-- [Arroz frito base](../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 
 y reutiliza:
 
@@ -502,7 +502,7 @@ Constituye la receta canónica inicial del dominio **Arroces** y la implementaci
 
 ## Plantillas
 
-- [Arroz frito base](../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 - [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)
 
@@ -540,7 +540,7 @@ Constituye la receta canónica inicial del dominio **Arroces** y la implementaci
 
 ## Plantillas
 
-- [Arroz frito base](../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 - [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)
 

@@ -2,150 +2,248 @@
 id: ARC-0016
 tipo: arquitectura
 titulo: Pipeline de Calidad
-version: 1.0
-estado: borrador
-ultima_revision: 2026-07-08
+version: 2.0
+estado: estable
+ultima_revision: 2026-07-20
 ---
 
 # Pipeline de Calidad
 
-## Objetivo
-
-Este documento define el proceso de validación documental de NovaCoquinaria.
-
-El objetivo del pipeline es detectar problemas antes de publicar la documentación o incorporar cambios al repositorio.
-
-No modifica el contenido del proyecto; únicamente verifica su consistencia.
+> **Proyecto:** NovaCoquinaria
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-## Filosofía
+# Objetivo
 
-La calidad se basa en tres principios:
+Este documento define el Pipeline de Calidad utilizado por NovaCoquinaria para asegurar la consistencia del conocimiento antes de su publicación.
 
-- prevenir errores antes de publicar;
-- automatizar comprobaciones repetitivas;
-- mantener la simplicidad de la arquitectura.
+El Pipeline constituye el proceso mediante el cual el conocimiento evoluciona desde su edición hasta convertirse en documentación publicada.
 
-El pipeline nunca sustituye la revisión editorial.
+Su misión consiste en detectar problemas, preservar la coherencia del SGCC y evitar que las inconsistencias alcancen la documentación distribuida.
 
 ---
 
-## Fuente de verdad
+# Filosofía
 
-Todo el proceso parte del contenido Markdown del repositorio.
+Todo documento incorporado al SGCC debe superar una serie de comprobaciones antes de considerarse válido.
+
+El Pipeline nunca modifica el contenido.
+
+Su responsabilidad consiste exclusivamente en verificar su calidad.
+
+---
+
+# Flujo general
 
 ```text
-Repositorio Markdown
-        │
-        ▼
-Validaciones
-        │
-        ▼
-Generación de site_docs
-        │
-        ▼
-MkDocs
-        │
-        ▼
-Sitio publicado
+Autor
+
+↓
+
+Markdown
+
+↓
+
+Validación estructural
+
+↓
+
+Validación documental
+
+↓
+
+Validación arquitectónica
+
+↓
+
+Generación
+
+↓
+
+Publicación
 ```
+
+Cada etapa únicamente comienza cuando la anterior ha finalizado correctamente.
 
 ---
 
-## Fases del pipeline
+# Etapas del Pipeline
 
-### 1. Validación estructural
+## 1. Creación del conocimiento
 
-Comprobaciones básicas:
+El conocimiento se incorpora exclusivamente mediante documentos Markdown.
 
-- existencia de Front Matter;
-- formato correcto del YAML;
-- identificadores presentes;
-- metadatos obligatorios.
-
-Herramienta prevista:
-
-```text
-validate_frontmatter.py
-```
+Markdown constituye la única fuente oficial de verdad del proyecto.
 
 ---
 
-### 2. Validación documental
+## 2. Validación estructural
 
-Comprobaciones de integridad:
+Verifica que el documento pueda formar parte del SGCC.
+
+Ejemplos de comprobaciones:
+
+- Front Matter válido;
+- metadatos obligatorios;
+- formato correcto;
+- identificadores presentes.
+
+---
+
+## 3. Validación documental
+
+Comprueba la integridad documental.
+
+Ejemplos:
 
 - identificadores únicos;
-- enlaces internos válidos;
-- referencias existentes.
-
-Herramientas previstas:
-
-```text
-validate_ids.py
-validate_links.py
-```
+- enlaces válidos;
+- referencias existentes;
+- relaciones coherentes.
 
 ---
 
-### 3. Generación
+## 4. Validación arquitectónica
 
-Una vez superadas las validaciones:
+Comprueba que el documento respeta la arquitectura del SGCC.
 
-```text
-build_site_docs.py
-```
+Ejemplos:
 
-genera la documentación publicada.
-
----
-
-### 4. Publicación
-
-MkDocs construye el sitio web utilizando exclusivamente:
-
-```text
-site_docs/
-```
+- organización documental;
+- coherencia entre documentos;
+- ausencia de duplicidades;
+- cumplimiento de principios arquitectónicos.
 
 ---
 
-## Errores bloqueantes
+## 5. Generación
 
-El pipeline deberá detenerse cuando detecte:
+Una vez validado el conocimiento se generan los artefactos derivados.
 
-- IDs duplicados;
+Ejemplos:
+
+- documentación publicada;
+- índices;
+- estadísticas.
+
+---
+
+## 6. Publicación
+
+La documentación generada puede publicarse mediante MkDocs u otros mecanismos equivalentes.
+
+La publicación nunca constituye una fuente de verdad.
+
+---
+
+# Resultado del Pipeline
+
+El Pipeline puede finalizar en tres estados.
+
+## Correcto
+
+El documento supera todas las comprobaciones.
+
+Puede continuar el proceso.
+
+---
+
+## Advertencia
+
+Se detectan aspectos mejorables que no comprometen la arquitectura.
+
+La publicación puede continuar.
+
+---
+
+## Error bloqueante
+
+Se detectan inconsistencias incompatibles con el modelo documental.
+
+El proceso se detiene hasta resolverlas.
+
+---
+
+# Criterios de bloqueo
+
+El Pipeline deberá interrumpirse cuando existan:
+
 - Front Matter inválido;
-- enlaces internos rotos;
-- referencias a documentos inexistentes.
+- identificadores duplicados;
+- enlaces rotos;
+- referencias inexistentes;
+- incoherencias arquitectónicas.
 
 ---
 
-## Advertencias
+# Evolución
 
-Podrán notificarse sin bloquear el proceso:
+El Pipeline evolucionará progresivamente.
 
-- documentos sin referencias cruzadas;
-- metadatos opcionales ausentes;
-- secciones recomendadas no presentes.
+```text
+Validación estructural
+
+↓
+
+Validación documental
+
+↓
+
+Validación arquitectónica
+
+↓
+
+Validación semántica
+
+↓
+
+Calidad del conocimiento
+```
+
+Cada nueva etapa ampliará las capacidades del Pipeline sin alterar los principios fundamentales.
 
 ---
 
-## Evolución futura
+# Relación con la automatización
 
-El pipeline podrá ampliarse con:
+El Pipeline constituye la principal aplicación práctica de la estrategia de automatización del SGCC.
 
-- generación automática de índices;
-- estadísticas del conocimiento;
-- detección de documentos huérfanos;
-- validación semántica;
-- generación del grafo de conocimiento.
+La automatización proporciona las herramientas.
+
+El Pipeline define el proceso.
 
 ---
 
-## Referencias
+# Relaciones documentales
 
-- [AUTOMATION](AUTOMATION.md)
-- [QUALITY](../QUALITY.md)
-- [ARQUITECTURA](../ARQUITECTURA.md)
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| AUTOMATION | Estrategia de automatización |
+| TOOLS_FRAMEWORK | Arquitectura técnica |
+| QUALITY | Modelo de calidad |
+| ARQUITECTURA | Arquitectura del SGCC |
+
+---
+
+# Documentación relacionada
+
+## Arquitectura
+
+- AUTOMATION
+- TOOLS_FRAMEWORK
+- QUALITY
+- ARQUITECTURA
+
+## ADR
+
+- ADR-0003 · Markdown como fuente de verdad
+- ADR-0012 · Preparación para publicación web MkDocs
+
+---
+
+# Conclusión
+
+El Pipeline de Calidad garantiza que únicamente el conocimiento consistente, coherente y alineado con la arquitectura del SGCC pueda evolucionar hasta convertirse en documentación publicada.
+
+Constituye el mecanismo operativo que conecta la edición del conocimiento con su distribución, preservando en todo momento la integridad del sistema.

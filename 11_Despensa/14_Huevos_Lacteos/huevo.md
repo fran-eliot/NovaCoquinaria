@@ -244,7 +244,7 @@ Requiere mayor control técnico para evitar que el arroz se humedezca o forme gr
 
 Consultar:
 
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Cocinar al wok](../../00_Bases/03_Tecnicas/wok.md)
 - [Saltear](../../00_Bases/03_Tecnicas/saltear.md)
 
@@ -473,7 +473,7 @@ Combina especialmente bien con:
 
 ## Plantillas
 
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 - [Salsa china base](../../12_Plantillas/02_Salsas/salsa_china_base.md)
 
@@ -525,7 +525,7 @@ Comprender sus funciones permite reutilizar el mismo ingrediente en dominios cul
 
 ## Plantillas
 
-- [Arroz frito base](../../12_Plantillas/04_Cocciones/arroz_frito_base.md)
+- [Arroz frito base](../../12_Plantillas/05_Arroces/arroz_frito_base.md)
 - [Salteado asiático](../../12_Plantillas/04_Cocciones/salteado_asiatico.md)
 
 ## Tablas

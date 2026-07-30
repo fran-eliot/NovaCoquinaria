@@ -1,299 +1,248 @@
-# Incorporación al Proyecto
-
-> Guía rápida para comprender NovaCoquinaria y comenzar a colaborar en su desarrollo.
-
-Este documento asume que ya se ha leído el README y constituye el siguiente paso recomendado para comenzar a trabajar en el proyecto.
-
+---
+id: DOC-0020
+titulo: Incorporación al Proyecto
+tipo: gestion
+version: 2.0
+estado: estable
+ultima_revision: 2026-07-30
 ---
 
-# Primeros 10 minutos
+# PROJECT_ONBOARDING
 
-Si acabas de incorporarte al proyecto:
-
-1. Lee [README](../../README.md)
-2. Lee [NovaCoquinaria](../../NovaCoquinaria.md)
-3. Consulta [CONTEXT](../../CONTEXT.md)
-4. Revisa [PROJECT_STATUS](./PROJECT_STATUS.md)
-5. Continúa con este documento.
+> **Proyecto:** NovaCoquinaria  
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
 # Objetivo
 
-Este documento proporciona el contexto mínimo necesario para comprender el proyecto y continuar su evolución sin necesidad de reconstruir todo su historial.
+Este documento define el **proceso oficial de incorporación** al proyecto NovaCoquinaria.
 
-Está dirigido tanto a desarrolladores como a asistentes basados en inteligencia artificial.
+Su finalidad es proporcionar el contexto mínimo necesario para que cualquier colaborador —humano o asistente basado en IA— pueda comenzar a trabajar manteniendo la coherencia del SGCC.
 
----
+No explica el proyecto en profundidad.
 
-# ¿Qué es NovaCoquinaria?
-
-NovaCoquinaria es un **Sistema de Gestión del Conocimiento Culinario (SGCC)**.
-
-Su objetivo no es únicamente almacenar recetas, sino organizar el conocimiento culinario mediante componentes reutilizables.
-
-Las recetas son únicamente una parte del sistema.
+Su función consiste en indicar **qué debe comprenderse antes de realizar cualquier contribución**.
 
 ---
 
-# Filosofía
+# Perfil del colaborador
 
-Los principios fundamentales del proyecto son:
+Toda persona o sistema que participe en el proyecto deberá comprender:
 
-- El conocimiento es el activo principal.
-
-- Markdown constituye la fuente única de verdad.
-
-- Documentar una sola vez.
-
-- Reutilizar siempre.
-
-- El modelo lógico es independiente del repositorio.
-
-- El conocimiento evoluciona mediante pequeñas mejoras.
-
-- Las decisiones arquitectónicas se documentan mediante ADR.
+- qué es NovaCoquinaria;
+- qué es GASTRO;
+- cómo se organiza el conocimiento;
+- cómo evoluciona el proyecto;
+- cuáles son las normas de gobernanza.
 
 ---
 
-# Modelo de conocimiento
+# Itinerario recomendado
 
-NovaCoquinaria organiza el conocimiento mediante entidades.
-
-Las principales son:
-
-- ingredientes;
-- técnicas;
-- patrones culinarios;
-- platos canónicos;
-- variantes;
-- tablas de referencia.
-
-Cada entidad posee una única responsabilidad y se relaciona con las demás mediante referencias explícitas.
-
----
-
-# Publicación
-
-El portal web utiliza MkDocs Material.
-
-Sin embargo:
-
-- MkDocs no es la fuente de verdad.
-- Markdown es la fuente de verdad.
-- `site_docs` es un artefacto generado.
-
-Nunca editar:
+La incorporación sigue el siguiente recorrido.
 
 ```text
-site_docs/
+README
+      │
+      ▼
+NovaCoquinaria
+      │
+      ▼
+VISION
+      │
+      ▼
+MANIFESTO
+      │
+      ▼
+ARQUITECTURA
+      │
+      ▼
+MODELO_DE_CONOCIMIENTO
+      │
+      ▼
+CONTEXT
+      │
+      ▼
+PROJECT_STATUS
+      │
+      ▼
+PROJECT_ONBOARDING
 ```
 
-Los contenidos de site_docs se generan automáticamente mediante:
-
-```bash
-python tools/build_site_docs.py
-```
-
-Toda modificación realizada directamente en site_docs se perderá en la siguiente generación.
+Una vez completado este recorrido, el colaborador dispone del contexto necesario para comenzar a participar en el proyecto.
 
 ---
 
-# Lectura recomendada
+# Conocimientos mínimos
 
-Para comprender el proyecto, consultar en este orden:
+Antes de realizar cualquier cambio deberá comprenderse:
 
-1. [README](../../README.md)
-2. [NovaCoquinaria](../../NovaCoquinaria.md)
-3. [CONTEXT](../../CONTEXT.md)
-4. [PROJECT_STATUS](PROJECT_STATUS.md)
-5. [ARQUITECTURA](../ARQUITECTURA.md)
-6. [Modelo de Conocimiento](../MODELO_DE_CONOCIMIENTO.md)
-7. [DECISIONS_SUMMARY](DECISIONS_SUMMARY.md)
-8. [ROADMAP](../ROADMAP.md)
+## Identidad
+
+- propósito del proyecto;
+- alcance del SGCC;
+- papel de GASTRO.
 
 ---
 
-# Gobernanza del conocimiento
+## Arquitectura
 
-La evolución del conocimiento se gobierna mediante:
-
-- [KNOWLEDGE_STRATEGY](KNOWLEDGE_STRATEGY.md)
-- [KNOWLEDGE_DEBT](KNOWLEDGE_DEBT.md)
-- [KNOWLEDGE_MATURITY](KNOWLEDGE_MATURITY.md)
-
-Estos documentos definen respectivamente:
-
-- cómo debe crecer el conocimiento;
-- qué carencias estructurales existen;
-- qué grado de madurez ha alcanzado.
+- diseño general del sistema;
+- modelo de conocimiento;
+- separación entre modelo lógico y estructura física.
 
 ---
 
-# Calidad y herramientas
+## Gobernanza
 
-Antes de integrar cambios relevantes:
-
-```bash
-python tools/validate_all.py
-python tools/generate_graph.py
-python tools/generate_graph_stats.py
-python tools/find_orphans.py
-python tools/validate_semantics.py
-```
-
-Ningún cambio debe integrarse si compromete la coherencia del modelo de conocimiento, aunque las validaciones automáticas sean satisfactorias.
-
-El Knowledge Graph permite analizar la reutilización y conectividad del conocimiento.
+- workflow de desarrollo;
+- proceso de contribución;
+- documentación mediante ADR;
+- responsabilidades documentales.
 
 ---
 
-# Gestión del proyecto
+## Estado del proyecto
 
-Consultar:
+Consultar siempre:
 
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [BITACORA](BITACORA.md)
-- [RELEASES](RELEASES.md)
-
----
-
-# Convenciones
-
-El proyecto utiliza:
-
-## Gobierno
-
-- ADR.
-- Semantic Versioning.
-
-## Documentación
-
-- Front Matter YAML.
-- Referencias cruzadas.
-
-## Desarrollo
-
-- Pull Request por funcionalidad.
-- Commits pequeños y descriptivos.
+- PROJECT_STATUS;
+- BITÁCORA;
+- ROADMAP.
 
 ---
 
-# Forma habitual de trabajo
+# Antes de contribuir
 
-```text
-Comprender
+Todo colaborador deberá revisar:
 
-↓
+1. CONTRIBUTING
+2. DEVELOPMENT_WORKFLOW
 
-Diseñar
-
-↓
-
-Documentar
-
-↓
-
-Validar
-
-↓
-
-Relacionar
-
-↓
-
-Integrar
-```
+Estos documentos describen cómo debe evolucionar el conocimiento y cómo integrar nuevas contribuciones.
 
 ---
 
-# Qué evitar
+# Antes de modificar la arquitectura
 
-No modificar:
+Las modificaciones que afecten a:
 
-- arquitectura SGCC;
-- ADR aprobados;
+- arquitectura;
+- modelo de conocimiento;
+- organización documental;
 - estructura del repositorio;
-- `site_docs`;
 
-sin una decisión arquitectónica explícita.
-
----
-
-# Rol esperado del asistente
-
-Cuando el proyecto se desarrolla con ayuda de un asistente IA, este debe actuar como:
-
-- Arquitecto de software.
-- Arquitecto documental.
-- Revisor técnico.
-- Experto en gestión del conocimiento.
-- Experto culinario cuando sea necesario.
-
-Debe priorizar siempre:
-
-1. Coherencia.
-2. Simplicidad.
-3. Reutilización.
-4. Mantenibilidad.
-
-El asistente debe cuestionar las decisiones cuando detecte incoherencias con la arquitectura o con el modelo de conocimiento.
-
-Su función no es únicamente ejecutar instrucciones, sino contribuir a preservar la calidad del sistema.
+deberán evaluarse previamente mediante una **Architecture Decision Record (ADR)**.
 
 ---
 
-# Estado actual
+# Validaciones
 
-Consultar:
+Antes de integrar cambios relevantes deberán ejecutarse las validaciones oficiales del proyecto.
 
-- [PROJECT_STATUS](PROJECT_STATUS.md)
+Como mínimo:
 
----
+- validación documental;
+- validación semántica;
+- generación del Knowledge Graph;
+- comprobación de documentos huérfanos.
 
-# Evolución
-
-Consultar:
-
-- [BITACORA](BITACORA.md)
-
----
-
-# Futuro
-
-Consultar:
-
-- [ROADMAP](../ROADMAP.md)
-- [FUTURE_IDEAS](FUTURE_IDEAS.md)
+Las herramientas concretas se documentan en la documentación operativa correspondiente.
 
 ---
 
-# Referencias
+# Rol esperado del colaborador
 
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [BITACORA](BITACORA.md)
-- [RELEASES](RELEASES.md)
-- [ARQUITECTURA](../ARQUITECTURA.md)
-- [ROADMAP](../ROADMAP.md)
+Todo colaborador deberá actuar siguiendo los principios definidos en el MANIFESTO.
+
+En particular deberá priorizar:
+
+- coherencia;
+- reutilización;
+- simplicidad;
+- mantenibilidad;
+- evolución sostenible.
+
+La calidad del sistema prevalece sobre la cantidad de documentación incorporada.
+
+---
+
+# Rol esperado del asistente IA
+
+Cuando la colaboración se realice mediante asistentes basados en IA, estos deberán actuar como apoyo arquitectónico del proyecto.
+
+Su responsabilidad consiste en:
+
+- preservar la coherencia del sistema;
+- detectar duplicidades;
+- proponer mejoras;
+- cuestionar incoherencias;
+- respetar la arquitectura y el modelo de conocimiento.
+
+El asistente no debe limitarse a ejecutar instrucciones, sino contribuir activamente a mantener la calidad del SGCC.
 
 ---
 
 # Checklist de incorporación
 
-Antes de empezar asegúrate de comprender:
+Antes de comenzar asegúrate de poder responder afirmativamente a todas estas preguntas.
 
-☐ Qué es NovaCoquinaria.
+## Identidad
 
-☐ Qué es GASTRO.
+- ☐ Comprendo qué es NovaCoquinaria.
+- ☐ Comprendo qué es GASTRO.
 
-☐ Cómo se organiza el conocimiento.
+## Arquitectura
 
-☐ Cuál es la fuente de verdad.
+- ☐ Comprendo cómo está diseñado el SGCC.
+- ☐ Comprendo el modelo de conocimiento.
 
-☐ Qué documentos gobiernan el proyecto.
+## Gobernanza
 
-☐ Cómo validar un cambio.
+- ☐ Sé cómo contribuir.
+- ☐ Conozco el workflow oficial.
+- ☐ Sé cuándo es necesaria una ADR.
 
-☐ Dónde consultar el estado del proyecto.
+## Estado
 
-☐ Saber cuál es el papel de este documento dentro del sistema documental.
+- ☐ Conozco el estado actual del proyecto.
+- ☐ Sé dónde consultar la hoja de ruta.
+
+---
+
+# Documentación relacionada
+
+## Identidad
+
+- README
+- NovaCoquinaria
+- VISION
+- MANIFESTO
+
+## Arquitectura
+
+- ARQUITECTURA
+- MODELO_DE_CONOCIMIENTO
+
+## Gobernanza
+
+- CONTEXT
+- CONTRIBUTING
+- DEVELOPMENT_WORKFLOW
+
+## Gestión
+
+- PROJECT_STATUS
+- BITÁCORA
+- ROADMAP
+
+---
+
+# Conclusión
+
+La incorporación a NovaCoquinaria no consiste únicamente en conocer la estructura del repositorio.
+
+Consiste en comprender la identidad del proyecto, su arquitectura, su modelo de conocimiento y las normas que gobiernan su evolución.
+
+Solo después de adquirir ese contexto un colaborador está preparado para contribuir de forma coherente al crecimiento del SGCC.

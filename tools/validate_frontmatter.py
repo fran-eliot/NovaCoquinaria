@@ -1,8 +1,10 @@
 from common import (
+    ADR_DIR,
     extract_frontmatter,
     iter_markdown_files,
     print_error,
     print_ok,
+    relative_path,
     requires_frontmatter,
 )
 
@@ -14,6 +16,13 @@ REQUIRED_FIELDS = {
     "version",
     "ultima_revision",
 }
+
+
+def is_adr(relative_path: str) -> bool:
+    return (
+        relative_path == ADR_DIR
+        or relative_path.startswith(f"{ADR_DIR}/")
+    )
 
 
 def validate_frontmatter():
@@ -34,6 +43,12 @@ def validate_frontmatter():
             if requires_frontmatter(path):
                 print_error(path, "Front Matter ausente")
                 errors += 1
+            continue
+
+        relative = relative_path(path)
+
+        if is_adr(relative):
+            # Los ADR utilizan un esquema propio de Front Matter.
             continue
 
         missing_fields = REQUIRED_FIELDS - set(frontmatter.keys())

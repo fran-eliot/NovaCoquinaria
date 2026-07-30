@@ -1,107 +1,162 @@
+---
+id: MGT-0015
+tipo: gestion
+titulo: Limitaciones Conocidas
+version: 2.0
+estado: evolutivo
+ultima_revision: 2026-07-20
+---
+
 # Limitaciones Conocidas
 
-> Registro de limitaciones, restricciones y decisiones conocidas del proyecto.
+> Proyecto: NovaCoquinaria
+> Sistema: GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
 # Objetivo
 
-Este documento recopila aquellas limitaciones que actualmente forman parte del proyecto y que no se consideran errores, sino decisiones conscientes, dependencias externas o mejoras pendientes.
+Este documento registra las limitaciones, restricciones y decisiones conocidas que afectan actualmente al funcionamiento o evolución del SGCC.
 
-No sustituye al gestor de incidencias ni al backlog.
+Su finalidad consiste en proporcionar una visión transparente de aquellos aspectos que no se consideran defectos del proyecto, pero que condicionan su funcionamiento o desarrollo.
 
----
-
-# Publicación web
-
-## GitHub Pages
-
-Actualmente la publicación mediante GitHub Pages requiere evaluar la visibilidad del repositorio y la estrategia de publicación.
-
-Estado: ⏳ Pendiente
+No sustituye al Roadmap, al registro de deuda de conocimiento ni al sistema de incidencias.
 
 ---
 
-## MkDocs
+# Alcance
 
-MkDocs genera avisos cuando existen documentos que no están incluidos en el `nav`.
+Este documento recoge únicamente limitaciones conocidas.
 
-Este comportamiento es esperado y no afecta al funcionamiento del portal.
+No incluye:
 
-Estado: ✅ Aceptado
-
----
-
-## site_docs
-
-`site_docs` es un directorio generado automáticamente.
-
-Nunca debe editarse manualmente.
-
-Cualquier cambio debe realizarse sobre la documentación original.
-
-Estado: ✅ Arquitectura aprobada
+- errores de implementación;
+- tareas pendientes;
+- deuda de conocimiento;
+- decisiones arquitectónicas ya documentadas.
 
 ---
 
-# Arquitectura
+# Filosofía
 
-## Markdown
+Todo sistema presenta limitaciones.
 
-Markdown constituye la única fuente de verdad del conocimiento.
+Documentarlas explícitamente permite:
 
-Toda automatización debe generarse a partir de él.
+- evitar confusiones;
+- facilitar la toma de decisiones;
+- reducir falsas incidencias;
+- mejorar la comunicación del proyecto.
 
-Estado: ✅ Decisión arquitectónica
-
----
-
-## Scripts
-
-La publicación depende actualmente del script:
-
-```text
-tools/build_site_docs.py
-```
-
-Cualquier cambio estructural deberá mantener este principio de desacoplamiento.
-
-Estado: ✅ Arquitectura aprobada
+Una limitación conocida no implica necesariamente un problema.
 
 ---
 
-# Documentación
+# Clasificación
 
-## Navegación
+Las limitaciones podrán clasificarse según su naturaleza.
 
-No todos los documentos aparecen en el menú principal de MkDocs.
+## Arquitectónicas
 
-Esto es intencionado para evitar una navegación excesivamente extensa.
-
-Estado: ✅ Decisión de diseño
+Restricciones derivadas del diseño del SGCC.
 
 ---
 
-## ADR
+## Tecnológicas
 
-Los ADR aprobados no deben modificarse salvo que exista una nueva decisión arquitectónica que los sustituya.
-
-Estado: ✅ Política del proyecto
+Dependencias de herramientas o plataformas.
 
 ---
 
-# Futuras mejoras
+## Documentales
 
-- Publicación automática.
-- Validaciones automáticas.
-- Índices generados automáticamente.
-- Automatización del menú.
-- Mejoras visuales del portal.
+Limitaciones relacionadas con la organización del conocimiento.
 
 ---
 
-## Referencias
+## Operativas
 
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [BITACORA](BITACORA.md)
-- [ROADMAP](../ROADMAP.md)
+Aspectos derivados del funcionamiento cotidiano del proyecto.
+
+---
+
+## Externas
+
+Dependencias ajenas al control del proyecto.
+
+---
+
+# Registro
+
+Cada limitación debería documentarse utilizando una estructura homogénea.
+
+## Título
+
+Descripción breve.
+
+**Estado**
+
+- Activa
+- Resuelta
+- Aceptada
+- En revisión
+
+**Impacto**
+
+- Bajo
+- Medio
+- Alto
+
+**Descripción**
+
+Explicación de la limitación.
+
+**Consecuencias**
+
+Cómo afecta al proyecto.
+
+**Mitigación**
+
+Medidas adoptadas o previstas.
+
+---
+
+# Gestión
+
+Las limitaciones podrán:
+
+- mantenerse;
+- mitigarse;
+- resolverse;
+- aceptarse de forma permanente.
+
+No todas deberán eliminarse.
+
+---
+
+# Relación con otros documentos
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| ROADMAP | Evolución planificada |
+| KNOWLEDGE_DEBT | Carencias del conocimiento |
+| PROJECT_STATUS | Estado del proyecto |
+| ADR | Decisiones arquitectónicas |
+
+---
+
+# Revisión
+
+Las limitaciones deberán revisarse periódicamente.
+
+Aquellas que dejen de ser relevantes deberán eliminarse.
+
+Las que pasen a formar parte de la arquitectura o de la estrategia deberán trasladarse al documento correspondiente.
+
+---
+
+# Conclusión
+
+El registro de limitaciones conocidas proporciona transparencia sobre las restricciones actuales del SGCC.
+
+Su objetivo no consiste en reflejar problemas del proyecto, sino documentar de forma explícita aquellos aspectos que condicionan su funcionamiento y evolución.

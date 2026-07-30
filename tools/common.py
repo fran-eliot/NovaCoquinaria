@@ -31,6 +31,9 @@ FRONTMATTER_REQUIRED_DIRS = {
     "12_Plantillas",
     "98_Tablas",
     "docs/architecture",
+    "docs/governance",
+    "docs/management",
+    "docs/specifications",
 }
 
 FRONTMATTER_OPTIONAL_FILES = {
@@ -50,6 +53,8 @@ FRONTMATTER_OPTIONAL_FILES = {
 LINK_VALIDATION_EXCLUDED_DIRS = {
     "tools/templates",
 }
+
+ADR_DIR = "docs/governance/adr"
 
 FRONTMATTER_PATTERN = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
@@ -93,9 +98,16 @@ def extract_frontmatter(path: Path):
     return data or {}
 
 
-def relative_path(path: Path) -> str:
-    """Devuelve una ruta relativa al repositorio en formato POSIX."""
-    return path.relative_to(ROOT_DIR).as_posix()
+def relative_path(path: Path | str) -> str:
+    candidate = Path(path)
+
+    if not candidate.is_absolute():
+        candidate = ROOT_DIR / candidate
+
+    try:
+        return candidate.resolve().relative_to(ROOT_DIR.resolve()).as_posix()
+    except ValueError:
+        return candidate.as_posix()
 
 
 def print_error(path: Path, message: str):
@@ -144,8 +156,12 @@ def requires_frontmatter(path: Path) -> bool:
 
     if relative in FRONTMATTER_OPTIONAL_FILES:
         return False
-    
+
     if path.name == "BACKLOG.md":
+        return False
+
+    # Los ADR utilizan un esquema documental propio.
+    if relative == ADR_DIR or relative.startswith(f"{ADR_DIR}/"):
         return False
 
     return any(

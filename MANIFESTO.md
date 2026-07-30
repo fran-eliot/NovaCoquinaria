@@ -1,143 +1,153 @@
 # MANIFESTO
 
-> Principios que guían la evolución de NovaCoquinaria y de la arquitectura GASTRO.
+> Principios fundamentales que guían la evolución de GASTRO y de cualquier proyecto construido sobre su arquitectura.
 
 ---
 
 # Manifiesto
 
-NovaCoquinaria nace de una convicción sencilla:
+GASTRO nace de una convicción sencilla:
 
-**El conocimiento culinario merece organizarse con el mismo rigor que cualquier otra disciplina del conocimiento.**
+**El conocimiento merece organizarse con el mismo rigor que cualquier otra disciplina.**
 
-Una receta es mucho más que una lista de ingredientes.
+En el ámbito culinario, una receta representa únicamente el resultado visible de un conocimiento mucho más amplio formado por ingredientes, técnicas, procesos, decisiones, experiencia y aprendizaje acumulado.
 
-Detrás de cada plato existen técnicas, ingredientes, proporciones, decisiones, experiencia y aprendizaje acumulado.
+Ese conocimiento constituye un patrimonio que no debería perderse, duplicarse ni depender de la memoria de quien cocina.
 
-Ese conocimiento no debería perderse, repetirse ni depender de la memoria.
+Por ello, GASTRO no propone únicamente una forma de documentar recetas.
 
-Por ello, NovaCoquinaria no pretende ser únicamente un recetario.
-
-Pretende convertirse en un Sistema de Gestión del Conocimiento Culinario estructurado, reutilizable y preparado para evolucionar durante toda la vida.
+Propone una forma de organizar conocimiento para preservarlo, relacionarlo y permitir que evolucione de manera sostenible.
 
 ---
 
 # Nuestros principios
 
-## El conocimiento es el centro
+## 1. El conocimiento es el activo principal
 
-Las herramientas cambian.
+Las herramientas evolucionan.
 
-Las tecnologías evolucionan.
+Las tecnologías cambian.
 
-Las aplicaciones aparecen y desaparecen.
+Los formatos aparecen y desaparecen.
 
 El conocimiento permanece.
 
----
-
-## Una única fuente de verdad
-
-Cada concepto debe documentarse una sola vez.
-
-Las recetas reutilizan conocimiento.
-
-No lo duplican.
+Todas las decisiones deberán priorizar la preservación y evolución del conocimiento frente a cualquier consideración tecnológica.
 
 ---
 
-## Aprender continuamente
+## 2. Una única fuente de verdad
 
-Cada receta cocinada aporta experiencia.
+Cada concepto debe documentarse una única vez.
 
-Cada error enseña.
+La reutilización debe sustituir a la duplicación siempre que sea posible.
 
-Cada mejora enriquece el sistema.
-
-NovaCoquinaria nunca estará terminada.
-
-Siempre podrá evolucionar.
+Las distintas entidades del sistema compartirán conocimiento mediante relaciones explícitas en lugar de copiar información.
 
 ---
 
-## Simplicidad
+## 3. El conocimiento forma un sistema
 
-La arquitectura existe para facilitar el aprendizaje.
+El valor de una entidad aislada es limitado.
 
-La complejidad debe aparecer únicamente cuando aporte un beneficio claro para el conocimiento.
+El verdadero potencial surge cuando ingredientes, técnicas, patrones, recetas y demás elementos forman una red coherente de conocimiento.
 
-Cada documento debe aportar valor.
-
-Nada más.
+Cada nueva incorporación debe fortalecer esa red.
 
 ---
 
-## Reutilización
+## 4. Evolución continua
 
-Las técnicas, ingredientes, patrones culinarios y demás entidades del conocimiento existen para evitar repetir información.
+El conocimiento nunca se considera terminado.
 
-El objetivo es construir conocimiento modular y conectado.
+Toda experiencia puede enriquecer el sistema.
 
----
+Toda mejora incrementa el valor del conjunto.
 
-## El conocimiento forma una red
-
-Los documentos no existen de forma aislada.
-
-Cada ingrediente, técnica, patrón o receta adquiere valor al relacionarse con el resto del conocimiento.
-
-La reutilización nace de esas relaciones.
+La evolución constituye una característica permanente del SGCC.
 
 ---
 
-## Independencia tecnológica
+## 5. Simplicidad deliberada
 
-Markdown es el formato de trabajo.
+La arquitectura debe ser tan simple como sea posible y tan compleja como resulte necesario.
 
-El conocimiento no depende de una aplicación concreta.
-
-Cualquier herramienta futura deberá adaptarse al conocimiento existente.
-
-Nunca al contrario.
+Toda complejidad deberá aportar un beneficio claro para el conocimiento que gestiona.
 
 ---
 
-## Pensar en el futuro
+## 6. Independencia tecnológica
 
-NovaCoquinaria está diseñado para crecer.
+El conocimiento no pertenece a ninguna herramienta.
 
-Hoy es un Sistema de Gestión del Conocimiento Culinario.
+Las aplicaciones deberán adaptarse al modelo de conocimiento y no al contrario.
 
-Mañana podrá materializarse como un sitio web, una API, una aplicación móvil o un asistente basado en inteligencia artificial.
+La tecnología es un medio para preservar, consultar y reutilizar conocimiento.
 
-La arquitectura debe permitir esa evolución sin perder coherencia.
+Nunca su finalidad.
+
+---
+
+## 7. Arquitectura antes que implementación
+
+La arquitectura define los principios permanentes.
+
+Las implementaciones pueden evolucionar.
+
+Las herramientas pueden sustituirse.
+
+Las decisiones tecnológicas deberán respetar siempre la arquitectura conceptual.
+
+---
+
+## 8. Pensar a largo plazo
+
+Cada decisión deberá evaluarse considerando su impacto futuro.
+
+El objetivo no consiste únicamente en resolver las necesidades actuales, sino en construir un sistema capaz de evolucionar durante décadas sin perder coherencia.
 
 ---
 
 # Nuestro compromiso
 
-Cada nuevo documento deberá responder a una pregunta sencilla:
+Antes de incorporar cualquier nuevo conocimiento deberíamos poder responder afirmativamente a estas preguntas:
 
-> **¿Estoy aumentando el conocimiento del sistema?**
-> **¿O simplemente estoy reorganizando información existente?**
+- ¿Aporta conocimiento nuevo al sistema?
+- ¿Está correctamente relacionado con el conocimiento existente?
+- ¿Evita duplicaciones innecesarias?
+- ¿Resultará reutilizable en el futuro?
+- ¿Hace el sistema más coherente que antes?
 
-Si únicamente añade información, probablemente todavía no esté suficientemente pensado.
+Si alguna respuesta es negativa, probablemente el conocimiento todavía necesite madurar.
+
+---
+
+# Nuestra responsabilidad
+
+Todo proyecto construido sobre GASTRO asume el compromiso de:
+
+- preservar el conocimiento;
+- favorecer la reutilización;
+- mantener una arquitectura coherente;
+- facilitar la evolución continua;
+- proteger la independencia del conocimiento respecto de las herramientas.
 
 ---
 
 # Nuestro objetivo
 
-Construir un Sistema de Gestión del Conocimiento Culinario claro, mantenible y útil.
+Construir sistemas capaces de conservar, relacionar y hacer evolucionar conocimiento durante toda su vida útil.
 
-Un sistema que permita cocinar mejor hoy y seguir aprendiendo dentro de diez o veinte años.
+Porque los documentos cambian.
 
-Porque cocinar no consiste únicamente en preparar platos.
+Las herramientas evolucionan.
 
-Consiste en comprender, conservar y transmitir conocimiento.
+Las tecnologías se reemplazan.
+
+**El conocimiento permanece.**
 
 ---
 
-> NovaCoquinaria no aspira a recopilar recetas.
-> Aspira a conservar conocimiento.
-> Porque una receta puede olvidarse.
-> El conocimiento permanece.
+> GASTRO no organiza documentos.
+
+> Organiza conocimiento.

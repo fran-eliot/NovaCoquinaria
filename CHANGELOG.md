@@ -1,227 +1,205 @@
-# CHANGELOG
+# Changelog
 
-Todas las modificaciones relevantes de **NovaCoquinaria** se documentan en este archivo.
+Todos los cambios relevantes de **NovaCoquinaria** se documentan en este archivo.
 
-El formato está inspirado en **Keep a Changelog**, adaptado a las necesidades del proyecto y complementado por la documentación de gobernanza del SGCC.
-
----
-
-# Propósito
-
-El CHANGELOG registra los cambios funcionales introducidos en cada versión del proyecto.
-
-Debe responder únicamente a la pregunta:
-
-> **¿Qué cambió en esta versión?**
-
-No explica el contexto histórico (BITÁCORA), el estado actual (PROJECT_STATUS) ni los objetivos de cada versión (RELEASES).
-
----
-
-# Tipos de cambios
-
-Las modificaciones se clasifican utilizando las siguientes categorías.
-
-## Añadido
-
-Nuevas funcionalidades, documentos, herramientas o módulos.
-
-## Mejorado
-
-Mejoras funcionales, ampliaciones del conocimiento o incremento de la reutilización.
-
-## Modificado
-
-Cambios de comportamiento, reorganizaciones o refactorizaciones relevantes.
-
-## Corregido
-
-Corrección de errores, inconsistencias o problemas detectados.
-
-## Eliminado
-
-Contenido obsoleto, duplicado o retirado del proyecto.
-
----
-
-# Política de versionado
+Este documento sigue el estándar **Keep a Changelog**, adaptado a la arquitectura documental del proyecto.
 
 NovaCoquinaria utiliza **Semantic Versioning (SemVer)**.
 
-```text
+---
+
+# Objetivo
+
+Este documento registra los cambios funcionales incorporados en cada versión publicada.
+
+Debe responder exclusivamente a la pregunta:
+
+> **¿Qué cambió en esta versión?**
+
+No explica:
+
+- la historia del proyecto;
+- la evolución arquitectónica;
+- las decisiones metodológicas;
+- el estado actual.
+
+---
+
+# Tipos de cambio
+
+Se utilizan las siguientes categorías.
+
+## Added
+
+Nuevas capacidades.
+
+## Changed
+
+Cambios de comportamiento o arquitectura.
+
+## Improved
+
+Mejoras compatibles.
+
+## Fixed
+
+Correcciones.
+
+## Removed
+
+Contenido eliminado.
+
+## Deprecated
+
+Contenido que deja de recomendarse.
+
+## Security
+
+Cambios relacionados con seguridad.
+
+---
+
+# Versionado
+
+NovaCoquinaria utiliza Semantic Versioning.
+
+```
 MAJOR.MINOR.PATCH
 ```
-
-Donde:
-
-- **MAJOR** → cambios incompatibles o evolución arquitectónica significativa.
-- **MINOR** → nuevas funcionalidades compatibles.
-- **PATCH** → correcciones, mejoras y mantenimiento.
 
 ---
 
 # Historial
 
+## [Unreleased]
+
+### Changed
+
+- _(Vacío hasta la siguiente Release.)_
+
+---
+
 ## [1.4.0] - 2026-07-11
 
-### Añadido
+### Added
 
-- Documento `DEVELOPMENT_WORKFLOW.md`.
-- `KNOWLEDGE_STRATEGY.md`.
-- `KNOWLEDGE_DEBT.md`.
-- `KNOWLEDGE_MATURITY.md`.
-- Marco completo de gobernanza del conocimiento.
+- DEVELOPMENT_WORKFLOW.
+- KNOWLEDGE_STRATEGY.
+- KNOWLEDGE_DEBT.
+- KNOWLEDGE_MATURITY.
 
-### Mejorado
+### Improved
 
-- Consolidación de la documentación estratégica.
-- Separación definitiva entre arquitectura, gobernanza y conocimiento.
-- Definición del workflow oficial de desarrollo del SGCC.
+- Gobernanza del conocimiento.
+- Separación entre arquitectura, gobernanza y conocimiento.
+- Modelo metodológico.
 
-### Modificado
+### Changed
 
-- El proyecto entra en una nueva fase centrada en la expansión sistemática del conocimiento culinario.
+- Inicio de la expansión sistemática del conocimiento.
 
 ---
 
 ## [1.3.0] - 2026-07-09
 
-### Añadido
+### Added
 
-- Primer Knowledge Graph de NovaCoquinaria.
-- Modelo `KnowledgeGraph`.
-- Generación automática del grafo Mermaid.
-- Estadísticas avanzadas del grafo.
-- Detección de conocimiento reutilizable huérfano.
-- Validación semántica básica.
-- Reglas semánticas separadas en `semantic_rules.py`.
+- Knowledge Graph.
+- Mermaid Graph.
+- Validación semántica.
+- Estadísticas avanzadas.
 
-### Mejorado
+### Improved
 
-- El modelo documental incorpora identidad lógica.
-- Las herramientas trabajan sobre entidades documentales y no únicamente sobre archivos.
-- Incremento de la trazabilidad entre documentos.
+- Identidad lógica del modelo documental.
+- Reutilización del conocimiento.
 
 ---
 
 ## [1.2.0] - 2026-07-09
 
-### Añadido
+### Added
 
 - Framework documental.
-- Validación de Front Matter.
-- Validación de identificadores únicos.
-- Validación de enlaces internos.
-- Pipeline `validate_all.py`.
-- Estadísticas básicas del repositorio.
-- Documento base `Mise en place`.
+- Pipeline.
+- Validadores.
+- Estadísticas.
 
-### Mejorado
+### Improved
 
-- Separación entre validación, generación y automatización.
-- Introducción del primer Quality Gate documental.
+- Quality Gate.
 
 ---
 
 ## [1.1.0] - 2026-07-07
 
-### Añadido
+### Added
 
-- Portal basado en MkDocs Material.
-- Landing Page personalizada.
-- Identidad visual.
+- Portal MkDocs.
+- Landing Page.
 - Logo.
 - Favicon.
-- Navegación principal.
-- Generación automática de `site_docs`.
+- Navegación.
 
-### Mejorado
+### Improved
 
-- Experiencia de navegación.
-- Organización de la documentación publicada.
-- Preparación para GitHub Pages.
+- Experiencia de consulta.
 
 ---
 
 ## [1.0.0] - 2026-07-05
 
-### Añadido
+### Added
 
-- Arquitectura documental completa.
-- Documentación estratégica.
-- ADR fundacionales.
-- Organización modular del SGCC.
-- Bases culinarias iniciales.
-- Despensa.
-- Patrones reutilizables.
+- Arquitectura documental.
+- ADR.
+- Front Matter.
+- Bases culinarias.
 - Tablas.
-- Primer conjunto de recetas normalizadas.
+- Patrones.
 
-### Mejorado
+### Changed
 
-- Referencias cruzadas.
-- Identificadores estables.
-- Front Matter YAML.
-- Modelo documental reutilizable.
-
-### Modificado
-
-- Evolución desde un repositorio de recetas hacia un Sistema de Gestión del Conocimiento Culinario.
+- Evolución hacia SGCC.
 
 ---
 
 ## [0.1.0] - 2026-06-30
 
-### Añadido
+### Added
 
-- Estructura inicial del repositorio.
-- Primer README.
-- Primeras recetas.
-- Primeras bases culinarias.
-- Organización inicial del proyecto.
+- Inicio del proyecto.
 
 ---
 
-# Próximas versiones
+# Política
 
-## [2.0.0]
-
-Objetivos previstos:
-
-- Plataforma software.
-- API REST.
-- Motor de búsqueda semántica.
-- Planificador semanal.
-- Lista inteligente de la compra.
-- Integración con IA.
-
----
-
-# Criterios de registro
-
-Registrar únicamente cambios con impacto funcional o arquitectónico.
+Registrar únicamente cambios relevantes para el usuario o para la evolución funcional del proyecto.
 
 No registrar:
 
 - correcciones tipográficas;
-- cambios de formato;
+- cambios editoriales;
 - reorganizaciones menores;
-- modificaciones temporales;
-- trabajo en progreso.
-
-El objetivo es mantener un historial claro, estable y útil para comprender la evolución funcional del proyecto.
+- trabajo intermedio;
+- commits.
 
 ---
 
-# Relación con otros documentos
+# Relaciones
 
-Este documento complementa:
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| PROJECT_STATUS | Estado actual |
+| ROADMAP | Dirección futura |
+| BITÁCORA | Historia |
+| RELEASES | Significado de cada versión |
 
-- [RELEASES](docs/management/RELEASES.md)
-- [BITACORA](docs/management/BITACORA.md)
-- [PROJECT_STATUS](docs/management/PROJECT_STATUS.md)
+---
 
-No sustituye a ninguno de ellos.
+# Conclusión
 
-Su responsabilidad consiste exclusivamente en registrar **qué cambios relevantes incorpora cada versión publicada**.
+El CHANGELOG constituye el registro cronológico de los cambios funcionales incorporados en NovaCoquinaria.
+
+Debe mantenerse preciso, estable y objetivo.
 
