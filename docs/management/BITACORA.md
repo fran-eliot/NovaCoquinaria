@@ -226,6 +226,22 @@ El proyecto dispone de un patrón de referencia para futuras expansiones.
 
 ---
 
+## 2026-07-30 — Reestructuración documental y consolidación de la arquitectura
+
+### Hitos
+
+- Reorganización completa de `/docs`.
+- Separación en architecture, governance, management y specifications.
+- Traslado de los ADR a `docs/governance/adr`.
+- Actualización de referencias internas.
+- Refuerzo de las herramientas de validación documental.
+- Validación satisfactoria:
+  - 125 documentos
+  - 90 identificadores únicos
+  - 822 enlaces internos
+
+---
+
 # Próximos capítulos
 
 La Bitácora continuará registrando únicamente acontecimientos que transformen la evolución del proyecto.
