@@ -1,258 +1,263 @@
 # CONTRIBUTING
 
-> **Versión:** 2.0
-> **Proyecto:** NovaCoquinaria
-> **Sistema:** GASTRO - Sistema de Gestión del Conocimiento Culinario (SGCC)
+> **Proyecto:** NovaCoquinaria  
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
+
 ---
 
 # Objetivo
 
-Este documento describe el procedimiento recomendado para incorporar nuevo conocimiento al proyecto NovaCoquinaria mediante la arquitectura GASTRO.
+Este documento define las **normas oficiales de contribución** al proyecto NovaCoquinaria.
 
-Aunque actualmente el proyecto tiene un único autor, estas normas garantizan la coherencia, la reutilización del conocimiento y la calidad de la documentación.
+Su finalidad es garantizar que toda contribución preserve la coherencia del SGCC, respete el modelo de conocimiento y aumente el valor global del sistema.
+
+No describe el workflow del proyecto ni el proceso de incorporación de colaboradores.
+
+Define únicamente los criterios que debe cumplir cualquier contribución para ser aceptada.
 
 ---
 
-# Filosofía
+# Principios de contribución
 
-En NovaCoquinaria no se incorporan simplemente documentos.
+Toda contribución deberá respetar los siguientes principios.
 
-Se incorpora conocimiento.
+- aportar conocimiento útil;
+- evitar duplicidades;
+- reutilizar antes que crear;
+- mantener una única responsabilidad;
+- integrarse con el conocimiento existente;
+- preservar la coherencia del SGCC.
 
-Cada contribución debe aumentar, mejorar o relacionar el conocimiento existente antes que incrementar el número de archivos del repositorio.
+El objetivo no consiste en incrementar el número de documentos, sino en mejorar el conocimiento del sistema.
 
 ---
 
 # Flujo de contribución
 
+Toda contribución seguirá el siguiente proceso.
+
 ```text
-Nueva idea
+Necesidad
+
       │
-      ▼
-¿Existe ya?
+
+Clasificación
+
       │
- ┌────┴────┐
- │         │
-Sí         No
- │         │
-Ampliar    Crear entidad
- │         │
- └────┬────┘
-      ▼
-Relacionar
-      ▼
-Validar
-      ▼
-Integrar
+
+Reutilización
+
+      │
+
+Documentación
+
+      │
+
+Relaciones
+
+      │
+
+Validación
+
+      │
+
+Integración
 ```
 
----
-
-# Flujo de trabajo
-
-Antes de crear un documento nuevo, seguir siempre el siguiente proceso.
-
-## 1. Identificar el conocimiento
-
-Preguntarse:
-
-* ¿Qué estoy documentando?
-* ¿Es un ingrediente?
-* ¿Es una técnica?
-* ¿Es un patrón culinario?
-* ¿Es un plato canónico?
-* ¿Es una variante?
-* ¿Es una tabla?
-* ¿Es un documento de arquitectura?
-
-No crear una receta cuando el conocimiento pertenece a otra categoría.
+Cada fase constituye un requisito previo para la siguiente.
 
 ---
 
-## 2. Buscar información existente
+# Clasificación de la contribución
 
-Antes de crear un documento nuevo:
+Antes de crear o modificar un documento deberá determinarse la naturaleza de la contribución.
 
-* Buscar documentos relacionados.
-* Comprobar si ya existe esa información.
-* Revisar posibles duplicidades.
+Puede consistir en:
 
-Siempre debe priorizarse ampliar un documento existente frente a crear uno nuevo.
+- incorporar conocimiento nuevo;
+- ampliar conocimiento existente;
+- establecer nuevas relaciones;
+- corregir información;
+- reorganizar documentación;
+- mejorar la arquitectura.
 
----
-
-## 3. Clasificar el conocimiento
-
-Determinar si la información:
-
-- amplía una entidad existente;
-- crea una nueva entidad;
-- establece una nueva relación;
-- corrige conocimiento existente.
-
-Solo después decidir el tipo de documento adecuado.
+La clasificación adecuada condiciona el resto del proceso.
 
 ---
 
-## 4. Elegir el tipo de documento
+# Reutilización
 
-Seleccionar el tipo adecuado según la especificación del proyecto.
+Antes de crear cualquier documento deberá verificarse si el conocimiento ya existe.
 
-Tipos disponibles:
+Siempre se priorizará:
 
-* Documentación fundacional
-* Arquitectura
-* Gestión
-* Entidades del conocimiento (ingredientes, técnicas, patrones, platos canónicos, variantes…)
-* Tabla de referencia
-* Receta
-* Nota
+1. ampliar una entidad existente;
+2. establecer nuevas relaciones;
+3. crear una nueva entidad únicamente cuando resulte necesario.
+
+La creación de nuevos documentos constituye siempre la última opción.
 
 ---
 
-## 5. Redactar
+# Documentación
 
-Escribir el documento respetando:
+Toda contribución deberá:
 
-* la guía de estilo
-* la estructura correspondiente
-* las convenciones del repositorio
+- respetar la guía de estilo;
+- seguir la especificación documental;
+- mantener una única responsabilidad;
+- incorporar referencias cruzadas cuando proceda.
 
----
-
-## 6. Añadir referencias
-
-Todo documento deberá enlazar aquellos contenidos relacionados que ya existan.
-
-Ejemplos:
-
-- ingredientes
-- técnicas
-- patrones culinarios
-- platos canónicos
-- variantes
-- tablas
+Cada documento debe integrarse de forma natural dentro del sistema documental.
 
 ---
 
-## 7. Revisar
+# Integración del conocimiento
 
-Antes de considerar terminado un documento comprobar:
+El conocimiento nuevo no debe permanecer aislado.
 
-* ortografía
-* claridad
-* estructura
-* coherencia con la documentación existente
-* ausencia de duplicidades
-* referencias internas
+Toda contribución deberá:
 
----
+- relacionarse con entidades existentes;
+- actualizar referencias cuando corresponda;
+- integrarse en el Knowledge Graph;
+- evitar la aparición de documentos huérfanos.
 
-## 8. Validar reutilización
-
-Comprobar que el documento:
-
-- reutiliza conocimiento existente;
-- no introduce duplicidades;
-- enlaza las entidades relacionadas;
-- mantiene la coherencia del modelo de conocimiento.
+El valor del SGCC reside en las relaciones entre entidades tanto como en las propias entidades.
 
 ---
 
-## 9. Integrar
+# Validación
 
-Si el documento modifica conocimiento ya existente deberá actualizarse:
+Antes de integrarse, toda contribución deberá superar las validaciones establecidas por el proyecto.
 
-* referencias cruzadas
-* índices
-* documentos relacionados
-* historial de cambios
-* Knowledge Graph
+## Validación documental
 
----
-
-# Cuándo crear un documento nuevo
-
-Crear un documento únicamente cuando:
-
-* represente conocimiento nuevo;
-* tenga una única responsabilidad;
-* vaya a reutilizarse en otros documentos;
-* no exista ya un documento equivalente.
+- estructura correcta;
+- Front Matter;
+- referencias internas;
+- calidad documental.
 
 ---
 
-# Cuándo ampliar un documento existente
+## Validación semántica
 
-Preferir ampliar un documento cuando:
-
-* la información pertenezca claramente al mismo tema;
-* el contenido complemente una explicación ya existente;
-* la ampliación mejore la calidad del documento.
-
----
-
-# Cuándo crear una receta
-
-Una receta sólo debe crearse cuando describa una elaboración concreta.
-
-No utilizar recetas para documentar:
-
-* ingredientes;
-* técnicas;
-* utensilios;
-* mezclas de especias;
-* salsas base;
-* conceptos generales.
+- ausencia de duplicidades;
+- coherencia con el modelo;
+- relaciones correctas;
+- reutilización adecuada.
 
 ---
 
-# Revisión de calidad
+## Validación arquitectónica
 
-Antes de incorporar un documento responder afirmativamente a todas estas preguntas.
+Cuando proceda deberá verificarse además:
 
-* ¿Tiene una única responsabilidad?
-* ¿Es reutilizable?
-* ¿Está correctamente estructurado?
-* ¿Está escrito con claridad?
-* ¿Evita duplicidades?
-* ¿Incluye referencias?
-* ¿Aporta conocimiento útil?
-* ¿Respeta el modelo de conocimiento del proyecto?
-
-Si alguna respuesta es negativa, revisar el documento.
+- cumplimiento de los ADR;
+- coherencia con la arquitectura;
+- impacto sobre el SGCC.
 
 ---
 
-# Mejora continua
+# Cuándo crear una nueva entidad
 
-Ningún documento debe considerarse definitivo.
+Solo deberá crearse una nueva entidad cuando:
 
-Siempre podrá:
+- represente un concepto nuevo;
+- tenga responsabilidad única;
+- pueda reutilizarse;
+- no exista ya una entidad equivalente.
 
-* corregirse;
-* ampliarse;
-* reorganizarse;
-* enriquecerse con nuevas técnicas o conocimientos.
+---
 
-La mejora continua forma parte de la filosofía del proyecto.
+# Cuándo modificar una entidad existente
+
+Se preferirá modificar una entidad existente cuando:
+
+- la información complemente su contenido;
+- aumente su calidad;
+- mejore su reutilización;
+- no altere su responsabilidad.
+
+---
+
+# Cambios arquitectónicos
+
+Las modificaciones que afecten a:
+
+- arquitectura;
+- modelo de conocimiento;
+- organización documental;
+- estructura del repositorio;
+
+deberán evaluarse previamente mediante una **Architecture Decision Record (ADR)**.
+
+---
+
+# Criterios de aceptación
+
+Una contribución podrá considerarse aceptada cuando:
+
+- aumenta el conocimiento del sistema;
+- respeta el modelo conceptual;
+- mantiene la coherencia arquitectónica;
+- supera todas las validaciones;
+- no introduce deuda significativa.
 
 ---
 
 # Regla de oro
 
-Antes de guardar cualquier documento formular siempre esta pregunta:
+Antes de integrar cualquier cambio deberá responderse afirmativamente a la siguiente pregunta.
 
-> **¿Estoy aumentando el conocimiento del sistema? ¿O simplemente estoy añadiendo información?**
+> **¿Esta contribución mejora el conocimiento del SGCC o simplemente incrementa la cantidad de información?**
 
-Si únicamente se está añadiendo información, debe replantearse el diseño del documento.
+Si únicamente aumenta la información disponible, probablemente todavía no está preparada para incorporarse.
 
 ---
 
-## Documentos relacionados
+# Relaciones entre documentos
 
-- [CONTEXT](./CONTEXT.md)
-- [MANIFESTO](./MANIFESTO.md)
-- [GUIA_DE_ESTILO](./GUIA_DE_ESTILO.md)
-- [ESPECIFICACION_DE_DOCUMENTOS](./ESPECIFICACION_DE_DOCUMENTOS.md)
-- [MODELO_DE_CONOCIMIENTO](./docs/MODELO_DE_CONOCIMIENTO.md)
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| PROJECT_ONBOARDING | Preparar nuevos colaboradores |
+| CONTRIBUTING | Normas oficiales de contribución |
+| DEVELOPMENT_WORKFLOW | Proceso oficial de evolución |
+| ARQUITECTURA | Diseño del SGCC |
+| MODELO_DE_CONOCIMIENTO | Modelo conceptual |
+| ADR | Evolución arquitectónica |
+
+---
+
+# Documentación relacionada
+
+## Incorporación
+
+- PROJECT_ONBOARDING
+
+## Gobernanza
+
+- CONTEXT
+- DEVELOPMENT_WORKFLOW
+
+## Arquitectura
+
+- ARQUITECTURA
+- MODELO_DE_CONOCIMIENTO
+
+## Calidad
+
+- GUIA_DE_ESTILO
+- ESPECIFICACION_DE_DOCUMENTOS
+
+---
+
+# Conclusión
+
+Contribuir a NovaCoquinaria no consiste únicamente en añadir nuevos documentos.
+
+Consiste en fortalecer un sistema de conocimiento mediante aportaciones coherentes, reutilizables y correctamente integradas.
+
+Cada contribución debe incrementar el valor global del SGCC y facilitar su evolución futura.
+
+La calidad de una contribución se mide por el conocimiento que aporta y por cómo enriquece el conjunto del sistema.

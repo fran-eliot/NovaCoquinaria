@@ -2,141 +2,227 @@
 id: DOC-0013
 titulo: Releases
 tipo: gestion
-version: 1.1
+version: 2.0
 estado: estable
-ultima_revision: 2026-07-19
+ultima_revision: 2026-07-20
 ---
 
 # Releases
 
-> Resumen ejecutivo de las versiones publicadas de NovaCoquinaria y de los objetivos alcanzados en cada una de ellas.
+> **Proyecto:** NovaCoquinaria
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-# Propósito
+# Objetivo
 
-Este documento resume las Releases oficiales del proyecto.
+Este documento resume las Releases oficiales de NovaCoquinaria.
 
-Su objetivo es responder a la pregunta:
+Cada Release representa una capacidad consolidada del SGCC y marca un incremento significativo en el valor del proyecto.
 
-> **¿Qué representa cada versión publicada?**
+No documenta los cambios realizados (CHANGELOG), ni la evolución histórica (BITÁCORA).
 
-No sustituye al **CHANGELOG**, que detalla los cambios realizados, ni a la **BITÁCORA**, que explica la evolución histórica del proyecto.
-
-Cada Release representa un hito funcional o arquitectónico significativo en la evolución del Sistema de Gestión del Conocimiento Culinario (SGCC).
+Su finalidad consiste en explicar qué aporta cada versión al sistema.
 
 ---
 
-# Versiones publicadas
+# Evolución del producto
 
-| Versión | Fecha | Estado | Hito principal |
-|----------|------------|:------:|---------------------------------------------|
-| **v0.1.0** | 2026-06-30 | ✅ | Fundación del proyecto |
-| **v1.0.0** | 2026-07-05 | ✅ | Primera arquitectura estable del SGCC |
-| **v1.1.0** | 2026-07-07 | ✅ | Portal documental MkDocs |
-| **v1.2.0** | 2026-07-09 | ✅ | Framework de calidad |
-| **v1.3.0** | 2026-07-09 | ✅ | Knowledge Graph |
-| **v1.4.0** | 2026-07-11 | ✅ | Gobernanza del conocimiento |
+```text
+Fundación
+
+↓
+
+Arquitectura
+
+↓
+
+Portal
+
+↓
+
+Calidad
+
+↓
+
+Knowledge Graph
+
+↓
+
+Gobernanza
+
+↓
+
+Conocimiento
+
+↓
+
+Plataforma
+
+↓
+
+Inteligencia
+```
+
+Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 
 ---
 
-# Resumen de Releases
+# Resumen ejecutivo
 
-## v0.1.0 · Fundación del proyecto
+| Versión | Estado | Capacidad principal |
+|---------|:------:|---------------------|
+| v0.1.0 | ✅ | Fundación |
+| v1.0.0 | ✅ | Arquitectura estable |
+| v1.1.0 | ✅ | Portal documental |
+| v1.2.0 | ✅ | Framework de calidad |
+| v1.3.0 | ✅ | Knowledge Graph |
+| v1.4.0 | ✅ | Gobernanza del conocimiento |
 
-Primera versión funcional de NovaCoquinaria.
+---
 
-### Objetivos alcanzados
+# Releases
 
-- Creación del repositorio.
-- Primera estructura documental.
-- Primeras recetas.
-- Primeras bases culinarias.
-- Definición del estilo documental.
+---
 
-Esta versión establece los cimientos sobre los que evolucionará posteriormente el SGCC.
+## v0.1.0 · Fundación
+
+### Propósito
+
+Crear la primera base funcional del proyecto.
+
+### Capacidades incorporadas
+
+- estructura inicial;
+- primeras recetas;
+- primeras bases culinarias;
+- estilo documental.
+
+### Impacto
+
+Hace posible la evolución posterior del SGCC.
+
+### Preparó la siguiente Release
+
+Arquitectura estable.
 
 ---
 
 ## v1.0.0 · Arquitectura estable
 
-Primera versión estable del proyecto.
+### Propósito
 
-### Objetivos alcanzados
+Transformar el repositorio en un Sistema de Gestión del Conocimiento Culinario.
 
-- Arquitectura documental.
-- Organización modular del conocimiento.
-- ADR fundacionales.
-- Referencias cruzadas.
-- Front Matter YAML.
-- Base inicial de conocimiento.
+### Capacidades incorporadas
 
-Esta versión transforma NovaCoquinaria en un auténtico Sistema de Gestión del Conocimiento Culinario.
+- arquitectura documental;
+- entidades reutilizables;
+- referencias cruzadas;
+- ADR;
+- Front Matter.
+
+### Impacto
+
+El conocimiento pasa a ser el activo principal del proyecto.
+
+### Preparó la siguiente Release
+
+Portal documental.
 
 ---
 
 ## v1.1.0 · Portal documental
 
-Primera publicación preparada para navegación web.
+### Propósito
 
-### Objetivos alcanzados
+Facilitar la consulta del conocimiento.
 
-- Integración con MkDocs Material.
-- Landing Page.
-- Navegación principal.
-- Identidad visual.
-- Generación automática de `site_docs`.
+### Capacidades incorporadas
 
-Esta versión separa definitivamente la documentación fuente de la documentación publicada.
+- MkDocs;
+- Landing Page;
+- navegación;
+- identidad visual;
+- publicación.
+
+### Impacto
+
+La documentación pasa a ser navegable y preparada para publicación.
+
+### Preparó la siguiente Release
+
+Framework de calidad.
 
 ---
 
 ## v1.2.0 · Framework de calidad
 
-Incorporación de la primera infraestructura de validación.
+### Propósito
 
-### Objetivos alcanzados
+Automatizar el aseguramiento de calidad.
 
-- Validadores automáticos.
-- Pipeline documental.
-- Validación estructural.
-- Estadísticas del repositorio.
-- Herramientas reutilizables.
+### Capacidades incorporadas
 
-Esta Release establece la primera infraestructura de aseguramiento de calidad del SGCC.
+- validadores;
+- pipeline;
+- estadísticas;
+- framework documental.
+
+### Impacto
+
+La calidad deja de depender exclusivamente de revisión manual.
+
+### Preparó la siguiente Release
+
+Knowledge Graph.
 
 ---
 
 ## v1.3.0 · Knowledge Graph
 
-El SGCC adquiere conocimiento sobre sus propias relaciones internas.
+### Propósito
 
-### Objetivos alcanzados
+Comprender las relaciones del conocimiento.
 
-- Knowledge Graph.
-- Grafo Mermaid.
-- Validación semántica.
-- Estadísticas avanzadas.
-- Detección de conocimiento huérfano.
+### Capacidades incorporadas
 
-Esta versión marca el paso desde un repositorio validado hacia un sistema capaz de analizar su propio conocimiento.
+- Knowledge Graph;
+- grafo Mermaid;
+- validación semántica;
+- estadísticas avanzadas.
+
+### Impacto
+
+El SGCC puede analizar su propio conocimiento.
+
+### Preparó la siguiente Release
+
+Gobernanza.
 
 ---
 
 ## v1.4.0 · Gobernanza del conocimiento
 
-Se completa el marco metodológico del proyecto.
+### Propósito
 
-### Objetivos alcanzados
+Completar el marco metodológico del SGCC.
 
-- Modelo de gobernanza.
-- Estrategia del conocimiento.
-- Gestión de deuda documental.
-- Modelo de madurez.
-- Workflow oficial de desarrollo.
-- Consolidación de la documentación estratégica.
+### Capacidades incorporadas
 
-Con esta versión finaliza la construcción de la infraestructura metodológica del SGCC y comienza la etapa de expansión sistemática del conocimiento culinario.
+- estrategia;
+- workflow;
+- madurez;
+- deuda documental;
+- gobernanza.
+
+### Impacto
+
+El proyecto dispone de un modelo completo para evolucionar el conocimiento de forma sostenible.
+
+### Preparó la siguiente etapa
+
+Expansión sistemática del conocimiento culinario.
 
 ---
 
@@ -144,55 +230,85 @@ Con esta versión finaliza la construcción de la infraestructura metodológica 
 
 ## v2.0.0 · Plataforma software
 
-Objetivos previstos:
+### Objetivo
 
+Construir aplicaciones apoyadas sobre el conocimiento del SGCC.
+
+Capacidades previstas:
+
+- API;
+- Backend;
+- Gestor de despensa;
+- Planificador;
+- Compra inteligente;
 - Plataforma web.
-- API REST.
-- Motor de búsqueda semántica.
-- Gestión inteligente de recetas.
-- Planificador semanal.
-- Lista de la compra.
-- Integración con IA.
 
-La versión 2.0 supondrá la evolución desde un SGCC documental hacia una plataforma software basada en dicho conocimiento.
+---
+
+## v3.0.0 · Inteligencia
+
+### Objetivo
+
+Incorporar capacidades inteligentes sobre la plataforma.
+
+Posibles capacidades:
+
+- RAG;
+- agentes;
+- IA culinaria;
+- búsqueda semántica;
+- planificación inteligente.
 
 ---
 
 # Política de Releases
 
-Las Releases oficiales representan hitos relevantes del proyecto.
+Una nueva Release se publica únicamente cuando el proyecto incorpora una nueva capacidad consolidada.
 
-Una nueva Release se publica cuando se cumple al menos una de las siguientes condiciones:
+No todas las iteraciones generan una Release.
 
-- finalización de una fase importante;
-- incorporación de una capacidad significativa;
-- consolidación de una arquitectura;
-- evolución del modelo de conocimiento;
-- publicación de un nuevo marco metodológico.
-
-No todas las iteraciones de desarrollo generan una Release.
+Las mejoras menores se documentan mediante el CHANGELOG.
 
 ---
 
-# Versionado
+# Semantic Versioning
 
-NovaCoquinaria utiliza **Semantic Versioning (SemVer)**.
+NovaCoquinaria utiliza Semantic Versioning.
 
-- **Major** → evolución arquitectónica o funcional significativa.
-- **Minor** → incorporación de nuevas capacidades compatibles.
-- **Patch** → mantenimiento, correcciones y mejoras.
+| Tipo | Significado |
+|-------|-------------|
+| Major | Nueva etapa del producto |
+| Minor | Nueva capacidad consolidada |
+| Patch | Correcciones y mantenimiento |
 
 ---
 
-# Relación con otros documentos
+# Relaciones entre documentos
 
-Este documento complementa:
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| PROJECT_STATUS | Estado actual |
+| ROADMAP | Evolución futura |
+| BITÁCORA | Historia del proyecto |
+| CHANGELOG | Cambios incorporados |
 
-- [CHANGELOG](../../CHANGELOG.md)
-- [BITACORA](BITACORA.md)
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [ROADMAP](../ROADMAP.md)
+---
 
-No sustituye a ninguno de ellos.
+# Documentación relacionada
 
-Su responsabilidad consiste exclusivamente en resumir el significado y alcance de cada Release publicada.
+## Gestión
+
+- PROJECT_STATUS
+- ROADMAP
+- BITÁCORA
+- CHANGELOG
+
+---
+
+# Conclusión
+
+Las Releases representan los principales hitos de evolución del SGCC.
+
+Cada una consolida una capacidad del sistema y prepara la siguiente etapa de crecimiento.
+
+El conjunto de Releases constituye la historia funcional de NovaCoquinaria como producto.

@@ -175,7 +175,7 @@ Si una tabla crece demasiado, dividirla por dominio.
 # Dependencias
 
 * [Guía de estilo](../GUIA_DE_ESTILO.md)
-* [Especificación de documentos](../ESPECIFICACION_DE_DOCUMENTOS.md)
+* [Especificación de documentos](../docs/specifications/ESPECIFICACION_DE_DOCUMENTOS.md)
 
 ---
 

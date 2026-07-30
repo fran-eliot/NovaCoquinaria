@@ -1,154 +1,172 @@
 ---
 id: DOC-0010
-titulo: Ideas Futuras
 tipo: gestion
-version: 2.0
+titulo: Catálogo de Oportunidades de Evolución
+version: 3.0
 estado: evolutivo
-ultima_revision: 2026-07-13
+ultima_revision: 2026-07-20
 ---
 
-# Ideas Futuras
+# Catálogo de Oportunidades de Evolución
 
-> Repositorio de ideas para la evolución de NovaCoquinaria.
+> Proyecto: NovaCoquinaria
+> Sistema: GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
 # Objetivo
 
-Este documento recoge propuestas e iniciativas que podrían incorporarse al proyecto en el futuro.
+Este documento recopila oportunidades de evolución identificadas para el SGCC.
 
-Las ideas aquí almacenadas:
+Su finalidad consiste en preservar ideas con potencial de mejora sin incorporarlas todavía a la estrategia ni a la planificación oficial del proyecto.
 
-- no forman parte del Roadmap actual;
-- no implican compromiso de implementación;
-- podrán evolucionar, combinarse o descartarse con el tiempo.
-
-Su finalidad es preservar oportunidades de evolución sin afectar a la planificación oficial del proyecto.
+Las ideas aquí registradas representan posibilidades, no compromisos.
 
 ---
 
-# Ingeniería del conocimiento
+# Alcance
 
-Posibles mejoras para la gestión del conocimiento del SGCC.
+Este catálogo puede incluir:
 
-- Índice de reutilización por documento.
-- Métrica de valor del conocimiento.
-- Dashboard de dominios culinarios.
-- Métricas de madurez por dominio.
-- Detección automática de activos estratégicos.
-- Recomendación automática de conocimiento relacionado.
-- Evolución histórica del Knowledge Graph.
-- Detección automática de conocimiento aislado.
-- Visualización avanzada del grafo.
-- Comparación del conocimiento entre versiones.
+- nuevas funcionalidades;
+- mejoras metodológicas;
+- nuevas capacidades del conocimiento;
+- automatizaciones;
+- herramientas;
+- aplicaciones derivadas.
 
----
+No constituye un Roadmap.
 
-# Portal web
+No establece prioridades.
 
-Posibles mejoras para la experiencia de consulta.
-
-- Índices automáticos por categorías.
-- Navegación por ingredientes.
-- Navegación por técnicas.
-- Navegación por dominios culinarios.
-- Buscador avanzado.
-- Página de novedades.
-- Estadísticas del conocimiento.
-- Breadcrumbs mejorados.
-- Visualización interactiva del Knowledge Graph.
+No implica implementación futura.
 
 ---
 
-# Productividad
+# Filosofía
 
-Funcionalidades orientadas al uso cotidiano del conocimiento culinario.
+La innovación forma parte del crecimiento del SGCC.
 
-- Lista automática de la compra.
-- Planificador semanal.
-- Planificador mensual.
-- Menús personalizados.
-- Generación automática de menús.
-- Organización de sesiones de batch cooking.
-- Escalado automático de recetas.
+No todas las ideas deben implementarse.
+
+Sin embargo, conservarlas evita perder oportunidades valiosas que podrán reevaluarse cuando cambie el contexto del proyecto.
 
 ---
 
-# Inteligencia Artificial
+# Ciclo de vida de una idea
 
-Aplicaciones futuras de IA sobre el SGCC.
+Toda idea sigue un proceso de evolución.
 
-- Asistente culinario.
-- Búsqueda semántica.
-- RAG sobre Markdown.
-- Agentes especializados por dominio culinario.
-- Recomendación inteligente de recetas.
-- Sustitución inteligente de ingredientes.
-- Adaptación automática de cantidades.
-- Generación asistida de recetas.
-- Motor de razonamiento culinario basado en el Knowledge Graph.
+```text
+Idea
 
----
+↓
 
-# Plataforma software
+Evaluación
 
-Posibles evoluciones tecnológicas.
+↓
 
-- API REST.
-- Modelo de datos derivado del SGCC.
-- Backend de consulta.
-- Aplicación web.
-- Aplicación móvil.
-- Sincronización entre dispositivos.
-- Motor de consultas sobre el Knowledge Graph.
-- Exportación a otros formatos.
+Descartada
+      │
+      ├── Roadmap
+      │
+      └── Permanece en catálogo
+```
 
----
+Las ideas pueden:
 
-# Automatización
-
-Mejoras del pipeline y del framework documental.
-
-- GitHub Pages.
-- GitHub Actions.
-- Validación automática de enlaces externos.
-- Validación del Front Matter.
-- Generación automática de índices.
-- Generación automática de estadísticas.
-- Informes automáticos de deuda de conocimiento.
-- Informes automáticos de madurez.
-- Generación automática de dashboards.
+- permanecer;
+- evolucionar;
+- combinarse;
+- trasladarse al Roadmap;
+- descartarse.
 
 ---
 
-# Organización personal
+# Clasificación
 
-Ideas orientadas al uso diario del repositorio.
+Las oportunidades podrán agruparse por áreas.
 
-- Etiquetas inteligentes.
-- Clasificación automática.
-- Gestión de favoritos.
-- Historial de cocina.
-- Valoraciones personales.
-- Diario culinario.
-- Registro de experimentos.
+## Ingeniería del conocimiento
+
+Mejoras relacionadas con la organización y gestión del SGCC.
+
+---
+
+## Plataforma
+
+Evoluciones tecnológicas.
+
+---
+
+## Automatización
+
+Nuevas capacidades del framework documental.
+
+---
+
+## Inteligencia Artificial
+
+Aplicaciones de IA sobre el conocimiento culinario.
+
+---
+
+## Productividad
+
+Herramientas para el uso cotidiano.
+
+---
+
+## Experiencia de usuario
+
+Mejoras de navegación e interacción.
+
+---
+
+## Investigación
+
+Líneas de exploración todavía inmaduras.
 
 ---
 
 # Criterios de incorporación
 
-Una idea podrá permanecer en este documento mientras:
+Una oportunidad podrá incorporarse cuando:
 
-- no forme parte del Roadmap;
-- no exista una decisión formal de implementación;
-- aporte una posible evolución significativa del SGCC.
-
-Cuando una idea pase a formar parte de la planificación oficial deberá trasladarse al Roadmap correspondiente.
+- aporte una evolución significativa;
+- resulte coherente con la visión del proyecto;
+- todavía no forme parte del Roadmap;
+- no exista una decisión definitiva sobre su implementación.
 
 ---
 
-# Referencias
+# Evaluación
 
-- [ROADMAP](../ROADMAP.md)
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [VISION](../VISION.md)
+Periódicamente las oportunidades podrán:
+
+- mantenerse;
+- ampliarse;
+- fusionarse;
+- archivarse;
+- trasladarse al Roadmap.
+
+La permanencia en este documento no implica prioridad.
+
+---
+
+# Relación con otros documentos
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| VISION | Dirección del proyecto |
+| KNOWLEDGE_STRATEGY | Evolución del conocimiento |
+| ROADMAP | Planificación oficial |
+| PROJECT_STATUS | Estado actual |
+
+---
+
+# Conclusión
+
+El Catálogo de Oportunidades de Evolución constituye un espacio para preservar posibles mejoras del SGCC sin comprometer la estabilidad de la estrategia ni del Roadmap.
+
+Su función consiste en mantener abiertas las posibilidades de evolución, favoreciendo la innovación sin interferir en la planificación oficial del proyecto.

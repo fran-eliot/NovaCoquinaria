@@ -2,314 +2,258 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 1.1
+version: 2.0
 estado: estable
-ultima_revision: 2026-07-19
+ultima_revision: 2026-07-20
 ---
 
 # Bitácora del Proyecto
 
-> Registro cronológico de los principales hitos que han marcado la evolución de NovaCoquinaria.
+> **Proyecto:** NovaCoquinaria
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-# Propósito
+# Objetivo
 
-La Bitácora documenta la historia del proyecto.
+La Bitácora conserva la memoria histórica de NovaCoquinaria.
 
-Su objetivo es explicar cómo ha evolucionado NovaCoquinaria desde su creación hasta la actualidad, recogiendo los hitos que han definido su identidad, arquitectura y metodología.
+Su finalidad no consiste en registrar cambios técnicos, sino en explicar la evolución del proyecto a través de los acontecimientos que modifican su identidad, arquitectura, metodología o visión.
 
-No sustituye al **CHANGELOG**, al historial de Git ni a las **RELEASES**.
+Cada entrada responde a la pregunta:
 
-Cada entrada responde a una pregunta distinta:
-
-> **¿Qué ocurrió y por qué fue importante para la evolución del proyecto?**
+> **¿Qué aprendimos que cambió el proyecto?**
 
 ---
 
-# Criterios de registro
+# Filosofía
 
-La Bitácora únicamente recoge acontecimientos que modifican significativamente el proyecto.
+Solo se registran acontecimientos que transforman el proyecto.
 
-Se registran:
+No se documentan:
 
-- Releases importantes.
-- Cambios arquitectónicos.
-- Cambios metodológicos.
-- Incorporación de nuevos marcos de trabajo.
-- Grandes refactorizaciones.
-- Evolución del modelo de conocimiento.
-- Cambios de filosofía del proyecto.
-- Nuevas capacidades relevantes.
-
-No se registran:
-
-- tareas cotidianas;
-- pequeños cambios documentales;
+- tareas;
+- commits;
 - correcciones menores;
-- commits individuales;
-- trabajo en progreso.
+- trabajo cotidiano;
+- cambios editoriales.
+
+La Bitácora registra únicamente hitos que modifican la trayectoria del SGCC.
 
 ---
 
-# Historia del proyecto
+# Historia
+
+---
 
 ## 2026-06-29 · Nacimiento de NovaCoquinaria
 
 ### Qué ocurrió
 
-Se crea el repositorio **NovaCoquinaria** con el objetivo inicial de organizar una colección personal de recetas utilizando Markdown como formato principal de documentación.
+Se crea el repositorio con la intención de organizar una colección personal de recetas.
 
-### Importancia
+### Por qué ocurrió
 
-Este día marca el origen del proyecto y el comienzo de una evolución que posteriormente transformará un simple recetario en un Sistema de Gestión del Conocimiento Culinario.
+La información culinaria comenzaba a dispersarse y necesitaba una estructura mantenible.
+
+### Qué cambió
+
+Aparece la idea de tratar las recetas como documentación.
+
+### Impacto
+
+Se sientan las bases del proyecto.
 
 ---
 
-## 2026-06-30 · Release v0.1.0 · Fundación del proyecto
+## 2026-06-30 · Primera fundación
 
 ### Qué ocurrió
 
 Se publica la primera versión funcional.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Creación de la estructura inicial.
-- Primeros documentos.
-- Primeras recetas.
-- Primeras bases culinarias.
-- Definición del estilo documental.
+Era necesario disponer de una estructura mínima sobre la que experimentar.
 
-### Importancia
+### Qué cambió
 
-Se establecen los primeros cimientos sobre los que evolucionará toda la arquitectura del proyecto.
+El proyecto deja de ser una idea y pasa a ser un sistema operativo.
+
+### Impacto
+
+Hace posible toda la evolución posterior.
 
 ---
 
-## 2026-07-01 · Nacimiento del SGCC
+## 2026-07-01 · Nace el SGCC
 
 ### Qué ocurrió
 
-NovaCoquinaria deja de concebirse como un simple repositorio de recetas y pasa a definirse como un **Sistema de Gestión del Conocimiento Culinario (SGCC)**.
+NovaCoquinaria deja de concebirse como un recetario.
 
-### Principales decisiones
+### Por qué ocurrió
 
-- Separación entre recetas y conocimiento reutilizable.
-- Organización modular del conocimiento.
-- Aparición de entidades especializadas.
-- Inicio del enfoque basado en reutilización.
+Se detecta que las recetas reutilizan mucho conocimiento común.
 
-### Importancia
+### Qué cambió
 
-Este constituye probablemente el cambio conceptual más importante de toda la historia del proyecto.
+El conocimiento pasa a ser el elemento principal del sistema.
+
+### Impacto
+
+Esta decisión redefine completamente el proyecto.
 
 ---
 
-## 2026-07-03 · Consolidación de la arquitectura documental
+## 2026-07-03 · Arquitectura documental
 
 ### Qué ocurrió
 
-Se define la arquitectura documental que gobernará el proyecto.
+Se consolida la arquitectura.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Incorporación de ADR.
-- Front Matter YAML.
-- Sistema de referencias cruzadas.
-- Organización estructurada del repositorio.
+El crecimiento del repositorio hacía necesaria una organización estable.
 
-### Importancia
+### Qué cambió
 
-La documentación deja de ser un conjunto de archivos para convertirse en un sistema arquitectónico coherente.
+La documentación pasa a funcionar como un sistema.
+
+### Impacto
+
+El proyecto adquiere una arquitectura preparada para evolucionar.
 
 ---
 
-## 2026-07-05 · Release v1.0.0 · Primera versión estable
+## 2026-07-05 · Primera versión estable
 
 ### Qué ocurrió
 
-Se publica la primera versión estable del SGCC.
+Se publica la Release v1.0.0.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Arquitectura consolidada.
-- Documentación estratégica.
-- Base inicial de conocimiento.
-- Primera Release oficial.
+La arquitectura alcanza un nivel suficiente de estabilidad.
 
-### Importancia
+### Qué cambió
 
-NovaCoquinaria alcanza un nivel suficiente de estabilidad para comenzar a evolucionar de forma sostenible.
+NovaCoquinaria puede comenzar a crecer sin replantear continuamente sus fundamentos.
+
+### Impacto
+
+Comienza la evolución sostenible.
 
 ---
 
-## 2026-07-06 · Portal documental
+## 2026-07-06 · Separación entre fuente y publicación
 
 ### Qué ocurrió
 
-Comienza la integración del portal basado en MkDocs Material.
+Se incorpora MkDocs.
 
-### Principales decisiones
+### Por qué ocurrió
 
-- Markdown continúa siendo la única fuente de verdad.
-- `site_docs` pasa a ser un artefacto generado.
-- Separación entre documentación fuente y documentación publicada.
+Era necesario facilitar la consulta del conocimiento.
 
-### Importancia
+### Qué cambió
 
-Se establece una arquitectura de publicación completamente desacoplada del conocimiento original.
+Markdown permanece como fuente única de verdad mientras la publicación pasa a ser un artefacto generado.
+
+### Impacto
+
+Se desacoplan conocimiento y presentación.
 
 ---
 
-## 2026-07-06 · Identidad visual
+## 2026-07-09 · El conocimiento comienza a comprenderse a sí mismo
 
 ### Qué ocurrió
 
-El proyecto incorpora su primera identidad gráfica.
+Se incorpora el Knowledge Graph.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Landing Page.
-- Tarjetas de navegación.
-- Logo.
-- Favicon.
-- Tema claro/oscuro.
-- Mejora de la experiencia de usuario.
+La simple validación documental ya no era suficiente.
 
-### Importancia
+### Qué cambió
 
-NovaCoquinaria comienza a consolidarse también como producto documental.
+El SGCC pasa a analizar las relaciones entre sus propias entidades.
+
+### Impacto
+
+El proyecto deja de validar únicamente documentos y comienza a validar conocimiento.
 
 ---
 
-## 2026-07-07 · Release v1.1.0 · Portal documental consolidado
+## 2026-07-11 · La gobernanza se convierte en arquitectura
 
 ### Qué ocurrió
 
-Se publica la primera versión centrada en la experiencia de consulta.
+Se completa el marco metodológico.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Portal MkDocs.
-- Identidad visual.
-- Documentación de gestión.
-- Continuidad del proyecto.
+El crecimiento del conocimiento exigía reglas explícitas para su evolución.
 
-### Importancia
+### Qué cambió
 
-Finaliza la primera etapa de construcción de la infraestructura documental.
+La metodología deja de ser implícita y pasa a formar parte del propio sistema.
+
+### Impacto
+
+La evolución futura queda gobernada por principios estables.
 
 ---
 
-## 2026-07-09 · Release v1.2.0 · Framework de calidad
+## 2026-07-14 · Primer dominio completamente consolidado
 
 ### Qué ocurrió
 
-Se incorpora el primer marco de validación documental.
+Se completa Currys.
 
-### Principales hitos
+### Por qué ocurrió
 
-- Validación automática.
-- Framework de herramientas.
-- Pipeline documental.
-- Estadísticas básicas.
-- Documento base *Mise en place*.
+Era necesario validar todo el modelo metodológico mediante un dominio real.
 
-### Importancia
+### Qué cambió
 
-La calidad documental pasa a estar apoyada por herramientas automáticas.
+Por primera vez el ciclo completo del SGCC se demuestra funcional.
 
----
+### Impacto
 
-## 2026-07-09 · Release v1.3.0 · Knowledge Graph
-
-### Qué ocurrió
-
-NovaCoquinaria incorpora su primer grafo de conocimiento.
-
-### Principales hitos
-
-- Knowledge Graph.
-- Grafo Mermaid.
-- Estadísticas avanzadas.
-- Validación semántica.
-- Detección de conocimiento huérfano.
-
-### Importancia
-
-El proyecto evoluciona desde un repositorio validado hacia un sistema capaz de comprender las relaciones existentes entre sus propios documentos.
+El proyecto dispone de un patrón de referencia para futuras expansiones.
 
 ---
 
-## 2026-07-11 · Release v1.4.0 · Gobernanza del conocimiento
+# Próximos capítulos
 
-### Qué ocurrió
+La Bitácora continuará registrando únicamente acontecimientos que transformen la evolución del proyecto.
 
-Se completa el marco metodológico del SGCC.
+No todas las Releases generarán una nueva entrada.
 
-### Principales hitos
+No todos los cambios serán históricos.
 
-- Modelo de gobernanza.
-- Estrategia del conocimiento.
-- Gestión de deuda documental.
-- Modelo de madurez.
-- Workflow oficial de desarrollo.
-
-### Importancia
-
-Finaliza la construcción de la infraestructura metodológica del proyecto y comienza la etapa de expansión sistemática del conocimiento culinario.
+Solo aquellos que modifiquen la trayectoria del SGCC.
 
 ---
 
-## 2026-07-14 · Primer dominio culinario consolidado
+# Relaciones
 
-### Qué ocurrió
-
-Se completa la primera iteración íntegra del dominio **Currys**.
-
-### Principales hitos
-
-- Finalización de la receta canónica.
-- Consolidación del conocimiento reutilizable.
-- Eliminación de la deuda asociada.
-- Integración completa en el Knowledge Graph.
-- Validación documental y semántica sin incidencias.
-
-### Importancia
-
-Este dominio constituye la primera validación completa del modelo metodológico definido por el SGCC y servirá como referencia para el desarrollo de futuros dominios.
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| PROJECT_STATUS | Presente |
+| ROADMAP | Futuro |
+| BITÁCORA | Pasado |
+| RELEASES | Hitos del producto |
+| CHANGELOG | Cambios realizados |
 
 ---
 
-# Próximos hitos
+# Conclusión
 
-Entre los principales objetivos previstos destacan:
+La Bitácora constituye la memoria institucional de NovaCoquinaria.
 
-- Publicación mediante GitHub Pages.
-- Automatización completa del portal documental.
-- Consolidación de nuevos dominios culinarios.
-- Evolución del Knowledge Graph.
-- Inicio del desarrollo de la plataforma software.
+Mientras el CHANGELOG registra qué cambió y el ROADMAP describe hacia dónde evoluciona el proyecto, la Bitácora explica cómo el SGCC llegó a convertirse en el sistema que es hoy.
 
----
-
-# Mantenimiento
-
-La Bitácora deberá actualizarse únicamente cuando se produzcan hitos relevantes para la evolución del proyecto.
-
-No es necesario registrar cambios menores o trabajo cotidiano.
-
----
-
-# Relación con otros documentos
-
-Este documento complementa:
-
-- [PROJECT_STATUS](PROJECT_STATUS.md)
-- [RELEASES](RELEASES.md)
-- [CHANGELOG](../../CHANGELOG.md)
-- [ROADMAP](../ROADMAP.md)
-
-No sustituye a ninguno de ellos.
-
-Su responsabilidad consiste exclusivamente en conservar la memoria histórica de NovaCoquinaria y explicar los acontecimientos que han marcado su evolución.
+Cada entrada conserva no solo los hechos, sino también las decisiones, aprendizajes y cambios de perspectiva que definieron su evolución.

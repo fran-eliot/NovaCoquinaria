@@ -1,4 +1,5 @@
 from common import (
+    ADR_DIR,
     extract_frontmatter,
     iter_markdown_files,
     print_error,
@@ -16,7 +17,12 @@ REQUIRED_FIELDS = {
     "ultima_revision",
 }
 
-ADR_DIR= "docs/adr"
+
+def is_adr(relative_path: str) -> bool:
+    return (
+        relative_path == ADR_DIR
+        or relative_path.startswith(f"{ADR_DIR}/")
+    )
 
 
 def validate_frontmatter():
@@ -41,7 +47,7 @@ def validate_frontmatter():
 
         relative = relative_path(path)
 
-        if relative.startswith(ADR_DIR):
+        if is_adr(relative):
             # Los ADR utilizan un esquema propio de Front Matter.
             continue
 

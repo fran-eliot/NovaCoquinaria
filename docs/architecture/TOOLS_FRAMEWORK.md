@@ -2,98 +2,138 @@
 id: ARC-0017
 tipo: arquitectura
 titulo: Framework de Herramientas
-version: 1.0
-estado: borrador
-ultima_revision: 2026-07-08
+version: 2.0
+estado: estable
+ultima_revision: 2026-07-20
 ---
 
 # Framework de Herramientas
 
-## Objetivo
-
-Este documento describe la arquitectura del framework de herramientas utilizado para mantener y validar NovaCoquinaria.
-
-Su finalidad es proporcionar una base común para todas las utilidades del proyecto, evitando duplicidades y facilitando su evolución.
+> **Proyecto:** NovaCoquinaria
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-## Principios
+# Objetivo
 
-El framework sigue los mismos principios que el SGCC:
+Este documento describe la arquitectura del Framework de Herramientas utilizado por NovaCoquinaria.
 
-- una única responsabilidad por herramienta;
-- reutilización de código común;
-- simplicidad;
-- independencia entre módulos;
-- facilidad de mantenimiento.
+El Framework proporciona la infraestructura software necesaria para automatizar la validación, generación y mantenimiento del conocimiento almacenado en el SGCC.
+
+No contiene conocimiento culinario.
+
+Su responsabilidad consiste exclusivamente en proporcionar servicios de infraestructura.
 
 ---
 
-## Arquitectura
+# Papel del Framework
+
+Dentro del SGCC, el Framework constituye la capa técnica que implementa la estrategia de automatización.
+
+Su misión consiste en proporcionar componentes reutilizables para:
+
+- validar;
+- analizar;
+- generar;
+- construir;
+- publicar.
+
+---
+
+# Arquitectura
 
 ```text
-tools/
-│
-├── common.py
-│      Utilidades compartidas
-│
-├── models.py
-│      Modelo documental
-│
-├── validate_*.py
-│      Validaciones
-│
-├── generate_*.py
-│      Generadores
-│
-└── build_*.py
-       Procesos de construcción
+                    Framework
+
+        ┌─────────────────────────────┐
+        │      Servicios comunes       │
+        └──────────────┬──────────────┘
+                       │
+      ┌────────────────┼────────────────┐
+      │                │                │
+ Validadores      Generadores      Builders
+      │                │                │
+      └────────────────┼────────────────┘
+                       │
+                  Herramientas
 ```
 
----
-
-## Componentes
-
-### common.py
-
-Centraliza funciones reutilizables:
-
-- localización de documentos;
-- lectura de archivos;
-- extracción del Front Matter;
-- impresión homogénea de mensajes.
+Cada componente posee una responsabilidad única.
 
 ---
 
-### models.py
+# Principios
 
-Define el modelo documental utilizado por las herramientas.
+El Framework sigue los mismos principios arquitectónicos del SGCC.
 
-Actualmente incluye:
+## Responsabilidad única
 
-- `Document`
-
-En el futuro podrá ampliarse con otros modelos especializados.
+Cada módulo implementa una única capacidad claramente definida.
 
 ---
 
-### Validadores
+## Reutilización
 
-Su misión es detectar inconsistencias.
+La funcionalidad común se centraliza para evitar duplicidades.
 
-Nunca modifican documentos.
+---
+
+## Modularidad
+
+Los componentes evolucionan de forma independiente.
+
+---
+
+## Simplicidad
+
+Las herramientas deberán ser fáciles de comprender, mantener y ampliar.
+
+---
+
+## Transparencia
+
+Las herramientas deberán producir resultados reproducibles y mensajes claros.
+
+---
+
+# Componentes
+
+## Servicios comunes
+
+Proporcionan funcionalidades compartidas por el resto del Framework.
 
 Ejemplos:
 
-- Front Matter;
-- IDs;
-- enlaces.
+- lectura de documentos;
+- acceso al Front Matter;
+- utilidades comunes;
+- mensajes homogéneos.
 
 ---
 
-### Generadores
+## Modelo documental
 
-Crean artefactos derivados sin modificar la fuente de verdad.
+Representa los documentos del SGCC mediante objetos reutilizables.
+
+Permite desacoplar las herramientas del formato físico de los archivos.
+
+---
+
+## Validadores
+
+Comprueban la consistencia del conocimiento.
+
+Características:
+
+- nunca modifican documentos;
+- detectan inconsistencias;
+- producen diagnósticos.
+
+---
+
+## Generadores
+
+Crean artefactos derivados a partir del conocimiento validado.
 
 Ejemplos:
 
@@ -103,41 +143,93 @@ Ejemplos:
 
 ---
 
-### Builder
+## Builders
 
-Construye la documentación distribuible.
+Orquestan procesos completos de construcción.
 
-Actualmente:
-
-- `build_site_docs.py`
+Su misión consiste en coordinar varios componentes del Framework.
 
 ---
 
-## Evolución prevista
+# Dependencias
 
-El framework podrá incorporar:
+La relación entre componentes sigue una dirección única.
+
+```text
+Servicios comunes
+
+↓
+
+Modelo documental
+
+↓
+
+Validadores / Generadores
+
+↓
+
+Builders
+```
+
+Los módulos de nivel superior reutilizan los inferiores.
+
+Nunca ocurre en sentido inverso.
+
+---
+
+# Evolución prevista
+
+El Framework podrá incorporar nuevas capacidades sin modificar su arquitectura básica.
+
+Ejemplos:
 
 - validación semántica;
-- detección de documentos huérfanos;
-- análisis de referencias cruzadas;
+- análisis del Knowledge Graph;
 - generación automática de índices;
-- exportadores a otros formatos;
-- comprobaciones para integración continua.
+- exportadores;
+- integración continua;
+- herramientas de mantenimiento.
 
 ---
 
-## Relación con el SGCC
+# Relación con la automatización
 
-El framework forma parte de la infraestructura del proyecto.
+El Framework constituye la implementación técnica de la estrategia de automatización.
 
-No contiene conocimiento culinario.
+La estrategia define los principios.
 
-Su responsabilidad es garantizar la calidad y consistencia del conocimiento almacenado en Markdown.
+El Pipeline define el proceso.
+
+El Framework implementa las capacidades necesarias para ejecutarlo.
 
 ---
 
-## Referencias
+# Relaciones documentales
 
-- [AUTOMATION](AUTOMATION.md)
-- [QUALITY_PIPELINE](QUALITY_PIPELINE.md)
-- [ARQUITECTURA](../ARQUITECTURA.md)
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| AUTOMATION | Estrategia |
+| QUALITY_PIPELINE | Proceso |
+| QUALITY | Modelo de calidad |
+| ARQUITECTURA | Arquitectura del SGCC |
+
+---
+
+# Documentación relacionada
+
+## Arquitectura
+
+- AUTOMATION
+- QUALITY_PIPELINE
+- QUALITY
+- ARQUITECTURA
+
+---
+
+# Conclusión
+
+El Framework de Herramientas constituye la infraestructura software del SGCC.
+
+Su arquitectura modular permite evolucionar las capacidades de automatización sin comprometer la estabilidad del conocimiento ni de la arquitectura documental.
+
+Cada componente existe para dar soporte al conocimiento, nunca para sustituirlo.

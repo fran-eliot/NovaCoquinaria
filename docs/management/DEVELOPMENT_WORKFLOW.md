@@ -2,249 +2,325 @@
 id: DOC-0009
 titulo: Workflow de Desarrollo
 tipo: gestion
-version: 1.0
+version: 2.0
 estado: estable
-ultima_revision: 2026-07-19
+ultima_revision: 2026-07-20
 ---
 
 # Workflow de Desarrollo
 
-## Objetivo
-
-Definir el proceso oficial para desarrollar y ampliar NovaCoquinaria de forma coherente, incremental y sostenible.
-
-El objetivo del workflow es garantizar que el conocimiento culinario crezca con la misma calidad y consistencia independientemente del dominio que se esté desarrollando.
+> **Proyecto:** NovaCoquinaria  
+> **Arquitectura conceptual:** GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)
 
 ---
 
-# Principios
+# Objetivo
 
-Todo el desarrollo del SGCC se rige por los siguientes principios:
+Este documento define el **proceso oficial de desarrollo y evolución del SGCC**.
 
-1. El conocimiento precede a las recetas.
-2. Cada documento debe aportar un valor claro al sistema.
-3. Reutilizar siempre que sea posible antes de crear nuevo contenido.
-4. La arquitectura solo evoluciona cuando una necesidad real del conocimiento lo justifica.
-5. Cada iniciativa de conocimiento debe poder evolucionar de forma independiente.
+Su finalidad es garantizar que todo cambio incorporado al sistema mantenga la coherencia del modelo de conocimiento, respete la arquitectura y contribuya al crecimiento sostenible del proyecto.
+
+No describe herramientas específicas ni procedimientos técnicos detallados.
+
+Define el ciclo de vida que debe seguir cualquier iniciativa de conocimiento.
 
 ---
 
-# Ciclo de desarrollo
+# Principios del workflow
 
-Cada nueva iniciativa de conocimiento seguirá el mismo ciclo de vida.
+Toda evolución del SGCC deberá respetar los siguientes principios:
+
+- el conocimiento precede a la implementación;
+- reutilizar antes que crear;
+- evolucionar antes que duplicar;
+- validar antes que integrar;
+- documentar antes que automatizar;
+- mantener la coherencia arquitectónica en todo momento.
+
+---
+
+# Ciclo de vida del conocimiento
+
+Toda iniciativa seguirá el mismo flujo de trabajo.
 
 ```text
-Idea u oportunidad
-        ↓
-Selección del dominio
-        ↓
-Inventario del conocimiento existente
-        ↓
-Identificación de carencias
-        ↓
-Desarrollo del conocimiento reutilizable
-        ↓
-Creación de la receta canónica
-        ↓
-Desarrollo de variantes
-        ↓
-Validación automática
-        ↓
-Consolidación del dominio
-        ↓
-Actualización de PROJECT_STATUS
-        ↓
-Registro en BITÁCORA
-        ↓
-Preparación de Release (si procede)
-        ↓
+Necesidad
+
+      │
+
+Análisis
+
+      │
+
+Inventario
+
+      │
+
+Diseño
+
+      │
+
+Desarrollo
+
+      │
+
+Relaciones
+
+      │
+
+Validación
+
+      │
+
+Integración
+
+      │
+
+Consolidación
+
+      │
+
 Nueva iteración
 ```
 
----
-
-# Fase 1 · Selección de la iniciativa de conocimiento
-
-El desarrollo comienza escogiendo una iniciativa de conocimiento.
-
-- un dominio culinario;
-- una técnica;
-- una colección de ingredientes;
-- una arquitectura documental;
-- una mejora transversal.
+Cada fase aporta valor al sistema y prepara la siguiente.
 
 ---
 
-# Fase 2 · Inventario
+# Fases del proceso
 
-Antes de crear nuevos documentos se revisa el conocimiento existente.
+## 1. Identificación de la necesidad
 
-Se identifican:
+Toda iniciativa comienza con una necesidad claramente identificada.
 
-- ingredientes;
-- técnicas;
-- bases;
-- patrones culinarios reutilizables;
-- tablas;
-- recetas.
+Puede consistir en:
 
-El objetivo es reutilizar al máximo el conocimiento ya documentado.
+- nuevo conocimiento;
+- ampliación de conocimiento existente;
+- reorganización documental;
+- mejora arquitectónica;
+- automatización.
 
----
-
-# Fase 3 · Identificación de carencias
-
-Una vez realizado el inventario se identifican los activos de conocimiento que faltan.
-
-La prioridad vendrá determinada por su capacidad de reutilización.
-
-Se priorizarán los documentos con mayor impacto transversal.
+La necesidad debe justificarse antes de iniciar cualquier desarrollo.
 
 ---
 
-# Fase 4 · Desarrollo del conocimiento reutilizable
+## 2. Inventario
 
-Antes de crear nuevas recetas deberán consolidarse los elementos reutilizables del dominio.
+Antes de crear nuevos documentos deberá revisarse el conocimiento existente.
 
-Por ejemplo:
+El objetivo consiste en identificar:
 
-- ingredientes;
-- técnicas;
-- patrones culinarios reutilizables;
-- tablas.
-
----
-
-# Fase 5 · Receta canónica
-
-Cada dominio dispondrá inicialmente de una receta de referencia.
-
-La receta canónica debe:
-
-- reutilizar el máximo conocimiento existente;
-- evitar duplicidades;
-- servir como modelo para futuras recetas del dominio.
+- entidades reutilizables;
+- relaciones ya documentadas;
+- posibles duplicidades;
+- oportunidades de mejora.
 
 ---
 
-# Fase 6 · Variantes
+## 3. Diseño
 
-Una vez consolidada la receta canónica podrán desarrollarse variantes que reutilicen el conocimiento ya existente.
+Una vez comprendido el estado actual, se diseña la solución.
+
+Durante esta fase se determina:
+
+- qué entidades intervienen;
+- qué relaciones serán necesarias;
+- qué documentos deberán modificarse;
+- si resulta necesaria una ADR.
 
 ---
 
-# Fase 7 · Validación
+## 4. Desarrollo
 
-Todo cambio deberá superar el pipeline documental.
+Solo después del diseño comienza la incorporación del conocimiento.
 
-Validaciones mínimas:
+Las contribuciones deberán:
+
+- reutilizar conocimiento existente;
+- respetar el modelo de conocimiento;
+- mantener una única responsabilidad documental;
+- seguir las convenciones del proyecto.
+
+---
+
+## 5. Relacionar
+
+Todo nuevo conocimiento deberá integrarse dentro del SGCC.
+
+Esto implica:
+
+- referencias cruzadas;
+- actualización del Knowledge Graph;
+- integración con entidades existentes;
+- eliminación de posibles duplicidades.
+
+El conocimiento aislado no aporta valor al sistema.
+
+---
+
+## 6. Validación
+
+Todo cambio deberá superar las validaciones establecidas por el proyecto.
 
 ## Validación automática
 
-- Front Matter.
-- Identificadores únicos.
-- Enlaces internos.
-- Validación semántica.
-- Knowledge Graph.
-- Detección de documentos huérfanos.
+Como mínimo:
+
+- Front Matter;
+- identificadores;
+- enlaces internos;
+- validación semántica;
+- Knowledge Graph;
+- documentos huérfanos.
 
 ## Validación arquitectónica
 
-- ausencia de duplicidades;
+Además deberá verificarse:
+
 - coherencia con el modelo de conocimiento;
+- cumplimiento de los ADR;
 - reutilización adecuada;
-- cumplimiento de los ADR.
+- ausencia de deuda arquitectónica significativa.
 
 ---
 
-# Fase 8 · Consolidación
+## 7. Integración
 
-Un dominio se considera consolidado cuando:
+Una vez validado, el conocimiento podrá incorporarse al repositorio principal.
 
-- dispone del conocimiento reutilizable necesario;
-- cuenta con una receta canónica;
-- ingredientes, técnicas, patrones culinarios y demás entidades reutilizables;
-- supera todas las validaciones automáticas;
-- no presenta deuda significativa.
+La integración implica actualizar, cuando corresponda:
 
----
-
-# Mejora continua
-
-Cada dominio consolidado proporciona experiencia para mejorar el desarrollo de los siguientes.
-
-La metodología podrá evolucionar cuando la experiencia práctica así lo justifique.
+- referencias;
+- índices;
+- documentación relacionada;
+- estado del proyecto;
+- bitácora;
+- release.
 
 ---
 
-# Prioridades
+## 8. Consolidación
 
-El desarrollo seguirá siempre este orden de preferencia:
+Una iniciativa se considera consolidada cuando:
 
-1. Corregir deuda de conocimiento
-2. Mejorar conocimiento existente
-3. Crear conocimiento reutilizable
-4. Consolidar iniciativas
-5. Incorporar nuevas recetas
-6. Evolucionar la arquitectura
+- el conocimiento está correctamente documentado;
+- las relaciones están completas;
+- supera todas las validaciones;
+- no introduce deuda significativa;
+- puede reutilizarse por futuras iniciativas.
+
+---
+
+# Prioridades de desarrollo
+
+El proyecto seguirá siempre el siguiente orden de prioridad:
+
+1. Corregir deuda de conocimiento.
+2. Mejorar conocimiento existente.
+3. Consolidar entidades reutilizables.
+4. Incorporar nuevas relaciones.
+5. Crear nuevas recetas.
+6. Evolucionar la arquitectura cuando resulte necesario.
 
 ---
 
 # Tipos de evolución
 
-El workflow puede aplicarse a diferentes tipos de cambios:
+El workflow es aplicable a diferentes clases de cambios.
 
-- incorporación de nuevo conocimiento;
-- ampliación de conocimiento existente;
+- incorporación de conocimiento;
+- ampliación de entidades;
 - reorganización documental;
-- evolución de herramientas;
-- evolución de la arquitectura (mediante ADR).
+- automatización;
+- evolución arquitectónica;
+- mejora de herramientas.
+
+Todas las iniciativas siguen el mismo ciclo de vida.
 
 ---
 
-# Relación con otros documentos
+# Integración con la gobernanza
 
-
-## Integración con el ciclo de vida del proyecto
+El workflow forma parte del sistema de gobernanza del proyecto.
 
 ```text
 Idea
-   │
-   ▼
+
+↓
+
 CONTRIBUTING
-   │
-   ▼
+
+↓
+
 DEVELOPMENT_WORKFLOW
-   │
-   ▼
+
+↓
+
 Validación
-   │
-   ▼
+
+↓
+
 PROJECT_STATUS
-   │
-   ▼
+
+↓
+
 BITÁCORA
-   │
-   ▼
+
+↓
+
 RELEASES
-   │
-   ▼
+
+↓
+
 ROADMAP
 ```
 
-Este documento complementa:
+Cada documento aporta una responsabilidad específica dentro del proceso de evolución.
 
-- [VISION](../VISION.md)
-- [ROADMAP](../ROADMAP.md)
-- [ARQUITECTURA](../ARQUITECTURA.md)
-- [KNOWLEDGE_STRATEGY](./KNOWLEDGE_STRATEGY.md)
-- [KNOWLEDGE_DEBT](./KNOWLEDGE_DEBT.md)
-- [KNOWLEDGE_MATURITY](./KNOWLEDGE_MATURITY.md)
-- [PROJECT_ONBOARDING](./PROJECT_ONBOARDING.md)
-- [CONTRIBUTING](../../CONTRIBUTING.md)
-- [PROJECT_STRUCTURE](./PROJECT_STRUCTURE.md)
-- [PROJECT_STATUS](./PROJECT_STATUS.md)
-- [BITACORA](./BITACORA.md)
-- [RELEASES](./RELEASES.md)
+---
 
-No sustituye a ninguno de ellos; describe únicamente el proceso de desarrollo del SGCC.
+# Relaciones entre documentos
+
+| Documento | Responsabilidad |
+|-----------|-----------------|
+| CONTRIBUTING | Cómo contribuir |
+| DEVELOPMENT_WORKFLOW | Cómo evoluciona el proyecto |
+| PROJECT_STATUS | Estado actual |
+| BITÁCORA | Registro histórico |
+| RELEASES | Versiones publicadas |
+| ROADMAP | Dirección futura |
+
+---
+
+# Documentación relacionada
+
+## Gobernanza
+
+- CONTRIBUTING
+- PROJECT_ONBOARDING
+- CONTEXT
+
+## Arquitectura
+
+- ARQUITECTURA
+- MODELO_DE_CONOCIMIENTO
+
+## Gestión
+
+- PROJECT_STATUS
+- BITÁCORA
+- RELEASES
+- ROADMAP
+
+---
+
+# Conclusión
+
+El desarrollo del SGCC no consiste únicamente en crear nuevos documentos.
+
+Consiste en hacer evolucionar un sistema de conocimiento de forma controlada, coherente y sostenible.
+
+Cada cambio debe fortalecer el conjunto, incrementar la reutilización y preservar la integridad del modelo de conocimiento.
+
+El workflow constituye el mecanismo mediante el cual NovaCoquinaria transforma nuevas ideas en conocimiento integrado dentro de GASTRO.
