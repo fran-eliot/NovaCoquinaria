@@ -1,0 +1,1525 @@
+[
+  {
+    "domain": "currys",
+    "name": "Currys",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 3,
+    "associated_documents": 13,
+    "association_counts": {
+      "PRIMARY": 3,
+      "SECONDARY": 10,
+      "MENTION": 0
+    },
+    "structural_coverage": 60.0,
+    "types": {
+      "ingrediente": 1,
+      "plantilla": 1,
+      "receta": 1
+    },
+    "outgoing_links": 28,
+    "resolved_outgoing_links": 28,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [
+      "11_Despensa/08_Especias/curry_amarillo.md"
+    ],
+    "reference_recipes": [
+      "05_Carnes/curry_amarillo_de_pollo.md"
+    ],
+    "associations": [
+      {
+        "path": "05_Carnes/curry_amarillo_de_pollo.md",
+        "id": "REC-0017",
+        "title": "Curry amarillo de pollo",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "authority_link",
+          "pattern_title",
+          "declared_reference"
+        ]
+      },
+      {
+        "path": "11_Despensa/08_Especias/curry_amarillo.md",
+        "id": "ING-0011",
+        "title": "Curry amarillo",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
+        "path": "12_Plantillas/04_Cocciones/curry_base.md",
+        "id": "PLA-0002",
+        "title": "Curry base",
+        "type": "plantilla",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
+        "path": "00_Bases/01_Fundamentos/mise_en_place.md",
+        "id": "BAS-0001",
+        "title": "Mise en place",
+        "type": "base",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017",
+          "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/sofreir.md",
+        "id": "BAS-0004",
+        "title": "Sofreír",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017",
+          "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "11_Despensa/01_Cereales/arroz_basmati.md",
+        "id": "ING-0001",
+        "title": "Arroz basmati",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_pescado.md",
+        "id": "ING-0007",
+        "title": "Salsa de pescado",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0017",
+          "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_soja.md",
+        "id": "ING-0002",
+        "title": "Salsa de soja",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017",
+          "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "11_Despensa/11_Condimentos/vinagre_de_arroz.md",
+        "id": "ING-0008",
+        "title": "Vinagre de arroz",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "11_Despensa/13_Bases_Culinarias/leche_de_coco.md",
+        "id": "ING-0012",
+        "title": "Leche de coco",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0017"
+        ]
+      },
+      {
+        "path": "98_Tablas/01_Cocciones/tiempos_coccion.md",
+        "id": "TAB-0002",
+        "title": "Tiempos de cocción",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017"
+        ]
+      },
+      {
+        "path": "98_Tablas/04_Conservacion/conservacion_congelacion.md",
+        "id": "TAB-0005",
+        "title": "Conservación, congelación y recalentado",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017"
+        ]
+      },
+      {
+        "path": "98_Tablas/06_Sustituciones/sustituciones_ingredientes.md",
+        "id": "TAB-0004",
+        "title": "Sustituciones de ingredientes",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0017"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "salteados_asiaticos",
+    "name": "Salteados asiáticos",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 4,
+    "associated_documents": 33,
+    "association_counts": {
+      "PRIMARY": 4,
+      "SECONDARY": 28,
+      "MENTION": 1
+    },
+    "structural_coverage": 60.0,
+    "types": {
+      "plantilla": 1,
+      "receta": 2,
+      "tecnica": 1
+    },
+    "outgoing_links": 100,
+    "resolved_outgoing_links": 100,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [],
+    "reference_recipes": [
+      "05_Carnes/pollo_salteado_con_verduras.md",
+      "05_Carnes/ternera_salsa_ostras.md"
+    ],
+    "associations": [
+      {
+        "path": "00_Bases/03_Tecnicas/wok.md",
+        "id": "BAS-0003",
+        "title": "Cocinar al wok",
+        "type": "tecnica",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
+        "path": "05_Carnes/pollo_salteado_con_verduras.md",
+        "id": "REC-0018",
+        "title": "Pollo salteado con verduras",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "authority_link",
+          "declared_reference"
+        ]
+      },
+      {
+        "path": "05_Carnes/ternera_salsa_ostras.md",
+        "id": "REC-0005",
+        "title": "Ternera con salsa de ostras",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "authority_link",
+          "declared_reference"
+        ]
+      },
+      {
+        "path": "12_Plantillas/04_Cocciones/salteado_asiatico.md",
+        "id": "PLA-0001",
+        "title": "Salteado asiático",
+        "type": "plantilla",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
+        "path": "00_Bases/01_Fundamentos/mise_en_place.md",
+        "id": "BAS-0001",
+        "title": "Mise en place",
+        "type": "base",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:BAS-0003",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/saltear.md",
+        "id": "BAS-0002",
+        "title": "Saltear",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter",
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:BAS-0003",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_chaufa.md",
+        "id": "REC-0001",
+        "title": "Arroz chaufa",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_gambas.md",
+        "id": "REC-0021",
+        "title": "Arroz frito con gambas",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_huevo.md",
+        "id": "REC-0020",
+        "title": "Arroz frito con huevo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "foreign_authority_link"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_pollo.md",
+        "id": "REC-0022",
+        "title": "Arroz frito con pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "04_Verduras/champiñones_sichuan.md",
+        "id": "REC-0010",
+        "title": "Champiñones Sichuan",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "foreign_authority_link"
+        ]
+      },
+      {
+        "path": "05_Carnes/lomo_asiatico.md",
+        "id": "REC-0004",
+        "title": "Lomo asiático",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "foreign_authority_link"
+        ]
+      },
+      {
+        "path": "05_Carnes/ternera_bambu.md",
+        "id": "REC-0006",
+        "title": "Ternera con bambú",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "foreign_authority_link"
+        ]
+      },
+      {
+        "path": "06_Pescados_y_Mariscos/tintorera_asiatica.md",
+        "id": "REC-0015",
+        "title": "Tintorera asiática",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "foreign_authority_link"
+        ]
+      },
+      {
+        "path": "11_Despensa/01_Cereales/arroz_basmati.md",
+        "id": "ING-0001",
+        "title": "Arroz basmati",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "11_Despensa/03_Carnes/pollo.md",
+        "id": "ING-0015",
+        "title": "Pollo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018"
+        ]
+      },
+      {
+        "path": "11_Despensa/03_Carnes/ternera.md",
+        "id": "ING-0020",
+        "title": "Ternera",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/ajo.md",
+        "id": "ING-0014",
+        "title": "Ajo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/cebolla.md",
+        "id": "ING-0013",
+        "title": "Cebolla",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/jengibre.md",
+        "id": "ING-0016",
+        "title": "Jengibre",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/pimiento.md",
+        "id": "ING-0017",
+        "title": "Pimiento",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "11_Despensa/07_Setas/champinon.md",
+        "id": "ING-0019",
+        "title": "Champiñón",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/mirin.md",
+        "id": "ING-0003",
+        "title": "Mirin",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_ostras.md",
+        "id": "ING-0004",
+        "title": "Salsa de ostras",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_soja.md",
+        "id": "ING-0002",
+        "title": "Salsa de soja",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "11_Despensa/10_Aceites/aceite_de_sesamo.md",
+        "id": "ING-0005",
+        "title": "Aceite de sésamo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "12_Plantillas/02_Salsas/salsa_china_base.md",
+        "id": "PLA-0003",
+        "title": "Salsa china base",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter",
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "12_Plantillas/03_Marinadas/marinada_asiatica.md",
+        "id": "PLA-0004",
+        "title": "Marinada asiática",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "12_Plantillas/05_Arroces/arroz_frito_base.md",
+        "id": "PLA-0008",
+        "title": "Arroz frito base",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "98_Tablas/01_Cocciones/tiempos_coccion.md",
+        "id": "TAB-0002",
+        "title": "Tiempos de cocción",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005",
+          "linked_from:BAS-0003",
+          "linked_from:PLA-0001"
+        ]
+      },
+      {
+        "path": "98_Tablas/04_Conservacion/conservacion_congelacion.md",
+        "id": "TAB-0005",
+        "title": "Conservación, congelación y recalentado",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018",
+          "linked_from:REC-0005"
+        ]
+      },
+      {
+        "path": "98_Tablas/06_Sustituciones/sustituciones_ingredientes.md",
+        "id": "TAB-0004",
+        "title": "Sustituciones de ingredientes",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0018"
+        ]
+      },
+      {
+        "path": "11_Despensa/05_Mariscos/gambas.md",
+        "id": "ING-0023",
+        "title": "Gambas",
+        "type": "ingrediente",
+        "association": "MENTION",
+        "evidence": [
+          "controlled_heading"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "arroces",
+    "name": "Arroces",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 9,
+    "associated_documents": 34,
+    "association_counts": {
+      "PRIMARY": 9,
+      "SECONDARY": 25,
+      "MENTION": 0
+    },
+    "structural_coverage": 60.0,
+    "types": {
+      "ingrediente": 2,
+      "plantilla": 1,
+      "receta": 6
+    },
+    "outgoing_links": 181,
+    "resolved_outgoing_links": 181,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [
+      "01_Arroces/arroz_chaufa.md"
+    ],
+    "reference_recipes": [
+      "01_Arroces/arroz_chaufa.md",
+      "01_Arroces/arroz_frito_pollo.md"
+    ],
+    "associations": [
+      {
+        "path": "01_Arroces/arroz_caldoso_alcachofas_marisco.md",
+        "id": "REC-0003",
+        "title": "Arroz caldoso de alcachofas y marisco",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_chaufa.md",
+        "id": "REC-0001",
+        "title": "Arroz chaufa",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_gambas.md",
+        "id": "REC-0021",
+        "title": "Arroz frito con gambas",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_huevo.md",
+        "id": "REC-0020",
+        "title": "Arroz frito con huevo",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_pollo.md",
+        "id": "REC-0022",
+        "title": "Arroz frito con pollo",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_higadillos.md",
+        "id": "REC-0002",
+        "title": "Arroz con higadillos",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/01_Cereales/arroz_basmati.md",
+        "id": "ING-0001",
+        "title": "Arroz basmati",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/01_Cereales/arroz_jazmin.md",
+        "id": "ING-0021",
+        "title": "Arroz jazmín",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "12_Plantillas/05_Arroces/arroz_frito_base.md",
+        "id": "PLA-0008",
+        "title": "Arroz frito base",
+        "type": "plantilla",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "00_Bases/01_Fundamentos/mise_en_place.md",
+        "id": "BAS-0001",
+        "title": "Mise en place",
+        "type": "base",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0003",
+          "linked_from:REC-0020",
+          "linked_from:REC-0002",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/saltear.md",
+        "id": "BAS-0002",
+        "title": "Saltear",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/sofreir.md",
+        "id": "BAS-0004",
+        "title": "Sofreír",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0003",
+          "linked_from:REC-0002"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/wok.md",
+        "id": "BAS-0003",
+        "title": "Cocinar al wok",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "05_Carnes/ternera_salsa_ostras.md",
+        "id": "REC-0005",
+        "title": "Ternera con salsa de ostras",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020"
+        ]
+      },
+      {
+        "path": "11_Despensa/03_Carnes/pollo.md",
+        "id": "ING-0015",
+        "title": "Pollo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:REC-0022",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/03_Carnes/ternera.md",
+        "id": "ING-0020",
+        "title": "Ternera",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/05_Mariscos/gambas.md",
+        "id": "ING-0023",
+        "title": "Gambas",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0021",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/ajo.md",
+        "id": "ING-0014",
+        "title": "Ajo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/cebolla.md",
+        "id": "ING-0013",
+        "title": "Cebolla",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/jengibre.md",
+        "id": "ING-0016",
+        "title": "Jengibre",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/pimiento.md",
+        "id": "ING-0017",
+        "title": "Pimiento",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/zanahoria.md",
+        "id": "ING-0018",
+        "title": "Zanahoria",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/07_Setas/champinon.md",
+        "id": "ING-0019",
+        "title": "Champiñón",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_ostras.md",
+        "id": "ING-0004",
+        "title": "Salsa de ostras",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_soja.md",
+        "id": "ING-0002",
+        "title": "Salsa de soja",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/10_Aceites/aceite_de_sesamo.md",
+        "id": "ING-0005",
+        "title": "Aceite de sésamo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "11_Despensa/11_Condimentos/vinagre_de_arroz.md",
+        "id": "ING-0008",
+        "title": "Vinagre de arroz",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter",
+          "secondary_title",
+          "secondary_frontmatter"
+        ]
+      },
+      {
+        "path": "11_Despensa/14_Huevos_Lacteos/huevo.md",
+        "id": "ING-0022",
+        "title": "Huevo",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter",
+          "linked_from:REC-0021",
+          "linked_from:REC-0020",
+          "linked_from:REC-0022"
+        ]
+      },
+      {
+        "path": "12_Plantillas/01_Bases_Mediterraneas/sofrito_mediterraneo.md",
+        "id": "PLA-0006",
+        "title": "Sofrito mediterráneo",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0003",
+          "linked_from:REC-0002"
+        ]
+      },
+      {
+        "path": "12_Plantillas/02_Salsas/salsa_china_base.md",
+        "id": "PLA-0003",
+        "title": "Salsa china base",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "12_Plantillas/03_Marinadas/marinada_asiatica.md",
+        "id": "PLA-0004",
+        "title": "Marinada asiática",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "12_Plantillas/04_Cocciones/salteado_asiatico.md",
+        "id": "PLA-0001",
+        "title": "Salteado asiático",
+        "type": "plantilla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0020",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "98_Tablas/01_Cocciones/tiempos_coccion.md",
+        "id": "TAB-0002",
+        "title": "Tiempos de cocción",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0003",
+          "linked_from:REC-0020",
+          "linked_from:REC-0002",
+          "linked_from:PLA-0008"
+        ]
+      },
+      {
+        "path": "98_Tablas/04_Conservacion/conservacion_congelacion.md",
+        "id": "TAB-0005",
+        "title": "Conservación, congelación y recalentado",
+        "type": "tabla",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0003",
+          "linked_from:REC-0020",
+          "linked_from:REC-0002",
+          "linked_from:PLA-0008"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "pastas",
+    "name": "Pastas",
+    "maturity": "🌱 Exploración",
+    "primary_documents": 0,
+    "associated_documents": 1,
+    "association_counts": {
+      "PRIMARY": 0,
+      "SECONDARY": 0,
+      "MENTION": 1
+    },
+    "structural_coverage": 0.0,
+    "types": {},
+    "outgoing_links": 0,
+    "resolved_outgoing_links": 0,
+    "link_resolution_rate": null,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": [
+      {
+        "path": "11_Despensa/05_Mariscos/gambas.md",
+        "id": "ING-0023",
+        "title": "Gambas",
+        "type": "ingrediente",
+        "association": "MENTION",
+        "evidence": [
+          "controlled_heading"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "legumbres",
+    "name": "Legumbres",
+    "maturity": "🌱 Exploración",
+    "primary_documents": 0,
+    "associated_documents": 0,
+    "association_counts": {
+      "PRIMARY": 0,
+      "SECONDARY": 0,
+      "MENTION": 0
+    },
+    "structural_coverage": 0.0,
+    "types": {},
+    "outgoing_links": 0,
+    "resolved_outgoing_links": 0,
+    "link_resolution_rate": null,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": []
+  },
+  {
+    "domain": "verduras",
+    "name": "Verduras",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 5,
+    "associated_documents": 14,
+    "association_counts": {
+      "PRIMARY": 5,
+      "SECONDARY": 9,
+      "MENTION": 0
+    },
+    "structural_coverage": 100.0,
+    "types": {
+      "ingrediente": 5
+    },
+    "outgoing_links": 110,
+    "resolved_outgoing_links": 110,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": [
+      {
+        "path": "11_Despensa/06_Verduras/ajo.md",
+        "id": "ING-0014",
+        "title": "Ajo",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/cebolla.md",
+        "id": "ING-0013",
+        "title": "Cebolla",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/jengibre.md",
+        "id": "ING-0016",
+        "title": "Jengibre",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/pimiento.md",
+        "id": "ING-0017",
+        "title": "Pimiento",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/06_Verduras/zanahoria.md",
+        "id": "ING-0018",
+        "title": "Zanahoria",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_gambas.md",
+        "id": "REC-0021",
+        "title": "Arroz frito con gambas",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_pollo.md",
+        "id": "REC-0022",
+        "title": "Arroz frito con pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "04_Verduras/brocoli.md",
+        "id": "REC-0012",
+        "title": "Brócoli salteado",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "04_Verduras/champiñones_ajillo.md",
+        "id": "REC-0011",
+        "title": "Champiñones al ajillo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "04_Verduras/champiñones_sichuan.md",
+        "id": "REC-0010",
+        "title": "Champiñones Sichuan",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "04_Verduras/habas_jamon.md",
+        "id": "REC-0013",
+        "title": "Habas con jamón",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/pollo_salteado_con_verduras.md",
+        "id": "REC-0018",
+        "title": "Pollo salteado con verduras",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "06_Pescados_y_Mariscos/gambas_ajillo.md",
+        "id": "REC-0014",
+        "title": "Gambas al ajillo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_frontmatter"
+        ]
+      },
+      {
+        "path": "11_Despensa/07_Setas/champinon.md",
+        "id": "ING-0019",
+        "title": "Champiñón",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "carnes",
+    "name": "Carnes",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 2,
+    "associated_documents": 12,
+    "association_counts": {
+      "PRIMARY": 2,
+      "SECONDARY": 10,
+      "MENTION": 0
+    },
+    "structural_coverage": 100.0,
+    "types": {
+      "ingrediente": 2
+    },
+    "outgoing_links": 41,
+    "resolved_outgoing_links": 41,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": [
+      {
+        "path": "11_Despensa/03_Carnes/pollo.md",
+        "id": "ING-0015",
+        "title": "Pollo",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "11_Despensa/03_Carnes/ternera.md",
+        "id": "ING-0020",
+        "title": "Ternera",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_chaufa.md",
+        "id": "REC-0001",
+        "title": "Arroz chaufa",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_pollo.md",
+        "id": "REC-0022",
+        "title": "Arroz frito con pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "05_Carnes/curry_amarillo_de_pollo.md",
+        "id": "REC-0017",
+        "title": "Curry amarillo de pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/hamburguesa_asiatica.md",
+        "id": "REC-0007",
+        "title": "Hamburguesa asiática",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/hamburguesa_especiada.md",
+        "id": "REC-0016",
+        "title": "Hamburguesa especiada",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/lomo_asiatico.md",
+        "id": "REC-0004",
+        "title": "Lomo asiático",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/medallones_solomillo_asiaticos.md",
+        "id": "REC-0008",
+        "title": "Medallones de solomillo asiáticos",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/pollo_salteado_con_verduras.md",
+        "id": "REC-0018",
+        "title": "Pollo salteado con verduras",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/ternera_bambu.md",
+        "id": "REC-0006",
+        "title": "Ternera con bambú",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/ternera_salsa_ostras.md",
+        "id": "REC-0005",
+        "title": "Ternera con salsa de ostras",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "pescados_mariscos",
+    "name": "Pescados y mariscos",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 1,
+    "associated_documents": 7,
+    "association_counts": {
+      "PRIMARY": 1,
+      "SECONDARY": 6,
+      "MENTION": 0
+    },
+    "structural_coverage": 100.0,
+    "types": {
+      "ingrediente": 1
+    },
+    "outgoing_links": 46,
+    "resolved_outgoing_links": 46,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": [
+      {
+        "path": "11_Despensa/05_Mariscos/gambas.md",
+        "id": "ING-0023",
+        "title": "Gambas",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_caldoso_alcachofas_marisco.md",
+        "id": "REC-0003",
+        "title": "Arroz caldoso de alcachofas y marisco",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_gambas.md",
+        "id": "REC-0021",
+        "title": "Arroz frito con gambas",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "06_Pescados_y_Mariscos/caballa_japonesa.md",
+        "id": "REC-0009",
+        "title": "Caballa japonesa",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "06_Pescados_y_Mariscos/gambas_ajillo.md",
+        "id": "REC-0014",
+        "title": "Gambas al ajillo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "06_Pescados_y_Mariscos/tintorera_asiatica.md",
+        "id": "REC-0015",
+        "title": "Tintorera asiática",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "11_Despensa/09_Salsas/salsa_de_pescado.md",
+        "id": "ING-0007",
+        "title": "Salsa de pescado",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "huevos_lacteos",
+    "name": "Huevos y lácteos",
+    "maturity": "🌿 Estructurado",
+    "primary_documents": 1,
+    "associated_documents": 6,
+    "association_counts": {
+      "PRIMARY": 1,
+      "SECONDARY": 5,
+      "MENTION": 0
+    },
+    "structural_coverage": 100.0,
+    "types": {
+      "ingrediente": 1
+    },
+    "outgoing_links": 52,
+    "resolved_outgoing_links": 52,
+    "link_resolution_rate": 100.0,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": [
+      {
+        "path": "11_Despensa/14_Huevos_Lacteos/huevo.md",
+        "id": "ING-0022",
+        "title": "Huevo",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "path"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_chaufa.md",
+        "id": "REC-0001",
+        "title": "Arroz chaufa",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_gambas.md",
+        "id": "REC-0021",
+        "title": "Arroz frito con gambas",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_huevo.md",
+        "id": "REC-0020",
+        "title": "Arroz frito con huevo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_title",
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "01_Arroces/arroz_frito_pollo.md",
+        "id": "REC-0022",
+        "title": "Arroz frito con pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
+      {
+        "path": "11_Despensa/13_Bases_Culinarias/leche_de_coco.md",
+        "id": "ING-0012",
+        "title": "Leche de coco",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_title",
+          "secondary_frontmatter"
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "postres",
+    "name": "Postres",
+    "maturity": "🌱 Exploración",
+    "primary_documents": 0,
+    "associated_documents": 0,
+    "association_counts": {
+      "PRIMARY": 0,
+      "SECONDARY": 0,
+      "MENTION": 0
+    },
+    "structural_coverage": 0.0,
+    "types": {},
+    "outgoing_links": 0,
+    "resolved_outgoing_links": 0,
+    "link_resolution_rate": null,
+    "orphan_documents": [],
+    "reference_recipes": [],
+    "associations": []
+  }
+]
