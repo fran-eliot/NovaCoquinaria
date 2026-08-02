@@ -4,7 +4,7 @@ titulo: Bitácora del Proyecto
 tipo: gestion
 version: 2.0
 estado: estable
-ultima_revision: 2026-07-20
+ultima_revision: 2026-08-01
 ---
 
 # Bitácora del Proyecto
@@ -239,6 +239,77 @@ El proyecto dispone de un patrón de referencia para futuras expansiones.
   - 125 documentos
   - 90 identificadores únicos
   - 822 enlaces internos
+
+---
+
+## 2026-08-01 — Finalización del núcleo de especificaciones del modelo de conocimiento
+
+### Hito
+
+Se completa la primera gran fase de diseño del Sistema de Gestión del Conocimiento Culinario (SGCC), finalizando el núcleo de especificaciones que define la arquitectura formal del conocimiento de NovaCoquinaria.
+
+Durante esta fase se ha consolidado un modelo coherente y gobernado para representar, organizar y evolucionar el conocimiento culinario, estableciendo una base sólida para el desarrollo futuro de la plataforma y de sus capacidades de inteligencia artificial.
+
+### Principales logros
+
+- Finalización de la especificación del modelo documental.
+- Definición formal del modelo de componentes reutilizables.
+- Especificación completa del sistema de relaciones semánticas.
+- Formalización de la ontología del dominio culinario.
+- Rediseño y ampliación del modelo de Colecciones de Conocimiento.
+- Especificación integral del Knowledge Graph, incluyendo:
+  - metamodelo;
+  - construcción e ingestión;
+  - consultas y navegación;
+  - gobernanza;
+  - versionado;
+  - calidad;
+  - evolución;
+  - integración con GraphRAG;
+  - integración con agentes inteligentes;
+  - razonamiento e inferencias.
+
+### Impacto arquitectónico
+
+Con este hito, NovaCoquinaria dispone de una arquitectura de conocimiento completa y coherente, donde los distintos niveles del sistema quedan claramente definidos:
+
+```text
+Documentos
+      ↓
+Componentes
+      ↓
+Relaciones
+      ↓
+Ontología
+      ↓
+Knowledge Graph
+      ↓
+Colecciones de Conocimiento
+```
+
+Esta arquitectura constituye la base semántica sobre la que se construirán todas las capacidades inteligentes del proyecto.
+
+### Validación
+
+La reorganización documental ha permitido:
+
+- unificar criterios de diseño;
+- homogeneizar la estructura documental;
+- reforzar la gobernanza del conocimiento;
+- validar la integridad de identificadores, Front Matter y enlaces internos mediante las herramientas automáticas del proyecto.
+
+### Próxima etapa
+
+Concluida la definición del modelo de conocimiento, el proyecto inicia una nueva fase centrada en el **Knowledge Engine**, responsable de convertir dicho conocimiento en un sistema operativo capaz de:
+
+- razonar;
+- aplicar reglas;
+- ejecutar inferencias;
+- recuperar conocimiento mediante GraphRAG;
+- asistir mediante agentes inteligentes;
+- proporcionar explicaciones y recomendaciones fundamentadas.
+
+Esta transición marca el paso desde una **arquitectura del conocimiento** hacia una **arquitectura de ejecución del conocimiento**, que constituirá el objetivo principal de la versión **v1.5.0 – Knowledge Engine**.
 
 ---
 

@@ -1113,7 +1113,7 @@ Las relaciones físicas permiten navegar entre archivos concretos.
 Ejemplo:
 
 ```markdown
-[Consultar la plantilla](../../12_Plantillas/04_Cocciones/curry_base.md)
+[Consultar la plantilla](../../../12_Plantillas/04_Cocciones/curry_base.md)
 ```
 
 Una ruta física puede cambiar como consecuencia de una reorganización del repositorio.

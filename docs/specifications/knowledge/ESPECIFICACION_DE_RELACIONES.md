@@ -855,7 +855,7 @@ Una relación semántica expresa significado.
 Ejemplo de enlace documental:
 
 ```markdown
-[Consultar la receta](../../12_Plantillas/04_Cocciones/curry_base.md)
+[Consultar la receta](../../../12_Plantillas/04_Cocciones/curry_base.md)
 ```
 
 El enlace indica dónde encontrar un documento.
@@ -10077,7 +10077,7 @@ relaciones:
 Dentro del cuerpo documental podrá mostrarse:
 
 ```markdown
-La receta utiliza [cebolla](..//../11_Despensa/06_Verduras/cebolla.md)
+La receta utiliza [cebolla](../../../11_Despensa/06_Verduras/cebolla.md)
 ```
 
 El enlace visible no sustituirá a la declaración semántica cuando esta sea necesaria para procesamiento automático.
