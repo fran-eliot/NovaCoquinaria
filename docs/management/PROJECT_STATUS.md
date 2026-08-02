@@ -4,7 +4,7 @@ titulo: Estado del Proyecto
 tipo: gestion
 version: 2.0
 estado: estable
-ultima_revision: 2026-07-20
+ultima_revision: 2026-08-02
 ---
 
 # Estado del Proyecto
@@ -30,11 +30,11 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 |---------|-------|
 | Proyecto | NovaCoquinaria |
 | Sistema | GASTRO (SGCC) |
-| Versión actual | **v1.4.0** |
+| Versión actual | **v1.5.0 (tras la release)** |
 | Estado | 🟢 Desarrollo activo |
-| Fase | Expansión del conocimiento |
+| Fase | Arquitectura de especificaciones consolidada |
 | Madurez global | Alta |
-| Próximo objetivo | Consolidación de dominios culinarios |
+| Próximo objetivo | Inicio de la plataforma software del SGCC |
 
 ---
 
@@ -42,9 +42,9 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 
 ## Situación actual
 
-NovaCoquinaria dispone de una arquitectura estable, un modelo de conocimiento consolidado y un marco completo de gobernanza.
+NovaCoquinaria dispone de una arquitectura documental consolidada, un modelo formal de conocimiento, un marco completo de gobernanza y un conjunto integral de especificaciones que describen la organización, los motores de ejecución, las interfaces y la evolución del SGCC.
 
-La prioridad del proyecto ya no consiste en construir infraestructura, sino en ampliar de forma sistemática el conocimiento culinario reutilizable sobre dicha infraestructura.
+La siguiente etapa del proyecto consistirá en transformar esta arquitectura en una plataforma software ejecutable, manteniendo el crecimiento progresivo de la base de conocimiento culinario
 
 ---
 
@@ -56,12 +56,13 @@ La prioridad del proyecto ya no consiste en construir infraestructura, sino en a
 | Arquitectura | ✅ Consolidada |
 | Modelo de conocimiento | ✅ Consolidado |
 | Gobernanza | ✅ Consolidada |
+| Marco de especificaciones | ✅ Consolidado |
 | Framework documental | ✅ Operativo |
-| Pipeline de validación | ✅ Operativo |
+| Pipeline documental | ✅ Operativo |
 | Knowledge Graph | ✅ Operativo |
-| Portal MkDocs | 🟡 En consolidación |
+| Portal MkDocs | 🟢 Operativo |
 | Base de conocimiento | 🟡 En expansión |
-| Plataforma software | ⚪ No iniciada |
+| Plataforma software | ⚪ En fase de diseño |
 
 ---
 
@@ -75,7 +76,15 @@ Actualmente el SGCC permite:
 - analizar relaciones mediante Knowledge Graph;
 - detectar deuda documental;
 - gobernar la evolución del conocimiento;
-- publicar documentación mediante MkDocs.
+- publicar documentación mediante MkDocs;
+- definir contratos formales;
+- describir Engines;
+- especificar APIs;
+- modelar Runtime;
+- gobernar dependencias;
+- mantener terminología unificada;
+- validar coherencia documental;
+- generar documentación automáticamente.
 
 ---
 
@@ -83,26 +92,27 @@ Actualmente el SGCC permite:
 
 ## Prioridad alta
 
-- Consolidar nuevos dominios culinarios.
-- Reducir deuda de conocimiento.
-- Completar entidades reutilizables.
-- Publicar el portal mediante GitHub Pages.
+- Iniciar el desarrollo de la plataforma software.
+- Implementar los primeros componentes del Runtime.
+- Consolidar la infraestructura de ejecución.
+- Publicar el portal documental.
 
 ---
 
 ## Prioridad media
 
+- Continuar ampliando la base de conocimiento.
 - Mejorar automatizaciones.
-- Incrementar conectividad del Knowledge Graph.
-- Generar índices automáticos.
+- Incrementar cobertura del Knowledge Graph.
 
 ---
 
 ## Prioridad estratégica
 
-- Iniciar el desarrollo de la plataforma software.
-- Diseñar la futura API.
-- Preparar la integración con IA.
+- Integración con LLM.
+- Agentes especializados.
+- GraphRAG.
+- Plataforma colaborativa.
 
 ---
 
@@ -112,8 +122,9 @@ Actualmente el SGCC permite:
 |------|:-----:|
 | Arquitectura | 🟢 Alto |
 | Gobernanza | 🟢 Alto |
-| Calidad | 🟢 Alto |
+| Especificaciones | 🟢 Alto |
 | Automatización | 🟢 Alto |
+| Knowledge Graph | 🟢 Alto |
 | Conocimiento culinario | 🟡 Medio |
 | Plataforma | ⚪ Inicial |
 
@@ -125,20 +136,16 @@ Actualmente no existen riesgos arquitectónicos relevantes.
 
 Los principales retos del proyecto son:
 
-- crecimiento controlado del conocimiento;
-- mantenimiento de la coherencia semántica;
-- escalabilidad del Knowledge Graph;
-- preparación gradual de la futura plataforma software.
+- mantener sincronizadas especificaciones e implementación;
+- evitar divergencias entre documentación y código;
+- crecimiento equilibrado entre infraestructura y conocimiento;
+- controlar la complejidad del Runtime.
 
 ---
 
 # Próxima transición prevista
 
-La siguiente transición significativa se producirá cuando:
-
-- se consoliden varios dominios culinarios completos;
-- el portal documental alcance un nivel estable;
-- el proyecto inicie la construcción de la plataforma software.
+La siguiente transición significativa se producirá cuando el SGCC deje de ser únicamente una arquitectura documental y pase a disponer de una primera implementación software de sus componentes principales, iniciando la materialización del Runtime descrito en las especificaciones.
 
 ---
 
@@ -182,6 +189,6 @@ PROJECT_STATUS deberá revisarse cuando ocurra alguno de los siguientes eventos:
 
 # Conclusión
 
-NovaCoquinaria ha completado la construcción de su infraestructura documental, arquitectónica y metodológica.
+NovaCoquinaria ha completado la definición de su arquitectura documental y del marco de especificaciones que gobierna el Sistema de Gestión del Conocimiento Culinario (SGCC).
 
-El proyecto se encuentra actualmente en una fase de expansión del conocimiento reutilizable, apoyándose en una base tecnológica y documental suficientemente madura para evolucionar de forma sostenible durante las próximas iteraciones.
+El proyecto dispone ahora de una base sólida y coherente sobre la que desarrollar la futura plataforma software, manteniendo la evolución paralela del conocimiento culinario y de la infraestructura tecnológica que lo soportará.

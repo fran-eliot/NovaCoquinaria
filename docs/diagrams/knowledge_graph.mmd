@@ -6,6 +6,10 @@ ARC_0016["ARC-0016
 Pipeline de Calidad"]
 ARC_0017["ARC-0017
 Framework de Herramientas"]
+ARC_0018["ARC-0018
+Modelo de Colecciones de Conocimiento"]
+ARC_0019["ARC-0019
+Modelo de Calidad del SGCC"]
 BAS_0000["BAS-0000
 Fundamentos culinarios"]
 BAS_0001["BAS-0001
@@ -17,11 +21,43 @@ Cocinar al wok"]
 BAS_0004["BAS-0004
 Sofreír"]
 DOC_0008["DOC-0008
-Guía de Estilo"]
+Guía Editorial del SGCC"]
 DOC_0009["DOC-0009
 Workflow de Desarrollo"]
 DOC_0010["DOC-0010
-Ideas Futuras"]
+Catálogo de Oportunidades de Evolución"]
+DOC_0011["DOC-0011
+Estado del Proyecto"]
+DOC_0012["DOC-0012
+Principios Vigentes"]
+DOC_0013["DOC-0013
+Releases"]
+DOC_0014["DOC-0014
+Bitácora del Proyecto"]
+DOC_0016["DOC-0016
+Roadmap"]
+DOC_0017["DOC-0017
+Arquitectura de NovaCoquinaria"]
+DOC_0018["DOC-0018
+Modelo de Conocimiento del SGCC"]
+DOC_0019["DOC-0019
+Especificación del Modelo Documental"]
+DOC_0020["DOC-0020
+Incorporación al Proyecto"]
+DOC_0021["DOC-0021
+Estructura del Proyecto"]
+DOC_0022["DOC-0022
+Especificación de Relaciones"]
+DOC_0023["DOC-0023
+Especificación de Componentes"]
+DOC_0024["DOC-0024
+Especificación de Ontología"]
+DOC_0025["DOC-0025
+Especificación del Grafo de Conocimiento"]
+GOV_0000["GOV-0000
+Modelo de Gobernanza del SGCC"]
+GOV_0001["GOV-0001
+Protocolo de Colaboración con Inteligencia Artificial"]
 ING_0000["ING-0000
 Despensa"]
 ING_0001["ING-0001
@@ -62,12 +98,22 @@ ING_0018["ING-0018
 Zanahoria"]
 ING_0019["ING-0019
 Champiñón"]
+ING_0020["ING-0020
+Ternera"]
+ING_0021["ING-0021
+Arroz jazmín"]
+ING_0022["ING-0022
+Huevo"]
+ING_0023["ING-0023
+Gambas"]
 MGT_0012["MGT-0012
-Deuda de Conocimiento"]
+Modelo de Gestión de la Deuda de Conocimiento"]
 MGT_0013["MGT-0013
-Estrategia de Desarrollo del Conocimiento"]
+Estrategia de Evolución del Conocimiento"]
 MGT_0014["MGT-0014
-Madurez del Conocimiento"]
+Modelo de Madurez del Conocimiento"]
+MGT_0015["MGT-0015
+Limitaciones Conocidas"]
 PLA_0000["PLA-0000
 Plantillas culinarias"]
 PLA_0001["PLA-0001
@@ -84,8 +130,10 @@ PLA_0006["PLA-0006
 Sofrito mediterráneo"]
 PLA_0007["PLA-0007
 Vinagreta base"]
+PLA_0008["PLA-0008
+Arroz frito base"]
 REC_0001["REC-0001
-Arroz Chaufa"]
+Arroz chaufa"]
 REC_0002["REC-0002
 Arroz con higadillos"]
 REC_0003["REC-0003
@@ -120,6 +168,38 @@ REC_0017["REC-0017
 Curry amarillo de pollo"]
 REC_0018["REC-0018
 Pollo salteado con verduras"]
+REC_0020["REC-0020
+Arroz frito con huevo"]
+REC_0021["REC-0021
+Arroz frito con gambas"]
+REC_0022["REC-0022
+Arroz frito con pollo"]
+SPEC_APIS["SPEC-APIS
+Especificación de APIs"]
+SPEC_CONVENCIONES["SPEC-CONVENCIONES
+Convenciones para las especificaciones de NovaCoquinaria"]
+SPEC_DEPENDENCIAS["SPEC-DEPENDENCIAS
+Mapa de dependencias entre especificaciones"]
+SPEC_ENGINE_REGISTRY["SPEC-ENGINE-REGISTRY
+Especificación del Engine Registry"]
+SPEC_GLOSARIO["SPEC-GLOSARIO
+Glosario de las especificaciones de NovaCoquinaria"]
+SPEC_INDEXING_ENGINE["SPEC-INDEXING-ENGINE
+Especificación del Indexing Engine"]
+SPEC_INGESTA["SPEC-INGESTA
+Especificación de Ingesta"]
+SPEC_MOTOR_RAG["SPEC-MOTOR-RAG
+Especificación del Motor RAG"]
+SPEC_ORQUESTADOR_EJECUCION["SPEC-ORQUESTADOR-EJECUCION
+Especificación del Orquestador de Ejecución"]
+SPEC_RAZONADOR["SPEC-RAZONADOR
+Especificación del Razonador"]
+SPEC_README["SPEC-README
+Catálogo y gobierno de las especificaciones de NovaCoquinaria"]
+SPEC_RETRIEVAL_ENGINE["SPEC-RETRIEVAL-ENGINE
+Especificación del Retrieval Engine"]
+SPEC_VALIDACION["SPEC-VALIDACION
+Especificación de Validación"]
 TAB_0000["TAB-0000
 Índice de tablas"]
 TAB_0001["TAB-0001
@@ -135,9 +215,6 @@ Conservación, congelación y recalentado"]
 TAB_0006["TAB-0006
 Seguridad alimentaria"]
 
-    ARC_0016 --> ARC_0015
-    ARC_0017 --> ARC_0015
-    ARC_0017 --> ARC_0016
     BAS_0000 --> ING_0000
     BAS_0000 --> PLA_0000
     BAS_0000 --> TAB_0000
@@ -154,13 +231,12 @@ Seguridad alimentaria"]
     BAS_0004 --> BAS_0001
     BAS_0004 --> BAS_0002
     BAS_0004 --> BAS_0003
-    DOC_0008 --> DOC_0009
-    DOC_0008 --> MGT_0012
-    DOC_0008 --> MGT_0013
-    DOC_0008 --> MGT_0014
-    DOC_0009 --> MGT_0012
-    DOC_0009 --> MGT_0013
-    DOC_0009 --> MGT_0014
+    DOC_0017 --> DOC_0009
+    DOC_0017 --> DOC_0018
+    DOC_0018 --> DOC_0017
+    DOC_0019 --> PLA_0002
+    DOC_0022 --> ING_0013
+    DOC_0022 --> PLA_0002
     ING_0001 --> BAS_0003
     ING_0001 --> TAB_0002
     ING_0001 --> TAB_0004
@@ -299,12 +375,80 @@ Seguridad alimentaria"]
     ING_0019 --> ING_0018
     ING_0019 --> PLA_0001
     ING_0019 --> REC_0018
-    MGT_0012 --> MGT_0013
-    MGT_0012 --> MGT_0014
-    MGT_0013 --> MGT_0012
-    MGT_0013 --> MGT_0014
-    MGT_0014 --> MGT_0012
-    MGT_0014 --> MGT_0013
+    ING_0020 --> BAS_0002
+    ING_0020 --> BAS_0003
+    ING_0020 --> ING_0002
+    ING_0020 --> ING_0004
+    ING_0020 --> ING_0005
+    ING_0020 --> ING_0013
+    ING_0020 --> ING_0014
+    ING_0020 --> ING_0016
+    ING_0020 --> ING_0017
+    ING_0020 --> ING_0019
+    ING_0020 --> PLA_0001
+    ING_0020 --> PLA_0004
+    ING_0020 --> REC_0005
+    ING_0021 --> BAS_0001
+    ING_0021 --> BAS_0002
+    ING_0021 --> BAS_0003
+    ING_0021 --> ING_0001
+    ING_0021 --> ING_0002
+    ING_0021 --> ING_0004
+    ING_0021 --> ING_0005
+    ING_0021 --> ING_0013
+    ING_0021 --> ING_0014
+    ING_0021 --> ING_0015
+    ING_0021 --> ING_0016
+    ING_0021 --> ING_0017
+    ING_0021 --> ING_0018
+    ING_0021 --> ING_0019
+    ING_0021 --> ING_0020
+    ING_0021 --> ING_0023
+    ING_0021 --> PLA_0001
+    ING_0021 --> PLA_0008
+    ING_0021 --> REC_0017
+    ING_0021 --> TAB_0002
+    ING_0021 --> TAB_0005
+    ING_0022 --> BAS_0001
+    ING_0022 --> BAS_0002
+    ING_0022 --> BAS_0003
+    ING_0022 --> ING_0001
+    ING_0022 --> ING_0002
+    ING_0022 --> ING_0004
+    ING_0022 --> ING_0005
+    ING_0022 --> ING_0013
+    ING_0022 --> ING_0014
+    ING_0022 --> ING_0015
+    ING_0022 --> ING_0016
+    ING_0022 --> ING_0017
+    ING_0022 --> ING_0018
+    ING_0022 --> ING_0019
+    ING_0022 --> ING_0020
+    ING_0022 --> ING_0021
+    ING_0022 --> PLA_0001
+    ING_0022 --> PLA_0003
+    ING_0022 --> PLA_0008
+    ING_0022 --> REC_0020
+    ING_0022 --> TAB_0002
+    ING_0022 --> TAB_0005
+    ING_0023 --> BAS_0001
+    ING_0023 --> BAS_0002
+    ING_0023 --> BAS_0003
+    ING_0023 --> ING_0001
+    ING_0023 --> ING_0002
+    ING_0023 --> ING_0004
+    ING_0023 --> ING_0005
+    ING_0023 --> ING_0013
+    ING_0023 --> ING_0014
+    ING_0023 --> ING_0016
+    ING_0023 --> ING_0017
+    ING_0023 --> ING_0018
+    ING_0023 --> ING_0019
+    ING_0023 --> ING_0021
+    ING_0023 --> PLA_0001
+    ING_0023 --> PLA_0008
+    ING_0023 --> TAB_0002
+    ING_0023 --> TAB_0005
     PLA_0001 --> BAS_0001
     PLA_0001 --> BAS_0002
     PLA_0001 --> BAS_0003
@@ -352,13 +496,28 @@ Seguridad alimentaria"]
     PLA_0007 --> ING_0009
     PLA_0007 --> TAB_0001
     PLA_0007 --> TAB_0004
-    REC_0001 --> BAS_0001
-    REC_0001 --> BAS_0003
-    REC_0001 --> ING_0001
-    REC_0001 --> ING_0002
-    REC_0001 --> ING_0003
-    REC_0001 --> ING_0005
-    REC_0001 --> PLA_0001
+    PLA_0008 --> BAS_0001
+    PLA_0008 --> BAS_0002
+    PLA_0008 --> BAS_0003
+    PLA_0008 --> ING_0001
+    PLA_0008 --> ING_0002
+    PLA_0008 --> ING_0004
+    PLA_0008 --> ING_0005
+    PLA_0008 --> ING_0013
+    PLA_0008 --> ING_0014
+    PLA_0008 --> ING_0015
+    PLA_0008 --> ING_0016
+    PLA_0008 --> ING_0017
+    PLA_0008 --> ING_0018
+    PLA_0008 --> ING_0019
+    PLA_0008 --> ING_0020
+    PLA_0008 --> ING_0021
+    PLA_0008 --> ING_0023
+    PLA_0008 --> PLA_0001
+    PLA_0008 --> PLA_0003
+    PLA_0008 --> PLA_0004
+    PLA_0008 --> TAB_0002
+    PLA_0008 --> TAB_0005
     REC_0002 --> BAS_0001
     REC_0002 --> BAS_0004
     REC_0002 --> PLA_0006
@@ -384,10 +543,15 @@ Seguridad alimentaria"]
     REC_0005 --> BAS_0001
     REC_0005 --> BAS_0002
     REC_0005 --> BAS_0003
+    REC_0005 --> ING_0001
     REC_0005 --> ING_0002
     REC_0005 --> ING_0003
     REC_0005 --> ING_0004
     REC_0005 --> ING_0005
+    REC_0005 --> ING_0013
+    REC_0005 --> ING_0017
+    REC_0005 --> ING_0019
+    REC_0005 --> ING_0020
     REC_0005 --> PLA_0001
     REC_0005 --> PLA_0003
     REC_0005 --> PLA_0004
@@ -488,8 +652,88 @@ Seguridad alimentaria"]
     REC_0018 --> TAB_0002
     REC_0018 --> TAB_0004
     REC_0018 --> TAB_0005
+    REC_0020 --> BAS_0001
+    REC_0020 --> BAS_0002
+    REC_0020 --> BAS_0003
+    REC_0020 --> ING_0001
+    REC_0020 --> ING_0002
+    REC_0020 --> ING_0004
+    REC_0020 --> ING_0005
+    REC_0020 --> ING_0013
+    REC_0020 --> ING_0014
+    REC_0020 --> ING_0015
+    REC_0020 --> ING_0016
+    REC_0020 --> ING_0017
+    REC_0020 --> ING_0018
+    REC_0020 --> ING_0019
+    REC_0020 --> ING_0020
+    REC_0020 --> ING_0021
+    REC_0020 --> ING_0022
+    REC_0020 --> PLA_0001
+    REC_0020 --> PLA_0003
+    REC_0020 --> PLA_0008
+    REC_0020 --> REC_0005
+    REC_0020 --> TAB_0002
+    REC_0020 --> TAB_0005
+    REC_0021 --> ING_0021
+    REC_0021 --> ING_0022
+    REC_0021 --> ING_0023
+    REC_0021 --> PLA_0008
+    REC_0022 --> ING_0015
+    REC_0022 --> ING_0021
+    REC_0022 --> ING_0022
+    REC_0022 --> PLA_0008
+    SPEC_CONVENCIONES --> DOC_0016
+    SPEC_CONVENCIONES --> DOC_0017
+    SPEC_CONVENCIONES --> SPEC_DEPENDENCIAS
+    SPEC_CONVENCIONES --> SPEC_GLOSARIO
+    SPEC_CONVENCIONES --> SPEC_README
+    SPEC_DEPENDENCIAS --> ARC_0018
+    SPEC_DEPENDENCIAS --> DOC_0016
+    SPEC_DEPENDENCIAS --> DOC_0017
+    SPEC_DEPENDENCIAS --> DOC_0019
+    SPEC_DEPENDENCIAS --> DOC_0022
+    SPEC_DEPENDENCIAS --> DOC_0023
+    SPEC_DEPENDENCIAS --> DOC_0024
+    SPEC_DEPENDENCIAS --> DOC_0025
+    SPEC_DEPENDENCIAS --> SPEC_APIS
+    SPEC_DEPENDENCIAS --> SPEC_ENGINE_REGISTRY
+    SPEC_DEPENDENCIAS --> SPEC_INDEXING_ENGINE
+    SPEC_DEPENDENCIAS --> SPEC_INGESTA
+    SPEC_DEPENDENCIAS --> SPEC_MOTOR_RAG
+    SPEC_DEPENDENCIAS --> SPEC_ORQUESTADOR_EJECUCION
+    SPEC_DEPENDENCIAS --> SPEC_RAZONADOR
+    SPEC_DEPENDENCIAS --> SPEC_README
+    SPEC_DEPENDENCIAS --> SPEC_RETRIEVAL_ENGINE
+    SPEC_DEPENDENCIAS --> SPEC_VALIDACION
+    SPEC_GLOSARIO --> ARC_0018
+    SPEC_GLOSARIO --> DOC_0016
+    SPEC_GLOSARIO --> DOC_0017
+    SPEC_GLOSARIO --> DOC_0019
+    SPEC_GLOSARIO --> DOC_0022
+    SPEC_GLOSARIO --> DOC_0023
+    SPEC_GLOSARIO --> DOC_0024
+    SPEC_GLOSARIO --> DOC_0025
+    SPEC_GLOSARIO --> SPEC_APIS
+    SPEC_GLOSARIO --> SPEC_DEPENDENCIAS
+    SPEC_GLOSARIO --> SPEC_ENGINE_REGISTRY
+    SPEC_GLOSARIO --> SPEC_INDEXING_ENGINE
+    SPEC_GLOSARIO --> SPEC_INGESTA
+    SPEC_GLOSARIO --> SPEC_MOTOR_RAG
+    SPEC_GLOSARIO --> SPEC_ORQUESTADOR_EJECUCION
+    SPEC_GLOSARIO --> SPEC_RAZONADOR
+    SPEC_GLOSARIO --> SPEC_README
+    SPEC_GLOSARIO --> SPEC_RETRIEVAL_ENGINE
+    SPEC_GLOSARIO --> SPEC_VALIDACION
+    SPEC_README --> DOC_0011
+    SPEC_README --> DOC_0014
+    SPEC_README --> DOC_0016
+    SPEC_README --> DOC_0017
+    SPEC_README --> DOC_0025
+    SPEC_README --> MGT_0015
     TAB_0000 --> BAS_0000
     TAB_0000 --> DOC_0008
+    TAB_0000 --> DOC_0019
     TAB_0000 --> ING_0000
     TAB_0000 --> PLA_0000
     TAB_0000 --> TAB_0002

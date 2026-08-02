@@ -4,7 +4,7 @@ titulo: Bitácora del Proyecto
 tipo: gestion
 version: 2.0
 estado: estable
-ultima_revision: 2026-07-20
+ultima_revision: 2026-08-02
 ---
 
 # Bitácora del Proyecto
@@ -239,6 +239,147 @@ El proyecto dispone de un patrón de referencia para futuras expansiones.
   - 125 documentos
   - 90 identificadores únicos
   - 822 enlaces internos
+
+---
+
+## 2026-08-01 — Finalización del núcleo de especificaciones del modelo de conocimiento
+
+### Hito
+
+Se completa la primera gran fase de diseño del Sistema de Gestión del Conocimiento Culinario (SGCC), finalizando el núcleo de especificaciones que define la arquitectura formal del conocimiento de NovaCoquinaria.
+
+Durante esta fase se ha consolidado un modelo coherente y gobernado para representar, organizar y evolucionar el conocimiento culinario, estableciendo una base sólida para el desarrollo futuro de la plataforma y de sus capacidades de inteligencia artificial.
+
+### Principales logros
+
+- Finalización de la especificación del modelo documental.
+- Definición formal del modelo de componentes reutilizables.
+- Especificación completa del sistema de relaciones semánticas.
+- Formalización de la ontología del dominio culinario.
+- Rediseño y ampliación del modelo de Colecciones de Conocimiento.
+- Especificación integral del Knowledge Graph, incluyendo:
+  - metamodelo;
+  - construcción e ingestión;
+  - consultas y navegación;
+  - gobernanza;
+  - versionado;
+  - calidad;
+  - evolución;
+  - integración con GraphRAG;
+  - integración con agentes inteligentes;
+  - razonamiento e inferencias.
+
+### Impacto arquitectónico
+
+Con este hito, NovaCoquinaria dispone de una arquitectura de conocimiento completa y coherente, donde los distintos niveles del sistema quedan claramente definidos:
+
+```text
+Documentos
+      ↓
+Componentes
+      ↓
+Relaciones
+      ↓
+Ontología
+      ↓
+Knowledge Graph
+      ↓
+Colecciones de Conocimiento
+```
+
+Esta arquitectura constituye la base semántica sobre la que se construirán todas las capacidades inteligentes del proyecto.
+
+### Validación
+
+La reorganización documental ha permitido:
+
+- unificar criterios de diseño;
+- homogeneizar la estructura documental;
+- reforzar la gobernanza del conocimiento;
+- validar la integridad de identificadores, Front Matter y enlaces internos mediante las herramientas automáticas del proyecto.
+
+### Próxima etapa
+
+Concluida la definición del modelo de conocimiento, el proyecto inicia una nueva fase centrada en el **Knowledge Engine**, responsable de convertir dicho conocimiento en un sistema operativo capaz de:
+
+- razonar;
+- aplicar reglas;
+- ejecutar inferencias;
+- recuperar conocimiento mediante GraphRAG;
+- asistir mediante agentes inteligentes;
+- proporcionar explicaciones y recomendaciones fundamentadas.
+
+Esta transición marca el paso desde una **arquitectura del conocimiento** hacia una **arquitectura de ejecución del conocimiento**, que constituirá el objetivo principal de la versión **v1.5.0 – Knowledge Engine**.
+
+---
+
+## 2026-08-02 · Consolidación del marco de especificaciones del SGCC
+
+### Qué ocurrió
+
+Se completa el primer marco integral de especificaciones arquitectónicas de NovaCoquinaria.
+
+Por primera vez el proyecto dispone de un conjunto coherente de documentos que describen no solo la arquitectura del conocimiento, sino también las reglas que gobiernan su organización, terminología, contratos, interfaces y evolución.
+
+### Por qué ocurrió
+
+La creciente complejidad del SGCC hacía insuficiente una colección de especificaciones independientes.
+
+Era necesario establecer un marco común que definiera cómo se documenta, cómo se relaciona y cómo evoluciona todo el sistema.
+
+### Qué cambió
+
+El proyecto incorpora una nueva capa de gobernanza documental formada por especificaciones transversales que unifican el resto de la documentación.
+
+Durante esta fase se completan, entre otras, las especificaciones de:
+
+- Engine Registry;
+- Orquestador de Ejecución;
+- Retrieval Engine;
+- Motor RAG;
+- APIs;
+- Ingesta;
+- Validación;
+- Indexing Engine;
+- Razonador;
+
+y se incorpora un conjunto de documentos transversales compuesto por:
+
+- README de especificaciones;
+- DEPENDENCIAS;
+- GLOSARIO;
+- CONVENCIONES.
+
+Con ello, las especificaciones dejan de ser documentos aislados y pasan a constituir un marco arquitectónico cohesionado.
+
+### Impacto
+
+NovaCoquinaria dispone ahora de una base documental preparada para soportar el desarrollo de la futura plataforma software y de sus capacidades de ejecución del conocimiento.
+
+La arquitectura queda organizada en tres niveles claramente diferenciados:
+
+```text
+Modelo de conocimiento
+        ↓
+Motores de ejecución (Runtime)
+        ↓
+Contratos e interfaces
+```
+sobre los que se apoyan las especificaciones transversales de organización, gobernanza y terminología.
+
+### Validación
+
+La consolidación del marco de especificaciones se completa satisfactoriamente mediante las herramientas automáticas del proyecto:
+
+- 142 documentos validados.
+- 107 identificadores únicos.
+- 886 enlaces internos verificados.
+- Grafo documental regenerado (107 nodos y 535 relaciones).
+- Construcción satisfactoria de la documentación publicada.
+
+### Próxima etapa
+
+Consolidado el marco de especificaciones, el siguiente gran objetivo consistirá en iniciar la definición de la infraestructura software del SGCC, transformando la arquitectura documental en una plataforma ejecutable capaz de materializar los motores, contratos y flujos descritos en estas especificaciones.
 
 ---
 
