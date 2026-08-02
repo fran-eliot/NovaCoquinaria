@@ -78,6 +78,7 @@ Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 | v1.2.0 | ✅ | Framework de calidad |
 | v1.3.0 | ✅ | Knowledge Graph |
 | v1.4.0 | ✅ | Gobernanza del conocimiento |
+| v1.5.0 | ✅ | Marco de especificaciones |
 
 ---
 
@@ -223,6 +224,35 @@ El proyecto dispone de un modelo completo para evolucionar el conocimiento de fo
 ### Preparó la siguiente etapa
 
 Expansión sistemática del conocimiento culinario.
+
+---
+
+## v1.5.0 · Marco de especificaciones
+
+### Propósito
+
+Consolidar la arquitectura documental del SGCC mediante un conjunto completo de especificaciones técnicas y transversales.
+
+### Capacidades incorporadas
+
+- especificaciones del Runtime;
+- especificaciones de Interfaces;
+- especificaciones de Ingesta;
+- especificaciones de Validación;
+- Engine Registry;
+- Orquestador de Ejecución;
+- documentación transversal;
+- gobernanza documental;
+- glosario técnico;
+- convenciones de especificación.
+
+### Impacto
+
+El SGCC dispone por primera vez de una arquitectura completamente especificada y preparada para evolucionar hacia una implementación software.
+
+### Preparó la siguiente release
+
+Plataforma software.
 
 ---
 

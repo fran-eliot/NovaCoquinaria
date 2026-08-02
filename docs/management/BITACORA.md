@@ -4,7 +4,7 @@ titulo: Bitácora del Proyecto
 tipo: gestion
 version: 2.0
 estado: estable
-ultima_revision: 2026-08-01
+ultima_revision: 2026-08-02
 ---
 
 # Bitácora del Proyecto
@@ -310,6 +310,76 @@ Concluida la definición del modelo de conocimiento, el proyecto inicia una nuev
 - proporcionar explicaciones y recomendaciones fundamentadas.
 
 Esta transición marca el paso desde una **arquitectura del conocimiento** hacia una **arquitectura de ejecución del conocimiento**, que constituirá el objetivo principal de la versión **v1.5.0 – Knowledge Engine**.
+
+---
+
+## 2026-08-02 · Consolidación del marco de especificaciones del SGCC
+
+### Qué ocurrió
+
+Se completa el primer marco integral de especificaciones arquitectónicas de NovaCoquinaria.
+
+Por primera vez el proyecto dispone de un conjunto coherente de documentos que describen no solo la arquitectura del conocimiento, sino también las reglas que gobiernan su organización, terminología, contratos, interfaces y evolución.
+
+### Por qué ocurrió
+
+La creciente complejidad del SGCC hacía insuficiente una colección de especificaciones independientes.
+
+Era necesario establecer un marco común que definiera cómo se documenta, cómo se relaciona y cómo evoluciona todo el sistema.
+
+### Qué cambió
+
+El proyecto incorpora una nueva capa de gobernanza documental formada por especificaciones transversales que unifican el resto de la documentación.
+
+Durante esta fase se completan, entre otras, las especificaciones de:
+
+- Engine Registry;
+- Orquestador de Ejecución;
+- Retrieval Engine;
+- Motor RAG;
+- APIs;
+- Ingesta;
+- Validación;
+- Indexing Engine;
+- Razonador;
+
+y se incorpora un conjunto de documentos transversales compuesto por:
+
+- README de especificaciones;
+- DEPENDENCIAS;
+- GLOSARIO;
+- CONVENCIONES.
+
+Con ello, las especificaciones dejan de ser documentos aislados y pasan a constituir un marco arquitectónico cohesionado.
+
+### Impacto
+
+NovaCoquinaria dispone ahora de una base documental preparada para soportar el desarrollo de la futura plataforma software y de sus capacidades de ejecución del conocimiento.
+
+La arquitectura queda organizada en tres niveles claramente diferenciados:
+
+```text
+Modelo de conocimiento
+        ↓
+Motores de ejecución (Runtime)
+        ↓
+Contratos e interfaces
+```
+sobre los que se apoyan las especificaciones transversales de organización, gobernanza y terminología.
+
+### Validación
+
+La consolidación del marco de especificaciones se completa satisfactoriamente mediante las herramientas automáticas del proyecto:
+
+- 142 documentos validados.
+- 107 identificadores únicos.
+- 886 enlaces internos verificados.
+- Grafo documental regenerado (107 nodos y 535 relaciones).
+- Construcción satisfactoria de la documentación publicada.
+
+### Próxima etapa
+
+Consolidado el marco de especificaciones, el siguiente gran objetivo consistirá en iniciar la definición de la infraestructura software del SGCC, transformando la arquitectura documental en una plataforma ejecutable capaz de materializar los motores, contratos y flujos descritos en estas especificaciones.
 
 ---
 

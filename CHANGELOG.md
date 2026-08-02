@@ -79,6 +79,31 @@ MAJOR.MINOR.PATCH
 
 ---
 
+## [1.5.0] - 2026-08-02
+
+### Added
+
+- Framework completo de especificaciones.
+- README de especificaciones.
+- DEPENDENCIAS.
+- GLOSARIO.
+- CONVENCIONES.
+- Especificaciones del Runtime.
+- Especificación de APIs.
+
+### Improved
+
+- Gobernanza documental.
+- Organización de especificaciones.
+- Consistencia estructural.
+- Referencias cruzadas.
+
+### Changed
+
+- El SGCC incorpora una arquitectura completa de especificaciones preparada para la futura implementación software.
+
+---
+
 ## [1.4.0] - 2026-07-11
 
 ### Added
