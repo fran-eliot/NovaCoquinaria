@@ -19,6 +19,7 @@ No representa un calendario, sino el estado de desarrollo del conocimiento de re
 * [x] Sustituciones de ingredientes
 * [x] Conservación, congelación y recalentado
 * [x] Seguridad alimentaria
+* [x] Familias de curry
 
 ---
 
@@ -52,6 +53,14 @@ No representa un calendario, sino el estado de desarrollo del conocimiento de re
 * [ ] Sustituciones en cocina asiática
 * [ ] Sustituciones para alérgenos
 * [ ] Sustituciones vegetarianas y veganas
+
+### Comparativas
+
+* [ ] Familias de arroz
+* [ ] Familias de pasta
+* [ ] Tipos de chile
+* [ ] Tipos de aceite culinario
+* [ ] Pescados blancos y azules
 
 ---
 
