@@ -383,6 +383,28 @@ Consolidado el marco de especificaciones, el siguiente gran objetivo consistirá
 
 ---
 
+## 2026-08-02 · El conocimiento pasa a ser la prioridad del proyecto
+
+### Qué ocurrió
+
+Tras completar el marco de especificaciones del SGCC se replanteó la planificación de las siguientes versiones.
+
+### Por qué ocurrió
+
+Se concluyó que desarrollar la plataforma software sobre una base culinaria todavía reducida introduciría una complejidad innecesaria y dificultaría validar el modelo de conocimiento.
+
+### Qué cambió
+
+La evolución del proyecto pasa a priorizar la expansión sistemática del conocimiento culinario antes de iniciar la implementación de la plataforma software.
+
+Se incorporan herramientas automáticas de auditoría del conocimiento para medir cobertura, reutilización, madurez y dominios culinarios.
+
+### Impacto
+
+La futura plataforma podrá desarrollarse sobre un dominio culinario mucho más rico, validado y representativo, reduciendo cambios arquitectónicos posteriores.
+
+---
+
 # Próximos capítulos
 
 La Bitácora continuará registrando únicamente acontecimientos que transformen la evolución del proyecto.

@@ -32,9 +32,9 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Sistema | GASTRO (SGCC) |
 | Versión actual | **v1.5.0 (tras la release)** |
 | Estado | 🟢 Desarrollo activo |
-| Fase | Arquitectura de especificaciones consolidada |
+| Fase | Expansión del conocimiento culinario |
 | Madurez global | Alta |
-| Próximo objetivo | Inicio de la plataforma software del SGCC |
+| Próximo objetivo | Expansión sistemática de la base de conocimiento culinario |
 
 ---
 
@@ -44,7 +44,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 
 NovaCoquinaria dispone de una arquitectura documental consolidada, un modelo formal de conocimiento, un marco completo de gobernanza y un conjunto integral de especificaciones que describen la organización, los motores de ejecución, las interfaces y la evolución del SGCC.
 
-La siguiente etapa del proyecto consistirá en transformar esta arquitectura en una plataforma software ejecutable, manteniendo el crecimiento progresivo de la base de conocimiento culinario
+La siguiente etapa del proyecto consistirá en consolidar el dominio culinario mediante la ampliación sistemática de ingredientes, técnicas, plantillas, recetas y relaciones semánticas. El desarrollo de la plataforma software queda pospuesto hasta disponer de una base de conocimiento suficientemente madura.
 
 ---
 
@@ -92,27 +92,28 @@ Actualmente el SGCC permite:
 
 ## Prioridad alta
 
-- Iniciar el desarrollo de la plataforma software.
-- Implementar los primeros componentes del Runtime.
-- Consolidar la infraestructura de ejecución.
-- Publicar el portal documental.
+- Ampliar la base de conocimiento culinario.
+- Consolidar dominios culinarios.
+- Completar recetas de referencia.
+- Mejorar las herramientas de auditoría del conocimiento.
 
 ---
 
 ## Prioridad media
 
-- Continuar ampliando la base de conocimiento.
-- Mejorar automatizaciones.
-- Incrementar cobertura del Knowledge Graph.
+- Incrementar automatizaciones.
+- Mejorar el Knowledge Graph.
+- Publicar el portal documental.
 
 ---
 
 ## Prioridad estratégica
 
+- Desarrollo de la plataforma software.
+- Runtime del SGCC.
+- GraphRAG.
 - Integración con LLM.
 - Agentes especializados.
-- GraphRAG.
-- Plataforma colaborativa.
 
 ---
 
