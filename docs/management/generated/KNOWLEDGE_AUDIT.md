@@ -25,58 +25,67 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 | Dominio | Madurez automática | PRIMARY | SECONDARY | MENTION | Cobertura estructural | Enlaces resueltos | Huérfanos |
 |---|:---:|---:|---:|---:|---:|---:|---:|
-| Currys | 🌿 Estructurado | 3 | 10 | 0 | 60 % | 100 % | 1 |
+| Currys | 🌳 Consolidado | 7 | 12 | 0 | 100 % | 100 % | 1 |
 | Salteados asiáticos | 🌿 Estructurado | 4 | 28 | 1 | 60 % | 100 % | 0 |
 | Arroces | 🌿 Estructurado | 9 | 25 | 0 | 60 % | 100 % | 1 |
-| Pastas | 🌱 Exploración | 0 | 0 | 1 | 0 % | N/A | 0 |
+| Pastas | 🌱 Exploración | 0 | 1 | 1 | 0 % | N/A | 0 |
 | Legumbres | 🌱 Exploración | 0 | 0 | 0 | 0 % | N/A | 0 |
 | Verduras | 🌿 Estructurado | 5 | 9 | 0 | 100 % | 100 % | 0 |
-| Carnes | 🌿 Estructurado | 2 | 10 | 0 | 100 % | 100 % | 0 |
+| Carnes | 🌿 Estructurado | 2 | 11 | 0 | 100 % | 100 % | 0 |
 | Pescados y mariscos | 🌿 Estructurado | 1 | 6 | 0 | 100 % | 100 % | 0 |
-| Huevos y lácteos | 🌿 Estructurado | 1 | 5 | 0 | 100 % | 100 % | 0 |
+| Huevos y lácteos | 🌿 Estructurado | 1 | 7 | 0 | 100 % | 100 % | 0 |
 | Postres | 🌱 Exploración | 0 | 0 | 0 | 0 % | N/A | 0 |
 
 ---
 
 # Dominio: Currys
 
-**Madurez automática:** 🌿 Estructurado  
-**Documentos PRIMARY:** 3  
-**Documentos SECONDARY:** 10  
+**Madurez automática:** 🌳 Consolidado  
+**Documentos PRIMARY:** 7  
+**Documentos SECONDARY:** 12  
 **Documentos MENTION:** 0  
-**Cobertura estructural:** 60 %  
+**Cobertura estructural:** 100 %  
 **Resolución de enlaces:** 100 %
 
 ## Distribución por tipo
 
 | Tipo | Cantidad |
 |---|---:|
-| `ingrediente` | 1 |
+| `ingrediente` | 2 |
 | `plantilla` | 1 |
-| `receta` | 1 |
+| `receta` | 2 |
+| `tabla` | 1 |
+| `tecnica` | 1 |
 
 ## Implementaciones de referencia detectadas
 
 - `REC-0017` · Curry amarillo de pollo (`05_Carnes/curry_amarillo_de_pollo.md`)
+- `REC-0023` · Curry verde de pollo (`05_Carnes/curry_verde_de_pollo.md`)
 
 ## Documentos de autoridad (PRIMARY)
 
+- `TEC-0004` · Cocinar un curry (`00_Bases/03_Tecnicas/cocinar_curry.md`) — evidencia: `title`
 - `REC-0017` · Curry amarillo de pollo (`05_Carnes/curry_amarillo_de_pollo.md`) — evidencia: `authority_link, pattern_title, declared_reference`
+- `REC-0023` · Curry verde de pollo (`05_Carnes/curry_verde_de_pollo.md`) — evidencia: `authority_link, pattern_title`
 - `ING-0011` · Curry amarillo (`11_Despensa/08_Especias/curry_amarillo.md`) — evidencia: `title`
+- `ING-0024` · Curry verde (`11_Despensa/08_Especias/curry_verde.md`) — evidencia: `title`
 - `PLA-0002` · Curry base (`12_Plantillas/04_Cocciones/curry_base.md`) — evidencia: `title`
+- `TAB-0007` · Familias de curry (`98_Tablas/07_Comparativas/familias_de_curry.md`) — evidencia: `title`
 
 ## Conocimiento reutilizado (SECONDARY)
 
-- `BAS-0001` · Mise en place (`00_Bases/01_Fundamentos/mise_en_place.md`) — evidencia: `linked_from:REC-0017, linked_from:PLA-0002`
-- `BAS-0004` · Sofreír (`00_Bases/03_Tecnicas/sofreir.md`) — evidencia: `linked_from:REC-0017, linked_from:PLA-0002`
-- `ING-0001` · Arroz basmati (`11_Despensa/01_Cereales/arroz_basmati.md`) — evidencia: `linked_from:REC-0017`
-- `ING-0007` · Salsa de pescado (`11_Despensa/09_Salsas/salsa_de_pescado.md`) — evidencia: `secondary_title, secondary_frontmatter, linked_from:REC-0017, linked_from:PLA-0002`
-- `ING-0002` · Salsa de soja (`11_Despensa/09_Salsas/salsa_de_soja.md`) — evidencia: `linked_from:REC-0017, linked_from:PLA-0002`
-- `ING-0008` · Vinagre de arroz (`11_Despensa/11_Condimentos/vinagre_de_arroz.md`) — evidencia: `linked_from:PLA-0002`
-- `ING-0012` · Leche de coco (`11_Despensa/13_Bases_Culinarias/leche_de_coco.md`) — evidencia: `secondary_title, secondary_frontmatter, linked_from:REC-0017`
-- `TAB-0002` · Tiempos de cocción (`98_Tablas/01_Cocciones/tiempos_coccion.md`) — evidencia: `linked_from:REC-0017`
-- `TAB-0005` · Conservación, congelación y recalentado (`98_Tablas/04_Conservacion/conservacion_congelacion.md`) — evidencia: `linked_from:REC-0017`
-- `TAB-0004` · Sustituciones de ingredientes (`98_Tablas/06_Sustituciones/sustituciones_ingredientes.md`) — evidencia: `linked_from:REC-0017`
+- `BAS-0001` · Mise en place (`00_Bases/01_Fundamentos/mise_en_place.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004, linked_from:PLA-0002`
+- `BAS-0002` · Saltear (`00_Bases/03_Tecnicas/saltear.md`) — evidencia: `linked_from:TEC-0004`
+- `BAS-0004` · Sofreír (`00_Bases/03_Tecnicas/sofreir.md`) — evidencia: `linked_from:REC-0017, linked_from:TEC-0004, linked_from:PLA-0002`
+- `ING-0001` · Arroz basmati (`11_Despensa/01_Cereales/arroz_basmati.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023`
+- `ING-0021` · Arroz jazmín (`11_Despensa/01_Cereales/arroz_jazmin.md`) — evidencia: `linked_from:REC-0023`
+- `ING-0007` · Salsa de pescado (`11_Despensa/09_Salsas/salsa_de_pescado.md`) — evidencia: `secondary_title, secondary_frontmatter, linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004, linked_from:PLA-0002`
+- `ING-0002` · Salsa de soja (`11_Despensa/09_Salsas/salsa_de_soja.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004, linked_from:PLA-0002`
+- `ING-0008` · Vinagre de arroz (`11_Despensa/11_Condimentos/vinagre_de_arroz.md`) — evidencia: `linked_from:TEC-0004, linked_from:PLA-0002`
+- `ING-0012` · Leche de coco (`11_Despensa/13_Bases_Culinarias/leche_de_coco.md`) — evidencia: `secondary_title, secondary_frontmatter, linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004`
+- `TAB-0002` · Tiempos de cocción (`98_Tablas/01_Cocciones/tiempos_coccion.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004`
+- `TAB-0005` · Conservación, congelación y recalentado (`98_Tablas/04_Conservacion/conservacion_congelacion.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004`
+- `TAB-0004` · Sustituciones de ingredientes (`98_Tablas/06_Sustituciones/sustituciones_ingredientes.md`) — evidencia: `linked_from:REC-0017, linked_from:REC-0023, linked_from:TEC-0004`
 
 ## Menciones contextuales (MENTION)
 
@@ -88,8 +97,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 ## Tipos documentales no representados
 
-- `tecnica`
-- `tabla`
+- Ninguno.
 
 ---
 
@@ -249,7 +257,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 **Madurez automática:** 🌱 Exploración  
 **Documentos PRIMARY:** 0  
-**Documentos SECONDARY:** 0  
+**Documentos SECONDARY:** 1  
 **Documentos MENTION:** 1  
 **Cobertura estructural:** 0 %  
 **Resolución de enlaces:** N/A
@@ -269,7 +277,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 ## Conocimiento reutilizado (SECONDARY)
 
-- Ninguno.
+- `ING-0024` · Curry verde (`11_Despensa/08_Especias/curry_verde.md`) — evidencia: `frontmatter`
 
 ## Menciones contextuales (MENTION)
 
@@ -390,7 +398,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 **Madurez automática:** 🌿 Estructurado  
 **Documentos PRIMARY:** 2  
-**Documentos SECONDARY:** 10  
+**Documentos SECONDARY:** 11  
 **Documentos MENTION:** 0  
 **Cobertura estructural:** 100 %  
 **Resolución de enlaces:** 100 %
@@ -415,6 +423,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 - `REC-0001` · Arroz chaufa (`01_Arroces/arroz_chaufa.md`) — evidencia: `frontmatter`
 - `REC-0022` · Arroz frito con pollo (`01_Arroces/arroz_frito_pollo.md`) — evidencia: `thematic_title, frontmatter`
 - `REC-0017` · Curry amarillo de pollo (`05_Carnes/curry_amarillo_de_pollo.md`) — evidencia: `thematic_path`
+- `REC-0023` · Curry verde de pollo (`05_Carnes/curry_verde_de_pollo.md`) — evidencia: `thematic_path`
 - `REC-0007` · Hamburguesa asiática (`05_Carnes/hamburguesa_asiatica.md`) — evidencia: `thematic_path`
 - `REC-0016` · Hamburguesa especiada (`05_Carnes/hamburguesa_especiada.md`) — evidencia: `thematic_path`
 - `REC-0004` · Lomo asiático (`05_Carnes/lomo_asiatico.md`) — evidencia: `thematic_path`
@@ -487,7 +496,7 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 **Madurez automática:** 🌿 Estructurado  
 **Documentos PRIMARY:** 1  
-**Documentos SECONDARY:** 5  
+**Documentos SECONDARY:** 7  
 **Documentos MENTION:** 0  
 **Cobertura estructural:** 100 %  
 **Resolución de enlaces:** 100 %
@@ -508,10 +517,12 @@ La cobertura indicada es **estructural y preliminar**: mide la presencia de tipo
 
 ## Conocimiento reutilizado (SECONDARY)
 
+- `TEC-0004` · Cocinar un curry (`00_Bases/03_Tecnicas/cocinar_curry.md`) — evidencia: `secondary_frontmatter`
 - `REC-0001` · Arroz chaufa (`01_Arroces/arroz_chaufa.md`) — evidencia: `frontmatter`
 - `REC-0021` · Arroz frito con gambas (`01_Arroces/arroz_frito_gambas.md`) — evidencia: `frontmatter`
 - `REC-0020` · Arroz frito con huevo (`01_Arroces/arroz_frito_huevo.md`) — evidencia: `thematic_title, frontmatter`
 - `REC-0022` · Arroz frito con pollo (`01_Arroces/arroz_frito_pollo.md`) — evidencia: `frontmatter`
+- `REC-0023` · Curry verde de pollo (`05_Carnes/curry_verde_de_pollo.md`) — evidencia: `secondary_frontmatter`
 - `ING-0012` · Leche de coco (`11_Despensa/13_Bases_Culinarias/leche_de_coco.md`) — evidencia: `secondary_title, secondary_frontmatter`
 
 ## Menciones contextuales (MENTION)

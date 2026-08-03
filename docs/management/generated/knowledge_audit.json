@@ -2,30 +2,43 @@
   {
     "domain": "currys",
     "name": "Currys",
-    "maturity": "🌿 Estructurado",
-    "primary_documents": 3,
-    "associated_documents": 13,
+    "maturity": "🌳 Consolidado",
+    "primary_documents": 7,
+    "associated_documents": 19,
     "association_counts": {
-      "PRIMARY": 3,
-      "SECONDARY": 10,
+      "PRIMARY": 7,
+      "SECONDARY": 12,
       "MENTION": 0
     },
-    "structural_coverage": 60.0,
+    "structural_coverage": 100.0,
     "types": {
-      "ingrediente": 1,
+      "ingrediente": 2,
       "plantilla": 1,
-      "receta": 1
+      "receta": 2,
+      "tabla": 1,
+      "tecnica": 1
     },
-    "outgoing_links": 28,
-    "resolved_outgoing_links": 28,
+    "outgoing_links": 114,
+    "resolved_outgoing_links": 114,
     "link_resolution_rate": 100.0,
     "orphan_documents": [
       "11_Despensa/08_Especias/curry_amarillo.md"
     ],
     "reference_recipes": [
-      "05_Carnes/curry_amarillo_de_pollo.md"
+      "05_Carnes/curry_amarillo_de_pollo.md",
+      "05_Carnes/curry_verde_de_pollo.md"
     ],
     "associations": [
+      {
+        "path": "00_Bases/03_Tecnicas/cocinar_curry.md",
+        "id": "TEC-0004",
+        "title": "Cocinar un curry",
+        "type": "tecnica",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
       {
         "path": "05_Carnes/curry_amarillo_de_pollo.md",
         "id": "REC-0017",
@@ -39,9 +52,30 @@
         ]
       },
       {
+        "path": "05_Carnes/curry_verde_de_pollo.md",
+        "id": "REC-0023",
+        "title": "Curry verde de pollo",
+        "type": "receta",
+        "association": "PRIMARY",
+        "evidence": [
+          "authority_link",
+          "pattern_title"
+        ]
+      },
+      {
         "path": "11_Despensa/08_Especias/curry_amarillo.md",
         "id": "ING-0011",
         "title": "Curry amarillo",
+        "type": "ingrediente",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
+        "path": "11_Despensa/08_Especias/curry_verde.md",
+        "id": "ING-0024",
+        "title": "Curry verde",
         "type": "ingrediente",
         "association": "PRIMARY",
         "evidence": [
@@ -59,6 +93,16 @@
         ]
       },
       {
+        "path": "98_Tablas/07_Comparativas/familias_de_curry.md",
+        "id": "TAB-0007",
+        "title": "Familias de curry",
+        "type": "tabla",
+        "association": "PRIMARY",
+        "evidence": [
+          "title"
+        ]
+      },
+      {
         "path": "00_Bases/01_Fundamentos/mise_en_place.md",
         "id": "BAS-0001",
         "title": "Mise en place",
@@ -66,7 +110,19 @@
         "association": "SECONDARY",
         "evidence": [
           "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004",
           "linked_from:PLA-0002"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/saltear.md",
+        "id": "BAS-0002",
+        "title": "Saltear",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:TEC-0004"
         ]
       },
       {
@@ -77,6 +133,7 @@
         "association": "SECONDARY",
         "evidence": [
           "linked_from:REC-0017",
+          "linked_from:TEC-0004",
           "linked_from:PLA-0002"
         ]
       },
@@ -87,7 +144,18 @@
         "type": "ingrediente",
         "association": "SECONDARY",
         "evidence": [
-          "linked_from:REC-0017"
+          "linked_from:REC-0017",
+          "linked_from:REC-0023"
+        ]
+      },
+      {
+        "path": "11_Despensa/01_Cereales/arroz_jazmin.md",
+        "id": "ING-0021",
+        "title": "Arroz jazmín",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "linked_from:REC-0023"
         ]
       },
       {
@@ -100,6 +168,8 @@
           "secondary_title",
           "secondary_frontmatter",
           "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004",
           "linked_from:PLA-0002"
         ]
       },
@@ -111,6 +181,8 @@
         "association": "SECONDARY",
         "evidence": [
           "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004",
           "linked_from:PLA-0002"
         ]
       },
@@ -121,6 +193,7 @@
         "type": "ingrediente",
         "association": "SECONDARY",
         "evidence": [
+          "linked_from:TEC-0004",
           "linked_from:PLA-0002"
         ]
       },
@@ -133,7 +206,9 @@
         "evidence": [
           "secondary_title",
           "secondary_frontmatter",
-          "linked_from:REC-0017"
+          "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004"
         ]
       },
       {
@@ -143,7 +218,9 @@
         "type": "tabla",
         "association": "SECONDARY",
         "evidence": [
-          "linked_from:REC-0017"
+          "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004"
         ]
       },
       {
@@ -153,7 +230,9 @@
         "type": "tabla",
         "association": "SECONDARY",
         "evidence": [
-          "linked_from:REC-0017"
+          "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004"
         ]
       },
       {
@@ -163,7 +242,9 @@
         "type": "tabla",
         "association": "SECONDARY",
         "evidence": [
-          "linked_from:REC-0017"
+          "linked_from:REC-0017",
+          "linked_from:REC-0023",
+          "linked_from:TEC-0004"
         ]
       }
     ]
@@ -966,10 +1047,10 @@
     "name": "Pastas",
     "maturity": "🌱 Exploración",
     "primary_documents": 0,
-    "associated_documents": 1,
+    "associated_documents": 2,
     "association_counts": {
       "PRIMARY": 0,
-      "SECONDARY": 0,
+      "SECONDARY": 1,
       "MENTION": 1
     },
     "structural_coverage": 0.0,
@@ -980,6 +1061,16 @@
     "orphan_documents": [],
     "reference_recipes": [],
     "associations": [
+      {
+        "path": "11_Despensa/08_Especias/curry_verde.md",
+        "id": "ING-0024",
+        "title": "Curry verde",
+        "type": "ingrediente",
+        "association": "SECONDARY",
+        "evidence": [
+          "frontmatter"
+        ]
+      },
       {
         "path": "11_Despensa/05_Mariscos/gambas.md",
         "id": "ING-0023",
@@ -1182,10 +1273,10 @@
     "name": "Carnes",
     "maturity": "🌿 Estructurado",
     "primary_documents": 2,
-    "associated_documents": 12,
+    "associated_documents": 13,
     "association_counts": {
       "PRIMARY": 2,
-      "SECONDARY": 10,
+      "SECONDARY": 11,
       "MENTION": 0
     },
     "structural_coverage": 100.0,
@@ -1243,6 +1334,16 @@
         "path": "05_Carnes/curry_amarillo_de_pollo.md",
         "id": "REC-0017",
         "title": "Curry amarillo de pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "thematic_path"
+        ]
+      },
+      {
+        "path": "05_Carnes/curry_verde_de_pollo.md",
+        "id": "REC-0023",
+        "title": "Curry verde de pollo",
         "type": "receta",
         "association": "SECONDARY",
         "evidence": [
@@ -1422,10 +1523,10 @@
     "name": "Huevos y lácteos",
     "maturity": "🌿 Estructurado",
     "primary_documents": 1,
-    "associated_documents": 6,
+    "associated_documents": 8,
     "association_counts": {
       "PRIMARY": 1,
-      "SECONDARY": 5,
+      "SECONDARY": 7,
       "MENTION": 0
     },
     "structural_coverage": 100.0,
@@ -1446,6 +1547,16 @@
         "association": "PRIMARY",
         "evidence": [
           "path"
+        ]
+      },
+      {
+        "path": "00_Bases/03_Tecnicas/cocinar_curry.md",
+        "id": "TEC-0004",
+        "title": "Cocinar un curry",
+        "type": "tecnica",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_frontmatter"
         ]
       },
       {
@@ -1487,6 +1598,16 @@
         "association": "SECONDARY",
         "evidence": [
           "frontmatter"
+        ]
+      },
+      {
+        "path": "05_Carnes/curry_verde_de_pollo.md",
+        "id": "REC-0023",
+        "title": "Curry verde de pollo",
+        "type": "receta",
+        "association": "SECONDARY",
+        "evidence": [
+          "secondary_frontmatter"
         ]
       },
       {

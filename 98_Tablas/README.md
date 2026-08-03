@@ -38,7 +38,29 @@ Deben incluirse aquí documentos como:
 * seguridad alimentaria;
 * sustituciones;
 * proporciones resumidas;
-* referencias rápidas.
+* referencias rápidas;
+* conversiones de unidades;
+* equivalencias culinarias;
+* comparativas culinarias;
+* tiempos de cocción;
+
+---
+
+## Comparativas
+
+Las tablas comparativas permiten analizar varias familias, ingredientes o alternativas mediante criterios comunes.
+
+Deben utilizarse cuando el objetivo principal sea:
+
+* comparar perfiles culinarios;
+* clasificar familias;
+* ayudar a elegir entre varias opciones;
+* resumir diferencias estructurales;
+* orientar decisiones de cocina.
+
+Ejemplo:
+
+* `07_Comparativas/familias_de_curry.md`
 
 ---
 
@@ -62,6 +84,11 @@ Si una tabla requiere mucha explicación técnica, esa explicación deberá ir e
 Estructura recomendada:
 
 ```text
+# Organización interna
+
+Estructura actual:
+
+```text
 98_Tablas/
 ├── 01_Cocciones/
 ├── 02_Hornos/
@@ -69,7 +96,9 @@ Estructura recomendada:
 ├── 04_Conservacion/
 ├── 05_Seguridad/
 ├── 06_Sustituciones/
-├── 07_Equivalencias/
+├── 07_Comparativas/
+├── 08_Equivalencias/
+├── BACKLOG.md
 └── README.md
 ```
 
@@ -154,6 +183,10 @@ Ver también: [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md
 
 * `06_Sustituciones/sustituciones_ingredientes.md`
 * `06_Sustituciones/sustituciones_salsas_asiaticas.md`
+
+## Comparativas
+
+* `07_Comparativas/familias_de_curry.md`
 
 ---
 

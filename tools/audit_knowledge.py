@@ -199,7 +199,7 @@ KNOWLEDGE_RULES: tuple[DomainRule, ...] = (
         primary_keywords=("curry", "massaman", "panang"),
         secondary_keywords=("leche de coco", "salsa de pescado"),
         primary_link_fragments=("12_Plantillas/04_Cocciones/curry_base.md",),
-        title_primary_types=("ingrediente", "plantilla", "receta"),
+        title_primary_types=("ingrediente", "tecnica", "plantilla", "receta", "tabla"),
         reference_recipe_keywords=("curry amarillo de pollo",),
     ),
     DomainRule(
