@@ -4,7 +4,7 @@ tipo: informe
 titulo: Auditoría automática del conocimiento
 version: 1.6.0
 estado: generado
-ultima_revision: 2026-08-02
+ultima_revision: 2026-08-03
 tags:
   - dominios
   - auditoria
