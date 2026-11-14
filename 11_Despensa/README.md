@@ -325,6 +325,17 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Aplicaciones de ingredientes en pastas y mariscos
+
+- [Orecchiette con brócoli y anchoas](../02_Pastas/orecchiette_con_brocoli_y_anchoas.md): anchoa curada como condimento y brócoli como cuerpo de salsa.
+- [Rigatoni con calabaza y ricotta](../02_Pastas/rigatoni_con_calabaza_y_ricotta.md): calabaza, ricotta y control del calor.
+- [Espaguetis con gambas y limón](../02_Pastas/espaguetis_con_gambas_y_limon.md): marisco de cocción corta y cítrico final.
+- [Mejillones al vapor con vino blanco](../06_Pescados_y_Mariscos/mejillones_al_vapor_con_ajo_y_vino_blanco.md): apertura y filtrado del jugo.
+- [Almejas en salsa verde](../06_Pescados_y_Mariscos/almejas_en_salsa_verde.md): arena, salinidad y ligado de salsa.
+- [Sepia guisada con patatas](../06_Pescados_y_Mariscos/sepia_guisada_con_patatas_y_pimenton.md): escalonado de tiempos y textura.
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
