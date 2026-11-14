@@ -48,6 +48,7 @@ No conservar infusiones caseras durante periodos prolongados a temperatura ambie
 - [Té chai](../../09_Bebidas/te_chai.md)
 - [Té frío con limón](../../09_Bebidas/te_frio_con_limon.md)
 - [Índice de bebidas](../../09_Bebidas/README.md)
+- [Diagnóstico de bebidas: extracción y astringencia](../../98_Tablas/07_Comparativas/diagnostico_bebidas.md)
 
 ## Principio de NovaCoquinaria
 > Una extracción más larga no siempre mejora el sabor.
