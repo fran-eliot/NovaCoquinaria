@@ -81,6 +81,13 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 - [Cúrcuma](../11_Despensa/08_Especias/curcuma.md): dispersión y equilibrio de la leche dorada.
 - [Cardamomo](../11_Despensa/08_Especias/cardamomo.md): cápsulas aromáticas para té chai.
 
+## Café, té e infusiones
+
+- [Café tostado](../11_Despensa/18_Infusiones/cafe_tostado.md): molienda y extracción caliente o por inmersión en frío.
+- [Té negro](../11_Despensa/18_Infusiones/te_negro.md): controlar astringencia en chai y té frío.
+- [Té matcha](../11_Despensa/18_Infusiones/te_matcha.md): tamizado y dispersión antes de mezclar con leche.
+- [Hibisco seco](../11_Despensa/18_Infusiones/hibisco_seco.md): infusión ácida de cálices alimentarios y enfriado rápido.
+
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
 - Las bebidas con leche contienen lácteos salvo sustitución indicada.
