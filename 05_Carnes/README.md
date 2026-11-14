@@ -89,6 +89,12 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Pimienta negra](../11_Despensa/08_Especias/pimienta_negra.md): dosificación antes o después del dorado.
 - [Tomillo](../11_Despensa/08_Especias/tomillo.md): infusión en estofados y asados.
 
+## Fondos y líquidos para guisos
+
+- [Caldo de pollo](../11_Despensa/13_Bases_Culinarias/caldo_de_pollo.md): humedad y sabor para guisos y salsas.
+- [Vino blanco para cocinar](../11_Despensa/11_Condimentos/vino_blanco_cocina.md): desglasado y notas ácidas; la cocción no elimina necesariamente todo el alcohol.
+- [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md): espesado final de determinadas salsas.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.

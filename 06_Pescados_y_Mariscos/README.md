@@ -71,6 +71,10 @@ Las fichas de merluza, bacalao y calamar distinguen formatos de compra, preparac
 - [Pimentón](../11_Despensa/08_Especias/pimenton.md): sofritos para bacalao con garbanzos.
 - [Guisantes](../11_Despensa/06_Verduras/guisantes.md): guarnición tierna de merluza en cazuela.
 
+## Fondos de pescado
+
+- [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md): extracción breve y sabor delicado para arroces y salsas marinas.
+
 ## Seguridad y alérgenos
 
 - Mantener pescado y marisco refrigerados; descongelar en refrigeración.

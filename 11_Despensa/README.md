@@ -259,6 +259,19 @@ La familia **Frutas** reúne materias primas para postres, bebidas y preparacion
 
 ---
 
+## Fondos, caldos y líquidos para salsas
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0102 | [Caldo de verduras](./13_Bases_Culinarias/caldo_de_verduras.md) | Fondos vegetales para arroz, sopas y cremas |
+| ING-0103 | [Caldo de pollo](./13_Bases_Culinarias/caldo_de_pollo.md) | Base cárnica para guisos y arroces |
+| ING-0104 | [Fumet de pescado](./13_Bases_Culinarias/fumet_de_pescado.md) | Arroces marineros y salsas |
+| ING-0105 | [Dashi](./13_Bases_Culinarias/dashi.md) | Umami para sopas japonesas |
+| ING-0106 | [Almidón de maíz](./13_Bases_Culinarias/maicena.md) | Espesado de salsas y cremas |
+| ING-0107 | [Vino blanco para cocinar](./11_Condimentos/vino_blanco_cocina.md) | Desglasado y acidez aromática |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
