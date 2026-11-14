@@ -39,6 +39,10 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
 - [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md): problemas frecuentes y correcciones.
 
+## Técnicas de sartén
+
+- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md): dorado, cocción y escurrido, con aplicación a las torrijas.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
