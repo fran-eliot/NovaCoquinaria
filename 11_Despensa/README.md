@@ -314,6 +314,17 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Aplicaciones de verduras y legumbres al horno y en sartén
+
+- [Calabaza asada con yogur y comino](../04_Verduras/calabaza_asada_con_yogur_y_comino.md): humedad y dulzor de la calabaza.
+- [Berenjenas rellenas de garbanzos y tomate](../04_Verduras/berenjenas_rellenas_de_garbanzos_y_tomate.md): pulpa de berenjena, legumbre cocida y tomate reducido.
+- [Patatas aplastadas con romero y ajo](../04_Verduras/patatas_aplastadas_con_romero_y_ajo.md): almidón y acabado crujiente.
+- [Garbanzos crujientes con especias](../03_Legumbres/garbanzos_crujientes_al_horno_con_especias.md): legumbre cocida y secado superficial.
+- [Ensalada templada de lentejas y calabaza](../03_Legumbres/ensalada_templada_de_lentejas_y_calabaza.md): grano entero y aliño ácido.
+- [Alubias blancas con setas y espinacas](../03_Legumbres/alubias_blancas_con_setas_y_espinacas.md): calentamiento suave y dorado de setas.
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
