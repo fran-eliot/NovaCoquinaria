@@ -63,6 +63,15 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): humedad y acidez en masas y preparaciones frías.
 - [Nata para cocinar](../11_Despensa/13_Bases_Culinarias/nata_para_cocinar.md): producto lácteo para cremas y mezclas saladas; no equivale necesariamente a nata para montar.
 
+## Ingredientes básicos de repostería
+
+- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md): estructura de masas y diferencias entre variedades.
+- [Leche entera](../11_Despensa/14_Huevos_Lacteos/leche_entera.md): hidratación y cuajado de cremas.
+- [Canela](../11_Despensa/08_Especias/canela.md): infusión y aromatización de postres.
+- [Cacao puro en polvo](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md): color, sabor y absorción de humedad.
+- [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): estructura, dulzor y caramelización.
+- [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): aroma y contraste crujiente.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|

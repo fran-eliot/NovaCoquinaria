@@ -80,6 +80,12 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md): vaciado y control del agua en rellenos.
 - [Mantequilla](../11_Despensa/14_Huevos_Lacteos/mantequilla.md): manejo de grasas en elaboraciones de horno.
 
+## Ingredientes para masas y acabados
+
+- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md): estructura en pan y masas saladas.
+- [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): dorado y estructura de elaboraciones dulces.
+- [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): coberturas y rellenos tostados.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
