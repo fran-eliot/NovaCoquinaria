@@ -57,6 +57,7 @@ Batido cremoso de plátano, leche y cacao puro, sin necesidad de azúcar añadid
 Consumir recién hecho. Si se guarda, refrigerar inmediatamente y consumir pronto; la fruta puede oscurecerse.
 
 ## Relaciones
+- [Diagnóstico de bebidas: proporciones y textura de batidos](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)
 - [Índice de bebidas](./README.md)
 
 ## Principio de NovaCoquinaria
