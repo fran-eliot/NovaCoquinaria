@@ -47,6 +47,12 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 
 - [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md): calentamiento gradual de flanes y cremas cuajadas.
 
+## Técnicas de textura y aireación
+
+- [Hidratar y gelificar con gelatina](../00_Bases/03_Tecnicas/hidratar_y_gelificar_con_gelatina.md): regular la firmeza de postres fríos.
+- [Montar claras a punto de nieve](../00_Bases/03_Tecnicas/montar_claras_a_punto_de_nieve.md): incorporar aire a preparaciones horneadas.
+- [Tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md): generar aroma y contraste de textura.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
