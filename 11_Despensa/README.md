@@ -246,6 +246,19 @@ La familia **Frutas** reúne materias primas para postres, bebidas y preparacion
 
 ---
 
+## Ingredientes para horno, masas y cocina tradicional
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0096 | [Habas tiernas](./06_Verduras/habas_tiernas.md) | Salteados y guarniciones |
+| ING-0097 | [Jamón curado](./03_Carnes/jamon_curado.md) | Sabor y salinidad en platos de verduras |
+| ING-0098 | [Pan rallado](./01_Cereales/pan_rallado.md) | Costras, rebozados y gratinados |
+| ING-0099 | [Levadura de panadería](./15_Reposteria/levadura_panaderia.md) | Fermentación de masas |
+| ING-0100 | [Impulsor químico](./15_Reposteria/impulsor_quimico.md) | Aireación de bizcochos |
+| ING-0101 | [Queso crema](./14_Huevos_Lacteos/queso_crema.md) | Base de tartas y rellenos |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
