@@ -78,6 +78,12 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): marinadas ácidas con conservación refrigerada.
 - [Nata para cocinar](../11_Despensa/13_Bases_Culinarias/nata_para_cocinar.md): acabado de salsas y control del calor.
 
+## Especias y condimentos
+
+- [Comino](../11_Despensa/08_Especias/comino.md): profundidad aromática de salteados y adobos.
+- [Mostaza](../11_Despensa/11_Condimentos/mostaza.md): salsas para cerdo y glaseados de pollo.
+- [Miel](../11_Despensa/11_Condimentos/miel.md): equilibrio dulce de glaseados con mostaza.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.

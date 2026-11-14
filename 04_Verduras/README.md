@@ -85,6 +85,13 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 - [Espinacas](../11_Despensa/06_Verduras/espinacas.md): hojas y gestión del agua.
 - [Calabaza](../11_Despensa/06_Verduras/calabaza.md): textura y dulzor en guisos y cremas.
 
+## Ingredientes de sazonado y guarnición
+
+- [Comino](../11_Despensa/08_Especias/comino.md): zanahorias asadas y salteados.
+- [Mostaza](../11_Despensa/11_Condimentos/mostaza.md): vinagretas para puerros y verduras cocidas.
+- [Miel](../11_Despensa/11_Condimentos/miel.md): glaseados de zanahoria, con control del dorado.
+- [Guisantes](../11_Despensa/06_Verduras/guisantes.md): verdura tierna para guarniciones y cremas.
+
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
