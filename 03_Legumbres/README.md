@@ -29,6 +29,9 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | REC-0035 | [Hummus de garbanzos](./hummus_de_garbanzos.md) | Triturado y textura cremosa |
 | REC-0036 | [Dhal de lentejas rojas](./dhal_de_lentejas_rojas.md) | Cocción especiada y desintegración del grano |
 | REC-0037 | [Ensalada de lentejas](./ensalada_de_lentejas.md) | Punto firme, escurrido y vinagreta |
+| REC-0103 | [Crema de alubias blancas y puerro](./crema_alubias_blancas_puerro.md) | Triturado y textura de crema sin nata |
+| REC-0104 | [Garbanzos salteados con setas y comino](./garbanzos_salteados_setas_comino.md) | Salteado y reducción de humedad |
+| REC-0105 | [Ensalada de garbanzos con pimiento y limón](./ensalada_garbanzos_pimiento_limon.md) | Corte, escurrido y aliño en frío |
 
 ## Ingredientes de autoridad
 
@@ -51,6 +54,9 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | Garbanzos cocidos | [Garbanzos guisados con espinacas](./garbanzos_con_espinacas.md) o [hummus](./hummus_de_garbanzos.md) |
 | Alubias blancas secas y tiempo para remojo | [Alubias estofadas](./alubias_estofadas.md) |
 | Legumbres en conserva | [Plantilla de guiso](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md), patrón de legumbre cocida |
+| Alubias cocidas para una crema | [Crema de alubias y puerro](./crema_alubias_blancas_puerro.md) |
+| Garbanzos cocidos para sartén | [Garbanzos salteados con setas](./garbanzos_salteados_setas_comino.md) |
+| Garbanzos cocidos para plato frío | [Ensalada de garbanzos con pimiento](./ensalada_garbanzos_pimiento_limon.md) |
 | Lentejas rojas partidas | [Dhal especiado](./dhal_de_lentejas_rojas.md) |
 | Lentejas cocidas para plato frío | [Ensalada de lentejas](./ensalada_de_lentejas.md) |
 | Necesidad de controlar remojo o seguridad | [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) |
