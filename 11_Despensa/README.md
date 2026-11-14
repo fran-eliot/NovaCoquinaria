@@ -60,6 +60,8 @@ La despensa se organiza por grandes familias de ingredientes:
 * Condimentos
 * Conservas
 * Bases Culinarias
+* Ingredientes de repostería
+* Frutos de cáscara
 
 La categoría **Cereales** comprende también sus derivados culinarios básicos cuando se utilizan como ingredientes de despensa, por ejemplo pasta seca y sémola. No implica que estos productos sean granos sin procesar.
 
@@ -145,6 +147,21 @@ Las fichas distinguen selección, comportamiento al cocinar, usos, conservación
 | ING-0051 | [Glutamato monosódico](./11_Condimentos/glutamato_monosodico.md) | Ajuste de umami |
 | ING-0052 | [Yogur natural](./14_Huevos_Lacteos/yogur_natural.md) | Acidez y cremosidad en bebidas y salsas |
 | ING-0053 | [Nata para cocinar](./13_Bases_Culinarias/nata_para_cocinar.md) | Cuerpo de salsas y rellenos |
+
+---
+
+## Ingredientes de repostería y bebidas
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0054 | [Harina de trigo](./01_Cereales/harina_de_trigo.md) | Estructura de masas y espesado |
+| ING-0055 | [Leche entera](./14_Huevos_Lacteos/leche_entera.md) | Hidratación, cremas y bebidas |
+| ING-0056 | [Canela](./08_Especias/canela.md) | Aromatización e infusión |
+| ING-0057 | [Cacao puro en polvo](./15_Reposteria/cacao_puro_en_polvo.md) | Aroma, color y absorción de líquido |
+| ING-0058 | [Azúcar blanco](./15_Reposteria/azucar_blanco.md) | Dulzor, estructura y caramelización |
+| ING-0059 | [Nueces](./16_Frutos_Secos/nueces.md) | Textura y aromas tostados |
+
+La organización de Despensa comprende también los **ingredientes de repostería** y los **frutos de cáscara** como familias de referencia.
 
 ---
 
