@@ -65,6 +65,10 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 - [Mantecar un risotto](../00_Bases/03_Tecnicas/mantecar_risotto.md): ligado y acabado fuera del fuego.
 - [Enfriar y recalentar arroz cocido con seguridad](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md): conservación del arroz para uso posterior.
 
+## Variedades de arroz
+
+- [Arroz Albufera](../11_Despensa/01_Cereales/arroz_albufera.md): grano redondo y ajuste de caldo según textura seca, melosa o caldosa.
+
 ## Seguridad y conservación
 
 El arroz cocido debe **enfriarse rápidamente y refrigerarse sin demoras** si no se consume enseguida. No conservarlo durante horas a temperatura ambiente ni confiar en el recalentado para corregir un almacenamiento previo inseguro. Cuando la preparación incorpore pollo, pescado o marisco, aplicar además las comprobaciones de cocción y alérgenos de cada ingrediente.

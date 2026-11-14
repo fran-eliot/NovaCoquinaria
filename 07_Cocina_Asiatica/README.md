@@ -70,6 +70,12 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md).
 - [Hoisin](../11_Despensa/09_Salsas/hoisin.md).
 
+## Aromáticos y medios de cocción
+
+- [Lemongrass](../11_Despensa/08_Especias/lemongrass.md): tallos para infusionar caldos y aromatizar currys.
+- [Aceite de cacahuete](../11_Despensa/10_Aceites/aceite_de_cacahuete.md): aceite de cocción para salteados, distinto del sésamo tostado de acabado.
+- [Glutamato monosódico](../11_Despensa/11_Condimentos/glutamato_monosodico.md): ajuste específico de umami en platos y salsas.
+
 ## Seguridad y alérgenos
 
 - Cocinar completamente proteínas animales y evitar contaminación cruzada.

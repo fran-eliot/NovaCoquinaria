@@ -13,7 +13,7 @@
 ### Cereales
 
 * [ ] Arroz basmati
-* [ ] Arroz Albufera
+* [x] Arroz Albufera
 * [ ] Arroz jazmín
 
 ### Salsas
@@ -27,18 +27,18 @@
 ### Aceites
 
 * [ ] Aceite de sésamo
-* [ ] Aceite de cacahuete
+* [x] Aceite de cacahuete
 
 ### Especias
 
 * [ ] Curry amarillo
 * [ ] Curry verde
 * [ ] Cinco especias chinas
-* [ ] Lemongrass
+* [x] Lemongrass
 
 ### Condimentos
 
-* [ ] Ajinomoto
+* [x] Ajinomoto
 * [ ] Vinagre negro chino
 * [ ] Vinagre de arroz
 
