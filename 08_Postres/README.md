@@ -83,6 +83,11 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Pera](../11_Despensa/17_Frutas/pera.md): controlar madurez y ternura durante pochado y horneado.
 - [Naranja](../11_Despensa/17_Frutas/naranja.md): diferenciar zumo y ralladura al aromatizar elaboraciones dulces.
 
+## Aromas de cremas y preparaciones dulces
+
+- [Nuez moscada](../11_Despensa/08_Especias/nuez_moscada.md): dosis pequeñas en elaboraciones lácteas.
+- [Cardamomo](../11_Despensa/08_Especias/cardamomo.md): aromatización floral de arroz con leche y bebidas.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
