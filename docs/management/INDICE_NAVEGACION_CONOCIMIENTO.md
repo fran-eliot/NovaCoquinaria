@@ -40,7 +40,7 @@ Acceso directo a índices de dominio para explorar recetas, técnicas y relacion
 
 ## Gobernanza
 
-- [Modelo de gobernanza del SGCC](../governance/GOVERNANCE_MODEL.md)
+- Modelo de gobernanza del SGCC (`GOV-0000`): ruta pendiente de localizar y verificar; no se enlaza hasta confirmar su ubicación.
 - [Protocolo de colaboración](../governance/AI_PROTOCOL.md)
 - [Estrategia de evolución del conocimiento](../governance/KNOWLEDGE_STRATEGY.md)
 - [Modelo de deuda de conocimiento](../governance/KNOWLEDGE_DEBT.md)
@@ -52,6 +52,6 @@ Acceso directo a índices de dominio para explorar recetas, técnicas y relacion
 
 ## Interpretación de la auditoría
 
-Este índice da acceso contextual a los 18 documentos señalados en la ejecución de referencia. Una nueva ejecución de `find_orphans.py` puede dejar de clasificarlos como huérfanos porque ahora reciben enlaces entrantes; **esa reducción mide conectividad del grafo, no calidad ni reutilización efectiva del contenido**.
+Este índice da acceso contextual a 17 de los 18 documentos señalados en la ejecución de referencia. El modelo de gobernanza (`GOV-0000`) queda pendiente de localización: el enlace inicialmente propuesto no corresponde a un archivo existente en esa ruta. Una nueva ejecución de `find_orphans.py` puede dejar de clasificarlos como huérfanos porque ahora reciben enlaces entrantes; **esa reducción mide conectividad del grafo, no calidad ni reutilización efectiva del contenido**.
 
 La revisión posterior debe valorar la pertinencia de cada relación, la vigencia de la documentación y la necesidad de incorporar enlaces desde documentos de uso real.
