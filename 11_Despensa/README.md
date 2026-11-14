@@ -178,6 +178,19 @@ La organización de Despensa comprende también los **ingredientes de reposterí
 
 ---
 
+## Aromáticos, condimentos y verduras de guarnición
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0066 | [Perejil](./08_Especias/perejil.md) | Acabados frescos y salsas verdes |
+| ING-0067 | [Comino](./08_Especias/comino.md) | Aromatización de legumbres y verduras |
+| ING-0068 | [Pimentón](./08_Especias/pimenton.md) | Color y aroma de guisos |
+| ING-0069 | [Mostaza](./11_Condimentos/mostaza.md) | Salsas, aliños y glaseados |
+| ING-0070 | [Miel](./11_Condimentos/miel.md) | Dulzor y glaseados |
+| ING-0071 | [Guisantes](./06_Verduras/guisantes.md) | Guarniciones, arroces y pescados |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
