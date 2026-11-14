@@ -91,6 +91,11 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Romero](../11_Despensa/08_Especias/romero.md): aroma de focaccia y patatas asadas.
 - [Aceitunas negras](../11_Despensa/11_Condimentos/aceitunas_negras.md): variaciones salinas de masas al horno.
 
+## Fruta para hornear
+
+- [Manzana](../11_Despensa/17_Frutas/manzana.md): textura y humedad de fruta entera o laminada.
+- [Pera](../11_Despensa/17_Frutas/pera.md): elección de madurez para cubiertas y asados.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
