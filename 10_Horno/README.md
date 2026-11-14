@@ -74,6 +74,12 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md): dorado final sobre una base ya cocinada.
 - [Tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md): acabado crujiente de fruta y otros platos.
 
+## Ingredientes de referencia
+
+- [Patata](../11_Despensa/06_Verduras/patata.md): densidad y cocción de guarniciones.
+- [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md): vaciado y control del agua en rellenos.
+- [Mantequilla](../11_Despensa/14_Huevos_Lacteos/mantequilla.md): manejo de grasas en elaboraciones de horno.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
