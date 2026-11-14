@@ -42,9 +42,11 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 
 ## Situación actual
 
-NovaCoquinaria dispone de una arquitectura documental consolidada, un modelo formal de conocimiento, un marco completo de gobernanza y un conjunto integral de especificaciones que describen la organización, los motores de ejecución, las interfaces y la evolución del SGCC.
+NovaCoquinaria dispone actualmente de una arquitectura documental consolidada, un modelo formal de conocimiento, un marco completo de gobernanza y un conjunto integral de especificaciones que describen la organización, los motores de ejecución, las interfaces y la evolución del SGCC.
 
-La siguiente etapa del proyecto consistirá en consolidar el dominio culinario mediante la ampliación sistemática de ingredientes, técnicas, plantillas, recetas y relaciones semánticas. El desarrollo de la plataforma software queda pospuesto hasta disponer de una base de conocimiento suficientemente madura.
+Tras completar este marco de especificaciones (v1.5.0), el proyecto ha iniciado una nueva fase centrada en la expansión sistemática del conocimiento culinario. Durante esta etapa se ha consolidado el dominio **Currys** como primer dominio culinario completo del repositorio, validando el modelo mediante ingredientes, técnicas, plantillas, tablas comparativas y recetas reutilizables.
+
+El sistema de auditoría del conocimiento permite medir automáticamente la cobertura estructural, la madurez y la reutilización del conocimiento por dominios culinarios, facilitando la planificación de futuras ampliaciones.
 
 ---
 
@@ -84,7 +86,33 @@ Actualmente el SGCC permite:
 - gobernar dependencias;
 - mantener terminología unificada;
 - validar coherencia documental;
-- generar documentación automáticamente.
+- generar documentación automáticamente;
+- auditar automáticamente la madurez de los dominios culinarios.
+
+---
+
+## Estado de los dominios culinarios
+
+| Dominio | Estado |
+|----------|---------|
+| Currys | 🌳 Consolidado |
+| Salteados asiáticos | 🌿 Estructurado |
+| Arroces | 🌿 Estructurado |
+| Verduras | 🌿 Estructurado |
+| Carnes | 🌿 Estructurado |
+| Pescados y mariscos | 🌿 Estructurado |
+| Huevos y lácteos | 🌿 Estructurado |
+| Pastas | 🌱 Exploración |
+| Legumbres | 🌱 Exploración |
+| Postres | 🌱 Exploración |
+
+> Estado obtenido mediante la auditoría automática del conocimiento (`audit_knowledge.py`).
+
+---
+
+## Próximo objetivo
+
+Continuar la expansión del conocimiento culinario aplicando el modelo consolidado en Currys a nuevos dominios, comenzando por Pastas o Legumbres, e incorporando progresivamente nuevos ingredientes, técnicas, tablas y recetas de autoridad.
 
 ---
 

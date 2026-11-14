@@ -47,7 +47,7 @@ El conocimiento sobre un ingrediente debe documentarse una única vez y reutiliz
 
 La despensa se organiza por grandes familias de ingredientes:
 
-* Cereales
+* Cereales (incluidos derivados culinarios básicos, como pasta seca y sémola)
 * Legumbres
 * Carnes
 * Pescados
@@ -60,6 +60,8 @@ La despensa se organiza por grandes familias de ingredientes:
 * Condimentos
 * Conservas
 * Bases Culinarias
+
+La categoría **Cereales** comprende también sus derivados culinarios básicos cuando se utilizan como ingredientes de despensa, por ejemplo pasta seca y sémola. No implica que estos productos sean granos sin procesar.
 
 Esta clasificación podrá ampliarse conforme evolucione el proyecto.
 

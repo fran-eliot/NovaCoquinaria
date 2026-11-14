@@ -405,6 +405,41 @@ La futura plataforma podrá desarrollarse sobre un dominio culinario mucho más 
 
 ---
 
+## 2026-08-03 · Consolidación del primer dominio culinario
+
+### Qué ocurrió
+
+Se completó la consolidación del dominio culinario **Currys**, convirtiéndose en el primer dominio del SGCC que dispone de una estructura completa de conocimiento.
+
+### Qué cambió
+
+- incorporación de la técnica de autoridad «Cocinar un curry»;
+- creación de la tabla comparativa «Familias de curry»;
+- incorporación del ingrediente «Curry verde»;
+- incorporación de la receta «Curry verde de pollo»;
+- creación de la categoría `07_Comparativas` dentro de `98_Tablas`;
+- ampliación de la auditoría del conocimiento para reconocer tablas y técnicas como documentos de autoridad.
+
+### Resultado
+
+El dominio Currys alcanza:
+
+- cobertura estructural del 100 %;
+- estado «🌳 Consolidado»;
+- dos familias implementadas (amarillo y verde).
+
+### Impacto
+
+El dominio Currys pasa a ser el modelo de referencia para la futura expansión de los demás dominios culinarios del SGCC.
+
+La arquitectura documental y el sistema de auditoría quedan validados mediante un caso de uso completo y reutilizable.
+
+### Por qué ocurrió
+
+Era necesario comprobar que el modelo documental del SGCC podía aplicarse de forma consistente a un dominio culinario real, reutilizando conocimiento entre ingredientes, técnicas, plantillas, tablas y recetas sin duplicaciones innecesarias.
+
+---
+
 # Próximos capítulos
 
 La Bitácora continuará registrando únicamente acontecimientos que transformen la evolución del proyecto.
