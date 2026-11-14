@@ -76,6 +76,11 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 - [Naranja](../11_Despensa/17_Frutas/naranja.md): zumo y piel para infusiones y bebidas cítricas.
 - [Menta fresca](../11_Despensa/08_Especias/menta_fresca.md): maceración suave y acabados aromáticos.
 
+## Especias para infusiones y bebidas con leche
+
+- [Cúrcuma](../11_Despensa/08_Especias/curcuma.md): dispersión y equilibrio de la leche dorada.
+- [Cardamomo](../11_Despensa/08_Especias/cardamomo.md): cápsulas aromáticas para té chai.
+
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
 - Las bebidas con leche contienen lácteos salvo sustitución indicada.
