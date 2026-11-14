@@ -58,6 +58,13 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 - **Café sin calentamiento:** [cold brew](./cafe_cold_brew.md) desarrolla la extracción durante una inmersión refrigerada.
 - **Especias en leche:** [leche dorada](./leche_dorada_con_curcuma.md) combina dispersión y calor suave.
 
+## Ingredientes para bebidas
+
+- [Leche entera](../11_Despensa/14_Huevos_Lacteos/leche_entera.md): cuerpo y base de bebidas calientes o frías.
+- [Canela](../11_Despensa/08_Especias/canela.md): aromatización de infusiones con especias.
+- [Cacao puro en polvo](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md): dispersión de polvo y sabor a chocolate.
+- [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): ajuste de dulzor según la bebida.
+
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
 - Las bebidas con leche contienen lácteos salvo sustitución indicada.
