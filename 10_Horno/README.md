@@ -107,6 +107,13 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 
 - [Cuscús de trigo](../11_Despensa/01_Cereales/cuscus_trigo.md): hidratación previa y control de la humedad en tomates rellenos.
 
+## Verduras y legumbres al horno
+
+- [Calabaza asada con yogur y comino](../04_Verduras/calabaza_asada_con_yogur_y_comino.md): dorado de calabaza y salsa fría.
+- [Berenjenas rellenas de garbanzos](../04_Verduras/berenjenas_rellenas_de_garbanzos_y_tomate.md): reducción del relleno y horneado.
+- [Patatas aplastadas con romero](../04_Verduras/patatas_aplastadas_con_romero_y_ajo.md): precocción y acabado crujiente.
+- [Garbanzos crujientes con especias](../03_Legumbres/garbanzos_crujientes_al_horno_con_especias.md): secado y asado de grano ya cocido.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
