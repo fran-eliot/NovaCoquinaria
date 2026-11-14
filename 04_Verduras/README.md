@@ -47,6 +47,12 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | TEC-0011 | [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md) | Dorado en bandeja |
 | TEC-0012 | [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) | Cocción, triturado y densidad |
 
+## Técnicas de precocción y aliño
+
+- [Blanquear y escaldar verduras](../00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md) para preparar hortalizas antes del salteado.
+- [Cocer verduras al vapor](../00_Bases/03_Tecnicas/cocer_verduras_al_vapor.md) para controlar ternura sin dorado.
+- [Emulsionar vinagretas y aliños](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md) para terminar puerros, ensaladas y verduras cocidas.
+
 ## Ingredientes de autoridad
 
 | Ingrediente | Ficha |
