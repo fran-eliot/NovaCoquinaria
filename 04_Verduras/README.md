@@ -1,0 +1,89 @@
+---
+id: MOD-VERDURAS
+tipo: modulo
+titulo: Verduras
+categoria: Verduras
+estado: borrador
+version: 1.0.0
+ultima_revision: 2026-11-14
+etiquetas:
+  - verduras
+  - recetas
+  - tecnicas
+  - indice
+---
+
+# Verduras
+
+## Objetivo
+
+El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas mediante salteado, asado y cocción seguida de triturado. La selección de método responde a la textura, la humedad y el sabor buscados.
+
+## Recetas disponibles
+
+| ID | Receta | Enfoque |
+|---|---|---|
+| REC-0038 | [Salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md) | Salteado por tandas |
+| REC-0039 | [Verduras asadas al horno](./verduras_asadas_al_horno.md) | Asado escalonado |
+| REC-0040 | [Crema de calabacín](./crema_de_calabacin.md) | Pochado y triturado |
+
+## Técnicas de referencia
+
+| ID | Técnica | Aplicación |
+|---|---|---|
+| TEC-0010 | [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md) | Dorado en sartén y control de humedad |
+| TEC-0011 | [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md) | Dorado en bandeja |
+| TEC-0012 | [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) | Cocción, triturado y densidad |
+
+## Ingredientes de autoridad
+
+| Ingrediente | Ficha |
+|---|---|
+| Calabacín | [Calabacín](../11_Despensa/06_Verduras/calabacin.md) |
+| Pimiento | [Pimiento](../11_Despensa/06_Verduras/pimiento.md) |
+| Zanahoria | [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md) |
+| Cebolla | [Cebolla](../11_Despensa/06_Verduras/cebolla.md) |
+| Ajo | [Ajo](../11_Despensa/06_Verduras/ajo.md) |
+| Champiñón | [Champiñón](../11_Despensa/07_Setas/champinon.md) |
+
+## Plantillas
+
+- [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
+
+## Elegir una técnica
+
+| Objetivo | Técnica o receta recomendada |
+|---|---|
+| Verduras con bordes dorados en poco tiempo | [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md) |
+| Guarnición con sabores concentrados | [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md) |
+| Plato de cuchara suave | [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) |
+| Usar calabacín y pimiento | [Salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md) |
+| Aprovechar varias hortalizas | [Verduras asadas al horno](./verduras_asadas_al_horno.md) |
+
+## Ruta de aprendizaje
+
+1. Leer [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md) y preparar el [salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md).
+2. Comparar la gestión de humedad en [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md) y en la [receta de verduras asadas](./verduras_asadas_al_horno.md).
+3. Practicar [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) con la [crema de calabacín](./crema_de_calabacin.md).
+4. Adaptar la [plantilla de salteado](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) a otras verduras y condimentos.
+
+## Criterios del módulo
+
+- Diferenciar cocción en sartén, horno y medio húmedo.
+- Ajustar los cortes a la densidad y al agua de cada hortaliza.
+- Evitar tiempos universales que ignoren el tamaño y el equipo.
+- Explicar los puntos críticos de textura y dorado.
+- Mantener referencias cruzadas entre recetas, técnicas, ingredientes y plantillas.
+- Documentar variantes como adaptaciones, no como equivalencias automáticas.
+
+## Conservación
+
+Consultar [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md) para enfriamiento, refrigeración y congelación de preparaciones cocinadas.
+
+## Evolución del módulo
+
+Se ampliará con verduras rellenas, gratinados, purés, ensaladas templadas, preparaciones al vapor y recetas de temporada, incorporando técnicas o perfiles que aporten valor adicional.
+
+## Utilizado por
+
+Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
