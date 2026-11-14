@@ -90,6 +90,10 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Cacahuetes](../11_Despensa/16_Frutos_Secos/cacahuetes.md): crema para salsas de fideos y grano tostado para acabados.
 - [Tahini](../11_Despensa/16_Frutos_Secos/tahini.md): pasta de sésamo con comportamiento diferente al aceite tostado.
 
+## Especias de color y fondo
+
+- [Cúrcuma](../11_Despensa/08_Especias/curcuma.md): aportar color y matiz terroso sin confundirla con una mezcla de curry.
+
 ## Seguridad y alérgenos
 
 - Cocinar completamente proteínas animales y evitar contaminación cruzada.
