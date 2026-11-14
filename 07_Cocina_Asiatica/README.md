@@ -49,6 +49,12 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md): salinidad, acidez, dulzor, umami y picante.
 - [Comparativa de salsas asiáticas](../98_Tablas/07_Comparativas/salsas_asiaticas.md): perfiles, sustituciones y alérgenos.
 
+## Desarrollo de aromas y caldos
+
+- [Tostar y activar especias](../00_Bases/03_Tecnicas/tostar_y_activar_especias.md): adaptar la extracción aromática a semillas y especias molidas.
+- [Preparar caldos culinarios](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md): construir una base de sabor para sopas.
+- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md): controlar el hervor en sopas y currys.
+
 ## Ingredientes de referencia
 
 - [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md).
