@@ -71,13 +71,13 @@ Incorporar tomate triturado y cocinar 3–5 minutos.
 
 ### 5. Añadir lentejas y líquido
 
-Agregar las lentejas y 750 ml de agua o caldo. Llevar a hervor y reducir a cocción suave, removiendo ocasionalmente.
+Agregar las lentejas y 750 ml de agua o caldo. Llevar a hervor y reducir a cocción suave, removiendo periódicamente y pasando la espátula por el fondo, sobre todo al comenzar a espesar.
 
-Cocinar aproximadamente 12–20 minutos, o hasta que las lentejas estén completamente tiernas y comiencen a deshacerse. Añadir más líquido si se espesa demasiado.
+Cocinar aproximadamente 12–20 minutos, o hasta que las lentejas estén completamente tiernas y se deshagan con facilidad al presionarlas. Añadir el líquido restante en pequeñas tandas si adquiere una consistencia demasiado espesa antes de completarse la cocción; el tiempo depende de la variedad y del lote.
 
 ### 6. Ajustar y terminar
 
-Probar y salar. Ajustar con agua caliente hasta obtener la textura deseada. Añadir limón y cilantro fresco opcionales al servir.
+Probar y salar. Apagar el fuego cuando la mezcla esté algo más fluida que la consistencia deseada, porque seguirá espesando durante el reposo; dejar reposar 3–5 minutos y ajustar con agua caliente si fuera necesario. Añadir limón y cilantro fresco opcionales al servir.
 
 ## Puntos críticos
 
@@ -95,9 +95,9 @@ Crema espesa y homogénea, con notas de jengibre, comino y cúrcuma, y un punto 
 
 | Variante | Ajuste |
 |---|---|
-| Con leche de coco | Sustituir parte del agua por leche de coco |
+| Con leche de coco | Sustituir unos 200–250 ml del líquido total por leche de coco sin azúcar; añadirla hacia el final de la cocción y ajustar el resto de agua para mantener una textura fluida mientras las lentejas terminan de ablandarse |
 | Con espinacas | Incorporar al final |
-| Con templado de especias | Añadir aceite especiado recién preparado al servir |
+| Con templado de especias | Calentar aparte 1 cucharada de aceite con una pizca de comino en grano hasta que desprenda aroma, sin dejar que se queme, y verterlo sobre el dhal al servir |
 | Más ligero | Añadir agua o caldo |
 | Más picante | Ajustar chile al final |
 

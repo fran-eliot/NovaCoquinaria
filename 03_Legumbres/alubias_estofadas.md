@@ -64,11 +64,11 @@ Si se utiliza pimentón, apartar la cazuela del fuego y añadirlo removiendo par
 
 ### 3. Incorporar las alubias
 
-Añadir las alubias remojadas y escurridas, el laurel y agua nueva suficiente para cubrirlas holgadamente. Llevar a ebullición y continuar la cocción siguiendo las indicaciones del fabricante y la técnica de cocción de legumbres.
+Añadir las alubias remojadas y escurridas, el laurel y agua nueva suficiente para cubrirlas unos 2–3 cm, con margen para la expansión. Llevar a ebullición y aplicar el tratamiento inicial indicado para la variedad y por el fabricante antes de pasar a la cocción suave; consultar la técnica de cocción de legumbres.
 
 ### 4. Cocinar suavemente
 
-Mantener un hervor suave durante aproximadamente 75–120 minutos, o el tiempo necesario hasta que varias alubias estén completamente tiernas. Reponer con agua caliente cuando sea necesario y remover con cuidado para no romperlas.
+Mantener un hervor suave durante aproximadamente 75–120 minutos, o el tiempo necesario hasta que varias alubias de distintas zonas estén completamente tiernas, sin centro harinoso o duro. Mantenerlas cubiertas, reponer agua caliente poco a poco y mover la cazuela con suavidad en lugar de remover enérgicamente. Los tiempos no sustituyen las indicaciones de cocción segura de la variedad.
 
 ### 5. Espesar el caldo
 
@@ -96,7 +96,7 @@ Alubias tiernas y mayoritariamente enteras, hortalizas suaves y caldo cremoso, s
 |---|---|
 | Con tomate | Añadirlo cuando las alubias estén parcialmente tiernas |
 | Con setas | Saltear aparte e incorporar al final |
-| Con alubias cocidas en conserva | Reducir el proceso a sofrito, caldo e integración breve |
+| Con alubias cocidas en conserva | Usar unos 700–800 g escurridos como punto de partida para 4 raciones; preparar sofrito y caldo aparte e incorporar la conserva 8–10 minutos antes del final, evitando una segunda cocción prolongada |
 | Con romero | Añadir una pequeña rama durante la cocción y retirar |
 | Con espinacas | Incorporar al final hasta que estén cocinadas |
 

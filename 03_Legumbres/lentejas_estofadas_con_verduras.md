@@ -68,11 +68,11 @@ Si las lentejas de ese lote suelen tardar en ablandarse, puede reservarse el tom
 
 Añadir las lentejas, el laurel y suficiente agua o caldo para cubrirlas holgadamente. Llevar a ebullición y reducir a hervor suave.
 
-Cocinar aproximadamente 20–40 minutos, comprobando varias lentejas y añadiendo agua caliente si fuera necesario. El tiempo real puede ser mayor.
+Cocinar aproximadamente 20–40 minutos desde que comienza el hervor suave, sin tomar ese intervalo como garantía: comprobar varias lentejas de distintas zonas de la cazuela y prolongar la cocción si el centro sigue firme. Añadir agua caliente cuando el nivel disminuya y remover con suavidad para evitar que se agarren al fondo. El tiempo real puede ser mayor.
 
 ### 4. Ajustar la textura
 
-Cuando estén tiernas, ajustar sal y pimienta. Para espesar sin harina, triturar una pequeña parte de lentejas y verduras cocidas y devolverla al guiso.
+Cuando estén completamente tiernas, retirar una pequeña cantidad de lentejas y verduras con caldo, triturar y devolverla al guiso si se desea más cuerpo. Dejar hervir suavemente 2–3 minutos para integrar el triturado; ajustar el líquido antes de rectificar sal y pimienta.
 
 ### 5. Terminar
 
@@ -97,7 +97,7 @@ Lentejas tiernas pero reconocibles, verduras suaves y caldo ligeramente espeso, 
 | Con comino | Incorporar una pizca al sofrito |
 | Con espinacas | Añadir hojas al final |
 | Con lenteja roja partida | Reducir tiempos y esperar una textura mucho más cremosa |
-| Con lentejas cocidas | Preparar el sofrito y añadirlas al final con menos líquido |
+| Con lentejas cocidas | Utilizar aproximadamente 700–800 g escurridos como punto de partida; preparar el sofrito, reducir el caldo a 350–500 ml e integrar las lentejas 8–10 minutos a hervor suave, sin volver a someterlas a una cocción larga |
 
 ## Errores frecuentes
 

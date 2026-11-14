@@ -47,7 +47,7 @@ Potaje vegetal rápido a partir de garbanzos ya cocidos, espinacas, ajo, cebolla
 
 ## Mise en place
 
-Si se utilizan garbanzos en conserva, escurrirlos y enjuagarlos cuando interese reducir la sal o el líquido de gobierno. Descongelar las espinacas si procede y escurrir el exceso de agua. Preparar las verduras.
+Si se utilizan garbanzos en conserva, escurrirlos y enjuagarlos cuando interese reducir la sal o el líquido de gobierno. Si las espinacas se descongelan previamente, hacerlo en refrigeración y escurrir el exceso de agua; también pueden añadirse directamente congeladas si las instrucciones del producto lo permiten, prolongando la cocción hasta que estén bien calientes. Preparar las verduras.
 
 ## Elaboración
 
@@ -65,11 +65,11 @@ Añadir 350 ml de agua o caldo y llevar a hervor suave. Incorporar los garbanzos
 
 ### 4. Añadir espinacas
 
-Incorporar las espinacas y cocinar hasta que estén completamente calientes y tiernas, generalmente 3–5 minutos si son frescas; ajustar según el producto congelado.
+Incorporar las espinacas frescas en tandas para facilitar que pierdan volumen; cocinar aproximadamente 3–5 minutos hasta que estén tiernas. Si se usan congeladas, deshacer los bloques según se ablanden y prolongar la cocción hasta que no queden zonas frías; ajustar el agua del guiso en función del líquido que liberen.
 
 ### 5. Ajustar y servir
 
-Para un caldo más espeso, triturar una pequeña porción de garbanzos y devolverla a la cazuela. Probar antes de salar, especialmente si se usa conserva o caldo comercial. Terminar con limón opcional fuera del fuego.
+Para un caldo más espeso, triturar 2–3 cucharadas de garbanzos con algo de líquido y devolver la mezcla a la cazuela; cocinar 2 minutos más para integrar. Probar antes de salar, especialmente si se usa conserva o caldo comercial. Terminar con unas gotas de limón fuera del fuego para ajustar la acidez sin dominar el pimentón.
 
 ## Puntos críticos
 
@@ -88,7 +88,7 @@ Garbanzos enteros y tiernos, espinacas integradas y caldo sabroso, ligeramente t
 |---|---|
 | Con huevo duro | Añadir al servir |
 | Con pan tostado | Incorporar picada para espesar |
-| Con bacalao desalado | Añadir según su tiempo de cocción; cambia alérgenos |
+| Con bacalao desalado | Incorporar trozos de bacalao correctamente desalado hacia el final y cocinar hasta que estén completamente hechos; comprobar la sal antes de ajustar y declarar pescado como alérgeno |
 | Sin tomate | Sustituir por algo más de caldo y ajustar acidez |
 | Con acelgas | Adaptar tiempo de cocción de pencas y hojas |
 
