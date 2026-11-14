@@ -69,6 +69,11 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 
 - [Arroz Albufera](../11_Despensa/01_Cereales/arroz_albufera.md): grano redondo y ajuste de caldo según textura seca, melosa o caldosa.
 
+## Ingredientes para arroz frito
+
+- [Kimchi](../11_Despensa/12_Conservas/kimchi.md): aporta acidez y salinidad al arroz frito.
+- [Cilantro fresco](../11_Despensa/08_Especias/cilantro_fresco.md): acabado aromático opcional de arroces especiados.
+
 ## Seguridad y conservación
 
 El arroz cocido debe **enfriarse rápidamente y refrigerarse sin demoras** si no se consume enseguida. No conservarlo durante horas a temperatura ambiente ni confiar en el recalentado para corregir un almacenamiento previo inseguro. Cuando la preparación incorpore pollo, pescado o marisco, aplicar además las comprobaciones de cocción y alérgenos de cada ingrediente.

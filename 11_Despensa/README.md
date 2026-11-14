@@ -191,6 +191,19 @@ La organización de Despensa comprende también los **ingredientes de reposterí
 
 ---
 
+## Ingredientes para cocina asiática y fermentados
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0072 | [Kimchi](./12_Conservas/kimchi.md) | Fermentado ácido, salado y picante |
+| ING-0073 | [Tofu firme](./02_Legumbres/tofu_firme.md) | Proteína vegetal y dorado |
+| ING-0074 | [Fideos de arroz](./01_Cereales/fideos_de_arroz.md) | Base de sopas y salteados |
+| ING-0075 | [Lima](./11_Condimentos/lima.md) | Acidez y frescor cítrico |
+| ING-0076 | [Cilantro fresco](./08_Especias/cilantro_fresco.md) | Acabado herbáceo y cítrico |
+| ING-0077 | [Shiitake](./07_Setas/shiitake.md) | Umami en sopas, arroces y salteados |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
