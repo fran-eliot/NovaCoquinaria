@@ -97,6 +97,10 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 - [Habas tiernas](../11_Despensa/06_Verduras/habas_tiernas.md): selección según madurez y control de la cocción.
 - [Jamón curado](../11_Despensa/03_Carnes/jamon_curado.md): aporte de sabor y salinidad para habas y otros salteados.
 
+## Hortalizas de preparación específica
+
+- [Alcachofa](../11_Despensa/06_Verduras/alcachofa.md): retirar partes fibrosas y coordinar su cocción en guisos.
+
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
