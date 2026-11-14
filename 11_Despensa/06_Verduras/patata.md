@@ -1,5 +1,5 @@
 ---
-id: ING-0041
+id: ING-0042
 tipo: ingrediente
 titulo: Patata
 categoria: Verduras y tubérculos
