@@ -336,6 +336,17 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Aplicaciones recientes de arroces y carnes
+
+- [Arroz seco de verduras con azafrán](../01_Arroces/arroz_seco_de_verduras_con_azafran.md): uso de arroz Albufera, alcachofa, azafrán y caldo vegetal.
+- [Arroz meloso de bacalao y espinacas](../01_Arroces/arroz_meloso_de_bacalao_y_espinacas.md): integración final de pescado y fondo marino.
+- [Arroz basmati con garbanzos y especias](../01_Arroces/arroz_basmati_con_garbanzos_y_especias.md): absorción y legumbre cocida.
+- [Pollo guisado con limón y aceitunas](../05_Carnes/pollo_guisado_con_limon_y_aceitunas.md): equilibrio cítrico y salino.
+- [Secreto de cerdo con naranja y jengibre](../05_Carnes/secreto_de_cerdo_con_salsa_de_naranja_y_jengibre.md): reducción breve de zumo.
+- [Ternera salteada con setas y mirin](../05_Carnes/ternera_salteada_con_setas_y_mirin.md): dorado separado y salsa de soja.
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
