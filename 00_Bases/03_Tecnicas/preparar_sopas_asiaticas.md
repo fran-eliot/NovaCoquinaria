@@ -48,6 +48,7 @@ Conservar caldos y productos perecederos refrigerados, evitar contaminación cru
 - [Sopa de miso con tofu](../../07_Cocina_Asiatica/sopa_de_miso_con_tofu.md)
 - [Tom yum de gambas](../../07_Cocina_Asiatica/tom_yum_de_gambas.md)
 - [Plantilla de sopa asiática](../../12_Plantillas/04_Cocciones/sopa_asiatica_base.md)
+- [Miso: dosificación y uso en sopas](../../11_Despensa/09_Salsas/miso.md)
 
 ## Principio de NovaCoquinaria
 > Una sopa aromática se construye por capas; los ingredientes delicados entran al final.
