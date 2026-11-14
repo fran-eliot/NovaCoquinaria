@@ -95,6 +95,12 @@ Este incremento atiende los dos hallazgos restantes:
 
 **Resultado pendiente de verificar:** se espera que ambas relaciones sean reconocidas por el grafo, pero el número final de advertencias se determinará mediante una nueva ejecución de GitHub Actions. Los documentos huérfanos requieren un trabajo de navegación separado; no se consideran resueltos por este cambio.
 
+## Navegación de documentos sin referencias entrantes — 2026-11-14
+
+La ejecución [Knowledge integrity #12](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/43625192175) terminó con **0 advertencias semánticas** y **18 nodos sin referencias entrantes**. El detector considera documentos con Front Matter y enlaces entre ellos; por ello, una referencia desde el README principal sin Front Matter no siempre queda representada en el grafo.
+
+Se incorpora el [índice transversal de navegación](./INDICE_NAVEGACION_CONOCIMIENTO.md), que agrupa los 18 documentos identificados por finalidad: módulos, plantilla, gestión, gobernanza y especificaciones. El índice permite descubrir contenido y ofrece un punto de partida para revisar su vigencia. **Una reducción del recuento de huérfanos tras enlazarlos no debe interpretarse como una mejora automática de la calidad semántica**; las relaciones de uso real siguen siendo objeto de revisión.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
