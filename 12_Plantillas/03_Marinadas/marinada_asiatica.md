@@ -1,6 +1,6 @@
 ---
 
-id: PLA-0004
+id: PLA-0011
 tipo: plantilla
 titulo: Marinada asiática
 categoria: Plantillas
