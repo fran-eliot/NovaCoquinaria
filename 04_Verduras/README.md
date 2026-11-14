@@ -46,6 +46,9 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | Ingrediente | Ficha |
 |---|---|
 | Calabacín | [Calabacín](../11_Despensa/06_Verduras/calabacin.md) |
+| Berenjena | [Berenjena](../11_Despensa/06_Verduras/berenjena.md) |
+| Brócoli | [Brócoli](../11_Despensa/06_Verduras/brocoli.md) |
+| Puerro | [Puerro](../11_Despensa/06_Verduras/puerro.md) |
 | Pimiento | [Pimiento](../11_Despensa/06_Verduras/pimiento.md) |
 | Zanahoria | [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md) |
 | Cebolla | [Cebolla](../11_Despensa/06_Verduras/cebolla.md) |
@@ -55,6 +58,11 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
+- [Crema de verduras](../12_Plantillas/04_Cocciones/crema_de_verduras.md) — patrón adaptable para pochado, cocción y triturado.
+
+## Diagnóstico
+
+- [Diagnóstico de preparaciones de verduras](../98_Tablas/07_Comparativas/diagnostico_verduras.md) — tabla comparativa de problemas y correcciones en salteados, asados, pochados y cremas.
 
 ## Elegir una técnica
 
