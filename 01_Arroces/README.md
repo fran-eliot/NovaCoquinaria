@@ -58,6 +58,13 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 - [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md) y [arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md): cereales de referencia.
 - [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md): orientación transversal.
 
+## Técnicas específicas de arroz
+
+- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md): medición del líquido, tapa y reposo.
+- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md): textura y ajuste de caldo.
+- [Mantecar un risotto](../00_Bases/03_Tecnicas/mantecar_risotto.md): ligado y acabado fuera del fuego.
+- [Enfriar y recalentar arroz cocido con seguridad](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md): conservación del arroz para uso posterior.
+
 ## Seguridad y conservación
 
 El arroz cocido debe **enfriarse rápidamente y refrigerarse sin demoras** si no se consume enseguida. No conservarlo durante horas a temperatura ambiente ni confiar en el recalentado para corregir un almacenamiento previo inseguro. Cuando la preparación incorpore pollo, pescado o marisco, aplicar además las comprobaciones de cocción y alérgenos de cada ingrediente.
