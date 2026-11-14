@@ -53,6 +53,12 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 - [Cocer verduras al vapor](../00_Bases/03_Tecnicas/cocer_verduras_al_vapor.md) para controlar ternura sin dorado.
 - [Emulsionar vinagretas y aliños](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md) para terminar puerros, ensaladas y verduras cocidas.
 
+## Corte y sazonado
+
+- [Cortar verduras con uniformidad y seguridad](../00_Bases/02_Cortes/cortar_verduras_con_uniformidad.md): adaptar el tamaño de corte al salteado, asado o guiso.
+- [Salar por etapas](../00_Bases/04_Sazonado/salar_por_etapas.md): moderar la sal cuando las hortalizas pierden agua o se incorporan ingredientes salados.
+- [Equilibrar acidez, dulzor y amargor](../00_Bases/04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md): ajustar el acabado de pisto y verduras aliñadas.
+
 ## Ingredientes de autoridad
 
 | Ingrediente | Ficha |
