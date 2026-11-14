@@ -59,6 +59,7 @@ Arroz cocido lentamente en leche aromatizada con canela y limón hasta obtener u
 Refrigerar rápidamente en recipientes poco profundos y consumir en pocos días; no mantener a temperatura ambiente por el riesgo asociado al arroz cocido.
 
 ## Relaciones
+- [Diagnóstico de postres: texturas y cocción](../98_Tablas/07_Comparativas/diagnostico_postres.md)
 - [Índice de postres](./README.md)
 
 ## Principio de NovaCoquinaria

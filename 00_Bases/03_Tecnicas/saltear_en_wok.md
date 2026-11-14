@@ -72,6 +72,7 @@ Cocinar ingredientes cortados en piezas pequeñas con calor intenso, movimiento 
 - [Arroz frito con huevo](../../07_Cocina_Asiatica/arroz_frito_con_huevo.md)
 - [Fideos salteados con verduras](../../07_Cocina_Asiatica/fideos_salteados_con_verduras.md)
 - [Saltear verduras](./saltear_verduras.md)
+- [Comparativa de salsas asiáticas para salteados](../../98_Tablas/07_Comparativas/salsas_asiaticas.md)
 
 ## Principio de NovaCoquinaria
 

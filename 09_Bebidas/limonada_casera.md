@@ -47,6 +47,7 @@ Limonada fresca con equilibrio ajustable de acidez y dulzor, sin alcohol.
 Mantener refrigerada y consumir preferentemente en 24–48 horas; no dejar a temperatura ambiente durante horas.
 
 ## Relaciones
+- [Diagnóstico de bebidas: equilibrio de acidez y dulzor](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)
 - [Té frío con limón](./te_frio_con_limon.md)
 - [Índice de bebidas](./README.md)
 

@@ -76,6 +76,14 @@ Ambos scripts **devuelven actualmente código de salida 0 incluso si detectan ad
 
 La validación estructural de Front Matter, IDs y enlaces permanece como control bloqueante.
 
+## Primer lote de relaciones semánticas — 2026-11-14
+
+La ejecución [Knowledge integrity #8](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/43624315630) finalizó correctamente en los controles estructurales e informó de **11 advertencias semánticas** y **18 documentos huérfanos**. Los diagnósticos son informativos, no bloqueantes.
+
+Se incorporan referencias de utilidad culinaria verificable en **nueve documentos**: cuatro recetas de Postres y Bebidas, y cinco técnicas de horno, repostería, infusiones y cocina asiática. Los destinos enlazados ya existen y se corresponden con tablas de diagnóstico o fichas de ingredientes pertinentes.
+
+Quedan pendientes de análisis las advertencias sobre `REC-0001` (arroz chaufa) y `TEC-0007` (emulsión de salsa para pasta), así como los documentos huérfanos. **No se presupone un nuevo recuento de advertencias** hasta ejecutar los diagnósticos sobre este lote; la ausencia de referencias no siempre indica un defecto culinario.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
