@@ -26,18 +26,27 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 | REC-0058 | [Bacalao con tomate y pimiento](./bacalao_con_tomate.md) | Cocción en salsa |
 | REC-0059 | [Gambas al ajillo](./gambas_al_ajillo.md) | Salteado |
 | REC-0060 | [Merluza en salsa verde](./merluza_en_salsa_verde.md) | Cocción en salsa |
+| REC-0061 | [Calamares a la plancha con ajo y perejil](./calamares_a_la_plancha.md) | Plancha rápida |
+| REC-0062 | [Calamares guisados en salsa de tomate](./calamares_en_salsa.md) | Guiso suave |
 
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
+- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md): remojo refrigerado y control de sal.
+
+## Diagnóstico
+
+- [Diagnóstico de pescados y mariscos](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md): problemas de cocción, textura, salinidad y correcciones.
 
 ## Ingredientes de referencia
 
 - [Gambas](../11_Despensa/05_Mariscos/gambas.md).
+- [Merluza](../11_Despensa/04_Pescados/merluza.md).
+- [Bacalao](../11_Despensa/04_Pescados/bacalao.md).
 - [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md).
 - [Ajo](../11_Despensa/06_Verduras/ajo.md).
 
-Las fichas específicas de merluza y bacalao quedan pendientes de incorporación a la despensa.
+Las fichas de merluza y bacalao distinguen formatos de compra, preparación y puntos críticos.
 
 ## Seguridad y alérgenos
 
@@ -56,6 +65,8 @@ Las fichas específicas de merluza y bacalao quedan pendientes de incorporación
 | Salsa de tomate | [Bacalao con tomate](./bacalao_con_tomate.md) |
 | Tapa rápida | [Gambas al ajillo](./gambas_al_ajillo.md) |
 | Salsa ligera con perejil | [Merluza en salsa verde](./merluza_en_salsa_verde.md) |
+| Calamar dorado y rápido | [Calamares a la plancha](./calamares_a_la_plancha.md) |
+| Calamar tierno en salsa | [Calamares guisados](./calamares_en_salsa.md) |
 
 ## Ruta de aprendizaje
 
@@ -63,10 +74,12 @@ Las fichas específicas de merluza y bacalao quedan pendientes de incorporación
 2. Preparar [merluza al horno](./merluza_al_horno_con_limon.md) para practicar el control del grosor.
 3. Preparar [gambas al ajillo](./gambas_al_ajillo.md) para observar la cocción breve del marisco.
 4. Comparar [bacalao con tomate](./bacalao_con_tomate.md) y [merluza en salsa verde](./merluza_en_salsa_verde.md) para aprender a integrar pescado en salsa.
+5. Estudiar [desalado de bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md) y su ficha de ingrediente.
+6. Comparar [calamares a la plancha](./calamares_a_la_plancha.md) y [calamares guisados](./calamares_en_salsa.md), y consultar el [diagnóstico](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md).
 
 ## Evolución del módulo
 
-Se ampliará con fichas de merluza y bacalao, técnicas de desalado, recetas de calamares y otros mariscos, así como diagnóstico de errores frecuentes.
+Se ampliará con fichas específicas de calamar, otras especies de pescado y marisco, y nuevas técnicas de cocción y conservación.
 
 ## Utilizado por
 
