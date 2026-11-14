@@ -23,9 +23,15 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 | REC-0080 | [Bizcocho de yogur y limón](./bizcocho_de_yogur.md) | Horneado con impulsor |
 | REC-0081 | [Arroz con leche cremoso](./arroz_con_leche.md) | Cocción suave |
 | REC-0082 | [Natillas caseras de vainilla](./natillas_caseras.md) | Espesado de crema |
+| REC-0083 | [Flan de huevo al baño maría](./flan_de_huevo.md) | Cuajado al baño maría |
+| REC-0084 | [Tarta de queso al horno](./tarta_de_queso_al_horno.md) | Cuajado en horno |
+| REC-0085 | [Peras al vino tinto](./peras_al_vino_tinto.md) | Pochado de fruta |
+| REC-0086 | [Compota de manzana](./compota_de_manzana.md) | Cocción húmeda |
 
-## Técnica principal
-- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde, punto de cocción y diagnóstico.
+## Técnicas y diagnóstico
+- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
+- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
+- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md): problemas frecuentes y correcciones.
 
 ## Elegir según objetivo
 | Objetivo | Preparación |
@@ -34,6 +40,10 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 | Miga esponjosa | [Bizcocho de yogur](./bizcocho_de_yogur.md) |
 | Postre cremoso de arroz | [Arroz con leche](./arroz_con_leche.md) |
 | Crema de cuchara | [Natillas](./natillas_caseras.md) |
+| Postre cuajado al baño maría | [Flan de huevo](./flan_de_huevo.md) |
+| Tarta cremosa | [Tarta de queso](./tarta_de_queso_al_horno.md) |
+| Fruta especiada para adultos | [Peras al vino](./peras_al_vino_tinto.md) |
+| Fruta cocida sin azúcar obligatorio | [Compota de manzana](./compota_de_manzana.md) |
 
 ## Seguridad y alérgenos
 - Revisar presencia de huevo, leche, trigo/gluten y frutos secos según receta.
@@ -46,9 +56,12 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 2. Comparar [pastel de manzana](./pastel_de_manzana.md) y [bizcocho de yogur](./bizcocho_de_yogur.md) para distinguir masas húmedas y aireadas.
 3. Preparar [natillas](./natillas_caseras.md) para practicar espesado.
 4. Preparar [arroz con leche](./arroz_con_leche.md) para practicar cocción suave y control de textura.
+5. Estudiar [cuajado de cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md) y comparar [flan](./flan_de_huevo.md) con [tarta de queso](./tarta_de_queso_al_horno.md).
+6. Practicar cocción de fruta con [compota](./compota_de_manzana.md) y [peras al vino](./peras_al_vino_tinto.md).
+7. Consultar el [diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md) para corregir problemas.
 
 ## Evolución del módulo
-Se ampliará con técnicas de cremas y emulsiones, tartas, postres de fruta y tablas de diagnóstico.
+Se ampliará con técnicas de emulsiones, nuevas tartas y postres de fruta, y comparativas de ingredientes.
 
 ## Utilizado por
 Punto de entrada al dominio Postres.
