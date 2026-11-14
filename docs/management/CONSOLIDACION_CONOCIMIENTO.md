@@ -1,5 +1,5 @@
 ---
-id: DOC-0022
+id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
 version: 1.0.0
