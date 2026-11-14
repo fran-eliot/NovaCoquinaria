@@ -78,6 +78,12 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 - [Ricotta](../11_Despensa/14_Huevos_Lacteos/ricotta.md): ligazón de salsa sin hervor intenso.
 - [Albahaca](../11_Despensa/08_Especias/albahaca.md): aroma fresco de tomate y pesto.
 
+## Ingredientes de salsas y conservas
+
+- [Atún en conserva](../11_Despensa/12_Conservas/atun_en_conserva.md): incorporaciones breves y control del líquido.
+- [Anchoas en conserva](../11_Despensa/12_Conservas/anchoas_en_conserva.md): salinidad y umami en el sofrito.
+- [Pecorino Romano](../11_Despensa/14_Huevos_Lacteos/pecorino_romano.md): ligado de pasta con agua de cocción y temperatura controlada.
+
 ## Ruta práctica de aprendizaje
 
 1. Comenzar por [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).

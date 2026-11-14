@@ -72,6 +72,11 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): estructura, dulzor y caramelización.
 - [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): aroma y contraste crujiente.
 
+## Frutos secos de textura
+
+- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md): tostado, molido y contraste crujiente.
+- [Cacahuetes](../11_Despensa/16_Frutos_Secos/cacahuetes.md): uso en coberturas y cremas, atendiendo a los alérgenos.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
