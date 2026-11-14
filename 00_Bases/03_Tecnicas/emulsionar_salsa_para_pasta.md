@@ -94,6 +94,7 @@ No existe una proporción fija válida para todas las salsas; ajustar observando
 - [Cocer pasta](./cocer_pasta.md)
 - [Terminar pasta en salsa](./terminar_pasta_en_salsa.md)
 - [Pasta con salsa](../../12_Plantillas/04_Cocciones/pasta_con_salsa.md)
+- [Pasta seca: comportamiento del almidón](../../11_Despensa/01_Cereales/pasta_seca.md)
 
 ## Principio de NovaCoquinaria
 
