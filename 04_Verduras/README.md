@@ -32,6 +32,12 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | REC-0044 | [Zanahorias asadas con comino](./zanahorias_asadas_con_comino.md) | Asado de verdura densa |
 | REC-0045 | [Champiñones al ajillo](./champinones_al_ajillo.md) | Evaporación y dorado |
 | REC-0046 | [Crema de zanahoria y jengibre](./crema_de_zanahoria_y_jengibre.md) | Cocción y triturado |
+| REC-0118 | [Calabacines rellenos de arroz y setas](./calabacines_rellenos_de_arroz_y_setas.md) | Relleno, precocción y horno |
+| REC-0119 | [Puerros templados con vinagreta de mostaza](./puerros_templados_con_vinagreta_de_mostaza.md) | Cocción húmeda y aliño |
+| REC-0120 | [Brócoli al vapor con sésamo y limón](./brocoli_al_vapor_con_sesamo_y_limon.md) | Vapor y acabado aromático |
+| REC-0121 | [Pimientos asados y aliñados](./pimientos_asados_y_aliñados.md) | Asado, reposo y pelado |
+| REC-0122 | [Berenjenas glaseadas con miso](./berenjenas_glaseadas_con_miso.md) | Asado y glaseado |
+| REC-0123 | [Zanahorias glaseadas con naranja](./zanahorias_glaseadas_con_naranja.md) | Cocción y reducción |
 
 ## Técnicas de referencia
 
@@ -73,6 +79,12 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | Plato de cuchara suave | [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) |
 | Usar calabacín y pimiento | [Salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md) |
 | Aprovechar varias hortalizas | [Verduras asadas al horno](./verduras_asadas_al_horno.md) |
+
+## Nuevas aplicaciones por método
+
+- **Rellenos:** [calabacines con arroz y setas](./calabacines_rellenos_de_arroz_y_setas.md), con control de humedad en dos cocciones.
+- **Vapor y cocción húmeda:** [brócoli con sésamo](./brocoli_al_vapor_con_sesamo_y_limon.md) y [puerros con vinagreta](./puerros_templados_con_vinagreta_de_mostaza.md).
+- **Asados y glaseados:** [pimientos asados](./pimientos_asados_y_aliñados.md), [berenjena con miso](./berenjenas_glaseadas_con_miso.md) y [zanahorias con naranja](./zanahorias_glaseadas_con_naranja.md).
 
 ## Ruta de aprendizaje
 
