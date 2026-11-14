@@ -94,6 +94,11 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 
 - [Cúrcuma](../11_Despensa/08_Especias/curcuma.md): aportar color y matiz terroso sin confundirla con una mezcla de curry.
 
+## Fondos y espesantes
+
+- [Dashi](../11_Despensa/13_Bases_Culinarias/dashi.md): caldo umami para sopa de miso y otras elaboraciones japonesas.
+- [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md): ligado de salsas de salteado mediante suspensión fría.
+
 ## Seguridad y alérgenos
 
 - Cocinar completamente proteínas animales y evitar contaminación cruzada.
