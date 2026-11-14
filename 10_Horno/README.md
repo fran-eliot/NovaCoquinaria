@@ -86,6 +86,11 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): dorado y estructura de elaboraciones dulces.
 - [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): coberturas y rellenos tostados.
 
+## Condimentos y hierbas de acabado
+
+- [Romero](../11_Despensa/08_Especias/romero.md): aroma de focaccia y patatas asadas.
+- [Aceitunas negras](../11_Despensa/11_Condimentos/aceitunas_negras.md): variaciones salinas de masas al horno.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
