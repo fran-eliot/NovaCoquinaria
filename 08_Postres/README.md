@@ -94,6 +94,10 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Queso crema](../11_Despensa/14_Huevos_Lacteos/queso_crema.md): textura y cuajado de tartas.
 - [Levadura de panadería](../11_Despensa/15_Reposteria/levadura_panaderia.md): fermentación biológica, distinta de los impulsores químicos.
 
+## Espesantes de cremas y rellenos
+
+- [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md): control del espesor de cremas y algunos rellenos.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
