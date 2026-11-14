@@ -124,6 +124,8 @@ Cada documento deberá:
 
 La despensa crecerá de forma incremental.
 
+Como ejemplo de integración entre dominios, la ficha de [salsa hoisin](./09_Salsas/hoisin.md) documenta el ingrediente reutilizado por recetas y comparativas de Cocina Asiática.
+
 Solo se crearán nuevos documentos cuando un ingrediente aparezca con frecuencia o requiera una explicación específica.
 
 ---
