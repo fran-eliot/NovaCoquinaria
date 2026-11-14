@@ -29,6 +29,10 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | REC-0072 | [Sopa de miso con tofu y setas](./sopa_de_miso_con_tofu.md) | Sopa |
 | REC-0073 | [Tom yum de gambas](./tom_yum_de_gambas.md) | Caldo aromático |
 | REC-0074 | [Curry amarillo de garbanzos](./curry_amarillo_de_garbanzos.md) | Curry vegetal |
+| REC-0075 | [Berenjena asada con glaseado de miso](./berenjena_con_miso.md) | Asado y glaseado |
+| REC-0076 | [Pollo glaseado con miso y jengibre](./pollo_glaseado_con_miso.md) | Dorado y glaseado |
+| REC-0077 | [Fideos con salsa de cacahuete y lima](./fideos_con_salsa_de_cacahuete.md) | Fideos y emulsión |
+| REC-0078 | [Verduras salteadas con hoisin y sésamo](./verduras_salteadas_con_hoisin.md) | Salteado |
 
 ## Técnicas y plantilla
 
@@ -36,6 +40,8 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md): desarrollar pastas, incorporar coco y equilibrar sabores.
 - [Preparar sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md): infusión, incorporación y acabado.
 - [Sopa asiática base](../12_Plantillas/04_Cocciones/sopa_asiatica_base.md): patrón adaptable por perfil.
+- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md): salinidad, acidez, dulzor, umami y picante.
+- [Comparativa de salsas asiáticas](../98_Tablas/07_Comparativas/salsas_asiaticas.md): perfiles, sustituciones y alérgenos.
 
 ## Ingredientes de referencia
 
@@ -50,6 +56,7 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Curry amarillo](../11_Despensa/08_Especias/curry_amarillo.md).
 - [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md).
 - [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md).
+- [Hoisin](../11_Despensa/09_Salsas/hoisin.md).
 
 ## Seguridad y alérgenos
 
@@ -70,6 +77,10 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | Sopa suave y umami | [Sopa de miso](./sopa_de_miso_con_tofu.md) |
 | Sopa ácida y picante | [Tom yum de gambas](./tom_yum_de_gambas.md) |
 | Curry vegetal | [Curry amarillo de garbanzos](./curry_amarillo_de_garbanzos.md) |
+| Berenjena glaseada | [Berenjena con miso](./berenjena_con_miso.md) |
+| Pollo con umami fermentado | [Pollo glaseado con miso](./pollo_glaseado_con_miso.md) |
+| Fideos con salsa cremosa | [Fideos con cacahuete](./fideos_con_salsa_de_cacahuete.md) |
+| Verduras dulce-saladas | [Verduras con hoisin](./verduras_salteadas_con_hoisin.md) |
 
 ## Ruta de aprendizaje
 
@@ -81,10 +92,12 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 6. Comparar [curry verde de pollo](./curry_verde_de_pollo.md) y [curry amarillo de garbanzos](./curry_amarillo_de_garbanzos.md).
 7. Estudiar [sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md) y la [plantilla](../12_Plantillas/04_Cocciones/sopa_asiatica_base.md).
 8. Comparar [sopa de miso](./sopa_de_miso_con_tofu.md) y [tom yum](./tom_yum_de_gambas.md) para diferenciar perfiles.
+9. Estudiar [equilibrio de salsas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md) y la [comparativa](../98_Tablas/07_Comparativas/salsas_asiaticas.md).
+10. Practicar glaseados con [berenjena](./berenjena_con_miso.md) y [pollo](./pollo_glaseado_con_miso.md), y comparar salsas de [cacahuete](./fideos_con_salsa_de_cacahuete.md) y [hoisin](./verduras_salteadas_con_hoisin.md).
 
 ## Evolución del módulo
 
-Se ampliará con salteados regionales, otras sopas, preparaciones con miso y comparativas de salsas, diferenciando tradiciones culinarias.
+Se ampliará con salteados regionales, fermentados y otras sopas, diferenciando tradiciones culinarias y sus técnicas.
 
 ## Utilizado por
 
