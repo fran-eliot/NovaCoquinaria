@@ -31,6 +31,8 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 | REC-0052 | [Ternera guisada con verduras](./ternera_guisada_con_verduras.md) | Estofado |
 | REC-0053 | [Secreto de cerdo a la plancha](./secreto_de_cerdo_a_la_plancha.md) | Plancha |
 | REC-0054 | [Lomo de cerdo con salsa de mostaza](./lomo_de_cerdo_con_mostaza.md) | Dorado y salsa |
+| REC-0055 | [Pollo marinado con yogur y especias](./pollo_marinado_con_yogur.md) | Marinado y horno |
+| REC-0056 | [Estofado de cerdo con setas](./estofado_de_cerdo_con_setas.md) | Estofado |
 
 ## Ingredientes de referencia
 
@@ -45,8 +47,15 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 
 - [Cocinar pollo a la plancha](../00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md).
 - [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md).
+- [Marinar carnes](../00_Bases/03_Tecnicas/marinar_carnes.md).
+- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md).
 - [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md).
 - [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md).
+
+## Plantillas y diagnóstico
+
+- [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
+- [Diagnóstico de cocción de carnes](../98_Tablas/07_Comparativas/diagnostico_carnes.md) — causas y ajustes para plancha, marinados y estofados.
 
 ## Seguridad transversal
 
@@ -69,6 +78,8 @@ Para piezas enteras de ternera y cerdo, consultar las temperaturas y reposos apl
 | Guiso de ternera de cocción lenta | [Ternera guisada](./ternera_guisada_con_verduras.md) |
 | Corte graso de cerdo a la plancha | [Secreto de cerdo](./secreto_de_cerdo_a_la_plancha.md) |
 | Corte magro con salsa | [Lomo con mostaza](./lomo_de_cerdo_con_mostaza.md) |
+| Pollo especiado al horno | [Pollo marinado con yogur](./pollo_marinado_con_yogur.md) |
+| Guiso de cerdo con setas | [Estofado de cerdo con setas](./estofado_de_cerdo_con_setas.md) |
 
 ## Ruta de aprendizaje
 
@@ -78,6 +89,8 @@ Para piezas enteras de ternera y cerdo, consultar las temperaturas y reposos apl
 4. Preparar el [pollo guisado](./pollo_guisado_con_tomate.md) para trabajar el sofrito y la reducción de salsa.
 5. Practicar [sellado y cocción de filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md) con [ternera](./filetes_de_ternera_con_ajo.md) y [secreto de cerdo](./secreto_de_cerdo_a_la_plancha.md).
 6. Comparar [ternera guisada](./ternera_guisada_con_verduras.md) y [lomo con mostaza](./lomo_de_cerdo_con_mostaza.md) para distinguir estofado prolongado de salsa corta.
+7. Practicar [marinados](../00_Bases/03_Tecnicas/marinar_carnes.md) con [pollo y yogur](./pollo_marinado_con_yogur.md).
+8. Adaptar la [plantilla de estofado](../12_Plantillas/04_Cocciones/estofado_de_carne.md) con [cerdo y setas](./estofado_de_cerdo_con_setas.md) y consultar el [diagnóstico](../98_Tablas/07_Comparativas/diagnostico_carnes.md).
 
 ## Criterios del módulo
 
@@ -89,7 +102,7 @@ Para piezas enteras de ternera y cerdo, consultar las temperaturas y reposos apl
 
 ## Evolución del módulo
 
-Se ampliará con nuevos cortes, técnicas de estofado, asados y cocción lenta, con precauciones específicas para cada producto.
+Se ampliará con nuevos cortes, asados y técnicas específicas de cocción lenta, manteniendo las precauciones de cada producto.
 
 ## Utilizado por
 
