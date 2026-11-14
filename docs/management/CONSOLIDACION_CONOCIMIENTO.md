@@ -1,5 +1,5 @@
 ---
-id: DOC-0020
+id: DOC-0021
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
 version: 1.0.0
