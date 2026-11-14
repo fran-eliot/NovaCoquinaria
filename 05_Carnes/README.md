@@ -25,7 +25,7 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 |---|---|---|
 | REC-0047 | [Pechuga de pollo a la plancha con limón](./pechuga_de_pollo_a_la_plancha.md) | Plancha |
 | REC-0048 | [Pollo al horno con verduras](./pollo_al_horno_con_verduras.md) | Asado |
-| REC-0049 | [Pollo salteado con verduras y soja](./pollo_salteado_con_verduras.md) | Salteado |
+| REC-0049 | [Pollo salteado con jengibre y soja](./pollo_salteado_con_jengibre_y_soja.md) | Salteado |
 | REC-0050 | [Pollo guisado con tomate y pimiento](./pollo_guisado_con_tomate.md) | Guiso |
 
 ## Ingredientes de referencia
@@ -55,14 +55,14 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 |---|---|
 | Plato rápido y sencillo | [Pechuga a la plancha](./pechuga_de_pollo_a_la_plancha.md) |
 | Comida de horno con guarnición | [Pollo al horno](./pollo_al_horno_con_verduras.md) |
-| Plato con arroz y verduras crujientes | [Pollo salteado](./pollo_salteado_con_verduras.md) |
+| Plato con arroz y verduras crujientes | [Pollo salteado](./pollo_salteado_con_jengibre_y_soja.md) |
 | Salsa de tomate para acompañar | [Pollo guisado](./pollo_guisado_con_tomate.md) |
 
 ## Ruta de aprendizaje
 
 1. Leer [Cocinar pollo a la plancha](../00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md).
 2. Preparar la [pechuga a la plancha](./pechuga_de_pollo_a_la_plancha.md) y practicar el uso del termómetro.
-3. Comparar la cocción de [pollo al horno](./pollo_al_horno_con_verduras.md) y [pollo salteado](./pollo_salteado_con_verduras.md).
+3. Comparar la cocción de [pollo al horno](./pollo_al_horno_con_verduras.md) y [pollo salteado](./pollo_salteado_con_jengibre_y_soja.md).
 4. Preparar el [pollo guisado](./pollo_guisado_con_tomate.md) para trabajar el sofrito y la reducción de salsa.
 
 ## Criterios del módulo
