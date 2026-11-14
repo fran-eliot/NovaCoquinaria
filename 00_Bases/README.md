@@ -177,6 +177,17 @@ El dominio de arroces y las masas saladas cuentan con procedimientos reutilizabl
 
 ---
 
+## Técnicas esenciales de cocción y salsas
+
+- [Blanquear y escaldar verduras](./03_Tecnicas/blanquear_y_escaldar_verduras.md): precocción y control de textura.
+- [Cocer verduras al vapor](./03_Tecnicas/cocer_verduras_al_vapor.md): cocción húmeda sin inmersión.
+- [Reducir y ligar salsas](./03_Tecnicas/reducir_y_ligar_salsas.md): concentración y espesado.
+- [Desglasar fondos de cocción](./03_Tecnicas/desglasar_fondos_de_coccion.md): recuperación de sabores del dorado.
+- [Emulsionar vinagretas y aliños](./03_Tecnicas/emulsionar_vinagretas_y_alinos.md): mezcla y equilibrio de fases.
+- [Freír en sartén con control de temperatura](./03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md): dorado y cocción en aceite.
+
+---
+
 # Evolución
 
 Este módulo crecerá progresivamente conforme aparezcan nuevas necesidades.
