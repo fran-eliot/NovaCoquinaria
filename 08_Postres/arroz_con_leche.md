@@ -59,7 +59,7 @@ Arroz cocido lentamente en leche aromatizada con canela y limón hasta obtener u
 Refrigerar rápidamente en recipientes poco profundos y consumir en pocos días; no mantener a temperatura ambiente por el riesgo asociado al arroz cocido.
 
 ## Relaciones
-- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)
+- [Índice de postres](./README.md)
 
 ## Principio de NovaCoquinaria
 > El arroz termina de espesar al enfriar: retirar la preparación antes de que quede demasiado densa.
