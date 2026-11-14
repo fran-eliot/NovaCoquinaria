@@ -84,6 +84,17 @@ Se incorporan referencias de utilidad culinaria verificable en **nueve documento
 
 Quedan pendientes de análisis las advertencias sobre `REC-0001` (arroz chaufa) y `TEC-0007` (emulsión de salsa para pasta), así como los documentos huérfanos. **No se presupone un nuevo recuento de advertencias** hasta ejecutar los diagnósticos sobre este lote; la ausencia de referencias no siempre indica un defecto culinario.
 
+## Cierre propuesto de las advertencias semánticas — 2026-11-14
+
+La ejecución [Knowledge integrity #10](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/43624723791) confirma que las advertencias semánticas se redujeron de 11 a **2**, manteniendo **18 documentos huérfanos**. Los controles estructurales finalizaron correctamente.
+
+Este incremento atiende los dos hallazgos restantes:
+
+- `REC-0001` (arroz chaufa): se sustituye la referencia textual obsoleta `PLA-0008` por el enlace a la plantilla vigente `PLA-0015` (arroz frito base) y se enlaza la técnica de wok.
+- `TEC-0007` (emulsionar salsa para pasta): se enlaza la ficha de pasta seca, pertinente para el comportamiento del almidón durante el ligado de la salsa.
+
+**Resultado pendiente de verificar:** se espera que ambas relaciones sean reconocidas por el grafo, pero el número final de advertencias se determinará mediante una nueva ejecución de GitHub Actions. Los documentos huérfanos requieren un trabajo de navegación separado; no se consideran resueltos por este cambio.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
