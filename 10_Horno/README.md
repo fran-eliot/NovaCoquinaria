@@ -68,6 +68,12 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Fermentar masas hidratadas de pan](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md): reposos, pliegues y desarrollo de volumen, aplicado a la focaccia.
 - [Hornear masas en blanco](../00_Bases/03_Tecnicas/hornear_masas_en_blanco.md): precocción de bases de tartas saladas, aplicada a la quiche.
 
+## Texturas y acabados de horno
+
+- [Preparar bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md): cobertura ligada para gratinados.
+- [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md): dorado final sobre una base ya cocinada.
+- [Tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md): acabado crujiente de fruta y otros platos.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.
