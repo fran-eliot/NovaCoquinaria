@@ -204,6 +204,17 @@ El dominio de arroces y las masas saladas cuentan con procedimientos reutilizabl
 
 ---
 
+## Cocciones húmedas, caldos y aromáticos
+
+- [Brasear carnes en cazuela](./03_Tecnicas/brasear_carnes_en_cazuela.md): dorado y cocción prolongada con poco líquido.
+- [Escalfar pescados en líquido aromático](./03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md): cocción delicada sin ebullición fuerte.
+- [Cocinar al baño maría](./03_Tecnicas/cocinar_al_bano_maria.md): cuajado gradual de cremas y flanes.
+- [Tostar y activar especias](./03_Tecnicas/tostar_y_activar_especias.md): desarrollo aromático sin quemado.
+- [Preparar caldos culinarios](./03_Tecnicas/preparar_caldos_culinarios.md): extracción, filtrado y concentración.
+- [Hervir y cocer a fuego suave](./03_Tecnicas/hervir_y_cocer_a_fuego_suave.md): ajuste de movimiento del líquido.
+
+---
+
 # Evolución
 
 Este módulo crecerá progresivamente conforme aparezcan nuevas necesidades.

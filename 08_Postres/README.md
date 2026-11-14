@@ -43,6 +43,10 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 
 - [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md): dorado, cocción y escurrido, con aplicación a las torrijas.
 
+## Cuajado al baño maría
+
+- [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md): calentamiento gradual de flanes y cremas cuajadas.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
