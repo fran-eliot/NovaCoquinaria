@@ -26,6 +26,9 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | REC-0032 | [Lentejas estofadas con verduras](./lentejas_estofadas_con_verduras.md) | Cocción directa en guiso |
 | REC-0033 | [Garbanzos guisados con espinacas](./garbanzos_con_espinacas.md) | Integración de legumbre cocida |
 | REC-0034 | [Alubias blancas estofadas con hortalizas](./alubias_estofadas.md) | Remojo y cocción suave |
+| REC-0035 | [Hummus de garbanzos](./hummus_de_garbanzos.md) | Triturado y textura cremosa |
+| REC-0036 | [Dhal de lentejas rojas](./dhal_de_lentejas_rojas.md) | Cocción especiada y desintegración del grano |
+| REC-0037 | [Ensalada de lentejas](./ensalada_de_lentejas.md) | Punto firme, escurrido y vinagreta |
 
 ## Ingredientes de autoridad
 
@@ -45,9 +48,11 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | Situación | Punto de partida |
 |---|---|
 | Lentejas pardinas secas | [Lentejas estofadas con verduras](./lentejas_estofadas_con_verduras.md) |
-| Garbanzos cocidos | [Garbanzos guisados con espinacas](./garbanzos_con_espinacas.md) |
+| Garbanzos cocidos | [Garbanzos guisados con espinacas](./garbanzos_con_espinacas.md) o [hummus](./hummus_de_garbanzos.md) |
 | Alubias blancas secas y tiempo para remojo | [Alubias estofadas](./alubias_estofadas.md) |
 | Legumbres en conserva | [Plantilla de guiso](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md), patrón de legumbre cocida |
+| Lentejas rojas partidas | [Dhal especiado](./dhal_de_lentejas_rojas.md) |
+| Lentejas cocidas para plato frío | [Ensalada de lentejas](./ensalada_de_lentejas.md) |
 | Necesidad de controlar remojo o seguridad | [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) |
 
 ## Ruta práctica de aprendizaje
@@ -56,7 +61,8 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 2. Preparar [lentejas estofadas](./lentejas_estofadas_con_verduras.md) para practicar un guiso con cocción directa.
 3. Preparar [garbanzos con espinacas](./garbanzos_con_espinacas.md) para trabajar con legumbre cocida.
 4. Preparar [alubias blancas estofadas](./alubias_estofadas.md) para practicar remojo y cocción lenta.
-5. Adaptar la [plantilla de guiso](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md) a otras verduras y condimentos.
+5. Comparar [hummus](./hummus_de_garbanzos.md), [dhal](./dhal_de_lentejas_rojas.md) y [ensalada](./ensalada_de_lentejas.md) para practicar triturado, cocción cremosa y preparación fría.
+6. Adaptar la [plantilla de guiso](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md) a otras verduras y condimentos.
 
 ## Criterios del módulo
 
@@ -73,7 +79,7 @@ Consultar [Conservación y congelación](../98_Tablas/04_Conservacion/conservaci
 
 ## Evolución del módulo
 
-Se podrá ampliar con ensaladas, cremas, hummus, dhal, potajes regionales y preparaciones internacionales. Cada nueva incorporación deberá aportar una técnica, ingrediente o perfil culinario que no esté ya suficientemente representado.
+Se podrá ampliar con nuevas ensaladas, cremas, potajes regionales y preparaciones internacionales. Cada nueva incorporación deberá aportar una técnica, ingrediente o perfil culinario que no esté ya suficientemente representado.
 
 ## Utilizado por
 
