@@ -26,6 +26,12 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | REC-0038 | [Salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md) | Salteado por tandas |
 | REC-0039 | [Verduras asadas al horno](./verduras_asadas_al_horno.md) | Asado escalonado |
 | REC-0040 | [Crema de calabacín](./crema_de_calabacin.md) | Pochado y triturado |
+| REC-0041 | [Pisto de verduras](./pisto_de_verduras.md) | Pochado y reducción de tomate |
+| REC-0042 | [Berenjenas al horno](./berenjenas_al_horno.md) | Asado de mitades |
+| REC-0043 | [Brócoli salteado con ajo y limón](./brocoli_salteado_con_ajo.md) | Escaldado y salteado |
+| REC-0044 | [Zanahorias asadas con comino](./zanahorias_asadas_con_comino.md) | Asado de verdura densa |
+| REC-0045 | [Champiñones al ajillo](./champinones_al_ajillo.md) | Evaporación y dorado |
+| REC-0046 | [Crema de zanahoria y jengibre](./crema_de_zanahoria_y_jengibre.md) | Cocción y triturado |
 
 ## Técnicas de referencia
 
@@ -65,7 +71,11 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 1. Leer [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md) y preparar el [salteado de calabacín y pimiento](./salteado_de_calabacin_y_pimiento.md).
 2. Comparar la gestión de humedad en [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md) y en la [receta de verduras asadas](./verduras_asadas_al_horno.md).
 3. Practicar [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md) con la [crema de calabacín](./crema_de_calabacin.md).
-4. Adaptar la [plantilla de salteado](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) a otras verduras y condimentos.
+4. Comparar [brócoli salteado](./brocoli_salteado_con_ajo.md) y [champiñones al ajillo](./champinones_al_ajillo.md) para practicar precocción y evaporación.
+5. Practicar [pisto](./pisto_de_verduras.md) para aprender pochado y reducción.
+6. Comparar [berenjenas](./berenjenas_al_horno.md) y [zanahorias asadas](./zanahorias_asadas_con_comino.md) para ajustar asado según densidad.
+7. Preparar la [crema de zanahoria y jengibre](./crema_de_zanahoria_y_jengibre.md) y contrastarla con la de calabacín.
+8. Adaptar la [plantilla de salteado](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) a otras verduras y condimentos.
 
 ## Criterios del módulo
 
@@ -82,7 +92,7 @@ Consultar [Conservación y congelación](../98_Tablas/04_Conservacion/conservaci
 
 ## Evolución del módulo
 
-Se ampliará con verduras rellenas, gratinados, purés, ensaladas templadas, preparaciones al vapor y recetas de temporada, incorporando técnicas o perfiles que aporten valor adicional.
+Se ampliará con verduras rellenas, gratinados, ensaladas templadas, preparaciones al vapor y recetas de temporada, incorporando técnicas o perfiles que aporten valor adicional.
 
 ## Utilizado por
 
