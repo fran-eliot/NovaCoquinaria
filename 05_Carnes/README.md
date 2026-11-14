@@ -58,6 +58,11 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md).
 - [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md).
 
+## Técnicas de construcción de salsas
+
+- [Desglasar fondos de cocción](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md): recuperar el sabor del dorado en cazuelas y sartenes.
+- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md): ajustar concentración y consistencia antes de servir.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
