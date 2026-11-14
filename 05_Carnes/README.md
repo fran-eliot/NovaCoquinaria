@@ -33,6 +33,12 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 | REC-0054 | [Lomo de cerdo con salsa de mostaza](./lomo_de_cerdo_con_mostaza.md) | Dorado y salsa |
 | REC-0055 | [Pollo marinado con yogur y especias](./pollo_marinado_con_yogur.md) | Marinado y horno |
 | REC-0056 | [Estofado de cerdo con setas](./estofado_de_cerdo_con_setas.md) | Estofado |
+| REC-0124 | [Pollo al ajillo con vino blanco](./pollo_al_ajillo_con_vino_blanco.md) | Dorado y cocción en salsa |
+| REC-0125 | [Pollo en salsa de champiñones](./pollo_en_salsa_de_champinones.md) | Dorado y salsa de setas |
+| REC-0126 | [Solomillo de cerdo con manzana y cebolla](./solomillo_de_cerdo_con_manzana_y_cebolla.md) | Sellado y cocción breve |
+| REC-0127 | [Carrilleras de cerdo al vino tinto](./carrilleras_de_cerdo_estofadas_al_vino_tinto.md) | Estofado prolongado |
+| REC-0128 | [Albóndigas de ternera en salsa de tomate](./albondigas_de_ternera_en_salsa_de_tomate.md) | Carne picada y salsa |
+| REC-0129 | [Ternera salteada con pimientos y comino](./ternera_con_pimientos_y_comino.md) | Salteado por tandas |
 
 ## Ingredientes de referencia
 
@@ -80,6 +86,12 @@ Para piezas enteras de ternera y cerdo, consultar las temperaturas y reposos apl
 | Corte magro con salsa | [Lomo con mostaza](./lomo_de_cerdo_con_mostaza.md) |
 | Pollo especiado al horno | [Pollo marinado con yogur](./pollo_marinado_con_yogur.md) |
 | Guiso de cerdo con setas | [Estofado de cerdo con setas](./estofado_de_cerdo_con_setas.md) |
+
+## Nuevas aplicaciones por corte y método
+
+- **Pollo en salsa:** [pollo al ajillo](./pollo_al_ajillo_con_vino_blanco.md) y [pollo con champiñones](./pollo_en_salsa_de_champinones.md) combinan dorado y cocción completa.
+- **Cerdo con tiempos distintos:** [solomillo con manzana](./solomillo_de_cerdo_con_manzana_y_cebolla.md) utiliza una cocción breve, mientras que [carrilleras al vino](./carrilleras_de_cerdo_estofadas_al_vino_tinto.md) necesitan estofado prolongado.
+- **Ternera según preparación:** [albóndigas en tomate](./albondigas_de_ternera_en_salsa_de_tomate.md) requieren las precauciones de la carne picada; [ternera con pimientos](./ternera_con_pimientos_y_comino.md) practica el salteado de tiras.
 
 ## Ruta de aprendizaje
 
