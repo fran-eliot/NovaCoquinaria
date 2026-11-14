@@ -1,0 +1,69 @@
+---
+id: DOC-0020
+titulo: Consolidación del conocimiento culinario
+tipo: gestion
+version: 1.0.0
+estado: borrador
+ultima_revision: 2026-11-14
+---
+
+# Consolidación del conocimiento culinario
+
+## Objetivo
+
+Establecer un procedimiento incremental para revisar integridad, navegación y reutilización del conocimiento culinario tras la expansión de los módulos. Este documento describe un **plan de revisión**, no certifica que el repositorio completo haya superado una auditoría.
+
+## Alcance
+
+- Integridad de enlaces Markdown internos.
+- Unicidad y coherencia de identificadores.
+- Front Matter conforme al modelo vigente.
+- Navegación entre índices de módulos, recetas, técnicas, ingredientes y tablas.
+- Detección de duplicidades y referencias a documentos todavía no creados.
+- Distinción entre recetas documentadas y recetas probadas en cocina.
+
+## Herramientas existentes
+
+| Control | Herramienta |
+|---|---|
+| Validación conjunta | `python tools/validate_all.py` |
+| Front Matter | `tools/validate_frontmatter.py` |
+| Identificadores | `tools/validate_ids.py` |
+| Enlaces internos | `tools/validate_links.py` |
+
+La existencia de estos validadores está confirmada en el repositorio. **Su ejecución y resultado no se han verificado en esta revisión**.
+
+## Primer hallazgo confirmado
+
+Durante una revisión dirigida de referencias del módulo Cocina Asiática se detectó un enlace a `11_Despensa/09_Salsas/hoisin.md` sin documento de destino en `main` antes de este incremento. Se incorpora una ficha de ingrediente con ID `ING-0041` para cubrir esa referencia.
+
+No se extrapola este hallazgo a un número total de enlaces rotos del repositorio.
+
+## Procedimiento recomendado
+
+1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
+2. Registrar los errores con ruta de origen, destino esperado y categoría.
+3. Corregir primero los enlaces internos rotos y las colisiones de identificadores.
+4. Revisar índices de módulos y navegación desde el README principal.
+5. Identificar contenido duplicado y establecer un documento de autoridad.
+6. Revisar la relación entre recetas, técnicas, ingredientes y tablas.
+7. Repetir validaciones tras cada lote de correcciones.
+8. Separar el resultado de validación estructural de cualquier afirmación sobre pruebas culinarias.
+
+## Criterios de cierre
+
+- Validación automática ejecutada y sin errores, o excepciones documentadas.
+- Índices de módulos accesibles desde el punto de entrada.
+- Referencias internas relevantes verificadas.
+- Hallazgos pendientes registrados con prioridad y responsable.
+- Ningún contenido marcado como probado sin evidencia de elaboración.
+
+## Relación con otros documentos
+
+- [Estado del proyecto](./PROJECT_STATUS.md)
+- [Roadmap](./ROADMAP.md)
+- [README principal](../../README.md)
+
+## Principio de NovaCoquinaria
+
+> La consolidación transforma una colección creciente en conocimiento navegable, verificable y reutilizable.
