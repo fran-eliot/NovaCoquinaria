@@ -1,6 +1,6 @@
 ---
 
-id: PLA-0003
+id: PLA-0010
 tipo: plantilla
 titulo: Salsa china base
 categoria: Plantillas
