@@ -65,6 +65,17 @@ El job `Validate Markdown knowledge` falla si cualquiera de los tres controles d
 
 **Estado de ejecución:** la incorporación del workflow no demuestra que el repositorio supere los controles. El resultado real debe consultarse en GitHub Actions tras ejecutarse. Para exigir este control antes de fusionar, se debe configurar como comprobación requerida en la protección de la rama.
 
+## Auditoría de relaciones y conocimiento huérfano
+
+Además de la integridad estructural, el workflow incorpora dos diagnósticos de calidad del grafo:
+
+- `python tools/validate_semantics.py`: identifica recetas, técnicas y plantillas sin las relaciones de salida esperadas, según las reglas de `tools/semantic_rules.py`.
+- `python tools/find_orphans.py`: informa de nodos sin referencias entrantes o salientes, excluyendo los tipos expresamente ignorados por el script.
+
+Ambos scripts **devuelven actualmente código de salida 0 incluso si detectan advertencias o huérfanos**. Por tanto, su incorporación al workflow ofrece visibilidad, pero **no constituye una comprobación bloqueante** de calidad semántica. La lista real de hallazgos deberá revisarse en los registros del job, sin considerar automáticamente errónea una ficha por aparecer como huérfana.
+
+La validación estructural de Front Matter, IDs y enlaces permanece como control bloqueante.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.

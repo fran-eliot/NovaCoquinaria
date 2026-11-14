@@ -87,6 +87,14 @@ Para ejecutar validaciones semánticas:
 python tools/validate_semantics.py
 ```
 
+Para detectar documentos reutilizables sin referencias:
+
+```bash
+python tools/find_orphans.py
+```
+
+Ambos diagnósticos también se ejecutan en el workflow `Knowledge integrity` después de los controles estructurales. Actualmente generan información para revisión: las advertencias semánticas y los documentos huérfanos **no bloquean** la integración por sí solos.
+
 ---
 
 ## Directorios excluidos
