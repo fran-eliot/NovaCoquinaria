@@ -69,6 +69,13 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 
 - [Lima](../11_Despensa/11_Condimentos/lima.md): zumo y ralladura para aguas aromatizadas y bebidas refrescantes.
 
+## Frutas y hierbas para bebidas
+
+- [Plátano](../11_Despensa/17_Frutas/platano.md): ajustar la densidad de batidos.
+- [Mango](../11_Despensa/17_Frutas/mango.md): aportar cremosidad y dulzor al lassi.
+- [Naranja](../11_Despensa/17_Frutas/naranja.md): zumo y piel para infusiones y bebidas cítricas.
+- [Menta fresca](../11_Despensa/08_Especias/menta_fresca.md): maceración suave y acabados aromáticos.
+
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
 - Las bebidas con leche contienen lácteos salvo sustitución indicada.

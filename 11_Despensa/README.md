@@ -62,6 +62,7 @@ La despensa se organiza por grandes familias de ingredientes:
 * Bases Culinarias
 * Ingredientes de repostería
 * Frutos de cáscara
+* Frutas
 
 La categoría **Cereales** comprende también sus derivados culinarios básicos cuando se utilizan como ingredientes de despensa, por ejemplo pasta seca y sémola. No implica que estos productos sean granos sin procesar.
 
@@ -214,6 +215,21 @@ La organización de Despensa comprende también los **ingredientes de reposterí
 | ING-0081 | [Anchoas en conserva](./12_Conservas/anchoas_en_conserva.md) | Salinidad y umami de salsas |
 | ING-0082 | [Pecorino Romano](./14_Huevos_Lacteos/pecorino_romano.md) | Ligazón de queso en pastas romanas |
 | ING-0083 | [Almendras](./16_Frutos_Secos/almendras.md) | Repostería, textura y tostado |
+
+---
+
+## Frutas y hierbas para postres y bebidas
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0084 | [Manzana](./17_Frutas/manzana.md) | Pasteles, compotas y asados |
+| ING-0085 | [Pera](./17_Frutas/pera.md) | Pochado, fruta al horno y crumble |
+| ING-0086 | [Plátano](./17_Frutas/platano.md) | Dulzor y cuerpo en batidos |
+| ING-0087 | [Mango](./17_Frutas/mango.md) | Lassi, purés y bebidas |
+| ING-0088 | [Naranja](./17_Frutas/naranja.md) | Infusiones, cítricos y glaseados |
+| ING-0089 | [Menta fresca](./08_Especias/menta_fresca.md) | Aroma de infusiones y aguas frías |
+
+La familia **Frutas** reúne materias primas para postres, bebidas y preparaciones al horno.
 
 ---
 
