@@ -45,7 +45,7 @@ Flan tradicional de huevo y leche, cuajado suavemente al baño maría con carame
 4. Colar la mezcla si se desea textura más fina y repartir en moldes.
 5. Situar moldes en bandeja profunda y añadir agua caliente hasta media altura.
 6. Hornear aproximadamente 40–60 minutos según tamaño, hasta que el centro esté cuajado y tiemble ligeramente sin líquido crudo. Como referencia conservadora, comprobar **71 °C en el centro** de una preparación de huevo.
-7. Retirar del baño maría con cuidado, dejar perder calor brevemente y refrigerar sin demoras.
+7. Retirar los moldes del baño maría con cuidado, sin salpicaduras de agua caliente. Dejar perder el calor intenso brevemente y refrigerar sin demoras, evitando una permanencia prolongada a temperatura ambiente.
 8. Desmoldar después de varias horas en frío.
 
 ## Puntos críticos
@@ -54,6 +54,7 @@ Flan tradicional de huevo y leche, cuajado suavemente al baño maría con carame
 - Evitar hervor violento del baño maría.
 - No batir excesivamente los huevos.
 - El tiempo depende de moldes individuales o uno grande.
+- El temblor del centro es una señal de textura, no una comprobación suficiente de cocción segura: cuando se utilice termómetro, medir en el centro sin tocar el molde.
 
 ## Diagnóstico
 
@@ -65,7 +66,7 @@ Flan tradicional de huevo y leche, cuajado suavemente al baño maría con carame
 
 ## Conservación
 
-Mantener refrigerado y consumir en pocos días. No dejar fuera de frío durante periodos prolongados.
+Mantener refrigerado en recipientes tapados y consumir en pocos días. No dejar fuera de frío durante periodos prolongados; si se ha perdido el control de la conservación, no confiar en el aspecto o el olor para decidir su consumo.
 
 ## Relaciones
 

@@ -121,6 +121,14 @@ Se inicia una revisión editorial acotada a la receta [arroz chaufa](../../01_Ar
 
 **Límite:** revisión documental y de consistencia, sin ensayo culinario presencial, medición de temperaturas ni validación microbiológica. No se atribuye a estas dos fichas una certificación general de seguridad alimentaria.
 
+## Segunda revisión editorial dirigida: postres con huevo y lácteos — 2026-11-14
+
+Se revisan documentalmente tres recetas: [flan de huevo](../../08_Postres/flan_de_huevo.md), [natillas](../../08_Postres/natillas_caseras.md) y [tarta de queso al horno](../../08_Postres/tarta_de_queso_al_horno.md).
+
+Los ajustes se centran en distinguir las señales de textura (temblor, espesado) de la comprobación de cocción suficiente, reducir ambigüedades sobre enfriado y refrigeración, y evitar reposos prolongados fuera de frío. Se mantienen ingredientes, proporciones y tiempos orientativos, sujetos a las condiciones reales de elaboración.
+
+**Alcance:** revisión editorial de tres documentos, sin ensayo de cocina, análisis microbiológico ni certificación de seguridad. La auditoría de integridad documental debe volver a ejecutarse tras estos cambios.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.

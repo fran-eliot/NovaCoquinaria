@@ -44,7 +44,7 @@ Tarta de queso cremosa y sin base de galleta, horneada hasta que los bordes cuaj
 3. Añadir huevos uno a uno; incorporar nata y aromas.
 4. Si se usa maicena, dispersarla primero en una pequeña parte de la mezcla para evitar grumos.
 5. Verter en molde y hornear 35–50 minutos. Los bordes deben estar cuajados y el centro oscilar ligeramente sin presentar mezcla líquida cruda; como referencia conservadora para la mezcla con huevo, comprobar **71 °C en el centro**.
-6. Apagar horno y dejar reposar brevemente con puerta entreabierta; sacar y enfriar sin demoras innecesarias.
+6. Apagar el horno y dejar reposar brevemente con la puerta entreabierta si se busca reducir el choque térmico; retirar después y enfriar sin demoras innecesarias. Evitar mantener la tarta durante horas en el horno apagado.
 7. Refrigerar varias horas antes de cortar.
 
 ## Puntos críticos
@@ -53,6 +53,7 @@ Tarta de queso cremosa y sin base de galleta, horneada hasta que los bordes cuaj
 - El molde pequeño genera una tarta más alta y requiere más tiempo.
 - Evitar sobrecocción: endurece la textura.
 - Refrigerar la tarta por su contenido en lácteos y huevo.
+- La oscilación suave del centro orienta sobre la textura, pero no sustituye la comprobación de cocción suficiente; medir en el centro si se dispone de termómetro.
 
 ## Diagnóstico
 
@@ -64,7 +65,7 @@ Tarta de queso cremosa y sin base de galleta, horneada hasta que los bordes cuaj
 
 ## Conservación
 
-Guardar refrigerada y consumir en pocos días.
+Guardar refrigerada y cubierta; consumir en pocos días. No dejar a temperatura ambiente durante periodos prolongados, especialmente después del enfriado inicial.
 
 ## Relaciones
 
