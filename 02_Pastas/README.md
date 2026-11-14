@@ -71,6 +71,13 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 - [Parmigiano Reggiano](../11_Despensa/14_Huevos_Lacteos/parmigiano_reggiano.md).
 - [Pesto genovés](../11_Despensa/09_Salsas/pesto_genoves.md).
 
+## Condimentos, hierbas y quesos frescos
+
+- [Alcaparras](../11_Despensa/11_Condimentos/alcaparras.md): controlar acidez y sal en salsas rápidas.
+- [Aceitunas negras](../11_Despensa/11_Condimentos/aceitunas_negras.md): textura y sazonado de salsas de tomate.
+- [Ricotta](../11_Despensa/14_Huevos_Lacteos/ricotta.md): ligazón de salsa sin hervor intenso.
+- [Albahaca](../11_Despensa/08_Especias/albahaca.md): aroma fresco de tomate y pesto.
+
 ## Ruta práctica de aprendizaje
 
 1. Comenzar por [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).
