@@ -40,6 +40,16 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 | REC-0116 | [Pasta con ricotta y limón](./pasta_limon_ricotta.md) | Salsa de queso fresco sin hervor |
 | REC-0117 | [Fusilli con atún, limón y alcaparras](./fusilli_atun_limon_alcaparras.md) | Salsa rápida con conserva y emulsión |
 
+## Pastas con verduras y marisco
+
+| ID | Receta | Enfoque principal |
+|---|---|---|
+| REC-0172 | [Orecchiette con brócoli y anchoas](./orecchiette_con_brocoli_y_anchoas.md) | Escaldado de verdura y salsa ligada con anchoa |
+| REC-0173 | [Rigatoni con calabaza y ricotta](./rigatoni_con_calabaza_y_ricotta.md) | Crema de calabaza y queso fresco fuera del hervor |
+| REC-0174 | [Espaguetis con gambas, ajo y limón](./espaguetis_con_gambas_y_limon.md) | Marisco de cocción breve y emulsión de pasta |
+
+Estas preparaciones permiten comparar salsas obtenidas con verdura triturada, aceite y agua almidonada, y queso fresco.
+
 ## Nuevos recorridos prácticos
 
 - **Emulsiones de queso:** [Cacio e pepe](./espaguetis_cacio_e_pepe.md) y [pasta con ricotta y limón](./pasta_limon_ricotta.md) permiten comparar el uso de queso curado y fresco, con control del calor.
