@@ -40,6 +40,11 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 | REC-0128 | [Albóndigas de ternera en salsa de tomate](./albondigas_de_ternera_en_salsa_de_tomate.md) | Carne picada y salsa |
 | REC-0129 | [Ternera salteada con pimientos y comino](./ternera_con_pimientos_y_comino.md) | Salteado por tandas |
 
+## Cortes y sazonado
+
+- [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
+- [Salar por etapas y ajustar al final](../00_Bases/04_Sazonado/salar_por_etapas.md): considerar la sal del caldo y las salsas antes de reducir.
+
 ## Ingredientes de referencia
 
 - [Pollo](../11_Despensa/03_Carnes/pollo.md).
