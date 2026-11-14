@@ -103,6 +103,10 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Impulsor químico](../11_Despensa/15_Reposteria/impulsor_quimico.md): aireación de masas rápidas sin fermentación biológica.
 - [Queso crema](../11_Despensa/14_Huevos_Lacteos/queso_crema.md): cuajado en tartas al horno.
 
+## Cereales para rellenos
+
+- [Cuscús de trigo](../11_Despensa/01_Cereales/cuscus_trigo.md): hidratación previa y control de la humedad en tomates rellenos.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.

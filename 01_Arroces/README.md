@@ -80,6 +80,14 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 - [Caldo de pollo](../11_Despensa/13_Bases_Culinarias/caldo_de_pollo.md): base aromática para arroz con pollo.
 - [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md): fondo para arroces caldosos de marisco.
 
+## Materias primas para arroces marineros
+
+- [Alcachofa](../11_Despensa/06_Verduras/alcachofa.md): limpieza y cocción del corazón en arroz caldoso.
+- [Mejillones](../11_Despensa/05_Mariscos/mejillones.md): apertura segura, carne y jugo filtrado.
+- [Almejas](../11_Despensa/05_Mariscos/almejas.md): eliminación de arena, control de cocción y salinidad.
+- [Sepia](../11_Despensa/05_Mariscos/sepia.md): corte y selección del punto de cocción.
+- [Azafrán](../11_Despensa/08_Especias/azafran.md): infusión de hebras para repartir el aroma.
+
 ## Seguridad y conservación
 
 El arroz cocido debe **enfriarse rápidamente y refrigerarse sin demoras** si no se consume enseguida. No conservarlo durante horas a temperatura ambiente ni confiar en el recalentado para corregir un almacenamiento previo inseguro. Cuando la preparación incorpore pollo, pescado o marisco, aplicar además las comprobaciones de cocción y alérgenos de cada ingrediente.
