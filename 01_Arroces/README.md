@@ -28,7 +28,7 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 | REC-0020 | [Arroz frito con huevo](./arroz_frito_huevo.md) | Salteado con arroz cocido |
 | REC-0021 | [Arroz frito con gambas](./arroz_frito_gambas.md) | Salteado y cocción breve de marisco |
 | REC-0022 | [Arroz frito con pollo](./arroz_frito_pollo.md) | Salteado y cocción de ave |
-| REC-0023 | [Arroz chaufa](./arroz_chaufa.md) | Arroz salteado de inspiración peruana |
+| REC-0001 | [Arroz chaufa](./arroz_chaufa.md) | Arroz salteado de inspiración peruana |
 | REC-0154 | [Arroz basmati por absorción](./arroz_basmati_por_absorcion.md) | Absorción con tapa y reposo |
 | REC-0155 | [Arroz pilaf con cebolla](./arroz_pilaf_con_cebolla.md) | Nacarado y cocción tapada |
 | REC-0156 | [Risotto de setas](./risotto_de_setas.md) | Caldo gradual y mantecadatura |
