@@ -98,6 +98,11 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 
 - [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md): control del espesor de cremas y algunos rellenos.
 
+## Aromatización y gelificación
+
+- [Vainilla](../11_Despensa/15_Reposteria/vainilla.md): uso de vaina, extracto y preparados en cremas.
+- [Gelatina neutra](../11_Despensa/15_Reposteria/gelatina_neutra.md): hidratación, dosis y cuajado de panna cotta.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
