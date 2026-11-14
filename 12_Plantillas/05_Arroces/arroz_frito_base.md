@@ -1,5 +1,5 @@
 ---
-id: PLA-0008
+id: PLA-0015
 tipo: plantilla
 titulo: Arroz frito base
 version: 1.0.0
