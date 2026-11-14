@@ -63,6 +63,7 @@ La despensa se organiza por grandes familias de ingredientes:
 * Ingredientes de repostería
 * Frutos de cáscara
 * Frutas
+* Café, té e infusiones
 
 La categoría **Cereales** comprende también sus derivados culinarios básicos cuando se utilizan como ingredientes de despensa, por ejemplo pasta seca y sémola. No implica que estos productos sean granos sin procesar.
 
@@ -269,6 +270,21 @@ La familia **Frutas** reúne materias primas para postres, bebidas y preparacion
 | ING-0105 | [Dashi](./13_Bases_Culinarias/dashi.md) | Umami para sopas japonesas |
 | ING-0106 | [Almidón de maíz](./13_Bases_Culinarias/maicena.md) | Espesado de salsas y cremas |
 | ING-0107 | [Vino blanco para cocinar](./11_Condimentos/vino_blanco_cocina.md) | Desglasado y acidez aromática |
+
+---
+
+## Café, té, infusiones y gelificantes de repostería
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0108 | [Café tostado](./18_Infusiones/cafe_tostado.md) | Extracción caliente y cold brew |
+| ING-0109 | [Té negro](./18_Infusiones/te_negro.md) | Chai, infusiones y té frío |
+| ING-0110 | [Té matcha](./18_Infusiones/te_matcha.md) | Bebidas de polvo de té verde |
+| ING-0111 | [Hibisco seco](./18_Infusiones/hibisco_seco.md) | Infusiones ácidas y bebidas frías |
+| ING-0112 | [Vainilla](./15_Reposteria/vainilla.md) | Aromatización de cremas y postres |
+| ING-0113 | [Gelatina neutra](./15_Reposteria/gelatina_neutra.md) | Gelificación de postres fríos |
+
+La familia **Café, té e infusiones** reúne materias primas de extracción aromática y bebidas.
 
 ---
 
