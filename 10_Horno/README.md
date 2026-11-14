@@ -63,6 +63,11 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - **Rellenos vegetales:** [tomates con cuscús](./tomates_rellenos_de_cuscus_y_verduras.md) combinan vaciado, hidratación y control de humedad.
 - **Coberturas y contrastes:** [merluza con costra](./merluza_con_costra_de_hierbas_y_pan.md) busca una superficie crujiente sin secar el pescado; [manzanas asadas](./manzanas_asadas_con_canela_y_nueces.md) conservan la forma de la fruta mientras se ablanda.
 
+## Técnicas para masas
+
+- [Fermentar masas hidratadas de pan](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md): reposos, pliegues y desarrollo de volumen, aplicado a la focaccia.
+- [Hornear masas en blanco](../00_Bases/03_Tecnicas/hornear_masas_en_blanco.md): precocción de bases de tartas saladas, aplicada a la quiche.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.

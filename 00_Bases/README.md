@@ -164,6 +164,19 @@ Todo documento de este módulo deberá:
 
 ---
 
+## Técnicas de arroz y masas
+
+El dominio de arroces y las masas saladas cuentan con procedimientos reutilizables para sus principales decisiones de cocción:
+
+- [Cocer arroz por absorción](./03_Tecnicas/cocer_arroz_por_absorcion.md).
+- [Controlar arroz meloso y caldoso](./03_Tecnicas/controlar_arroz_meloso_y_caldoso.md).
+- [Mantecar un risotto](./03_Tecnicas/mantecar_risotto.md).
+- [Enfriar y recalentar arroz cocido con seguridad](./03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md).
+- [Fermentar masas hidratadas de pan](./03_Tecnicas/fermentar_masas_hidratadas.md).
+- [Hornear masas en blanco](./03_Tecnicas/hornear_masas_en_blanco.md).
+
+---
+
 # Evolución
 
 Este módulo crecerá progresivamente conforme aparezcan nuevas necesidades.
