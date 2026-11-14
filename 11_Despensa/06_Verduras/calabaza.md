@@ -1,5 +1,5 @@
 ---
-id: ING-0044
+id: ING-0045
 tipo: ingrediente
 titulo: Calabaza
 categoria: Verduras
