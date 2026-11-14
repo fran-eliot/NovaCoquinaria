@@ -61,7 +61,7 @@ Esta receta implementa la plantilla **Arroz frito base**, adaptándola a las car
 
 Seguir el procedimiento descrito en:
 
-- **PLA-0008 · Arroz frito base**
+- [PLA-0015 · Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 
 Aplicando las siguientes particularidades:
 
@@ -141,7 +141,7 @@ Combina especialmente bien con:
 
 ## Implementa
 
-- PLA-0008 · Arroz frito base
+- [PLA-0015 · Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)
 
 ## Utiliza
 
@@ -170,7 +170,7 @@ Combina especialmente bien con:
 # Referencias
 
 - Plantilla: Arroz frito base
-- Técnica: Salteado asiático
+- [Técnica: saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)
 - Ingrediente: Arroz jazmín
 - Ingrediente: Arroz basmati
 - Ingrediente: Salsa de soja
