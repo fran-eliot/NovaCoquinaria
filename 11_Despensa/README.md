@@ -120,6 +120,21 @@ Cada documento deberá:
 
 ---
 
+## Ingredientes cotidianos de referencia
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0042 | [Patata](./06_Verduras/patata.md) | Almidón, asados y guisos |
+| ING-0043 | [Tomate fresco](./06_Verduras/tomate_fresco.md) | Acidez, agua, salsas y rellenos |
+| ING-0044 | [Espinacas](./06_Verduras/espinacas.md) | Hojas, guisos y rellenos |
+| ING-0045 | [Calabaza](./06_Verduras/calabaza.md) | Dulzor, cremas y arroces |
+| ING-0046 | [Limón](./11_Condimentos/limon.md) | Zumo ácido y ralladura aromática |
+| ING-0047 | [Mantequilla](./14_Huevos_Lacteos/mantequilla.md) | Grasas, masas y salsas |
+
+Las fichas distinguen selección, comportamiento al cocinar, usos, conservación, sustituciones y relaciones con recetas.
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
