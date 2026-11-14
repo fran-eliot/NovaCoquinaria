@@ -33,6 +33,12 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | REC-0076 | [Pollo glaseado con miso y jengibre](./pollo_glaseado_con_miso.md) | Dorado y glaseado |
 | REC-0077 | [Fideos con salsa de cacahuete y lima](./fideos_con_salsa_de_cacahuete.md) | Fideos y emulsión |
 | REC-0078 | [Verduras salteadas con hoisin y sésamo](./verduras_salteadas_con_hoisin.md) | Salteado |
+| REC-0136 | [Tofu dorado con jengibre y soja](./tofu_crujiente_con_jengibre_y_soja.md) | Dorado y glaseado breve |
+| REC-0137 | [Arroz frito con kimchi y huevo](./arroz_frito_con_kimchi_y_huevo.md) | Arroz frito y fermentados |
+| REC-0138 | [Sopa de coco con pollo y lima](./sopa_de_coco_con_pollo_y_lima.md) | Infusión y cocción en caldo |
+| REC-0139 | [Cerdo agridulce con pimientos](./cerdo_agridulce_con_pimientos.md) | Salteado y salsa agridulce |
+| REC-0140 | [Fideos de arroz con gambas y lima](./fideos_de_arroz_con_gambas_y_lima.md) | Hidratación y salteado |
+| REC-0141 | [Setas salteadas con salsa de ostras](./setas_salteadas_con_salsa_de_ostras.md) | Dorado y glaseado umami |
 
 ## Técnicas y plantilla
 
@@ -81,6 +87,13 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | Pollo con umami fermentado | [Pollo glaseado con miso](./pollo_glaseado_con_miso.md) |
 | Fideos con salsa cremosa | [Fideos con cacahuete](./fideos_con_salsa_de_cacahuete.md) |
 | Verduras dulce-saladas | [Verduras con hoisin](./verduras_salteadas_con_hoisin.md) |
+
+## Nuevas aplicaciones por método
+
+- **Dorado y glaseado:** [tofu con jengibre y soja](./tofu_crujiente_con_jengibre_y_soja.md) y [setas con salsa de ostras](./setas_salteadas_con_salsa_de_ostras.md) separan la evaporación de humedad del acabado.
+- **Arroz y fideos:** [arroz frito con kimchi](./arroz_frito_con_kimchi_y_huevo.md) y [fideos de arroz con gambas](./fideos_de_arroz_con_gambas_y_lima.md) requieren controlar hidratación y punto.
+- **Caldo aromático:** [sopa de coco con pollo y lima](./sopa_de_coco_con_pollo_y_lima.md) coordina infusión y cocción de ave.
+- **Equilibrio de salsas:** [cerdo agridulce](./cerdo_agridulce_con_pimientos.md) combina ácido, dulce y salado.
 
 ## Ruta de aprendizaje
 
