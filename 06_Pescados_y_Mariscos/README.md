@@ -65,6 +65,12 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 
 Las fichas de merluza, bacalao y calamar distinguen formatos de compra, preparación y puntos críticos.
 
+## Aromáticos, especias y verduras
+
+- [Perejil](../11_Despensa/08_Especias/perejil.md): salsa verde, calamares y acabados.
+- [Pimentón](../11_Despensa/08_Especias/pimenton.md): sofritos para bacalao con garbanzos.
+- [Guisantes](../11_Despensa/06_Verduras/guisantes.md): guarnición tierna de merluza en cazuela.
+
 ## Seguridad y alérgenos
 
 - Mantener pescado y marisco refrigerados; descongelar en refrigeración.
