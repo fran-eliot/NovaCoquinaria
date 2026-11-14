@@ -84,6 +84,11 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 - [Anchoas en conserva](../11_Despensa/12_Conservas/anchoas_en_conserva.md): salinidad y umami en el sofrito.
 - [Pecorino Romano](../11_Despensa/14_Huevos_Lacteos/pecorino_romano.md): ligado de pasta con agua de cocción y temperatura controlada.
 
+## Especias para salsas y acabados
+
+- [Pimienta negra](../11_Despensa/08_Especias/pimienta_negra.md): molienda y tostado breve para cacio e pepe.
+- [Orégano](../11_Despensa/08_Especias/oregano.md): aromatizar salsas de tomate con calor moderado.
+
 ## Ruta práctica de aprendizaje
 
 1. Comenzar por [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).
