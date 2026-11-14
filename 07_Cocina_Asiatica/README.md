@@ -85,6 +85,11 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Cilantro fresco](../11_Despensa/08_Especias/cilantro_fresco.md): notas frescas en currys y caldos.
 - [Shiitake](../11_Despensa/07_Setas/shiitake.md): seta umami para sopas y salteados.
 
+## Frutos y semillas en salsas
+
+- [Cacahuetes](../11_Despensa/16_Frutos_Secos/cacahuetes.md): crema para salsas de fideos y grano tostado para acabados.
+- [Tahini](../11_Despensa/16_Frutos_Secos/tahini.md): pasta de sésamo con comportamiento diferente al aceite tostado.
+
 ## Seguridad y alérgenos
 
 - Cocinar completamente proteínas animales y evitar contaminación cruzada.
