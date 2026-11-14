@@ -88,6 +88,12 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Nuez moscada](../11_Despensa/08_Especias/nuez_moscada.md): dosis pequeñas en elaboraciones lácteas.
 - [Cardamomo](../11_Despensa/08_Especias/cardamomo.md): aromatización floral de arroz con leche y bebidas.
 
+## Ingredientes para estructura y cuajado
+
+- [Impulsor químico](../11_Despensa/15_Reposteria/impulsor_quimico.md): expansión de bizcochos y masas rápidas.
+- [Queso crema](../11_Despensa/14_Huevos_Lacteos/queso_crema.md): textura y cuajado de tartas.
+- [Levadura de panadería](../11_Despensa/15_Reposteria/levadura_panaderia.md): fermentación biológica, distinta de los impulsores químicos.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
