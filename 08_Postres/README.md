@@ -58,6 +58,11 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Limón](../11_Despensa/11_Condimentos/limon.md): zumo y ralladura con funciones distintas.
 - [Mantequilla](../11_Despensa/14_Huevos_Lacteos/mantequilla.md): grasa estructural de masas, crumbles y coberturas.
 
+## Lácteos de referencia
+
+- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): humedad y acidez en masas y preparaciones frías.
+- [Nata para cocinar](../11_Despensa/13_Bases_Culinarias/nata_para_cocinar.md): producto lácteo para cremas y mezclas saladas; no equivale necesariamente a nata para montar.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
