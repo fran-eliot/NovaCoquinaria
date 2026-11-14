@@ -135,6 +135,19 @@ Las fichas distinguen selección, comportamiento al cocinar, usos, conservación
 
 ---
 
+## Ingredientes para arroces, cocina asiática y lácteos
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0048 | [Arroz Albufera](./01_Cereales/arroz_albufera.md) | Arroces melosos, caldosos y secos |
+| ING-0049 | [Aceite de cacahuete](./10_Aceites/aceite_de_cacahuete.md) | Salteado y fritura controlada |
+| ING-0050 | [Lemongrass](./08_Especias/lemongrass.md) | Aromatización de sopas y currys |
+| ING-0051 | [Glutamato monosódico](./11_Condimentos/glutamato_monosodico.md) | Ajuste de umami |
+| ING-0052 | [Yogur natural](./14_Huevos_Lacteos/yogur_natural.md) | Acidez y cremosidad en bebidas y salsas |
+| ING-0053 | [Nata para cocinar](./13_Bases_Culinarias/nata_para_cocinar.md) | Cuerpo de salsas y rellenos |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
