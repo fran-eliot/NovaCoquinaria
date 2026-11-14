@@ -27,6 +27,12 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 | REC-0084 | [Tarta de queso al horno](./tarta_de_queso_al_horno.md) | Cuajado en horno |
 | REC-0085 | [Peras al vino tinto](./peras_al_vino_tinto.md) | Pochado de fruta |
 | REC-0086 | [Compota de manzana](./compota_de_manzana.md) | Cocción húmeda |
+| REC-0142 | [Crumble de manzana y pera](./crumble_de_manzana_y_pera.md) | Fruta al horno y cobertura quebradiza |
+| REC-0143 | [Brownie de chocolate y nueces](./brownie_de_chocolate_y_nueces.md) | Horneado de masa densa |
+| REC-0144 | [Panna cotta de vainilla](./panna_cotta_de_vainilla.md) | Gelificación en frío |
+| REC-0145 | [Torrijas de leche y canela](./torrijas_de_leche_y_canela.md) | Infusión, remojo y fritura |
+| REC-0146 | [Sorbete de limón sin huevo](./sorbete_de_limon_sin_huevo.md) | Congelación y cristalización |
+| REC-0147 | [Crema catalana con canela y limón](./crema_catalana_con_canela_y_limon.md) | Espesado de crema y caramelizado |
 
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
@@ -44,6 +50,13 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 | Tarta cremosa | [Tarta de queso](./tarta_de_queso_al_horno.md) |
 | Fruta especiada para adultos | [Peras al vino](./peras_al_vino_tinto.md) |
 | Fruta cocida sin azúcar obligatorio | [Compota de manzana](./compota_de_manzana.md) |
+
+## Nuevas familias de texturas
+
+- **Fruta y horno:** [crumble de manzana y pera](./crumble_de_manzana_y_pera.md) combina fruta tierna y cobertura crujiente.
+- **Masas densas:** [brownie de chocolate](./brownie_de_chocolate_y_nueces.md) contrasta con el bizcocho aireado.
+- **Postres fríos:** [panna cotta](./panna_cotta_de_vainilla.md) cuaja con gelatina y [sorbete de limón](./sorbete_de_limon_sin_huevo.md) se estructura por congelación.
+- **Preparaciones de leche y huevo:** [torrijas](./torrijas_de_leche_y_canela.md) trabajan el remojo y la fritura; [crema catalana](./crema_catalana_con_canela_y_limon.md) añade el caramelizado final.
 
 ## Seguridad y alérgenos
 - Revisar presencia de huevo, leche, trigo/gluten y frutos secos según receta.
