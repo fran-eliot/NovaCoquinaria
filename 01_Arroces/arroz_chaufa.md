@@ -66,11 +66,11 @@ Seguir el procedimiento descrito en:
 Aplicando las siguientes particularidades:
 
 1. Cortar el lomo de cerdo en dados pequeños.
-2. Saltearlo a fuego muy fuerte hasta dorarlo ligeramente.
+2. Saltearlo en tandas hasta dorarlo y cocinarlo por completo; comprobar el punto del cerdo, sin asumir que el dorado superficial garantiza una cocción suficiente.
 3. Reservarlo temporalmente.
 4. Preparar el arroz siguiendo la plantilla base.
 5. Incorporar abundante cebolleta durante el último minuto de cocinado.
-6. Añadir nuevamente el cerdo antes de servir.
+6. Añadir nuevamente el cerdo y el huevo cocinado según la plantilla; mezclar hasta que el conjunto esté bien caliente antes de servir.
 7. Finalizar con unas gotas de aceite de sésamo.
 
 ---
@@ -112,15 +112,17 @@ Combina especialmente bien con:
 
 # Conservación
 
-- Refrigerar hasta 48 horas.
-- Recalentar únicamente a fuego fuerte.
-- No recomendable congelar una vez cocinado.
+- Consumir preferentemente recién preparado.
+- Si se conserva, enfriar rápidamente en porciones poco profundas y refrigerar sin demora; mantener siempre la cadena de frío.
+- Recalentar de forma uniforme hasta que todo el arroz y el cerdo estén muy calientes, sin confiar únicamente en que el fuego sea fuerte.
+- Evitar ciclos repetidos de enfriado y recalentado. Si el arroz cocido ha permanecido horas a temperatura ambiente o se desconoce su conservación, desecharlo: el recalentamiento no garantiza eliminar las toxinas de *Bacillus cereus*.
+- La congelación puede ser viable tras un enfriado seguro, pero no corrige una conservación previa inadecuada.
 
 ---
 
 # Consejos
 
-- Utilizar arroz del día anterior.
+- Utilizar arroz previamente cocido, enfriado con rapidez y conservado refrigerado; no es imprescindible que sea del día anterior.
 - Mantener el wok muy caliente.
 - No remover continuamente el arroz.
 - Incorporar la cebolleta casi al final para conservar su frescura.

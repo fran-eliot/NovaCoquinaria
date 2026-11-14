@@ -109,6 +109,18 @@ El único nodo pendiente, `GOV-0000`, corresponde al modelo de gobernanza y se e
 
 **Pendiente de confirmación:** el resultado de `find_orphans.py` después de esta corrección. La conectividad del grafo no sustituye una revisión editorial de vigencia, exactitud y utilidad de los documentos.
 
+## Primera revisión editorial dirigida: arroz frito — 2026-11-14
+
+La ejecución [Knowledge integrity #17](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/43625994952) confirma **0 advertencias semánticas y 0 documentos huérfanos**. Esto cierra los hallazgos de conectividad del grafo según las reglas actuales, no la auditoría de calidad culinaria.
+
+Se inicia una revisión editorial acotada a la receta [arroz chaufa](../../01_Arroces/arroz_chaufa.md) y la [plantilla de arroz frito](../../12_Plantillas/05_Arroces/arroz_frito_base.md):
+
+- **Seguridad:** sustituir instrucciones ambiguas sobre arroz «del día anterior», recalentado «únicamente a fuego fuerte» y congelación por indicaciones basadas en enfriado rápido, refrigeración, cocción suficiente y control del historial térmico.
+- **Coherencia:** hacer explícito el retorno del huevo y la cocción completa del cerdo en el chaufa.
+- **Reutilización:** enlazar recetas derivadas existentes y distinguirlas de variantes todavía no documentadas.
+
+**Límite:** revisión documental y de consistencia, sin ensayo culinario presencial, medición de temperaturas ni validación microbiológica. No se atribuye a estas dos fichas una certificación general de seguridad alimentaria.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
