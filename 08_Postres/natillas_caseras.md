@@ -59,6 +59,7 @@ Crema de leche y yemas espesada suavemente con maicena, aromatizada con vainilla
 Refrigerar rápidamente, mantener frías y consumir en pocos días.
 
 ## Relaciones
+- [Diagnóstico de postres: cremas y espesado](../98_Tablas/07_Comparativas/diagnostico_postres.md)
 - [Bizcocho de yogur](./bizcocho_de_yogur.md)
 
 ## Principio de NovaCoquinaria
