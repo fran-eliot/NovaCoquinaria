@@ -1,6 +1,6 @@
 ---
 
-id: PLA-0007
+id: PLA-0014
 tipo: plantilla
 titulo: Vinagreta base
 categoria: Plantillas
