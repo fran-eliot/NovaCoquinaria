@@ -147,6 +147,7 @@ python tools/validate_all.py
 
 - [PROJECT_STATUS](./docs/management/PROJECT_STATUS.md)
 - [CONSOLIDACIÓN DEL CONOCIMIENTO](./docs/management/CONSOLIDACION_CONOCIMIENTO.md)
+- [ÍNDICE TRANSVERSAL DEL CONOCIMIENTO](./docs/management/INDICE_NAVEGACION_CONOCIMIENTO.md)
 - [ROADMAP](./docs/management/ROADMAP.md)
 - [RELEASES](./docs/management/RELEASES.md)
 - [CHANGELOG](./CHANGELOG.md)
