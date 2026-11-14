@@ -65,7 +65,7 @@ Aceitar generosamente la bandeja, pasar la masa y extender sin desgarrarla. Si s
 
 ### 5. Marcar y condimentar
 
-Precalentar horno a 220 °C. Presionar la masa con yemas aceitadadas creando hoyuelos; repartir aceite restante, romero y sal opcional.
+Precalentar horno a 220 °C. Presionar la masa con yemas aceitadas creando hoyuelos; repartir aceite restante, romero y sal opcional.
 
 ### 6. Hornear y enfriar
 
