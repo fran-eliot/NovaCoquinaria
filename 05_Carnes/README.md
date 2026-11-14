@@ -40,6 +40,16 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 | REC-0128 | [Albóndigas de ternera en salsa de tomate](./albondigas_de_ternera_en_salsa_de_tomate.md) | Carne picada y salsa |
 | REC-0129 | [Ternera salteada con pimientos y comino](./ternera_con_pimientos_y_comino.md) | Salteado por tandas |
 
+## Nuevas preparaciones de carnes y salsas
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0181 | [Pollo guisado con limón y aceitunas](./pollo_guisado_con_limon_y_aceitunas.md) | Dorado y cocción suave en salsa cítrica |
+| REC-0182 | [Secreto de cerdo con salsa de naranja y jengibre](./secreto_de_cerdo_con_salsa_de_naranja_y_jengibre.md) | Plancha y reducción de zumo |
+| REC-0183 | [Ternera salteada con setas y mirin](./ternera_salteada_con_setas_y_mirin.md) | Salteado por tandas y salsa corta |
+
+Las tres elaboraciones muestran cómo adaptar la cocción al corte de carne y equilibrar dulzor, acidez, salinidad y aromas sin quemar las salsas.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
