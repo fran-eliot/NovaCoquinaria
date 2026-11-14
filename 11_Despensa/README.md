@@ -204,6 +204,19 @@ La organización de Despensa comprende también los **ingredientes de reposterí
 
 ---
 
+## Semillas, conservas y quesos para salsas y recetas de despensa
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0078 | [Tahini](./16_Frutos_Secos/tahini.md) | Crema de sésamo para hummus y aliños |
+| ING-0079 | [Cacahuetes](./16_Frutos_Secos/cacahuetes.md) | Salsas cremosas y acabados crujientes |
+| ING-0080 | [Atún en conserva](./12_Conservas/atun_en_conserva.md) | Ensaladas, empanadas y pasta |
+| ING-0081 | [Anchoas en conserva](./12_Conservas/anchoas_en_conserva.md) | Salinidad y umami de salsas |
+| ING-0082 | [Pecorino Romano](./14_Huevos_Lacteos/pecorino_romano.md) | Ligazón de queso en pastas romanas |
+| ING-0083 | [Almendras](./16_Frutos_Secos/almendras.md) | Repostería, textura y tostado |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
