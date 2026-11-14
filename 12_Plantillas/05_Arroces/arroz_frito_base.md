@@ -81,7 +81,7 @@ Utilizar preferentemente:
 
 El arroz debe estar:
 
-- previamente cocido;
+- previamente cocido, enfriado rápidamente y refrigerado sin demora;
 - completamente frío;
 - relativamente seco;
 - con los granos separados.
@@ -445,10 +445,11 @@ El arroz frito se consume preferentemente recién preparado.
 
 En caso de conservación:
 
-- enfriar rápidamente;
-- refrigerar en un recipiente cerrado;
-- recalentar completamente;
-- evitar múltiples ciclos de enfriado y recalentado.
+- enfriar rápidamente en porciones poco profundas y refrigerar sin demora;
+- mantener la cadena de frío en un recipiente cerrado;
+- recalentar uniformemente hasta que todo el plato esté muy caliente;
+- evitar múltiples ciclos de enfriado y recalentado;
+- desechar arroz que haya permanecido horas a temperatura ambiente o cuyo historial de conservación sea desconocido: el recalentamiento no garantiza eliminar toxinas de *Bacillus cereus*.
 
 Consultar:
 
@@ -530,9 +531,10 @@ Consultar:
 
 ## Recetas derivadas
 
-- Arroz frito con huevo — pendiente
-- Arroz frito con pollo — pendiente
-- Arroz frito con gambas — pendiente
+- [Arroz frito con huevo y verduras](../../07_Cocina_Asiatica/arroz_frito_con_huevo.md)
+- [Arroz chaufa](../../01_Arroces/arroz_chaufa.md)
+- Arroz frito con pollo — variante descrita, sin receta independiente enlazada
+- Arroz frito con gambas — variante descrita, sin receta independiente enlazada
 
 ---
 
