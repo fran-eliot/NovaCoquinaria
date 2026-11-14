@@ -6,7 +6,7 @@ titulo: Miso
 categoria: Salsas
 estado: estable
 version: 1.0.0
-ultima_revision: 2026-07-02
+ultima_revision: 2026-11-14
 etiquetas:
 - miso
 - fermentado
@@ -231,10 +231,14 @@ Debe formar parte del equilibrio general del plato.
 
 ## Recetas relacionadas
 
-* Sopa de miso *(futura)*
-* Salmón al miso *(futura)*
-* Berenjena glaseada con miso *(futura)*
-* Pollo marinado en miso *(futura)*
+* [Sopa de miso con tofu y setas](../../07_Cocina_Asiatica/sopa_de_miso_con_tofu.md).
+* [Berenjena asada con glaseado de miso](../../07_Cocina_Asiatica/berenjena_con_miso.md).
+* [Pollo glaseado con miso y jengibre](../../07_Cocina_Asiatica/pollo_glaseado_con_miso.md).
+
+### Preparaciones aún no documentadas
+
+* Salmón al miso.
+* Pollo marinado en miso (preparación distinta del pollo glaseado existente).
 
 ---
 

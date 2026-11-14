@@ -39,6 +39,24 @@ Durante una revisión dirigida de referencias del módulo Cocina Asiática se de
 
 No se extrapola este hallazgo a un número total de enlaces rotos del repositorio.
 
+## Revisión dirigida de navegación — 2026-11-14
+
+Se realizó una comprobación de existencia de destinos Markdown sobre una **muestra de 36 referencias** en los índices de módulos:
+
+| Documento de origen | Referencias comprobadas | Destinos ausentes |
+|---|---:|---:|
+| `02_Pastas/README.md` | 12 | 0 |
+| `07_Cocina_Asiatica/README.md` | 24 | 0 |
+| **Total de la muestra** | **36** | **0** |
+
+**Método:** lectura de los enlaces relativos Markdown y consulta de existencia de los archivos de destino en la rama `main` mediante GitHub. En Pastas se revisaron las primeras 12 referencias Markdown; en Cocina Asiática se revisaron las referencias 13 a 36 según su orden de aparición. No se validaron anclas, contenido semántico de los destinos ni el conjunto completo de archivos.
+
+**Resultado:** no se encontraron destinos ausentes **en la muestra indicada**. Esto no acredita la integridad global del repositorio ni sustituye `python tools/validate_all.py`.
+
+### Coherencia semántica detectada
+
+La ficha `11_Despensa/09_Salsas/miso.md` describía como futuras la sopa de miso y la berenjena glaseada, aunque ya existen como `REC-0072` y `REC-0075`. Se actualiza la ficha para enlazar esas recetas y `REC-0076` (pollo glaseado con miso), manteniendo separadas las preparaciones todavía no documentadas.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
