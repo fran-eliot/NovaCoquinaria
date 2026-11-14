@@ -30,3 +30,9 @@ jobs:
 
       - name: Validate Front Matter, IDs and links
         run: python tools/validate_all.py
+
+      - name: Audit semantic relationships (advisory)
+        run: python tools/validate_semantics.py
+
+      - name: Report orphan knowledge (advisory)
+        run: python tools/find_orphans.py
