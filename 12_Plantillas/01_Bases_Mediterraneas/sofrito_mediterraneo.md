@@ -1,6 +1,6 @@
 ---
 
-id: PLA-0006
+id: PLA-0013
 tipo: plantilla
 titulo: Sofrito mediterráneo
 categoria: Plantillas

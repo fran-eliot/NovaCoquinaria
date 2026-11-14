@@ -1,5 +1,5 @@
 ---
-id: DOC-0020
+id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
 version: 1.0.0
@@ -56,6 +56,14 @@ Se realizó una comprobación de existencia de destinos Markdown sobre una **mue
 ### Coherencia semántica detectada
 
 La ficha `11_Despensa/09_Salsas/miso.md` describía como futuras la sopa de miso y la berenjena glaseada, aunque ya existen como `REC-0072` y `REC-0075`. Se actualiza la ficha para enlazar esas recetas y `REC-0076` (pollo glaseado con miso), manteniendo separadas las preparaciones todavía no documentadas.
+
+## Integración continua de la integridad documental
+
+El workflow [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml) ejecuta `python tools/validate_all.py` en pull requests, cambios a `main` y mediante activación manual. Instala la dependencia PyYAML necesaria para los validadores existentes.
+
+El job `Validate Markdown knowledge` falla si cualquiera de los tres controles devuelve un código distinto de cero. Los mensajes de los validadores quedan disponibles en el registro de ejecución de GitHub Actions.
+
+**Estado de ejecución:** la incorporación del workflow no demuestra que el repositorio supere los controles. El resultado real debe consultarse en GitHub Actions tras ejecutarse. Para exigir este control antes de fusionar, se debe configurar como comprobación requerida en la protección de la rama.
 
 ## Procedimiento recomendado
 

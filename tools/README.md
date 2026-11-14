@@ -49,6 +49,8 @@ Antes de generar la documentación publicada:
 python tools/validate_all.py
 ```
 
+La validación principal también se ejecuta automáticamente mediante [Knowledge integrity](../.github/workflows/knowledge-integrity.yml) en pull requests y cambios a `main`, y admite ejecución manual desde GitHub Actions. El estado del job refleja el resultado real de los validadores; la existencia del workflow no implica que la base de conocimiento esté libre de errores.
+
 Si la validación es correcta:
 
 ```bash
