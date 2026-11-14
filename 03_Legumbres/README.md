@@ -32,6 +32,12 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | REC-0103 | [Crema de alubias blancas y puerro](./crema_alubias_blancas_puerro.md) | Triturado y textura de crema sin nata |
 | REC-0104 | [Garbanzos salteados con setas y comino](./garbanzos_salteados_setas_comino.md) | Salteado y reducción de humedad |
 | REC-0105 | [Ensalada de garbanzos con pimiento y limón](./ensalada_garbanzos_pimiento_limon.md) | Corte, escurrido y aliño en frío |
+| REC-0106 | [Potaje de garbanzos con bacalao y espinacas](./garbanzos_con_bacalao_y_espinacas.md) | Guiso e incorporación final del pescado |
+| REC-0107 | [Lentejas con calabaza y setas](./lentejas_con_calabaza_y_setas.md) | Coordinación de tiempos y dorado de setas |
+| REC-0108 | [Alubias blancas con tomate y romero](./alubias_blancas_con_tomate_y_romero.md) | Salsa reducida y legumbre ya cocida |
+| REC-0109 | [Ensalada de alubias con atún](./ensalada_alubias_blancas_con_atun.md) | Aliño frío y pescado en conserva |
+| REC-0110 | [Crema de lentejas rojas, zanahoria y jengibre](./crema_lentejas_rojas_zanahoria_jengibre.md) | Cremosidad de lenteja partida |
+| REC-0111 | [Garbanzos al curry con coco y espinacas](./garbanzos_al_curry_con_coco_y_espinacas.md) | Salsa especiada y legumbre cocida |
 
 ## Ingredientes de autoridad
 
@@ -59,6 +65,12 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | Garbanzos cocidos para plato frío | [Ensalada de garbanzos con pimiento](./ensalada_garbanzos_pimiento_limon.md) |
 | Lentejas rojas partidas | [Dhal especiado](./dhal_de_lentejas_rojas.md) |
 | Lentejas cocidas para plato frío | [Ensalada de lentejas](./ensalada_de_lentejas.md) |
+| Garbanzos y bacalao desalado | [Potaje con bacalao y espinacas](./garbanzos_con_bacalao_y_espinacas.md) |
+| Lentejas secas y calabaza | [Lentejas con calabaza y setas](./lentejas_con_calabaza_y_setas.md) |
+| Alubias cocidas y tomate | [Alubias con tomate y romero](./alubias_blancas_con_tomate_y_romero.md) |
+| Alubias cocidas y atún en conserva | [Ensalada de alubias con atún](./ensalada_alubias_blancas_con_atun.md) |
+| Lentejas rojas para una crema | [Crema de zanahoria y jengibre](./crema_lentejas_rojas_zanahoria_jengibre.md) |
+| Garbanzos cocidos y leche de coco | [Garbanzos al curry](./garbanzos_al_curry_con_coco_y_espinacas.md) |
 | Necesidad de controlar remojo o seguridad | [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) |
 
 ## Ruta práctica de aprendizaje
