@@ -46,13 +46,13 @@ Ensalada de lentejas cocidas con hortalizas crujientes y vinagreta. El objetivo 
 
 ## Mise en place
 
-Si las lentejas se han cocido en casa, enfriarlas rápidamente y mantenerlas refrigeradas hasta preparar la ensalada. Si son de conserva, escurrir y enjuagar según el nivel de sal deseado. Lavar y cortar las hortalizas.
+Si las lentejas se han cocido en casa, detener su cocción cuando estén tiernas pero aún enteras, escurrirlas y enfriarlas rápidamente en recipientes poco profundos; mantenerlas refrigeradas hasta preparar la ensalada. Si son de conserva, escurrir y enjuagar según el nivel de sal deseado. Lavar y cortar las hortalizas con utensilios limpios.
 
 ## Elaboración
 
 ### 1. Preparar las lentejas
 
-Escurrir muy bien las lentejas cocidas para evitar diluir la vinagreta. Colocarlas en un bol amplio.
+Escurrir muy bien las lentejas cocidas y frías para evitar diluir la vinagreta. Si conservan agua superficial, dejarlas unos minutos en el colador y moverlas suavemente, sin aplastarlas. Colocarlas en un bol amplio.
 
 ### 2. Cortar las hortalizas
 
@@ -60,11 +60,11 @@ Cortar pimiento, pepino, cebolla y tomate en dados pequeños y similares. Retira
 
 ### 3. Preparar la vinagreta
 
-Batir aceite, vinagre o limón, mostaza opcional, sal y pimienta hasta integrar.
+Batir primero el vinagre o limón con la mostaza opcional, sal y pimienta. Incorporar el aceite poco a poco mientras se bate para obtener una vinagreta que cubra las lentejas de forma uniforme; volver a batir antes de usar si se separa.
 
 ### 4. Mezclar
 
-Añadir las hortalizas a las lentejas y mezclar con suavidad. Incorporar la vinagreta poco a poco y probar.
+Añadir las hortalizas a las lentejas y mezclar con suavidad para mantener los granos enteros. Incorporar aproximadamente dos tercios de la vinagreta, remover de abajo arriba y probar; añadir el resto solo si hace falta para no enmascarar los sabores. Si el tomate libera mucho líquido, escurrir el exceso antes de terminar el aliño.
 
 ### 5. Servir
 
@@ -103,7 +103,7 @@ Lentejas enteras, hortalizas crujientes y vinagreta ligera, con contraste entre 
 
 ## Conservación
 
-Refrigerar en recipiente cerrado y consumir en un plazo corto. Si se prepara con antelación, reservar parte de la vinagreta y añadirla antes de servir para conservar mejor la textura. Mantener la cadena de frío.
+Refrigerar en recipiente cerrado y consumir en un plazo corto. Si se prepara con antelación, conservar las lentejas y las hortalizas muy acuosas por separado y reservar parte de la vinagreta para mezclar poco antes de servir, mejorando la textura. Mantener la cadena de frío; no confiar en el olor o el aspecto para determinar si una ensalada mal conservada es segura.
 
 ## Relaciones dentro del SGCC
 
