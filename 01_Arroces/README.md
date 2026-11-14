@@ -36,6 +36,16 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 | REC-0158 | [Arroz meloso de calabaza y setas](./arroz_meloso_de_calabaza_y_setas.md) | Cocción melosa |
 | REC-0159 | [Arroz al horno con garbanzos y patata](./arroz_al_horno_con_garbanzos_y_patata.md) | Horno y absorción |
 
+## Nuevos arroces: cocción seca, melosa y absorción
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0178 | [Arroz seco de verduras con azafrán](./arroz_seco_de_verduras_con_azafran.md) | Cazuela ancha, absorción y evaporación |
+| REC-0179 | [Arroz meloso de bacalao y espinacas](./arroz_meloso_de_bacalao_y_espinacas.md) | Fondo marino y pescado añadido al final |
+| REC-0180 | [Arroz basmati con garbanzos y especias](./arroz_basmati_con_garbanzos_y_especias.md) | Nacarado y cocción tapada |
+
+Estas recetas distinguen tres objetivos de textura y mantienen la seguridad del arroz cocido durante el enfriado y el recalentamiento.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
