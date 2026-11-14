@@ -1,5 +1,5 @@
 ---
-id: ING-0046
+id: ING-0047
 tipo: ingrediente
 titulo: Mantequilla
 categoria: Huevos y lácteos
