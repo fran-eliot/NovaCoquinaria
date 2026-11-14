@@ -84,6 +84,11 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Mostaza](../11_Despensa/11_Condimentos/mostaza.md): salsas para cerdo y glaseados de pollo.
 - [Miel](../11_Despensa/11_Condimentos/miel.md): equilibrio dulce de glaseados con mostaza.
 
+## Hierbas y especias para carnes
+
+- [Pimienta negra](../11_Despensa/08_Especias/pimienta_negra.md): dosificación antes o después del dorado.
+- [Tomillo](../11_Despensa/08_Especias/tomillo.md): infusión en estofados y asados.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
