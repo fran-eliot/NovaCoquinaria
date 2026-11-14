@@ -188,6 +188,22 @@ El dominio de arroces y las masas saladas cuentan con procedimientos reutilizabl
 
 ---
 
+## Cortes, sazonado y organización
+
+### Cortes
+- [Cortar verduras con uniformidad y seguridad](./02_Cortes/cortar_verduras_con_uniformidad.md): tamaño, estabilidad y cocción homogénea.
+- [Cortar carnes según la fibra y la cocción](./02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): dirección de la fibra, grosor y técnica.
+
+### Sazonado
+- [Salar por etapas y ajustar al final](./04_Sazonado/salar_por_etapas.md): ingredientes salados y concentración de salsas.
+- [Equilibrar acidez, dulzor y amargor](./04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md): corrección y percepción del sabor.
+
+### Organización
+- [Planificar una sesión de batch cooking](./05_Organizacion/planificar_batch_cooking.md): secuencia de elaboraciones y conservación.
+- [Organizar la despensa y rotar ingredientes](./05_Organizacion/organizar_despensa_y_rotacion.md): inventario, fechas y aprovechamiento.
+
+---
+
 # Evolución
 
 Este módulo crecerá progresivamente conforme aparezcan nuevas necesidades.
