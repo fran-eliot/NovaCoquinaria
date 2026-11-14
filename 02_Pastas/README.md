@@ -33,6 +33,19 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 | REC-0029 | [Espaguetis a la puttanesca](./pasta_a_la_puttanesca.md) | Equilibrio de salinidad y acidez |
 | REC-0030 | [Pasta al ragú de carne](./pasta_al_ragu.md) | Sofrito, dorado y cocción lenta |
 | REC-0031 | [Pasta al horno con verduras](./pasta_al_horno_con_verduras.md) | Precocción y gratinado |
+| REC-0112 | [Espaguetis cacio e pepe](./espaguetis_cacio_e_pepe.md) | Emulsión de queso y control de temperatura |
+| REC-0113 | [Bucatini all’amatriciana](./bucatini_amatriciana.md) | Fundido de guanciale y reducción de tomate |
+| REC-0114 | [Pasta alla Norma](./pasta_alla_norma.md) | Dorado de berenjena y salsa de tomate |
+| REC-0115 | [Pasta e ceci](./pasta_e_ceci.md) | Cocción en caldo y ligado con garbanzos |
+| REC-0116 | [Pasta con ricotta y limón](./pasta_limon_ricotta.md) | Salsa de queso fresco sin hervor |
+| REC-0117 | [Fusilli con atún, limón y alcaparras](./fusilli_atun_limon_alcaparras.md) | Salsa rápida con conserva y emulsión |
+
+## Nuevos recorridos prácticos
+
+- **Emulsiones de queso:** [Cacio e pepe](./espaguetis_cacio_e_pepe.md) y [pasta con ricotta y limón](./pasta_limon_ricotta.md) permiten comparar el uso de queso curado y fresco, con control del calor.
+- **Tomate y dorado:** [Amatriciana](./bucatini_amatriciana.md) y [alla Norma](./pasta_alla_norma.md) desarrollan sabores distintos antes de mezclar la pasta.
+- **Pasta de cuchara:** [Pasta e ceci](./pasta_e_ceci.md) coordina pasta seca y garbanzos ya cocidos en un mismo caldo.
+- **Despensa:** [Fusilli con atún y alcaparras](./fusilli_atun_limon_alcaparras.md) muestra un acabado corto con conservas.
 
 ## Elegir por técnica
 
