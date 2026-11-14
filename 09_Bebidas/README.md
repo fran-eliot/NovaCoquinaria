@@ -27,6 +27,12 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 | REC-0092 | [Chocolate caliente](./chocolate_caliente.md) | Dispersión y espesado |
 | REC-0093 | [Infusión de jengibre y limón](./infusion_de_jengibre_y_limon.md) | Infusión sin té |
 | REC-0094 | [Café frío con hielo](./cafe_frio.md) | Extracción y enfriado |
+| REC-0148 | [Lassi de mango y yogur](./lassi_de_mango_y_yogur.md) | Triturado y ajuste de textura |
+| REC-0149 | [Matcha latte frío](./matcha_latte_frio.md) | Dispersión y mezcla en frío |
+| REC-0150 | [Infusión fría de hibisco y naranja](./infusion_fria_de_hibisco.md) | Infusión y enfriado |
+| REC-0151 | [Agua de pepino, lima y menta](./agua_de_pepino_lima_y_menta.md) | Maceración en frío |
+| REC-0152 | [Café cold brew por inmersión](./cafe_cold_brew.md) | Extracción fría prolongada |
+| REC-0153 | [Leche dorada con cúrcuma y jengibre](./leche_dorada_con_curcuma.md) | Infusión de especias en leche |
 
 ## Técnicas y diagnóstico
 - [Preparar infusiones y bebidas aromáticas](../00_Bases/03_Tecnicas/preparar_infusiones.md): temperatura, tiempo y extracción.
@@ -44,6 +50,13 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 | Bebida caliente de cacao | [Chocolate caliente](./chocolate_caliente.md) |
 | Infusión sin cafeína añadida | [Jengibre y limón](./infusion_de_jengibre_y_limon.md) |
 | Café refrescante | [Café frío](./cafe_frio.md) |
+
+## Nuevas familias de elaboración
+
+- **Bebidas cremosas:** [lassi de mango](./lassi_de_mango_y_yogur.md) y [matcha latte](./matcha_latte_frio.md) permiten comparar triturado y dispersión de polvo fino.
+- **Extracción y maceración:** [hibisco con naranja](./infusion_fria_de_hibisco.md) se infusiona en caliente y se enfría; [agua de pepino y menta](./agua_de_pepino_lima_y_menta.md) se aromatiza directamente en frío.
+- **Café sin calentamiento:** [cold brew](./cafe_cold_brew.md) desarrolla la extracción durante una inmersión refrigerada.
+- **Especias en leche:** [leche dorada](./leche_dorada_con_curcuma.md) combina dispersión y calor suave.
 
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
