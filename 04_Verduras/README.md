@@ -78,6 +78,13 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | Ajo | [Ajo](../11_Despensa/06_Verduras/ajo.md) |
 | Champiñón | [Champiñón](../11_Despensa/07_Setas/champinon.md) |
 
+## Otros ingredientes de referencia
+
+- [Patata](../11_Despensa/06_Verduras/patata.md): almidón, cortes y cocciones.
+- [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md): humedad y acidez de sofritos.
+- [Espinacas](../11_Despensa/06_Verduras/espinacas.md): hojas y gestión del agua.
+- [Calabaza](../11_Despensa/06_Verduras/calabaza.md): textura y dulzor en guisos y cremas.
+
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
