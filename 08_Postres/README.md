@@ -77,6 +77,12 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md): tostado, molido y contraste crujiente.
 - [Cacahuetes](../11_Despensa/16_Frutos_Secos/cacahuetes.md): uso en coberturas y cremas, atendiendo a los alérgenos.
 
+## Frutas de referencia
+
+- [Manzana](../11_Despensa/17_Frutas/manzana.md): elegir variedad según textura de pasteles, compotas y asados.
+- [Pera](../11_Despensa/17_Frutas/pera.md): controlar madurez y ternura durante pochado y horneado.
+- [Naranja](../11_Despensa/17_Frutas/naranja.md): diferenciar zumo y ralladura al aromatizar elaboraciones dulces.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
