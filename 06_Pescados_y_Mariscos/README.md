@@ -75,6 +75,12 @@ Las fichas de merluza, bacalao y calamar distinguen formatos de compra, preparac
 
 - [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md): extracción breve y sabor delicado para arroces y salsas marinas.
 
+## Moluscos y bases de arroz marinero
+
+- [Mejillones](../11_Despensa/05_Mariscos/mejillones.md): origen controlado, apertura y jugo filtrado.
+- [Almejas](../11_Despensa/05_Mariscos/almejas.md): arena, conservación y cocción breve.
+- [Sepia](../11_Despensa/05_Mariscos/sepia.md): humedad, dorado y ablandamiento en guisos.
+
 ## Seguridad y alérgenos
 
 - Mantener pescado y marisco refrigerados; descongelar en refrigeración.
