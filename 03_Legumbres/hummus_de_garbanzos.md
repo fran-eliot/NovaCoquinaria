@@ -45,13 +45,13 @@ Crema de garbanzos cocidos, tahini, limón y ajo. El objetivo es una textura lis
 
 ## Mise en place
 
-Escurrir los garbanzos. Reservar un poco de líquido de cocción si es adecuado para consumo y se desea utilizarlo en lugar de parte del agua. Exprimir el limón y preparar el tahini.
+Escurrir los garbanzos. Si proceden de una conserva, enjuagarlos si se desea moderar la sal. Comprobar que estén muy tiernos: deben aplastarse fácilmente entre los dedos; si conservan un centro firme, cocerlos un poco más en agua limpia, escurrir y dejar que pierdan el calor intenso antes del triturado. Reservar líquido de cocción apto para consumo si se desea utilizarlo en lugar de parte del agua. Exprimir el limón y preparar el tahini.
 
 ## Elaboración
 
 ### 1. Triturar la base
 
-Colocar tahini, limón y ajo en un procesador. Triturar brevemente hasta integrar.
+Colocar el tahini, el limón y el ajo en un procesador. Triturar hasta integrar; añadir 1–2 cucharadas del agua prevista si la mezcla se vuelve muy espesa, para que el tahini forme una crema más ligera antes de incorporar los garbanzos.
 
 ### 2. Incorporar garbanzos
 
@@ -59,11 +59,11 @@ Añadir los garbanzos cocidos, el comino si se utiliza y una pizca de sal. Tritu
 
 ### 3. Ajustar la textura
 
-Agregar agua fría poco a poco y continuar triturando hasta lograr una crema homogénea. Añadir aceite si se desea una sensación más untuosa.
+Agregar agua fría poco a poco, en tandas de 15–20 ml, y continuar triturando hasta lograr una crema homogénea. Hacer pausas para bajar la mezcla de las paredes; el tiempo necesario depende de la potencia del equipo. Añadir aceite si se desea una sensación más untuosa. No añadir todo el líquido de una vez: el hummus se suaviza al triturar y puede quedar demasiado fluido.
 
 ### 4. Equilibrar
 
-Probar y ajustar sal, limón o tahini. Si está demasiado denso, añadir un poco más de agua y triturar de nuevo.
+Probar y ajustar sal, limón o tahini. Dejar reposar unos minutos y comprobar de nuevo la densidad: puede espesarse ligeramente al asentarse. Si está demasiado denso, añadir un poco más de agua y triturar de nuevo.
 
 ### 5. Servir
 
@@ -101,7 +101,7 @@ Crema lisa y densa, con sabor a garbanzo, sésamo y limón, sin notas de ajo dom
 
 ## Conservación
 
-Refrigerar inmediatamente en recipiente cerrado. No dejar el hummus durante periodos prolongados a temperatura ambiente; extremar la higiene por el ajo crudo y la manipulación. Consumir en un plazo corto y respetar indicaciones de ingredientes comerciales.
+Pasar a un recipiente limpio y tapado y refrigerar sin demoras. Mantener a temperatura de refrigeración, no dejar el hummus durante periodos prolongados a temperatura ambiente y utilizar utensilios limpios al servir; el ajo crudo y las manipulaciones posteriores a la cocción requieren especial higiene. Consumir en un plazo corto y respetar las indicaciones de conservación de los ingredientes comerciales.
 
 ## Relaciones dentro del SGCC
 
