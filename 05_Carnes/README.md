@@ -68,6 +68,11 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Desglasar fondos de cocción](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md): recuperar el sabor del dorado en cazuelas y sartenes.
 - [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md): ajustar concentración y consistencia antes de servir.
 
+## Braseado y fondos
+
+- [Brasear carnes en cazuela](../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md): ablandar cortes mediante cocción húmeda prolongada.
+- [Preparar caldos culinarios](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md): elaborar líquidos de cocción con sabor controlado.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
