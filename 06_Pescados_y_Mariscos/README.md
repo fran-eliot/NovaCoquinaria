@@ -45,6 +45,11 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 - [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md): remojo refrigerado y control de sal.
 - [Cocinar pescado al vapor](../00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md): cocción húmeda, grosor y control de temperatura.
 
+## Escalfado y calor suave
+
+- [Escalfar pescados en líquido aromático](../00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md): cocinar sin ebullición violenta y conservar las lascas.
+- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md): regular el movimiento del líquido y la evaporación.
+
 ## Diagnóstico
 
 - [Diagnóstico de pescados y mariscos](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md): problemas de cocción, textura, salinidad y correcciones.
