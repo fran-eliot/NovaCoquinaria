@@ -58,6 +58,7 @@ Controlar mezclado, estructura, temperatura y enfriado de bizcochos y pasteles d
 ## Relaciones
 - [Pastel de manzana](../../08_Postres/pastel_de_manzana.md)
 - [Bizcocho de yogur](../../08_Postres/bizcocho_de_yogur.md)
+- [Diagnóstico de postres: fallos de horneado](../../98_Tablas/07_Comparativas/diagnostico_postres.md)
 
 ## Principio de NovaCoquinaria
 > El tipo de masa determina el mezclado y el punto de cocción; no todos los pasteles necesitan impulsor.
