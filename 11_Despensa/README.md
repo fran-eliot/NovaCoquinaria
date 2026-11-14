@@ -233,6 +233,19 @@ La familia **Frutas** reúne materias primas para postres, bebidas y preparacion
 
 ---
 
+## Especias para salsas, guisos, postres e infusiones
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0090 | [Pimienta negra](./08_Especias/pimienta_negra.md) | Sazonado fresco de pastas y carnes |
+| ING-0091 | [Cúrcuma](./08_Especias/curcuma.md) | Color y sabor de currys y bebidas |
+| ING-0092 | [Nuez moscada](./08_Especias/nuez_moscada.md) | Aromatización de cremas y bechamel |
+| ING-0093 | [Cardamomo](./08_Especias/cardamomo.md) | Infusión de té y postres |
+| ING-0094 | [Orégano](./08_Especias/oregano.md) | Salsas de tomate y verduras |
+| ING-0095 | [Tomillo](./08_Especias/tomillo.md) | Fondos, guisos y asados |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
