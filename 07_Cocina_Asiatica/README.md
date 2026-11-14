@@ -76,6 +76,15 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 - [Aceite de cacahuete](../11_Despensa/10_Aceites/aceite_de_cacahuete.md): aceite de cocción para salteados, distinto del sésamo tostado de acabado.
 - [Glutamato monosódico](../11_Despensa/11_Condimentos/glutamato_monosodico.md): ajuste específico de umami en platos y salsas.
 
+## Ingredientes fermentados, proteínas vegetales y aromáticos
+
+- [Kimchi](../11_Despensa/12_Conservas/kimchi.md): fermentado para arroz frito y sopas; controlar acidez y salinidad.
+- [Tofu firme](../11_Despensa/02_Legumbres/tofu_firme.md): escurrido, dorado y acabado con salsa.
+- [Fideos de arroz](../11_Despensa/01_Cereales/fideos_de_arroz.md): hidratación adaptada al salteado.
+- [Lima](../11_Despensa/11_Condimentos/lima.md): zumo de acabado y ralladura aromática.
+- [Cilantro fresco](../11_Despensa/08_Especias/cilantro_fresco.md): notas frescas en currys y caldos.
+- [Shiitake](../11_Despensa/07_Setas/shiitake.md): seta umami para sopas y salteados.
+
 ## Seguridad y alérgenos
 
 - Cocinar completamente proteínas animales y evitar contaminación cruzada.
