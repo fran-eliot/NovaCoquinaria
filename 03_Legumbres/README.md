@@ -39,6 +39,16 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | REC-0110 | [Crema de lentejas rojas, zanahoria y jengibre](./crema_lentejas_rojas_zanahoria_jengibre.md) | Cremosidad de lenteja partida |
 | REC-0111 | [Garbanzos al curry con coco y espinacas](./garbanzos_al_curry_con_coco_y_espinacas.md) | Salsa especiada y legumbre cocida |
 
+## Nuevas elaboraciones de horno, ensalada y sartén
+
+| ID | Receta | Enfoque |
+|---|---|---|
+| REC-0169 | [Garbanzos crujientes al horno con especias](./garbanzos_crujientes_al_horno_con_especias.md) | Secado y asado de legumbre cocida |
+| REC-0170 | [Ensalada templada de lentejas y calabaza](./ensalada_templada_de_lentejas_y_calabaza.md) | Verduras asadas y vinagreta emulsionada |
+| REC-0171 | [Alubias blancas con setas y espinacas](./alubias_blancas_con_setas_y_espinacas.md) | Dorado de setas y calentamiento suave de alubias |
+
+Las tres recetas parten de **legumbres completamente cocidas**; el asado, el aliño y el salteado no sustituyen la cocción segura de la legumbre seca.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
