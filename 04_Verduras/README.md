@@ -39,6 +39,16 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 | REC-0122 | [Berenjenas glaseadas con miso](./berenjenas_glaseadas_con_miso.md) | Asado y glaseado |
 | REC-0123 | [Zanahorias glaseadas con naranja](./zanahorias_glaseadas_con_naranja.md) | Cocción y reducción |
 
+## Recetas de horno: hortalizas con contrastes de textura
+
+| ID | Receta | Enfoque |
+|---|---|---|
+| REC-0166 | [Calabaza asada con yogur, comino y limón](./calabaza_asada_con_yogur_y_comino.md) | Asado y acabado con salsa fría |
+| REC-0167 | [Berenjenas rellenas de garbanzos y tomate](./berenjenas_rellenas_de_garbanzos_y_tomate.md) | Asado de mitades, reducción y relleno |
+| REC-0168 | [Patatas aplastadas con romero y ajo](./patatas_aplastadas_con_romero_y_ajo.md) | Precocción y dorado final |
+
+Las preparaciones muestran tres formas distintas de gestionar humedad: evaporación superficial, reducción de relleno y secado previo al asado.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
