@@ -73,6 +73,11 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Brasear carnes en cazuela](../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md): ablandar cortes mediante cocción húmeda prolongada.
 - [Preparar caldos culinarios](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md): elaborar líquidos de cocción con sabor controlado.
 
+## Ingredientes para salsas y marinadas
+
+- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): marinadas ácidas con conservación refrigerada.
+- [Nata para cocinar](../11_Despensa/13_Bases_Culinarias/nata_para_cocinar.md): acabado de salsas y control del calor.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
