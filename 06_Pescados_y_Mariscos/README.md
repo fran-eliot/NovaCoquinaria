@@ -32,6 +32,12 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 | REC-0064 | [Bacalao al horno con patatas y cebolla](./bacalao_al_horno_con_patatas.md) | Horno escalonado |
 | REC-0065 | [Gambas al curry con leche de coco](./gambas_al_curry_con_coco.md) | Curry y cocción breve |
 | REC-0066 | [Calamares salteados con jengibre y verduras](./calamares_salteados_con_jengibre.md) | Salteado |
+| REC-0130 | [Merluza con guisantes y cebolla](./merluza_con_guisantes_y_cebolla.md) | Cocción suave en cazuela |
+| REC-0131 | [Merluza a la plancha con salsa de limón](./merluza_a_la_plancha_con_salsa_de_limon.md) | Plancha y salsa ligera |
+| REC-0132 | [Bacalao con garbanzos y pimentón](./bacalao_con_garbanzos_y_pimenton.md) | Guiso con legumbre cocida |
+| REC-0133 | [Gambas salteadas con setas y ajo](./gambas_con_setas_y_ajo.md) | Salteado por tandas |
+| REC-0134 | [Calamares encebollados](./calamares_encebollados.md) | Guiso suave |
+| REC-0135 | [Calamares rellenos de verduras](./calamares_rellenos_de_verduras.md) | Relleno y cocción en salsa |
 
 ## Técnica transversal
 
@@ -77,6 +83,13 @@ Las fichas de merluza, bacalao y calamar distinguen formatos de compra, preparac
 | Pescado con guarnición al horno | [Bacalao con patatas](./bacalao_al_horno_con_patatas.md) |
 | Marisco en salsa especiada | [Gambas al curry](./gambas_al_curry_con_coco.md) |
 | Salteado rápido de cefalópodos | [Calamares con jengibre](./calamares_salteados_con_jengibre.md) |
+
+## Recorridos por técnica
+
+- **Merluza:** comparar [cazuela con guisantes](./merluza_con_guisantes_y_cebolla.md) y [plancha con limón](./merluza_a_la_plancha_con_salsa_de_limon.md) para controlar la cocción del lomo en medios distintos.
+- **Pescado con legumbres:** [bacalao con garbanzos](./bacalao_con_garbanzos_y_pimenton.md) coordina un guiso ya desarrollado y la incorporación tardía del pescado.
+- **Marisco de sartén:** [gambas con setas](./gambas_con_setas_y_ajo.md) separa el dorado de las setas de la cocción breve de los crustáceos.
+- **Calamar de cazuela:** [encebollado](./calamares_encebollados.md) y [relleno de verduras](./calamares_rellenos_de_verduras.md) permiten comparar dos formas de cocción suave.
 
 ## Ruta de aprendizaje
 
