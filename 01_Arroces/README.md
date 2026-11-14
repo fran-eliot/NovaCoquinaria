@@ -74,6 +74,12 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 - [Kimchi](../11_Despensa/12_Conservas/kimchi.md): aporta acidez y salinidad al arroz frito.
 - [Cilantro fresco](../11_Despensa/08_Especias/cilantro_fresco.md): acabado aromático opcional de arroces especiados.
 
+## Fondos para arroces
+
+- [Caldo de verduras](../11_Despensa/13_Bases_Culinarias/caldo_de_verduras.md): fondo vegetal para arroces melosos y risotto.
+- [Caldo de pollo](../11_Despensa/13_Bases_Culinarias/caldo_de_pollo.md): base aromática para arroz con pollo.
+- [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md): fondo para arroces caldosos de marisco.
+
 ## Seguridad y conservación
 
 El arroz cocido debe **enfriarse rápidamente y refrigerarse sin demoras** si no se consume enseguida. No conservarlo durante horas a temperatura ambiente ni confiar en el recalentado para corregir un almacenamiento previo inseguro. Cuando la preparación incorpore pollo, pescado o marisco, aplicar además las comprobaciones de cocción y alérgenos de cada ingrediente.
