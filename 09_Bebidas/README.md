@@ -65,6 +65,10 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 - [Cacao puro en polvo](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md): dispersión de polvo y sabor a chocolate.
 - [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md): ajuste de dulzor según la bebida.
 
+## Cítricos de referencia
+
+- [Lima](../11_Despensa/11_Condimentos/lima.md): zumo y ralladura para aguas aromatizadas y bebidas refrescantes.
+
 ## Seguridad y alérgenos
 - Los tés contienen cafeína; ajustar consumo a las circunstancias personales.
 - Las bebidas con leche contienen lácteos salvo sustitución indicada.
