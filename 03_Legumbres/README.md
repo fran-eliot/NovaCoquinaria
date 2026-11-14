@@ -52,6 +52,11 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 - [Lentejas rojas partidas](../11_Despensa/02_Legumbres/lentejas_rojas_partidas.md): legumbre pelada para dhal y cremas.
 - [Romero](../11_Despensa/08_Especias/romero.md): aromatización de guisos de alubias y tomate.
 
+## Ingredientes para cremas y ensaladas
+
+- [Tahini](../11_Despensa/16_Frutos_Secos/tahini.md): textura y sabor a sésamo en hummus.
+- [Atún en conserva](../11_Despensa/12_Conservas/atun_en_conserva.md): proteína y umami para ensaladas de alubias.
+
 ## Técnica y plantilla
 
 - [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) — remojo, hidratación, cocción y seguridad según variedad.
