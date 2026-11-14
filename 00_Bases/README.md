@@ -215,6 +215,17 @@ El dominio de arroces y las masas saladas cuentan con procedimientos reutilizabl
 
 ---
 
+## Texturas, salsas y acabados
+
+- [Preparar bechamel sin grumos](./03_Tecnicas/preparar_bechamel_sin_grumos.md): espesar leche con roux.
+- [Pochar y caramelizar cebolla](./03_Tecnicas/pochar_y_caramelizar_cebolla.md): distinguir ablandamiento de dorado.
+- [Hidratar y gelificar con gelatina](./03_Tecnicas/hidratar_y_gelificar_con_gelatina.md): cuajado y firmeza de postres fríos.
+- [Montar claras a punto de nieve](./03_Tecnicas/montar_claras_a_punto_de_nieve.md): incorporación de aire en repostería.
+- [Gratinar coberturas sin quemar](./03_Tecnicas/gratinar_coberturas_sin_quemar.md): acabado crujiente y control de superficie.
+- [Tostar frutos secos y semillas](./03_Tecnicas/tostar_frutos_secos_y_semillas.md): aroma y textura con calor moderado.
+
+---
+
 # Evolución
 
 Este módulo crecerá progresivamente conforme aparezcan nuevas necesidades.

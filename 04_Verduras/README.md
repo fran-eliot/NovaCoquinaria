@@ -59,6 +59,11 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 - [Salar por etapas](../00_Bases/04_Sazonado/salar_por_etapas.md): moderar la sal cuando las hortalizas pierden agua o se incorporan ingredientes salados.
 - [Equilibrar acidez, dulzor y amargor](../00_Bases/04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md): ajustar el acabado de pisto y verduras aliñadas.
 
+## Construcción de bases y acompañamientos
+
+- [Pochar y caramelizar cebolla](../00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md): elegir el grado de dorado según el plato.
+- [Preparar bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md): ligar verduras para preparaciones gratinadas.
+
 ## Ingredientes de autoridad
 
 | Ingrediente | Ficha |
