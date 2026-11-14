@@ -96,6 +96,13 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 - [Manzana](../11_Despensa/17_Frutas/manzana.md): textura y humedad de fruta entera o laminada.
 - [Pera](../11_Despensa/17_Frutas/pera.md): elección de madurez para cubiertas y asados.
 
+## Ingredientes para masas y coberturas
+
+- [Pan rallado](../11_Despensa/01_Cereales/pan_rallado.md): costras y gratinados de dorado rápido.
+- [Levadura de panadería](../11_Despensa/15_Reposteria/levadura_panaderia.md): fermentación de focaccia y masas de pan.
+- [Impulsor químico](../11_Despensa/15_Reposteria/impulsor_quimico.md): aireación de masas rápidas sin fermentación biológica.
+- [Queso crema](../11_Despensa/14_Huevos_Lacteos/queso_crema.md): cuajado en tartas al horno.
+
 ## Seguridad
 - Manipular bandejas calientes con protección.
 - Comprobar cocción de proteínas con termómetro cuando sea posible.

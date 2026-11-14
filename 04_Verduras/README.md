@@ -92,6 +92,11 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 - [Miel](../11_Despensa/11_Condimentos/miel.md): glaseados de zanahoria, con control del dorado.
 - [Guisantes](../11_Despensa/06_Verduras/guisantes.md): verdura tierna para guarniciones y cremas.
 
+## Habas y acompañamientos
+
+- [Habas tiernas](../11_Despensa/06_Verduras/habas_tiernas.md): selección según madurez y control de la cocción.
+- [Jamón curado](../11_Despensa/03_Carnes/jamon_curado.md): aporte de sabor y salinidad para habas y otros salteados.
+
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
