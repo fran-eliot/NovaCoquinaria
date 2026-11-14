@@ -89,6 +89,14 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 - [Pimienta negra](../11_Despensa/08_Especias/pimienta_negra.md): molienda y tostado breve para cacio e pepe.
 - [Orégano](../11_Despensa/08_Especias/oregano.md): aromatizar salsas de tomate con calor moderado.
 
+## Ingredientes para pasta romana y ragús
+
+- [Guanciale](../11_Despensa/03_Carnes/guanciale.md): fundido gradual de grasa para carbonara y amatriciana.
+- [Panceta curada](../11_Despensa/03_Carnes/panceta_curada.md): adaptación de distinto corte y grasa; no equivale al guanciale.
+- [Apio](../11_Despensa/06_Verduras/apio.md): base aromática opcional para ragú doméstico.
+- [Laurel](../11_Despensa/08_Especias/laurel.md): aromatización de salsas de cocción lenta.
+- [Concentrado de tomate](../11_Despensa/12_Conservas/tomate_concentrado.md): profundidad y color para salsas reducidas.
+
 ## Ruta práctica de aprendizaje
 
 1. Comenzar por [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).

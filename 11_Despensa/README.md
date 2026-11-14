@@ -301,6 +301,19 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Ingredientes para pastas romanas, ragús y estofados
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0120 | [Guanciale](./03_Carnes/guanciale.md) | Grasa curada para carbonara y amatriciana |
+| ING-0121 | [Panceta curada](./03_Carnes/panceta_curada.md) | Sabor y grasa para variantes de pasta |
+| ING-0122 | [Apio](./06_Verduras/apio.md) | Base vegetal de sofritos y caldos |
+| ING-0123 | [Laurel](./08_Especias/laurel.md) | Infusión aromática en guisos |
+| ING-0124 | [Vino tinto para cocinar](./11_Condimentos/vino_tinto_cocina.md) | Desglasado y profundidad en estofados |
+| ING-0125 | [Concentrado de tomate](./12_Conservas/tomate_concentrado.md) | Intensidad y color para salsas |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.

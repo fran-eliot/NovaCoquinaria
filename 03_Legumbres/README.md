@@ -57,6 +57,11 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 - [Tahini](../11_Despensa/16_Frutos_Secos/tahini.md): textura y sabor a sésamo en hummus.
 - [Atún en conserva](../11_Despensa/12_Conservas/atun_en_conserva.md): proteína y umami para ensaladas de alubias.
 
+## Aromáticos para estofados
+
+- [Laurel](../11_Despensa/08_Especias/laurel.md): perfumar lentejas y alubias durante el hervor suave.
+- [Concentrado de tomate](../11_Despensa/12_Conservas/tomate_concentrado.md): reforzar pequeñas cantidades de sofrito sin exceso de agua.
+
 ## Técnica y plantilla
 
 - [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) — remojo, hidratación, cocción y seguridad según variedad.
