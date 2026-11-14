@@ -58,6 +58,7 @@ Usar recipientes aptos para horno y proteger manos de bandejas calientes. No emp
 - [Verduras gratinadas](../../10_Horno/verduras_gratinadas.md)
 - [Pescado en papillote](../../10_Horno/pescado_en_papillote.md)
 - [Asar verduras al horno](./asar_verduras_al_horno.md)
+- [Diagnóstico del horno: temperatura, humedad y dorado](../../98_Tablas/07_Comparativas/diagnostico_horno.md)
 
 ## Principio de NovaCoquinaria
 > El horno cocina por calor y circulación; el espacio entre piezas importa tanto como la temperatura.
