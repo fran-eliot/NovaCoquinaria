@@ -33,6 +33,23 @@ Contiene el conocimiento funcional del sistema:
 
 Todo este conocimiento constituye el núcleo del SGCC.
 
+### Explorar los módulos culinarios
+
+| Módulo | Índice |
+|---|---|
+| Pastas | [Pastas](./02_Pastas/README.md) |
+| Legumbres | [Legumbres](./03_Legumbres/README.md) |
+| Verduras | [Verduras](./04_Verduras/README.md) |
+| Carnes | [Carnes](./05_Carnes/README.md) |
+| Pescados y mariscos | [Pescados y mariscos](./06_Pescados_y_Mariscos/README.md) |
+| Cocina asiática | [Cocina asiática](./07_Cocina_Asiatica/README.md) |
+| Postres | [Postres](./08_Postres/README.md) |
+| Bebidas | [Bebidas](./09_Bebidas/README.md) |
+| Horno | [Horno](./10_Horno/README.md) |
+| Ingredientes | [Despensa](./11_Despensa/README.md) |
+
+Otros contenidos, como Arroces, se mantienen accesibles desde su carpeta correspondiente mientras se completa su navegación.
+
 ---
 
 ## Infraestructura
@@ -129,6 +146,7 @@ python tools/validate_all.py
 ## Gestión del proyecto
 
 - [PROJECT_STATUS](./docs/management/PROJECT_STATUS.md)
+- [CONSOLIDACIÓN DEL CONOCIMIENTO](./docs/management/CONSOLIDACION_CONOCIMIENTO.md)
 - [ROADMAP](./docs/management/ROADMAP.md)
 - [RELEASES](./docs/management/RELEASES.md)
 - [CHANGELOG](./CHANGELOG.md)
