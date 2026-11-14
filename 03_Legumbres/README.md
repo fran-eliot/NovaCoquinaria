@@ -47,6 +47,11 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | ING-0031 | [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md) | Potajes, hummus y ensaladas |
 | ING-0032 | [Alubias blancas](../11_Despensa/02_Legumbres/alubias_blancas.md) | Estofados y cremas |
 
+## Materias primas complementarias
+
+- [Lentejas rojas partidas](../11_Despensa/02_Legumbres/lentejas_rojas_partidas.md): legumbre pelada para dhal y cremas.
+- [Romero](../11_Despensa/08_Especias/romero.md): aromatización de guisos de alubias y tomate.
+
 ## Técnica y plantilla
 
 - [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md) — remojo, hidratación, cocción y seguridad según variedad.
