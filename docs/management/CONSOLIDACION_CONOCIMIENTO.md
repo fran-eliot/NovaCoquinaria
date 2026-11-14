@@ -101,6 +101,14 @@ La ejecución [Knowledge integrity #12](https://github.com/fran-eliot/NovaCoquin
 
 Se incorpora el [índice transversal de navegación](./INDICE_NAVEGACION_CONOCIMIENTO.md), que agrupa los 18 documentos identificados por finalidad: módulos, plantilla, gestión, gobernanza y especificaciones. El índice permite descubrir contenido y ofrece un punto de partida para revisar su vigencia. **Una reducción del recuento de huérfanos tras enlazarlos no debe interpretarse como una mejora automática de la calidad semántica**; las relaciones de uso real siguen siendo objeto de revisión.
 
+## Cierre propuesto de la navegación transversal — 2026-11-14
+
+La ejecución [Knowledge integrity #15](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/43625793942) confirma **0 advertencias semánticas** y **1 documento sin referencias entrantes**. Los controles estructurales terminaron correctamente.
+
+El único nodo pendiente, `GOV-0000`, corresponde al modelo de gobernanza y se encuentra en `docs/governance/GOBERNANCE_MODEL.md`. Se incorpora su enlace en el índice transversal para completar la navegación de los 18 documentos originalmente identificados.
+
+**Pendiente de confirmación:** el resultado de `find_orphans.py` después de esta corrección. La conectividad del grafo no sustituye una revisión editorial de vigencia, exactitud y utilidad de los documentos.
+
 ## Procedimiento recomendado
 
 1. Ejecutar la validación conjunta sobre el árbol completo del repositorio.
