@@ -27,6 +27,12 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 | REC-0100 | [Verduras asadas con garbanzos](./verduras_asadas_con_garbanzos.md) | Bandeja vegetal |
 | REC-0101 | [Merluza al horno con verduras](./merluza_al_horno_con_verduras.md) | Horneado escalonado |
 | REC-0102 | [Pollo asado con mostaza y miel](./pollo_asado_con_mostaza.md) | Asado y glaseado final |
+| REC-0160 | [Quiche de puerros y espinacas](./quiche_de_puerros_y_espinacas.md) | Horneado en blanco y cuajado |
+| REC-0161 | [Focaccia de romero y aceite de oliva](./focaccia_de_romero_y_aceite.md) | Fermentación y horneado de pan |
+| REC-0162 | [Empanada de atún y pimientos](./empanada_de_atun_y_pimientos.md) | Reducción del relleno y horneado |
+| REC-0163 | [Tomates rellenos de cuscús y verduras](./tomates_rellenos_de_cuscus_y_verduras.md) | Relleno y horneado de hortalizas |
+| REC-0164 | [Merluza con costra de hierbas y pan](./merluza_con_costra_de_hierbas_y_pan.md) | Horneado con cobertura crujiente |
+| REC-0165 | [Manzanas asadas con canela y nueces](./manzanas_asadas_con_canela_y_nueces.md) | Asado de fruta entera |
 
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
@@ -49,6 +55,13 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 | Plato vegetal con legumbres | [Verduras y garbanzos](./verduras_asadas_con_garbanzos.md) |
 | Pescado y verduras con tiempos escalonados | [Merluza al horno](./merluza_al_horno_con_verduras.md) |
 | Pollo con glaseado | [Pollo con mostaza y miel](./pollo_asado_con_mostaza.md) |
+
+## Otras aplicaciones de horno
+
+- **Masas saladas:** [quiche de puerros](./quiche_de_puerros_y_espinacas.md) trabaja el cuajado sobre masa precocida; [empanada de atún](./empanada_de_atun_y_pimientos.md) requiere un relleno reducido y enfriado.
+- **Pan fermentado:** [focaccia de romero](./focaccia_de_romero_y_aceite.md) introduce reposos, pliegues y horneado de una masa hidratada.
+- **Rellenos vegetales:** [tomates con cuscús](./tomates_rellenos_de_cuscus_y_verduras.md) combinan vaciado, hidratación y control de humedad.
+- **Coberturas y contrastes:** [merluza con costra](./merluza_con_costra_de_hierbas_y_pan.md) busca una superficie crujiente sin secar el pescado; [manzanas asadas](./manzanas_asadas_con_canela_y_nueces.md) conservan la forma de la fruta mientras se ablanda.
 
 ## Seguridad
 - Manipular bandejas calientes con protección.
