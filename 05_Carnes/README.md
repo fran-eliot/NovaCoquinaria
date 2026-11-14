@@ -95,6 +95,13 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 - [Vino blanco para cocinar](../11_Despensa/11_Condimentos/vino_blanco_cocina.md): desglasado y notas ácidas; la cocción no elimina necesariamente todo el alcohol.
 - [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md): espesado final de determinadas salsas.
 
+## Ingredientes para estofados y fondos de carne
+
+- [Vino tinto para cocinar](../11_Despensa/11_Condimentos/vino_tinto_cocina.md): desglasado y equilibrio ácido en estofados.
+- [Laurel](../11_Despensa/08_Especias/laurel.md): infusión balsámica y retirada antes de servir.
+- [Apio](../11_Despensa/06_Verduras/apio.md): sofritos para salsas y guisos.
+- [Concentrado de tomate](../11_Despensa/12_Conservas/tomate_concentrado.md): enriquecimiento de bases de estofado.
+
 ## Plantillas y diagnóstico
 
 - [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md) — patrón reutilizable para cortes de cocción lenta.
