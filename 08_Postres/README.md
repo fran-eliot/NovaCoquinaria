@@ -53,6 +53,11 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 - [Montar claras a punto de nieve](../00_Bases/03_Tecnicas/montar_claras_a_punto_de_nieve.md): incorporar aire a preparaciones horneadas.
 - [Tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md): generar aroma y contraste de textura.
 
+## Ingredientes de estructura y aroma
+
+- [Limón](../11_Despensa/11_Condimentos/limon.md): zumo y ralladura con funciones distintas.
+- [Mantequilla](../11_Despensa/14_Huevos_Lacteos/mantequilla.md): grasa estructural de masas, crumbles y coberturas.
+
 ## Elegir según objetivo
 | Objetivo | Preparación |
 |---|---|
