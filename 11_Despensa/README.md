@@ -165,6 +165,19 @@ La organización de Despensa comprende también los **ingredientes de reposterí
 
 ---
 
+## Legumbres, condimentos y hierbas para cocina cotidiana
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0060 | [Lentejas rojas partidas](./02_Legumbres/lentejas_rojas_partidas.md) | Cremas, dhal y espesado de guisos |
+| ING-0061 | [Alcaparras](./11_Condimentos/alcaparras.md) | Contraste ácido y salino |
+| ING-0062 | [Aceitunas negras](./11_Condimentos/aceitunas_negras.md) | Sabor salino y textura carnosa |
+| ING-0063 | [Ricotta](./14_Huevos_Lacteos/ricotta.md) | Cremosidad de pasta y rellenos |
+| ING-0064 | [Albahaca](./08_Especias/albahaca.md) | Aroma fresco de tomate y pesto |
+| ING-0065 | [Romero](./08_Especias/romero.md) | Aroma de asados, masas y legumbres |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
