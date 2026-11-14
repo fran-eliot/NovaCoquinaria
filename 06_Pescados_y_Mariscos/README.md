@@ -39,6 +39,16 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 | REC-0134 | [Calamares encebollados](./calamares_encebollados.md) | Guiso suave |
 | REC-0135 | [Calamares rellenos de verduras](./calamares_rellenos_de_verduras.md) | Relleno y cocción en salsa |
 
+## Moluscos en tapas, salsas y guisos
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0175 | [Mejillones al vapor con ajo, perejil y vino blanco](./mejillones_al_vapor_con_ajo_y_vino_blanco.md) | Apertura al vapor y jugo filtrado |
+| REC-0176 | [Almejas en salsa verde](./almejas_en_salsa_verde.md) | Apertura separada y salsa ligada |
+| REC-0177 | [Sepia guisada con patatas y pimentón](./sepia_guisada_con_patatas_y_pimenton.md) | Guiso escalonado de cefalópodo y patatas |
+
+Las tres elaboraciones parten de marisco identificado y conservado según su naturaleza; los bivalvos deben proceder de establecimientos autorizados.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
