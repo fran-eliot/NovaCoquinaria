@@ -288,6 +288,19 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Ingredientes para arroces marineros y rellenos al horno
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0114 | [Alcachofa](./06_Verduras/alcachofa.md) | Verdura de arroz y guisos |
+| ING-0115 | [Cuscús de trigo](./01_Cereales/cuscus_trigo.md) | Rellenos, ensaladas y guarniciones |
+| ING-0116 | [Mejillones](./05_Mariscos/mejillones.md) | Molusco bivalvo y jugo marino |
+| ING-0117 | [Almejas](./05_Mariscos/almejas.md) | Marisco y fondos para arroces |
+| ING-0118 | [Sepia](./05_Mariscos/sepia.md) | Salteados y arroces marineros |
+| ING-0119 | [Azafrán](./08_Especias/azafran.md) | Aroma y color en arroces |
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
