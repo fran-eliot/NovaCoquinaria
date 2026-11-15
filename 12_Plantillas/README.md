@@ -69,6 +69,23 @@ Si pertenece a un ingrediente, deberá ir en `11_Despensa`.
 
 ---
 
+## Patrones de salsas y aliños
+
+Las plantillas describen **estructuras reutilizables**, no recetas probadas con una formulación exacta. Las proporciones deben ajustarse según el ingrediente principal y registrarse al probarlas.
+
+| ID | Plantilla | Función |
+|---|---|---|
+| PLA-0010 | [Salsa china base](./02_Salsas/salsa_china_base.md) | Salteados y ligado |
+| PLA-0012 | [Salsa teriyaki base](./02_Salsas/salsa_teriyaki_base.md) | Glaseado |
+| PLA-0200 | [Vinagreta mediterránea base](./02_Salsas/vinagreta_mediterranea_base.md) | Emulsión de aceite y ácido |
+| PLA-0201 | [Salsa de yogur, limón y hierbas base](./02_Salsas/salsa_yogur_limon_y_hierbas_base.md) | Acompañamiento frío |
+| PLA-0202 | [Salsa de tomate reducida base](./02_Salsas/salsa_tomate_reducida_base.md) | Reducción y textura |
+| PLA-0203 | [Salsa de coco y curry base](./02_Salsas/salsa_coco_y_curry_base.md) | Base especiada |
+| PLA-0204 | [Salsa de mostaza para carnes base](./02_Salsas/salsa_mostaza_para_carnes_base.md) | Desglasado y ligado |
+| PLA-0205 | [Salsa de soja y vinagre negro agridulce base](./02_Salsas/salsa_soja_vinagre_negro_agridulce_base.md) | Glaseado agridulce |
+
+Las aplicaciones enlazadas en cada plantilla no cambian las formulaciones ni las valoraciones de las recetas existentes.
+
 # Relación con otros módulos
 
 ## 00_Bases
