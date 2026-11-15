@@ -193,6 +193,14 @@ Preparación **pendiente de prueba doméstica**. El botillo se cocina según su 
 
 Preparación **pendiente de prueba doméstica**, con control de ternura del cerdo y sazón aportada por el chorizo.
 
+## Cocina tradicional española: frit mallorquí
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0468 | [Frit mallorquí de cordero, patata y verduras](./frit_mallorqui_de_cordero_patata_y_verduras.md) | Mallorca: fritura por componentes y salteado final |
+
+Propuesta **pendiente de prueba doméstica**, con hígado de cordero opcional y cocción completa de vísceras cuando se utilicen.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
