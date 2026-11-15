@@ -402,3 +402,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Ensalada murciana de tomate en conserva y aceitunas
 
 - **REC-546 — [Ensalada murciana de tomate en conserva y aceitunas](./ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md)** (Región de Murcia): tomate en conserva con huevo y atún en frío. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Remojón granadino de naranja y bacalao
+
+- **REC-552 — [Remojón granadino de naranja y bacalao](./remojon_granadino_de_naranja_y_bacalao.md)** (Granada, Andalucía): ensalada cítrica con bacalao cocido. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

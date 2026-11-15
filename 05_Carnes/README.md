@@ -374,3 +374,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Morcilla de Burgos frita con pimientos
 
 - **REC-547 — [Morcilla de Burgos frita con pimientos](./morcilla_de_burgos_frita_con_pimientos.md)** (Burgos, Castilla y León): fritura controlada de morcilla y guarnición de pimiento. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Patorrillo riojano de cordero
+
+- **REC-553 — [Patorrillo riojano de cordero](./patorrillo_riojano_de_cordero.md)** (La Rioja): guiso de casquería ovina con tomate y pimentón. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

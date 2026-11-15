@@ -333,3 +333,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: Merluza a la gallega con ajada
 
 - **REC-548 — [Merluza a la gallega con ajada](./merluza_a_la_gallega_con_ajada.md)** (Galicia): cocción de merluza y patatas con ajada final. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Coquinas al ajillo de Huelva
+
+- **REC-554 — [Coquinas al ajillo de Huelva](./coquinas_al_ajillo_de_huelva.md)** (Huelva, Andalucía): apertura rápida de moluscos depurados con ajo. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

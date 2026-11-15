@@ -379,3 +379,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: Carbayones de Oviedo de hojaldre, almendra y yema
 
 - **REC-542 — [Carbayones de Oviedo de hojaldre, almendra y yema](./carbayones_de_oviedo_hojaldre_almendra_yema.md)** (Oviedo, Asturias): hojaldre con relleno de almendra, crema de yema y glaseado. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Fardelejos de Arnedo de almendra
+
+- **REC-555 — [Fardelejos de Arnedo de almendra](./fardelejos_de_arnedo_de_almendra.md)** (Arnedo, La Rioja): masa fina frita con relleno de almendra y huevo. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
