@@ -70,6 +70,21 @@ Estas fichas son **formulaciones de referencia pendientes de prueba doméstica**
 | REC-0236 | [Mousse de chocolate sin huevo crudo](./mousse_de_chocolate_sin_huevo_crudo.md) | Emulsión y nata montada |
 | REC-0237 | [Bizcocho de plátano y nueces](./bizcocho_de_platano_y_nueces.md) | Fruta madura y miga húmeda |
 
+## Seis postres nuevos: masas, fruta y cremas frías
+
+Estas recetas son **formulaciones pendientes de prueba doméstica**. Se conservan sin cambios las experiencias del pastel de manzana, la tarta de galletas y natillas y el brazo de gitano de chocolate.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0292 | [Magdalenas caseras de limón](./magdalenas_caseras_de_limon.md) | Batido, reposo y horneado |
+| REC-0293 | [Tarta de zanahoria con nueces y queso crema](./tarta_de_zanahoria_con_nueces_y_queso_crema.md) | Bizcocho húmedo y cobertura fría |
+| REC-0294 | [Crema de limón y nata estilo posset](./crema_de_limon_con_nata_estilo_posset.md) | Cuajado ácido de nata |
+| REC-0295 | [Trufas de chocolate y cacao](./trufas_de_chocolate_y_cacao.md) | Ganache y formado en frío |
+| REC-0296 | [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md) | Masa aromática y horneado |
+| REC-0297 | [Hojaldres de manzana y canela](./hojaldres_de_manzana_y_canela.md) | Relleno reducido, sellado y horneado |
+
+La crema de limón y nata es un postre cuajado, no un sustituto de mermelada ni del lemon curd empleado en una elaboración anterior.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
