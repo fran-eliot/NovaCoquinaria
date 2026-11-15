@@ -358,6 +358,17 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Recetas domésticas y experiencia culinaria
+
+- [Berenjenas chinas estilo Sichuán](../07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md): salsa de soja, ostras, vinagre negro y sésamo, con distintos puntos de textura.
+- [Seitán con bambú y salsa oscura](../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md): bambú, soja oscura y espesado con maicena.
+- [Tarta de galletas y natillas con café y Amaretto](../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md): lácteos, café y montaje refrigerado.
+- [Pastel de manzana de textura húmeda](../08_Postres/pastel_de_manzana.md): distribución de manzana y acabado con lemon curd.
+
+Las experiencias, resultados y ajustes están reunidos en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.
