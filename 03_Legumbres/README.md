@@ -96,6 +96,21 @@ Estas seis fichas son **formulaciones pendientes de prueba doméstica**. Abarcan
 
 La harina de garbanzo y los guisantes partidos secos **no** se tratan como legumbres previamente cocidas. Los frijoles y alubias de las otras propuestas deben estar ya completamente cocidos.
 
+## Seis nuevas propuestas: guisos internacionales, ensalada y untables
+
+Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Se diferencian la legumbre completamente cocida, los guisantes congelados destinados a cocción y las técnicas de machacado, especiado, horneado y triturado.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0394 | [Ful medames de habas con comino y limón](./ful_medames_de_habas_con_comino_y_limon.md) | Machacado parcial y aliño |
+| REC-0395 | [Rajma masala de alubias rojas](./rajma_masala_de_alubias_rojas.md) | Sofrito especiado y guiso |
+| REC-0396 | [Gigantes plaki de judiones al horno](./gigantes_plaki_de_judiones_al_horno.md) | Salsa reducida y horno |
+| REC-0397 | [Ensalada de lentejas con granada y nueces](./ensalada_de_lentejas_con_granada_y_nueces.md) | Aliño y texturas |
+| REC-0398 | [Tajín de garbanzos, calabaza y orejones](./tajin_de_garbanzos_calabaza_y_orejones.md) | Estofado dulce-salado |
+| REC-0399 | [Crema untable de guisantes y menta](./crema_untable_de_guisantes_y_menta.md) | Cocción y triturado |
+
+Las alubias rojas requieren una cocción previa específica para eliminar sus lectinas. Las habas no son adecuadas para personas con déficit de G6PD. Todas las cantidades permanecen pendientes de contraste mediante pruebas domésticas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
