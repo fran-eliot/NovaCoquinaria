@@ -214,6 +214,15 @@ Ambas formulaciones están **pendientes de prueba doméstica** y preservan las v
 
 Ambas propuestas están **pendientes de prueba doméstica** y requieren cocción completa de las yemas.
 
+## Cocina tradicional española: pantxineta y nevaditos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0500 | [Pantxineta vasca de hojaldre, crema y almendras](./pantxineta_vasca_de_hojaldre_crema_y_almendras.md) | Gipuzkoa: hojaldre relleno de crema pastelera |
+| REC-0501 | [Nevaditos castellanos de manteca y vino blanco](./nevaditos_castellanos_de_manteca_y_vino_blanco.md) | Castilla: masa de manteca horneada y cubierta de azúcar glas |
+
+Las dos formulaciones están **pendientes de prueba doméstica**. La pantxineta exige conservación refrigerada por su relleno de crema.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
