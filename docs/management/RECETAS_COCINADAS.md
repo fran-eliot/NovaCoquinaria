@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.7.0
+version: 1.7.1
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -20,6 +20,12 @@ etiquetas:
 Esta selección distingue elaboraciones **preparadas realmente** de ideas o adaptaciones todavía no comprobadas. Sirve para conservar las cantidades y decisiones utilizadas, los resultados obtenidos y los cambios de textura o sazonado que merecen repetirse o compararse.
 
 No todas las proporciones se anotaron al cocinar: cuando una receta propone cantidades para reproducirla, se diferencia expresamente de lo que quedó registrado en la preparación original.
+
+## Criterio de versiones y preferencias
+
+Las recetas pueden haberse preparado varias veces con modificaciones posteriores. Recuperar cantidades de una formulación antigua **no significa que esa formulación sea la mejor**, ni autoriza a sustituir una versión posterior que haya dado mejores resultados. Se conservarán las experiencias por separado y solo se establecerá una **versión principal preferida** cuando exista una valoración comparativa o una elección explícita.
+
+En particular, las fórmulas para **700 g de berenjenas** y para **200 ml de líquido en el seitán con bambú** son referencias previas recuperadas: no prueban por sí solas que esos ajustes sean superiores a otras formulaciones. [Criterio completo de evolución de recetas](./EVOLUCION_DE_RECETAS.md).
 
 ## Elaboraciones probadas con ajustes documentados
 

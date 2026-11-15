@@ -4,7 +4,7 @@ tipo: receta
 titulo: Berenjenas chinas estilo Sichuán con salsa oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.2
+version: 1.0.3
 ultima_revision: 2026-11-15
 etiquetas:
   - berenjena
@@ -20,6 +20,16 @@ etiquetas:
 Salteado de berenjena china con una salsa intensa, picante y brillante de soja, ostras y vinagre negro de Chinkiang. Esta versión recoge una elaboración doméstica **ya cocinada y valorada muy positivamente**. El resultado fue muy sabroso, aunque la berenjena quedó demasiado blanda por el tamaño de los trozos y la duración de la cocción.
 
 La textura supercremosa también resultó agradable: el ajuste de corte y tiempo es una opción para obtener más estructura, no una corrección obligatoria de la receta.
+
+## Versiones y elección pendiente
+
+Esta ficha conserva **la formulación previa para 700 g** recuperada posteriormente, además de la valoración positiva de una preparación con textura supercremosa y ajuste final de soja oscura. En una versión anterior de la ficha se proponían **800 g de berenjena** y otras proporciones orientativas.
+
+**No se ha confirmado que la formulación para 700 g sea mejor que la de 800 g, ni que ambas cifras identifiquen la misma tanda.** Por ello, la lista de ingredientes siguiente sirve como referencia reproducible y **no constituye una nueva «versión ganadora»**. Las variantes anteriores quedan documentadas en el historial del repositorio; no se deben mezclar sus cantidades como si procedieran de una única elaboración.
+
+La **preferencia confirmada** se refiere al **sabor muy rico** y a que la **textura supercremosa también gustó**. Queda por decidir qué cantidades y corte reproducen mejor ese resultado.
+
+[Cómo seleccionar versiones de una receta](../docs/management/EVOLUCION_DE_RECETAS.md).
 
 ## Información general
 
