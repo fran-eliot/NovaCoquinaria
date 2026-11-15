@@ -175,6 +175,14 @@ Propuesta **pendiente de prueba doméstica**, diferenciada del bacalao a la vizc
 
 Preparación **pendiente de prueba doméstica**, con control de procedencia, refrigeración y cocción de los crustáceos.
 
+## Cocina tradicional española: trucha a la navarra
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0493 | [Trucha a la navarra rellena de jamón](./trucha_a_la_navarra_rellena_de_jamon.md) | Navarra: trucha entera enharinada y frita con jamón |
+
+Preparación **pendiente de prueba doméstica**; controlar espinas y cocción de la trucha.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.

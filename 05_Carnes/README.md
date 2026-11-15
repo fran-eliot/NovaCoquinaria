@@ -210,6 +210,15 @@ Propuesta **pendiente de prueba doméstica**, con hígado de cordero opcional y 
 
 Ambas recetas son **propuestas pendientes de prueba doméstica** y requieren la cocción completa de carnes y embutidos según su presentación comercial.
 
+## Cocina tradicional española: puchero y lacón con grelos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0491 | [Puchero andaluz con pringá y hierbabuena](./puchero_andaluz_con_pringa_y_hierbabuena.md) | Andalucía: garbanzos, caldo y carnes cocidas |
+| REC-0492 | [Lacón con grelos y cachelos gallego](./lacon_con_grelos_y_cachelos_gallego.md) | Galicia: lacón cocido con grelos y patatas |
+
+Formulaciones **pendientes de prueba doméstica** con atención a los productos salados y su desalado.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
