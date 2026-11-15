@@ -100,6 +100,21 @@ Estas preparaciones son **formulaciones pendientes de prueba doméstica**. Ampl�
 
 El reposo refrigerado de postres con lácteos es esencial. Los cuadrados de limón son un postre horneado y no sustituyen la cobertura de mermelada propuesta para el pastel de manzana histórico.
 
+## Seis nuevos postres: capas, masas y cremas
+
+Estas elaboraciones son **propuestas pendientes de prueba doméstica**. Amplían las técnicas de repostería sin sustituir ni atribuir nuevas valoraciones a postres familiares ya documentados.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0412 | [Tiramisú sin huevo crudo con mascarpone](./tiramisu_sin_huevo_crudo_con_mascarpone.md) | Montaje por capas y reposo frío |
+| REC-0413 | [Baklava de nueces y miel con pasta filo](./baklava_de_nueces_y_miel_con_pasta_filo.md) | Capas finas y almíbar |
+| REC-0414 | [Profiteroles de pasta choux con crema de vainilla](./profiteroles_de_pasta_choux_con_crema_de_vainilla.md) | Masa escaldada, horneado y relleno |
+| REC-0415 | [Tarta fría de tres chocolates](./tarta_fria_de_tres_chocolates.md) | Cuajado escalonado con gelatina |
+| REC-0416 | [Rollos de canela con glaseado de queso crema](./rollos_de_canela_con_glaseado_de_queso_crema.md) | Fermentación, enrollado y horneado |
+| REC-0417 | [Amaretti de almendra y clara de huevo](./amaretti_de_almendra_y_clara_de_huevo.md) | Merengue y masa de almendra |
+
+La crema del tiramisú evita huevo crudo; las cremas cocidas y las preparaciones frías con lácteos requieren refrigeración, y la gelatina debe dosificarse según las características del producto utilizado.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
