@@ -367,3 +367,7 @@ Se ampliará con técnicas de emulsiones, nuevas tartas y postres de fruta, y co
 
 ## Utilizado por
 Punto de entrada al dominio Postres.
+
+## Cocina tradicional española: Tejas de Tolosa de almendra
+
+- **REC-529 — [Tejas de Tolosa de almendra](./tejas_de_tolosa_de_almendra.md)** (Tolosa, Gipuzkoa (País Vasco)): masa fina horneada y moldeado en caliente. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.

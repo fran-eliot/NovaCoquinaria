@@ -318,3 +318,6 @@ Se ampliará con otras especies de pescado y marisco, nuevas técnicas de cocci�
 
 Punto de entrada al dominio Pescados y Mariscos.
 
+## Cocina tradicional española: Salpicón gallego de marisco
+
+- **REC-528 — [Salpicón gallego de marisco](./salpicon_gallego_de_marisco.md)** (Galicia): cocciones separadas, enfriado y vinagreta. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
