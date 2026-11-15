@@ -83,6 +83,21 @@ Las siguientes formulaciones están **pendientes de prueba doméstica** y amplí
 
 Se presta atención al **control de la humedad**, la cocción de las bases y el momento de incorporar ingredientes que pueden quemarse.
 
+## Seis nuevas propuestas: pan, gratinados y rellenos al horno
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Introducen nuevas masas, hortalizas, legumbres y una preparación de pescado en costra de sal, sin modificar recetas anteriores ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0382 | [Pan de pita casero al horno](./pan_de_pita_casero_al_horno.md) | Fermentación y golpe de calor |
+| REC-0383 | [Gratén de patata, puerro y nata](./graten_de_patata_puerro_y_nata.md) | Laminado y horneado en lácteo |
+| REC-0384 | [Falafel de garbanzos remojados al horno](./falafel_de_garbanzos_remojados_al_horno.md) | Remojo, formado y asado |
+| REC-0385 | [Rollitos de berenjena con ricotta y tomate](./rollitos_de_berenjena_con_ricotta_y_tomate.md) | Asado previo y gratinado |
+| REC-0386 | [Besugo a la sal con hierbas](./besugo_a_la_sal_con_hierbas.md) | Pescado entero en costra de sal |
+| REC-0387 | [Cebollas rellenas de lentejas y setas al horno](./cebollas_rellenas_de_lentejas_y_setas_al_horno.md) | Precocción, relleno y asado |
+
+Se diferencian los tiempos de fermentación, el ablandamiento de hortalizas densas y la cocción completa de rellenos, legumbres y pescado. Las masas y los garbanzos remojados no deben consumirse crudos.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
