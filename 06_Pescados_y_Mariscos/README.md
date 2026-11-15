@@ -56,6 +56,12 @@ Las tres elaboraciones parten de marisco identificado y conservado según su nat
 
 Son **dos versiones documentales del mismo plato**; ninguna se atribuye a una tanda personal valorada sin evidencia adicional. Consultar el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
 
+## Cangrejo rojo previamente cocido: calentamiento y ajillo
+
+- **REC-0198 — [Cangrejo rojo cocido al ajillo con vino blanco](./cangrejo_rojo_cocido_al_ajillo.md)**: propuesta para **300 g de producto ya cocido y congelado**, con ajo, 40–50 ml de vino blanco y calentamiento breve del cangrejo al final. **Sin valoración final registrada**.
+
+A diferencia de las recetas con marisco crudo, aquí la cocción del producto ya está realizada: se debe seguir el etiquetado del cangrejo y evitar prolongar el calentamiento mientras se reduce el vino.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
