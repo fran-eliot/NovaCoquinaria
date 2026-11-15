@@ -11,8 +11,8 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 35 min
 raciones: 2
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - arroz
 - marisco
@@ -28,6 +28,24 @@ etiquetas:
 Arroz caldoso de inspiración mediterránea donde el sabor del caldo de marisco se combina con el ligero amargor de la alcachofa para obtener un plato muy aromático y equilibrado.
 
 ---
+
+## Preparación doméstica: base y ración individual ajustada
+
+Se preparó en casa una **mezcla o base de alcachofas y marisco para varias raciones**. En una consulta posterior se ajustó una preparación de **una ración y media** utilizando **130 g de arroz** y aproximadamente **450–520 ml de esa mezcla previamente preparada**.
+
+La base disponible podía incluir líquido y sólidos: **los 450–520 ml corresponden a la mezcla consultada y no son una proporción universal de caldo puro**. Antes de cocinar una nueva ración conviene separar visualmente el volumen de líquido, comprobar si es suficiente para la variedad de arroz y disponer de caldo adicional caliente.
+
+La elaboración de la base y las cantidades consultadas están documentadas. **No se ha recuperado una valoración final del arroz terminado** ni el volumen exacto de líquido libre de la mezcla. La fórmula general de dos raciones que sigue es una referencia diferente.
+
+### Secuencia propuesta para usar la base ya preparada
+
+1. Calentar completamente la base refrigerada en una cazuela y comprobar su consistencia y salinidad.
+2. Añadir los **130 g de arroz** y empezar con la mezcla medida, reservando caldo adicional caliente por si el arroz absorbe más líquido del disponible.
+3. Cocer según variedad y punto deseado, removiendo lo necesario para evitar que se pegue, sin romper el marisco.
+4. Si la base contiene marisco ya cocinado, valorar apartarlo temporalmente y devolverlo al final, calentándolo por completo, para evitar sobrecocción.
+5. Servir en cuanto el arroz esté cocido y conserve caldo libre; un reposo prolongado espesará la preparación.
+
+**Seguridad:** refrigerar rápidamente tanto la base cocinada como el arroz sobrante. No mantener arroz o marisco durante horas a temperatura ambiente.
 
 # Información general
 
