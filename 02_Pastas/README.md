@@ -93,6 +93,14 @@ Estas recetas son **formulaciones pendientes de prueba doméstica**. Amplían t�
 
 La cocción de la pasta rellena y del pollo debe verificarse. En sopas de pasta se ajusta el líquido para compensar la absorción; en salsas con queso se controla la temperatura para evitar grumos.
 
+## Cocina tradicional española: fideuà marinera valenciana
+
+| ID | Receta | Región y método |
+|---|---|---|
+| REC-0423 | [Fideuà marinera de inspiración Gandia](./fideua_marinera_de_inspiracion_gandia.md) | Gandia, Comunitat Valenciana: sofrito, fumet y fideos |
+
+Se presenta como **adaptación doméstica pendiente de prueba** y se distinguen sus proporciones orientativas de la formulación oficial de Gandia.
+
 ## Nuevos recorridos prácticos
 
 - **Emulsiones de queso:** [Cacio e pepe](./espaguetis_cacio_e_pepe.md) y [pasta con ricotta y limón](./pasta_limon_ricotta.md) permiten comparar el uso de queso curado y fresco, con control del calor.
