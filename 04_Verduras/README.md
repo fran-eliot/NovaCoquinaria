@@ -5,7 +5,7 @@ titulo: Verduras
 categoria: Verduras
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - verduras
   - recetas
@@ -60,6 +60,19 @@ En una preparación de septiembre de 2026 se coció y peló **1 kg de zanahorias
 | REC-0197 | [Zanahorias aliñadas de inspiración asiática](./zanahorias_alinadas_asiaticas.md) | Soja, vinagre de arroz, jengibre y sésamo |
 
 Las tres fichas diferencian los datos de la preparación de las cantidades propuestas para repetir cada variante. [Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
+## Seis clásicos mediterráneos de cocina doméstica
+
+Estas fichas son **recetas de referencia pendientes de prueba doméstica confirmada**. No deben confundirse con las preparaciones efectivamente cocinadas y valoradas del [registro doméstico](../docs/management/RECETAS_COCINADAS.md).
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0219 | [Tortilla de patatas con cebolla](./tortilla_de_patatas_y_cebolla.md) | Pochado y cuajado completo |
+| REC-0220 | [Gazpacho de tomate y pimiento](./gazpacho_andaluz_de_tomate_y_pimiento.md) | Triturado y emulsión en frío |
+| REC-0221 | [Salmorejo de tomate con huevo duro](./salmorejo_cordobes_con_huevo.md) | Triturado de tomate y pan |
+| REC-0222 | [Escalivada de berenjena, pimiento y cebolla](./escalivada_de_berenjena_y_pimiento.md) | Asado, reposo y pelado |
+| REC-0223 | [Coliflor rebozada en sartén](./coliflor_rebozada_en_sarten.md) | Precocción y fritura por tandas |
+| REC-0224 | [Espinacas con pasas y piñones](./espinacas_con_pasas_y_pinones.md) | Salteado y tostado de frutos secos |
 
 ## Técnicas de referencia
 
