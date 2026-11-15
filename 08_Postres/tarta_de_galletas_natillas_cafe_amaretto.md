@@ -4,7 +4,7 @@ tipo: receta
 titulo: Tarta de galletas y natillas con café y Amaretto
 categoria: Postres
 estado: borrador
-version: 1.0.0
+version: 1.0.1
 ultima_revision: 2026-11-15
 etiquetas:
   - tarta-de-galletas
@@ -20,6 +20,14 @@ etiquetas:
 Tarta fría de capas alternadas de galletas María y natillas preparadas, con las galletas humedecidas en una mezcla de **café fuerte, Amaretto, algo de azúcar y un chorrito de aroma de naranja**. Se termina con canela y reposo prolongado.
 
 La elaboración doméstica se probó con **1 litro de natillas de brick**, **tres capas de galletas y tres capas de natillas** y aproximadamente **24 horas de refrigeración**. El resultado fue valorado como **muy bueno**.
+
+## Valoración de la preparación doméstica
+
+Tras **aproximadamente 24 horas de refrigeración**, la tarta se valoró como **«muy muy rico»**. El aroma de naranja **se percibía claramente y gustó** junto al café y al Amaretto. Esto confirma que el pequeño chorrito de aroma de naranja fue parte apreciada del resultado, no un ingrediente del que haya que prescindir por defecto.
+
+La cantidad exacta de esencia no quedó registrada. Mantener el **chorrito pequeño** de la preparación documentada; no confundir el envase de **35 ml** con una dosis utilizada ni incrementar la esencia sin una nueva prueba. Las cantidades orientativas de café, licor y galletas de la ficha no sustituyen lo que se sirvió aquella vez.
+
+[Conservar versiones y resultados sin regresiones](../docs/management/EVOLUCION_DE_RECETAS.md).
 
 ## Información general
 
