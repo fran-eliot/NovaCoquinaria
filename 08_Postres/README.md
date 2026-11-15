@@ -5,7 +5,7 @@ titulo: Postres
 categoria: Postres
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - postres
   - modulo
@@ -52,6 +52,10 @@ Las recetas comparan fruta asada, postres por capas y miga aireada sin confundir
 | REC-0079 | [Pastel de manzana de textura húmeda](./pastel_de_manzana.md) | Adaptación de una receta doméstica previa; 840 g de manzana limpia y 200 g de cobertura |
 
 Las experiencias y los ajustes están reunidos en el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
+## Otro postre habitual de galletas
+
+- **REC-0218 — [Brazo de gitano de chocolate y galletas María](./brazo_de_gitano_de_chocolate_y_galletas.md)**: elaboración doméstica habitual, distinta de la tarta de natillas. Se recuperan el bote de 400 g de crema de cacao, el baño de café y licor y una fórmula histórica no confirmada como versión preferida. La formulación de repetición evita el huevo crudo y queda pendiente de comparación.
 
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.

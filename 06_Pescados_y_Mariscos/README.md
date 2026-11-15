@@ -5,7 +5,7 @@ titulo: Pescados y Mariscos
 categoria: Pescados y Mariscos
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - pescados
   - mariscos
@@ -61,6 +61,10 @@ Son **dos versiones documentales del mismo plato**; ninguna se atribuye a una ta
 - **REC-0198 — [Cangrejo rojo cocido al ajillo con vino blanco](./cangrejo_rojo_cocido_al_ajillo.md)**: propuesta para **300 g de producto ya cocido y congelado**, con ajo, 40–50 ml de vino blanco y calentamiento breve del cangrejo al final. **Sin valoración final registrada**.
 
 A diferencia de las recetas con marisco crudo, aquí la cocción del producto ya está realizada: se debe seguir el etiquetado del cangrejo y evitar prolongar el calentamiento mientras se reduce el vino.
+
+## Cocina doméstica habitual: boquerones en vinagre
+
+- **REC-0217 — [Boquerones en vinagre con ajo y perejil](./boquerones_en_vinagre.md)**: elaboración habitual confirmada; una tanda documentada con ¾ de vinagre y ¼ de limón durante 14 horas quedó algo salada y poco avinagrada. Se distingue esa experiencia de las propuestas posteriores de mejora. La ficha destaca la congelación adecuada obligatoria para prevenir anisakis.
 
 ## Técnica transversal
 

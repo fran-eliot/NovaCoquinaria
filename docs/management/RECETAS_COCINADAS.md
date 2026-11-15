@@ -133,6 +133,15 @@ Registrar únicamente lo observado tras cocinar: fecha aproximada, número de ra
 
 - **[Ropa vieja con pulled pork precocinado](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md).** Está documentada como adaptación prevista con 650 g de carne ahumada ya cocinada y sin salsa barbacoa. La ropa vieja sí se había cocinado anteriormente, **pero no se ha confirmado la ejecución ni el resultado de esta variante**.
 
+## Nuevas elaboraciones habituales recuperadas
+
+El repertorio de preparaciones habituales incluye dos recetas que no figuraban todavía en el catálogo. Que se cocinen con frecuencia **no acredita que los gramajes recuperados de consultas antiguas pertenezcan a su mejor versión actual**.
+
+| Receta | Experiencia documentada | Límite y próxima anotación |
+|---|---|---|
+| [Boquerones en vinagre con ajo y perejil](../../06_Pescados_y_Mariscos/boquerones_en_vinagre.md) (REC-0217) | Elaboración habitual confirmada. Referencia para 400 g de boquerones; una tanda de **14 horas**, con **¾ vinagre y ¼ limón**, quedó **algo salada y poco avinagrada**. Preferencia anterior por ajo muy picado. | Registrar peso limpio, congelación efectiva, vinagre y sal usados, horas de marinado y valoración de la versión actual; no identificar una propuesta posterior como ya ensayada. |
+| [Brazo de gitano de chocolate y galletas María](../../08_Postres/brazo_de_gitano_de_chocolate_y_galletas.md) (REC-0218) | Elaboración habitual confirmada; consulta previa sobre **400 g de crema de cacao** y baño de **120 ml de café fuerte más 1–2 cucharadas de whisky o brandy**. | No constan cantidades verificadas de la versión preferida ni valoración comparativa. La fórmula histórica con huevo crudo no se presenta como receta principal y la fórmula de repetición sin huevo está pendiente de prueba. |
+
 ## Criterio de documentación
 
 1. Conservar lo que efectivamente se hizo, y registrar el resultado sin reinterpretarlo como fallo si la textura gustó.
