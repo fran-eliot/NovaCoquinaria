@@ -205,3 +205,7 @@ Punto de entrada al dominio Arroces y sus métodos de cocción.
 ## Cocina tradicional española: Caldero del Mar Menor con ñoras y pescado
 
 - **REC-538 — [Caldero del Mar Menor con ñoras y pescado](./caldero_del_mar_menor_con_noras_y_pescado.md)** (Región de Murcia): arroz meloso con ñoras, caldo de roca y pescado aparte. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Arroz con liebre manchego
+
+- **REC-544 — [Arroz con liebre manchego](./arroz_con_liebre_manchego.md)** (Castilla-La Mancha): estofado previo de liebre y arroz caldoso. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

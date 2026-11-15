@@ -329,3 +329,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: Cazón en adobo gaditano frito
 
 - **REC-541 — [Cazón en adobo gaditano frito](./cazon_en_adobo_gaditano_frito.md)** (Cádiz, Andalucía): adobo especiado en frío y fritura por tandas. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Merluza a la gallega con ajada
+
+- **REC-548 — [Merluza a la gallega con ajada](./merluza_a_la_gallega_con_ajada.md)** (Galicia): cocción de merluza y patatas con ajada final. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

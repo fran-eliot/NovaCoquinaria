@@ -292,3 +292,7 @@ Punto de entrada para recetas, ingredientes, técnicas y plantillas del dominio 
 ## Cocina tradicional española: Rancho canario de garbanzos, papas y fideos
 
 - **REC-533 — [Rancho canario de garbanzos, papas y fideos](./rancho_canario_de_garbanzos_papas_y_fideos.md)** (Islas Canarias): garbanzos cocidos, carnes, papa y pasta gruesa. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Alubias de Tolosa con berza
+
+- **REC-545 — [Alubias de Tolosa con berza](./alubias_de_tolosa_con_berza.md)** (Gipuzkoa, País Vasco): cocción lenta de alubia negra y guarniciones separadas. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
