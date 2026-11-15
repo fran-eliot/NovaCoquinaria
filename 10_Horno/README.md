@@ -98,6 +98,14 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Introducen n
 
 Se diferencian los tiempos de fermentación, el ablandamiento de hortalizas densas y la cocción completa de rellenos, legumbres y pescado. Las masas y los garbanzos remojados no deben consumirse crudos.
 
+## Cocina tradicional española: ternasco de Aragón
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0433 | [Ternasco de Aragón asado con patatas](./ternasco_de_aragon_asado_con_patatas.md) | Aragón: asado prolongado de paletilla y patatas |
+
+Se documenta como **propuesta pendiente de prueba**, distinta del asado de cordero con romero que ya figura en Carnes.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.

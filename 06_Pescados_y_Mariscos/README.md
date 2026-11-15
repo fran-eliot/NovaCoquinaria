@@ -111,6 +111,14 @@ Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Amp
 
 Los tiempos dependen del tamaño y grosor del pescado. La tinta de calamar debe ser apta para consumo y cocinarse, y el bacalao requiere comprobar el desalado antes de elaborar el pilpil.
 
+## Cocina tradicional española: ajoarriero navarro
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0431 | [Bacalao ajoarriero navarro con pimiento choricero](./bacalao_ajoarriero_navarro_con_pimiento_choricero.md) | Navarra: sofrito de ajo, tomate, pulpa choricera y bacalao |
+
+Propuesta **pendiente de prueba doméstica**; atención especial al desalado del bacalao y sus variantes con patata.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.

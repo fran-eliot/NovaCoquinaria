@@ -120,6 +120,14 @@ Las alubias rojas requieren una cocción previa específica para eliminar sus le
 
 Ambas son **formulaciones domésticas pendientes de prueba**. Se diferencian remojo, legumbre seca, compango, control de sal y tratamiento seguro de las carnes.
 
+## Cocina tradicional española: caldo gallego
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0430 | [Caldo gallego con grelos y alubias](./caldo_gallego_con_grelos_y_alubias.md) | Galicia: alubias secas, grelos, patatas y caldo con lacón |
+
+El caldo gallego se incorpora como **propuesta pendiente de prueba doméstica**, con tiempos de remojo y cocción diferenciados.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

@@ -108,6 +108,14 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían las
 
 Las preparaciones de inspiración valenciana, persa y de África occidental se presentan como **adaptaciones domésticas**, sin atribuirles una condición de fórmula única o tradicional universal. En todos los casos se requiere control del líquido y enfriamiento rápido de las sobras de arroz.
 
+## Cocina tradicional española: arroz con costra de Elche
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0434 | [Arroz con costra de Elche con huevo y embutidos](./arroz_con_costra_de_elche_con_huevo_y_embutidos.md) | Comunitat Valenciana: arroz de cazuela y costra de huevo al horno |
+
+La formulación doméstica es **pendiente de prueba**. Se diferencian arroz, carnes, garbanzos y embutidos cocinados de la costra final de huevo.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
