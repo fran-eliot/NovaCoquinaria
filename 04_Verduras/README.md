@@ -236,6 +236,15 @@ Propuesta **pendiente de prueba doméstica**, diferenciada de las habas con jam�
 
 Propuesta **pendiente de prueba doméstica**, diferente del pisto por la presencia y proporción de calabaza.
 
+## Cocina tradicional española: atascaburras y piriñaca
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0508 | [Atascaburras manchego de patata y bacalao](./atascaburras_manchego_de_patata_y_bacalao.md) | Castilla-La Mancha: majado de patata, bacalao y ajo |
+| REC-0509 | [Piriñaca gaditana de tomate, pimiento y cebolla](./pirinaca_gaditana_de_tomate_pimiento_y_cebolla.md) | Cádiz: picadillo fresco de hortalizas aliñadas |
+
+Ambas recetas son **propuestas pendientes de prueba doméstica**. La piriñaca no lleva el majado de yema característico de la pipirrana de Jaén.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

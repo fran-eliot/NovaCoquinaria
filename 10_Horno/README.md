@@ -123,6 +123,15 @@ Receta **pendiente de prueba doméstica**. El huevo se cuaja por completo en est
 
 Ambas recetas están **pendientes de prueba doméstica**. La empanada de xoubas se distingue de la variante de atún ya documentada.
 
+## Cocina tradicional española: Mallorca y Sant Esteve
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0510 | [Coca de trampó mallorquina](./coca_de_trampo_mallorquina.md) | Mallorca: masa fina con tomate, pimiento y cebolla |
+| REC-0511 | [Canelones de Sant Esteve de carnes asadas](./canelones_de_sant_esteve_de_carnes_asadas.md) | Cataluña: pasta rellena de carne asada, bechamel y gratinado |
+
+Ambas son **propuestas pendientes de prueba doméstica**. Los canelones solo aprovechan carnes sobrantes si han sido conservadas y recalentadas adecuadamente.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
