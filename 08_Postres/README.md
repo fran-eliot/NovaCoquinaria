@@ -123,6 +123,14 @@ La crema del tiramisú evita huevo crudo; las cremas cocidas y las preparaciones
 
 La formulación con queso fresco se presenta como **adaptación doméstica pendiente de prueba**, sin sustituir la tarta de queso existente.
 
+## Cocina tradicional española: ponche segoviano
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0435 | [Ponche segoviano con crema y mazapán](./ponche_segoviano_con_crema_y_mazapan.md) | Castilla y León: bizcocho, almíbar, crema y mazapán |
+
+Preparación **pendiente de prueba doméstica**; la cobertura emplea mazapán comercial listo para consumir y el relleno requiere refrigeración.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
