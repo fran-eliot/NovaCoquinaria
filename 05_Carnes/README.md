@@ -358,3 +358,7 @@ Se ampliará con nuevos cortes, asados y técnicas específicas de cocción lent
 ## Utilizado por
 
 Punto de entrada a recetas y técnicas del dominio Carnes.
+
+## Cocina tradicional española: Cordero al chilindrón navarro
+
+- **REC-527 — [Cordero al chilindrón navarro](./cordero_al_chilindron_navarro.md)** (Navarra): estofado de cordero y reducción del chilindrón. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.

@@ -234,3 +234,7 @@ Se ampliará con más preparaciones de bandeja, masas saladas y métodos de cont
 
 ## Utilizado por
 Punto de entrada al dominio Horno.
+
+## Cocina tradicional española: Coca de recapte catalana con escalivada
+
+- **REC-531 — [Coca de recapte catalana con escalivada](./coca_de_recapte_catalana_con_escalivada.md)** (Cataluña): masa fermentada y cobertura de verduras asadas. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.

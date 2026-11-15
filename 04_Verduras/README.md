@@ -386,3 +386,7 @@ Se ampliará con verduras rellenas, gratinados, ensaladas templadas, preparacion
 ## Utilizado por
 
 Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
+
+## Cocina tradicional española: Berenjenas de Almagro aliñadas
+
+- **REC-526 — [Berenjenas de Almagro aliñadas](./berenjenas_de_almagro_alinadas.md)** (Campo de Calatrava, Ciudad Real): aliño frío y reposo refrigerado. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.

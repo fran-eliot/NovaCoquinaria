@@ -164,3 +164,7 @@ Se ampliará con otras infusiones, bebidas vegetales y preparaciones de temporad
 
 ## Utilizado por
 Punto de entrada al dominio Bebidas.
+
+## Cocina tradicional española: Leche merengada tradicional
+
+- **REC-530 — [Leche merengada tradicional](./leche_merengada_tradicional.md)** (Comunidad Valenciana y otras regiones de España): infusión láctea, granizado y espuma pasteurizada. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
