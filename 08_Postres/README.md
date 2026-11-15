@@ -57,6 +57,19 @@ Las experiencias y los ajustes están reunidos en el [registro de recetas cocina
 
 - **REC-0218 — [Brazo de gitano de chocolate y galletas María](./brazo_de_gitano_de_chocolate_y_galletas.md)**: elaboración doméstica habitual, distinta de la tarta de natillas. Se recuperan el bote de 400 g de crema de cacao, el baño de café y licor y una fórmula histórica no confirmada como versión preferida. La formulación de repetición evita el huevo crudo y queda pendiente de comparación.
 
+## Nuevas preparaciones dulces: seis técnicas diferenciadas
+
+Estas fichas son **formulaciones de referencia pendientes de prueba doméstica**. No sustituyen ni reinterpretan las recetas valoradas del pastel de manzana, la tarta de galletas con natillas o el brazo de gitano de chocolate y galletas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0232 | [Bizcocho marmolado de vainilla y chocolate](./bizcocho_marmolado_vainilla_chocolate.md) | Masa dividida y vetas |
+| REC-0233 | [Pudin de pan con caramelo](./pudin_de_pan_con_caramelo.md) | Aprovechamiento y baño maría |
+| REC-0234 | [Tarta de almendra estilo Santiago](./tarta_de_santiago_de_almendra.md) | Batido y horneado sin harina de trigo |
+| REC-0235 | [Galletas de avena y canela](./galletas_de_avena_y_canela.md) | Formado y horneado por tandas |
+| REC-0236 | [Mousse de chocolate sin huevo crudo](./mousse_de_chocolate_sin_huevo_crudo.md) | Emulsión y nata montada |
+| REC-0237 | [Bizcocho de plátano y nueces](./bizcocho_de_platano_y_nueces.md) | Fruta madura y miga húmeda |
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
