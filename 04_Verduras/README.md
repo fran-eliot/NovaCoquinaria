@@ -195,6 +195,14 @@ Ambas son **propuestas pendientes de prueba doméstica**. El tumbet se diferenci
 
 Ambas son **propuestas pendientes de prueba doméstica**. La pericana utiliza en esta variante bacalao desalado y cocinado, diferenciándose del uso tradicional de pescado seco tostado.
 
+## Cocina tradicional española: porra antequerana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0480 | [Porra antequerana de tomate y pan](./porra_antequerana_de_tomate_y_pan.md) | Málaga: crema fría densa emulsionada con aceite y pan |
+
+Preparación **pendiente de prueba doméstica**, diferenciada del salmorejo cordobés y el gazpacho andaluz.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

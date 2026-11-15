@@ -188,6 +188,14 @@ Propuesta **pendiente de prueba doméstica**. **La hoja de limonero no se come**
 
 Ambas elaboraciones son **propuestas pendientes de prueba doméstica**. El sobao documentado no se presenta como producto certificado por IGP.
 
+## Cocina tradicional española: filloas gallegas
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0483 | [Filloas gallegas de leche y limón](./filloas_gallegas_de_leche_y_limon.md) | Galicia: masa muy fina de leche y huevo cocinada en sartén |
+
+Propuesta **pendiente de prueba doméstica**, relacionada con los frixuelos asturianos pero documentada como especialidad gallega.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.

@@ -201,6 +201,15 @@ Preparación **pendiente de prueba doméstica**, con control de ternura del cerd
 
 Propuesta **pendiente de prueba doméstica**, con hígado de cordero opcional y cocción completa de vísceras cuando se utilicen.
 
+## Cocina tradicional española: choto granadino y chorizo asturiano
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0481 | [Choto al ajillo granadino](./choto_al_ajillo_granadino.md) | Granada: cabrito guisado con ajo y vino |
+| REC-0482 | [Chorizo a la sidra asturiano](./chorizo_a_la_sidra_asturiano.md) | Asturias: chorizo cocinado en sidra |
+
+Ambas recetas son **propuestas pendientes de prueba doméstica** y requieren la cocción completa de carnes y embutidos según su presentación comercial.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.

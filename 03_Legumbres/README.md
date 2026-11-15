@@ -176,6 +176,15 @@ Propuesta **pendiente de prueba doméstica**. Sus tiempos de cocción se diferen
 
 Preparación **pendiente de prueba doméstica**; la escudella y la carn d'olla se presentan diferenciadas.
 
+## Cocina tradicional española: fabes con almejas y cocido maragato
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0478 | [Fabes con almejas a la asturiana](./fabes_con_almejas_a_la_asturiana.md) | Asturias: fabes tiernas con almejas abiertas por separado |
+| REC-0479 | [Cocido maragato de carnes y garbanzos](./cocido_maragato_de_carnes_y_garbanzos.md) | León: servicio tradicional de carnes, garbanzos y sopa al final |
+
+Ambas formulaciones son **propuestas pendientes de prueba doméstica**. Se distinguen por su cocción, los moluscos y el orden de servicio.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
