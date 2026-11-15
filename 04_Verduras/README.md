@@ -78,6 +78,21 @@ Estas fichas son **recetas de referencia pendientes de prueba doméstica confirm
 
 - **REC-0230 — [Patacones de plátano verde](./patacones_de_platano_verde.md)**: fritura inicial, aplastado y segunda fritura para obtener superficie crujiente. Propuesta pendiente de prueba doméstica.
 
+## Seis nuevas propuestas: raíces, hojas y verduras de temporada
+
+Las siguientes recetas son **formulaciones pendientes de prueba doméstica**. No modifican preparaciones previas ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0286 | [Alcachofas a la plancha con ajo y limón](./alcachofas_a_la_plancha_con_ajo_y_limon.md) | Precocción y plancha |
+| REC-0287 | [Espárragos verdes con salsa de yogur y limón](./esparragos_verdes_con_salsa_de_yogur_y_limon.md) | Plancha y salsa fría |
+| REC-0288 | [Judías verdes salteadas con almendras y ajo](./judias_verdes_salteadas_con_almendras_y_ajo.md) | Escaldado y salteado |
+| REC-0289 | [Acelgas rehogadas con patata y pimentón](./acelgas_rehogadas_con_patata_y_pimenton.md) | Cocción escalonada y rehogado |
+| REC-0290 | [Col estofada con manzana y comino](./col_estofada_con_manzana_y_comino.md) | Sudado y estofado breve |
+| REC-0291 | [Remolacha asada con nueces y vinagreta](./remolacha_asada_con_nueces_y_vinagreta.md) | Asado de raíz y aliño |
+
+Las técnicas se eligen por la humedad, grosor y estructura de cada hortaliza. Los tiempos son orientativos y deben verificarse en la primera elaboración.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
