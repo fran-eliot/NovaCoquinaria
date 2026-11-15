@@ -144,6 +144,14 @@ Preparación **pendiente de prueba doméstica**, distinta de la fabada por el pr
 
 Propuesta **pendiente de prueba doméstica**. Se diferencia del cocido madrileño de garbanzos y tres vuelcos y del pote asturiano.
 
+## Cocina tradicional española: olla gitana murciana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0450 | [Olla gitana murciana de garbanzos y calabaza](./olla_gitana_murciana_de_garbanzos_y_calabaza.md) | Murcia: guiso de dos legumbres cocidas, hortalizas y fruta |
+
+Propuesta **pendiente de prueba doméstica**; el tiempo indicado exige legumbres completamente cocidas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

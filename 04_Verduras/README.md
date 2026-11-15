@@ -160,6 +160,14 @@ La receta es **pendiente de prueba doméstica**; la conservación refrigerada es
 
 Son **propuestas pendientes de prueba doméstica**, con huevo completamente cuajado en la sopa y panceta bien cocinada en el trinxat.
 
+## Cocina tradicional española: patatas a la importancia
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0448 | [Patatas a la importancia castellanas](./patatas_a_la_importancia_castellanas.md) | Castilla y León: rebozado y cocción en caldo |
+
+Formulación **pendiente de prueba doméstica**. El rebozado se dora antes de terminar la cocción de las patatas en caldo.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

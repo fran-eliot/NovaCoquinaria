@@ -116,6 +116,14 @@ Las preparaciones de inspiración valenciana, persa y de África occidental se p
 
 La formulación doméstica es **pendiente de prueba**. Se diferencian arroz, carnes, garbanzos y embutidos cocinados de la costra final de huevo.
 
+## Cocina tradicional española: arroz a banda alicantino
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0453 | [Arroz a banda alicantino con fumet de pescado](./arroz_a_banda_alicantino_con_fumet_de_pescado.md) | Alicante: arroz seco, fumet y sofrito de ñora |
+
+La formulación doméstica con sepia es **pendiente de prueba** y se diferencia de otras variantes tradicionales del arroz a banda.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |

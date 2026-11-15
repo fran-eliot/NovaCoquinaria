@@ -147,6 +147,14 @@ Interpretación doméstica **pendiente de prueba**; se requiere crema cocida y r
 
 Formulación **pendiente de prueba doméstica**; el batido con huevos debe mantenerse refrigerado y cocinarse completamente.
 
+## Cocina tradicional española: pestiños andaluces
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0452 | [Pestiños andaluces con miel y ajonjolí](./pestinos_andaluces_con_miel_y_ajonjoli.md) | Andalucía: masa aromatizada, fritura y baño de miel |
+
+Receta **pendiente de prueba doméstica**; indicar sésamo entre los alérgenos y precaución con aceite y miel calientes.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
