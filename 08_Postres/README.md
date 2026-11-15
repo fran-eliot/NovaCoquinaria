@@ -241,6 +241,15 @@ Ambas recetas son **propuestas pendientes de prueba doméstica**, con espesores,
 
 Ambas formulaciones están **pendientes de prueba doméstica**; el frangollo utiliza maíz de molienda gruesa, no almidón refinado.
 
+## Cocina tradicional española: tocino de cielo y rosquillas de San Isidro
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0518 | [Tocino de cielo jerezano de yemas](./tocino_de_cielo_jerezano_de_yemas.md) | Jerez: yemas y almíbar cuajados al baño maría |
+| REC-0519 | [Rosquillas listas de San Isidro con glasa](./rosquillas_listas_de_san_isidro_con_glasa.md) | Madrid: rosquillas horneadas con cobertura dulce |
+
+Ambas preparaciones quedan **pendientes de prueba doméstica**. La glasa de las rosquillas evita huevo crudo sin pasteurizar.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
