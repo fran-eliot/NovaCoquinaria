@@ -85,6 +85,21 @@ Estas recetas son **formulaciones pendientes de prueba doméstica**. Se conserva
 
 La crema de limón y nata es un postre cuajado, no un sustituto de mermelada ni del lemon curd empleado en una elaboración anterior.
 
+## Seis nuevos postres: fruta, masas y cremas
+
+Estas preparaciones son **formulaciones pendientes de prueba doméstica**. Amplían las texturas de horno, los postres fríos y la repostería, sin modificar las versiones familiares ya documentadas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0352 | [Clafoutis de cerezas al horno](./clafoutis_de_cerezas_al_horno.md) | Cuajado de masa fluida con fruta |
+| REC-0353 | [Bizcocho de tres leches y vainilla](./bizcocho_tres_leches_de_vainilla.md) | Bizcocho aireado y remojo refrigerado |
+| REC-0354 | [Cuadrados de limón con base sablé](./cuadrados_de_limon_con_base_sable.md) | Precocción y crema cuajada en horno |
+| REC-0355 | [Flan de coco al baño maría](./flan_de_coco_al_bano_maria.md) | Caramelo y cuajado suave |
+| REC-0356 | [Semifrío de plátano y cacao sin huevo](./semifrio_de_platano_y_cacao_sin_huevo.md) | Fruta congelada y triturado |
+| REC-0357 | [Galletas crujientes de sésamo y naranja](./galletas_crujientes_de_sesamo_y_naranja.md) | Masa corta y horneado por tandas |
+
+El reposo refrigerado de postres con lácteos es esencial. Los cuadrados de limón son un postre horneado y no sustituyen la cobertura de mermelada propuesta para el pastel de manzana histórico.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
