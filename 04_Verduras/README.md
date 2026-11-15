@@ -186,6 +186,15 @@ Dos formulaciones **pendientes de prueba doméstica**; se diferencian del resto 
 
 Ambas son **propuestas pendientes de prueba doméstica**. El tumbet se diferencia de la escalivada por la técnica de fritura y montaje.
 
+## Cocina tradicional española: Navarra y Alicante
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0466 | [Menestra navarra de los cuatro ases](./menestra_navarra_de_los_cuatro_ases.md) | Navarra: alcachofas, espárragos, guisantes y habas cocidos por separado |
+| REC-0467 | [Pericana alicantina de pimiento seco y bacalao](./pericana_alicantina_de_pimiento_seco_y_bacalao.md) | Alcoi: pimiento seco, ajo, pescado y aceite |
+
+Ambas son **propuestas pendientes de prueba doméstica**. La pericana utiliza en esta variante bacalao desalado y cocinado, diferenciándose del uso tradicional de pescado seco tostado.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
