@@ -96,6 +96,21 @@ Se incorporan preparaciones con aves, conejo, cordero, carne picada y piezas rel
 
 Las recetas distinguen los puntos de cocción de carne entera, ave, carne picada y elaboraciones rellenas; los tiempos orientativos no sustituyen el termómetro.
 
+## Seis nuevas propuestas: guisos, asados, brochetas y escabeche
+
+Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. No modifican las cantidades ni valoraciones de carnes ya preparadas en casa.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0322 | [Pollo al chilindrón con pimientos](./pollo_al_chilindron_con_pimientos.md) | Sofrito y guiso |
+| REC-0323 | [Ossobuco de ternera estofado con vino blanco](./ossobuco_de_ternera_estofado_con_vino_blanco.md) | Braseado lento |
+| REC-0324 | [Costillas de cerdo al horno con miel y mostaza](./costillas_de_cerdo_al_horno_con_miel_y_mostaza.md) | Asado cubierto y glaseado |
+| REC-0325 | [Brochetas de pollo morunas con comino y limón](./brochetas_de_pollo_morunas_con_comino_y_limon.md) | Marinado y plancha |
+| REC-0326 | [Cordero estofado con garbanzos y comino](./cordero_estofado_con_garbanzos_y_comino.md) | Guiso y legumbre ya cocida |
+| REC-0327 | [Pavo en escabeche suave de naranja y laurel](./pavo_en_escabeche_suave_de_naranja_y_laurel.md) | Cocción ácida y refrigeración |
+
+El escabeche es una preparación de consumo refrigerado, no una conserva estable a temperatura ambiente. Los tiempos orientativos deben comprobarse según el corte y la cocción real.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
