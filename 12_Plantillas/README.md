@@ -86,6 +86,22 @@ Las plantillas describen **estructuras reutilizables**, no recetas probadas con 
 
 Las aplicaciones enlazadas en cada plantilla no cambian las formulaciones ni las valoraciones de las recetas existentes.
 
+## Patrones de marinadas y adobos
+
+Las marinadas son **patrones de sazón y tratamiento superficial**, no métodos de cocción ni de conservación. Todas las mezclas que toquen alimentos crudos deben mantenerse refrigeradas; si se desea salsa de servicio, reservarla limpia antes del contacto.
+
+| ID | Plantilla | Uso principal |
+|---|---|---|
+| PLA-0011 | [Marinada asiática general](./03_Marinadas/marinada_asiatica.md) | Base flexible para proteínas |
+| PLA-0206 | [Marinada mediterránea de limón y hierbas](./03_Marinadas/marinada_mediterranea_de_limon_y_hierbas.md) | Ave, cerdo y verduras |
+| PLA-0207 | [Adobo de yogur y especias para aves](./03_Marinadas/adobo_de_yogur_y_especias_para_aves.md) | Pollo y pavo al horno |
+| PLA-0208 | [Adobo seco de comino, pimentón y ajo](./03_Marinadas/adobo_seco_de_comino_pimenton_y_ajo.md) | Plancha y horno |
+| PLA-0209 | [Marinada breve de lima y cilantro para marisco](./03_Marinadas/marinada_breve_de_lima_y_cilantro_para_marisco.md) | Pescados y mariscos cocinados |
+| PLA-0210 | [Marinada de soja, jengibre y mirin](./03_Marinadas/marinada_de_soja_jengibre_y_mirin.md) | Salteados y tofu |
+| PLA-0211 | [Adobo de naranja, mostaza y tomillo](./03_Marinadas/adobo_de_naranja_mostaza_y_tomillo.md) | Ave, cerdo y hortalizas firmes |
+
+Las nuevas fórmulas son **referencias pendientes de prueba doméstica** y no modifican las cantidades ni las valoraciones de recetas ya registradas.
+
 # Relación con otros módulos
 
 ## 00_Bases
