@@ -5,7 +5,7 @@ titulo: Cocina Asiática
 categoria: Cocina Asiática
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - cocina-asiatica
   - modulo
@@ -39,6 +39,19 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | REC-0139 | [Cerdo agridulce con pimientos](./cerdo_agridulce_con_pimientos.md) | Salteado y salsa agridulce |
 | REC-0140 | [Fideos de arroz con gambas y lima](./fideos_de_arroz_con_gambas_y_lima.md) | Hidratación y salteado |
 | REC-0141 | [Setas salteadas con salsa de ostras](./setas_salteadas_con_salsa_de_ostras.md) | Dorado y glaseado umami |
+
+## Seis propuestas para aprovechar la despensa asiática
+
+Las siguientes elaboraciones son **recetas propuestas pendientes de prueba**, no experiencias domésticas confirmadas. Las dosis son puntos de partida que podrán revisarse después de cocinar y valorar cada plato.
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0199 | [Pollo con salsa satay y lima](./pollo_con_salsa_satay_y_lima.md) | Dorado y salsa de cacahuete |
+| REC-0200 | [Ternera salteada con pimienta negra y cebolla](./ternera_salteada_con_pimienta_negra_y_cebolla.md) | Salteado por tandas |
+| REC-0201 | [Calamares salteados con kimchi](./calamares_salteados_con_kimchi.md) | Salteado rápido y reducción |
+| REC-0202 | [Fideos chinos con miso y champiñones](./fideos_chinos_con_miso_y_champinones.md) | Dorado y ligado |
+| REC-0203 | [Arroz basmati con coco y lima](./arroz_basmati_con_coco_y_lima.md) | Absorción y reposo |
+| REC-0204 | [Garbanzos glaseados con hoisin y jengibre](./garbanzos_glaseados_con_hoisin_y_jengibre.md) | Salteado y glaseado |
 
 ## Preparaciones cocinadas en casa
 
