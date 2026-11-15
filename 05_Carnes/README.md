@@ -111,6 +111,21 @@ Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. No 
 
 El escabeche es una preparación de consumo refrigerado, no una conserva estable a temperatura ambiente. Los tiempos orientativos deben comprobarse según el corte y la cocción real.
 
+## Seis propuestas nuevas: salsas, guisos y cocción controlada
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían los métodos y perfiles de sabor sin alterar las recetas ni valoraciones documentadas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0376 | [Pollo al vino tinto con champiñones](./pollo_al_vino_tinto_con_champinones.md) | Braseado y salsa de vino |
+| REC-0377 | [Ternera Stroganoff con champiñones y nata](./ternera_stroganoff_con_champinones_y_nata.md) | Salteado y salsa cremosa |
+| REC-0378 | [Adobo filipino de cerdo con soja y vinagre](./adobo_filipino_de_cerdo_con_soja_y_vinagre.md) | Marinado refrigerado y guiso |
+| REC-0379 | [Pollo piccata con limón y alcaparras](./pollo_piccata_con_limon_y_alcaparras.md) | Dorado y salsa desglasada |
+| REC-0380 | [Magret de pato a la naranja](./magret_de_pato_a_la_naranja.md) | Fundido de grasa y reducción cítrica |
+| REC-0381 | [Albóndigas de cordero en salsa de tomate y comino](./albondigas_de_cordero_en_salsa_de_tomate_y_comino.md) | Formado y cocción de carne picada |
+
+Las fichas distinguen cortes enteros, carnes picadas y aves y requieren comprobar el punto de cocción. La variante de magret a la naranja no reemplaza la receta de magret Sichuán previamente valorada.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
