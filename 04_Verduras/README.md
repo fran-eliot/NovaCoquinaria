@@ -228,6 +228,14 @@ Propuesta **pendiente de prueba doméstica**, distinta de los gazpachos y salmor
 
 Propuesta **pendiente de prueba doméstica**, diferenciada de las habas con jamón ya documentadas.
 
+## Cocina tradicional española: alboronía andaluza
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0502 | [Alboronía andaluza de berenjena y calabaza](./alboronia_andaluza_de_berenjena_y_calabaza.md) | Andalucía: hortalizas estofadas con berenjena y calabaza |
+
+Propuesta **pendiente de prueba doméstica**, diferente del pisto por la presencia y proporción de calabaza.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
