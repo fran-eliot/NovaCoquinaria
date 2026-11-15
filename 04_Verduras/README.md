@@ -177,6 +177,15 @@ Formulación **pendiente de prueba doméstica**. El rebozado se dora antes de te
 
 Dos formulaciones **pendientes de prueba doméstica**; se diferencian del resto de preparaciones de patata y pimiento del módulo.
 
+## Cocina tradicional española: Aragón y Mallorca
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0460 | [Borrajas con patatas y aceite de oliva](./borrajas_con_patatas_y_aceite_de_oliva.md) | Aragón: limpieza, cocción y aliño de verdura |
+| REC-0461 | [Tumbet mallorquín de berenjena, patata y pimiento](./tumbet_mallorquin_de_berenjena_patata_y_pimiento.md) | Mallorca: fritura por separado y montaje en capas |
+
+Ambas son **propuestas pendientes de prueba doméstica**. El tumbet se diferencia de la escalivada por la técnica de fritura y montaje.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
