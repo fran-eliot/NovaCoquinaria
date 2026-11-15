@@ -212,6 +212,14 @@ Preparación **pendiente de prueba doméstica**, diferenciada del salmorejo cord
 
 Ambas son **propuestas pendientes de prueba doméstica**. La miel de caña es melaza, no miel de abeja.
 
+## Cocina tradicional española: sopa extremeña
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0490 | [Sopa de tomate extremeña con pan y pimiento](./sopa_de_tomate_extremena_con_pan_y_pimiento.md) | Extremadura: sofrito de tomate y pan asentado |
+
+Propuesta **pendiente de prueba doméstica**, distinta de los gazpachos y salmorejos fríos.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
