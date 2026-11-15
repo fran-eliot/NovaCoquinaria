@@ -347,6 +347,17 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Aplicaciones recientes de frutas, lácteos y especias
+
+- [Peras asadas con miel y nueces](../08_Postres/peras_asadas_con_miel_y_nueces.md): madurez de la pera, azúcar y acabado crujiente.
+- [Vasitos de yogur con manzana y canela](../08_Postres/vasitos_de_yogur_manzana_y_canela.md): fruta cocinada y lácteo frío.
+- [Bizcocho de naranja y almendra](../08_Postres/bizcocho_de_naranja_y_almendra.md): cítricos, frutos de cáscara e impulsor químico.
+- [Batido de pera, yogur y canela](../09_Bebidas/batido_de_pera_yogur_y_canela.md): madurez de la fruta y textura cremosa.
+- [Infusión de naranja y romero](../09_Bebidas/infusion_de_naranja_y_romero.md): aromatización controlada de piel cítrica y hierba culinaria.
+- [Chocolate frío con cacao y canela](../09_Bebidas/chocolate_frio_con_canela.md): dispersión de cacao y refrigeración de la bebida.
+
+---
+
 # Evolución
 
 La despensa crecerá de forma incremental.

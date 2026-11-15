@@ -34,6 +34,16 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 | REC-0146 | [Sorbete de limón sin huevo](./sorbete_de_limon_sin_huevo.md) | Congelación y cristalización |
 | REC-0147 | [Crema catalana con canela y limón](./crema_catalana_con_canela_y_limon.md) | Espesado de crema y caramelizado |
 
+## Nuevos postres de fruta y repostería
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0184 | [Peras asadas con miel y nueces](./peras_asadas_con_miel_y_nueces.md) | Asado de fruta y frutos secos al final |
+| REC-0185 | [Vasitos de yogur con manzana y canela](./vasitos_de_yogur_manzana_y_canela.md) | Salteado de fruta y montaje frío |
+| REC-0186 | [Bizcocho de naranja y almendra](./bizcocho_de_naranja_y_almendra.md) | Batido, horneado y control de miga |
+
+Las recetas comparan fruta asada, postres por capas y miga aireada sin confundir sus necesidades de cocción y conservación.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
