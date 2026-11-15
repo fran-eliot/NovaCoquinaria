@@ -5,7 +5,7 @@ titulo: Horno
 categoria: Horno
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - horno
   - modulo
@@ -33,6 +33,19 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 | REC-0163 | [Tomates rellenos de cuscús y verduras](./tomates_rellenos_de_cuscus_y_verduras.md) | Relleno y horneado de hortalizas |
 | REC-0164 | [Merluza con costra de hierbas y pan](./merluza_con_costra_de_hierbas_y_pan.md) | Horneado con cobertura crujiente |
 | REC-0165 | [Manzanas asadas con canela y nueces](./manzanas_asadas_con_canela_y_nueces.md) | Asado de fruta entera |
+
+## Seis nuevas propuestas de horno
+
+Estas recetas amplían los métodos de horno doméstico. Son **propuestas pendientes de elaboración y valoración**, no resultados confirmados.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0211 | [Berenjenas rellenas de ternera y especias](./berenjenas_rellenas_de_ternera_y_especias.md) | Doble horneado y relleno reducido |
+| REC-0212 | [Coliflor asada entera con yogur y especias](./coliflor_asada_entera_con_yogur_y_especias.md) | Asado entero y salsa fría |
+| REC-0213 | [Huevos al horno con espinacas y tomate](./huevos_al_horno_con_espinacas_y_tomate.md) | Salsa reducida y cuajado |
+| REC-0214 | [Pastel de patata y carne al horno](./pastel_de_patata_y_carne_al_horno.md) | Puré, relleno y gratinado |
+| REC-0215 | [Panecillos rápidos de yogur y hierbas](./panecillos_rapidos_de_yogur_y_hierbas.md) | Masa rápida sin fermentación |
+| REC-0216 | [Bacalao gratinado con puerro y mostaza](./bacalao_gratinado_con_puerro_y_mostaza.md) | Horneado de pescado y cobertura |
 
 ## Masa casera: pan de yuca colombiano
 
