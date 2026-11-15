@@ -12,8 +12,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - solomillo
 - ternera
@@ -32,6 +32,25 @@ Medallones de solomillo cocinados a fuego vivo y terminados con una salsa de ins
 La receta busca un equilibrio entre una cocción precisa de la proteína y una salsa brillante y rica en umami.
 
 ---
+
+## Preparación doméstica planteada: dos medallones
+
+Se planteó preparar **dos de cuatro medallones de solomillo**, con un peso conjunto de **265 g**, al estilo asiático y acompañados de **arroz basmati**. Los otros dos medallones se reservarían para otra ocasión.
+
+Es una **decisión de preparación documentada**, pero no se ha recuperado una valoración posterior ni una confirmación suficiente para atribuirle un tiempo o salsa final realmente utilizados.
+
+### Adaptación orientativa a 265 g
+
+- **Carne:** 2 medallones (265 g en total), secados antes de cocinarlos.
+- **Salsa pequeña propuesta:** 1 cucharada de soja clara, 1 cucharada de agua, 1 cucharadita de mirin y 1 cucharadita de salsa de ostras, opcional.
+- **Aromas:** una pizca de jengibre rallado y pimienta, sin salar automáticamente por la soja.
+- **Guarnición:** arroz basmati cocinado aparte; calcular la cantidad de arroz según apetito y acompañamientos.
+
+Dorar la carne por ambas caras y ajustar su cocción **al tipo de solomillo y al grosor real**. En solomillo de cerdo de pieza entera, una referencia de seguridad es **63 °C en el centro con 3 minutos de reposo**; las recomendaciones pueden variar según producto, población y guía sanitaria. Reducir la salsa aparte para evitar que sus azúcares se quemen sobre la carne y napar al final.
+
+El mirin puede contener alcohol; la cocción no garantiza eliminarlo completamente.
+
+**Alérgenos del ajuste propuesto:** soja, trigo según el producto y moluscos si se añade salsa de ostras.
 
 # Información general
 
