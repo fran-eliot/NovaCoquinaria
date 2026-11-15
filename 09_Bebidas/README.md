@@ -34,6 +34,16 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 | REC-0152 | [Café cold brew por inmersión](./cafe_cold_brew.md) | Extracción fría prolongada |
 | REC-0153 | [Leche dorada con cúrcuma y jengibre](./leche_dorada_con_curcuma.md) | Infusión de especias en leche |
 
+## Nuevas bebidas de fruta, hierbas y cacao
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0187 | [Batido de pera, yogur y canela](./batido_de_pera_yogur_y_canela.md) | Triturado en frío y ajuste de densidad |
+| REC-0188 | [Infusión de naranja y romero](./infusion_de_naranja_y_romero.md) | Extracción aromática y filtrado |
+| REC-0189 | [Chocolate frío con cacao y canela](./chocolate_frio_con_canela.md) | Dispersión caliente y enfriado |
+
+Se distinguen bebidas que requieren refrigeración por sus lácteos o fruta fresca y una infusión que puede servirse caliente o enfriarse de forma controlada.
+
 ## Técnicas y diagnóstico
 - [Preparar infusiones y bebidas aromáticas](../00_Bases/03_Tecnicas/preparar_infusiones.md): temperatura, tiempo y extracción.
 - [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md): dosis, molienda, temperatura y proporción.
