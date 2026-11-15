@@ -11,8 +11,8 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 12 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - cerdo
 - wok
@@ -30,6 +30,18 @@ Receta rápida de inspiración china basada en lomo de cerdo marinado y salteado
 Destaca por el equilibrio entre umami, dulzor y aromas tostados.
 
 ---
+
+## Relación con la cocina doméstica
+
+El lomo asiático figura en el repertorio original de platos del proyecto y tiene una formulación de referencia con cerdo, verduras y salsa china base. **No se ha recuperado una valoración concreta de una preparación personal**, ni cantidades realmente medidas en una tanda.
+
+### Ajuste reproducible para la próxima preparación
+
+La receta indica **400 g de lomo** y una cebolla y un pimiento para dos personas. Como punto de partida, cortar el lomo **contra la fibra en tiras uniformes**, secarlo y cocinarlo por tandas. Se puede ensayar una salsa con **1 cucharada de soja clara, 1 cucharadita de salsa de ostras, 1 cucharadita de mirin y 80–100 ml de agua**, mezclados antes de empezar; es una **propuesta**, no un recuerdo de una salsa utilizada.
+
+Incorporar salsa al final y reducir solo hasta recubrir la carne. Evitar dejarla demasiado tiempo al fuego; comprobar la cocción adecuada del corte de cerdo. Recordar que soja y ostras aportan sal y que el mirin puede contener alcohol.
+
+**Alérgenos:** soja, trigo según la salsa, moluscos por ostras y sésamo si se termina con su aceite.
 
 # Información general
 
