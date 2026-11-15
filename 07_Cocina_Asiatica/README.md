@@ -40,6 +40,15 @@ Organizar recetas y técnicas de inspiración asiática con métodos reproducibl
 | REC-0140 | [Fideos de arroz con gambas y lima](./fideos_de_arroz_con_gambas_y_lima.md) | Hidratación y salteado |
 | REC-0141 | [Setas salteadas con salsa de ostras](./setas_salteadas_con_salsa_de_ostras.md) | Dorado y glaseado umami |
 
+## Preparaciones cocinadas en casa
+
+| ID | Receta | Resultado y aprendizaje |
+|---|---|---|
+| REC-0190 | [Berenjenas chinas estilo Sichuán](./berenjenas_chinas_estilo_sichuan.md) | Salsa intensa y oscura; ajustar el corte permite elegir entre textura supercremosa y más firme |
+| REC-0191 | [Seitán con bambú y salsa china oscura](./seitan_con_bambu_y_salsa_oscura.md) | 250 g de seitán, bambú hervido 5 minutos y salsa abundante y brillante |
+
+Los ingredientes utilizados y los resultados observados se distinguen de las cantidades propuestas para reproducir cada plato. Consultar el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Técnicas y plantilla
 
 - [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md): preparación previa, tandas, orden de incorporación, salsas y seguridad.
