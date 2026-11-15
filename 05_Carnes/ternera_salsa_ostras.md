@@ -13,7 +13,7 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.1.0
+version: 2.0.1
 ultima_revision: 2026-11-15
 etiquetas:
 - ternera
