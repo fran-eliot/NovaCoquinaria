@@ -200,6 +200,15 @@ Ambas son **propuestas pendientes de prueba doméstica**. Las rabas se distingue
 
 Preparación **pendiente de prueba doméstica**; se distingue del suquet por el acabado de ajada.
 
+## Cocina tradicional española: zurrukutuna y zarzuela catalana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0515 | [Zurrukutuna vasca de bacalao, pan y ajo](./zurrukutuna_vasca_de_bacalao_pan_y_ajo.md) | País Vasco: sopa ligada con pan, bacalao y pimiento choricero |
+| REC-0516 | [Zarzuela catalana de pescado y marisco](./zarzuela_catalana_de_pescado_y_marisco.md) | Cataluña: pescado, marisco y salsa con picada |
+
+Ambas son **propuestas pendientes de prueba doméstica**. La zurrukutuna se distingue de otras sopas de ajo y la zarzuela del suquet por su composición marinera.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
