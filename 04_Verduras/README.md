@@ -245,6 +245,14 @@ Propuesta **pendiente de prueba doméstica**, diferente del pisto por la presenc
 
 Ambas recetas son **propuestas pendientes de prueba doméstica**. La piriñaca no lleva el majado de yema característico de la pipirrana de Jaén.
 
+## Cocina tradicional española: cardo aragonés
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0514 | [Cardo aragonés con salsa de almendras](./cardo_aragones_con_salsa_de_almendras.md) | Aragón: cocción de cardo y ligado de salsa de almendras |
+
+Propuesta **pendiente de prueba doméstica**; el cardo fresco requiere retirar las fibras y cocer hasta tierno.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
