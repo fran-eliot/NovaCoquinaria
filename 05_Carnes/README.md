@@ -362,3 +362,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Cordero al chilindrón navarro
 
 - **REC-527 — [Cordero al chilindrón navarro](./cordero_al_chilindron_navarro.md)** (Navarra): estofado de cordero y reducción del chilindrón. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Pollo a la catalana con ciruelas y piñones
+
+- **REC-534 — [Pollo a la catalana con ciruelas y piñones](./pollo_a_la_catalana_con_ciruelas_y_pinones.md)** (Cataluña): rustido dulce-salado de pollo, ciruelas y piñones. Propuesta pendiente de prueba doméstica, sin valoración atribuida.

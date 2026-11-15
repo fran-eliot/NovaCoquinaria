@@ -288,3 +288,7 @@ Se podrá ampliar con nuevas ensaladas, cremas, potajes regionales y preparacion
 ## Utilizado por
 
 Punto de entrada para recetas, ingredientes, técnicas y plantillas del dominio Legumbres.
+
+## Cocina tradicional española: Rancho canario de garbanzos, papas y fideos
+
+- **REC-533 — [Rancho canario de garbanzos, papas y fideos](./rancho_canario_de_garbanzos_papas_y_fideos.md)** (Islas Canarias): garbanzos cocidos, carnes, papa y pasta gruesa. Propuesta pendiente de prueba doméstica, sin valoración atribuida.

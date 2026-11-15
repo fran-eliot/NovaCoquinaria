@@ -321,3 +321,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: Salpicón gallego de marisco
 
 - **REC-528 — [Salpicón gallego de marisco](./salpicon_gallego_de_marisco.md)** (Galicia): cocciones separadas, enfriado y vinagreta. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Trucha escabechada a la aragonesa
+
+- **REC-535 — [Trucha escabechada a la aragonesa](./trucha_escabechada_aragonesa.md)** (Aragón): escabeche refrigerado de pescado entero. Propuesta pendiente de prueba doméstica, sin valoración atribuida.

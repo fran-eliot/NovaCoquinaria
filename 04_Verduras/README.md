@@ -390,3 +390,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Berenjenas de Almagro aliñadas
 
 - **REC-526 — [Berenjenas de Almagro aliñadas](./berenjenas_de_almagro_alinadas.md)** (Campo de Calatrava, Ciudad Real): aliño frío y reposo refrigerado. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Sopas mallorquinas de verduras y pan
+
+- **REC-532 — [Sopas mallorquinas de verduras y pan](./sopas_mallorquinas_de_verduras_y_pan.md)** (Mallorca, Illes Balears): capas de pan moreno y verduras con caldo absorbido. Propuesta pendiente de prueba doméstica, sin valoración atribuida.

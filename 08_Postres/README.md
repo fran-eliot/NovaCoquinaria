@@ -371,3 +371,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: Tejas de Tolosa de almendra
 
 - **REC-529 — [Tejas de Tolosa de almendra](./tejas_de_tolosa_de_almendra.md)** (Tolosa, Gipuzkoa (País Vasco)): masa fina horneada y moldeado en caliente. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Rosquillas tontas de San Isidro
+
+- **REC-536 — [Rosquillas tontas de San Isidro](./rosquillas_tontas_de_san_isidro.md)** (Madrid): rosquilla madrileña horneada sin glaseado. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
