@@ -4,7 +4,7 @@ tipo: receta
 titulo: Seitán con bambú y salsa china oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.2
+version: 1.0.3
 ultima_revision: 2026-11-15
 etiquetas:
   - seitan
@@ -20,6 +20,16 @@ etiquetas:
 Salteado de seitán con bambú, cebolla, ajo y jengibre en una salsa **abundante, oscura y brillante** de soja y ostras, ligada al final con maicena.
 
 La elaboración doméstica de **250 g de seitán** fue probada con un resultado **muy bueno**. El bambú quedó en su punto tras hervirlo previamente **5 minutos** y fue necesario añadir más soja oscura para conseguir el color deseado.
+
+## Versiones y elección pendiente
+
+La formulación de salsa para **200 ml de agua o caldo** se recuperó de una propuesta anterior a la cocción. En versiones posteriores de la ficha se contemplaron ajustes de **140–180 ml** para controlar el volumen y la densidad. **No consta una comparación que demuestre cuál de los dos planteamientos fue mejor.**
+
+Se mantienen como **datos confirmados de la preparación valorada** los **250 g de seitán**, la cocción del bambú durante **5 minutos**, el resultado **«muy bueno»**, el ajuste de soja oscura y la preferencia por cocinar el ajo **1–2 minutos**. La cantidad efectiva de salsa oscura añadida al final y el volumen final de agua o caldo no se recuperaron.
+
+La lista de ingredientes siguiente documenta **una de las formulaciones propuestas**, no una sustitución probada de otras versiones. Si se compara con una tanda nueva, registrar ambas por separado, sin declarar una superior de antemano.
+
+[Cómo seleccionar versiones de una receta](../docs/management/EVOLUCION_DE_RECETAS.md).
 
 ## Información general
 
