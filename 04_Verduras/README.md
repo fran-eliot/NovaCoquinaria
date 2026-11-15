@@ -394,3 +394,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Sopas mallorquinas de verduras y pan
 
 - **REC-532 — [Sopas mallorquinas de verduras y pan](./sopas_mallorquinas_de_verduras_y_pan.md)** (Mallorca, Illes Balears): capas de pan moreno y verduras con caldo absorbido. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Papas aliñás gaditanas con cebolleta y perejil
+
+- **REC-539 — [Papas aliñás gaditanas con cebolleta y perejil](./papas_alinas_gaditanas_con_cebolleta_y_perejil.md)** (Cádiz, Andalucía): aliño en templado y ensalada sin mayonesa. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.

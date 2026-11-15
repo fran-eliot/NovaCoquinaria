@@ -375,3 +375,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: Rosquillas tontas de San Isidro
 
 - **REC-536 — [Rosquillas tontas de San Isidro](./rosquillas_tontas_de_san_isidro.md)** (Madrid): rosquilla madrileña horneada sin glaseado. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Carbayones de Oviedo de hojaldre, almendra y yema
+
+- **REC-542 — [Carbayones de Oviedo de hojaldre, almendra y yema](./carbayones_de_oviedo_hojaldre_almendra_yema.md)** (Oviedo, Asturias): hojaldre con relleno de almendra, crema de yema y glaseado. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.

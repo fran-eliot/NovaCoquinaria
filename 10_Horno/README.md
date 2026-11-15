@@ -242,3 +242,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: Empanada gallega de zorza
 
 - **REC-537 — [Empanada gallega de zorza](./empanada_gallega_de_zorza.md)** (Galicia): masa fermentada con relleno de cerdo adobado. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Bollos preñaos asturianos de chorizo
+
+- **REC-543 — [Bollos preñaos asturianos de chorizo](./bollos_prenaos_asturianos_de_chorizo.md)** (Asturias): pan fermentado individual relleno de chorizo. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
