@@ -16,6 +16,10 @@ etiquetas:
 
 ## Propósito
 
+Para describir cantidades realmente empleadas, resultados y comparaciones entre elaboraciones, consultar el [Registro de tandas y evaluación de recetas domésticas](./REGISTRO_DE_TANDAS.md).
+
+
+
 Identificar de forma navegable los platos **que se preparan habitualmente**, aquellos cuya **elaboración o valoración ha quedado confirmada** y las propuestas todavía sin probar. El objetivo es ampliar la memoria de la cocina real sin confundir una ficha disponible con una receta efectivamente cocinada, ni presentar fórmulas antiguas como versiones preferidas.
 
 Este inventario es un **punto de entrada por nivel de evidencia**: las experiencias detalladas siguen en [Recetas cocinadas en casa](./RECETAS_COCINADAS.md) y las reglas de selección se encuentran en [Evolución y selección de versiones](./EVOLUCION_DE_RECETAS.md). No pretende repetir los ingredientes ni los procedimientos completos.
