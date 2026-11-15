@@ -185,6 +185,14 @@ Preparación **pendiente de prueba doméstica**; la escudella y la carn d'olla s
 
 Ambas formulaciones son **propuestas pendientes de prueba doméstica**. Se distinguen por su cocción, los moluscos y el orden de servicio.
 
+## Cocina tradicional española: cocido lebaniego
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0484 | [Cocido lebaniego de garbanzos y relleno](./cocido_lebaniego_de_garbanzos_y_relleno.md) | Cantabria: garbanzos, carnes, berza y relleno de pan y huevo |
+
+Propuesta **pendiente de prueba doméstica**. Se distingue del cocido montañés de alubias y de otros cocidos con garbanzos.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

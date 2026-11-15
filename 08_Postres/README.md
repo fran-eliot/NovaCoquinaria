@@ -196,6 +196,15 @@ Ambas elaboraciones son **propuestas pendientes de prueba doméstica**. El sobao
 
 Propuesta **pendiente de prueba doméstica**, relacionada con los frixuelos asturianos pero documentada como especialidad gallega.
 
+## Cocina tradicional española: Ibiza y Comunitat Valenciana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0488 | [Flaó ibicenco de queso y hierbabuena](./flao_ibicenco_de_queso_y_hierbabuena.md) | Ibiza: tarta de queso fresco con hierbabuena |
+| REC-0489 | [Coca de llanda valenciana con limón y canela](./coca_de_llanda_valenciana_con_limon_y_canela.md) | Comunitat Valenciana: bizcocho de bandeja y superficie azucarada |
+
+Ambas formulaciones están **pendientes de prueba doméstica** y preservan las variantes regionales documentadas.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
