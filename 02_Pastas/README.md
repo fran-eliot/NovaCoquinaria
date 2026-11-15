@@ -5,7 +5,7 @@ titulo: Pastas
 categoria: Pastas
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - pasta
   - recetas
@@ -49,6 +49,19 @@ Las recetas explican cómo elaborar platos concretos; las técnicas y plantillas
 | REC-0174 | [Espaguetis con gambas, ajo y limón](./espaguetis_con_gambas_y_limon.md) | Marisco de cocción breve y emulsión de pasta |
 
 Estas preparaciones permiten comparar salsas obtenidas con verdura triturada, aceite y agua almidonada, y queso fresco.
+
+## Seis nuevas propuestas de pasta: técnicas diferenciadas
+
+Las siguientes recetas son **formulaciones de referencia pendientes de prueba doméstica**. No sustituyen ni atribuyen valoraciones a las recetas ya existentes.
+
+| ID | Receta | Enfoque |
+|---|---|---|
+| REC-0244 | [Macarrones con chorizo y pimiento](./macarrones_con_chorizo_y_pimiento.md) | Sofrito y acabado de pasta en tomate |
+| REC-0245 | [Lasaña de espinacas y ricotta](./lasana_de_espinacas_y_ricotta.md) | Horneado por capas y control de humedad |
+| REC-0246 | [Espaguetis con mejillones y tomate](./espaguetis_con_mejillones_y_tomate.md) | Apertura de moluscos y salsa marinera |
+| REC-0247 | [Ensalada de pasta con atún y verduras](./ensalada_de_pasta_con_atun_y_verduras.md) | Enfriamiento rápido y aliño frío |
+| REC-0248 | [Ñoquis caseros de patata con mantequilla y salvia](./noquis_caseros_de_patata_con_mantequilla_y_salvia.md) | Masa de patata y formado |
+| REC-0249 | [Linguine con calabacín, limón y almendras](./linguine_con_calabacin_limon_y_almendras.md) | Salteado, emulsión y contraste crujiente |
 
 ## Nuevos recorridos prácticos
 
