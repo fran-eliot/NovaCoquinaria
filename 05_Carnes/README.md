@@ -219,6 +219,14 @@ Ambas recetas son **propuestas pendientes de prueba doméstica** y requieren la 
 
 Formulaciones **pendientes de prueba doméstica** con atención a los productos salados y su desalado.
 
+## Cocina tradicional española: escaldums mallorquins
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0497 | [Escaldums mallorquins de pollo y almendras](./escaldums_mallorquins_de_pollo_y_almendras.md) | Mallorca: guiso de pollo ligado con picada de almendras |
+
+Preparación **pendiente de prueba doméstica**, con cocción completa del pollo y salsa ligada al final.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
