@@ -127,6 +127,14 @@ Propuesta **pendiente de prueba doméstica**; atención especial al desalado del
 
 La versión propuesta **no incluye tomate** y se distingue del ajoarriero navarro. **Pendiente de prueba doméstica**.
 
+## Cocina tradicional española: pimientos rellenos de bacalao
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0449 | [Pimientos del piquillo rellenos de bacalao](./pimientos_del_piquillo_rellenos_de_bacalao.md) | Navarra: bacalao ligado, relleno y salsa suave |
+
+Receta **pendiente de prueba doméstica**; controlar el desalado del bacalao y la textura del relleno.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
