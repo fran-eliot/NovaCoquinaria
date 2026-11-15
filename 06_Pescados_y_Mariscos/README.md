@@ -81,6 +81,21 @@ Las siguientes fichas amplían el repertorio del módulo. Son **propuestas pendi
 
 Los escabeches domésticos necesitan conservación refrigerada; no son conservas estables a temperatura ambiente.
 
+## Seis nuevas propuestas: más especies y técnicas de pescado y marisco
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Complementan el catálogo sin modificar las recetas de caballa japonesa, tintorera asiática ni otras preparaciones ya valoradas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0298 | [Salmón a la plancha con salsa de yogur y eneldo](./salmon_a_la_plancha_con_salsa_de_yogur_y_eneldo.md) | Dorado y salsa fría |
+| REC-0299 | [Trucha al horno con almendras y limón](./trucha_al_horno_con_almendras_y_limon.md) | Asado de pescado entero |
+| REC-0300 | [Rape en salsa de almendras y azafrán](./rape_en_salsa_de_almendras_y_azafran.md) | Cocción suave y salsa ligada |
+| REC-0301 | [Pulpo cocido a la gallega con cachelos](./pulpo_cocido_a_la_gallega_con_cachelos.md) | Calentamiento de pulpo ya cocido |
+| REC-0302 | [Sepia a la plancha con ajo y perejil](./sepia_a_la_plancha_con_ajo_y_perejil.md) | Marcado por tandas |
+| REC-0303 | [Berberechos al vapor con limón y laurel](./berberechos_al_vapor_con_limon_y_laurel.md) | Apertura al vapor |
+
+Para bivalvos, utilizar únicamente producto procedente de establecimientos autorizados. La receta de pulpo parte de **producto previamente cocido** y no describe la cocción de pulpo crudo.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
