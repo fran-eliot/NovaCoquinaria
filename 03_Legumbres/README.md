@@ -202,6 +202,14 @@ Propuesta **pendiente de prueba doméstica**. Se distingue del cocido montañés
 
 Ambas son **propuestas pendientes de prueba doméstica**. Las gachas exigen precaución por la almorta y la olla podrida requiere hervir vigorosamente las alubias rojas crudas antes de la cocción lenta.
 
+## Cocina tradicional española: judiones de La Granja
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0520 | [Judiones de La Granja con chorizo y oreja](./judiones_de_la_granja_con_chorizo_y_oreja.md) | Segovia: judión grande guisado con carnes y embutidos |
+
+Preparación **pendiente de prueba doméstica**, distinta de los judiones con almejas ya documentados.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
