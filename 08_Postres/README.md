@@ -205,6 +205,15 @@ Propuesta **pendiente de prueba doméstica**, relacionada con los frixuelos astu
 
 Ambas formulaciones están **pendientes de prueba doméstica** y preservan las variantes regionales documentadas.
 
+## Cocina tradicional española: Canarias y Ávila
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0494 | [Bienmesabe canario de almendra y limón](./bienmesabe_canario_de_almendra_y_limon.md) | Canarias: crema de almendra, almíbar y yemas |
+| REC-0495 | [Yemas de Santa Teresa de Ávila](./yemas_de_santa_teresa_de_avila.md) | Ávila: dulces de yema y almíbar moldeados |
+
+Ambas propuestas están **pendientes de prueba doméstica** y requieren cocción completa de las yemas.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
