@@ -57,6 +57,14 @@ Las tres elaboraciones muestran cómo adaptar la cocción al corte de carne y eq
 
 La experiencia y las diferencias entre recetas probadas y adaptaciones propuestas se recogen en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
 
+## Recetas asiáticas del repertorio personal
+
+- [Medallones de solomillo asiáticos](./medallones_solomillo_asiaticos.md): propuesta para dos medallones de 265 g en total y arroz basmati, sin valoración final registrada.
+- [Lomo asiático](./lomo_asiatico.md): salteado de cerdo y verduras con salsa china de referencia, pendiente de valoración personal.
+- [Ternera con salsa de ostras](./ternera_salsa_ostras.md): 400 g de ternera, pimiento, cebolla y champiñones; se distingue del glaseado de [ternera con bambú](./ternera_bambu.md).
+
+Los datos de preparación y límites de evidencia se documentan en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.

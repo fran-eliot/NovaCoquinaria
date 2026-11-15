@@ -52,6 +52,13 @@ Estas recetas distinguen tres objetivos de textura y mantienen la seguridad del 
 
 [Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
 
+## Preparaciones domésticas y variantes a contrastar
+
+- [Arroz caldoso de alcachofas y marisco](./arroz_caldoso_alcachofas_marisco.md): base cocinada para varias raciones; adaptación consultada a 130 g de arroz y 450–520 ml de mezcla para una ración y media, sin resultado final registrado.
+- [Arroz frito con gambas](./arroz_frito_gambas.md): formulación de referencia con 300 g de arroz ya cocido, 200 g de gambas y dos huevos; preparación personal aún sin confirmar.
+
+Consultar el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md) para distinguir ingredientes preparados, propuestas y valoraciones.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |

@@ -17,9 +17,9 @@ tiempo_preparacion: 15 min
 tiempo_cocinado: 10 min
 raciones: 2
 estado: Estable
-version: 1.0.0
+version: 1.1.0
 fecha_creacion: 2026-07-17
-ultima_revision: 2026-07-17
+ultima_revision: 2026-11-15
 autor: NovaCoquinaria
 ---
 
@@ -32,6 +32,20 @@ El arroz frito con gambas es una de las variantes más populares del arroz frito
 Esta receta implementa la plantilla **Arroz frito base**, incorporando únicamente las particularidades propias del uso de gambas.
 
 ---
+
+## Estado de la receta doméstica
+
+La receta se desarrolló en el repertorio del proyecto con **300 g de arroz ya cocido y frío, 200 g de gambas y 2 huevos**. Estas cantidades son la **formulación documentada**, pero no hay una confirmación posterior de que se cocinara y valorara una tanda con ellas.
+
+### Puntos de reproducción y seguridad
+
+- Los **300 g de arroz** están expresados en **peso cocido**, no en crudo.
+- Enfriar rápidamente el arroz después de cocerlo y conservarlo refrigerado; no es necesario dejarlo toda la noche si se ha enfriado de forma segura.
+- Cocinar el huevo por completo y las gambas hasta quedar completamente cocinadas; retirarlas mientras se saltea el arroz evita que se resequen.
+- El tiempo de **aproximadamente un minuto por lado** es solo orientativo para gambas pequeñas: comprobar el punto según tamaño real.
+- Evitar dejar arroz cocido a temperatura ambiente; recalentar no corrige una conservación insegura anterior.
+
+Para una futura prueba anotar origen y peso del arroz ya cocido, tiempo de frío, tamaño de las gambas, salinidad y textura final del grano.
 
 # Ingredientes
 

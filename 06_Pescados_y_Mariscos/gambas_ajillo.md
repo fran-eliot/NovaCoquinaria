@@ -11,8 +11,8 @@ tiempo_preparacion: 5 min
 tiempo_coccion: 8 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - gambas
 - ajo
@@ -30,6 +30,19 @@ Receta tradicional de la cocina española en la que las gambas se cocinan rápid
 El éxito del plato depende de cocinar las gambas el tiempo justo para conservar toda su jugosidad.
 
 ---
+
+## Relación con otra ficha y estado de experiencia
+
+Esta es la formulación histórica de **300 g de gambas** para dos personas (REC-0014). También existe una ficha más reciente de [gambas al ajillo con 400 g para dos o tres raciones](./gambas_al_ajillo.md) (REC-0059). **Son dos formulaciones del mismo plato**, no dos elaboraciones domésticas distintas confirmadas.
+
+La receta forma parte del repertorio original, pero **no consta una valoración posterior registrada** de una tanda personal. Mantener ambas fichas enlazadas permite comparar proporción de aceite, cantidad de gambas y rendimiento, sin duplicar experiencias en el registro.
+
+### Ajuste y diagnóstico
+
+- Para la versión de 300 g, las 4 cucharadas de aceite crean una salsa de ajillo más abundante que la formulación de 400 g con 3 cucharadas.
+- El ajo se aromatiza sin quemarlo y las gambas se añaden bien escurridas, por tandas si hace falta.
+- Los **1–2 minutos por lado** son aproximados; retirar cuando el marisco esté cocinado y opaco, sin prolongarlo innecesariamente.
+- **Alérgeno:** crustáceos.
 
 # Información general
 
