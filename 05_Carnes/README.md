@@ -71,6 +71,16 @@ Los datos de preparación y límites de evidencia se documentan en [Recetas coci
 
 La experiencia y la formulación histórica se mantienen diferenciadas en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
 
+## Tres recetas latinoamericanas de carne: propuestas
+
+Las siguientes preparaciones amplían los métodos del módulo sin atribuirse a experiencias domésticas confirmadas.
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0226 | [Tinga de pollo con tomate y chipotle](./tinga_de_pollo_con_tomate_y_chipotle.md) | Deshebrado y salsa de tomate picante |
+| REC-0227 | [Picadillo de ternera con aceitunas y pasas](./picadillo_cubano_con_aceitunas_y_pasitas.md) | Sofrito, guiso y reducción |
+| REC-0228 | [Cerdo al mojo cítrico con ajo](./cerdo_al_mojo_citrico_con_ajo.md) | Marinado refrigerado y dorado |
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
