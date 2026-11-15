@@ -143,6 +143,14 @@ Son recetas de referencia **pendientes de prueba doméstica**, con particular at
 
 Ficha de referencia **pendiente de prueba doméstica**, distinta de otros estofados de cordero del catálogo.
 
+## Cocina tradicional española: gazpachos manchegos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0432 | [Gazpachos manchegos con pollo, conejo y torta cenceña](./gazpachos_manchegos_con_pollo_conejo_y_torta_cencena.md) | Castilla-La Mancha: guiso de carne, caldo y torta cenceña |
+
+Plato caliente de tradición manchega, distinto del gazpacho andaluz frío. **Pendiente de prueba doméstica**.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
