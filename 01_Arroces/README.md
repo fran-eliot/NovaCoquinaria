@@ -63,6 +63,21 @@ Estas recetas distinguen tres objetivos de textura y mantienen la seguridad del 
 
 Consultar el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md) para distinguir ingredientes preparados, propuestas y valoraciones.
 
+## Seis nuevos arroces: técnicas y texturas
+
+Estas preparaciones son **propuestas pendientes de prueba doméstica**. No modifican ni sustituyen las formulaciones cocinadas o adaptadas anteriormente.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0250 | [Arroz negro con calamares](./arroz_negro_con_calamares.md) | Sofrito marino, tinta alimentaria y arroz seco |
+| REC-0251 | [Arroz con costillas de cerdo y pimiento](./arroz_con_costillas_de_cerdo_y_pimiento.md) | Ablandamiento previo y absorción |
+| REC-0252 | [Arroz caldoso de pollo y setas](./arroz_caldoso_de_pollo_y_setas.md) | Cocción con abundante fondo y servicio inmediato |
+| REC-0253 | [Risotto de espárragos y limón](./risotto_de_esparragos_y_limon.md) | Caldo gradual y mantecadatura |
+| REC-0254 | [Arroz con mejillones y azafrán](./arroz_con_mejillones_y_azafran.md) | Apertura, filtrado del jugo y arroz seco |
+| REC-0255 | [Arroz salteado con piña y anacardos](./arroz_salteado_con_pina_y_anacardos.md) | Salteado de arroz cocido previamente enfriado |
+
+La cantidad de líquido depende de la variedad de arroz, del fuego y del recipiente. Si no se consume de inmediato, enfriar rápidamente y refrigerar el arroz cocido.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
