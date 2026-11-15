@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.7.1
+version: 1.8.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -33,7 +33,7 @@ En particular, las fórmulas para **700 g de berenjenas** y para **200 ml de lí
 |---|---|---|
 | [Berenjenas chinas estilo Sichuán](../../07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md) | **700 g de berenjenas chinas** (cantidad corregida antes de cocinar; no 1,2 kg). Fórmula previa con 2½ cucharadas de soja clara, 1 de ostras, 1½ de vinagre negro, 1 de vino de arroz, 1 de azúcar y 120–130 ml de agua. Resultado **riquísimo**, muy blando y supercremoso; se añadió soja oscura para oscurecer. | Registrar cucharadas efectivamente empleadas y comparar trozos de 5–6 cm con la textura cremosa probada. |
 | [Seitán con bambú y salsa china oscura](../../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md) | **250 g de seitán**, bambú hervido **5 minutos**. La fórmula previa incluía **200 ml de agua/caldo, 2 cucharadas de soja clara, 1½ de ostras y 2 cucharaditas rasas de maicena**. Resultado **muy bueno**; se añadió soja oscura porque el color estaba claro. Se prefirió cocinar el ajo **1–2 minutos** frente a 30 segundos. | Medir la soja oscura añadida al final y la densidad real de salsa; distinguir fórmula prevista de dosis efectivamente utilizadas. |
-| [Tarta de galletas y natillas con café y Amaretto](../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas comerciales; tres capas de galletas y tres de natillas; baño de café, Amaretto y aroma de naranja; 24 h de refrigeración; resultado muy bueno. | Medir galletas, café y licor según el molde utilizado. |
+| [Tarta de galletas y natillas con café y Amaretto](../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas comerciales; tres capas de galletas y tres de natillas; baño de café, Amaretto y un chorrito de aroma de naranja; 24 h de refrigeración. Resultado **«muy muy rico»**; la naranja se percibía claramente y gustó. | Conservar el perfil valorado y medir galletas, café, licor y aroma sin sustituirlo por una versión hipotética. |
 | [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | Receta doméstica adaptada a 840 g de manzana limpia, con 200 g para la superficie. **El lemon curd se diluyó con algo de agua, perdió su consistencia cremosa y se observó líquido en el fondo**, un acabado que no gustó. | Probar una **mermelada espesa sin diluir**, colocada sobre la superficie; comprobar que permanece arriba. No se ha demostrado que la dilución fuera la única causa del líquido. |
 
 ## Preparaciones domésticas recuperadas: pan de yuca y zanahorias aliñadas
@@ -75,7 +75,7 @@ Para documentar cada repetición, basta registrar la **cantidad realmente emplea
 
 | Receta | Experiencia conocida | Situación de la ficha |
 |---|---|---|
-| [Ternera con bambú](../../05_Carnes/ternera_bambu.md) | Se cocinó y quedó **muy rica**; se quiso mejorar la cantidad y espesor de salsa, color oscuro y punto del bambú. | Receta existente ampliada con diagnóstico y cantidades orientativas para una próxima repetición. |
+| [Ternera con bambú](../../05_Carnes/ternera_bambu.md) | Tanda recuperada con **500 g de ternera y 180 g de bambú**, valorada **«muy rico»**; la salsa resultó escasa y poco espesa, y el bambú algo duro tras unos 5 min. | Conservar esa experiencia diferenciada de la formulación de referencia de 400 g/150 g; comparar salsa y textura sin declarar superior ninguna versión no contrastada. |
 | [Habas con jamón](../../04_Verduras/habas_jamon.md) | Se cocinaron **habas con ajo, jamón, pimentón, tomillo y vino blanco**, con resultado **muy rico**. | Receta existente ampliada con la combinación probada; cantidades de especias y vino todavía orientativas. |
 | [Arroz con higadillos](../../01_Arroces/arroz_higadillos.md) | Se consultó y preparó el planteamiento de **4 raciones con 300 g de basmati y 600–650 ml de caldo**. No hay confirmación del resultado final. | Mantener como adaptación documentada **sin valoración posterior**, separada de la versión de arroz redondo para dos personas. |
 | [Ropa vieja, base y variante pulled pork](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | La ropa vieja de inspiración cubana ya se había hecho otras veces; no constan cantidades exactas. La propuesta de **650 g de pulled pork precocinado** no tiene prueba confirmada. | Receta base orientativa y adaptación con pulled pork **pendiente de prueba**, diferenciadas. |
@@ -124,6 +124,10 @@ Estas fichas forman parte del repertorio de cocina de interés, pero una solicit
 
 Registrar únicamente lo observado tras cocinar: fecha aproximada, número de raciones, ingrediente y cantidad que condicionaron la receta, corte, tiempos reales, resultado (sabor, textura y salsa) y cambios para una futura repetición. Si no se midió un dato, señalarlo como **desconocido** y evitar rellenarlo con una estimación presentada como hecho.
 
+
+## Propuesta recuperada: cangrejo rojo cocido
+
+- **[Cangrejo rojo cocido al ajillo con vino blanco](../../06_Pescados_y_Mariscos/cangrejo_rojo_cocido_al_ajillo.md) (REC-0198).** Se consultó una elaboración para **300 g de cangrejo rojo ya cocido y congelado**. La propuesta emplea 3 dientes de ajo, 2 cucharadas de aceite de oliva y 40–50 ml de vino blanco, reducido antes de añadir el cangrejo. **No consta el resultado de una preparación acabada**, y las proporciones se conservan como propuesta, no como ingredientes confirmados de una tanda valorada.
 
 ## Adaptaciones pendientes de probar o confirmar
 
