@@ -53,6 +53,21 @@ Estas recetas amplían los métodos de horno doméstico. Son **propuestas pendie
 
 [Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
 
+## Seis preparaciones nuevas de horno: masas, rellenos y cocciones
+
+Las siguientes fichas son **propuestas pendientes de prueba doméstica**. No modifican las recetas existentes ni sus antecedentes de elaboración.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0268 | [Canelones de espinacas y setas gratinados](./canelones_de_espinacas_y_setas_gratinados.md) | Montaje, bechamel y gratinado |
+| REC-0269 | [Pollo en bolsa de asado con limón y tomillo](./pollo_en_bolsa_de_asado_con_limon_y_tomillo.md) | Cocción cerrada y dorado final |
+| REC-0270 | [Pan casero de aceitunas y romero](./pan_de_aceitunas_y_romero.md) | Fermentación y horneado |
+| REC-0271 | [Pimientos rellenos de arroz y atún al horno](./pimientos_rellenos_de_arroz_y_atun_al_horno.md) | Precocción de arroz y relleno |
+| REC-0272 | [Salmón al horno con costra de mostaza y eneldo](./salmon_al_horno_con_costra_de_mostaza_y_eneldo.md) | Horneado de pescado y costra |
+| REC-0273 | [Calabaza rellena de lentejas y verduras](./calabaza_rellena_de_lentejas_y_verduras.md) | Asado de mitades y relleno cocido |
+
+Se diferencian la cocción del relleno, el secado de las verduras y la temperatura interior del producto, sin confiar exclusivamente en los tiempos propuestos.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
