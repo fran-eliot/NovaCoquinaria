@@ -366,3 +366,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Pollo a la catalana con ciruelas y piñones
 
 - **REC-534 — [Pollo a la catalana con ciruelas y piñones](./pollo_a_la_catalana_con_ciruelas_y_pinones.md)** (Cataluña): rustido dulce-salado de pollo, ciruelas y piñones. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Conejo a la catalana con chocolate y setas
+
+- **REC-540 — [Conejo a la catalana con chocolate y setas](./conejo_a_la_catalana_con_chocolate_y_setas.md)** (Cataluña): estofado de conejo con picada de almendra y chocolate. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.

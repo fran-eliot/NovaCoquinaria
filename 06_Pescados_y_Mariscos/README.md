@@ -325,3 +325,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: Trucha escabechada a la aragonesa
 
 - **REC-535 — [Trucha escabechada a la aragonesa](./trucha_escabechada_aragonesa.md)** (Aragón): escabeche refrigerado de pescado entero. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
+
+## Cocina tradicional española: Cazón en adobo gaditano frito
+
+- **REC-541 — [Cazón en adobo gaditano frito](./cazon_en_adobo_gaditano_frito.md)** (Cádiz, Andalucía): adobo especiado en frío y fritura por tandas. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
