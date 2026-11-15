@@ -13,8 +13,8 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 2.0.0
-ultima_revision: 2026-07-16
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - ternera
 - wok
@@ -32,6 +32,16 @@ Clásico salteado de inspiración cantonesa donde la ternera se cocina rápidame
 La clave del plato es mantener la carne jugosa y las verduras ligeramente crujientes.
 
 ---
+
+## Procedencia y estado de prueba
+
+La ternera con salsa de ostras es una de las primeras recetas del catálogo personal de NovaCoquinaria. En las conversaciones recuperadas se formuló una versión para **dos raciones, con 400 g de ternera**, cebolla, pimiento y **150 g de champiñones**. Es una receta de referencia culinaria: **no consta una valoración posterior confirmada** de esa formulación cocinada.
+
+Para repetirla, registrar el corte y grosor de las tiras, la cantidad real de salsa de ostras, el volumen final de líquido y si se busca **glaseado corto** o **salsa abundante**. La formulación de esta ficha persigue el primer resultado; no debe confundirse con la variante de [ternera con bambú](./ternera_bambu.md), para la que se buscó una salsa más abundante y oscura después de cocinarla.
+
+### Punto crítico del wok
+
+Dorar carne y champiñones por tandas antes de añadir salsa; el exceso de agua impide el tostado. Añadir la salsa de ostras al final para evitar que la reducción concentre demasiado la sal. **Alérgenos:** moluscos, soja y trigo según salsas comerciales.
 
 ## Objetivo
 
