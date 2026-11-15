@@ -192,6 +192,14 @@ Preparación **pendiente de prueba doméstica**; controlar espinas y cocción de
 
 Ambas son **propuestas pendientes de prueba doméstica**. Las rabas se distinguen por la fritura y las papas con choco por la cocción prolongada del cefalópodo.
 
+## Cocina tradicional española: caldeirada gallega
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0505 | [Caldeirada gallega de merluza y patatas](./caldeirada_gallega_de_merluza_y_patatas.md) | Galicia: pescado y patatas cocidos con ajada de pimentón |
+
+Preparación **pendiente de prueba doméstica**; se distingue del suquet por el acabado de ajada.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
