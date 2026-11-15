@@ -209,3 +209,7 @@ Punto de entrada al dominio Arroces y sus métodos de cocción.
 ## Cocina tradicional española: Arroz con liebre manchego
 
 - **REC-544 — [Arroz con liebre manchego](./arroz_con_liebre_manchego.md)** (Castilla-La Mancha): estofado previo de liebre y arroz caldoso. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Arroz a la zamorana con productos del cerdo
+
+- **REC-556 — [Arroz a la zamorana con productos del cerdo](./arroz_a_la_zamorana_con_productos_del_cerdo.md)** (Zamora, Castilla y León): arroz jugoso con distintos cortes de cerdo y pimentón. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.

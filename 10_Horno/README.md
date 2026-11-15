@@ -250,3 +250,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: Hornazo salmantino de lomo, chorizo y jamón
 
 - **REC-549 — [Hornazo salmantino de lomo, chorizo y jamón](./hornazo_salmantino_de_lomo_chorizo_y_jamon.md)** (Salamanca, Castilla y León): masa enriquecida rellena de lomo, chorizo y jamón. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Broa gallega de maíz y centeno
+
+- **REC-561 — [Broa gallega de maíz y centeno](./broa_gallega_de_maiz_y_centeno.md)** (Galicia): escaldado de maíz y fermentación de pan mixto. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.

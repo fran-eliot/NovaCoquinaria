@@ -406,3 +406,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Remojón granadino de naranja y bacalao
 
 - **REC-552 — [Remojón granadino de naranja y bacalao](./remojon_granadino_de_naranja_y_bacalao.md)** (Granada, Andalucía): ensalada cítrica con bacalao cocido. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Calçots asados al horno con salsa tipo salvitxada
+
+- **REC-557 — [Calçots asados al horno con salsa tipo salvitxada](./calcots_asados_al_horno_con_salsa_romesco.md)** (Cataluña): asado de cebolla tierna y salsa de frutos secos. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.

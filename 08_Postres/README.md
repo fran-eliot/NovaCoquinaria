@@ -383,3 +383,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: Fardelejos de Arnedo de almendra
 
 - **REC-555 — [Fardelejos de Arnedo de almendra](./fardelejos_de_arnedo_de_almendra.md)** (Arnedo, La Rioja): masa fina frita con relleno de almendra y huevo. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Mantecados de Estepa de almendra
+
+- **REC-560 — [Mantecados de Estepa de almendra](./mantecados_de_estepa_de_almendra.md)** (Estepa, Sevilla, Andalucía): harina previamente tostada, manteca y almendra. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
