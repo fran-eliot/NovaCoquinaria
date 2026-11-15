@@ -25,6 +25,12 @@ Constituye la segunda implementación de referencia del dominio culinario **Curr
 
 ---
 
+## Estado de prueba doméstica
+
+El curry verde está documentado como receta de referencia, pero **no consta evaluación posterior de una elaboración en casa**. La implementación de la plantilla culinaria no equivale a una prueba registrada.
+
+En la próxima elaboración anotar marca y cantidad de pasta de curry, tipo de corte de pollo, cantidad de leche de coco, salinidad y equilibrio final entre picante, dulzor y lima. Comprobar **74 °C en el centro del pollo**.
+
 # Objetivo
 
 Elaborar un curry verde equilibrado en el que:
