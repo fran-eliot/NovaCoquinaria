@@ -143,6 +143,14 @@ Receta **pendiente de prueba doméstica**; controlar el desalado del bacalao y l
 
 Especialidad marinera **pendiente de prueba doméstica**, con atención a la preparación higiénica de crustáceos y a evitar la sobrecocción.
 
+## Cocina tradicional española: txangurro a la donostiarra
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0464 | [Txangurro a la donostiarra gratinado](./txangurro_a_la_donostiarra_gratinado.md) | Gipuzkoa: centollo cocido, sofrito y gratinado |
+
+Propuesta **pendiente de prueba doméstica**; la ficha parte de carne de centollo ya cocida y refrigerada.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.

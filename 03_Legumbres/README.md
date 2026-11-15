@@ -160,6 +160,14 @@ Propuesta **pendiente de prueba doméstica**; el tiempo indicado exige legumbres
 
 Propuesta **pendiente de prueba doméstica**. La versión documentada utiliza bacalao completamente cocinado antes del montaje.
 
+## Cocina tradicional española: pochas navarras
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0462 | [Pochas navarras estofadas con verduras](./pochas_navarras_estofadas_con_verduras.md) | Navarra: cocción suave de alubia fresca desgranada |
+
+Propuesta **pendiente de prueba doméstica**. Sus tiempos de cocción se diferencian de los de las alubias secas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
