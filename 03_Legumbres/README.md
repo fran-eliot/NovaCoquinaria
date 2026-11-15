@@ -152,6 +152,14 @@ Propuesta **pendiente de prueba doméstica**. Se diferencia del cocido madrileñ
 
 Propuesta **pendiente de prueba doméstica**; el tiempo indicado exige legumbres completamente cocidas.
 
+## Cocina tradicional española: empedrat catalán
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0456 | [Empedrat catalán de alubias y bacalao](./empedrat_catalan_de_alubias_y_bacalao.md) | Cataluña: ensalada fría de alubias cocidas, verduras y bacalao |
+
+Propuesta **pendiente de prueba doméstica**. La versión documentada utiliza bacalao completamente cocinado antes del montaje.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

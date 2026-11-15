@@ -135,6 +135,14 @@ La versión propuesta **no incluye tomate** y se distingue del ajoarriero navarr
 
 Receta **pendiente de prueba doméstica**; controlar el desalado del bacalao y la textura del relleno.
 
+## Cocina tradicional española: caldereta menorquina
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0457 | [Caldereta menorquina de langosta](./caldereta_menorquina_de_langosta.md) | Menorca: sofrito, fumet, picada y cocción final de langosta |
+
+Especialidad marinera **pendiente de prueba doméstica**, con atención a la preparación higiénica de crustáceos y a evitar la sobrecocción.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.

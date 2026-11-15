@@ -177,6 +177,14 @@ Dos **propuestas pendientes de prueba doméstica**. Las migas se ubican aquí po
 
 Preparación **pendiente de prueba doméstica**; controlar grosor y cocción interior.
 
+## Cocina tradicional española: botillo del Bierzo
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0455 | [Botillo del Bierzo con cachelos y berza](./botillo_del_bierzo_con_cachelos_y_berza.md) | León, Castilla y León: cocción de embutido tradicional con verduras |
+
+Preparación **pendiente de prueba doméstica**. El botillo se cocina según su formato comercial y las instrucciones de su fabricante; no se presume que un producto curado esté listo para consumir.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.

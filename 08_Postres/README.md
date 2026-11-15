@@ -155,6 +155,14 @@ Formulación **pendiente de prueba doméstica**; el batido con huevos debe mante
 
 Receta **pendiente de prueba doméstica**; indicar sésamo entre los alérgenos y precaución con aceite y miel calientes.
 
+## Cocina tradicional española: goxua alavés
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0459 | [Goxua alavés de nata, crema y bizcocho](./goxua_alaves_de_nata_crema_y_bizcocho.md) | Álava: capas de nata, bizcocho y crema pastelera |
+
+Propuesta **pendiente de prueba doméstica**; exige refrigeración y caramelizado seguro en recipientes adecuados.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
