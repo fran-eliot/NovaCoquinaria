@@ -81,6 +81,21 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Identifican 
 
 Los ingredientes específicos y las variantes de seguridad alimentaria se documentan dentro de cada ficha. Las recetas domésticas anteriormente probadas y valoradas permanecen sin cambios.
 
+## Seis nuevas propuestas: arroces, caldos, masas y fermentados
+
+Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Documentan sus referentes culturales y las diferencias entre ingredientes originales y adaptaciones de despensa.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0406 | [Pollo tailandés con albahaca y chile](./pollo_tailandes_con_albahaca_y_chile.md) | Salteado y aromatización final |
+| REC-0407 | [Sopa vietnamita de ternera y fideos de arroz](./sopa_vietnamita_de_ternera_y_fideos_de_arroz.md) | Infusión de caldo y cocción completa de ternera |
+| REC-0408 | [Tamagoyaki japonés de huevo y mirin](./tamagoyaki_japones_de_huevo_y_mirin.md) | Tortilla enrollada por capas |
+| REC-0409 | [Doenjang jjigae de tofu y calabacín](./doenjang_jjigae_de_tofu_y_calabacin.md) | Guiso con pasta fermentada |
+| REC-0410 | [Tortitas chinas de cebolleta con masa escaldada](./tortitas_chinas_de_cebolleta_con_masa_escaldada.md) | Masa escaldada y formado de capas |
+| REC-0411 | [Nasi goreng de verduras y huevo](./nasi_goreng_de_verduras_y_huevo.md) | Salteado de arroz correctamente refrigerado |
+
+Se distinguen las adaptaciones de albahaca, la pasta doenjang respecto del miso, el servicio seguro de carnes y huevos, y el enfriamiento del arroz previo al salteado. No se modifican las recetas personales anteriormente cocinadas.
+
 ## Preparaciones cocinadas en casa
 
 | ID | Receta | Resultado y aprendizaje |
