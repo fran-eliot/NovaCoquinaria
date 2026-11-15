@@ -1,7 +1,7 @@
 ---
 id: REC-0193
 tipo: receta
-titulo: Ropa vieja de inspiración cubana, receta base y adaptación con pulled pork
+titulo: Ropa vieja cubana con ternera
 categoria: Carnes
 estado: borrador
 version: 1.0.0
@@ -13,17 +13,27 @@ etiquetas:
   - cocina-domestica
 ---
 
-# Ropa vieja de inspiración cubana, receta base y adaptación con pulled pork
+# Ropa vieja cubana con ternera
 
 ## Descripción
 
-Carne deshebrada cocinada en una salsa de cebolla, pimiento, tomate, ajo y especias. La **ropa vieja al estilo cubano** ya se había preparado en casa en ocasiones anteriores, aunque no se conservan las cantidades exactas de aquellas elaboraciones.
+La **ropa vieja de ternera al estilo cubano** se había preparado en casa varias veces antes de septiembre de 2026. Es la **preparación principal** de esta ficha: carne de ternera cocinada hasta ablandar, deshebrada y ligada con un sofrito de cebolla, pimientos, tomate, ajo y especias. No se conservan las cantidades exactas ni una valoración final específica de aquellas tandas.
 
-Se documentan dos vías separadas: una **formulación doméstica propuesta con ternera para cocinar desde cero** y una **adaptación todavía pendiente de probar** con 650 g de pulled pork ahumado, previamente cocinado y sin salsa barbacoa. La segunda opción busca aprovechar carne ya preparada sin cocerla nuevamente durante horas.
+La formulación de ternera que sigue, de **650–750 g de falda o aguja**, es una **reconstrucción orientativa para repetir el plato**, no una transcripción contrastada de la mejor versión cocinada. Se conserva, en segundo lugar, una **adaptación posterior todavía pendiente de probar** con 650 g de pulled pork ahumado, previamente cocinado y sin salsa barbacoa. No se fusionan los antecedentes ni se atribuye a la ternera el resultado de esa adaptación.
+
+## Antecedentes y versiones
+
+| Preparación | Evidencia | Relación con esta ficha |
+|---|---|---|
+| Ropa vieja con ternera, anterior a septiembre de 2026 | El plato se había elaborado en casa **varias veces**; no se han recuperado gramajes, corte exacto, tiempos efectivos ni una valoración concreta de aquellas tandas | **Receta original doméstica**, conservada como preparación principal |
+| Fórmula orientativa de ternera aquí documentada | 650–750 g de falda o aguja y cantidades propuestas de sofrito, líquido y especias | **Reconstrucción reproducible**, no una receta antigua transcrita literalmente ni una versión declarada superior |
+| Adaptación con 650 g de pulled pork ahumado, septiembre de 2026 | Se planteó utilizar carne ya cocida, sin salsa barbacoa, incorporándola a una salsa terminada | **Variante propuesta posterior**, sin prueba ni valoración confirmada |
+
+La preparación original de ternera precede a la adaptación con pulled pork. No consta una comparación de resultados entre ambas ni la selección explícita de cantidades de una versión preferida; deben mantenerse separadas.
 
 ## Información general
 
-| Dato | Receta con ternera cruda | Adaptación con pulled pork ya cocinado |
+| Dato | Ropa vieja con ternera — preparación principal | Adaptación posterior con pulled pork ya cocinado |
 |---|---|---|
 | Raciones | 4 | 4 |
 | Preparación | 20 minutos | 15–20 minutos |
@@ -31,7 +41,7 @@ Se documentan dos vías separadas: una **formulación doméstica propuesta con t
 | Técnica | Guiso, deshebrado y reducción | Sofrito, salsa y calentamiento breve |
 | Validación | Preparaciones anteriores de ropa vieja confirmadas; esta fórmula no está contrastada | Adaptación prevista, sin resultado documentado |
 
-## Ingredientes de la formulación base
+## Ingredientes para repetir la ropa vieja con ternera
 
 - 650–750 g de **falda o aguja de ternera** para guisar, en pieza o trozos grandes;
 - 1 cebolla grande (200 g), en juliana;
@@ -51,7 +61,7 @@ Se documentan dos vías separadas: una **formulación doméstica propuesta con t
 
 **Alcance de las cantidades:** son una **propuesta para reproducir el estilo de plato**, no una reconstrucción exacta de la ropa vieja cocinada anteriormente.
 
-## Adaptación propuesta con pulled pork precocinado
+## Variante posterior pendiente de prueba: pulled pork precocinado
 
 Sustituir la ternera cruda por **650 g de pulled pork ahumado ya cocinado y sin salsa barbacoa**, reservando por separado los jugos del envase para probarlos antes de incorporarlos.
 
@@ -63,7 +73,7 @@ Cortar pimientos y cebolla en tiras de grosor semejante y picar ajo. Medir tomat
 
 Si se utiliza pulled pork, seguir las indicaciones del producto para refrigeración, fecha de uso y calentamiento; comprobar que está **completamente cocinado** y que no incluye salsa barbacoa. No confundir producto crudo marinado con carne preparada.
 
-## Elaboración con ternera: versión base propuesta
+## Elaboración principal: ropa vieja con ternera
 
 ### 1. Dorar la carne
 
@@ -89,7 +99,7 @@ Retirar la carne y deshebrarla con dos tenedores, una vez que pueda manipularse 
 
 Retirar laurel, añadir vinagre poco a poco, probar y ajustar sal. Servir con arroz recién cocido u otra guarnición.
 
-## Elaboración con pulled pork: adaptación pendiente de prueba
+## Elaboración alternativa: pulled pork precocinado, pendiente de prueba
 
 1. **Construir primero el sofrito y la salsa** de cebolla, pimientos, ajo, tomate y especias, hasta que estén cocinados y ligeramente reducidos; no añadir inicialmente toda el agua prevista para ternera cruda.
 2. Abrir el pulled pork siguiendo las indicaciones del envase; separar carne deshebrada y jugos. Probar los jugos **solo si son aptos para consumo directo según la etiqueta** y, si conviene, retirar parte de la grasa superficial.
@@ -148,4 +158,4 @@ Refrigerar la carne cruda y mantener separadas las superficies de alimentos list
 
 ## Utilizado por
 
-Recetario doméstico de guisos deshebrados, con diferenciación expresa de adaptación aún pendiente de prueba.
+Preparación doméstica principal de ropa vieja con ternera, con una adaptación posterior con pulled pork identificada por separado.

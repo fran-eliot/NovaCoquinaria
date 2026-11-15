@@ -31,7 +31,7 @@ Este inventario es un **punto de entrada por nivel de evidencia**: las experienc
 | [Boquerones en vinagre con ajo y perejil](../../06_Pescados_y_Mariscos/boquerones_en_vinagre.md) | REC-0217 | Ficha publicada | Se preparan habitualmente. Existe una tanda de referencia que quedó algo salada y poco avinagrada; **no está reconstruida la fórmula preferida actual**. |
 | [Brazo de gitano de chocolate y galletas María](../../08_Postres/brazo_de_gitano_de_chocolate_y_galletas.md) | REC-0218 | Ficha publicada | Postre elaborado habitualmente. Se conserva la referencia de crema de cacao y café con licor; **la formulación actual no está confirmada por completo**. |
 | [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | REC-0079 | Ficha publicada | Preparado frecuentemente en una etapa anterior y repetido recientemente. La prueba con lemon curd diluido tuvo un acabado líquido no deseado; no se declara preferida. |
-| [Ropa vieja de inspiración cubana](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | Consultar ficha | Ficha publicada | Elaborada varias veces anteriormente. La adaptación con 650 g de pulled pork **no consta como cocinada**. |
+| [Ropa vieja cubana con ternera](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | Consultar ficha | Ficha publicada | Elaborada varias veces anteriormente. La adaptación con 650 g de pulled pork **no consta como cocinada**. |
 
 **Alcance de «habitual»:** declaración expresa de repetición o frecuencia; no implica por sí sola una valoración excelente, unas cantidades verificadas ni que la última propuesta de la ficha sea la versión que se prepara.
 
