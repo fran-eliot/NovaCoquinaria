@@ -139,6 +139,14 @@ Preparación **pendiente de prueba doméstica**; la cobertura emplea mazapán co
 
 Interpretación doméstica **pendiente de prueba**; se requiere crema cocida y refrigerada.
 
+## Cocina tradicional española: frixuelos asturianos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0447 | [Frixuelos asturianos con limón y azúcar](./frixuelos_asturianos_con_limon_y_azucar.md) | Asturias: masa fluida y cocción fina en sartén |
+
+Formulación **pendiente de prueba doméstica**; el batido con huevos debe mantenerse refrigerado y cocinarse completamente.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.

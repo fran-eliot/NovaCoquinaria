@@ -136,6 +136,14 @@ El caldo gallego se incorpora como **propuesta pendiente de prueba doméstica**,
 
 Preparación **pendiente de prueba doméstica**, distinta de la fabada por el protagonismo de la berza y las patatas.
 
+## Cocina tradicional española: cocido montañés
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0446 | [Cocido montañés con alubias, berza y compango](./cocido_montanes_con_alubias_berza_y_compango.md) | Cantabria: alubias y berza con embutidos |
+
+Propuesta **pendiente de prueba doméstica**. Se diferencia del cocido madrileño de garbanzos y tres vuelcos y del pote asturiano.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

@@ -151,6 +151,15 @@ No se atribuyen las proporciones propuestas a experiencias culinarias previas.
 
 La receta es **pendiente de prueba doméstica**; la conservación refrigerada es imprescindible.
 
+## Cocina tradicional española: sopa castellana y trinxat
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0443 | [Sopa castellana de ajo y pan con huevo](./sopa_castellana_de_ajo_y_pan_con_huevo.md) | Castilla y León: ajo, pan, caldo y huevo |
+| REC-0444 | [Trinxat de la Cerdanya con col, patata y panceta](./trinxat_de_la_cerdanya_con_col_patata_y_panceta.md) | Cataluña: machacado de hortalizas y dorado |
+
+Son **propuestas pendientes de prueba doméstica**, con huevo completamente cuajado en la sopa y panceta bien cocinada en el trinxat.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
