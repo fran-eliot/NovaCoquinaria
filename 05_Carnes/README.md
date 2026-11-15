@@ -126,6 +126,15 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían los
 
 Las fichas distinguen cortes enteros, carnes picadas y aves y requieren comprobar el punto de cocción. La variante de magret a la naranja no reemplaza la receta de magret Sichuán previamente valorada.
 
+## Cocina tradicional española: guisos castellanos y madrileños
+
+| ID | Receta | Región y método |
+|---|---|---|
+| REC-0420 | [Pollo en pepitoria con almendras y azafrán](./pollo_en_pepitoria_con_almendras_y_azafran.md) | Cocina castellana: majado y salsa |
+| REC-0421 | [Callos a la madrileña con chorizo y morcilla](./callos_a_la_madrilena_con_chorizo_y_morcilla.md) | Madrid: cocción prolongada y compango |
+
+Son recetas de referencia **pendientes de prueba doméstica**, con particular atención a la cocción de ave y a distinguir callos crudos, escaldados o precocidos.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
