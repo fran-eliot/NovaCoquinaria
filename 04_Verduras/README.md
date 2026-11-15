@@ -74,6 +74,10 @@ Estas fichas son **recetas de referencia pendientes de prueba doméstica confirm
 | REC-0223 | [Coliflor rebozada en sartén](./coliflor_rebozada_en_sarten.md) | Precocción y fritura por tandas |
 | REC-0224 | [Espinacas con pasas y piñones](./espinacas_con_pasas_y_pinones.md) | Salteado y tostado de frutos secos |
 
+## Plátano macho verde: doble fritura
+
+- **REC-0230 — [Patacones de plátano verde](./patacones_de_platano_verde.md)**: fritura inicial, aplastado y segunda fritura para obtener superficie crujiente. Propuesta pendiente de prueba doméstica.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
