@@ -250,6 +250,15 @@ Ambas formulaciones están **pendientes de prueba doméstica**; el frangollo uti
 
 Ambas preparaciones quedan **pendientes de prueba doméstica**. La glasa de las rosquillas evita huevo crudo sin pasteurizar.
 
+## Cocina tradicional española: bica y perrunillas
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0524 | [Bica gallega mantecada de mantequilla](./bica_gallega_mantecada_de_mantequilla.md) | Galicia: bizcocho mantecado de bandeja |
+| REC-0525 | [Perrunillas extremeñas de manteca y limón](./perrunillas_extremenas_de_manteca_y_limon.md) | Extremadura: pastas de manteca con acabado azucarado |
+
+Ambas fórmulas están **pendientes de prueba doméstica**. La bica mantecada se distingue de la bica blanca y las perrunillas de los nevaditos.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.

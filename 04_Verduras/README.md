@@ -253,6 +253,15 @@ Ambas recetas son **propuestas pendientes de prueba doméstica**. La piriñaca n
 
 Propuesta **pendiente de prueba doméstica**; el cardo fresco requiere retirar las fibras y cocer hasta tierno.
 
+## Cocina tradicional española: Galicia y Asturias
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0521 | [Pimientos de Padrón fritos con sal gruesa](./pimientos_de_padron_fritos_con_sal_gruesa.md) | Galicia: fritura breve de pimientos enteros |
+| REC-0522 | [Tortos asturianos de maíz con queso](./tortos_asturianos_de_maiz_con_queso.md) | Asturias: tortas de masa de maíz fritas |
+
+Ambas son **propuestas pendientes de prueba doméstica**. La harina de trigo en los tortos es opcional y constituye una adaptación doméstica.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
