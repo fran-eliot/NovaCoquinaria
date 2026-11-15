@@ -193,6 +193,15 @@ Ambas formulaciones son **propuestas pendientes de prueba doméstica**. Se disti
 
 Propuesta **pendiente de prueba doméstica**. Se distingue del cocido montañés de alubias y de otros cocidos con garbanzos.
 
+## Cocina tradicional española: gachas manchegas y olla podrida
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0503 | [Gachas manchegas de harina de almortas](./gachas_manchegas_de_harina_de_almortas.md) | Castilla-La Mancha: harina ligada en sartén con tropezones |
+| REC-0504 | [Olla podrida burgalesa de alubias rojas y compango](./olla_podrida_burgalesa_de_alubias_rojas_y_compango.md) | Burgos: alubias rojas guisadas con carnes y embutidos |
+
+Ambas son **propuestas pendientes de prueba doméstica**. Las gachas exigen precaución por la almorta y la olla podrida requiere hervir vigorosamente las alubias rojas crudas antes de la cocción lenta.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
