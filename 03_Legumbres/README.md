@@ -66,6 +66,21 @@ Las siguientes recetas son **formulaciones pendientes de prueba** y no deben con
 
 - **REC-0229 — [Frijoles refritos con ajo y comino](./frijoles_refritos_con_ajo_y_comino.md)**: preparación propuesta con frijoles **ya cocidos**, sofrito y machacado en sartén. No sustituye la cocción segura de legumbres secas ni acredita prueba doméstica.
 
+## Seis nuevas propuestas: guisos, tortitas y sopas de legumbres
+
+Las fichas siguientes amplían formas de utilizar legumbres **ya cocidas**. Son recetas de referencia **pendientes de prueba doméstica** y no sustituyen formulaciones anteriores.
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0280 | [Alubias blancas con chorizo y calabaza](./alubias_blancas_con_chorizo_y_calabaza.md) | Guiso con embutido fresco cocinado |
+| REC-0281 | [Chili vegetal de frijoles rojos y maíz](./chili_vegetal_de_frijoles_rojos_y_maiz.md) | Sofrito y reducción de tomate |
+| REC-0282 | [Tortitas especiadas de garbanzos al horno](./tortitas_de_garbanzos_especiadas_al_horno.md) | Triturado, formado y horneado |
+| REC-0283 | [Lentejas templadas con mostaza y setas](./lentejas_templadas_con_mostaza_y_setas.md) | Salteado y vinagreta |
+| REC-0284 | [Sopa de garbanzos con fideos y limón](./sopa_de_garbanzos_con_fideos_y_limon.md) | Caldo y cocción breve de pasta |
+| REC-0285 | [Frijoles negros con coco y lima](./frijoles_negros_con_coco_y_lima.md) | Reducción suave y acabado cítrico |
+
+La forma de cocinar cada legumbre seca se documenta en [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md); estas recetas requieren disponer de legumbres completamente cocidas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
