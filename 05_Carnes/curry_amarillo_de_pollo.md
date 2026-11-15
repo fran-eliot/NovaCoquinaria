@@ -17,6 +17,12 @@ Esta receta constituye la implementación de referencia del dominio **Currys** d
 
 ---
 
+## Estado de prueba doméstica
+
+El curry amarillo es una preparación de referencia del SGCC; **no consta valoración doméstica posterior de sabor, picante ni textura**. Su documentación no implica que haya sido probada.
+
+Para repetirlo, medir la marca y dosis de pasta amarilla, tipo de corte de pollo, leche de coco, salsa de pescado, soja y resultado de sazón. Verificar **74 °C en el centro del pollo**.
+
 # Objetivo
 
 Aplicar la plantilla [Curry base](../12_Plantillas/04_Cocciones/curry_base.md) para elaborar un curry amarillo clásico utilizando pollo como proteína principal.

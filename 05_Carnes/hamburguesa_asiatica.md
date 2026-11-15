@@ -31,6 +31,12 @@ Combina la estructura de una hamburguesa clásica con el perfil aromático de un
 
 ---
 
+## Estado de experiencia doméstica
+
+La hamburguesa asiática está documentada como propuesta de cocina de fusión; **no consta una preparación propia con valoración posterior**. Las cantidades de esta ficha siguen siendo de referencia.
+
+En una futura prueba registrar grosor y peso real, salinidad aportada por la soja, tipo y cantidad de salsa y jugosidad. **Cocinar completamente la carne picada** y comprobar el centro con termómetro alimentario, sin tomar el dorado exterior como evidencia de cocción segura.
+
 # Información general
 
 **Dificultad**

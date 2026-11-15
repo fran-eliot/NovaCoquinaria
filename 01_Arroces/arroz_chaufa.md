@@ -26,6 +26,12 @@ autor: NovaCoquinaria
 
 # Arroz chaufa
 
+## Contexto de la receta y estado de prueba
+
+Esta elaboración fue solicitada como receta de arroz chaufa, pero **no consta una valoración posterior de una tanda cocinada en casa**. Las cantidades de la ficha describen una versión de referencia y no una medición contrastada de una preparación personal.
+
+Para registrar una futura prueba doméstica conviene anotar: peso del arroz **ya cocido y enfriado** (no confundirlo con peso en seco), proteína utilizada, cantidad real de soja, intensidad del fuego, número de tandas y valoración de grano suelto y sazón.
+
 ## Descripción
 
 El arroz chaufa es uno de los platos más representativos de la cocina **chifa**, nacida de la fusión entre la gastronomía china cantonesa y la peruana.

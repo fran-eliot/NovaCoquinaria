@@ -31,6 +31,12 @@ Es una receta sencilla donde el pescado conserva todo el protagonismo y la salsa
 
 ---
 
+## Estado de experiencia doméstica
+
+Esta caballa con soja y mirin está documentada como receta de referencia, pero **no consta un resultado de preparación doméstica registrado**. No se clasifica automáticamente entre las recetas probadas.
+
+En la primera prueba anotar grosor de los lomos, tiempo sobre la piel, cocción completa y si el glaseado mantiene la piel crujiente. Conservar el pescado refrigerado hasta cocinar.
+
 # Información general
 
 **Dificultad**

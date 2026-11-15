@@ -31,6 +31,16 @@ Es una receta ligera que admite numerosas verduras y acompañamientos.
 
 ---
 
+## Adaptación consultada: tintorera de 200 g
+
+Se consultó si cocinar una pieza de **200 g** entera o troceada. **No consta resultado de cocción ni elección definitiva del corte**. La receta para dos filetes que sigue es una referencia, no un registro de prueba.
+
+Una pieza entera permite manipular menos un filete delgado; dados grandes regulares facilitan el salteado con verduras. Elegir según grosor y ajustar los minutos al tamaño real: los tiempos genéricos no garantizan el punto.
+
+**Seguridad:** descongelar en refrigeración, evitar contaminación cruzada y comprobar cocción completa. AESAN recomienda alcanzar **60 °C durante al menos un minuto en toda la pieza** para prevenir anisakis. [Referencia AESAN](https://www.aesan.gob.es/es/actualidad/campanyas-seguridad-alimentaria/anisakis).
+
+Para una próxima prueba, registrar grosor, corte, minutos efectivos, temperatura interna, salsa y textura final.
+
 # Información general
 
 **Dificultad**
