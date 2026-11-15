@@ -5,7 +5,7 @@ titulo: Bebidas
 categoria: Bebidas
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - bebidas
   - modulo
@@ -43,6 +43,21 @@ Reunir bebidas domésticas frías y calientes, con y sin lácteos, atendiendo a 
 | REC-0189 | [Chocolate frío con cacao y canela](./chocolate_frio_con_canela.md) | Dispersión caliente y enfriado |
 
 Se distinguen bebidas que requieren refrigeración por sus lácteos o fruta fresca y una infusión que puede servirse caliente o enfriarse de forma controlada.
+
+## Seis bebidas nuevas: extracción, filtrado y mezclas frías
+
+Estas fichas son **propuestas pendientes de prueba doméstica**. Añaden técnicas de remojo, congelación, triturado y extracción sin alterar las bebidas existentes.
+
+| ID | Bebida | Técnica |
+|---|---|---|
+| REC-0256 | [Horchata casera de chufa](./horchata_casera_de_chufa.md) | Remojo refrigerado y filtrado |
+| REC-0257 | [Granizado de limón casero](./granizado_de_limon_casero.md) | Congelación y rotura de cristales |
+| REC-0258 | [Batido de fresas y yogur](./batido_de_fresas_y_yogur.md) | Triturado de fruta y lácteo |
+| REC-0259 | [Café bombón con leche condensada](./cafe_bombon_con_leche_condensada.md) | Extracción y montaje en capas |
+| REC-0260 | [Té verde frío con melocotón](./te_verde_frio_con_melocoton.md) | Infusión y fruta triturada |
+| REC-0261 | [Agua fresca de sandía y lima](./agua_fresca_de_sandia_y_lima.md) | Triturado y ajuste cítrico |
+
+Las preparaciones caseras con fruta, leche o chufa remojada requieren higiene, refrigeración y consumo cercano.
 
 ## Técnicas y diagnóstico
 - [Preparar infusiones y bebidas aromáticas](../00_Bases/03_Tecnicas/preparar_infusiones.md): temperatura, tiempo y extracción.
