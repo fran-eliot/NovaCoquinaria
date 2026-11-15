@@ -106,6 +106,14 @@ Se diferencian los tiempos de fermentación, el ablandamiento de hortalizas dens
 
 Se documenta como **propuesta pendiente de prueba**, distinta del asado de cordero con romero que ya figura en Carnes.
 
+## Cocina tradicional española: huevos a la flamenca
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0470 | [Huevos a la flamenca sevillanos](./huevos_a_la_flamenca_sevillanos.md) | Sevilla: sofrito, patatas y cuajado de huevo en horno |
+
+Receta **pendiente de prueba doméstica**. El huevo se cuaja por completo en esta formulación.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.

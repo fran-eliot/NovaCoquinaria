@@ -151,6 +151,14 @@ Especialidad marinera **pendiente de prueba doméstica**, con atención a la pre
 
 Propuesta **pendiente de prueba doméstica**; la ficha parte de carne de centollo ya cocida y refrigerada.
 
+## Cocina tradicional española: sopa de pescado vasca
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0469 | [Sopa de pescado vasca con sopako](./sopa_de_pescado_vasca_con_sopako.md) | País Vasco: caldo colado, sofrito y pan de sopa |
+
+Preparación **pendiente de prueba doméstica**; exige revisar las espinas del pescado y manipular correctamente las almejas opcionales.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
