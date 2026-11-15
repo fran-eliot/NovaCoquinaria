@@ -171,6 +171,14 @@ Propuesta **pendiente de prueba doméstica**; exige refrigeración y caramelizad
 
 Preparación **pendiente de prueba doméstica**, diferenciada de los frixuelos y otras masas dulces.
 
+## Cocina tradicional española: paparajotes murcianos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0471 | [Paparajotes murcianos de hoja de limonero](./paparajotes_murcianos_de_hoja_de_limonero.md) | Murcia: masa frita aromatizada con hoja de limonero |
+
+Propuesta **pendiente de prueba doméstica**. **La hoja de limonero no se come**: se retira al consumir el rebozado, y debe proceder de un árbol sin tratamientos incompatibles con uso culinario.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
