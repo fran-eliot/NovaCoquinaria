@@ -81,6 +81,21 @@ Las siguientes preparaciones amplían los métodos del módulo sin atribuirse a 
 | REC-0227 | [Picadillo de ternera con aceitunas y pasas](./picadillo_cubano_con_aceitunas_y_pasitas.md) | Sofrito, guiso y reducción |
 | REC-0228 | [Cerdo al mojo cítrico con ajo](./cerdo_al_mojo_citrico_con_ajo.md) | Marinado refrigerado y dorado |
 
+## Nuevas técnicas de carnes: seis recetas de referencia
+
+Se incorporan preparaciones con aves, conejo, cordero, carne picada y piezas rellenas. Todas son **propuestas pendientes de prueba doméstica**; no sustituyen las versiones cocinadas ni las valoraciones del repertorio personal.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0262 | [Pavo con salsa de naranja y mostaza](./pavo_en_salsa_de_naranja_y_mostaza.md) | Dorado y salsa cítrica |
+| REC-0263 | [Conejo al ajillo con vino blanco](./conejo_al_ajillo_con_vino_blanco.md) | Guiso aromático corto |
+| REC-0264 | [Cordero al horno con romero y patatas](./cordero_al_horno_con_romero_y_patatas.md) | Asado escalonado |
+| REC-0265 | [Albóndigas de pollo en salsa de almendras](./albondigas_de_pollo_en_salsa_de_almendras.md) | Formado y ligado de salsa |
+| REC-0266 | [Koftas de ternera al horno con comino](./koftas_de_ternera_al_horno_con_comino.md) | Formado de carne picada y horno |
+| REC-0267 | [Solomillo de cerdo relleno de espinacas y queso](./solomillo_de_cerdo_relleno_de_espinacas_y_queso.md) | Apertura, relleno y asado |
+
+Las recetas distinguen los puntos de cocción de carne entera, ave, carne picada y elaboraciones rellenas; los tiempos orientativos no sustituyen el termómetro.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
