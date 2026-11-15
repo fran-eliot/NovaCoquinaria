@@ -4,7 +4,7 @@ tipo: receta
 titulo: Seitán con bambú y salsa china oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-15
 etiquetas:
   - seitan
@@ -30,7 +30,7 @@ La elaboración doméstica de **250 g de seitán** fue probada con un resultado 
 | Cocinado | 12–18 minutos |
 | Dificultad | Media |
 | Técnica principal | Precocción del bambú, salteado y ligado con almidón |
-| Procedencia | Elaboración probada; proporciones secundarias de salsa orientativas |
+| Procedencia | Elaboración probada; formulación de salsa previa recuperada, sin registro exacto del ajuste final de soja oscura |
 
 ## Ingredientes
 
@@ -40,18 +40,18 @@ La elaboración doméstica de **250 g de seitán** fue probada con un resultado 
 - 2 dientes de ajo, picados;
 - 10–15 g de jengibre fresco, picado;
 - 2 cucharadas de aceite de cacahuete u otro aceite apto para saltear;
-- 1 cucharada de salsa de soja clara;
-- 1–2 cucharaditas de soja oscura, ajustables en gotas por color;
-- 1 cucharada de salsa de ostras;
-- 1 cucharada de vino de arroz para cocinar;
-- 1 cucharadita de azúcar;
-- 140–180 ml de agua o caldo suave para una salsa abundante;
+- **2 cucharadas de salsa de soja clara**, cantidad planteada para esta preparación;
+- **1/2–1 cucharadita de soja oscura inicialmente**, con un añadido posterior confirmado para oscurecer, de cantidad no registrada;
+- **1 1/2 cucharadas de salsa de ostras**;
+- **1 cucharada de vino de arroz para cocinar**;
+- **1/2 cucharadita de azúcar**;
+- **200 ml de agua o caldo suave**, cantidad planteada para una salsa abundante;
 - 2 cucharaditas rasas de maicena mezcladas con 2 cucharadas de agua fría;
 - unas gotas de aceite de sésamo al terminar.
 
 **Alérgenos:** trigo/gluten (seitán), soja y trigo según salsa de soja, moluscos (ostras), y sésamo. Comprobar etiqueta del vino y del aceite utilizado. **Con salsa de ostras no es una receta vegetariana**, aunque la proteína principal sea seitán.
 
-**Nota de formulación:** los 250 g de seitán y el hervor previo de bambú durante 5 minutos están documentados; el resto de pesos y volúmenes se proponen para reproducir la salsa, y no son una transcripción exacta de cantidades utilizadas.
+**Nota de procedencia:** se recuperó la **formulación de salsa acordada antes de cocinar** para 250 g de seitán: 2 cucharadas de soja clara, 1/2–1 cucharadita de soja oscura, 1 1/2 cucharadas de salsa de ostras, 1 cucharada de vino de arroz, 1/2 cucharadita de azúcar, 200 ml de agua o caldo y 2 cucharaditas rasas de maicena con 2 cucharadas de agua fría. No se midió el **chorrito adicional de soja oscura** añadido después; por ello, el color final no queda cuantificado.
 
 ## Mise en place
 
@@ -69,7 +69,7 @@ Calentar el wok o una sartén amplia con una cucharada de aceite y dorar el seit
 
 ### 3. Cocinar cebolla y aromáticos
 
-Incorporar el aceite restante y saltear la cebolla 3–4 minutos hasta que comience a ablandarse. Añadir ajo y jengibre durante **1–2 minutos como máximo**, bajando el fuego si fuera necesario para que no se quemen.
+Incorporar el aceite restante y saltear la cebolla 3–4 minutos hasta que comience a ablandarse. Añadir ajo y jengibre y cocinar el **ajo 1–2 minutos a fuego medio**, removiendo y vigilando que no se queme. Este ajuste se validó en la cocina: con solo unos 30 segundos, el ajo resultaba demasiado crudo para el gusto buscado.
 
 ### 4. Integrar el bambú
 
@@ -121,7 +121,7 @@ Seitán tierno con algo de dorado, bambú firme y salsa generosa, oscura, brilla
 Para repetir con menos incertidumbre:
 
 1. Mantener los **250 g de seitán** y anotar peso escurrido del bambú y su presentación comercial; seguir siempre la preparación segura que indique el envase.
-2. Partir de **140 ml de líquido** de la formulación propuesta y reservar otros 40 ml para aumentar el volumen solo si hace falta; registrar cuánto se usó realmente.
+2. Partir de **200 ml de agua o caldo**, cantidad de la formulación discutida antes de cocinar. Si se quiere comparar densidad en otra tanda, reservar una pequeña parte para ajustar al final, sin confundir esa variación con la receta original.
 3. Mezclar **la maicena con agua fría** y añadir primero solo parte de la suspensión. Cocinar brevemente y observar la consistencia antes de incorporar más.
 4. Evaluar si la salsa **recubre el seitán y sigue dejando líquido en la sartén**. Si espesa demasiado, añadir agua caliente por cucharadas, no soja.
 5. Añadir la soja oscura al final, en pequeñas dosis medidas, y probar salinidad antes de repetir.
@@ -134,7 +134,7 @@ Para repetir con menos incertidumbre:
 | Ligado | Dosis efectiva de maicena para recubrimiento sin gel |
 | Color | Cantidad adicional de soja oscura, por medir |
 
-**No inferir:** las cantidades de salsa y maicena de esta ficha son orientativas, no el registro exacto de la preparación valorada.
+**No inferir:** las cantidades de salsa y maicena se recuperaron como **formulación previa**, no como medición de todo lo efectivamente vertido. La soja oscura añadida para corregir el color no quedó cuantificada.
 
 ## Conservación
 

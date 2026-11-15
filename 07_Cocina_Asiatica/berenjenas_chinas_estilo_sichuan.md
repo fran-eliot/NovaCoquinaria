@@ -4,7 +4,7 @@ tipo: receta
 titulo: Berenjenas chinas estilo Sichuán con salsa oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-15
 etiquetas:
   - berenjena
@@ -30,31 +30,33 @@ La textura supercremosa también resultó agradable: el ajuste de corte y tiempo
 | Cocinado | 8–12 minutos, según corte y carga de sartén |
 | Dificultad | Media |
 | Técnica principal | Salteado por tandas y glaseado breve |
-| Procedencia | Elaboración doméstica probada; cantidades de salsa orientativas para reproducirla |
+| Procedencia | Elaboración doméstica probada; formulación de 700 g discutida antes de cocinar, no medición final de cada cucharada |
 
 ## Ingredientes
 
-- 800 g de berenjena china larga, limpia y cortada en piezas de unos **5–6 cm** si se desea más estructura;
+- **700 g de berenjena china larga**, cantidad final corregida antes de cocinar, cortada en piezas de **5–6 cm** si se desea más estructura;
 - 2 cucharadas de aceite de cacahuete o girasol, y algo más si hiciera falta;
-- 3 dientes de ajo, picados;
-- 15 g de jengibre fresco, picado;
-- chile seco o fresco al gusto;
-- 2 cucharadas de salsa de soja clara;
-- 1 cucharadita de salsa de soja oscura, ampliable en gotas para ajustar color;
-- 1 cucharada de salsa de ostras;
-- 1 cucharada de vinagre negro chino de Chinkiang;
-- 1 cucharada de vino de arroz para cocinar;
-- 1–2 cucharaditas de azúcar;
-- 50–80 ml de agua;
+- **3–4 dientes de ajo**, picados;
+- **2/3 cucharadita de jengibre en polvo**, referencia discutida para esa tanda;
+- **2–3 guindillas**, según tolerancia al picante;
+- **1/3–1/2 cebolla**, cortada fina, opcional según la preparación;
+- **2 1/2 cucharadas de salsa de soja clara**;
+- salsa de soja oscura en **un chorrito al final**: añadido efectivamente realizado, sin cantidad registrada;
+- **1 cucharada de salsa de ostras**;
+- **1 1/2 cucharadas de vinagre negro chino de Chinkiang**;
+- **1 cucharada de vino de arroz para cocinar**;
+- **1 cucharada de azúcar**;
+- **120–130 ml de agua**;
+- maicena para ligar, cantidad exacta no recuperada; como primera prueba, dispersar **1 cucharadita rasa en agua fría** y añadir solo la necesaria;
 - 1 cucharadita de aceite de sésamo para terminar.
 
 **Alérgenos:** soja, trigo según la salsa de soja, moluscos (salsa de ostras) y sésamo. Revisar el vino y cada salsa comercial.
 
-**Nota de formulación:** están confirmados los componentes utilizados y el añadido final de soja oscura; las cantidades de esta ficha son una **propuesta de reproducción** y no un registro exacto de las cucharadas de la elaboración original.
+**Nota de procedencia:** primero se mencionaron **1,2 kg** de berenjenas, pero se **corrigió expresamente a 700 g** antes de elaborar la receta. Las proporciones de soja clara, ostras, vinagre negro, vino, azúcar y agua proceden de la **formulación discutida para 700 g**: no está demostrado que cada cucharada se midiera exactamente al cocinar. Sí se confirmó el **chorrito adicional de soja oscura** al final y la valoración «riquísimo» con textura muy blanda y cremosa.
 
 ## Mise en place
 
-Lavar y secar las berenjenas. Mezclar soja clara, soja oscura, salsa de ostras, vinagre negro, vino de arroz, azúcar y agua en un cuenco. Preparar aromáticos y chile antes de calentar el wok; no improvisar las proporciones con la sartén al fuego.
+Lavar y secar las berenjenas. Mezclar soja clara, ostras, vinagre negro, vino de arroz, azúcar y agua en un cuenco; reservar la soja oscura para corregir el color al final. Si se usa maicena, diluirla en agua fría por separado. Preparar ajo, cebolla opcional, jengibre en polvo y chile antes de calentar el wok.
 
 ## Elaboración
 
@@ -68,11 +70,11 @@ Calentar una sartén o wok amplio, añadir aceite y saltear la berenjena por tan
 
 ### 3. Incorporar aromáticos
 
-Bajar ligeramente el calor. Añadir ajo, jengibre y chile y cocinar unos 30–60 segundos, evitando que se quemen.
+Bajar ligeramente el calor. Si se utiliza cebolla, pocharla primero hasta que empiece a ablandarse. Incorporar ajo, jengibre en polvo y chile, moviendo lo suficiente para que no se quemen.
 
 ### 4. Glasear
 
-Verter la salsa mezclada y cocinar **30–60 segundos** si la berenjena ya está tierna, moviendo con suavidad. Si falta cocción, prolongar a fuego moderado con poca agua, aceptando que el resultado será más cremoso.
+Verter la salsa mezclada y cocinar brevemente si la berenjena ya está tierna, moviendo con suavidad. La formulación inicial manejaba un acabado en salsa de **2–3 minutos**; para conservar mayor estructura, acortarlo si el punto ya es suficiente. Si falta cocción, prolongar a fuego moderado, aceptando una textura más cremosa. Añadir maicena fría diluida solo si se necesita ligar.
 
 ### 5. Ajustar color y acabar
 
@@ -127,7 +129,7 @@ Para comparar dos resultados sin alterar todos los factores a la vez:
 | Salsa | Cantidad final de soja oscura y agua añadida |
 | Resultado | Cremosa / con estructura, intensidad salada y preferencia personal |
 
-**No inferir:** las dosis anteriores son una propuesta de reproducción; no se recuperaron medidas exactas de la tanda original.
+**No inferir:** se recuperó una **formulación detallada para 700 g** previa a la preparación, pero no una hoja de medidas de las cantidades realmente vertidas en el wok.
 
 ## Conservación
 
