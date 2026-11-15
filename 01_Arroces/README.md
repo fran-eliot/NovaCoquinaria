@@ -93,6 +93,21 @@ Las siguientes fichas son **propuestas pendientes de prueba doméstica**. Amplí
 
 Las proporciones de líquido varían según el tipo de arroz y el recipiente. Las sobras de arroz cocido requieren enfriamiento rápido y refrigeración sin demora.
 
+## Seis nuevos arroces: cazuela, caldo e inspiraciones internacionales
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían las técnicas de absorción, costra, guiso, risotto y arroz caldoso sin alterar preparaciones anteriores ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0370 | [Arroz con pollo, judías verdes y garrofón de inspiración valenciana](./arroz_de_pollo_judias_verdes_y_garrofon_inspiracion_valenciana.md) | Fondo en paella y cocción seca |
+| REC-0371 | [Arroz caldoso de bogavante](./arroz_caldoso_de_bogavante.md) | Sofrito y cocción escalonada de crustáceo |
+| REC-0372 | [Risotto de puerro y gorgonzola](./risotto_de_puerro_y_gorgonzola.md) | Caldo gradual y mantecadatura |
+| REC-0373 | [Tahdig de arroz con azafrán y yogur, de inspiración persa](./tahdig_persa_de_arroz_con_azafran_y_yogur.md) | Cocción parcial y costra |
+| REC-0374 | [Arroz jollof de tomate y pimientos](./arroz_jollof_de_tomate_y_pimientos.md) | Salsa reducida y absorción |
+| REC-0375 | [Arroz con pato y setas en cazuela](./arroz_con_pato_y_setas_en_cazuela.md) | Precocción del pato y arroz seco |
+
+Las preparaciones de inspiración valenciana, persa y de África occidental se presentan como **adaptaciones domésticas**, sin atribuirles una condición de fórmula única o tradicional universal. En todos los casos se requiere control del líquido y enfriamiento rápido de las sobras de arroz.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
