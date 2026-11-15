@@ -220,6 +220,14 @@ Ambas son **propuestas pendientes de prueba doméstica**. La miel de caña es me
 
 Propuesta **pendiente de prueba doméstica**, distinta de los gazpachos y salmorejos fríos.
 
+## Cocina tradicional española: habas a la catalana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0496 | [Habas a la catalana con menta y morcilla](./habas_a_la_catalana_con_menta_y_morcilla.md) | Cataluña: guiso de habas tiernas con panceta, butifarra y menta |
+
+Propuesta **pendiente de prueba doméstica**, diferenciada de las habas con jamón ya documentadas.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
