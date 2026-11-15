@@ -68,6 +68,21 @@ Las siguientes fichas son **propuestas pendientes de prueba doméstica**. No mod
 
 Se diferencian la cocción del relleno, el secado de las verduras y la temperatura interior del producto, sin confiar exclusivamente en los tiempos propuestos.
 
+## Seis propuestas nuevas: masas saladas, verduras y rellenos
+
+Las siguientes formulaciones están **pendientes de prueba doméstica** y amplían las técnicas de horno sin modificar recetas anteriores.
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0328 | [Patatas Hasselback con ajo y romero](./patatas_hasselback_con_ajo_y_romero.md) | Corte acordeón y asado |
+| REC-0329 | [Champiñones grandes rellenos de espinacas y queso](./champinones_grandes_rellenos_de_espinacas_y_queso.md) | Relleno reducido y gratinado |
+| REC-0330 | [Coca de verduras con masa de aceite](./coca_de_verduras_con_masa_de_aceite.md) | Masa rápida, precocción y horno |
+| REC-0331 | [Galette salado de tomate y mostaza](./galette_salado_de_tomate_y_mostaza.md) | Masa quebrada rústica |
+| REC-0332 | [Pastel de berenjena y patata con tomate](./pastel_de_berenjena_y_patata_con_tomate.md) | Capas de verduras y gratinado |
+| REC-0333 | [Empanadillas al horno de espinacas y ricotta](./empanadillas_al_horno_de_espinacas_y_ricotta.md) | Relleno escurrido y sellado |
+
+Se presta atención al **control de la humedad**, la cocción de las bases y el momento de incorporar ingredientes que pueden quemarse.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
