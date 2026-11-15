@@ -11,7 +11,7 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.1.0
+version: 1.1.1
 ultima_revision: 2026-11-15
 etiquetas:
 - ternera
@@ -126,6 +126,25 @@ Servir inmediatamente.
 | Bambú | Se quiso mejorar la firmeza | Revisar preparación indicada en el envase y no prolongar el salteado |
 
 El resultado del plato de ternera está confirmado, pero las cantidades del ajuste propuesto aún deben medirse en una siguiente repetición.
+
+# Próxima repetición: comparar salsa y bambú
+
+La ternera con bambú **se cocinó y gustó mucho**. Los ajustes pendientes se refieren a cantidad y espesor de salsa, color más oscuro y punto del bambú; no hay que cambiar el perfil general que funcionó.
+
+1. Mantener inicialmente la referencia de **400 g de ternera y 150 g de bambú**, pero señalar en el registro que son cantidades de la ficha, **no pesos verificados de la tanda anterior**.
+2. Preparar la salsa orientativa de esta receta **antes de empezar**, dejando aparte un poco de agua y una suspensión fría de maicena para corregir consistencia solo al final.
+3. Comprobar la preparación recomendada para el formato de bambú. Si el envase lo permite, se puede **ensayar** el hervor de 5 minutos que sí funcionó en la receta posterior con seitán; no atribuirlo a la tanda original de ternera.
+4. Saltear la ternera por tandas y reservarla; mezclar solo brevemente con verduras y salsa para no endurecerla.
+5. Medir por separado si falta **volumen** (agua o caldo) o **cuerpo** (pequeña cantidad de maicena). Oscurecer con soja oscura en gotas sin aumentar automáticamente la sal.
+
+| Qué comparar | Criterio |
+|---|---|
+| Ternera | Jugosa, sin perder el dorado durante el ligado |
+| Bambú | Firme, sin dureza desagradable |
+| Salsa | Generosa y adherente, sin quedar gelatinosa |
+| Color | Más oscuro con salinidad equilibrada |
+
+Anotar cantidad real de salsa obtenida y los cambios de cada tanda. **La valoración «muy rica» corresponde a la preparación anterior; las correcciones siguen pendientes de validación.**
 
 # Variantes
 
