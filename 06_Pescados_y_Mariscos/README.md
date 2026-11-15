@@ -49,6 +49,13 @@ Reunir recetas y técnicas de pescado y marisco, diferenciando métodos de horno
 
 Las tres elaboraciones parten de marisco identificado y conservado según su naturaleza; los bivalvos deben proceder de establecimientos autorizados.
 
+## Gambas al ajillo: dos formulaciones
+
+- [Gambas al ajillo, ficha histórica](./gambas_ajillo.md) (REC-0014): 300 g de gambas y 4 cucharadas de aceite para dos.
+- [Gambas al ajillo, ficha posterior](./gambas_al_ajillo.md) (REC-0059): 400 g de gambas y 3 cucharadas de aceite para dos o tres.
+
+Son **dos versiones documentales del mismo plato**; ninguna se atribuye a una tanda personal valorada sin evidencia adicional. Consultar el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
