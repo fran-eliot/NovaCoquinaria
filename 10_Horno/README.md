@@ -114,6 +114,15 @@ Se documenta como **propuesta pendiente de prueba**, distinta del asado de corde
 
 Receta **pendiente de prueba doméstica**. El huevo se cuaja por completo en esta formulación.
 
+## Cocina tradicional española: cochinillo y empanada gallega
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0473 | [Cochinillo asado estilo segoviano](./cochinillo_asado_estilo_segoviano.md) | Segovia: asado lento y piel crujiente |
+| REC-0475 | [Empanada gallega de xoubas y pimientos](./empanada_gallega_de_xoubas_y_pimientos.md) | Galicia: masa levada y relleno de sardinas pequeñas |
+
+Ambas recetas están **pendientes de prueba doméstica**. La empanada de xoubas se distingue de la variante de atún ya documentada.
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
