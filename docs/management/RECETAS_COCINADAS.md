@@ -17,6 +17,10 @@ etiquetas:
 
 ## Propósito
 
+Para describir cantidades realmente empleadas, resultados y comparaciones entre elaboraciones, consultar el [Registro de tandas y evaluación de recetas domésticas](./REGISTRO_DE_TANDAS.md).
+
+
+
 Esta selección distingue elaboraciones **preparadas realmente** de ideas o adaptaciones todavía no comprobadas. Sirve para conservar las cantidades y decisiones utilizadas, los resultados obtenidos y los cambios de textura o sazonado que merecen repetirse o compararse.
 
 No todas las proporciones se anotaron al cocinar: cuando una receta propone cantidades para reproducirla, se diferencia expresamente de lo que quedó registrado en la preparación original.
