@@ -153,6 +153,14 @@ Las fichas de merluza, bacalao y calamar distinguen formatos de compra, preparac
 - [Almejas](../11_Despensa/05_Mariscos/almejas.md): arena, conservación y cocción breve.
 - [Sepia](../11_Despensa/05_Mariscos/sepia.md): humedad, dorado y ablandamiento en guisos.
 
+## Cocina tradicional española: suquet catalán
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0428 | [Suquet de peix catalán con patatas y picada](./suquet_de_peix_catalan_con_patatas_y_picada.md) | Cataluña: sofrito, fumet, patatas y picada |
+
+Preparación marinera **pendiente de prueba doméstica**; el pescado se añade al final para preservar textura y comprobar su cocción.
+
 ## Seguridad y alérgenos
 
 - Mantener pescado y marisco refrigerados; descongelar en refrigeración.

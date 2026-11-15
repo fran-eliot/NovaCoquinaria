@@ -131,6 +131,18 @@ Las recetas distinguen los puntos críticos de la limpieza de hortalizas, el tra
 
 Esta receta tradicional es una **propuesta pendiente de prueba doméstica**. La ubicación en el módulo responde al protagonismo y técnica de la patata; contiene chorizo y no es vegetariana.
 
+## Cocina tradicional española: País Vasco, Murcia e Islas Canarias
+
+Estas fichas recuperan **preparaciones regionales pendientes de prueba doméstica**, con técnicas de cocción y aliño diferenciadas.
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0424 | [Porrusalda vasca de puerro, patata y calabaza](./porrusalda_vasca_de_puerro_patata_y_calabaza.md) | País Vasco: sopa de hortalizas |
+| REC-0425 | [Zarangollo murciano de calabacín, cebolla y huevo](./zarangollo_murciano_de_calabacin_cebolla_y_huevo.md) | Murcia: pochado y cuajado |
+| REC-0426 | [Papas arrugadas con mojo picón rojo](./papas_arrugadas_con_mojo_picon_rojo.md) | Canarias: cocción salina, secado y majado |
+
+No se atribuyen las proporciones propuestas a experiencias culinarias previas.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

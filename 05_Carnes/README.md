@@ -135,6 +135,14 @@ Las fichas distinguen cortes enteros, carnes picadas y aves y requieren comproba
 
 Son recetas de referencia **pendientes de prueba doméstica**, con particular atención a la cocción de ave y a distinguir callos crudos, escaldados o precocidos.
 
+## Cocina tradicional española: caldereta extremeña
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0427 | [Caldereta extremeña de cordero](./caldereta_extremena_de_cordero.md) | Extremadura: guiso de cordero y majado |
+
+Ficha de referencia **pendiente de prueba doméstica**, distinta de otros estofados de cordero del catálogo.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.

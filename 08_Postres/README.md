@@ -115,6 +115,14 @@ Estas elaboraciones son **propuestas pendientes de prueba doméstica**. Amplían
 
 La crema del tiramisú evita huevo crudo; las cremas cocidas y las preparaciones frías con lácteos requieren refrigeración, y la gelatina debe dosificarse según las características del producto utilizado.
 
+## Cocina tradicional española: quesada pasiega
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0429 | [Quesada pasiega de queso fresco y canela](./quesada_pasiega_de_queso_fresco_y_canela.md) | Cantabria: masa baja y cuajado en horno |
+
+La formulación con queso fresco se presenta como **adaptación doméstica pendiente de prueba**, sin sustituir la tarta de queso existente.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
