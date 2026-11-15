@@ -66,6 +66,21 @@ A diferencia de las recetas con marisco crudo, aquí la cocción del producto ya
 
 - **REC-0217 — [Boquerones en vinagre con ajo y perejil](./boquerones_en_vinagre.md)**: elaboración habitual confirmada; una tanda documentada con ¾ de vinagre y ¼ de limón durante 14 horas quedó algo salada y poco avinagrada. Se distingue esa experiencia de las propuestas posteriores de mejora. La ficha destaca la congelación adecuada obligatoria para prevenir anisakis.
 
+## Nuevas propuestas: pescado azul, escabeches y técnicas de cocción
+
+Las siguientes fichas amplían el repertorio del módulo. Son **propuestas pendientes de prueba doméstica**; las valoraciones conservadas de [caballa japonesa](./caballa_japonesa.md) y otras recetas existentes no se modifican.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0238 | [Sardinas en escabeche suave](./sardinas_en_escabeche_suave.md) | Escabeche cocinado y refrigerado |
+| REC-0239 | [Bonito encebollado con vino blanco](./bonito_encebollado_con_vino_blanco.md) | Pochado y cocción breve |
+| REC-0240 | [Dorada a la sal en horno](./dorada_a_la_sal_en_horno.md) | Costra de sal |
+| REC-0241 | [Merluza a la romana](./merluza_a_la_romana.md) | Rebozado y fritura |
+| REC-0242 | [Caballa en escabeche de naranja y romero](./caballa_en_escabeche_de_naranja_y_romero.md) | Escabeche cítrico |
+| REC-0243 | [Mejillones con salsa de tomate picante](./mejillones_con_salsa_de_tomate_picante.md) | Apertura al vapor y salsa reducida |
+
+Los escabeches domésticos necesitan conservación refrigerada; no son conservas estables a temperatura ambiente.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
