@@ -168,6 +168,15 @@ Son **propuestas pendientes de prueba doméstica**, con huevo completamente cuaj
 
 Formulación **pendiente de prueba doméstica**. El rebozado se dora antes de terminar la cocción de las patatas en caldo.
 
+## Cocina tradicional española: Ávila y Extremadura
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0454 | [Patatas revolconas abulenses con torreznos](./patatas_revolconas_abulenses_con_torreznos.md) | Ávila: machacado de patatas, pimentón y torreznos |
+| REC-0458 | [Zorongollo extremeño de pimientos asados](./zorongollo_extremeno_de_pimientos_asados.md) | Extremadura: asado, pelado y aliño de pimientos |
+
+Dos formulaciones **pendientes de prueba doméstica**; se diferencian del resto de preparaciones de patata y pimiento del módulo.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
