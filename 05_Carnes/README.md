@@ -370,3 +370,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Conejo a la catalana con chocolate y setas
 
 - **REC-540 — [Conejo a la catalana con chocolate y setas](./conejo_a_la_catalana_con_chocolate_y_setas.md)** (Cataluña): estofado de conejo con picada de almendra y chocolate. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Morcilla de Burgos frita con pimientos
+
+- **REC-547 — [Morcilla de Burgos frita con pimientos](./morcilla_de_burgos_frita_con_pimientos.md)** (Burgos, Castilla y León): fritura controlada de morcilla y guarnición de pimiento. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

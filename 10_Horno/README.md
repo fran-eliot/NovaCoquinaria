@@ -246,3 +246,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: Bollos preñaos asturianos de chorizo
 
 - **REC-543 — [Bollos preñaos asturianos de chorizo](./bollos_prenaos_asturianos_de_chorizo.md)** (Asturias): pan fermentado individual relleno de chorizo. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Hornazo salmantino de lomo, chorizo y jamón
+
+- **REC-549 — [Hornazo salmantino de lomo, chorizo y jamón](./hornazo_salmantino_de_lomo_chorizo_y_jamon.md)** (Salamanca, Castilla y León): masa enriquecida rellena de lomo, chorizo y jamón. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

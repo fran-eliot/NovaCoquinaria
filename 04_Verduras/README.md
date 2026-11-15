@@ -398,3 +398,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Papas aliñás gaditanas con cebolleta y perejil
 
 - **REC-539 — [Papas aliñás gaditanas con cebolleta y perejil](./papas_alinas_gaditanas_con_cebolleta_y_perejil.md)** (Cádiz, Andalucía): aliño en templado y ensalada sin mayonesa. Formulación pendiente de prueba doméstica; no se atribuye una valoración de elaboración.
+
+## Cocina tradicional española: Ensalada murciana de tomate en conserva y aceitunas
+
+- **REC-546 — [Ensalada murciana de tomate en conserva y aceitunas](./ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md)** (Región de Murcia): tomate en conserva con huevo y atún en frío. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
