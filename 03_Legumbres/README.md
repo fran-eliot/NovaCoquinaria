@@ -168,6 +168,14 @@ Propuesta **pendiente de prueba doméstica**. La versión documentada utiliza ba
 
 Propuesta **pendiente de prueba doméstica**. Sus tiempos de cocción se diferencian de los de las alubias secas.
 
+## Cocina tradicional española: escudella catalana
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0472 | [Escudella i carn d'olla catalana con pilota](./escudella_i_carn_dolla_catalana_con_pilota.md) | Cataluña: caldo, sopa de galets, garbanzos y pilota |
+
+Preparación **pendiente de prueba doméstica**; la escudella y la carn d'olla se presentan diferenciadas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |

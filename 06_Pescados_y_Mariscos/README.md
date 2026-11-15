@@ -159,6 +159,14 @@ Propuesta **pendiente de prueba doméstica**; la ficha parte de carne de centoll
 
 Preparación **pendiente de prueba doméstica**; exige revisar las espinas del pescado y manipular correctamente las almejas opcionales.
 
+## Cocina tradicional española: bacalao a la llauna
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0474 | [Bacalao a la llauna con ajo y pimentón](./bacalao_a_la_llauna_con_ajo_y_pimenton.md) | Cataluña: dorado breve, refrito y acabado en horno |
+
+Propuesta **pendiente de prueba doméstica**, diferenciada del bacalao a la vizcaína y al pilpil.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
