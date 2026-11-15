@@ -66,6 +66,21 @@ Las siguientes fichas son **formulaciones de referencia pendientes de prueba dom
 | REC-0278 | [Pad thai de gambas y tamarindo](./pad_thai_de_gambas_y_tamarindo.md) | Hidratación y salteado de fideos |
 | REC-0279 | [Bibimbap doméstico de verduras y ternera](./bibimbap_domestico_de_verduras_y_ternera.md) | Preparaciones separadas y montaje |
 
+## Seis nuevas propuestas asiáticas: cocciones suaves, fideos y aromáticos
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Identifican su inspiración culinaria y distinguen los ingredientes específicos de las adaptaciones disponibles en casa.
+
+| ID | Receta | Método |
+|---|---|---|
+| REC-0346 | [Oyakodon de pollo y huevo](./oyakodon_de_pollo_y_huevo.md) | Cocción en caldo y montaje sobre arroz |
+| REC-0347 | [Kimchi jjigae de cerdo y tofu](./kimchi_jjigae_de_cerdo_y_tofu.md) | Guiso de kimchi y tofu |
+| REC-0348 | [Japchae de fideos de boniato y verduras](./japchae_de_fideos_de_boniato_y_verduras.md) | Cocción de dangmyeon y salteado |
+| REC-0349 | [Pescado al vapor con jengibre y cebolleta](./pescado_al_vapor_con_jengibre_y_cebolleta_estilo_chino.md) | Vapor y aceite aromático |
+| REC-0350 | [Larb de cerdo con lima y menta](./larb_de_cerdo_con_lima_y_menta.md) | Cocción de picada y aliño |
+| REC-0351 | [Pollo vietnamita con lemongrass y salsa de pescado](./pollo_vietnamita_con_lemongrass_y_salsa_de_pescado.md) | Marinado refrigerado y salteado |
+
+Los ingredientes específicos y las variantes de seguridad alimentaria se documentan dentro de cada ficha. Las recetas domésticas anteriormente probadas y valoradas permanecen sin cambios.
+
 ## Preparaciones cocinadas en casa
 
 | ID | Receta | Resultado y aprendizaje |
