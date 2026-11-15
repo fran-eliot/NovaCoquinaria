@@ -5,7 +5,7 @@ titulo: Carnes
 categoria: Carnes
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - carnes
   - pollo
@@ -64,6 +64,12 @@ La experiencia y las diferencias entre recetas probadas y adaptaciones propuesta
 - [Ternera con salsa de ostras](./ternera_salsa_ostras.md): 400 g de ternera, pimiento, cebolla y champiñones; se distingue del glaseado de [ternera con bambú](./ternera_bambu.md).
 
 Los datos de preparación y límites de evidencia se documentan en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
+
+## Magret de pato asiático recuperado
+
+- **REC-0225 — [Magret de pato de inspiración Sichuán](./magret_de_pato_estilo_sichuan.md)**: preparación de magret asiático recordada como **«muy rico»**. Se conserva una formulación Sichuán propuesta en febrero de 2026 (magret de referencia de 500 g, soja, vinagre, azúcar, chile, ajo y jengibre), sin afirmar que todas esas cantidades se utilizaran en la tanda cocinada ni que su variante exacta esté confirmada.
+
+La experiencia y la formulación histórica se mantienen diferenciadas en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
 
 ## Cortes y sazonado
 
