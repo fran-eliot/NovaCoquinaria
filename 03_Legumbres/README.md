@@ -5,7 +5,7 @@ titulo: Legumbres
 categoria: Legumbres
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - legumbres
   - recetas
@@ -48,6 +48,19 @@ El módulo **Legumbres** reúne recetas de lentejas, garbanzos y alubias, conect
 | REC-0171 | [Alubias blancas con setas y espinacas](./alubias_blancas_con_setas_y_espinacas.md) | Dorado de setas y calentamiento suave de alubias |
 
 Las tres recetas parten de **legumbres completamente cocidas**; el asado, el aliño y el salteado no sustituyen la cocción segura de la legumbre seca.
+
+## Nuevas propuestas con frijoles, judiones, lentejas y garbanzos
+
+Las siguientes recetas son **formulaciones pendientes de prueba** y no deben confundirse con preparaciones domésticas confirmadas. Las cantidades de legumbres **cocidas** no sustituyen las instrucciones de remojo y cocción segura de las variedades secas.
+
+| ID | Receta | Enfoque |
+|---|---|---|
+| REC-0205 | [Frijoles negros guisados con comino y pimiento](./frijoles_negros_guisados_con_comino_y_pimiento.md) | Sofrito y ligado del caldo |
+| REC-0206 | [Judiones con almejas y vino blanco](./judiones_con_almejas_y_vino_blanco.md) | Legumbre cocida y marisco incorporado al final |
+| REC-0207 | [Lentejas con arroz y cebolla dorada](./lentejas_con_arroz_y_cebolla_dorada.md) | Cocciones separadas y cebolla tostada |
+| REC-0208 | [Garbanzos con tomate y huevos en sartén](./garbanzos_con_tomate_y_huevos_en_sarten.md) | Reducción y cuajado de huevos |
+| REC-0209 | [Ensalada templada de judiones y pimientos asados](./ensalada_templada_de_judiones_y_pimientos_asados.md) | Calentamiento suave y vinagreta |
+| REC-0210 | [Crema untable de alubias blancas y ajo asado](./hummus_de_alubias_blancas_y_ajo_asado.md) | Asado de ajo y emulsión |
 
 ## Ingredientes de autoridad
 
