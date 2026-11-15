@@ -169,6 +169,14 @@ Ambas son **formulaciones pendientes de prueba doméstica**. El salmorejo canari
 
 Dos **propuestas pendientes de prueba doméstica**. Las migas se ubican aquí por el papel de la panceta en esta variante; su técnica principal es el trabajo del pan.
 
+## Cocina tradicional española: cachopo asturiano
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0451 | [Cachopo asturiano de ternera, jamón y queso](./cachopo_asturiano_de_ternera_jamon_y_queso.md) | Asturias: relleno, empanado y fritura |
+
+Preparación **pendiente de prueba doméstica**; controlar grosor y cocción interior.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
