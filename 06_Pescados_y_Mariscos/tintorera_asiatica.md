@@ -11,8 +11,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 8 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-02
+version: 1.0.1
+ultima_revision: 2026-11-15
 etiquetas:
 - tintorera
 - pescado
@@ -33,13 +33,13 @@ Es una receta ligera que admite numerosas verduras y acompañamientos.
 
 ## Adaptación consultada: tintorera de 200 g
 
-Se consultó si cocinar una pieza de **200 g** entera o troceada. **No consta resultado de cocción ni elección definitiva del corte**. La receta para dos filetes que sigue es una referencia, no un registro de prueba.
+**Preparación doméstica confirmada:** esta receta de tintorera asiática se ha cocinado en casa. En una consulta se trató cómo preparar una pieza de **200 g**, entera o troceada, pero **no consta si esa fue exactamente la pieza utilizada**, qué corte se eligió ni qué resultado tuvo en sabor o textura. La formulación general para dos filetes se conserva como referencia; sus cantidades no están confirmadas como las empleadas.
 
 Una pieza entera permite manipular menos un filete delgado; dados grandes regulares facilitan el salteado con verduras. Elegir según grosor y ajustar los minutos al tamaño real: los tiempos genéricos no garantizan el punto.
 
 **Seguridad:** descongelar en refrigeración, evitar contaminación cruzada y comprobar cocción completa. AESAN recomienda alcanzar **60 °C durante al menos un minuto en toda la pieza** para prevenir anisakis. [Referencia AESAN](https://www.aesan.gob.es/es/actualidad/campanyas-seguridad-alimentaria/anisakis).
 
-Para una próxima prueba, registrar grosor, corte, minutos efectivos, temperatura interna, salsa y textura final.
+Para completar el registro de la preparación ya realizada, recuperar si es posible el grosor, el corte utilizado, los minutos efectivos, la salsa y la valoración de sabor y textura. En una futura repetición, medir también la temperatura interna.
 
 # Información general
 
