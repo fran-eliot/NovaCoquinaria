@@ -123,6 +123,14 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Incorporan t
 
 Las recetas distinguen los puntos críticos de la limpieza de hortalizas, el tratamiento de lácteos y la salinidad de los condimentos. Se mantienen pendientes de prueba y comparación doméstica.
 
+## Cocina tradicional española: patatas de La Rioja
+
+| ID | Receta | Región y método |
+|---|---|---|
+| REC-0422 | [Patatas a la riojana con chorizo](./patatas_a_la_riojana_con_chorizo.md) | La Rioja: patata chascada y guiso ligado |
+
+Esta receta tradicional es una **propuesta pendiente de prueba doméstica**. La ubicación en el módulo responde al protagonismo y técnica de la patata; contiene chorizo y no es vegetariana.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

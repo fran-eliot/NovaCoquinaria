@@ -111,6 +111,15 @@ Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Se 
 
 Las alubias rojas requieren una cocción previa específica para eliminar sus lectinas. Las habas no son adecuadas para personas con déficit de G6PD. Todas las cantidades permanecen pendientes de contraste mediante pruebas domésticas.
 
+## Cocina tradicional española: Asturias y Madrid
+
+| ID | Receta | Región y método |
+|---|---|---|
+| REC-0418 | [Fabada asturiana con compango](./fabada_asturiana_con_compango.md) | Asturias: fabes y cocción lenta |
+| REC-0419 | [Cocido madrileño de tres vuelcos](./cocido_madrileno_de_tres_vuelcos.md) | Madrid: caldo, garbanzos y tres servicios |
+
+Ambas son **formulaciones domésticas pendientes de prueba**. Se diferencian remojo, legumbre seca, compango, control de sal y tratamiento seguro de las carnes.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
