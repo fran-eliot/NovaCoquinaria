@@ -34,6 +34,12 @@ Organizar técnicas y recetas de horno doméstico que puedan aplicarse a diferen
 | REC-0164 | [Merluza con costra de hierbas y pan](./merluza_con_costra_de_hierbas_y_pan.md) | Horneado con cobertura crujiente |
 | REC-0165 | [Manzanas asadas con canela y nueces](./manzanas_asadas_con_canela_y_nueces.md) | Asado de fruta entera |
 
+## Masa casera: pan de yuca colombiano
+
+- **REC-0194 — [Pan de yuca colombiano casero con queso](./pan_de_yuca_colombiano_casero.md)**: preparación de enero de 2026 con **300 g de mezcla de almidones de maíz y yuca**, **230 g de queso molido**, **1 huevo L**, **25 g de margarina** y **150–180 ml de agua**, amasado a mano y reposo de 10 minutos. La orientación de horno fue **180–190 °C, 15–20 minutos y sin ventilador**; falta valoración de resultado final.
+
+[Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Técnicas y diagnóstico
 - [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md): calor seco, vapor, gratinado y seguridad.
 - [Asado lento en horno doméstico](../00_Bases/03_Tecnicas/asado_lento_en_horno.md): ablandado, humedad y dorado final.
