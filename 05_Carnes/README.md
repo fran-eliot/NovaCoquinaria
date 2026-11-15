@@ -185,6 +185,14 @@ Preparación **pendiente de prueba doméstica**; controlar grosor y cocción int
 
 Preparación **pendiente de prueba doméstica**. El botillo se cocina según su formato comercial y las instrucciones de su fabricante; no se presume que un producto curado esté listo para consumir.
 
+## Cocina tradicional española: carcamusas de Toledo
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0463 | [Carcamusas toledanas de magro de cerdo](./carcamusas_toledanas_de_magro_de_cerdo.md) | Toledo: guiso de magro, chorizo, tomate y guisantes |
+
+Preparación **pendiente de prueba doméstica**, con control de ternura del cerdo y sazón aportada por el chorizo.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
