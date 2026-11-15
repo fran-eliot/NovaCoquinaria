@@ -49,6 +49,18 @@ El módulo **Verduras** organiza recetas y técnicas para preparar hortalizas me
 
 Las preparaciones muestran tres formas distintas de gestionar humedad: evaporación superficial, reducción de relleno y secado previo al asado.
 
+## Zanahorias cocidas: tres aliños domésticos
+
+En una preparación de septiembre de 2026 se coció y peló **1 kg de zanahorias** y se repartió en tres porciones de aproximadamente **330 g** destinadas a tres aliños. Están documentados la base y el reparto, **pero no se han recuperado las dosis definitivas ni la valoración final de cada aliño**.
+
+| ID | Receta | Perfil propuesto |
+|---|---|---|
+| REC-0195 | [Zanahorias aliñadas de inspiración andaluza](./zanahorias_alinadas_andaluzas.md) | Ajo, comino, vinagre y aceite |
+| REC-0196 | [Zanahorias aliñadas de inspiración magrebí](./zanahorias_alinadas_magrebies.md) | Comino, pimentón y limón |
+| REC-0197 | [Zanahorias aliñadas de inspiración asiática](./zanahorias_alinadas_asiaticas.md) | Soja, vinagre de arroz, jengibre y sésamo |
+
+Las tres fichas diferencian los datos de la preparación de las cantidades propuestas para repetir cada variante. [Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
