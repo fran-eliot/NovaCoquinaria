@@ -183,6 +183,15 @@ Preparación **pendiente de prueba doméstica**, con control de procedencia, ref
 
 Preparación **pendiente de prueba doméstica**; controlar espinas y cocción de la trucha.
 
+## Cocina tradicional española: Cantabria y Cádiz
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0498 | [Rabas cántabras de calamar rebozado](./rabas_cantabras_de_calamar_rebozado.md) | Cantabria: tiras de calamar enharinadas y fritas |
+| REC-0499 | [Papas con choco gaditanas](./papas_con_choco_gaditanas.md) | Cádiz: guiso de sepia, patatas y sofrito |
+
+Ambas son **propuestas pendientes de prueba doméstica**. Las rabas se distinguen por la fritura y las papas con choco por la cocción prolongada del cefalópodo.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
