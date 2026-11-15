@@ -97,6 +97,10 @@ Las siguientes recetas **sí se han cocinado**. El resultado de tintorera, cabal
 | [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Cocinada en casa; valoración global **muy satisfactoria**. En una preparación se utilizaron 400 g de ternera muy magra para dos variantes de 200 g, una asiática y otra especiada. | Grosor, cocción y detalles del montaje y sabor final. |
 | [Hamburguesa especiada](../../05_Carnes/hamburguesa_especiada.md) | Cocinada en casa; resultado recordado como **rico**. Misma preparación de dos variantes con 400 g de ternera muy magra en total, y condimento con pimentón, comino, ajo, sal y pimienta. | Dosis realmente utilizadas, grosor, temperatura interna y acompañamiento. |
 
+## Magret de pato asiático: elaboración doméstica recuperada
+
+- **[Magret de pato de inspiración Sichuán](../../05_Carnes/magret_de_pato_estilo_sichuan.md) (REC-0225).** Se ha confirmado una elaboración doméstica de **magret asiático** cuyo resultado se recuerda como **«muy rico»**, descrita de memoria como **«estilo Sichuán o algo parecido»**. En febrero de 2026 se había propuesto una base para **500 g de magret** y una variante con **1 cucharada de soja, 1 de vinagre negro o de arroz, 1 cucharadita de azúcar, 1 de chile, ajo, jengibre y pimienta de Sichuán opcional**. **No consta** que las cantidades de aquella propuesta correspondan exactamente a la preparación valorada; tampoco se ha confirmado qué variante asiática se eligió. Mantener diferenciados el recuerdo del resultado y la formulación para repetir.
+
 ## Preparaciones parciales, consultas y ajustes recuperados
 
 En estas recetas se conocen ingredientes o decisiones de una preparación, pero no una valoración final suficiente para clasificarlas entre los platos probados con resultado.
