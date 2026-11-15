@@ -203,6 +203,15 @@ Ambas son **propuestas pendientes de prueba doméstica**. La pericana utiliza en
 
 Preparación **pendiente de prueba doméstica**, diferenciada del salmorejo cordobés y el gazpacho andaluz.
 
+## Cocina tradicional española: Jaén y Córdoba
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0485 | [Pipirrana jiennense con atún y huevo](./pipirrana_jiennense_con_atun_y_huevo.md) | Jaén: tomate, pimiento y majado de ajo y yema |
+| REC-0486 | [Berenjenas fritas con miel de caña cordobesas](./berenjenas_fritas_con_miel_de_cana_cordobesas.md) | Córdoba: fritura ligera y acabado de melaza de caña |
+
+Ambas son **propuestas pendientes de prueba doméstica**. La miel de caña es melaza, no miel de abeja.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
