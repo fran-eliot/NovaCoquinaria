@@ -59,6 +59,21 @@ Estas fichas son **propuestas pendientes de prueba doméstica**. Añaden técnic
 
 Las preparaciones caseras con fruta, leche o chufa remojada requieren higiene, refrigeración y consumo cercano.
 
+## Seis bebidas nuevas: infusiones, café y combinaciones frutales
+
+Estas fichas son **propuestas pendientes de prueba doméstica**. Distinguen infusiones calientes, bebidas frías filtradas y fruta triturada sin modificar las fórmulas anteriores.
+
+| ID | Bebida | Técnica |
+|---|---|---|
+| REC-0316 | [Té verde con menta de inspiración magrebí](./te_verde_con_menta_estilo_magrebi.md) | Infusión escalonada |
+| REC-0317 | [Rooibos frío con manzana y canela](./rooibos_frio_con_manzana_y_canela.md) | Infusión y enfriamiento |
+| REC-0318 | [Agua de arroz y canela de inspiración horchata](./agua_de_arroz_con_canela_estilo_horchata.md) | Remojo refrigerado y filtrado |
+| REC-0319 | [Espresso tonic con naranja](./espresso_tonic_con_naranja.md) | Extracción y montaje |
+| REC-0320 | [Batido de piña, coco y lima](./batido_de_pina_coco_y_lima.md) | Triturado de fruta |
+| REC-0321 | [Limonada de jengibre y romero](./limonada_de_jengibre_y_romero.md) | Infusión aromática y mezcla cítrica |
+
+En bebidas con fruta y cereal remojado se extreman la limpieza, refrigeración y el consumo cercano; la bebida de arroz no debe confundirse con una preparación de arroz cocido.
+
 ## Técnicas y diagnóstico
 - [Preparar infusiones y bebidas aromáticas](../00_Bases/03_Tecnicas/preparar_infusiones.md): temperatura, tiempo y extracción.
 - [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md): dosis, molienda, temperatura y proporción.
