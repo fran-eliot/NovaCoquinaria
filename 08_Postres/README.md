@@ -223,6 +223,15 @@ Ambas propuestas están **pendientes de prueba doméstica** y requieren cocción
 
 Las dos formulaciones están **pendientes de prueba doméstica**. La pantxineta exige conservación refrigerada por su relleno de crema.
 
+## Cocina tradicional española: Córdoba y Valencia
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0506 | [Pastel cordobés de cabello de ángel y hojaldre](./pastel_cordobes_de_cabello_de_angel_y_hojaldre.md) | Córdoba: hojaldre relleno de cabello de ángel |
+| REC-0507 | [Buñuelos valencianos de calabaza](./bunuelos_valencianos_de_calabaza.md) | Comunitat Valenciana: masa fermentada de calabaza frita |
+
+Ambas recetas son **propuestas pendientes de prueba doméstica**, con espesores, levado y cocción interior que deben verificarse durante su elaboración.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
