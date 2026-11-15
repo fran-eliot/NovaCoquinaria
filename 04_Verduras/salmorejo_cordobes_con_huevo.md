@@ -68,7 +68,7 @@ Enfriar sin demora las sobras perecederas y refrigerarlas en recipientes tapados
 ## Relaciones dentro del SGCC
 
 - [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md)
-- [Aceite de oliva](../11_Despensa/10_Aceites/aceite_de_oliva.md)
+- [Aceite de oliva](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)
 - [Índice de Verduras](./README.md).
 
 ## Registro de prueba
