@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.3.0
+version: 1.4.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -49,6 +49,24 @@ Las siguientes recetas **sí se han cocinado**. El resultado de tintorera, cabal
 | [Caballa japonesa](../../06_Pescados_y_Mariscos/caballa_japonesa.md) | Cocinada en casa; valoración global **muy satisfactoria**. | Salsa y cantidades efectivas, textura y punto de cocción. |
 | [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Cocinada en casa; valoración global **muy satisfactoria**. En una preparación se utilizaron 400 g de ternera muy magra para dos variantes de 200 g, una asiática y otra especiada. | Grosor, cocción y detalles del montaje y sabor final. |
 | [Hamburguesa especiada](../../05_Carnes/hamburguesa_especiada.md) | Cocinada en casa; resultado recordado como **rico**. Misma preparación de dos variantes con 400 g de ternera muy magra en total, y condimento con pimentón, comino, ajo, sal y pimienta. | Dosis realmente utilizadas, grosor, temperatura interna y acompañamiento. |
+
+## Preparaciones parciales, consultas y ajustes recuperados
+
+En estas recetas se conocen ingredientes o decisiones de una preparación, pero no una valoración final suficiente para clasificarlas entre los platos probados con resultado.
+
+| Receta | Dato doméstico conservado | Límite y próxima anotación |
+|---|---|---|
+| [Arroz caldoso de alcachofas y marisco](../../01_Arroces/arroz_caldoso_alcachofas_marisco.md) | Se elaboró una **base para varias raciones** y se consultó una ración y media con **130 g de arroz y 450–520 ml de mezcla**. | No se dispone de valoración final ni del volumen de caldo líquido separado de la base; registrar textura y resultado. |
+| [Medallones de solomillo asiáticos](../../05_Carnes/medallones_solomillo_asiaticos.md) | Se planteó cocinar **2 de 4 medallones**, **265 g en total**, con arroz basmati. | La decisión no confirma la cocción final ni la salsa empleada; registrar cuando se repita o se recupere el resultado. |
+
+### Formulaciones previas a revisar en cocina
+
+Las siguientes preparaciones pertenecen al repertorio original, pero **no hay constancia suficiente de su ejecución personal ni de una valoración final**. Se mantienen sus cantidades de referencia, sin reconstruir experiencias no anotadas.
+
+- [Lomo asiático](../../05_Carnes/lomo_asiatico.md): 400 g de lomo para dos y salsa china de referencia; próxima prueba, registrar tiempo, cantidad de salsa y textura.
+- [Ternera con salsa de ostras](../../05_Carnes/ternera_salsa_ostras.md): 400 g de ternera, cebolla, pimiento y 150 g de champiñones; comprobar el glaseado corto.
+- [Arroz frito con gambas](../../01_Arroces/arroz_frito_gambas.md): 300 g de arroz **cocido**, 200 g de gambas y 2 huevos; comprobar resultado y enfriamiento previo del arroz.
+- [Gambas al ajillo, versión histórica](../../06_Pescados_y_Mariscos/gambas_ajillo.md): 300 g de gambas; existe también la [formulación de 400 g](../../06_Pescados_y_Mariscos/gambas_al_ajillo.md), por lo que son dos fichas del mismo plato y no dos pruebas domésticas diferentes.
 
 ## Recetas consultadas o documentadas sin valoración posterior
 
