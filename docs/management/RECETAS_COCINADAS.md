@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.1.0
+version: 1.3.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -39,16 +39,24 @@ No todas las proporciones se anotaron al cocinar: cuando una receta propone cant
 | [Arroz con higadillos](../../01_Arroces/arroz_higadillos.md) | Se consultó y preparó el planteamiento de **4 raciones con 300 g de basmati y 600–650 ml de caldo**. No hay confirmación del resultado final. | Mantener como adaptación documentada **sin valoración posterior**, separada de la versión de arroz redondo para dos personas. |
 | [Ropa vieja, base y variante pulled pork](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | La ropa vieja de inspiración cubana ya se había hecho otras veces; no constan cantidades exactas. La propuesta de **650 g de pulled pork precocinado** no tiene prueba confirmada. | Receta base orientativa y adaptación con pulled pork **pendiente de prueba**, diferenciadas. |
 
+## Preparadas en casa, con valoración global recuperada
+
+Las siguientes recetas **sí se han cocinado**. El resultado de tintorera, caballa y hamburguesa asiática se recuerda como **muy satisfactorio**; el de la hamburguesa especiada, como **rico**. No se asignan notas numéricas ni características sensoriales que no constan, y siguen pendientes medidas de cocción y cantidades concretas.
+
+| Receta | Experiencia y valoración | Datos aún por recuperar |
+|---|---|---|
+| [Tintorera asiática](../../06_Pescados_y_Mariscos/tintorera_asiatica.md) | Cocinada en casa; valoración global **muy satisfactoria**. Se consultó una pieza de **200 g**, sin confirmación de que fuera exactamente la utilizada. | Corte, grosor, tiempos y detalles específicos del resultado. |
+| [Caballa japonesa](../../06_Pescados_y_Mariscos/caballa_japonesa.md) | Cocinada en casa; valoración global **muy satisfactoria**. | Salsa y cantidades efectivas, textura y punto de cocción. |
+| [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Cocinada en casa; valoración global **muy satisfactoria**. En una preparación se utilizaron 400 g de ternera muy magra para dos variantes de 200 g, una asiática y otra especiada. | Grosor, cocción y detalles del montaje y sabor final. |
+| [Hamburguesa especiada](../../05_Carnes/hamburguesa_especiada.md) | Cocinada en casa; resultado recordado como **rico**. Misma preparación de dos variantes con 400 g de ternera muy magra en total, y condimento con pimentón, comino, ajo, sal y pimienta. | Dosis realmente utilizadas, grosor, temperatura interna y acompañamiento. |
+
 ## Recetas consultadas o documentadas sin valoración posterior
 
-Estas fichas forman parte del repertorio de cocina de interés, pero una solicitud de receta o una consulta sobre ingredientes **no equivale a haber cocinado y probado un plato**. Hasta recibir un resultado de la preparación, mantienen carácter de referencia.
+Estas fichas forman parte del repertorio de cocina de interés, pero una solicitud de receta o una consulta sobre ingredientes **no equivale a haber cocinado y probado un plato**. Se mantienen como referencias sin preparación confirmada. Las recetas cuya ejecución sí se ha confirmado se registran en la sección anterior, aunque falte su valoración.
 
 | Receta | Contexto documentado | Información que falta |
 |---|---|---|
 | [Arroz chaufa](../../01_Arroces/arroz_chaufa.md) | Se solicitó la receta; contiene una formulación de arroz frito con cerdo, huevo y cebolleta. | Confirmación de preparación, peso de arroz cocido, resultado y ajustes. |
-| [Tintorera asiática](../../06_Pescados_y_Mariscos/tintorera_asiatica.md) | Se consultó si preparar **una pieza de 200 g** entera o en trozos. | Corte finalmente elegido, tiempo real de cocción y valoración. |
-| [Caballa japonesa](../../06_Pescados_y_Mariscos/caballa_japonesa.md) | Receta registrada con salsa de soja y mirin. | Preparación y resultado efectivamente observados. |
-| [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Receta de referencia con ternera, soja y jengibre. | Confirmación de ejecución, punto seguro y sabor final. |
 | [Curry verde de pollo](../../05_Carnes/curry_verde_de_pollo.md) | Formulación de referencia con pasta de curry y leche de coco. | Marca y cantidad utilizadas y resultado de picante y textura. |
 | [Curry amarillo de pollo](../../05_Carnes/curry_amarillo_de_pollo.md) | Formulación de referencia de la plantilla de curry. | Confirmación de elaboración y ajuste real de condimentos. |
 | [Champiñones Sichuán](../../04_Verduras/champiñones_sichuan.md) | Ficha incluida en el recetario, sin registro de una valoración doméstica específica. | Resultado, cantidades efectivas y preferencias de textura. |

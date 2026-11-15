@@ -11,8 +11,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.0.2
+ultima_revision: 2026-11-15
 etiquetas:
 - caballa
 - pescado
@@ -33,9 +33,9 @@ Es una receta sencilla donde el pescado conserva todo el protagonismo y la salsa
 
 ## Estado de experiencia doméstica
 
-Esta caballa con soja y mirin está documentada como receta de referencia, pero **no consta un resultado de preparación doméstica registrado**. No se clasifica automáticamente entre las recetas probadas.
+**Preparación doméstica confirmada y valoración global muy satisfactoria.** Se ha cocinado esta caballa japonesa en casa y el resultado se recuerda como muy satisfactorio. **No se han recuperado las cantidades y tiempos realmente utilizados ni una valoración desglosada de la textura**. La formulación que sigue permanece como referencia, no como transcripción exacta de la preparación realizada.
 
-En la primera prueba anotar grosor de los lomos, tiempo sobre la piel, cocción completa y si el glaseado mantiene la piel crujiente. Conservar el pescado refrigerado hasta cocinar.
+Para completar la experiencia anterior, recuperar si es posible el grosor de los lomos, el tiempo sobre la piel, la salsa utilizada y la valoración de jugosidad y glaseado. En futuras preparaciones, conservar el pescado refrigerado hasta cocinar y comprobar su cocción completa.
 
 # Información general
 
