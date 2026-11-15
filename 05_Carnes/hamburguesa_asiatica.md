@@ -11,7 +11,7 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.2
+version: 1.0.3
 ultima_revision: 2026-11-15
 etiquetas:
 - hamburguesa
@@ -36,6 +36,22 @@ Combina la estructura de una hamburguesa clásica con el perfil aromático de un
 **Preparación doméstica confirmada y valoración global muy satisfactoria.** Se preparó esta hamburguesa asiática y se recuerda como muy satisfactoria. En la preparación doméstica de dos variantes de hamburguesa se utilizaron **400 g de ternera muy magra en total, repartidos en dos hamburguesas de 200 g: una asiática y otra especiada**. Para la asiática se plantearon soja, una pequeña cantidad de aceite de sésamo, ajo, pimienta y jengibre opcional. **No constan los tiempos reales ni todos los detalles del montaje final**. La formulación que sigue se mantiene como referencia, sin atribuirle una ejecución idéntica.
 
 Para completar el registro, recuperar el grosor y peso de las hamburguesas, el sazonado, la salsa utilizada y la valoración de sabor y jugosidad. En futuras repeticiones, **cocinar completamente la carne picada** y comprobar el centro con termómetro alimentario, sin tomar el dorado exterior como evidencia de cocción segura.
+
+## Repetición de la hamburguesa asiática individual
+
+**Experiencia confirmada:** se prepararon dos hamburguesas diferentes con **400 g de ternera muy magra en total**: una asiática de **200 g** y otra especiada de **200 g**. La asiática tuvo una valoración global **muy satisfactoria**. No constan las cucharaditas exactas utilizadas.
+
+La lista de ingredientes situada más abajo corresponde a **dos hamburguesas asiáticas con 400 g**. Para repetir la versión individual, usar solo **200 g de ternera** y empezar con **aproximadamente la mitad de los condimentos** de esa formulación, pero añadir soja con cautela: es una **adaptación orientativa**, no una medición de lo cocinado.
+
+### Método comparativo propuesto
+
+1. Preparar y pesar 200 g de carne para la versión asiática; evitar mezclarla o compactarla en exceso.
+2. Incorporar ajo, un poco de salsa de soja y aceite de sésamo, pimienta y jengibre opcional; registrar medidas efectivas.
+3. Formar una hamburguesa de grosor uniforme. Cocinar la **carne picada completamente**, verificando la temperatura interior adecuada con termómetro; el color exterior no es indicador suficiente.
+4. Registrar si se sirvió con pan, verduras y salsa adicional, y la **valoración de sabor y jugosidad**. No trasladar automáticamente la salsa de la ficha canónica a la tanda histórica.
+5. Comparar con la [hamburguesa especiada](./hamburguesa_especiada.md), manteniendo el mismo peso y grosor para que la comparación se centre en el sazonado.
+
+**Alérgenos:** soja, posiblemente trigo en la salsa de soja, sésamo y gluten en el pan si se utiliza.
 
 # Información general
 
