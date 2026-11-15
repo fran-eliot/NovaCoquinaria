@@ -167,6 +167,14 @@ Preparación **pendiente de prueba doméstica**; exige revisar las espinas del p
 
 Propuesta **pendiente de prueba doméstica**, diferenciada del bacalao a la vizcaína y al pilpil.
 
+## Cocina tradicional española: tortillitas gaditanas
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0487 | [Tortillitas de camarones gaditanas](./tortillitas_de_camarones_gaditanas.md) | Cádiz: masa fina y fritura crujiente de camarones |
+
+Preparación **pendiente de prueba doméstica**, con control de procedencia, refrigeración y cocción de los crustáceos.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
