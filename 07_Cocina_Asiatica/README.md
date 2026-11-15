@@ -53,6 +53,19 @@ Las siguientes elaboraciones son **recetas propuestas pendientes de prueba**, no
 | REC-0203 | [Arroz basmati con coco y lima](./arroz_basmati_con_coco_y_lima.md) | Absorción y reposo |
 | REC-0204 | [Garbanzos glaseados con hoisin y jengibre](./garbanzos_glaseados_con_hoisin_y_jengibre.md) | Salteado y glaseado |
 
+## Seis especialidades asiáticas: técnicas y perfiles diferentes
+
+Las siguientes fichas son **formulaciones de referencia pendientes de prueba doméstica**. Se distinguen las adaptaciones accesibles de los ingredientes específicos y no se modifican las recetas ya cocinadas y valoradas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0274 | [Mapo tofu de inspiración Sichuán](./mapo_tofu_de_inspiracion_sichuan.md) | Sofrito de pasta fermentada y ligado |
+| REC-0275 | [Okonomiyaki de col y cebolleta](./okonomiyaki_de_col_y_cebolleta.md) | Masa de huevo y cocción en sartén |
+| REC-0276 | [Curry japonés de ternera y patata](./curry_japones_de_ternera_y_patata.md) | Estofado y roux de curry |
+| REC-0277 | [Bulgogi de ternera con pera y soja](./bulgogi_de_ternera_con_pera_y_soja.md) | Marinado refrigerado y salteado |
+| REC-0278 | [Pad thai de gambas y tamarindo](./pad_thai_de_gambas_y_tamarindo.md) | Hidratación y salteado de fideos |
+| REC-0279 | [Bibimbap doméstico de verduras y ternera](./bibimbap_domestico_de_verduras_y_ternera.md) | Preparaciones separadas y montaje |
+
 ## Preparaciones cocinadas en casa
 
 | ID | Receta | Resultado y aprendizaje |
