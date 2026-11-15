@@ -179,6 +179,15 @@ Preparación **pendiente de prueba doméstica**, diferenciada de los frixuelos y
 
 Propuesta **pendiente de prueba doméstica**. **La hoja de limonero no se come**: se retira al consumir el rebozado, y debe proceder de un árbol sin tratamientos incompatibles con uso culinario.
 
+## Cocina tradicional española: leche frita y sobaos pasiegos
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0476 | [Leche frita tradicional con canela](./leche_frita_tradicional_con_canela.md) | Repostería castellana: crema cuajada, rebozado y fritura |
+| REC-0477 | [Sobaos pasiegos de mantequilla](./sobaos_pasiegos_de_mantequilla.md) | Cantabria: batido de mantequilla y horneado |
+
+Ambas elaboraciones son **propuestas pendientes de prueba doméstica**. El sobao documentado no se presenta como producto certificado por IGP.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
