@@ -93,6 +93,21 @@ Las siguientes recetas son **formulaciones pendientes de prueba doméstica**. No
 
 Las técnicas se eligen por la humedad, grosor y estructura de cada hortaliza. Los tiempos son orientativos y deben verificarse en la primera elaboración.
 
+## Seis nuevas propuestas: hojas, raíces y preparaciones frías
+
+Estas fichas son **formulaciones pendientes de prueba doméstica** y no modifican preparaciones previas ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0340 | [Pak choi salteado con ajo, jengibre y soja](./pak_choi_salteado_con_ajo_jengibre_y_soja.md) | Salteado por partes y reducción |
+| REC-0341 | [Hinojo asado con naranja y aceitunas](./hinojo_asado_con_naranja_y_aceitunas.md) | Asado y acabado cítrico |
+| REC-0342 | [Lombarda estofada con manzana y vinagre](./lombarda_estofada_con_manzana_y_vinagre.md) | Estofado y ajuste de acidez |
+| REC-0343 | [Judías verdes guisadas con tomate y cebolla](./judias_verdes_guisadas_con_tomate_y_cebolla.md) | Precocción y salsa reducida |
+| REC-0344 | [Carpaccio de calabacín con limón y parmesano](./carpaccio_de_calabacin_con_limon_y_parmesano.md) | Laminado y aliño en frío |
+| REC-0345 | [Puré de apionabo y patata con nuez moscada](./pure_de_apionabo_y_patata_con_nuez_moscada.md) | Cocción y pasapurés |
+
+Las preparaciones crudas requieren lavado e higiene rigurosos. Se identifica el **apio** como alérgeno del apionabo, y se diferencian las hortalizas por tiempos de cocción, humedad y estructura.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
