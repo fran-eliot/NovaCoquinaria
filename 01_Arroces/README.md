@@ -5,7 +5,7 @@ titulo: Arroces
 categoria: Arroces
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-15
 etiquetas:
   - arroces
   - recetas
@@ -18,6 +18,10 @@ etiquetas:
 ## Objetivo
 
 El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldoso, arroz frito, risotto y cocción en horno. El método, la variedad de arroz, la proporción de líquido y el tiempo de reposo determinan la textura.
+
+## Arroz y frijoles: propuesta latinoamericana
+
+- **REC-0231 — [Arroz con frijoles y cilantro](./arroz_con_frijoles_y_cilantro.md)**: arroz por absorción con sofrito y frijoles previamente cocidos. Fórmula de referencia pendiente de prueba doméstica.
 
 ## Recetas disponibles
 
