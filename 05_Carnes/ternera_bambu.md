@@ -11,7 +11,7 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.1.1
+version: 1.1.2
 ultima_revision: 2026-11-15
 etiquetas:
 - ternera
@@ -32,6 +32,16 @@ El bambú aporta una textura firme y ligeramente crujiente que contrasta con la 
 **Experiencia doméstica confirmada:** la receta se preparó y resultó **muy rica**. Se detectaron oportunidades de mejora en la **cantidad y consistencia de salsa**, el **punto del bambú** y el **color oscuro**. Más adelante se preparó con éxito una variante de seitán y bambú con precocción del brote; no se atribuyen a la preparación de ternera las cantidades de esa variante.
 
 ---
+
+## Historial de una preparación de febrero de 2026
+
+Se recuperó una tanda concreta con **500 g de ternera y 180 g de brotes de bambú** que se valoró como **«muy rico»**. En aquella preparación, la salsa resultó **escasa y poco espesa**. El bambú quedó **algo duro pese a una cocción previa de unos 5 minutos**.
+
+Estas son medidas y observaciones de **esa tanda**, distintas de la formulación general de **400 g de ternera y 150 g de bambú** que aparece en la ficha. No sustituir automáticamente esta última: no consta una comparación que establezca qué combinación de cantidades se prefiere.
+
+Para otra repetición, separar el diagnóstico de **cantidad de salsa**, **espesor** y **textura del bambú**. La posterior variante de [seitán con bambú](../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md), en la que el bambú quedó en su punto con 5 minutos de hervor, es **otra preparación**: el formato o corte comercial y las condiciones de cocción pueden explicar resultados diferentes.
+
+[Conservar versiones y resultados sin regresiones](../docs/management/EVOLUCION_DE_RECETAS.md).
 
 # Información general
 
