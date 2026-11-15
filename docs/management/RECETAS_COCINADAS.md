@@ -21,6 +21,8 @@ Esta selección distingue elaboraciones **preparadas realmente** de ideas o adap
 
 No todas las proporciones se anotaron al cocinar: cuando una receta propone cantidades para reproducirla, se diferencia expresamente de lo que quedó registrado en la preparación original.
 
+Para consultar de un vistazo qué platos forman parte del repertorio habitual y cuáles conservan todavía información incompleta, ver el [Inventario de cocina doméstica y cobertura del recetario](./INVENTARIO_COCINA_DOMESTICA.md).
+
 ## Criterio de versiones y preferencias
 
 Las recetas pueden haberse preparado varias veces con modificaciones posteriores. Recuperar cantidades de una formulación antigua **no significa que esa formulación sea la mejor**, ni autoriza a sustituir una versión posterior que haya dado mejores resultados. Se conservarán las experiencias por separado y solo se establecerá una **versión principal preferida** cuando exista una valoración comparativa o una elección explícita.
