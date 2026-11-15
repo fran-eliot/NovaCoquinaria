@@ -128,6 +128,14 @@ Ambas son **formulaciones domésticas pendientes de prueba**. Se diferencian rem
 
 El caldo gallego se incorpora como **propuesta pendiente de prueba doméstica**, con tiempos de remojo y cocción diferenciados.
 
+## Cocina tradicional española: pote asturiano
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0436 | [Pote asturiano con berza y fabes](./pote_asturiano_con_berza_y_fabes.md) | Asturias: alubias, berza, patatas y compango |
+
+Preparación **pendiente de prueba doméstica**, distinta de la fabada por el protagonismo de la berza y las patatas.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
