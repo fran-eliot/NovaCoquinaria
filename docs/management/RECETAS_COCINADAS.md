@@ -28,21 +28,27 @@ No todas las proporciones se anotaron al cocinar: cuando una receta propone cant
 | [Berenjenas chinas estilo Sichuán](../../07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md) | Salieron muy ricas, aunque muy blandas; se añadió soja oscura para intensificar el color. La textura supercremosa también gustó. | Comparar trozos de 5–6 cm y glaseado breve con la versión supercremosa. |
 | [Seitán con bambú y salsa china oscura](../../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md) | 250 g de seitán; bambú hervido 5 minutos; resultado muy bueno, con ajuste de soja oscura y salsa abundante. | Medir volúmenes definitivos de salsa, color y densidad, sin aumentar en exceso la sal. |
 | [Tarta de galletas y natillas con café y Amaretto](../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas comerciales; tres capas de galletas y tres de natillas; baño de café, Amaretto y aroma de naranja; 24 h de refrigeración; resultado muy bueno. | Medir galletas, café y licor según el molde utilizado. |
-| [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | Receta doméstica adaptada a 840 g de manzana limpia, con 200 g para la superficie. Tras utilizar lemon curd como acabado se observó líquido acumulado abajo y el resultado no gustó. | Probar una mermelada espesa, aplicada **sobre la superficie sin diluir**, y registrar si permanece arriba; no atribuir con certeza el líquido únicamente a la cobertura. |
+| [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | Receta doméstica adaptada a 840 g de manzana limpia, con 200 g para la superficie. **El lemon curd se diluyó con algo de agua, perdió su consistencia cremosa y se observó líquido en el fondo**, un acabado que no gustó. | Probar una **mermelada espesa sin diluir**, colocada sobre la superficie; comprobar que permanece arriba. No se ha demostrado que la dilución fuera la única causa del líquido. |
+
+## Más preparaciones domésticas recuperadas
+
+| Receta | Experiencia conocida | Situación de la ficha |
+|---|---|---|
+| [Ternera con bambú](../../05_Carnes/ternera_bambu.md) | Se cocinó y quedó **muy rica**; se quiso mejorar la cantidad y espesor de salsa, color oscuro y punto del bambú. | Receta existente ampliada con diagnóstico y cantidades orientativas para una próxima repetición. |
+| [Habas con jamón](../../04_Verduras/habas_jamon.md) | Se cocinaron **habas con ajo, jamón, pimentón, tomillo y vino blanco**, con resultado **muy rico**. | Receta existente ampliada con la combinación probada; cantidades de especias y vino todavía orientativas. |
+| [Arroz con higadillos](../../01_Arroces/arroz_higadillos.md) | Se consultó y preparó el planteamiento de **4 raciones con 300 g de basmati y 600–650 ml de caldo**. No hay confirmación del resultado final. | Mantener como adaptación documentada **sin valoración posterior**, separada de la versión de arroz redondo para dos personas. |
+| [Ropa vieja, base y variante pulled pork](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | La ropa vieja de inspiración cubana ya se había hecho otras veces; no constan cantidades exactas. La propuesta de **650 g de pulled pork precocinado** no tiene prueba confirmada. | Receta base orientativa y adaptación con pulled pork **pendiente de prueba**, diferenciadas. |
 
 ## Otras recetas presentes en el recetario
 
-Varias elaboraciones que forman parte de la trayectoria culinaria del proyecto ya cuentan con ficha, aunque no hay una anotación comparable del último resultado, cantidades y ajustes. No se reclasifican automáticamente como **probadas con seguimiento**:
+Otras elaboraciones del proyecto ya cuentan con ficha, pero no disponemos de una valoración del resultado o de las cantidades realmente utilizadas. No se reclasifican automáticamente como **probadas con seguimiento**:
 
-- [Ternera con bambú](../../05_Carnes/ternera_bambu.md).
 - [Arroz chaufa](../../01_Arroces/arroz_chaufa.md).
-- [Arroz con higadillos](../../01_Arroces/arroz_higadillos.md).
-- [Habas con jamón](../../04_Verduras/habas_jamon.md).
 - [Champiñones Sichuán](../../04_Verduras/champiñones_sichuan.md).
 
 ## Adaptaciones pendientes de probar o confirmar
 
-- **Ropa vieja de inspiración cubana con pulled pork ya cocinado.** Se planteó usar 650 g de pulled pork ahumado y cocinado, sin salsa barbacoa, construir primero el sofrito y la salsa, incorporar los jugos del envase con control de sal y añadir la carne al final. Se conserva como **adaptación prevista**, sin presentarla como preparación cocinada y evaluada.
+- **[Ropa vieja con pulled pork precocinado](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md).** Está documentada como adaptación prevista con 650 g de carne ahumada ya cocinada y sin salsa barbacoa. La ropa vieja sí se había cocinado anteriormente, **pero no se ha confirmado la ejecución ni el resultado de esta variante**.
 
 ## Criterio de documentación
 

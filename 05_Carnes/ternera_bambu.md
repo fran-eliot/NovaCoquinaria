@@ -11,8 +11,8 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - ternera
 - bambu
@@ -28,6 +28,8 @@ etiquetas:
 Salteado clásico de inspiración china en el que la ternera se combina con brotes de bambú y verduras en una salsa equilibrada de soja y ostras.
 
 El bambú aporta una textura firme y ligeramente crujiente que contrasta con la jugosidad de la carne.
+
+**Experiencia doméstica confirmada:** la receta se preparó y resultó **muy rica**. Se detectaron oportunidades de mejora en la **cantidad y consistencia de salsa**, el **punto del bambú** y el **color oscuro**. Más adelante se preparó con éxito una variante de seitán y bambú con precocción del brote; no se atribuyen a la preparación de ternera las cantidades de esa variante.
 
 ---
 
@@ -76,6 +78,10 @@ Potenciar con:
 
 * salsa de ostras.
 
+Para reproducir el perfil de salsa se puede emplear, **como formulación orientativa y no como proporción registrada en la prueba de ternera**, 1 cucharada de soja clara, 1 cucharada de salsa de ostras, 1/2–1 cucharadita de soja oscura, 120–160 ml de agua o caldo y 1 cucharadita rasa de maicena diluida por separado en agua fría. La maicena es opcional; regular la densidad al final.
+
+**Alérgenos:** soja, trigo según salsa de soja, moluscos por la salsa de ostras y sésamo del acabado. Revisar etiquetas.
+
 ---
 
 # Mise en place
@@ -83,7 +89,7 @@ Potenciar con:
 Antes de comenzar:
 
 * cortar la ternera en tiras finas;
-* escurrir los brotes de bambú;
+* escurrir los brotes de bambú y prepararlos según las instrucciones de seguridad del formato adquirido;
 * cortar las verduras;
 * preparar la salsa;
 * precalentar el wok.
@@ -100,15 +106,26 @@ Consultar:
 2. Calentar el wok a temperatura alta.
 3. Sellar la carne rápidamente y reservar.
 4. Saltear las verduras.
-5. Añadir los brotes de bambú.
+5. Añadir los brotes de bambú. Si el formato adquirido lo requiere o lo permite, probar una precocción breve controlada y escurrir bien; la cocción de 5 minutos fue ensayada con éxito en la versión posterior de seitán, **no registrada como paso original en esta preparación**.
 6. Incorporar nuevamente la carne.
 7. Añadir la salsa.
-8. Reducir durante aproximadamente un minuto.
+8. Reducir durante aproximadamente un minuto. Para una salsa más abundante, ajustar **agua o caldo** en lugar de duplicar ingredientes salados; para más cuerpo, incorporar poco a poco la suspensión de maicena fría y calentar hasta ligar. Ajustar el color con soja oscura en pequeñas cantidades.
 9. Finalizar con unas gotas de aceite de sésamo.
 
 Servir inmediatamente.
 
 ---
+
+# Ajustes tras la preparación doméstica
+
+| Aspecto | Resultado observado | Ajuste para repetir |
+|---|---|---|
+| Sabor | Muy rico | Conservar el equilibrio de soja y ostras |
+| Cantidad y espesor de salsa | Se pidió un resultado más abundante y ligado | Medir el fondo y añadir maicena diluida al final, si hace falta |
+| Color | Se buscaba un acabado más oscuro | Añadir soja oscura en gotas, sin disparar la salinidad |
+| Bambú | Se quiso mejorar la firmeza | Revisar preparación indicada en el envase y no prolongar el salteado |
+
+El resultado del plato de ternera está confirmado, pero las cantidades del ajuste propuesto aún deben medirse en una siguiente repetición.
 
 # Variantes
 
@@ -116,7 +133,8 @@ Puede prepararse con:
 
 * pollo;
 * cerdo;
-* tofu.
+* tofu;
+* [seitán con bambú y salsa china oscura](../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md), variante ya probada por separado.
 
 También admite:
 
@@ -170,6 +188,7 @@ Consultar:
 * [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)
 * [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)
 * [Mirin](../11_Despensa/09_Salsas/mirin.md)
+* [Almidón de maíz](../11_Despensa/13_Bases_Culinarias/maicena.md)
 * [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)
 
 ## Tablas

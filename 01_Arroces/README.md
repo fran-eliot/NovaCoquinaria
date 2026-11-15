@@ -46,6 +46,12 @@ El módulo **Arroces** reúne preparaciones de absorción, arroz meloso y caldos
 
 Estas recetas distinguen tres objetivos de textura y mantienen la seguridad del arroz cocido durante el enfriado y el recalentamiento.
 
+## Arroz con higadillos: adaptación doméstica
+
+- [Arroz con higadillos](./arroz_higadillos.md): propuesta consultada para **4 raciones con 300 g de arroz basmati y 600–650 ml de caldo**, separada de la versión de arroz redondo para dos personas. El resultado final de la preparación no está documentado.
+
+[Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
