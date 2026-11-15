@@ -111,6 +111,12 @@ Las preparaciones muestran tres formas distintas de gestionar humedad: evaporaci
 
 - [Alcachofa](../11_Despensa/06_Verduras/alcachofa.md): retirar partes fibrosas y coordinar su cocción en guisos.
 
+## Habas preparadas en casa
+
+- [Habas con jamón](./habas_jamon.md): versión con ajo, jamón, **pimentón, tomillo y vino blanco**, cocinada con resultado muy rico. Las dosis definitivas de especias y vino quedan pendientes de medir.
+
+[Registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Plantillas
 
 - [Salteado de verduras](../12_Plantillas/04_Cocciones/salteado_de_verduras.md) — patrón para combinar hortalizas en sartén.
