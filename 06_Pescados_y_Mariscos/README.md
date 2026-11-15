@@ -96,6 +96,21 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Complementan
 
 Para bivalvos, utilizar únicamente producto procedente de establecimientos autorizados. La receta de pulpo parte de **producto previamente cocido** y no describe la cocción de pulpo crudo.
 
+## Seis nuevas propuestas: guisos marineros, horno y salsas tradicionales
+
+Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Amplían especies y técnicas sin modificar las recetas previamente cocinadas o valoradas.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0358 | [Lubina a la espalda con ajo y guindilla](./lubina_a_la_espalda_con_ajo_y_guindilla.md) | Horno y refrito final |
+| REC-0359 | [Marmitako de bonito con patatas](./marmitako_de_bonito_con_patatas.md) | Guiso de patatas y pescado añadido al final |
+| REC-0360 | [Bacalao al pilpil con ajo](./bacalao_al_pilpil_con_ajo.md) | Confitado suave y emulsión |
+| REC-0361 | [Chipirones en su tinta con cebolla](./chipirones_en_su_tinta_con_cebolla.md) | Sofrito, guiso y tinta alimentaria |
+| REC-0362 | [Salmón teriyaki al horno con sésamo](./salmon_teriyaki_al_horno_con_sesamo.md) | Horneado y glaseado |
+| REC-0363 | [Gambones al horno con ajo, limón y perejil](./gambones_al_horno_con_ajo_limon_y_perejil.md) | Asado breve de crustáceos |
+
+Los tiempos dependen del tamaño y grosor del pescado. La tinta de calamar debe ser apta para consumo y cocinarse, y el bacalao requiere comprobar el desalado antes de elaborar el pilpil.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
