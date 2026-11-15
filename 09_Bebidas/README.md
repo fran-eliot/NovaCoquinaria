@@ -74,6 +74,21 @@ Estas fichas son **propuestas pendientes de prueba doméstica**. Distinguen infu
 
 En bebidas con fruta y cereal remojado se extreman la limpieza, refrigeración y el consumo cercano; la bebida de arroz no debe confundirse con una preparación de arroz cocido.
 
+## Seis bebidas nuevas: fermentados lácteos, fruta y extracción
+
+Las siguientes fichas son **formulaciones pendientes de prueba doméstica**. Se incorporan bebidas saladas, maceraciones, cremas calientes y preparaciones de servicio inmediato sin alterar las versiones anteriores.
+
+| ID | Bebida | Técnica |
+|---|---|---|
+| REC-0388 | [Ayran de yogur y menta](./ayran_de_yogur_y_menta.md) | Dilución y batido en frío |
+| REC-0389 | [Agua de tamarindo casera](./agua_de_tamarindo_casera.md) | Extracción y filtrado |
+| REC-0390 | [Atole de avena y canela](./atole_de_avena_y_canela.md) | Hidratación y espesado |
+| REC-0391 | [Affogato de vainilla y espresso](./affogato_de_vainilla_y_espresso.md) | Café caliente sobre helado |
+| REC-0392 | [Shrub de frutos rojos y vinagre de manzana](./shrub_de_frutos_rojos_y_vinagre_de_manzana.md) | Maceración refrigerada |
+| REC-0393 | [Batido verde de kiwi, manzana y espinacas](./batido_verde_de_kiwi_manzana_y_espinacas.md) | Triturado de fruta y hojas frescas |
+
+Las maceraciones ácidas no son conservas estables. Se documentan el tratamiento de frutos rojos congelados según el envase, el uso de hojas aptas para consumo crudo y la refrigeración de los preparados perecederos.
+
 ## Técnicas y diagnóstico
 - [Preparar infusiones y bebidas aromáticas](../00_Bases/03_Tecnicas/preparar_infusiones.md): temperatura, tiempo y extracción.
 - [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md): dosis, molienda, temperatura y proporción.
