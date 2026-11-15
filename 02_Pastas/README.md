@@ -78,6 +78,21 @@ Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían for
 
 Para los espaguetis con almejas se requiere producto de procedencia autorizada; la pasta fresca y la pasta rellena exigen especial atención a la cocción y conservación.
 
+## Seis propuestas nuevas: pasta rellena, salsas y platos de cuchara
+
+Estas recetas son **formulaciones pendientes de prueba doméstica**. Amplían técnicas y formatos sin modificar las recetas ni valoraciones documentadas previamente.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0364 | [Rigatoni alla gricia](./rigatoni_alla_gricia.md) | Fundido de guanciale y emulsión de queso |
+| REC-0365 | [Raviolis caseros de ricotta y espinacas](./raviolis_caseros_de_ricotta_y_espinacas.md) | Pasta fresca rellena y sellado |
+| REC-0366 | [Orzo con pollo, limón y espinacas](./orzo_con_pollo_limon_y_espinacas.md) | Pasta corta cocida en caldo |
+| REC-0367 | [Conchiglioni rellenos de atún y requesón al horno](./conchiglioni_rellenos_de_atun_y_requeson_al_horno.md) | Precocción, relleno y gratinado |
+| REC-0368 | [Fusilli con crema de pimientos asados y nueces](./fusilli_con_crema_de_pimientos_asados_y_nueces.md) | Triturado y emulsión |
+| REC-0369 | [Minestrone con pasta pequeña y alubias](./minestrone_con_pasta_pequena_y_alubias.md) | Sofrito y cocción escalonada de sopa |
+
+La cocción de la pasta rellena y del pollo debe verificarse. En sopas de pasta se ajusta el líquido para compensar la absorción; en salsas con queso se controla la temperatura para evitar grumos.
+
 ## Nuevos recorridos prácticos
 
 - **Emulsiones de queso:** [Cacio e pepe](./espaguetis_cacio_e_pepe.md) y [pasta con ricotta y limón](./pasta_limon_ricotta.md) permiten comparar el uso de queso curado y fresco, con control del calor.
