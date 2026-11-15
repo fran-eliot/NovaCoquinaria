@@ -209,6 +209,14 @@ Preparación **pendiente de prueba doméstica**; se distingue del suquet por el 
 
 Ambas son **propuestas pendientes de prueba doméstica**. La zurrukutuna se distingue de otras sopas de ajo y la zarzuela del suquet por su composición marinera.
 
+## Cocina tradicional española: sancocho canario
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0523 | [Sancocho canario de pescado salado y batata](./sancocho_canario_de_pescado_salado_y_batata.md) | Canarias: pescado desalado cocido con papas y batata, mojo y pella de gofio |
+
+Preparación **pendiente de prueba doméstica**. Se requiere desalado en frío y cocción completa del pescado.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
