@@ -232,6 +232,15 @@ Las dos formulaciones están **pendientes de prueba doméstica**. La pantxineta 
 
 Ambas recetas son **propuestas pendientes de prueba doméstica**, con espesores, levado y cocción interior que deben verificarse durante su elaboración.
 
+## Cocina tradicional española: marquesas y frangollo
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0512 | [Marquesas de almendra de Navidad](./marquesas_de_almendra_de_navidad.md) | Repostería castellana: bizcochitos de almendra |
+| REC-0513 | [Frangollo canario de maíz, leche y canela](./frangollo_canario_de_maiz_leche_y_canela.md) | Canarias: postre cremoso de maíz molido grueso |
+
+Ambas formulaciones están **pendientes de prueba doméstica**; el frangollo utiliza maíz de molienda gruesa, no almidón refinado.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
