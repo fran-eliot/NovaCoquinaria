@@ -11,8 +11,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 35 min
 raciones: 2
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.1.0
+ultima_revision: 2026-11-15
 etiquetas:
 - arroz
 - casqueria
@@ -28,6 +28,8 @@ etiquetas:
 Arroz tradicional de sabor intenso elaborado con higadillos de pollo, sofrito y caldo.
 
 Es una receta económica, sabrosa y de carácter rústico, donde el punto clave es cocinar bien los higadillos sin resecar el arroz.
+
+**Referencia doméstica documentada:** se consultó una preparación para **cuatro personas** con **300 g de arroz basmati y 600–650 ml de caldo**. Esta formulación no equivale a la versión de 180 g de arroz redondo para dos personas recogida abajo. No consta una valoración posterior del plato terminado; por tanto, se conserva como **preparación en curso / propuesta**, no como resultado probado.
 
 ---
 
@@ -54,6 +56,19 @@ Es una receta económica, sabrosa y de carácter rústico, donde el punto clave 
 * Perejil.
 
 ---
+
+# Adaptación consultada: cuatro personas con basmati
+
+| Dato | Cantidad conocida o criterio |
+|---|---|
+| Raciones | 4 |
+| Arroz | **300 g de basmati**, cantidad consultada |
+| Caldo | **600–650 ml**, referencia consultada; ajustar según arroz, lavado y recipiente |
+| Higadillos | 300–350 g **propuestos**, no peso confirmado |
+| Sofrito | Mantener cebolla, ajo y tomate, ampliados de forma proporcional al gusto |
+| Método | Cocción tapada por absorción, diferente de la versión caldosa con arroz redondo |
+
+El basmati se cocina con proporciones y tiempos propios. No trasladar mecánicamente los **600–700 ml de caldo de la receta de dos raciones con arroz redondo**. Comprobar el grano y el líquido según etiqueta y cazuela.
 
 # Mise en place
 
@@ -92,7 +107,7 @@ Antes de empezar:
 
 # Trucos
 
-* No cocinar los higadillos en exceso antes de añadir el arroz.
+* No cocinar los higadillos en exceso antes de añadir el arroz; deben quedar completamente cocinados al final. **Las vísceras de ave se cocinarán hasta 74 °C en el centro** como referencia conservadora, usando termómetro alimentario.
 * El caldo debe estar caliente para no cortar la cocción.
 * El reposo ayuda a asentar el sabor.
 
@@ -106,6 +121,12 @@ Antes de empezar:
 * Cocinar demasiado los higadillos y dejarlos secos.
 
 ---
+
+# Puntos críticos de seguridad
+
+- No lavar las vísceras crudas; evitar salpicaduras y separar superficies de alimentos listos para comer.
+- La cocción superficial del higadillo no acredita que el centro esté a temperatura segura; medir **74 °C** en los trozos más gruesos.
+- El arroz cocido requiere enfriado rápido y refrigeración inmediata si no se sirve; no dejarlo varias horas templado ni confiar en el recalentamiento para corregir una conservación insegura.
 
 # Conservación
 
@@ -128,6 +149,14 @@ Si se congela, hacerlo en raciones pequeñas.
 Recalentar suavemente en sartén o microondas añadiendo un poco de caldo o agua.
 
 ---
+
+# Relaciones con ingredientes y técnicas
+
+- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)
+- [Arroz Albufera](../11_Despensa/01_Cereales/arroz_albufera.md)
+- [Caldo de pollo](../11_Despensa/13_Bases_Culinarias/caldo_de_pollo.md)
+- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)
+- [Enfriar y recalentar arroz cocido con seguridad](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)
 
 # Referencias
 
