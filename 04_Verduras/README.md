@@ -108,6 +108,21 @@ Estas fichas son **formulaciones pendientes de prueba doméstica** y no modifica
 
 Las preparaciones crudas requieren lavado e higiene rigurosos. Se identifica el **apio** como alérgeno del apionabo, y se diferencian las hortalizas por tiempos de cocción, humedad y estructura.
 
+## Seis nuevas propuestas: hortalizas, contraste y textura
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Incorporan técnicas de asado, reducción, braseado, gratinado y preparación cruda sin modificar las recetas anteriores ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0400 | [Coles de Bruselas asadas con mostaza y miel](./coles_de_bruselas_asadas_con_mostaza_y_miel.md) | Asado y glaseado |
+| REC-0401 | [Caponata de berenjena con alcaparras y aceitunas](./caponata_de_berenjena_con_alcaparras_y_aceitunas.md) | Dorado y reducción agridulce |
+| REC-0402 | [Endivias gratinadas con jamón y bechamel](./endivias_gratinadas_con_jamon_y_bechamel.md) | Vapor y gratinado |
+| REC-0403 | [Puerros braseados con miso y sésamo](./puerros_braseados_con_miso_y_sesamo.md) | Dorado y braseado |
+| REC-0404 | [Crema de coliflor con tahini y limón](./crema_de_coliflor_con_tahini_y_limon.md) | Cocción, triturado y emulsión |
+| REC-0405 | [Ensalada de hinojo, manzana y naranja](./ensalada_de_hinojo_manzana_y_naranja.md) | Laminado y aliño en frío |
+
+Las recetas distinguen los puntos críticos de la limpieza de hortalizas, el tratamiento de lácteos y la salinidad de los condimentos. Se mantienen pendientes de prueba y comparación doméstica.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |
