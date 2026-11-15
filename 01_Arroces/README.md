@@ -78,6 +78,21 @@ Estas preparaciones son **propuestas pendientes de prueba doméstica**. No modif
 
 La cantidad de líquido depende de la variedad de arroz, del fuego y del recipiente. Si no se consume de inmediato, enfriar rápidamente y refrigerar el arroz cocido.
 
+## Seis nuevas propuestas: arroces de cazuela, pilaf, risotto y horno
+
+Las siguientes fichas son **propuestas pendientes de prueba doméstica**. Amplían técnicas y combinaciones sin modificar las preparaciones anteriores ni sus valoraciones.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0310 | [Arroz con conejo y romero](./arroz_con_conejo_y_romero.md) | Guiso previo de carne y arroz seco |
+| REC-0311 | [Arroz con sepia y guisantes](./arroz_con_sepia_y_guisantes.md) | Sofrito marino y cocción en cazuela |
+| REC-0312 | [Pilaf de arroz con azafrán, pasas y almendras](./pilaf_de_arroz_con_azafran_pasasy_almendras.md) | Nacarado y absorción tapada |
+| REC-0313 | [Arroz a la cubana con tomate, huevo y plátano](./arroz_a_la_cubana_con_tomate_huevo_y_platano.md) | Cocciones separadas y montaje |
+| REC-0314 | [Risotto de remolacha y queso de cabra](./risotto_de_remolacha_y_queso_de_cabra.md) | Caldo gradual y mantecadatura |
+| REC-0315 | [Arroz al horno con berenjena, tomate y mozzarella](./arroz_al_horno_con_berenjena_tomate_y_mozzarella.md) | Precocción, horno y gratinado |
+
+Las proporciones de líquido varían según el tipo de arroz y el recipiente. Las sobras de arroz cocido requieren enfriamiento rápido y refrigeración sin demora.
+
 ## Elegir por textura y método
 
 | Objetivo | Preparación |
