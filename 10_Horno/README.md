@@ -238,3 +238,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: Coca de recapte catalana con escalivada
 
 - **REC-531 — [Coca de recapte catalana con escalivada](./coca_de_recapte_catalana_con_escalivada.md)** (Cataluña): masa fermentada y cobertura de verduras asadas. Propuesta pendiente de prueba doméstica; no se atribuye elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Empanada gallega de zorza
+
+- **REC-537 — [Empanada gallega de zorza](./empanada_gallega_de_zorza.md)** (Galicia): masa fermentada con relleno de cerdo adobado. Propuesta pendiente de prueba doméstica, sin valoración atribuida.
