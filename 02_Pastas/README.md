@@ -177,3 +177,7 @@ Se presenta como **adaptación doméstica pendiente de prueba** y se distinguen 
 ## Utilizado por
 
 Punto de entrada del dominio Pastas y guía de navegación entre recetas, técnicas, ingredientes y plantillas.
+
+## Cocina tradicional española: Fideos a la cazuela catalanes con costilla
+
+- **REC-550 — [Fideos a la cazuela catalanes con costilla](./fideos_a_la_cazuela_catalanes_con_costilla.md)** (Cataluña): guiso de pasta con costilla y sofrito. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.

@@ -296,3 +296,7 @@ Punto de entrada para recetas, ingredientes, técnicas y plantillas del dominio 
 ## Cocina tradicional española: Alubias de Tolosa con berza
 
 - **REC-545 — [Alubias de Tolosa con berza](./alubias_de_tolosa_con_berza.md)** (Gipuzkoa, País Vasco): cocción lenta de alubia negra y guarniciones separadas. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Garbanzos con langostinos gaditanos
+
+- **REC-551 — [Garbanzos con langostinos gaditanos](./garbanzos_con_langostinos_gaditanos.md)** (Cádiz, Andalucía): caldo de marisco y legumbre previamente cocida. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
