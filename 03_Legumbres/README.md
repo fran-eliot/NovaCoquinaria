@@ -62,6 +62,10 @@ Las siguientes recetas son **formulaciones pendientes de prueba** y no deben con
 | REC-0209 | [Ensalada templada de judiones y pimientos asados](./ensalada_templada_de_judiones_y_pimientos_asados.md) | Calentamiento suave y vinagreta |
 | REC-0210 | [Crema untable de alubias blancas y ajo asado](./hummus_de_alubias_blancas_y_ajo_asado.md) | Asado de ajo y emulsión |
 
+## Frijoles refritos: técnica de machacado y ligado
+
+- **REC-0229 — [Frijoles refritos con ajo y comino](./frijoles_refritos_con_ajo_y_comino.md)**: preparación propuesta con frijoles **ya cocidos**, sofrito y machacado en sartén. No sustituye la cocción segura de legumbres secas ni acredita prueba doméstica.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
