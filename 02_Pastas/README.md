@@ -63,6 +63,21 @@ Las siguientes recetas son **formulaciones de referencia pendientes de prueba do
 | REC-0248 | [Ñoquis caseros de patata con mantequilla y salvia](./noquis_caseros_de_patata_con_mantequilla_y_salvia.md) | Masa de patata y formado |
 | REC-0249 | [Linguine con calabacín, limón y almendras](./linguine_con_calabacin_limon_y_almendras.md) | Salteado, emulsión y contraste crujiente |
 
+## Seis nuevas preparaciones: pasta fresca, marisco y salsas
+
+Estas fichas son **formulaciones pendientes de prueba doméstica**. Amplían formatos y técnicas sin alterar las recetas ni valoraciones anteriores.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0304 | [Penne all'arrabbiata](./penne_all_arrabbiata.md) | Sofrito picante y tomate reducido |
+| REC-0305 | [Espaguetis con almejas y vino blanco](./espaguetis_con_almejas_y_vino_blanco.md) | Apertura de bivalvos y emulsión |
+| REC-0306 | [Pasta fresca al huevo casera](./pasta_fresca_al_huevo_casera.md) | Amasado, reposo y laminado |
+| REC-0307 | [Fusilli con pesto rojo de tomates secos](./fusilli_con_pesto_rojo_de_tomates_secos.md) | Triturado y ligado fuera del hervor |
+| REC-0308 | [Bucatini con sardinas, pasas y piñones](./bucatini_con_sardinas_pasas_y_pinones.md) | Pescado azul y contraste de texturas |
+| REC-0309 | [Tortellini en caldo de verduras](./tortellini_en_caldo_de_verduras.md) | Caldo limpio y cocción de pasta rellena |
+
+Para los espaguetis con almejas se requiere producto de procedencia autorizada; la pasta fresca y la pasta rellena exigen especial atención a la cocción y conservación.
+
 ## Nuevos recorridos prácticos
 
 - **Emulsiones de queso:** [Cacio e pepe](./espaguetis_cacio_e_pepe.md) y [pasta con ricotta y limón](./pasta_limon_ricotta.md) permiten comparar el uso de queso curado y fresco, con control del calor.
