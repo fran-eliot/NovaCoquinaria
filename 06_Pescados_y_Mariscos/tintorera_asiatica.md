@@ -11,7 +11,7 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 8 min
 raciones: 2
 estado: estable
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-15
 etiquetas:
 - tintorera
@@ -33,7 +33,7 @@ Es una receta ligera que admite numerosas verduras y acompañamientos.
 
 ## Adaptación consultada: tintorera de 200 g
 
-**Preparación doméstica confirmada:** esta receta de tintorera asiática se ha cocinado en casa. En una consulta se trató cómo preparar una pieza de **200 g**, entera o troceada, pero **no consta si esa fue exactamente la pieza utilizada**, qué corte se eligió ni qué resultado tuvo en sabor o textura. La formulación general para dos filetes se conserva como referencia; sus cantidades no están confirmadas como las empleadas.
+**Preparación doméstica confirmada y valoración global muy satisfactoria.** Esta receta de tintorera asiática se ha cocinado en casa y el resultado se recuerda como muy satisfactorio. En una consulta se trató cómo preparar una pieza de **200 g**, entera o troceada, pero **no consta si esa fue exactamente la pieza utilizada**, qué corte se eligió ni los detalles concretos del sabor o la textura. La formulación general para dos filetes se conserva como referencia; sus cantidades no están confirmadas como las empleadas.
 
 Una pieza entera permite manipular menos un filete delgado; dados grandes regulares facilitan el salteado con verduras. Elegir según grosor y ajustar los minutos al tamaño real: los tiempos genéricos no garantizan el punto.
 
