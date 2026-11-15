@@ -53,7 +53,7 @@ Las tres elaboraciones muestran cómo adaptar la cocción al corte de carne y eq
 ## Preparaciones de la cocina doméstica
 
 - [Ternera con bambú](./ternera_bambu.md): preparación cocinada y valorada muy bien; ajustes pendientes de salsa, color y textura del bambú.
-- [Ropa vieja de inspiración cubana](./ropa_vieja_base_y_pulled_pork.md) (REC-0193): base orientativa de carne deshebrada y variante de **650 g de pulled pork ya cocinado**, todavía sin prueba confirmada.
+- [Ropa vieja cubana con ternera](./ropa_vieja_base_y_pulled_pork.md) (REC-0193): preparación doméstica elaborada varias veces; la fórmula actual para 650–750 g de ternera es orientativa porque no se conservan las dosis originales. La variante posterior de **650 g de pulled pork ya cocinado** permanece pendiente de prueba.
 
 La experiencia y las diferencias entre recetas probadas y adaptaciones propuestas se recogen en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
 
