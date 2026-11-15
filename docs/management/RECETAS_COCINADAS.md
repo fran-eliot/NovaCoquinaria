@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.0.0
+version: 1.1.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -39,12 +39,24 @@ No todas las proporciones se anotaron al cocinar: cuando una receta propone cant
 | [Arroz con higadillos](../../01_Arroces/arroz_higadillos.md) | Se consultó y preparó el planteamiento de **4 raciones con 300 g de basmati y 600–650 ml de caldo**. No hay confirmación del resultado final. | Mantener como adaptación documentada **sin valoración posterior**, separada de la versión de arroz redondo para dos personas. |
 | [Ropa vieja, base y variante pulled pork](../../05_Carnes/ropa_vieja_base_y_pulled_pork.md) | La ropa vieja de inspiración cubana ya se había hecho otras veces; no constan cantidades exactas. La propuesta de **650 g de pulled pork precocinado** no tiene prueba confirmada. | Receta base orientativa y adaptación con pulled pork **pendiente de prueba**, diferenciadas. |
 
-## Otras recetas presentes en el recetario
+## Recetas consultadas o documentadas sin valoración posterior
 
-Otras elaboraciones del proyecto ya cuentan con ficha, pero no disponemos de una valoración del resultado o de las cantidades realmente utilizadas. No se reclasifican automáticamente como **probadas con seguimiento**:
+Estas fichas forman parte del repertorio de cocina de interés, pero una solicitud de receta o una consulta sobre ingredientes **no equivale a haber cocinado y probado un plato**. Hasta recibir un resultado de la preparación, mantienen carácter de referencia.
 
-- [Arroz chaufa](../../01_Arroces/arroz_chaufa.md).
-- [Champiñones Sichuán](../../04_Verduras/champiñones_sichuan.md).
+| Receta | Contexto documentado | Información que falta |
+|---|---|---|
+| [Arroz chaufa](../../01_Arroces/arroz_chaufa.md) | Se solicitó la receta; contiene una formulación de arroz frito con cerdo, huevo y cebolleta. | Confirmación de preparación, peso de arroz cocido, resultado y ajustes. |
+| [Tintorera asiática](../../06_Pescados_y_Mariscos/tintorera_asiatica.md) | Se consultó si preparar **una pieza de 200 g** entera o en trozos. | Corte finalmente elegido, tiempo real de cocción y valoración. |
+| [Caballa japonesa](../../06_Pescados_y_Mariscos/caballa_japonesa.md) | Receta registrada con salsa de soja y mirin. | Preparación y resultado efectivamente observados. |
+| [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Receta de referencia con ternera, soja y jengibre. | Confirmación de ejecución, punto seguro y sabor final. |
+| [Curry verde de pollo](../../05_Carnes/curry_verde_de_pollo.md) | Formulación de referencia con pasta de curry y leche de coco. | Marca y cantidad utilizadas y resultado de picante y textura. |
+| [Curry amarillo de pollo](../../05_Carnes/curry_amarillo_de_pollo.md) | Formulación de referencia de la plantilla de curry. | Confirmación de elaboración y ajuste real de condimentos. |
+| [Champiñones Sichuán](../../04_Verduras/champiñones_sichuan.md) | Ficha incluida en el recetario, sin registro de una valoración doméstica específica. | Resultado, cantidades efectivas y preferencias de textura. |
+
+### Para convertir una receta de referencia en receta probada
+
+Registrar únicamente lo observado tras cocinar: fecha aproximada, número de raciones, ingrediente y cantidad que condicionaron la receta, corte, tiempos reales, resultado (sabor, textura y salsa) y cambios para una futura repetición. Si no se midió un dato, señalarlo como **desconocido** y evitar rellenarlo con una estimación presentada como hecho.
+
 
 ## Adaptaciones pendientes de probar o confirmar
 
