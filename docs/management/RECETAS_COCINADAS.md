@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.5.0
+version: 1.6.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -29,6 +29,26 @@ No todas las proporciones se anotaron al cocinar: cuando una receta propone cant
 | [Seitán con bambú y salsa china oscura](../../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md) | 250 g de seitán; bambú hervido 5 minutos; resultado muy bueno, con ajuste de soja oscura y salsa abundante. | Medir volúmenes definitivos de salsa, color y densidad, sin aumentar en exceso la sal. |
 | [Tarta de galletas y natillas con café y Amaretto](../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas comerciales; tres capas de galletas y tres de natillas; baño de café, Amaretto y aroma de naranja; 24 h de refrigeración; resultado muy bueno. | Medir galletas, café y licor según el molde utilizado. |
 | [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | Receta doméstica adaptada a 840 g de manzana limpia, con 200 g para la superficie. **El lemon curd se diluyó con algo de agua, perdió su consistencia cremosa y se observó líquido en el fondo**, un acabado que no gustó. | Probar una **mermelada espesa sin diluir**, colocada sobre la superficie; comprobar que permanece arriba. No se ha demostrado que la dilución fuera la única causa del líquido. |
+
+## Preparaciones domésticas recuperadas: pan de yuca y zanahorias aliñadas
+
+### Pan de yuca colombiano — preparación de enero de 2026
+
+Se preparó y amasó a mano una masa para [pan de yuca casero](../../10_Horno/pan_de_yuca_colombiano_casero.md) con **300 g de mezcla de almidones de maíz y yuca, 230 g de queso molido, 1 huevo L, 25 g de margarina y 150–180 ml de agua**. La masa reposó **10 minutos**. Se consultó un horneado **sin ventilador a 180–190 °C durante 15–20 minutos**.
+
+**Estado de evidencia:** amasado y reposo confirmados, horneado orientado; **no consta valoración posterior de los panecillos terminados**. La mezcla y el queso exactos no quedaron identificados. No atribuir a la preparación una textura final ni una puntuación.
+
+### Zanahorias cocidas: una base y tres aliños — septiembre de 2026
+
+Se preparó una base de **1 kg de zanahorias peladas y cocidas**, repartida en **tres porciones de aproximadamente 330 g**, para aliños de inspiración **andaluza, magrebí y asiática**. Se recomendó dejar reposar los aliños aproximadamente **12 horas**.
+
+| Receta | Dato confirmado | Pendiente de recuperar o contrastar |
+|---|---|---|
+| [Zanahorias aliñadas andaluzas](../../04_Verduras/zanahorias_alinadas_andaluzas.md) (REC-0195) | Una de las tres porciones cocidas de aproximadamente 330 g, destinada a aliño andaluz | Ingredientes realmente dosificados, resultado y valoración |
+| [Zanahorias aliñadas magrebíes](../../04_Verduras/zanahorias_alinadas_magrebies.md) (REC-0196) | Otra porción de aproximadamente 330 g, destinada a aliño magrebí | Especias y ácido realmente usados, resultado y valoración |
+| [Zanahorias aliñadas asiáticas](../../04_Verduras/zanahorias_alinadas_asiaticas.md) (REC-0197) | Tercera porción de aproximadamente 330 g, destinada a aliño asiático | Salsas, aceite y vinagre realmente usados, resultado y valoración |
+
+Las tres fichas proponen aliños reproducibles, **sin afirmar que sus dosis exactas fueron las utilizadas**. No consta una valoración final de ninguna de las tres porciones.
 
 ## Repetición comparativa de recetas con resultado conocido
 
