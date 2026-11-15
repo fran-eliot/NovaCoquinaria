@@ -163,6 +163,14 @@ Receta **pendiente de prueba doméstica**; indicar sésamo entre los alérgenos 
 
 Propuesta **pendiente de prueba doméstica**; exige refrigeración y caramelizado seguro en recipientes adecuados.
 
+## Cocina tradicional española: casadielles asturianas
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0465 | [Casadielles asturianas de nueces y anís](./casadielles_asturianas_de_nueces_y_anis.md) | Asturias: masa fina rellena de nueces, sellado y fritura |
+
+Preparación **pendiente de prueba doméstica**, diferenciada de los frixuelos y otras masas dulces.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
