@@ -227,6 +227,14 @@ Formulaciones **pendientes de prueba doméstica** con atención a los productos 
 
 Preparación **pendiente de prueba doméstica**, con cocción completa del pollo y salsa ligada al final.
 
+## Cocina tradicional española: cochifrito segoviano
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0517 | [Cochifrito segoviano de cochinillo](./cochifrito_segoviano_de_cochinillo.md) | Segovia: cocción inicial y fritura final crujiente |
+
+Receta **pendiente de prueba doméstica**; se diferencia del cochinillo asado por su técnica y acabado.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
