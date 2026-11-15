@@ -44,6 +44,15 @@ Organizar elaboraciones dulces domésticas por estructura, técnica y punto de c
 
 Las recetas comparan fruta asada, postres por capas y miga aireada sin confundir sus necesidades de cocción y conservación.
 
+## Repostería de casa y recetas probadas
+
+| ID | Receta | Experiencia |
+|---|---|---|
+| REC-0192 | [Tarta de galletas y natillas con café y Amaretto](./tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas, tres capas de cada tipo y reposo de 24 horas: resultado muy bueno |
+| REC-0079 | [Pastel de manzana de textura húmeda](./pastel_de_manzana.md) | Adaptación de una receta doméstica previa; 840 g de manzana limpia y 200 g de cobertura |
+
+Las experiencias y los ajustes están reunidos en el [registro de recetas cocinadas](../docs/management/RECETAS_COCINADAS.md).
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.
