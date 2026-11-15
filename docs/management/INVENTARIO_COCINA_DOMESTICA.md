@@ -53,6 +53,10 @@ Las siguientes preparaciones se han realizado y se dispone de una valoración, p
 
 Las valoraciones son apreciaciones domésticas y no escalas numéricas. **La confirmación de cocción no identifica automáticamente la versión principal preferida.**
 
+## Otra elaboración recuperada con valoración positiva
+
+- **[Magret de pato de inspiración Sichuán](../../05_Carnes/magret_de_pato_estilo_sichuan.md) (REC-0225):** magret asiático realmente cocinado, recordado como **«muy rico»**. La formulación de referencia de 500 g y la salsa Sichuán de febrero de 2026 son antecedentes de una propuesta; la identificación exacta de la variante cocinada queda pendiente. **No se ha confirmado una frecuencia de preparación habitual.**
+
 ## Preparaciones iniciadas, adaptadas o consultadas sin resultado confirmado
 
 | Preparación | Evidencia disponible | Dato que falta para clasificarla |
