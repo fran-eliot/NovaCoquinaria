@@ -4,7 +4,7 @@ tipo: documento
 titulo: Recetas cocinadas en casa
 categoria: Gestión del conocimiento
 estado: borrador
-version: 1.4.0
+version: 1.5.0
 ultima_revision: 2026-11-15
 etiquetas:
   - recetas
@@ -29,6 +29,21 @@ No todas las proporciones se anotaron al cocinar: cuando una receta propone cant
 | [Seitán con bambú y salsa china oscura](../../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md) | 250 g de seitán; bambú hervido 5 minutos; resultado muy bueno, con ajuste de soja oscura y salsa abundante. | Medir volúmenes definitivos de salsa, color y densidad, sin aumentar en exceso la sal. |
 | [Tarta de galletas y natillas con café y Amaretto](../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md) | 1 litro de natillas comerciales; tres capas de galletas y tres de natillas; baño de café, Amaretto y aroma de naranja; 24 h de refrigeración; resultado muy bueno. | Medir galletas, café y licor según el molde utilizado. |
 | [Pastel de manzana de textura húmeda](../../08_Postres/pastel_de_manzana.md) | Receta doméstica adaptada a 840 g de manzana limpia, con 200 g para la superficie. **El lemon curd se diluyó con algo de agua, perdió su consistencia cremosa y se observó líquido en el fondo**, un acabado que no gustó. | Probar una **mermelada espesa sin diluir**, colocada sobre la superficie; comprobar que permanece arriba. No se ha demostrado que la dilución fuera la única causa del líquido. |
+
+## Repetición comparativa de recetas con resultado conocido
+
+Las fichas siguientes incorporan propuestas concretas para **repetir y medir** preparaciones ya cocinadas. Las dosis de prueba no se presentan como cantidades utilizadas originalmente.
+
+| Preparación | Aspecto a conservar | Variable que se propone comprobar |
+|---|---|---|
+| [Berenjenas chinas estilo Sichuán](../../07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md) | Sabor muy rico y textura supercremosa también apreciada | Trozos pequeños frente a 5–6 cm, controlando el glaseado |
+| [Seitán con bambú](../../07_Cocina_Asiatica/seitan_con_bambu_y_salsa_oscura.md) | 250 g de seitán; bambú hervido 5 minutos; salsa abundante y oscura | Volumen final, dosis de maicena y soja oscura |
+| [Ternera con bambú](../../05_Carnes/ternera_bambu.md) | Resultado muy rico | Salsa más abundante y adherente; punto del bambú |
+| [Habas con jamón](../../04_Verduras/habas_jamon.md) | Resultado muy rico con ajo, pimentón, tomillo y vino | Dosis de especias y vino, según formato de las habas |
+| [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) | Valoración muy satisfactoria de una pieza de 200 g | Cantidad de soja y sésamo; peso y grosor comparables |
+| [Hamburguesa especiada](../../05_Carnes/hamburguesa_especiada.md) | Valoración rica de una pieza de 200 g | Pimentón, comino y ajo respecto a la asiática |
+
+Para documentar cada repetición, basta registrar la **cantidad realmente empleada**, el **punto de cocción**, el **resultado percibido** y si el ajuste **mejora, mantiene o empeora** la versión anterior. No sustituir una valoración histórica por una previsión técnica.
 
 ## Más preparaciones domésticas recuperadas
 
