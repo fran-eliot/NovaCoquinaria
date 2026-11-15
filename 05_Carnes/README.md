@@ -50,6 +50,13 @@ El módulo **Carnes** reúne recetas y técnicas para cocinar proteínas animale
 
 Las tres elaboraciones muestran cómo adaptar la cocción al corte de carne y equilibrar dulzor, acidez, salinidad y aromas sin quemar las salsas.
 
+## Preparaciones de la cocina doméstica
+
+- [Ternera con bambú](./ternera_bambu.md): preparación cocinada y valorada muy bien; ajustes pendientes de salsa, color y textura del bambú.
+- [Ropa vieja de inspiración cubana](./ropa_vieja_base_y_pulled_pork.md) (REC-0193): base orientativa de carne deshebrada y variante de **650 g de pulled pork ya cocinado**, todavía sin prueba confirmada.
+
+La experiencia y las diferencias entre recetas probadas y adaptaciones propuestas se recogen en [Recetas cocinadas en casa](../docs/management/RECETAS_COCINADAS.md).
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.
