@@ -4,7 +4,7 @@ tipo: receta
 titulo: Berenjenas chinas estilo Sichuán con salsa oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
+version: 1.0.1
 ultima_revision: 2026-11-15
 etiquetas:
   - berenjena
@@ -107,6 +107,27 @@ Berenjena bien impregnada de una salsa oscura, intensa, agridulce y ligeramente 
 | Salsa muy salada | Acumulación de soja y ostras | Probar antes de añadir soja oscura |
 | Amargor | Ajo o azúcar quemados | Bajar fuego antes de aromáticos y salsa |
 | Salteado aguado | Sartén demasiado llena | Trabajar por tandas |
+
+## Próxima repetición: elegir la textura sin cambiar la salsa
+
+**Punto de partida conocido:** berenjenas cocinadas con resultado muy sabroso; el corte pequeño y la cocción prolongada dieron una textura muy blanda pero también agradable. Se añadió soja oscura para lograr un color más intenso.
+
+Para comparar dos resultados sin alterar todos los factores a la vez:
+
+1. Preparar la **misma mezcla de salsa** para toda la tanda y reservar un poco para el ajuste final de color.
+2. Dividir la berenjena en dos porciones de peso semejante. Cortar la primera en trozos pequeños, como referencia de textura cremosa, y la segunda en tramos de **5–6 cm** para probar mayor estructura.
+3. Saltear las porciones **por separado**, con el mismo tipo de sartén y calor comparable; registrar minutos reales, cantidad de aceite y agua necesaria.
+4. Añadir a cada porción su parte de la salsa solo al final. Valorar si mantiene la forma al levantarla con espátula y cómo queda al morder.
+5. Ajustar soja oscura **en gotas**, anotando la cantidad añadida solo después de probar salinidad.
+
+| Dato de la prueba | Qué anotar |
+|---|---|
+| Corte | Longitud aproximada y grosor de cada tipo de pieza |
+| Tiempo | Minutos de salteado y de glaseado de cada porción |
+| Salsa | Cantidad final de soja oscura y agua añadida |
+| Resultado | Cremosa / con estructura, intensidad salada y preferencia personal |
+
+**No inferir:** las dosis anteriores son una propuesta de reproducción; no se recuperaron medidas exactas de la tanda original.
 
 ## Conservación
 

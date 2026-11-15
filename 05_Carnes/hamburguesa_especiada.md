@@ -12,7 +12,7 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-15
 etiquetas:
 - hamburguesa
@@ -38,6 +38,22 @@ Es una receta muy versátil que puede adaptarse fácilmente al perfil de especia
 Esta experiencia no debe confundirse con la formulación estándar de **400 g para dos hamburguesas especiadas** que figura a continuación. Las proporciones de referencia de ajo y cebolla en polvo y las variantes de hierbas no acreditan por sí mismas haber sido utilizadas en aquella preparación.
 
 La valoración recuperada es global (**rica**), sin una puntuación numérica ni detalles adicionales registrados de jugosidad, punto de cocción o acompañamientos. Para una repetición, conviene anotar dosis efectivas de especias, peso y grosor, tiempo y temperatura interna segura de la carne picada.
+
+## Repetición de la hamburguesa especiada individual
+
+**Experiencia confirmada:** se cocinaron dos hamburguesas de ternera muy magra, **200 g cada una**, una asiática y otra especiada; la especiada se recuerda como **rica**. El condimento utilizado incluía ajo, pimentón dulce, una pizca de comino, sal, pimienta y aceite de oliva. **No constan las cantidades exactas de especias**.
+
+La formulación general de 400 g más abajo está pensada para **dos hamburguesas especiadas**, no para recrear literalmente aquella tanda de una pieza por variante.
+
+### Adaptación propuesta a una sola pieza
+
+- **200 g de ternera picada muy magra** y aceite de oliva suficiente para evitar adherencias.
+- Como punto de partida, **1/4 cucharadita de pimentón dulce**, una pizca de comino, ajo en polvo o fresco al gusto, pimienta y sal moderada. Son **dosis propuestas**, no cantidades medidas originalmente.
+- Mezclar de forma suave, formar una pieza de grosor regular y cocinar la carne picada completamente, comprobando la temperatura central segura con termómetro.
+- Registrar **grosor, minutos reales, dosis, sazón y jugosidad**. Evitar comparar hamburguesas de tamaños diferentes si se busca aislar el efecto de las especias.
+- Para una comparación controlada, preparar junto con la [hamburguesa asiática](./hamburguesa_asiatica.md) con el mismo peso y grosor, variando solo el condimento.
+
+**Resultado anterior:** rico, sin puntuación ni descripción más detallada. Las cantidades para la próxima prueba están pendientes de contraste.
 
 # Información general
 

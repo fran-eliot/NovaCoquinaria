@@ -4,7 +4,7 @@ tipo: receta
 titulo: Seitán con bambú y salsa china oscura
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
+version: 1.0.1
 ultima_revision: 2026-11-15
 etiquetas:
   - seitan
@@ -113,6 +113,28 @@ Seitán tierno con algo de dorado, bambú firme y salsa generosa, oscura, brilla
 | Salsa excesivamente espesa | Demasiada maicena | Añadir agua caliente en pequeñas tandas |
 | Bambú con textura desagradable | Preparación no adaptada al formato | Seguir etiqueta y escaldar cuando proceda |
 | Salsa salada | Incrementar soja para ganar volumen | Aumentar agua y ajustar ligado |
+
+## Próxima repetición: controlar salsa abundante y brillo
+
+**Punto de partida confirmado:** 250 g de seitán; bambú hervido **5 minutos** y con buen punto; salsa oscura, abundante y brillante, con ajuste adicional de soja oscura. El resultado fue muy bueno.
+
+Para repetir con menos incertidumbre:
+
+1. Mantener los **250 g de seitán** y anotar peso escurrido del bambú y su presentación comercial; seguir siempre la preparación segura que indique el envase.
+2. Partir de **140 ml de líquido** de la formulación propuesta y reservar otros 40 ml para aumentar el volumen solo si hace falta; registrar cuánto se usó realmente.
+3. Mezclar **la maicena con agua fría** y añadir primero solo parte de la suspensión. Cocinar brevemente y observar la consistencia antes de incorporar más.
+4. Evaluar si la salsa **recubre el seitán y sigue dejando líquido en la sartén**. Si espesa demasiado, añadir agua caliente por cucharadas, no soja.
+5. Añadir la soja oscura al final, en pequeñas dosis medidas, y probar salinidad antes de repetir.
+
+| Variable | Resultado a conservar o medir |
+|---|---|
+| Seitán | 250 g (confirmado en la elaboración anterior) |
+| Bambú | 5 minutos de hervor, si el formato lo permite (confirmado) |
+| Volumen de salsa | Cantidad de líquido realmente incorporada y sobrante |
+| Ligado | Dosis efectiva de maicena para recubrimiento sin gel |
+| Color | Cantidad adicional de soja oscura, por medir |
+
+**No inferir:** las cantidades de salsa y maicena de esta ficha son orientativas, no el registro exacto de la preparación valorada.
 
 ## Conservación
 
