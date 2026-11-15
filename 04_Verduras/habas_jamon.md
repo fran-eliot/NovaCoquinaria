@@ -11,7 +11,7 @@ tiempo_preparacion: 10 min
 tiempo_coccion: 15 min
 raciones: 2
 estado: estable
-version: 1.1.0
+version: 1.1.1
 ultima_revision: 2026-11-15
 etiquetas:
 - habas
@@ -117,6 +117,25 @@ Puede enriquecerse con:
 - **Sazonado:** probar antes de añadir sal, porque el jamón ya aporta suficiente.
 - **Para registrar:** peso de habas, cantidad real de vino, pimentón y tomillo, y tiempo efectivo hasta que queden tiernas.
 - **Tipo de haba:** ajustar tiempos según si es fresca, congelada y tierna o más madura; no asumir un único tiempo de cocción.
+
+# Próxima repetición de la versión con pimentón, tomillo y vino
+
+La versión preparada con **ajo, jamón, pimentón, tomillo y vino blanco** fue valorada como **muy rica**. Las cantidades concretas de las especias y del vino no quedaron medidas.
+
+Para hacer reproducible ese buen resultado sin cambiar varios elementos a la vez:
+
+1. Tomar **400 g de habas y 80–100 g de jamón** como base orientativa de la ficha, aclarando si las habas son frescas o congeladas.
+2. Medir el ajo y preparar **1/2 cucharadita de pimentón dulce** y **una pizca de tomillo** como cantidades iniciales propuestas; no se conocen las dosis originales.
+3. Pochar los aromáticos, calentar brevemente el jamón y **retirar la sartén del fuego antes de incorporar pimentón**, para que no se queme.
+4. Añadir un **chorro de vino blanco medido** y cocinar a hervor suave; incorporar habas y completar su cocción según el tamaño. El alcohol puede no desaparecer completamente.
+5. Probar antes de salar: la cantidad y tipo de jamón condicionan el resultado.
+
+| Dato para registrar | Observación |
+|---|---|
+| Habas | Peso, formato y tiempo hasta ternura |
+| Especias | Dosis realmente usada de pimentón y tomillo |
+| Vino | Mililitros añadidos y tiempo de cocción posterior |
+| Resultado | Textura de haba, salinidad del jamón y equilibrio aromático |
 
 # Presentación
 
