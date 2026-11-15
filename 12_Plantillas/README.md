@@ -102,6 +102,21 @@ Las marinadas son **patrones de sazón y tratamiento superficial**, no métodos 
 
 Las nuevas fórmulas son **referencias pendientes de prueba doméstica** y no modifican las cantidades ni las valoraciones de recetas ya registradas.
 
+## Patrones de cocción para arroces y horno
+
+Estas plantillas ofrecen **puntos de partida adaptables**; el tipo de arroz, el grosor del alimento, el recipiente y el calor modifican la proporción de líquido y los tiempos. No sustituyen recetas existentes.
+
+| ID | Plantilla | Aplicación principal |
+|---|---|---|
+| PLA-0212 | [Arroz seco en cazuela](./05_Arroces/arroz_seco_en_cazuela_base.md) | Absorción y evaporación |
+| PLA-0213 | [Arroz meloso o caldoso](./05_Arroces/arroz_meloso_o_caldoso_base.md) | Texturas de cuchara |
+| PLA-0214 | [Pescado al horno](./04_Cocciones/pescado_al_horno_base.md) | Horneado según grosor |
+| PLA-0215 | [Verduras al horno por tandas](./04_Cocciones/verduras_al_horno_por_tandas_base.md) | Cocciones escalonadas |
+| PLA-0216 | [Rebozado y fritura por tandas](./04_Cocciones/rebozado_y_fritura_por_tandas_base.md) | Cortezas y control del aceite |
+| PLA-0217 | [Verduras rellenas al horno](./04_Cocciones/verduras_rellenas_al_horno_base.md) | Precocción, relleno y gratinado |
+
+Las seis plantillas son patrones propuestos para adaptar y contrastar en preparaciones reales. Las fórmulas y las valoraciones históricas permanecen intactas.
+
 # Relación con otros módulos
 
 ## 00_Bases
