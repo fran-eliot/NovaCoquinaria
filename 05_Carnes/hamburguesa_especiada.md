@@ -12,8 +12,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.0
-ultima_revision: 2026-07-03
+version: 1.0.1
+ultima_revision: 2026-11-15
 etiquetas:
 - hamburguesa
 - especias
@@ -30,6 +30,14 @@ Hamburguesa casera aromatizada con una mezcla de especias que potencia el sabor 
 Es una receta muy versátil que puede adaptarse fácilmente al perfil de especias preferido.
 
 ---
+
+## Experiencia doméstica y valoración
+
+**Preparación confirmada; resultado recordado como rico.** En una elaboración de dos hamburguesas de ternera muy magra se utilizaron **400 g de carne en total**, repartidos en **dos piezas de 200 g**, una asiática y otra especiada. La versión especiada incorporaba **ajo, pimentón dulce, una pizca de comino, sal, pimienta y aceite de oliva**.
+
+Esta experiencia no debe confundirse con la formulación estándar de **400 g para dos hamburguesas especiadas** que figura a continuación. Las proporciones de referencia de ajo y cebolla en polvo y las variantes de hierbas no acreditan por sí mismas haber sido utilizadas en aquella preparación.
+
+La valoración recuperada es global (**rica**), sin una puntuación numérica ni detalles adicionales registrados de jugosidad, punto de cocción o acompañamientos. Para una repetición, conviene anotar dosis efectivas de especias, peso y grosor, tiempo y temperatura interna segura de la carne picada.
 
 # Información general
 
@@ -86,7 +94,7 @@ Consultar:
 1. Mezclar suavemente la carne con las especias.
 2. Formar dos hamburguesas del mismo grosor.
 3. Calentar una sartén o plancha.
-4. Cocinar por ambas caras hasta alcanzar el punto deseado.
+4. Cocinar por ambas caras hasta que la carne picada quede completamente cocinada; comprobar con termómetro el centro de cada hamburguesa, sin confiar solamente en el color exterior.
 5. Dejar reposar 2–3 minutos antes de servir.
 
 ---
