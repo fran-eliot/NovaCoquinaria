@@ -81,6 +81,21 @@ Las fichas siguientes amplían formas de utilizar legumbres **ya cocidas**. Son 
 
 La forma de cocinar cada legumbre seca se documenta en [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md); estas recetas requieren disponer de legumbres completamente cocidas.
 
+## Seis propuestas de legumbres: harina, salsas y nuevas texturas
+
+Estas seis fichas son **formulaciones pendientes de prueba doméstica**. Abarcan harina de garbanzo, legumbres cocidas y guisantes partidos secos, con preparaciones y requisitos de cocción diferentes.
+
+| ID | Receta | Técnica |
+|---|---|---|
+| REC-0334 | [Socca de harina de garbanzos al horno](./socca_de_harina_de_garbanzos_al_horno.md) | Hidratación de harina y horno |
+| REC-0335 | [Ragú de lentejas con tomate y setas](./ragu_de_lentejas_con_tomate_y_setas.md) | Sofrito, dorado y reducción |
+| REC-0336 | [Ensalada de garbanzos especiada de inspiración chaat](./ensalada_de_garbanzos_especiada_estilo_chaat.md) | Aliño ácido y especiado |
+| REC-0337 | [Crema de guisantes partidos con puerro y menta](./crema_de_guisantes_partidos_con_puerro_y_menta.md) | Cocción de legumbre seca partida |
+| REC-0338 | [Alubias blancas crujientes con pimentón y limón](./alubias_blancas_crujientes_con_pimenton_y_limon.md) | Secado y asado de legumbre cocida |
+| REC-0339 | [Hamburguesas de frijoles negros y avena](./hamburguesas_de_frijoles_negros_y_avena.md) | Machacado, ligado y sartén |
+
+La harina de garbanzo y los guisantes partidos secos **no** se tratan como legumbres previamente cocidas. Los frijoles y alubias de las otras propuestas deben estar ya completamente cocidos.
+
 ## Ingredientes de autoridad
 
 | ID | Ingrediente | Aplicación principal |
