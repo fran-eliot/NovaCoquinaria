@@ -11,7 +11,7 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-15
 etiquetas:
 - hamburguesa
@@ -33,7 +33,7 @@ Combina la estructura de una hamburguesa clásica con el perfil aromático de un
 
 ## Estado de experiencia doméstica
 
-**Preparación doméstica confirmada:** esta hamburguesa asiática se ha cocinado en casa. **No constan todavía su valoración final ni los ingredientes, cantidades y tiempos exactos de aquella preparación**. La formulación que sigue se mantiene como referencia, sin atribuirle una ejecución idéntica.
+**Preparación doméstica confirmada y valoración global muy satisfactoria.** Se preparó esta hamburguesa asiática y se recuerda como muy satisfactoria. En la preparación doméstica de dos variantes de hamburguesa se utilizaron **400 g de ternera muy magra en total, repartidos en dos hamburguesas de 200 g: una asiática y otra especiada**. Para la asiática se plantearon soja, una pequeña cantidad de aceite de sésamo, ajo, pimienta y jengibre opcional. **No constan los tiempos reales ni todos los detalles del montaje final**. La formulación que sigue se mantiene como referencia, sin atribuirle una ejecución idéntica.
 
 Para completar el registro, recuperar el grosor y peso de las hamburguesas, el sazonado, la salsa utilizada y la valoración de sabor y jugosidad. En futuras repeticiones, **cocinar completamente la carne picada** y comprobar el centro con termómetro alimentario, sin tomar el dorado exterior como evidencia de cocción segura.
 
