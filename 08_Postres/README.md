@@ -131,6 +131,14 @@ La formulación con queso fresco se presenta como **adaptación doméstica pendi
 
 Preparación **pendiente de prueba doméstica**; la cobertura emplea mazapán comercial listo para consumir y el relleno requiere refrigeración.
 
+## Cocina tradicional española: piononos de Santa Fe
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0441 | [Piononos de Santa Fe con crema tostada](./piononos_de_santa_fe_con_crema_tostada.md) | Granada: bizcocho enrollado, almíbar, crema y caramelizado |
+
+Interpretación doméstica **pendiente de prueba**; se requiere crema cocida y refrigerada.
+
 ## Técnicas y diagnóstico
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md): mezclado, temperatura, molde y punto de cocción.
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md): coagulación de huevo, espesado y baño maría.

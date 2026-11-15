@@ -143,6 +143,14 @@ Estas fichas recuperan **preparaciones regionales pendientes de prueba doméstic
 
 No se atribuyen las proporciones propuestas a experiencias culinarias previas.
 
+## Cocina tradicional española: ajoblanco malagueño
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0437 | [Ajoblanco malagueño de almendras y uvas](./ajoblanco_malagueno_de_almendras_y_uvas.md) | Andalucía: triturado y emulsión fría de almendra, pan y ajo |
+
+La receta es **pendiente de prueba doméstica**; la conservación refrigerada es imprescindible.
+
 ## Técnicas de referencia
 
 | ID | Técnica | Aplicación |

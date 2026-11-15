@@ -151,6 +151,15 @@ Ficha de referencia **pendiente de prueba doméstica**, distinta de otros estofa
 
 Plato caliente de tradición manchega, distinto del gazpacho andaluz frío. **Pendiente de prueba doméstica**.
 
+## Cocina tradicional española: fricandó y conejo en salmorejo
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0438 | [Fricandó catalán de ternera con setas](./fricando_catalan_de_ternera_con_setas.md) | Cataluña: estofado de filetes finos y setas |
+| REC-0439 | [Conejo en salmorejo canario](./conejo_en_salmorejo_canario.md) | Canarias: adobo refrigerado y guiso |
+
+Ambas son **formulaciones pendientes de prueba doméstica**. El salmorejo canario es un adobo distinto del salmorejo cordobés de tomate.
+
 ## Cortes y sazonado
 
 - [Cortar carnes según la fibra y la cocción](../00_Bases/02_Cortes/cortar_carnes_segun_fibra_y_coccion.md): adaptar tiras, dados y medallones al método.

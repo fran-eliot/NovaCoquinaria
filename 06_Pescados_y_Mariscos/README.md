@@ -119,6 +119,14 @@ Los tiempos dependen del tamaño y grosor del pescado. La tinta de calamar debe 
 
 Propuesta **pendiente de prueba doméstica**; atención especial al desalado del bacalao y sus variantes con patata.
 
+## Cocina tradicional española: bacalao a la vizcaína
+
+| ID | Receta | Región y técnica |
+|---|---|---|
+| REC-0440 | [Bacalao a la vizcaína con pimiento choricero](./bacalao_a_la_vizcaina_con_pimiento_choricero.md) | País Vasco: cebolla, pulpa choricera y cocción suave de bacalao |
+
+La versión propuesta **no incluye tomate** y se distingue del ajoarriero navarro. **Pendiente de prueba doméstica**.
+
 ## Técnica transversal
 
 - [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md): temperatura, grosor, manipulación, descongelación y seguridad.
