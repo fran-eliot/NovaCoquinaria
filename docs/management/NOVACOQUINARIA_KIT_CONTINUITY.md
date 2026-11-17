@@ -2,16 +2,16 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 1.4.0
+version: 1.5.0
 estado: estable
-ultima_revision: 2026-11-15
+ultima_revision: 2026-11-17
 ---
 
 # Kit de continuidad de NovaCoquinaria
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 15 de noviembre de 2026, después de la fusión de la PR #176.  
+> **Corte de información:** 17 de noviembre de 2026, después de la fusión de la PR #187.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -26,24 +26,24 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 
 | Elemento | Situación y alcance de la evidencia |
 |---|---|
-| Rama principal | `main`, consultada en GitHub el 2026-11-15, después del merge de la PR #176 |
+| Rama principal | `main`, consultada en GitHub el 2026-11-17, después del merge de la PR #187 |
 | Última versión publicada | [`v1.5.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.5.0), publicada el 2026-08-02; las PR recientes no suponen una nueva release |
 | Fase estratégica | Expansión y conexión del conocimiento culinario en Markdown, sin pasar aún a una plataforma software |
-| Última PR fusionada | [#176 — Seis especialidades tradicionales españolas (XIV)](https://github.com/fran-eliot/NovaCoquinaria/pull/176) |
-| PRs inmediatamente anteriores | [#175](https://github.com/fran-eliot/NovaCoquinaria/pull/175), [#174](https://github.com/fran-eliot/NovaCoquinaria/pull/174), [#173](https://github.com/fran-eliot/NovaCoquinaria/pull/173), fusionadas |
-| Último commit comprobado en `main` | [`23713e2cac0ea00be7bf1904b20635a760ea21f7`](https://github.com/fran-eliot/NovaCoquinaria/commit/23713e2cac0ea00be7bf1904b20635a760ea21f7), merge de #176 |
+| Última PR fusionada | [#187 — Seis especialidades tradicionales españolas (XXIV)](https://github.com/fran-eliot/NovaCoquinaria/pull/187) |
+| PRs inmediatamente anteriores | [#186](https://github.com/fran-eliot/NovaCoquinaria/pull/186), [#185](https://github.com/fran-eliot/NovaCoquinaria/pull/185), [#184](https://github.com/fran-eliot/NovaCoquinaria/pull/184), fusionadas |
+| Último commit comprobado en `main` | [`e89963c4fb14cff2d92440dec768bdbdbec201c8`](https://github.com/fran-eliot/NovaCoquinaria/commit/e89963c4fb14cff2d92440dec768bdbdbec201c8), merge de #187 |
 | PR abiertas | Ninguna en la consulta de este corte |
-| Integridad de `main` | Workflow **Knowledge integrity**: **success** para el merge #176; también **success** para la cabeza de la PR #176 |
-| Sitio web de documentación | Workflow **Deploy MkDocs site**: **success** para el merge #176 |
-| Inventario Markdown en `main` | **832** archivos `.md` en el árbol remoto |
-| Fichas de recetas | **500** archivos `.md` en los diez módulos de recetas, excluidos README |
-| Recetas por módulo | Arroces 36; Pastas 36; Legumbres 55; Verduras 69; Carnes 68; Pescados y Mariscos 54; Cocina Asiática 44; Postres 60; Bebidas 35; Horno 43 |
+| Integridad de `main` | Workflow **Knowledge integrity**: **success** para el merge #187 (run 44132642451) |
+| Sitio web de documentación | Workflow **Deploy MkDocs site**: **success** para el merge #187 (run 44132642433) |
+| Inventario Markdown en `main` | **892** archivos `.md` en el árbol remoto |
+| Fichas de recetas | **560** archivos `.md` en los diez módulos de recetas, excluidos README |
+| Recetas por módulo | Arroces 39; Pastas 37; Legumbres 61; Verduras 81; Carnes 75; Pescados y Mariscos 64; Cocina Asiática 44; Postres 73; Bebidas 36; Horno 50 |
 | Fichas de ingredientes | **125** archivos `.md` en `11_Despensa`, excluidos README y BACKLOG |
 | Documentos de técnicas | **52** archivos `.md` en `00_Bases/03_Tecnicas`, excluido README |
-| Identificadores | Último identificador de la secuencia reciente: `REC-0501`. `REC-0502` es candidato sujeto a verificación de unicidad y del árbol actual. No se ha realizado auditoría global de IDs. |
+| Identificadores | Último identificador de la secuencia reciente: `REC-0561` (representación numérica; `REC-561` en Front Matter). `REC-0562` es candidato sujeto a verificación de unicidad y del árbol actual. No se ha realizado auditoría global de IDs. |
 | Working tree local | No comprobado; el estado remoto no demuestra que el repositorio local esté limpio |
 
-Los recuentos son **inventario de rutas en el árbol remoto de `main` al cierre de la PR #176**, no una auditoría semántica ni una prueba culinaria. Los **500 archivos de recetas** no deben interpretarse como 500 elaboraciones realizadas: numerosas fichas siguen marcadas como propuestas pendientes de prueba. Los controles CI acreditan las comprobaciones automáticas que ejecutan, no pruebas prácticas en cocina.
+Los recuentos son **inventario de rutas en el árbol remoto de `main` al cierre de la PR #187**, no una auditoría semántica ni una prueba culinaria. Los **560 archivos de recetas** no deben interpretarse como 560 elaboraciones realizadas: numerosas fichas siguen marcadas como propuestas pendientes de prueba. Los controles CI acreditan las comprobaciones automáticas que ejecutan, no pruebas prácticas en cocina.
 
 ## 3. Evolución y decisiones relevantes
 
@@ -75,10 +75,20 @@ Los recuentos son **inventario de rutas en el árbol remoto de `main` al cierre 
 - **PR #159:** actualización anterior del kit de continuidad a la versión `1.3.0`, con corte situado en la PR #158.
 - **PRs #160–#162:** 18 propuestas nuevas de verduras, cocina asiática y postres, con identificadores `REC-0400`–`REC-0417`.
 - **PRs #163–#176:** catorce tandas consecutivas de **seis recetas tradicionales españolas**: **84 fichas**, numeradas desde `REC-0418` hasta `REC-0501`. Las propuestas abarcan múltiples cocinas regionales y técnicas de guiso, legumbres, pescados, arroces, horno, verduras y repostería.
-- **PR #176:** última tanda observada de seis platos: [habas a la catalana](../../04_Verduras/habas_a_la_catalana_con_menta_y_morcilla.md), [escaldums mallorquins](../../05_Carnes/escaldums_mallorquins_de_pollo_y_almendras.md), [rabas cántabras](../../06_Pescados_y_Mariscos/rabas_cantabras_de_calamar_rebozado.md), [papas con choco](../../06_Pescados_y_Mariscos/papas_con_choco_gaditanas.md), [pantxineta](../../08_Postres/pantxineta_vasca_de_hojaldre_crema_y_almendras.md) y [nevaditos](../../08_Postres/nevaditos_castellanos_de_manteca_y_vino_blanco.md).
+- **PR #176:** última tanda de aquel corte de seis platos: [habas a la catalana](../../04_Verduras/habas_a_la_catalana_con_menta_y_morcilla.md), [escaldums mallorquins](../../05_Carnes/escaldums_mallorquins_de_pollo_y_almendras.md), [rabas cántabras](../../06_Pescados_y_Mariscos/rabas_cantabras_de_calamar_rebozado.md), [papas con choco](../../06_Pescados_y_Mariscos/papas_con_choco_gaditanas.md), [pantxineta](../../08_Postres/pantxineta_vasca_de_hojaldre_crema_y_almendras.md) y [nevaditos](../../08_Postres/nevaditos_castellanos_de_manteca_y_vino_blanco.md).
 - **Estado editorial:** las tandas de recetas regionales nuevas se registran como `receta-propuesta` y `pendiente-de-prueba`; su fusión y CI correctas no acreditan haberlas elaborado.
 - **Prioridad vigente en este corte:** continuar la expansión de cocina tradicional española, con variedad geográfica, métodos diferenciados y sin repetir recetas del repositorio. No forzar la continuidad temática si una futura decisión cambia las prioridades.
 - **Resultado comprobado de #176:** fusionada en `main` con integridad y despliegue MkDocs exitosos, sin PR abiertas en la consulta.
+
+### Actualización de continuidad: PRs #177–#187
+
+- **PR #177:** actualización del kit a la versión documental `1.4.0`, con corte tras #176.
+- **PRs #178–#181:** tandas XV–XVIII, 24 recetas (`REC-0502`–`REC-0525`).
+- **PRs #182–#187:** tandas XIX–XXIV, 36 recetas (`REC-0526`–`REC-0561`).
+- **Balance de la serie #163–#187:** 24 tandas de seis fichas (144 propuestas), con #177 dedicada exclusivamente al kit. La numeración editorial se representa con cuatro dígitos; el Front Matter de las fichas recientes utiliza IDs de tres dígitos. No renumerar retrospectivamente sin una revisión específica.
+- **PR #187:** [arroz a la zamorana](../../01_Arroces/arroz_a_la_zamorana_con_productos_del_cerdo.md), [calçots al horno](../../04_Verduras/calcots_asados_al_horno_con_salsa_romesco.md), [sopa de picadillo](../../05_Carnes/sopa_de_picadillo_andaluza_de_pollo_y_jamon.md), [besugo a la madrileña](../../06_Pescados_y_Mariscos/besugo_a_la_madrilena_al_horno.md), [mantecados de Estepa](../../08_Postres/mantecados_de_estepa_de_almendra.md) y [broa gallega](../../10_Horno/broa_gallega_de_maiz_y_centeno.md).
+- **Resultado comprobado:** #177–#187 fusionadas; integridad y despliegue del merge #187 exitosos. La próxima tanda candidata es XXV, sin comprometer de antemano recetas ni identificadores.
+- **Alcance:** las 60 incorporaciones posteriores a #176 siguen siendo propuestas pendientes de prueba doméstica. No se modifica la fase estratégica, la identidad ni la última release del proyecto.
 
 Las PR aportan crecimiento editorial; su fusión y sus validaciones técnicas no prueban que las recetas se hayan cocinado. Los detalles por ficha se consultan en el índice de cada módulo.
 
@@ -122,11 +132,11 @@ Los resultados, alcances y limitaciones de las comprobaciones anteriores se regi
 
 ## 7. Recuperación del estado antes de un nuevo incremento
 
-1. Consultar el `main` remoto y contrastar su commit vigente con `23713e2cac0ea00be7bf1904b20635a760ea21f7` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
-2. Revisar si la última PR conocida ([#176](https://github.com/fran-eliot/NovaCoquinaria/pull/176)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
+1. Consultar el `main` remoto y contrastar su commit vigente con `e89963c4fb14cff2d92440dec768bdbdbec201c8` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
+2. Revisar si la última PR conocida ([#187](https://github.com/fran-eliot/NovaCoquinaria/pull/187)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
 3. Leer este kit junto con [PROJECT_STATUS](./PROJECT_STATUS.md), [ROADMAP](./ROADMAP.md), [BITACORA](./BITACORA.md), [RELEASES](./RELEASES.md), [CONSOLIDACION_CONOCIMIENTO](./CONSOLIDACION_CONOCIMIENTO.md), [EVOLUCION_DE_RECETAS](./EVOLUCION_DE_RECETAS.md), [RECETAS_COCINADAS](./RECETAS_COCINADAS.md) y los índices del módulo en cuestión.
 4. Antes de redactar, revisar el árbol completo de `main` y detectar solapamientos por **nombre, ingrediente, técnica y tradición regional**, no solo por el nombre exacto del archivo. Distinguir las variantes de una misma familia de platos y explicar las diferencias cuando sea pertinente.
-5. Comprobar todos los identificadores de receta vigentes. La serie reciente llega a `REC-0501` en este corte; `REC-0502` es **solo candidato** si continúa libre, y nunca un ID reservado irrevocablemente. Recalcular también recuentos de ficheros antes de reutilizarlos.
+5. Comprobar todos los identificadores de receta vigentes. La serie reciente llega a `REC-0561` (Front Matter `REC-561`) en este corte; `REC-0562` es **solo candidato** si continúa libre, y nunca un ID reservado irrevocablemente. Recalcular también recuentos de ficheros antes de reutilizarlos.
 6. Priorizar, mientras se mantenga el criterio actual, tandas de hasta seis recetas tradicionales españolas con ingredientes medidos, raciones, tiempos, elaboración numerada, alérgenos, seguridad alimentaria, diagnóstico, conservación y enlaces internos existentes. Las recetas no cocinadas se identifican como propuestas pendientes de prueba.
 7. Cuando se introduzcan antecedentes de recetas que el propietario haya cocinado, preservar su versión principal y su valoración comprobada. No dar por mejor una versión posterior ni trasladar cantidades antiguas a otra sin evidencia.
 8. Crear una rama temática desde el `main` actualizado, incorporar fichas e índices coherentes, comprobar enlaces y abrir una PR. Entregar el enlace directo de la PR y revisar el resultado de GitHub Actions. El propietario revisa, fusiona y elimina la rama remota; no hacerlo en su lugar.
@@ -136,19 +146,19 @@ Los resultados, alcances y limitaciones de las comprobaciones anteriores se regi
 
 ## 8. Registro del corte y siguiente actualización
 
-| Campo | Valor en el corte de 2026-11-15 |
+| Campo | Valor en el corte de 2026-11-17 |
 |---|---|
-| Última PR fusionada observada | [#176](https://github.com/fran-eliot/NovaCoquinaria/pull/176) |
-| Commit de `main` | `23713e2cac0ea00be7bf1904b20635a760ea21f7` |
-| Últimos aportes | Seis fichas `REC-0496`–`REC-0501` (Cataluña, Mallorca, Cantabria, Cádiz, País Vasco y Castilla) |
+| Última PR fusionada observada | [#187](https://github.com/fran-eliot/NovaCoquinaria/pull/187) |
+| Commit de `main` | `e89963c4fb14cff2d92440dec768bdbdbec201c8` |
+| Últimos aportes | Seis fichas `REC-0556`–`REC-0561` (Castilla y León, Cataluña, Andalucía, Madrid y Galicia) |
 | PR abiertas al realizar la consulta | Ninguna |
-| Workflows del merge #176 | `Knowledge integrity`: **success**; `Deploy MkDocs site`: **success** |
+| Workflows del merge #187 | `Knowledge integrity`: **success**; `Deploy MkDocs site`: **success** |
 | Última release publicada | `v1.5.0` (2026-08-02) |
-| Próximo identificador | `REC-0502`, únicamente como candidato sujeto a verificar unicidad y estado del repositorio |
+| Próximo identificador | `REC-0562`, únicamente como candidato sujeto a verificar unicidad y estado del repositorio |
 | Siguiente prioridad | Cocina tradicional española por tandas de hasta seis especialidades nuevas, con variedad regional y sin duplicación; mantener vínculos entre técnica, ingrediente y receta |
 | Controles no realizados | Auditoría global de IDs y enlaces, revisión culinaria práctica de las propuestas, comprobación del working tree local |
 
-**Inventario de este corte:** 832 archivos Markdown; 500 fichas de recetas distribuidas en diez módulos; 125 fichas de Despensa (excluidos README/BACKLOG); 52 técnicas (excluido README). Los recuentos son por rutas y no prueban validación culinaria.
+**Inventario de este corte:** 892 archivos Markdown; 560 fichas de recetas distribuidas en diez módulos; 125 fichas de Despensa (excluidos README/BACKLOG); 52 técnicas (excluido README). Los recuentos son por rutas y no prueban validación culinaria.
 
 Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o los recuentos como si fueran dinámicos.
 
