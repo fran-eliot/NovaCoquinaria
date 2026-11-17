@@ -337,3 +337,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: Coquinas al ajillo de Huelva
 
 - **REC-554 — [Coquinas al ajillo de Huelva](./coquinas_al_ajillo_de_huelva.md)** (Huelva, Andalucía): apertura rápida de moluscos depurados con ajo. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Besugo a la madrileña al horno
+
+- **REC-559 — [Besugo a la madrileña al horno](./besugo_a_la_madrilena_al_horno.md)** (Madrid): asado de pescado sobre patatas con vino y perejil. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.

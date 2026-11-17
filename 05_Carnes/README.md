@@ -378,3 +378,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Patorrillo riojano de cordero
 
 - **REC-553 — [Patorrillo riojano de cordero](./patorrillo_riojano_de_cordero.md)** (La Rioja): guiso de casquería ovina con tomate y pimentón. Propuesta pendiente de prueba doméstica; no consta elaboración ni valoración confirmada.
+
+## Cocina tradicional española: Sopa de picadillo andaluza de pollo y jamón
+
+- **REC-558 — [Sopa de picadillo andaluza de pollo y jamón](./sopa_de_picadillo_andaluza_de_pollo_y_jamon.md)** (Andalucía): caldo con pollo desmenuzado, jamón y huevo. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
