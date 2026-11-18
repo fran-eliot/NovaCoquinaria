@@ -14,9 +14,10 @@ import yaml
 
 from audit_inventory import RECIPE_MODULES
 from common import ROOT_DIR, requires_frontmatter
+from extract_recipe_ingredients import extract_ingredients
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.1.0"
+EXTRACTOR_VERSION = "0.2.0"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 
@@ -113,7 +114,10 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
     recipe_paths = 0
     paths_without_recipe = []
     recipes_outside_modules = []
-    for path in snapshot_paths(root, commit):
+    paths = snapshot_paths(root, commit)
+    ingredient_lookup = {}
+    recipe_sources = {}
+    for path in paths:
         parts = PurePosixPath(path).parts
         module_path = parts[0] in RECIPE_MODULES
         if module_path:
@@ -121,6 +125,9 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         raw = snapshot_bytes(root, commit, path)
         record = project_metadata(raw, path, commit)
         if record is None:
+            fields, _ = read_metadata(raw, path)
+            if fields and fields.get('tipo') == 'ingrediente' and isinstance(fields.get('id'), str):
+                ingredient_lookup[path] = fields['id']
             if module_path:
                 paths_without_recipe.append(path)
                 # Una fuente culinaria sin Front Matter no puede clasificarse.
@@ -137,6 +144,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         if not module_path:
             recipes_outside_modules.append(path)
         records.append(record)
+        recipe_sources[path] = raw
     for group in numeric_ids.values():
         if len(group) > 1:
             for record in group:
@@ -148,10 +156,16 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
                     "description": "Posible equivalencia de formato; IDs conservados: "
                                    + ", ".join(sorted(r["id"] for r in group)),
                 })
+    for record in records:
+        path = record['source']['path']
+        entries, diagnostics = extract_ingredients(recipe_sources[path], path, ingredient_lookup)
+        record['ingredients'] = entries
+        record['diagnostics'].extend(diagnostics)
     return {
         "contract_version": CONTRACT_VERSION,
         "extractor_version": EXTRACTOR_VERSION,
-        "stage": "metadata_only",
+        "stage": "metadata_and_ingredients",
+        "ingredient_summary": dict(sorted(Counter(e["quantity"]["status"] for r in records for e in r["ingredients"]).items())),,
         "source_commit": commit,
         "inventory": {
             "recipe_paths": recipe_paths,
