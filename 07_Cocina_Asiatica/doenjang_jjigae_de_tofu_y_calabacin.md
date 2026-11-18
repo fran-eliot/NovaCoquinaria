@@ -4,7 +4,7 @@ tipo: receta
 titulo: Doenjang jjigae de tofu y calabacín
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - cocina-asiatica
@@ -51,7 +51,7 @@ Guiso coreano de pasta fermentada de soja. La ficha es una **propuesta pendiente
 ## Puntos críticos
 
 - Doenjang no es idéntico al miso japonés y su salinidad varía. Si se sustituye por miso, debe registrarse como una variante doméstica distinta.
-- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.
+- Mantener el tofu refrigerado hasta incorporarlo; cortar la patata en dados pequeños y añadir el tofu al final para evitar que se deshaga.
 - Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.
 
 ## Diagnóstico
@@ -59,12 +59,12 @@ Guiso coreano de pasta fermentada de soja. La ficha es una **propuesta pendiente
 | Resultado | Posible causa | Ajuste propuesto |
 |---|---|---|
 | Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |
-| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |
+| Patata dura o calabacín deshecho | Tamaños irregulares o incorporación simultánea | Empezar por la patata y escalonar las verduras |
 | Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |
 
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.
+Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener el guiso tapado en refrigeración y recalentar completamente solo la porción que se vaya a consumir. Respetar las indicaciones del fabricante sobre conservación del tofu abierto y de la pasta doenjang.
 
 ## Relaciones dentro del SGCC
 
