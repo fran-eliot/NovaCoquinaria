@@ -419,3 +419,8 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 
 - **REC-568 — [Patatas a lo pobre andaluzas](./patatas_a_lo_pobre_andaluzas.md)** (Andalucía). Propuesta pendiente de prueba doméstica.
 - **REC-569 — [Huevos rotos con patatas y jamón](./huevos_rotos_con_patatas_y_jamon.md)** (Madrid, cocina de taberna española). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVII)
+
+- **REC-574 — [Ensaladilla rusa de patata, atún y mayonesa](./ensaladilla_rusa_de_patata_atun_y_mayonesa.md)** (España, cocina de tapas). Propuesta pendiente de prueba doméstica.
+- **REC-575 — [Esgarraet valenciano de pimiento y bacalao](./esgarraet_valenciano_de_pimiento_y_bacalao.md)** (Comunitat Valenciana). Propuesta pendiente de prueba doméstica.

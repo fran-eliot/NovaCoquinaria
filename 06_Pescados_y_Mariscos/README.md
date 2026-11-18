@@ -349,3 +349,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española (XXVI)
 
 - **REC-571 — [Urta a la roteña con tomate y pimientos](./urta_a_la_rotena_con_tomate_y_pimientos.md)** (Rota, Cádiz, Andalucía). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVII)
+
+- **REC-577 — [Atún con tomate a la andaluza](./atun_con_tomate_a_la_andaluza.md)** (Andalucía). Propuesta pendiente de prueba doméstica.

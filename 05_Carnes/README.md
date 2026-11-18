@@ -391,3 +391,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española (XXVI)
 
 - **REC-570 — [Ajo mataero albaceteño de hígado y pan](./ajo_mataero_albaceteno_de_higado_y_pan.md)** (Albacete, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVII)
+
+- **REC-576 — [Perdiz a la toledana estofada](./perdiz_a_la_toledana_estofada.md)** (Toledo, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
