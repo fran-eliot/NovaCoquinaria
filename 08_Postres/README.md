@@ -391,3 +391,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: tapas y repostería (XXV)
 
 - **REC-566 — [Flores manchegas fritas con canela](./flores_manchegas_fritas_con_canela.md)** (Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVI)
+
+- **REC-572 — [Panellets catalanes de piñones](./panellets_catalanes_de_pinones.md)** (Cataluña, tradición de Todos los Santos). Propuesta pendiente de prueba doméstica.

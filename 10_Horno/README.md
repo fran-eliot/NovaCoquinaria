@@ -258,3 +258,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: tapas y repostería (XXV)
 
 - **REC-567 — [Ensaimada mallorquina lisa de manteca](./ensaimada_mallorquina_lisa_de_manteca.md)** (Mallorca, Illes Balears). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVI)
+
+- **REC-573 — [Talo vasco de maíz a la plancha](./talo_vasco_de_maiz_en_plancha.md)** (País Vasco y Navarra). Propuesta pendiente de prueba doméstica.
