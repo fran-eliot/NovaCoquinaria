@@ -4,7 +4,7 @@ tipo: receta
 titulo: Porra antequerana de tomate y pan
 categoria: Verduras
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
@@ -53,20 +53,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- La porra antequerana suele ser más densa que el gazpacho. No diluir de entrada con agua: el pan y el aceite deben emulsionar hasta una textura espesa que admita guarnición.
-- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.
+- La porra antequerana suele ser más densa que el gazpacho. Hidratar el pan con el propio tomate antes de decidir si necesita agua.
+- Incorporar el aceite en hilo mientras se tritura para obtener una emulsión uniforme. La textura debe sostener la guarnición.
+- Cocer completamente los huevos de guarnición y enfriarlos antes de añadirlos; la base de tomate se prepara en frío.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste siguiente |
 |---|---|---|
-| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |
-| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |
-| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |
+| Crema demasiado espesa | Pan muy seco o tomate poco jugoso | Dejar hidratar el pan y ajustar con pequeñas cantidades de agua fría solo si es imprescindible |
+| Crema aguada | Tomate muy acuoso o hidratación excesiva | Evitar añadir agua, dejar hidratar el pan y revisar su proporción en la próxima prueba |
+| Aceite separado | Incorporación demasiado rápida | Volver a triturar brevemente e incorporar el aceite gradualmente en la próxima elaboración |
+| Ajo o vinagre dominantes | Condimentos intensos | Añadir de forma gradual, probar y registrar el ajuste |
 
 ## Conservación
 
-Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.
+Refrigerar la porra tapada tras triturarla y mantenerla fría hasta servir. Conservar el huevo cocido y el jamón opcional refrigerados y añadirlos al emplatar. Guardar las sobras sin demora en el frigorífico; no recalentar. Consumir preferentemente el día de elaboración.
 
 ## Relaciones dentro del SGCC
 
