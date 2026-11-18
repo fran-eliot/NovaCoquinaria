@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.3.0
+version: 1.4.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -209,3 +209,92 @@ PROJECT_STATUS, ROADMAP, BITACORA y el kit de continuidad se actualizan de forma
 Se incorpora un workflow de auditoría independiente, [Knowledge audit](../../.github/workflows/knowledge-audit.yml), que genera inventario por rutas versionadas, informes Markdown y JSON por dominios y registros de los tres controles existentes. El commit del checkout y la versión de Python se conservan junto a los informes. Los resultados se publican como artefactos temporales de GitHub Actions, sin modificar la fuente Markdown ni sobrescribir automáticamente el informe histórico.
 
 La primera ejecución satisfactoria permitirá establecer una línea base observada. Se mantienen las reglas actuales de auditoría para evaluar su comportamiento: su lista de dominios no equivale a los diez módulos de recetas, y las rutas canónicas del auditor no incluyen Cocina Asiática, Bebidas y Horno. No se deduce la madurez de estos módulos de su número de fichas. Los diagnósticos semánticos y huérfanos permanecen informativos. Las revisiones de reglas y la publicación de un nuevo informe versionado se abordarán tras examinar la evidencia.
+
+## Primera línea base observada — 2026-11-18
+
+**Commit auditado:** [`fb3b5a12a24fe343c0a4e8109dce302dd423ac0d`](https://github.com/fran-eliot/NovaCoquinaria/commit/fb3b5a12a24fe343c0a4e8109dce302dd423ac0d), merge de #196. **Evidencia:** [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44396127716), [registro del job](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44396127716/job/135126354446), [artefacto](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44396127716/artifacts/14470455816). La ejecución, las pruebas unitarias del inventario y los workflows de integridad y publicación finalizaron correctamente. Los resultados siguientes se transcriben del registro de ejecución; no constituyen una revisión del contenido íntegro del ZIP. El artefacto tiene retención temporal de 30 días.
+
+| Indicador | Resultado |
+|---|---:|
+| Documentos examinados por el validador | 922 |
+| Identificadores únicos verificados | 887 |
+| Enlaces internos verificados | 5330 |
+| Errores estructurales | 0 |
+| Advertencias semánticas | 37 |
+| Huérfanos globales según find_orphans | 0 |
+| Fichas de recetas por rutas | 590 |
+| Fichas de ingredientes por rutas | 125 |
+| Documentos de técnicas por rutas | 52 |
+
+La diferencia entre 922 documentos y 887 IDs no se interpreta como 35 defectos: el validador admite excepciones según tipo y ruta. El recuento de IDs exactos no determina equivalencia numérica de IDs con ceros iniciales ni ausencia de duplicados conceptuales.
+
+### Dominios según las reglas vigentes
+
+| Dominio | PRIMARY | SECONDARY | MENTION | Cobertura | Enlaces | Sin salidas en dominio | Madurez automática |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Currys | 13 | 20 | 0 | 100.0 % | 100.0 % | 1 | 🌳 Consolidado |
+| Salteados asiáticos | 5 | 36 | 1 | 60.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Arroces | 64 | 83 | 0 | 80.0 % | 100.0 % | 0 | 🌳 Consolidado |
+| Pastas | 44 | 44 | 0 | 60.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Legumbres | 84 | 49 | 0 | 80.0 % | 100.0 % | 0 | 🌳 Consolidado |
+| Verduras | 17 | 213 | 0 | 100.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Carnes | 6 | 129 | 0 | 100.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Pescados y mariscos | 7 | 102 | 0 | 100.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Huevos y lácteos | 8 | 68 | 0 | 100.0 % | 100.0 % | 0 | 🌿 Estructurado |
+| Postres | 83 | 30 | 0 | 40.0 % | 100.0 % | 0 | 🌱 Exploración |
+
+La ausencia global de huérfanos y el documento sin referencias salientes del dominio Currys no son métricas equivalentes. La cobertura se calcula sobre tipos esperados por dominio; no constituye una medida de calidad culinaria. Las reglas vigentes no incluyen vistas independientes para todos los módulos físicos. No se suman asociaciones como documentos únicos. El informe versionado de agosto permanece histórico.
+
+### Inventario inicial de deuda semántica
+
+24 avisos de recetas y 13 de técnicas. Todos requieren comprobar el contenido y las relaciones útiles antes de modificar documentos o reglas. No implican errores culinarios ni necesariamente omisiones editoriales. La lista identifica el conjunto exacto observado en el commit auditado.
+
+| ID | Documento | Tipos de relación esperados | Estado |
+|---|---|---|---|
+| REC-389 | [agua_de_tamarindo_casera.md](../../09_Bebidas/agua_de_tamarindo_casera.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-0231 | [arroz_con_frijoles_y_cilantro.md](../../01_Arroces/arroz_con_frijoles_y_cilantro.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-390 | [atole_de_avena_y_canela.md](../../09_Bebidas/atole_de_avena_y_canela.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-388 | [ayran_de_yogur_y_menta.md](../../09_Bebidas/ayran_de_yogur_y_menta.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-393 | [batido_verde_de_kiwi_manzana_y_espinacas.md](../../09_Bebidas/batido_verde_de_kiwi_manzana_y_espinacas.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-514 | [cardo_aragones_con_salsa_de_almendras.md](../../04_Verduras/cardo_aragones_con_salsa_de_almendras.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-465 | [casadielles_asturianas_de_nueces_y_anis.md](../../08_Postres/casadielles_asturianas_de_nueces_y_anis.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-409 | [doenjang_jjigae_de_tofu_y_calabacin.md](../../07_Cocina_Asiatica/doenjang_jjigae_de_tofu_y_calabacin.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-546 | [ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md](../../04_Verduras/ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-483 | [filloas_gallegas_de_leche_y_limon.md](../../08_Postres/filloas_gallegas_de_leche_y_limon.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-339 | [hamburguesas_de_frijoles_negros_y_avena.md](../../03_Legumbres/hamburguesas_de_frijoles_negros_y_avena.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-492 | [lacon_con_grelos_y_cachelos_gallego.md](../../05_Carnes/lacon_con_grelos_y_cachelos_gallego.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-321 | [limonada_de_jengibre_y_romero.md](../../09_Bebidas/limonada_de_jengibre_y_romero.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-588 | [mazapan_toledano_de_almendra.md](../../08_Postres/mazapan_toledano_de_almendra.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-369 | [minestrone_con_pasta_pequena_y_alubias.md](../../02_Pastas/minestrone_con_pasta_pequena_y_alubias.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-327 | [pavo_en_escabeche_suave_de_naranja_y_laurel.md](../../05_Carnes/pavo_en_escabeche_suave_de_naranja_y_laurel.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-467 | [pericana_alicantina_de_pimiento_seco_y_bacalao.md](../../04_Verduras/pericana_alicantina_de_pimiento_seco_y_bacalao.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-485 | [pipirrana_jiennense_con_atun_y_huevo.md](../../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-480 | [porra_antequerana_de_tomate_y_pan.md](../../04_Verduras/porra_antequerana_de_tomate_y_pan.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-365 | [raviolis_caseros_de_ricotta_y_espinacas.md](../../02_Pastas/raviolis_caseros_de_ricotta_y_espinacas.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-536 | [rosquillas_tontas_de_san_isidro.md](../../08_Postres/rosquillas_tontas_de_san_isidro.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-356 | [semifrio_de_platano_y_cacao_sin_huevo.md](../../08_Postres/semifrio_de_platano_y_cacao_sin_huevo.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-573 | [talo_vasco_de_maiz_en_plancha.md](../../10_Horno/talo_vasco_de_maiz_en_plancha.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| REC-412 | [tiramisu_sin_huevo_crudo_con_mascarpone.md](../../08_Postres/tiramisu_sin_huevo_crudo_con_mascarpone.md) | base, ingrediente, plantilla, tabla, tecnica | Pendiente de revisión |
+| TEC-0047 | [brasear_carnes_en_cazuela.md](../../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0049 | [cocinar_al_bano_maria.md](../../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0038 | [desglasar_fondos_de_coccion.md](../../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0044 | [equilibrar_acidez_dulzor_y_amargor.md](../../00_Bases/04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0048 | [escalfar_pescados_en_liquido_aromatico.md](../../00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0057 | [gratinar_coberturas_sin_quemar.md](../../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0052 | [hervir_y_cocer_a_fuego_suave.md](../../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0054 | [pochar_y_caramelizar_cebolla.md](../../00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0053 | [preparar_bechamel_sin_grumos.md](../../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0037 | [reducir_y_ligar_salsas.md](../../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0043 | [salar_por_etapas.md](../../00_Bases/04_Sazonado/salar_por_etapas.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0058 | [tostar_frutos_secos_y_semillas.md](../../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md) | base, ingrediente, tabla | Pendiente de revisión |
+| TEC-0050 | [tostar_y_activar_especias.md](../../00_Bases/03_Tecnicas/tostar_y_activar_especias.md) | base, ingrediente, tabla | Pendiente de revisión |
+
+### Prioridad de tratamiento
+
+1. Revisar las 13 técnicas como activos reutilizables transversales; incorporar únicamente relaciones pertinentes con bases, ingredientes o tablas existentes. Identificar falsos positivos si procede.
+2. Revisar las 24 recetas por grupos coherentes, sin modificar cantidades, estados de prueba ni valoraciones sin evidencia.
+3. Reejecutar los controles tras cada incremento y comparar los avisos por ID y ruta, no solo el total. Mantener el diagnóstico informativo.
+4. Revisar la cobertura y reglas del auditor por dominios, especialmente Postres y las rutas canónicas de Cocina Asiática, Bebidas y Horno. No elevar artificialmente la madurez mediante enlaces ornamentales.
+5. Evaluar la preparación para un contrato de datos a partir de muestras representativas; no exigir eliminar todos los avisos para comenzar si las excepciones están justificadas.
+
+El incremento registra la evidencia y ordena las revisiones. No corrige aún las 37 advertencias ni cambia las reglas de auditoría.
