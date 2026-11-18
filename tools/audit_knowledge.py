@@ -508,12 +508,13 @@ def classify_direct_association(
 
     PRIMARY:
       - ruta de autoridad;
-      - dominio principal explícito;
+      - dominio principal explícito, salvo tipos no ingrediente en dominios INGREDIENT;
       - título inequívoco en un tipo autorizado;
       - implementación que enlaza la plantilla de autoridad del patrón.
 
     SECONDARY:
-      - coincidencia temática en título o Front Matter no autoritativo.
+      - coincidencia temática en título o Front Matter no autoritativo;
+      - ruta temática o dominio explícito de un documento no ingrediente en INGREDIENT.
 
     MENTION:
       - coincidencia solo contextual en encabezados o cuerpo.
@@ -530,6 +531,21 @@ def classify_direct_association(
         for fragment in rule.path_fragments
     )
 
+    explicit_domain = explicit_primary_domain(document)
+    # Un dominio de ingrediente no convierte una receta o técnica en autoridad.
+    if rule.kind == DomainKind.INGREDIENT and document_type != "ingrediente":
+        if path_matches or explicit_domain == rule.key:
+            evidence = []
+            if path_matches:
+                evidence.append("thematic_path")
+            if explicit_domain == rule.key:
+                evidence.append("explicit_domain")
+            return DomainAssociation(
+                document=document,
+                level=AssociationLevel.SECONDARY,
+                evidence=tuple(evidence),
+            )
+
     if path_matches:
         if rule.kind == DomainKind.INGREDIENT:
             if document_type == "ingrediente":
@@ -539,19 +555,12 @@ def classify_direct_association(
                     evidence=("path",),
                 )
 
-            return DomainAssociation(
-                document=document,
-                level=AssociationLevel.SECONDARY,
-                evidence=("thematic_path",),
-            )
-
         return DomainAssociation(
             document=document,
             level=AssociationLevel.PRIMARY,
             evidence=("path",),
         )
 
-    explicit_domain = explicit_primary_domain(document)
     if explicit_domain == rule.key:
         return DomainAssociation(
             document=document,
@@ -1028,7 +1037,7 @@ def render_markdown(audits: list[DomainAudit]) -> str:
             "- La cobertura usa exclusivamente los tipos de asociaciones `PRIMARY`; algunas reglas de madurez también consideran asociaciones `SECONDARY`.",
             "- Las asociaciones `SECONDARY` representan conocimiento reutilizado y `MENTION` contexto incidental.",
             "- Un documento puede relacionarse con varios dominios con distintos niveles de asociación.",
-            "- En dominios de ingrediente, la coincidencia de ruta de autoridad clasifica como `PRIMARY` únicamente los documentos `ingrediente`; la regla de dominio explícito se evalúa por separado.",
+            "- En dominios de ingrediente, la coincidencia de ruta de autoridad clasifica como `PRIMARY` únicamente los documentos `ingrediente`; un dominio explícito también puede identificar un ingrediente fuera de esa ruta, pero los demás tipos se clasifican como `SECONDARY`.",
             "- Las recetas de carpetas temáticas de ingredientes se clasifican como `SECONDARY`.",
             "- La expansión por enlaces parte únicamente de bases, técnicas, plantillas y recetas `PRIMARY`.",
             "- Las recetas transversales pueden ser `PRIMARY` de un patrón cuando su título es inequívoco o están declaradas como referencia.",
