@@ -410,3 +410,7 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: Calçots asados al horno con salsa tipo salvitxada
 
 - **REC-557 — [Calçots asados al horno con salsa tipo salvitxada](./calcots_asados_al_horno_con_salsa_romesco.md)** (Cataluña): asado de cebolla tierna y salsa de frutos secos. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
+
+## Cocina tradicional española: tapas y repostería (XXV)
+
+- **REC-562 — [Patatas bravas madrileñas con salsa de pimentón](./patatas_bravas_madrilenas_con_salsa_de_pimenton.md)** (Madrid). Propuesta pendiente de prueba doméstica.
