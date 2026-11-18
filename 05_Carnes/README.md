@@ -382,3 +382,8 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española: Sopa de picadillo andaluza de pollo y jamón
 
 - **REC-558 — [Sopa de picadillo andaluza de pollo y jamón](./sopa_de_picadillo_andaluza_de_pollo_y_jamon.md)** (Andalucía): caldo con pollo desmenuzado, jamón y huevo. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
+
+## Cocina tradicional española: tapas y repostería (XXV)
+
+- **REC-563 — [Croquetas caseras de jamón serrano](./croquetas_caseras_de_jamon_serrano.md)** (España, tradición de aprovechamiento). Propuesta pendiente de prueba doméstica.
+- **REC-564 — [Flamenquín cordobés de lomo y jamón](./flamenquin_cordobes_de_lomo_y_jamon.md)** (Córdoba, Andalucía). Propuesta pendiente de prueba doméstica.

@@ -387,3 +387,7 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española: Mantecados de Estepa de almendra
 
 - **REC-560 — [Mantecados de Estepa de almendra](./mantecados_de_estepa_de_almendra.md)** (Estepa, Sevilla, Andalucía): harina previamente tostada, manteca y almendra. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
+
+## Cocina tradicional española: tapas y repostería (XXV)
+
+- **REC-566 — [Flores manchegas fritas con canela](./flores_manchegas_fritas_con_canela.md)** (Castilla-La Mancha). Propuesta pendiente de prueba doméstica.

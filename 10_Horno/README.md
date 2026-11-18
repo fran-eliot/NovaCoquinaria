@@ -254,3 +254,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española: Broa gallega de maíz y centeno
 
 - **REC-561 — [Broa gallega de maíz y centeno](./broa_gallega_de_maiz_y_centeno.md)** (Galicia): escaldado de maíz y fermentación de pan mixto. Propuesta pendiente de prueba doméstica; sin elaboración ni valoración confirmadas.
+
+## Cocina tradicional española: tapas y repostería (XXV)
+
+- **REC-567 — [Ensaimada mallorquina lisa de manteca](./ensaimada_mallorquina_lisa_de_manteca.md)** (Mallorca, Illes Balears). Propuesta pendiente de prueba doméstica.
