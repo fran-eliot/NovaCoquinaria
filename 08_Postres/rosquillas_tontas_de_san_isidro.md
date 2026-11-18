@@ -4,8 +4,8 @@ tipo: receta
 titulo: Rosquillas tontas de San Isidro
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -69,6 +69,7 @@ Conservar una vez frías en recipiente hermético en lugar fresco y seco durante
 
 ## Relaciones dentro del SGCC
 
+- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): ligazón y estructura de la masa durante el horneado.
 - [Rosquillas listas de San Isidro](../08_Postres/rosquillas_listas_de_san_isidro_con_glasa.md)
 - [Rosquillas de anís al horno](../08_Postres/rosquillas_de_anis_al_horno.md)
 - [Índice del módulo](./README.md)

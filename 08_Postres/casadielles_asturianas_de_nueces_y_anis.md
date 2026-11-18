@@ -4,8 +4,8 @@ tipo: receta
 titulo: Casadielles asturianas de nueces y anís
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -72,6 +72,7 @@ Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y re
 
 ## Relaciones dentro del SGCC
 
+- [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): selección, frescura y picado del relleno.
 - [Frixuelos asturianos](./frixuelos_asturianos_con_limon_y_azucar.md)
 - [Pestiños andaluces](./pestinos_andaluces_con_miel_y_ajonjoli.md)
 - [Índice del módulo](./README.md)

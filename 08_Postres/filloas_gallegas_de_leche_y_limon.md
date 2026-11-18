@@ -4,8 +4,8 @@ tipo: receta
 titulo: Filloas gallegas de leche y limón
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -70,6 +70,7 @@ Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recip
 
 ## Relaciones dentro del SGCC
 
+- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md): selección de harina común y ajuste de hidratación.
 - [Frixuelos asturianos](./frixuelos_asturianos_con_limon_y_azucar.md)
 - [Torrijas de leche y canela](./torrijas_de_leche_y_canela.md)
 - [Índice del módulo](./README.md)

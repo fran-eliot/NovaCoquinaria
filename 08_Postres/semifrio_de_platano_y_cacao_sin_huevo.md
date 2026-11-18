@@ -4,8 +4,8 @@ tipo: receta
 titulo: Semifrío de plátano y cacao sin huevo
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - postres
   - receta-propuesta
@@ -65,6 +65,7 @@ Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin de
 
 ## Relaciones dentro del SGCC
 
+- [Plátano](../11_Despensa/17_Frutas/platano.md): madurez, dulzor y textura al triturar fruta congelada.
 - [Sorbete de limón sin huevo](./sorbete_de_limon_sin_huevo.md)
 - [Bizcocho de plátano y nueces](./bizcocho_de_platano_y_nueces.md)
 - [Índice de Postres](./README.md)
