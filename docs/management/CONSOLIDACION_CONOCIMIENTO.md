@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.10.0
+version: 1.11.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -396,3 +396,61 @@ El cierre de los siete avisos queda sujeto a nueva auditoría y comparación por
 ## Cierre del primer ciclo de relaciones — 2026-11-18
 
 La [auditoría del merge #202](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44402431807), commit `78518ab3b43ac9267c06cf250e7bffbc14dd730c`, confirma la desaparición de las 37 advertencias iniciales: 13 técnicas y 24 recetas revisadas. Se verifican 922 documentos, 887 IDs exactos y 5478 enlaces internos, sin errores estructurales ni huérfanos globales detectados. Los tres workflows de main finalizaron correctamente. La cobertura automática por dominios continúa siendo orientativa y Currys conserva un documento sin referencias salientes en su diagnóstico particular. El cierre se circunscribe a las reglas vigentes y no certifica calidad culinaria ni exhaustividad semántica. La revisión de cobertura, la deuda editorial identificada y el contrato de datos permanecen pendientes. El [kit de continuidad](./NOVACOQUINARIA_KIT_CONTINUITY.md) recoge el corte y sus prioridades.
+
+
+## Revisión del alcance y las reglas de auditoría — 2026-11-18
+
+**Corte:** [merge #203](https://github.com/fran-eliot/NovaCoquinaria/pull/203), commit `12132d1bc4c240b4b888a996b092784b9b6ac250`. El [job de auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44403245388/job/135151569226) confirma cero advertencias semánticas y cero huérfanos globales. Se revisan estáticamente `tools/audit_inventory.py`, `tools/audit_knowledge.py` y `tools/semantic_rules.py`, junto al árbol remoto. No se modifica el comportamiento del auditor en este incremento.
+
+### Dos vistas complementarias
+
+| Módulo físico | Fichas por ruta | Dominio homónimo en auditoría | Naturaleza del dominio |
+|---|---:|---|---|
+| Arroces | 39 | Sí | CATEGORY |
+| Pastas | 37 | Sí | CATEGORY |
+| Legumbres | 61 | Sí | CATEGORY |
+| Verduras | 86 | Sí | INGREDIENT |
+| Carnes | 82 | Sí | INGREDIENT |
+| Pescados y Mariscos | 69 | Sí | INGREDIENT |
+| Cocina Asiática | 44 | No | Currys y Salteados asiáticos son PATTERN, no equivalencias del módulo |
+| Postres | 82 | Sí | CATEGORY |
+| Bebidas | 36 | No | Sin regla homónima |
+| Horno | 54 | No | Sin regla homónima |
+
+Los recuentos proceden del árbol versionado y excluyen README. Los diez dominios actuales incluyen asimismo Huevos y lácteos (INGREDIENT), sin módulo de recetas homónimo. La ausencia de un dominio homónimo no significa que sus fichas nunca aparezcan en la auditoría: pueden asociarse por título, metadatos o enlaces. Las asociaciones no son una partición; un documento puede pertenecer a varios dominios.
+
+### Semántica efectiva de las métricas
+
+| Indicador | Interpretación del código vigente | Límite |
+|---|---|---|
+| PRIMARY | Coincidencia de ruta, dominio explícito, título autorizado o enlace de autoridad de patrón según precedencia | Clasificación heurística, no autoridad editorial certificada |
+| SECONDARY | Ruta temática en dominios de ingrediente, coincidencia de título/metadatos o enlace desde ciertos PRIMARY | No acredita una dependencia culinaria tipada |
+| MENTION | Coincidencia en encabezados culinarios controlados | No es búsqueda exhaustiva del cuerpo |
+| Cobertura estructural | Tipos esperados presentes entre PRIMARY / tipos esperados | Cuatro dominios de ingrediente esperan solo ingrediente; 100 % no es comparable directamente con cinco tipos esperados |
+| Enlaces resueltos | Destinos documentales resueltos entre enlaces salientes de PRIMARY | No mide pertinencia culinaria ni exhaustividad de relaciones; sin enlaces corresponde N/A |
+| Huérfanos del dominio | PRIMARY sin enlaces salientes | Distinto del diagnóstico global de conectividad |
+| Madurez automática | Umbrales y presencia de tipos, diferentes según PATTERN, CATEGORY o INGREDIENT | No equivale a madurez editorial o prueba doméstica |
+
+### Hallazgos y tratamiento propuesto
+
+| ID de hallazgo | Evidencia en el código | Tratamiento candidato |
+|---|---|---|
+| AUD-01 | `CANONICAL_RECIPE_PATH_PREFIXES` omite 07, 09 y 10 | Unificar las rutas de recetas con el inventario; comprobar el efecto en patrones antes de adoptar el cambio |
+| AUD-02 | `classify_direct_association` puede promover una receta con enlace de autoridad, sin título de patrón ni referencia declarada, cuando queda fuera de las rutas canónicas | Probar las diez rutas y preservar las excepciones de título y referencia explícita |
+| AUD-03 | Los dominios y módulos representan ejes diferentes | Conservar ambos; no crear dominios artificialmente para completar el inventario |
+| AUD-04 | `contains_any` y fragmentos de ruta usan subcadenas normalizadas | Evaluar falsos positivos y límites de coincidencia con muestras antes de modificar reglas |
+| AUD-05 | El dominio explícito se evalúa después de la coincidencia de ruta y puede promover tipos no previstos para INGREDIENT | Revisar precedencia y tipos permitidos con pruebas; no cambiar metadatos para satisfacer una métrica |
+| AUD-06 | La etiqueta de huérfanos de dominio y los porcentajes pueden inducir equivalencias incorrectas | Explicitar denominadores, nivel de asociación y diferencia con huérfanos globales en informes |
+
+### Baseline de comparación
+
+La ejecución del merge #203 mantiene los niveles de cobertura de #202: Currys 100 %, Salteados asiáticos 60 %, Arroces 80 %, Pastas 60 %, Legumbres 80 %, Verduras 100 %, Carnes 100 %, Pescados y mariscos 100 %, Huevos y lácteos 100 % y Postres 40 %. Currys conserva un PRIMARY sin enlaces salientes. Se preserva esta línea base como resultado de las reglas antiguas, no como objetivo numérico.
+
+### Secuencia de evolución y aceptación
+
+1. Preparar pruebas de clasificación con casos sintéticos de los diez módulos, recetas transversales, coincidencias de título, referencia declarada y enlaces de autoridad.
+2. Abordar AUD-01 y AUD-02 conjuntamente en un incremento de herramientas; mantener las reglas restantes y comprobar que inventario, validación estructural y diagnóstico semántico global no se alteran.
+3. Comparar los informes del mismo corpus con reglas anteriores y nuevas, por dominio, nivel, evidencia e ID/ruta; justificar reclasificaciones sin exigir aumento de cobertura.
+4. Revisar AUD-03–AUD-06 de manera separada según evidencia; publicar denominadores y límites de las métricas antes de interpretar cambios como mejora del conocimiento.
+
+La revisión es documental y estática: no incluye inspección íntegra de artefactos ZIP ni cuantificación de falsos positivos. No modifica recetas, estados de evidencia, taxonomía conceptual, release ni arquitectura de persistencia. La deuda editorial y el contrato de datos mantienen su prioridad posterior.
