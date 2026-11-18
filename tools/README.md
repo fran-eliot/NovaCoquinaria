@@ -133,3 +133,14 @@ python tools/audit_knowledge.py --output site/knowledge-audit/KNOWLEDGE_AUDIT.md
 ```
 
 El inventario consulta rutas del árbol Git de HEAD; la auditoría de dominios lee el checkout. Ejecutar ambos desde un checkout limpio para mantener correspondencia. El directorio site está excluido del cargador documental. La cobertura estructural de dominios no equivale al inventario por módulos ni a la validación culinaria.
+
+## Proyección inicial de recetas
+
+`extract_recipe_metadata.py` lee exclusivamente archivos del árbol Git de un commit, no cambios locales ni archivos sin seguimiento. Genera una proyección parcial (etapa `metadata_only`) con identidad literal, metadatos, ubicación y SHA-256 de la fuente, además del contraste entre rutas y documentos de tipo receta. Todavía no extrae ingredientes, procedimientos ni evidencia culinaria.
+
+```bash
+python -m unittest discover -s tools -p 'test_*.py'
+python tools/extract_recipe_metadata.py --ref HEAD --output site/knowledge-audit/recipe_metadata.json
+```
+
+Las pruebas de aceptación de metadatos necesitan el commit fijado en `tools/fixtures/recipe_contract_cases.json` en el historial local. El workflow Knowledge audit realiza checkout con historial completo y publica la proyección dentro de su artefacto temporal. La salida no modifica el Markdown ni constituye un índice definitivo.
