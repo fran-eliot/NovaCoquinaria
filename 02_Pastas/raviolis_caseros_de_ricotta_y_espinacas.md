@@ -4,7 +4,7 @@ tipo: receta
 titulo: Raviolis caseros de ricotta y espinacas
 categoria: Pastas
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - pasta
@@ -52,21 +52,22 @@ Fórmula de referencia centrada en **laminado de pasta fresca, relleno seco y se
 
 ## Puntos críticos
 
-- El relleno húmedo debilita el sellado. El huevo de la masa debe cocinarse completamente y el relleno con ricotta permanecer refrigerado; no probar pasta cruda.
-- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.
-- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.
+- Escurrir y enfriar bien las espinacas y la ricotta antes de rellenar; un exceso de humedad dificulta el sellado.
+- Mantener cubiertas las láminas que no se estén utilizando para evitar que se sequen. Expulsar el aire alrededor del relleno y presionar los bordes sin atraparlo.
+- Cocer por tandas a hervor suave, comprobar que la pasta esté cocida y extraer con espumadera. No probar masa cruda y mantener refrigerado el relleno.
 
 ## Diagnóstico
 
 | Incidencia | Causa posible | Corrección para otra prueba |
 |---|---|---|
-| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |
-| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |
-| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |
+| Raviolis abiertos | Bordes húmedos en exceso, relleno en la junta o sellado incompleto | Reducir el relleno por pieza, limpiar los bordes y presionar firmemente |
+| Relleno acuoso | Espinacas o ricotta insuficientemente escurridas | Escurrir por separado antes de mezclar |
+| Bolsas de aire o roturas | Aire atrapado o hervor demasiado intenso | Expulsar el aire al cerrar y mantener hervor suave |
+| Bordes duros | Lámina gruesa o cocción insuficiente | Laminar uniformemente y comprobar la cocción antes de retirar |
 
 ## Conservación
 
-Servir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.
+Servir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. Mantener la masa con huevo y el relleno de ricotta refrigerados si no se utilizan de inmediato; evitar permanencias prolongadas a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
