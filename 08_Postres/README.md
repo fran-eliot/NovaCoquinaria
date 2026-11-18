@@ -395,3 +395,8 @@ Punto de entrada al dominio Postres.
 ## Cocina tradicional española (XXVI)
 
 - **REC-572 — [Panellets catalanes de piñones](./panellets_catalanes_de_pinones.md)** (Cataluña, tradición de Todos los Santos). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVII)
+
+- **REC-578 — [Churros tradicionales de agua y harina](./churros_tradicionales_de_agua_y_harina.md)** (España). Propuesta pendiente de prueba doméstica.
+- **REC-579 — [Alfajores al estilo de Medina Sidonia](./alfajores_estilo_medina_sidonia_de_miel_y_frutos_secos.md)** (Medina Sidonia, Cádiz). Propuesta pendiente de prueba doméstica.
