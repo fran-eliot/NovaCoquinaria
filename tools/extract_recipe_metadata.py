@@ -165,7 +165,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         "contract_version": CONTRACT_VERSION,
         "extractor_version": EXTRACTOR_VERSION,
         "stage": "metadata_and_ingredients",
-        "ingredient_summary": dict(sorted(Counter(e["quantity"]["status"] for r in records for e in r["ingredients"]).items())),,
+        "ingredient_summary": dict(sorted(Counter(e["quantity"]["status"] for r in records for e in r["ingredients"]).items())),
         "source_commit": commit,
         "inventory": {
             "recipe_paths": recipe_paths,
