@@ -119,3 +119,17 @@ Las herramientas forman parte de la infraestructura del SGCC.
 Su objetivo es mantener la calidad del conocimiento, no reemplazar la revisión humana.
 
 Toda nueva herramienta deberá justificar qué aspecto de la coherencia documental protege.
+
+## Línea base de conocimiento
+
+El workflow [Knowledge audit](../.github/workflows/knowledge-audit.yml) conserva informes de inventario y auditoría como artefactos de GitHub Actions durante 30 días. No modifica los informes versionados. Se ejecuta sobre PR, cambios a main y activación manual. El commit real del checkout consta en commit.txt e inventory.json.
+
+Reproducción local desde un checkout limpio:
+
+```bash
+python -m unittest discover -s tools -p 'test_audit_inventory.py'
+python tools/audit_inventory.py --output site/knowledge-audit/inventory.json
+python tools/audit_knowledge.py --output site/knowledge-audit/KNOWLEDGE_AUDIT.md --json-output site/knowledge-audit/knowledge_audit.json
+```
+
+El inventario consulta rutas del árbol Git de HEAD; la auditoría de dominios lee el checkout. Ejecutar ambos desde un checkout limpio para mantener correspondencia. El directorio site está excluido del cargador documental. La cobertura estructural de dominios no equivale al inventario por módulos ni a la validación culinaria.

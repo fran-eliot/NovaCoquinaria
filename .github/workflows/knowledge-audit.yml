@@ -1,0 +1,47 @@
+name: Knowledge audit
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Generate knowledge baseline
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install audit dependency
+        run: python -m pip install "PyYAML==6.0.3"
+      - name: Test inventory counting
+        run: python -m unittest discover -s tools -p 'test_audit_inventory.py'
+      - name: Generate inventory and audit reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p site/knowledge-audit
+          git rev-parse HEAD > site/knowledge-audit/commit.txt
+          python --version > site/knowledge-audit/python.txt
+          python tools/validate_all.py | tee site/knowledge-audit/structural.txt
+          python tools/validate_semantics.py | tee site/knowledge-audit/semantic.txt
+          python tools/find_orphans.py | tee site/knowledge-audit/orphans.txt
+          python tools/audit_inventory.py --output site/knowledge-audit/inventory.json
+          python tools/audit_knowledge.py --output site/knowledge-audit/KNOWLEDGE_AUDIT.md --json-output site/knowledge-audit/knowledge_audit.json | tee site/knowledge-audit/domains.txt
+      - name: Upload baseline reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: knowledge-baseline-${{ github.sha }}
+          path: site/knowledge-audit/
+          if-no-files-found: error
+          retention-days: 30

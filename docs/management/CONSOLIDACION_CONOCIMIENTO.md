@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.2.0
+version: 1.3.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -203,3 +203,9 @@ Los incrementos se apoyan en la [especificación de ingesta](../specifications/i
 ### Alcance de la transición
 
 PROJECT_STATUS, ROADMAP, BITACORA y el kit de continuidad se actualizan de forma coordinada para orientar el primer incremento de auditoría. La adopción de esta dirección no equivale a aprobar una tecnología, release o implementación concreta. Los resultados de la auditoría todavía no se han obtenido.
+
+## Línea base reproducible: infraestructura de auditoría — 2026-11-18
+
+Se incorpora un workflow de auditoría independiente, [Knowledge audit](../../.github/workflows/knowledge-audit.yml), que genera inventario por rutas versionadas, informes Markdown y JSON por dominios y registros de los tres controles existentes. El commit del checkout y la versión de Python se conservan junto a los informes. Los resultados se publican como artefactos temporales de GitHub Actions, sin modificar la fuente Markdown ni sobrescribir automáticamente el informe histórico.
+
+La primera ejecución satisfactoria permitirá establecer una línea base observada. Se mantienen las reglas actuales de auditoría para evaluar su comportamiento: su lista de dominios no equivale a los diez módulos de recetas, y las rutas canónicas del auditor no incluyen Cocina Asiática, Bebidas y Horno. No se deduce la madurez de estos módulos de su número de fichas. Los diagnósticos semánticos y huérfanos permanecen informativos. Las revisiones de reglas y la publicación de un nuevo informe versionado se abordarán tras examinar la evidencia.
