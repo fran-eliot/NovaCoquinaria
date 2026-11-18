@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tiramisú sin huevo crudo con mascarpone
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - postres
   - receta-propuesta
@@ -68,6 +68,7 @@ Enfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora
 
 ## Relaciones dentro del SGCC
 
+- [Preparar café por extracción](../00_Bases/03_Tecnicas/preparar_cafe.md): control de intensidad y extracción del café para el remojo.
 - [Tarta de galletas y natillas con café y Amaretto](./tarta_de_galletas_natillas_cafe_amaretto.md)
 - [Mousse de chocolate sin huevo crudo](./mousse_de_chocolate_sin_huevo_crudo.md)
 - [Índice de Postres](./README.md)

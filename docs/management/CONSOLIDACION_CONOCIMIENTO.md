@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.6.0
+version: 1.7.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -336,3 +336,25 @@ Se añaden relaciones reutilizables a las cinco recetas de Bebidas señaladas po
 | [limonada de jengibre y romero](../../09_Bebidas/limonada_de_jengibre_y_romero.md) | [Limón](../../11_Despensa/11_Condimentos/limon.md) | dosificación de acidez y uso del zumo |
 
 La reducción de 24 a 19 avisos es una expectativa pendiente de ejecución. No se modifican reglas del auditor.
+
+## Consolidación de Postres y Horno — 2026-11-18
+
+La [auditoría del merge #199](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44399560162), commit `e610afdc4c8b4311c1076b54d1d069565a87e80e`, confirma la reducción de 24 a 19 advertencias semánticas: desaparecen los cinco avisos de Bebidas. Se verifican 922 documentos, 887 IDs y 5421 enlaces internos; no se detectan huérfanos globales.
+
+Se revisan seis recetas de Postres y una de Horno. Se incorpora una relación pertinente por ficha, conservando formulaciones, identificadores y estados de prueba.
+
+| Receta | Referencia | Utilidad |
+|---|---|---|
+| [casadielles asturianas de nueces y anis](../../08_Postres/casadielles_asturianas_de_nueces_y_anis.md) | [Nueces](../../11_Despensa/16_Frutos_Secos/nueces.md) | selección, frescura y picado del relleno |
+| [filloas gallegas de leche y limon](../../08_Postres/filloas_gallegas_de_leche_y_limon.md) | [Harina de trigo](../../11_Despensa/01_Cereales/harina_de_trigo.md) | selección de harina común y ajuste de hidratación |
+| [mazapan toledano de almendra](../../08_Postres/mazapan_toledano_de_almendra.md) | [Almendras](../../11_Despensa/16_Frutos_Secos/almendras.md) | función estructural de la almendra molida y selección del fruto |
+| [rosquillas tontas de san isidro](../../08_Postres/rosquillas_tontas_de_san_isidro.md) | [Huevo](../../11_Despensa/14_Huevos_Lacteos/huevo.md) | ligazón y estructura de la masa durante el horneado |
+| [semifrio de platano y cacao sin huevo](../../08_Postres/semifrio_de_platano_y_cacao_sin_huevo.md) | [Plátano](../../11_Despensa/17_Frutas/platano.md) | madurez, dulzor y textura al triturar fruta congelada |
+| [tiramisu sin huevo crudo con mascarpone](../../08_Postres/tiramisu_sin_huevo_crudo_con_mascarpone.md) | [Preparar café por extracción](../../00_Bases/03_Tecnicas/preparar_cafe.md) | control de intensidad y extracción del café para el remojo |
+| [talo vasco de maiz en plancha](../../10_Horno/talo_vasco_de_maiz_en_plancha.md) | [Seguridad alimentaria](../../98_Tablas/05_Seguridad/seguridad_alimentaria.md) | manejo separado del relleno de chistorra, refrigeración y recalentado |
+
+### Hallazgos editoriales adicionales
+
+Las fichas de semifrío de plátano y tiramisú contienen recomendaciones genéricas sobre hornos, cocción o cuajado térmico que no corresponden a sus procedimientos en frío. Se registra esta deuda para una revisión editorial específica, sin alterar aquí las fórmulas ni atribuir pruebas domésticas. En el talo, la relación de seguridad es pertinente al relleno opcional y la conservación, pero no sustituye una futura ficha específica de harina de maíz no precocida.
+
+La reducción de 19 a 12 advertencias es una expectativa pendiente de comprobar en una nueva ejecución. No se modifican las reglas del auditor.

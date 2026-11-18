@@ -4,7 +4,7 @@ tipo: receta
 titulo: Mazapán toledano de almendra
 categoria: Postres
 estado: borrador
-version: 1.0.0
+version: 1.0.1
 ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
@@ -62,6 +62,7 @@ Guardar fríos en recipiente cerrado, refrigerados a 4 °C o menos; consumir en 
 
 ## Relaciones dentro del SGCC
 
+- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md): función estructural de la almendra molida y selección del fruto.
 - [panellets catalanes de pinones](../08_Postres/panellets_catalanes_de_pinones.md)
 - [marquesas de almendra de navidad](../08_Postres/marquesas_de_almendra_de_navidad.md)
 - [Índice del módulo](./README.md)
