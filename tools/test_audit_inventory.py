@@ -147,5 +147,51 @@ class AuditMetricPresentationTests(unittest.TestCase):
                               render_markdown([audit]))
     
 
+class AuditFalsePositiveTests(unittest.TestCase):
+    def document(self, path, title, content="", **fields):
+        return Document(Path(path), {"tipo": "receta", "titulo": title, **fields}, content)
+
+    def test_caponata_is_not_cream(self):
+        rule = next(rule for rule in KNOWLEDGE_RULES if rule.key == "huevos_lacteos")
+        document = self.document(
+            "04_Verduras/caponata.md",
+            "Caponata de berenjena con alcaparras y aceitunas",
+        )
+        self.assertIsNone(classify_direct_association(document, rule))
+
+    def test_cream_and_plural_still_match(self):
+        rule = next(rule for rule in KNOWLEDGE_RULES if rule.key == "huevos_lacteos")
+        for title in ("Crema de limón con nata", "Postre de natas"):
+            with self.subTest(title=title):
+                association = classify_direct_association(
+                    self.document("08_Postres/prueba.md", title), rule
+                )
+                self.assertEqual(association.level, AssociationLevel.SECONDARY)
+
+    def test_path_prefix_requires_directory_boundary(self):
+        rule = next(rule for rule in KNOWLEDGE_RULES if rule.key == "pastas")
+        for path in ("02_Pastas_extra/ejemplo.md", "otra/02_Pastas/ejemplo.md"):
+            with self.subTest(path=path):
+                self.assertIsNone(classify_direct_association(
+                    self.document(path, "Ejemplo"), rule))
+        association = classify_direct_association(
+            self.document("02_Pastas/subdir/ejemplo.md", "Ejemplo"), rule)
+        self.assertEqual(association.level, AssociationLevel.PRIMARY)
+
+    def test_authority_link_must_resolve_to_exact_path(self):
+        rule = next(rule for rule in KNOWLEDGE_RULES if rule.key == "currys")
+        for link in (
+            "../otra/12_Plantillas/04_Cocciones/curry_base.md",
+            "../12_Plantillas/04_Cocciones/curry_base.md.bak",
+        ):
+            with self.subTest(link=link):
+                self.assertIsNone(classify_direct_association(
+                    self.document("05_Carnes/prueba.md", "Pollo", f"[Patrón]({link})"), rule))
+        association = classify_direct_association(self.document(
+            "05_Carnes/prueba.md", "Pollo",
+            "[Patrón](../12_Plantillas/04_Cocciones/curry_base.md#variantes)"), rule)
+        self.assertEqual(association.level, AssociationLevel.SECONDARY)
+
+
 if __name__ == "__main__":
     unittest.main()
