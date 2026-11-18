@@ -387,3 +387,7 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 
 - **REC-563 — [Croquetas caseras de jamón serrano](./croquetas_caseras_de_jamon_serrano.md)** (España, tradición de aprovechamiento). Propuesta pendiente de prueba doméstica.
 - **REC-564 — [Flamenquín cordobés de lomo y jamón](./flamenquin_cordobes_de_lomo_y_jamon.md)** (Córdoba, Andalucía). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVI)
+
+- **REC-570 — [Ajo mataero albaceteño de hígado y pan](./ajo_mataero_albaceteno_de_higado_y_pan.md)** (Albacete, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.

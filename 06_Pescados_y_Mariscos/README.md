@@ -345,3 +345,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española: tapas y repostería (XXV)
 
 - **REC-565 — [Soldaditos de Pavía de bacalao](./soldaditos_de_pavia_de_bacalao.md)** (Madrid y Andalucía). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVI)
+
+- **REC-571 — [Urta a la roteña con tomate y pimientos](./urta_a_la_rotena_con_tomate_y_pimientos.md)** (Rota, Cádiz, Andalucía). Propuesta pendiente de prueba doméstica.

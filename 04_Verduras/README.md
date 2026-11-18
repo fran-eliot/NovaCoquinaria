@@ -414,3 +414,8 @@ Punto de entrada del dominio Verduras y sus relaciones con el resto del SGCC.
 ## Cocina tradicional española: tapas y repostería (XXV)
 
 - **REC-562 — [Patatas bravas madrileñas con salsa de pimentón](./patatas_bravas_madrilenas_con_salsa_de_pimenton.md)** (Madrid). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVI)
+
+- **REC-568 — [Patatas a lo pobre andaluzas](./patatas_a_lo_pobre_andaluzas.md)** (Andalucía). Propuesta pendiente de prueba doméstica.
+- **REC-569 — [Huevos rotos con patatas y jamón](./huevos_rotos_con_patatas_y_jamon.md)** (Madrid, cocina de taberna española). Propuesta pendiente de prueba doméstica.
