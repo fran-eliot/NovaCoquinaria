@@ -4,8 +4,8 @@ tipo: receta
 titulo: Cardo aragonés con salsa de almendras
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -69,6 +69,7 @@ Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y re
 
 ## Relaciones dentro del SGCC
 
+- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md): tostado moderado y función espesante del majado.
 - [Borrajas con patatas](./borrajas_con_patatas_y_aceite_de_oliva.md)
 - [Menestra navarra](./menestra_navarra_de_los_cuatro_ases.md)
 - [Índice del módulo](./README.md)

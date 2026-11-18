@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pericana alicantina de pimiento seco y bacalao
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -68,6 +68,7 @@ Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refr
 
 ## Relaciones dentro del SGCC
 
+- [Bacalao](../11_Despensa/04_Pescados/bacalao.md): distinción de formatos, desalado y cocción completa.
 - [Pimientos asados y aliñados](./pimientos_asados_y_aliñados.md)
 - [Bacalao a la vizcaína](../06_Pescados_y_Mariscos/bacalao_a_la_vizcaina_con_pimiento_choricero.md)
 - [Índice del módulo](./README.md)

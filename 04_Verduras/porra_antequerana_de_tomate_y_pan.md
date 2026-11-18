@@ -4,8 +4,8 @@ tipo: receta
 titulo: Porra antequerana de tomate y pan
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -70,6 +70,7 @@ Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recip
 
 ## Relaciones dentro del SGCC
 
+- [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md): selección según madurez, jugosidad y acidez.
 - [Salmorejo cordobés](./salmorejo_cordobes_con_huevo.md)
 - [Gazpacho andaluz](./gazpacho_andaluz_de_tomate_y_pimiento.md)
 - [Índice del módulo](./README.md)
