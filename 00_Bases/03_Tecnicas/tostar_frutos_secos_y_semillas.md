@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Tostar frutos secos y semillas
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - frutos-secos
   - semillas
@@ -57,6 +57,7 @@ Los frutos de cáscara, cacahuetes y sésamo pueden ser alérgenos importantes; 
 
 ## Relaciones dentro del SGCC
 
+- [Almendras](../../11_Despensa/16_Frutos_Secos/almendras.md): manejo del tostado y control del calor residual.
 - [Manzanas asadas con canela y nueces](../../10_Horno/manzanas_asadas_con_canela_y_nueces.md)
 - [Brownie con nueces](../../08_Postres/brownie_de_chocolate_y_nueces.md)
 - [Tostar y activar especias](./tostar_y_activar_especias.md)

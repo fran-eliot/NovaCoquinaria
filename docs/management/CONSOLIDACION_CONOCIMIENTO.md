@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.4.0
+version: 1.5.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -298,3 +298,25 @@ La ausencia global de huérfanos y el documento sin referencias salientes del do
 5. Evaluar la preparación para un contrato de datos a partir de muestras representativas; no exigir eliminar todos los avisos para comenzar si las excepciones están justificadas.
 
 El incremento registra la evidencia y ordena las revisiones. No corrige aún las 37 advertencias ni cambia las reglas de auditoría.
+
+## Revisión de las 13 técnicas señaladas — 2026-11-18
+
+Se revisan los documentos de técnica y sus destinos de conocimiento reutilizable. Se añade una relación pertinente por documento, sin alterar procedimientos, estado editorial, identificadores ni reglas del auditor. Los 13 destinos existentes se han contrastado con sus fichas fuente.
+
+| Técnica | Conocimiento reutilizado | Justificación |
+|---|---|---|
+| [brasear carnes en cazuela](../../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md) | [Diagnóstico de cocción de carnes](../../98_Tablas/07_Comparativas/diagnostico_carnes.md) | criterios para distinguir falta de terneza y exceso de líquido |
+| [cocinar al bano maria](../../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md) | [Huevo](../../11_Despensa/14_Huevos_Lacteos/huevo.md) | función de coagulación y estructura en los cuajados |
+| [desglasar fondos de coccion](../../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md) | [Vino blanco para cocinar](../../11_Despensa/11_Condimentos/vino_blanco_cocina.md) | selección y manejo del líquido de desglasado |
+| [escalfar pescados en liquido aromatico](../../00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md) | [Fumet de pescado](../../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md) | fondo suave apropiado para la cocción |
+| [gratinar coberturas sin quemar](../../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md) | [Pan rallado](../../11_Despensa/01_Cereales/pan_rallado.md) | selección de granulometría y manejo de coberturas |
+| [hervir y cocer a fuego suave](../../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md) | [Tiempos de cocción](../../98_Tablas/01_Cocciones/tiempos_coccion.md) | intervalos orientativos por alimento |
+| [pochar y caramelizar cebolla](../../00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md) | [Cebolla](../../11_Despensa/06_Verduras/cebolla.md) | variedades y evolución aromática durante la cocción |
+| [preparar bechamel sin grumos](../../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md) | [Harina de trigo](../../11_Despensa/01_Cereales/harina_de_trigo.md) | selección de harina y formación del roux |
+| [reducir y ligar salsas](../../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md) | [Almidón de maíz (maicena)](../../11_Despensa/13_Bases_Culinarias/maicena.md) | dispersión en frío y espesado sin reducción excesiva |
+| [tostar frutos secos y semillas](../../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md) | [Almendras](../../11_Despensa/16_Frutos_Secos/almendras.md) | manejo del tostado y control del calor residual |
+| [tostar y activar especias](../../00_Bases/03_Tecnicas/tostar_y_activar_especias.md) | [Comino](../../11_Despensa/08_Especias/comino.md) | diferencias de manejo entre semilla entera y especia molida |
+| [equilibrar acidez dulzor y amargor](../../00_Bases/04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md) | [Limón](../../11_Despensa/11_Condimentos/limon.md) | dosificación de acidez y prevención del amargor de la piel blanca |
+| [salar por etapas](../../00_Bases/04_Sazonado/salar_por_etapas.md) | [Salsa de soja](../../11_Despensa/09_Salsas/salsa_de_soja.md) | aporte de salinidad que debe considerarse antes del ajuste final |
+
+La eliminación de los avisos queda pendiente de comprobar mediante una nueva ejecución de Knowledge audit. Los 24 avisos de recetas no se abordan en este incremento. Se conserva la línea base histórica sin modificar sus recuentos.

@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Reducir y ligar salsas
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - salsas
   - reduccion
@@ -57,6 +57,7 @@ No cerrar herméticamente recipientes durante la reducción. Manipular salpicadu
 
 ## Relaciones dentro del SGCC
 
+- [Almidón de maíz (maicena)](../../11_Despensa/13_Bases_Culinarias/maicena.md): dispersión en frío y espesado sin reducción excesiva.
 - [Pollo en salsa de champiñones](../../05_Carnes/pollo_en_salsa_de_champinones.md)
 - [Empanada de atún y pimientos](../../10_Horno/empanada_de_atun_y_pimientos.md)
 - [Sofreír](./sofreir.md)
