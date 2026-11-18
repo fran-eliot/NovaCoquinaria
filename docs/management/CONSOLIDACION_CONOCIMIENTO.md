@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.5.0
+version: 1.6.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -320,3 +320,19 @@ Se revisan los documentos de técnica y sus destinos de conocimiento reutilizabl
 | [salar por etapas](../../00_Bases/04_Sazonado/salar_por_etapas.md) | [Salsa de soja](../../11_Despensa/09_Salsas/salsa_de_soja.md) | aporte de salinidad que debe considerarse antes del ajuste final |
 
 La eliminación de los avisos queda pendiente de comprobar mediante una nueva ejecución de Knowledge audit. Los 24 avisos de recetas no se abordan en este incremento. Se conserva la línea base histórica sin modificar sus recuentos.
+
+## Consolidación de Bebidas — 2026-11-18
+
+La [auditoría del merge #198](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44398171800), commit `b57cc5d4cd4539dcbd0bdb888027733592c2e1b7`, confirma la reducción de 37 a 24 advertencias semánticas, sin avisos de técnicas ni huérfanos globales. Se verifican 5406 enlaces internos, 887 IDs y 922 documentos.
+
+Se añaden relaciones reutilizables a las cinco recetas de Bebidas señaladas por el diagnóstico, preservando sus formulaciones y estados de prueba.
+
+| Receta | Referencia | Utilidad |
+|---|---|---|
+| [agua de tamarindo casera](../../09_Bebidas/agua_de_tamarindo_casera.md) | [Diagnóstico de bebidas](../../98_Tablas/07_Comparativas/diagnostico_bebidas.md) | ajuste de acidez, dilución y filtrado |
+| [atole de avena y canela](../../09_Bebidas/atole_de_avena_y_canela.md) | [Canela](../../11_Despensa/08_Especias/canela.md) | selección y extracción aromática en leche |
+| [ayran de yogur y menta](../../09_Bebidas/ayran_de_yogur_y_menta.md) | [Yogur natural](../../11_Despensa/14_Huevos_Lacteos/yogur_natural.md) | selección de la base láctea y control de textura |
+| [batido verde de kiwi manzana y espinacas](../../09_Bebidas/batido_verde_de_kiwi_manzana_y_espinacas.md) | [Espinacas](../../11_Despensa/06_Verduras/espinacas.md) | selección y manejo de hojas frescas |
+| [limonada de jengibre y romero](../../09_Bebidas/limonada_de_jengibre_y_romero.md) | [Limón](../../11_Despensa/11_Condimentos/limon.md) | dosificación de acidez y uso del zumo |
+
+La reducción de 24 a 19 avisos es una expectativa pendiente de ejecución. No se modifican reglas del auditor.

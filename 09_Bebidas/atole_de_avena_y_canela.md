@@ -4,8 +4,8 @@ tipo: receta
 titulo: Atole de avena y canela
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -67,6 +67,7 @@ Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demo
 
 ## Relaciones dentro del SGCC
 
+- [Canela](../11_Despensa/08_Especias/canela.md): selección y extracción aromática en leche.
 - [Chocolate caliente](./chocolate_caliente.md)
 - [Leche dorada con cúrcuma](./leche_dorada_con_curcuma.md)
 - [Índice de Bebidas](./README.md)
