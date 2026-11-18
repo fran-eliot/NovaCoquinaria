@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.12.0
+version: 1.13.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -493,3 +493,49 @@ La resolución de enlaces (100 % en los diez dominios) y las etiquetas de madure
 **Conclusión:** AUD-01 y AUD-02 quedan corregidos en el código y cubiertos por pruebas sintéticas de regresión. No se detectan diferencias en los indicadores agregados. La igualdad de recuentos no demuestra igualdad de asociaciones individuales, evidencias o rutas; el contraste íntegro de los JSON de ambos informes queda pendiente. No se ha inspeccionado el contenido de los ZIP y no se certifica ausencia de falsos positivos.
 
 **Continuidad:** contrastar las asociaciones individuales de los dos informes sobre el mismo corpus y explicitar denominadores y alcance en la presentación de métricas (AUD-06). Mantener separados los módulos físicos y los dominios (AUD-03); evaluar AUD-04 y AUD-05 mediante casos dirigidos. No modificar recetas ni elevar artificialmente indicadores de madurez.
+
+
+## Cierre del ciclo de revisión dirigida del auditor — 2026-11-18
+
+Corte: [merge #209](https://github.com/fran-eliot/NovaCoquinaria/pull/209), commit `600b9d0ff289215f21202dffc53ea6cc6e8e091b`. El [job de auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44406754654/job/135163909331) confirma 17 pruebas unitarias superadas, cero advertencias semánticas y cero huérfanos globales. Knowledge integrity terminó correctamente. Deploy MkDocs site también finalizó correctamente.
+
+| Hallazgo | Incremento | Resultado |
+|---|---|---|
+| AUD-01 | #205 | Diez rutas canónicas compartidas con el inventario |
+| AUD-02 | #205–#206 | Regresión de clasificación transversal y comparación agregada |
+| AUD-03 | #204 | Separación documental de módulos físicos y dominios |
+| AUD-04 | #208 | Corrección selectiva de nata/caponata, límites de rutas y destinos de autoridad |
+| AUD-05 | #209 | Los tipos no ingrediente con asociación explícita a INGREDIENT permanecen SECONDARY; se preserva la autoridad por ruta |
+| AUD-06 | #207 | Denominadores, naturaleza de dominio y distinción entre PRIMARY sin salidas y huérfanos globales |
+
+### Evidencia comparativa
+
+| Indicador | #204 | #209 |
+|---|---:|---:|
+| Pruebas unitarias superadas | 1 | 17 |
+| Rutas canónicas | 7 | 10 |
+| Documentos Markdown | 922 | 922 |
+| Rutas de recetas | 590 | 590 |
+| Rutas de ingredientes | 125 | 125 |
+| Rutas de técnicas | 52 | 52 |
+| Advertencias semánticas | 0 | 0 |
+| Huérfanos globales | 0 | 0 |
+| SECONDARY de Huevos y lácteos | 68 | 67 |
+
+Los registros de [#207](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44405656546/job/135160044038), [#208](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44406326577/job/135162408368) y #209 muestran que el descenso de una asociación SECONDARY ocurre tras #208. Es compatible con la corrección léxica, pero su identidad exacta no queda demostrada por los recuentos. En #209 se mantienen todos los indicadores agregados de #208. La cobertura, resolución de enlaces y etiquetas de madurez de los diez dominios permanecen estables. Currys conserva un PRIMARY sin salidas; no equivale a un huérfano global.
+
+### Alcance del cierre y deuda residual
+
+Se cierra el ciclo de revisión dirigida de AUD-01–AUD-06, no una auditoría exhaustiva. La comparación de commits #204–#209 muestra cambios únicamente en este documento, el auditor y sus pruebas. No se modificaron fichas culinarias ni umbrales de madurez. Permanecen pendientes el contraste individual de asociaciones JSON, la evaluación exhaustiva de coincidencias léxicas y la revisión de otros conflictos de clasificación si se detectan. El informe histórico versionado no se sustituye por cifras de consola.
+
+### Siguiente incremento: deuda editorial selectiva
+
+| Bloque | Fichas o asunto | Objetivo |
+|---|---|---|
+| Preparaciones en frío | Semifrío de plátano, tiramisú, pipirrana y porra | Sustituir diagnósticos térmicos genéricos por criterios pertinentes de textura y procedimiento |
+| Pasta rellena | Raviolis de ricotta y espinacas | Diagnóstico de humedad, sellado y cocción conforme a su método |
+| Conservación | Doenjang jjigae | Eliminar referencias ajenas al plato y ajustar conservación a sus ingredientes |
+| Acabado | Pavo en escabeche de naranja y laurel | Precisar retirada de hojas de laurel |
+| Despensa | Harina de maíz no precocida | Verificar ausencia de ficha equivalente y documentar diferencias de formato antes de incorporarla |
+
+La revisión preservará formulaciones, identificadores y estados de evidencia, sin atribuir ensayos no realizados. Después se preparará el contrato de datos de recetas, con Markdown como fuente canónica. No se selecciona tecnología de persistencia ni se publica una release.
