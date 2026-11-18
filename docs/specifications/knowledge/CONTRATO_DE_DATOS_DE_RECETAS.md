@@ -2,7 +2,7 @@
 id: SPEC-CONTRATO-RECETAS
 tipo: especificacion
 titulo: Contrato de datos de recetas
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-18
 tags:
@@ -16,7 +16,7 @@ tags:
 
 ## Propósito y alcance
 
-Definir una proyección estructurada, derivada y reconstruible de las recetas Markdown existentes para una primera ingesta e indexación local. Complementa el modelo documental y de componentes sin cambiar su identidad ni sus fuentes canónicas. La versión 0.1.0 es una propuesta para contrastar con muestras reales, no un esquema de persistencia ni un requisito nuevo de front matter.
+Definir una proyección estructurada, derivada y reconstruible de las recetas Markdown existentes para una primera ingesta e indexación local. Complementa el modelo documental y de componentes sin cambiar su identidad ni sus fuentes canónicas. La versión 0.1.1 es una propuesta para contrastar con muestras reales, no un esquema de persistencia ni un requisito nuevo de front matter.
 
 ## Fuente e identidad
 
@@ -82,6 +82,14 @@ Las siguientes observaciones son lecturas documentales del corte indicado, no re
 | [Pipirrana jiennense](../../../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md) REC-485 | 10–15 ml de vinagre opcional, sal sin cantidad | Intervalo opcional, cantidad ausente, pendiente de prueba |
 
 En el pastel, los 840 g utilizados y el problema con el lemon curd están registrados históricamente; la alternativa de mermelada espesa y medidas de horno requieren contraste. No atribuir el resultado anterior a la formulación actual completa.
+
+## Casos de aceptación del contrato
+
+El conjunto de expectativas parciales para seis fichas reales y nueve cantidades sintéticas se conserva en `tools/fixtures/recipe_contract_cases.json`, fijado al mismo commit de referencia. El archivo declara resultados esperados, no datos extraídos. No se considera una copia canónica de recetas ni certifica conformidad hasta que se ejecute contra el extractor. La versión de contrato de las expectativas sigue siendo 0.1.0 porque no se altera el modelo lógico; esta revisión 0.1.1 añade cobertura documental.
+
+Se incorporan dos casos de elaboración doméstica: [berenjenas estilo Sichuán](../../../07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md) y [tarta de galletas y natillas](../../../08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md). Las primeras permiten comprobar fracciones, alternativas y diferencias entre cantidades propuestas y realmente utilizadas. La segunda distingue la capacidad de un envase (35 ml) de una dosis no medida («un chorrito»). Ninguna acredita validación íntegra de la fórmula actual.
+
+Convención propuesta para los casos: cantidades como cadenas decimales o fracciones reducidas, unidades canónicas de masa/volumen explícito (g, ml, l) y unidades domésticas singulares. La cantidad original se mantiene siempre en el registro derivado. La notación de números mixtos se representa como fracción reducida sin aproximación. Las expectativas parciales no exigen valores de campos no enumerados.
 
 ## Validación y diagnósticos
 
