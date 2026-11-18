@@ -262,3 +262,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española (XXVI)
 
 - **REC-573 — [Talo vasco de maíz a la plancha](./talo_vasco_de_maiz_en_plancha.md)** (País Vasco y Navarra). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVIII)
+
+- **REC-585 — [Tortas de aceite sevillanas con anís](./tortas_de_aceite_sevillanas_con_anis.md)** (Aljarafe, Sevilla). Propuesta pendiente de prueba doméstica.

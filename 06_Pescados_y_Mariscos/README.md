@@ -353,3 +353,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española (XXVII)
 
 - **REC-577 — [Atún con tomate a la andaluza](./atun_con_tomate_a_la_andaluza.md)** (Andalucía). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVIII)
+
+- **REC-582 — [Patatas con congrio seco](./patatas_con_congrio_seco_aragonesas.md)** (Aragón). Propuesta pendiente de prueba doméstica.

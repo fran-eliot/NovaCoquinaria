@@ -395,3 +395,8 @@ Punto de entrada a recetas y técnicas del dominio Carnes.
 ## Cocina tradicional española (XXVII)
 
 - **REC-576 — [Perdiz a la toledana estofada](./perdiz_a_la_toledana_estofada.md)** (Toledo, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVIII)
+
+- **REC-580 — [Costillas con papas y piña de millo](./costillas_con_papas_y_pina_de_millo_canarias.md)** (Tenerife, Canarias). Propuesta pendiente de prueba doméstica.
+- **REC-581 — [Zarajos conquenses a la plancha](./zarajos_conquenses.md)** (Cuenca, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
