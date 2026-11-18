@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.11.0
+version: 1.12.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -454,3 +454,42 @@ La ejecución del merge #203 mantiene los niveles de cobertura de #202: Currys 1
 4. Revisar AUD-03–AUD-06 de manera separada según evidencia; publicar denominadores y límites de las métricas antes de interpretar cambios como mejora del conocimiento.
 
 La revisión es documental y estática: no incluye inspección íntegra de artefactos ZIP ni cuantificación de falsos positivos. No modifica recetas, estados de evidencia, taxonomía conceptual, release ni arquitectura de persistencia. La deuda editorial y el contrato de datos mantienen su prioridad posterior.
+
+
+## Evaluación del impacto de las rutas canónicas — 2026-11-18
+
+Se compara el merge de [#204](https://github.com/fran-eliot/NovaCoquinaria/pull/204), `bcba2ad1d6245a03a9447ab6e46b2164373fe061`, con el de [#205](https://github.com/fran-eliot/NovaCoquinaria/pull/205), `da4a0aa9db976a1f2dd58da3d21a428793ef1c18`. La diferencia entre ambos commits se limita al auditor y sus pruebas; el corpus Markdown es idéntico. Evidencia: [job anterior](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44404403781/job/135155655099) y [job posterior](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44404767452/job/135156928905).
+
+| Indicador | #204 | #205 |
+|---|---:|---:|
+| Rutas canónicas | 7 | 10 |
+| Pruebas unitarias superadas | 1 | 7 |
+| Markdown | 922 | 922 |
+| Rutas de recetas | 590 | 590 |
+| Rutas de ingredientes | 125 | 125 |
+| Rutas de técnicas | 52 | 52 |
+| Advertencias semánticas | 0 | 0 |
+| Huérfanos globales | 0 | 0 |
+
+### Comparación de dominios
+
+Los siguientes valores son idénticos en ambos registros de ejecución.
+
+| Dominio | PRIMARY | SECONDARY | MENTION | Cobertura | Sin salidas |
+|---|---:|---:|---:|---:|---:|
+| Currys | 13 | 20 | 0 | 100 % | 1 |
+| Salteados asiáticos | 5 | 36 | 1 | 60 % | 0 |
+| Arroces | 64 | 83 | 0 | 80 % | 0 |
+| Pastas | 44 | 44 | 0 | 60 % | 0 |
+| Legumbres | 84 | 50 | 0 | 80 % | 0 |
+| Verduras | 17 | 213 | 0 | 100 % | 0 |
+| Carnes | 6 | 129 | 0 | 100 % | 0 |
+| Pescados y mariscos | 7 | 102 | 0 | 100 % | 0 |
+| Huevos y lácteos | 8 | 68 | 0 | 100 % | 0 |
+| Postres | 83 | 33 | 0 | 40 % | 0 |
+
+La resolución de enlaces (100 % en los diez dominios) y las etiquetas de madurez automática tampoco varían. Knowledge integrity, Knowledge audit y Deploy MkDocs site finalizaron correctamente para #205.
+
+**Conclusión:** AUD-01 y AUD-02 quedan corregidos en el código y cubiertos por pruebas sintéticas de regresión. No se detectan diferencias en los indicadores agregados. La igualdad de recuentos no demuestra igualdad de asociaciones individuales, evidencias o rutas; el contraste íntegro de los JSON de ambos informes queda pendiente. No se ha inspeccionado el contenido de los ZIP y no se certifica ausencia de falsos positivos.
+
+**Continuidad:** contrastar las asociaciones individuales de los dos informes sobre el mismo corpus y explicitar denominadores y alcance en la presentación de métricas (AUD-06). Mantener separados los módulos físicos y los dominios (AUD-03); evaluar AUD-04 y AUD-05 mediante casos dirigidos. No modificar recetas ni elevar artificialmente indicadores de madurez.
