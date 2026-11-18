@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.1.0
+version: 1.2.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -160,7 +160,7 @@ Los ajustes se centran en distinguir las señales de textura (temblor, espesado)
 
 ## Propuesta de transición a consolidación y explotación — 2026-11-18
 
-**Estado:** propuesta de dirección estratégica, pendiente de aprobación. No declara cerrada la evolución del conocimiento ni modifica aún las prioridades oficiales del Roadmap.
+**Estado:** dirección de trabajo incorporada a la documentación de gestión mediante la presente transición. No declara cerrada la evolución del conocimiento ni selecciona tecnología.
 
 ### Línea base comprobada
 
@@ -200,6 +200,6 @@ Los incrementos se apoyan en la [especificación de ingesta](../specifications/i
 - La auditoría automática no sustituye revisión editorial, semántica ni pruebas culinarias.
 - No es objetivo inmediato elegir frameworks, implantar GraphRAG, agentes o un planificador completo.
 
-### Decisión pendiente
+### Alcance de la transición
 
-La aprobación de la transición habilitaría actualizar PROJECT_STATUS, ROADMAP, BITACORA y el kit de continuidad con el nuevo alcance, antes de iniciar el primer incremento de auditoría. La aprobación de esta dirección no equivale a aprobar una tecnología, release o implementación concreta.
+PROJECT_STATUS, ROADMAP, BITACORA y el kit de continuidad se actualizan de forma coordinada para orientar el primer incremento de auditoría. La adopción de esta dirección no equivale a aprobar una tecnología, release o implementación concreta. Los resultados de la auditoría todavía no se han obtenido.
