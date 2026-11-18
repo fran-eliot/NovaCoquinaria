@@ -12,6 +12,7 @@ import unicodedata
 
 from common import ROOT_DIR, load_documents, print_ok
 from models import Document
+from audit_inventory import RECIPE_MODULES
 
 
 REPORT_DEFAULT = Path("docs/management/generated/KNOWLEDGE_AUDIT.md")
@@ -33,15 +34,7 @@ SECONDARY_EXPANSION_TYPES = {
     "receta",
 }
 
-CANONICAL_RECIPE_PATH_PREFIXES = (
-    "01_Arroces/",
-    "02_Pastas/",
-    "03_Legumbres/",
-    "04_Verduras/",
-    "05_Carnes/",
-    "06_Pescados_y_Mariscos/",
-    "08_Postres/",
-)
+CANONICAL_RECIPE_PATH_PREFIXES = tuple(f"{module}/" for module in RECIPE_MODULES)
 
 IGNORED_PATH_PREFIXES = (
     "docs/",
