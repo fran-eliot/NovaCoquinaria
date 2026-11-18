@@ -400,3 +400,8 @@ Punto de entrada al dominio Postres.
 
 - **REC-578 — [Churros tradicionales de agua y harina](./churros_tradicionales_de_agua_y_harina.md)** (España). Propuesta pendiente de prueba doméstica.
 - **REC-579 — [Alfajores al estilo de Medina Sidonia](./alfajores_estilo_medina_sidonia_de_miel_y_frutos_secos.md)** (Medina Sidonia, Cádiz). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXVIII)
+
+- **REC-583 — [Sopa dulce de almendras navideña](./sopa_dulce_de_almendras_navidena.md)** (Madrid y las Castillas). Propuesta pendiente de prueba doméstica.
+- **REC-584 — [Borrachuelos malagueños de cabello de ángel](./borrachuelos_malaguenos_de_cabello_de_angel.md)** (Málaga, Andalucía). Propuesta pendiente de prueba doméstica.
