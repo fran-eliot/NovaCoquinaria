@@ -357,3 +357,7 @@ Punto de entrada al dominio Pescados y Mariscos.
 ## Cocina tradicional española (XXVIII)
 
 - **REC-582 — [Patatas con congrio seco](./patatas_con_congrio_seco_aragonesas.md)** (Aragón). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXIX): Navidad
+
+- **REC-587 — [Almejas a la marinera gallegas](./almejas_a_la_marinera_gallegas.md)** (Galicia). Propuesta pendiente de prueba doméstica.

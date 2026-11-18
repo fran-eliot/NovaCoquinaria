@@ -405,3 +405,9 @@ Punto de entrada al dominio Postres.
 
 - **REC-583 — [Sopa dulce de almendras navideña](./sopa_dulce_de_almendras_navidena.md)** (Madrid y las Castillas). Propuesta pendiente de prueba doméstica.
 - **REC-584 — [Borrachuelos malagueños de cabello de ángel](./borrachuelos_malaguenos_de_cabello_de_angel.md)** (Málaga, Andalucía). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXIX): Navidad
+
+- **REC-588 — [Mazapán toledano de almendra](./mazapan_toledano_de_almendra.md)** (Toledo, Castilla-La Mancha). Propuesta pendiente de prueba doméstica.
+- **REC-589 — [Polvorones de almendra y canela](./polvorones_de_almendra_y_canela.md)** (Andalucía, tradición navideña española). Propuesta pendiente de prueba doméstica.
+- **REC-590 — [Turrón duro de almendra al estilo de Alicante](./turron_duro_de_almendra_estilo_alicante.md)** (Comunitat Valenciana). Propuesta pendiente de prueba doméstica.

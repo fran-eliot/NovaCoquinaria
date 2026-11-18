@@ -266,3 +266,7 @@ Punto de entrada al dominio Horno.
 ## Cocina tradicional española (XXVIII)
 
 - **REC-585 — [Tortas de aceite sevillanas con anís](./tortas_de_aceite_sevillanas_con_anis.md)** (Aljarafe, Sevilla). Propuesta pendiente de prueba doméstica.
+
+## Cocina tradicional española (XXIX): Navidad
+
+- **REC-591 — [Roscón de Reyes casero sin relleno](./roscon_de_reyes_casero_sin_relleno.md)** (España). Propuesta pendiente de prueba doméstica.
