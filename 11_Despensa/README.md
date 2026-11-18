@@ -314,6 +314,14 @@ La familia **Café, té e infusiones** reúne materias primas de extracción aro
 
 ---
 
+## Ingredientes para masas de maíz
+
+| ID | Ingrediente | Función culinaria |
+|---|---|---|
+| ING-0126 | [Harina de maíz no precocida](./01_Cereales/harina_de_maiz_no_precocida.md) | Masas de talos, tortos y broa; hidratación y escaldado |
+
+---
+
 ## Aplicaciones de verduras y legumbres al horno y en sartén
 
 - [Calabaza asada con yogur y comino](../04_Verduras/calabaza_asada_con_yogur_y_comino.md): humedad y dulzor de la calabaza.
