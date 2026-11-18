@@ -148,3 +148,7 @@ Las pruebas de aceptación de metadatos necesitan el commit fijado en `tools/fix
 ## Extracción de ingredientes (0.2.0)
 
 La proyección incorpora listas bajo encabezados Ingredientes, grupos, cantidades exactas o intervalos, fracciones sin redondeo, opcionalidad y resolución únicamente mediante enlaces explícitos a fichas de ingrediente del mismo snapshot. Conserva texto y localizadores. Los formatos todavía no reconocidos generan diagnósticos; no se infieren cantidades ni se convierten medidas domésticas. La salida mantiene el nombre histórico recipe_metadata.json y declara la etapa metadata_and_ingredients. Los procedimientos y la evidencia culinaria siguen pendientes.
+
+## Extracción de procedimientos y evidencia (0.3.0)
+
+Se conservan secciones Markdown ordenadas con localizadores, pasos bajo Elaboración (listas numeradas y encabezados numerados) y declaraciones explícitas de experiencia con su texto fuente. Una declaración histórica no acredita la fórmula actual. El reconocimiento de evidencia es deliberadamente limitado: si no se reconoce una declaración suficiente o hay conflicto, se conserva unknown y se emite diagnóstico. Quedan pendientes rendimiento, duraciones, relaciones generales y evaluación de cobertura.
