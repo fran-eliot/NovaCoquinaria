@@ -4,7 +4,7 @@ tipo: receta
 titulo: Pipirrana jiennense con atún y huevo
 categoria: Verduras
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
@@ -52,20 +52,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- La pipirrana de Jaén se distingue por el majado de ajo y yema cocida; no es simplemente una ensalada de tomate con vinagreta. Usar huevo completamente cocido y mantener el atún y la mezcla refrigerados.
-- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.
+- El majado de ajo y yema cocida distingue esta preparación de una ensalada con vinagreta. Incorporar el aceite gradualmente para ligar la mezcla.
+- Utilizar tomates maduros pero capaces de mantener la forma al trocearlos. Conservar sus jugos naturales sin añadir agua.
+- Cocer completamente los huevos, enfriarlos antes de mezclar y mantener refrigerados el atún y las hortalizas preparadas.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |
-| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |
-| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |
+| Majado separado | Aceite añadido demasiado rápido o yema mal desmenuzada | Trabajar primero la yema con ajo y añadir aceite gradualmente |
+| Ensalada excesivamente líquida | Tomate muy acuoso o atún mal escurrido | Escurrir el atún y reservar parte del jugo del tomate para ajustar al final |
+| Verduras deshechas | Tomates demasiado blandos o mezcla enérgica | Elegir frutos maduros firmes y mezclar suavemente |
+| Ajo o acidez dominantes | Intensidad del ajo o exceso de vinagre | Probar el majado y ajustar el vinagre opcional antes de incorporarlo |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.
+Refrigerar la pipirrana tapada desde el montaje hasta el servicio. Mantener el atún abierto y el huevo cocido en frío, respetando las indicaciones del envase del atún. Consumir preferentemente el día de elaboración; guardar las sobras sin demora en el frigorífico. Servir fría, sin recalentado.
 
 ## Relaciones dentro del SGCC
 

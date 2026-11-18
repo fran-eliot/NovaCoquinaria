@@ -4,7 +4,7 @@ tipo: receta
 titulo: Semifrío de plátano y cacao sin huevo
 categoria: Postres
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - postres
@@ -47,21 +47,21 @@ Receta de referencia centrada en **triturado de fruta congelada y servicio semic
 
 ## Puntos críticos
 
-- La textura cambia con madurez y temperatura del plátano. No volver a congelar repetidamente una mezcla que haya permanecido a temperatura ambiente; mantener yogur refrigerado.
-- Ajustar tiempos al molde, grosor y horno; comprobar la cocción real, especialmente en preparaciones con huevo.
-- Manipular huevos, fruta y lácteos con higiene y mantener los ingredientes perecederos refrigerados.
+- La madurez y la temperatura del plátano determinan dulzor y firmeza. Añadir el yogur frío gradualmente, sin forzar el procesador.
+- Triturar por pulsaciones y detener el equipo antes de bajar la mezcla de las paredes. No necesita cocción ni cuajado térmico.
+- Preparar los vasitos cerca del servicio; mantener la mezcla fría durante la manipulación.
 
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
+| Crema demasiado blanda | Fruta parcialmente descongelada o exceso de yogur | Incorporar el yogur poco a poco y dar el reposo breve en congelador previsto |
+| Textura granulosa o trozos duros | Triturado incompleto o rodajas muy gruesas | Cortar rodajas uniformes y triturar por pulsaciones |
+| Sabor amargo | Plátano poco maduro o cacao intenso | Probar antes de añadir la miel opcional |
 
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
+Preferir el consumo inmediato. Mantener el yogur refrigerado y los vasitos en frío hasta servir. Si se guardan congelados, taparlos y prever que la textura puede endurecerse; atemperar brevemente en refrigeración antes de servir. No recongelar una mezcla que haya permanecido fuera de frío durante un tiempo inseguro.
 
 ## Relaciones dentro del SGCC
 
