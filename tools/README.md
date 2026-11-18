@@ -144,3 +144,7 @@ python tools/extract_recipe_metadata.py --ref HEAD --output site/knowledge-audit
 ```
 
 Las pruebas de aceptación de metadatos necesitan el commit fijado en `tools/fixtures/recipe_contract_cases.json` en el historial local. El workflow Knowledge audit realiza checkout con historial completo y publica la proyección dentro de su artefacto temporal. La salida no modifica el Markdown ni constituye un índice definitivo.
+
+## Extracción de ingredientes (0.2.0)
+
+La proyección incorpora listas bajo encabezados Ingredientes, grupos, cantidades exactas o intervalos, fracciones sin redondeo, opcionalidad y resolución únicamente mediante enlaces explícitos a fichas de ingrediente del mismo snapshot. Conserva texto y localizadores. Los formatos todavía no reconocidos generan diagnósticos; no se infieren cantidades ni se convierten medidas domésticas. La salida mantiene el nombre histórico recipe_metadata.json y declara la etapa metadata_and_ingredients. Los procedimientos y la evidencia culinaria siguen pendientes.
