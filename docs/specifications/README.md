@@ -425,6 +425,12 @@ Esta especificación determina cómo se representa una unidad documental dentro 
 
 ---
 
+## [Contrato de datos de recetas](./knowledge/CONTRATO_DE_DATOS_DE_RECETAS.md)
+
+Proyección estructurada inicial de recetas Markdown, con identidad, cantidades, referencias, procedencia y evidencia culinaria; complementa el modelo documental para el primer prototipo de ingesta.
+
+---
+
 ## `ESPECIFICACION_DE_COMPONENTES.md`
 
 Define los componentes reutilizables del conocimiento culinario.
