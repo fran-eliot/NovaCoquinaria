@@ -193,5 +193,46 @@ class AuditFalsePositiveTests(unittest.TestCase):
         self.assertEqual(association.level, AssociationLevel.SECONDARY)
 
 
+class ExplicitDomainPrecedenceTests(unittest.TestCase):
+    def classify(self, key, path, kind, **fields):
+        rule = next(rule for rule in KNOWLEDGE_RULES if rule.key == key)
+        doc = Document(Path(path), {"tipo": kind, "titulo": "Ejemplo",
+                                    **fields}, "")
+        return classify_direct_association(doc, rule)
+
+    def test_noningredient_explicit_is_secondary_inside_and_outside(self):
+        for kind in ("receta", "tecnica", "plantilla", "base", "tabla"):
+            for path in ("04_Verduras/prueba.md", "00_Bases/prueba.md"):
+                with self.subTest(kind=kind, path=path):
+                    result = self.classify("verduras", path, kind,
+                                           dominio_principal="verduras")
+                    self.assertEqual(result.level, AssociationLevel.SECONDARY)
+                    self.assertIn("explicit_domain", result.evidence)
+                    if path.startswith("04_Verduras/"):
+                        self.assertIn("thematic_path", result.evidence)
+
+    def test_ingredient_explicit_outside_authority_path_is_primary(self):
+        result = self.classify("verduras", "11_Despensa/otra/prueba.md",
+                               "ingrediente", dominio_principal="verduras")
+        self.assertEqual(result.level, AssociationLevel.PRIMARY)
+        self.assertEqual(result.evidence, ("explicit_domain",))
+
+    def test_ingredient_authority_path_preserves_precedence(self):
+        result = self.classify("verduras", "11_Despensa/06_Verduras/prueba.md",
+                               "ingrediente", dominio_principal="carnes")
+        self.assertEqual(result.level, AssociationLevel.PRIMARY)
+        self.assertEqual(result.evidence, ("path",))
+
+    def test_category_path_and_pattern_explicit_preserved(self):
+        result = self.classify("pastas", "02_Pastas/prueba.md", "receta",
+                               dominio_principal="arroces")
+        self.assertEqual(result.level, AssociationLevel.PRIMARY)
+        self.assertEqual(result.evidence, ("path",))
+        result = self.classify("currys", "04_Verduras/prueba.md", "receta",
+                               dominio_principal="currys")
+        self.assertEqual(result.level, AssociationLevel.PRIMARY)
+        self.assertEqual(result.evidence, ("explicit_domain",))
+
+
 if __name__ == "__main__":
     unittest.main()
