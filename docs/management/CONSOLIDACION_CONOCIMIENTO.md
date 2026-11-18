@@ -2,9 +2,9 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.0.0
+version: 1.1.0
 estado: borrador
-ultima_revision: 2026-11-14
+ultima_revision: 2026-11-18
 ---
 
 # Consolidación del conocimiento culinario
@@ -157,3 +157,49 @@ Los ajustes se centran en distinguir las señales de textura (temblor, espesado)
 ## Principio de NovaCoquinaria
 
 > La consolidación transforma una colección creciente en conocimiento navegable, verificable y reutilizable.
+
+## Propuesta de transición a consolidación y explotación — 2026-11-18
+
+**Estado:** propuesta de dirección estratégica, pendiente de aprobación. No declara cerrada la evolución del conocimiento ni modifica aún las prioridades oficiales del Roadmap.
+
+### Línea base comprobada
+
+Corte: [merge de la PR #193](https://github.com/fran-eliot/NovaCoquinaria/pull/193), commit [`64a3fd2660c4f817e063157ac332d3dc42a6d7d7`](https://github.com/fran-eliot/NovaCoquinaria/commit/64a3fd2660c4f817e063157ac332d3dc42a6d7d7). Knowledge integrity y Deploy MkDocs site finalizaron con éxito; no había PR abiertas en la consulta previa a esta propuesta.
+
+| Indicador | Inventario |
+|---|---:|
+| Archivos Markdown | 922 |
+| Fichas de recetas (diez módulos, sin README) | 590 |
+| Fichas de ingredientes (sin README ni BACKLOG) | 125 |
+| Documentos de técnicas (sin README) | 52 |
+| Serie de cocina española | 174 fichas en 29 tandas |
+
+Distribución de recetas: Arroces 39, Pastas 37, Legumbres 61, Verduras 86, Carnes 82, Pescados y Mariscos 69, Cocina Asiática 44, Postres 82, Bebidas 36, Horno 54. Los recuentos por rutas no acreditan unicidad semántica ni elaboración culinaria. La release vigente documentada es v1.5.0; este incremento no publica una versión.
+
+### Justificación
+
+La [visión](../VISION.md) y la [estrategia del conocimiento](../governance/KNOWLEDGE_STRATEGY.md) priorizan calidad, reutilización y conectividad sobre volumen. Existe una masa documental suficiente para explorar capacidades de consumo sin exigir que cada receta esté probada. El [informe de auditoría generado](./generated/KNOWLEDGE_AUDIT.md) conserva fecha de 2026-08-03; no debe interpretarse como medición actual de madurez. El código de auditoría requiere revisar la cobertura de los diez módulos, las convenciones recientes y los niveles de asociación antes de interpretar resultados.
+
+### Incrementos candidatos
+
+| Incremento | Resultado esperado | Condición de aceptación propuesta |
+|---|---|---|
+| 1. Línea base de calidad | Auditoría reproducible del inventario y relaciones | Identificar commit, alcance, exclusiones, controles estructurales y diagnósticos; distinguir resultados de inferencias |
+| 2. Contrato de datos de recetas | Campos y normalización para consumo | Muestra representativa de módulos y formatos; preservar ID original, procedencia, estado editorial, cantidades y unidades desconocidas sin inventarlas |
+| 3. Prototipo de ingesta e indexación | Representación derivada consultable | Repetir la ingesta sin duplicar registros, mantener trazabilidad a Markdown, registrar errores y casos no interpretados |
+| 4. Consulta de conocimiento | Primer servicio de búsqueda por ingredientes y metadatos | Casos de consulta reproducibles, fuentes enlazadas y distinción de propuestas y elaboraciones verificadas |
+| 5. Evaluación de plataforma | Decisión fundamentada sobre API, persistencia e interfaz | Demostrar utilidad del prototipo y documentar alternativas antes de seleccionar tecnologías o diseñar funcionalidades de mayor alcance |
+
+Los incrementos se apoyan en la [especificación de ingesta](../specifications/ingestion/ESPECIFICACION_DE_INGESTA.md), el [modelo de conocimiento](../architecture/MODELO_DE_CONOCIMIENTO.md) y el [Roadmap](./ROADMAP.md). No implican adoptar una base de datos concreta ni implementar un Runtime completo.
+
+### Principios de continuidad
+
+- Markdown sigue siendo fuente de verdad; cualquier índice o persistencia de consulta es derivado y reconstruible.
+- La incorporación de recetas continúa a demanda, por experiencia doméstica, carencias de cobertura o valor de reutilización, en lugar de perseguir un objetivo numérico.
+- Las diferencias entre propuestas, elaboraciones, valoraciones y antecedentes se conservan; los datos ausentes no se completan sin evidencia.
+- La auditoría automática no sustituye revisión editorial, semántica ni pruebas culinarias.
+- No es objetivo inmediato elegir frameworks, implantar GraphRAG, agentes o un planificador completo.
+
+### Decisión pendiente
+
+La aprobación de la transición habilitaría actualizar PROJECT_STATUS, ROADMAP, BITACORA y el kit de continuidad con el nuevo alcance, antes de iniciar el primer incremento de auditoría. La aprobación de esta dirección no equivale a aprobar una tecnología, release o implementación concreta.
