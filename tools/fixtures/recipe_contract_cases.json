@@ -1,0 +1,273 @@
+{
+  "contract_version": "0.1.0",
+  "source_commit": "b64dcfc9e9dbff4d8ec6179503d16745430606df",
+  "description": "Expectativas parciales revisadas documentalmente. No constituyen resultados de extracción; los campos no enumerados no están evaluados.",
+  "recipes": [
+    {
+      "id": "REC-573",
+      "path": "10_Horno/talo_vasco_de_maiz_en_plancha.md",
+      "expected": {
+        "version": "1.0.2",
+        "physical_module": "10_Horno",
+        "category": "Horno",
+        "ingredient_count": 3,
+        "step_count": 5,
+        "evidence_status": "pending"
+      },
+      "ingredients": [
+        {
+          "contains": "300 g de harina",
+          "status": "exact",
+          "min": "300",
+          "max": "300",
+          "unit": "g"
+        },
+        {
+          "contains": "220–260 ml",
+          "status": "range",
+          "min": "220",
+          "max": "260",
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "expected": {
+        "version": "1.0",
+        "document_status": "estable",
+        "category": null,
+        "evidence_status": "pending",
+        "ingredient_count": 14,
+        "step_count": 9
+      },
+      "ingredients": [
+        {
+          "contains": "400 ml de [Leche de coco]",
+          "status": "exact",
+          "min": "400",
+          "max": "400",
+          "unit": "ml",
+          "resolution": "explicit"
+        },
+        {
+          "contains": "Aceite vegetal",
+          "status": "missing"
+        },
+        {
+          "contains": "1 cucharadita de azúcar",
+          "optionality": "optional"
+        },
+        {
+          "contains": "Arroz basmati",
+          "optionality": "optional",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "REC-0079",
+      "path": "08_Postres/pastel_de_manzana.md",
+      "expected": {
+        "version": "1.0.2",
+        "ingredient_count": 8,
+        "step_count": 7,
+        "current_formula_validated": false,
+        "historical_preparation": true
+      },
+      "ingredients": [
+        {
+          "contains": "840 g de manzana",
+          "status": "exact",
+          "min": "840",
+          "max": "840",
+          "unit": "g"
+        },
+        {
+          "contains": "100–120 g de azúcar",
+          "status": "range",
+          "min": "100",
+          "max": "120",
+          "unit": "g"
+        }
+      ],
+      "excluded_ingredient_text": [
+        "640 g",
+        "200 g",
+        "lemon curd"
+      ]
+    },
+    {
+      "id": "REC-485",
+      "path": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md",
+      "expected": {
+        "version": "1.0.2",
+        "ingredient_count": 8,
+        "step_count": 7,
+        "evidence_status": "pending"
+      },
+      "ingredients": [
+        {
+          "contains": "10–15 ml de vinagre",
+          "status": "range",
+          "min": "10",
+          "max": "15",
+          "unit": "ml",
+          "optionality": "optional"
+        },
+        {
+          "contains": "sal",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "REC-0190",
+      "path": "07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md",
+      "expected": {
+        "version": "1.0.3",
+        "ingredient_count": 15,
+        "evidence_status": "prepared",
+        "historical_preparation": true,
+        "current_formula_validated": false
+      },
+      "ingredients": [
+        {
+          "contains": "2/3 cucharadita",
+          "status": "exact",
+          "min": "2/3",
+          "max": "2/3",
+          "unit": "cucharadita"
+        },
+        {
+          "contains": "1/3–1/2 cebolla",
+          "status": "range",
+          "min": "1/3",
+          "max": "1/2",
+          "unit": "unidad",
+          "optionality": "optional"
+        },
+        {
+          "contains": "2 1/2 cucharadas",
+          "status": "exact",
+          "min": "5/2",
+          "max": "5/2",
+          "unit": "cucharada"
+        },
+        {
+          "contains": "salsa de soja oscura en",
+          "status": "qualitative"
+        }
+      ]
+    },
+    {
+      "id": "REC-0192",
+      "path": "08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md",
+      "expected": {
+        "version": "1.0.1",
+        "ingredient_count": 8,
+        "evidence_status": "prepared",
+        "historical_preparation": true,
+        "current_formula_validated": false
+      },
+      "ingredients": [
+        {
+          "contains": "1 litro de natillas",
+          "status": "exact",
+          "min": "1",
+          "max": "1",
+          "unit": "l"
+        },
+        {
+          "contains": "un chorrito de aroma",
+          "status": "qualitative",
+          "min": null,
+          "max": null
+        },
+        {
+          "contains": "250–320 g",
+          "status": "range",
+          "min": "250",
+          "max": "320",
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "synthetic_quantities": [
+    {
+      "raw": "½ cucharadita de sal",
+      "status": "exact",
+      "min": "1/2",
+      "max": "1/2",
+      "unit": "cucharadita"
+    },
+    {
+      "raw": "1,5 g de sal",
+      "status": "exact",
+      "min": "1.5",
+      "max": "1.5",
+      "unit": "g"
+    },
+    {
+      "raw": "3–4 dientes de ajo",
+      "status": "range",
+      "min": "3",
+      "max": "4",
+      "unit": "diente"
+    },
+    {
+      "raw": "sal al gusto",
+      "status": "qualitative",
+      "min": null,
+      "max": null
+    },
+    {
+      "raw": "pimienta negra",
+      "status": "missing",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    {
+      "raw": "2 o quizá 5 g de sal",
+      "status": "ambiguous",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    {
+      "raw": "5–2 g de sal",
+      "status": "ambiguous",
+      "min": null,
+      "max": null,
+      "unit": null
+    },
+    {
+      "raw": "600 g de pechuga o contramuslo de pollo",
+      "status": "exact",
+      "min": "600",
+      "max": "600",
+      "unit": "g",
+      "preserve_alternative": true
+    },
+    {
+      "raw": "2 cucharadas de aceite (opcional)",
+      "status": "exact",
+      "min": "2",
+      "max": "2",
+      "unit": "cucharada",
+      "optionality": "optional"
+    }
+  ],
+  "invariants": [
+    "ID literal, no normalizar ceros",
+    "No duplicar ingredientes desde histórico, distribución, variantes o relaciones",
+    "No convertir unidades domésticas sin evidencia",
+    "No inferir cocinado por estado estable",
+    "No convertir 35 ml de envase de aroma en dosis",
+    "No identificar una línea por un enlace genérico en relaciones",
+    "Mismo snapshot y extractor producen mismos bytes derivados"
+  ]
+}
