@@ -4,8 +4,8 @@ tipo: receta
 titulo: Minestrone con pasta pequeña y alubias
 categoria: Pastas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - pasta
   - receta-propuesta
@@ -71,6 +71,7 @@ Servir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refri
 
 ## Relaciones dentro del SGCC
 
+- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md): absorción de caldo y control de textura.
 - [Pasta e ceci](./pasta_e_ceci.md)
 - [Sopa de garbanzos con fideos y limón](../03_Legumbres/sopa_de_garbanzos_con_fideos_y_limon.md)
 - [Índice de Pastas](./README.md)

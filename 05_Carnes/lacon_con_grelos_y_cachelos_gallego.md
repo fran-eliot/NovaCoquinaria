@@ -4,8 +4,8 @@ tipo: receta
 titulo: Lacón con grelos y cachelos gallego
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -67,6 +67,7 @@ Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras y re
 
 ## Relaciones dentro del SGCC
 
+- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md): control del hervor en cocciones prolongadas.
 - [Puchero andaluz con pringá](./puchero_andaluz_con_pringa_y_hierbabuena.md)
 - [Caldo gallego con grelos](../03_Legumbres/caldo_gallego_con_grelos_y_alubias.md)
 - [Índice del módulo](./README.md)
