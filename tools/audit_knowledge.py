@@ -405,7 +405,14 @@ def is_auditable_knowledge_document(document: Document) -> bool:
 
 
 def contains_any(text: str, keywords: tuple[str, ...]) -> bool:
-    return any(normalize(keyword) in text for keyword in keywords)
+    # Conserva plurales y variantes históricas para las demás palabras.
+    # "nata" requiere límites léxicos: caponata no contiene nata como término.
+    return any(
+        re.search(r"(?<!\w)natas?(?!\w)", text) is not None
+        if normalize(keyword) == "nata"
+        else normalize(keyword) in text
+        for keyword in keywords
+    )
 
 
 def explicit_primary_domain(document: Document) -> str:
@@ -423,12 +430,11 @@ def document_links_rule_authority(
     if not rule.primary_link_fragments:
         return False
 
-    normalized_targets = tuple(
-        normalize(fragment)
-        for fragment in rule.primary_link_fragments
-    )
+    authority_paths = {
+        normalize(fragment) for fragment in rule.primary_link_fragments
+    }
     return any(
-        any(fragment in normalize(target) for fragment in normalized_targets)
+        normalize(normalized_link_path(document, target)) in authority_paths
         for target in document.links
     )
 
@@ -520,7 +526,7 @@ def classify_direct_association(
     document_type = normalize(document.tipo).replace(" ", "_")
 
     path_matches = any(
-        normalize(fragment) in relative_path
+        relative_path.startswith(normalize(fragment).rstrip("/") + "/")
         for fragment in rule.path_fragments
     )
 
