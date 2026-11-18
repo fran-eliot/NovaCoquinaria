@@ -4,7 +4,7 @@ tipo: receta
 titulo: Pavo en escabeche suave de naranja y laurel
 categoria: Carnes
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - carnes
@@ -49,14 +49,14 @@ Preparación de referencia basada en **dorado, cocción en escabeche y reposo re
 2. Rehogar cebolla, zanahoria y ajo en el aceite restante durante 5–7 minutos sin quemar.
 3. Añadir vinagre, zumo de naranja, agua, laurel y pimienta; llevar a hervor suave.
 4. Reincorporar el pavo y cocinar tapado a fuego suave aproximadamente 20–30 minutos hasta 74 °C en el centro de los trozos más gruesos.
-5. Comprobar el equilibrio de acidez y sal, apagar y dejar bajar el calor brevemente.
+5. Comprobar el equilibrio de acidez y sal, apagar, retirar las hojas de laurel enteras y dejar bajar el calor brevemente.
 6. Distribuir pavo y líquido en recipientes poco profundos, enfriar rápidamente, refrigerar tapado y servir frío o tibio tras recalentamiento adecuado.
 
 ## Puntos críticos
 
 - El escabeche doméstico **no es una conserva estable a temperatura ambiente**: requiere refrigeración. La acidez no sustituye la cocción completa ni justifica dejar el alimento templado durante horas.
 - El tiempo varía según tamaño, corte, recipiente y calor; comprobar la cocción completa y, cuando proceda, utilizar termómetro.
-- Evitar la contaminación cruzada entre carne cruda y alimentos listos para comer.
+- Evitar la contaminación cruzada entre carne cruda y alimentos listos para comer. Retirar las hojas de laurel antes del servicio; se emplean para infusionar, no para comerlas.
 
 ## Diagnóstico
 
@@ -64,7 +64,7 @@ Preparación de referencia basada en **dorado, cocción en escabeche y reposo re
 |---|---|---|
 | Carne poco tierna | Cocción insuficiente para el corte o hervor demasiado intenso | Adaptar el tiempo y utilizar calor suave en guisos |
 | Salsa demasiado líquida | Ingredientes con humedad o reducción escasa | Reducir la salsa antes del servicio, sin resecar la carne |
-| Exterior demasiado tostado | Fuego intenso o condimentos azucarados añadidos pronto | Moderar el calor y aplicar glaseados al final |
+| Exterior demasiado tostado | Dorado inicial demasiado intenso | Moderar el fuego antes de incorporar el líquido del escabeche |
 
 ## Conservación
 
