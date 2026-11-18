@@ -855,6 +855,9 @@ def audit_to_dict(audit: DomainAudit) -> dict:
             "SECONDARY": len(audit.secondary_associations),
             "MENTION": len(audit.mention_associations),
         },
+        "domain_kind": audit.rule.kind.value,
+        "expected_types": list(audit.rule.expected_types),
+        "represented_expected_types": sorted(audit.represented_expected_types),
         "structural_coverage": round(audit.structural_coverage, 2),
         "types": dict(sorted(audit.type_counts.items())),
         "outgoing_links": audit.outgoing_links,
@@ -864,6 +867,10 @@ def audit_to_dict(audit: DomainAudit) -> dict:
             if audit.link_resolution_rate is not None
             else None
         ),
+        # Alias histórico: PRIMARY sin enlaces salientes, no huérfanos globales.
+        "primary_without_outgoing_links": [
+            document.relative_path for document in audit.orphan_documents
+        ],
         "orphan_documents": [
             document.relative_path
             for document in audit.orphan_documents
@@ -886,7 +893,7 @@ def render_markdown(audits: list[DomainAudit]) -> str:
         "id: REPORT-KNOWLEDGE-AUDIT",
         "tipo: informe",
         "titulo: Auditoría automática del conocimiento",
-        "version: 1.6.0",
+        "version: 1.7.0",
         "estado: generado",
         f"ultima_revision: {today}",
         "tags:",
@@ -905,10 +912,13 @@ def render_markdown(audits: list[DomainAudit]) -> str:
         "",
         "La cobertura indicada es **estructural y preliminar**: mide la presencia de tipos documentales esperados. No evalúa por sí sola calidad culinaria, exhaustividad ni corrección semántica.",
         "",
+        "La cobertura se calcula como tipos esperados representados entre PRIMARY / tipos esperados. Los denominadores varían según la naturaleza del dominio.",
+        "La resolución de enlaces solo considera salidas de PRIMARY; N/A indica ausencia de enlaces. Los documentos PRIMARY sin salidas no equivalen a huérfanos globales.",
+        "",
         "# Resumen",
         "",
-        "| Dominio | Madurez automática | PRIMARY | SECONDARY | MENTION | Cobertura estructural | Enlaces resueltos | Huérfanos |",
-        "|---|:---:|---:|---:|---:|---:|---:|---:|",
+        "| Dominio | Tipo | Madurez automática | PRIMARY | SECONDARY | MENTION | Cobertura estructural | Enlaces resueltos | PRIMARY sin salidas |",
+        "|---|---|:---:|---:|---:|---:|---:|---:|---:|",
     ]
 
     for audit in audits:
@@ -918,11 +928,11 @@ def render_markdown(audits: list[DomainAudit]) -> str:
             else "N/A"
         )
         lines.append(
-            f"| {audit.rule.name} | {maturity_label(audit)} | "
+            f"| {audit.rule.name} | {audit.rule.kind.value} | {maturity_label(audit)} | "
             f"{len(audit.primary_associations)} | "
             f"{len(audit.secondary_associations)} | "
             f"{len(audit.mention_associations)} | "
-            f"{audit.structural_coverage:.0f} % | {link_rate} | "
+            f"{len(audit.represented_expected_types)}/{len(audit.rule.expected_types)} ({audit.structural_coverage:.0f} %) | {link_rate} | "
             f"{len(audit.orphan_documents)} |"
         )
 
@@ -943,8 +953,9 @@ def render_markdown(audits: list[DomainAudit]) -> str:
                 f"**Documentos PRIMARY:** {len(audit.primary_associations)}  ",
                 f"**Documentos SECONDARY:** {len(audit.secondary_associations)}  ",
                 f"**Documentos MENTION:** {len(audit.mention_associations)}  ",
-                f"**Cobertura estructural:** {audit.structural_coverage:.0f} %  ",
-                f"**Resolución de enlaces:** {link_rate}",
+                f"**Tipo de dominio:** {audit.rule.kind.value}  ",
+                f"**Cobertura estructural:** {len(audit.represented_expected_types)}/{len(audit.rule.expected_types)} ({audit.structural_coverage:.0f} %)  ",
+                f"**Resolución de enlaces:** {audit.resolved_outgoing_links}/{audit.outgoing_links} ({link_rate})",
                 "",
                 "## Distribución por tipo",
                 "",
@@ -981,7 +992,7 @@ def render_markdown(audits: list[DomainAudit]) -> str:
             else:
                 lines.append("- Ninguno.")
 
-        lines.extend(["", "## Documentos sin referencias salientes", ""])
+        lines.extend(["", "## Documentos PRIMARY sin referencias salientes", ""])
         if audit.orphan_documents:
             for document in sorted(audit.orphan_documents, key=lambda item: item.relative_path):
                 lines.append(f"- `{document.id or 'sin-id'}` · `{document.relative_path}`")
@@ -1008,10 +1019,10 @@ def render_markdown(audits: list[DomainAudit]) -> str:
             "# Notas",
             "",
             "- La vista se limita a documentos culinarios fuente y excluye README, gestión, arquitectura, especificaciones e informes.",
-            "- La cobertura y la madurez automáticas se calculan exclusivamente con asociaciones `PRIMARY`.",
+            "- La cobertura usa exclusivamente los tipos de asociaciones `PRIMARY`; algunas reglas de madurez también consideran asociaciones `SECONDARY`.",
             "- Las asociaciones `SECONDARY` representan conocimiento reutilizado y `MENTION` contexto incidental.",
             "- Un documento puede relacionarse con varios dominios con distintos niveles de asociación.",
-            "- En dominios de ingrediente, solo los documentos `ingrediente` de sus rutas de autoridad pueden ser `PRIMARY`.",
+            "- En dominios de ingrediente, la coincidencia de ruta de autoridad clasifica como `PRIMARY` únicamente los documentos `ingrediente`; la regla de dominio explícito se evalúa por separado.",
             "- Las recetas de carpetas temáticas de ingredientes se clasifican como `SECONDARY`.",
             "- La expansión por enlaces parte únicamente de bases, técnicas, plantillas y recetas `PRIMARY`.",
             "- Las recetas transversales pueden ser `PRIMARY` de un patrón cuando su título es inequívoco o están declaradas como referencia.",
@@ -1045,9 +1056,9 @@ def print_console(audits: list[DomainAudit]) -> None:
             f"P={len(audit.primary_associations):>3}  "
             f"S={len(audit.secondary_associations):>3}  "
             f"M={len(audit.mention_associations):>3}  "
-            f"cobertura={audit.structural_coverage:>5.1f}%  "
+            f"cobertura={len(audit.represented_expected_types)}/{len(audit.rule.expected_types)} ({audit.structural_coverage:>5.1f}%)  "
             f"enlaces={link_rate}  "
-            f"huérfanos={len(audit.orphan_documents):>2}  "
+            f"PRIMARY_sin_salidas={len(audit.orphan_documents):>2}  "
             f"{maturity_label(audit)}"
         )
 

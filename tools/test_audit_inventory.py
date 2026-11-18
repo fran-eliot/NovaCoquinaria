@@ -5,6 +5,7 @@ from pathlib import Path
 from audit_inventory import RECIPE_MODULES, build_inventory
 from audit_knowledge import (
     AssociationLevel, DomainKind, DomainRule, KNOWLEDGE_RULES,
+    DomainAudit, audit_to_dict, render_markdown,
     classify_direct_association, has_canonical_recipe_path,
 )
 from models import Document
@@ -99,6 +100,52 @@ class RecipeDomainClassificationTests(unittest.TestCase):
         self.assertEqual(association.level, AssociationLevel.PRIMARY)
         self.assertEqual(association.evidence, ("authority_link",))
 
+
+class AuditMetricPresentationTests(unittest.TestCase):
+    def test_denominators_and_scope_in_reports(self):
+        rule = DomainRule(
+            key="prueba", name="Prueba", kind=DomainKind.CATEGORY,
+            primary_keywords=("prueba",),
+            expected_types=("receta", "tecnica"),
+        )
+        audit = DomainAudit(rule=rule)
+        document = Document(Path("01_Arroces/prueba.md"),
+                            {"tipo": "receta", "titulo": "Prueba"}, "")
+        audit.primary_by_type["receta"].append(document)
+        audit.orphan_documents.append(document)
+        result = audit_to_dict(audit)
+        self.assertEqual(result["domain_kind"], "category")
+        self.assertEqual(result["expected_types"], ["receta", "tecnica"])
+        self.assertEqual(result["represented_expected_types"], ["receta"])
+        self.assertEqual(result["structural_coverage"], 50.0)
+        self.assertIsNone(result["link_resolution_rate"])
+        self.assertEqual(result["primary_without_outgoing_links"],
+                         ["01_Arroces/prueba.md"])
+        self.assertEqual(result["orphan_documents"],
+                         result["primary_without_outgoing_links"])
+        report = render_markdown([audit])
+        self.assertIn("1/2 (50 %)", report)
+        self.assertIn("PRIMARY sin salidas", report)
+        self.assertIn("0/0 (N/A)", report)
+
+    def test_equal_percentages_can_have_different_denominators(self):
+        for expected in (("ingrediente",), ("ingrediente", "tecnica")):
+            with self.subTest(expected=expected):
+                rule = DomainRule(
+                    key="prueba", name="Prueba", kind=DomainKind.INGREDIENT,
+                    primary_keywords=("prueba",), expected_types=expected,
+                )
+                audit = DomainAudit(rule=rule)
+                for kind in expected:
+                    audit.primary_by_type[kind].append(
+                        Document(Path(f"{kind}.md"), {"tipo": kind}, "")
+                    )
+                result = audit_to_dict(audit)
+                self.assertEqual(result["structural_coverage"], 100.0)
+                self.assertEqual(len(result["expected_types"]), len(expected))
+                self.assertIn(f"{len(expected)}/{len(expected)} (100 %)",
+                              render_markdown([audit]))
+    
 
 if __name__ == "__main__":
     unittest.main()
