@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Pochar y caramelizar cebolla
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cebolla
   - pochado
@@ -57,6 +57,7 @@ Mantener vigilancia durante la fase de dorado, porque la cebolla puede pasar de 
 
 ## Relaciones dentro del SGCC
 
+- [Cebolla](../../11_Despensa/06_Verduras/cebolla.md): variedades y evolución aromática durante la cocción.
 - [Pisto de verduras](../../04_Verduras/pisto_de_verduras.md)
 - [Sofreír](./sofreir.md)
 - [Desglasar fondos](./desglasar_fondos_de_coccion.md)

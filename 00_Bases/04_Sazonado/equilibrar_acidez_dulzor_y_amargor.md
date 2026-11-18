@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Equilibrar acidez, dulzor y amargor
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - sazonado
   - acidez
@@ -57,6 +57,7 @@ No utilizar ingredientes de conservación dudosa para corregir sabor. El azúcar
 
 ## Relaciones dentro del SGCC
 
+- [Limón](../../11_Despensa/11_Condimentos/limon.md): dosificación de acidez y prevención del amargor de la piel blanca.
 - [Emulsionar vinagretas y aliños](../03_Tecnicas/emulsionar_vinagretas_y_alinos.md)
 - [Equilibrar salsas asiáticas](../03_Tecnicas/equilibrar_salsas_asiaticas.md)
 - [Cerdo agridulce con pimientos](../../07_Cocina_Asiatica/cerdo_agridulce_con_pimientos.md)

@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Hervir y cocer a fuego suave
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - hervor
   - coccion
@@ -58,6 +58,7 @@ Las ollas con líquido hirviendo presentan riesgo de escaldaduras. No llenarlas 
 
 ## Relaciones dentro del SGCC
 
+- [Tiempos de cocción](../../98_Tablas/01_Cocciones/tiempos_coccion.md): intervalos orientativos por alimento.
 - [Cocer pasta](./cocer_pasta.md)
 - [Cocer legumbres](./cocer_legumbres.md)
 - [Escalfar pescados](./escalfar_pescados_en_liquido_aromatico.md)

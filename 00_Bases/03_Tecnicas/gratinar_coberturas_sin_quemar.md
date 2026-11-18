@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Gratinar coberturas sin quemar
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - horno
   - gratinado
@@ -57,6 +57,7 @@ El gratinador alcanza temperaturas elevadas. Emplear recipientes aptos, no acerc
 
 ## Relaciones dentro del SGCC
 
+- [Pan rallado](../../11_Despensa/01_Cereales/pan_rallado.md): selección de granulometría y manejo de coberturas.
 - [Verduras gratinadas](../../10_Horno/verduras_gratinadas.md)
 - [Merluza con costra de hierbas](../../10_Horno/merluza_con_costra_de_hierbas_y_pan.md)
 - [Asar y gratinar en horno](./asar_en_horno.md)

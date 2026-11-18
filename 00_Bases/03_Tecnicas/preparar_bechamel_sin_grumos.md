@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Preparar bechamel sin grumos
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bechamel
   - salsa
@@ -57,6 +57,7 @@ Contiene trigo y leche cuando se prepara con harina de trigo y mantequilla o lec
 
 ## Relaciones dentro del SGCC
 
+- [Harina de trigo](../../11_Despensa/01_Cereales/harina_de_trigo.md): selección de harina y formación del roux.
 - [Verduras gratinadas](../../10_Horno/verduras_gratinadas.md)
 - [Reducir y ligar salsas](./reducir_y_ligar_salsas.md)
 - [Cuajar cremas y flanes](./cuajar_cremas_y_flanes.md)

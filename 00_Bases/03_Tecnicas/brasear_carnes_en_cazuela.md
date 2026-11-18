@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Brasear carnes en cazuela
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - braseado
   - carne
@@ -57,6 +57,7 @@ La cocción lenta no equivale a dejar carne cruda en un horno tibio o apagado. V
 
 ## Relaciones dentro del SGCC
 
+- [Diagnóstico de cocción de carnes](../../98_Tablas/07_Comparativas/diagnostico_carnes.md): criterios para distinguir falta de terneza y exceso de líquido.
 - [Carrilleras de cerdo al vino tinto](../../05_Carnes/carrilleras_de_cerdo_estofadas_al_vino_tinto.md)
 - [Estofar carnes](./estofar_carnes.md)
 - [Desglasar fondos](./desglasar_fondos_de_coccion.md)

@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Escalfar pescados en líquido aromático
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - escalfado
   - pescado
@@ -56,6 +56,7 @@ Mantener el pescado refrigerado y descongelar en frío. El escalfado de esta fic
 
 ## Relaciones dentro del SGCC
 
+- [Fumet de pescado](../../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md): fondo suave apropiado para la cocción.
 - [Merluza con guisantes y cebolla](../../06_Pescados_y_Mariscos/merluza_con_guisantes_y_cebolla.md)
 - [Cocinar pescado y marisco](./cocinar_pescado_y_marisco.md)
 - [Cocinar pescado al vapor](./cocinar_pescado_al_vapor.md)

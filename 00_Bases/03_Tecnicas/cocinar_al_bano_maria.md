@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Cocinar al baño maría
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bano-maria
   - postres
@@ -56,6 +56,7 @@ El agua caliente de una fuente profunda puede producir quemaduras al moverla. Ev
 
 ## Relaciones dentro del SGCC
 
+- [Huevo](../../11_Despensa/14_Huevos_Lacteos/huevo.md): función de coagulación y estructura en los cuajados.
 - [Flan de huevo](../../08_Postres/flan_de_huevo.md)
 - [Cuajar cremas y flanes](./cuajar_cremas_y_flanes.md)
 - [Tarta de queso al horno](../../08_Postres/tarta_de_queso_al_horno.md)

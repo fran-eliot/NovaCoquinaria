@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Tostar y activar especias
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - especias
   - tostado
@@ -57,6 +57,7 @@ No inhalar directamente humo de especias ni dejar aceite caliente sin vigilancia
 
 ## Relaciones dentro del SGCC
 
+- [Comino](../../11_Despensa/08_Especias/comino.md): diferencias de manejo entre semilla entera y especia molida.
 - [Cocinar curry](./cocinar_curry.md)
 - [Curry amarillo de garbanzos](../../07_Cocina_Asiatica/curry_amarillo_de_garbanzos.md)
 - [Equilibrar acidez, dulzor y amargor](../04_Sazonado/equilibrar_acidez_dulzor_y_amargor.md)

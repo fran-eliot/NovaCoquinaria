@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Salar por etapas y ajustar al final
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - sazonado
   - sal
@@ -57,6 +57,7 @@ La percepción subjetiva del sabor no sustituye las recomendaciones médicas de 
 
 ## Relaciones dentro del SGCC
 
+- [Salsa de soja](../../11_Despensa/09_Salsas/salsa_de_soja.md): aporte de salinidad que debe considerarse antes del ajuste final.
 - [Reducir y ligar salsas](../03_Tecnicas/reducir_y_ligar_salsas.md)
 - [Equilibrar salsas asiáticas](../03_Tecnicas/equilibrar_salsas_asiaticas.md)
 - [Bucatini a la amatriciana](../../02_Pastas/bucatini_amatriciana.md)

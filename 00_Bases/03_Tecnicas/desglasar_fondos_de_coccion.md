@@ -4,8 +4,8 @@ tipo: tecnica
 titulo: Desglasar fondos de cocción
 categoria: Técnicas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - salsas
   - desglasado
@@ -57,6 +57,7 @@ Evitar añadir líquido de golpe a aceite muy caliente. Si se emplea vino, la re
 
 ## Relaciones dentro del SGCC
 
+- [Vino blanco para cocinar](../../11_Despensa/11_Condimentos/vino_blanco_cocina.md): selección y manejo del líquido de desglasado.
 - [Pollo al ajillo con vino blanco](../../05_Carnes/pollo_al_ajillo_con_vino_blanco.md)
 - [Carrilleras de cerdo al vino](../../05_Carnes/carrilleras_de_cerdo_estofadas_al_vino_tinto.md)
 - [Reducir y ligar salsas](./reducir_y_ligar_salsas.md)
