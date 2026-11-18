@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.9.0
+version: 1.10.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -392,3 +392,7 @@ Se revisan las siete recetas restantes del inventario inicial de advertencias y 
 | [raviolis caseros de ricotta y espinacas](../../02_Pastas/raviolis_caseros_de_ricotta_y_espinacas.md) | [Ricotta](../../11_Despensa/14_Huevos_Lacteos/ricotta.md) | escurrido y humedad del relleno |
 
 El cierre de los siete avisos queda sujeto a nueva auditoría y comparación por ID y ruta. Cero advertencias no certificaría calidad semántica exhaustiva ni madurez culinaria. Se conserva la deuda editorial detectada y se añade la recomendación de revisar el diagnóstico genérico de raviolis y las instrucciones de conservación relativas al arroz en doenjang jjigae, que no contiene arroz. También conviene precisar el retiro de hojas de laurel del escabeche de pavo antes de servir. No se modifican estas secciones en el lote de relaciones.
+
+## Cierre del primer ciclo de relaciones — 2026-11-18
+
+La [auditoría del merge #202](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44402431807), commit `78518ab3b43ac9267c06cf250e7bffbc14dd730c`, confirma la desaparición de las 37 advertencias iniciales: 13 técnicas y 24 recetas revisadas. Se verifican 922 documentos, 887 IDs exactos y 5478 enlaces internos, sin errores estructurales ni huérfanos globales detectados. Los tres workflows de main finalizaron correctamente. La cobertura automática por dominios continúa siendo orientativa y Currys conserva un documento sin referencias salientes en su diagnóstico particular. El cierre se circunscribe a las reglas vigentes y no certifica calidad culinaria ni exhaustividad semántica. La revisión de cobertura, la deuda editorial identificada y el contrato de datos permanecen pendientes. El [kit de continuidad](./NOVACOQUINARIA_KIT_CONTINUITY.md) recoge el corte y sus prioridades.
