@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ayran de yogur y menta
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -65,6 +65,7 @@ Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demo
 
 ## Relaciones dentro del SGCC
 
+- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): selección de la base láctea y control de textura.
 - [Lassi de mango y yogur](./lassi_de_mango_y_yogur.md)
 - [Agua de pepino, lima y menta](./agua_de_pepino_lima_y_menta.md)
 - [Índice de Bebidas](./README.md)

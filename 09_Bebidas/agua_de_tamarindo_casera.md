@@ -4,8 +4,8 @@ tipo: receta
 titulo: Agua de tamarindo casera
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -64,6 +64,7 @@ Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demo
 
 ## Relaciones dentro del SGCC
 
+- [Diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md): ajuste de acidez, dilución y filtrado.
 - [Limonada casera](./limonada_casera.md)
 - [Agua fresca de sandía y lima](./agua_fresca_de_sandia_y_lima.md)
 - [Índice de Bebidas](./README.md)

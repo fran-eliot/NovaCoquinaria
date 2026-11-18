@@ -4,8 +4,8 @@ tipo: receta
 titulo: Limonada de jengibre y romero
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -66,6 +66,7 @@ Preparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidame
 
 ## Relaciones dentro del SGCC
 
+- [Limón](../11_Despensa/11_Condimentos/limon.md): dosificación de acidez y uso del zumo.
 - [Limonada casera](./limonada_casera.md)
 - [Infusión de jengibre y limón](./infusion_de_jengibre_y_limon.md)
 - [Índice de Bebidas](./README.md)

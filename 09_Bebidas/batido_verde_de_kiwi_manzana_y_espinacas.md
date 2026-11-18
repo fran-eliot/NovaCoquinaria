@@ -4,8 +4,8 @@ tipo: receta
 titulo: Batido verde de kiwi, manzana y espinacas
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -66,6 +66,7 @@ Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demo
 
 ## Relaciones dentro del SGCC
 
+- [Espinacas](../11_Despensa/06_Verduras/espinacas.md): selección y manejo de hojas frescas.
 - [Batido de pera, yogur y canela](./batido_de_pera_yogur_y_canela.md)
 - [Limonada casera](./limonada_casera.md)
 - [Índice de Bebidas](./README.md)
