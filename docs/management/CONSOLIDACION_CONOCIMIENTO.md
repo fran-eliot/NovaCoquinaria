@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.7.0
+version: 1.8.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -358,3 +358,19 @@ Se revisan seis recetas de Postres y una de Horno. Se incorpora una relación pe
 Las fichas de semifrío de plátano y tiramisú contienen recomendaciones genéricas sobre hornos, cocción o cuajado térmico que no corresponden a sus procedimientos en frío. Se registra esta deuda para una revisión editorial específica, sin alterar aquí las fórmulas ni atribuir pruebas domésticas. En el talo, la relación de seguridad es pertinente al relleno opcional y la conservación, pero no sustituye una futura ficha específica de harina de maíz no precocida.
 
 La reducción de 19 a 12 advertencias es una expectativa pendiente de comprobar en una nueva ejecución. No se modifican las reglas del auditor.
+
+## Consolidación de Verduras — 2026-11-18
+
+La [auditoría del merge #200](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44400824199), commit `59e19f773f771123cee3be191b15bbf925a2df46`, confirma la reducción de 19 a 12 advertencias semánticas, sin avisos de Postres y Horno. Se verifican 922 documentos, 887 IDs y 5442 enlaces internos; no se detectan huérfanos globales.
+
+Se incorpora una relación reutilizable por cada una de las cinco recetas de Verduras señaladas, sin modificar formulaciones, identificadores ni estados de prueba.
+
+| Receta | Referencia | Utilidad |
+|---|---|---|
+| [cardo aragones con salsa de almendras](../../04_Verduras/cardo_aragones_con_salsa_de_almendras.md) | [Almendras](../../11_Despensa/16_Frutos_Secos/almendras.md) | tostado moderado y función espesante del majado |
+| [ensalada murciana de tomate en conserva y aceitunas](../../04_Verduras/ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md) | [Atún en conserva](../../11_Despensa/12_Conservas/atun_en_conserva.md) | escurrido, salinidad y manejo tras abrir el envase |
+| [pericana alicantina de pimiento seco y bacalao](../../04_Verduras/pericana_alicantina_de_pimiento_seco_y_bacalao.md) | [Bacalao](../../11_Despensa/04_Pescados/bacalao.md) | distinción de formatos, desalado y cocción completa |
+| [pipirrana jiennense con atun y huevo](../../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md) | [Huevo](../../11_Despensa/14_Huevos_Lacteos/huevo.md) | uso de yema cocida para ligar el majado |
+| [porra antequerana de tomate y pan](../../04_Verduras/porra_antequerana_de_tomate_y_pan.md) | [Tomate fresco](../../11_Despensa/06_Verduras/tomate_fresco.md) | selección según madurez, jugosidad y acidez |
+
+Se observa deuda editorial adicional: los diagnósticos de pipirrana y porra incluyen sugerencias de cocción o reducción que no corresponden a su preparación en frío. Se registra para una revisión específica. La reducción de 12 a 7 avisos queda pendiente de comprobar; las reglas de auditoría permanecen intactas.

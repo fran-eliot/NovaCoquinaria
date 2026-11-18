@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ensalada murciana de tomate en conserva y aceitunas
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -68,6 +68,7 @@ Conservar a 4 °C o menos y consumir preferiblemente dentro de 24 horas después
 
 ## Relaciones dentro del SGCC
 
+- [Atún en conserva](../11_Despensa/12_Conservas/atun_en_conserva.md): escurrido, salinidad y manejo tras abrir el envase.
 - [Pipirrana jiennense](../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md)
 - [Piriñaca gaditana](../04_Verduras/pirinaca_gaditana_de_tomate_pimiento_y_cebolla.md)
 - [Índice del módulo](./README.md)

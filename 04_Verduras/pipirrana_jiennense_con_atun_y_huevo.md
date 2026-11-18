@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pipirrana jiennense con atún y huevo
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -69,6 +69,7 @@ Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y re
 
 ## Relaciones dentro del SGCC
 
+- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): uso de yema cocida para ligar el majado.
 - [Gazpacho andaluz](./gazpacho_andaluz_de_tomate_y_pimiento.md)
 - [Salmorejo cordobés](./salmorejo_cordobes_con_huevo.md)
 - [Índice del módulo](./README.md)
