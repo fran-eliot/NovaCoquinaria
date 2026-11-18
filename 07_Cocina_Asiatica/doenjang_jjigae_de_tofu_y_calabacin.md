@@ -4,8 +4,8 @@ tipo: receta
 titulo: Doenjang jjigae de tofu y calabacín
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -68,6 +68,7 @@ Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y re
 
 ## Relaciones dentro del SGCC
 
+- [Tofu firme](../11_Despensa/02_Legumbres/tofu_firme.md): selección y manipulación de dados en caldo.
 - [Sopa de miso con tofu](./sopa_de_miso_con_tofu.md)
 - [Kimchi jjigae de cerdo y tofu](./kimchi_jjigae_de_cerdo_y_tofu.md)
 - [Índice de Cocina Asiática](./README.md)

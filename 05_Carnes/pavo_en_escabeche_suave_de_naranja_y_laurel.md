@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pavo en escabeche suave de naranja y laurel
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - carnes
   - receta-propuesta
@@ -72,6 +72,7 @@ Servir recién cocinado o enfriar rápidamente las sobras en recipientes poco pr
 
 ## Relaciones dentro del SGCC
 
+- [Laurel](../11_Despensa/08_Especias/laurel.md): dosificación e infusión aromática.
 - [Sardinas en escabeche suave](../06_Pescados_y_Mariscos/sardinas_en_escabeche_suave.md)
 - [Pollo al ajillo con vino blanco](./pollo_al_ajillo_con_vino_blanco.md)
 - [Índice de Carnes](./README.md)

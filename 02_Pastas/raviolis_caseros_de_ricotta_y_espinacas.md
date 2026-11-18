@@ -4,8 +4,8 @@ tipo: receta
 titulo: Raviolis caseros de ricotta y espinacas
 categoria: Pastas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - pasta
   - receta-propuesta
@@ -70,6 +70,7 @@ Servir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refri
 
 ## Relaciones dentro del SGCC
 
+- [Ricotta](../11_Despensa/14_Huevos_Lacteos/ricotta.md): escurrido y humedad del relleno.
 - [Pasta fresca al huevo casera](./pasta_fresca_al_huevo_casera.md)
 - [Lasaña de espinacas y ricotta](./lasana_de_espinacas_y_ricotta.md)
 - [Índice de Pastas](./README.md)

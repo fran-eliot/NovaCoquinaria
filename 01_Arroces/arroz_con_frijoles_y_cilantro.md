@@ -4,8 +4,8 @@ tipo: receta
 titulo: Arroz con frijoles y cilantro
 categoria: Arroces
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - cocina-latinoamericana
   - receta-propuesta
@@ -72,6 +72,7 @@ Refrigerar sin demora las sobras en recipientes poco profundos y mantener cerrad
 
 ## Relaciones dentro del SGCC
 
+- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md): control del líquido, tapa y reposo.
 - [Arroz basmati por absorción](./arroz_basmati_por_absorcion.md)
 - [Índice del módulo](./README.md)
 - [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)

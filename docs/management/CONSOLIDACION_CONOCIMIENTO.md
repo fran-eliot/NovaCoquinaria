@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.8.0
+version: 1.9.0
 estado: borrador
 ultima_revision: 2026-11-18
 ---
@@ -374,3 +374,21 @@ Se incorpora una relación reutilizable por cada una de las cinco recetas de Ver
 | [porra antequerana de tomate y pan](../../04_Verduras/porra_antequerana_de_tomate_y_pan.md) | [Tomate fresco](../../11_Despensa/06_Verduras/tomate_fresco.md) | selección según madurez, jugosidad y acidez |
 
 Se observa deuda editorial adicional: los diagnósticos de pipirrana y porra incluyen sugerencias de cocción o reducción que no corresponden a su preparación en frío. Se registra para una revisión específica. La reducción de 12 a 7 avisos queda pendiente de comprobar; las reglas de auditoría permanecen intactas.
+
+## Consolidación de Arroces, Pastas, Legumbres, Carnes y Cocina Asiática — 2026-11-18
+
+La [auditoría del merge #201](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44401468035), commit `4a3acba1327008643ebf4b19b33375f550f2e7c9`, confirma la reducción de 12 a 7 avisos semánticos, con 922 documentos, 887 IDs, 5457 enlaces internos y ningún huérfano global detectado.
+
+Se revisan las siete recetas restantes del inventario inicial de advertencias y se añade una relación pertinente por ficha, preservando los procedimientos, identificadores y estados de prueba.
+
+| Receta | Referencia | Utilidad |
+|---|---|---|
+| [arroz con frijoles y cilantro](../../01_Arroces/arroz_con_frijoles_y_cilantro.md) | [Cocer arroz por absorción](../../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md) | control del líquido, tapa y reposo |
+| [doenjang jjigae de tofu y calabacin](../../07_Cocina_Asiatica/doenjang_jjigae_de_tofu_y_calabacin.md) | [Tofu firme](../../11_Despensa/02_Legumbres/tofu_firme.md) | selección y manipulación de dados en caldo |
+| [hamburguesas de frijoles negros y avena](../../03_Legumbres/hamburguesas_de_frijoles_negros_y_avena.md) | [Huevo](../../11_Despensa/14_Huevos_Lacteos/huevo.md) | ligazón y coagulación de la mezcla |
+| [lacon con grelos y cachelos gallego](../../05_Carnes/lacon_con_grelos_y_cachelos_gallego.md) | [Hervir y cocer a fuego suave](../../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md) | control del hervor en cocciones prolongadas |
+| [minestrone con pasta pequena y alubias](../../02_Pastas/minestrone_con_pasta_pequena_y_alubias.md) | [Pasta seca](../../11_Despensa/01_Cereales/pasta_seca.md) | absorción de caldo y control de textura |
+| [pavo en escabeche suave de naranja y laurel](../../05_Carnes/pavo_en_escabeche_suave_de_naranja_y_laurel.md) | [Laurel](../../11_Despensa/08_Especias/laurel.md) | dosificación e infusión aromática |
+| [raviolis caseros de ricotta y espinacas](../../02_Pastas/raviolis_caseros_de_ricotta_y_espinacas.md) | [Ricotta](../../11_Despensa/14_Huevos_Lacteos/ricotta.md) | escurrido y humedad del relleno |
+
+El cierre de los siete avisos queda sujeto a nueva auditoría y comparación por ID y ruta. Cero advertencias no certificaría calidad semántica exhaustiva ni madurez culinaria. Se conserva la deuda editorial detectada y se añade la recomendación de revisar el diagnóstico genérico de raviolis y las instrucciones de conservación relativas al arroz en doenjang jjigae, que no contiene arroz. También conviene precisar el retiro de hojas de laurel del escabeche de pavo antes de servir. No se modifican estas secciones en el lote de relaciones.

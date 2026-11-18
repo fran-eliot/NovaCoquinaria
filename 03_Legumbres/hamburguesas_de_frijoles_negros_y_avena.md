@@ -4,8 +4,8 @@ tipo: receta
 titulo: Hamburguesas de frijoles negros y avena
 categoria: Legumbres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-18
 etiquetas:
   - legumbres
   - receta-propuesta
@@ -69,6 +69,7 @@ Servir preferentemente recién hecho. Enfriar rápidamente los restos y refriger
 
 ## Relaciones dentro del SGCC
 
+- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): ligazón y coagulación de la mezcla.
 - [Frijoles refritos con ajo y comino](./frijoles_refritos_con_ajo_y_comino.md)
 - [Hamburguesa asiática](../05_Carnes/hamburguesa_asiatica.md)
 - [Índice de Legumbres](./README.md)
