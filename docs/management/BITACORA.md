@@ -2,9 +2,9 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.0
+version: 2.1
 estado: estable
-ultima_revision: 2026-08-02
+ultima_revision: 2026-11-18
 ---
 
 # Bitácora del Proyecto
@@ -437,6 +437,26 @@ La arquitectura documental y el sistema de auditoría quedan validados mediante 
 ### Por qué ocurrió
 
 Era necesario comprobar que el modelo documental del SGCC podía aplicarse de forma consistente a un dominio culinario real, reutilizando conocimiento entre ingredientes, técnicas, plantillas, tablas y recetas sin duplicaciones innecesarias.
+
+---
+
+## 2026-11-18 · Del crecimiento del recetario a la explotación del conocimiento
+
+### Qué ocurrió
+
+La expansión sistemática alcanzó un inventario de 590 fichas de recetas, 125 ingredientes y 52 técnicas; las 29 tandas españolas aportaron 174 propuestas. Se plantea y adopta como dirección de trabajo la consolidación y explotación del conocimiento.
+
+### Por qué ocurrió
+
+El volumen disponible permite evaluar consultas e ingesta sobre contenido representativo. Seguir creciendo por cantidad no garantiza reutilización ni calidad. La auditoría publicada anterior a la expansión requiere actualización.
+
+### Qué cambió
+
+La incorporación culinaria continúa según experiencia, cobertura y valor de reutilización. El esfuerzo principal se orienta a calidad, relaciones, contrato de datos y prototipos consultables derivados de Markdown.
+
+### Impacto
+
+El SGCC prepara su primera capacidad de consumo estructurado sin sustituir la fuente documental ni comprometer una tecnología o una implementación completa del Runtime. La madurez culinaria y la calidad semántica permanecen pendientes de evaluación.
 
 ---
 

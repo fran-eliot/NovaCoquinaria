@@ -2,9 +2,9 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.0
+version: 2.1
 estado: estable
-ultima_revision: 2026-07-20
+ultima_revision: 2026-11-18
 ---
 
 # Roadmap
@@ -69,6 +69,10 @@ Publicación
 
 ↓
 
+Consolidación y explotación del conocimiento
+
+↓
+
 Plataforma
 
 ↓
@@ -119,7 +123,7 @@ Diseñar el SGCC.
 
 ## Conocimiento
 
-**Estado:** 🟡 En expansión
+**Estado:** 🟡 En consolidación e incorporación selectiva
 
 ### Objetivo
 
@@ -205,6 +209,20 @@ Continuará evolucionando de forma permanente.
 
 ---
 
+# Capacidad prioritaria: consolidación y explotación del conocimiento
+
+**Estado:** 🟡 Iniciada como fase documental y de evaluación.
+
+El inventario del recetario proporciona una base suficiente para explorar el consumo estructurado sin dar por terminada la evolución culinaria. La progresión prevista es:
+
+1. Línea base reproducible de calidad y relaciones.
+2. Contrato de datos de recetas, con trazabilidad y tratamiento explícito de datos desconocidos.
+3. Prototipo de ingesta e indexación derivada de Markdown.
+4. Consultas reproducibles por ingredientes y metadatos.
+5. Evaluación de alternativas de plataforma en función de los resultados.
+
+Los criterios de aceptación se concretan en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md). La base de conocimiento Markdown permanece canónica; ninguna tecnología de persistencia o framework queda seleccionada. La incorporación de recetas se mantiene de forma selectiva.
+
 # Capacidades futuras
 
 ## Plataforma software
@@ -242,9 +260,9 @@ La evolución seguirá siempre el siguiente orden.
 
 ## Muy alta
 
-- Consolidar conocimiento reutilizable.
-- Completar dominios culinarios.
-- Reducir deuda.
+- Establecer una línea base actualizada de calidad y relaciones.
+- Consolidar conocimiento reutilizable y reducir deuda según evidencia.
+- Preparar el contrato de datos y el consumo estructurado.
 
 ---
 
