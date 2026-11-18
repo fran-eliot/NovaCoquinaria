@@ -4,7 +4,7 @@ tipo: receta
 titulo: Talo vasco de maíz a la plancha
 categoria: Horno
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - cocina-espanola
@@ -61,6 +61,7 @@ Consumir recién hecho. Refrigerar talos cocidos hasta 2 días y recalentar en p
 
 ## Relaciones dentro del SGCC
 
+- [Harina de maíz no precocida](../11_Despensa/01_Cereales/harina_de_maiz_no_precocida.md): selección, hidratación y diferencias entre formatos de maíz.
 - [Seguridad alimentaria](../98_Tablas/05_Seguridad/seguridad_alimentaria.md): manejo separado del relleno de chistorra, refrigeración y recalentado.
 - [tortos asturianos de maiz con queso](../04_Verduras/tortos_asturianos_de_maiz_con_queso.md)
 - [broa gallega de maiz y centeno](../10_Horno/broa_gallega_de_maiz_y_centeno.md)
