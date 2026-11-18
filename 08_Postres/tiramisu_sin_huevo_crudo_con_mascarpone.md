@@ -4,7 +4,7 @@ tipo: receta
 titulo: Tiramisú sin huevo crudo con mascarpone
 categoria: Postres
 estado: borrador
-version: 1.0.1
+version: 1.0.2
 ultima_revision: 2026-11-18
 etiquetas:
   - postres
@@ -50,21 +50,22 @@ Preparación de referencia basada en **montaje por capas y estabilización refri
 
 ## Puntos críticos
 
-- El café debe estar frío al tocar la crema para no desestabilizarla. Esta formulación prescinde de huevo crudo; no se atribuye por ello a ninguna versión tradicional concreta.
-- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.
-- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.
+- Usar café frío y nata muy fría. El mascarpone debe estar maleable, sin calentarlo; incorporar la nata con movimientos envolventes.
+- Remojar los bizcochos brevemente para que absorban café sin deshacerse. El asentamiento depende del reposo refrigerado, no de la cocción.
+- Esta formulación prescinde de huevo crudo; no se atribuye por ello a una versión tradicional concreta.
 
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste propuesto |
 |---|---|---|
-| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |
-| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |
-| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |
+| Crema poco firme | Nata insuficientemente montada o mezcla demasiado trabajada | Alcanzar picos suaves e incorporar el mascarpone con suavidad |
+| Líquido en el fondo | Bizcochos demasiado empapados | Acortar el remojo y evitar verter café sobrante en la fuente |
+| Capas poco definidas | Reposo insuficiente o montaje irregular | Distribuir la crema uniformemente y respetar el reposo refrigerado |
+| Crema granulosa | Nata sobrebatida | Detener el batido al alcanzar picos suaves |
 
 ## Conservación
 
-Enfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.
+Mantener tapado y refrigerado desde el montaje hasta el servicio. Sacar solo las porciones necesarias con utensilio limpio y devolver el resto al frigorífico sin demora. Respetar la caducidad y las indicaciones de los lácteos utilizados; la ausencia de huevo crudo no elimina la necesidad de cadena de frío.
 
 ## Relaciones dentro del SGCC
 
