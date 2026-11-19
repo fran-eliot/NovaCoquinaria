@@ -2,7 +2,7 @@
 id: DOC-EVOLUCION-RECUPERACION-2026
 titulo: Evolución de la recuperación del conocimiento culinario
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -145,6 +145,10 @@ Se recomienda A como primera entrega acotada. B se mantiene como línea de evalu
 - Verificar resultados sobre el corte fijado y sobre el corpus disponible al entregar, sin asumir que ambos tienen las mismas cifras.
 
 La propuesta requiere aceptación del alcance antes de la implementación. No constituye autorización de una release, persistencia, API, planificación, despensa automática ni recomendación culinaria.
+
+## Propuesta de entrega acotada
+
+La síntesis RET-D04 se integró mediante #241 con ambos workflows satisfactorios. La alternativa A se desarrolla en el [alcance de entrega de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md), con criterios RET-01–RET-14 y cuatro unidades propuestas. Su implementación queda condicionada a la aceptación del alcance; las propuestas de identidad y folded permanecen experimentales.
 
 ## Límites y decisión pendiente
 
