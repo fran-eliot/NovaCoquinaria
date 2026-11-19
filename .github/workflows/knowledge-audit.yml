@@ -53,6 +53,8 @@ jobs:
           rm "$dir/recipe_index_repeat.json"
       - name: Evaluate recipe queries
         run: python tools/evaluate_recipe_queries.py --index site/knowledge-audit/recipe_index.json --output site/knowledge-audit/recipe_query_evaluation.json
+      - name: Experiment with textual retrieval
+        run: python tools/experiment_retrieval_text.py --output site/knowledge-audit/retrieval_text_experiment.json
       - name: Upload baseline reports
         uses: actions/upload-artifact@v4
         with:
