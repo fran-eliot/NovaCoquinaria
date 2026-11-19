@@ -222,6 +222,8 @@ El inventario del recetario proporciona una base suficiente para explorar el con
 5. Evaluación de alternativas de explotación: recuperación textual por términos integrada (motor 0.2.0); identidades adicionales permanecen experimentales.
 6. Revisión estratégica global del siguiente bloque funcional: identidades, tiempo/rendimiento, despensa limitada o acceso de solo lectura; decisión pendiente.
 
+La [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar la compatibilidad culinaria acotada como caso de uso para orientar la resolución de identidades. La selección definitiva y la entrega permanecen pendientes de decisión y evidencia.
+
 El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registra RET-01–RET-14. Los criterios de aceptación se concretan en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md). La base de conocimiento Markdown permanece canónica; ninguna tecnología de persistencia o framework queda seleccionada. La incorporación de recetas se mantiene de forma selectiva.
 
 # Capacidades futuras
