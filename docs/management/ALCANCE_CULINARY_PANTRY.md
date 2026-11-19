@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PANTRY-2026
 titulo: Alcance de entrega de Culinary Pantry
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -85,3 +85,11 @@ save compara la lectura actual con la cadena original cargada antes de escribir 
 previewImport valida la copia y devuelve recuento y JSON normalizado sin modificar el inventario. confirmImport exige confirmación explícita y vuelve a validar antes de sustituir mediante save, sujeto a las mismas comprobaciones de concurrencia; cancelar no escribe. exportLastValid devuelve exclusivamente la última copia válida cargada o guardada. La recuperación de datos ilegibles no realiza sobreescritura automática; una eventual acción destructiva explícita se mantiene fuera del alcance inicial.
 
 Se añaden diez pruebas Node con Storage simulado y ejecución en Knowledge audit: ausencia, recarga, esquema inválido, acceso/lectura, cuota/escritura, cambios externos por lectura y evento, importación/cancelación, conflictos, exportación y límites. No hay todavía acceso a localStorage desde una página ni descarga/subida de archivos. La UI conectará el adaptador con el navegador, confirmaciones y eventos reales; integración y recorridos Chromium quedan pendientes.
+
+## Unidad C — Interfaz de despensa
+
+La plantilla culinary-pantry.html y los recursos culinary-pantry.css y culinary-pantry-ui.mjs ofrecen alta, edición, eliminación confirmada, filtros acumulables, tarjetas por entrada, cantidades declaradas, fechas y notas, y selección explícita de menciones. Se conserva la identidad al editar; las altas generan UUID mediante Web Crypto. La entrada admite coma decimal, convertida a punto sin cálculo. Se emplean controles nativos y texto DOM, sin HTML de usuario. La comparación de fechas toma el día civil local al renderizar; no acredita seguridad. No se intenta deducir identidades culinarias.
+
+La interfaz utiliza el adaptador de persistencia con localStorage. Muestra ausencia, carga válida y errores; ante conflicto observado o bloqueo de acceso impide modificaciones hasta recargar. Un fallo de escritura no actualiza el inventario mostrado ni confirma guardado. Exporta la última copia válida como archivo JSON mediante Blob local. La importación lee un archivo local, valida y muestra el recuento antes de la sustitución confirmada; cancelar no escribe. No se realiza ninguna petición con los datos. Ante lectura inválida no hay reparación destructiva; se puede exportar una copia previamente cargada si existe. La persistencia sigue limitada al origen/perfil y a la cuota del navegador.
+
+Las selecciones se conservan al filtrar, se eliminan al borrar una entrada y se reinician al recargar o importar. Se muestran las menciones deduplicadas derivadas del modelo; no se transfiere todavía la selección a Explorer. La plantilla no se incorpora aún al build público ni se añade acceso desde portada. La unidad D incorporará publicación versionada, transferencia local, pruebas Chromium con almacenamiento real, manejo de errores y guía de uso. Knowledge audit comprueba la sintaxis del módulo junto con las pruebas de modelo y persistencia existentes; no se acredita todavía la interacción en navegador.
