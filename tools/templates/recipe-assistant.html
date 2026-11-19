@@ -26,7 +26,7 @@
 <div class="cooking-column">
 <section class="panel" aria-labelledby="steps-heading">
 <h2 id="steps-heading">Elaboración guiada</h2><p id="step-progress" role="status"></p>
-<div id="step-controls" hidden><h3 id="step-title" tabindex="-1"></h3><p id="step-text" class="source-text"></p><p id="step-location" class="meta"></p>
+<div id="step-controls" hidden><h3 id="step-title" tabindex="-1"></h3><div id="step-text"></div><p id="step-location" class="meta"></p>
 <label class="check-row"><input type="checkbox" id="step-done">Marcar este paso como completado</label>
 <div class="actions"><button id="previous" type="button">Anterior</button><button id="next-step" type="button">Siguiente</button></div></div>
 </section>
@@ -43,6 +43,6 @@
 <button id="reset-session" type="button" class="secondary">Reiniciar preparación</button>
 </div></div>
 <section class="panel" aria-labelledby="techniques-heading"><h2 id="techniques-heading">Técnicas referenciadas</h2><ul id="techniques"></ul></section>
-<section class="panel" id="context" aria-labelledby="context-heading"><h2 id="context-heading">Contexto original y advertencias</h2><p>Texto íntegro de la ficha, incluidos antecedentes y variantes. No todas las formulaciones están probadas.</p><div id="context-text" class="source-text"></div></section>
-<footer id="provenance"></footer>
+<section class="panel" id="context" aria-labelledby="context-heading"><h2 id="context-heading">Contexto original y advertencias</h2><p>Texto íntegro de la ficha, incluidos antecedentes y variantes. No todas las formulaciones están probadas.</p><details open><summary>Mostrar u ocultar el contexto completo</summary><div id="context-text"></div></details></section>
+<footer><details><summary>Información técnica</summary><p id="provenance"></p></details></footer>
 </div></main></body></html>
