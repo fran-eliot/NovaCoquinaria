@@ -25,6 +25,8 @@ Si es tu primera visita, este es el recorrido recomendado:
 
 ## Explorar
 
+[**Abrir el explorador culinario**](culinary-explorer.html) — busca recetas por título, ingredientes mencionados y módulo.
+
 <div class="grid cards" markdown>
 
 -   :material-book-open-page-variant: **Bases**
