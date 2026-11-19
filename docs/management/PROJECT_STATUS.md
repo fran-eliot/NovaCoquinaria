@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.4
+version: 2.5
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -30,12 +30,11 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 |---------|-------|
 | Proyecto | NovaCoquinaria |
 | Sistema | GASTRO (SGCC) |
-| Versión publicada | **v1.5.0** |
-| Candidata | **v1.6.0 — Culinary Knowledge & Retrieval** |
+| Versión publicada | **v1.6.0 — Culinary Knowledge & Retrieval** |
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Cierre de versión candidata y evaluación de compatibilidad culinaria |
+| Próximo objetivo | Investigación de compatibilidad culinaria (CCE-D01) |
 
 ---
 
@@ -61,7 +60,11 @@ Tras #235, el primer ciclo de extracción, indexación y consultas está impleme
 
 ## Corte de recuperación textual — 2026-11-19
 
-Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidades de recuperación por términos están integradas. El [job de #246](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) confirma 927 Markdown, 590 recetas, 102 pruebas, 68 comparaciones directas de registros, 34 con experimento, 18 casos fijados y 16 de regresión por corpus, cero advertencias y huérfanos. Snapshot de CI distinto del merge. Véase [alcance y evidencia](./ALCANCE_RECUPERACION_TEXTUAL.md). Las 72 propuestas adicionales de identidad no se integraron. No se ha publicado nueva release ni se acredita precisión culinaria exhaustiva.
+Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidades de recuperación por términos están integradas. El [job de #246](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) confirma 927 Markdown, 590 recetas, 102 pruebas, 68 comparaciones directas de registros, 34 con experimento, 18 casos fijados y 16 de regresión por corpus, cero advertencias y huérfanos. Snapshot de CI distinto del merge. Véase [alcance y evidencia](./ALCANCE_RECUPERACION_TEXTUAL.md). Las 72 propuestas adicionales de identidad no se integraron. En aquel corte no se había publicado nueva release; no se acredita precisión culinaria exhaustiva.
+
+## Corte de publicación — 2026-11-19
+
+[v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0) publicada sobre `836f02e848299c0a7a7897b22bb83cd13e0c373a` (merge #249). Los tres workflows de main finalizaron correctamente. La compatibilidad culinaria permanece en investigación; no forma parte de la entrega publicada.
 
 # Estado por capacidades
 
@@ -129,7 +132,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Preparar la candidata v1.6.0 y considerar la investigación de compatibilidad culinaria acotada propuesta en la [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md). La publicación y una eventual implementación requieren decisiones diferenciadas. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Investigar la compatibilidad culinaria acotada según la [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md), comenzando por CCE-D01. Una eventual implementación requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 

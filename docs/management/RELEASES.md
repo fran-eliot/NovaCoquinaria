@@ -2,7 +2,7 @@
 id: DOC-0013
 titulo: Releases
 tipo: gestion
-version: 2.1
+version: 2.2
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -79,7 +79,7 @@ Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 | v1.3.0 | ✅ | Knowledge Graph |
 | v1.4.0 | ✅ | Gobernanza del conocimiento |
 | v1.5.0 | ✅ | Marco de especificaciones |
-| v1.6.0 | Candidata | Culinary Knowledge & Retrieval |
+| v1.6.0 | ✅ | Culinary Knowledge & Retrieval |
 
 ---
 
@@ -257,7 +257,7 @@ Expansión, consolidación y explotación del conocimiento.
 
 ---
 
-## v1.6.0 · Culinary Knowledge & Retrieval (candidata)
+## v1.6.0 · Culinary Knowledge & Retrieval
 
 ### Propósito
 
@@ -280,7 +280,7 @@ Markdown sigue siendo canónico. No se entrega plataforma, Runtime completo, per
 
 ### Estado
 
-Candidata a publicación. La última release oficial sigue siendo v1.5.0 hasta que se publique el nuevo tag y release sobre un commit aprobado con CI satisfactoria.
+Publicada el 2026-11-19: [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0). Tag verificado sobre `836f02e848299c0a7a7897b22bb83cd13e0c373a` (merge #249); Knowledge integrity, Knowledge audit y Deploy MkDocs satisfactorios. La sincronización documental posterior no modifica el tag.
 
 ---
 
