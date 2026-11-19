@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PANTRY-2026
 titulo: Alcance de entrega de Culinary Pantry
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -75,3 +75,13 @@ La cantidad es un decimal positivo literal con punto, hasta nueve cifras enteras
 Las operaciones emptyPantry, validatePantry, addEntry, editEntry y removeEntry devuelven copias, respetan orden y no fusionan lotes. filterEntries acumula filtros de nombre (subcadena), categoría (igualdad), ubicación y relación con una fecha civil explícita. Para nombre y categoría usa NFC y minúsculas, sin eliminar diacríticos. selectedMentions exige selección explícita de IDs existentes, conserva el nombre original y elimina repeticiones según esa misma normalización; no transmite cantidades ni ejecuta búsqueda. La semántica de consultas sigue perteneciendo a Explorer.
 
 Se incorporan ocho pruebas Node y su ejecución en Knowledge audit. El modelo no accede a DOM, red, almacenamiento o conocimiento canónico. Persistencia, confirmaciones, importación, interfaz y publicación quedan pendientes de las unidades B–D. La aceptación del modelo queda condicionada a CI.
+
+## Unidad B — Persistencia y copias
+
+El módulo `assets/culinary-pantry-persistence.mjs` consume el modelo 0.1.0 y un proveedor Storage inyectable. Utiliza la clave novacoquinaria.culinary-pantry. load distingue ausencia (inventario vacío sin escritura automática) de documento válido, y bloquea escritura si no hay carga válida. parseBackup valida JSON, versión y esquema; serializeBackup conserva campos y cantidades literales. Se fija un máximo de 16 millones de unidades UTF-16 para JSON de entrada y salida, adicional a los límites del modelo; no presupone que la cuota real del navegador permita ese tamaño.
+
+save compara la lectura actual con la cadena original cargada antes de escribir y bloquea ante cambio externo observado. observeStorageEvent permite detectar modificaciones o eliminación de la clave, incluido clear, y exige recarga explícita. No constituye una operación atómica entre pestañas; queda una ventana entre lectura y escritura. Los errores de acceso, lectura, versión, formato, cuota y escritura se distinguen por código. El adaptador conserva en memoria la última copia válida, exportable incluso si una lectura posterior falla. No elimina ni repara automáticamente datos ilegibles. La interfaz deberá mostrar los errores, bloquear modificaciones si procede y no presentar un guardado fallido como exitoso.
+
+previewImport valida la copia y devuelve recuento y JSON normalizado sin modificar el inventario. confirmImport exige confirmación explícita y vuelve a validar antes de sustituir mediante save, sujeto a las mismas comprobaciones de concurrencia; cancelar no escribe. exportLastValid devuelve exclusivamente la última copia válida cargada o guardada. La recuperación de datos ilegibles no realiza sobreescritura automática; una eventual acción destructiva explícita se mantiene fuera del alcance inicial.
+
+Se añaden diez pruebas Node con Storage simulado y ejecución en Knowledge audit: ausencia, recarga, esquema inválido, acceso/lectura, cuota/escritura, cambios externos por lectura y evento, importación/cancelación, conflictos, exportación y límites. No hay todavía acceso a localStorage desde una página ni descarga/subida de archivos. La UI conectará el adaptador con el navegador, confirmaciones y eventos reales; integración y recorridos Chromium quedan pendientes.
