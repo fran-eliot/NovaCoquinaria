@@ -1,0 +1,397 @@
+{
+  "version": "0.1.0",
+  "source_commit": "c0dd020dea003d8a4f7a0278a43f30d81501a7f0",
+  "projection_sha256": "d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c",
+  "cases": [
+    {
+      "id": "A01",
+      "split": "adjustment",
+      "recipe_id": "REC-0023",
+      "path": "05_Carnes/curry_verde_de_pollo.md",
+      "family": "P01",
+      "expected_semantic": "alternative",
+      "evidence": [
+        {
+          "line": 93,
+          "text": "- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) o"
+        },
+        {
+          "line": 94,
+          "text": "- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)."
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "split": "adjustment",
+      "recipe_id": "REC-0009",
+      "path": "06_Pescados_y_Mariscos/caballa_japonesa.md",
+      "family": "P02",
+      "expected_semantic": "choice",
+      "evidence": [
+        {
+          "line": 69,
+          "text": "## Guarnición"
+        },
+        {
+          "line": 71,
+          "text": "A elegir:"
+        },
+        {
+          "line": 73,
+          "text": "* arroz basmati;"
+        },
+        {
+          "line": 74,
+          "text": "* arroz jazmín;"
+        },
+        {
+          "line": 75,
+          "text": "* verduras salteadas;"
+        },
+        {
+          "line": 76,
+          "text": "* espárragos;"
+        },
+        {
+          "line": 77,
+          "text": "* pak choi."
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "split": "adjustment",
+      "recipe_id": "REC-0021",
+      "path": "01_Arroces/arroz_frito_gambas.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 66,
+          "text": "- 1 cucharadita de salsa de ostras (opcional)"
+        },
+        {
+          "line": 72,
+          "text": "- Cebolleta fresca picada (opcional)"
+        },
+        {
+          "line": 73,
+          "text": "- Semillas de sésamo (opcional)"
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "split": "adjustment",
+      "recipe_id": "REC-0059",
+      "path": "06_Pescados_y_Mariscos/gambas_al_ajillo.md",
+      "family": "P04",
+      "expected_semantic": "preparation",
+      "evidence": [
+        {
+          "line": 32,
+          "text": "- 400 g de gambas peladas, descongeladas si procede;"
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "split": "adjustment",
+      "recipe_id": "REC-0059",
+      "path": "06_Pescados_y_Mariscos/gambas_al_ajillo.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 1 guindilla pequeña, opcional;"
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "split": "adjustment",
+      "recipe_id": "REC-448",
+      "path": "04_Verduras/patatas_a_la_importancia_castellanas.md",
+      "family": "P05",
+      "expected_semantic": "adjustment",
+      "evidence": [
+        {
+          "line": 41,
+          "text": "- 4 cucharadas de aceite de oliva para fritura poco profunda, reponer si hace falta"
+        }
+      ]
+    },
+    {
+      "id": "A07",
+      "split": "adjustment",
+      "recipe_id": "REC-493",
+      "path": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md",
+      "family": "P05",
+      "expected_semantic": "adjustment",
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 3 cucharadas de aceite de oliva, añadir si hace falta"
+        }
+      ]
+    },
+    {
+      "id": "H01",
+      "split": "holdout",
+      "recipe_id": "REC-0008",
+      "path": "05_Carnes/medallones_solomillo_asiaticos.md",
+      "family": "P02",
+      "expected_semantic": "choice",
+      "evidence": [
+        {
+          "line": 89,
+          "text": "## Guarnición"
+        },
+        {
+          "line": 91,
+          "text": "A elegir:"
+        },
+        {
+          "line": 93,
+          "text": "* arroz basmati;"
+        },
+        {
+          "line": 94,
+          "text": "* verduras salteadas;"
+        },
+        {
+          "line": 95,
+          "text": "* pak choi;"
+        },
+        {
+          "line": 96,
+          "text": "* brócoli."
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "split": "holdout",
+      "recipe_id": "REC-0007",
+      "path": "05_Carnes/hamburguesa_asiatica.md",
+      "family": "P02",
+      "expected_semantic": "abstain",
+      "evidence": [
+        {
+          "line": 83,
+          "text": "## Guarnición"
+        },
+        {
+          "line": 85,
+          "text": "* Lechuga."
+        },
+        {
+          "line": 86,
+          "text": "* Pepino."
+        },
+        {
+          "line": 87,
+          "text": "* Cebolla morada."
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "split": "holdout",
+      "recipe_id": "REC-0022",
+      "path": "01_Arroces/arroz_frito_pollo.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 58,
+          "text": "- Cebolleta fresca picada (opcional)"
+        },
+        {
+          "line": 59,
+          "text": "- Semillas de sésamo (opcional)"
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "split": "holdout",
+      "recipe_id": "REC-0022",
+      "path": "01_Arroces/arroz_frito_pollo.md",
+      "family": "P03",
+      "expected_semantic": "abstain",
+      "evidence": [
+        {
+          "line": 52,
+          "text": "- 1 cucharadita de salsa de ostras"
+        }
+      ]
+    },
+    {
+      "id": "H05",
+      "split": "holdout",
+      "recipe_id": "REC-0183",
+      "path": "05_Carnes/ternera_salteada_con_setas_y_mirin.md",
+      "family": "P03",
+      "expected_semantic": "abstain",
+      "evidence": [
+        {
+          "line": 43,
+          "text": "- pimienta negra y cebollino opcional"
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "split": "holdout",
+      "recipe_id": "REC-0201",
+      "path": "07_Cocina_Asiatica/calamares_salteados_con_kimchi.md",
+      "family": "P04",
+      "expected_semantic": "preparation",
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 350 g de calamar limpio, descongelado si procede;"
+        }
+      ]
+    },
+    {
+      "id": "H07",
+      "split": "holdout",
+      "recipe_id": "REC-0201",
+      "path": "07_Cocina_Asiatica/calamares_salteados_con_kimchi.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 40,
+          "text": "- 1 cucharadita de salsa de soja clara, opcional;"
+        }
+      ]
+    },
+    {
+      "id": "H08",
+      "split": "holdout",
+      "recipe_id": "REC-0201",
+      "path": "07_Cocina_Asiatica/calamares_salteados_con_kimchi.md",
+      "family": "P04/P05",
+      "expected_semantic": "abstain",
+      "evidence": [
+        {
+          "line": 41,
+          "text": "- 30 ml de agua si fuera necesario;"
+        }
+      ]
+    },
+    {
+      "id": "H09",
+      "split": "holdout",
+      "recipe_id": "REC-302",
+      "path": "06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.md",
+      "family": "P04",
+      "expected_semantic": "preparation",
+      "evidence": [
+        {
+          "line": 31,
+          "text": "- 600 g de sepia limpia y descongelada correctamente, si procede"
+        }
+      ]
+    },
+    {
+      "id": "H10",
+      "split": "holdout",
+      "recipe_id": "REC-491",
+      "path": "05_Carnes/puchero_andaluz_con_pringa_y_hierbabuena.md",
+      "family": "P04",
+      "expected_semantic": "preparation",
+      "evidence": [
+        {
+          "line": 37,
+          "text": "- 1 hueso blanco salado de uso alimentario, desalado si procede"
+        }
+      ]
+    },
+    {
+      "id": "H11",
+      "split": "holdout",
+      "recipe_id": "REC-491",
+      "path": "05_Carnes/puchero_andaluz_con_pringa_y_hierbabuena.md",
+      "family": "P04/P03",
+      "expected_semantic": "mixed_optional_preparation",
+      "evidence": [
+        {
+          "line": 36,
+          "text": "- 150 g de costilla salada, desalado según producto, opcional"
+        }
+      ]
+    },
+    {
+      "id": "H12",
+      "split": "holdout",
+      "recipe_id": "REC-526",
+      "path": "04_Verduras/berenjenas_de_almagro_alinadas.md",
+      "family": "P05",
+      "expected_semantic": "adjustment",
+      "evidence": [
+        {
+          "line": 33,
+          "text": "- 850 ml de agua potable para cocer, más la necesaria si hace falta"
+        }
+      ]
+    },
+    {
+      "id": "H13",
+      "split": "holdout",
+      "recipe_id": "REC-343",
+      "path": "04_Verduras/judias_verdes_guisadas_con_tomate_y_cebolla.md",
+      "family": "P04/P05",
+      "expected_semantic": "abstain",
+      "evidence": [
+        {
+          "line": 37,
+          "text": "- 80 ml de agua, si hace falta"
+        }
+      ]
+    },
+    {
+      "id": "H14",
+      "split": "holdout",
+      "recipe_id": "REC-526",
+      "path": "04_Verduras/berenjenas_de_almagro_alinadas.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 40,
+          "text": "- 6–8 tiras de pimiento rojo asado, opcionales"
+        }
+      ]
+    },
+    {
+      "id": "H15",
+      "split": "holdout",
+      "recipe_id": "REC-302",
+      "path": "06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.md",
+      "family": "P03",
+      "expected_semantic": "optional",
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 1 cucharada de zumo de limón opcional"
+        }
+      ]
+    }
+  ],
+  "synthetic_negatives": [
+    "sal y perejil opcional",
+    "aceite o mantequilla (opcional)",
+    "sal no opcional",
+    "agua, si hace falta",
+    "[sal](opcional.md)",
+    "pimienta, opcional según versión",
+    "aceite, añadir si hace falta",
+    "gambas descongeladas si procede, opcionales"
+  ]
+}

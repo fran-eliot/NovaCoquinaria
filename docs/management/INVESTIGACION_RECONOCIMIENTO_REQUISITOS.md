@@ -2,7 +2,7 @@
 id: DOC-RECONOCIMIENTO-REQUISITOS-2026
 titulo: Investigación del reconocimiento de requisitos culinarios
 tipo: gestion
-version: 0.2.0
+version: 0.3.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -110,6 +110,31 @@ La muestra reservada incluye ocho recetas y quince casos; algunos abarcan varias
 ### Condiciones para CRR-D03
 
 Fijar fixtures de ajuste y contraste con texto exacto, ID, ruta, posición y línea. Especificar alcance, regla y resultado esperado por familia; validar corpus, disyunción por receta y preservar evidencia. No utilizar los casos H para modificar reglas después de ejecutar; si se modifica una regla, registrar iteración y reservar casos nuevos. Añadir negativos sintéticos, incluidos marcadores en enlaces, negaciones, alcance parcial, encabezados sin elección, condiciones de presencia y cantidades no acreditadas. No comprometer implementación productiva ni ampliar reglas de identidad. No se ha ejecutado todavía reconocimiento automático.
+
+
+## CRR-D03 — Reglas candidatas y expectativas fijadas
+
+#264 integrada en `86dfcbde06d7c7d24ca2a17c71ef9ba0b167effb`. Se fija la primera iteración de reconocimiento y el fixture experimental `tools/fixtures/requirements_recognition_cases.json`, con 22 casos documentales y ocho negativos sintéticos. Los localizadores de evaluación se resolverán por línea exacta y receta en el corpus fijado, no por posiciones estimadas; se rechazará toda referencia inexistente o discrepancia de fuente. El corpus y la huella son los de D01. Ajuste y contraste son disjuntos por receta. Las expectativas semánticas se conservan incluso cuando una regla acotada no pueda cubrirlas.
+
+### Reglas de iteración 0.1.0
+
+Normalización exclusivamente para reconocer marcadores: NFC, casefold, espacios y puntuación final editorial; retirar destinos de enlaces conservando etiquetas; conservar texto y cantidad originales. No eliminar acentos ni reconstruir nombres. Las reglas no usan ID de receta ni listas de casos como predicados. Una anotación afecta solo a la ocurrencia o grupo explícitamente identificado. No crear identidades ni afirmar atomicidad; los reconocimientos de alcance pueden conservar un nodo opaque con una anotación separada.
+
+| Regla | Predicado acotado | Propuesta |
+|---|---|---|
+| CRR-R01 | Deshabilitada en esta iteración | Sin propuesta; registrar omisión de A01 |
+| CRR-R02 | Subgrupo exacto Guarnición, declaración independiente A elegir:, seguido únicamente de al menos dos viñetas del mismo grupo, sin otra prosa hasta el fin de la sección; correspondencia exacta con ocurrencias proyectadas | choice con miembros opacos, role accompaniment, presencia y cardinalidad unknown; exploratoria |
+| CRR-R03 | Marcador terminal literal (opcional), coma opcional o marcador separado por espacio, admitiendo plural; prefijo no vacío; rechazar conectores y/e/o/u, negación, otros marcadores condicionales, coma anterior al separador y ámbito mixto | Anotación optional sobre toda la ocurrencia; no afirmar número de ingredientes |
+| CRR-R04 | Sufijo delimitado descongelado/a/os/as si procede, sin otra condición, alternativa ni opcionalidad; conservar el prefijo y el calificador | Anotación preparation, presencia base required como interpretación candidata; no interpretar condiciones |
+| CRR-R05 | Cantidad base proyectada exacta o rango positivo, sufijo separado por coma reponer si hace falta o añadir si hace falta; sin alternativa ni otro marcador de condición | Anotación adjustment; base required; cantidad adicional no determinada |
+
+R04 y R05 se restringen a las formas observadas en ajuste. No ampliar a desalado, adverbios intermedios, ni otras variantes por conocimiento del conjunto H en esta iteración. R03 incluye las variantes terminales propuestas como hipótesis general morfológica, no como garantía de alcance. Ante múltiples reglas aplicables o conflicto de grupo y anotación, abstenerse de todas en los miembros afectados y registrar motivo. No reconocer por contenido de URLs, texto fuera de la sección ni analogía entre recetas.
+
+### Evaluación
+
+El fixture registra expectativa semántica, no resultado esperado por implementación restringida. A01, H09, H10, H11 y H12 pueden quedar fuera del alcance de estas reglas; contabilizar omisiones, no convertir expectativas positivas en negativas. H11 exige conservar simultáneamente opcionalidad y preparación; los marcadores mixtos quedan fuera del alcance inicial. Los negativos sintéticos son entradas aisladas, sin contexto documental o cantidad base acreditada. No se exige afirmar presencia en ellos. En H02 se evalúa la ausencia de agrupación, no otros marcadores de la receta.
+
+El informe de D04 distinguirá ajuste y contraste, casos y ocurrencias (los grupos se contabilizan también como una unidad), expectativas positivas, negativos, aciertos exactos de alcance, falsos positivos, omisiones y propuestas no revisadas. Comparará contra la opcionalidad heredada donde sea pertinente; ninguna propuesta corregirá el extractor. Los casos multirregla deben contrastarse por tipo y alcance. Las líneas de encabezado y declaración son evidencia contextual, no ocurrencias adicionales. Mantener determinismo, partición de raíces y preservación de datos, pruebas de referencias inexistentes y solapamiento. Cualquier cambio de reglas posterior al contraste requiere nueva iteración y nuevos casos reservados. No se declara ejecución ni recomendación de entrega.
 
 ## Referencias
 
