@@ -1,0 +1,40 @@
+name: Culinary Explorer site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  explorer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install site and browser dependencies
+        run: |
+          pip install -r requirements.txt playwright==1.51.0
+          python -m playwright install --with-deps chromium
+      - name: Build twice and verify publication
+        run: |
+          python tools/build_site_docs.py
+          cp site_docs/culinary_explorer.json /tmp/culinary_explorer.json
+          python tools/build_site_docs.py
+          cmp /tmp/culinary_explorer.json site_docs/culinary_explorer.json
+          mkdocs build
+          python tools/check_explorer_site.py
+      - name: Check browser journeys
+        run: python tools/check_explorer_browser.py --site site --output /tmp/explorer-browser.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: explorer-browser
+          path: /tmp/explorer-browser.json

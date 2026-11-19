@@ -1,5 +1,6 @@
 from pathlib import Path
 import shutil
+import argparse
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DOCS = ROOT / "site_docs"
@@ -98,7 +99,24 @@ def create_home_page() -> None:
     (SITE_DOCS / "index.md").write_text(content, encoding="utf-8")
 
 
+def build_explorer_page() -> None:
+    from extract_recipe_metadata import build_projection, serialize as serialize_projection
+    from build_recipe_index import build_index, serialize
+    from build_culinary_explorer import build_explorer
+
+    projection = serialize_projection(build_projection(ROOT)).encode("utf-8")
+    index = serialize(build_index(projection)).encode("utf-8")
+    catalog = build_explorer(index, SITE_DOCS)
+    (SITE_DOCS / "culinary_explorer.json").write_bytes(serialize(catalog).encode("utf-8"))
+    shutil.copy2(ROOT / "tools/templates/culinary-explorer.html",
+                 SITE_DOCS / "culinary-explorer.html")
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--without-explorer", action="store_true",
+                        help="Preparar fuentes para auditoría sin regenerar el catálogo")
+    args = parser.parse_args()
     if SITE_DOCS.exists():
         shutil.rmtree(SITE_DOCS)
 
@@ -111,6 +129,8 @@ def main() -> None:
     create_index_files()
     normalize_links()
     create_home_page()
+    if not args.without_explorer:
+        build_explorer_page()
 
     print()
     print("NovaCoquinaria - Build")

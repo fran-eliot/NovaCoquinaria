@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -92,3 +92,25 @@ El contraste `tools/evaluate_culinary_explorer.py` ejecuta el adaptador en Node 
 La plantilla `tools/templates/culinary-explorer.html` y los recursos `assets/culinary-explorer.css` y `assets/culinary-explorer-ui.mjs` implementan el consumidor estático. La plantilla se destina a la raíz del portal como culinary-explorer.html; el catálogo se espera en culinary_explorer.json, ambos pendientes de integración en D. La interfaz ofrece título exacto o términos, ingredientes separados por líneas (AND), módulo, evidencia, limpieza y navegación de 24 recetas por página. Las tarjetas enlazan a la ficha y muestran menciones, opcionalidad y línea de origen. Se conserva el orden literal del adaptador.
 
 La interfaz valida el catálogo antes de habilitar controles, reconstruye y contrasta rutas relativas, utiliza textContent para datos y no interpreta HTML de fuentes. Distingue carga, fallo de carga, consulta inválida, catálogo vacío y ausencia de coincidencias. Incluye etiquetas nativas, foco visible, estado anunciado, controles de teclado y diseño adaptable con preferencia de tema del sistema. No incorpora tiempos o rendimientos porque la proyección vigente no incluye dichos datos. No se acredita todavía accesibilidad exhaustiva, prueba en navegador ni publicación; D integrará y contrastará los recorridos reales.
+
+## Unidad D — Integración y uso
+
+La preparación ordinaria con `python tools/build_site_docs.py` genera el catálogo y copia la plantilla a la raíz de site_docs. Se toma la proyección del HEAD Git, se construye el índice en memoria y se genera el catálogo con el contrato vigente. El build MkDocs publica HTML y recursos estáticos, sin servidor de aplicación. La opción --without-explorer reserva el modo de preparación de fuentes para Knowledge audit, que ya construye su propio índice y catálogo.
+
+### Uso local
+
+```bash
+python -m pip install -r requirements.txt
+python tools/build_site_docs.py
+mkdocs build
+python tools/check_explorer_site.py
+python -m http.server 8000 --directory site
+```
+
+Abrir http://localhost:8000/ y seleccionar «Abrir el explorador culinario». Introducir un título o un ingrediente por línea, seleccionar módulo y evidencia si procede, y pulsar Buscar. Por ejemplo, ajo y salsa de soja recuperan recetas que mencionan ambas expresiones. Abrir las menciones para consultar texto original, opcionalidad y localizador, o seleccionar el título para abrir la ficha. Limpiar filtros recupera el catálogo completo. Los resultados no acreditan disponibilidad, compatibilidad, ausencia de alérgenos ni validación culinaria.
+
+### Validación
+
+El workflow Culinary Explorer site contrasta dos generaciones del catálogo, construye MkDocs y comprueba todos los destinos y recursos del HTML final. Chromium comprueba acceso desde inicio bajo un subdirectorio de publicación, carga, paginación, consulta compuesta, evidencia, navegación, ausencia de resultados, entrada inválida, limpieza, fallo de carga y dos tamaños de ventana. El informe de navegador se conserva como artefacto. El despliegue conserva el flujo vigente de main y verifica destinos antes de gh-deploy.
+
+La evidencia de ejecución y el cierre de EXP-01–EXP-15 quedan pendientes de los resultados de CI y revisión. Un build local no acredita el despliegue remoto ni accesibilidad exhaustiva. No se publica una nueva release ni se incorpora otra capacidad.

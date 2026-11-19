@@ -29,6 +29,11 @@ jobs:
         run: |
           python tools/build_site_docs.py
 
+      - name: Verify generated site
+        run: |
+          mkdocs build
+          python tools/check_explorer_site.py
+
       - name: Deploy to GitHub Pages
         run: |
           mkdocs gh-deploy --force
