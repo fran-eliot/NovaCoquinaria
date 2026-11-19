@@ -49,3 +49,37 @@ class IngredientTests(unittest.TestCase):
         self.assertEqual(len(entries),1)
         self.assertEqual(entries[0]["optionality"],"optional")
         self.assertEqual(entries[0]["source_location"]["start_line"],6)
+
+
+    def test_observed_household_units_and_approximation(self):
+        cases = [
+            ("2 cm de jengibre fresco rallado","2","cm",False),
+            ("1 hoja de laurel;","1","hoja",False),
+            ("1 cucharada y media de aceite de oliva virgen extra","3/2","cucharada",False),
+            ("aproximadamente 330 g de zanahorias","330","g",True),
+            ("unas 2 cucharadas de agua","2","cucharada",True),
+        ]
+        for raw,amount,unit,approximate in cases:
+            with self.subTest(raw=raw):
+                q,_=quantity(raw)
+                self.assertEqual(q["min"],amount)
+                self.assertEqual(q["unit"],unit)
+                self.assertEqual(q["approximate"],approximate)
+                self.assertEqual(q["raw"],raw)
+        q,_=quantity("Un trozo pequeño de jengibre")
+        self.assertEqual(q["status"],"qualitative")
+
+    def test_conditional_and_mixed_ingredients(self):
+        raw = """# Ingredientes
+- 1–2 cucharadas de agua, solo si conviene aligerar;
+- sal y perejil opcional, al gusto.
+- 1 cebolla
+- 600 g de pechuga o contramuslo
+# Elaboración
+1. Mezclar
+""".encode()
+        entries,diag=extract_ingredients(raw,"fixture.md",{})
+        self.assertEqual([e["optionality"] for e in entries],
+                         ["optional","unknown","required","required"])
+        self.assertIn("INGREDIENT_OPTIONALITY_UNDETERMINED",[d["code"] for d in diag])
+        self.assertIn("pechuga o contramuslo",entries[3]["name"])
