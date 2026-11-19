@@ -1,0 +1,278 @@
+{
+  "source_commit": "c0dd020dea003d8a4f7a0278a43f30d81501a7f0",
+  "extractor_version": "0.4.6",
+  "index_version": "0.2.0",
+  "description": "Expectativas dirigidas revisadas en Markdown; no constituyen mediciones del experimento.",
+  "cases": [
+    {
+      "id": "R01",
+      "recipe_id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "position": 0,
+      "line": 48,
+      "name": "pechuga o contramuslo de pollo",
+      "query": "pollo",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "alternative"
+    },
+    {
+      "id": "R02",
+      "recipe_id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "position": 1,
+      "line": 49,
+      "name": "Leche de coco",
+      "query": "leche",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "distinct_product"
+    },
+    {
+      "id": "R03",
+      "recipe_id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "position": 4,
+      "line": 52,
+      "name": "ajo",
+      "query": "ajo",
+      "expected": {
+        "exact": true,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "exact"
+    },
+    {
+      "id": "R04",
+      "recipe_id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "position": 7,
+      "line": 58,
+      "name": "Salsa de soja",
+      "query": "sal",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": false
+      },
+      "feature": "false_substring"
+    },
+    {
+      "id": "R05",
+      "recipe_id": "REC-0017",
+      "path": "05_Carnes/curry_amarillo_de_pollo.md",
+      "position": 8,
+      "line": 59,
+      "name": "azúcar (opcional)",
+      "query": "azucar",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": true
+      },
+      "feature": "diacritic_optional"
+    },
+    {
+      "id": "R06",
+      "recipe_id": "REC-485",
+      "path": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md",
+      "position": 2,
+      "line": 34,
+      "name": "huevos L",
+      "query": "huevo",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": false
+      },
+      "feature": "no_plural_expansion"
+    },
+    {
+      "id": "R07",
+      "recipe_id": "REC-485",
+      "path": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md",
+      "position": 4,
+      "line": 36,
+      "name": "ajo pequeños",
+      "query": "ajo",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "qualifier"
+    },
+    {
+      "id": "R08",
+      "recipe_id": "REC-485",
+      "path": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md",
+      "position": 6,
+      "line": 38,
+      "name": "vinagre de vino, opcional según versión",
+      "query": "vinagre de vino",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "optional"
+    },
+    {
+      "id": "R09",
+      "recipe_id": "REC-0190",
+      "path": "07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md",
+      "position": 1,
+      "line": 48,
+      "name": "aceite de cacahuete o girasol, y algo más si hiciera falta;",
+      "query": "aceite",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "alternative"
+    },
+    {
+      "id": "R10",
+      "recipe_id": "REC-0190",
+      "path": "07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md",
+      "position": 2,
+      "line": 49,
+      "name": "ajo, picados;",
+      "query": "ajo",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "preparation"
+    },
+    {
+      "id": "R11",
+      "recipe_id": "REC-0190",
+      "path": "07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md",
+      "position": 6,
+      "line": 53,
+      "name": "salsa de soja clara;",
+      "query": "salsa de soja",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "variety"
+    },
+    {
+      "id": "R12",
+      "recipe_id": "REC-0190",
+      "path": "07_Cocina_Asiatica/berenjenas_chinas_estilo_sichuan.md",
+      "position": 7,
+      "line": 54,
+      "name": "salsa de soja oscura en un chorrito al final: añadido efectivamente realizado, sin cantidad registrada;",
+      "query": "salsa de soja",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "variety"
+    },
+    {
+      "id": "R13",
+      "recipe_id": "REC-0079",
+      "path": "08_Postres/pastel_de_manzana.md",
+      "position": 1,
+      "line": 37,
+      "name": "huevos;",
+      "query": "huevo",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": false
+      },
+      "feature": "no_plural_expansion"
+    },
+    {
+      "id": "R14",
+      "recipe_id": "REC-0079",
+      "path": "08_Postres/pastel_de_manzana.md",
+      "position": 2,
+      "line": 38,
+      "name": "leche;",
+      "query": "leche",
+      "expected": {
+        "exact": false,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "punctuation"
+    },
+    {
+      "id": "R15",
+      "recipe_id": "REC-0079",
+      "path": "08_Postres/pastel_de_manzana.md",
+      "position": 6,
+      "line": 42,
+      "name": "ralladura de medio limón, opcional;",
+      "query": "limon",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": true
+      },
+      "feature": "form"
+    },
+    {
+      "id": "R16",
+      "recipe_id": "REC-0192",
+      "path": "08_Postres/tarta_de_galletas_natillas_cafe_amaretto.md",
+      "position": 2,
+      "line": 47,
+      "name": "café fuerte preparado, posteriormente enfriado;",
+      "query": "cafe",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": true
+      },
+      "feature": "diacritic"
+    },
+    {
+      "id": "R17",
+      "recipe_id": "REC-573",
+      "path": "10_Horno/talo_vasco_de_maiz_en_plancha.md",
+      "position": 0,
+      "line": 32,
+      "name": "harina fina de maíz no precocida",
+      "query": "harina de maíz",
+      "expected": {
+        "exact": false,
+        "terms": false,
+        "folded": false
+      },
+      "feature": "noncontiguous"
+    },
+    {
+      "id": "R18",
+      "recipe_id": "REC-573",
+      "path": "10_Horno/talo_vasco_de_maiz_en_plancha.md",
+      "position": 2,
+      "line": 34,
+      "name": "sal",
+      "query": "sal",
+      "expected": {
+        "exact": true,
+        "terms": true,
+        "folded": true
+      },
+      "feature": "exact"
+    }
+  ]
+}
