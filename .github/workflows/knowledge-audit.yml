@@ -74,6 +74,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Check Culinary Pantry UI syntax
+        run: node --check assets/culinary-pantry-ui.mjs
       - name: Test Culinary Pantry persistence
         run: node --test tools/test_culinary_pantry_persistence.mjs
       - name: Test Culinary Pantry model
