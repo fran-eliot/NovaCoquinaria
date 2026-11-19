@@ -74,6 +74,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Test Recipe Assistant cooking session
+        run: node --test tools/test_recipe_assistant_session.mjs
       - name: Check Culinary Explorer UI syntax
         run: node --check assets/culinary-explorer-ui.mjs
       - name: Contrast Culinary Explorer search

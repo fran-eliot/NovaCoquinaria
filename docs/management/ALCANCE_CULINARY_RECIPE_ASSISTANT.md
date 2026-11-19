@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -83,3 +83,11 @@ Ingredientes: posición desde cero y campos raw, name, group, quantity, optional
 Se adopta el modo conservador context.mode=full_source para todas las fichas: cuerpo completo desde el final del front matter, con saltos de línea normalizados, y localizador. No se afirma que los pasos reconocidos sean el procedimiento completo; la interfaz deberá mostrar contexto y acceso a la ficha, con advertencias disponibles durante toda la sesión. No se copia el front matter completo ni el índice completo. Técnicas: referencias resueltas bajo 00_Bases/03_Tecnicas con destino Markdown preparado, etiqueta, ruta y localizador; no se asignan a pasos automáticamente. La existencia del HTML final se comprueba en D.
 
 El generador contrasta huellas de bytes de origen, inventario, rutas, secciones, ingredientes seleccionados, pasos, rendimiento, duraciones y evidencia mediante el extractor existente; valida límites de localizadores. Esta reconciliación no constituye evaluación independiente de precisión del extractor. Se añaden seis pruebas sintéticas y doble generación con comparación de archivos en Knowledge audit. Los datos quedan como artefacto de auditoría hasta D; no se modifica Explorer ni se publican nuevas fichas. Los resultados de CI quedan pendientes de ejecución.
+
+## Unidad B — Sesión de cocina
+
+El módulo `assets/recipe-assistant-session.mjs` ofrece dos componentes puros, sin DOM, red ni persistencia. createCookingSession(recipe) valida ID y orden de ingredientes y pasos; mantiene posiciones preparadas y órdenes completados como conjuntos independientes. snapshot devuelve copias ordenadas, move acepta +1 o -1 y limita el cursor al intervalo válido (null sin pasos); marcar un paso no avanza ni acredita cocción. reset restaura el estado inicial. Un nuevo objeto de sesión no hereda progreso.
+
+createManualTimer(now) admite un reloj monótono inyectable (por defecto performance.now). La duración manual se expresa en minutos enteros no negativos y segundos enteros 0–59, entre un segundo y 23 h 59 min 59 s. Los estados son idle, running, paused y finished. El plazo se calcula a partir del reloj, no contando intervalos de refresco. pause conserva el tiempo restante, resume fija un nuevo plazo, cancel restaura idle y snapshot detecta vencimiento y redondea hacia arriba para la presentación en segundos. No se sustituye un temporizador activo sin cancelarlo. El temporizador no modifica pasos ni ingredientes. La interfaz deberá confirmar reinicio, cancelar temporizador al reiniciar sesión, anunciar el vencimiento y explicar límites de suspensión, recarga y cambio de receta.
+
+Se incorporan nueve pruebas Node con reloj controlado: ocurrencias duplicadas y reversibilidad, navegación y finalización independientes, aislamiento y reinicio, ausencia de pasos e inputs inválidos, plazo y redondeo, pausa/reanudación/cancelación, vencimiento previo a pausa, validación de duración/reloj e independencia respecto de la sesión culinaria. Knowledge audit las ejecuta con el Node 22 existente. La UI, el aviso real y la integración en navegador permanecen pendientes; no se cambia la versión de aplicación ni se publica una release.
