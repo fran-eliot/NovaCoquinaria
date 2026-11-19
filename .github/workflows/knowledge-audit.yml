@@ -55,7 +55,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python tools/build_site_docs.py
+          python tools/build_site_docs.py --without-explorer
           dir=site/knowledge-audit
           python tools/build_culinary_explorer.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/culinary_explorer.json"
           python tools/build_culinary_explorer.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/culinary_explorer_repeat.json"
