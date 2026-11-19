@@ -2,7 +2,7 @@
 id: DOC-COMPATIBILIDAD-CULINARIA-2026
 titulo: Investigación de compatibilidad culinaria
 tipo: gestion
-version: 0.4.0
+version: 0.4.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -259,6 +259,10 @@ El corpus es el mismo de RET-D01, `c0dd020dea003d8a4f7a0278a43f30d81501a7f0`, co
 Las expectativas parciales se conservan en `tools/fixtures/compatibility_experiment_cases.json`. Las posiciones y etiquetas proyectadas deberán contrastarse con el índice fijado; si no coinciden se documentará la discrepancia frente a Markdown, sin reajustar silenciosamente el resultado esperado. Las confirmaciones de presentación son declaraciones simuladas, no evidencia de una despensa real.
 
 La ejecución posterior debe añadir casos sintéticos de opcionalidad desconocida, duplicados, selección vacía, ocurrencia explícita sin atomicidad revisada, errores y agregación positiva; comparar A/B/C con recorrido independiente, informar denominadores y abstenciones, probar reproducibilidad y no modificar el motor publicado. No se declara CCE-D04 cerrado hasta disponer de evidencia de ejecución.
+
+### CCE-D04B — Prototipo y contraste
+
+Prototipo aislado en `tools/experiment_culinary_compatibility.py`, pruebas sintéticas en `tools/test_culinary_compatibility.py` e integración en Knowledge audit. El consumidor compara tres modalidades contra un recorrido de referencia por registros, conserva procedencia y cantidad original, verifica determinismo y matriz, y contrasta las expectativas fijadas. El informe derivado `compatibility_experiment.json` incluye casos dirigidos y línea base de abstención del corpus completo sin confirmaciones manuales. Los IDs de inventario se restringen al universo del índice; las confirmaciones requieren commit y posición. No se modifica el motor publicado. La evidencia de ejecución se registra tras CI; no se afirma viabilidad ni precisión global.
 
 ## Referencias
 
