@@ -9,6 +9,7 @@ import unicodedata
 from common import ROOT_DIR
 from extract_recipe_metadata import build_projection, serialize
 from build_recipe_index import build_index, text_key
+from recipe_retrieval_terms import tokens as strict_tokens, contains_terms, term_postings
 
 MODES = ("exact", "terms", "folded")
 FIXTURE = ROOT_DIR / "tools/fixtures/retrieval_baseline_cases.json"
@@ -18,16 +19,12 @@ QUERIES = ("ajo", "salsa de soja", "leche", "leche de coco", "aceite",
 
 
 def tokens(value, folded=False):
+    if not folded:
+        return strict_tokens(value)
     value = text_key(value)
-    if folded:
-        value = "".join(c for c in unicodedata.normalize("NFD", value)
-                        if not unicodedata.combining(c))
+    value = "".join(c for c in unicodedata.normalize("NFD", value)
+                    if not unicodedata.combining(c))
     return tuple(re.findall(r"[^\W_]+", value, flags=re.UNICODE))
-
-
-def contains_terms(haystack, needle):
-    return bool(needle) and any(haystack[i:i + len(needle)] == needle
-                                for i in range(len(haystack) - len(needle) + 1))
 
 
 def retrieve(index, query, mode):
@@ -36,6 +33,8 @@ def retrieve(index, query, mode):
     if not isinstance(query, str) or not text_key(query) or not tokens(query):
         raise ValueError("Consulta sin términos")
     by_text = index["ingredients"]["by_text"]
+    if mode == "terms":
+        return {(p["recipe_id"], p["position"]) for p in term_postings(by_text, query)}
     if mode == "exact":
         keys = [text_key(query)] if text_key(query) in by_text else []
     else:
