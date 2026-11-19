@@ -15,9 +15,10 @@ import yaml
 from audit_inventory import RECIPE_MODULES
 from common import ROOT_DIR, requires_frontmatter
 from extract_recipe_ingredients import extract_ingredients
+from extract_recipe_content import extract_content
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.2.0"
+EXTRACTOR_VERSION = "0.3.0"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 
@@ -161,10 +162,13 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         entries, diagnostics = extract_ingredients(recipe_sources[path], path, ingredient_lookup)
         record['ingredients'] = entries
         record['diagnostics'].extend(diagnostics)
+        content, content_diagnostics = extract_content(recipe_sources[path])
+        record.update(content)
+        record['diagnostics'].extend(content_diagnostics)
     return {
         "contract_version": CONTRACT_VERSION,
         "extractor_version": EXTRACTOR_VERSION,
-        "stage": "metadata_and_ingredients",
+        "stage": "metadata_ingredients_and_content",
         "ingredient_summary": dict(sorted(Counter(e["quantity"]["status"] for r in records for e in r["ingredients"]).items())),
         "source_commit": commit,
         "inventory": {
