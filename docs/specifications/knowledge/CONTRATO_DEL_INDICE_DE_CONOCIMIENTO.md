@@ -2,7 +2,7 @@
 id: SPEC-INDICE-RECETAS
 tipo: especificacion
 titulo: Contrato del índice de conocimiento culinario
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-19
 tags:
@@ -70,6 +70,20 @@ El motor posterior consumirá el índice sin depender del extractor. La primera 
 - Una extensión posterior podrá filtrar rendimientos y duración total declarada utilizando unidades y límites compatibles. No sumar fases, no interpretar ausencia como cero, no presentar un tiempo orientativo como medición exacta.
 
 No se incorpora búsqueda difusa, ranking, lenguaje natural, recomendación, inferencia de alérgenos ni comprobación de disponibilidad de despensa.
+
+## Interfaz de consultas 0.1.0
+
+El consumidor de solo lectura `tools/query_recipe_index.py` acepta exclusivamente la vista de índice 0.2.0. La interfaz inicial es una función Python y una CLI que emite JSON a stdout; no depende del extractor ni modifica archivos. Las facetas y los IDs se comparan literalmente; títulos y nombres textuales usan la normalización del índice. La coincidencia textual es de nombre completo, no de subcadena. Todas las condiciones se intersectan a nivel de receta, no exigen que diferentes condiciones coincidan en la misma ocurrencia. Sin filtros devuelve el inventario; no hay paginación ni ranking.
+
+Ejemplos:
+
+```bash
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --id REC-0017
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --physical-module 07_Cocina_Asiatica --ingredient text "salsa de soja"
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --ingredient-with-optionality text "leche de coco" optional
+```
+
+Los modos son `text`, `explicit` y `candidate`; estos dos últimos reciben IDs literales de ingrediente. Se pueden repetir las opciones de ingrediente. Se devuelve cada receta una vez, ordenada por ID, junto con procedencia, evidencia y motivos por condición, incluyendo ocurrencias y evidencia de candidatos. El resultado vacío es válido; las entradas inválidas producen un error. Se presupone un índice previamente contrastado por la auditoría. Los filtros de rendimiento y tiempo, búsqueda flexible y recomendaciones no forman parte de esta interfaz.
 
 ## Incrementos y aceptación
 
