@@ -91,3 +91,5 @@ No interpretar mención como disponibilidad, candidato como identidad confirmada
 4. Integración con publicación, pruebas de equivalencia y validación de recorridos; cierre con evidencia y limitaciones.
 
 No se establece un nuevo ciclo de discovery independiente. La investigación se limita a obstáculos concretos de implementación. La evolución editorial continúa de forma selectiva y las mejoras semánticas se guían por casos de uso reales. No se selecciona backend, persistencia, framework de aplicación, API ni nueva release. La adopción del alcance y la implementación quedan sujetas a la decisión posterior a esta revisión.
+
+El [alcance de entrega de Culinary Explorer](./ALCANCE_CULINARY_EXPLORER.md) concreta la propuesta en criterios y unidades de implementación.
