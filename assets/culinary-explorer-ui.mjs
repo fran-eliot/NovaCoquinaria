@@ -67,6 +67,7 @@ function card({recipe,matches}) {
   article.append(element("p", modules[recipe.physical_module] + " · " + evidence[recipe.evidence.status], "meta"));
   const params = new URLSearchParams({id:recipe.id});
   const cook = element("a","Preparar receta","prepare-link");
+  // Un enlace corto debe abrir la aplicación actual y no una página antigua en caché.
   cook.href = "recipe-assistant.html?" + params.toString();
   article.append(cook);
   if (matches.length) {
