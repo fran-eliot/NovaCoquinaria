@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.2
+version: 2.3
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Evaluación estratégica de alternativas de explotación |
+| Próximo objetivo | Revisión estratégica global tras recuperación textual |
 
 ---
 
@@ -58,6 +58,10 @@ El inventario comprobado tras la PR #193 contiene 922 archivos Markdown, 590 fic
 
 Tras #235, el primer ciclo de extracción, indexación y consultas está implementado y contrastado de forma dirigida. El [informe de CI](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44512835060/job/135521171559) registra 590 recetas y huellas verificadas, 81 pruebas, 16 casos de consulta superados, tres entradas inválidas rechazadas y reconstrucción idéntica. El snapshot auditado es distinto del merge en main. Cero advertencias semánticas y un huérfano documental cuya resolución se propone en este cierre. Véanse [consolidación](./CONSOLIDACION_CONOCIMIENTO.md) y [contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md).
 
+## Corte de recuperación textual — 2026-11-19
+
+Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidades de recuperación por términos están integradas. El [job de #246](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) confirma 927 Markdown, 590 recetas, 102 pruebas, 68 comparaciones directas de registros, 34 con experimento, 18 casos fijados y 16 de regresión por corpus, cero advertencias y huérfanos. Snapshot de CI distinto del merge. Véase [alcance y evidencia](./ALCANCE_RECUPERACION_TEXTUAL.md). Las 72 propuestas adicionales de identidad no se integraron. No se ha publicado nueva release ni se acredita precisión culinaria exhaustiva.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -74,7 +78,7 @@ Tras #235, el primer ciclo de extracción, indexación y consultas está impleme
 | Base de conocimiento | 🟡 En consolidación; incorporación selectiva |
 | Extractor de recetas 0.4.6 | 🟢 Prototipo contrastado |
 | Índice de recetas 0.2.0 | 🟢 Prototipo contrastado |
-| Motor de consultas 0.1.0 | 🟢 CLI de alcance limitado |
+| Motor de consultas 0.2.0 | 🟢 CLI de recuperación textual acotada, contrastada |
 | Plataforma software | ⚪ En fase de diseño |
 
 ---
@@ -84,6 +88,7 @@ Tras #235, el primer ciclo de extracción, indexación y consultas está impleme
 Actualmente el SGCC permite:
 
 - gestionar conocimiento culinario reutilizable;
+- consultar recetas por metadatos, texto exacto, términos completos, identidad explícita y candidatos;
 - mantener referencias cruzadas;
 - validar automáticamente la documentación;
 - analizar relaciones mediante Knowledge Graph;
@@ -123,7 +128,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Evaluar las alternativas de explotación del índice y motor de consultas: recuperación flexible, identidad de ingredientes, filtros declarados de tiempo y rendimiento y un consumidor limitado de despensa. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Revisar estratégicamente las alternativas tras la recuperación textual: gobernanza y contraste de identidades, filtros declarados de tiempo y rendimiento, consumidor limitado de despensa o acceso práctico de solo lectura. No se selecciona todavía una alternativa. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
@@ -133,7 +138,7 @@ Evaluar las alternativas de explotación del índice y motor de consultas: recup
 
 - Actualizar la auditoría del conocimiento y distinguir métricas de inventario, madurez y validación culinaria.
 - Revisar relaciones, duplicidades y formatos para consumo.
-- Evaluar las limitaciones de recuperación, identidad y tiempos antes de ampliar el motor.
+- Evaluar el valor práctico y los límites de identidad, tiempos y acceso antes de ampliar el motor.
 - Mantener la incorporación selectiva de conocimiento culinario.
 
 ---
