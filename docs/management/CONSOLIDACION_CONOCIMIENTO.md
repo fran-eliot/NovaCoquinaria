@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.17.0
+version: 1.18.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -621,3 +621,21 @@ EXT-01: sin carencias estructurales registradas. EXT-02: 1.044/5.011 candidatos 
 El cierre es de revisión dirigida, no de exactitud exhaustiva. Las 590 recetas mantienen diagnósticos de extracción; permanecen 3.967 entradas sin resolver ni candidato, 211 evidencias indeterminadas, 95 rendimientos sin interpretar y 163 declaraciones temporales no numéricas. Los agregados no sustituyen contraste individual ni revisión del ZIP. Las reglas de aproximación, variantes y opcionalidad requieren futura evaluación. No se modificaron fuentes culinarias durante EXT-01–EXT-05.
 
 Siguiente etapa: definir y construir un índice derivado de recetas con identidad exacta, procedencia por commit, búsquedas textuales separadas de identidades explícitas y candidatos, y consultas reproducibles por metadatos. Mantener Markdown como fuente canónica y no comprometer tecnologías de persistencia, API ni release.
+
+
+## Cierre dirigido de indexación y consultas — 2026-11-19
+
+Las PR #230–#235 implementan IDX-01–IDX-04 y QRY-01–QRY-02 según el [contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md). Merge de #235: `243b2090d865edfa0ec55c0346b7243a1c8f2fdf`. Evidencia del [job de PR #235](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44512835060/job/135521171559), snapshot de CI `c187a1e0fe85cf9f1825491ca4fb30cf4b2ecbe7`, distinto del merge: 81 pruebas, 16/16 casos de consulta, 3 entradas inválidas rechazadas, 590 recetas recuperadas y 590 huellas verificadas; reconstrucción idéntica. Extractor 0.4.6, índice 0.2.0, consultas 0.1.0.
+
+| Indicador | Resultado |
+|---|---:|
+| Recetas / títulos normalizados | 590 / 588 |
+| Ocurrencias / ocurrencias textuales / claves textuales | 5047 / 5046 / 2588 |
+| Identidades explícitas: ocurrencias / claves | 36 / 20 |
+| Candidatos: ocurrencias / claves | 1044 / 61 |
+| Total numérico único / no interpretado / no declarado | 101 / 94 / 395 |
+| Rendimiento numérico / no interpretado / ausente o ambiguo | 492 / 95 / 3 |
+
+Consultas abiertas: ajo textual 103, salsa de soja textual en módulo asiático 4, leche de coco explícita 2 y candidata 5, evidencia prepared 6. No sumar conjuntos ni equiparar coincidencia a presencia exhaustiva. La evidencia no acredita la fórmula actual completa. El informe registra cero advertencias semánticas y un huérfano global (contrato del índice), al que se añade enlace sustantivo en este cierre; su resolución se determinará en CI. El ZIP no se ha inspeccionado íntegramente.
+
+Cierre acotado del prototipo, no del Runtime. Se propone evaluar alternativas de explotación: búsqueda textual flexible y resolución de identidades, consultas de tiempos y rendimientos con incertidumbre, o un consumidor de despensa limitado. Priorizar una revisión estratégica antes de comprometer implementación, persistencia, API o release. Mantener Markdown canónico.
