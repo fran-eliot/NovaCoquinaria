@@ -6,9 +6,20 @@ from extract_recipe_ingredients import normalized, plain
 # Alias acotados y revisados frente a los títulos y formatos de Despensa.
 # Las variantes de salsa conservan su texto; no implican intercambiabilidad.
 ALIASES = {
-    "cebolla": ("cebollas",),
-    "salsa de soja": ("salsa de soja clara", "salsa de soja oscura"),
-    "leche de coco": ("leche de coco en conserva", "leche de coco en brick"),
+    "pimenton": ("pimentón dulce", "pimentón picante", "pimentón agridulce",),
+    "laurel": ("hoja de laurel", "hojas de laurel",),
+    "cebolla": ("cebollas", "cebolla picada", "cebolla mediana, picada",),
+    "huevo": ("huevos", "huevos L", "huevo L",),
+    "comino": ("comino molido",),
+    "harina de trigo": ("harina de trigo común", "harina de trigo adicional",),
+    "vino blanco para cocinar": ("vino blanco seco",),
+    "aceite de sesamo": ("aceite de sésamo tostado", "aceite de sésamo tostado, opcional",),
+    "caldo de verduras": ("caldo de verduras bajo en sal",),
+    "almendras": ("almendras tostadas sin sal",),
+    "aceite de oliva virgen extra": ("AOVE",),
+    "limon": ("zumo de limón", "ralladura de limón",),
+    "salsa de soja": ("salsa de soja clara", "salsa de soja oscura",),
+    "leche de coco": ("leche de coco en conserva", "leche de coco en brick",),
 }
 
 

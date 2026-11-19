@@ -180,3 +180,7 @@ Se comparan nombres extraídos completos con títulos de fichas de ingrediente d
 ### Revisión de candidatos de identidad (EXT-02)
 
 El informe incluye candidate_review con ocurrencias por método, las 20 expresiones sin candidato más frecuentes y hasta 12 ejemplos por estado de candidato entre entradas no resueltas. La selección es determinista y distribuida por orden de ID de receta; conserva texto, ruta, localizador y candidatos. No es una muestra aleatoria ni permite calcular precisión global. Se utiliza para contrastar las fuentes y decidir ampliaciones acotadas de alias. Las entradas explícitas no forman parte de esa muestra.
+
+### Ampliación dirigida de alias (0.4.3)
+
+Se añaden expresiones completas de formatos y usos cubiertos por fichas de Despensa: pimentón dulce/picante/agridulce, hojas de laurel, cebolla picada, huevos y tamaños L, comino molido, harina común/adicional, vino blanco seco, aceite de sésamo tostado, caldo bajo en sal, almendras tostadas sin sal, AOVE y zumo/ralladura de limón. Se conserva el texto y la distinción entre candidato y confirmación. Aceite de oliva genérico, azúcar sin tipo, tomate triturado sin formato y combinaciones de ingredientes permanecen sin asignación automática a fichas específicas. No se infiere equivalencia de formatos, ni se amplía por subcadenas.

@@ -34,3 +34,31 @@ class CandidateTests(unittest.TestCase):
         annotate(entries,catalog)
         self.assertEqual(entries[0]["candidate_status"],"multiple")
         self.assertEqual(len(entries[0]["identity_candidates"]),2)
+
+
+    def test_reviewed_forms_keep_qualifiers_and_avoid_generalization(self):
+        catalog=build_catalog({
+            "pimenton.md":{"titulo":"Pimentón","id":"ING-0068"},
+            "laurel.md":{"titulo":"Laurel","id":"ING-0123"},
+            "huevo.md":{"titulo":"Huevo","id":"ING-0022"},
+            "aceite.md":{"titulo":"Aceite de oliva virgen extra","id":"ING-0029"},
+            "azucar.md":{"titulo":"Azúcar blanco","id":"ING-0058"},
+            "tomate.md":{"titulo":"Tomate triturado en conserva","id":"ING-0027"},
+            "limon.md":{"titulo":"Limón","id":"ING-0046"},
+        })
+        positive={"pimentón dulce":"ING-0068","hoja de laurel;":"ING-0123",
+                  "huevos L":"ING-0022","AOVE":"ING-0029","zumo de limón":"ING-0046"}
+        negatives=["aceite de oliva","azúcar","tomate triturado","sal y pimienta",
+                   "arroz jazmín o basmati","pimentón o comino"]
+        for name,identity in positive.items():
+            with self.subTest(name=name):
+                entry={"name":name,"resolution":"unresolved","ingredient_id":None}
+                annotate([entry],catalog)
+                self.assertEqual(entry["identity_candidates"][0]["ingredient_id"],identity)
+                self.assertEqual(entry["name"],name)
+                self.assertIsNone(entry["ingredient_id"])
+        for name in negatives:
+            with self.subTest(name=name):
+                entry={"name":name,"resolution":"unresolved","ingredient_id":None}
+                annotate([entry],catalog)
+                self.assertEqual(entry["identity_candidates"],[])
