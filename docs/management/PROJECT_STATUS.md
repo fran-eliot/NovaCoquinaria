@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.9
+version: 3.0
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Validación final y uso de Culinary Explorer |
+| Próximo objetivo | Definir alcance de Culinary Recipe Assistant |
 
 ---
 
@@ -80,7 +80,7 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 
 ## Corte de explotación práctica — 2026-11-19
 
-Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md) están integradas tras #274. El CI acredita 134 pruebas, 62 contrastes de búsqueda, 590 destinos HTML y recorridos en Chromium. Validación técnica acotada superada; publicación y aceptación final pendientes de comprobación. v1.6.0 sin cambios.
+Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md) están integradas tras #274. El CI acredita 134 pruebas, 62 contrastes de búsqueda, 590 destinos HTML y recorridos en Chromium. #275 completa teclado y catálogo vacío en Chromium; carga pública confirmada por el propietario. Aceptación técnica acotada cerrada. v1.6.0 sin cambios.
 
 # Estado por capacidades
 
@@ -102,7 +102,7 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 | Compatibilidad culinaria | 🟡 Investigación concluida; entrega diferida |
 | Requisitos culinarios | 🟡 Viabilidad representacional acotada; entrega diferida |
 | Reconocimiento de requisitos | 🟡 Viabilidad técnica acotada; entrega diferida |
-| Culinary Explorer 0.1.0 | 🟢 Implementado; aceptación final pendiente |
+| Culinary Explorer 0.1.0 | 🟢 Publicado; aceptación técnica acotada |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -152,7 +152,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Completar la aceptación de Culinary Explorer y evaluar su utilidad práctica, conservando la evidencia experimental y la deuda registrada. La siguiente capacidad requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Definir el alcance de Culinary Recipe Assistant para la preparación cotidiana, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
