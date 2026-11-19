@@ -2,7 +2,7 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.5
+version: 2.6
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -510,9 +510,15 @@ El SGCC pasa del consumo programático a la explotación cotidiana desde el nave
 
 ## 2026-11-19 · Del descubrimiento de recetas a la preparación guiada
 
-Culinary Recipe Assistant 0.1.0 integra el conocimiento existente en una vista interactiva de preparación, con ingredientes, pasos, temporizador y contexto original. Las pruebas dirigidas sobre el portal construido y el despliegue en gh-pages quedaron registrados en el [alcance de entrega](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). La comprobación pública del recorrido sigue pendiente.
+Culinary Recipe Assistant 0.1.0 integra el conocimiento existente en una vista interactiva de preparación, con ingredientes, pasos, temporizador y contexto original. Las pruebas dirigidas sobre el portal construido y el despliegue en gh-pages quedaron registrados en el [alcance de entrega](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). El funcionamiento público se comunicó posteriormente tras #284.
 
 El SGCC incorpora así seguimiento efímero de cocina sin alterar las fuentes canónicas ni deducir cocción o seguridad. No se publica una nueva release.
+
+---
+
+## 2026-11-19 · Del conocimiento al inventario personal
+
+Culinary Pantry 0.1.0 incorpora por primera vez estado personal persistente al SGCC. El inventario vive en el navegador, separado del conocimiento canónico, con copias manuales y consultas de menciones seleccionadas. El [alcance de entrega](./ALCANCE_CULINARY_PANTRY.md) registra las pruebas dirigidas y el despliegue de #289; la comprobación pública permanece pendiente. Esta separación permite avanzar hacia listas de compra sin equiparar el inventario a una interpretación de requisitos. No se publica una nueva release.
 
 ---
 
