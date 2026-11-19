@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -113,3 +113,31 @@ Abrir el explorador desde la portada, buscar una receta y seleccionar «Preparar
 Para uso local: instalar requirements.txt, ejecutar python tools/build_site_docs.py, mkdocs build, python tools/check_explorer_site.py y python tools/check_recipe_assistant_site.py; servir con python -m http.server 8000 --directory site y abrir http://localhost:8000/. Se requiere HTTPS o localhost para Web Crypto.
 
 La aceptación de AST-01–AST-15 se registrará con evidencia de ejecución y publicación. La release v1.6.0 y el kit permanecen sin cambios en este incremento.
+
+## Cierre técnico — #281
+
+Las unidades A–D están integradas mediante #278–#281. Merge: `e985d875bb1fe09bbca019edb837f9b165c6a08e`. Los tres workflows de la PR #281 finalizaron correctamente; el snapshot probado fue `683bed8fca9c511ad2f55e4ff5a4418981e4a1fc`, distinto del merge.
+
+- [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44614197049/job/135878393878): 141 pruebas Python, nueve pruebas Node superadas, 62 contrastes del explorador, cero advertencias semánticas y huérfanos, doble generación de 590 recetas.
+- [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44614197032/job/135878393545): dos generaciones idénticas, 590 recetas, 591 archivos del asistente, 51 destinos de técnicas, regresión del explorador y recorridos Chromium satisfactorios. Huella del índice del snapshot: `673b3f4ee1d90c9e4712d8b382b9e0bfce187d94f889e9b8d8600e1a5d57d4de`.
+- Publicación: gh-pages `bf6bc322ec6aa0b297697337a66bda72f9bbfbb3` declara Deployed e985d87. Se comprobaron la plantilla, el manifiesto (590 recetas) y el enlace Preparar receta en esa rama. No se verificó la disponibilidad HTTP pública.
+
+| Criterio | Evidencia y límites |
+|---|---|
+| AST-01 | Inventario, procedencia, huellas y doble generación del corpus |
+| AST-02 | Verificadores y rechazo en Chromium de ID desconocido, commit incoherente y bytes alterados |
+| AST-03 | Reconciliación de ingredientes con extractor e inventario compartido; no precisión culinaria independiente |
+| AST-04 | Conservación de declaraciones y diagnósticos, sin cálculo |
+| AST-05 | Contraste de pasos con extractor y cuerpo completo; navegación dirigida |
+| AST-06 | Contexto íntegro, mise en place y aviso de 74 °C presente en muestra de curry; sin garantía de identificación exhaustiva de advertencias |
+| AST-07 | Evidencia original contrastada con índice y Explorer; no certificación de fórmula |
+| AST-08 | Pruebas puras y recorrido checklist, navegación, marcado y reinicio |
+| AST-09 | Reloj controlado, pausa, reanudación y aviso visual en Chromium; no garantía en suspensión |
+| AST-10 | Aislamiento en pruebas y reinicio por recarga en navegador |
+| AST-11 | Acceso y retorno, ficha original, 51 destinos de técnicas comprobados en build |
+| AST-12 | Teclado, foco y dos tamaños de ventana en recorridos; no auditoría exhaustiva |
+| AST-13 | Validación de carga, estado de error y texto seguro; ausencia de pasos cubierta en núcleo, sin recorrido DOM específico |
+| AST-14 | 141 pruebas Python, nueve Node, 62 contrastes y cuatro recetas de referencia en Chromium |
+| AST-15 | Build reproducible, destinos comprobados y despliegue registrado en gh-pages; uso documentado, comprobación pública pendiente |
+
+Estado: implementación completa y validación técnica dirigida superada; aceptación pública pendiente de comprobar el recorrido en el sitio servido. No se modifica v1.6.0 ni se acredita precisión culinaria, seguridad alimentaria o accesibilidad universal. La siguiente capacidad candidata es Culinary Pantry, sin inferir compatibilidad.
