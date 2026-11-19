@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.16.0
+version: 1.17.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -596,3 +596,28 @@ La reducción de tres identidades explícitas coincide con el cambio de delimita
 ## Revisión dirigida de candidatos — 2026-11-19
 
 Corte #224, `e8f39f054dfde80f0eb619c84312d39b23ebd1a2`. [Auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44499343100/job/135474659830): 45 pruebas superadas, 646 ocurrencias por título y 15 por alias. Las doce muestras de candidato único muestran correspondencias léxicas plausibles (ajo, tomillo, AOVE, cebolla, perejil, harina de trigo y nueces); no constituyen una medición de precisión. Entre las muestras sin candidato se observan calificadores de preparación, alternativas y activos todavía no catalogados. Las expresiones frecuentes justifican una expansión explícita y acotada, contrastada con los documentos de cebolla, pimentón, laurel, huevo, comino, harina de trigo, vino blanco para cocinar, aceite de sésamo, caldo de verduras, almendras, AOVE y limón. Se mantienen sin asignación aceite de oliva genérico, azúcar sin tipo y tomate triturado sin formato: sus fichas existentes describen categorías más específicas. Las alternativas y combinaciones no se separan automáticamente. No se amplía el catálogo ni se alteran las fuentes culinarias en este incremento. La nueva cobertura queda pendiente de medición; se mantendrá la búsqueda textual independiente de la identidad.
+
+## Cierre del primer ciclo de refinamiento del extractor — 2026-11-19
+
+Corte [#228](https://github.com/fran-eliot/NovaCoquinaria/pull/228), `60d4a7a508f19ae382d9b66a355a3ee4e2bc9629`, extractor 0.4.6 y contrato 0.1.0. [Auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44504038182/job/135490845105): 52 pruebas superadas, cero advertencias semánticas y cero huérfanos globales. Los tres workflows finalizaron correctamente.
+
+| Indicador | #219 | #228 |
+|---|---:|---:|
+| Recetas | 590 | 590 |
+| Recetas con ingredientes | 584 | 590 |
+| Recetas con pasos | 575 | 590 |
+| Ocurrencias de ingredientes | 4.979 | 5.047 |
+| Cantidades numéricas | 4.212 | 4.283 |
+| Rendimientos declarados / numéricos | 567 / 466 | 587 / 492 |
+| Recetas con duraciones declaradas / numéricas | 364 / 261 | 386 / 284 |
+| Declaraciones temporales numéricas | 381/541 | 437/600 |
+| Evidencia prepared / pending / unknown | 3 / 373 / 214 | 6 / 373 / 211 |
+| Identidades explícitas | 39 | 36 |
+| Candidatos únicos | No evaluado | 1.044 |
+| Pruebas | 37 | 52 |
+
+EXT-01: sin carencias estructurales registradas. EXT-02: 1.044/5.011 candidatos entre entradas sin resolver; 723 por título, 321 por alias. EXT-03: tres preparaciones históricas adicionales reconocidas, con alcance parcial o relacionado preservado cuando corresponde. EXT-04: se reconocen formatos adicionales sin sumar fases. EXT-05: 658 cantidades ausentes, 105 cualitativas, una ambigua; opcionalidad 4.493 requeridas, 540 opcionales, 14 indeterminadas.
+
+El cierre es de revisión dirigida, no de exactitud exhaustiva. Las 590 recetas mantienen diagnósticos de extracción; permanecen 3.967 entradas sin resolver ni candidato, 211 evidencias indeterminadas, 95 rendimientos sin interpretar y 163 declaraciones temporales no numéricas. Los agregados no sustituyen contraste individual ni revisión del ZIP. Las reglas de aproximación, variantes y opcionalidad requieren futura evaluación. No se modificaron fuentes culinarias durante EXT-01–EXT-05.
+
+Siguiente etapa: definir y construir un índice derivado de recetas con identidad exacta, procedencia por commit, búsquedas textuales separadas de identidades explícitas y candidatos, y consultas reproducibles por metadatos. Mantener Markdown como fuente canónica y no comprometer tecnologías de persistencia, API ni release.
