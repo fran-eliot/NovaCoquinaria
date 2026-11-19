@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mis compras | NovaCoquinaria</title>
+<link rel="stylesheet" href="assets/culinary-explorer.css">
+<link rel="stylesheet" href="assets/culinary-shopping.css">
+<script type="module" src="assets/culinary-shopping-ui.mjs"></script>
+</head>
+<body><main>
+<header><a href="index.html">NovaCoquinaria</a><h1>Mis compras</h1><p>Organiza tus listas de compra.</p></header>
+<p class="notice">Las listas se guardan en este navegador. Marcar un artículo como comprado no modifica tu despensa. Exporta copias periódicamente; no hay sincronización entre dispositivos.</p>
+<noscript>Activa JavaScript para gestionar las listas.</noscript>
+<p id="status" role="status" aria-atomic="true">Cargando listas…</p>
+<div class="actions"><button id="reload" type="button" class="secondary">Recargar listas</button><button id="export" type="button" disabled>Exportar copia JSON</button></div>
+<details class="panel"><summary>Recuperar una copia de seguridad</summary>
+<label>Archivo JSON <input id="import-file" type="file" accept=".json,application/json" disabled></label>
+<p id="import-preview" role="status"></p>
+<div class="actions"><button id="import-confirm" type="button" disabled>Confirmar sustitución</button><button id="import-cancel" type="button" class="secondary" disabled>Cancelar</button></div>
+<p class="help">Una copia no puede eliminar ni alterar registros vigentes de transferencia.</p></details>
+<section aria-labelledby="lists-heading"><h2 id="lists-heading">Listas de compra</h2>
+<form id="list-form"><fieldset id="list-controls" disabled><legend>Nueva lista</legend>
+<label>Nombre de lista <input id="list-name" required maxlength="160"></label>
+<button type="submit">Crear lista</button></fieldset></form>
+<p id="lists-count" role="status"></p><div id="lists" class="list-grid"></div></section>
+<section id="active-section" hidden aria-labelledby="active-title">
+<h2 id="active-title" tabindex="-1"></h2><p id="progress" role="status"></p>
+<progress id="progress-bar" value="0" max="1" aria-label="Artículos comprados"></progress>
+<form id="rename-form"><fieldset id="rename-controls" disabled><legend>Administrar lista</legend>
+<label>Nombre <input id="rename-name" maxlength="160" required></label><div class="actions"><button type="submit">Renombrar</button><button id="delete-list" class="secondary" type="button">Eliminar lista</button></div>
+<p id="list-lock" class="help"></p></fieldset></form>
+<form id="item-form"><fieldset id="item-controls" disabled><legend id="item-heading">Añadir artículo</legend>
+<div class="fields"><label>Nombre <input id="item-name" maxlength="160" required></label>
+<label>Cantidad (opcional) <input id="quantity" maxlength="16" inputmode="decimal"></label>
+<label>Unidad <input id="unit" maxlength="40" list="units"><datalist id="units"><option value="g"><option value="kg"><option value="ml"><option value="l"><option value="unidades"><option value="paquetes"></datalist></label>
+<label>Categoría <input id="category" maxlength="80" list="categories"><datalist id="categories"></datalist></label>
+<label>Notas <textarea id="notes" maxlength="1000" rows="2"></textarea></label></div>
+<p class="help">Cantidad y unidad deben declararse juntas.</p><div class="actions"><button id="save-item" type="submit">Añadir artículo</button><button id="cancel-edit" type="button" class="secondary" hidden>Cancelar edición</button></div></fieldset></form>
+<form id="filters"><fieldset><legend>Filtrar artículos</legend><div class="fields">
+<label>Nombre <input id="filter-name"></label><label>Categoría <select id="filter-category"><option value="">Todas</option></select></label>
+<label>Compra <select id="filter-purchased"><option value="">Todos</option><option value="false">Pendientes</option><option value="true">Comprados</option></select></label>
+<label>Transferencia <select id="filter-transfer"><option value="">Todas</option><option value="none">Sin transferencia</option><option value="pending">Pendiente</option><option value="completed">Registrada</option></select></label></div>
+<button type="reset" class="secondary">Limpiar filtros</button></fieldset></form>
+<p id="items-count" role="status"></p><div id="items" class="results"></div>
+<section id="shopping-integration" class="panel"><h3>Conexión con la despensa</h3><p>La transferencia revisada y la incorporación desde recetas se habilitarán al integrar las aplicaciones.</p></section>
+</section></main></body></html>
