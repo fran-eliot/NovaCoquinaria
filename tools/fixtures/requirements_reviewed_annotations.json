@@ -1,0 +1,528 @@
+{
+  "source_commit": "c0dd020dea003d8a4f7a0278a43f30d81501a7f0",
+  "projection_sha256": "d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c",
+  "cases": [
+    {
+      "id": "C01",
+      "recipe_id": "REC-0001",
+      "path": "01_Arroces/arroz_chaufa.md",
+      "positions": [
+        0
+      ],
+      "evidence": [
+        {
+          "line": 49,
+          "text": "- 300 g de arroz jazmín o basmati cocido y completamente frío"
+        }
+      ],
+      "tree": {
+        "type": "any",
+        "children": [
+          {
+            "type": "atom",
+            "label": "arroz jazmín",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "arroz basmati",
+            "presence": "required"
+          }
+        ],
+        "presence": "required",
+        "quantity_scope": "shared",
+        "qualifiers": [
+          "cocido",
+          "completamente frío"
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "recipe_id": "REC-0001",
+      "path": "01_Arroces/arroz_chaufa.md",
+      "positions": [
+        5
+      ],
+      "evidence": [
+        {
+          "line": 54,
+          "text": "- Un trozo pequeño de jengibre"
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "jengibre",
+        "presence": "required"
+      }
+    },
+    {
+      "id": "C03",
+      "recipe_id": "REC-0001",
+      "path": "01_Arroces/arroz_chaufa.md",
+      "positions": [
+        9
+      ],
+      "evidence": [
+        {
+          "line": 61,
+          "text": "- 1 cucharadita de mirin (opcional)"
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "mirin",
+        "presence": "optional"
+      }
+    },
+    {
+      "id": "C04",
+      "recipe_id": "REC-0057",
+      "path": "06_Pescados_y_Mariscos/merluza_al_horno_con_limon.md",
+      "positions": [
+        0
+      ],
+      "evidence": [
+        {
+          "line": 32,
+          "text": "- 600 g de lomos de merluza, descongelados si procede;"
+        },
+        {
+          "line": 43,
+          "text": "1. Descongelar la merluza en refrigeración si es congelada. Escurrir, secar y revisar espinas."
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "lomos de merluza",
+        "presence": "required",
+        "conditions": [
+          {
+            "scope": "preparation",
+            "text": "descongelados si procede"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C05",
+      "recipe_id": "REC-0057",
+      "path": "06_Pescados_y_Mariscos/merluza_al_horno_con_limon.md",
+      "positions": [
+        5
+      ],
+      "evidence": [
+        {
+          "line": 37,
+          "text": "- sal y pimienta."
+        },
+        {
+          "line": 46,
+          "text": "4. Condimentar con sal, pimienta y parte del aceite. Añadir ajo alrededor, evitando que quede expuesto a quemarse."
+        }
+      ],
+      "tree": {
+        "type": "all",
+        "children": [
+          {
+            "type": "atom",
+            "label": "sal",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "pimienta",
+            "presence": "required"
+          }
+        ],
+        "presence": "required"
+      }
+    },
+    {
+      "id": "C06",
+      "recipe_id": "REC-274",
+      "path": "07_Cocina_Asiatica/mapo_tofu_de_inspiracion_sichuan.md",
+      "positions": [
+        1
+      ],
+      "evidence": [
+        {
+          "line": 32,
+          "text": "- 180 g de carne picada de cerdo o ternera, opcional;"
+        },
+        {
+          "line": 48,
+          "text": "2. Calentar aceite en sartén profunda y dorar la carne picada si se usa; cocinarla completamente y desmenuzar."
+        }
+      ],
+      "tree": {
+        "type": "any",
+        "children": [
+          {
+            "type": "atom",
+            "label": "carne picada de cerdo",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "carne picada de ternera",
+            "presence": "required"
+          }
+        ],
+        "presence": "optional",
+        "quantity_scope": "shared"
+      }
+    },
+    {
+      "id": "C07",
+      "recipe_id": "REC-274",
+      "path": "07_Cocina_Asiatica/mapo_tofu_de_inspiracion_sichuan.md",
+      "positions": [
+        4
+      ],
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 1–2 cucharaditas de pasta picante de habas fermentadas (doubanjiang) o chile y miso como adaptación;"
+        },
+        {
+          "line": 56,
+          "text": "- Doubanjiang es una pasta específica de habas fermentadas y chile; mezclar miso y chile produce una adaptación, no un sustituto idéntico. Vigilar sal por las pastas fermentadas. Si se usa carne picada, cocerla completamente."
+        }
+      ],
+      "tree": {
+        "type": "any",
+        "children": [
+          {
+            "type": "atom",
+            "label": "doubanjiang",
+            "presence": "required"
+          },
+          {
+            "type": "all",
+            "children": [
+              {
+                "type": "atom",
+                "label": "chile",
+                "presence": "required"
+              },
+              {
+                "type": "atom",
+                "label": "miso",
+                "presence": "required"
+              }
+            ],
+            "presence": "required",
+            "adaptation": true
+          }
+        ],
+        "presence": "required"
+      }
+    },
+    {
+      "id": "C08",
+      "recipe_id": "REC-493",
+      "path": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md",
+      "positions": [
+        3
+      ],
+      "evidence": [
+        {
+          "line": 35,
+          "text": "- 3 cucharadas de aceite de oliva, añadir si hace falta"
+        },
+        {
+          "line": 46,
+          "text": "4. Calentar aceite a fuego medio en sartén grande y cocinar las truchas unos 5–7 minutos por cada lado, según grosor, evitando fuego excesivo para que no se queme la harina."
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "aceite de oliva",
+        "presence": "required",
+        "quantity_scope": "base",
+        "conditions": [
+          {
+            "scope": "adjustment",
+            "text": "añadir si hace falta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C09",
+      "recipe_id": "REC-493",
+      "path": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md",
+      "positions": [
+        4
+      ],
+      "evidence": [
+        {
+          "line": 36,
+          "text": "- 1 limón para acompañar"
+        },
+        {
+          "line": 48,
+          "text": "6. Retirar con cuidado para no romperlas, escurrir y servir con limón opcional."
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "limón",
+        "presence": "optional",
+        "role": "accompaniment"
+      }
+    },
+    {
+      "id": "C10",
+      "recipe_id": "REC-493",
+      "path": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md",
+      "positions": [
+        5
+      ],
+      "evidence": [
+        {
+          "line": 37,
+          "text": "- sal moderada, pimienta y perejil opcional"
+        }
+      ],
+      "tree": {
+        "type": "all",
+        "children": [
+          {
+            "type": "atom",
+            "label": "sal moderada",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "pimienta",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "perejil",
+            "presence": "optional"
+          }
+        ],
+        "presence": "required"
+      }
+    },
+    {
+      "id": "C11",
+      "recipe_id": "REC-0009",
+      "path": "06_Pescados_y_Mariscos/caballa_japonesa.md",
+      "positions": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "evidence": [
+        {
+          "line": 69,
+          "text": "## Guarnición"
+        },
+        {
+          "line": 71,
+          "text": "A elegir:"
+        },
+        {
+          "line": 73,
+          "text": "* arroz basmati;"
+        },
+        {
+          "line": 74,
+          "text": "* arroz jazmín;"
+        },
+        {
+          "line": 75,
+          "text": "* verduras salteadas;"
+        },
+        {
+          "line": 76,
+          "text": "* espárragos;"
+        },
+        {
+          "line": 77,
+          "text": "* pak choi."
+        }
+      ],
+      "tree": {
+        "type": "choice",
+        "children": [
+          {
+            "type": "atom",
+            "label": "arroz basmati",
+            "presence": "unknown"
+          },
+          {
+            "type": "atom",
+            "label": "arroz jazmín",
+            "presence": "unknown"
+          },
+          {
+            "type": "atom",
+            "label": "verduras salteadas",
+            "presence": "unknown"
+          },
+          {
+            "type": "atom",
+            "label": "espárragos",
+            "presence": "unknown"
+          },
+          {
+            "type": "atom",
+            "label": "pak choi",
+            "presence": "unknown"
+          }
+        ],
+        "presence": "unknown",
+        "role": "accompaniment"
+      }
+    },
+    {
+      "id": "C12",
+      "recipe_id": "REC-368",
+      "path": "02_Pastas/fusilli_con_crema_de_pimientos_asados_y_nueces.md",
+      "positions": [
+        1
+      ],
+      "evidence": [
+        {
+          "line": 32,
+          "text": "- 320 g de pimiento rojo asado y pelado, bien escurrido"
+        },
+        {
+          "line": 45,
+          "text": "1. Si los pimientos son caseros, asarlos, pelarlos y escurrirlos por completo; si son en conserva, comprobar el contenido de sal y escurrir."
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "pimiento rojo",
+        "presence": "required",
+        "qualifiers": [
+          "asado",
+          "pelado",
+          "escurrido"
+        ]
+      }
+    },
+    {
+      "id": "H01",
+      "recipe_id": "REC-0109",
+      "path": "03_Legumbres/ensalada_alubias_blancas_con_atun.md",
+      "positions": [
+        0
+      ],
+      "evidence": [
+        {
+          "line": 34,
+          "text": "- 650 g de alubias blancas cocidas y escurridas;"
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "alubias blancas",
+        "presence": "required",
+        "qualifiers": [
+          "cocidas",
+          "escurridas"
+        ]
+      }
+    },
+    {
+      "id": "H02",
+      "recipe_id": "REC-0109",
+      "path": "03_Legumbres/ensalada_alubias_blancas_con_atun.md",
+      "positions": [
+        8
+      ],
+      "evidence": [
+        {
+          "line": 42,
+          "text": "- perejil fresco picado, opcional;"
+        }
+      ],
+      "tree": {
+        "type": "atom",
+        "label": "perejil",
+        "presence": "optional"
+      }
+    },
+    {
+      "id": "H03",
+      "recipe_id": "REC-0109",
+      "path": "03_Legumbres/ensalada_alubias_blancas_con_atun.md",
+      "positions": [
+        9
+      ],
+      "evidence": [
+        {
+          "line": 43,
+          "text": "- sal y pimienta negra"
+        },
+        {
+          "line": 63,
+          "text": "Batir limón, vinagre, pimienta y una pequeña cantidad de sal; añadir aceite poco a poco hasta integrar."
+        }
+      ],
+      "tree": {
+        "type": "all",
+        "children": [
+          {
+            "type": "atom",
+            "label": "sal",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "pimienta negra",
+            "presence": "required"
+          }
+        ],
+        "presence": "required"
+      }
+    },
+    {
+      "id": "H04",
+      "recipe_id": "REC-0117",
+      "path": "02_Pastas/fusilli_atun_limon_alcaparras.md",
+      "positions": [
+        9
+      ],
+      "evidence": [
+        {
+          "line": 43,
+          "text": "- sal moderada y agua de cocción de la pasta"
+        },
+        {
+          "line": 55,
+          "text": "Cocer en agua moderadamente salada hasta quedar ligeramente firme; reservar una taza de agua de cocción."
+        },
+        {
+          "line": 63,
+          "text": "Transferir la pasta a la sartén, incorporar unas cucharadas de agua de cocción y mezclar 1 minuto para emulsionar."
+        }
+      ],
+      "tree": {
+        "type": "all",
+        "children": [
+          {
+            "type": "atom",
+            "label": "sal moderada",
+            "presence": "required"
+          },
+          {
+            "type": "atom",
+            "label": "agua de cocción de la pasta",
+            "presence": "required"
+          }
+        ],
+        "presence": "required"
+      }
+    }
+  ]
+}
