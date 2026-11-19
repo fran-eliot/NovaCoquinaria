@@ -2,7 +2,7 @@
 id: DOC-COMPATIBILIDAD-CULINARIA-2026
 titulo: Investigación de compatibilidad culinaria
 tipo: gestion
-version: 0.4.1
+version: 0.5.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -263,6 +263,46 @@ La ejecución posterior debe añadir casos sintéticos de opcionalidad desconoci
 ### CCE-D04B — Prototipo y contraste
 
 Prototipo aislado en `tools/experiment_culinary_compatibility.py`, pruebas sintéticas en `tools/test_culinary_compatibility.py` e integración en Knowledge audit. El consumidor compara tres modalidades contra un recorrido de referencia por registros, conserva procedencia y cantidad original, verifica determinismo y matriz, y contrasta las expectativas fijadas. El informe derivado `compatibility_experiment.json` incluye casos dirigidos y línea base de abstención del corpus completo sin confirmaciones manuales. Los IDs de inventario se restringen al universo del índice; las confirmaciones requieren commit y posición. No se modifica el motor publicado. La evidencia de ejecución se registra tras CI; no se afirma viabilidad ni precisión global.
+
+
+## CCE-D05 — Síntesis de viabilidad
+
+### Evidencia
+
+PR #255 integrada en `186dd42ce1142f2bc156bbf301bb6a7bcad5b2cd`; los tres workflows de main finalizaron correctamente. El [job de la PR](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44532524053/job/135589297123) ejecutó 110 pruebas y cinco escenarios documentales sin error. Se descargó e inspeccionó compatibility_experiment.json del artefacto 14533448213, SHA-256 43b7fab92e27ce56b6816dbf6a12fabd053cd28a5383b02d684d669174bcbafb, verificado localmente. Snapshot CI c6ee573cd09ed1679af78ecd0305324f67723a0c, distinto del merge; corpus y huella fijados en D04A.
+
+| Escenario | Ocurrencias | Disponible | Ausente | Desconocido | Clasificación |
+|---|---:|---:|---:|---:|---|
+| E01 | 20 | 1 | 1 | 18 | required_missing |
+| E02 | 20 | 1 | 2 | 17 | required_missing |
+| E03 | 20 | 0 | 0 | 20 | indeterminate |
+| REC-0071 | 9 | 0 | 0 | 9 | indeterminate |
+| REC-0117 | 10 | 0 | 0 | 10 | indeterminate |
+
+A/B/C conservan estados idénticos. En los cinco escenarios hay 79 evaluaciones de ocurrencia (incluyen repeticiones entre declaraciones), cinco concluyentes y 74 desconocidas por modalidad. Se contrastaron expectativas parciales y consistencia del recorrido; no es comparación exhaustiva con verdad culinaria independiente. En corpus completo sin confirmaciones, 5.047/5.047 ocurrencias desconocidas y 590/590 recetas indeterminadas; B genera 5 pistas y C 7 para la declaración concreta de leche de coco, sin promoción. La abstención total resulta de la política y no estima el máximo uso posible.
+
+### Hallazgo documental adicional
+
+Al inspeccionar E01 y contrastarlo con el Markdown fijado de [curry verde](../../05_Carnes/curry_verde_de_pollo.md), se aprecia que las líneas 93–94 separan arroz jazmín o basmati en dos ocurrencias explícitas required (posiciones 18–19). No deben interpretarse como dos obligaciones independientes. Las líneas 78 y 87 contienen condiciones «si fuera necesaria» y «si se dispone» clasificadas required (posiciones 12 y 15). No se valida aquí la opcionalidad correcta de todos los otros elementos de finalización. El experimento evitó estados concluyentes en esas líneas por falta de atomicidad o identidad confirmadas, pero la agregación heredada no representa fielmente esas condiciones. Es deuda de proyección, no fallo de las cinco expectativas parciales. No se ha estimado su frecuencia en todo el corpus.
+
+### Evaluación estratégica
+
+- A: técnicamente reproducible y conservadora, pero exige revisión por ocurrencia y confirmación de presentación; solo 36 identidades explícitas en 5.047 ocurrencias antes de ese esfuerzo.
+- B: pistas conceptuales útiles para revisión, pero los 1.044 candidatos vigentes y 72 propuestas experimentales no acreditan disponibilidad. C: pistas de texto accesibles, pero no identifican equivalencias. Ninguna aumenta estados concluyentes por diseño.
+- Un motor de compatibilidad orientado al usuario no resulta justificado con esta evidencia; tampoco se demuestra inviabilidad de cualquier diseño futuro. No se ha medido esfuerzo humano en tiempo ni utilidad mediante sesiones reales.
+
+### Recomendación de decisión
+
+Resultado propuesto: viabilidad técnica acotada, utilidad operativa insuficiente para entregar CCE como motor de recomendación. Conservar el experimento y su informe como evidencia de investigación; no aprobar un Delivery Scope de CCE en este corte.
+
+| Alternativa | Valor y condición |
+|---|---|
+| A — Entregar núcleo estricto | Poco valor inmediato, elevado esfuerzo manual; no recomendada |
+| B — Refinar proyección de requisitos culinarios | Recomendación: investigar grupos alternativos, condicionalidad y acompañamientos, identidad y presentación con casos documentales independientes |
+| C — Entregar herramienta de revisión de pistas | Posible utilidad editorial; evaluar tras acotar B |
+| D — Diferir compatibilidad y priorizar filtros declarados | Alternativa si B no ofrece mejora verificable |
+
+Proponer una investigación acotada de requisitos culinarios antes de volver a considerar compatibilidad: inventario reproducible de estructuras problemáticas, contraste de muestras ajenas al ajuste, alternativas de representación derivada y criterios explícitos de no promoción. Evitar una reescritura masiva de fichas o una ampliación automática de reglas. No se autoriza implementación, nueva release ni cambio de contratos. La decisión estratégica queda pendiente de revisión.
 
 ## Referencias
 
