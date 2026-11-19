@@ -2,7 +2,7 @@
 id: DOC-EVOLUCION-RECUPERACION-2026
 titulo: Evolución de la recuperación del conocimiento culinario
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -91,6 +91,60 @@ El [job de RET-D02](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44
 RET-D03 prueba cinco reglas de etiquetas completas revisadas en cuatro fichas de Despensa: preparación y tamaño de ajo, escurrido de atún en conserva, pelado y descorazonado de manzana y molienda fina de harina de maíz no precocida. La preparación y presentación se conservan en el texto de origen. No se amplían candidatos existentes ni se alteran identidades explícitas o ambiguas. Se reutiliza la normalización del candidato vigente y se admite una coma tras ajo únicamente cuando el resultado es una etiqueta revisada. No se eliminan calificadores arbitrarios ni se dividen alternativas. Las etiquetas se contrastan con la ficha y el ID del corte fijado.
 
 El fixture `tools/fixtures/retrieval_identity_cases.json` contiene 12 casos documentales y 10 negativos sintéticos. El informe `retrieval_identity_experiment.json` conserva procedencia, propuestas por ocurrencia, recuentos por regla e ingrediente y casos sin ampliación. Los negativos son ausencia de nuevas propuestas, no negación de relaciones existentes. Los casos documentales fueron seleccionados deliberadamente para contraste de reglas, no para validación independiente ni estimación estadística. Las nuevas correspondencias siguen siendo propuestas experimentales y no se incorporan al índice ni al extractor. El contraste de conflictos preserva todos los candidatos sin escoger uno.
+
+## RET-D04 — Síntesis y propuesta de alcance
+
+### Evidencia del corte
+
+La PR #240 está fusionada en `f3f1a121a21d28358bb3f9b99464041aec18c58f`. Los dos workflows de la PR finalizaron correctamente. El [job de contraste](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44517868515/job/135538482522) registra 90 pruebas, cero advertencias semánticas, cero huérfanos, 18/18 casos textuales, 12/12 casos documentales de identidad y 10/10 negativos sintéticos. Ambos experimentos reconstruyeron el mismo corpus fijado en RET-D01, con huella de proyección `d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c`. La evidencia procede de los registros de CI; no se ha inspeccionado exhaustivamente el contenido de los artefactos ZIP.
+
+| Consulta | Recetas exact | Recetas terms | Recetas folded |
+|---|---:|---:|---:|
+| aceite | 0 | 448 | 448 |
+| sal | 53 | 423 | 423 |
+| ajo | 103 | 298 | 298 |
+| limón | 4 | 165 | 165 |
+| azúcar | 36 | 140 | 140 |
+| leche | 5 | 66 | 66 |
+| salsa de soja | 10 | 45 | 45 |
+| limon | 0 | 0 | 165 |
+| cafe | 0 | 0 | 8 |
+
+Son consultas seleccionadas, no estimaciones de precisión o exhaustividad culinaria. No sumar recetas de diferentes consultas. La recuperación por términos permite encontrar variantes de preparación y menciones, pero puede incluir productos distintos, alternativas o expresiones como «sin sal». No se interpretan negaciones ni se deduce disponibilidad. La normalización folded elimina también la distinción entre n y ñ; no se recomienda trasladarla sin una política ortográfica explícita y nuevos casos de contraste.
+
+| Regla | Nuevas ocurrencias propuestas |
+|---|---:|
+| G01: preparación de ajo | 56 |
+| G02: tamaño de ajo | 6 |
+| G03: atún en conserva escurrido | 7 |
+| G04: manzana pelada y descorazonada | 2 |
+| G05: harina fina de maíz no precocida | 1 |
+| Total | 72 |
+
+Las 72 ocurrencias corresponden a 71 recetas distintas. Todas son propuestas adicionales sin identidad explícita ni candidato previo. Sobre 5.047 ocurrencias, la cobertura potencial de identidad o candidato pasa de 1.080 a 1.152 (21,40 % a 22,83 %); las 36 identidades explícitas no cambian. Quedarían 3.895 ocurrencias sin candidato ni identidad. El aumento de cobertura no mide exactitud. No se ha revisado individualmente la totalidad de las 72 propuestas. Los ejemplos positivos se eligieron para contrastar las reglas y no son un conjunto de validación independiente.
+
+### Comparación de alternativas de entrega
+
+| Alternativa | Alcance | Valor y limitaciones |
+|---|---|---|
+| A. Recuperación textual acotada | Nuevo modo explícito terms sobre el índice existente | Alto incremento de menciones recuperadas; bajo coste de mantenimiento; conserva la separación de identidades |
+| B. Recuperación y candidatos simultáneos | A más incorporación de las cinco reglas | Mayor cobertura potencial, pero evidencia dirigida insuficiente para promoción; requiere revisión individual y gobernanza de reglas |
+| C. Normalización flexible completa | A más folded y expansión léxica | Facilita escritura sin acentos; riesgo de colisiones y semántica no contrastada, especialmente ñ |
+| D. Mantener prototipo | Sin nuevos modos | Mínimo riesgo, pero no materializa el valor observado |
+
+Se recomienda A como primera entrega acotada. B se mantiene como línea de evaluación de candidatos, condicionada a la revisión de las 72 propuestas y a una decisión explícita sobre mantenimiento; C requiere contraste ortográfico adicional. D sigue siendo una alternativa válida si no se prioriza la recuperación.
+
+### Condiciones propuestas para una futura entrega A
+
+- Conservar exactamente los modos text, explicit y candidate de la interfaz vigente; añadir un modo explícito de términos completos, sin activarlo por defecto.
+- Mantener el índice 0.2.0 y el extractor 0.4.6, salvo incompatibilidad demostrada; no alterar fuentes ni identidades.
+- Recuperar ocurrencias mediante secuencias contiguas de términos completos, con la normalización contrastada en terms. No incorporar folded, plurales automáticos, sinónimos, ranking ni interpretación de negaciones.
+- Mantener intersección de filtros, opcionalidad, deduplicación por receta, orden literal de ID, procedencia y explicación por ocurrencia.
+- Contrastar los 18 casos de RET-D01 en las modalidades aplicables, preservar los 16 casos del motor vigente y añadir pruebas de integración de filtros, resultados vacíos, errores y preservación de candidatos.
+- Distinguir claramente menciones textuales de identidades confirmadas; advertir sobre términos negados, alternativas y productos distintos.
+- Verificar resultados sobre el corte fijado y sobre el corpus disponible al entregar, sin asumir que ambos tienen las mismas cifras.
+
+La propuesta requiere aceptación del alcance antes de la implementación. No constituye autorización de una release, persistencia, API, planificación, despensa automática ni recomendación culinaria.
 
 ## Límites y decisión pendiente
 
