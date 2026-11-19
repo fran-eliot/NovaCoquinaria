@@ -2,7 +2,7 @@
 id: DOC-REQUISITOS-CULINARIOS-2026
 titulo: Investigación del modelo de requisitos culinarios
 tipo: gestion
-version: 0.3.0
+version: 0.4.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -106,6 +106,68 @@ Se seleccionaron seis recetas adicionales a los casos de ajuste inicial CCE, de 
 Dos discrepancias de opcionalidad se explican por confundir el ámbito de una condición de manejo/ajuste con el del ingrediente base; otra depende de evidencia de elaboración fuera de la lista. Un grupo explícito de elección no está cubierto por S02. La conjunción puede describir cualificadores, requisitos distintos o una rama compuesta; por ello no se admite una regla general de división por conectores. El corpus proyectado conserva texto útil, pero los encabezados y frases no extraídas también son evidencia relevante.
 
 Para CRM-D04 comparar una representación plana con anotaciones de alcance frente a una representación lógica acotada de grupos y miembros, conservando ocurrencias y localizadores. No interpretar expresiones arbitrarias; abstenerse cuando ámbito o cardinalidad no estén acreditados. Los doce casos constituyen expectativas parciales derivadas de revisión, no resultados de ejecución. D04 debe fijar expectativas comprobables antes del código y añadir negativos sintéticos y muestras de contraste no utilizadas en el ajuste. No se cambia el contrato, extractor, identidad ni fichas.
+
+
+## CRM-D04A — Modelo lógico candidato
+
+### Corte y opciones
+
+#259 integrada en `0934cb12b2b36e862727231d8f70814ad9248e36`; los tres workflows de main finalizaron correctamente. Se conservan el corpus y la huella de D02. Evaluar tres representaciones, sin decidir entrega:
+
+| Alternativa | Representación | Límite |
+|---|---|---|
+| A | Anotaciones planas por ocurrencia | No expresa agrupación arbitraria ni ramas compuestas sin convenciones adicionales |
+| B | Árbol lógico como representación principal | Mayor coste de migración y riesgo de perder datos originales |
+| C | Ocurrencias originales intactas más árboles derivados parciales | Requiere trazabilidad y cobertura explícita, permite abstención |
+
+C es la hipótesis recomendada para el experimento. Comparar además extensión integrada del extractor frente a proyección experimental separada; para investigar se usa esta última, sin seleccionar arquitectura productiva. La opción de no entregar sigue abierta.
+
+### Semántica candidata
+
+Unidad de salida: requisito anotado asociado a una o varias ocurrencias originales de la misma receta y a evidencia documental adicional cuando sea necesaria. El árbol no reemplaza las ocurrencias ni altera su opcionalidad de origen. Cada nodo tiene tipo, hijos ordenados si procede, evidencia, y alcance de presencia (required, optional, conditional, unknown). conditional conserva una condición literal no evaluada. role distingue base, accompaniment, unknown; accompaniment no implica optional.
+
+| Tipo | Semántica |
+|---|---|
+| atom | Concepto textual único; no genera un ID de ingrediente |
+| all | Conjunción documentada; cada miembro conserva su propio alcance |
+| any | Alternativa documentada; no presupone exclusividad ni exactitud de dosis |
+| choice | Selección declarada con cardinalidad no determinada |
+| opaque | Expresión conservada cuya estructura o alcance no se ha interpretado |
+
+Las cantidades originales se conservan en la ocurrencia. Una cantidad compartida se vincula al grupo cuando consta su alcance; nunca se copia a cada miembro de una conjunción o adaptación. Los calificadores se adjuntan al ámbito acreditado, como texto; una condición de preparación o ajuste se distingue de la condición de presencia (preparation, adjustment, presence, unknown). No se interpretan cantidades, condiciones, sustituciones ni disponibilidad en este ciclo. La marca adaptation conserva una alternativa culinaria declarada, no una equivalencia.
+
+### Integridad y abstención
+
+- Identidad de origen: commit, huella de proyección, receta, ruta, huella de fuente, posición y línea; toda evidencia adicional conserva sus líneas y texto original. Los nodos derivados no son nuevas ocurrencias del índice.
+- Mantener todas las ocurrencias, incluidas duplicadas; las raíces forman una partición de posiciones sin pérdidas ni duplicación. Dentro de una raíz pueden reutilizarse referencias a la misma línea para describir partes de una expresión. No duplicar recuentos por esa reutilización.
+- Sin evidencia revisada, producir una raíz opaque por ocurrencia, con alcance unknown, conservando separadamente la opcionalidad heredada. No asumir atomicidad por ausencia de señales. Un grupo parcial no puede presentarse como exhaustivo.
+- Identidades explícitas y candidatos se conservan en la ocurrencia original. Ninguna división textual distribuye automáticamente IDs entre hijos ni promueve candidatos. No crear IDs nuevos ni unir grupos por nombre.
+- Para el experimento, interpretaciones documentales acotadas mediante declaraciones revisadas ligadas al corpus; validar referencias, tipos, aridad, ausencia de solapamiento de raíces, procedencia y estructura. No confundir representación de una interpretación manual con extracción automática de semántica.
+
+### Expectativas fijadas para el contraste
+
+| Caso | Estructura esperada | Alcance y límites |
+|---|---|---|
+| CRM-C01 | any(arroz jazmín, arroz basmati) | required; 300 g compartidos; cocido y completamente frío |
+| CRM-C02 | atom(jengibre) | required; cantidad cualitativa original |
+| CRM-C03 | atom(mirin) | optional |
+| CRM-C04 | atom(lomos de merluza) | required; descongelación condicional de preparación |
+| CRM-C05 | all(sal, pimienta) | required; sin asignar cantidades |
+| CRM-C06 | any(carne picada de cerdo, carne picada de ternera) | optional; 180 g compartidos |
+| CRM-C07 | any(doubanjiang, all(chile, miso)) | required; segunda rama adaptation; no trasladar dosis |
+| CRM-C08 | atom(aceite de oliva) | required; 3 cucharadas base, ajuste condicional |
+| CRM-C09 | atom(limón) | optional, accompaniment; evidencia L36 y L48 |
+| CRM-C10 | all(sal moderada, pimienta, perejil) | primeros dos required; perejil optional; no extender opcionalidad |
+| CRM-C11 | choice(cinco guarniciones) | accompaniment; presencia y cardinalidad unknown; evidencia L69–77 |
+| CRM-C12 | atom(pimiento rojo) | required; asado, pelado y escurrido; no dividir calificadores |
+
+Contraste adicional fijado fuera de los doce casos CRM-C01–C12, no utilizado para ajustar las futuras reglas: [ensalada de alubias](../../03_Legumbres/ensalada_alubias_blancas_con_atun.md) REC-0109, L34 (un producto con cocción y escurrido; no dividir), L42 (perejil optional), L43 y L63 (sal y pimienta negra, all); [fusilli con atún](../../02_Pastas/fusilli_atun_limon_alcaparras.md) REC-0117 L43 y L55–63 (sal y agua de cocción, all; no afirmar que agua de cocción sea agua disponible de despensa). REC-0117 ya fue utilizado en CCE; estas líneas no pertenecen a los doce casos CRM. Los cuatro casos adicionales son expectativas documentales, no evidencia independiente de revisión humana externa.
+
+### Plan de ejecución
+
+D04B fijará datos revisados y expectativas en archivos separados, ejecutará un prototipo aislado y comparará A (anotación plana) y C (árbol parcial) sobre el mismo conjunto. B se compara conceptualmente por coste de sustitución; no se exige una segunda implementación completa. Distinguir capacidad representacional de cobertura automática: medir ocurrencias anotadas, opacas, raíces, evidencia preservada, casos representables y discrepancias, no precisión clínica ni culinaria global. Añadir negativos sintéticos: conjunción de calificadores, grupo solapado, referencias inexistentes, aridad inválida, adaptación con dosis no justificada, elección sin cardinalidad y condición sin evaluar. Validar repetibilidad y ausencia de mutación del índice. Si se explora reconocimiento automático, separar sus resultados y casos no ajustados; una anotación manual no demuestra automatización. D05 decidirá si el valor justifica una entrega acotada o diferirla.
+
+No se aprueba modificación del extractor, contrato, índice, fichas, motor CCE, infraestructura ni release.
 
 ## Referencias
 
