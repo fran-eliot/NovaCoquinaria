@@ -87,6 +87,7 @@ def extract_ingredients(raw, path, lookup):
     group = None
     entries = []
     diagnostics = []
+    optional_block = False
     # Skip YAML, including any heading-like content.
     end = next((i for i, line in enumerate(lines[1:], 1)
                 if line.strip() == "---"), 0) if lines and lines[0].strip() == "---" else -1
@@ -101,21 +102,31 @@ def extract_ingredients(raw, path, lookup):
                 break
             if active:
                 group = title
-            elif key == "ingredientes":
+                optional_block = False
+            elif key == "ingredientes" or key == "ingredientes estructurales" or re.match(r"^ingredientes (?:para |propuestos para |orientativos para |de una formula )", key):
                 active, level = True, depth
             continue
         if not active:
             continue
-        # Horizontal separators terminate the ingredient section.
+        # Separators can occur between ingredient subgroups.
         if re.fullmatch(r"\s*(?:---+|\*\*\*+)\s*", line):
-            break
+            optional_block = False
+            continue
+        if normalized(plain(line)).rstrip(":") == "opcionalmente":
+            optional_block = True
+            continue
         item = re.match(r"^\s*[-*+]\s+(.+)$", line)
         if not item:
-            continue
-        text = item[1]
+            # Only recognize a quantified prose line in an explicitly structural group.
+            if normalized(group or "") == "proteina" and AMOUNT.match(plain(line)):
+                text = line.strip()
+            else:
+                continue
+        else:
+            text = item[1]
         loc = {"start_line":idx, "end_line":idx}
         q, name = quantity(text)
-        option = "optional" if re.search(r"\bopcional(?:es)?\b", normalized(text + " " + (group or ""))) else "required"
+        option = "optional" if optional_block or re.search(r"\bopcional(?:es)?\b", normalized(text + " " + (group or ""))) else "required"
         targets = []
         for _, href in LINK.findall(text):
             try:

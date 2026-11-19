@@ -19,7 +19,7 @@ from extract_recipe_content import extract_content
 from extract_recipe_details import general_fields, extract_references
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.4.0"
+EXTRACTOR_VERSION = "0.4.1"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 

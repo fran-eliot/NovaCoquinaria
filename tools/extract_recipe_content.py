@@ -59,17 +59,24 @@ def extract_sections(raw):
 def extract_steps(sections):
     active = None
     steps = []
+    chosen = False
+    # A nested explicit Elaboración under Preparación is more specific.
+    has_explicit = any(norm(s["heading"] or "") == "elaboracion" for s in sections)
     for section in sections:
         title = section["heading"] or ""
         depth = section["level"]
         if active is not None and depth <= active:
             active = None
-        if norm(title) == "elaboracion":
+            if chosen:
+                break
+        key = norm(title)
+        if active is None and (key in ("elaboracion", "elaboracion propuesta", "elaboracion de referencia") or (key == "preparacion" and not has_explicit) or key.startswith(("elaboracion principal:", "preparacion propuesta para "))):
             active = depth
+            chosen = True
         if active is None:
             continue
         header_step = NUMBERED.match(title) if depth > active else None
-        if header_step:
+        if header_step and not (norm(header_step[2]) == "elaboracion" and any(NUMBERED.match(line) for line in section["content"].splitlines())):
             steps.append({"order": len(steps)+1, "source_number": int(header_step[1]),
                           "text": title + "\n" + section["content"],
                           "source_location": section["source_location"]})
