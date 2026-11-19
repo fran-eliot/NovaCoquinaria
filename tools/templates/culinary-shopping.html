@@ -24,6 +24,7 @@
 <label>Nombre de lista <input id="list-name" required maxlength="160"></label>
 <button type="submit">Crear lista</button></fieldset></form>
 <p id="lists-count" role="status"></p><div id="lists" class="list-grid"></div></section>
+<section id="recipe-review" class="panel" hidden aria-labelledby="review-title"><h2 id="review-title">Revisar ingredientes de receta</h2><p id="review-source"></p><p>Las cantidades originales se muestran como referencia. Declara las cantidades de compra que necesites; no se calculan faltantes.</p><form id="review-form"><label>Lista de destino <select id="review-list" required></select></label><div id="review-items"></div><div class="actions"><button id="review-confirm" type="submit">Añadir seleccionados</button><button id="review-cancel" type="button" class="secondary">Descartar selección</button></div></form><p id="review-status" role="status"></p></section>
 <section id="active-section" hidden aria-labelledby="active-title">
 <h2 id="active-title" tabindex="-1"></h2><p id="progress" role="status"></p>
 <progress id="progress-bar" value="0" max="1" aria-label="Artículos comprados"></progress>
@@ -43,5 +44,5 @@
 <label>Transferencia <select id="filter-transfer"><option value="">Todas</option><option value="none">Sin transferencia</option><option value="pending">Pendiente</option><option value="completed">Registrada</option></select></label></div>
 <button type="reset" class="secondary">Limpiar filtros</button></fieldset></form>
 <p id="items-count" role="status"></p><div id="items" class="results"></div>
-<section id="shopping-integration" class="panel"><h3>Conexión con la despensa</h3><p>La transferencia revisada y la incorporación desde recetas se habilitarán al integrar las aplicaciones.</p></section>
+<section id="shopping-integration" class="panel"><h3>Conexión con la despensa</h3><p>La incorporación a la despensa se habilitará tras validar el protocolo de transferencia.</p></section>
 </section></main></body></html>
