@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.5
+version: 0.1.6
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -143,3 +143,9 @@ Las unidades A–D están integradas mediante #271–#274. El merge de #274 es `
 Las dos incidencias de #274 se resolvieron fijando ubuntu-24.04 para Playwright y comprobando el atributo disabled y los controles nativos, sin retirar pruebas. Se observaron advertencias MkDocs de navegación y referencias documentales fuera del alcance de los destinos del catálogo; el build no es estricto.
 
 Estado: implementación integrada, validación técnica acotada superada; aceptación final condicionada a verificar publicación y completar los recorridos dirigidos de teclado y catálogo vacío. No equivale a release ni a certificación de precisión culinaria.
+
+## Cierre de entrega — #275
+
+La PR #275 quedó fusionada en `ed1bc80d50f0297672c1e7a532be52a134e64b64`, con integridad, auditoría y Culinary Explorer site correctos. El [job de navegador](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44605661371/job/135848541640) registra Chromium PASS, 590 destinos, keyboard_title=true y empty_catalog=true en el snapshot `40b336298e3906a1b0b4ea6f599070018b51cbdb`. Los recorridos dirigidos completan EXP-10 y EXP-11 dentro de sus límites. La rama gh-pages registra `755ad63f824ebb49b9816764b57337e7f14d1ae3`, Deployed ed1bc80. Tras guardar el origen de publicación gh-pages / (root), el propietario confirmó visualmente la carga del [portal público](https://fran-eliot.github.io/NovaCoquinaria/culinary-explorer.html), con 590 recetas, 24 tarjetas, 25 páginas y procedencia del merge #275.
+
+Se cierra EXP-01–EXP-15 con aceptación técnica acotada y carga pública observada. No se acredita prueba HTTP independiente, todos los enlaces por HTTP, todas las consultas públicas, accesibilidad exhaustiva ni precisión culinaria. Las advertencias documentales MkDocs y la robustez del despliegue permanecen como mantenimiento. No se cambia el flujo de publicación ni v1.6.0. El siguiente alcance candidato es Culinary Recipe Assistant.
