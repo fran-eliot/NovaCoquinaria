@@ -2,7 +2,7 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.2
+version: 2.3
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -473,6 +473,22 @@ El consumo del conocimiento deja de depender exclusivamente de la navegación do
 ### Impacto
 
 La evaluación inicial sobre 590 recetas abre una vía para contrastar capacidades de explotación antes de diseñar una plataforma. Markdown sigue siendo canónico; no se declara un Runtime completo ni una nueva release. Los límites y la evidencia se registran en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md).
+
+---
+
+## 2026-11-19 · De la coincidencia exacta a la recuperación flexible
+
+### Qué ocurrió
+
+El motor de consultas incorporó una modalidad de términos completos tras contrastar el comportamiento de búsqueda sobre un corpus fijado de 590 recetas.
+
+### Qué cambió
+
+Se separó explícitamente la recuperación de menciones de la resolución de identidades. El conocimiento se vuelve más accesible sin convertir coincidencias textuales, alternativas o variantes de producto en equivalencias. Las propuestas experimentales de identidad permanecen fuera de la entrega.
+
+### Impacto
+
+La evolución demuestra el valor de experimentar antes de ampliar las capacidades del SGCC. La siguiente transición puede centrarse en utilidad práctica con límites verificables, sin comprometer una plataforma completa. Véase [alcance de recuperación](./ALCANCE_RECUPERACION_TEXTUAL.md).
 
 ---
 
