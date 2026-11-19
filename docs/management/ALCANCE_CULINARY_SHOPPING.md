@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -95,3 +95,9 @@ La plantilla culinary-shopping.html y los recursos culinary-shopping.css y culin
 Los registros de transferencia pendientes o completados se muestran como protegidos, sin edición, borrado ni desmarcado; sus listas no se pueden eliminar. Una transferencia registrada no acredita existencias actuales. La UI no inicia transferencias ni escribe en Pantry. Los recorridos desde Recipe Assistant y hacia Pantry se incorporarán en la unidad D, sujetos a las condiciones de recuperación y revisión del alcance.
 
 La aplicación emplea localStorage a través del adaptador, muestra errores y bloquea cambios ante conflicto observado. La exportación crea un archivo local JSON con la última copia válida; la importación muestra recuentos de listas y artículos y exige confirmación de sustitución. Los rechazos por historial protegido no modifican el documento. Los textos personales se insertan mediante textContent; los datos no se envían a un servidor. La interfaz comparte el estilo base de Explorer y añade adaptación móvil. La plantilla todavía no se incorpora al build público. Knowledge audit verifica sintaxis y pruebas de núcleo y persistencia; quedan pendientes los recorridos reales de navegador, el protocolo de transferencia y el despliegue.
+
+## Unidad D1 — Integración desde recetas y publicación parcial
+
+El asistente incorpora una selección explícita de ocurrencias independiente del checklist de preparación. Tras confirmar la salida (se pierde el progreso efímero), se transfieren mediante sessionStorage los nombres sugeridos y la procedencia del registro de receta cargado, incluida la línea original, posición y commit. No se transfieren cantidades calculadas. Shopping consume la selección una sola vez y ofrece una revisión editable del nombre y de la cantidad y unidad de compra, inicialmente ausentes. Se puede excluir cualquier ocurrencia y elegir una lista existente o crear una nueva antes de confirmar. El guardado de los artículos seleccionados se realiza como una sola escritura del documento. No se incorpora nada al cancelar. La procedencia se conserva como declaración histórica; el consumidor valida la estructura, no verifica de nuevo el catálogo ni autentica datos de sessionStorage.
+
+El build incorpora Shopping, acceso desde portada y versionado conjunto de módulos y estilos. La publicación parcial habilita listas y el recorrido desde Assistant, pero no la escritura en Pantry. Se añaden pruebas del transporte y recorridos Chromium de listas, copias, selección, revisión y aislamiento de almacenamiento. Resultados pendientes de CI; no se afirma aceptación pública. La unidad D2 resolverá el protocolo de transferencia a Pantry y sus fallos parciales antes de habilitarlo. El alcance sigue abierto, sin nueva release.
