@@ -1,0 +1,180 @@
+{
+  "source_commit": "c0dd020dea003d8a4f7a0278a43f30d81501a7f0",
+  "extractor_version": "0.4.6",
+  "index_version": "0.2.0",
+  "rules": [
+    {
+      "id": "G01",
+      "ingredient_id": "ING-0014",
+      "path": "11_Despensa/06_Verduras/ajo.md",
+      "kind": "preparation",
+      "labels": [
+        "ajo picado",
+        "ajo picados",
+        "ajo laminado",
+        "ajo machacado",
+        "ajo rallado"
+      ]
+    },
+    {
+      "id": "G02",
+      "ingredient_id": "ING-0014",
+      "path": "11_Despensa/06_Verduras/ajo.md",
+      "kind": "size",
+      "labels": [
+        "ajo pequeño",
+        "ajo pequeños"
+      ]
+    },
+    {
+      "id": "G03",
+      "ingredient_id": "ING-0080",
+      "path": "11_Despensa/12_Conservas/atun_en_conserva.md",
+      "kind": "preparation",
+      "labels": [
+        "atún en conserva escurrido"
+      ]
+    },
+    {
+      "id": "G04",
+      "ingredient_id": "ING-0084",
+      "path": "11_Despensa/17_Frutas/manzana.md",
+      "kind": "preparation",
+      "labels": [
+        "manzana pelada y descorazonada"
+      ]
+    },
+    {
+      "id": "G05",
+      "ingredient_id": "ING-0126",
+      "path": "11_Despensa/01_Cereales/harina_de_maiz_no_precocida.md",
+      "kind": "presentation",
+      "labels": [
+        "harina fina de maíz no precocida"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "I01",
+      "recipe_id": "REC-485",
+      "position": 4,
+      "name": "ajo pequeños",
+      "expected": [
+        {
+          "ingredient_id": "ING-0014",
+          "rule": "G02"
+        }
+      ]
+    },
+    {
+      "id": "I02",
+      "recipe_id": "REC-0190",
+      "position": 2,
+      "name": "ajo, picados;",
+      "expected": [
+        {
+          "ingredient_id": "ING-0014",
+          "rule": "G01"
+        }
+      ]
+    },
+    {
+      "id": "I03",
+      "recipe_id": "REC-485",
+      "position": 3,
+      "name": "atún en conserva escurrido",
+      "expected": [
+        {
+          "ingredient_id": "ING-0080",
+          "rule": "G03"
+        }
+      ]
+    },
+    {
+      "id": "I04",
+      "recipe_id": "REC-0079",
+      "position": 0,
+      "name": "manzana pelada y descorazonada;",
+      "expected": [
+        {
+          "ingredient_id": "ING-0084",
+          "rule": "G04"
+        }
+      ]
+    },
+    {
+      "id": "I05",
+      "recipe_id": "REC-573",
+      "position": 0,
+      "name": "harina fina de maíz no precocida",
+      "expected": [
+        {
+          "ingredient_id": "ING-0126",
+          "rule": "G05"
+        }
+      ]
+    },
+    {
+      "id": "I06",
+      "recipe_id": "REC-0017",
+      "position": 1,
+      "name": "Leche de coco",
+      "expected": []
+    },
+    {
+      "id": "I07",
+      "recipe_id": "REC-0190",
+      "position": 1,
+      "name": "aceite de cacahuete o girasol, y algo más si hiciera falta;",
+      "expected": []
+    },
+    {
+      "id": "I08",
+      "recipe_id": "REC-0079",
+      "position": 2,
+      "name": "leche;",
+      "expected": []
+    },
+    {
+      "id": "I09",
+      "recipe_id": "REC-0017",
+      "position": 8,
+      "name": "azúcar (opcional)",
+      "expected": []
+    },
+    {
+      "id": "I10",
+      "recipe_id": "REC-0190",
+      "position": 6,
+      "name": "salsa de soja clara;",
+      "expected": []
+    },
+    {
+      "id": "I11",
+      "recipe_id": "REC-485",
+      "position": 2,
+      "name": "huevos L",
+      "expected": []
+    },
+    {
+      "id": "I12",
+      "recipe_id": "REC-0017",
+      "position": 4,
+      "name": "ajo",
+      "expected": []
+    }
+  ],
+  "synthetic_negative": [
+    "ajo negro",
+    "ajo en polvo",
+    "ajo o cebolla",
+    "atún fresco escurrido",
+    "harina de maíz precocida",
+    "harina de maíz",
+    "almidón de maíz",
+    "manzana o pera",
+    "leche",
+    "azúcar"
+  ]
+}
