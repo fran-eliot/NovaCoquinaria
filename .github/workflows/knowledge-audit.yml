@@ -51,6 +51,8 @@ jobs:
           python tools/build_recipe_index.py --input "$dir/recipe_metadata.json" --output "$dir/recipe_index_repeat.json"
           python tools/audit_recipe_index.py --projection "$dir/recipe_metadata.json" --index "$dir/recipe_index.json" --repeat "$dir/recipe_index_repeat.json" --output "$dir/recipe_index_audit.json"
           rm "$dir/recipe_index_repeat.json"
+      - name: Evaluate recipe queries
+        run: python tools/evaluate_recipe_queries.py --index site/knowledge-audit/recipe_index.json --output site/knowledge-audit/recipe_query_evaluation.json
       - name: Upload baseline reports
         uses: actions/upload-artifact@v4
         with:
