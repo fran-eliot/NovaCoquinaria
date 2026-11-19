@@ -82,6 +82,44 @@ def structural_gaps(records):
     return gaps
 
 
+def candidate_review(records, limit=12):
+    """Muestras deterministas por grupo; no representan una estimación estadística."""
+    groups = defaultdict(list)
+    unmatched = Counter()
+    methods = Counter()
+    for record in sorted(records, key=lambda item: item["id"]):
+        for entry in record["ingredients"]:
+            if entry["resolution"] != "unresolved":
+                continue
+            matches = entry.get("identity_candidates", [])
+            identities = {match["ingredient_id"] for match in matches}
+            group = "multiple" if len(identities) > 1 else "single" if identities else "none"
+            if not matches and entry.get("name"):
+                unmatched[entry["name"]] += 1
+            for method in {match["method"] for match in matches}:
+                methods[method] += 1
+            groups[group].append({
+                "id": record["id"], "path": record["source"]["path"],
+                "raw": entry.get("raw"), "name": entry.get("name"),
+                "source_location": entry.get("source_location"),
+                "candidates": matches,
+            })
+    samples = {}
+    for group, entries in sorted(groups.items()):
+        # Dispersion across the sorted corpus, without random state.
+        size = min(limit, len(entries))
+        samples[group] = [entries[i * len(entries) // size] for i in range(size)]
+    return {
+        "sampling": "Determinista por estado y orden de receta; no estadísticamente representativa.",
+        "method_occurrences": dict(sorted(methods.items())),
+        "frequent_unmatched_names": [
+            {"name": name, "count": count}
+            for name, count in sorted(unmatched.items(), key=lambda pair: (-pair[1], pair[0]))[:20]
+        ],
+        "samples": samples,
+    }
+
+
 def coverage(projection):
     records=projection["recipes"]
     if projection["stage"]!="recipe_projection_preview":
@@ -104,6 +142,7 @@ def coverage(projection):
         "scope":"Presencia y reconocimiento de registros extraídos; no recall, precisión ni validación culinaria.",
         "global":summarize(records),
         "structural_gaps":structural_gaps(records),
+        "candidate_review":candidate_review(records),
         "by_module":{k:summarize(v) for k,v in sorted(groups.items())},
         "affected_recipes":{k:sorted(v,key=lambda item:item["id"]) for k,v in sorted(affected.items())},
     }
@@ -122,7 +161,7 @@ def main():
         report=coverage(projection)
         output.parent.mkdir(parents=True,exist_ok=True)
         output.write_bytes((json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n").encode("utf-8"))
-        print(json.dumps({"source_commit":report["source_commit"],"global":report["global"],"structural_gaps":report["structural_gaps"]},ensure_ascii=False,indent=2))
+        print(json.dumps({"source_commit":report["source_commit"],"global":report["global"],"structural_gaps":report["structural_gaps"],"candidate_review":report["candidate_review"]},ensure_ascii=False,indent=2))
     except (ValueError,KeyError,TypeError,OSError) as exc:
         parser.exit(1,f"Informe fallido: {exc}\n")
     return 0
