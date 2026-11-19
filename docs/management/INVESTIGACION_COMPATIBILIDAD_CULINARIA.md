@@ -2,7 +2,7 @@
 id: DOC-COMPATIBILIDAD-CULINARIA-2026
 titulo: Investigación de compatibilidad culinaria
 tipo: gestion
-version: 0.3.0
+version: 0.4.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -244,6 +244,21 @@ Cabecera: versión de experimento, source_commit, projection_sha256, modalidad, 
 Fijar corpus, índice y huella; documentar expectativas parciales con fuentes distintas a las usadas para ajustar las reglas y registrar revisión de atomicidad por ocurrencia en la muestra. Contrastar A/B/C sobre las mismas entradas; comparar estados y agregaciones con recorrido independiente, probar invariancia de estados al agregar pistas, duplicados de ocurrencia, lista abierta/cerrada, contradicciones, presentaciones, alternativas, desconocidos, casos sin required y selección vacía. Medir cobertura de estados concluyentes y abstenciones por denominador, casos y discrepancias; distinguir decisiones documentales manuales de comportamiento automático. Evaluar el coste de confirmar atomicidad y presentación por ocurrencia: si la utilidad es insuficiente, considerar no entregar o limitar a herramienta de revisión asistida. No extrapolar exactitud general.
 
 Este diseño es hipótesis de investigación, no contrato aprobado. No se implementan cambios productivos, persistencia, catálogo, nuevas reglas, ranking ni release.
+
+
+## CCE-D04 — Contraste experimental (preparación)
+
+CCE-D03 integrado mediante #253, merge `3d9de54e65d07b1459ce71e312b44318aecd4377`, con los tres workflows satisfactorios. La unidad experimental se divide en expectativas documentales fijadas y ejecución contrastada; esta primera parte no acredita resultados de ejecución.
+
+El corpus es el mismo de RET-D01, `c0dd020dea003d8a4f7a0278a43f30d81501a7f0`, con huella de proyección `d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c`. Se leyeron tres recetas adicionales al conjunto de ajuste inicial, no una muestra aleatoria:
+
+- [Curry verde de pollo](../../05_Carnes/curry_verde_de_pollo.md) REC-0023: leche de coco, curry verde, salsa de pescado y salsa de soja enlazados, líneas independientes. Las alternativas de pollo, pimiento y aceite no reciben confirmación. Se fijan tres declaraciones con expectativas de presencia, ausencia, presentación no confirmada y cierre.
+- [Curry verde de pollo con coco](../../07_Cocina_Asiatica/curry_verde_de_pollo.md) REC-0071: leche de coco sin enlace explícito; se espera abstención aunque haya candidato o etiqueta coincidente.
+- [Fusilli con atún, limón y alcaparras](../../02_Pastas/fusilli_atun_limon_alcaparras.md) REC-0117: alternativa fusilli o penne; no dividir ni declarar disponibilidad por coincidencia textual.
+
+Las expectativas parciales se conservan en `tools/fixtures/compatibility_experiment_cases.json`. Las posiciones y etiquetas proyectadas deberán contrastarse con el índice fijado; si no coinciden se documentará la discrepancia frente a Markdown, sin reajustar silenciosamente el resultado esperado. Las confirmaciones de presentación son declaraciones simuladas, no evidencia de una despensa real.
+
+La ejecución posterior debe añadir casos sintéticos de opcionalidad desconocida, duplicados, selección vacía, ocurrencia explícita sin atomicidad revisada, errores y agregación positiva; comparar A/B/C con recorrido independiente, informar denominadores y abstenciones, probar reproducibilidad y no modificar el motor publicado. No se declara CCE-D04 cerrado hasta disponer de evidencia de ejecución.
 
 ## Referencias
 
