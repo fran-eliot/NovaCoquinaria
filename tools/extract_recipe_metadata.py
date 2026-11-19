@@ -16,9 +16,10 @@ from audit_inventory import RECIPE_MODULES
 from common import ROOT_DIR, requires_frontmatter
 from extract_recipe_ingredients import extract_ingredients
 from extract_recipe_content import extract_content
+from extract_recipe_details import general_fields, extract_references
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.3.0"
+EXTRACTOR_VERSION = "0.4.0"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 
@@ -117,6 +118,8 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
     recipes_outside_modules = []
     paths = snapshot_paths(root, commit)
     ingredient_lookup = {}
+    document_lookup = {}
+    known_paths = {p.decode('utf-8') for p in git(root, 'ls-tree', '-r', '-z', '--name-only', commit).split(b'\0') if p}
     recipe_sources = {}
     for path in paths:
         parts = PurePosixPath(path).parts
@@ -127,6 +130,8 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         record = project_metadata(raw, path, commit)
         if record is None:
             fields, _ = read_metadata(raw, path)
+            if fields and isinstance(fields.get('id'), str):
+                document_lookup[path] = fields['id']
             if fields and fields.get('tipo') == 'ingrediente' and isinstance(fields.get('id'), str):
                 ingredient_lookup[path] = fields['id']
             if module_path:
@@ -136,6 +141,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
                     raise ValueError(f"{path}: Front Matter ausente")
             continue
         identity = record["id"]
+        document_lookup[path] = identity
         if identity in ids:
             raise ValueError(f"{path}: ID de receta duplicado: {identity}")
         ids.add(identity)
@@ -165,10 +171,15 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         content, content_diagnostics = extract_content(recipe_sources[path])
         record.update(content)
         record['diagnostics'].extend(content_diagnostics)
+        details, detail_diagnostics = general_fields(record['sections'])
+        record.update(details)
+        refs, reference_diagnostics = extract_references(record['sections'], path, document_lookup, known_paths)
+        record['references'] = refs
+        record['diagnostics'].extend(detail_diagnostics + reference_diagnostics)
     return {
         "contract_version": CONTRACT_VERSION,
         "extractor_version": EXTRACTOR_VERSION,
-        "stage": "metadata_ingredients_and_content",
+        "stage": "recipe_projection_preview",
         "ingredient_summary": dict(sorted(Counter(e["quantity"]["status"] for r in records for e in r["ingredients"]).items())),
         "source_commit": commit,
         "inventory": {
