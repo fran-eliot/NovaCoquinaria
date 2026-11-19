@@ -20,7 +20,7 @@ from extract_recipe_details import general_fields, extract_references
 from ingredient_identity_candidates import build_catalog, annotate
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.4.5"
+EXTRACTOR_VERSION = "0.4.6"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 

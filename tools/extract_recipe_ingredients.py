@@ -17,6 +17,8 @@ UNITS = {
     "cucharadita":"cucharadita", "cucharaditas":"cucharadita",
     "diente":"diente", "dientes":"diente", "vaso":"vaso", "vasos":"vaso",
     "taza":"taza", "tazas":"taza", "unidad":"unidad", "unidades":"unidad",
+    "cm":"cm", "hoja":"hoja", "hojas":"hoja", "rama":"rama", "ramas":"rama",
+    "pizca":"pizca", "pizcas":"pizca", "gota":"gota", "gotas":"gota",
 }
 QUAL = re.compile(r"\b(?:al gusto|una pizca|un chorrito|unas gotas|cantidad necesaria|cantidad suficiente|unas cucharadas)\b", re.I)
 LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
@@ -50,9 +52,12 @@ def quantity(raw):
     for symbol, replacement in FRACTIONS.items():
         text = re.sub(rf"(?<=\d){symbol}", " " + replacement, text)
         text = text.replace(symbol, replacement)
-    text = re.sub(r"^(?:opcional:\s*|unos?\s+|aproximadamente\s+)", "", text, flags=re.I)
-    text = re.sub(r"^medio\s+", "1/2 ", text, flags=re.I)
-    result = {"raw": raw, "status":"missing", "min":None, "max":None, "unit":None}
+    approximate = bool(re.search(r"\b(?:aproximadamente|aproximados?|aproximadas?|orientativos?|orientativas?)\b|^(?:unos|unas)\s+\d", text, re.I))
+    text = re.sub(r"^(?:opcional:\s*|unos?\s+|unas\s+(?=\d)|aproximadamente\s+)", "", text, flags=re.I)
+    text = re.sub(r"^medi[oa]\s+", "1/2 ", text, flags=re.I)
+    # Explicit Spanish mixed-number household measure; preserve original line.
+    text = re.sub(r"^(\d+)\s+(cucharadas?|cucharaditas?|tazas?|vasos?)\s+y\s+medi[oa]\b", r"\1 1/2 \2", text, flags=re.I)
+    result = {"raw": raw, "status":"missing", "min":None, "max":None, "unit":None,"approximate":approximate}
     match = AMOUNT.match(text)
     if match:
         tail = text[match.end():].strip()
@@ -73,7 +78,7 @@ def quantity(raw):
             return result, None
         result.update(status="range" if match[2] else "exact", min=lo, max=hi, unit=unit)
         return result, name or None
-    if QUAL.search(text):
+    if QUAL.search(text) or re.search(r"\b(?:un trozo pequeno|una punta|un poco|cantidad no precisada)\b", normalized(text)):
         result["status"] = "qualitative"
     elif re.match(r"^\d|^[+-]\d", text):
         result["status"] = "ambiguous"
@@ -126,7 +131,11 @@ def extract_ingredients(raw, path, lookup):
             text = item[1]
         loc = {"start_line":idx, "end_line":idx}
         q, name = quantity(text)
-        option = "optional" if optional_block or re.search(r"\bopcional(?:es)?\b", normalized(text + " " + (group or ""))) else "required"
+        option_text = normalized(text + " " + (group or ""))
+        # Mixed required/optional components cannot be assigned a single role.
+        mixed = bool(re.search(r"\by\s+[^,;()]+\s+opcional(?:es)?\b", option_text))
+        conditional = bool(re.search(r"\b(?:solo si|si (?:conviene|procede|es necesario|hace falta|se desea|se usa|se utilizan?))\b", option_text))
+        option = ("unknown" if mixed else "optional" if optional_block or conditional or re.search(r"\bopcional(?:es)?\b", option_text) else "required")
         targets = []
         for _, href in LINK.findall(text):
             try:
@@ -144,7 +153,8 @@ def extract_ingredients(raw, path, lookup):
                         "optionality":option, "ingredient_id":targets[0] if len(targets)==1 else None,
                         "resolution":resolution, "source_location":loc})
         for condition, code, field in [(q["status"]=="ambiguous","AMBIGUOUS_QUANTITY","quantity"),
-                                       (resolution!="explicit","INGREDIENT_"+resolution.upper(),"ingredient_id")]:
+                                       (resolution!="explicit","INGREDIENT_"+resolution.upper(),"ingredient_id"),
+                                       (option=="unknown","INGREDIENT_OPTIONALITY_UNDETERMINED","optionality")]:
             if condition:
                 diagnostics.append({"code":code,"severity":"warning","field":field,
                                     "source_location":loc,"description":"Interpretación no resuelta; se conserva el texto."})
