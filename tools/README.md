@@ -156,3 +156,11 @@ Se conservan secciones Markdown ordenadas con localizadores, pasos bajo Elaborac
 ## Rendimiento, duraciones y referencias (0.4.0)
 
 La proyección añade rendimiento y fases temporales de tablas Información general, conservando expresiones compuestas sin sumar duraciones ni inventar unidades. Los enlaces Markdown inline se resuelven contra el árbol del mismo snapshot; un destino sin ID conocido mantiene su ruta, sin crear identidad. Los enlaces no equivalen automáticamente a relaciones semánticas tipadas y no se verifica la existencia de anclas. Los formatos no reconocidos quedan en secciones y diagnósticos. La etapa recipe_projection_preview aún requiere evaluación de cobertura antes de crear el índice.
+
+## Cobertura de la proyección de recetas
+
+```bash
+python tools/report_recipe_coverage.py --input site/knowledge-audit/recipe_metadata.json --output site/knowledge-audit/recipe_coverage.json
+```
+
+El informe presenta presencia de campos por receta, distribución de estados de cantidades y evidencia, resolución explícita de ingredientes y referencias, diagnósticos por módulo y fichas afectadas. Cada proporción declara numerador y denominador; sin observaciones el porcentaje es nulo. Se cuentan ocurrencias, no ingredientes únicos. Las referencias internas excluyen enlaces externos y anclas locales. Los resultados miden reconocimiento del extractor, no exhaustividad de las listas originales, precisión semántica o calidad culinaria. Knowledge audit incluye el informe derivado y un resumen en consola.
