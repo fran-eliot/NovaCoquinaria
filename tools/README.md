@@ -152,3 +152,7 @@ La proyección incorpora listas bajo encabezados Ingredientes, grupos, cantidade
 ## Extracción de procedimientos y evidencia (0.3.0)
 
 Se conservan secciones Markdown ordenadas con localizadores, pasos bajo Elaboración (listas numeradas y encabezados numerados) y declaraciones explícitas de experiencia con su texto fuente. Una declaración histórica no acredita la fórmula actual. El reconocimiento de evidencia es deliberadamente limitado: si no se reconoce una declaración suficiente o hay conflicto, se conserva unknown y se emite diagnóstico. Quedan pendientes rendimiento, duraciones, relaciones generales y evaluación de cobertura.
+
+## Rendimiento, duraciones y referencias (0.4.0)
+
+La proyección añade rendimiento y fases temporales de tablas Información general, conservando expresiones compuestas sin sumar duraciones ni inventar unidades. Los enlaces Markdown inline se resuelven contra el árbol del mismo snapshot; un destino sin ID conocido mantiene su ruta, sin crear identidad. Los enlaces no equivalen automáticamente a relaciones semánticas tipadas y no se verifica la existencia de anclas. Los formatos no reconocidos quedan en secciones y diagnósticos. La etapa recipe_projection_preview aún requiere evaluación de cobertura antes de crear el índice.
