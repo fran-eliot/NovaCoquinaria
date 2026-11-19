@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.19.0
+version: 1.20.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -643,3 +643,7 @@ Cierre acotado del prototipo, no del Runtime. Se propone evaluar alternativas de
 ## Revisión estratégica de recuperación — 2026-11-19
 
 El [job de #236](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44514156962/job/135525701712) confirma cero huérfanos, cero advertencias semánticas, 81 pruebas y 16 casos de consulta. Se documenta la [evolución de la recuperación culinaria](./EVOLUCION_RECUPERACION_CULINARIA.md) como propuesta de evaluación de alternativas; no implica implementación ni selección definitiva.
+
+## Cierre técnico propuesto de recuperación textual — 2026-11-19
+
+Las PR #237–#241 documentan RET-D01–D04; #242 delimita la alternativa A y #243–#245 integran las unidades A–C. El [alcance de entrega](./ALCANCE_RECUPERACION_TEXTUAL.md) registra la matriz RET-01–RET-14 y el [contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md) documenta la interfaz de consultas 0.2.0. Evidencia del [job de #245](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44520878705/job/135548859640): 102 pruebas, 68 comparaciones con recorrido independiente, 34 con experimento, 18 casos documentales y 16 casos de regresión por corpus, cero advertencias y huérfanos. El snapshot de CI difiere del merge definitivo. Se mantiene extractor 0.4.6, índice 0.2.0 y Markdown canónico. No se incorporan folded ni los 72 candidatos experimentales. El resultado acredita recuperación textual acotada, no precisión semántica exhaustiva ni disponibilidad de despensa. Cierre sujeto a revisión de la unidad D; sin nueva release.
