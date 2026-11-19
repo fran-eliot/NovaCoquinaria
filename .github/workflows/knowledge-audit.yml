@@ -74,6 +74,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Test Culinary Pantry model
+        run: node --test tools/test_culinary_pantry_model.mjs
       - name: Test Recipe Assistant cooking session
         run: node --test tools/test_recipe_assistant_session.mjs
       - name: Check Recipe Assistant UI syntax
