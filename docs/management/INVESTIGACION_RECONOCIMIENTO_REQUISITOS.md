@@ -2,7 +2,7 @@
 id: DOC-RECONOCIMIENTO-REQUISITOS-2026
 titulo: Investigación del reconocimiento de requisitos culinarios
 tipo: gestion
-version: 0.3.0
+version: 0.4.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -135,6 +135,10 @@ R04 y R05 se restringen a las formas observadas en ajuste. No ampliar a desalado
 El fixture registra expectativa semántica, no resultado esperado por implementación restringida. A01, H09, H10, H11 y H12 pueden quedar fuera del alcance de estas reglas; contabilizar omisiones, no convertir expectativas positivas en negativas. H11 exige conservar simultáneamente opcionalidad y preparación; los marcadores mixtos quedan fuera del alcance inicial. Los negativos sintéticos son entradas aisladas, sin contexto documental o cantidad base acreditada. No se exige afirmar presencia en ellos. En H02 se evalúa la ausencia de agrupación, no otros marcadores de la receta.
 
 El informe de D04 distinguirá ajuste y contraste, casos y ocurrencias (los grupos se contabilizan también como una unidad), expectativas positivas, negativos, aciertos exactos de alcance, falsos positivos, omisiones y propuestas no revisadas. Comparará contra la opcionalidad heredada donde sea pertinente; ninguna propuesta corregirá el extractor. Los casos multirregla deben contrastarse por tipo y alcance. Las líneas de encabezado y declaración son evidencia contextual, no ocurrencias adicionales. Mantener determinismo, partición de raíces y preservación de datos, pruebas de referencias inexistentes y solapamiento. Cualquier cambio de reglas posterior al contraste requiere nueva iteración y nuevos casos reservados. No se declara ejecución ni recomendación de entrega.
+
+## CRR-D04 — Prototipo y evaluación
+
+Se incorpora `experiment_requirements_recognition.py` con R02–R05, R01 deshabilitada. Las propuestas conservan los datos originales y las raíces opacas; R02 genera choice con cardinalidad desconocida. La anotación de alcance no acredita atomicidad ni disponibilidad. Se verifican huellas, referencias del fixture, disyunción por receta, partición, repetibilidad y ausencia de mutación. Los conflictos producen abstención. El informe separa ajuste, contraste, negativos sintéticos, propuestas por tipo, opcionalidad heredada y resultados por caso. La clasificación de casos compuestos es conservadora: un resultado parcial no es un acierto completo; se conserva el detalle observado para análisis posterior. Los falsos positivos y omisiones son datos de evaluación, no fallos del job; los errores de integridad sí detienen la ejecución. No se modifica ninguna expectativa ni motor publicado. La evaluación por familia y carga de revisión se completará a partir del artefacto; resultados pendientes de CI.
 
 ## Referencias
 
