@@ -2,7 +2,7 @@
 id: SPEC-INDICE-RECETAS
 tipo: especificacion
 titulo: Contrato del índice de conocimiento culinario
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 tags:
@@ -90,6 +90,22 @@ Los modos son `text`, `explicit` y `candidate`; estos dos últimos reciben IDs l
 La evaluación de QRY-02 se integra en Knowledge audit mediante `tools/evaluate_recipe_queries.py`. Contrasta 16 expectativas parciales basadas en fichas reales revisadas en el corte #234, comprueba recuperación completa, repetibilidad y rechazo de tres consultas inválidas. El informe `recipe_query_evaluation.json` conserva el commit, la huella del índice, resultados y muestras de consultas abiertas. Los recuentos abiertos son observaciones, no expectativas fijadas de antemano.
 
 Se mantienen los filtros temporales y de rendimiento fuera de la interfaz 0.1.0. La evaluación mide cuántas recetas tienen una única declaración total numérica, cuántas carecen de ella o presentan ambigüedad y qué unidades de rendimiento existen. Una cifra numérica interpretada no garantiza duración completa: las expresiones orientativas y calificadores requieren revisión adicional. No sumar fases ni equiparar unidades de rendimiento diferentes. La incorporación futura de estos filtros requiere un contrato específico sobre intervalos, unidades, calificadores y tratamiento de casos desconocidos.
+
+## Extensión de consultas 0.2.0
+
+La interfaz de consultas 0.2.0 amplía la anterior con el modo explícito `terms`, sin cambiar la vista de intercambio 0.2.0 ni los modos text, explicit y candidate. La función Python y la CLI siguen siendo de solo lectura y no necesitan el extractor, Git ni PyYAML para consultar un índice generado. El motor utiliza las referencias de by_text y el núcleo puro `tools/recipe_retrieval_terms.py`.
+
+El modo terms busca secuencias contiguas de términos alfanuméricos Unicode en los nombres proyectados, con NFC, casefold y colapso de espacios; puntuación y guion bajo actúan como separadores y los diacríticos se conservan. No hay coincidencia por subcadena, singularización, expansión de sinónimos, orden alternativo ni interpretación de negaciones. Una consulta terms sin términos es inválida; una consulta válida sin coincidencias devuelve cero. La coincidencia exacta text no se amplía implícitamente.
+
+```bash
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --ingredient terms "ajo"
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --physical-module 07_Cocina_Asiatica --ingredient terms "ajo" --ingredient terms "salsa de soja"
+python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.json --ingredient-with-optionality terms "vinagre de vino" optional
+```
+
+Las cláusulas se intersectan a nivel de receta. Cada receta se devuelve una sola vez y las ocurrencias de terms se ordenan por posición, sin duplicar referencias. Se conservan raw, name, position, optionality, resolution, ingredient_id y source_location; el motivo de coincidencia añade `match_scope: textual_mention` únicamente para terms. No se modifica el esquema de los motivos de los modos anteriores; query_version pasa a 0.2.0. Una mención puede contener alternativas, productos distintos o una negación (por ejemplo, sin sal); no demuestra identidad, necesidad de compra, disponibilidad ni seguridad alergénica. No se incorporan folded ni las reglas de candidatos experimentales.
+
+La validación `tools/evaluate_recipe_terms.py` genera `recipe_terms_evaluation.json` en Knowledge audit. Contrasta el corpus fijado en RET-D01 y el índice vigente, las 17 consultas seleccionadas, los 18 casos documentales del corte fijado, los conjuntos de ocurrencias del experimento y un recorrido independiente de los registros. Conserva procedencia y regresión; no estima precisión culinaria ni impone al corpus vigente los recuentos históricos. Véase el [alcance de entrega](../../management/ALCANCE_RECUPERACION_TEXTUAL.md).
 
 ## Incrementos y aceptación
 
