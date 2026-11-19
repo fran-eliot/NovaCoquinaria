@@ -42,6 +42,15 @@ jobs:
           python tools/audit_knowledge.py --output site/knowledge-audit/KNOWLEDGE_AUDIT.md --json-output site/knowledge-audit/knowledge_audit.json | tee site/knowledge-audit/domains.txt
           python tools/extract_recipe_metadata.py --output site/knowledge-audit/recipe_metadata.json | tee site/knowledge-audit/recipe_metadata_summary.txt
           python tools/report_recipe_coverage.py --input site/knowledge-audit/recipe_metadata.json --output site/knowledge-audit/recipe_coverage.json | tee site/knowledge-audit/recipe_coverage_summary.txt
+      - name: Build and contrast recipe index
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir=site/knowledge-audit
+          python tools/build_recipe_index.py --input "$dir/recipe_metadata.json" --output "$dir/recipe_index.json"
+          python tools/build_recipe_index.py --input "$dir/recipe_metadata.json" --output "$dir/recipe_index_repeat.json"
+          python tools/audit_recipe_index.py --projection "$dir/recipe_metadata.json" --index "$dir/recipe_index.json" --repeat "$dir/recipe_index_repeat.json" --output "$dir/recipe_index_audit.json"
+          rm "$dir/recipe_index_repeat.json"
       - name: Upload baseline reports
         uses: actions/upload-artifact@v4
         with:
