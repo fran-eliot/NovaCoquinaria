@@ -29,6 +29,8 @@ def exercise(site):
                 browser = p.chromium.launch()
                 page = browser.new_page(viewport={"width": 390, "height": 844})
                 errors = []
+                loaded_modules = []
+                page.on("request", lambda req: loaded_modules.append(req.url) if ".mjs" in req.url else None)
                 page.on("pageerror", lambda e: errors.append(str(e)))
                 base = f"http://127.0.0.1:{server.server_port}/NovaCoquinaria/"
                 def url(identity, commit=None):
@@ -45,6 +47,9 @@ def exercise(site):
                 expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 expect(page.locator("#recipe-title")).to_have_text(recipes[identity]["title"])
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
+                assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
+                assert any("culinary-explorer-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
+                assert any("recipe-assistant-markdown." in u and not u.endswith("-markdown.mjs") for u in loaded_modules)
                 assert page.locator("#context-text h3, #context-text h4").count() > 0
                 assert page.locator("#context-text table").count() > 0
                 assert page.locator("#context-text li").count() > 0
