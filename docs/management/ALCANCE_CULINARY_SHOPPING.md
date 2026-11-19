@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -101,3 +101,11 @@ La aplicación emplea localStorage a través del adaptador, muestra errores y bl
 El asistente incorpora una selección explícita de ocurrencias independiente del checklist de preparación. Tras confirmar la salida (se pierde el progreso efímero), se transfieren mediante sessionStorage los nombres sugeridos y la procedencia del registro de receta cargado, incluida la línea original, posición y commit. No se transfieren cantidades calculadas. Shopping consume la selección una sola vez y ofrece una revisión editable del nombre y de la cantidad y unidad de compra, inicialmente ausentes. Se puede excluir cualquier ocurrencia y elegir una lista existente o crear una nueva antes de confirmar. El guardado de los artículos seleccionados se realiza como una sola escritura del documento. No se incorpora nada al cancelar. La procedencia se conserva como declaración histórica; el consumidor valida la estructura, no verifica de nuevo el catálogo ni autentica datos de sessionStorage.
 
 El build incorpora Shopping, acceso desde portada y versionado conjunto de módulos y estilos. La publicación parcial habilita listas y el recorrido desde Assistant, pero no la escritura en Pantry. Se añaden pruebas del transporte y recorridos Chromium de listas, copias, selección, revisión y aislamiento de almacenamiento. Resultados pendientes de CI; no se afirma aceptación pública. La unidad D2 resolverá el protocolo de transferencia a Pantry y sus fallos parciales antes de habilitarlo. El alcance sigue abierto, sin nueva release.
+
+## Unidad D2 — Protocolo de transferencia (núcleo)
+
+El coordinador `assets/culinary-shopping-pantry-coordinator.mjs` recibe adaptadores independientes y una fotografía revisada de Shopping. Para una única transferencia confirmada, contrasta el documento vigente, valida el destino con el esquema Pantry, rechaza cualquier ID de destino previamente existente y prepara el nuevo inventario sin escribir. Persiste primero la intención pending en Shopping; comprueba que se conserva y guarda después el lote en Pantry. Lee nuevamente Pantry y exige coincidencia de todos los campos del destino antes de registrar completed en Shopping. No hay compensación destructiva.
+
+La recuperación de una intención pendiente es deliberadamente conservadora: solo permite completar el registro si existe una entrada exactamente igual a la intención. Nunca crea otra entrada en recuperación, aunque el destino esté ausente. La ausencia no permite distinguir un fallo de escritura de un lote posteriormente consumido, eliminado o perdido tras restauración. Una entrada diferente también bloquea la recuperación. Estos casos requieren revisión manual y mantienen el registro protegido; no se habilita aún resolución destructiva ni reintento de alta. Un estado completed acredita el contraste realizado entonces, no existencias actuales.
+
+Los adaptadores conservan la detección de conflictos por lectura previa. No existe transacción atómica entre claves ni garantía frente a escrituras concurrentes, restauraciones independientes o modificaciones entre comprobaciones. El coordinador no adquiere bloqueo global y su uso exige confirmación individual. Las ocho pruebas Node cubren orden de escrituras, cancelación, fallo de intención, fallo de Pantry, fallo de finalización recuperable, colisión, destino modificado/ausente y datos desactualizados o inválidos. La interfaz y la publicación de este recorrido permanecen deshabilitadas hasta completar su revisión, controles de concurrencia y pruebas de navegador. No se modifica la release.
