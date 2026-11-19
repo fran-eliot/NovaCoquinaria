@@ -2,16 +2,16 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 1.7.0
+version: 1.8.0
 estado: estable
-ultima_revision: 2026-11-18
+ultima_revision: 2026-11-19
 ---
 
 # Kit de continuidad de NovaCoquinaria
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 18 de noviembre de 2026, después de la fusión de la PR #202.  
+> **Corte de información:** 19 de noviembre de 2026, después de la fusión de la PR #228.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -26,25 +26,22 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 
 | Elemento | Situación y alcance de la evidencia |
 |---|---|
-| Rama principal | `main`, consultada en GitHub el 2026-11-18, después del merge de la PR #202 |
-| Última versión publicada | [`v1.5.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.5.0), publicada el 2026-08-02; las PR recientes no suponen una nueva release |
-| Fase estratégica | Consolidación y explotación del conocimiento; línea base y tratamiento de los 37 avisos iniciales completados. Revisión de cobertura por dominios y preparación del contrato de datos pendientes |
-| Última PR fusionada | [#202 — Último lote de relaciones semánticas](https://github.com/fran-eliot/NovaCoquinaria/pull/202) |
-| PRs inmediatamente anteriores | [#201](https://github.com/fran-eliot/NovaCoquinaria/pull/201), [#200](https://github.com/fran-eliot/NovaCoquinaria/pull/200), [#199](https://github.com/fran-eliot/NovaCoquinaria/pull/199), fusionadas |
-| Último commit comprobado en `main` | [`78518ab3b43ac9267c06cf250e7bffbc14dd730c`](https://github.com/fran-eliot/NovaCoquinaria/commit/78518ab3b43ac9267c06cf250e7bffbc14dd730c), merge de #202 |
-| PR abiertas | Ninguna en la consulta de este corte |
-| Integridad de `main` | [Knowledge integrity](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44402431781): **success** |
-| Sitio web de documentación | [Deploy MkDocs site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44402431774): **success** |
-| Auditoría de conocimiento | [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44402431807): **success**; 922 documentos, 887 IDs exactos únicos, 5478 enlaces, 0 advertencias semánticas y 0 huérfanos globales |
-| Inventario Markdown en `main` | **922** archivos `.md` en el árbol remoto |
-| Fichas de recetas | **590** archivos `.md` en los diez módulos de recetas, excluidos README |
-| Recetas por módulo | Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
-| Fichas de ingredientes | **125** archivos `.md` en `11_Despensa`, excluidos README y BACKLOG |
-| Documentos de técnicas | **52** archivos `.md` en `00_Bases/03_Tecnicas`, excluido README |
-| Identificadores | Último identificador de la secuencia reciente: `REC-0591` (representación numérica; `REC-591` en Front Matter). `REC-0592` es candidato sujeto a verificación de unicidad y del árbol actual. El validador global verifica 887 IDs exactos; no se ha evaluado exhaustivamente equivalencia con ceros iniciales ni duplicidad conceptual. |
-| Working tree local | No comprobado; el estado remoto no demuestra que el repositorio local esté limpio |
+| Rama principal | `main`, consultada el 2026-11-19 después de #228 |
+| Última versión publicada | [`v1.5.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.5.0), 2026-08-02; sin nueva release |
+| Fase estratégica | Consolidación y explotación; revisión dirigida del extractor completada, indexación pendiente |
+| Última PR fusionada | [#228](https://github.com/fran-eliot/NovaCoquinaria/pull/228) |
+| Commit comprobado | [`60d4a7a508f19ae382d9b66a355a3ee4e2bc9629`](https://github.com/fran-eliot/NovaCoquinaria/commit/60d4a7a508f19ae382d9b66a355a3ee4e2bc9629) |
+| PR abiertas | Ninguna en la consulta del corte |
+| Integridad | [Knowledge integrity](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44504038511): success |
+| Auditoría | [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44504038182): success; 52 pruebas, 0 advertencias semánticas, 0 huérfanos globales |
+| Despliegue | [Deploy MkDocs site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44504038351): success |
+| Inventario Markdown | 924 archivos |
+| Recetas | 590 rutas y 590 documentos extraídos; Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
+| Despensa y técnicas | 126 fichas de ingrediente y 52 técnicas por ruta, excluidos índices y BACKLOG |
+| Identificadores | Última secuencia editorial REC-0591 (Front Matter REC-591); REC-0592 candidato sujeto a verificar |
+| Working tree local | No comprobado |
 
-Los recuentos son **inventario de rutas en el árbol remoto de `main` al cierre de la PR #202**, no una auditoría semántica ni una prueba culinaria. Los **590 archivos de recetas** no deben interpretarse como 590 elaboraciones realizadas: numerosas fichas siguen marcadas como propuestas pendientes de prueba. Los controles CI acreditan las comprobaciones automáticas que ejecutan, no pruebas prácticas en cocina.
+El inventario procede del árbol remoto y la ejecución del corte; no significa que 590 recetas hayan sido cocinadas. Las versiones de herramientas no son releases del proyecto. El contrato de datos está en [CONTRATO_DE_DATOS_DE_RECETAS](../specifications/knowledge/CONTRATO_DE_DATOS_DE_RECETAS.md).
 
 ## 3. Evolución y decisiones relevantes
 
@@ -108,17 +105,28 @@ Los recuentos son **inventario de rutas en el árbol remoto de `main` al cierre 
 - **#201:** cinco recetas de Verduras; 7 avisos.
 - **#202:** siete recetas de Arroces, Pastas, Legumbres, Carnes y Cocina Asiática; 0 avisos confirmados en main. Se preservaron formulaciones, estados de prueba y reglas del auditor.
 
+### Actualización de continuidad: PRs #203–#228
+
+- #203: kit v1.7.0 y cierre del primer ciclo de relaciones.
+- #204–#210: revisión dirigida AUD-01–AUD-06, rutas canónicas, denominadores, coincidencias léxicas y precedencia de asociaciones; cierre con deuda residual.
+- #211–#212: deuda editorial selectiva; ficha ING-0126 de harina de maíz no precocida.
+- #213–#214: contrato de datos 0.1.0 y casos de aceptación.
+- #215–#219: prototipo de extracción de metadatos, ingredientes, cantidades, procedimientos, evidencia, rendimientos, tiempos y referencias; informe de cobertura.
+- #220–#222: línea base y revisión de 18 fichas con carencias de reconocimiento EXT-01.
+- #223–#225: candidatos léxicos, muestras trazables y ampliación dirigida de alias EXT-02.
+- #226–#228: evidencia doméstica con alcance (EXT-03), formatos declarados de rendimiento y tiempo (EXT-04), cantidades y opcionalidad (EXT-05).
+
 Las PR aportan crecimiento editorial; su fusión y sus validaciones técnicas no prueban que las recetas se hayan cocinado. Los detalles por ficha se consultan en el índice de cada módulo.
 
 La [Bitácora](./BITACORA.md) mantiene los hitos que cambian la identidad o trayectoria del proyecto. No debe convertirse en un registro cotidiano de PRs, commits o correcciones.
 
 ## 4. Capacidades y alcance real
 
-**Disponibles o documentadas:** auditoría automatizada con informes por commit; organización por dominios y entidades Markdown con Front Matter, IDs, enlaces, tablas y plantillas; validadores estructurales; Knowledge Graph y herramientas de análisis semántico; MkDocs y documentación de arquitectura, gobernanza y especificaciones.
+**Disponibles o documentadas:** contrato de datos 0.1.0, extractor 0.4.6 en etapa recipe_projection_preview, informes reproducibles de cobertura y candidatos de identidad; auditoría automatizada con informes por commit; organización por dominios y entidades Markdown con Front Matter, IDs, enlaces, tablas y plantillas; validadores estructurales; Knowledge Graph y herramientas de análisis semántico; MkDocs y documentación de arquitectura, gobernanza y especificaciones.
 
 **En consolidación e incorporación selectiva:** el conocimiento culinario reutilizable en `00_Bases`, `01_Arroces`, `02_Pastas`, `03_Legumbres`, `04_Verduras`, `05_Carnes`, `06_Pescados_y_Mariscos`, `07_Cocina_Asiatica`, `08_Postres`, `09_Bebidas`, `10_Horno`, `11_Despensa`, `12_Plantillas` y `98_Tablas`. La expansión reciente ha dado especial profundidad a ingredientes y sus vínculos con recetas y técnicas.
 
-**Futuras o solo especificadas:** backend, API, gestor de despensa, planificación, compra inteligente, Runtime operativo, RAG/GraphRAG y agentes. No confundir una especificación con una función implementada.
+**Futuras o solo especificadas:** índice reconstruible de recetas y motor de consultas (siguiente etapa), backend, API, gestor de despensa, planificación, compra inteligente, Runtime operativo, RAG/GraphRAG y agentes. No confundir una especificación con una función implementada.
 
 **Documentación de gestión desfasada respecto al contenido:** [PROJECT_STATUS](./PROJECT_STATUS.md) se actualizó en #195, antes de la primera línea base observada; el [BACKLOG de Despensa](../../11_Despensa/BACKLOG.md) contiene casillas históricas sin sincronizar con numerosas fichas existentes. Utilizarlos como contexto, no como inventario actual hasta su revisión. No modificar sus declaraciones históricas mediante una actualización del kit.
 
@@ -178,22 +186,23 @@ El workflow [Knowledge audit](../../.github/workflows/knowledge-audit.yml) gener
 
 Todas las tasas de enlaces de dominio son 100 % según el auditor; Currys conserva un documento sin referencias salientes dentro de su diagnóstico, distinto del indicador global de huérfanos. El informe generado versionado de agosto sigue siendo histórico. Los resultados recientes provienen del registro del job, no de la inspección íntegra del ZIP.
 
-### Prioridades de continuidad
+### Línea base vigente de extracción y prioridades
 
-1. Revisar alcance y reglas de auditoría: dominios frente a módulos físicos, rutas canónicas de Cocina Asiática, Bebidas y Horno, significado de las asociaciones PRIMARY/SECONDARY/MENTION y métrica de cobertura. Mantener comparación con la línea base y evitar elevar artificialmente la madurez.
-2. Registrar y abordar deuda editorial selectiva: diagnósticos genéricos en semifrío, tiramisú, pipirrana, porra y raviolis; conservación ajena al contenido de doenjang jjigae; retirada de laurel del escabeche de pavo; ausencia de ficha específica de harina de maíz no precocida. No confundir este conjunto observado con un inventario exhaustivo.
-3. Preparar contrato de datos de recetas a partir de muestras representativas, preservando ID original, procedencia, estados de evidencia, unidades y cantidades ausentes o ambiguas.
-4. Prototipar ingesta e indexación reconstruibles desde Markdown, con trazabilidad y errores explícitos; evaluar consultas por ingredientes y metadatos. La elección de tecnologías de persistencia, API y plataforma queda pendiente de evaluación.
+Corte #228: 590/590 recetas con ingredientes y pasos reconocidos; 5.047 ocurrencias de ingredientes, 4.283 cantidades numéricas, 658 sin cantidad reconocida, 105 cualitativas, 1 ambigua. Hay 36 identidades explícitas y 1.044 candidatos únicos entre las 5.011 entradas sin resolver (20,83 %); 3.967 entradas sin resolver ni candidato. Opcionalidad: 4.493 requeridas, 540 opcionales y 14 indeterminadas. Rendimiento declarado 587/590, numérico 492/590; duraciones declaradas 386/590, alguna numérica 284/590; 437/600 declaraciones temporales numéricas. Evidencia: 6 prepared, 373 pending, 211 unknown. Referencias: 2.543 ocurrencias, 2.497 internas resueltas por ruta, 2.100 con ID y 46 externas. No equivale a precisión, exhaustividad ni validación práctica.
 
+1. Definir alcance y contrato del índice derivado de recetas: identidad exacta, metadatos, módulos físicos, ingredientes textuales, identidad explícita y candidatos separados, procedencia y evidencia.
+2. Construir un índice reconstruible y determinista sobre la proyección de un commit, con comprobaciones de consistencia y pruebas; Markdown continúa siendo fuente canónica.
+3. Evaluar consultas reproducibles por ID, ingredientes y metadatos. Distinguir tiempos totales declarados de fases, no inferir duración completa, y conservar incertidumbre.
+4. Registrar limitaciones y contrastar muestras. La revisión EXT-01–EXT-05 fue dirigida; no se exige cobertura artificial del 100 %. No se selecciona persistencia, API, RAG o agentes ni se autoriza una release.
 
 ## 7. Recuperación del estado antes de un nuevo incremento
 
-1. Consultar el `main` remoto y contrastar su commit vigente con `78518ab3b43ac9267c06cf250e7bffbc14dd730c` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
-2. Revisar si la última PR conocida ([#202](https://github.com/fran-eliot/NovaCoquinaria/pull/202)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
+1. Consultar el `main` remoto y contrastar su commit vigente con `60d4a7a508f19ae382d9b66a355a3ee4e2bc9629` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
+2. Revisar si la última PR conocida ([#228](https://github.com/fran-eliot/NovaCoquinaria/pull/228)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
 3. Leer este kit junto con [PROJECT_STATUS](./PROJECT_STATUS.md), [ROADMAP](./ROADMAP.md), [BITACORA](./BITACORA.md), [RELEASES](./RELEASES.md), [CONSOLIDACION_CONOCIMIENTO](./CONSOLIDACION_CONOCIMIENTO.md), [EVOLUCION_DE_RECETAS](./EVOLUCION_DE_RECETAS.md), [RECETAS_COCINADAS](./RECETAS_COCINADAS.md) y los índices del módulo en cuestión.
 4. Antes de redactar, revisar el árbol completo de `main` y detectar solapamientos por **nombre, ingrediente, técnica y tradición regional**, no solo por el nombre exacto del archivo. Distinguir las variantes de una misma familia de platos y explicar las diferencias cuando sea pertinente.
 5. Comprobar todos los identificadores de receta vigentes. La serie reciente llega a `REC-0591` (Front Matter `REC-591`) en este corte; `REC-0592` es **solo candidato** si continúa libre, y nunca un ID reservado irrevocablemente. Recalcular también recuentos de ficheros antes de reutilizarlos.
-6. Priorizar la revisión de cobertura y reglas de auditoría y la deuda editorial selectiva, después el contrato de datos y los prototipos de consumo según ROADMAP y CONSOLIDACION_CONOCIMIENTO. Incorporar nuevas recetas selectivamente y mantener su estructura y evidencia de elaboración.
+6. Priorizar el índice reconstruible y las consultas según el contrato de datos y CONSOLIDACION_CONOCIMIENTO; ROADMAP y PROJECT_STATUS conservan un corte anterior. Incorporar nuevas recetas selectivamente y mantener su estructura y evidencia de elaboración.
 7. Cuando se introduzcan antecedentes de recetas que el propietario haya cocinado, preservar su versión principal y su valoración comprobada. No dar por mejor una versión posterior ni trasladar cantidades antiguas a otra sin evidencia.
 8. Crear una rama temática desde el `main` actualizado, incorporar fichas e índices coherentes, comprobar enlaces y abrir una PR. Entregar el enlace directo de la PR y revisar el resultado de GitHub Actions. El propietario revisa, fusiona y elimina la rama remota; no hacerlo en su lugar.
 9. Reservar las actualizaciones de gestión, continuidad o integridad para PR específicas cuando corresponda, sin completar artificialmente tandas con fichas que no aporten valor.
@@ -202,21 +211,19 @@ Todas las tasas de enlaces de dominio son 100 % según el auditor; Currys conser
 
 ## 8. Registro del corte y siguiente actualización
 
-| Campo | Valor en el corte de 2026-11-18 |
+| Campo | Valor en el corte de 2026-11-19 |
 |---|---|
-| Última PR fusionada observada | [#202](https://github.com/fran-eliot/NovaCoquinaria/pull/202) |
-| Commit de `main` | `78518ab3b43ac9267c06cf250e7bffbc14dd730c` |
-| Últimos aportes | Cierre comprobado de 37 avisos iniciales mediante #198–#202; últimas seis fichas nuevas REC-0586–REC-0591 (#193) |
+| Última PR fusionada observada | [#228](https://github.com/fran-eliot/NovaCoquinaria/pull/228) |
+| Commit de main | `60d4a7a508f19ae382d9b66a355a3ee4e2bc9629` |
+| Últimos aportes | Contrato, extracción 0.4.6, cobertura y revisión dirigida EXT-01–EXT-05 |
 | PR abiertas al realizar la consulta | Ninguna |
-| Workflows del merge #202 | `Knowledge integrity`, `Knowledge audit` y `Deploy MkDocs site`: **success** |
-| Última release publicada | `v1.5.0` (2026-08-02) |
-| Próximo identificador | `REC-0592`, únicamente como candidato sujeto a verificar unicidad y estado del repositorio |
-| Siguiente prioridad | Revisión de cobertura y reglas por dominios; deuda editorial selectiva; preparación del contrato de datos |
-| Controles no realizados | Auditoría exhaustiva de duplicidades conceptuales y equivalencias de IDs, revisión culinaria práctica, inspección íntegra del ZIP y comprobación del working tree local |
+| Workflows del merge #228 | Knowledge integrity, Knowledge audit y Deploy MkDocs site: success |
+| Última release | v1.5.0 (2026-08-02) |
+| Próximo identificador | REC-0592, candidato sujeto a verificar |
+| Siguiente prioridad | Contrato y prototipo de índice derivado; consultas reproducibles |
+| Controles pendientes | Contraste individual de los JSON, precisión/exhaustividad de extracción, revisión práctica, duplicidades conceptuales y working tree local |
 
-**Inventario de este corte:** 922 archivos Markdown; 590 fichas de recetas distribuidas en diez módulos; 125 fichas de Despensa (excluidos README/BACKLOG); 52 técnicas (excluido README). Los recuentos son por rutas y no prueban validación culinaria.
-
-Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o los recuentos como si fueran dinámicos.
+Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o recuentos como si fueran dinámicos.
 
 ---
 
