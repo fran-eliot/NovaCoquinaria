@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.20.0
+version: 1.21.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -647,3 +647,7 @@ El [job de #236](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44514
 ## Cierre técnico propuesto de recuperación textual — 2026-11-19
 
 Las PR #237–#241 documentan RET-D01–D04; #242 delimita la alternativa A y #243–#245 integran las unidades A–C. El [alcance de entrega](./ALCANCE_RECUPERACION_TEXTUAL.md) registra la matriz RET-01–RET-14 y el [contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md) documenta la interfaz de consultas 0.2.0. Evidencia del [job de #245](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44520878705/job/135548859640): 102 pruebas, 68 comparaciones con recorrido independiente, 34 con experimento, 18 casos documentales y 16 casos de regresión por corpus, cero advertencias y huérfanos. El snapshot de CI difiere del merge definitivo. Se mantiene extractor 0.4.6, índice 0.2.0 y Markdown canónico. No se incorporan folded ni los 72 candidatos experimentales. El resultado acredita recuperación textual acotada, no precisión semántica exhaustiva ni disponibilidad de despensa. Cierre sujeto a revisión de la unidad D; sin nueva release.
+
+## Confirmación de cierre técnico — 2026-11-19
+
+#246 fusionada en `d1aca80a3ff4e39fa1868d36137c22d491d6c893`; ambos workflows de PR satisfactorios. El [job](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) repite 102 pruebas, 68 comparaciones directas, 34 con experimento, 18 casos fijados y 16 casos previos por corpus; 590 huellas verificadas, cero avisos y huérfanos. Corte sintético 7249024567f5f74d0dd6c6c7d9d78babf62ab67a. La recuperación textual acotada queda integrada sin nueva release. Siguiente prioridad: revisión estratégica global; no se selecciona la siguiente capacidad. La inspección íntegra de artefactos y la precisión culinaria siguen fuera de la evidencia.
