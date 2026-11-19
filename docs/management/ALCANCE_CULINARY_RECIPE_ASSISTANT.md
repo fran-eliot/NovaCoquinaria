@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.6
+version: 0.1.7
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -147,3 +147,7 @@ Estado: implementación completa y validación técnica dirigida superada; acept
 La carga pública de la receta Ternera con salsa de ostras quedó observada mediante captura del propietario; el contexto y los ingredientes mostraban sintaxis Markdown literal. Se incorpora un renderer DOM acotado para encabezados, listas, tablas, separadores, énfasis y etiquetas de enlaces; no interpreta HTML ni activa URL del Markdown. Los enlaces operativos a ficha y técnicas siguen validados. Se conserva el cuerpo original y se permite plegar el contexto, abierto inicialmente. La información técnica queda en un desplegable.
 
 La URL principal contiene únicamente id. El manifiesto del despliegue actual determina commit y huella de índice, y se comprueba contra el registro y su SHA-256; el build contrasta con Explorer. Las URLs anteriores con commit e index siguen validándose si se proporcionan ambos y se normalizan tras cargar. La URL corta apunta a la versión vigente, no fija un snapshot. Se comprueban presentación y navegación en Chromium. No se altera el contenido canónico ni la release. La captura acredita la carga pública previa al refinamiento, no la publicación de estos cambios ni una prueba culinaria completa.
+
+## Coherencia de recursos estáticos
+
+Tras #283 se observó un rechazo de parámetros en el sitio servido pese a que main y gh-pages contenían el consumidor compatible con ID corto. La hipótesis principal es mezcla de módulos de distinta generación en caché; no se ha inspeccionado la respuesta HTTP del navegador afectado. El build asigna nombres derivados de una huella conjunta de los siete recursos estáticos de Explorer y Assistant, incluidas dependencias, y reescribe las referencias de ambas plantillas. Se conservan las rutas originales para compatibilidad; no se altera el contrato de datos. Se verifican referencias y solicitudes de módulos versionados. Las páginas HTML siguen siendo susceptibles de caché; la comprobación pública se mantiene pendiente.
