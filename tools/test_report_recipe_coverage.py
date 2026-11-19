@@ -1,5 +1,5 @@
 import unittest
-from report_recipe_coverage import coverage, summarize
+from report_recipe_coverage import coverage, summarize, structural_gaps
 
 
 def record(identity="REC-1", module="01_Arroces"):
@@ -41,3 +41,17 @@ class CoverageTests(unittest.TestCase):
         p["inventory"]["recipe_documents"]=3
         with self.assertRaises(ValueError):
             coverage(p)
+
+
+    def test_structural_gap_review(self):
+        first=record()
+        first["ingredients"]=[]
+        first["sections"]=[{"heading":"Preparación","source_location":{"start_line":10,"end_line":15}}]
+        second=record("REC-2")
+        second["steps"]=[{}]
+        result=structural_gaps([second,first])
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]["missing"],["ingredients","steps"])
+        self.assertEqual(result[0]["id"],"REC-1")
+        self.assertEqual(result[0]["headings"][0]["heading"],"Preparación")
+        self.assertEqual(result[0]["headings"][0]["source_location"]["start_line"],10)

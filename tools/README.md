@@ -164,3 +164,7 @@ python tools/report_recipe_coverage.py --input site/knowledge-audit/recipe_metad
 ```
 
 El informe presenta presencia de campos por receta, distribución de estados de cantidades y evidencia, resolución explícita de ingredientes y referencias, diagnósticos por módulo y fichas afectadas. Cada proporción declara numerador y denominador; sin observaciones el porcentaje es nulo. Se cuentan ocurrencias, no ingredientes únicos. Las referencias internas excluyen enlaces externos y anclas locales. Los resultados miden reconocimiento del extractor, no exhaustividad de las listas originales, precisión semántica o calidad culinaria. Knowledge audit incluye el informe derivado y un resumen en consola.
+
+### Revisión de formatos no reconocidos (EXT-01)
+
+El informe incluye structural_gaps: lista de recetas sin ingredientes o pasos extraídos, con ID literal, ruta, campos afectados y encabezados con localizadores. La misma información se muestra en el resumen de CI para permitir revisión dirigida de las fuentes sin descargar el artefacto completo. No establece si falta información en el Markdown o si el formato no se reconoce; esa conclusión requiere inspeccionar las fichas.
