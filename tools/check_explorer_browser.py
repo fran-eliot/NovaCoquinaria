@@ -30,7 +30,7 @@ def exercise(site):
                 base = f"http://127.0.0.1:{server.server_port}/NovaCoquinaria/"
                 page.goto(base + "index.html")
                 page.get_by_role("link", name="Abrir el explorador culinario").click()
-                expect(page.locator("#controls")).to_be_enabled(timeout=15000)
+                expect(page.locator("#title")).to_be_enabled(timeout=15000)
                 expect(page.locator("#status")).to_contain_text(str(catalog["recipe_count"]))
                 expect(page.locator("#results article")).to_have_count(min(24, catalog["recipe_count"]))
                 assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
@@ -51,7 +51,7 @@ def exercise(site):
                 assert page.url.startswith(base) and page.url.endswith(".html")
                 expect(page.locator("h1").first).to_be_visible()
                 page.goto(base + "culinary-explorer.html")
-                expect(page.locator("#controls")).to_be_enabled()
+                expect(page.locator("#title")).to_be_enabled()
                 page.locator("#title").fill("noexistexyz")
                 page.get_by_role("button", name="Buscar", exact=True).click()
                 expect(page.locator("#status")).to_contain_text("No hay recetas")
@@ -67,7 +67,11 @@ def exercise(site):
                 failed.route("**/culinary_explorer.json", lambda route: route.abort())
                 failed.goto(base + "culinary-explorer.html")
                 expect(failed.locator("#status")).to_contain_text("No se pudo cargar")
-                expect(failed.locator("#controls")).to_be_disabled()
+                expect(failed.locator("#controls")).to_have_attribute("disabled", "")
+                for field in ("#title", "#title-mode", "#ingredients", "#module", "#evidence"):
+                    expect(failed.locator(field)).to_be_disabled()
+                expect(failed.get_by_role("button", name="Buscar", exact=True)).to_be_disabled()
+                expect(failed.get_by_role("button", name="Limpiar filtros")).to_be_disabled()
                 browser.close()
         finally:
             server.shutdown()
