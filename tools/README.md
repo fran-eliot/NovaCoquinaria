@@ -172,3 +172,7 @@ El informe incluye structural_gaps: lista de recetas sin ingredientes o pasos ex
 ### Formatos de ingredientes y preparación (0.4.1)
 
 Se amplía el reconocimiento a encabezados descriptivos de las fichas afectadas por EXT-01, a Preparación y a encabezados de elaboración principal o propuesta. Se conserva la primera preparación principal reconocida; una elaboración alternativa de nivel equivalente permanece como sección, no se concatena a los pasos principales. Los separadores horizontales dentro de ingredientes no interrumpen grupos. Se reconocen bloques «Opcionalmente» y líneas cuantificadas de proteína en ingredientes estructurales. No se expanden plantillas ni se resuelven variantes automáticamente. Las pruebas fijan las 18 fichas observadas en el corte de revisión dc43b6b7d89d37884e2e602cca97a1cfac1e4482.
+
+### Candidatos de identidad (0.4.2)
+
+Se comparan nombres extraídos completos con títulos de fichas de ingrediente del snapshot y un conjunto inicial de alias revisados (cebollas, salsa de soja clara/oscura y formatos de leche de coco). Cada candidato conserva ID, ruta, etiqueta y método. No se cambia ingredient_id ni resolution; un candidato único no equivale a identidad confirmada. No se aplican subcadenas, coincidencia difusa, singularización general ni eliminación de alternativas. El informe distingue candidatos simples/múltiples y proporción entre entradas sin resolver. Se requiere evaluación de muestras antes de ampliar reglas.

@@ -42,6 +42,8 @@ def summarize(records):
         "quantity_status":distribution(quantities,"status"),
         "quantity_numeric":metric(sum(q["status"] in ("exact","range") for q in quantities),len(quantities)),
         "ingredient_resolution":distribution(ingredients,"resolution"),
+        "ingredient_candidate_status":distribution(ingredients,"candidate_status"),
+        "unresolved_with_candidates":metric(sum(i["resolution"]=="unresolved" and bool(i.get("identity_candidates")) for i in ingredients),sum(i["resolution"]=="unresolved" for i in ingredients)),
         "ingredient_explicit":metric(sum(i["resolution"]=="explicit" for i in ingredients),len(ingredients)),
         "optionality":distribution(ingredients,"optionality"),
         "duration_lines":len(durations),

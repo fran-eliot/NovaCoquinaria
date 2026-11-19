@@ -17,9 +17,10 @@ from common import ROOT_DIR, requires_frontmatter
 from extract_recipe_ingredients import extract_ingredients
 from extract_recipe_content import extract_content
 from extract_recipe_details import general_fields, extract_references
+from ingredient_identity_candidates import build_catalog, annotate
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.4.1"
+EXTRACTOR_VERSION = "0.4.2"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 
@@ -118,6 +119,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
     recipes_outside_modules = []
     paths = snapshot_paths(root, commit)
     ingredient_lookup = {}
+    ingredient_documents = {}
     document_lookup = {}
     known_paths = {p.decode('utf-8') for p in git(root, 'ls-tree', '-r', '-z', '--name-only', commit).split(b'\0') if p}
     recipe_sources = {}
@@ -134,6 +136,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
                 document_lookup[path] = fields['id']
             if fields and fields.get('tipo') == 'ingrediente' and isinstance(fields.get('id'), str):
                 ingredient_lookup[path] = fields['id']
+                ingredient_documents[path] = fields
             if module_path:
                 paths_without_recipe.append(path)
                 # Una fuente culinaria sin Front Matter no puede clasificarse.
@@ -163,9 +166,11 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
                     "description": "Posible equivalencia de formato; IDs conservados: "
                                    + ", ".join(sorted(r["id"] for r in group)),
                 })
+    catalog = build_catalog(ingredient_documents)
     for record in records:
         path = record['source']['path']
         entries, diagnostics = extract_ingredients(recipe_sources[path], path, ingredient_lookup)
+        annotate(entries, catalog)
         record['ingredients'] = entries
         record['diagnostics'].extend(diagnostics)
         content, content_diagnostics = extract_content(recipe_sources[path])
