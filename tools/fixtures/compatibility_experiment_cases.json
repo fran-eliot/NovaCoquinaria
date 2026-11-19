@@ -1,0 +1,98 @@
+{
+  "source_commit": "c0dd020dea003d8a4f7a0278a43f30d81501a7f0",
+  "projection_sha256": "d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c",
+  "recipe_id": "REC-0023",
+  "path": "05_Carnes/curry_verde_de_pollo.md",
+  "atomic": [
+    [
+      1,
+      "ING-0012"
+    ],
+    [
+      2,
+      "ING-0024"
+    ],
+    [
+      8,
+      "ING-0007"
+    ],
+    [
+      9,
+      "ING-0002"
+    ]
+  ],
+  "cases": [
+    {
+      "id": "E01",
+      "mode": "open",
+      "present_ids": [
+        "ING-0012"
+      ],
+      "absent_ids": [
+        "ING-0007"
+      ],
+      "presentation": [
+        1
+      ],
+      "expected": {
+        "1": "available",
+        "2": "unknown",
+        "8": "unavailable",
+        "9": "unknown"
+      },
+      "classification": "required_missing"
+    },
+    {
+      "id": "E02",
+      "mode": "closed",
+      "present_ids": [
+        "ING-0012",
+        "ING-0024"
+      ],
+      "absent_ids": [],
+      "presentation": [
+        1
+      ],
+      "expected": {
+        "1": "available",
+        "2": "unknown",
+        "8": "unavailable",
+        "9": "unavailable"
+      },
+      "classification": "required_missing"
+    },
+    {
+      "id": "E03",
+      "mode": "open",
+      "present_ids": [
+        "ING-0012"
+      ],
+      "absent_ids": [],
+      "presentation": [],
+      "expected": {
+        "1": "unknown",
+        "2": "unknown",
+        "8": "unknown",
+        "9": "unknown"
+      },
+      "classification": "indeterminate"
+    }
+  ],
+  "additional": [
+    {
+      "recipe_id": "REC-0071",
+      "path": "07_Cocina_Asiatica/curry_verde_de_pollo.md",
+      "position": 1,
+      "expected": "unknown",
+      "candidate": "ING-0012",
+      "label": "leche de coco;"
+    },
+    {
+      "recipe_id": "REC-0117",
+      "path": "02_Pastas/fusilli_atun_limon_alcaparras.md",
+      "position": 0,
+      "expected": "unknown",
+      "label": "fusilli o penne secos"
+    }
+  ]
+}
