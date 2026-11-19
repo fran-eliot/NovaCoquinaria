@@ -107,7 +107,9 @@ def version_application_assets() -> None:
              "culinary-explorer.css", "recipe-assistant-ui.mjs",
              "recipe-assistant-session.mjs", "recipe-assistant-markdown.mjs",
              "recipe-assistant.css", "culinary-pantry.css", "culinary-pantry-ui.mjs",
-             "culinary-pantry-model.mjs", "culinary-pantry-persistence.mjs", "culinary-pantry-transfer.mjs")
+             "culinary-pantry-model.mjs", "culinary-pantry-persistence.mjs", "culinary-pantry-transfer.mjs",
+             "culinary-shopping.css", "culinary-shopping-ui.mjs", "culinary-shopping-model.mjs",
+             "culinary-shopping-persistence.mjs", "culinary-shopping-recipe-transfer.mjs")
     originals = {name: (assets / name).read_bytes() for name in names}
     digest = hashlib.sha256()
     for name, raw in sorted(originals.items()):
@@ -123,7 +125,7 @@ def version_application_assets() -> None:
             hashed = f"{target.stem}.{version}{target.suffix}"
             content = content.replace(f'"./{imported}"', f'"./{hashed}"')
         destination.write_bytes(content.encode("utf-8"))
-    for page in ("culinary-explorer.html", "recipe-assistant.html", "culinary-pantry.html"):
+    for page in ("culinary-explorer.html", "recipe-assistant.html", "culinary-pantry.html", "culinary-shopping.html"):
         path = SITE_DOCS / page
         content = path.read_text(encoding="utf-8")
         for name in names:
@@ -152,6 +154,7 @@ def build_explorer_page() -> None:
         (target / name).write_bytes(data)
     shutil.copy2(ROOT / "tools/templates/recipe-assistant.html", SITE_DOCS / "recipe-assistant.html")
     shutil.copy2(ROOT / "tools/templates/culinary-pantry.html", SITE_DOCS / "culinary-pantry.html")
+    shutil.copy2(ROOT / "tools/templates/culinary-shopping.html", SITE_DOCS / "culinary-shopping.html")
     version_application_assets()
 
 

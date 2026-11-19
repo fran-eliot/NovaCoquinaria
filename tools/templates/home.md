@@ -25,6 +25,8 @@ Si es tu primera visita, este es el recorrido recomendado:
 
 ## Aplicaciones culinarias
 
+[**Abrir mis compras**](culinary-shopping.html) — organiza listas personales y revisa ingredientes seleccionados de recetas.
+
 [**Abrir mi despensa**](culinary-pantry.html) — gestiona tu inventario personal en este navegador.
 
 

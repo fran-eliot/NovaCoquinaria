@@ -1,5 +1,6 @@
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
 
+import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
 import {inline, renderMarkdown} from "./recipe-assistant-markdown.mjs";
 
 const $ = id => document.getElementById(id);
@@ -94,6 +95,20 @@ function renderRecipe(r) {
     r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
   if(!r.durations.length) $("durations").append(node("li","Tiempos no declarados o no reconocidos."));
+  const shoppingChecks=[];
+  for(const e of r.ingredients){
+    const label=node("label",undefined,"check-row"),check=node("input");
+    check.type="checkbox";label.append(check,node("span",e.raw));$("shopping-selection").append(label);
+    shoppingChecks.push({check,position:e.position});
+  }
+  $("send-shopping").disabled=!shoppingChecks.length;
+  $("send-shopping").addEventListener("click",()=>{
+    try{
+      const selection=createRecipeSelection(r,shoppingChecks.filter(x=>x.check.checked).map(x=>x.position));
+      if(!confirm("¿Abrir compras? Se perderá el progreso de preparación de esta página."))return;
+      putRecipeSelection(()=>window.sessionStorage,selection);location.assign("culinary-shopping.html");
+    }catch(e){$("shopping-status").textContent=e.message;}
+  });
   let group=null;
   const inputs=[];
   for(const e of r.ingredients) {
