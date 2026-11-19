@@ -84,6 +84,8 @@ jobs:
         run: node --check assets/culinary-shopping-ui.mjs
       - name: Test Culinary Shopping recipe selection
         run: node --test tools/test_culinary_shopping_recipe_transfer.mjs
+      - name: Test Culinary Shopping Pantry coordinator
+        run: node --test tools/test_culinary_shopping_pantry_coordinator.mjs
       - name: Test Culinary Shopping persistence
         run: node --test tools/test_culinary_shopping_persistence.mjs
       - name: Test Culinary Shopping model
