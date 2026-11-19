@@ -2,7 +2,7 @@
 id: DOC-REVISION-ESTRATEGICA-CULINARIA-2026
 titulo: Revisión estratégica global del conocimiento culinario
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -39,7 +39,7 @@ Consumidor determinista de solo lectura del índice derivado y una lista declara
 
 ## Investigación propuesta
 
-- CCE-D01: casos de uso, entradas, fronteras y criterios de evaluación.
+- [CCE-D01: casos de uso, entradas, fronteras y criterios de evaluación](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md).
 - CCE-D02: contraste de identidades, revisión individual de los 72 candidatos y gobernanza de reglas; analizar si cubren casos de uso relevantes.
 - CCE-D03: alternativas de representación y compatibilidad, estados desconocidos, política de inventario abierto/cerrado y opcionalidad.
 - CCE-D04: experimento aislado con corpus fijado, expectativas documentales independientes, negativos y casos ambiguos; comparar con recorrido de referencia, medir abstenciones y errores, sin extrapolar precisión global.
