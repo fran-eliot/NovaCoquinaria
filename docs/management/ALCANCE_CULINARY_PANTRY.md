@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PANTRY-2026
 titulo: Alcance de entrega de Culinary Pantry
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -65,3 +65,13 @@ No se abre un ciclo de investigación independiente. Exclusiones: compatibilidad
 - [Culinary Explorer](./ALCANCE_CULINARY_EXPLORER.md)
 - [Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md)
 - [Deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md)
+
+## Unidad A — Modelo de inventario declarado
+
+El módulo `assets/culinary-pantry-model.mjs` define el documento de esquema 0.1.0 con schema_version y entries, un máximo de 2000 entradas y campos exactos id, name, quantity, unit, category, location, date_type, date y notes. ID opaco de 1–80 caracteres ASCII alfanuméricos, guion o guion bajo, único en el inventario; su generación corresponde al consumidor. Nombre obligatorio hasta 160 caracteres, categoría opcional hasta 80, unidad hasta 40 y notas hasta 1000 (admite salto de línea). Se rechazan textos vacíos, espacios exteriores y controles no admitidos. Los campos opcionales ausentes son null.
+
+La cantidad es un decimal positivo literal con punto, hasta nueve cifras enteras y seis decimales, sin exponentes ni conversión a número; se conservan ceros decimales finales. Cantidad y unidad se declaran juntas. El consumidor podrá adaptar la coma decimal de entrada al punto del formato, sin modificar la magnitud. Las ubicaciones son pantry, fridge, freezer y other. Los tipos de fecha son expiry y best_before, siempre asociados a una fecha civil válida de año 0001–9999. La relación temporal past, today, future o undated no representa seguridad ni estado sanitario.
+
+Las operaciones emptyPantry, validatePantry, addEntry, editEntry y removeEntry devuelven copias, respetan orden y no fusionan lotes. filterEntries acumula filtros de nombre (subcadena), categoría (igualdad), ubicación y relación con una fecha civil explícita. Para nombre y categoría usa NFC y minúsculas, sin eliminar diacríticos. selectedMentions exige selección explícita de IDs existentes, conserva el nombre original y elimina repeticiones según esa misma normalización; no transmite cantidades ni ejecuta búsqueda. La semántica de consultas sigue perteneciendo a Explorer.
+
+Se incorporan ocho pruebas Node y su ejecución en Knowledge audit. El modelo no accede a DOM, red, almacenamiento o conocimiento canónico. Persistencia, confirmaciones, importación, interfaz y publicación quedan pendientes de las unidades B–D. La aceptación del modelo queda condicionada a CI.
