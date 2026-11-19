@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.1
+version: 3.2
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Comprobar uso público del asistente y delimitar Culinary Pantry |
+| Próximo objetivo | Implementar Culinary Pantry dentro del alcance 0.1.0 |
 
 ---
 
@@ -107,7 +107,7 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 | Requisitos culinarios | 🟡 Viabilidad representacional acotada; entrega diferida |
 | Reconocimiento de requisitos | 🟡 Viabilidad técnica acotada; entrega diferida |
 | Culinary Explorer 0.1.0 | 🟢 Publicado; aceptación técnica acotada |
-| Culinary Recipe Assistant 0.1.0 | 🟢 Integrado y desplegado; comprobación pública pendiente |
+| Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -157,7 +157,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Comprobar el recorrido público del asistente y definir el alcance de Culinary Pantry, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Implementar [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md) según su alcance acotado, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
