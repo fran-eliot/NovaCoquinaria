@@ -2,7 +2,7 @@
 id: DOC-EVOLUCION-RECUPERACION-2026
 titulo: Evolución de la recuperación del conocimiento culinario
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -63,6 +63,20 @@ Son expectativas ilustrativas, no resultados observados ni un conjunto represent
 | RET-D04 | Síntesis | Resultados por regla, límites, riesgos, coste de mantenimiento y decisión explícita sobre alcance de entrega |
 
 Medir ocurrencias y recetas únicas por separado. No presentar una muestra dirigida como estimación estadística de recall o precisión del corpus. Un resultado incremental no es necesariamente correcto; se revisará evidencia de falsos positivos y negativos. Conservar reproducibilidad, procedencia por commit y los 16 casos de consulta vigentes. Los experimentos deberían producir artefactos derivados, sin modificar fichas ni contratos de producción antes de decidir el alcance.
+
+## RET-D01 — Línea base fijada y muestras
+
+El corpus experimental queda fijado al merge #237, `c0dd020dea003d8a4f7a0278a43f30d81501a7f0`, con extractor 0.4.6 e índice 0.2.0. El fixture `tools/fixtures/retrieval_baseline_cases.json` contiene 18 expectativas parciales de seis recetas de cinco módulos, revisadas en sus fuentes. Cada caso identifica ID literal, ruta, posición de base cero, línea de origen, nombre proyectado esperado y consulta. Se contrastan la procedencia, el nombre y el resultado exacto con la reconstrucción del corte fijado; los resultados de las modalidades experimentales son expectativas, no observaciones.
+
+Modalidades a contrastar en RET-D02:
+
+- exact: comportamiento vigente (NFC, casefold, espacios; conserva puntuación y diacríticos).
+- terms: secuencia contigua de palabras completas, NFC y casefold, sin eliminar diacríticos.
+- folded: misma secuencia, con eliminación experimental de diacríticos; no se aplica a IDs.
+
+No se expanden plurales, no se unen términos separados por otras palabras y no se transforma una mención textual en identidad. Los casos incluyen puntuación, calificadores, alternativas, formas de uso, productos distintos, diacríticos y falsos positivos por subcadena. Para cada modalidad, contar ocurrencias y recetas únicas, conservar el nombre original y reportar discrepancias con las expectativas. Las muestras deliberadas no permiten estimar precisión ni exhaustividad general.
+
+La reconstrucción de este corte mediante las herramientas vigentes es una prueba de regresión de la línea base, no una obligación de mantener indefinidamente compatibilidad con todas las versiones futuras. Si cambia el extractor o el índice, versionar o adaptar explícitamente la evaluación sin reescribir las expectativas históricas. RET-D03 requiere un conjunto independiente de expectativas de identidad y fichas de Despensa contrastadas.
 
 ## Límites y decisión pendiente
 
