@@ -2,7 +2,7 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.3
+version: 2.4
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -489,6 +489,22 @@ Se separó explícitamente la recuperación de menciones de la resolución de id
 ### Impacto
 
 La evolución demuestra el valor de experimentar antes de ampliar las capacidades del SGCC. La siguiente transición puede centrarse en utilidad práctica con límites verificables, sin comprometer una plataforma completa. Véase [alcance de recuperación](./ALCANCE_RECUPERACION_TEXTUAL.md).
+
+---
+
+## 2026-11-19 · Primera aplicación pública de explotación culinaria
+
+### Qué ocurrió
+
+Culinary Explorer 0.1.0 se publicó en GitHub Pages, con carga pública observada de las 590 recetas del catálogo. Las cuatro unidades de datos, búsqueda, interfaz e integración se completaron y la validación técnica dirigida quedó registrada en el [alcance de entrega](./ALCANCE_CULINARY_EXPLORER.md).
+
+### Qué cambió
+
+NovaCoquinaria permite consultar el conocimiento desde una aplicación interactiva sin servidor de aplicación: búsqueda por título y menciones de ingredientes, filtros, evidencia y acceso a las fichas fuente.
+
+### Impacto
+
+El SGCC pasa del consumo programático a la explotación cotidiana desde el navegador, sin sustituir Markdown como fuente de verdad ni equiparar menciones con disponibilidad. La evidencia no acredita precisión culinaria exhaustiva. Se mantiene la release v1.6.0 y se prepara el alcance del asistente de recetas.
 
 ---
 
