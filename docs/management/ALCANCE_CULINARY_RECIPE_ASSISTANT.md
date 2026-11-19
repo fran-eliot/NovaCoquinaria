@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.7
+version: 0.1.8
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -151,3 +151,7 @@ La URL principal contiene únicamente id. El manifiesto del despliegue actual de
 ## Coherencia de recursos estáticos
 
 Tras #283 se observó un rechazo de parámetros en el sitio servido pese a que main y gh-pages contenían el consumidor compatible con ID corto. La hipótesis principal es mezcla de módulos de distinta generación en caché; no se ha inspeccionado la respuesta HTTP del navegador afectado. El build asigna nombres derivados de una huella conjunta de los siete recursos estáticos de Explorer y Assistant, incluidas dependencias, y reescribe las referencias de ambas plantillas. Se conservan las rutas originales para compatibilidad; no se altera el contrato de datos. Se verifican referencias y solicitudes de módulos versionados. Las páginas HTML siguen siendo susceptibles de caché; la comprobación pública se mantiene pendiente.
+
+## Cierre de incidencia — #284
+
+Merge 94150d80718b5e2aa09f360d991675311a6af998; los tres workflows de #284 finalizaron correctamente. [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44618218421) acredita la regresión y comprobaciones de recursos versionados. gh-pages e44f528a38c651323cfc776a4de7e24de935852b registra Deployed 94150d8. El propietario comunica que el asistente vuelve a funcionar. Se cierra la incidencia y la aceptación de entrega dentro de la evidencia dirigida disponible; no se ha verificado HTTP independientemente ni la causa exacta de caché, ni todos los recorridos públicos. La siguiente capacidad es [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md).
