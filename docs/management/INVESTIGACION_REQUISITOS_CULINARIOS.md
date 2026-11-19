@@ -2,7 +2,7 @@
 id: DOC-REQUISITOS-CULINARIOS-2026
 titulo: Investigación del modelo de requisitos culinarios
 tipo: gestion
-version: 0.4.0
+version: 0.4.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -168,6 +168,10 @@ Contraste adicional fijado fuera de los doce casos CRM-C01–C12, no utilizado p
 D04B fijará datos revisados y expectativas en archivos separados, ejecutará un prototipo aislado y comparará A (anotación plana) y C (árbol parcial) sobre el mismo conjunto. B se compara conceptualmente por coste de sustitución; no se exige una segunda implementación completa. Distinguir capacidad representacional de cobertura automática: medir ocurrencias anotadas, opacas, raíces, evidencia preservada, casos representables y discrepancias, no precisión clínica ni culinaria global. Añadir negativos sintéticos: conjunción de calificadores, grupo solapado, referencias inexistentes, aridad inválida, adaptación con dosis no justificada, elección sin cardinalidad y condición sin evaluar. Validar repetibilidad y ausencia de mutación del índice. Si se explora reconocimiento automático, separar sus resultados y casos no ajustados; una anotación manual no demuestra automatización. D05 decidirá si el valor justifica una entrega acotada o diferirla.
 
 No se aprueba modificación del extractor, contrato, índice, fichas, motor CCE, infraestructura ni release.
+
+## CRM-D04B — Prototipo representacional
+
+Se fijan 16 anotaciones revisadas y expectativas de forma y alcance en archivos JSON separados. El prototipo verifica corpus, huella, líneas, posiciones, aridad, tipos y partición; preserva ocurrencias y genera raíces opacas para las posiciones no anotadas. Se compara un modelo plano restringido a anotaciones atómicas por ocurrencia con el híbrido; no se implementa un modelo plano con convenciones de agrupación adicionales. El contraste no constituye reconocimiento semántico automático, ni validación independiente de cada calificador o dosis: las expectativas comprueban forma y alcance raíz. El informe CI registra cobertura manual, abstención y reproducibilidad. No se cambia ningún contrato ni motor publicado. Resultados pendientes de ejecución.
 
 ## Referencias
 
