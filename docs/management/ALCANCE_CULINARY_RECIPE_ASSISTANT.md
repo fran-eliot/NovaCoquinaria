@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -91,3 +91,11 @@ El módulo `assets/recipe-assistant-session.mjs` ofrece dos componentes puros, s
 createManualTimer(now) admite un reloj monótono inyectable (por defecto performance.now). La duración manual se expresa en minutos enteros no negativos y segundos enteros 0–59, entre un segundo y 23 h 59 min 59 s. Los estados son idle, running, paused y finished. El plazo se calcula a partir del reloj, no contando intervalos de refresco. pause conserva el tiempo restante, resume fija un nuevo plazo, cancel restaura idle y snapshot detecta vencimiento y redondea hacia arriba para la presentación en segundos. No se sustituye un temporizador activo sin cancelarlo. El temporizador no modifica pasos ni ingredientes. La interfaz deberá confirmar reinicio, cancelar temporizador al reiniciar sesión, anunciar el vencimiento y explicar límites de suspensión, recarga y cambio de receta.
 
 Se incorporan nueve pruebas Node con reloj controlado: ocurrencias duplicadas y reversibilidad, navegación y finalización independientes, aislamiento y reinicio, ausencia de pasos e inputs inválidos, plazo y redondeo, pausa/reanudación/cancelación, vencimiento previo a pausa, validación de duración/reloj e independencia respecto de la sesión culinaria. Knowledge audit las ejecuta con el Node 22 existente. La UI, el aviso real y la integración en navegador permanecen pendientes; no se cambia la versión de aplicación ni se publica una release.
+
+## Unidad C — Interfaz de preparación
+
+La plantilla `tools/templates/recipe-assistant.html` y los módulos CSS y JavaScript de assets ofrecen ingredientes en orden y por grupo, checklist reversible, mise en place explícita, rendimiento y tiempos declarados, evidencia y sus declaraciones, navegación de pasos, progreso, temporizador manual y reinicio confirmado. El cuerpo original completo se muestra como texto con un acceso directo desde la cabecera; las advertencias no dependen del paso activo. Se conserva la formulación sin interpretar Markdown como HTML. La vista incluye enlaces internos a técnicas y ficha, avisos de incertidumbre, foco visible y adaptación móvil.
+
+El acceso previsto es recipe-assistant.html?id=...&commit=...&index=..., con ID literal y procedencia del catálogo de Explorer. Se exige un único valor de cada parámetro; se contrasta el manifiesto con la procedencia recibida, se verifica pertenencia del ID, nombre de archivo SHA-256, huella de bytes de registro y coincidencia de esquema, identidad y fuente. El navegador requiere contexto seguro (HTTPS o localhost) para Web Crypto; no se descarga el catálogo completo de Explorer. No es una autenticación criptográfica del sitio, sino una comprobación de consistencia. Se comprueban rutas relativas, estructura y localizadores antes de habilitar la vista. La unidad D incorporará el enlace desde Explorer y la publicación del manifiesto/plantilla; por tanto, no se exponen enlaces nuevos en la aplicación publicada durante C.
+
+El temporizador se actualiza desde el reloj de sesión, no del número de refrescos, y anuncia cambios de estado mediante una región de estado. No promete avisos en suspensión. La sesión se pierde al recargar, salir o cambiar de receta; no hay almacenamiento. La comprobación de sintaxis se integra en Knowledge audit. Los recorridos reales, la correspondencia de enlaces y la validación de accesibilidad dirigida quedan pendientes de D.
