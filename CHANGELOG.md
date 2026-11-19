@@ -71,7 +71,15 @@ MAJOR.MINOR.PATCH
 
 # Historial
 
-## [Unreleased] — candidato v1.6.0
+## [Unreleased]
+
+### Changed
+
+- _(Vacío hasta la siguiente Release.)_
+
+---
+
+## [1.6.0] - 2026-11-19
 
 ### Added
 
