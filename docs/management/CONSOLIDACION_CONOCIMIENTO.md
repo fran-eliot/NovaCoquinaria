@@ -2,9 +2,9 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.13.0
+version: 1.14.0
 estado: borrador
-ultima_revision: 2026-11-18
+ultima_revision: 2026-11-19
 ---
 
 # Consolidación del conocimiento culinario
@@ -539,3 +539,39 @@ Se cierra el ciclo de revisión dirigida de AUD-01–AUD-06, no una auditoría e
 | Despensa | Harina de maíz no precocida | Verificar ausencia de ficha equivalente y documentar diferencias de formato antes de incorporarla |
 
 La revisión preservará formulaciones, identificadores y estados de evidencia, sin atribuir ensayos no realizados. Después se preparará el contrato de datos de recetas, con Markdown como fuente canónica. No se selecciona tecnología de persistencia ni se publica una release.
+
+## Línea base de extracción de recetas — 2026-11-19
+
+La deuda editorial selectiva quedó tratada mediante #211 y #212. Las PR #213–#218 definieron el contrato y desarrollaron la proyección de recetas; #219 incorporó su evaluación descriptiva. Corte: `98a6b820a7d8e4af6a6c47adc2b59ce0dfbd0bba`, extractor 0.4.0, contrato 0.1.0. Evidencia: [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44494184500/job/135457069946) y [artefacto temporal](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44494184500/artifacts/14514490984). El registro de consola acredita 37 pruebas superadas, cero advertencias semánticas y cero huérfanos globales.
+
+| Campo reconocido | Recetas | Total | Porcentaje |
+|---|---:|---:|---:|
+| Identidad de receta | 590 | 590 | 100 % |
+| Secciones | 590 | 590 | 100 % |
+| Categoría | 588 | 590 | 99,66 % |
+| Ingredientes | 584 | 590 | 98,98 % |
+| Pasos | 575 | 590 | 97,46 % |
+| Rendimiento declarado | 567 | 590 | 96,10 % |
+| Rendimiento numérico | 466 | 590 | 78,98 % |
+| Duraciones declaradas | 364 | 590 | 61,69 % |
+| Alguna duración numérica | 261 | 590 | 44,24 % |
+| Referencias | 590 | 590 | 100 % |
+| Evidencia reconocida | 376 | 590 | 63,73 % |
+
+Se extrajeron 4.979 ocurrencias de ingredientes: 3.963 exactas, 249 intervalos, 674 sin cantidad reconocida, 92 cualitativas y una ambigua. La proporción numérica es 4.212/4.979 (84,60 %). La resolución explícita de identidad alcanza 39/4.979 (0,78 %); 4.940 quedan sin resolver. Se reconocieron 474 entradas opcionales y 4.505 requeridas según las reglas actuales. Se interpretaron numéricamente 381/541 declaraciones temporales (70,43 %). De 2.543 enlaces extraídos, 46 son externos y 2.497 internos resueltos por ruta; 2.100 de estos últimos tienen identidad asociada. No se verificaron anclas ni significado semántico. La evidencia se distribuye en 3 prepared, 373 pending y 214 unknown.
+
+### Interpretación y prioridades
+
+| Hallazgo | Prioridad | Acción |
+|---|---|---|
+| EXT-01: 6 recetas sin ingredientes reconocidos y 15 sin pasos | Alta | Inspeccionar las rutas afectadas y contrastar formatos reales antes de ajustar reglas |
+| EXT-02: 4.940 ocurrencias de ingrediente sin identidad explícita | Alta | Mantener búsqueda textual independiente; evaluar candidatos mediante nombres y alias revisados, sin convertirlos en hechos ni modificar masivamente fichas |
+| EXT-03: 214 evidencias indeterminadas | Alta | Contrastar con declaraciones originales y registro doméstico; conservar incertidumbre, no inferir pruebas |
+| EXT-04: 101 rendimientos y 160 duraciones declarados sin interpretación numérica | Media | Revisar muestras de formatos; mantener expresiones compuestas sin sumas automáticas |
+| EXT-05: cantidades y opcionalidad | Media | Contrastar casos de ausencia, aproximación y alternativas; un solo diagnóstico de ambigüedad no prueba ausencia de errores |
+
+Las métricas son presencia y reconocimiento del extractor, no precisión, exhaustividad real ni validación culinaria. Las 590 recetas presentan al menos un diagnóstico de extracción; esto no contradice la ausencia de advertencias del auditor semántico. Los agregados proceden del log, no de inspección individual del ZIP.
+
+### Continuidad
+
+Primero identificar las fichas de EXT-01 y revisar sus formatos; ampliar la cobertura únicamente mediante cambios dirigidos con regresión. Después contrastar una muestra de ingredientes y evidencia y definir qué consultas textuales y por identidad pueden ofrecerse con sus límites. El índice deberá distinguir coincidencias textuales de identidades explícitas. No se requiere alcanzar un porcentaje arbitrario para construirlo, ni se autoriza todavía persistencia, API o nueva release.
