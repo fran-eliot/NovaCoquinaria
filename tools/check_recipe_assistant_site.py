@@ -29,8 +29,9 @@ def check_site(site):
                  "assets/recipe-assistant-markdown.mjs"):
         require((root / path).is_file(), f"Recurso ausente: {path}")
 
+    require('href="culinary-pantry.html"' in (root / "index.html").read_text(encoding="utf-8"), "Acceso a despensa ausente")
     versions = set()
-    for name in ("culinary-explorer", "recipe-assistant"):
+    for name in ("culinary-explorer", "recipe-assistant", "culinary-pantry"):
         html = (root / (name + ".html")).read_text(encoding="utf-8")
         match = re.search(r'src="assets/' + name + r'-ui\.([a-f0-9]{20})\.mjs"', html)
         require(match is not None, "Módulo de entrada sin versión")
@@ -41,7 +42,7 @@ def check_site(site):
                     f"Recurso sin versión o ausente: {href}")
     require(len(versions) == 1, "Versiones de aplicaciones distintas")
     version = versions.pop()
-    for name in ("culinary-explorer-ui", "recipe-assistant-ui"):
+    for name in ("culinary-explorer-ui", "recipe-assistant-ui", "culinary-pantry-ui", "culinary-pantry-persistence"):
         module = (root / "assets" / f"{name}.{version}.mjs").read_text(encoding="utf-8")
         for dependency in re.findall(r'from "\./([^"]+)"', module):
             require(("." + version + ".") in dependency and

@@ -23,7 +23,10 @@ Si es tu primera visita, este es el recorrido recomendado:
 4. 🧩 Conoce las plantillas reutilizables.
 5. 🍽️ Consulta las recetas.
 
-## Explorar
+## Aplicaciones culinarias
+
+[**Abrir mi despensa**](culinary-pantry.html) — gestiona tu inventario personal en este navegador.
+
 
 [**Abrir el explorador culinario**](culinary-explorer.html) — busca recetas por título, ingredientes mencionados y módulo.
 

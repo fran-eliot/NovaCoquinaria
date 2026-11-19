@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PANTRY-2026
 titulo: Alcance de entrega de Culinary Pantry
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -93,3 +93,15 @@ La plantilla culinary-pantry.html y los recursos culinary-pantry.css y culinary-
 La interfaz utiliza el adaptador de persistencia con localStorage. Muestra ausencia, carga válida y errores; ante conflicto observado o bloqueo de acceso impide modificaciones hasta recargar. Un fallo de escritura no actualiza el inventario mostrado ni confirma guardado. Exporta la última copia válida como archivo JSON mediante Blob local. La importación lee un archivo local, valida y muestra el recuento antes de la sustitución confirmada; cancelar no escribe. No se realiza ninguna petición con los datos. Ante lectura inválida no hay reparación destructiva; se puede exportar una copia previamente cargada si existe. La persistencia sigue limitada al origen/perfil y a la cuota del navegador.
 
 Las selecciones se conservan al filtrar, se eliminan al borrar una entrada y se reinician al recargar o importar. Se muestran las menciones deduplicadas derivadas del modelo; no se transfiere todavía la selección a Explorer. La plantilla no se incorpora aún al build público ni se añade acceso desde portada. La unidad D incorporará publicación versionada, transferencia local, pruebas Chromium con almacenamiento real, manejo de errores y guía de uso. Knowledge audit comprueba la sintaxis del módulo junto con las pruebas de modelo y persistencia existentes; no se acredita todavía la interacción en navegador.
+
+## Unidad D — Integración y publicación
+
+El build ordinario incorpora culinary-pantry.html y amplía el versionado conjunto de recursos estáticos de las tres aplicaciones, incluidos los módulos de modelo, persistencia y transferencia. La portada diferencia Mi despensa (inventario personal) de la despensa documental; Explorer incorpora un enlace a Mi despensa. No se genera un inventario personal durante el build.
+
+La selección explícita se transmite mediante sessionStorage en la misma pestaña, con clave exclusiva novacoquinaria.pantry.mentions y documento versionado de nombres exclusivamente. Explorer consume y elimina la selección al cargar el catálogo, precarga el campo de menciones y ejecuta su búsqueda AND habitual; los términos quedan editables. No viajan cantidades, notas o nombres en URL ni en peticiones de red. Ante error se muestra aviso y se permite introducir términos manualmente. No se garantiza continuidad de la selección al recargar Explorer.
+
+### Uso
+
+Desde la portada, abrir Mi despensa. Añadir alimentos y, opcionalmente, indicar cantidad y unidad, categoría, ubicación, tipo de fecha y notas. Filtrar el inventario y editar o eliminar entradas individuales. Exportar periódicamente una copia JSON; para recuperarla, escoger el archivo, revisar el recuento y confirmar la sustitución completa. No compartir copias que contengan información privada. Los datos pertenecen al origen y perfil del navegador; no existe sincronización ni recuperación remota. Ante conflicto, recargar; ante datos ilegibles, no se realiza sustitución automática. Seleccionar alimentos concretos y pulsar Buscar recetas para consultar menciones textuales, no compatibilidad ni suficiencia.
+
+Se añaden tres pruebas Node de transferencia y recorridos Chromium sobre el portal construido: alta, edición, lotes, filtros, fechas, recarga, exportación, importación válida e inválida, cancelación, eliminación, cambio en otra pestaña, transferencia y limpieza de selección, rechazo de almacenamiento inválido, texto no activo y ausencia de datos personales en solicitudes observadas. Se conserva la regresión de las aplicaciones existentes y el verificador de recursos versionados en CI y despliegue. Los resultados y la comprobación pública quedan pendientes; no se acredita privacidad frente a otros scripts del origen ni concurrencia atómica. No se modifica la release v1.6.0.

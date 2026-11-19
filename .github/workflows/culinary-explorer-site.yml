@@ -39,9 +39,12 @@ jobs:
         run: python tools/check_explorer_browser.py --site site --output /tmp/explorer-browser.json
       - name: Check Recipe Assistant browser journeys
         run: python tools/check_recipe_assistant_browser.py --site site --output /tmp/assistant-browser.json
+      - name: Check Culinary Pantry browser journeys
+        run: python tools/check_culinary_pantry_browser.py --site site --output /tmp/pantry-browser.json
       - uses: actions/upload-artifact@v4
         with:
           name: explorer-browser
           path: |
             /tmp/explorer-browser.json
             /tmp/assistant-browser.json
+            /tmp/pantry-browser.json

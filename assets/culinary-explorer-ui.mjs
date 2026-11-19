@@ -1,5 +1,7 @@
 import {createSearch} from "./culinary-explorer-search.mjs";
 
+import {takeMentions} from "./culinary-pantry-transfer.mjs";
+
 const $ = id => document.getElementById(id);
 const modules = {"01_Arroces":"Arroces","02_Pastas":"Pastas","03_Legumbres":"Legumbres",
   "04_Verduras":"Verduras","05_Carnes":"Carnes","06_Pescados_y_Mariscos":"Pescados y mariscos",
@@ -132,6 +134,10 @@ async function init() {
     $("provenance").textContent = "Fuente: catálogo del commit " + catalog.source_commit +
       " · esquema " + catalog.schema_version;
     $("controls").disabled = false;
+    try {
+      const terms=takeMentions(()=>window.sessionStorage);
+      if(terms){$("ingredients").value=terms.join("\n");$("pantry-notice").textContent="Menciones seleccionadas en mi despensa. Puedes modificarlas antes de buscar.";}
+    } catch { $("pantry-notice").textContent="No se pudo recuperar la selección de la despensa. Introduce los términos manualmente."; }
     run();
   } catch (error) {
     $("status").textContent = "No se pudo cargar el catálogo completo. Recarga la página o vuelve al portal.";
