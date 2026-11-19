@@ -65,7 +65,7 @@ function card({recipe,matches}) {
   link.setAttribute("href", recipeHref(recipe));
   title.append(link); article.append(title);
   article.append(element("p", modules[recipe.physical_module] + " · " + evidence[recipe.evidence.status], "meta"));
-  const params = new URLSearchParams({id:recipe.id,commit:catalog.source_commit,index:catalog.index_sha256});
+  const params = new URLSearchParams({id:recipe.id});
   const cook = element("a","Preparar receta","prepare-link");
   cook.href = "recipe-assistant.html?" + params.toString();
   article.append(cook);
