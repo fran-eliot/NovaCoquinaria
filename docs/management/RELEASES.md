@@ -2,9 +2,9 @@
 id: DOC-0013
 titulo: Releases
 tipo: gestion
-version: 2.0
+version: 2.1
 estado: estable
-ultima_revision: 2026-07-20
+ultima_revision: 2026-11-19
 ---
 
 # Releases
@@ -79,6 +79,7 @@ Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 | v1.3.0 | ✅ | Knowledge Graph |
 | v1.4.0 | ✅ | Gobernanza del conocimiento |
 | v1.5.0 | ✅ | Marco de especificaciones |
+| v1.6.0 | Candidata | Culinary Knowledge & Retrieval |
 
 ---
 
@@ -250,9 +251,36 @@ Consolidar la arquitectura documental del SGCC mediante un conjunto completo de 
 
 El SGCC dispone por primera vez de una arquitectura completamente especificada y preparada para evolucionar hacia una implementación software.
 
-### Preparó la siguiente release
+### Preparó la siguiente etapa
 
-Plataforma software.
+Expansión, consolidación y explotación del conocimiento.
+
+---
+
+## v1.6.0 · Culinary Knowledge & Retrieval (candidata)
+
+### Propósito
+
+Consolidar la expansión del patrimonio culinario y la primera capacidad de consumo programático reproducible del SGCC.
+
+### Capacidades incorporadas
+
+- Conocimiento culinario ampliado, relaciones y criterios de evidencia doméstica.
+- Auditoría reproducible por commit.
+- Contrato de datos 0.1.0, extractor 0.4.6, índice 0.2.0 y motor de consultas 0.2.0.
+- Recuperación de solo lectura por metadatos, texto exacto, términos completos, identidad explícita y candidatos, sin confundir menciones e identidades.
+
+### Impacto y evidencia
+
+El [corte de #246](./CONSOLIDACION_CONOCIMIENTO.md) registra 590 recetas, 126 fichas de ingredientes según el inventario documentado en el [kit](./NOVACOQUINARIA_KIT_CONTINUITY.md), 52 técnicas, 927 Markdown, 102 pruebas, 18 casos textuales fijados y cero advertencias semánticas y huérfanos. El snapshot auditado es distinto del merge. Los flujos del merge #248 finalizaron correctamente. Estos resultados no certifican elaboración doméstica, precisión semántica exhaustiva ni disponibilidad de ingredientes.
+
+### Límites y siguiente etapa
+
+Markdown sigue siendo canónico. No se entrega plataforma, Runtime completo, persistencia, API, RAG, gestor de despensa ni compatibilidad culinaria. La [revisión estratégica](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar esta última capacidad.
+
+### Estado
+
+Candidata a publicación. La última release oficial sigue siendo v1.5.0 hasta que se publique el nuevo tag y release sobre un commit aprobado con CI satisfactoria.
 
 ---
 
