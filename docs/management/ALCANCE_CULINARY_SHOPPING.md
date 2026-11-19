@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -67,3 +67,15 @@ Compatibilidad automática, deducción de faltantes, agregación semántica, con
 - [Culinary Explorer](./ALCANCE_CULINARY_EXPLORER.md)
 - [Roadmap](./ROADMAP.md)
 - [Deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md)
+
+## Unidad A — Modelo de listas
+
+El módulo `assets/culinary-shopping-model.mjs` define el esquema 0.1.0: schema_version, lists; cada lista contiene id, name e items. Se admiten hasta 100 listas y 2000 artículos en total. Los IDs son únicos dentro del documento, incluidos los de listas, con un máximo de 80 caracteres para listas y 71 para artículos. El nombre de lista admite hasta 160 caracteres. Las operaciones devuelven copias y mantienen el orden de inserción. No fusionan productos.
+
+Cada artículo contiene id, name, quantity, unit, category, notes, purchased, provenance y transfer. Se reutiliza validateEntry de Pantry para validar los campos compartidos sin modificar su contrato. Las cantidades se mantienen como decimales positivos literales o null; no se convierten ni suman. La procedencia es null o contiene recipe_id, position (desde cero), source_location (start_line/end_line), raw (hasta 8000 caracteres) y source_commit (SHA de 40 caracteres). Es una referencia histórica, no una certificación de correspondencia; su contraste con el catálogo corresponde a integración. Se conserva al editar el artículo.
+
+La compra se marca y desmarca expresamente mientras no haya registro de transferencia. La transferencia es null o contiene state (pending/completed) y entry (copia completa del destino validado por Pantry). El ID de destino es shopping- seguido del ID del artículo. prepareTransfer registra exclusivamente la intención revisada; recordTransferCompleted exige una entrada coincidente campo a campo, pero no acredita por sí mismo una escritura. El coordinador de la unidad D deberá contrastar el almacenamiento y gestionar fallos parciales, colisiones e incertidumbres antes de invocarlo. No existe acceso a almacenamiento en esta unidad.
+
+Para conservar evidencia e impedir reintentos accidentales, los artículos con transferencia pendiente o completada no se pueden editar, desmarcar ni eliminar; tampoco se elimina su lista. Esta restricción de la primera versión limita la limpieza de listas históricas; el archivado o reconciliación destructiva queda fuera del alcance inicial. No se pretende garantizar unicidad histórica después de restaurar copias independientes. La UI deberá comunicar estas restricciones.
+
+Se incorporan diez pruebas Node para operaciones, límites, cantidades, procedencia, filtros, compra reversible y estados de transferencia. Knowledge audit ejecutará estas pruebas. Persistencia, UI, contraste con recetas y coordinación efectiva con Pantry permanecen pendientes. No se modifica la release.
