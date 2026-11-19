@@ -1,5 +1,7 @@
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
 
+import {inline, renderMarkdown} from "./recipe-assistant-markdown.mjs";
+
 const $ = id => document.getElementById(id);
 const evidenceLabels = {prepared:"Elaboración registrada",pending:"Pendiente de prueba",unknown:"Evidencia desconocida"};
 const optionality = {required:"Requerido",optional:"Opcional",unknown:"Opcionalidad desconocida"};
@@ -37,14 +39,17 @@ async function sha256(buffer) {
 }
 
 export async function loadRecipe(params) {
-  const id=params.get("id"), commit=params.get("commit"), index=params.get("index");
-  check(params.getAll("id").length===1 && params.getAll("commit").length===1 &&
-    params.getAll("index").length===1 && nonempty(id) && hash(commit,40) && hash(index,64),
+  const id=params.get("id"), legacyCommit=params.get("commit"), legacyIndex=params.get("index");
+  const legacy=params.has("commit")||params.has("index");
+  check(params.getAll("id").length===1 && nonempty(id) && (!legacy || (params.getAll("commit").length===1 &&
+    params.getAll("index").length===1 && hash(legacyCommit,40) && hash(legacyIndex,64))),
     "Selecciona una receta desde el explorador");
   const manifest=parse(await bytes(new URL("recipe_assistant/manifest.json",base)));
   check(obj(manifest) && manifest.schema_version==="0.1.0" && manifest.index_version==="0.2.0" &&
-    manifest.source_commit===commit && manifest.index_sha256===index && obj(manifest.recipes) &&
+    hash(manifest.source_commit,40) && hash(manifest.index_sha256,64) &&
+    (!legacy || (manifest.source_commit===legacyCommit && manifest.index_sha256===legacyIndex)) && obj(manifest.recipes) &&
     manifest.recipe_count===Object.keys(manifest.recipes).length,"Catálogo desactualizado; vuelve al explorador");
+  const commit=manifest.source_commit, index=manifest.index_sha256;
   check(Object.hasOwn(manifest.recipes,id),"Receta desconocida");
   const entry=manifest.recipes[id];
   const filename=await sha256(new TextEncoder().encode(id))+".json";
@@ -84,7 +89,7 @@ function renderRecipe(r) {
   document.title=r.title+" | NovaCoquinaria";
   $("source-link").href=r.href;
   $("evidence").textContent=evidenceLabels[r.evidence.status]+" · No equivale a validación de la fórmula actual.";
-  for(const c of r.evidence.claims) $("claims").append(node("p",c.text+" · "+line(c.source_location),"source-text meta"));
+  for(const c of r.evidence.claims) $("claims").append(inline(node("p",undefined,"source-text meta"),c.text+" · "+line(c.source_location)));
   $("yield").textContent="Rendimiento: "+(r.yield?r.yield.raw:
     r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
@@ -95,18 +100,18 @@ function renderRecipe(r) {
     if(e.group!==group){group=e.group;$("ingredients").append(node("h3",group??"Sin grupo"));}
     const label=node("label",undefined,"check-row"),input=node("input");
     input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();});
-    label.append(input,node("span",e.raw+" · "+optionality[e.optionality],"ingredient-text"));
+    label.append(input,inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]));
     $("ingredients").append(label);inputs.push(input);
   }
   if(!inputs.length) $("ingredients").append(node("p","No se reconocieron ingredientes; consulta la ficha."));
   for(const s of r.mise_en_place) {
     if(s.heading) $("mise").append(node("h4",s.heading));
-    $("mise").append(node("p",s.content,"source-text"));
+    const body=node("div");renderMarkdown(body,s.content);$("mise").append(body);
   }
   if(!r.mise_en_place.length) $("mise").append(node("p","No se reconoció una sección explícita."));
   for(const t of r.techniques){const li=node("li");li.append(link(t.label,t.href));$("techniques").append(li);}
   if(!r.techniques.length) $("techniques").append(node("li","Sin referencias a técnicas disponibles en esta vista."));
-  $("context-text").textContent=r.context.text;
+  renderMarkdown($("context-text"),r.context.text);
   $("provenance").textContent=r.id+" · commit "+r.source_commit+" · esquema "+r.schema_version;
   function progress(){
     const s=session.snapshot();
@@ -116,7 +121,7 @@ function renderRecipe(r) {
     if(s.current===null)return;
     const step=r.steps[s.current-1];
     $("step-title").textContent="Paso "+s.current+" de "+s.stepCount;
-    $("step-text").textContent=step.text;
+    renderMarkdown($("step-text"),step.text);
     $("step-location").textContent=line(step.source_location);
     $("step-done").checked=s.completed.includes(s.current);
     $("previous").disabled=s.current===1;$("next-step").disabled=s.current===s.stepCount;
@@ -147,6 +152,8 @@ async function init(){
   try{
     const recipe=await loadRecipe(new URLSearchParams(location.search));
     renderRecipe(recipe);
+    const clean=new URL(location.href);clean.search=new URLSearchParams({id:recipe.id}).toString();
+    history.replaceState(null,"",clean);
     $("assistant").hidden=false;$("load-status").textContent="Receta cargada.";
   }catch(error){
     $("assistant").hidden=true;
