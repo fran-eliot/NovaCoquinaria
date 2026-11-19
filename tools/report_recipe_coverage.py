@@ -56,6 +56,30 @@ def summarize(records):
     }
 
 
+def structural_gaps(records):
+    """Localizadores y encabezados para revisión, sin inferir causas."""
+    gaps = []
+    for record in sorted(records, key=lambda item: item["id"]):
+        missing = [field for field in ("ingredients", "steps") if not record[field]]
+        if not missing:
+            continue
+        sections = []
+        for section in record["sections"]:
+            heading = section.get("heading")
+            if heading is not None:
+                sections.append({
+                    "heading": heading,
+                    "source_location": section.get("source_location"),
+                })
+        gaps.append({
+            "id": record["id"],
+            "path": record["source"]["path"],
+            "missing": missing,
+            "headings": sections,
+        })
+    return gaps
+
+
 def coverage(projection):
     records=projection["recipes"]
     if projection["stage"]!="recipe_projection_preview":
@@ -77,6 +101,7 @@ def coverage(projection):
         "extractor_version":projection["extractor_version"],
         "scope":"Presencia y reconocimiento de registros extraídos; no recall, precisión ni validación culinaria.",
         "global":summarize(records),
+        "structural_gaps":structural_gaps(records),
         "by_module":{k:summarize(v) for k,v in sorted(groups.items())},
         "affected_recipes":{k:sorted(v,key=lambda item:item["id"]) for k,v in sorted(affected.items())},
     }
@@ -95,7 +120,7 @@ def main():
         report=coverage(projection)
         output.parent.mkdir(parents=True,exist_ok=True)
         output.write_bytes((json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n").encode("utf-8"))
-        print(json.dumps({"source_commit":report["source_commit"],"global":report["global"]},ensure_ascii=False,indent=2))
+        print(json.dumps({"source_commit":report["source_commit"],"global":report["global"],"structural_gaps":report["structural_gaps"]},ensure_ascii=False,indent=2))
     except (ValueError,KeyError,TypeError,OSError) as exc:
         parser.exit(1,f"Informe fallido: {exc}\n")
     return 0
