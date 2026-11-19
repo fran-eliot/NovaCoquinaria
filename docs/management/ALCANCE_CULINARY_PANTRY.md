@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PANTRY-2026
 titulo: Alcance de entrega de Culinary Pantry
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -105,3 +105,31 @@ La selección explícita se transmite mediante sessionStorage en la misma pesta�
 Desde la portada, abrir Mi despensa. Añadir alimentos y, opcionalmente, indicar cantidad y unidad, categoría, ubicación, tipo de fecha y notas. Filtrar el inventario y editar o eliminar entradas individuales. Exportar periódicamente una copia JSON; para recuperarla, escoger el archivo, revisar el recuento y confirmar la sustitución completa. No compartir copias que contengan información privada. Los datos pertenecen al origen y perfil del navegador; no existe sincronización ni recuperación remota. Ante conflicto, recargar; ante datos ilegibles, no se realiza sustitución automática. Seleccionar alimentos concretos y pulsar Buscar recetas para consultar menciones textuales, no compatibilidad ni suficiencia.
 
 Se añaden tres pruebas Node de transferencia y recorridos Chromium sobre el portal construido: alta, edición, lotes, filtros, fechas, recarga, exportación, importación válida e inválida, cancelación, eliminación, cambio en otra pestaña, transferencia y limpieza de selección, rechazo de almacenamiento inválido, texto no activo y ausencia de datos personales en solicitudes observadas. Se conserva la regresión de las aplicaciones existentes y el verificador de recursos versionados en CI y despliegue. Los resultados y la comprobación pública quedan pendientes; no se acredita privacidad frente a otros scripts del origen ni concurrencia atómica. No se modifica la release v1.6.0.
+
+## Cierre técnico — #289
+
+Las unidades A–D se integraron mediante #286–#289. Merge `1c7742e5fab1453075ad84e55448d151908670f4`. Snapshot CI `2ba17bded8f2de3c365c51745f3377b9f0fd3a33`, distinto del merge. Los tres workflows finalizaron correctamente.
+
+- [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44627262348/job/135924281282): 141 Python, 30 Node (8 modelo, 10 persistencia, 3 transferencia, 9 asistente), sin advertencias semánticas ni huérfanos.
+- [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44627262404/job/135924281597): doble generación, 590 recetas, 591 archivos del asistente, 51 destinos de técnicas; los tres recorridos Chromium superados.
+- gh-pages `4737f9a5bb3bfd45f010dde00a3734dfd39f8bf8` registra Deployed 1c7742e. Se comprobó la plantilla de Pantry y las referencias versionadas en la rama. No se verificó HTTP público independientemente.
+
+| Criterio | Evidencia y límite |
+|---|---|
+| PAN-01 | Validación de esquema, límites e identidad en pruebas Node |
+| PAN-02 | Operaciones puras y altas, edición, lotes y eliminación en Chromium |
+| PAN-03 | Cantidades literales y ausencia; coma decimal en recorrido |
+| PAN-04 | Fechas civiles, tipos, ubicaciones y filtros; no inferencia sanitaria |
+| PAN-05 | Filtros acumulables en núcleo, ubicación y fecha en Chromium |
+| PAN-06 | Recarga con almacenamiento real |
+| PAN-07 | Fallos simulados y rechazo real de almacenamiento inválido |
+| PAN-08 | Exportación, importación, cancelación y sustitución en Chromium; fallos simulados |
+| PAN-09 | Conflictos simulados y dos pestañas reales; no atomicidad |
+| PAN-10 | Selección explícita, transferencia efímera y edición de términos en navegador |
+| PAN-11 | Motor AND existente y regresión de Explorer; no suficiencia |
+| PAN-12 | Controles nativos y recorrido móvil/escritorio; no auditoría exhaustiva de teclado/accesibilidad |
+| PAN-13 | Texto no activo y solicitudes observadas sin datos personales; no aislamiento de otros scripts |
+| PAN-14 | Pruebas Node y Chromium superadas, regresión de las aplicaciones |
+| PAN-15 | Build, referencias versionadas, guía y despliegue registrados; prueba pública pendiente |
+
+Estado: implementación completa, validación técnica dirigida superada y despliegue registrado. La comprobación de uso público sigue pendiente. No se modifica v1.6.0. Culinary Shopping es la siguiente capacidad candidata, sin deducir automáticamente faltantes.
