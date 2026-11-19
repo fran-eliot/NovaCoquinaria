@@ -2,7 +2,7 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 2.1.0
+version: 2.2.0
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -11,7 +11,7 @@ ultima_revision: 2026-11-19
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 19 de noviembre de 2026, después de la publicación de v1.6.0 (merge #249).  
+> **Corte de información:** 19 de noviembre de 2026, tras el cierre de CRR-D05 (merge #267).  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -26,15 +26,16 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 
 | Elemento | Situación y alcance de la evidencia |
 |---|---|
-| Rama principal | `main`, consultada el 2026-11-19 después de #249 |
+| Rama principal | `main`, consultada el 2026-11-19 después de #267 |
 | Última versión publicada | [`v1.6.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), 2026-11-19 |
 | Fase estratégica | Consolidación y explotación; extracción, indexación y recuperación textual acotada completadas técnicamente |
-| Última PR fusionada | [#249](https://github.com/fran-eliot/NovaCoquinaria/pull/249) |
-| Commit comprobado y tag | [`836f02e848299c0a7a7897b22bb83cd13e0c373a`](https://github.com/fran-eliot/NovaCoquinaria/commit/836f02e848299c0a7a7897b22bb83cd13e0c373a) |
+| Última PR fusionada | [#267](https://github.com/fran-eliot/NovaCoquinaria/pull/267) |
+| Commit histórico del tag | [`836f02e848299c0a7a7897b22bb83cd13e0c373a`](https://github.com/fran-eliot/NovaCoquinaria/commit/836f02e848299c0a7a7897b22bb83cd13e0c373a) |
+| Commit de main comprobado | `c31bf9d6372737c182df79a5961c75a3d5ebca72` |
 | PR abiertas | Ninguna en la consulta del corte |
-| Integridad | [Knowledge integrity de PR #246](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998412): success |
-| Auditoría | [Knowledge audit de PR #246](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284): success; 102 pruebas, 18/18 casos textuales, 0 advertencias semánticas, 0 huérfanos |
-| Despliegue | [Deploy MkDocs de merge #249](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44528643461): success |
+| Integridad | [Knowledge integrity de merge #267](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44589997542): success |
+| Auditoría | [Knowledge audit de merge #267](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44589997537): success; 128 pruebas acreditadas en PR #266 |
+| Despliegue | [Deploy MkDocs de merge #267](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44589997500): success |
 | Inventario Markdown | 927 archivos según inventario del job #246 |
 | Recetas | 590 rutas y 590 documentos extraídos; Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
 | Despensa y técnicas | 126 fichas de ingrediente y 52 técnicas por ruta, excluidos índices y BACKLOG |
@@ -134,7 +135,15 @@ El inventario procede de los registros del job #246 (snapshot 7249024567f5f74d0d
 - #247: kit 2.0.0.
 - #248: [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md), propuesta de investigación de Culinary Compatibility Engine.
 - #249: preparación documental de v1.6.0; merge `836f02e848299c0a7a7897b22bb83cd13e0c373a` con [integridad](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44528643404), [auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44528643088) y despliegue satisfactorios.
-- 2026-11-19: publicación oficial de [v1.6.0 — Culinary Knowledge & Retrieval](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), tag verificado en el merge #249. El siguiente incremento es CCE-D01 (casos de uso y requisitos), no implementación.
+- 2026-11-19: publicación oficial de [v1.6.0 — Culinary Knowledge & Retrieval](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), tag verificado en el merge #249. El siguiente incremento en aquel corte era CCE-D01 (casos de uso y requisitos), no implementación.
+
+### Actualización de continuidad: PRs #250–#267
+
+- #250: sincronización posterior a publicación y kit 2.1.0.
+- #251–#256: CCE-D01–D05; cinco escenarios documentales, 590 recetas indeterminadas sin confirmación. Entrega diferida.
+- #257–#262: CRM-D01–D05; inventario de señales (2.030 de 5.047 ocurrencias, 573 recetas), contraste documental y modelo híbrido: 16/16 casos frente a 8/16 del plano atómico restringido; 20 ocurrencias anotadas manualmente.
+- #263–#267: CRR-D01–D05; cuatro reglas acotadas, 351 propuestas sobre 358 ocurrencias, seis aciertos de diez positivos reservados, cinco negativos correctos, cuatro omisiones y ocho negativos sintéticos sin propuesta. La evidencia no acredita precisión global ni coste de revisión.
+- Cierre: [deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md), siete propuestas sobre 14 ocurrencias; integración productiva diferida. Próximo paso: revisión estratégica de explotación práctica.
 
 Las PR aportan crecimiento editorial; su fusión y sus validaciones técnicas no prueban que las recetas se hayan cocinado. Los detalles por ficha se consultan en el índice de cada módulo.
 
@@ -214,15 +223,15 @@ Corte #235: 590 recetas, 588 títulos normalizados, 5.047 ocurrencias de ingredi
 
 Corte #246: 102 pruebas, 590/590 fuentes verificadas, igualdad de bytes, 68 comparaciones directas de registros, 34 con el experimento compartido, 18 casos fijados y 16 de regresión por corpus. Cero advertencias y cero huérfanos; 927 Markdown. El [job](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) corresponde al snapshot sintético 7249024567f5f74d0dd6c6c7d9d78babf62ab67a. La proyección fijada de RET-D01 (c0dd020dea003d8a4f7a0278a43f30d81501a7f0) conserva huella d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c. El corpus de CI contiene 590 recetas, 5.047 ocurrencias, 36 explícitas y 1.044 candidatas; las 72 adicionales del experimento (71 recetas) no se integraron. Comparaciones de consistencia, no precisión culinaria ni validación exhaustiva del ZIP. Modo terms explícito, no interpreta negaciones, alternativas, equivalencias o disponibilidad. Referencias: [investigación](./EVOLUCION_RECUPERACION_CULINARIA.md) y [alcance](./ALCANCE_RECUPERACION_TEXTUAL.md).
 
-1. Iniciar CCE-D01 según la [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md). El contraste de los 72 candidatos corresponde a la investigación posterior; no se promueven identidades ni se autoriza implementación.
+1. Realizar una nueva revisión estratégica global de explotación práctica; conservar los experimentos y la [deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md). No se promueven identidades ni se autoriza integración productiva.
 2. Preservar separación de coincidencia textual, identidad y candidatos, así como alcance de evidencia culinaria.
 3. Revisar los informes y muestras por commit; no convertir cobertura en exactitud.
 4. No seleccionar persistencia, API, RAG o agentes ni autorizar una release sin decisión específica.
 
 ## 7. Recuperación del estado antes de un nuevo incremento
 
-1. Consultar el `main` remoto y contrastar su commit vigente con `836f02e848299c0a7a7897b22bb83cd13e0c373a` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
-2. Revisar si la última PR conocida ([#249](https://github.com/fran-eliot/NovaCoquinaria/pull/249)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
+1. Consultar el `main` remoto y contrastar su commit vigente con `c31bf9d6372737c182df79a5961c75a3d5ebca72` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
+2. Revisar si la última PR conocida ([#267](https://github.com/fran-eliot/NovaCoquinaria/pull/267)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
 3. Leer este kit junto con [PROJECT_STATUS](./PROJECT_STATUS.md), [ROADMAP](./ROADMAP.md), [BITACORA](./BITACORA.md), [RELEASES](./RELEASES.md), [CONSOLIDACION_CONOCIMIENTO](./CONSOLIDACION_CONOCIMIENTO.md), [EVOLUCION_DE_RECETAS](./EVOLUCION_DE_RECETAS.md), [RECETAS_COCINADAS](./RECETAS_COCINADAS.md) y los índices del módulo en cuestión.
 4. Antes de redactar, revisar el árbol completo de `main` y detectar solapamientos por **nombre, ingrediente, técnica y tradición regional**, no solo por el nombre exacto del archivo. Distinguir las variantes de una misma familia de platos y explicar las diferencias cuando sea pertinente.
 5. Comprobar todos los identificadores de receta vigentes. La serie reciente llega a `REC-0591` (Front Matter `REC-591`) en este corte; `REC-0592` es **solo candidato** si continúa libre, y nunca un ID reservado irrevocablemente. Recalcular también recuentos de ficheros antes de reutilizarlos.
@@ -237,14 +246,14 @@ Corte #246: 102 pruebas, 590/590 fuentes verificadas, igualdad de bytes, 68 comp
 
 | Campo | Valor en el corte de 2026-11-19 |
 |---|---|
-| Última PR fusionada observada | [#249](https://github.com/fran-eliot/NovaCoquinaria/pull/249) |
-| Commit de main | `836f02e848299c0a7a7897b22bb83cd13e0c373a` |
-| Últimos aportes | Índice 0.2.0, consultas 0.2.0 y cierre técnico de recuperación por términos |
+| Última PR fusionada observada | [#267](https://github.com/fran-eliot/NovaCoquinaria/pull/267) |
+| Commit de main | `c31bf9d6372737c182df79a5961c75a3d5ebca72` |
+| Últimos aportes | Cierre experimental CCE, CRM y CRR; deuda registrada |
 | PR abiertas al realizar la consulta | Ninguna |
-| Workflows del merge #249 | Knowledge integrity, Knowledge audit y Deploy MkDocs: success |
+| Workflows del merge #267 | Knowledge integrity, Knowledge audit y Deploy MkDocs: success |
 | Última release | v1.6.0 (2026-11-19) |
 | Próximo identificador | REC-0592, candidato sujeto a verificar |
-| Siguiente prioridad | CCE-D01: casos de uso y requisitos |
+| Siguiente prioridad | Revisión estratégica de explotación práctica |
 | Controles pendientes | Contraste individual de los JSON, precisión/exhaustividad de extracción, revisión práctica, duplicidades conceptuales y working tree local |
 
 Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o recuentos como si fueran dinámicos.
