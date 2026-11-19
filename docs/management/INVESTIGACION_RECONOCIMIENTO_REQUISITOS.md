@@ -2,7 +2,7 @@
 id: DOC-RECONOCIMIENTO-REQUISITOS-2026
 titulo: Investigación del reconocimiento de requisitos culinarios
 tipo: gestion
-version: 0.1.0
+version: 0.2.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -59,6 +59,57 @@ Corpus inicial: RET-D01, commit `c0dd020dea003d8a4f7a0278a43f30d81501a7f0`, huel
 ### Fronteras
 
 Prototipo experimental separado; no nueva dependencia, servicio, API, persistencia, IA, ranking, sustituciones, release ni integración productiva. El nombre CRR identifica el ciclo de investigación, no un componente arquitectónico obligatorio. El cierre puede concluir con una entrega acotada propuesta, una nueva restricción o diferir. Toda entrega requiere decisión y alcance diferenciados.
+
+
+## CRR-D02 — Selección documental de patrones y muestras
+
+#263 integrada en `03b9b818d93dd5f2938204eeb5884d5f25848acf`. Los workflows Knowledge integrity y Knowledge audit de la PR finalizaron satisfactoriamente. Se inspeccionó el inventario de señales del artefacto 14556389543 del run 44578067339 (snapshot b7c6f1e28e12766f64f0e30f061072bd0d9a8e64). Se contrastaron las líneas originales de las recetas indicadas en el corpus fijado, no solo las señales. La selección es dirigida.
+
+### Decisión provisional por familia
+
+P01 solo tiene un enlace adyacente detectado por S02 en el corpus: REC-0023, ya empleado en CCE. Diferir su reconocimiento como familia entregable por falta de contraste positivo independiente. P02 dispone de un segundo ejemplo documental, REC-0008, además de REC-0009 utilizado en CRM; mantener como exploración, sin evidencia suficiente para recomendar entrega por sí solo. P03, P04 y P05 son candidatos prioritarios a reglas restringidas. No generalizar por palabras aisladas.
+
+### Ajuste documental
+
+Posiciones base cero y líneas del Markdown fijado. Los casos siguientes pueden orientar reglas; no se contabilizarán como contraste independiente.
+
+| Caso | Familia | Fuente | Posición / línea | Observación |
+|---|---|---|---|---|
+| A01 | P01 | [Curry verde](../../05_Carnes/curry_verde_de_pollo.md) REC-0023 | 18–19 / 93–94 | Alternativa vinculada explícitamente; acompañamiento, presencia no determinada |
+| A02 | P02 | [Caballa japonesa](../../06_Pescados_y_Mariscos/caballa_japonesa.md) REC-0009 | 3–7 / 69–77 | Guarnición a elegir; cardinalidad desconocida |
+| A03 | P03 | [Arroz frito con gambas](../../01_Arroces/arroz_frito_gambas.md) REC-0021 | 9,12,13 / 66,72,73 | Marcador terminal entre paréntesis; alcance completo de cada ocurrencia |
+| A04 | P04 | [Gambas al ajillo](../../06_Pescados_y_Mariscos/gambas_al_ajillo.md) REC-0059 | 0 / 32,43 | Descongeladas si procede; condición de preparación |
+| A05 | P03 | REC-0059 | 3 / 35,44 | Guindilla pequeña opcional, marcador separado por coma |
+| A06 | P05 | [Patatas a la importancia](../../04_Verduras/patatas_a_la_importancia_castellanas.md) REC-448 | 9 / 41,50–51 | Reponer aceite si hace falta, ajuste sobre cantidad base |
+| A07 | P05 | [Trucha a la navarra](../../06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md) REC-493 | 3 / 35,46 | Añadir aceite si hace falta, ajuste sobre cantidad base |
+
+### Contraste documental reservado
+
+Las recetas de esta tabla no pertenecen a la muestra de ajuste anterior ni a las muestras representacionales y de compatibilidad CRM/CCE. Son expectativas documentales preliminares anteriores al código. La revisión procede del mismo proyecto; no es un conjunto ciego externo. Los casos positivos fuera de una regla finalmente acotada se contabilizarán como omisiones de alcance, no como éxitos.
+
+| Caso | Familia | Fuente | Posición / línea | Expectativa semántica |
+|---|---|---|---|---|
+| H01 | P02 | [Medallones asiáticos](../../05_Carnes/medallones_solomillo_asiaticos.md) REC-0008 | 5–8 / 89–96 | Un grupo choice, cuatro miembros, accompaniment, presencia y cardinalidad desconocidas |
+| H02 | P02 | [Hamburguesa asiática](../../05_Carnes/hamburguesa_asiatica.md) REC-0007 | 6–8 / 83–87 | Negativo: encabezado Guarnición sin declaración de elección; no agrupar |
+| H03 | P03 | [Arroz frito con pollo](../../01_Arroces/arroz_frito_pollo.md) REC-0022 | 12–13 / 58–59 | Dos ocurrencias opcionales independientes |
+| H04 | P03 | REC-0022 | 9 / 52 | Negativo no señalado: salsa de ostras sin marcador; no reconocer opcionalidad por analogía con otra receta |
+| H05 | P03 | [Ternera con setas](../../05_Carnes/ternera_salteada_con_setas_y_mirin.md) REC-0183 | 9 / 43,71 | Negativo: opcionalidad parcial del cebollino; abstenerse de declarar todo opcional |
+| H06 | P04 | [Calamares con kimchi](../../07_Cocina_Asiatica/calamares_salteados_con_kimchi.md) REC-0201 | 0 / 35,48 | Presencia requerida; descongelación condicional |
+| H07 | P03 | REC-0201 | 5 / 40,53 | Salsa de soja clara opcional, marcador terminal separado por coma |
+| H08 | P04/P05 | REC-0201 | 6 / 41 | Negativo: agua si fuera necesario, condición de presencia; no tratar como preparación ni incremento sobre dosis base |
+| H09 | P04 | [Sepia a la plancha](../../06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.md) REC-302 | 0 / 31,42,52 | Preparación condicional; conjunción de calificadores; no dividir producto |
+| H10 | P04 | [Puchero andaluz](../../05_Carnes/puchero_andaluz_con_pringa_y_hierbabuena.md) REC-491 | 5 / 37,49–50 | Desalado condicional, presencia del hueso requerida |
+| H11 | P04/P03 | REC-491 | 4 / 36,49 | Costilla opcional con condición de preparación; no forzar presencia requerida |
+| H12 | P05 | [Berenjenas de Almagro](../../04_Verduras/berenjenas_de_almagro_alinadas.md) REC-526 | 1 / 33,47 | Agua base y cantidad adicional condicional; no asignar cantidad extra |
+| H13 | P05/P04 | [Judías verdes guisadas](../../04_Verduras/judias_verdes_guisadas_con_tomate_y_cebolla.md) REC-343 | 6 / 37,49 | Negativo: toda la dosis de agua es condicional; no deducir base requerida |
+| H14 | P03 | REC-526 | 8 / 40,50 | Pimiento asado opcional; plural del marcador |
+| H15 | P03 | REC-302 | 4 / 35,47 | Zumo de limón opcional, marcador terminal sin coma |
+
+La muestra reservada incluye ocho recetas y quince casos; algunos abarcan varias ocurrencias o familias. Las posiciones se contrastaron con el inventario excepto H04, que se localizó por orden de la lista Markdown y se verificará contra la proyección fijada antes de ejecutar. Los negativos no equivalen a declarar ausencia de otros requisitos. P01 carece de contraste positivo reservado. P02 solo dispone de un positivo y un negativo dirigido.
+
+### Condiciones para CRR-D03
+
+Fijar fixtures de ajuste y contraste con texto exacto, ID, ruta, posición y línea. Especificar alcance, regla y resultado esperado por familia; validar corpus, disyunción por receta y preservar evidencia. No utilizar los casos H para modificar reglas después de ejecutar; si se modifica una regla, registrar iteración y reservar casos nuevos. Añadir negativos sintéticos, incluidos marcadores en enlaces, negaciones, alcance parcial, encabezados sin elección, condiciones de presencia y cantidades no acreditadas. No comprometer implementación productiva ni ampliar reglas de identidad. No se ha ejecutado todavía reconocimiento automático.
 
 ## Referencias
 
