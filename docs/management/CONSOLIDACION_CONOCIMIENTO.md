@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.18.0
+version: 1.19.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -639,3 +639,7 @@ Las PR #230–#235 implementan IDX-01–IDX-04 y QRY-01–QRY-02 según el [cont
 Consultas abiertas: ajo textual 103, salsa de soja textual en módulo asiático 4, leche de coco explícita 2 y candidata 5, evidencia prepared 6. No sumar conjuntos ni equiparar coincidencia a presencia exhaustiva. La evidencia no acredita la fórmula actual completa. El informe registra cero advertencias semánticas y un huérfano global (contrato del índice), al que se añade enlace sustantivo en este cierre; su resolución se determinará en CI. El ZIP no se ha inspeccionado íntegramente.
 
 Cierre acotado del prototipo, no del Runtime. Se propone evaluar alternativas de explotación: búsqueda textual flexible y resolución de identidades, consultas de tiempos y rendimientos con incertidumbre, o un consumidor de despensa limitado. Priorizar una revisión estratégica antes de comprometer implementación, persistencia, API o release. Mantener Markdown canónico.
+
+## Revisión estratégica de recuperación — 2026-11-19
+
+El [job de #236](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44514156962/job/135525701712) confirma cero huérfanos, cero advertencias semánticas, 81 pruebas y 16 casos de consulta. Se documenta la [evolución de la recuperación culinaria](./EVOLUCION_RECUPERACION_CULINARIA.md) como propuesta de evaluación de alternativas; no implica implementación ni selección definitiva.
