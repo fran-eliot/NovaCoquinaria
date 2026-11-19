@@ -44,6 +44,10 @@ def exercise(site):
                 page.get_by_role("link", name="Preparar receta", exact=True).first.click()
                 expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 expect(page.locator("#recipe-title")).to_have_text(recipes[identity]["title"])
+                assert page.url == base + "recipe-assistant.html?id=REC-0017"
+                assert page.locator("#context-text h3, #context-text h4").count() > 0
+                assert page.locator("#context-text table").count() > 0
+                assert page.locator("#context-text li").count() > 0
                 expect(page.locator("#context-text")).to_contain_text("74 °C")
                 expect(page.locator("#mise")).to_contain_text("Mise en place")
                 expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
@@ -97,6 +101,8 @@ def exercise(site):
                     page.goto(invalid)
                     expect(page.locator("#load-status")).to_contain_text("No se pudo abrir")
                     expect(page.locator("#assistant")).to_be_hidden()
+                page.goto(base + "recipe-assistant.html?id=REC-0017")
+                expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 page.route("**/recipe_assistant/*.json", lambda route:
                            route.continue_() if route.request.url.endswith("manifest.json")
                            else route.fulfill(body="{}", content_type="application/json"))
