@@ -2,9 +2,9 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.1
+version: 2.2
 estado: estable
-ultima_revision: 2026-11-18
+ultima_revision: 2026-11-19
 ---
 
 # Bitácora del Proyecto
@@ -457,6 +457,22 @@ La incorporación culinaria continúa según experiencia, cobertura y valor de r
 ### Impacto
 
 El SGCC prepara su primera capacidad de consumo estructurado sin sustituir la fuente documental ni comprometer una tecnología o una implementación completa del Runtime. La madurez culinaria y la calidad semántica permanecen pendientes de evaluación.
+
+---
+
+## 2026-11-19 · El conocimiento comienza a ser consultable programáticamente
+
+### Qué ocurrió
+
+Se completó el primer ciclo dirigido de extracción, indexación y consultas de recetas. El índice reconstruible y el motor de solo lectura permiten recuperar recetas con criterios explícitos, preservando procedencia y evidencia.
+
+### Qué cambió
+
+El consumo del conocimiento deja de depender exclusivamente de la navegación documental. Las consultas separan texto, identidad explícita y candidatos sin convertir incertidumbre en hechos.
+
+### Impacto
+
+La evaluación inicial sobre 590 recetas abre una vía para contrastar capacidades de explotación antes de diseñar una plataforma. Markdown sigue siendo canónico; no se declara un Runtime completo ni una nueva release. Los límites y la evidencia se registran en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md).
 
 ---
 

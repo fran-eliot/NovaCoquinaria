@@ -2,9 +2,9 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.1
+version: 2.2
 estado: estable
-ultima_revision: 2026-11-18
+ultima_revision: 2026-11-19
 ---
 
 # Estado del Proyecto
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Línea base reproducible de calidad y preparación para consumo |
+| Próximo objetivo | Evaluación estratégica de alternativas de explotación |
 
 ---
 
@@ -54,6 +54,10 @@ El sistema de auditoría del conocimiento permite medir automáticamente la cobe
 
 El inventario comprobado tras la PR #193 contiene 922 archivos Markdown, 590 fichas de recetas, 125 fichas de ingredientes y 52 técnicas. La serie española comprende 174 propuestas en 29 tandas. La PR #194 incorpora la propuesta de transición. Los recuentos son de rutas, no acreditan unicidad semántica ni pruebas culinarias. El informe de auditoría publicado sigue fechado el 2026-08-03; se requiere una nueva línea base antes de actualizar la madurez de los dominios.
 
+## Corte de explotación — 2026-11-19
+
+Tras #235, el primer ciclo de extracción, indexación y consultas está implementado y contrastado de forma dirigida. El [informe de CI](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44512835060/job/135521171559) registra 590 recetas y huellas verificadas, 81 pruebas, 16 casos de consulta superados, tres entradas inválidas rechazadas y reconstrucción idéntica. El snapshot auditado es distinto del merge en main. Cero advertencias semánticas y un huérfano documental cuya resolución se propone en este cierre. Véanse [consolidación](./CONSOLIDACION_CONOCIMIENTO.md) y [contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md).
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -68,6 +72,9 @@ El inventario comprobado tras la PR #193 contiene 922 archivos Markdown, 590 fic
 | Knowledge Graph | ✅ Operativo |
 | Portal MkDocs | 🟢 Operativo |
 | Base de conocimiento | 🟡 En consolidación; incorporación selectiva |
+| Extractor de recetas 0.4.6 | 🟢 Prototipo contrastado |
+| Índice de recetas 0.2.0 | 🟢 Prototipo contrastado |
+| Motor de consultas 0.1.0 | 🟢 CLI de alcance limitado |
 | Plataforma software | ⚪ En fase de diseño |
 
 ---
@@ -116,7 +123,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Establecer una línea base reproducible de calidad documental y relaciones para orientar la estructuración e indexación del conocimiento. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Evaluar las alternativas de explotación del índice y motor de consultas: recuperación flexible, identidad de ingredientes, filtros declarados de tiempo y rendimiento y un consumidor limitado de despensa. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
@@ -126,7 +133,7 @@ Establecer una línea base reproducible de calidad documental y relaciones para 
 
 - Actualizar la auditoría del conocimiento y distinguir métricas de inventario, madurez y validación culinaria.
 - Revisar relaciones, duplicidades y formatos para consumo.
-- Definir un contrato de datos de recetas a partir de muestras representativas.
+- Evaluar las limitaciones de recuperación, identidad y tiempos antes de ampliar el motor.
 - Mantener la incorporación selectiva de conocimiento culinario.
 
 ---
@@ -178,7 +185,7 @@ Los principales retos del proyecto son:
 
 # Próxima transición prevista
 
-La siguiente transición se evaluará tras demostrar la utilidad de una representación derivada consultable del conocimiento. La plataforma software y el Runtime completo siguen planificados; no se ha elegido tecnología.
+La representación derivada consultable dispone de evidencia técnica inicial; la siguiente transición requiere evaluar su utilidad práctica y decidir el alcance de la próxima capacidad. La plataforma software y el Runtime completo siguen planificados; no se ha elegido tecnología.
 
 ---
 
