@@ -2,9 +2,9 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.1
+version: 2.2
 estado: estable
-ultima_revision: 2026-11-18
+ultima_revision: 2026-11-19
 ---
 
 # Roadmap
@@ -211,15 +211,15 @@ Continuará evolucionando de forma permanente.
 
 # Capacidad prioritaria: consolidación y explotación del conocimiento
 
-**Estado:** 🟡 Iniciada como fase documental y de evaluación.
+**Estado:** 🟡 Primer prototipo de consultas contrastado; fase en evolución.
 
-El inventario del recetario proporciona una base suficiente para explorar el consumo estructurado sin dar por terminada la evolución culinaria. La progresión prevista es:
+El inventario del recetario proporciona una base suficiente para explorar el consumo estructurado sin dar por terminada la evolución culinaria. La progresión de referencia es (los cuatro primeros puntos cuentan con prototipos o evidencia dirigida; el quinto sigue pendiente de decisión):
 
 1. Línea base reproducible de calidad y relaciones.
 2. Contrato de datos de recetas, con trazabilidad y tratamiento explícito de datos desconocidos.
 3. Prototipo de ingesta e indexación derivada de Markdown.
 4. Consultas reproducibles por ingredientes y metadatos.
-5. Evaluación de alternativas de plataforma en función de los resultados.
+5. Evaluación de alternativas de explotación y plataforma en función de los resultados, sin comprometer implementación.
 
 Los criterios de aceptación se concretan en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md). La base de conocimiento Markdown permanece canónica; ninguna tecnología de persistencia o framework queda seleccionada. La incorporación de recetas se mantiene de forma selectiva.
 
@@ -262,7 +262,7 @@ La evolución seguirá siempre el siguiente orden.
 
 - Establecer una línea base actualizada de calidad y relaciones.
 - Consolidar conocimiento reutilizable y reducir deuda según evidencia.
-- Preparar el contrato de datos y el consumo estructurado.
+- Evaluar la utilidad y los límites del consumo estructurado ya implementado.
 
 ---
 
