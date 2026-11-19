@@ -11,8 +11,9 @@ import re
 import unicodedata
 
 from common import ROOT_DIR
+from recipe_ingredient_index import build_ingredient_indexes
 
-INDEX_VERSION = "0.1.0"
+INDEX_VERSION = "0.2.0"
 SUPPORTED_INPUT = ("0.1.0", "0.4.6", "recipe_projection_preview")
 
 
@@ -119,19 +120,21 @@ def build_index(raw: bytes) -> dict:
         by_path[path] = identity
         titles[text_key(title)].append(identity)
 
+    ingredient_indexes, ingredient_inventory = build_ingredient_indexes(by_id, text_key)
     return {
         "index_version": INDEX_VERSION,
         "contract_version": SUPPORTED_INPUT[0],
         "extractor_version": SUPPORTED_INPUT[1],
         "source_commit": commit,
-        "stage": "recipe_index_core_preview",
+        "stage": "recipe_index_ingredients_preview",
         "projection_sha256": hashlib.sha256(raw).hexdigest(),
         "records": by_id,
         "by_path": by_path,
         "facets": {field: {value: sorted(ids) for value, ids in groups.items()}
                    for field, groups in facets.items()},
         "by_title": {value: sorted(ids) for value, ids in titles.items()},
-        "inventory": {"recipes": len(by_id), "paths": len(by_path),
+        "ingredients": ingredient_indexes,
+        "inventory": {"ingredients": ingredient_inventory, "recipes": len(by_id), "paths": len(by_path),
                       "title_keys": len(titles),
                       "facet_keys": {field: len(groups) for field, groups in facets.items()}},
     }

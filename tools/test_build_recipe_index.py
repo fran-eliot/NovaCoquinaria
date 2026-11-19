@@ -1,4 +1,3 @@
-import copy
 import hashlib
 import json
 import unittest
@@ -6,6 +5,23 @@ import unittest
 from build_recipe_index import build_index, serialize, text_key
 
 COMMIT = "a" * 40
+
+
+def ingredient(name, resolution="unresolved", ingredient_id=None, matches=None,
+               option="required", line=10):
+    matches = [] if matches is None else matches
+    n = len({match["ingredient_id"] for match in matches})
+    return {"raw": name or "texto ambiguo", "name": name, "group": None,
+            "resolution": resolution, "ingredient_id": ingredient_id,
+            "identity_candidates": matches,
+            "candidate_status": "multiple" if n > 1 else "single" if n else "none",
+            "optionality": option, "source_location": {"start_line": line, "end_line": line},
+            "quantity": {"status": "missing", "min": None, "max": None}}
+
+
+def candidate(identity, method="title_exact"):
+    return {"ingredient_id": identity, "path": "11_Despensa/a.md",
+            "method": method, "matched_label": "café"}
 
 
 def record(identity="REC-0017", path="05_Carnes/a.md"):
@@ -16,7 +32,7 @@ def record(identity="REC-0017", path="05_Carnes/a.md"):
                      "version": "1.0", "estado": "estable", "extra": ["valor"]},
         "title": "Café con Leche", "physical_module": path.split("/")[0],
         "category": None, "evidence": {"status": "unknown", "scope": None},
-        "ingredients": [{"raw": "café"}, {"raw": "leche"}],
+        "ingredients": [ingredient("café"), ingredient("leche", line=11)],
         "steps": [], "sections": [], "references": [], "durations": [],
         "diagnostics": [{"code": "example"}], "yield": None,
     }
@@ -106,6 +122,62 @@ class RecipeIndexTests(unittest.TestCase):
         for raw in (b'{"stage": "one", "stage": "two"}', b'{"x": NaN}'):
             with self.subTest(raw=raw), self.assertRaises(ValueError):
                 build_index(raw)
+
+
+    def test_ingredient_modes_and_occurrences(self):
+        a = record()
+        a["ingredients"] = [
+            ingredient("Café", "explicit", "ING-001", line=10),
+            ingredient("café", matches=[candidate("ING-001"),
+                       candidate("ING-001", "reviewed_alias")], option="optional", line=11),
+            ingredient("café o té", matches=[candidate("ING-001"), candidate("ING-002")],
+                       option="unknown", line=12),
+            ingredient(None, "ambiguous", line=13),
+            ingredient("cafe", line=14),
+        ]
+        index = build_index(encode(projection(a)))
+        modes = index["ingredients"]
+        ref = lambda pos: {"recipe_id": a["id"], "position": pos}
+        self.assertEqual(modes["by_text"]["café"], [ref(0), ref(1)])
+        self.assertEqual(modes["by_text"]["café o té"], [ref(2)])
+        self.assertEqual(modes["by_text"]["cafe"], [ref(4)])
+        self.assertNotIn("té", modes["by_text"])
+        self.assertEqual(modes["by_explicit_id"], {"ING-001": [ref(0)]})
+        self.assertEqual(modes["by_candidate_id"]["ING-001"], [
+            {**ref(1), "methods": ["reviewed_alias", "title_exact"]},
+            {**ref(2), "methods": ["title_exact"]}])
+        self.assertEqual(modes["by_candidate_id"]["ING-002"],
+                         [{**ref(2), "methods": ["title_exact"]}])
+        self.assertEqual(index["records"][a["id"]]["ingredients"], a["ingredients"])
+        counts = index["inventory"]["ingredients"]
+        self.assertEqual([counts[k] for k in ("occurrences", "text_occurrences",
+                         "explicit_occurrences", "candidate_occurrences",
+                         "candidate_postings")], [5, 4, 1, 2, 3])
+
+    def test_ingredient_order_across_recipes(self):
+        a, b = record(), record("REC-17", "05_Carnes/b.md")
+        index = build_index(encode(projection(b, a)))
+        self.assertEqual(index["ingredients"]["by_text"]["café"],
+                         [{"recipe_id": a["id"], "position": 0},
+                          {"recipe_id": b["id"], "position": 0}])
+
+    def test_invalid_ingredient_fields(self):
+        for key, value in (("optionality", "inferred"), ("resolution", "explicit"),
+                           ("ingredient_id", "ING-001"), ("candidate_status", "single"),
+                           ("identity_candidates", [None]), ("source_location", None),
+                           ("name", 1), ("raw", "")):
+            a = record()
+            a["ingredients"][0][key] = value
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                build_index(encode(projection(a)))
+
+    def test_empty_ingredient_index(self):
+        a = record()
+        a["ingredients"] = []
+        index = build_index(encode(projection(a)))
+        self.assertEqual(index["ingredients"],
+                         {"by_text": {}, "by_explicit_id": {}, "by_candidate_id": {}})
+        self.assertEqual(index["inventory"]["ingredients"]["occurrences"], 0)
 
 
 if __name__ == "__main__":
