@@ -8,7 +8,9 @@ from urllib.parse import quote
 from audit_inventory import RECIPE_MODULES
 from build_recipe_index import digest, nonempty, require, serialize, unique_object, reject_constant
 from extract_recipe_metadata import snapshot_bytes
-from extract_recipe_content import extract_sections, extract_steps, norm
+from extract_recipe_content import extract_sections, extract_steps, extract_evidence, norm
+from extract_recipe_details import general_fields
+from extract_recipe_ingredients import extract_ingredients
 
 SCHEMA_VERSION = "0.1.0"
 
@@ -48,6 +50,10 @@ def project_recipe(record, identity, commit, index_hash, docs, read_source):
     require(record["steps"] == extract_steps(sections), "Pasos inconsistentes con fuente")
     for section in sections:
         check_location(section["source_location"], len(lines))
+    expected, _ = extract_ingredients(raw, path, {})
+    fields = ("raw", "name", "group", "quantity", "optionality", "source_location")
+    require([{k: e[k] for k in fields} for e in record["ingredients"]] ==
+            [{k: e[k] for k in fields} for e in expected], "Ingredientes inconsistentes con fuente")
     ingredients = []
     for position, entry in enumerate(record["ingredients"]):
         check_location(entry["source_location"], len(lines))
@@ -59,6 +65,10 @@ def project_recipe(record, identity, commit, index_hash, docs, read_source):
     for order, step in enumerate(record["steps"], 1):
         require(step["order"] == order and nonempty(step["text"]), "Orden inválido")
         check_location(step["source_location"], len(lines))
+    details, _ = general_fields(sections, source["frontmatter_raw"])
+    require(record["yield"] == details["yield"] and record["durations"] == details["durations"],
+            "Declaraciones inconsistentes con fuente")
+    require(record["evidence"] == extract_evidence(sections), "Evidencia inconsistente con fuente")
     declarations = record["durations"] + ([record["yield"]] if record["yield"] else [])
     for declaration in declarations:
         check_location(declaration["source_location"], len(lines))
@@ -69,8 +79,9 @@ def project_recipe(record, identity, commit, index_hash, docs, read_source):
         check_location(claim["source_location"], len(lines))
     # No se intenta delimitar automáticamente toda advertencia: se conserva
     # el cuerpo completo, incluidos antecedentes, tablas y texto no reconocido.
-    start = next(i + 1 for i, line in enumerate(lines[1:], 1) if line.strip() == "---")
-    require(lines[0].strip() == "---", "Front matter inválido")
+    require(bool(lines) and lines[0].strip() == "---", "Front matter inválido")
+    start = next((i + 1 for i, line in enumerate(lines[1:], 1) if line.strip() == "---"), len(lines))
+    require(start < len(lines), "Cuerpo de receta ausente")
     context = {"mode": "full_source", "text": "\n".join(lines[start:]),
                "source_location": {"start_line": start+1, "end_line": len(lines)}}
     mise = []
