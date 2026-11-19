@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.2
+version: 3.3
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Implementar Culinary Pantry dentro del alcance 0.1.0 |
+| Próximo objetivo | Comprobar Pantry en el portal y delimitar Culinary Shopping |
 
 ---
 
@@ -84,7 +84,11 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 
 ## Corte de preparación guiada — 2026-11-19
 
-#281 integra las cuatro unidades de [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). CI de la PR: 141 pruebas Python, nueve Node, 62 contrastes, 590 recetas, 591 archivos y 51 destinos de técnicas; recorridos Chromium correctos. gh-pages registra el despliegue del merge; comprobación de uso público pendiente. v1.6.0 permanece vigente.
+#281 integra las cuatro unidades de [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). CI de la PR: 141 pruebas Python, nueve Node, 62 contrastes, 590 recetas, 591 archivos y 51 destinos de técnicas; recorridos Chromium correctos. gh-pages registró el despliegue del merge; funcionamiento público comunicado posteriormente tras #284. v1.6.0 permanece vigente.
+
+## Corte de inventario personal — 2026-11-19
+
+#289 integra las cuatro unidades de [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md). Las pruebas dirigidas de inventario, persistencia, copias, cambios externos y transferencia a Explorer finalizaron correctamente en Chromium. CI: 141 Python y 30 Node; 590 recetas. gh-pages registra el despliegue del merge; comprobación pública pendiente. No se modifica v1.6.0.
 
 # Estado por capacidades
 
@@ -108,6 +112,7 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 | Reconocimiento de requisitos | 🟡 Viabilidad técnica acotada; entrega diferida |
 | Culinary Explorer 0.1.0 | 🟢 Publicado; aceptación técnica acotada |
 | Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
+| Culinary Pantry 0.1.0 | 🟢 Integrado y desplegado; prueba pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -157,7 +162,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Implementar [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md) según su alcance acotado, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Comprobar el uso público de Pantry y delimitar Culinary Shopping, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
