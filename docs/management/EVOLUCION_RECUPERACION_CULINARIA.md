@@ -2,7 +2,7 @@
 id: DOC-EVOLUCION-RECUPERACION-2026
 titulo: Evolución de la recuperación del conocimiento culinario
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -83,6 +83,14 @@ La reconstrucción de este corte mediante las herramientas vigentes es una prueb
 El script `tools/experiment_retrieval_text.py` reconstruye el corte fijado de RET-D01 y compara tres modalidades sobre 17 consultas, con informe JSON en `site/knowledge-audit/retrieval_text_experiment.json`. Se utilizan secuencias contiguas de tokens alfanuméricos Unicode: la puntuación y el guion bajo actúan como separadores. La versión folded elimina marcas combinantes después de descomposición NFD, incluyendo la tilde de ñ; esta pérdida de distinciones requiere especial cautela. No hay expansión de plurales, inferencia de identidad ni interpretación de negaciones.
 
 El informe registra por modalidad recuentos de ocurrencias y recetas distintas, diferencias respecto de la modalidad anterior, referencias completas de las ocurrencias añadidas o retiradas y contraste de los 18 casos fijados. Las diferencias no se interpretan automáticamente como aciertos culinarios. Las pruebas sintéticas cubren límites léxicos, contigüidad, diacríticos, ocurrencias repetidas e inputs inválidos. Knowledge audit ejecuta el experimento sin alterar los modos del motor vigente. La revisión de resultados y falsos positivos queda pendiente de la evidencia de ejecución y de la síntesis.
+
+## RET-D03 — Experimento conservador de candidatos
+
+El [job de RET-D02](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44517050880/job/135535659644) registra 18/18 casos y 87 pruebas. Recetas recuperadas exacta/terms: aceite 0/448, ajo 103/298, sal 53/423, limón 4/165, salsa de soja 10/45. La consulta limon recupera 165 en folded frente a cero en las otras modalidades. Son menciones, no identidades ni medidas de precisión.
+
+RET-D03 prueba cinco reglas de etiquetas completas revisadas en cuatro fichas de Despensa: preparación y tamaño de ajo, escurrido de atún en conserva, pelado y descorazonado de manzana y molienda fina de harina de maíz no precocida. La preparación y presentación se conservan en el texto de origen. No se amplían candidatos existentes ni se alteran identidades explícitas o ambiguas. Se reutiliza la normalización del candidato vigente y se admite una coma tras ajo únicamente cuando el resultado es una etiqueta revisada. No se eliminan calificadores arbitrarios ni se dividen alternativas. Las etiquetas se contrastan con la ficha y el ID del corte fijado.
+
+El fixture `tools/fixtures/retrieval_identity_cases.json` contiene 12 casos documentales y 10 negativos sintéticos. El informe `retrieval_identity_experiment.json` conserva procedencia, propuestas por ocurrencia, recuentos por regla e ingrediente y casos sin ampliación. Los negativos son ausencia de nuevas propuestas, no negación de relaciones existentes. Los casos documentales fueron seleccionados deliberadamente para contraste de reglas, no para validación independiente ni estimación estadística. Las nuevas correspondencias siguen siendo propuestas experimentales y no se incorporan al índice ni al extractor. El contraste de conflictos preserva todos los candidatos sin escoger uno.
 
 ## Límites y decisión pendiente
 
