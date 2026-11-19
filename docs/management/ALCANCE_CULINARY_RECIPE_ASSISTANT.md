@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -73,3 +73,13 @@ Escalado, conversión de unidades, sustituciones, inferencia de seguridad, nutri
 - [Contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md)
 - [Roadmap](./ROADMAP.md)
 - [Deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md)
+
+## Unidad A — Contrato de publicación derivada
+
+`tools/build_recipe_assistant.py` consume los bytes del índice 0.2.0 y las fuentes Git de su commit. Genera un directorio nuevo con manifest.json y un JSON por ID literal, cuyo nombre es el SHA-256 hexadecimal de los bytes UTF-8 del ID seguido de .json. El manifiesto (esquema 0.1.0) conserva index_version, source_commit, index_sha256, recipe_count y recipes (mapa de ID a file, sha256 del JSON, source_sha256 y href). Los registros repiten esquema, versión de índice, commit y huella de índice; contienen id, title, source_path, source_sha256, href, ingredients, steps, yield, durations, evidence, mise_en_place, context, techniques y diagnostics seleccionados. El consumidor posterior deberá contrastar manifiesto, registro y procedencia con Explorer.
+
+Ingredientes: posición desde cero y campos raw, name, group, quantity, optionality y source_location originales; no se publican candidatos ni se reinterpretan cantidades. Pasos: order desde uno, source_number, text y source_location originales. Rendimiento nulo no distingue por sí solo ausencia de ambigüedad; los diagnósticos y cuerpo de origen permiten consultar la declaración. Duraciones conservan fases y texto sin cálculos. Mise en place recoge encabezados explícitos y descendientes; vacío no implica que no haga falta preparar ingredientes.
+
+Se adopta el modo conservador context.mode=full_source para todas las fichas: cuerpo completo desde el final del front matter, con saltos de línea normalizados, y localizador. No se afirma que los pasos reconocidos sean el procedimiento completo; la interfaz deberá mostrar contexto y acceso a la ficha, con advertencias disponibles durante toda la sesión. No se copia el front matter completo ni el índice completo. Técnicas: referencias resueltas bajo 00_Bases/03_Tecnicas con destino Markdown preparado, etiqueta, ruta y localizador; no se asignan a pasos automáticamente. La existencia del HTML final se comprueba en D.
+
+El generador contrasta huellas de bytes de origen, inventario, rutas, secciones, ingredientes seleccionados, pasos, rendimiento, duraciones y evidencia mediante el extractor existente; valida límites de localizadores. Esta reconciliación no constituye evaluación independiente de precisión del extractor. Se añaden seis pruebas sintéticas y doble generación con comparación de archivos en Knowledge audit. Los datos quedan como artefacto de auditoría hasta D; no se modifica Explorer ni se publican nuevas fichas. Los resultados de CI quedan pendientes de ejecución.

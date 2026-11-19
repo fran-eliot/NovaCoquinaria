@@ -61,6 +61,15 @@ jobs:
           python tools/build_culinary_explorer.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/culinary_explorer_repeat.json"
           cmp "$dir/culinary_explorer.json" "$dir/culinary_explorer_repeat.json"
           rm "$dir/culinary_explorer_repeat.json"
+      - name: Build and contrast Recipe Assistant data
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir=site/knowledge-audit
+          python tools/build_recipe_assistant.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/recipe_assistant"
+          python tools/build_recipe_assistant.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/recipe_assistant_repeat"
+          diff -qr "$dir/recipe_assistant" "$dir/recipe_assistant_repeat"
+          rm -r "$dir/recipe_assistant_repeat"
       - name: Set up Node for Explorer contrast
         uses: actions/setup-node@v4
         with:
