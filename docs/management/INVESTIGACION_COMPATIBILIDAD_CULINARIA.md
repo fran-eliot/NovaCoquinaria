@@ -2,7 +2,7 @@
 id: DOC-COMPATIBILIDAD-CULINARIA-2026
 titulo: Investigación de compatibilidad culinaria
 tipo: gestion
-version: 0.5.0
+version: 0.5.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -303,6 +303,10 @@ Resultado propuesto: viabilidad técnica acotada, utilidad operativa insuficient
 | D — Diferir compatibilidad y priorizar filtros declarados | Alternativa si B no ofrece mejora verificable |
 
 Proponer una investigación acotada de requisitos culinarios antes de volver a considerar compatibilidad: inventario reproducible de estructuras problemáticas, contraste de muestras ajenas al ajuste, alternativas de representación derivada y criterios explícitos de no promoción. Evitar una reescritura masiva de fichas o una ampliación automática de reglas. No se autoriza implementación, nueva release ni cambio de contratos. La decisión estratégica queda pendiente de revisión.
+
+### Disposición de la investigación
+
+Tras la revisión de #256 se adopta la alternativa B como línea de investigación. CCE queda cerrado como ciclo experimental, con viabilidad técnica acotada y utilidad operativa insuficiente; su entrega productiva se difiere. El [modelo de requisitos culinarios](./INVESTIGACION_REQUISITOS_CULINARIOS.md) registra el nuevo alcance. No se aprueba un Delivery Scope ni una release.
 
 ## Referencias
 
