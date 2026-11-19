@@ -1,7 +1,9 @@
 import {addList,renameList,removeList,addItem,editItem,removeItem,markPurchased,filterItems} from "./culinary-shopping-model.mjs";
 import {createShoppingPersistence,MAX_JSON_LENGTH} from "./culinary-shopping-persistence.mjs";
+import {takeRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
 const $=id=>document.getElementById(id);
 const store=createShoppingPersistence(()=>window.localStorage);
+let recipeReview=null,reviewRows=[];
 let data=null,ready=false,active=null,editing=null,preview=null,generation=0;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const announce=message=>{$("status").textContent=message;};
@@ -13,6 +15,7 @@ function controls(){
   $("rename-controls").disabled=!ready||!list();$("import-file").disabled=!ready;
   $("import-confirm").disabled=!ready||!preview;$("import-cancel").disabled=!preview;
   $("export").disabled=store.snapshot()===null;
+  $("review-confirm").disabled=!ready||!recipeReview||!data?.lists.length;
   $("delete-list").disabled=!ready||!list()||list().items.some(i=>i.transfer!==null);
 }
 function resetEditor(){editing=null;$("item-form").reset();$("item-heading").textContent="Añadir artículo";$("save-item").textContent="Añadir artículo";$("cancel-edit").hidden=true;}
@@ -74,8 +77,41 @@ function render(){
     const count=current.items.filter(i=>i.purchased).length;$("progress").textContent=count+" de "+current.items.length+" artículos comprados";$("progress-bar").max=Math.max(1,current.items.length);$("progress-bar").value=count;
     $("list-lock").textContent=current.items.some(i=>i.transfer!==null)?"Esta lista conserva registros de transferencia y no puede eliminarse.":"";
     renderItems();}
-  controls();
+  updateReviewLists();controls();
 }
+function updateReviewLists(){
+  const select=$("review-list"),previous=select.value;
+  select.replaceChildren(...(data?.lists??[]).map(l=>new Option(l.name,l.id)));
+  if([...select.options].some(o=>o.value===previous))select.value=previous;
+}
+function renderRecipeReview(){
+  $("recipe-review").hidden=!recipeReview;
+  if(!recipeReview)return;
+  $("review-source").textContent=recipeReview.title+" · "+recipeReview.items[0].provenance.recipe_id;
+  $("review-items").replaceChildren();reviewRows=[];
+  for(const x of recipeReview.items){
+    const field=el("fieldset"),legend=el("legend",x.provenance.raw),label=el("label",undefined,"purchase-check"),check=el("input");
+    check.type="checkbox";check.checked=true;label.append(check,el("span","Incluir artículo"));field.append(legend,label);
+    const fields={};
+    for(const [key,title,max,value] of [["name","Nombre",160,x.name],["quantity","Cantidad",16,""],["unit","Unidad",40,""]]){
+      const l=el("label",title),input=el("input");input.maxLength=max;input.value=value;if(key==="quantity")input.inputMode="decimal";l.append(input);field.append(l);fields[key]=input;
+    }
+    $("review-items").append(field);reviewRows.push({check,fields,provenance:x.provenance});
+  }
+  updateReviewLists();controls();
+}
+$("review-cancel").addEventListener("click",()=>{recipeReview=null;reviewRows=[];$("recipe-review").hidden=true;controls();});
+$("review-form").addEventListener("submit",e=>{
+  e.preventDefault();if(!ready||!recipeReview)return;
+  try{
+    const chosen=reviewRows.filter(x=>x.check.checked),destination=$("review-list").value;
+    if(!chosen.length)throw Error("Selecciona al menos un artículo.");
+    if(!confirm("¿Añadir "+chosen.length+" artículos revisados a la lista?"))return;
+    let next=data;
+    for(const x of chosen)next=addItem(next,destination,{id:newId(),name:x.fields.name.value.trim(),quantity:x.fields.quantity.value.trim().replace(",",".")||null,unit:x.fields.unit.value.trim()||null,category:null,notes:null,purchased:false,provenance:x.provenance,transfer:null});
+    if(save(next,"Ingredientes añadidos a la lista.")){recipeReview=null;reviewRows=[];$("recipe-review").hidden=true;active=destination;resetEditor();$("filters").reset();render();}
+  }catch(e){$("review-status").textContent=e.message;}
+});
 $("list-form").addEventListener("submit",e=>{e.preventDefault();if(!ready)return;if(editing!==null&&!confirm("¿Descartar la edición actual?"))return;try{const id=newId();if(save(addList(data,id,$("list-name").value.trim()),"Lista creada.")){active=id;resetEditor();$("list-form").reset();$("filters").reset();render();$("item-name").focus();}}catch(e){error(e);}});
 $("rename-form").addEventListener("submit",e=>{e.preventDefault();if(!ready||!list())return;try{if(save(renameList(data,active,$("rename-name").value.trim()),"Lista renombrada."))render();}catch(e){error(e);}});
 $("delete-list").addEventListener("click",()=>{if(!ready||!list()||!confirm("¿Eliminar la lista y todos sus artículos?"))return;try{if(save(removeList(data,active),"Lista eliminada.")){active=null;resetEditor();$("filters").reset();render();}}catch(e){error(e);}});
@@ -99,3 +135,4 @@ $("import-cancel").addEventListener("click",()=>{clearImport();announce("Importa
 $("import-confirm").addEventListener("click",()=>{if(!ready||!preview||!confirm("¿Sustituir todas las listas por la copia seleccionada?"))return;try{data=store.confirmImport(preview,true).data;clearImport();active=null;resetEditor();$("filters").reset();render();announce("Listas importadas.");}catch(e){error(e);}});
 window.addEventListener("storage",event=>{if(store.observeStorageEvent(event)){ready=false;clearImport();render();announce("Las listas cambiaron en otra pestaña. Recarga antes de guardar.");}});
 load();
+try{recipeReview=takeRecipeSelection(()=>window.sessionStorage);renderRecipeReview();}catch(e){announce("No se pudo recuperar la selección de receta.");}
