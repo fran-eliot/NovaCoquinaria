@@ -41,3 +41,32 @@ class DetailsTests(unittest.TestCase):
         self.assertEqual(refs[0]["source_location"]["start_line"],2)
         self.assertIsNone(refs[1]["target_id"])
         self.assertEqual(len(diag),1)
+
+
+    def test_real_declared_formats(self):
+        from common import ROOT_DIR
+        from extract_recipe_metadata import snapshot_bytes, read_metadata
+        commit = "c7165a535c9b01313209059b6074de61dad957b7"
+        cases = [
+            ("01_Arroces/arroz_chaufa.md","2","racion",{"preparation":"15","cooking":"10"}),
+            ("05_Carnes/hamburguesa_especiada.md","2","racion",{"declared_total":"25"}),
+            ("09_Bebidas/horchata_casera_de_chufa.md","4","vaso",{}),
+            ("04_Verduras/zanahorias_alinadas_andaluzas.md","2","racion",{"preparation":"10","rest":"12"}),
+            ("05_Carnes/ropa_vieja_base_y_pulled_pork.md","4","racion",{"preparation":"20","cooking":None}),
+        ]
+        for path,amount,unit,times in cases:
+            with self.subTest(path=path):
+                raw=snapshot_bytes(ROOT_DIR,commit,path)
+                _,original=read_metadata(raw,path)
+                result,_=general_fields(extract_sections(raw),original)
+                self.assertEqual(result["yield"]["min"],amount)
+                self.assertEqual(result["yield"]["unit"],unit)
+                actual={item["phase"]:item["min"] for item in result["durations"]}
+                for phase,value in times.items():
+                    self.assertEqual(actual[phase],value)
+    def test_body_takes_precedence_and_compound_remains_raw(self):
+        sections=extract_sections("## Información general\n| Raciones | 3 |\n| Preparación | 10 min más 2 h |\n".encode())
+        result,_=general_fields(sections,"raciones: 2\ntiempo_preparacion: 5 min")
+        self.assertEqual(result["yield"]["min"],"3")
+        self.assertEqual(len(result["durations"]),1)
+        self.assertIsNone(result["durations"][0]["min"])
