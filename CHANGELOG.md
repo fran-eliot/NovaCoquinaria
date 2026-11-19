@@ -71,11 +71,26 @@ MAJOR.MINOR.PATCH
 
 # Historial
 
-## [Unreleased]
+## [Unreleased] — candidato v1.6.0
+
+### Added
+
+- Expansión sistemática del conocimiento culinario, incluidas 174 propuestas de cocina tradicional española en 29 tandas.
+- Registro de elaboraciones, variantes y valoraciones con distinción entre evidencia doméstica y propuestas.
+- Auditoría reproducible del conocimiento e inventario por commit.
+- Contrato de datos de recetas 0.1.0, extractor 0.4.6 e índice derivado 0.2.0.
+- Motor de consultas de solo lectura 0.2.0: metadatos, texto exacto, términos completos, identidades explícitas y candidatos.
+
+### Improved
+
+- Relaciones semánticas, navegación y trazabilidad de las fuentes.
+- Reconstrucción determinista del índice y evaluación automatizada de consultas.
+- Gobernanza de la evolución de recetas y tratamiento explícito de incertidumbre.
 
 ### Changed
 
-- _(Vacío hasta la siguiente Release.)_
+- Prioridad estratégica: consolidación y explotación del conocimiento antes de implementar la plataforma software.
+- Markdown permanece como fuente canónica; la representación consultable es derivada.
 
 ---
 
