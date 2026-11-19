@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.5
+version: 0.1.6
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -141,3 +141,9 @@ Las unidades A–D están integradas mediante #278–#281. Merge: `e985d875bb1fe
 | AST-15 | Build reproducible, destinos comprobados y despliegue registrado en gh-pages; uso documentado, comprobación pública pendiente |
 
 Estado: implementación completa y validación técnica dirigida superada; aceptación pública pendiente de comprobar el recorrido en el sitio servido. No se modifica v1.6.0 ni se acredita precisión culinaria, seguridad alimentaria o accesibilidad universal. La siguiente capacidad candidata es Culinary Pantry, sin inferir compatibilidad.
+
+## Refinamiento de presentación tras uso público
+
+La carga pública de la receta Ternera con salsa de ostras quedó observada mediante captura del propietario; el contexto y los ingredientes mostraban sintaxis Markdown literal. Se incorpora un renderer DOM acotado para encabezados, listas, tablas, separadores, énfasis y etiquetas de enlaces; no interpreta HTML ni activa URL del Markdown. Los enlaces operativos a ficha y técnicas siguen validados. Se conserva el cuerpo original y se permite plegar el contexto, abierto inicialmente. La información técnica queda en un desplegable.
+
+La URL principal contiene únicamente id. El manifiesto del despliegue actual determina commit y huella de índice, y se comprueba contra el registro y su SHA-256; el build contrasta con Explorer. Las URLs anteriores con commit e index siguen validándose si se proporcionan ambos y se normalizan tras cargar. La URL corta apunta a la versión vigente, no fija un snapshot. Se comprueban presentación y navegación en Chromium. No se altera el contenido canónico ni la release. La captura acredita la carga pública previa al refinamiento, no la publicación de estos cambios ni una prueba culinaria completa.
