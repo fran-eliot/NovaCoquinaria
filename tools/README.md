@@ -184,3 +184,7 @@ El informe incluye candidate_review con ocurrencias por método, las 20 expresio
 ### Ampliación dirigida de alias (0.4.3)
 
 Se añaden expresiones completas de formatos y usos cubiertos por fichas de Despensa: pimentón dulce/picante/agridulce, hojas de laurel, cebolla picada, huevos y tamaños L, comino molido, harina común/adicional, vino blanco seco, aceite de sésamo tostado, caldo bajo en sal, almendras tostadas sin sal, AOVE y zumo/ralladura de limón. Se conserva el texto y la distinción entre candidato y confirmación. Aceite de oliva genérico, azúcar sin tipo, tomate triturado sin formato y combinaciones de ingredientes permanecen sin asignación automática a fichas específicas. No se infiere equivalencia de formatos, ni se amplía por subcadenas.
+
+### Evidencia doméstica dirigida (0.4.4)
+
+Se incorporan declaraciones explícitas observadas de preparación histórica y se distinguen dos alcances adicionales: related_variant (recuerdo de una variante relacionada sin identidad confirmada) y component_only (solo consta la preparación de una base). Ambos permanecen indeterminados para la receta completa. Se preservan las declaraciones originales y sus localizadores; una propuesta, estado documental o valoración de otra variante no valida la fórmula actual. La cobertura de estos formatos es parcial y queda pendiente de medición.
