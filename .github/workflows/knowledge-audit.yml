@@ -61,6 +61,8 @@ jobs:
         run: python tools/evaluate_recipe_terms.py --index site/knowledge-audit/recipe_index.json --output site/knowledge-audit/recipe_terms_evaluation.json
       - name: Experiment with culinary compatibility
         run: python tools/experiment_culinary_compatibility.py --output site/knowledge-audit/compatibility_experiment.json
+      - name: Inventory culinary requirement signals
+        run: python tools/audit_culinary_requirements.py --output site/knowledge-audit/culinary_requirements_inventory.json
       - name: Upload baseline reports
         uses: actions/upload-artifact@v4
         with:
