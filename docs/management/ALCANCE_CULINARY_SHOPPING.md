@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -87,3 +87,11 @@ El adaptador `assets/culinary-shopping-persistence.mjs` conserva la interfaz de 
 La escritura contrasta la cadena original con la lectura actual y bloquea ante eventos externos pertinentes; los cambios de la clave de Pantry no invalidan por sí mismos Shopping. No hay atomicidad entre pestañas ni entre aplicaciones. La exportación conserva listas, artículos, procedencia y registros de transferencia. La previsualización de importación presenta recuentos de listas y artículos; cancelar no escribe. La sustitución confirmada vuelve a validar el documento y rechaza copias que omitan o alteren cualquier registro de transferencia vigente en la última copia válida. Esta protección conservadora no equivale a verificar la presencia actual del destino en Pantry. Las copias con transferencias históricas o pendientes requieren revisión antes de cualquier reintento; no se inicia ninguna transferencia al importar. Tras pérdida o borrado independiente de ambos almacenamientos no existe garantía de reconciliación.
 
 Se añaden once pruebas Node con Storage simulado y ejecución en Knowledge audit: separación de claves, recarga, datos inválidos, acceso y escritura fallidos, cuota, conflictos, importación y cancelación, conservación de transferencias, exportación y límite de JSON. Las pruebas en navegador y el coordinador de transferencia siguen pendientes de las unidades C y D. No se modifica Pantry ni la release.
+
+## Unidad C — Interfaz de listas
+
+La plantilla culinary-shopping.html y los recursos culinary-shopping.css y culinary-shopping-ui.mjs conectan el modelo y la persistencia con controles nativos. Se ofrecen creación, selección, renombrado y eliminación confirmada de listas; alta, edición, eliminación confirmada y marcado reversible de artículos; progreso por lista y filtros acumulables por nombre, categoría, compra y transferencia. Las cantidades opcionales conservan su representación literal, con adaptación de coma decimal a punto en el formulario. Los identificadores nuevos se generan mediante Web Crypto. Se mantiene la procedencia de receta como texto histórico consultable, incluso al editar.
+
+Los registros de transferencia pendientes o completados se muestran como protegidos, sin edición, borrado ni desmarcado; sus listas no se pueden eliminar. Una transferencia registrada no acredita existencias actuales. La UI no inicia transferencias ni escribe en Pantry. Los recorridos desde Recipe Assistant y hacia Pantry se incorporarán en la unidad D, sujetos a las condiciones de recuperación y revisión del alcance.
+
+La aplicación emplea localStorage a través del adaptador, muestra errores y bloquea cambios ante conflicto observado. La exportación crea un archivo local JSON con la última copia válida; la importación muestra recuentos de listas y artículos y exige confirmación de sustitución. Los rechazos por historial protegido no modifican el documento. Los textos personales se insertan mediante textContent; los datos no se envían a un servidor. La interfaz comparte el estilo base de Explorer y añade adaptación móvil. La plantilla todavía no se incorpora al build público. Knowledge audit verifica sintaxis y pruebas de núcleo y persistencia; quedan pendientes los recorridos reales de navegador, el protocolo de transferencia y el despliegue.
