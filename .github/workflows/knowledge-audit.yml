@@ -41,6 +41,7 @@ jobs:
           python tools/audit_inventory.py --output site/knowledge-audit/inventory.json
           python tools/audit_knowledge.py --output site/knowledge-audit/KNOWLEDGE_AUDIT.md --json-output site/knowledge-audit/knowledge_audit.json | tee site/knowledge-audit/domains.txt
           python tools/extract_recipe_metadata.py --output site/knowledge-audit/recipe_metadata.json | tee site/knowledge-audit/recipe_metadata_summary.txt
+          python tools/report_recipe_coverage.py --input site/knowledge-audit/recipe_metadata.json --output site/knowledge-audit/recipe_coverage.json | tee site/knowledge-audit/recipe_coverage_summary.txt
       - name: Upload baseline reports
         uses: actions/upload-artifact@v4
         with:
