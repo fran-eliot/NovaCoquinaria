@@ -2,7 +2,7 @@
 id: DOC-REQUISITOS-CULINARIOS-2026
 titulo: Investigación del modelo de requisitos culinarios
 tipo: gestion
-version: 0.1.0
+version: 0.2.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -55,6 +55,12 @@ CRM-D02 distinguirá señales de defectos confirmados: una conjunción, un encab
 ### Límites
 
 No se modifica en este incremento ningún motor, contrato publicado, ficha culinaria ni regla de identidad. No se aprueba un nuevo servicio, persistencia, API, ranking, sustituciones, escalado, IA o release. El experimento CCE se conserva como evidencia; su entrega productiva queda diferida. La denominación CRM identifica esta investigación, no un compromiso de componente software independiente.
+
+## CRM-D02 — Inventario de señales
+
+Corpus fijado RET-D01 `c0dd020dea003d8a4f7a0278a43f30d81501a7f0` y huella de proyección `d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c`. El inventario verifica los bytes de todas las fuentes y localizadores de ocurrencias, conserva las líneas originales y exige repetibilidad. S01 alternativa léxica en línea, S02 conector final y siguiente ocurrencia adyacente del mismo grupo, S03 conjunción, S04 marcador condicional, S05 opcionalidad léxica, S06 acompañamiento o guarnición, S07 selección finita de calificadores de presentación y preparación, S08 cantidad cualitativa según proyección. S02 cuenta ambos extremos; conectores finales sin pareja adyacente se registran aparte. Las categorías se solapan. Se registran denominadores, intersecciones, módulo, opcionalidad heredada, grupos y procedencia.
+
+Las señales son heurísticas: no acreditan alternativas reales, condiciones ni errores; no detectan todas las estructuras, principalmente fuera de las ocurrencias proyectadas. Se ignoran destinos de enlaces para las señales. No se modifica el extractor ni se promueve identidad. Pruebas sintéticas y ejecución de CI generan `culinary_requirements_inventory.json`; los recuentos reales se documentarán después de verificar la ejecución. CRM-D03 deberá contrastar fuentes originales incluyendo negativos y casos no señalados.
 
 ## Referencias
 
