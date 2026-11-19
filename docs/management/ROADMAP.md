@@ -2,7 +2,7 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.5
+version: 2.6
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -211,7 +211,7 @@ Continuará evolucionando de forma permanente.
 
 # Capacidad prioritaria: consolidación y explotación del conocimiento
 
-**Estado:** 🟡 Recuperación textual acotada publicada en v1.6.0; compatibilidad culinaria investigada; requisitos culinarios como siguiente línea de investigación.
+**Estado:** 🟡 Recuperación textual acotada publicada en v1.6.0; compatibilidad culinaria investigada; modelo de requisitos contrastado de forma manual; reconocimiento determinista en investigación.
 
 El inventario del recetario proporciona una base suficiente para explorar el consumo estructurado sin dar por terminada la evolución culinaria. La progresión de referencia es (los primeros cuatro puntos cuentan con prototipos o evidencia dirigida; el quinto incluye la investigación y entrega textual acotada, sin decidir la siguiente capacidad):
 
@@ -222,7 +222,7 @@ El inventario del recetario proporciona una base suficiente para explorar el con
 5. Evaluación de alternativas de explotación: recuperación textual por términos integrada (motor 0.2.0); identidades adicionales permanecen experimentales.
 6. Revisión estratégica global del siguiente bloque funcional: identidades, tiempo/rendimiento, despensa limitada o acceso de solo lectura; revisión documentada en #248.
 
-La [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar la compatibilidad culinaria acotada como caso de uso para orientar la resolución de identidades. La [investigación CCE-D01–D05](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) concluyó con viabilidad técnica acotada y utilidad operativa insuficiente. Se difiere la entrega de CCE y se inicia la [investigación del modelo de requisitos culinarios](./INVESTIGACION_REQUISITOS_CULINARIOS.md), sin seleccionar una implementación.
+La [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar la compatibilidad culinaria acotada como caso de uso para orientar la resolución de identidades. La [investigación CCE-D01–D05](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) concluyó con viabilidad técnica acotada y utilidad operativa insuficiente. Se difiere la entrega de CCE y se inicia la [investigación del modelo de requisitos culinarios](./INVESTIGACION_REQUISITOS_CULINARIOS.md), sin seleccionar una implementación. CRM ha acreditado viabilidad representacional acotada; la siguiente investigación es el [reconocimiento de requisitos culinarios](./INVESTIGACION_RECONOCIMIENTO_REQUISITOS.md).
 
 El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registra RET-01–RET-14. Los criterios de aceptación se concretan en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md). La base de conocimiento Markdown permanece canónica; ninguna tecnología de persistencia o framework queda seleccionada. La incorporación de recetas se mantiene de forma selectiva.
 

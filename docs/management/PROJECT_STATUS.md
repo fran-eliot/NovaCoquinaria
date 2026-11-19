@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.6
+version: 2.7
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Investigación de requisitos culinarios (CRM-D01–D05) |
+| Próximo objetivo | Investigación de reconocimiento de requisitos (CRR-D01–D05) |
 
 ---
 
@@ -70,6 +70,10 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 
 #256 integrada. La [investigación CCE](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) acredita 110 pruebas y cinco escenarios dirigidos; las 590 recetas resultaron indeterminadas en el escenario sin confirmaciones. Viabilidad técnica acotada y utilidad operativa insuficiente para una entrega. Se inicia [CRM](./INVESTIGACION_REQUISITOS_CULINARIOS.md); no se modifica v1.6.0.
 
+## Corte de investigación de requisitos — 2026-11-19
+
+#262 integrada. [CRM](./INVESTIGACION_REQUISITOS_CULINARIOS.md) acredita 121 pruebas, 16 casos representados y 20 ocurrencias anotadas manualmente de 5.047. Viabilidad representacional acotada; automatización no demostrada. Se inicia [CRR](./INVESTIGACION_RECONOCIMIENTO_REQUISITOS.md), sin alterar v1.6.0.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -88,7 +92,8 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 | Índice de recetas 0.2.0 | 🟢 Prototipo contrastado |
 | Motor de consultas 0.2.0 | 🟢 CLI de recuperación textual acotada, contrastada |
 | Compatibilidad culinaria | 🟡 Investigación concluida; entrega diferida |
-| Requisitos culinarios | 🟡 Investigación iniciada |
+| Requisitos culinarios | 🟡 Viabilidad representacional acotada; entrega diferida |
+| Reconocimiento de requisitos | 🟡 Investigación iniciada |
 | Plataforma software | ⚪ En fase de diseño |
 
 ---
@@ -138,7 +143,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Investigar el modelo de requisitos culinarios, empezando por el inventario de señales y contraste documental. Una eventual implementación requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Investigar el reconocimiento determinista acotado de requisitos culinarios, empezando por patrones y muestras documentales. Una eventual implementación requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
