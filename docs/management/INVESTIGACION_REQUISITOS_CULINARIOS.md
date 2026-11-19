@@ -2,7 +2,7 @@
 id: DOC-REQUISITOS-CULINARIOS-2026
 titulo: Investigación del modelo de requisitos culinarios
 tipo: gestion
-version: 0.5.0
+version: 0.5.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -210,6 +210,10 @@ Resultado propuesto: viabilidad representacional acotada del híbrido; reconocim
 Evaluar un reconocimiento acotado dentro de una proyección experimental separada, con señales como localizadores y no como verdad. Priorizar patrones documentales de ámbito inequívoco: grupos de elección con encabezado y declaración explícita, alternativas entre líneas con conectores, opcionalidad explícita y condiciones de preparación o ajuste claramente delimitadas. No comprometer todos estos patrones antes de revisar muestras. No dividir por conjunción de forma general, transferir cantidades o inferir cardinalidad ni identidades. Definir corpus fijado, conjunto de ajuste y conjunto de contraste disjunto por receta, expectativas documentales previas, negativos y abstención. Comparar contra la línea base heredada, registrar denominadores, falsos positivos, omisiones, coste de revisión y trazabilidad. Incluir pruebas de referencias y solapamiento antes de una eventual entrega. Si la evidencia es insuficiente, conservar el modelo como investigación y evaluar alternativas de consumo del conocimiento.
 
 La decisión queda pendiente de revisión; no se aprueba Delivery Scope, cambios productivos, release ni nueva infraestructura.
+
+### Disposición de la investigación
+
+Tras la integración de #262 y la continuación de la línea de investigación, se adopta la alternativa B de CRM-D05. CRM queda cerrado como ciclo representacional acotado, sin prueba de reconocimiento automático ni aprobación de entrega. Se inicia [CRR](./INVESTIGACION_RECONOCIMIENTO_REQUISITOS.md). CCE permanece diferido; no se aprueba un cambio de contrato ni una release.
 
 ## Referencias
 
