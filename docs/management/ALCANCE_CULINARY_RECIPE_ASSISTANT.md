@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECIPE-ASSISTANT-2026
 titulo: Alcance de entrega de Culinary Recipe Assistant
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -99,3 +99,17 @@ La plantilla `tools/templates/recipe-assistant.html` y los módulos CSS y JavaSc
 El acceso previsto es recipe-assistant.html?id=...&commit=...&index=..., con ID literal y procedencia del catálogo de Explorer. Se exige un único valor de cada parámetro; se contrasta el manifiesto con la procedencia recibida, se verifica pertenencia del ID, nombre de archivo SHA-256, huella de bytes de registro y coincidencia de esquema, identidad y fuente. El navegador requiere contexto seguro (HTTPS o localhost) para Web Crypto; no se descarga el catálogo completo de Explorer. No es una autenticación criptográfica del sitio, sino una comprobación de consistencia. Se comprueban rutas relativas, estructura y localizadores antes de habilitar la vista. La unidad D incorporará el enlace desde Explorer y la publicación del manifiesto/plantilla; por tanto, no se exponen enlaces nuevos en la aplicación publicada durante C.
 
 El temporizador se actualiza desde el reloj de sesión, no del número de refrescos, y anuncia cambios de estado mediante una región de estado. No promete avisos en suspensión. La sesión se pierde al recargar, salir o cambiar de receta; no hay almacenamiento. La comprobación de sintaxis se integra en Knowledge audit. Los recorridos reales, la correspondencia de enlaces y la validación de accesibilidad dirigida quedan pendientes de D.
+
+## Unidad D — Integración con el portal
+
+La preparación ordinaria de site_docs genera Explorer y Recipe Assistant a partir de los mismos bytes del índice. Publica la plantilla recipe-assistant.html, el manifiesto y un JSON por receta bajo recipe_assistant/. Cada tarjeta del explorador mantiene el enlace al documento y ofrece «Preparar receta», con ID literal, commit y huella del índice. Se conserva el flujo de despliegue vigente; no se publica el índice completo.
+
+El verificador check_recipe_assistant_site.py contrasta inventario, procedencia, huellas, campos compartidos, ingredientes y destinos HTML de recetas y técnicas. El workflow de sitio comprueba dos generaciones idénticas, conserva la regresión del explorador y agrega recorridos Chromium del asistente bajo el subdirectorio del portal. Se cubren el curry amarillo, pastel de manzana, talo y berenjenas Sichuán; checklist por teclado, navegación y foco, temporizador con pausa y reanudación, reinicio, recarga, ficha original, retorno, dos tamaños de pantalla, identificador desconocido, procedencia incorrecta y datos alterados. Los resultados quedan pendientes de CI; no se presume accesibilidad exhaustiva ni publicación remota.
+
+### Uso
+
+Abrir el explorador desde la portada, buscar una receta y seleccionar «Preparar receta». Consultar primero la ficha completa y el contexto original. Marcar ingredientes y pasos conforme se avanza, sin que el sistema deduzca disponibilidad ni cocción. Introducir manualmente minutos y segundos para iniciar un temporizador; el aviso no certifica que el alimento esté listo y puede retrasarse si el navegador suspende la página. Reiniciar con confirmación, o volver al explorador para elegir otra receta. No se guarda el progreso.
+
+Para uso local: instalar requirements.txt, ejecutar python tools/build_site_docs.py, mkdocs build, python tools/check_explorer_site.py y python tools/check_recipe_assistant_site.py; servir con python -m http.server 8000 --directory site y abrir http://localhost:8000/. Se requiere HTTPS o localhost para Web Crypto.
+
+La aceptación de AST-01–AST-15 se registrará con evidencia de ejecución y publicación. La release v1.6.0 y el kit permanecen sin cambios en este incremento.

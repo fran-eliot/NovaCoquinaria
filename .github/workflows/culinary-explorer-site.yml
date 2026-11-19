@@ -28,13 +28,20 @@ jobs:
         run: |
           python tools/build_site_docs.py
           cp site_docs/culinary_explorer.json /tmp/culinary_explorer.json
+          cp -r site_docs/recipe_assistant /tmp/recipe_assistant
           python tools/build_site_docs.py
           cmp /tmp/culinary_explorer.json site_docs/culinary_explorer.json
+          diff -qr /tmp/recipe_assistant site_docs/recipe_assistant
           mkdocs build
           python tools/check_explorer_site.py
+          python tools/check_recipe_assistant_site.py
       - name: Check browser journeys
         run: python tools/check_explorer_browser.py --site site --output /tmp/explorer-browser.json
+      - name: Check Recipe Assistant browser journeys
+        run: python tools/check_recipe_assistant_browser.py --site site --output /tmp/assistant-browser.json
       - uses: actions/upload-artifact@v4
         with:
           name: explorer-browser
-          path: /tmp/explorer-browser.json
+          path: |
+            /tmp/explorer-browser.json
+            /tmp/assistant-browser.json

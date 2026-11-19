@@ -33,6 +33,7 @@ jobs:
         run: |
           mkdocs build
           python tools/check_explorer_site.py
+          python tools/check_recipe_assistant_site.py
 
       - name: Deploy to GitHub Pages
         run: |
