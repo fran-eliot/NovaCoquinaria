@@ -24,7 +24,8 @@ def check_site(site):
     require(len(recipes) == catalog["recipe_count"] and
             set(recipes) == set(manifest["recipes"]), "Inventario incompatible")
     for path in ("recipe-assistant.html", "assets/recipe-assistant.css",
-                 "assets/recipe-assistant-ui.mjs", "assets/recipe-assistant-session.mjs"):
+                 "assets/recipe-assistant-ui.mjs", "assets/recipe-assistant-session.mjs",
+                 "assets/recipe-assistant-markdown.mjs"):
         require((root / path).is_file(), f"Recurso ausente: {path}")
 
     def destination(href):
