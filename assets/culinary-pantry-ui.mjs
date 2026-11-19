@@ -1,6 +1,8 @@
 import {addEntry,editEntry,removeEntry,filterEntries,selectedMentions,dateRelation} from "./culinary-pantry-model.mjs";
 import {createPantryPersistence,MAX_JSON_LENGTH} from "./culinary-pantry-persistence.mjs";
 
+import {putMentions} from "./culinary-pantry-transfer.mjs";
+
 const $=id=>document.getElementById(id);
 const store=createPantryPersistence(()=>window.localStorage);
 const locations={pantry:"Despensa",fridge:"Frigorífico",freezer:"Congelador",other:"Otra"};
@@ -73,6 +75,7 @@ function renderSelection(){
   for(const name of names)list.append(el("li",name));
   $("selection-count").textContent=selected.size+" entradas seleccionadas · "+names.length+" menciones";
   $("clear-selection").disabled=!selected.size;
+  $("search-recipes").disabled=!ready||!names.length;
 }
 function card(entry){
   const article=el("article",undefined,"inventory-entry");article.append(el("h3",entry.name));
@@ -115,6 +118,11 @@ $("filters").addEventListener("input",render);
 $("filters").addEventListener("submit",e=>e.preventDefault());
 $("filters").addEventListener("reset",()=>setTimeout(render,0));
 $("clear-selection").addEventListener("click",()=>{selected.clear();render();});
+$("search-recipes").addEventListener("click",()=>{
+  if(!ready)return;
+  try{putMentions(()=>window.sessionStorage,selectedMentions(data,[...selected]));window.location.assign("culinary-explorer.html");}
+  catch(error){announce(error.message);}
+});
 $("reload").addEventListener("click",()=>{if(editing!==null&&!confirm("¿Descartar la edición y recargar?"))return;load();});
 $("export").addEventListener("click",()=>{
   try{
