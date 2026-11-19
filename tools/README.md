@@ -176,3 +176,7 @@ Se amplía el reconocimiento a encabezados descriptivos de las fichas afectadas 
 ### Candidatos de identidad (0.4.2)
 
 Se comparan nombres extraídos completos con títulos de fichas de ingrediente del snapshot y un conjunto inicial de alias revisados (cebollas, salsa de soja clara/oscura y formatos de leche de coco). Cada candidato conserva ID, ruta, etiqueta y método. No se cambia ingredient_id ni resolution; un candidato único no equivale a identidad confirmada. No se aplican subcadenas, coincidencia difusa, singularización general ni eliminación de alternativas. El informe distingue candidatos simples/múltiples y proporción entre entradas sin resolver. Se requiere evaluación de muestras antes de ampliar reglas.
+
+### Revisión de candidatos de identidad (EXT-02)
+
+El informe incluye candidate_review con ocurrencias por método, las 20 expresiones sin candidato más frecuentes y hasta 12 ejemplos por estado de candidato entre entradas no resueltas. La selección es determinista y distribuida por orden de ID de receta; conserva texto, ruta, localizador y candidatos. No es una muestra aleatoria ni permite calcular precisión global. Se utiliza para contrastar las fuentes y decidir ampliaciones acotadas de alias. Las entradas explícitas no forman parte de esa muestra.

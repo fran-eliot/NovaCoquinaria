@@ -1,5 +1,5 @@
 import unittest
-from report_recipe_coverage import coverage, summarize, structural_gaps
+from report_recipe_coverage import coverage, summarize, structural_gaps, candidate_review
 
 
 def record(identity="REC-1", module="01_Arroces"):
@@ -55,3 +55,20 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(result[0]["id"],"REC-1")
         self.assertEqual(result[0]["headings"][0]["heading"],"Preparación")
         self.assertEqual(result[0]["headings"][0]["source_location"]["start_line"],10)
+
+
+    def test_candidate_review_separates_unresolved_and_explicit(self):
+        first = record()
+        first["ingredients"] = [
+            {"resolution":"explicit","name":"cebolla","identity_candidates":[]},
+            {"resolution":"unresolved","name":"cebolla","raw":"1 cebolla",
+             "identity_candidates":[{"ingredient_id":"ING-1","method":"title_exact"}]},
+            {"resolution":"unresolved","name":"sal fina","raw":"sal fina"},
+            {"resolution":"unresolved","name":"sal fina","raw":"sal fina"},
+        ]
+        result = candidate_review([first], limit=1)
+        self.assertEqual(result["method_occurrences"], {"title_exact":1})
+        self.assertEqual(result["frequent_unmatched_names"], [{"name":"sal fina","count":2}])
+        self.assertEqual(len(result["samples"]["single"]), 1)
+        self.assertEqual(len(result["samples"]["none"]), 1)
+        self.assertEqual(result, candidate_review([first], limit=1))

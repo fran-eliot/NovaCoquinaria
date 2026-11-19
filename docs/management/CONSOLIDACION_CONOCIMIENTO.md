@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.14.0
+version: 1.15.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -575,3 +575,20 @@ Las métricas son presencia y reconocimiento del extractor, no precisión, exhau
 ### Continuidad
 
 Primero identificar las fichas de EXT-01 y revisar sus formatos; ampliar la cobertura únicamente mediante cambios dirigidos con regresión. Después contrastar una muestra de ingredientes y evidencia y definir qué consultas textuales y por identidad pueden ofrecerse con sus límites. El índice deberá distinguir coincidencias textuales de identidades explícitas. No se requiere alcanzar un porcentaje arbitrario para construirlo, ni se autoriza todavía persistencia, API o nueva release.
+
+## Refinamiento de la extracción: EXT-01 y primera medición de EXT-02 — 2026-11-19
+
+- #221 hizo visibles las carencias estructurales; #222 trató 18 fichas distintas mediante reconocimiento de encabezados y grupos, sin cambios de formulación. En el corte de #222 (`bfa3e4c949c8e5eeb6ec11c2228169045e991e38`) se reconocen ingredientes y pasos en 590/590 recetas y no quedan structural_gaps. Esto no acredita exhaustividad de cada lista ni ausencia de falsos positivos.
+- #223 añadió candidatos por título completo y alias acotados, sin resolver automáticamente identidades. Corte `64f0082326fd4e2d47bc81797f68863d4c02c4a8`; [auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44498895546/job/135473116284): 44 pruebas superadas, cero advertencias semánticas y cero huérfanos globales.
+
+| Indicador | Línea base #219 | #223 |
+|---|---:|---:|
+| Recetas con ingredientes extraídos | 584 | 590 |
+| Recetas con pasos extraídos | 575 | 590 |
+| Ocurrencias de ingredientes | 4.979 | 5.047 |
+| Identidades explícitas | 39 | 36 |
+| Entradas sin resolver | 4.940 | 5.011 |
+| Candidatos únicos entre entradas sin resolver | No evaluado | 661 |
+| Entradas sin resolver y sin candidato | No evaluado | 4.350 |
+
+La reducción de tres identidades explícitas coincide con el cambio de delimitación de ingredientes de #222, pero no se ha comprobado individualmente su origen. Los candidatos cubren 661/5.011 entradas sin resolver (13,19 %), no identidades confirmadas. Se conserva la incertidumbre y la separación entre búsqueda textual, candidatos e identidades explícitas. La siguiente revisión contrastará muestras trazables y expresiones frecuentes sin candidato; no se ampliará el catálogo mediante subcadenas o equivalencias automáticas sin evidencia.
