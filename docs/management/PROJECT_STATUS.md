@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.3
+version: 2.4
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -30,11 +30,12 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 |---------|-------|
 | Proyecto | NovaCoquinaria |
 | Sistema | GASTRO (SGCC) |
-| Versión actual | **v1.5.0 (tras la release)** |
+| Versión publicada | **v1.5.0** |
+| Candidata | **v1.6.0 — Culinary Knowledge & Retrieval** |
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Revisión estratégica global tras recuperación textual |
+| Próximo objetivo | Cierre de versión candidata y evaluación de compatibilidad culinaria |
 
 ---
 
@@ -128,7 +129,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Revisar estratégicamente las alternativas tras la recuperación textual: gobernanza y contraste de identidades, filtros declarados de tiempo y rendimiento, consumidor limitado de despensa o acceso práctico de solo lectura. No se selecciona todavía una alternativa. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Preparar la candidata v1.6.0 y considerar la investigación de compatibilidad culinaria acotada propuesta en la [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md). La publicación y una eventual implementación requieren decisiones diferenciadas. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
