@@ -2,7 +2,7 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.9
+version: 2.10
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -229,7 +229,7 @@ El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registr
 ## Explotación práctica
 
 - Culinary Explorer 0.1.0: datos, búsqueda, interfaz e integración publicados; aceptación técnica acotada cerrada.
-- Culinary Recipe Assistant: siguiente capacidad candidata, pendiente de alcance de entrega.
+- [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md): siguiente capacidad; alcance 0.1.0 de preparación guiada, estado efímero y temporizador manual, implementación pendiente.
 - Despensa, compras y planificación: capacidades posteriores, no comprometidas.
 
 # Capacidades futuras
