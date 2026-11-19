@@ -2,7 +2,7 @@
 id: DOC-COMPATIBILIDAD-CULINARIA-2026
 titulo: Investigación de compatibilidad culinaria
 tipo: gestion
-version: 0.2.0
+version: 0.3.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -172,6 +172,78 @@ Cada fila identifica ID literal, posición de base cero, línea del corpus fijad
 - De 5.047 ocurrencias históricas, 36 explícitas y 1.044 candidatas permanecen sin cambios. Las 72 adicionales elevarían la cobertura potencial a 1.152 de 5.047 (22,83 %), sin alterar las explícitas; 3.895 quedarían sin identidad ni candidato. No es cobertura entregada ni disponibilidad.
 - Para UC-01/02/04/05/06, estudiar por separado evidencia de identidad, presentación y declaración de disponibilidad. Un candidato único no autoriza resultado positivo; un ID genérico tampoco acredita una presentación específica. Los casos no resueltos requieren abstención. Para UC-03/07/08, preservar opcionalidad, cantidad original y trazabilidad.
 - En CCE-D03 comparar un núcleo estrictamente explícito con una modalidad de evidencia candidata separada y con una alternativa de coincidencia textual informativa. No elegir aún promoción, ranking o resolución automática.
+
+
+## CCE-D03 — Modelo lógico candidato y alternativas
+
+### Punto de partida
+
+CCE-D02 integrado mediante #252, merge `2f83f9b1fdbe52fb4bda77ecfb873fe839b480f1`, con los tres workflows satisfactorios. La revisión de las 72 propuestas no demuestra disponibilidad ni permite promoverlas. Se estudia un consumidor de solo lectura del índice 0.2.0; el contrato y motores publicados permanecen intactos.
+
+### Separación de dimensiones
+
+| Dimensión | Representación propuesta |
+|---|---|
+| Identidad | resolution, ingredient_id y candidatos originales; evidencia textual separada |
+| Presentación | Calificadores originales conservados; confirmación específica por ocurrencia, no derivada del ID |
+| Disponibilidad | available, unavailable, unknown, con motivo y alcance de declaración |
+| Opcionalidad | required, optional, unknown, sin modificar el valor proyectado |
+| Cantidad | Original preservada; quantity_evaluated=false en todos los resultados |
+
+No se presupone que el extractor distinga de forma estructurada todos los calificadores. Un ID explícito acredita la relación documental, no una presentación compatible ni suficiencia. No se clasifica como opcional una ocurrencia cuya disponibilidad es desconocida.
+
+### Alternativas de representación y evaluación
+
+| Modalidad | Evidencia | Efecto |
+|---|---|---|
+| A — Núcleo estricto | ID explícito literal y declaración de presentación por ocurrencia | Disponibilidad de presencia, con abstención si no se acredita la presentación |
+| B — Núcleo con evidencia candidata | A más coincidencias de candidatos vigentes con IDs declarados | Solo pistas de revisión; los estados de A no cambian |
+| C — Núcleo con evidencia textual | A más coincidencia de etiqueta completa normalizada NFC, casefold y espacios | Solo pistas; no equiparar texto a identidad, ni aplicar terms como prueba de presencia |
+
+Las modalidades se compararán sobre las mismas declaraciones. B y C no son vías de promoción. Las 72 propuestas RET-D03 se mantienen fuera de la entrada operativa; una comparación exploratoria separada podrá cuantificar su relevancia si se identifica claramente la fuente. La normalización textual no se aplica a IDs, no elimina diacríticos, ni divide alternativas.
+
+### Entrada candidata para el experimento
+
+- Índice 0.2.0, etapa recipe_index_ingredients_preview y procedencia; validar la forma de los campos consumidos y su coherencia. Selección explícita de IDs de receta o todos los registros; una lista vacía no equivale a todos.
+- Declaración temporal: mode=open (por defecto) o closed; present_ids y absent_ids literales, listas sin duplicados después de normalización de representación (no normalizar IDs); present_labels opcionales para C, no exhaustivas ni prueba de ausencia.
+- Confirmaciones específicas por ocurrencia: recipe_id, position (base cero), ingredient_id y estado presentation=confirmed o unknown. Confirmed expresa que el usuario declara que la presentación satisface esa línea concreta; no es inferencia ni evaluación de cantidad. Solo se admite para una ocurrencia de identidad explícita cuyo ID consta en present_ids. No se necesita confirmación de presentación para una ausencia del concepto completo.
+- Entrada cerrada significa que el usuario declara exhaustivo el conjunto de conceptos identificados en present_ids dentro del universo de IDs explícitos evaluado; no implica exhaustividad para etiquetas, candidatos o desconocidos. No convertir la ausencia de una presentación entre los datos en ausencia del concepto si este figura presente.
+- Rechazar IDs vacíos o con espacios periféricos, tipos incorrectos, estados inválidos, contradicción entre presencia y ausencia del mismo ID, confirmaciones incompatibles con la receta/posición/ID o repetidas y selectores de recetas inexistentes. Los IDs de inventario no se validan contra un catálogo de Despensa completo inexistente en la vista: en el experimento se restringen al universo de IDs explícitos y candidatos del índice; no afirmar que ese universo es el catálogo completo. Duplicados idénticos en listas de IDs pueden rechazarse de forma explícita; no sumar existencias. Etiquetas vacías se rechazan; duplicados normalizados se rechazan. No combinar declaraciones contradictorias ni corregir formatos silenciosamente.
+
+### Regla candidata de disponibilidad (A)
+
+| Identidad de la ocurrencia | Declaración | Resultado |
+|---|---|---|
+| Explícita | ID presente y presentación confirmada en la ocurrencia | available |
+| Explícita | ID presente, presentación no confirmada | unknown |
+| Explícita | ID declarado ausente (concepto completo) | unavailable |
+| Explícita | ID no mencionado en lista cerrada exhaustiva | unavailable |
+| Explícita | ID no mencionado en lista abierta | unknown |
+| No explícita, incluso candidato único | Cualquier declaración | unknown |
+
+Prioridad de evaluación: identidad explícita válida; presencia declarada y confirmación; ausencia explícita; cierre; abstención. Un candidato, una etiqueta o una mención textual nunca suplen una identidad explícita. No asignar de oficio agua, sal o aceite, ni inferir que ajo en polvo suple dientes frescos. Una expresión compuesta no se divide: si la evidencia de identidad corresponde a un concepto de una alternativa, no se concluye disponibilidad ni ausencia de la expresión completa. El índice no dispone de indicador estructurado exhaustivo de alternativas; para el experimento, excluir de estados concluyentes las ocurrencias explícitas cuya atomicidad no se haya confirmado mediante revisión de la línea. La confirmación de atomicidad se registra aparte por occurrence (recipe_id, position, ingredient_id), válida para cualquier estado; no se infiere mediante heurística léxica. Sin confirmación, unknown incluso cuando el ID se declara ausente. El conjunto de confirmaciones queda ligado al commit de origen y no se reutiliza en otro corpus sin revisión.
+
+B devuelve las coincidencias de candidatos con present_ids y sus métodos como pistas, incluidas múltiples identidades sin elegir una. C devuelve coincidencias exactas de name con present_labels, conservando raw; ninguna pista cambia availability. No se interpreta la ausencia de pistas como falta.
+
+### Agregación por receta
+
+Conservar todas las ocurrencias y construir una matriz 3 × 3 de opcionalidad por disponibilidad; las nueve celdas suman el total, sin deduplicar ingredientes o mezclar denominadores. Clasificación propuesta, en orden de precedencia:
+
+1. required_missing: al menos una ocurrencia required/unavailable; conservar también las incertidumbres.
+2. indeterminate: ninguna required/unavailable, pero existe required/unknown, cualquier optionality=unknown, o no hay ocurrencias required.
+3. required_presence_confirmed: existe al menos una required y todas son available, sin opcionalidad desconocida.
+
+Las carencias opcionales se informan por separado y no bloquean por sí solas. Una receta vacía es indeterminada. required_presence_confirmed se refiere exclusivamente a presencia declarada de las líneas requeridas proyectadas y revisadas; no garantiza exhaustividad de extracción, cantidad suficiente, seguridad ni elaboración. No se calcula un porcentaje de compatibilidad ni ranking.
+
+### Salida y motivos
+
+Cabecera: versión de experimento, source_commit, projection_sha256, modalidad, declaración canónica y selección. Por receta: ID, título, ruta, huella, clasificación, matriz y ocurrencias ordenadas por posición. Por ocurrencia: raw, name, resolution, ingredient_id, candidatos originales, opcionalidad, cantidad original, source_location, confirmaciones y availability con motivo enumerado (identity_not_explicit, atomicity_unknown, present_presentation_confirmed, presentation_unknown, explicitly_absent, closed_absent, open_unspecified). Las pistas B/C se mantienen en campo separado. Orden de recetas por ID literal; determinismo sin marcas temporales; entradas inválidas no producen resultados válidos.
+
+### Evaluación prevista para CCE-D04
+
+Fijar corpus, índice y huella; documentar expectativas parciales con fuentes distintas a las usadas para ajustar las reglas y registrar revisión de atomicidad por ocurrencia en la muestra. Contrastar A/B/C sobre las mismas entradas; comparar estados y agregaciones con recorrido independiente, probar invariancia de estados al agregar pistas, duplicados de ocurrencia, lista abierta/cerrada, contradicciones, presentaciones, alternativas, desconocidos, casos sin required y selección vacía. Medir cobertura de estados concluyentes y abstenciones por denominador, casos y discrepancias; distinguir decisiones documentales manuales de comportamiento automático. Evaluar el coste de confirmar atomicidad y presentación por ocurrencia: si la utilidad es insuficiente, considerar no entregar o limitar a herramienta de revisión asistida. No extrapolar exactitud general.
+
+Este diseño es hipótesis de investigación, no contrato aprobado. No se implementan cambios productivos, persistencia, catálogo, nuevas reglas, ranking ni release.
 
 ## Referencias
 
