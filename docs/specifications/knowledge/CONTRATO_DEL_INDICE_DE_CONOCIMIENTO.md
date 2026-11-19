@@ -2,7 +2,7 @@
 id: SPEC-INDICE-RECETAS
 tipo: especificacion
 titulo: Contrato del índice de conocimiento culinario
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 tags:
@@ -84,6 +84,12 @@ python tools/query_recipe_index.py --index site/knowledge-audit/recipe_index.jso
 ```
 
 Los modos son `text`, `explicit` y `candidate`; estos dos últimos reciben IDs literales de ingrediente. Se pueden repetir las opciones de ingrediente. Se devuelve cada receta una vez, ordenada por ID, junto con procedencia, evidencia y motivos por condición, incluyendo ocurrencias y evidencia de candidatos. El resultado vacío es válido; las entradas inválidas producen un error. Se presupone un índice previamente contrastado por la auditoría. Los filtros de rendimiento y tiempo, búsqueda flexible y recomendaciones no forman parte de esta interfaz.
+
+## Evaluación dirigida del motor
+
+La evaluación de QRY-02 se integra en Knowledge audit mediante `tools/evaluate_recipe_queries.py`. Contrasta 16 expectativas parciales basadas en fichas reales revisadas en el corte #234, comprueba recuperación completa, repetibilidad y rechazo de tres consultas inválidas. El informe `recipe_query_evaluation.json` conserva el commit, la huella del índice, resultados y muestras de consultas abiertas. Los recuentos abiertos son observaciones, no expectativas fijadas de antemano.
+
+Se mantienen los filtros temporales y de rendimiento fuera de la interfaz 0.1.0. La evaluación mide cuántas recetas tienen una única declaración total numérica, cuántas carecen de ella o presentan ambigüedad y qué unidades de rendimiento existen. Una cifra numérica interpretada no garantiza duración completa: las expresiones orientativas y calificadores requieren revisión adicional. No sumar fases ni equiparar unidades de rendimiento diferentes. La incorporación futura de estos filtros requiere un contrato específico sobre intervalos, unidades, calificadores y tratamiento de casos desconocidos.
 
 ## Incrementos y aceptación
 
