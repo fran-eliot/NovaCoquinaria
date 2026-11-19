@@ -65,6 +65,10 @@ function card({recipe,matches}) {
   link.setAttribute("href", recipeHref(recipe));
   title.append(link); article.append(title);
   article.append(element("p", modules[recipe.physical_module] + " · " + evidence[recipe.evidence.status], "meta"));
+  const params = new URLSearchParams({id:recipe.id,commit:catalog.source_commit,index:catalog.index_sha256});
+  const cook = element("a","Preparar receta","prepare-link");
+  cook.href = "recipe-assistant.html?" + params.toString();
+  article.append(cook);
   if (matches.length) {
     const details = element("details");
     details.append(element("summary","Ver menciones coincidentes"));
@@ -114,7 +118,7 @@ function run() {
 
 async function init() {
   try {
-    const response = await fetch(new URL("../culinary_explorer.json", import.meta.url));
+    const response = await fetch(new URL("../culinary_explorer.json", import.meta.url), {cache:"no-cache"});
     if (!response.ok) throw new Error("Catálogo no disponible");
     catalog = await response.json();
     engine = validateCatalog(catalog);
