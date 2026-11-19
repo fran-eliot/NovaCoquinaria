@@ -2,7 +2,7 @@
 id: DOC-RECONOCIMIENTO-REQUISITOS-2026
 titulo: Investigación del reconocimiento de requisitos culinarios
 tipo: gestion
-version: 0.5.0
+version: 0.5.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -190,6 +190,10 @@ CRR-G01/G02/G05 disponen de evidencia técnica acotada (integridad, procedencia,
 | D — Cerrar esta línea y priorizar otro consumo práctico del conocimiento | Válida tras registrar la deuda y evaluar prioridades |
 
 Resultado propuesto: viabilidad técnica de reconocimiento determinista acotado, utilidad incremental limitada y entrega productiva diferida. Conservar CRM, CCE y CRR como evidencia, no como capacidades publicadas. Registrar los dos grupos y cinco condiciones en una revisión de deuda documental/proyección que distinga cambios de fuente, cambios de modelo y simple abstención; decidir cada actuación según evidencia, sin reescritura automática, sin promoción de identidades y sin crear un nuevo subsistema. A continuación reevaluar alternativas de explotación de valor práctico sobre la base publicada, evitando prolongar indefinidamente la cadena de investigaciones. No autorizar release ni contrato nuevo. Decisión pendiente de revisión.
+
+### Disposición
+
+Tras #267 se adopta B como registro de deuda, no como entrega productiva; véase [deuda semántica](./DEUDA_REQUISITOS_CULINARIOS.md). Se cierra el ciclo experimental y se prioriza revisar alternativas de explotación. No se autoriza nueva release.
 
 ## Referencias
 
