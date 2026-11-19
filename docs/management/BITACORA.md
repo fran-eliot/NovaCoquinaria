@@ -2,7 +2,7 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.4
+version: 2.5
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -505,6 +505,14 @@ NovaCoquinaria permite consultar el conocimiento desde una aplicación interacti
 ### Impacto
 
 El SGCC pasa del consumo programático a la explotación cotidiana desde el navegador, sin sustituir Markdown como fuente de verdad ni equiparar menciones con disponibilidad. La evidencia no acredita precisión culinaria exhaustiva. Se mantiene la release v1.6.0 y se prepara el alcance del asistente de recetas.
+
+---
+
+## 2026-11-19 · Del descubrimiento de recetas a la preparación guiada
+
+Culinary Recipe Assistant 0.1.0 integra el conocimiento existente en una vista interactiva de preparación, con ingredientes, pasos, temporizador y contexto original. Las pruebas dirigidas sobre el portal construido y el despliegue en gh-pages quedaron registrados en el [alcance de entrega](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). La comprobación pública del recorrido sigue pendiente.
+
+El SGCC incorpora así seguimiento efímero de cocina sin alterar las fuentes canónicas ni deducir cocción o seguridad. No se publica una nueva release.
 
 ---
 

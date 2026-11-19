@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.0
+version: 3.1
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Definir alcance de Culinary Recipe Assistant |
+| Próximo objetivo | Comprobar uso público del asistente y delimitar Culinary Pantry |
 
 ---
 
@@ -82,6 +82,10 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 
 Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md) están integradas tras #274. El CI acredita 134 pruebas, 62 contrastes de búsqueda, 590 destinos HTML y recorridos en Chromium. #275 completa teclado y catálogo vacío en Chromium; carga pública confirmada por el propietario. Aceptación técnica acotada cerrada. v1.6.0 sin cambios.
 
+## Corte de preparación guiada — 2026-11-19
+
+#281 integra las cuatro unidades de [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md). CI de la PR: 141 pruebas Python, nueve Node, 62 contrastes, 590 recetas, 591 archivos y 51 destinos de técnicas; recorridos Chromium correctos. gh-pages registra el despliegue del merge; comprobación de uso público pendiente. v1.6.0 permanece vigente.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -103,6 +107,7 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 | Requisitos culinarios | 🟡 Viabilidad representacional acotada; entrega diferida |
 | Reconocimiento de requisitos | 🟡 Viabilidad técnica acotada; entrega diferida |
 | Culinary Explorer 0.1.0 | 🟢 Publicado; aceptación técnica acotada |
+| Culinary Recipe Assistant 0.1.0 | 🟢 Integrado y desplegado; comprobación pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -152,7 +157,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Definir el alcance de Culinary Recipe Assistant para la preparación cotidiana, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Comprobar el recorrido público del asistente y definir el alcance de Culinary Pantry, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
