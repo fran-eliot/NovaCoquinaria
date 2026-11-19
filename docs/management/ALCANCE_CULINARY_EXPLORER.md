@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -114,3 +114,32 @@ Abrir http://localhost:8000/ y seleccionar «Abrir el explorador culinario». In
 El workflow Culinary Explorer site contrasta dos generaciones del catálogo, construye MkDocs y comprueba todos los destinos y recursos del HTML final. Chromium comprueba acceso desde inicio bajo un subdirectorio de publicación, carga, paginación, consulta compuesta, evidencia, navegación, ausencia de resultados, entrada inválida, limpieza, fallo de carga y dos tamaños de ventana. El informe de navegador se conserva como artefacto. El despliegue conserva el flujo vigente de main y verifica destinos antes de gh-deploy.
 
 La evidencia de ejecución y el cierre de EXP-01–EXP-15 quedan pendientes de los resultados de CI y revisión. Un build local no acredita el despliegue remoto ni accesibilidad exhaustiva. No se publica una nueva release ni se incorpora otra capacidad.
+
+## Evidencia de aceptación técnica — #274
+
+Las unidades A–D están integradas mediante #271–#274. El merge de #274 es `54445a4e88a857f94e6bcb4b5762f84a00bb52cf`. Los tres workflows de la PR finalizaron correctamente. El snapshot del CI fue `7e6b19381956e7be99e246566890f30140e02095`, distinto del merge definitivo.
+
+- [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44604854254/job/135845698838): 134 pruebas, sin advertencias semánticas ni documentos huérfanos; 590 recetas en ambas generaciones; 62 contrastes del adaptador superados.
+- [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44604854309/job/135845699029): dos catálogos idénticos, 590 destinos y cinco recursos comprobados; Chromium PASS, consulta compuesta con 24 tarjetas en la primera página. No se trata del total de coincidencias. SHA-256 del catálogo: `c6e4d443504c74f1ceceb5478c6c92f90eff458fb55fc5231df5f154441217c6`.
+
+| Criterio | Evidencia y alcance |
+|---|---|
+| EXP-01 | Inventario de 590 recetas, reconciliación con el índice y destinos únicos |
+| EXP-02 | Esquema 0.1.1, huellas y comparación de bytes en CI |
+| EXP-03 | Validaciones de proyección y carga; pruebas de inventario, ruta y postings; fallo de red bloqueante |
+| EXP-04 | Contraste de títulos exactos y por términos en Node, referencia Python |
+| EXP-05 | Contraste de menciones con query 0.2.0 y casos léxicos; no equivalencia Unicode universal |
+| EXP-06 | Consultas compuestas, módulos y evidencia contrastados en Node; recorrido compuesto en Chromium |
+| EXP-07 | Ocurrencias contrastadas por posición, texto, opcionalidad y localizador; detalle en navegador |
+| EXP-08 | Objeto original conservado y etiquetas diferenciadas; no validación de fórmula |
+| EXP-09 | 590 destinos HTML verificados y navegación concreta en Chromium; publicación remota pendiente de comprobación |
+| EXP-10 | Dos tamaños sin desbordamiento, controles nativos y CSS de foco; auditoría de teclado y accesibilidad completa no ejecutada |
+| EXP-11 | Casos de cero resultados, consulta inválida, limpieza y fallo de carga ejecutados; catálogo vacío implementado, no ejercitado en navegador |
+| EXP-12 | Renderizado por textContent, rutas reconstruidas y validadas; sin dependencias de red de la aplicación; revisión dirigida, no auditoría de seguridad |
+| EXP-13 | 62 contrastes del corpus vigente y léxicos, regresión del motor y 134 pruebas Python |
+| EXP-14 | Generación en CI y build MkDocs correctos; flujo de despliegue conserva gh-deploy; ejecución posterior al merge no acreditada en este corte |
+| EXP-15 | Guía local, evidencia de recorridos y límites documentados |
+
+Las dos incidencias de #274 se resolvieron fijando ubuntu-24.04 para Playwright y comprobando el atributo disabled y los controles nativos, sin retirar pruebas. Se observaron advertencias MkDocs de navegación y referencias documentales fuera del alcance de los destinos del catálogo; el build no es estricto.
+
+Estado: implementación integrada, validación técnica acotada superada; aceptación final condicionada a verificar publicación y completar los recorridos dirigidos de teclado y catálogo vacío. No equivale a release ni a certificación de precisión culinaria.

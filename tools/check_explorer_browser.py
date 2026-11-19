@@ -39,6 +39,18 @@ def exercise(site):
                     expect(page.locator("#page")).to_contain_text("Página 2")
                     page.locator("#prev").click()
                     expect(page.locator("#page")).to_contain_text("Página 1")
+                page.locator("#title").focus()
+                page.keyboard.press("Tab")
+                expect(page.locator("#title-mode")).to_be_focused()
+                assert page.locator("#title-mode").evaluate("(e) => e.matches(':focus-visible')")
+                sample = catalog["recipes"][0]
+                page.locator("#title").fill(sample["title"])
+                page.locator("#title-mode").select_option("exact")
+                page.locator("#title").press("Enter")
+                expect(page.locator("#results article h3 a").first).to_have_text(sample["title"])
+                page.get_by_role("button", name="Limpiar filtros").click()
+                expect(page.locator("#results article")).to_have_count(min(24, catalog["recipe_count"]))
+                report["keyboard_title"] = True
                 page.locator("#ingredients").fill("ajo\nsalsa de soja")
                 page.get_by_role("button", name="Buscar", exact=True).click()
                 count = page.locator("#results article").count()
@@ -72,6 +84,15 @@ def exercise(site):
                     expect(failed.locator(field)).to_be_disabled()
                 expect(failed.get_by_role("button", name="Buscar", exact=True)).to_be_disabled()
                 expect(failed.get_by_role("button", name="Limpiar filtros")).to_be_disabled()
+                empty = browser.new_page()
+                empty_catalog = {**catalog, "recipes": [], "recipe_count": 0}
+                empty.route("**/culinary_explorer.json",
+                            lambda route: route.fulfill(json=empty_catalog))
+                empty.goto(base + "culinary-explorer.html")
+                expect(empty.locator("#title")).to_be_enabled()
+                expect(empty.locator("#status")).to_have_text("El catálogo está vacío.")
+                expect(empty.locator("#results article")).to_have_count(0)
+                report["empty_catalog"] = True
                 browser.close()
         finally:
             server.shutdown()
