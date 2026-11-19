@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-RECUPERACION-2026
 titulo: Alcance de entrega de recuperación textual
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -59,9 +59,32 @@ El consumidor utiliza las claves y postings de by_text del índice ya contrastad
 
 Los criterios pueden solaparse; la aceptación final exige evidencia conjunta. Las unidades se ejecutarán de forma incremental, sin declarar completitud por mera fusión. La lógica de experimentación no se elimina antes de contrastar equivalencia.
 
+## Unidad D — Evidencia de cierre técnico
+
+Las unidades A, B y C se integraron mediante #243, #244 y #245. El merge de #245 es `5ecc94155d354bd33d4e866523c9c0e86a4607f4`. El [job de #245](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44520878705/job/135548859640) registra 102 pruebas, cero advertencias semánticas y cero huérfanos, 590 huellas de fuentes verificadas y reconstrucción idéntica. El corte vigente de esa ejecución fue el merge sintético `53f8d35a8ab7bf340d36416a4d35627142353e49`, distinto del merge definitivo; ambos corpus tenían 590 recetas. No se certifica aquí la ejecución posterior al merge. La huella de proyección del corte fijado es `d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c`; la del corte vigente de CI es `ac2e66a2451c0948d4152a4dcc1d0738a932fa333a8331e07d2f7bbbb2d08a24`.
+
+| Criterio | Evidencia técnica |
+|---|---|
+| RET-01 | 16 casos de regresión por corpus y pruebas de modos separados; revisión del cambio localizado en query_recipe_index.py. No comparación exhaustiva byte a byte con binario anterior. |
+| RET-02 | test_new_mode_is_explicit_and_ordered y test_cli_terms_and_optionality |
+| RET-03 | test_unicode_and_separators y test_boundaries_and_diacritics |
+| RET-04 | test_complete_contiguous_terms y casos dirigidos negativos |
+| RET-05 | test_invalid_query, test_invalid_even_after_empty_filter_and_read_only y consultas válidas vacías |
+| RET-06 | test_composition_and_provenance y test_cli_terms_and_optionality |
+| RET-07 | test_literal_order_deduplication_and_read_only y comprobaciones de orden y unicidad en observed_refs |
+| RET-08 | test_composition_and_provenance y contraste de campos de procedencia en observed_refs |
+| RET-09 | Casos de ajo negro, leche o nata y sin sal; no inferencia de identidad, evidencia preservada |
+| RET-10 | Núcleo puro de biblioteca estándar; query no importa extractor ni ejecuta Git; índice sin cambios en las unidades A–C |
+| RET-11 | 18/18 casos documentales en text y terms; folded solo experimental |
+| RET-12 | 34/34 comparaciones con RET-D02 en las 17 consultas del corte fijado; el experimento comparte el núcleo, no es un oráculo independiente |
+| RET-13 | 68/68 comparaciones con recorrido independiente sobre registros, 34 por corpus; 16 casos de regresión por corpus |
+| RET-14 | Contrato del índice 0.1.4, interfaz 0.2.0 y ejemplos documentados en esta unidad; sin nueva release |
+
+El recorrido independiente evita los postings y el núcleo compartido, pero utiliza la misma proyección; no valida exhaustivamente la extracción ni la pertinencia culinaria. No se ha inspeccionado íntegramente el ZIP de artefactos. Los resultados son consistentes dentro del alcance definido. La unidad D completa la documentación y propone el cierre técnico sujeto a revisión y CI de esta entrega.
+
 ## Exclusiones y decisión pendiente
 
-No se incorporan folded, las 72 propuestas de identidad, reglas adicionales, ranking, lenguaje natural, filtros temporales, persistencia, API, despensa, RAG ni recomendaciones. Se requiere aprobación de este alcance antes de comenzar la unidad A. No se fija release, calendario ni milestone.
+No se incorporan folded, las 72 propuestas de identidad, reglas adicionales, ranking, lenguaje natural, filtros temporales, persistencia, API, despensa, RAG ni recomendaciones. Las unidades A–C se han integrado siguiendo el alcance acotado; el cierre de D queda sujeto a revisión. No se fija release, calendario ni milestone.
 
 ## Referencias
 
