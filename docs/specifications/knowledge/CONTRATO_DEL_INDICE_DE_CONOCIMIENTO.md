@@ -2,7 +2,7 @@
 id: SPEC-INDICE-RECETAS
 tipo: especificacion
 titulo: Contrato del índice de conocimiento culinario
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 tags:
@@ -51,6 +51,12 @@ El texto indexado del ingrediente será el campo name cuando exista; raw permane
 ## Reconstrucción y determinismo
 
 El mismo contenido de entrada y la misma versión del constructor deben producir bytes idénticos. Ordenar claves de mapas y referencias por ID literal y posición; conservar el orden de listas de origen. La serialización JSON UTF-8 propuesta para la vista de intercambio no compromete una tecnología de persistencia. No incluir marcas de tiempo, rutas absolutas ni datos de ejecución no deterministas. Los artefactos generados se mantienen fuera del corpus canónico, bajo site/ en el prototipo, sin versionar sus resultados como nuevas fichas. El índice se reconstruye completo; no hay actualizaciones parciales en este alcance.
+
+## Vista de intercambio 0.2.0
+
+La cabecera incorpora `index_version`, `contract_version`, `extractor_version`, `stage=recipe_index_ingredients_preview`, `source_commit` y `projection_sha256` (huella de los bytes exactos del JSON de entrada). `records` y `by_path` son mapas; `by_title` y `facets` contienen listas de IDs. `ingredients` contiene tres mapas independientes: `by_text`, `by_explicit_id` y `by_candidate_id`. Cada referencia contiene `recipe_id` y `position` (base cero); las referencias de candidatos añaden `methods`, lista ordenada de métodos distintos. La evidencia completa se recupera del registro original. `inventory` diferencia claves, recetas, ocurrencias y referencias a candidatos.
+
+La generación se integra en Knowledge audit. El archivo derivado `recipe_index.json` se construye dos veces desde la misma proyección; `recipe_index_audit.json` registra la igualdad de bytes, huellas de los documentos de receta recuperados del commit Git, reconciliación de registros, facetas y referencias de ingredientes y muestras deterministas por modalidad. Los resultados están sujetos al commit de cada ejecución; el contraste no certifica la extracción culinaria ni comprueba independientemente la identidad semántica de los candidatos. Los artefactos se conservan conforme a la retención del workflow.
 
 ## Consultas previstas
 
