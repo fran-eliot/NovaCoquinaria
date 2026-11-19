@@ -188,3 +188,7 @@ Se añaden expresiones completas de formatos y usos cubiertos por fichas de Desp
 ### Evidencia doméstica dirigida (0.4.4)
 
 Se incorporan declaraciones explícitas observadas de preparación histórica y se distinguen dos alcances adicionales: related_variant (recuerdo de una variante relacionada sin identidad confirmada) y component_only (solo consta la preparación de una base). Ambos permanecen indeterminados para la receta completa. Se preservan las declaraciones originales y sus localizadores; una propuesta, estado documental o valoración de otra variante no valida la fórmula actual. La cobertura de estos formatos es parcial y queda pendiente de medición.
+
+### Rendimientos y tiempos: formatos declarados (0.4.5)
+
+Se incorporan vasos como unidad de rendimiento, etiquetas de información general con valor en el párrafo siguiente, fases observadas adicionales y declaraciones simples de Front Matter como respaldo cuando no existe una declaración corporal de la misma fase. Las tablas comparativas de tres columnas solo se interpretan si identifican explícitamente la preparación principal. Se conserva el formato de origen y el localizador. Los tiempos compuestos no se suman ni se toman de instrucciones de cocción; la ausencia de una duración total declarada sigue siendo ausencia. No se usan tiempos de variantes como tiempos de la receta principal.
