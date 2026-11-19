@@ -2,7 +2,7 @@
 id: DOC-REVISION-ESTRATEGICA-CULINARIA-2026
 titulo: Revisión estratégica global del conocimiento culinario
 tipo: gestion
-version: 0.1.1
+version: 0.2.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -57,3 +57,37 @@ Una eventual entrega requerirá alcance, criterios de aceptación y decisión di
 - [Consolidación](./CONSOLIDACION_CONOCIMIENTO.md)
 - [Evolución de recuperación](./EVOLUCION_RECUPERACION_CULINARIA.md)
 - [Contrato del índice](../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.md)
+
+## Revisión de explotación práctica — corte posterior a #268
+
+Main: `9e9c291376e68299e92228e1434798f640787462`; #268 fusionada, sin PR abiertas en la consulta. Tag v1.6.0 verificado sobre `836f02e848299c0a7a7897b22bb83cd13e0c373a`. Los resultados de CI del merge #267 son históricos; no se acreditan aquí los workflows de push de #268.
+
+CCE, CRM y CRR concluyeron con evidencia acotada y entrega diferida. CCE no permitió clasificar como cocinable ninguna de las 590 recetas sin confirmaciones; CRM representó 16 casos dirigidos y CRR acertó seis de diez positivos reservados. La [deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md) se conserva sin promoción automática. No resulta necesario resolverla para facilitar la consulta cotidiana.
+
+### Alternativas y dirección propuesta
+
+| Capacidad | Utilidad cotidiana | Dependencias | Prioridad propuesta |
+|---|---|---|---|
+| Explorador culinario interactivo de solo lectura | Muy alta | Índice y consultas publicados; publicación y acceso | Primero |
+| Filtros de tiempo y rendimiento declarado | Alta | Cobertura parcial; desconocidos visibles | Incremento posterior de exploración |
+| Escalado asistido | Alta | Rendimientos, unidades, excepciones | Después, con alcance limitado |
+| Despensa personal y sugerencias por menciones | Muy alta | Estado de usuario y semántica explícita | Posterior; no afirmar compatibilidad |
+| Menús y listas de compra | Alta | Selección, cantidades y agregación | Posterior |
+| Compatibilidad automática, RAG y agentes | Potencial alto | Evidencia insuficiente o infraestructura adicional | Diferido |
+
+Valoración cualitativa por utilidad, reutilización y coste de dependencias, no medición de usuarios.
+
+### Culinary Explorer — primera entrega funcional candidata
+
+Una aplicación consumidora de solo lectura, preferentemente integrada en el portal MkDocs existente si el mecanismo de publicación lo permite. El usuario puede buscar recetas por título e ingredientes mencionados, seleccionar módulo, consultar evidencia doméstica y abrir la ficha fuente. La proyección publicada es derivada, regenerable y vinculada al commit; Markdown conserva la autoridad. La interfaz reutiliza la semántica de consultas 0.2.0 y evita un segundo motor divergente. Si la implementación estática requiere un adaptador, se delimitará y contrastará con el motor de referencia.
+
+No interpretar mención como disponibilidad, candidato como identidad confirmada, ni ausencia de coincidencia como ausencia real. No declarar cocinabilidad, sustituciones o seguridad. No asumir que una receta propuesta ha sido elaborada. Los tiempos y rendimientos pueden mostrarse como declaraciones de fuente sin inferencia; los filtros y escalado quedan fuera del primer alcance salvo decisión expresa.
+
+### Enfoque de entrega
+
+1. Alcance breve y criterios de aceptación: recorridos de consulta, contrato de proyección derivada, equivalencia de resultados, rutas publicadas y tratamiento de desconocidos.
+2. Implementación de generación reproducible y acceso de solo lectura; preservar contratos y pruebas existentes.
+3. Interfaz funcional adaptada a móvil y escritorio, con búsqueda, filtros básicos, resultados, enlaces y estado sin resultados.
+4. Integración con publicación, pruebas de equivalencia y validación de recorridos; cierre con evidencia y limitaciones.
+
+No se establece un nuevo ciclo de discovery independiente. La investigación se limita a obstáculos concretos de implementación. La evolución editorial continúa de forma selectiva y las mejoras semánticas se guían por casos de uso reales. No se selecciona backend, persistencia, framework de aplicación, API ni nueva release. La adopción del alcance y la implementación quedan sujetas a la decisión posterior a esta revisión.
