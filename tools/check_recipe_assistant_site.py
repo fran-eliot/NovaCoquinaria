@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -28,6 +29,23 @@ def check_site(site):
                  "assets/recipe-assistant-markdown.mjs"):
         require((root / path).is_file(), f"Recurso ausente: {path}")
 
+    versions = set()
+    for name in ("culinary-explorer", "recipe-assistant"):
+        html = (root / (name + ".html")).read_text(encoding="utf-8")
+        match = re.search(r'src="assets/' + name + r'-ui\.([a-f0-9]{20})\.mjs"', html)
+        require(match is not None, "Módulo de entrada sin versión")
+        version = match[1]
+        versions.add(version)
+        for href in re.findall(r'(?:src|href)="(assets/[^"]+)"', html):
+            require((root / href).is_file() and ("." + version + ".") in href,
+                    f"Recurso sin versión o ausente: {href}")
+    require(len(versions) == 1, "Versiones de aplicaciones distintas")
+    version = versions.pop()
+    for name in ("culinary-explorer-ui", "recipe-assistant-ui"):
+        module = (root / "assets" / f"{name}.{version}.mjs").read_text(encoding="utf-8")
+        for dependency in re.findall(r'from "\./([^"]+)"', module):
+            require(("." + version + ".") in dependency and
+                    (root / "assets" / dependency).is_file(), "Dependencia sin versión")
     def destination(href):
         path = (root / unquote(href)).resolve()
         require(path.is_relative_to(root) and path.is_file(), f"Destino ausente: {href}")
