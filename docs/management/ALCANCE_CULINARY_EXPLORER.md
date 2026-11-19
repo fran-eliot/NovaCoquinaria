@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -86,3 +86,9 @@ Se añade `assets/culinary-explorer-search.mjs`, módulo ES puro sin DOM ni red.
 La función createSearch(catalog) ofrece search({title, titleMode, ingredients, module, evidence}); filtros ausentes son null o listas vacías. titleMode admite exact y terms (por defecto); exact utiliza title_key y terms secuencias contiguas sobre title_tokens. Cada ingrediente es una cláusula textual terms; todas se intersectan con los demás filtros. Las coincidencias exponen ocurrencias originales y match_scope=textual_mention. El orden del catálogo generado (ID literal) se conserva. Entradas sin términos son inválidas, excepto título exacto no vacío; un filtro de módulo desconocido devuelve cero, y evidencia fuera de los tres estados es inválida. El consumidor no modifica el catálogo ni incorpora inferencias.
 
 El contraste `tools/evaluate_culinary_explorer.py` ejecuta el adaptador en Node 22 mediante `tools/explorer_search_driver.mjs`, compara IDs ordenados y evidencia por cláusula con query 0.2.0, y verifica títulos con un recorrido de referencia. Incluye consultas sin filtros, simples y compuestas, módulos, evidencia, positivos, negativos, entradas inválidas y muestras léxicas Unicode. El informe registra commit y huellas del índice y catálogo; Knowledge audit ejecuta el contraste tras generar la proyección. No demuestra equivalencia universal de Unicode ni precisión culinaria. La interfaz y publicación pertenecen a C y D.
+
+## Unidad C — Interfaz de consulta
+
+La plantilla `tools/templates/culinary-explorer.html` y los recursos `assets/culinary-explorer.css` y `assets/culinary-explorer-ui.mjs` implementan el consumidor estático. La plantilla se destina a la raíz del portal como culinary-explorer.html; el catálogo se espera en culinary_explorer.json, ambos pendientes de integración en D. La interfaz ofrece título exacto o términos, ingredientes separados por líneas (AND), módulo, evidencia, limpieza y navegación de 24 recetas por página. Las tarjetas enlazan a la ficha y muestran menciones, opcionalidad y línea de origen. Se conserva el orden literal del adaptador.
+
+La interfaz valida el catálogo antes de habilitar controles, reconstruye y contrasta rutas relativas, utiliza textContent para datos y no interpreta HTML de fuentes. Distingue carga, fallo de carga, consulta inválida, catálogo vacío y ausencia de coincidencias. Incluye etiquetas nativas, foco visible, estado anunciado, controles de teclado y diseño adaptable con preferencia de tema del sistema. No incorpora tiempos o rendimientos porque la proyección vigente no incluye dichos datos. No se acredita todavía accesibilidad exhaustiva, prueba en navegador ni publicación; D integrará y contrastará los recorridos reales.

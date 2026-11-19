@@ -65,6 +65,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Check Culinary Explorer UI syntax
+        run: node --check assets/culinary-explorer-ui.mjs
       - name: Contrast Culinary Explorer search
         run: python tools/evaluate_culinary_explorer.py --index site/knowledge-audit/recipe_index.json --catalog site/knowledge-audit/culinary_explorer.json --output site/knowledge-audit/culinary_explorer_search.json
       - name: Evaluate recipe queries
