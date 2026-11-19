@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -72,3 +72,9 @@ No incluye compatibilidad receta-despensa, disponibilidad, alérgenos, sustituci
 - [Alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md)
 - [Arquitectura](../architecture/ARQUITECTURA.md)
 - [Revisión estratégica](./REVISION_ESTRATEGICA_CULINARIA.md)
+
+## Unidad A — Proyección consumible
+
+`tools/build_culinary_explorer.py` genera JSON UTF-8 ordenado y reproducible a partir de bytes del índice 0.2.0. Cabecera: schema_version 0.1.0, index_version, source_commit, index_sha256 (SHA-256 de bytes exactos), recipe_count y recipes (orden literal de ID). Cada registro contiene id, title, title_key, title_tokens, physical_module, evidence (objeto original), source_path, href y ingredients. Cada ocurrencia contiene position, name (texto o null), raw, optionality, source_location y tokens. Los tokens proceden del núcleo Python existente aplicado a la clave textual del índice; no hay nuevas identidades. La ruta href es relativa a la raíz del portal, codificada UTF-8 y con extensión .html según use_directory_urls=false. Se valida existencia del Markdown preparado, pertenencia a módulos, rutas seguras, inventario, procedencia y reconciliación exacta de postings. La comprobación de HTML final queda para D.
+
+El preparador del portal incluye ahora los diez módulos de recetas; antes omitía Pastas, Legumbres, Cocina Asiática, Postres, Bebidas y Horno. Knowledge audit genera dos veces la proyección y compara bytes; las pruebas sintéticas cubren Unicode, nulos, fuentes ausentes, rutas inválidas, inventario, postings y evidencia. La proyección queda como artefacto de auditoría, todavía no se publica ni existe interfaz. No se altera el contrato del índice ni la release. Los resultados de CI se evaluarán antes del siguiente incremento.
