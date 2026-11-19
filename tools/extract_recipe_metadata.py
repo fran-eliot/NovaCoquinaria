@@ -20,7 +20,7 @@ from extract_recipe_details import general_fields, extract_references
 from ingredient_identity_candidates import build_catalog, annotate
 
 CONTRACT_VERSION = "0.1.0"
-EXTRACTOR_VERSION = "0.4.4"
+EXTRACTOR_VERSION = "0.4.5"
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
                           re.MULTILINE | re.DOTALL)
 
@@ -176,7 +176,7 @@ def build_projection(root: Path, ref: str = "HEAD") -> dict:
         content, content_diagnostics = extract_content(recipe_sources[path])
         record.update(content)
         record['diagnostics'].extend(content_diagnostics)
-        details, detail_diagnostics = general_fields(record['sections'])
+        details, detail_diagnostics = general_fields(record['sections'], record['source']['frontmatter_raw'])
         record.update(details)
         refs, reference_diagnostics = extract_references(record['sections'], path, document_lookup, known_paths)
         record['references'] = refs
