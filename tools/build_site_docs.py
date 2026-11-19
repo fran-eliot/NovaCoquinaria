@@ -100,9 +100,10 @@ def create_home_page() -> None:
 
 
 def build_explorer_page() -> None:
-    from extract_recipe_metadata import build_projection, serialize as serialize_projection
+    from extract_recipe_metadata import build_projection, snapshot_bytes, serialize as serialize_projection
     from build_recipe_index import build_index, serialize
     from build_culinary_explorer import build_explorer
+    from build_recipe_assistant import build_assistant
 
     projection = serialize_projection(build_projection(ROOT)).encode("utf-8")
     index = serialize(build_index(projection)).encode("utf-8")
@@ -110,6 +111,12 @@ def build_explorer_page() -> None:
     (SITE_DOCS / "culinary_explorer.json").write_bytes(serialize(catalog).encode("utf-8"))
     shutil.copy2(ROOT / "tools/templates/culinary-explorer.html",
                  SITE_DOCS / "culinary-explorer.html")
+    files = build_assistant(index, SITE_DOCS, lambda commit, path: snapshot_bytes(ROOT, commit, path))
+    target = SITE_DOCS / "recipe_assistant"
+    target.mkdir()
+    for name, data in files.items():
+        (target / name).write_bytes(data)
+    shutil.copy2(ROOT / "tools/templates/recipe-assistant.html", SITE_DOCS / "recipe-assistant.html")
 
 
 def main() -> None:
