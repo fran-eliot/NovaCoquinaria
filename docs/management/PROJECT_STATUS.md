@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 2.5
+version: 2.6
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Investigación de compatibilidad culinaria (CCE-D01) |
+| Próximo objetivo | Investigación de requisitos culinarios (CRM-D01–D05) |
 
 ---
 
@@ -66,6 +66,10 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 
 [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0) publicada sobre `836f02e848299c0a7a7897b22bb83cd13e0c373a` (merge #249). Los tres workflows de main finalizaron correctamente. La compatibilidad culinaria permanece en investigación; no forma parte de la entrega publicada.
 
+## Corte de investigación de compatibilidad — 2026-11-19
+
+#256 integrada. La [investigación CCE](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) acredita 110 pruebas y cinco escenarios dirigidos; las 590 recetas resultaron indeterminadas en el escenario sin confirmaciones. Viabilidad técnica acotada y utilidad operativa insuficiente para una entrega. Se inicia [CRM](./INVESTIGACION_REQUISITOS_CULINARIOS.md); no se modifica v1.6.0.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -83,6 +87,8 @@ Tras #246 (merge `d1aca80a3ff4e39fa1868d36137c22d491d6c893`), las cuatro unidade
 | Extractor de recetas 0.4.6 | 🟢 Prototipo contrastado |
 | Índice de recetas 0.2.0 | 🟢 Prototipo contrastado |
 | Motor de consultas 0.2.0 | 🟢 CLI de recuperación textual acotada, contrastada |
+| Compatibilidad culinaria | 🟡 Investigación concluida; entrega diferida |
+| Requisitos culinarios | 🟡 Investigación iniciada |
 | Plataforma software | ⚪ En fase de diseño |
 
 ---
@@ -132,7 +138,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Investigar la compatibilidad culinaria acotada según la [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md), comenzando por CCE-D01. Una eventual implementación requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Investigar el modelo de requisitos culinarios, empezando por el inventario de señales y contraste documental. Una eventual implementación requiere decisión diferenciada. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
