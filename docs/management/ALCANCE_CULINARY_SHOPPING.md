@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -79,3 +79,11 @@ La compra se marca y desmarca expresamente mientras no haya registro de transfer
 Para conservar evidencia e impedir reintentos accidentales, los artículos con transferencia pendiente o completada no se pueden editar, desmarcar ni eliminar; tampoco se elimina su lista. Esta restricción de la primera versión limita la limpieza de listas históricas; el archivado o reconciliación destructiva queda fuera del alcance inicial. No se pretende garantizar unicidad histórica después de restaurar copias independientes. La UI deberá comunicar estas restricciones.
 
 Se incorporan diez pruebas Node para operaciones, límites, cantidades, procedencia, filtros, compra reversible y estados de transferencia. Knowledge audit ejecutará estas pruebas. Persistencia, UI, contraste con recetas y coordinación efectiva con Pantry permanecen pendientes. No se modifica la release.
+
+## Unidad B — Persistencia de listas y copias
+
+El adaptador `assets/culinary-shopping-persistence.mjs` conserva la interfaz de persistencia de Pantry con validación del esquema de Shopping 0.1.0 y clave independiente novacoquinaria.culinary-shopping. El acceso a Storage es inyectable; no hay DOM ni red. Una clave ausente permite iniciar un documento vacío sin escritura automática. Se distinguen acceso bloqueado, lectura inválida, versión incompatible, cuota, escritura y conflicto. Se conserva la última copia válida y se impide escribir tras una carga fallida. El límite de JSON de entrada y salida es de 12 millones de unidades UTF-16, sin garantizar capacidad equivalente del navegador.
+
+La escritura contrasta la cadena original con la lectura actual y bloquea ante eventos externos pertinentes; los cambios de la clave de Pantry no invalidan por sí mismos Shopping. No hay atomicidad entre pestañas ni entre aplicaciones. La exportación conserva listas, artículos, procedencia y registros de transferencia. La previsualización de importación presenta recuentos de listas y artículos; cancelar no escribe. La sustitución confirmada vuelve a validar el documento y rechaza copias que omitan o alteren cualquier registro de transferencia vigente en la última copia válida. Esta protección conservadora no equivale a verificar la presencia actual del destino en Pantry. Las copias con transferencias históricas o pendientes requieren revisión antes de cualquier reintento; no se inicia ninguna transferencia al importar. Tras pérdida o borrado independiente de ambos almacenamientos no existe garantía de reconciliación.
+
+Se añaden once pruebas Node con Storage simulado y ejecución en Knowledge audit: separación de claves, recarga, datos inválidos, acceso y escritura fallidos, cuota, conflictos, importación y cancelación, conservación de transferencias, exportación y límite de JSON. Las pruebas en navegador y el coordinador de transferencia siguen pendientes de las unidades C y D. No se modifica Pantry ni la release.
