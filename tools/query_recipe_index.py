@@ -6,8 +6,10 @@ import json
 from pathlib import Path
 import unicodedata
 
+from recipe_retrieval_terms import term_postings
 
-QUERY_VERSION = "0.1.0"
+
+QUERY_VERSION = "0.2.0"
 MODES = {"text": "by_text", "explicit": "by_explicit_id",
          "candidate": "by_candidate_id"}
 FACETS = ("physical_module", "category", "document_status", "evidence_status")
@@ -64,14 +66,18 @@ def query(index, filters=None, ingredients=None):
               {"mode", "value", "optionality"}, "Condición de ingrediente inválida")
         mode, value = clause.get("mode"), clause.get("value")
         option = clause.get("optionality")
-        check(isinstance(mode, str) and mode in MODES and nonempty(value),
+        check(isinstance(mode, str) and (mode in MODES or mode == "terms") and nonempty(value),
               "Modo o valor de ingrediente inválido")
         check(option in (None, "required", "optional", "unknown"),
               "Opcionalidad inválida")
         canonical_ingredients.append({"mode": mode, "value": value, "optionality": option})
-        key = normalize(value) if mode == "text" else value
+        if mode == "terms":
+            postings = term_postings(index["ingredients"]["by_text"], value)
+        else:
+            key = normalize(value) if mode == "text" else value
+            postings = index["ingredients"][MODES[mode]].get(key, [])
         hits = {}
-        for posting in index["ingredients"][MODES[mode]].get(key, []):
+        for posting in postings:
             identity, position = posting["recipe_id"], posting["position"]
             entry = records[identity]["ingredients"][position]
             if option is not None and entry["optionality"] != option:
@@ -88,9 +94,11 @@ def query(index, filters=None, ingredients=None):
             hits.setdefault(identity, []).append(matches)
         remaining.intersection_update(hits)
         for identity in remaining:
-            reasons.setdefault(identity, []).append({
-                "field": "ingredient", "mode": mode, "value": value,
-                "optionality": option, "occurrences": hits[identity]})
+            reason = {"field": "ingredient", "mode": mode, "value": value,
+                      "optionality": option, "occurrences": hits[identity]}
+            if mode == "terms":
+                reason["match_scope"] = "textual_mention"
+            reasons.setdefault(identity, []).append(reason)
     results = []
     for identity in sorted(remaining):
         record = records[identity]
@@ -114,9 +122,11 @@ def main():
     for field in ("id", "path", "title", *FACETS):
         parser.add_argument("--" + field.replace("_", "-"))
     parser.add_argument("--ingredient", action="append", nargs=2, default=[],
-                        metavar=("MODE", "VALUE"))
+                        metavar=("MODE", "VALUE"),
+                        help="text, terms, explicit o candidate; terms recupera menciones textuales")
     parser.add_argument("--ingredient-with-optionality", action="append", nargs=3,
-                        default=[], metavar=("MODE", "VALUE", "OPTIONALITY"))
+                        default=[], metavar=("MODE", "VALUE", "OPTIONALITY"),
+                        help="Igual que --ingredient, con required, optional o unknown")
     args = parser.parse_args()
     filters = {field: getattr(args, field) for field in ("id", "path", "title", *FACETS)
                if getattr(args, field) is not None}
