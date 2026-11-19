@@ -2,7 +2,7 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.7
+version: 2.8
 estado: estable
 ultima_revision: 2026-11-19
 ---
@@ -222,9 +222,15 @@ El inventario del recetario proporciona una base suficiente para explorar el con
 5. Evaluación de alternativas de explotación: recuperación textual por términos integrada (motor 0.2.0); identidades adicionales permanecen experimentales.
 6. Revisión estratégica global del siguiente bloque funcional: identidades, tiempo/rendimiento, despensa limitada o acceso de solo lectura; revisión documentada en #248.
 
-La [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar la compatibilidad culinaria acotada como caso de uso para orientar la resolución de identidades. La [investigación CCE-D01–D05](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) concluyó con viabilidad técnica acotada y utilidad operativa insuficiente. Se difiere la entrega de CCE y se inicia la [investigación del modelo de requisitos culinarios](./INVESTIGACION_REQUISITOS_CULINARIOS.md), sin seleccionar una implementación. CRM ha acreditado viabilidad representacional acotada; el [reconocimiento de requisitos culinarios](./INVESTIGACION_RECONOCIMIENTO_REQUISITOS.md) concluyó con utilidad incremental limitada. Se registra [deuda semántica](./DEUDA_REQUISITOS_CULINARIOS.md) y se prioriza una nueva revisión de explotación práctica sin seleccionar todavía capacidad.
+La [revisión estratégica global](./REVISION_ESTRATEGICA_CULINARIA.md) propone investigar la compatibilidad culinaria acotada como caso de uso para orientar la resolución de identidades. La [investigación CCE-D01–D05](./INVESTIGACION_COMPATIBILIDAD_CULINARIA.md) concluyó con viabilidad técnica acotada y utilidad operativa insuficiente. Se difiere la entrega de CCE y se inicia la [investigación del modelo de requisitos culinarios](./INVESTIGACION_REQUISITOS_CULINARIOS.md), sin seleccionar una implementación. CRM ha acreditado viabilidad representacional acotada; el [reconocimiento de requisitos culinarios](./INVESTIGACION_RECONOCIMIENTO_REQUISITOS.md) concluyó con utilidad incremental limitada. Se registra [deuda semántica](./DEUDA_REQUISITOS_CULINARIOS.md) y se priorizó una nueva revisión de explotación práctica. La revisión #269 seleccionó Culinary Explorer como primera aplicación estática de consulta; sus cuatro unidades están integradas tras #274, con aceptación final pendiente.
 
 El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registra RET-01–RET-14. Los criterios de aceptación se concretan en [Consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md). La base de conocimiento Markdown permanece canónica; ninguna tecnología de persistencia o framework queda seleccionada. La incorporación de recetas se mantiene de forma selectiva.
+
+## Explotación práctica
+
+- Culinary Explorer 0.1.0: datos, búsqueda, interfaz e integración implementados; aceptación final pendiente.
+- Asistente de recetas: siguiente alternativa a evaluar tras verificar utilidad del explorador.
+- Despensa, compras y planificación: capacidades posteriores, no comprometidas.
 
 # Capacidades futuras
 
