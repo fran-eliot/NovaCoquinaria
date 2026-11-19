@@ -113,10 +113,16 @@ PENDING = re.compile(r"\b(?:pendiente de prueba(?: domestica)?|no consta (?:una 
 PREPARED = re.compile(r"\b(?:ya cocinada y valorada|la elaboracion domestica se probo|en la adaptacion de .+? se utilizaron|elaboracion domestica probada)\b")
 SCOPE = re.compile(r"\b(?:formulacion adaptada|no se ha confirmado|no esta demostrado|referencias orientativas|requieren contraste|no medicion final)\b")
 VALUATION = re.compile(r"\b(?:resultado fue valorado|valorada muy positivamente|valoracion «|resultado muy sabroso|resultado poco agradable)\b")
+HISTORICAL = re.compile(r"\b(?:preparacion confirmada; resultado recordado|elaboracion domestica habitual confirmada|se habia preparado en casa varias veces|se habia elaborado en casa varias veces)\b")
+RELATED = re.compile(r"\b(?:existe una elaboracion domestica de magret asiatico|magret asiatico cocinado, resultado)\b")
+PARTIAL = re.compile(r"\b(?:base domestica confirmada|consta la preparacion de la base de zanahorias)\b")
+LIMITED = re.compile(r"\b(?:no se conservan las cantidades exactas|no se debe presentar una propuesta posterior como formula ya probada|no acredita[n]? por si misma[s]?|no se han recuperado las dosis exactas|variante exacta sin confirmar|no esta confirmada)\b")
 EVIDENCE_HEADERS = ("descripcion", "origen y contexto", "estado de prueba domestica",
                     "evolucion de la receta domestica", "versiones y eleccion pendiente",
                     "valoracion de la preparacion domestica", "informacion general",
-                    "ingredientes", "registro de prueba")
+                    "ingredientes", "registro de prueba", "experiencia domestica y valoracion",
+                    "experiencia domestica y evolucion", "antecedentes y versiones",
+                    "evolucion y evidencia", "datos de la receta")
 
 
 def extract_evidence(sections):
@@ -131,10 +137,18 @@ def extract_evidence(sections):
             if norm(section["heading"] or "") == "ingredientes" and not text.startswith(("nota de procedencia:", "nota de formulacion:")):
                 continue
             for kind, pattern in (("pending", PENDING), ("prepared", PREPARED),
-                                  ("scope", SCOPE), ("valuation", VALUATION)):
+                                  ("scope", SCOPE), ("valuation", VALUATION),
+                                  ("historical_confirmed", HISTORICAL), ("related_preparation", RELATED),
+                                  ("partial_preparation", PARTIAL), ("scope", LIMITED)):
                 if pattern.search(text):
-                    claims.append({"kind":kind,"text":line,"source_location":location(idx,idx)})
+                    claim = {"kind":kind,"text":line,"source_location":location(idx,idx)}
+                    if claim not in claims:
+                        claims.append(claim)
     kinds = {c["kind"] for c in claims}
+    # New directed claims retain the distinction between preparation of the dish,
+    # an uncertain related variant, and preparation of a component only.
+    if "historical_confirmed" in kinds:
+        kinds.add("prepared")
     status = ("unknown" if {"prepared","pending"} <= kinds else
               "prepared" if "prepared" in kinds else
               "pending" if "pending" in kinds else "unknown")
@@ -142,7 +156,9 @@ def extract_evidence(sections):
     return {"status":status,
             "historical_preparation": True if "prepared" in kinds else None,
             "current_formula_validated": False if "scope" in kinds or status=="pending" else None,
-            "scope":"historical_preparation" if status=="prepared" else "undetermined",
+            "scope":("historical_preparation" if status=="prepared" else
+                     "related_variant" if "related_preparation" in kinds else
+                     "component_only" if "partial_preparation" in kinds else "undetermined"),
             "valuation":[c for c in claims if c["kind"]=="valuation"] or None,
             "claims":claims}
 

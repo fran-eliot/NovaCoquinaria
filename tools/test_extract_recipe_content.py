@@ -44,3 +44,25 @@ class ContentTests(unittest.TestCase):
     def test_conflicting_claims_remain_unknown(self):
         result,_ = extract_content("## Descripci\u00f3n\nYa cocinada y valorada. Pendiente de prueba.\n".encode())
         self.assertEqual(result["evidence"]["status"],"unknown")
+
+
+    def test_directed_historical_scope(self):
+        commit = "0deb4df8947bd1ece17d3accb7ead60b4a17634d"
+        cases = [
+            ("05_Carnes/hamburguesa_especiada.md","prepared","historical_preparation"),
+            ("05_Carnes/ropa_vieja_base_y_pulled_pork.md","prepared","historical_preparation"),
+            ("06_Pescados_y_Mariscos/boquerones_en_vinagre.md","prepared","historical_preparation"),
+            ("05_Carnes/magret_de_pato_estilo_sichuan.md","unknown","related_variant"),
+            ("04_Verduras/zanahorias_alinadas_andaluzas.md","unknown","component_only"),
+        ]
+        for path,status,scope in cases:
+            with self.subTest(path=path):
+                result,_=extract_content(snapshot_bytes(ROOT_DIR,commit,path))
+                self.assertEqual(result["evidence"]["status"],status)
+                self.assertEqual(result["evidence"]["scope"],scope)
+                self.assertIsNot(result["evidence"]["current_formula_validated"],True)
+
+    def test_proposal_and_document_status_do_not_prove_preparation(self):
+        result,_=extract_content("## Descripción\nEs una elaboración habitual de la cocina doméstica. No está confirmado que fuese la versión realmente elaborada.\n".encode())
+        self.assertEqual(result["evidence"]["status"],"unknown")
+        self.assertIsNone(result["evidence"]["historical_preparation"])
