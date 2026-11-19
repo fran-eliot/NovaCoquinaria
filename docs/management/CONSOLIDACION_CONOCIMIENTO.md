@@ -2,7 +2,7 @@
 id: DOC-CONSOLIDACION-CONOCIMIENTO-2026
 titulo: Consolidación del conocimiento culinario
 tipo: gestion
-version: 1.15.0
+version: 1.16.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -592,3 +592,7 @@ Primero identificar las fichas de EXT-01 y revisar sus formatos; ampliar la cobe
 | Entradas sin resolver y sin candidato | No evaluado | 4.350 |
 
 La reducción de tres identidades explícitas coincide con el cambio de delimitación de ingredientes de #222, pero no se ha comprobado individualmente su origen. Los candidatos cubren 661/5.011 entradas sin resolver (13,19 %), no identidades confirmadas. Se conserva la incertidumbre y la separación entre búsqueda textual, candidatos e identidades explícitas. La siguiente revisión contrastará muestras trazables y expresiones frecuentes sin candidato; no se ampliará el catálogo mediante subcadenas o equivalencias automáticas sin evidencia.
+
+## Revisión dirigida de candidatos — 2026-11-19
+
+Corte #224, `e8f39f054dfde80f0eb619c84312d39b23ebd1a2`. [Auditoría](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44499343100/job/135474659830): 45 pruebas superadas, 646 ocurrencias por título y 15 por alias. Las doce muestras de candidato único muestran correspondencias léxicas plausibles (ajo, tomillo, AOVE, cebolla, perejil, harina de trigo y nueces); no constituyen una medición de precisión. Entre las muestras sin candidato se observan calificadores de preparación, alternativas y activos todavía no catalogados. Las expresiones frecuentes justifican una expansión explícita y acotada, contrastada con los documentos de cebolla, pimentón, laurel, huevo, comino, harina de trigo, vino blanco para cocinar, aceite de sésamo, caldo de verduras, almendras, AOVE y limón. Se mantienen sin asignación aceite de oliva genérico, azúcar sin tipo y tomate triturado sin formato: sus fichas existentes describen categorías más específicas. Las alternativas y combinaciones no se separan automáticamente. No se amplía el catálogo ni se alteran las fuentes culinarias en este incremento. La nueva cobertura queda pendiente de medición; se mantendrá la búsqueda textual independiente de la identidad.
