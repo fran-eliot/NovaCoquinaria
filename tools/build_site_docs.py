@@ -1,6 +1,7 @@
 from pathlib import Path
 import shutil
 import argparse
+import hashlib
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DOCS = ROOT / "site_docs"
@@ -99,6 +100,38 @@ def create_home_page() -> None:
     (SITE_DOCS / "index.md").write_text(content, encoding="utf-8")
 
 
+def version_application_assets() -> None:
+    """Versionar el grafo de recursos estáticos sin modificar las fuentes."""
+    assets = SITE_DOCS / "assets"
+    names = ("culinary-explorer-ui.mjs", "culinary-explorer-search.mjs",
+             "culinary-explorer.css", "recipe-assistant-ui.mjs",
+             "recipe-assistant-session.mjs", "recipe-assistant-markdown.mjs",
+             "recipe-assistant.css")
+    originals = {name: (assets / name).read_bytes() for name in names}
+    digest = hashlib.sha256()
+    for name, raw in sorted(originals.items()):
+        digest.update(name.encode("utf-8") + b"\0" + raw + b"\0")
+    version = digest.hexdigest()[:20]
+    # Mantener las rutas antiguas para las páginas que aún estén en caché.
+    for name, raw in originals.items():
+        path = Path(name)
+        destination = assets / f"{path.stem}.{version}{path.suffix}"
+        content = raw.decode("utf-8")
+        for imported in names:
+            target = Path(imported)
+            hashed = f"{target.stem}.{version}{target.suffix}"
+            content = content.replace(f'"./{imported}"', f'"./{hashed}"')
+        destination.write_bytes(content.encode("utf-8"))
+    for page in ("culinary-explorer.html", "recipe-assistant.html"):
+        path = SITE_DOCS / page
+        content = path.read_text(encoding="utf-8")
+        for name in names:
+            target = Path(name)
+            hashed = f"{target.stem}.{version}{target.suffix}"
+            content = content.replace(f'"assets/{name}"', f'"assets/{hashed}"')
+        path.write_bytes(content.encode("utf-8"))
+
+
 def build_explorer_page() -> None:
     from extract_recipe_metadata import build_projection, snapshot_bytes, serialize as serialize_projection
     from build_recipe_index import build_index, serialize
@@ -117,6 +150,7 @@ def build_explorer_page() -> None:
     for name, data in files.items():
         (target / name).write_bytes(data)
     shutil.copy2(ROOT / "tools/templates/recipe-assistant.html", SITE_DOCS / "recipe-assistant.html")
+    version_application_assets()
 
 
 def main() -> None:
