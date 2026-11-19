@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-EXPLORER-2026
 titulo: Alcance de entrega de Culinary Explorer
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -78,3 +78,11 @@ No incluye compatibilidad receta-despensa, disponibilidad, alérgenos, sustituci
 `tools/build_culinary_explorer.py` genera JSON UTF-8 ordenado y reproducible a partir de bytes del índice 0.2.0. Cabecera: schema_version 0.1.0, index_version, source_commit, index_sha256 (SHA-256 de bytes exactos), recipe_count y recipes (orden literal de ID). Cada registro contiene id, title, title_key, title_tokens, physical_module, evidence (objeto original), source_path, href y ingredients. Cada ocurrencia contiene position, name (texto o null), raw, optionality, source_location y tokens. Los tokens proceden del núcleo Python existente aplicado a la clave textual del índice; no hay nuevas identidades. La ruta href es relativa a la raíz del portal, codificada UTF-8 y con extensión .html según use_directory_urls=false. Se valida existencia del Markdown preparado, pertenencia a módulos, rutas seguras, inventario, procedencia y reconciliación exacta de postings. La comprobación de HTML final queda para D.
 
 El preparador del portal incluye ahora los diez módulos de recetas; antes omitía Pastas, Legumbres, Cocina Asiática, Postres, Bebidas y Horno. Knowledge audit genera dos veces la proyección y compara bytes; las pruebas sintéticas cubren Unicode, nulos, fuentes ausentes, rutas inválidas, inventario, postings y evidencia. La proyección queda como artefacto de auditoría, todavía no se publica ni existe interfaz. No se altera el contrato del índice ni la release. Los resultados de CI se evaluarán antes del siguiente incremento.
+
+## Unidad B — Adaptador de búsqueda
+
+Se añade `assets/culinary-explorer-search.mjs`, módulo ES puro sin DOM ni red. La proyección pasa a esquema 0.1.1 (no cambia el índice) e incorpora unicode_profile: versión Unicode de Python, mapa casefold por código de carácter, espacios reconocidos por Python y rangos inclusivos de caracteres alfanuméricos. La normalización de entrada aplica estas tablas y NFC nativo de JavaScript. La equivalencia de NFC entre versiones Unicode del navegador no se presume universal; se contrasta en los casos seleccionados y el navegador final se comprobará en D. No hay dependencia de Node en ejecución web.
+
+La función createSearch(catalog) ofrece search({title, titleMode, ingredients, module, evidence}); filtros ausentes son null o listas vacías. titleMode admite exact y terms (por defecto); exact utiliza title_key y terms secuencias contiguas sobre title_tokens. Cada ingrediente es una cláusula textual terms; todas se intersectan con los demás filtros. Las coincidencias exponen ocurrencias originales y match_scope=textual_mention. El orden del catálogo generado (ID literal) se conserva. Entradas sin términos son inválidas, excepto título exacto no vacío; un filtro de módulo desconocido devuelve cero, y evidencia fuera de los tres estados es inválida. El consumidor no modifica el catálogo ni incorpora inferencias.
+
+El contraste `tools/evaluate_culinary_explorer.py` ejecuta el adaptador en Node 22 mediante `tools/explorer_search_driver.mjs`, compara IDs ordenados y evidencia por cláusula con query 0.2.0, y verifica títulos con un recorrido de referencia. Incluye consultas sin filtros, simples y compuestas, módulos, evidencia, positivos, negativos, entradas inválidas y muestras léxicas Unicode. El informe registra commit y huellas del índice y catálogo; Knowledge audit ejecuta el contraste tras generar la proyección. No demuestra equivalencia universal de Unicode ni precisión culinaria. La interfaz y publicación pertenecen a C y D.

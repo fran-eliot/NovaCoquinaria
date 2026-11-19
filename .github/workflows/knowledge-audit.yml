@@ -61,6 +61,12 @@ jobs:
           python tools/build_culinary_explorer.py --index "$dir/recipe_index.json" --docs site_docs --output "$dir/culinary_explorer_repeat.json"
           cmp "$dir/culinary_explorer.json" "$dir/culinary_explorer_repeat.json"
           rm "$dir/culinary_explorer_repeat.json"
+      - name: Set up Node for Explorer contrast
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Contrast Culinary Explorer search
+        run: python tools/evaluate_culinary_explorer.py --index site/knowledge-audit/recipe_index.json --catalog site/knowledge-audit/culinary_explorer.json --output site/knowledge-audit/culinary_explorer_search.json
       - name: Evaluate recipe queries
         run: python tools/evaluate_recipe_queries.py --index site/knowledge-audit/recipe_index.json --output site/knowledge-audit/recipe_query_evaluation.json
       - name: Experiment with textual retrieval

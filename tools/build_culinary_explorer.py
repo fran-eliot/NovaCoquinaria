@@ -3,14 +3,33 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-import re
+import unicodedata
 from urllib.parse import quote
 
 from audit_inventory import RECIPE_MODULES
 from build_recipe_index import digest, nonempty, require, serialize, unique_object, reject_constant, text_key
 from recipe_retrieval_terms import tokens
 
-SCHEMA_VERSION = "0.1.0"
+SCHEMA_VERSION = "0.1.1"
+
+
+def unicode_profile():
+    """Tablas de Python para no depender de lowercase o categorías de JS."""
+    fold, spaces, ranges = {}, [], []
+    for cp in range(0x110000):
+        char = chr(cp)
+        if char.casefold() != char:
+            fold[str(cp)] = char.casefold()
+        if char.isspace():
+            spaces.append(cp)
+        if char.isalnum():
+            if ranges and ranges[-1][1] == cp - 1:
+                ranges[-1][1] = cp
+            else:
+                ranges.append([cp, cp])
+    return {"unicode_version": unicodedata.unidata_version, "casefold": fold,
+            "spaces": spaces, "alnum_ranges": ranges}
+
 
 
 def build_explorer(raw: bytes, docs: Path) -> dict:
@@ -70,7 +89,8 @@ def build_explorer(raw: bytes, docs: Path) -> dict:
     require(expected_text == index["ingredients"]["by_text"], "Postings textuales inconsistentes")
     return {"schema_version": SCHEMA_VERSION, "index_version": "0.2.0",
             "source_commit": commit, "index_sha256": hashlib.sha256(raw).hexdigest(),
-            "recipe_count": len(recipes), "recipes": recipes}
+            "recipe_count": len(recipes), "recipes": recipes,
+            "unicode_profile": unicode_profile()}
 
 
 def main():
