@@ -2,7 +2,7 @@
 id: DOC-REQUISITOS-CULINARIOS-2026
 titulo: Investigación del modelo de requisitos culinarios
 tipo: gestion
-version: 0.4.1
+version: 0.5.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -172,6 +172,44 @@ No se aprueba modificación del extractor, contrato, índice, fichas, motor CCE,
 ## CRM-D04B — Prototipo representacional
 
 Se fijan 16 anotaciones revisadas y expectativas de forma y alcance en archivos JSON separados. El prototipo verifica corpus, huella, líneas, posiciones, aridad, tipos y partición; preserva ocurrencias y genera raíces opacas para las posiciones no anotadas. Se compara un modelo plano restringido a anotaciones atómicas por ocurrencia con el híbrido; no se implementa un modelo plano con convenciones de agrupación adicionales. El contraste no constituye reconocimiento semántico automático, ni validación independiente de cada calificador o dosis: las expectativas comprueban forma y alcance raíz. El informe CI registra cobertura manual, abstención y reproducibilidad. No se cambia ningún contrato ni motor publicado. Resultados pendientes de ejecución.
+
+
+## CRM-D05 — Síntesis y decisión propuesta
+
+### Evidencia y límites
+
+#261 integrada en `aa436c303143d3679223ef0ee53b982776e9502b`; los tres workflows de main finalizaron correctamente. El [job de la PR](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44553000211/job/135661435212) ejecutó 121 pruebas sin error. Se abrió localmente el informe requirements_model_experiment.json del artefacto 14543454216 (snapshot 0c7f87f7aee6c35816b774eca31473f6d3a1c4e1, distinto del merge). Corpus y huella de proyección idénticos a D02. Huellas de anotaciones b9a7cfdd4eda377ccb7cacbf79bfe3f48ef1da7dcff03de6aa5e2783886f744b y expectativas 2337755055ede2416d36622cdf75c355c3767447fcdf0e2fe426cc8c2ecbaa5f.
+
+| Medida | Resultado |
+|---|---:|
+| Recetas conservadas | 590 |
+| Ocurrencias originales conservadas | 5047 |
+| Recetas con anotaciones | 8 |
+| Ocurrencias revisadas | 20 |
+| Ocurrencias opacas | 5027 |
+| Raíces anotadas | 16 |
+| Raíces atom/all/any/choice | 8/4/3/1 |
+| Casos representables en plano atómico restringido | 8/16 |
+| Casos representados en híbrido | 16/16 |
+
+Las formas y presencia raíz de los 16 casos coinciden con las expectativas fijadas; se verificaron procedencia, partición, repetibilidad y ausencia de mutación. No se ha medido exactitud de interpretación automática: el 0,40 % anotado es esfuerzo de muestra manual, no estimación de cobertura alcanzable. El cálculo del plano es una comparación con un criterio restringido, no un prototipo general de anotaciones planas con agrupación. Las expectativas no verifican independientemente cada miembro, calificador, alcance de dosis ni condición. Las siete pruebas nuevas incluyen aridad, adaptación, elección, condición y ausencia de promoción; faltan pruebas unitarias específicas de solapamiento y referencias inexistentes aunque el prototipo valida ambos. Las declaraciones revisadas se mantienen como evidencia experimental, no datos de autoridad de producción.
+
+### Alternativas
+
+| Alternativa | Evaluación |
+|---|---|
+| A — Entregar representación híbrida con anotaciones manuales | Viable como representación acotada; no demuestra coste sostenible ni mejora de disponibilidad |
+| B — Investigar reconocimiento determinista acotado de estructuras sobre fuentes | Recomendada: medir si se obtiene evidencia útil sin edición masiva ni división indiscriminada |
+| C — Integrar directamente el modelo en extractor/índice | Prematura, implicaría cambio de contrato sin evidencias de automatización |
+| D — Diferir CRM y priorizar otro consumo de conocimiento | Válida si B no muestra valor incremental |
+
+Resultado propuesto: viabilidad representacional acotada del híbrido; reconocimiento automático no demostrado; entrega productiva diferida. No seleccionar todavía un contrato ni arquitectura de integración. Mantener CCE diferido.
+
+### Siguiente investigación propuesta
+
+Evaluar un reconocimiento acotado dentro de una proyección experimental separada, con señales como localizadores y no como verdad. Priorizar patrones documentales de ámbito inequívoco: grupos de elección con encabezado y declaración explícita, alternativas entre líneas con conectores, opcionalidad explícita y condiciones de preparación o ajuste claramente delimitadas. No comprometer todos estos patrones antes de revisar muestras. No dividir por conjunción de forma general, transferir cantidades o inferir cardinalidad ni identidades. Definir corpus fijado, conjunto de ajuste y conjunto de contraste disjunto por receta, expectativas documentales previas, negativos y abstención. Comparar contra la línea base heredada, registrar denominadores, falsos positivos, omisiones, coste de revisión y trazabilidad. Incluir pruebas de referencias y solapamiento antes de una eventual entrega. Si la evidencia es insuficiente, conservar el modelo como investigación y evaluar alternativas de consumo del conocimiento.
+
+La decisión queda pendiente de revisión; no se aprueba Delivery Scope, cambios productivos, release ni nueva infraestructura.
 
 ## Referencias
 
