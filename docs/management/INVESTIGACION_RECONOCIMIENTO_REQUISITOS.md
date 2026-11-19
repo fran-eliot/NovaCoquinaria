@@ -2,7 +2,7 @@
 id: DOC-RECONOCIMIENTO-REQUISITOS-2026
 titulo: Investigación del reconocimiento de requisitos culinarios
 tipo: gestion
-version: 0.4.0
+version: 0.5.0
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -139,6 +139,57 @@ El informe de D04 distinguirá ajuste y contraste, casos y ocurrencias (los grup
 ## CRR-D04 — Prototipo y evaluación
 
 Se incorpora `experiment_requirements_recognition.py` con R02–R05, R01 deshabilitada. Las propuestas conservan los datos originales y las raíces opacas; R02 genera choice con cardinalidad desconocida. La anotación de alcance no acredita atomicidad ni disponibilidad. Se verifican huellas, referencias del fixture, disyunción por receta, partición, repetibilidad y ausencia de mutación. Los conflictos producen abstención. El informe separa ajuste, contraste, negativos sintéticos, propuestas por tipo, opcionalidad heredada y resultados por caso. La clasificación de casos compuestos es conservadora: un resultado parcial no es un acierto completo; se conserva el detalle observado para análisis posterior. Los falsos positivos y omisiones son datos de evaluación, no fallos del job; los errores de integridad sí detienen la ejecución. No se modifica ninguna expectativa ni motor publicado. La evaluación por familia y carga de revisión se completará a partir del artefacto; resultados pendientes de CI.
+
+
+## CRR-D05 — Síntesis de viabilidad y disposición propuesta
+
+### Evidencia reproducible
+
+#266 integrada en `ea4b0003824a484f6be3f943dfbbd793fe690dac`. Los tres workflows del merge finalizaron correctamente. El [job de la PR](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44589014285/job/135789619399) ejecutó 128 pruebas sin error. Se inspeccionó el informe requirements_recognition_experiment.json del artefacto 14563295614 (snapshot 52c4ca1c7a27e0ef959a0f80e8f19df67731955d, distinto del merge). Corpus y huella de D01; huella del fixture a3b0fc9b31c21233143dec4014a4458b1ebcf1703649e7a3fa62a9ab8e3120c0.
+
+| Medida | Resultado |
+|---|---:|
+| Recetas / ocurrencias conservadas | 590 / 5047 |
+| Recetas con propuestas | 282 |
+| Propuestas raíz | 351 |
+| Ocurrencias cubiertas por propuestas | 358 |
+| Ocurrencias sin propuesta | 4689 |
+| Ajuste: aciertos / omisiones | 6 / 1 |
+| Contraste: aciertos / negativos correctos / omisiones | 6 / 5 / 4 |
+| Negativos sintéticos sin propuesta | 8/8 |
+
+No hubo casos clasificados false_positive por el evaluador. Los diez positivos reservados contienen seis aciertos completos (60 % por caso). Las omisiones son H09, H10, H11 y H12; A01 corresponde a la regla deshabilitada. No extrapolar precisión ni cobertura semántica a todo el corpus. El clasificador conserva detalle de posiciones y resultados; no evalúa exhaustivamente todos los calificadores ni todas las oportunidades de las recetas reservadas.
+
+### Resultados por familia
+
+| Familia | Ajuste positivo | Contraste positivo | Negativos documentales | Raíces / ocurrencias propuestas |
+|---|---:|---:|---:|---:|
+| P01 | 0/1 | — | — | 0/0 |
+| P02 | 1/1 | 1/1 | 1/1 | 2/9 |
+| P03 | 2/2 | 4/5 | 2/2 | 344/344 |
+| P04 | 1/1 | 1/4 | 2/2 | 3/3 |
+| P05 | 2/2 | 0/1 | 2/2 | 2/2 |
+
+H11 es positiva mixta P03/P04; H08 y H13 son negativas compartidas P04/P05. Por ello no sumar denominadores por familia. Los casos P03 positivos incluyen varias ocurrencias (A03 tres, H03 dos); las cifras de contraste son por caso, no por ocurrencia. P01 no dispone de positivo reservado.
+
+### Valor incremental y revisión
+
+El artefacto confirma que las 344 propuestas P03 coinciden con optional en la proyección heredada; no hay aumento de cobertura de opcionalidad. Su aportación potencial es una justificación más estrecha y trazable, no una corrección de 344 errores. Se inspeccionó además una selección sistemática de 23 textos proyectados (cada 15 filas desde la primera) sin apreciar contradicción inmediata; no se releyeron todas sus fuentes originales ni constituye una nueva evaluación independiente.
+
+Las nueve ocurrencias P02 corresponden a REC-0008 y REC-0009, originalmente required; el grupo choice evita presentar guarniciones alternativas como obligaciones simultáneas. P04 propone tres correcciones de alcance sobre optional heredado: REC-0057, REC-0059 y REC-0201. P05 propone otras dos: REC-448 y REC-493. Las cinco condiciones y los dos grupos coinciden con fuentes ya revisadas en CRM/CRR; no son descubrimientos independientes adicionales. Se preserva la cantidad base y no se evalúa la condición. En total 14 ocurrencias presentan diferencia semántica potencial respecto de la representación heredada; nueve agrupadas y cinco con presencia base requerida. No se integran automáticamente.
+
+CRR-G01/G02/G05 disponen de evidencia técnica acotada (integridad, procedencia, repetibilidad y pruebas de conflictos/referencias). G03 tiene evidencia dirigida sin falsos positivos clasificados; G04 tiene denominadores de casos y propuestas, pero no revisión exhaustiva del corpus ni evaluación independiente de cada alcance; G06 no está acreditada para una entrega: no se midió tiempo de revisión, P03 no añade opcionalidad y P02/P04/P05 tienen contraste positivo escaso. Ninguna familia queda aprobada para producción. La clasificación por caso no sustituye revisión culinaria.
+
+### Decisión propuesta
+
+| Alternativa | Evaluación |
+|---|---|
+| A — Integrar CRR en extractor o índice | Prematura; no se acredita valor suficiente ni precisión global |
+| B — Consolidar las 7 propuestas de grupos y condiciones como deuda/revisión editorial trazable | Recomendada como incremento acotado; no introducir un motor ni modificar contratos |
+| C — Ampliar reglas inmediatamente | Diferir; exigir nuevas muestras reservadas y beneficio verificable |
+| D — Cerrar esta línea y priorizar otro consumo práctico del conocimiento | Válida tras registrar la deuda y evaluar prioridades |
+
+Resultado propuesto: viabilidad técnica de reconocimiento determinista acotado, utilidad incremental limitada y entrega productiva diferida. Conservar CRM, CCE y CRR como evidencia, no como capacidades publicadas. Registrar los dos grupos y cinco condiciones en una revisión de deuda documental/proyección que distinga cambios de fuente, cambios de modelo y simple abstención; decidir cada actuación según evidencia, sin reescritura automática, sin promoción de identidades y sin crear un nuevo subsistema. A continuación reevaluar alternativas de explotación de valor práctico sobre la base publicada, evitando prolongar indefinidamente la cadena de investigaciones. No autorizar release ni contrato nuevo. Decisión pendiente de revisión.
 
 ## Referencias
 
