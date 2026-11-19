@@ -52,6 +52,8 @@ def exercise(site):
                 expect(page.locator("#mise")).to_contain_text("Mise en place")
                 expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
                 assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+                assert page.locator("#context-text script, #context-text iframe").count() == 0
+                page.evaluate("""async () => { const {renderMarkdown}=await import(\'./assets/recipe-assistant-markdown.mjs\'); const div=document.createElement(\'div\'); renderMarkdown(div,\'<img src=x onerror=alert(1)> [texto](javascript:alert(1))\'); if(div.querySelector(\'img,script,a,iframe\')) throw Error(\'HTML activo\'); }""")
                 first = page.locator("#ingredients input").first
                 first.focus()
                 page.keyboard.press("Space")
