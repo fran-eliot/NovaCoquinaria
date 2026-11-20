@@ -109,7 +109,7 @@ def version_application_assets() -> None:
              "recipe-assistant.css", "culinary-pantry.css", "culinary-pantry-ui.mjs",
              "culinary-pantry-model.mjs", "culinary-pantry-persistence.mjs", "culinary-pantry-transfer.mjs",
              "culinary-shopping.css", "culinary-shopping-ui.mjs", "culinary-shopping-model.mjs",
-             "culinary-shopping-persistence.mjs", "culinary-shopping-recipe-transfer.mjs")
+             "culinary-shopping-persistence.mjs", "culinary-shopping-recipe-transfer.mjs", "culinary-shopping-pantry-coordinator.mjs")
     originals = {name: (assets / name).read_bytes() for name in names}
     digest = hashlib.sha256()
     for name, raw in sorted(originals.items()):

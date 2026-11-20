@@ -44,7 +44,7 @@ def check_site(site):
     require(len(versions) == 1, "Versiones de aplicaciones distintas")
     version = versions.pop()
     for name in ("culinary-explorer-ui", "recipe-assistant-ui", "culinary-pantry-ui", "culinary-pantry-persistence", "culinary-shopping-ui",
-                 "culinary-shopping-model", "culinary-shopping-persistence", "culinary-shopping-recipe-transfer"):
+                 "culinary-shopping-model", "culinary-shopping-persistence", "culinary-shopping-recipe-transfer", "culinary-shopping-pantry-coordinator"):
         module = (root / "assets" / f"{name}.{version}.mjs").read_text(encoding="utf-8")
         for dependency in re.findall(r'from "\./([^"]+)"', module):
             require(("." + version + ".") in dependency and

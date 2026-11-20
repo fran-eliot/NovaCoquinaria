@@ -9,7 +9,7 @@
 <script type="module" src="assets/culinary-shopping-ui.mjs"></script>
 </head>
 <body><main>
-<header><a href="index.html">NovaCoquinaria</a><h1>Mis compras</h1><p>Organiza tus listas de compra.</p></header>
+<header><a href="index.html">NovaCoquinaria</a> · <a href="culinary-pantry.html">Mi despensa</a><h1>Mis compras</h1><p>Organiza tus listas de compra.</p></header>
 <p class="notice">Las listas se guardan en este navegador. Marcar un artículo como comprado no modifica tu despensa. Exporta copias periódicamente; no hay sincronización entre dispositivos.</p>
 <noscript>Activa JavaScript para gestionar las listas.</noscript>
 <p id="status" role="status" aria-atomic="true">Cargando listas…</p>
@@ -44,5 +44,20 @@
 <label>Transferencia <select id="filter-transfer"><option value="">Todas</option><option value="none">Sin transferencia</option><option value="pending">Pendiente</option><option value="completed">Registrada</option></select></label></div>
 <button type="reset" class="secondary">Limpiar filtros</button></fieldset></form>
 <p id="items-count" role="status"></p><div id="items" class="results"></div>
-<section id="shopping-integration" class="panel"><h3>Conexión con la despensa</h3><p>La incorporación a la despensa se habilitará tras validar el protocolo de transferencia.</p></section>
-</section></main></body></html>
+<section id="shopping-integration" class="panel"><h3>Conexión con la despensa</h3><p>Marca los artículos comprados y revisa cada lote antes de incorporarlo. Los registros pendientes solo permiten verificar un destino existente; nunca recrean automáticamente el lote. Para transferir se requiere un navegador compatible con Web Locks.</p></section>
+</section>
+<dialog id="transfer-dialog" aria-labelledby="transfer-heading">
+<form id="transfer-form"><h2 id="transfer-heading">Revisar lote para la despensa</h2>
+<p>Se creará una entrada independiente. No se sumarán existencias ni se estimarán fechas.</p>
+<div class="fields">
+<label>Nombre <input id="transfer-name" required maxlength="160"></label>
+<label>Cantidad <input id="transfer-quantity" inputmode="decimal" maxlength="16"></label>
+<label>Unidad <input id="transfer-unit" maxlength="40" list="units"></label>
+<label>Categoría <input id="transfer-category" maxlength="80"></label>
+<label>Ubicación <select id="transfer-location" required><option value="">Seleccionar ubicación</option><option value="pantry">Despensa</option><option value="fridge">Frigorífico</option><option value="freezer">Congelador</option><option value="other">Otra</option></select></label>
+<label>Tipo de fecha <select id="transfer-date-type"><option value="">Sin declarar</option><option value="expiry">Caducidad</option><option value="best_before">Consumo preferente</option></select></label>
+<label>Fecha <input id="transfer-date" type="date" min="0001-01-01" max="9999-12-31"></label>
+<label>Notas <textarea id="transfer-notes" maxlength="1000" rows="2"></textarea></label>
+</div><p class="help">Cantidad y unidad, y tipo de fecha y fecha, deben declararse juntos. El registro de compra quedará protegido tras iniciar la transferencia.</p>
+<p id="transfer-feedback" role="status"></p><div class="actions"><button id="transfer-confirm" type="submit">Confirmar lote</button><button id="transfer-cancel" class="secondary" type="button">Cancelar</button></div>
+</form></dialog></main></body></html>
