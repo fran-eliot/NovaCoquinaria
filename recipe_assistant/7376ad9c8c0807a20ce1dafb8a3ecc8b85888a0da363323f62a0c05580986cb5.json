@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Choto al ajillo granadino\n\n## Origen y contexto\n\n**Región:** Granada, Andalucía. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 75–100 min, según corte |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de choto o cabrito troceado apto para guisar\n- 8 dientes de ajo\n- 180 ml de vino blanco seco\n- 90 g de almendras crudas peladas, opcionales para majado\n- 1 rebanada pequeña de pan de 30 g, opcional para espesar\n- 1 hoja de laurel\n- 150–250 ml de agua caliente\n- 4 cucharadas de aceite de oliva\n- perejil, sal y pimienta\n\n**Alérgenos:** Almendras y gluten si se emplea majado; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Comprar carne de choto o cabrito de origen autorizado, preparada para cocinar. Secar los trozos y salpimentar.\n2. Dorar el choto por tandas en una cazuela con aceite, sin amontonar las piezas.\n3. Añadir los ajos enteros ligeramente chafados y dorar sin quemarlos. Reservar dos dientes si se va a hacer majado.\n4. Verter vino blanco, llevar a hervor y reducir unos minutos, sin asumir que desaparece todo el alcohol.\n5. Incorporar laurel y agua caliente suficiente para mantener un fondo de cocción; tapar parcialmente y guisar a hervor suave 45–70 minutos hasta que el cabrito esté completamente cocinado y tierno.\n6. Si se quiere salsa más ligada, tostar en una sartén aparte almendras y pan, triturar con los ajos reservados y algo de jugo del guiso; añadir durante los últimos 10 minutos.\n7. Comprobar que la carne se desprende con facilidad del hueso, retirar laurel, rectificar sal y terminar con perejil.\n\n## Puntos críticos\n\n- El nombre choto se refiere aquí a cabrito; usar la carne realmente adquirida y anotar la procedencia. Una cocción violenta endurece y reseca piezas pequeñas; las almendras del majado son opcionales.\n- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |\n| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |\n| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Conejo al ajillo con vino blanco](./conejo_al_ajillo_con_vino_blanco.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "75–100 min, según corte",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/choto_al_ajillo_granadino.html",
+  "id": "REC-481",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "choto o cabrito troceado apto para guisar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de choto o cabrito troceado apto para guisar",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de choto o cabrito troceado apto para guisar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "8 dientes de ajo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras crudas peladas, opcionales para majado",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de almendras crudas peladas, opcionales para majado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de almendras crudas peladas, opcionales para majado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada pequeña de pan de 30 g, opcional para espesar",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada pequeña de pan de 30 g, opcional para espesar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada pequeña de pan de 30 g, opcional para espesar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de agua caliente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "4 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil, sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil, sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil, sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/choto_al_ajillo_granadino.md",
+  "source_sha256": "15622f3f798d3d7923a05b37bc343b3ed1f8a4330bee21ca98b34b190c8402f6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Comprar carne de choto o cabrito de origen autorizado, preparada para cocinar. Secar los trozos y salpimentar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Dorar el choto por tandas en una cazuela con aceite, sin amontonar las piezas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir los ajos enteros ligeramente chafados y dorar sin quemarlos. Reservar dos dientes si se va a hacer majado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Verter vino blanco, llevar a hervor y reducir unos minutos, sin asumir que desaparece todo el alcohol."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar laurel y agua caliente suficiente para mantener un fondo de cocción; tapar parcialmente y guisar a hervor suave 45–70 minutos hasta que el cabrito esté completamente cocinado y tierno."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Si se quiere salsa más ligada, tostar en una sartén aparte almendras y pan, triturar con los ajos reservados y algo de jugo del guiso; añadir durante los últimos 10 minutos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Comprobar que la carne se desprende con facilidad del hueso, retirar laurel, rectificar sal y terminar con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Choto al ajillo granadino",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

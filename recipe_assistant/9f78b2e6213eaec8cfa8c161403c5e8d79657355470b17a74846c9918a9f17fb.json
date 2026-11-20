@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 68,
+      "start_line": 13
+    },
+    "text": "\n# Bizcocho de yogur y limón\n\n## Descripción\nBizcocho doméstico esponjoso con yogur y limón. A diferencia del pastel de manzana, necesita impulsor químico para desarrollar una miga aireada.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 8 |\n| Preparación | 15 min |\n| Horneado | 35–45 min |\n| Molde | 22 cm |\n\n## Ingredientes\n- 3 huevos;\n- 125 g de yogur natural;\n- 180 g de azúcar;\n- 200 g de harina de trigo común;\n- 80 ml de aceite suave;\n- 12 g de levadura química;\n- ralladura de un limón;\n- una pizca de sal.\n\n**Alérgenos:** huevo, leche y trigo/gluten.\n\n## Elaboración\n1. Precalentar horno a **175 °C** y preparar molde.\n2. Batir huevos y azúcar hasta obtener mezcla algo espumosa.\n3. Incorporar yogur, aceite y ralladura.\n4. Mezclar harina, impulsor y sal; tamizar si hay grumos.\n5. Integrar secos con espátula, sin batir en exceso.\n6. Verter en molde y hornear 35–45 minutos, hasta que el centro esté cocido y un palillo salga sin masa cruda.\n7. Reposar 10 minutos, desmoldar y enfriar en rejilla.\n\n## Puntos críticos\n- No confundir levadura química con levadura de panadería.\n- No abrir horno durante la fase inicial de expansión.\n- Evitar exceso de mezclado después de añadir harina.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Hundimiento | Falta de cocción | Comprobar centro antes de sacar |\n| Miga dura | Batido excesivo | Integrar suavemente |\n| Superficie oscura | Calor elevado | Bajar temperatura o cubrir |\n\n## Conservación\nGuardar cerrado en lugar fresco durante corto tiempo; refrigerar si lleva coberturas perecederas.\n\n## Relaciones\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Pastel de manzana](./pastel_de_manzana.md)\n\n## Principio de NovaCoquinaria\n> En un bizcocho aireado, el impulsor y el mezclado suave son determinantes."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "baking",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/bizcocho_de_yogur.html",
+  "id": "REC-0080",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "125",
+        "min": "125",
+        "raw": "125 g de yogur natural;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "125 g de yogur natural;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de azúcar;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo común;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo común;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo común;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite suave;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de aceite suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de aceite suave;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura química;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de levadura química;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de levadura química;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de un limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de un limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de un limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal.",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/bizcocho_de_yogur.md",
+  "source_sha256": "5738112e5756ac736e7f1824d591e3accae2b83a37f05c8f395cee9f25bac463",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **175 °C** y preparar molde."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Batir huevos y azúcar hasta obtener mezcla algo espumosa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Incorporar yogur, aceite y ralladura."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Mezclar harina, impulsor y sal; tamizar si hay grumos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Integrar secos con espátula, sin batir en exceso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Verter en molde y hornear 35–45 minutos, hasta que el centro esté cocido y un palillo salga sin masa cruda."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 7,
+      "text": "Reposar 10 minutos, desmoldar y enfriar en rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 64,
+        "start_line": 64
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bizcocho de yogur y limón",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

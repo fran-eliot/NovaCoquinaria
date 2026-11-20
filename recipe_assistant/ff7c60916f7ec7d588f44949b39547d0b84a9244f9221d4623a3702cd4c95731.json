@@ -1,0 +1,341 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Brochetas de pollo morunas con comino y limón\n\n## Descripción\n\nPreparación de referencia basada en **marinado refrigerado y cocción a la plancha**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 45–60 min más marinado |\n| Técnica principal | Marinado refrigerado y cocción a la plancha |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de contramuslos de pollo deshuesados en dados de 3 cm\n- 2 cucharadas de aceite de oliva\n- 1 cucharada de zumo de limón\n- 2 dientes de ajo rallados\n- 1 cucharadita de comino molido\n- ½ cucharadita de pimentón dulce\n- ½ cucharadita de cilantro molido\n- ¼ cucharadita de cúrcuma, opcional\n- sal y pimienta\n- 8 brochetas de metal o madera aptas para cocción\n\n**Alérgenos:** Revisar mezclas de especias; sin alérgenos principales en formulación básica.\n\n## Elaboración\n\n1. Cortar el pollo en dados de tamaño regular y mantener refrigerado mientras se prepara la mezcla.\n2. Combinar aceite, limón, ajo y especias; cubrir los dados en un recipiente no reactivo, tapar y refrigerar entre 1 y 3 horas.\n3. Si se usan brochetas de madera, seguir sus indicaciones de remojo o protección al calor; ensartar sin comprimir mucho las piezas.\n4. Calentar plancha o sartén amplia a fuego medio-alto con una película de aceite y colocar las brochetas sin amontonar.\n5. Cocinar girando regularmente 12–16 minutos orientativos según grosor y calor, reduciendo fuego si se oscurecen antes de hacerse.\n6. Verificar 74 °C en el centro de los dados más gruesos, con termómetro sin tocar el pincho, y servir.\n\n## Puntos críticos\n\n- No marinar a temperatura ambiente. La mezcla de especias puede oscurecer antes de que el pollo esté cocinado; controlar el calor y comprobar el centro.\n- El tiempo varía según tamaño, corte, recipiente y calor; comprobar la cocción completa y, cuando proceda, utilizar termómetro.\n- Evitar la contaminación cruzada entre carne cruda y alimentos listos para comer.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Carne poco tierna | Cocción insuficiente para el corte o hervor demasiado intenso | Adaptar el tiempo y utilizar calor suave en guisos |\n| Salsa demasiado líquida | Ingredientes con humedad o reducción escasa | Reducir la salsa antes del servicio, sin resecar la carne |\n| Exterior demasiado tostado | Fuego intenso o condimentos azucarados añadidos pronto | Moderar el calor y aplicar glaseados al final |\n\n## Conservación\n\nServir recién cocinado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerar sin demora. Los adobos y escabeches caseros no sustituyen refrigeración, controles de temperatura ni técnicas validadas de conservación. Recalentar completamente las porciones destinadas a servirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Marinar carnes](../00_Bases/03_Tecnicas/marinar_carnes.md)\n- [Adobo de yogur y especias para aves](../12_Plantillas/03_Marinadas/adobo_de_yogur_y_especias_para_aves.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, corte, equipo, temperatura interior, tiempos, textura y valoración. No se atribuye esta fórmula a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–60 min más marinado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **marinado refrigerado y cocción a la plancha**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/brochetas_de_pollo_morunas_con_comino_y_limon.html",
+  "id": "REC-325",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados en dados de 3 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de contramuslos de pollo deshuesados en dados de 3 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de contramuslos de pollo deshuesados en dados de 3 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo rallados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo rallados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo rallados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cilantro molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cilantro molido",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cúrcuma, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "¼ cucharadita de cúrcuma, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¼ cucharadita de cúrcuma, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "brochetas de metal o madera aptas para cocción",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 brochetas de metal o madera aptas para cocción",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 brochetas de metal o madera aptas para cocción",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/brochetas_de_pollo_morunas_con_comino_y_limon.md",
+  "source_sha256": "444fe3a1231cb533bbaef747de0022f6b4aa3c2abb384e0a2c0bb5171cabff29",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Cortar el pollo en dados de tamaño regular y mantener refrigerado mientras se prepara la mezcla."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Combinar aceite, limón, ajo y especias; cubrir los dados en un recipiente no reactivo, tapar y refrigerar entre 1 y 3 horas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Si se usan brochetas de madera, seguir sus indicaciones de remojo o protección al calor; ensartar sin comprimir mucho las piezas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Calentar plancha o sartén amplia a fuego medio-alto con una película de aceite y colocar las brochetas sin amontonar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Cocinar girando regularmente 12–16 minutos orientativos según grosor y calor, reduciendo fuego si se oscurecen antes de hacerse."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Verificar 74 °C en el centro de los dados más gruesos, con termómetro sin tocar el pincho, y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/marinar_carnes.html",
+      "label": "Marinar carnes",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/marinar_carnes.md"
+    }
+  ],
+  "title": "Brochetas de pollo morunas con comino y limón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

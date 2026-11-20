@@ -1,0 +1,274 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Tumbet mallorquín de berenjena, patata y pimiento\n\n## Origen y contexto\n\n**Región:** Mallorca, Illes Balears. La ficha describe una formulación doméstica de referencia; las variantes familiares y regionales pueden utilizar otras proporciones o acabados. No consta como elaboración personal probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 70–85 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de patatas\n- 450 g de berenjena\n- 350 g de pimiento rojo\n- 550 g de tomate triturado\n- 3 dientes de ajo\n- 80–100 ml de aceite de oliva para la fritura por tandas, según absorción\n- sal y pimienta\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Lavar berenjenas y pimientos. Pelar las patatas y cortarlas en rodajas de 1 cm; cortar la berenjena del mismo grosor y el pimiento en tiras.\n2. Preparar la salsa cocinando ajo picado y tomate con una cucharada de aceite durante 15–20 minutos, hasta reducir.\n3. Freír las patatas por tandas en aceite moderadamente caliente hasta que estén tiernas y ligeramente doradas; escurrir.\n4. Freír las berenjenas por separado hasta que se cocinen completamente y escurrir el aceite sobrante.\n5. Freír los pimientos hasta que estén tiernos. Ajustar la sal de las hortalizas.\n6. Disponer en fuente capas de patata, berenjena, pimiento y salsa de tomate, manteniendo los ingredientes diferenciados.\n7. Calentar el conjunto 8–10 minutos en horno a 180 °C, hasta que todo esté caliente, y servir.\n\n## Puntos críticos\n\n- La fritura separada permite controlar la textura de cada hortaliza; amontonarlas en la sartén dificulta el dorado. El tumbet se monta por capas y no equivale a una escalivada asada.\n- Ajustar las cantidades de líquido, calor y tiempos a la materia prima y al equipo utilizados. Mantener higiene, separar crudos y cocinados y atender a las instrucciones de los productos comerciales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |\n| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Escalivada de berenjena y pimiento](./escalivada_de_berenjena_y_pimiento.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, cantidades efectivas, tiempos, temperatura, textura y valoración. No se sustituyen otras versiones sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "85",
+      "min": "70",
+      "phase": "declared_total",
+      "raw": "70–85 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/tumbet_mallorquin_de_berenjena_patata_y_pimiento.html",
+  "id": "REC-461",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de patatas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "berenjena",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de berenjena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de berenjena",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de pimiento rojo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de tomate triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para la fritura por tandas, según absorción",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "80",
+        "raw": "80–100 ml de aceite de oliva para la fritura por tandas, según absorción",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–100 ml de aceite de oliva para la fritura por tandas, según absorción",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/tumbet_mallorquin_de_berenjena_patata_y_pimiento.md",
+  "source_sha256": "3208ef56c5a622a1d98401ddea7749c8decf60597329753617387a0fa4489de5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar berenjenas y pimientos. Pelar las patatas y cortarlas en rodajas de 1 cm; cortar la berenjena del mismo grosor y el pimiento en tiras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Preparar la salsa cocinando ajo picado y tomate con una cucharada de aceite durante 15–20 minutos, hasta reducir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Freír las patatas por tandas en aceite moderadamente caliente hasta que estén tiernas y ligeramente doradas; escurrir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Freír las berenjenas por separado hasta que se cocinen completamente y escurrir el aceite sobrante."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Freír los pimientos hasta que estén tiernos. Ajustar la sal de las hortalizas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Disponer en fuente capas de patata, berenjena, pimiento y salsa de tomate, manteniendo los ingredientes diferenciados."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Calentar el conjunto 8–10 minutos en horno a 180 °C, hasta que todo esté caliente, y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Tumbet mallorquín de berenjena, patata y pimiento",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

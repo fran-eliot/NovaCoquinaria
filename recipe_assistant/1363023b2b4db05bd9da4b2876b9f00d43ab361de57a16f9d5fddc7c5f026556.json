@@ -1,0 +1,227 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 15
+    },
+    "text": "\n# Borrajas con patatas y aceite de oliva\n\n## Origen y contexto\n\n**Región:** Aragón. La ficha describe una formulación doméstica de referencia; las variantes familiares y regionales pueden utilizar otras proporciones o acabados. No consta como elaboración personal probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40–50 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 g de borrajas frescas antes de limpiar\n- 450 g de patatas\n- 3 cucharadas de aceite de oliva virgen extra\n- 2 dientes de ajo, opcionales\n- agua potable y sal\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Retirar hojas dañadas, limpiar y lavar cuidadosamente los tallos de borraja para eliminar la tierra; cortar en tramos de 4–5 cm.\n2. Pelar las patatas y cortarlas en trozos medianos.\n3. Llevar agua ligeramente salada a ebullición, incorporar las patatas y cocer unos 8–10 minutos.\n4. Añadir los tallos de borraja y continuar unos 10–15 minutos más, hasta que ambas verduras estén totalmente tiernas; ajustar según el grosor de los tallos.\n5. Escurrir, reservando unas cucharadas del agua de cocción.\n6. Calentar suavemente el aceite y, si se emplea, aromatizarlo con ajo laminado sin quemarlo. Aliñar las verduras y servir con un poco del agua reservada si se desea.\n\n## Puntos críticos\n\n- La borraja exige limpieza cuidadosa y tiempos distintos según su grosor. Utilizar únicamente borraja alimentaria correctamente identificada, no plantas recolectadas sin identificación segura.\n- Ajustar las cantidades de líquido, calor y tiempos a la materia prima y al equipo utilizados. Mantener higiene, separar crudos y cocinados y atender a las instrucciones de los productos comerciales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |\n| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Acelgas con patata y pimentón](./acelgas_rehogadas_con_patata_y_pimenton.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, cantidades efectivas, tiempos, temperatura, textura y valoración. No se sustituyen otras versiones sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/borrajas_con_patatas_y_aceite_de_oliva.html",
+  "id": "REC-460",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "borrajas frescas antes de limpiar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de borrajas frescas antes de limpiar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de borrajas frescas antes de limpiar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de patatas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, opcionales",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, opcionales",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, opcionales",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable y sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable y sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/borrajas_con_patatas_y_aceite_de_oliva.md",
+  "source_sha256": "725fef52255a1b2a048ab755347bd94b370790cbdaa97fbee4e1851fb272f716",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Retirar hojas dañadas, limpiar y lavar cuidadosamente los tallos de borraja para eliminar la tierra; cortar en tramos de 4–5 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Pelar las patatas y cortarlas en trozos medianos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Llevar agua ligeramente salada a ebullición, incorporar las patatas y cocer unos 8–10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Añadir los tallos de borraja y continuar unos 10–15 minutos más, hasta que ambas verduras estén totalmente tiernas; ajustar según el grosor de los tallos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Escurrir, reservando unas cucharadas del agua de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Calentar suavemente el aceite y, si se emplea, aromatizarlo con ajo laminado sin quemarlo. Aliñar las verduras y servir con un poco del agua reservada si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Borrajas con patatas y aceite de oliva",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Caldeirada gallega de merluza y patatas\n\n## Origen y contexto\n\n**Región:** Galicia. Formulación doméstica de referencia que distingue los rasgos propios del plato; no se declara receta probada, versión única ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 40–50 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de merluza en cuatro rodajas gruesas, limpia y sin vísceras\n- 750 g de patatas peladas en rodajas gruesas\n- 1 cebolla de 180 g\n- 4 dientes de ajo laminados\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce\n- 70 ml de aceite de oliva virgen extra\n- 50 ml de vinagre de vino blanco, opcional y ajustable\n- agua potable para cocción\n- sal\n\n**Alérgenos:** Pescado, posibles sulfitos en el vinagre.\n\n## Elaboración\n\n1. Comprobar que la merluza está preparada para cocinar y mantenerla refrigerada; retirar espinas visibles sin romper las rodajas.\n2. Poner patatas, cebolla en gajos y laurel en una cazuela ancha, cubrir ligeramente con agua, salar poco y cocer 15–20 minutos hasta que las patatas estén casi tiernas.\n3. Colocar las rodajas de merluza sobre las patatas y cocinar a fuego muy suave otros 6–10 minutos según grosor, hasta que el pescado esté completamente cocido (unos 63 °C en el centro como referencia conservadora).\n4. En sartén aparte, calentar el aceite y dorar ajo laminado suavemente sin quemarlo.\n5. Apartar del calor, añadir el pimentón y, si se emplea, el vinagre con precaución por las salpicaduras; remover para formar la ajada.\n6. Escurrir parte del agua de la cazuela sin deshacer pescado ni patatas; repartir la ajada caliente sobre el conjunto.\n7. Retirar laurel, probar sal y servir inmediatamente.\n\n## Puntos críticos\n\n- La ajada de ajo y pimentón diferencia la caldeirada de otros guisos marineros. La merluza se añade al final para no deshacerse y las espinas deben revisarse antes del servicio.\n- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste de próxima prueba |\n|---|---|---|\n| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |\n| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |\n| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Merluza en salsa verde](./merluza_en_salsa_verde.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes y cantidades realmente utilizados, tiempos, textura, resultado y valoración. No se sustituye ninguna versión previa sin evidencia comparativa."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/caldeirada_gallega_de_merluza_y_patatas.html",
+  "id": "REC-505",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "merluza en cuatro rodajas gruesas, limpia y sin vísceras",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de merluza en cuatro rodajas gruesas, limpia y sin vísceras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de merluza en cuatro rodajas gruesas, limpia y sin vísceras",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas peladas en rodajas gruesas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de patatas peladas en rodajas gruesas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de patatas peladas en rodajas gruesas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla de 180 g",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla de 180 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla de 180 g",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco, opcional y ajustable",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de vinagre de vino blanco, opcional y ajustable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de vinagre de vino blanco, opcional y ajustable",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para cocción",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable para cocción",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable para cocción",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/caldeirada_gallega_de_merluza_y_patatas.md",
+  "source_sha256": "eda94e19990477c247b921b51b3d2a376c4f58faf381d5a775a07fd038260435",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Comprobar que la merluza está preparada para cocinar y mantenerla refrigerada; retirar espinas visibles sin romper las rodajas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Poner patatas, cebolla en gajos y laurel en una cazuela ancha, cubrir ligeramente con agua, salar poco y cocer 15–20 minutos hasta que las patatas estén casi tiernas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Colocar las rodajas de merluza sobre las patatas y cocinar a fuego muy suave otros 6–10 minutos según grosor, hasta que el pescado esté completamente cocido (unos 63 °C en el centro como referencia conservadora)."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "En sartén aparte, calentar el aceite y dorar ajo laminado suavemente sin quemarlo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Apartar del calor, añadir el pimentón y, si se emplea, el vinagre con precaución por las salpicaduras; remover para formar la ajada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Escurrir parte del agua de la cazuela sin deshacer pescado ni patatas; repartir la ajada caliente sobre el conjunto."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, probar sal y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Caldeirada gallega de merluza y patatas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

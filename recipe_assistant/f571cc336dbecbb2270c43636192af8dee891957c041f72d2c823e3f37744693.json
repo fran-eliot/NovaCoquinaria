@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Bucatini con sardinas, pasas y piñones\n\n## Descripción\n\nReceta de referencia centrada en **salteado de pescado azul con contraste dulce y frutos secos**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Salteado de pescado azul con contraste dulce y frutos secos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de bucatini secos\n- 300 g de sardinas frescas en filetes limpios y sin espinas visibles\n- 35 g de pasas\n- 25 g de piñones\n- 120 g de cebolla en juliana fina\n- 2 cucharadas de aceite de oliva\n- ½ cucharadita de semillas de hinojo machacadas, opcional\n- ralladura de medio limón\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo), pescado y piñones; revisar trazas en productos comerciales.\n\n## Elaboración\n\n1. Revisar espinas accesibles de sardinas y mantenerlas refrigeradas hasta cocinar.\n2. Hidratar las pasas 10 minutos en agua templada y escurrir; tostar ligeramente los piñones en sartén seca y reservar.\n3. Pochar cebolla en aceite 8–10 minutos, añadir hinojo opcional y las pasas.\n4. Cocer los bucatini 1–2 minutos menos del tiempo indicado; reservar agua de cocción.\n5. Añadir sardinas al sofrito y cocinar suavemente, rompiéndolas en trozos grandes, hasta que estén completamente cocinadas (63 °C como referencia conservadora).\n6. Incorporar pasta y un poco de agua de cocción, mezclar suavemente y servir con piñones y ralladura de limón.\n\n## Puntos críticos\n\n- Las sardinas son delicadas: cocinarlas al final para evitar textura seca. Los piñones se incorporan al servir para conservar textura y evitar que se quemen.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Sardinas en escabeche suave](../06_Pescados_y_Mariscos/sardinas_en_escabeche_suave.md)\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/bucatini_con_sardinas_pasas_y_pinones.html",
+  "id": "REC-308",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bucatini secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de bucatini secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de bucatini secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sardinas frescas en filetes limpios y sin espinas visibles",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de sardinas frescas en filetes limpios y sin espinas visibles",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de sardinas frescas en filetes limpios y sin espinas visibles",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pasas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de pasas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de pasas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "piñones",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de piñones",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de piñones",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana fina",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla en juliana fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla en juliana fina",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de hinojo machacadas, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de semillas de hinojo machacadas, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de semillas de hinojo machacadas, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de medio limón",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de medio limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de medio limón",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/bucatini_con_sardinas_pasas_y_pinones.md",
+  "source_sha256": "8d74865651cdcec6e2f28d354223de8bb9a294ae2b2062ed4bfe562b64550593",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Revisar espinas accesibles de sardinas y mantenerlas refrigeradas hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Hidratar las pasas 10 minutos en agua templada y escurrir; tostar ligeramente los piñones en sartén seca y reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla en aceite 8–10 minutos, añadir hinojo opcional y las pasas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Cocer los bucatini 1–2 minutos menos del tiempo indicado; reservar agua de cocción."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Añadir sardinas al sofrito y cocinar suavemente, rompiéndolas en trozos grandes, hasta que estén completamente cocinadas (63 °C como referencia conservadora)."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Incorporar pasta y un poco de agua de cocción, mezclar suavemente y servir con piñones y ralladura de limón."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Bucatini con sardinas, pasas y piñones",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

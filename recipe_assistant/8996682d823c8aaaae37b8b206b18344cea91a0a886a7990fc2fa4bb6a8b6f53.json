@@ -1,0 +1,316 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Conchiglioni rellenos de atún y requesón al horno\n\n## Descripción\n\nFórmula de referencia centrada en **precocción de pasta grande, relleno y gratinado**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Precocción de pasta grande, relleno y gratinado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de conchiglioni secos grandes\n- 240 g de atún en conserva escurrido\n- 200 g de requesón o ricotta\n- 450 g de tomate triturado\n- 120 g de cebolla picada\n- 100 g de mozzarella escurrida\n- 1 cucharada de aceite de oliva\n- 1 diente de ajo\n- ½ cucharadita de orégano\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo), pescado y leche.\n\n## Elaboración\n\n1. Preparar una salsa espesa: pochar cebolla y ajo en aceite, añadir tomate y orégano y reducir durante 12–15 minutos.\n2. Cocer los conchiglioni 3 minutos menos de lo indicado para pasta al dente y escurrir separándolos, para que no se peguen.\n3. Mezclar atún escurrido, requesón y pimienta. Probar antes de salar por la sal de la conserva.\n4. Precalentar el horno a 190 °C, calor arriba y abajo. Extender parte de la salsa en una fuente apta.\n5. Rellenar las conchas sin compactar en exceso y disponerlas sobre la salsa, con la abertura hacia arriba.\n6. Repartir el resto del tomate y la mozzarella escurrida; cubrir con papel apto para horno durante los primeros 15 minutos.\n7. Hornear 20–25 minutos en total, destapando al final para dorar, hasta que la pasta esté tierna y el centro bien caliente. Reposar 5 minutos.\n\n## Puntos críticos\n\n- La pasta debe quedar suficientemente firme antes del montaje para no romperse, pero terminar su cocción en salsa. Escurrir requesón, atún y mozzarella evita una fuente aguada.\n- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.\n- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |\n| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |\n| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta al horno](../12_Plantillas/04_Cocciones/pasta_al_horno.md)\n- [Ensalada de pasta con atún y verduras](./ensalada_de_pasta_con_atun_y_verduras.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **precocción de pasta grande, relleno y gratinado**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/conchiglioni_rellenos_de_atun_y_requeson_al_horno.html",
+  "id": "REC-367",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "conchiglioni secos grandes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de conchiglioni secos grandes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de conchiglioni secos grandes",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de atún en conserva escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de atún en conserva escurrido",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "requesón o ricotta",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de requesón o ricotta",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de requesón o ricotta",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de tomate triturado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mozzarella escurrida",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de mozzarella escurrida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de mozzarella escurrida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de orégano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de orégano",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/conchiglioni_rellenos_de_atun_y_requeson_al_horno.md",
+  "source_sha256": "55971dd312bb012b0f8a77cab97df51559ca87b36cdb566c40a8d74c1f0db4a6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Preparar una salsa espesa: pochar cebolla y ajo en aceite, añadir tomate y orégano y reducir durante 12–15 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cocer los conchiglioni 3 minutos menos de lo indicado para pasta al dente y escurrir separándolos, para que no se peguen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Mezclar atún escurrido, requesón y pimienta. Probar antes de salar por la sal de la conserva."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Precalentar el horno a 190 °C, calor arriba y abajo. Extender parte de la salsa en una fuente apta."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Rellenar las conchas sin compactar en exceso y disponerlas sobre la salsa, con la abertura hacia arriba."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Repartir el resto del tomate y la mozzarella escurrida; cubrir con papel apto para horno durante los primeros 15 minutos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Hornear 20–25 minutos en total, destapando al final para dorar, hasta que la pasta esté tierna y el centro bien caliente. Reposar 5 minutos."
+    }
+  ],
+  "techniques": [],
+  "title": "Conchiglioni rellenos de atún y requesón al horno",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

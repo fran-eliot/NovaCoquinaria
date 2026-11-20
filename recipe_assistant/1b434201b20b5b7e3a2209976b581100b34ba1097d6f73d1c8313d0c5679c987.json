@@ -1,0 +1,244 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Socca de harina de garbanzos al horno\n\n## Descripción\n\nPreparación de referencia basada en **hidratación de harina de garbanzo y horneado en bandeja caliente**. Las cantidades y los tiempos no se atribuyen a una preparación doméstica y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica principal | Hidratación de harina de garbanzo y horneado en bandeja caliente |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 160 g de harina de garbanzo\n- 320 ml de agua potable\n- 25 ml de aceite de oliva, más 10 ml para la bandeja\n- 5 g de sal\n- pimienta negra recién molida\n- ½ cucharadita de romero muy picado, opcional\n\n**Alérgenos:** Revisar trazas de la harina comercial.\n\n## Elaboración\n\n1. Tamizar la harina de garbanzo, añadir agua gradualmente y batir hasta eliminar grumos.\n2. Incorporar sal, aceite y romero opcional. Reposar tapado 30–60 minutos en refrigeración para hidratar la harina.\n3. Precalentar el horno a 230 °C con una bandeja o sartén de metal apta en su interior durante 15 minutos.\n4. Engrasar con cuidado el recipiente caliente y verter una capa fina de masa, preferiblemente de 4–6 mm.\n5. Hornear 12–18 minutos, hasta que el centro esté cuajado y los bordes se doren. Si hace falta, gratinar 1–2 minutos vigilando.\n6. Retirar, añadir pimienta y cortar en porciones para servir caliente.\n\n## Puntos críticos\n\n- La harina de garbanzo está cruda y necesita cocción completa; no probar la masa sin cocinar. La bandeja debe estar muy caliente para conseguir superficie tostada.\n- Distinguir **legumbre completamente cocida**, **legumbre seca partida** y **harina de legumbre sin cocinar**: los tres productos requieren procedimientos diferentes.\n- Ajustar los tiempos a la variedad, grosor, equipo y temperatura real. Mantener higiene y refrigeración de ingredientes perecederos.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |\n| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |\n| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |\n\n## Conservación\n\nServir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hummus de garbanzos](./hummus_de_garbanzos.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, técnica, temperatura, tiempo, textura y valoración. No sustituye ni modifica versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/socca_de_harina_de_garbanzos_al_horno.html",
+  "id": "REC-334",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de garbanzo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de harina de garbanzo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de harina de garbanzo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "320 ml de agua potable",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, más 10 ml para la bandeja",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de aceite de oliva, más 10 ml para la bandeja",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de aceite de oliva, más 10 ml para la bandeja",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra recién molida",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra recién molida",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra recién molida",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "romero muy picado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de romero muy picado, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de romero muy picado, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/socca_de_harina_de_garbanzos_al_horno.md",
+  "source_sha256": "baf4a21f2ab2ea4bbf99f8f92af08cc3dbf44aefbb34df362f962cac60375483",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Tamizar la harina de garbanzo, añadir agua gradualmente y batir hasta eliminar grumos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Incorporar sal, aceite y romero opcional. Reposar tapado 30–60 minutos en refrigeración para hidratar la harina."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Precalentar el horno a 230 °C con una bandeja o sartén de metal apta en su interior durante 15 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Engrasar con cuidado el recipiente caliente y verter una capa fina de masa, preferiblemente de 4–6 mm."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Hornear 12–18 minutos, hasta que el centro esté cuajado y los bordes se doren. Si hace falta, gratinar 1–2 minutos vigilando."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Retirar, añadir pimienta y cortar en porciones para servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Socca de harina de garbanzos al horno",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

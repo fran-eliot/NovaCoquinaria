@@ -1,0 +1,222 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Alcachofas a la plancha con ajo y limón\n\n## Descripción\n\nPreparación de referencia centrada en **precocción y dorado de superficies**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Precocción y dorado de superficies |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 6 alcachofas medianas (unos 350 g de corazones limpios);\n- 2 dientes de ajo laminados;\n- 3 cucharadas de aceite de oliva;\n- 1 limón;\n- sal y pimienta;\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Elaboración\n\n1. Preparar un cuenco de agua con unas gotas de limón y limpiar las alcachofas hasta obtener corazones tiernos; retirar la pelusa si la tienen.\n2. Cortar los corazones por la mitad y cocerlos en agua hirviendo ligeramente salada 8–12 minutos, hasta que puedan atravesarse sin deshacerse.\n3. Escurrir muy bien y secar las superficies de corte.\n4. Calentar una sartén amplia con dos cucharadas de aceite y dorar las alcachofas por el lado plano 3–4 minutos, luego girarlas.\n5. En sartén aparte o en un hueco de la misma añadir ajo con el aceite restante y cocinar a fuego suave sin quemarlo.\n6. Servir con ajo, zumo de limón añadido al final y pimienta.\n\n## Puntos críticos\n\n- Las alcachofas se oxidan rápidamente; el limón del agua es auxiliar, no sustituye la limpieza ni la precocción. Evitar que entren húmedas en aceite caliente.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |\n| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |\n| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Alcachofa](../11_Despensa/06_Verduras/alcachofa.md)\n- [Blanquear y escaldar verduras](../00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **precocción y dorado de superficies**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/alcachofas_a_la_plancha_con_ajo_y_limon.html",
+  "id": "REC-0286",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alcachofas medianas (unos 350 g de corazones limpios);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 alcachofas medianas (unos 350 g de corazones limpios);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "6 alcachofas medianas (unos 350 g de corazones limpios);",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/alcachofas_a_la_plancha_con_ajo_y_limon.md",
+  "source_sha256": "7a58782a7f14269be5b63d6530ddde925219bb70c0fe0ce336e0a0a1c0fa252a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Preparar un cuenco de agua con unas gotas de limón y limpiar las alcachofas hasta obtener corazones tiernos; retirar la pelusa si la tienen."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Cortar los corazones por la mitad y cocerlos en agua hirviendo ligeramente salada 8–12 minutos, hasta que puedan atravesarse sin deshacerse."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Escurrir muy bien y secar las superficies de corte."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Calentar una sartén amplia con dos cucharadas de aceite y dorar las alcachofas por el lado plano 3–4 minutos, luego girarlas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "En sartén aparte o en un hueco de la misma añadir ajo con el aceite restante y cocinar a fuego suave sin quemarlo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Servir con ajo, zumo de limón añadido al final y pimienta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.html",
+      "label": "Blanquear y escaldar verduras",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md"
+    }
+  ],
+  "title": "Alcachofas a la plancha con ajo y limón",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

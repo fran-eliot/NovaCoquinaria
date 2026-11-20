@@ -1,0 +1,325 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 114,
+      "start_line": 15
+    },
+    "text": "\n# Calamares encebollados\n\n## Descripción\n\nCalamares cocinados con abundante cebolla pochada, laurel y un fondo corto de caldo. La cocción suave permite ablandar el calamar sin depender de un salteado rápido.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 35–55 minutos, según tamaño del calamar |\n| Dificultad | Media |\n| Técnica principal | Pochado y guiso de cefalópodos |\n\n## Ingredientes\n\n- 800 g de calamar limpio, en anillas gruesas o trozos\n- 3 cebollas medianas, en juliana\n- 2 dientes de ajo picados\n- 3 cucharadas de aceite de oliva virgen extra\n- 100 ml de vino blanco opcional\n- 100–150 ml de agua o caldo de pescado\n- 1 hoja de laurel\n- sal y pimienta negra\n- perejil picado opcional\n\n**Alérgenos:** Moluscos (calamar); pescado si se usa caldo de pescado.\n\n## Mise en place\n\nDescongelar el calamar en refrigeración si procede. Confirmar que esté limpio, sin pluma ni vísceras; secarlo y cortar en piezas similares. Preparar la cebolla separada del calamar crudo.\n\n## Elaboración\n\n### 1. Pochar cebolla\n\nCalentar aceite en cazuela y cocinar cebolla con una pizca de sal a fuego medio-bajo durante 15–20 minutos, hasta muy blanda y ligeramente dorada.\n\n### 2. Aromatizar\n\nAñadir ajo y laurel, cocinar 1 minuto sin quemar.\n\n### 3. Incorporar calamar\n\nAñadir calamar escurrido y rehogar 2–3 minutos, removiendo suavemente.\n\n### 4. Desglasar y guisar\n\nIncorporar vino opcional y dejar reducir parcialmente; añadir poco caldo, tapar y cocinar a hervor suave unos 20–35 minutos o hasta que los trozos estén completamente cocinados y tiernos, ajustando líquido.\n\n### 5. Terminar\n\nDestapar para concentrar la salsa si es necesario. Probar y rectificar sal y pimienta; servir con perejil opcional.\n\n## Puntos críticos\n\n- La cebolla aporta líquido y dulzor; no añadir caldo en exceso al principio.\n- El tiempo depende del grosor y del tamaño de los trozos; comprobar ternura.\n- El vino no pierde necesariamente todo el alcohol durante la cocción.\n\n## Perfil esperado\n\nCalamar tierno en salsa de cebolla suave y concentrada, sin exceso de líquido.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin vino | Sustituirlo por caldo y unas gotas de limón al terminar |\n| Con tomate | Añadir 100 g de tomate triturado y reducirlo antes del calamar |\n| Con pimentón | Incorporar una pizca fuera del fuego antes del caldo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Calamar duro | Tiempo no adecuado | Prolongar a fuego suave con líquido hasta tierno |\n| Salsa aguada | Exceso de caldo | Reducir destapado al final |\n| Cebolla quemada | Calor alto durante pochado | Cocinar lentamente |\n\n## Conservación\n\nRefrigerar el pescado o marisco crudo hasta su uso y descongelarlo en refrigeración. Enfriar las sobras sin demora, refrigerar en recipientes cerrados y consumirlas en un plazo corto. Recalentar completamente si se sirven de nuevo calientes; no dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Calamar](../11_Despensa/05_Mariscos/calamar.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La cocción lenta del calamar requiere una base de cebolla desarrollada y líquido controlado.\n\n## Utilizado por\n\nReceta de referencia del módulo Pescados y Mariscos para pochado y guiso de cefalópodos."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "35–55 minutos, según tamaño del calamar",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/calamares_encebollados.html",
+  "id": "REC-0134",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calamar limpio, en anillas gruesas o trozos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de calamar limpio, en anillas gruesas o trozos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de calamar limpio, en anillas gruesas o trozos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollas medianas, en juliana",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cebollas medianas, en juliana",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 cebollas medianas, en juliana",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de pescado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 ml de agua o caldo de pescado",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–150 ml de agua o caldo de pescado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDescongelar el calamar en refrigeración si procede. Confirmar que esté limpio, sin pluma ni vísceras; secarlo y cortar en piezas similares. Preparar la cebolla separada del calamar crudo.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/calamares_encebollados.md",
+  "source_sha256": "65bddac69f55761cdfe7a047bd66d283a9b242be731d3ec88c5ca4533c47aa2e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Pochar cebolla\n\nCalentar aceite en cazuela y cocinar cebolla con una pizca de sal a fuego medio-bajo durante 15–20 minutos, hasta muy blanda y ligeramente dorada.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar\n\nAñadir ajo y laurel, cocinar 1 minuto sin quemar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Incorporar calamar\n\nAñadir calamar escurrido y rehogar 2–3 minutos, removiendo suavemente.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Desglasar y guisar\n\nIncorporar vino opcional y dejar reducir parcialmente; añadir poco caldo, tapar y cocinar a hervor suave unos 20–35 minutos o hasta que los trozos estén completamente cocinados y tiernos, ajustando líquido.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nDestapar para concentrar la salsa si es necesario. Probar y rectificar sal y pimienta; servir con perejil opcional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Calamares encebollados",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

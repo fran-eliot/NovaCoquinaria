@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Crema de coliflor con tahini y limón\n\n## Descripción\n\nPreparación de referencia basada en **cocción de crucífera, triturado y emulsión**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica | Cocción de crucífera, triturado y emulsión |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de coliflor en ramilletes\n- 120 g de cebolla picada\n- 1 patata pequeña de 130 g en dados\n- 650–800 ml de caldo de verduras bajo en sal\n- 35 g de tahini\n- 1 cucharada de zumo de limón\n- 2 cucharadas de aceite de oliva\n- sal, pimienta y comino opcional\n\n**Alérgenos:** Sésamo (tahini); revisar caldo vegetal.\n\n## Elaboración\n\n1. Lavar la coliflor y separar ramilletes medianos; pelar y cortar la patata en dados.\n2. Pochar cebolla en aceite durante 6–8 minutos sin dorarla en exceso.\n3. Añadir coliflor y patata, cubrir parcialmente con caldo y cocer a hervor suave 18–24 minutos hasta que ambas estén muy tiernas.\n4. Retirar parte del caldo y reservarlo para controlar la densidad; triturar la verdura hasta obtener una crema lisa.\n5. Incorporar tahini y zumo de limón fuera del hervor fuerte, triturar brevemente y ajustar textura con caldo reservado.\n6. Probar sal, pimienta y comino opcional, y servir caliente.\n\n## Puntos críticos\n\n- El tahini espesa la crema al integrarse y puede dominar con amargor si se excede. Reservar caldo antes de triturar evita un resultado líquido.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md)\n- [Crema de calabacín](./crema_de_calabacin.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **cocción de crucífera, triturado y emulsión**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/crema_de_coliflor_con_tahini_y_limon.html",
+  "id": "REC-404",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "coliflor en ramilletes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de coliflor en ramilletes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de coliflor en ramilletes",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patata pequeña de 130 g en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 patata pequeña de 130 g en dados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 patata pequeña de 130 g en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de verduras bajo en sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "650",
+        "raw": "650–800 ml de caldo de verduras bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "650–800 ml de caldo de verduras bajo en sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tahini",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de tahini",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de tahini",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y comino opcional",
+      "optionality": "unknown",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y comino opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y comino opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/crema_de_coliflor_con_tahini_y_limon.md",
+  "source_sha256": "268338c09b239108fe9f155ac96f812658cda883462e34dfcfdf282d9e5b1ef5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar la coliflor y separar ramilletes medianos; pelar y cortar la patata en dados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite durante 6–8 minutos sin dorarla en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir coliflor y patata, cubrir parcialmente con caldo y cocer a hervor suave 18–24 minutos hasta que ambas estén muy tiernas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Retirar parte del caldo y reservarlo para controlar la densidad; triturar la verdura hasta obtener una crema lisa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Incorporar tahini y zumo de limón fuera del hervor fuerte, triturar brevemente y ajustar textura con caldo reservado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Probar sal, pimienta y comino opcional, y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cremas_de_verduras.html",
+      "label": "Preparar cremas de verduras",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md"
+    }
+  ],
+  "title": "Crema de coliflor con tahini y limón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

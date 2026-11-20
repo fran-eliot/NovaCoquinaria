@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Bibimbap doméstico de verduras y ternera\n\n## Descripción\n\nPreparación de referencia de inspiración asiática centrada en **cocción separada de ingredientes y montaje sobre arroz**. No consta que esta fórmula se haya elaborado ni valorado en casa. Las cantidades son una base de prueba y las adaptaciones de ingredientes se distinguen de las versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Cocción separada de ingredientes y montaje sobre arroz |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de arroz cocido recientemente, seguro y caliente;\n- 250 g de ternera en tiras finas;\n- 150 g de zanahoria en tiras;\n- 150 g de calabacín en tiras;\n- 120 g de espinacas frescas;\n- 3 huevos L;\n- 2 cucharadas de soja clara;\n- 1 cucharada de aceite de sésamo tostado;\n- 1 cucharada de aceite neutro;\n- 1 cucharadita de chile o gochujang opcional, ajustable;\n- 1 diente de ajo picado;\n\n**Alérgenos:** Huevo, soja, sésamo; trigo según soja/gochujang.\n\n## Elaboración\n\n1. Preparar el arroz por absorción y mantenerlo caliente para servicio inmediato; si se usa arroz previamente cocido, garantizar enfriamiento rápido y conservación refrigerada.\n2. Escaldar o saltear espinacas hasta cocinadas, escurrir y aliñar con gotas de sésamo.\n3. Saltear zanahoria y calabacín por separado hasta tiernos pero con textura; reservar calientes.\n4. Cocinar las tiras de ternera con aceite y ajo hasta completamente hechas; añadir soja y reducir brevemente.\n5. Preparar tres huevos con la yema y clara completamente cuajadas para una versión de seguridad conservadora.\n6. Distribuir arroz en cuencos, colocar verduras, ternera y huevo en sectores separados y terminar con sésamo; añadir chile o gochujang opcional solo al servir y mezclar antes de comer.\n\n## Puntos críticos\n\n- El montaje no debe dejar ingredientes cocinados durante horas a temperatura ambiente. El gochujang suele contener trigo y soja y no equivale exactamente al chile seco.\n- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.\n- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |\n| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |\n| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |\n| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.\n\n## Relaciones dentro del SGCC\n\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, marca y concentración de salsas, tiempo, resultado y valoración antes de clasificar la receta como cocinada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/bibimbap_domestico_de_verduras_y_ternera.html",
+  "id": "REC-279",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz cocido recientemente, seguro y caliente;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de arroz cocido recientemente, seguro y caliente;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de arroz cocido recientemente, seguro y caliente;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ternera en tiras finas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de ternera en tiras finas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de ternera en tiras finas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en tiras;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de zanahoria en tiras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de zanahoria en tiras;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín en tiras;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de calabacín en tiras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de calabacín en tiras;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de espinacas frescas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de espinacas frescas;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "soja clara;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de soja clara;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de soja clara;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de sésamo tostado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de sésamo tostado;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "chile o gochujang opcional, ajustable;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de chile o gochujang opcional, ajustable;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de chile o gochujang opcional, ajustable;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/bibimbap_domestico_de_verduras_y_ternera.md",
+  "source_sha256": "42cf8213d0b4910fa97d40c4b51efd52177b885b8cbc054217b793fd4ccbbc46",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Preparar el arroz por absorción y mantenerlo caliente para servicio inmediato; si se usa arroz previamente cocido, garantizar enfriamiento rápido y conservación refrigerada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Escaldar o saltear espinacas hasta cocinadas, escurrir y aliñar con gotas de sésamo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Saltear zanahoria y calabacín por separado hasta tiernos pero con textura; reservar calientes."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Cocinar las tiras de ternera con aceite y ajo hasta completamente hechas; añadir soja y reducir brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Preparar tres huevos con la yema y clara completamente cuajadas para una versión de seguridad conservadora."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Distribuir arroz en cuencos, colocar verduras, ternera y huevo en sectores separados y terminar con sésamo; añadir chile o gochujang opcional solo al servir y mezclar antes de comer."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Bibimbap doméstico de verduras y ternera",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

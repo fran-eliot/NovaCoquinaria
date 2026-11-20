@@ -1,0 +1,362 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 120,
+      "start_line": 15
+    },
+    "text": "\n# Potaje de garbanzos con bacalao y espinacas\n\n## Descripción\n\nPotaje de cuchara con garbanzos ya cocidos, sofrito de hortalizas, espinacas y bacalao desalado. El pescado se incorpora al final para mantener sus lascas jugosas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos, más desalado previo si procede |\n| Cocinado | 25–35 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Sofrito, guiso e incorporación final de pescado |\n\n## Ingredientes\n\n- 650 g de garbanzos cocidos y escurridos;\n- 350 g de bacalao correctamente desalado, sin espinas y en trozos;\n- 200 g de espinacas frescas o congeladas;\n- 1 cebolla mediana, picada;\n- 2 dientes de ajo, picados;\n- 120 g de tomate triturado;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 1 cucharadita de pimentón dulce;\n- 450–600 ml de agua o caldo bajo en sal;\n- 1 hoja de laurel;\n- sal, solo si es necesaria, y pimienta negra\n\n**Alérgenos:** **Pescado** (bacalao). Revisar también el caldo comercial.\n\n## Mise en place\n\nComprobar que el bacalao esté desalado según el grosor y las indicaciones del proveedor; retirar espinas y conservar refrigerado. Escurrir los garbanzos y preparar las espinacas. No sustituir directamente por bacalao salado sin desalar.\n\n## Elaboración\n\n### 1. Sofreír\n\nCalentar el aceite en una cazuela, añadir la cebolla y cocinar 8 minutos a fuego medio-bajo. Incorporar el ajo y cocinar 1 minuto más.\n\n### 2. Concentrar el sabor\n\nApartar brevemente del calor y añadir el pimentón. Incorporar el tomate y cocinar 4–5 minutos, sin quemar las especias.\n\n### 3. Construir el caldo\n\nAñadir 450 ml de agua o caldo, laurel y garbanzos cocidos. Llevar a hervor suave y cocinar 10 minutos para integrar sabores. Ajustar el líquido si espesa demasiado.\n\n### 4. Añadir verduras\n\nIncorporar las espinacas y cocinar hasta que estén tiernas y completamente calientes; si son congeladas, asegurarse de que no queden zonas frías.\n\n### 5. Cocinar el bacalao\n\nAñadir los trozos de bacalao al final y mantener un hervor muy suave hasta que estén completamente cocinados y se separen con facilidad en lascas; el tiempo depende del grosor. Evitar remover con fuerza.\n\n### 6. Ajustar y servir\n\nRetirar el laurel y probar el caldo antes de añadir sal. Reposar unos minutos fuera del fuego y servir caliente.\n\n## Puntos críticos\n\n- La salinidad final depende del desalado del bacalao y del caldo; no salar por adelantado.\n- Los garbanzos deben estar ya completamente cocidos; el guiso no sustituye la cocción de la legumbre seca.\n- La cocción del bacalao debe ser suficiente y delicada; no basarse solo en un número fijo de minutos.\n\n## Perfil esperado\n\nCaldo ligeramente ligado, garbanzos tiernos, espinacas integradas y bacalao jugoso en lascas.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin tomate | Sustituir por un poco más de caldo y ajustar el equilibrio al final |\n| Con huevo duro | Añadir como guarnición al servir; incorpora alérgeno huevo |\n| Más espeso | Triturar 2–3 cucharadas de garbanzos con caldo y devolver al potaje |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Bacalao excesivamente salado | Potaje desequilibrado | Desalar y probar antes de salar |\n| Bacalao seco | Lascas duras | Añadir en la fase final, sin hervor violento |\n| Garbanzos deshechos | Textura pastosa | Usar legumbre cocida e integrar a hervor suave |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos, refrigerar tapado y consumir en un plazo corto. Congelar en porciones si la preparación lo permite. Recalentar completamente los platos calientes; las ensaladas se mantienen refrigeradas y no deben permanecer largo tiempo a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La legumbre construye el cuerpo del potaje; el pescado se incorpora cuando ese cuerpo ya está desarrollado.\n\n## Utilizado por\n\nPotaje de garbanzos con bacalao y espinacas como preparación de referencia del módulo Legumbres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "20 minutos, más desalado previo si procede",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–35 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_con_bacalao_y_espinacas.html",
+  "id": "REC-0106",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de garbanzos cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao correctamente desalado, sin espinas y en trozos;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de bacalao correctamente desalado, sin espinas y en trozos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de bacalao correctamente desalado, sin espinas y en trozos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o congeladas;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espinacas frescas o congeladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espinacas frescas o congeladas;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, picada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de tomate triturado;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "450",
+        "raw": "450–600 ml de agua o caldo bajo en sal;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "450–600 ml de agua o caldo bajo en sal;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, solo si es necesaria, y pimienta negra",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, solo si es necesaria, y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, solo si es necesaria, y pimienta negra",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nComprobar que el bacalao esté desalado según el grosor y las indicaciones del proveedor; retirar espinas y conservar refrigerado. Escurrir los garbanzos y preparar las espinacas. No sustituir directamente por bacalao salado sin desalar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/garbanzos_con_bacalao_y_espinacas.md",
+  "source_sha256": "71f43bca7f99f2c7891b90068603bbbede664c915346fedb6093fea7955575d3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Sofreír\n\nCalentar el aceite en una cazuela, añadir la cebolla y cocinar 8 minutos a fuego medio-bajo. Incorporar el ajo y cocinar 1 minuto más.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Concentrar el sabor\n\nApartar brevemente del calor y añadir el pimentón. Incorporar el tomate y cocinar 4–5 minutos, sin quemar las especias.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Construir el caldo\n\nAñadir 450 ml de agua o caldo, laurel y garbanzos cocidos. Llevar a hervor suave y cocinar 10 minutos para integrar sabores. Ajustar el líquido si espesa demasiado.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Añadir verduras\n\nIncorporar las espinacas y cocinar hasta que estén tiernas y completamente calientes; si son congeladas, asegurarse de que no queden zonas frías.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Cocinar el bacalao\n\nAñadir los trozos de bacalao al final y mantener un hervor muy suave hasta que estén completamente cocinados y se separen con facilidad en lascas; el tiempo depende del grosor. Evitar remover con fuerza.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 77,
+        "start_line": 74
+      },
+      "source_number": 6,
+      "text": "6. Ajustar y servir\n\nRetirar el laurel y probar el caldo antes de añadir sal. Reposar unos minutos fuera del fuego y servir caliente.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Potaje de garbanzos con bacalao y espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Ternera salteada con pimienta negra y cebolla\n\n## Descripción\n\nTiras de ternera salteadas con cebolla, soja y pimienta negra molida al momento, con salsa ligada ligeramente.\n\n**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 minutos |\n| Cocinado | 8–10 minutos |\n| Método | Salteado en tandas |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 350 g de filetes tiernos de ternera cortados a contrapelo;\n- 1 cebolla mediana (160 g), en plumas;\n- 1 cucharada de aceite de cacahuete;\n- 1 cucharada de salsa de soja clara;\n- 1 cucharadita de salsa de ostras;\n- 60 ml de agua;\n- ½ cucharadita de maicena;\n- ¾ cucharadita de pimienta negra recién molida;\n- 1 diente de ajo picado;\n\n**Alérgenos:** soja, trigo posible, moluscos según la salsa de ostras. Revisar los envases y evitar contaminación cruzada.\n\n## Elaboración\n\n1. Cortar la ternera a contrapelo en tiras finas y secar.\n2. Mezclar soja, salsa de ostras, agua y maicena en un vaso frío.\n3. Calentar bien la sartén y saltear ternera en dos tandas breves; retirar antes de que se sobrecueza.\n4. Bajar ligeramente el fuego y saltear cebolla 3–4 minutos hasta tierna con algo de mordida; añadir ajo 30 segundos.\n5. Verter la mezcla de salsa removida, llevar a hervor y cocinar hasta que espese.\n6. Devolver la ternera con sus jugos; cocinar completamente, incorporar pimienta al final y servir caliente.\n\n## Puntos críticos\n\n- No hervir largo tiempo la carne dentro de la salsa: se endurece. Controlar salinidad por la soja y la salsa de ostras.\n- Mantener una higiene adecuada y respetar las indicaciones de conservación y cocción de cada producto.\n- Ajustar la sal y el picante después de probar las salsas comerciales; no asumir concentraciones uniformes.\n\n## Diagnóstico\n\n| Situación | Causa probable | Ajuste para la próxima prueba |\n|---|---|---|\n| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |\n| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |\n| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |\n\n## Conservación\n\nRefrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.\n\n## Relaciones dentro del SGCC\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Maicena](../11_Despensa/13_Bases_Culinarias/maicena.md)\n- [Cocina Asiática](./README.md)\n\n## Registro de prueba\n\n**Pendiente:** anotar presentación exacta de ingredientes, cantidades realmente utilizadas, textura, equilibrio de sabores y valoración antes de convertir esta propuesta en una receta probada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "8",
+      "phase": "cooking",
+      "raw": "8–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 31,
+          "start_line": 31
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/ternera_salteada_con_pimienta_negra_y_cebolla.html",
+  "id": "REC-0200",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes tiernos de ternera cortados a contrapelo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de filetes tiernos de ternera cortados a contrapelo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de filetes tiernos de ternera cortados a contrapelo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana (160 g), en plumas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana (160 g), en plumas;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana (160 g), en plumas;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja clara;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja clara;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de ostras;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de ostras;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de ostras;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de agua;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de maicena;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de maicena;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra recién molida;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3/4",
+        "min": "3/4",
+        "raw": "¾ cucharadita de pimienta negra recién molida;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¾ cucharadita de pimienta negra recién molida;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/ternera_salteada_con_pimienta_negra_y_cebolla.md",
+  "source_sha256": "a54bd661da33e56a0a57371ba69f211647fc602801fd9e91945d288a497dcc04",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Cortar la ternera a contrapelo en tiras finas y secar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Mezclar soja, salsa de ostras, agua y maicena en un vaso frío."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Calentar bien la sartén y saltear ternera en dos tandas breves; retirar antes de que se sobrecueza."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Bajar ligeramente el fuego y saltear cebolla 3–4 minutos hasta tierna con algo de mordida; añadir ajo 30 segundos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Verter la mezcla de salsa removida, llevar a hervor y cocinar hasta que espese."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Devolver la ternera con sus jugos; cocinar completamente, incorporar pimienta al final y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Ternera salteada con pimienta negra y cebolla",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 13
+    },
+    "text": "\n# Fideos con salsa de cacahuete y lima\n\n## Descripción\n\nFideos salteados con verduras y salsa cremosa de cacahuete, soja y lima. Preparación doméstica de inspiración asiática, sin adscripción a una receta regional concreta.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocción | 12–15 min |\n| Técnica | Cocción de fideos y emulsión |\n\n## Ingredientes\n\n- 250 g de fideos de trigo secos;\n- 3 cucharadas de crema de cacahuete sin azúcar;\n- 1 cucharada de salsa de soja;\n- 2 cucharadas de zumo de lima o limón;\n- 80–120 ml de agua caliente;\n- 1 zanahoria;\n- 1 pimiento rojo;\n- 1 cucharada de aceite neutro;\n- chile, opcional.\n\n**Alérgenos:** cacahuetes, trigo/gluten y soja; revisar etiquetas.\n\n## Elaboración\n\n1. Cocer fideos según fabricante, dejándolos ligeramente firmes. Escurrir.\n2. Mezclar crema de cacahuete, soja, lima y agua caliente poco a poco hasta obtener salsa fluida.\n3. Cortar verduras en tiras finas.\n4. Saltear verduras en aceite 4–6 minutos hasta que estén cocinadas y aún firmes.\n5. Añadir fideos y salsa; mezclar brevemente a fuego medio-bajo. Ajustar con agua para evitar pasta espesa.\n6. Probar y ajustar lima, soja o chile gradualmente. Servir caliente.\n\n## Puntos críticos\n\n- La crema de cacahuete espesa al enfriar.\n- Añadir agua gradualmente.\n- No reducir demasiado la salsa: concentraría sal.\n- Comprobar alergia a cacahuetes antes de servir.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Salsa pastosa | Falta de agua | Diluir |\n| Muy salada | Exceso de soja | Reducir dosis |\n| Fideos blandos | Cocción inicial excesiva | Cocer menos |\n\n## Relaciones\n\n- [Fideos salteados con verduras](./fideos_salteados_con_verduras.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa de cacahuete se diluye hasta que cubra los fideos sin apelmazarlos."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/fideos_con_salsa_de_cacahuete.html",
+  "id": "REC-0077",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fideos de trigo secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de fideos de trigo secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de fideos de trigo secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "crema de cacahuete sin azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de crema de cacahuete sin azúcar;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de crema de cacahuete sin azúcar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima o limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de lima o limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de lima o limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "80",
+        "raw": "80–120 ml de agua caliente;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–120 ml de agua caliente;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "chile, opcional.",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "chile, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "chile, opcional.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/fideos_con_salsa_de_cacahuete.md",
+  "source_sha256": "f79f8e9e3a80453b0d467b2f1f48aa16c6fed5eaaa8751b01a23298847cb8831",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer fideos según fabricante, dejándolos ligeramente firmes. Escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar crema de cacahuete, soja, lima y agua caliente poco a poco hasta obtener salsa fluida."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cortar verduras en tiras finas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Saltear verduras en aceite 4–6 minutos hasta que estén cocinadas y aún firmes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Añadir fideos y salsa; mezclar brevemente a fuego medio-bajo. Ajustar con agua para evitar pasta espesa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Probar y ajustar lima, soja o chile gradualmente. Servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Fideos con salsa de cacahuete y lima",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

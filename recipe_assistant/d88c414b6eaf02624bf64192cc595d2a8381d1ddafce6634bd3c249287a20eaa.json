@@ -1,0 +1,276 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 215,
+      "start_line": 17
+    },
+    "text": "\n# Espaguetis a la carbonara\n\n## Descripción\n\nLa **carbonara romana** es un plato de pasta ligado con huevo, queso curado, grasa del guanciale y agua de cocción. Su textura cremosa se consigue mediante la mezcla y el control de temperatura, **sin añadir nata**.\n\nEsta receta aplica la [plantilla Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md) y la técnica [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md). Constituye una implementación de referencia del dominio **Pastas** para salsas sensibles al calor.\n\n---\n\n## Objetivo\n\nObtener una salsa brillante y untuosa que recubra los espaguetis, con sabor a queso, pimienta y guanciale, sin grumos de huevo cuajado ni acumulación de grasa separada.\n\n---\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 15–20 minutos |\n| Dificultad | Media |\n| Cocina | Italiana, tradición romana |\n| Perfil | Intenso, salino, especiado y untuoso |\n\n---\n\n## Ingredientes\n\n- 200 g de [pasta seca](../11_Despensa/01_Cereales/pasta_seca.md), preferiblemente espaguetis o rigatoni;\n- 80 g de guanciale;\n- 2 yemas y 1 huevo entero;\n- 60 g de Pecorino Romano, finamente rallado;\n- pimienta negra recién molida, al gusto;\n- sal para el agua de cocción, con moderación por la salinidad del queso y del guanciale.\n\n**No se incorpora nata, ajo ni cebolla** en esta versión de referencia.\n\n### Sustituciones\n\n| Original | Alternativa | Diferencia |\n|---|---|---|\n| Guanciale | Panceta curada sin ahumar | Cambia el sabor y el perfil graso |\n| Pecorino Romano | Mezcla de Pecorino y Parmigiano Reggiano | Menor intensidad salina y perfil diferente |\n| Espaguetis | Rigatoni | Mayor retención de salsa en los tubos |\n\nLas sustituciones producen variantes, no una carbonara romana idéntica.\n\n---\n\n## Mise en place\n\n1. Cortar el guanciale en tiras o bastones de grosor medio.\n2. Rallar el queso muy fino para facilitar su dispersión.\n3. Batir las yemas y el huevo entero con el queso y abundante pimienta hasta obtener una pasta espesa.\n4. Preparar una sartén amplia, una olla y una taza para reservar agua de cocción.\n\nConsultar [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md).\n\n---\n\n## Elaboración\n\n### 1. Dorar el guanciale\n\nColocar el guanciale en una sartén inicialmente fría o templada y calentar a fuego medio-bajo. Dejar que libere su grasa y se dore gradualmente durante unos 6–10 minutos, según el corte.\n\nDebe quedar dorado, con bordes crujientes y sin quemarse. Retirar la sartén del fuego. Reservar el guanciale y conservar parte de su grasa en la sartén.\n\n### 2. Cocer la pasta\n\nHervir la pasta en agua moderadamente salada. Remover al principio y comprobar su punto antes del tiempo indicado por el fabricante.\n\nEscurrir ligeramente antes del punto final si se va a terminar brevemente en la sartén. Reservar al menos una taza de agua de cocción.\n\nConsultar [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).\n\n### 3. Integrar la pasta con la grasa\n\nIncorporar la pasta a la sartén con la grasa del guanciale. Mezclar y añadir un poco de agua de cocción si es necesario para distribuir la grasa.\n\nApagar el fuego y permitir que el recipiente pierda el calor excesivo antes de incorporar el huevo. Una sartén muy caliente puede cuajar la mezcla.\n\n### 4. Formar la salsa\n\nAñadir la mezcla de huevo y queso **fuera del fuego directo**, removiendo sin parar. Incorporar agua de cocción caliente **poco a poco** hasta conseguir una crema fluida que recubra la pasta.\n\nSi la salsa necesita más calor, aplicarlo de forma muy suave e intermitente, removiendo constantemente. Evitar que hierva.\n\n### 5. Ajustar y servir\n\nAñadir el guanciale dorado, reservando una pequeña parte para terminar el plato. Ajustar con agua de cocción si la salsa espesa demasiado.\n\nServir inmediatamente con el guanciale reservado, pimienta negra y, si se desea, un poco más de Pecorino.\n\n---\n\n## Puntos críticos\n\n### Control térmico\n\nLa mezcla de huevo y queso debe espesar sin convertirse en huevo revuelto. El calor residual de la pasta y la sartén suele ser suficiente, pero varía según el recipiente y la cantidad preparada.\n\n### Emulsión\n\nLa salsa se construye mezclando huevo, queso, grasa y pequeñas cantidades de agua de cocción. Una adición excesiva de agua la vuelve líquida; demasiado calor favorece grumos.\n\n### Salinidad\n\nEl guanciale y el Pecorino son salados. Probar antes de añadir sal extra.\n\n### Coordinación\n\nLa mezcla de huevo debe estar lista antes de escurrir la pasta. El acabado es rápido y no conviene dejarla esperando.\n\n---\n\n## Perfil esperado\n\n- Salsa cremosa y brillante, sin nata.\n- Pasta firme, cocida de forma uniforme.\n- Guanciale dorado, con contraste de textura.\n- Pimienta perceptible y queso integrado.\n- Ausencia de grumos de huevo o charcos de grasa.\n\n---\n\n## Errores frecuentes\n\n| Error | Consecuencia | Corrección |\n|---|---|---|\n| Añadir el huevo con la sartén muy caliente | Huevo cuajado | Retirar del fuego y dejar bajar la temperatura |\n| Añadir mucha agua de una vez | Salsa aguada | Incorporar poco a poco |\n| No reservar agua de cocción | Menor control de textura | Guardar una taza antes de escurrir |\n| Dorar demasiado el guanciale | Amargor y dureza | Cocinar gradualmente a fuego medio-bajo |\n| Añadir demasiada sal | Plato excesivamente salado | Considerar queso y guanciale |\n| Esperar demasiado para servir | Salsa espesa y pasta apelmazada | Servir inmediatamente |\n\n---\n\n## Variantes\n\n### Carbonara con rigatoni\n\nSustituir los espaguetis por rigatoni, manteniendo el control del punto de cocción y del ligado.\n\n### Mezcla de quesos\n\nSustituir parte del Pecorino por Parmigiano Reggiano para un perfil menos intenso.\n\n### Panceta curada\n\nUsar panceta curada cuando no se disponga de guanciale, reconociendo el cambio de sabor.\n\n---\n\n## Seguridad alimentaria\n\nLa salsa de carbonara tradicional puede no alcanzar una temperatura suficiente para eliminar los riesgos microbiológicos asociados al huevo crudo o poco cocinado. Para personas embarazadas, mayores, inmunodeprimidas o niños pequeños, utilizar huevo pasteurizado apto para preparaciones poco cocinadas y seguir las recomendaciones sanitarias aplicables.\n\nConsumir preferentemente recién hecha. Si hay sobras, refrigerarlas rápidamente; el recalentado puede alterar mucho la textura de la salsa.\n\nConsultar [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md).\n\n---\n\n## Relaciones dentro del SGCC\n\n### Ingrediente\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n\n### Técnicas y fundamentos\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n### Plantilla\n\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n\n### Comparativas\n\n- [Relación entre formatos de pasta y salsas](../98_Tablas/07_Comparativas/relacion_pasta_salsa.md)\n\n---\n\n## Principio de NovaCoquinaria\n\n> La cremosidad de una carbonara procede de una emulsión bien controlada, no de añadir nata.\n\n---\n\n## Utilizado por\n\nReceta de referencia del dominio **Pastas** para preparaciones con huevo, queso y acabado fuera del fuego."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_a_la_carbonara.html",
+  "id": "REC-0024",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta seca, preferiblemente espaguetis o rigatoni;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de [pasta seca](../11_Despensa/01_Cereales/pasta_seca.md), preferiblemente espaguetis o rigatoni;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de [pasta seca](../11_Despensa/01_Cereales/pasta_seca.md), preferiblemente espaguetis o rigatoni;",
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      }
+    },
+    {
+      "group": null,
+      "name": "guanciale;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de guanciale;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de guanciale;",
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas y 1 huevo entero;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 yemas y 1 huevo entero;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 yemas y 1 huevo entero;",
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      }
+    },
+    {
+      "group": null,
+      "name": "Pecorino Romano, finamente rallado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de Pecorino Romano, finamente rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de Pecorino Romano, finamente rallado;",
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra recién molida, al gusto;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra recién molida, al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "pimienta negra recién molida, al gusto;",
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      }
+    },
+    {
+      "group": null,
+      "name": "sal para el agua de cocción, con moderación por la salinidad del queso y del guanciale.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal para el agua de cocción, con moderación por la salinidad del queso y del guanciale.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal para el agua de cocción, con moderación por la salinidad del queso y del guanciale.",
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\n1. Cortar el guanciale en tiras o bastones de grosor medio.\n2. Rallar el queso muy fino para facilitar su dispersión.\n3. Batir las yemas y el huevo entero con el queso y abundante pimienta hasta obtener una pasta espesa.\n4. Preparar una sartén amplia, una olla y una taza para reservar agua de cocción.\n\nConsultar [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md).\n\n---\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 80,
+        "start_line": 70
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/espaguetis_a_la_carbonara.md",
+  "source_sha256": "6cf6e363371488a632ce6bcf36030aac6c9e43c71b1129dfabfcf1c4405feeff",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 88,
+        "start_line": 83
+      },
+      "source_number": 1,
+      "text": "1. Dorar el guanciale\n\nColocar el guanciale en una sartén inicialmente fría o templada y calentar a fuego medio-bajo. Dejar que libere su grasa y se dore gradualmente durante unos 6–10 minutos, según el corte.\n\nDebe quedar dorado, con bordes crujientes y sin quemarse. Retirar la sartén del fuego. Reservar el guanciale y conservar parte de su grasa en la sartén.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 96,
+        "start_line": 89
+      },
+      "source_number": 2,
+      "text": "2. Cocer la pasta\n\nHervir la pasta en agua moderadamente salada. Remover al principio y comprobar su punto antes del tiempo indicado por el fabricante.\n\nEscurrir ligeramente antes del punto final si se va a terminar brevemente en la sartén. Reservar al menos una taza de agua de cocción.\n\nConsultar [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md).\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 102,
+        "start_line": 97
+      },
+      "source_number": 3,
+      "text": "3. Integrar la pasta con la grasa\n\nIncorporar la pasta a la sartén con la grasa del guanciale. Mezclar y añadir un poco de agua de cocción si es necesario para distribuir la grasa.\n\nApagar el fuego y permitir que el recipiente pierda el calor excesivo antes de incorporar el huevo. Una sartén muy caliente puede cuajar la mezcla.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 108,
+        "start_line": 103
+      },
+      "source_number": 4,
+      "text": "4. Formar la salsa\n\nAñadir la mezcla de huevo y queso **fuera del fuego directo**, removiendo sin parar. Incorporar agua de cocción caliente **poco a poco** hasta conseguir una crema fluida que recubra la pasta.\n\nSi la salsa necesita más calor, aplicarlo de forma muy suave e intermitente, removiendo constantemente. Evitar que hierva.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 116,
+        "start_line": 109
+      },
+      "source_number": 5,
+      "text": "5. Ajustar y servir\n\nAñadir el guanciale dorado, reservando una pequeña parte para terminar el plato. Ajustar con agua de cocción si la salsa espesa demasiado.\n\nServir inmediatamente con el guanciale reservado, pimienta negra y, si se desea, un poco más de Pecorino.\n\n---\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 95,
+        "start_line": 95
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 194,
+        "start_line": 194
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Espaguetis a la carbonara",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 38,
+      "start_line": 38
+    },
+    "unit": "racion"
+  }
+}

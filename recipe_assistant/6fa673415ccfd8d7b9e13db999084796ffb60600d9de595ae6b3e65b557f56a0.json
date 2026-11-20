@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 114,
+      "start_line": 15
+    },
+    "text": "\n# Tomates rellenos de cuscús y verduras\n\n## Descripción\n\nTomates grandes vaciados y rellenos de cuscús hidratado, calabacín y cebolla, terminados al horno. La pulpa se reduce para concentrar sabor y evitar una fuente acuosa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 25 minutos |\n| Cocinado | 25–35 minutos |\n| Dificultad | Media |\n| Técnica principal | Vaciado, reducción y horneado de relleno |\n\n## Ingredientes\n\n- 4 tomates grandes y firmes (unos 800 g)\n- 160 g de cuscús seco de trigo\n- 180 ml de agua o caldo vegetal caliente, según fabricante\n- 1 calabacín pequeño en dados\n- 1/2 cebolla picada\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 cucharadita de orégano seco\n- sal y pimienta negra\n- 30 g de queso rallado opcional\n\n**Alérgenos:** Gluten (trigo en el cuscús); leche si se usa queso. Revisar el caldo.\n\n## Mise en place\n\nPrecalentar horno a 190 °C. Lavar tomates, cortar la tapa y retirar pulpa sin romper las paredes. Reservar pulpa sin exceso de semillas y poner los tomates boca abajo sobre rejilla unos minutos.\n\n## Elaboración\n\n### 1. Hidratar cuscús\n\nVerter el caldo caliente sobre el cuscús en un recipiente resistente al calor, tapar el tiempo indicado en el envase y soltar con tenedor.\n\n### 2. Reducir verduras\n\nPochar cebolla con aceite 4–5 minutos; añadir calabacín y cocinar hasta perder parte del agua. Incorporar pulpa de tomate y reducir 5–7 minutos.\n\n### 3. Mezclar relleno\n\nCombinar cuscús hidratado con verduras, orégano, sal y pimienta; comprobar que la mezcla quede jugosa pero sin líquido libre.\n\n### 4. Rellenar\n\nDisponer tomates en fuente ligeramente aceitada y rellenar sin comprimir. Añadir queso opcional.\n\n### 5. Hornear\n\nHornear 20–25 minutos hasta que el tomate esté tierno y el interior completamente caliente; ajustar al tamaño. Reposar 5 minutos antes de servir.\n\n## Puntos críticos\n\n- Elegir tomates firmes permite que mantengan la forma.\n- Escurrir pulpa y reducir verduras evita que el cuscús se humedezca en exceso.\n- El cuscús requiere hidratación previa según su tipo; no es equivalente a arroz crudo.\n\n## Perfil esperado\n\nTomates tiernos pero enteros con relleno vegetal suelto y aromático.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con garbanzos | Añadir 100 g de garbanzos cocidos escurridos |\n| Con perejil | Añadirlo fresco antes de rellenar |\n| Sin queso | Omitirlo y añadir unas gotas de limón al servir |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Tomates rotos | Vaciado profundo o sobrecocción | Conservar paredes y vigilar horno |\n| Relleno aguado | Pulpa sin reducir | Evaporar antes de montar |\n| Cuscús duro | Hidratación insuficiente | Seguir proporción del envase |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En las verduras rellenas, reducir el agua del relleno protege la estructura del recipiente vegetal.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: vaciado, reducción y horneado de relleno."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "preparation",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–35 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/tomates_rellenos_de_cuscus_y_verduras.html",
+  "id": "REC-0163",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomates grandes y firmes (unos 800 g)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 tomates grandes y firmes (unos 800 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 tomates grandes y firmes (unos 800 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cuscús seco de trigo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cuscús seco de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cuscús seco de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal caliente, según fabricante",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de agua o caldo vegetal caliente, según fabricante",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de agua o caldo vegetal caliente, según fabricante",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín pequeño en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín pequeño en dados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín pequeño en dados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla picada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano seco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano seco",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de queso rallado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de queso rallado opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar horno a 190 °C. Lavar tomates, cortar la tapa y retirar pulpa sin romper las paredes. Reservar pulpa sin exceso de semillas y poner los tomates boca abajo sobre rejilla unos minutos.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/tomates_rellenos_de_cuscus_y_verduras.md",
+  "source_sha256": "b856c8762f4738d89b0be6274836bcaea03b265b311af5da1fb4a550f5d2a0dd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Hidratar cuscús\n\nVerter el caldo caliente sobre el cuscús en un recipiente resistente al calor, tapar el tiempo indicado en el envase y soltar con tenedor.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Reducir verduras\n\nPochar cebolla con aceite 4–5 minutos; añadir calabacín y cocinar hasta perder parte del agua. Incorporar pulpa de tomate y reducir 5–7 minutos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Mezclar relleno\n\nCombinar cuscús hidratado con verduras, orégano, sal y pimienta; comprobar que la mezcla quede jugosa pero sin líquido libre.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Rellenar\n\nDisponer tomates en fuente ligeramente aceitada y rellenar sin comprimir. Añadir queso opcional.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Hornear\n\nHornear 20–25 minutos hasta que el tomate esté tierno y el interior completamente caliente; ajustar al tamaño. Reposar 5 minutos antes de servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 104,
+        "start_line": 104
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Tomates rellenos de cuscús y verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

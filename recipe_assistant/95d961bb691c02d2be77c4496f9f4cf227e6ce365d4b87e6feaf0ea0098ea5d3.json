@@ -1,0 +1,342 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Paparajotes murcianos de hoja de limonero\n\n## Origen y contexto\n\n**Región:** Región de Murcia. La ficha propone una formulación doméstica con rasgos reconocibles de la especialidad regional. No consta como receta cocinada ni valorada personalmente, y se identifican las adaptaciones respecto a versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16–20 unidades |\n| Tiempo orientativo | 40–50 min más 20 min de reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 16–20 hojas tiernas de limonero alimentario, sin tratamientos fitosanitarios incompatibles con uso culinario\n- 250 g de harina de trigo\n- 2 huevos L\n- 300 ml de leche entera\n- 55 g de azúcar\n- 1 cucharadita de impulsor químico, unos 4 g\n- ralladura fina de un limón bien lavado\n- 1 pizca de sal\n- aceite suave adecuado para freír\n- 60 g de azúcar adicional y 1 cucharadita de canela molida para rebozar\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Seleccionar solo hojas de limonero de procedencia conocida, sin tratamientos fitosanitarios incompatibles con uso alimentario, y lavarlas y secarlas cuidadosamente.\n2. Batir huevos, leche, azúcar y ralladura de limón. Añadir harina tamizada, impulsor y sal hasta formar una masa fluida pero capaz de recubrir una hoja.\n3. Dejar reposar la mezcla unos 20 minutos en refrigeración, por contener huevo y leche.\n4. Calentar el aceite a unos 170–175 °C en sartén profunda y preparar mezcla de azúcar y canela aparte.\n5. Sujetar cada hoja por el peciolo, sumergirla en la masa y freír por tandas, girando para cocer completamente el rebozado y dorar ambos lados.\n6. Escurrir, rebozar ligeramente en azúcar y canela y servir templados.\n7. **Al comer, retirar la masa frita de la hoja y desechar la hoja de limonero: no se come.**\n\n## Puntos críticos\n\n- La hoja aromatiza la masa, pero no es comestible en esta preparación y debe retirarse antes de comer. No utilizar hojas tratadas con productos no aptos para consumo; evitar confundir la hoja de limonero con otras especies.\n- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para próxima prueba |\n|---|---|---|\n| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |\n| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |\n| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |\n\n## Conservación\n\nServir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.\n\n## Relaciones dentro del SGCC\n\n- [Pestiños andaluces](./pestinos_andaluces_con_miel_y_ajonjoli.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://repositorio.ucam.edu/bitstream/handle/10952/8177/informe-limon.pdf?isAllowed=y&sequence=1)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, procedencia de materias primas, tiempo efectivo, resultado y valoración. No se sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40–50 min más 20 min de reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/paparajotes_murcianos_de_hoja_de_limonero.html",
+  "id": "REC-471",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tiernas de limonero alimentario, sin tratamientos fitosanitarios incompatibles con uso culinario",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "16",
+        "raw": "16–20 hojas tiernas de limonero alimentario, sin tratamientos fitosanitarios incompatibles con uso culinario",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "16–20 hojas tiernas de limonero alimentario, sin tratamientos fitosanitarios incompatibles con uso culinario",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de leche entera",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "55 g de azúcar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico, unos 4 g",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de impulsor químico, unos 4 g",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de impulsor químico, unos 4 g",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de un limón bien lavado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de un limón bien lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de un limón bien lavado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite suave adecuado para freír",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite suave adecuado para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite suave adecuado para freír",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional y 1 cucharadita de canela molida para rebozar",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de azúcar adicional y 1 cucharadita de canela molida para rebozar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de azúcar adicional y 1 cucharadita de canela molida para rebozar",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/paparajotes_murcianos_de_hoja_de_limonero.md",
+  "source_sha256": "9368649d87ce879ff3c930d1c4db9515c3cace2640c170e9814e9cbc39be4732",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Seleccionar solo hojas de limonero de procedencia conocida, sin tratamientos fitosanitarios incompatibles con uso alimentario, y lavarlas y secarlas cuidadosamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Batir huevos, leche, azúcar y ralladura de limón. Añadir harina tamizada, impulsor y sal hasta formar una masa fluida pero capaz de recubrir una hoja."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Dejar reposar la mezcla unos 20 minutos en refrigeración, por contener huevo y leche."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Calentar el aceite a unos 170–175 °C en sartén profunda y preparar mezcla de azúcar y canela aparte."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Sujetar cada hoja por el peciolo, sumergirla en la masa y freír por tandas, girando para cocer completamente el rebozado y dorar ambos lados."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Escurrir, rebozar ligeramente en azúcar y canela y servir templados."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "**Al comer, retirar la masa frita de la hoja y desechar la hoja de limonero: no se come.**"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Paparajotes murcianos de hoja de limonero",
+  "yield": {
+    "max": "20",
+    "min": "16",
+    "raw": "16–20 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

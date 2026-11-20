@@ -1,0 +1,236 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 71,
+      "start_line": 15
+    },
+    "text": "\n# Patatas a lo pobre andaluzas\n\n## Origen y contexto\n\n**Región:** Andalucía. Formulación doméstica de referencia, pendiente de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de patatas\n- 200 g de cebolla\n- 150 g de pimiento verde\n- 2 dientes de ajo\n- 100 ml de aceite de oliva\n- sal\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en los ingredientes indicados.\n\n## Elaboración\n\n1. Pelar y cortar las patatas en medias rodajas de unos 4 mm. Cortar cebolla y pimiento en tiras.\n2. Calentar aceite a fuego medio-bajo y pochar cebolla y pimiento durante 5 minutos.\n3. Añadir patatas, ajo laminado y sal. Tapar parcialmente y cocinar 20–25 minutos, moviendo con cuidado.\n4. Destapar y subir ligeramente el fuego 5 minutos hasta que algunas patatas se doren. Escurrir el exceso de aceite y servir.\n\n## Puntos críticos\n\n- La cocción lenta es fundamental: se busca patata tierna, no una fritura crujiente. Evitar que el ajo se queme.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Patatas duras | Corte grueso | Cortar uniformemente y prolongar cocción |\n| Exceso de grasa | Aceite sin escurrir | Escurrir antes del servicio |\n\n## Conservación\n\nRefrigerar a 4 °C o menos durante 2 días como máximo; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [patatas a la importancia castellanas](../04_Verduras/patatas_a_la_importancia_castellanas.md)\n- [pochar y caramelizar cebolla](../00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "40",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Andalucía. Formulación doméstica de referencia, pendiente de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/patatas_a_lo_pobre_andaluzas.html",
+  "id": "REC-568",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de patatas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento verde",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/patatas_a_lo_pobre_andaluzas.md",
+  "source_sha256": "e634c05db8493e14e0f52368f0a9416951cdad4860295ba8ae8a31d076e6659c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Pelar y cortar las patatas en medias rodajas de unos 4 mm. Cortar cebolla y pimiento en tiras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar aceite a fuego medio-bajo y pochar cebolla y pimiento durante 5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Añadir patatas, ajo laminado y sal. Tapar parcialmente y cocinar 20–25 minutos, moviendo con cuidado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Destapar y subir ligeramente el fuego 5 minutos hasta que algunas patatas se doren. Escurrir el exceso de aceite y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.html",
+      "label": "pochar y caramelizar cebolla",
+      "source_location": {
+        "end_line": 66,
+        "start_line": 66
+      },
+      "source_path": "00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md"
+    }
+  ],
+  "title": "Patatas a lo pobre andaluzas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

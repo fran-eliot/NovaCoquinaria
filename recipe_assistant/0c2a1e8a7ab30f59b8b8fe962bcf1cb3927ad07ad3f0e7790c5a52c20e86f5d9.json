@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 13
+    },
+    "text": "\n# Tarta de queso al horno\n\n## Descripción\n\nTarta de queso cremosa y sin base de galleta, horneada hasta que los bordes cuajan y el centro mantiene una oscilación suave.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 8 |\n| Preparación | 15 min |\n| Horneado | 35–50 min orientativos |\n| Molde | 20 cm desmontable, bien forrado |\n\n## Ingredientes\n\n- 500 g de queso crema;\n- 200 ml de nata para montar;\n- 3 huevos;\n- 130 g de azúcar;\n- 20 g de maicena, opcional para mayor estabilidad;\n- vainilla o ralladura de limón, opcional.\n\n**Alérgenos:** leche y huevo. Revisar posibles trazas del resto de ingredientes.\n\n## Elaboración\n\n1. Precalentar horno a **180 °C**, calor arriba y abajo. Forrar molde con papel apto para horno.\n2. Mezclar queso crema y azúcar hasta homogeneizar, evitando incorporar demasiado aire.\n3. Añadir huevos uno a uno; incorporar nata y aromas.\n4. Si se usa maicena, dispersarla primero en una pequeña parte de la mezcla para evitar grumos.\n5. Verter en molde y hornear 35–50 minutos. Los bordes deben estar cuajados y el centro oscilar ligeramente sin presentar mezcla líquida cruda; como referencia conservadora para la mezcla con huevo, comprobar **71 °C en el centro**.\n6. Apagar el horno y dejar reposar brevemente con la puerta entreabierta si se busca reducir el choque térmico; retirar después y enfriar sin demoras innecesarias. Evitar mantener la tarta durante horas en el horno apagado.\n7. Refrigerar varias horas antes de cortar.\n\n## Puntos críticos\n\n- No batir intensamente después de añadir huevos.\n- El molde pequeño genera una tarta más alta y requiere más tiempo.\n- Evitar sobrecocción: endurece la textura.\n- Refrigerar la tarta por su contenido en lácteos y huevo.\n- La oscilación suave del centro orienta sobre la textura, pero no sustituye la comprobación de cocción suficiente; medir en el centro si se dispone de termómetro.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Grietas profundas | Exceso de cocción | Reducir tiempo o temperatura |\n| Centro líquido | Falta de cocción | Continuar controlando |\n| Textura granulosa | Calor excesivo | Hornear suavemente |\n\n## Conservación\n\nGuardar refrigerada y cubierta; consumir en pocos días. No dejar a temperatura ambiente durante periodos prolongados, especialmente después del enfriado inicial.\n\n## Relaciones\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> Una tarta cremosa necesita cuajado suficiente, no un horneado excesivo."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "50",
+      "min": "35",
+      "phase": "baking",
+      "raw": "35–50 min orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/tarta_de_queso_al_horno.html",
+  "id": "REC-0084",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "queso crema;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de queso crema;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de queso crema;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de nata para montar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de nata para montar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena, opcional para mayor estabilidad;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de maicena, opcional para mayor estabilidad;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de maicena, opcional para mayor estabilidad;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla o ralladura de limón, opcional.",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "vainilla o ralladura de limón, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "vainilla o ralladura de limón, opcional.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/tarta_de_queso_al_horno.md",
+  "source_sha256": "01f20a38bb32ec0ba44d9f08638667c56e96fbf5d316b48b8a874bbc6dddae70",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **180 °C**, calor arriba y abajo. Forrar molde con papel apto para horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Mezclar queso crema y azúcar hasta homogeneizar, evitando incorporar demasiado aire."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Añadir huevos uno a uno; incorporar nata y aromas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Si se usa maicena, dispersarla primero en una pequeña parte de la mezcla para evitar grumos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Verter en molde y hornear 35–50 minutos. Los bordes deben estar cuajados y el centro oscilar ligeramente sin presentar mezcla líquida cruda; como referencia conservadora para la mezcla con huevo, comprobar **71 °C en el centro**."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Apagar el horno y dejar reposar brevemente con la puerta entreabierta si se busca reducir el choque térmico; retirar después y enfriar sin demoras innecesarias. Evitar mantener la tarta durante horas en el horno apagado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Refrigerar varias horas antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Tarta de queso al horno",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

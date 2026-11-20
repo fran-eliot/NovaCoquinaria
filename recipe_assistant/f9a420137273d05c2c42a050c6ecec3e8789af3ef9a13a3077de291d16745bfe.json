@@ -1,0 +1,389 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Caldereta extremeña de cordero\n\n## Origen y contexto\n\n**Región:** Extremadura. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 90–120 min, según corte |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 900 g de cordero troceado para guisar\n- 220 g de cebolla\n- 140 g de pimiento rojo\n- 3 dientes de ajo\n- 1 rebanada de pan de 35 g\n- 120 ml de vino blanco seco\n- 350–500 ml de caldo de carne caliente o agua\n- 1 cucharadita de pimentón dulce\n- ½ cucharadita de tomillo\n- ½ cucharadita de orégano\n- 3 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Gluten (pan); vino con posible alcohol residual; revisar caldo comercial.\n\n## Elaboración\n\n1. Secar los trozos de cordero, salpimentar y dorarlos por tandas en cazuela con aceite caliente; retirar.\n2. Dorar en esa grasa el pan y dos dientes de ajo, sin quemarlos; reservar para el majado.\n3. Pochar cebolla y pimiento picados durante 8–10 minutos, añadir el ajo restante y remover.\n4. Apartar la cazuela del fuego para incorporar pimentón; verter vino blanco y reducir unos minutos.\n5. Devolver el cordero y cubrir parcialmente con caldo caliente; agregar tomillo y orégano.\n6. Guisar tapado parcialmente a hervor suave unos 60–90 minutos, hasta que la carne esté completamente cocinada y tierna; ajustar líquido según evaporación.\n7. Majar pan tostado y ajo reservado con un poco del caldo; incorporarlos 10 minutos antes de terminar para espesar.\n8. Rectificar sal y servir caliente con la salsa ligada.\n\n## Puntos críticos\n\n- La caldereta extremeña admite versiones con hígado de cordero en el majado; esta variante doméstica no lo incluye. Elegir cortes apropiados para guiso y no basarse solo en el reloj para juzgar terneza.\n- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |\n| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |\n| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Cordero estofado con garbanzos y comino](./cordero_estofado_con_garbanzos_y_comino.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Caldereta de cordero (Spain.info)](https://www.spain.info/es/receta/caldereta-cordero/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "90–120 min, según corte",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/caldereta_extremena_de_cordero.html",
+  "id": "REC-427",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cordero troceado para guisar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 g de cordero troceado para guisar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "900 g de cordero troceado para guisar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de pimiento rojo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada de pan de 35 g",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada de pan de 35 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada de pan de 35 g",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne caliente o agua",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "350",
+        "raw": "350–500 ml de caldo de carne caliente o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–500 ml de caldo de carne caliente o agua",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de orégano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de orégano",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/caldereta_extremena_de_cordero.md",
+  "source_sha256": "ba6160d51ed20ab11441a121fc9e41d870defd3e68650f902f0acf987ac9d15d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar los trozos de cordero, salpimentar y dorarlos por tandas en cazuela con aceite caliente; retirar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Dorar en esa grasa el pan y dos dientes de ajo, sin quemarlos; reservar para el majado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento picados durante 8–10 minutos, añadir el ajo restante y remover."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Apartar la cazuela del fuego para incorporar pimentón; verter vino blanco y reducir unos minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Devolver el cordero y cubrir parcialmente con caldo caliente; agregar tomillo y orégano."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Guisar tapado parcialmente a hervor suave unos 60–90 minutos, hasta que la carne esté completamente cocinada y tierna; ajustar líquido según evaporación."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Majar pan tostado y ajo reservado con un poco del caldo; incorporarlos 10 minutos antes de terminar para espesar."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 8,
+      "text": "Rectificar sal y servir caliente con la salsa ligada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Caldereta extremeña de cordero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

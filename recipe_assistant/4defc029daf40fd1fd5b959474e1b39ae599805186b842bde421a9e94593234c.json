@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 63,
+      "start_line": 13
+    },
+    "text": "\n# Verduras gratinadas con queso\n\n## Descripción\nVerduras asadas y terminadas con una capa fina de queso, para conservar textura sin quemar la cobertura.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Preparación | 15 min |\n| Horneado | 25–35 min |\n\n## Ingredientes\n- 1 calabacín mediano (250 g);\n- 1 berenjena pequeña (250 g);\n- 1 pimiento rojo;\n- 1 cebolla;\n- 2 cucharadas de aceite de oliva;\n- 80 g de queso rallado;\n- 1 cucharadita de orégano;\n- pimienta y sal moderada.\n\n**Alérgeno:** leche por el queso.\n\n## Elaboración\n1. Precalentar horno a **200 °C**.\n2. Cortar verduras en trozos similares, secarlas y mezclarlas con aceite, orégano y pimienta.\n3. Repartir en bandeja sin amontonar.\n4. Asar 20–30 minutos, removiendo una vez, hasta que estén tiernas y ligeramente doradas.\n5. Pasar a fuente apta para gratinar si fuera necesario, repartir queso y gratinar 3–5 minutos bajo vigilancia.\n6. Servir recién hechas.\n\n## Puntos críticos\n- El queso se añade al final; si se incorpora al principio puede quemarse.\n- El exceso de verduras en bandeja produce vapor.\n- Ajustar sal considerando la del queso.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Verduras aguadas | Bandeja llena | Repartir |\n| Queso quemado | Gratinado largo | Vigilar y acortar |\n| Verduras duras | Asado insuficiente | Prolongar antes del queso |\n\n## Relaciones\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Asar verduras](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n\n## Principio de NovaCoquinaria\n> El gratinado remata la cocción; no sustituye el asado previo de las verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "baking",
+      "raw": "25–35 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/verduras_gratinadas.html",
+  "id": "REC-0096",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabacín mediano (250 g);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín mediano (250 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín mediano (250 g);",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "berenjena pequeña (250 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 berenjena pequeña (250 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 berenjena pequeña (250 g);",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de queso rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de queso rallado;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/verduras_gratinadas.md",
+  "source_sha256": "ae874887fb35ec140bb37645b2884ce5daf133c4c635e79eb84b5d18e45eff0a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **200 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Cortar verduras en trozos similares, secarlas y mezclarlas con aceite, orégano y pimienta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Repartir en bandeja sin amontonar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Asar 20–30 minutos, removiendo una vez, hasta que estén tiernas y ligeramente doradas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Pasar a fuente apta para gratinar si fuera necesario, repartir queso y gratinar 3–5 minutos bajo vigilancia."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Servir recién hechas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 59,
+        "start_line": 59
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Verduras gratinadas con queso",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

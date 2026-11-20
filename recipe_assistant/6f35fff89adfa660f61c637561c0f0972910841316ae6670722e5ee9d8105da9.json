@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Rape en salsa de almendras y azafrán\n\n## Descripción\n\nPreparación de referencia basada en **salsa ligada y cocción suave de pescado firme**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Salsa ligada y cocción suave de pescado firme |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de medallones de rape limpios\n- 45 g de almendras crudas sin piel\n- 120 g de cebolla picada\n- 2 dientes de ajo\n- 250 ml de fumet de pescado caliente\n- 6–8 hebras de azafrán\n- 60 ml de vino blanco opcional\n- 2 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Pescado y almendras; vino con alcohol residual si se utiliza.\n\n## Elaboración\n\n1. Secar el rape y revisar que no queden restos de membranas; refrigerar hasta cocinar.\n2. Tostar suavemente las almendras en una sartén y reservar.\n3. Pochar cebolla y ajo con aceite durante 8 minutos. Añadir vino opcional y reducir unos 2 minutos.\n4. Infusionar el azafrán en parte del fumet caliente; añadir el resto del fumet y almendras al sofrito y triturar hasta formar salsa fina.\n5. Devolver la salsa a la cazuela, introducir el rape y cocinar suavemente 6–10 minutos según grosor, evitando hervor intenso.\n6. Comprobar que el pescado esté totalmente cocinado (63 °C como referencia conservadora), ajustar la densidad con fumet y servir.\n\n## Puntos críticos\n\n- El rape es firme, pero un hervor fuerte puede contraerlo. El fumet puede aportar bastante sal; probar antes de sazonar.\n- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.\n- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |\n| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |\n| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Escalfar pescados en líquido aromático](../00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md)\n- [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, peso efectivo, método, tiempo, temperatura, resultado y valoración. No se atribuyen estas cantidades a una preparación anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **salsa ligada y cocción suave de pescado firme**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/rape_en_salsa_de_almendras_y_azafran.html",
+  "id": "REC-300",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "medallones de rape limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de medallones de rape limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de medallones de rape limpios",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras crudas sin piel",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de almendras crudas sin piel",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de almendras crudas sin piel",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado caliente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de fumet de pescado caliente",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de fumet de pescado caliente",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hebras de azafrán",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "6",
+        "raw": "6–8 hebras de azafrán",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "6–8 hebras de azafrán",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de vino blanco opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de vino blanco opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/rape_en_salsa_de_almendras_y_azafran.md",
+  "source_sha256": "412d12d983a355867ead899c0a6cf867ad796fa0350f4d5846cf954a3968d30d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Secar el rape y revisar que no queden restos de membranas; refrigerar hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Tostar suavemente las almendras en una sartén y reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo con aceite durante 8 minutos. Añadir vino opcional y reducir unos 2 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Infusionar el azafrán en parte del fumet caliente; añadir el resto del fumet y almendras al sofrito y triturar hasta formar salsa fina."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Devolver la salsa a la cazuela, introducir el rape y cocinar suavemente 6–10 minutos según grosor, evitando hervor intenso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar que el pescado esté totalmente cocinado (63 °C como referencia conservadora), ajustar la densidad con fumet y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.html",
+      "label": "Escalfar pescados en líquido aromático",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/escalfar_pescados_en_liquido_aromatico.md"
+    }
+  ],
+  "title": "Rape en salsa de almendras y azafrán",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

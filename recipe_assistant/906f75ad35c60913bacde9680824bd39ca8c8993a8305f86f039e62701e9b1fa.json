@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Rosquillas de anís al horno\n\n## Descripción\n\nPropuesta de repostería basada en **masa aromática, formado y horneado**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 20 unidades pequeñas |\n| Técnica principal | Masa aromática, formado y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo, más una pequeña cantidad para formar;\n- 2 huevos M;\n- 90 g de azúcar;\n- 70 ml de aceite de oliva suave;\n- 50 ml de leche;\n- 1 cucharadita de anís en grano machacado;\n- 8 g de impulsor químico;\n- ralladura fina de medio limón;\n- 1 pizca de sal;\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C, calor arriba y abajo, y forrar una bandeja con papel apto.\n2. Batir huevos, azúcar y aceite hasta mezclar. Agregar leche, anís y ralladura.\n3. Mezclar harina, impulsor y sal; incorporar poco a poco hasta obtener una masa blanda pero manejable.\n4. Dejar reposar 10–15 minutos, añadir un poco de harina solo si es imprescindible para formar.\n5. Dividir en 20 porciones, hacer cilindros cortos y cerrar cada uno en forma de aro, dejando un agujero central visible.\n6. Hornear unos 15–20 minutos hasta que estén ligeramente doradas y cocidas. Enfriar por completo sobre rejilla.\n\n## Puntos críticos\n\n- La harina adicional debe ser mínima o las rosquillas quedarán duras. La cocción al horno produce textura distinta de las rosquillas fritas.\n- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.\n- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |\n| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |\n| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |\n\n## Conservación\n\nEnfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/rosquillas_de_anis_al_horno.html",
+  "id": "REC-296",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo, más una pequeña cantidad para formar;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo, más una pequeña cantidad para formar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo, más una pequeña cantidad para formar;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos M;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos M;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva suave;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de leche;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano machacado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de anís en grano machacado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de anís en grano machacado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de impulsor químico;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/rosquillas_de_anis_al_horno.md",
+  "source_sha256": "afdbb088b35759b356cab30738bb33cc07a9b5124bfd112b4f00750b0f8a7b07",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C, calor arriba y abajo, y forrar una bandeja con papel apto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Batir huevos, azúcar y aceite hasta mezclar. Agregar leche, anís y ralladura."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mezclar harina, impulsor y sal; incorporar poco a poco hasta obtener una masa blanda pero manejable."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Dejar reposar 10–15 minutos, añadir un poco de harina solo si es imprescindible para formar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Dividir en 20 porciones, hacer cilindros cortos y cerrar cada uno en forma de aro, dejando un agujero central visible."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 15–20 minutos hasta que estén ligeramente doradas y cocidas. Enfriar por completo sobre rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Rosquillas de anís al horno",
+  "yield": {
+    "max": "20",
+    "min": "20",
+    "raw": "20 unidades pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Pericana alicantina de pimiento seco y bacalao\n\n## Origen y contexto\n\n**Región:** Alcoi y comarcas del interior de Alicante. La ficha propone una formulación doméstica con rasgos reconocibles de la especialidad regional. No consta como receta cocinada ni valorada personalmente, y se identifican las adaptaciones respecto a versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones como aperitivo |\n| Tiempo orientativo | 35–45 min, más desalado previo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 220 g de bacalao previamente desalado, apto para cocinar\n- 5 pimientos secos tipo ñora o pimiento de bola\n- 4 dientes de ajo\n- 100–130 ml de aceite de oliva virgen extra\n- 20–40 ml de agua caliente para ajustar\n- sal solo tras probar\n- pan para acompañar, opcional\n\n**Alérgenos:** Pescado; gluten si se acompaña de pan.\n\n## Elaboración\n\n1. Si se parte de bacalao en salazón, desalarlo en refrigeración según grosor y proveedor; retirar espinas visibles.\n2. Para esta adaptación doméstica, cocinar el bacalao completamente mediante escalfado suave hasta alcanzar unos 63 °C en su centro; dejar enfriar rápidamente y desmigar.\n3. Limpiar los pimientos secos, retirar pedúnculo y semillas y tostarlos brevemente en sartén a fuego bajo sin quemarlos; deben quedar aromáticos, no negros.\n4. Asar o dorar los dientes de ajo enteros hasta tiernos y pelarlos.\n5. Desmenuzar los pimientos tostados y mezclar con bacalao cocinado y ajo machacado.\n6. Añadir gradualmente el aceite de oliva, mezclando para impregnar sin dejar una capa desproporcionada de grasa; ajustar con alguna cucharada de agua caliente si los pimientos absorben demasiado.\n7. Probar sal y servir como aperitivo, preferentemente con pan; refrigerar hasta el momento de servir.\n\n## Puntos críticos\n\n- La pericana tradicional suele emplear pescado seco tostado y pimiento seco. Esta ficha se aparta de ese tratamiento al usar bacalao desalado y completamente cocinado por seguridad doméstica; no debe presentarse como reproducción exacta. El pimiento seco quemado amarga.\n- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para próxima prueba |\n|---|---|---|\n| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |\n| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |\n| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |\n\n## Conservación\n\nServir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao](../11_Despensa/04_Pescados/bacalao.md): distinción de formatos, desalado y cocción completa.\n- [Pimientos asados y aliñados](./pimientos_asados_y_aliñados.md)\n- [Bacalao a la vizcaína](../06_Pescados_y_Mariscos/bacalao_a_la_vizcaina_con_pimiento_choricero.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.comunitatvalenciana.com/es/mediterraneo-en-accion/pericana)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, procedencia de materias primas, tiempo efectivo, resultado y valoración. No se sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 min, más desalado previo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/pericana_alicantina_de_pimiento_seco_y_bacalao.html",
+  "id": "REC-467",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao previamente desalado, apto para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de bacalao previamente desalado, apto para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de bacalao previamente desalado, apto para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos secos tipo ñora o pimiento de bola",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 pimientos secos tipo ñora o pimiento de bola",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "5 pimientos secos tipo ñora o pimiento de bola",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "100",
+        "raw": "100–130 ml de aceite de oliva virgen extra",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–130 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente para ajustar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "20",
+        "raw": "20–40 ml de agua caliente para ajustar",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "20–40 ml de agua caliente para ajustar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo tras probar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo tras probar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo tras probar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pan para acompañar, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pan para acompañar, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pan para acompañar, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pericana_alicantina_de_pimiento_seco_y_bacalao.md",
+  "source_sha256": "245434ca3211cc1df554ac60a23b14878f4089bdd0d9dd5383a4c4314cb4dfd1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Si se parte de bacalao en salazón, desalarlo en refrigeración según grosor y proveedor; retirar espinas visibles."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Para esta adaptación doméstica, cocinar el bacalao completamente mediante escalfado suave hasta alcanzar unos 63 °C en su centro; dejar enfriar rápidamente y desmigar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Limpiar los pimientos secos, retirar pedúnculo y semillas y tostarlos brevemente en sartén a fuego bajo sin quemarlos; deben quedar aromáticos, no negros."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Asar o dorar los dientes de ajo enteros hasta tiernos y pelarlos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Desmenuzar los pimientos tostados y mezclar con bacalao cocinado y ajo machacado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Añadir gradualmente el aceite de oliva, mezclando para impregnar sin dejar una capa desproporcionada de grasa; ajustar con alguna cucharada de agua caliente si los pimientos absorben demasiado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Probar sal y servir como aperitivo, preferentemente con pan; refrigerar hasta el momento de servir."
+    }
+  ],
+  "techniques": [],
+  "title": "Pericana alicantina de pimiento seco y bacalao",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones como aperitivo",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

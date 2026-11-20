@@ -1,0 +1,276 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 72,
+      "start_line": 13
+    },
+    "text": "\n# Berenjena asada con glaseado de miso\n\n## Descripción\n\nBerenjena asada y terminada con un glaseado de miso dulce-salado. Adaptación doméstica inspirada en preparaciones japonesas de berenjena con miso.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Cocción | 25–35 min |\n| Técnica | Asado y glaseado |\n\n## Ingredientes\n\n- 2 berenjenas medianas (500–600 g);\n- 1 cucharada de miso;\n- 1 cucharada de mirin;\n- 1 cucharadita de azúcar o miel;\n- 1 cucharada de agua;\n- 1 cucharada de aceite neutro;\n- cebolleta, opcional.\n\n**Alérgenos:** soja; posible trigo o cebada en miso. Revisar mirin y etiquetado.\n\n## Elaboración\n\n1. Precalentar horno a **200 °C**. Cortar berenjenas por la mitad longitudinalmente y marcar la pulpa sin perforar la piel.\n2. Pincelar con aceite y hornear con la pulpa hacia arriba durante 20–30 minutos hasta que esté tierna.\n3. Mezclar miso, mirin, azúcar y agua hasta obtener un glaseado homogéneo.\n4. Extender una capa fina sobre la pulpa tierna.\n5. Gratinar 2–4 minutos vigilando continuamente: el azúcar se quema con facilidad.\n6. Terminar con cebolleta y servir.\n\n## Puntos críticos\n\n- La berenjena debe estar tierna antes de glasear.\n- No gratinar demasiado cerca de la resistencia.\n- Ajustar miso según salinidad; no añadir sal sin probar.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Berenjena dura | Asado insuficiente | Prolongar antes del glaseado |\n| Glaseado quemado | Azúcar y calor excesivos | Gratinar menos |\n| Muy salada | Exceso de miso | Reducir cantidad |\n\n## Relaciones\n\n- [Berenjena](../11_Despensa/06_Verduras/berenjena.md)\n- [Miso](../11_Despensa/09_Salsas/miso.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n\n## Principio de NovaCoquinaria\n\n> Primero se ablanda la berenjena; después se carameliza el glaseado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–35 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/berenjena_con_miso.html",
+  "id": "REC-0075",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas medianas (500–600 g);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas medianas (500–600 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas medianas (500–600 g);",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "miso;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de miso;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de miso;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mirin;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mirin;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar o miel;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar o miel;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de agua;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta, opcional.",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebolleta, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebolleta, opcional.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/berenjena_con_miso.md",
+  "source_sha256": "3bb1d11612a05e19f2faf30125a49017e121e5f4b602b61dbac797a3d34007e4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **200 °C**. Cortar berenjenas por la mitad longitudinalmente y marcar la pulpa sin perforar la piel."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Pincelar con aceite y hornear con la pulpa hacia arriba durante 20–30 minutos hasta que esté tierna."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Mezclar miso, mirin, azúcar y agua hasta obtener un glaseado homogéneo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Extender una capa fina sobre la pulpa tierna."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Gratinar 2–4 minutos vigilando continuamente: el azúcar se quema con facilidad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Terminar con cebolleta y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Berenjena asada con glaseado de miso",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

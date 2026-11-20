@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Gachas manchegas de harina de almortas\n\n## Origen y contexto\n\n**Región:** Castilla-La Mancha. Formulación doméstica de referencia que distingue los rasgos propios del plato; no se declara receta probada, versión única ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 35–45 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 120 g de harina de almortas alimentaria etiquetada para consumo humano\n- 650–800 ml de agua caliente\n- 150 g de panceta fresca en dados\n- 120 g de chorizo apto para cocinar, opcional\n- 4 dientes de ajo con piel, chafados\n- 1 cucharadita de pimentón dulce\n- 3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta\n- sal moderada y pan para acompañar, opcional\n\n**Alérgenos:** Revisar harina comercial, chorizo y pan (gluten en pan); posibles trazas.\n\n## Elaboración\n\n1. Verificar que la harina de almortas está comercializada legalmente para consumo humano y seguir cualquier advertencia de frecuencia o cantidad indicada por el fabricante. No emplear semillas o harina destinadas a pienso.\n2. Dorar ajos y panceta en aceite en sartén honda, cocinando la panceta completamente; añadir chorizo opcional y cocinar según el envase. Retirar y reservar los tropezones.\n3. Apartar momentáneamente del fuego, añadir pimentón sin quemarlo y espolvorear harina de almortas.\n4. Remover continuamente 2–3 minutos para tostar ligeramente la harina con la grasa.\n5. Verter agua caliente gradualmente sin dejar de remover para evitar grumos, comenzando por unos 650 ml.\n6. Cocinar a fuego suave 12–18 minutos, removiendo, hasta obtener gachas espesas y homogéneas con la harina completamente cocinada. Ajustar con agua caliente si espesan demasiado.\n7. Reincorporar los tropezones, comprobar sal y servir en porciones moderadas con pan opcional.\n\n## Puntos críticos\n\n- La almorta contiene β-ODAP, asociado al riesgo de latirismo con consumo elevado o sostenido: no convertir esta preparación en alimento habitual, respetar las advertencias del proveedor y preferir alternativas de harina si existen dudas de idoneidad. No utilizar harinas para animales. La cocción no debe considerarse garantía de eliminación del riesgo.\n- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste de próxima prueba |\n|---|---|---|\n| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |\n| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |\n| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Pote asturiano](./pote_asturiano_con_berza_y_fabes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes y cantidades realmente utilizados, tiempos, textura, resultado y valoración. No se sustituye ninguna versión previa sin evidencia comparativa."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/gachas_manchegas_de_harina_de_almortas.html",
+  "id": "REC-503",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de almortas alimentaria etiquetada para consumo humano",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de harina de almortas alimentaria etiquetada para consumo humano",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de harina de almortas alimentaria etiquetada para consumo humano",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "650",
+        "raw": "650–800 ml de agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "650–800 ml de agua caliente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de panceta fresca en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de panceta fresca en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo apto para cocinar, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chorizo apto para cocinar, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chorizo apto para cocinar, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo con piel, chafados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo con piel, chafados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo con piel, chafados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, ajustar según la grasa de la panceta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y pan para acompañar, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y pan para acompañar, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y pan para acompañar, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/gachas_manchegas_de_harina_de_almortas.md",
+  "source_sha256": "9f2a45be4854f2aa29e8db395480855e198233a1f996461facf2aa1d540ee1c2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Verificar que la harina de almortas está comercializada legalmente para consumo humano y seguir cualquier advertencia de frecuencia o cantidad indicada por el fabricante. No emplear semillas o harina destinadas a pienso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Dorar ajos y panceta en aceite en sartén honda, cocinando la panceta completamente; añadir chorizo opcional y cocinar según el envase. Retirar y reservar los tropezones."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Apartar momentáneamente del fuego, añadir pimentón sin quemarlo y espolvorear harina de almortas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Remover continuamente 2–3 minutos para tostar ligeramente la harina con la grasa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter agua caliente gradualmente sin dejar de remover para evitar grumos, comenzando por unos 650 ml."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Cocinar a fuego suave 12–18 minutos, removiendo, hasta obtener gachas espesas y homogéneas con la harina completamente cocinada. Ajustar con agua caliente si espesan demasiado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Reincorporar los tropezones, comprobar sal y servir en porciones moderadas con pan opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Gachas manchegas de harina de almortas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

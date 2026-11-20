@@ -1,0 +1,445 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Empanada gallega de zorza\n\n## Origen y contexto\n\n**Región:** Galicia. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones |\n| Tiempo orientativo | 35 minutos de preparación, 70–90 de levado y 35–45 de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de harina de trigo común o panificable\n- 280 ml de agua templada\n- 7 g de levadura seca de panadería\n- 55 ml de aceite de oliva para la masa\n- 9 g de sal\n- 650 g de carne de cerdo fresca cortada en dados pequeños (zorza sin cocinar)\n- 180 g de cebolla\n- 100 g de pimiento rojo\n- 3 dientes de ajo\n- 35 ml de aceite de oliva para el relleno\n- 8 g de pimentón dulce\n- 2 g de pimentón picante, opcional\n- 2 g de orégano seco\n- 25 ml de vino blanco o agua para marinar\n- 1 huevo batido para pintar, opcional\n\n**Alérgenos:** Trigo/gluten; huevo si se pinta; posibles sulfitos si se utiliza vino.\n\n## Elaboración\n\n1. Mezclar la carne cortada con pimentones, ajo picado, orégano y vino o agua; tapar y marinar en frigorífico durante 30–60 minutos.\n2. Mezclar harina, levadura, agua, aceite y sal; amasar hasta masa lisa, tapar y dejar levar 60–90 minutos hasta aumento visible de volumen.\n3. Pochar cebolla y pimiento con aceite unos 10 minutos; agregar la carne marinada y cocinar por completo, removiendo para evitar trozos crudos. Escurrir líquido sobrante y enfriar rápidamente.\n4. Dividir la masa en dos partes, una algo mayor para la base. Estirar fina la base sobre bandeja con papel de horno y repartir el relleno ya cocido sin exceso de humedad.\n5. Cubrir con la otra lámina de masa; sellar bordes, abrir un pequeño respiradero central y pintar con huevo si se desea.\n6. Hornear a 200 °C unos 35–45 minutos hasta masa cocida y dorada, con base firme y relleno bien caliente.\n7. Dejar asentar 10 minutos antes de cortar, sin prolongar el tiempo a temperatura ambiente.\n\n## Puntos críticos\n\n- La zorza gallega es cerdo adobado con pimentón y ajo; esta empanada es diferente de las de xoubas y atún ya documentadas.\n- Marinar siempre refrigerado y cocinar completamente el cerdo antes de rellenar; comprobar que la masa no queda húmeda ni cruda.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Base blanda | Relleno húmedo | Reducir y escurrir antes de cerrar |\n| Masa compacta | Leudado corto | Esperar aumento de volumen |\n| Relleno seco | Cocción excesiva previa | Cocinar hasta hecho sin prolongar innecesariamente |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar a 4 °C o menos y consumir en 2 días; recalentar completamente. Se puede congelar en porciones.\n\n## Relaciones dentro del SGCC\n\n- [Empanada gallega de xoubas](../10_Horno/empanada_gallega_de_xoubas_y_pimientos.md)\n- [Fermentar masas hidratadas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración tras su elaboración. Esta propuesta no sustituye ninguna versión doméstica anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35 minutos de preparación, 70–90 de levado y 35–45 de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Galicia. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/empanada_gallega_de_zorza.html",
+  "id": "REC-537",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común o panificable",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de harina de trigo común o panificable",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de harina de trigo común o panificable",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 ml de agua templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "280 ml de agua templada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para la masa",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 ml de aceite de oliva para la masa",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "55 ml de aceite de oliva para la masa",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "9",
+        "min": "9",
+        "raw": "9 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "9 g de sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "carne de cerdo fresca cortada en dados pequeños (zorza sin cocinar)",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de carne de cerdo fresca cortada en dados pequeños (zorza sin cocinar)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de carne de cerdo fresca cortada en dados pequeños (zorza sin cocinar)",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento rojo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para el relleno",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva para el relleno",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva para el relleno",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de pimentón dulce",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de pimentón dulce",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón picante, opcional",
+      "optionality": "optional",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de pimentón picante, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de pimentón picante, opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de orégano seco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de orégano seco",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco o agua para marinar",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de vino blanco o agua para marinar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de vino blanco o agua para marinar",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pintar, opcional",
+      "optionality": "optional",
+      "position": 14,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pintar, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pintar, opcional",
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/empanada_gallega_de_zorza.md",
+  "source_sha256": "75c3b75e8820c487af942b92d9420d1aa4c68cca43f62f355c2cc35ffef0e9db",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "Mezclar la carne cortada con pimentones, ajo picado, orégano y vino o agua; tapar y marinar en frigorífico durante 30–60 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, levadura, agua, aceite y sal; amasar hasta masa lisa, tapar y dejar levar 60–90 minutos hasta aumento visible de volumen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento con aceite unos 10 minutos; agregar la carne marinada y cocinar por completo, removiendo para evitar trozos crudos. Escurrir líquido sobrante y enfriar rápidamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 4,
+      "text": "Dividir la masa en dos partes, una algo mayor para la base. Estirar fina la base sobre bandeja con papel de horno y repartir el relleno ya cocido sin exceso de humedad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 5,
+      "text": "Cubrir con la otra lámina de masa; sellar bordes, abrir un pequeño respiradero central y pintar con huevo si se desea."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 57
+      },
+      "source_number": 6,
+      "text": "Hornear a 200 °C unos 35–45 minutos hasta masa cocida y dorada, con base firme y relleno bien caliente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 58
+      },
+      "source_number": 7,
+      "text": "Dejar asentar 10 minutos antes de cortar, sin prolongar el tiempo a temperatura ambiente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas",
+      "source_location": {
+        "end_line": 80,
+        "start_line": 80
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Empanada gallega de zorza",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

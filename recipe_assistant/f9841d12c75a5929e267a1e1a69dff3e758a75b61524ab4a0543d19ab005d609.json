@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Migas extremeñas con ajo y panceta\n\n## Origen y contexto\n\n**Región:** Extremadura. Versión doméstica de referencia de una especialidad regional; no se declara como receta única ni como preparación ya probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 45 min, más hidratación previa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de pan candeal asentado del día anterior, desmigado\n- 170 g de panceta fresca en dados\n- 6 dientes de ajo con piel, ligeramente chafados\n- 1 pimiento choricero seco, sin semillas, opcional\n- 1 cucharadita de pimentón dulce\n- 90–120 ml de agua potable para humedecer el pan, orientativos\n- 50 ml de aceite de oliva, ajustar según grasa que suelte la panceta\n- sal, con moderación\n\n**Alérgenos:** Gluten (trigo); comprobar panceta comercial.\n\n## Elaboración\n\n1. Cortar o desmigar el pan en trozos muy pequeños y uniformes; salpicarlo gradualmente con agua ligeramente salada, mezclar y cubrir con paño limpio durante 20–30 minutos. No empaparlo.\n2. Calentar el aceite en una sartén o perol grande y dorar los ajos a fuego medio sin quemarlos. Añadir el pimiento choricero, si se usa, y retirarlo cuando esté crujiente.\n3. Dorar la panceta, cocinándola completamente y dejando que suelte grasa. Reservar con ajos y pimiento.\n4. Apartar el recipiente del fuego, incorporar pimentón y remover unos segundos para evitar que se queme.\n5. Añadir el pan humedecido y volver a fuego medio-bajo; remover y separar continuamente las migas durante 15–25 minutos hasta que estén calientes, sueltas y ligeramente doradas.\n6. Reincorporar panceta, ajo y pimiento reservado; mezclar dos minutos más y ajustar sal antes de servir.\n\n## Puntos críticos\n\n- El agua solo humedece el pan para que no se seque: un exceso produce migas apelmazadas. El pimentón se quema fácilmente y amarga. La panceta debe quedar totalmente cocinada.\n- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste de una próxima tanda |\n|---|---|---|\n| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |\n| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |\n| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.spain.info/es/receta/migas-extremenas/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades realmente empleadas, proceso, tiempos, textura y valoración. No sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45 min, más hidratación previa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/migas_extremenas_con_ajo_y_panceta.html",
+  "id": "REC-442",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pan candeal asentado del día anterior, desmigado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pan candeal asentado del día anterior, desmigado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pan candeal asentado del día anterior, desmigado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de panceta fresca en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de panceta fresca en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo con piel, ligeramente chafados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 dientes de ajo con piel, ligeramente chafados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "6 dientes de ajo con piel, ligeramente chafados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento choricero seco, sin semillas, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento choricero seco, sin semillas, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento choricero seco, sin semillas, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para humedecer el pan, orientativos",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": true,
+        "max": "120",
+        "min": "90",
+        "raw": "90–120 ml de agua potable para humedecer el pan, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "90–120 ml de agua potable para humedecer el pan, orientativos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, ajustar según grasa que suelte la panceta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva, ajustar según grasa que suelte la panceta",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva, ajustar según grasa que suelte la panceta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, con moderación",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, con moderación",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, con moderación",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/migas_extremenas_con_ajo_y_panceta.md",
+  "source_sha256": "29320e7852206830e040808b5ef300201b02b6dcd73f22a671d2ebfce0e02e9a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cortar o desmigar el pan en trozos muy pequeños y uniformes; salpicarlo gradualmente con agua ligeramente salada, mezclar y cubrir con paño limpio durante 20–30 minutos. No empaparlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Calentar el aceite en una sartén o perol grande y dorar los ajos a fuego medio sin quemarlos. Añadir el pimiento choricero, si se usa, y retirarlo cuando esté crujiente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Dorar la panceta, cocinándola completamente y dejando que suelte grasa. Reservar con ajos y pimiento."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Apartar el recipiente del fuego, incorporar pimentón y remover unos segundos para evitar que se queme."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Añadir el pan humedecido y volver a fuego medio-bajo; remover y separar continuamente las migas durante 15–25 minutos hasta que estén calientes, sueltas y ligeramente doradas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Reincorporar panceta, ajo y pimiento reservado; mezclar dos minutos más y ajustar sal antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Migas extremeñas con ajo y panceta",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

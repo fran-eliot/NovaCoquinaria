@@ -1,0 +1,343 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Ternera salteada con pimientos y comino\n\n## Descripción\n\nTiras finas de ternera salteadas brevemente con pimientos y comino, con salsa ligera ligada en la sartén. El orden de cocción separa carne y hortalizas para controlar sus puntos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 15–20 minutos |\n| Dificultad | Media |\n| Técnica principal | Salteado por tandas y acabado breve |\n\n## Ingredientes\n\n- 550 g de filetes de ternera aptos para salteado, en tiras finas\n- 1 pimiento rojo, en tiras\n- 1 pimiento verde, en tiras\n- 1 cebolla mediana, en pluma\n- 2 dientes de ajo, picados\n- 3 cucharadas de aceite de oliva o aceite neutro\n- 1 cucharadita de comino molido\n- 100 ml de caldo de carne o agua\n- 1 cucharadita de zumo de limón, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Revisar ingredientes y alérgenos del caldo comercial.\n\n## Mise en place\n\nCortar la ternera contra la fibra en tiras similares. Secarla con papel desechable y conservar refrigerada hasta cocinar. Cortar las hortalizas por separado para evitar contaminación cruzada.\n\n## Elaboración\n\n### 1. Calentar sartén\n\nUtilizar una sartén amplia y calentar una cucharada de aceite a fuego medio-alto.\n\n### 2. Dorar ternera\n\nSaltear las tiras por tandas sin amontonarlas hasta que se doren; reservar. No prolongar innecesariamente la cocción en esta fase.\n\n### 3. Saltear verduras\n\nAñadir el aceite restante, cebolla y pimientos, y cocinar 5–7 minutos para mantener un punto ligeramente firme. Incorporar el ajo al final.\n\n### 4. Aromatizar\n\nBajar algo el fuego e incorporar comino y pimienta durante unos segundos. Añadir caldo y despegar los jugos de cocción.\n\n### 5. Integrar y servir\n\nDevolver la ternera y sus jugos, calentar el conjunto hasta el punto seguro adecuado para el corte empleado, según la técnica de sellado de filetes. Reducir ligeramente si es necesario, ajustar sal y añadir limón opcional fuera del fuego.\n\n## Puntos críticos\n\n- Los cortes finos se secan rápidamente; cocinar la carne por tandas y devolverla al final.\n- No aplicar una temperatura universal de ave a ternera en pieza entera; consultar referencia del corte y su reposo.\n- El comino molido puede quemarse: incorporarlo con el fuego moderado y algo de humedad.\n\n## Perfil esperado\n\nTiras de ternera doradas y tiernas, pimientos aún reconocibles y sabor aromático de comino.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con champiñones | Saltear las setas aparte para evaporar agua |\n| Con chile | Añadir una pizca con el comino |\n| Con arroz | Servir sobre arroz cocido correctamente conservado y recalentado |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Ternera seca | Cocción prolongada | Dorar por tandas y añadir al final |\n| Verduras acuosas | Sartén saturada | Usar tandas y calor suficiente |\n| Comino amargo | Especia quemada | Añadir con líquido y calor moderado |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos y refrigerar tapadas. Consumir en un plazo corto, recalentar completamente antes de servir y no mantener carne cocinada largo tiempo a temperatura ambiente. Congelar en porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Ternera](../11_Despensa/03_Carnes/ternera.md)\n- [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n\n## Principio de NovaCoquinaria\n\n> En un salteado mixto, cocinar cada ingrediente según su propio punto mejora la textura del conjunto.\n\n## Utilizado por\n\nReceta de referencia del módulo Carnes para salteado por tandas y acabado breve."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/ternera_con_pimientos_y_comino.html",
+  "id": "REC-0129",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de ternera aptos para salteado, en tiras finas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de filetes de ternera aptos para salteado, en tiras finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de filetes de ternera aptos para salteado, en tiras finas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo, en tiras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo, en tiras",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo, en tiras",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde, en tiras",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde, en tiras",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde, en tiras",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, en pluma",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, en pluma",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, en pluma",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva o aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva o aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva o aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne o agua",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de caldo de carne o agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de caldo de carne o agua",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nCortar la ternera contra la fibra en tiras similares. Secarla con papel desechable y conservar refrigerada hasta cocinar. Cortar las hortalizas por separado para evitar contaminación cruzada.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/ternera_con_pimientos_y_comino.md",
+  "source_sha256": "af5d08c700db277593c3517d2b85183ad2e271f9c01ff84acaafece5f1d0a1b7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Calentar sartén\n\nUtilizar una sartén amplia y calentar una cucharada de aceite a fuego medio-alto.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Dorar ternera\n\nSaltear las tiras por tandas sin amontonarlas hasta que se doren; reservar. No prolongar innecesariamente la cocción en esta fase.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Saltear verduras\n\nAñadir el aceite restante, cebolla y pimientos, y cocinar 5–7 minutos para mantener un punto ligeramente firme. Incorporar el ajo al final.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Aromatizar\n\nBajar algo el fuego e incorporar comino y pimienta durante unos segundos. Añadir caldo y despegar los jugos de cocción.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Integrar y servir\n\nDevolver la ternera y sus jugos, calentar el conjunto hasta el punto seguro adecuado para el corte empleado, según la técnica de sellado de filetes. Reducir ligeramente si es necesario, ajustar sal y añadir limón opcional fuera del fuego.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "Sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Ternera salteada con pimientos y comino",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

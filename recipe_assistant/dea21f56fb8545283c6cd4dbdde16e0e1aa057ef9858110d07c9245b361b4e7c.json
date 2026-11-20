@@ -1,0 +1,355 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Frijoles negros con coco y lima\n\n## Descripción\n\nPreparación de referencia centrada en **reducción de leche de coco y equilibrio cítrico**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Reducción de leche de coco y equilibrio cítrico |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de frijoles negros completamente cocidos y escurridos;\n- 220 ml de leche de coco;\n- 120 g de cebolla picada;\n- 100 g de pimiento verde en dados;\n- 2 dientes de ajo;\n- 10 g de jengibre rallado;\n- 1 cucharada de aceite de cacahuete u oliva suave;\n- ½ cucharadita de comino molido;\n- 100 ml de agua o caldo de verduras suave;\n- zumo de ½ lima, ajustable;\n- cilantro fresco opcional;\n- sal al gusto;\n\n**Alérgenos:** Cacahuete si se usa su aceite; revisar leche de coco envasada.\n\n## Elaboración\n\n1. Escurrir frijoles negros ya cocidos; reservar algo del líquido de la conserva solo si es apto y se desea usar.\n2. Pochar cebolla y pimiento en aceite unos 7 minutos; añadir ajo y jengibre y cocinar 1 minuto.\n3. Incorporar comino y remover brevemente, luego leche de coco y 100 ml de agua.\n4. Cocinar la salsa a hervor suave 5–7 minutos, hasta que los sabores se integren.\n5. Añadir frijoles cocidos, cocinar otros 6–8 minutos y ajustar la densidad con agua si fuera necesario.\n6. Apartar del calor y añadir zumo de lima gradualmente; ajustar sal y terminar con cilantro opcional.\n\n## Puntos críticos\n\n- La leche de coco no necesita hervor violento y el zumo de lima conviene incorporarlo al final. Comprobar la sal de las conservas antes de sazonar.\n- Las cantidades de legumbres especificadas se refieren a **producto completamente cocido**; para legumbres secas, consultar la técnica de cocción antes de preparar la receta.\n- Ajustar tiempos y líquido según producto, recipiente e intensidad de fuego; evitar que las legumbres queden frías en el centro o se rompan innecesariamente.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección para una próxima prueba |\n|---|---|---|\n| Salsa aguada | Demasiado caldo o ingredientes sin escurrir | Reducir antes de integrar las legumbres o añadir menos líquido |\n| Granos rotos | Remoción intensa o cocción prolongada | Utilizar fuego suave y movimientos cuidadosos |\n| Sabor demasiado intenso | Exceso de condimentos concentrados | Añadir condimentos por etapas y probar antes de salar |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y tapados. No mantener preparaciones cocinadas durante horas a temperatura ambiente. Recalentar completamente cuando se sirvan calientes y seguir las indicaciones de las legumbres envasadas.\n\n## Relaciones dentro del SGCC\n\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar peso efectivo, producto utilizado, tiempos, resultado y valoración. No atribuir a esta fórmula cantidades o resultados de otras preparaciones domésticas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **reducción de leche de coco y equilibrio cítrico**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/frijoles_negros_con_coco_y_lima.html",
+  "id": "REC-0285",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "frijoles negros completamente cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de frijoles negros completamente cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de frijoles negros completamente cocidos y escurridos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 ml de leche de coco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "220 ml de leche de coco;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde en dados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde en dados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre rallado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete u oliva suave;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete u oliva suave;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete u oliva suave;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de verduras suave;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo de verduras suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo de verduras suave;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de ½ lima, ajustable;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de ½ lima, ajustable;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de ½ lima, ajustable;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco opcional;",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro fresco opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro fresco opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/frijoles_negros_con_coco_y_lima.md",
+  "source_sha256": "129ab512afeb6db65bc7ea6555646724967ffeb6c54e814348d67e77ee1240ef",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Escurrir frijoles negros ya cocidos; reservar algo del líquido de la conserva solo si es apto y se desea usar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite unos 7 minutos; añadir ajo y jengibre y cocinar 1 minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Incorporar comino y remover brevemente, luego leche de coco y 100 ml de agua."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Cocinar la salsa a hervor suave 5–7 minutos, hasta que los sabores se integren."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Añadir frijoles cocidos, cocinar otros 6–8 minutos y ajustar la densidad con agua si fuera necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Apartar del calor y añadir zumo de lima gradualmente; ajustar sal y terminar con cilantro opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar curry",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Frijoles negros con coco y lima",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

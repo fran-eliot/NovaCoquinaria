@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Alubias de Tolosa con berza\n\n## Origen y contexto\n\n**Región:** Gipuzkoa, País Vasco. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–5 raciones |\n| Tiempo orientativo | 2–3 h más remojo según variedad y proveedor |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de alubias negras de Tolosa secas\n- 250 g de berza limpia\n- 180 g de cebolla\n- 35 ml de aceite de oliva\n- agua potable suficiente para cubrir durante la cocción\n- sal al final\n- 1 guindilla encurtida por comensal, opcional\n- 200 g de morcilla de verduras o chorizo cocinado aparte, opcional\n\n**Alérgenos:** La base vegetal no contiene alérgenos de declaración obligatoria; revisar etiquetas de guindillas, morcilla y chorizo.\n\n## Elaboración\n\n1. Seleccionar las alubias, retirar impurezas y seguir indicaciones de remojo del productor: ciertas alubias frescas de temporada no lo requieren, mientras las secas antiguas pueden beneficiarse de él.\n2. Colocar las alubias secas en cazuela con abundante agua potable fría, cebolla partida y aceite; empezar la cocción y mantener hervor suave, removiendo por vaivén.\n3. Añadir agua caliente cuando sea necesario para mantenerlas cubiertas sin diluir innecesariamente; cocinar 1,5–3 horas según variedad, edad y remojo, hasta estar completamente tiernas.\n4. Lavar y cortar la berza; cocerla por separado en agua hasta tierna, unos 15–25 minutos, y escurrirla.\n5. Cuando las alubias estén tiernas, añadir sal y mover la cazuela suavemente para ligar parte del caldo sin triturar los granos.\n6. Cocinar completamente cualquier morcilla o chorizo utilizado en recipiente separado según el etiquetado, evitando exceso de grasa en las alubias.\n7. Servir las alubias con berza, guindillas encurtidas y embutido opcional aparte.\n\n## Puntos críticos\n\n- Las alubias secas deben cocinarse completamente; nunca consumirlas poco hechas. El tiempo no garantiza por sí solo cocción suficiente: comprobar textura del centro.\n- No añadir embutidos crudos directamente al plato listo para servir; cocinar por separado según su naturaleza. No confundir alubias de Tolosa con la olla podrida burgalesa.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Grano duro | Legumbre antigua, agua dura o cocción corta | Prolongar con agua caliente |\n| Caldo poco ligado | Exceso de agua o poco movimiento | Reducir suavemente y mover por vaivén |\n| Piel rota | Hervor violento o agitación | Cocinar suavemente |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar a 4 °C o menos 2–3 días; congelar porciones si se necesita más tiempo.\n\n## Relaciones dentro del SGCC\n\n- [Olla podrida burgalesa](../03_Legumbres/olla_podrida_burgalesa_de_alubias_rojas_y_compango.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "2–3 h más remojo según variedad y proveedor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Gipuzkoa, País Vasco. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/alubias_de_tolosa_con_berza.html",
+  "id": "REC-545",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias negras de Tolosa secas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de alubias negras de Tolosa secas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de alubias negras de Tolosa secas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "berza limpia",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de berza limpia",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de berza limpia",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable suficiente para cubrir durante la cocción",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable suficiente para cubrir durante la cocción",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable suficiente para cubrir durante la cocción",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla encurtida por comensal, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla encurtida por comensal, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla encurtida por comensal, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "morcilla de verduras o chorizo cocinado aparte, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de morcilla de verduras o chorizo cocinado aparte, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de morcilla de verduras o chorizo cocinado aparte, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/alubias_de_tolosa_con_berza.md",
+  "source_sha256": "7c595b8803de3bb966684c8b7c6260acffca991a50569ecb060e9f87b94f415d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Seleccionar las alubias, retirar impurezas y seguir indicaciones de remojo del productor: ciertas alubias frescas de temporada no lo requieren, mientras las secas antiguas pueden beneficiarse de él."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Colocar las alubias secas en cazuela con abundante agua potable fría, cebolla partida y aceite; empezar la cocción y mantener hervor suave, removiendo por vaivén."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir agua caliente cuando sea necesario para mantenerlas cubiertas sin diluir innecesariamente; cocinar 1,5–3 horas según variedad, edad y remojo, hasta estar completamente tiernas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Lavar y cortar la berza; cocerla por separado en agua hasta tierna, unos 15–25 minutos, y escurrirla."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Cuando las alubias estén tiernas, añadir sal y mover la cazuela suavemente para ligar parte del caldo sin triturar los granos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Cocinar completamente cualquier morcilla o chorizo utilizado en recipiente separado según el etiquetado, evitando exceso de grasa en las alubias."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir las alubias con berza, guindillas encurtidas y embutido opcional aparte."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Alubias de Tolosa con berza",
+  "yield": {
+    "max": "5",
+    "min": "4",
+    "raw": "4–5 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

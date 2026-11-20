@@ -1,0 +1,254 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Tortitas chinas de cebolleta con masa escaldada\n\n## Descripción\n\nInspiración cong you bing: masa de harina con capas y cebolleta. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 tortitas |\n| Tiempo orientativo | 55–65 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo común\n- 150 ml de agua recién hervida, orientativos\n- 3 cebolletas picadas finamente\n- 25 ml de aceite neutro para formar capas\n- 2 cucharadas de aceite neutro para sartén\n- ½ cucharadita de sal\n\n**Alérgenos:** Gluten (trigo).\n\n## Elaboración\n\n1. Verter gradualmente el agua recién hervida sobre la harina en un recipiente resistente al calor y mezclar primero con cuchara para evitar quemaduras.\n2. Cuando la masa pueda manipularse, amasar 4–6 minutos hasta que sea homogénea; cubrir y reposar 20 minutos.\n3. Dividir en cuatro bolas y estirar cada una en lámina fina.\n4. Pincelar con aceite, espolvorear sal y distribuir cebolleta; enrollar en cilindro y después en espiral, sellando el extremo.\n5. Reposar las espirales 5 minutos y estirarlas de nuevo con suavidad para conservar parte de las capas.\n6. Cocinar las tortitas en sartén con aceite a fuego medio 3–5 minutos por lado, hasta que estén doradas y la masa completamente cocida.\n\n## Puntos críticos\n\n- El agua hirviendo exige precaución durante el mezclado. Las capas se pierden si se amasa de nuevo después de incorporar aceite y cebolleta; comprobar el centro antes de servir.\n- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.\n- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |\n| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |\n| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Okonomiyaki de col y cebolleta](./okonomiyaki_de_col_y_cebolleta.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Inspiración cong you bing: masa de harina con capas y cebolleta. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/tortitas_chinas_de_cebolleta_con_masa_escaldada.html",
+  "id": "REC-410",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua recién hervida, orientativos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": true,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua recién hervida, orientativos",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua recién hervida, orientativos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolletas picadas finamente",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cebolletas picadas finamente",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 cebolletas picadas finamente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro para formar capas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de aceite neutro para formar capas",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de aceite neutro para formar capas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro para sartén",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro para sartén",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro para sartén",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de sal",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/tortitas_chinas_de_cebolleta_con_masa_escaldada.md",
+  "source_sha256": "c58a7ad3004fc44667f6e010cece272897e896e5bedb53514a414dd76705b2f6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Verter gradualmente el agua recién hervida sobre la harina en un recipiente resistente al calor y mezclar primero con cuchara para evitar quemaduras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Cuando la masa pueda manipularse, amasar 4–6 minutos hasta que sea homogénea; cubrir y reposar 20 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Dividir en cuatro bolas y estirar cada una en lámina fina."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Pincelar con aceite, espolvorear sal y distribuir cebolleta; enrollar en cilindro y después en espiral, sellando el extremo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Reposar las espirales 5 minutos y estirarlas de nuevo con suavidad para conservar parte de las capas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Cocinar las tortitas en sartén con aceite a fuego medio 3–5 minutos por lado, hasta que estén doradas y la masa completamente cocida."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Tortitas chinas de cebolleta con masa escaldada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 tortitas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

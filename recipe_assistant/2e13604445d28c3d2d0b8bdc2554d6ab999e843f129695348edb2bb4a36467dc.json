@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Conejo al ajillo con vino blanco\n\n## Descripción\n\nPreparación de referencia basada en **dorado y guiso corto aromático**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Dorado y guiso corto aromático |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de conejo troceado, con hueso;\n- 6 dientes de ajo ligeramente aplastados;\n- 90 ml de vino blanco;\n- 180 ml de caldo suave o agua;\n- 2 cucharadas de aceite de oliva;\n- 1 ramita de tomillo;\n- 1 hoja de laurel;\n- sal y pimienta;\n\n**Alérgenos:** Revisar caldo comercial; vino con alcohol residual.\n\n## Elaboración\n\n1. Secar los trozos de conejo, salpimentar y revisar fragmentos pequeños de hueso.\n2. Dorar por tandas en cazuela con aceite y retirar.\n3. Añadir ajos aplastados y dorarlos suavemente sin quemarlos.\n4. Verter vino con cuidado, raspar los fondos y reducir 2–3 minutos; añadir caldo, laurel y tomillo.\n5. Devolver el conejo, tapar parcialmente y guisar suavemente unos 25–40 minutos según trozos hasta que la carne esté completamente cocinada y tierna.\n6. Retirar hierbas, ajustar salsa por reducción y servir comprobando posibles huesecillos.\n\n## Puntos críticos\n\n- El conejo tiene huesos pequeños y poca grasa; no permitir que el fondo se seque. No considerar el dorado inicial una cocción suficiente.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Desglasar fondos de cocción](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/conejo_al_ajillo_con_vino_blanco.html",
+  "id": "REC-0263",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "conejo troceado, con hueso;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de conejo troceado, con hueso;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de conejo troceado, con hueso;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo ligeramente aplastados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 dientes de ajo ligeramente aplastados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "6 dientes de ajo ligeramente aplastados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de vino blanco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de vino blanco;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo suave o agua;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de caldo suave o agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de caldo suave o agua;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita de tomillo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita de tomillo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita de tomillo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/conejo_al_ajillo_con_vino_blanco.md",
+  "source_sha256": "bddf4eadad25dab051071e42a3edb4a3fdbbeb8e23831e6b42d67d8f36f2447d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Secar los trozos de conejo, salpimentar y revisar fragmentos pequeños de hueso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Dorar por tandas en cazuela con aceite y retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir ajos aplastados y dorarlos suavemente sin quemarlos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Verter vino con cuidado, raspar los fondos y reducir 2–3 minutos; añadir caldo, laurel y tomillo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Devolver el conejo, tapar parcialmente y guisar suavemente unos 25–40 minutos según trozos hasta que la carne esté completamente cocinada y tierna."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Retirar hierbas, ajustar salsa por reducción y servir comprobando posibles huesecillos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.html",
+      "label": "Desglasar fondos de cocción",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Conejo al ajillo con vino blanco",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

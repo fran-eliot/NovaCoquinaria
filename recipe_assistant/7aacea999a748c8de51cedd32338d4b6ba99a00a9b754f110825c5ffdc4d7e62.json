@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Bacalao ajoarriero navarro con pimiento choricero\n\n## Origen y contexto\n\n**Región:** Navarra. La ficha propone una versión doméstica basada en la tradición regional; las variantes y las cantidades exactas pueden diferir según localidad y familia. No consta preparación ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo estimado | 45–55 min, sin incluir desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de bacalao desalado y sin espinas visibles\n- 400 g de tomate triturado\n- 2 pimientos choriceros secos o 30 g de su pulpa hidratada\n- 180 g de cebolla picada\n- 3 dientes de ajo\n- 200 g de patata en dados pequeños, opcional en esta variante\n- 3 cucharadas de aceite de oliva\n- perejil y sal únicamente si es necesaria\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Si el bacalao se compra salado, desalar en refrigeración con cambios de agua suficientes según grosor y las instrucciones del proveedor; secar bien. No añadir sal al principio.\n2. Hidratar los pimientos choriceros según el envase y raspar su pulpa; retirar piel y semillas.\n3. Pochar cebolla y ajo con aceite durante 8–10 minutos, sin quemar el ajo.\n4. Si se usa patata, cortarla en dados pequeños y cocinarla en el sofrito con un poco de agua hasta que quede tierna antes de añadir el pescado.\n5. Incorporar el tomate y la pulpa choricera; reducir 12–15 minutos hasta obtener una salsa de cuerpo medio.\n6. Desmigar el bacalao retirando todas las espinas detectables, incorporarlo a la salsa y cocinar 7–10 minutos, según tamaño, hasta estar completamente hecho (63 °C en el centro como referencia conservadora).\n7. Mover la cazuela con suavidad, probar la sal y terminar con perejil.\n\n## Puntos críticos\n\n- El grado de desalado condiciona todo el plato. La patata aparece en algunas formulaciones pero no en todas; documentarla como opción y no como ingrediente universal.\n- Comprobar la cocción del ingrediente principal, las instrucciones de alimentos comerciales y el manejo higiénico de productos perecederos.\n- Ajustar agua, tiempos y tamaño de las piezas en la primera elaboración antes de fijar cantidades definitivas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Próximo ajuste |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |\n| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |\n| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Marmitako de bonito con patatas](./marmitako_de_bonito_con_patatas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.spain.info/es/receta/ajoarriero/)\n\n## Registro de prueba\n\nPendiente de anotar materia prima concreta, cantidades efectivas, tiempos, textura, resultado y valoración; ninguna versión propuesta sustituye elaboraciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_ajoarriero_navarro_con_pimiento_choricero.html",
+  "id": "REC-431",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao desalado y sin espinas visibles",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de bacalao desalado y sin espinas visibles",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de bacalao desalado y sin espinas visibles",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos choriceros secos o 30 g de su pulpa hidratada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 pimientos choriceros secos o 30 g de su pulpa hidratada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 pimientos choriceros secos o 30 g de su pulpa hidratada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "patata en dados pequeños, opcional en esta variante",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de patata en dados pequeños, opcional en esta variante",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de patata en dados pequeños, opcional en esta variante",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil y sal únicamente si es necesaria",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil y sal únicamente si es necesaria",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil y sal únicamente si es necesaria",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_ajoarriero_navarro_con_pimiento_choricero.md",
+  "source_sha256": "ce1f94979c079ae8c99261c25468fa9d1c6638bfdcd05d32c439dbb29012ad18",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Si el bacalao se compra salado, desalar en refrigeración con cambios de agua suficientes según grosor y las instrucciones del proveedor; secar bien. No añadir sal al principio."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Hidratar los pimientos choriceros según el envase y raspar su pulpa; retirar piel y semillas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo con aceite durante 8–10 minutos, sin quemar el ajo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Si se usa patata, cortarla en dados pequeños y cocinarla en el sofrito con un poco de agua hasta que quede tierna antes de añadir el pescado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Incorporar el tomate y la pulpa choricera; reducir 12–15 minutos hasta obtener una salsa de cuerpo medio."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Desmigar el bacalao retirando todas las espinas detectables, incorporarlo a la salsa y cocinar 7–10 minutos, según tamaño, hasta estar completamente hecho (63 °C en el centro como referencia conservadora)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Mover la cazuela con suavidad, probar la sal y terminar con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bacalao ajoarriero navarro con pimiento choricero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

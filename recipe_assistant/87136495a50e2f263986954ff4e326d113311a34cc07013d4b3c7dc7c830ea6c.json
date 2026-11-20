@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 86,
+      "start_line": 13
+    },
+    "text": "\n# Ternera guisada con verduras\n\n## Descripción\n\nGuiso de ternera con cebolla, zanahoria y tomate, pensado para un corte adecuado a cocción prolongada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 min |\n| Cocción | 90–150 min, según corte |\n| Técnica | Dorado, sofrito y estofado |\n\n## Ingredientes\n\n- 750 g de ternera para guisar, en dados;\n- 1 cebolla grande (180 g);\n- 2 zanahorias (200 g);\n- 2 dientes de ajo;\n- 200 g de tomate triturado;\n- 2 cucharadas de aceite de oliva;\n- 400–600 ml de caldo o agua;\n- 1 hoja de laurel;\n- sal y pimienta.\n\n## Elaboración\n\n1. Preparar y lavar las verduras. Mantener utensilios separados para la carne cruda.\n2. Secar y dorar la ternera por tandas en cazuela con aceite. Reservar en recipiente apropiado para carne aún sin cocinar completamente.\n3. Pochar cebolla y zanahoria durante 8–10 minutos. Añadir ajo al final.\n4. Incorporar tomate y reducir 5–8 minutos.\n5. Devolver carne y jugos a la cazuela; añadir laurel y caldo hasta cubrir parcialmente.\n6. Cocinar tapado a hervor suave 90–150 minutos o hasta que el corte esté tierno; vigilar líquido y remover ocasionalmente.\n7. Comprobar cocción completa y ajustar sal y densidad destapando al final.\n\n## Puntos críticos\n\n- Utilizar cortes para guisar, no filetes tiernos.\n- El colágeno necesita tiempo y humedad para ablandarse.\n- Evitar ebullición fuerte y evaporación excesiva.\n- No reutilizar utensilios de carne cruda para servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con champiñones | Añadir en fase final |\n| Con vino tinto | Reducir tras el sofrito antes de añadir caldo |\n| Con patata | Añadir según tamaño y tiempo necesario |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Carne dura | Corte con tejido conectivo aún sin ablandar | Prolongar hervor suave |\n| Salsa aguada | Exceso de caldo | Reducir destapada |\n| Fondo pegado | Poco líquido o fuego alto | Añadir caldo y bajar calor |\n\n## Conservación\n\nEnfriar rápidamente en recipientes poco profundos, refrigerar y recalentar completamente. Congelar porciones si se desea.\n\n## Relaciones dentro del SGCC\n\n- [Ternera](../11_Despensa/03_Carnes/ternera.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n\n## Principio de NovaCoquinaria\n\n> El estofado transforma cortes con tejido conectivo mediante tiempo, humedad y calor moderado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "90–150 min, según corte",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/ternera_guisada_con_verduras.html",
+  "id": "REC-0052",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "ternera para guisar, en dados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de ternera para guisar, en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de ternera para guisar, en dados;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahorias (200 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 zanahorias (200 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 zanahorias (200 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo o agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "400",
+        "raw": "400–600 ml de caldo o agua;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "400–600 ml de caldo o agua;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/ternera_guisada_con_verduras.md",
+  "source_sha256": "078024af37efb4c49e683615e73b5872a6086fd64128118fd531d98f0872069e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Preparar y lavar las verduras. Mantener utensilios separados para la carne cruda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Secar y dorar la ternera por tandas en cazuela con aceite. Reservar en recipiente apropiado para carne aún sin cocinar completamente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y zanahoria durante 8–10 minutos. Añadir ajo al final."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Incorporar tomate y reducir 5–8 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Devolver carne y jugos a la cazuela; añadir laurel y caldo hasta cubrir parcialmente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Cocinar tapado a hervor suave 90–150 minutos o hasta que el corte esté tierno; vigilar líquido y remover ocasionalmente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Comprobar cocción completa y ajustar sal y densidad destapando al final."
+    }
+  ],
+  "techniques": [],
+  "title": "Ternera guisada con verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

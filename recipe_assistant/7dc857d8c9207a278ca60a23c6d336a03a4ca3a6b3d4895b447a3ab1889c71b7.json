@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Caponata de berenjena con alcaparras y aceitunas\n\n## Descripción\n\nPreparación de referencia basada en **dorado de berenjena y reducción agridulce**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica | Dorado de berenjena y reducción agridulce |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de berenjena en dados de 2 cm\n- 200 g de tomate triturado\n- 150 g de cebolla picada\n- 100 g de apio en dados pequeños\n- 70 g de aceitunas verdes deshuesadas\n- 30 g de alcaparras escurridas\n- 2 cucharadas de vinagre de vino tinto\n- 1 cucharadita de azúcar\n- 3 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Apio; posibles sulfitos según el vinagre comercial.\n\n## Elaboración\n\n1. Lavar berenjena y apio, cortar en dados uniformes y secar la berenjena con papel limpio.\n2. Dorar la berenjena en sartén ancha por tandas con dos cucharadas de aceite; reservar.\n3. Pochar cebolla y apio con el aceite restante durante 8–10 minutos.\n4. Incorporar tomate triturado y reducir 8 minutos hasta concentrar la salsa.\n5. Añadir aceitunas, alcaparras, vinagre y azúcar, remover y devolver la berenjena.\n6. Cocinar a fuego suave otros 8–12 minutos hasta que la berenjena esté tierna, sin deshacerse por completo.\n7. Probar antes de salar y servir templada, o refrigerar rápidamente para servir fría.\n\n## Puntos críticos\n\n- La caponata debe conservar dados de berenjena reconocibles y equilibrio dulce-ácido. Alcaparras y aceitunas ya aportan sal.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Berenjenas al horno](./berenjenas_al_horno.md)\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado de berenjena y reducción agridulce**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/caponata_de_berenjena_con_alcaparras_y_aceitunas.html",
+  "id": "REC-401",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjena en dados de 2 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de berenjena en dados de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de berenjena en dados de 2 cm",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "apio en dados pequeños",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de apio en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de apio en dados pequeños",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas verdes deshuesadas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de aceitunas verdes deshuesadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de aceitunas verdes deshuesadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "alcaparras escurridas",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de alcaparras escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de alcaparras escurridas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino tinto",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de vinagre de vino tinto",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de vinagre de vino tinto",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/caponata_de_berenjena_con_alcaparras_y_aceitunas.md",
+  "source_sha256": "a17723a8a9dbb8c6c26dd6e015824f8be50a8ad2c406c3afe759adc76fa50280",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar berenjena y apio, cortar en dados uniformes y secar la berenjena con papel limpio."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Dorar la berenjena en sartén ancha por tandas con dos cucharadas de aceite; reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y apio con el aceite restante durante 8–10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Incorporar tomate triturado y reducir 8 minutos hasta concentrar la salsa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Añadir aceitunas, alcaparras, vinagre y azúcar, remover y devolver la berenjena."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Cocinar a fuego suave otros 8–12 minutos hasta que la berenjena esté tierna, sin deshacerse por completo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Probar antes de salar y servir templada, o refrigerar rápidamente para servir fría."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Caponata de berenjena con alcaparras y aceitunas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

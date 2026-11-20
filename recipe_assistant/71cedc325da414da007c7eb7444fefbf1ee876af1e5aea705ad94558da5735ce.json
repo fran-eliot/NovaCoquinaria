@@ -1,0 +1,296 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Berenjenas glaseadas con miso\n\n## Descripción\n\nMitades de berenjena asadas y acabadas con un glaseado de miso, mirin y soja, de inspiración japonesa. Se aplica el glaseado cerca del final para evitar que sus azúcares se quemen.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Preparación | 15 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Asado y glaseado final |\n\n## Ingredientes\n\n- 2 berenjenas medianas (650–750 g)\n- 2 cucharadas de miso claro\n- 1 cucharada de mirin\n- 1 cucharadita de salsa de soja\n- 1 cucharadita de azúcar o miel, opcional\n- 2 cucharadas de aceite neutro\n- 1–2 cucharadas de agua para diluir\n- 1 cucharadita de semillas de sésamo, opcional\n\n**Alérgenos:** Soja; trigo si está presente en la salsa de soja o el miso; sésamo si se utiliza. Revisar etiquetas.\n\n## Mise en place\n\nPrecalentar el horno a 200 °C. Lavar y partir las berenjenas longitudinalmente; hacer cortes superficiales en rombos en la pulpa sin perforar la piel. Mezclar miso, mirin, soja y agua hasta formar una pasta pincelable.\n\n## Elaboración\n\n### 1. Asar berenjenas\n\nPincelar la pulpa con aceite y colocar las mitades con el corte hacia arriba. Asar 22–30 minutos hasta que estén tiernas y se hundan fácilmente al presionar.\n\n### 2. Preparar glaseado\n\nProbar la mezcla de miso; ajustar con agua si está demasiado concentrada. Añadir azúcar o miel opcional, considerando que el mirin ya aporta dulzor.\n\n### 3. Glasear\n\nExtender una capa fina sobre la pulpa ya tierna, evitando acumulaciones que se quemen.\n\n### 4. Caramelizar con vigilancia\n\nDevolver al horno 4–7 minutos hasta que el glaseado burbujee y adquiera algo de color; vigilar continuamente, especialmente si se emplea gratinador.\n\n### 5. Servir\n\nRetirar y dejar reposar unos minutos. Añadir sésamo opcional y servir caliente.\n\n## Puntos críticos\n\n- La berenjena debe cocinarse antes de glasear; el glaseado se quema antes de que una pulpa cruda ablande.\n- Miso y soja aportan mucha sal; no salar la berenjena al inicio.\n- No afirmar que sea una receta tradicional japonesa específica: es una adaptación inspirada en esa combinación de sabores.\n\n## Perfil esperado\n\nPulpa muy tierna, glaseado brillante, equilibrio entre umami, dulzor y salinidad.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin mirin | Usar agua y una pizca adicional de azúcar; el perfil cambia |\n| Miso oscuro | Reducir inicialmente la cantidad y ajustar por mayor intensidad |\n| Con cebolleta | Añadir fina al servir |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pulpa firme | Asado insuficiente | Ablandar antes de glasear |\n| Glaseado quemado | Exceso de calor o tiempo | Aplicar al final y vigilar |\n| Demasiado salado | Miso y soja concentrados | Diluir y ajustar antes de usar |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Berenjena](../11_Despensa/06_Verduras/berenjena.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En un glaseado dulce y salado, primero se consigue la cocción y después se construye la superficie.\n\n## Utilizado por\n\nPreparación de referencia de berenjenas glaseadas con miso en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/berenjenas_glaseadas_con_miso.html",
+  "id": "REC-0122",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas medianas (650–750 g)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas medianas (650–750 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas medianas (650–750 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "miso claro",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de miso claro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de miso claro",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mirin",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mirin",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de soja",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de soja",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar o miel, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar o miel, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para diluir",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de agua para diluir",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de agua para diluir",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de sésamo, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de semillas de sésamo, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de semillas de sésamo, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 200 °C. Lavar y partir las berenjenas longitudinalmente; hacer cortes superficiales en rombos en la pulpa sin perforar la piel. Mezclar miso, mirin, soja y agua hasta formar una pasta pincelable.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/berenjenas_glaseadas_con_miso.md",
+  "source_sha256": "bb6cbfc40d163058685c5fe126662ca9ea1e055553d0937b9e019580df2ffa0e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Asar berenjenas\n\nPincelar la pulpa con aceite y colocar las mitades con el corte hacia arriba. Asar 22–30 minutos hasta que estén tiernas y se hundan fácilmente al presionar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Preparar glaseado\n\nProbar la mezcla de miso; ajustar con agua si está demasiado concentrada. Añadir azúcar o miel opcional, considerando que el mirin ya aporta dulzor.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Glasear\n\nExtender una capa fina sobre la pulpa ya tierna, evitando acumulaciones que se quemen.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Caramelizar con vigilancia\n\nDevolver al horno 4–7 minutos hasta que el glaseado burbujee y adquiera algo de color; vigilar continuamente, especialmente si se emplea gratinador.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRetirar y dejar reposar unos minutos. Añadir sésamo opcional y servir caliente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 104,
+        "start_line": 104
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Berenjenas glaseadas con miso",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

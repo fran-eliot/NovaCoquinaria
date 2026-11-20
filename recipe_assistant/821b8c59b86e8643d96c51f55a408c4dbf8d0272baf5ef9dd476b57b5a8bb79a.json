@@ -1,0 +1,340 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Menestra navarra de los cuatro ases\n\n## Origen y contexto\n\n**Región:** Ribera de Navarra. La ficha propone una formulación doméstica con rasgos reconocibles de la especialidad regional. No consta como receta cocinada ni valorada personalmente, y se identifican las adaptaciones respecto a versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–75 min según hortalizas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 8 alcachofas frescas\n- 350 g de espárragos blancos frescos\n- 250 g de guisantes desgranados\n- 250 g de habas tiernas desgranadas\n- 3 ajetes frescos\n- 70 g de jamón serrano, opcional\n- 1 cucharada de harina de trigo, unos 12 g\n- 3 cucharadas de aceite de oliva\n- 150–250 ml de caldo de cocción de las verduras, orientativos\n- sal al final\n\n**Alérgenos:** Gluten (harina); revisar jamón comercial por alérgenos.\n\n## Elaboración\n\n1. Limpiar las alcachofas hasta obtener corazones tiernos, retirando hojas duras y pelillos; mantenerlas en agua con unas gotas de limón mientras se trabaja.\n2. Pelar los espárragos blancos desde debajo de la yema hasta la base y retirar los extremos duros.\n3. Cocer por separado las alcachofas, los espárragos, los guisantes y las habas en agua ligeramente salada, ajustando a calibre y frescura; buscar un punto ligeramente firme porque terminarán de cocinarse juntos.\n4. Escurrir reservando algo del caldo de espárragos. Comprobar que las habas estén tiernas y sin dureza de piel.\n5. Calentar aceite en una cazuela, pochar los ajetes picados y añadir jamón opcional unos segundos.\n6. Incorporar la harina y cocinarla 1–2 minutos; añadir caldo reservado poco a poco para crear una salsa ligera, no espesa.\n7. Agregar alcachofas, guisantes y habas, y disponer los espárragos encima; mover la cazuela suavemente y cocinar 5–8 minutos hasta que el conjunto esté caliente y las verduras en su punto.\n8. Probar antes de salar y servir inmediatamente.\n\n## Puntos críticos\n\n- En la formulación clásica de la Ribera los cuatro protagonistas son alcachofas, espárragos, guisantes y habas. La cocción por separado evita que unos se deshagan mientras otros siguen duros.\n- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para próxima prueba |\n|---|---|---|\n| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |\n| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |\n| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |\n\n## Conservación\n\nServir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.\n\n## Relaciones dentro del SGCC\n\n- [Borrajas con patatas](./borrajas_con_patatas_y_aceite_de_oliva.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.visitnavarra.es/documents/8191683/8519690/Catar%2BNavarra.pdf/175f3ded-f052-24e5-05c5-debcbe641685?t=1621583636065)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, procedencia de materias primas, tiempo efectivo, resultado y valoración. No se sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–75 min según hortalizas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/menestra_navarra_de_los_cuatro_ases.html",
+  "id": "REC-466",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alcachofas frescas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 alcachofas frescas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 alcachofas frescas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "espárragos blancos frescos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de espárragos blancos frescos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de espárragos blancos frescos",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes desgranados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de guisantes desgranados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de guisantes desgranados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "habas tiernas desgranadas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de habas tiernas desgranadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de habas tiernas desgranadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajetes frescos",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 ajetes frescos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 ajetes frescos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de jamón serrano, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de jamón serrano, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo, unos 12 g",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de harina de trigo, unos 12 g",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de harina de trigo, unos 12 g",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de cocción de las verduras, orientativos",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": true,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de caldo de cocción de las verduras, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de caldo de cocción de las verduras, orientativos",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/menestra_navarra_de_los_cuatro_ases.md",
+  "source_sha256": "c0f915a8a03a4e6186bba907fed1883935c86fa322fa9f1ec5e59d83c6601efd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Limpiar las alcachofas hasta obtener corazones tiernos, retirando hojas duras y pelillos; mantenerlas en agua con unas gotas de limón mientras se trabaja."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pelar los espárragos blancos desde debajo de la yema hasta la base y retirar los extremos duros."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Cocer por separado las alcachofas, los espárragos, los guisantes y las habas en agua ligeramente salada, ajustando a calibre y frescura; buscar un punto ligeramente firme porque terminarán de cocinarse juntos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Escurrir reservando algo del caldo de espárragos. Comprobar que las habas estén tiernas y sin dureza de piel."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Calentar aceite en una cazuela, pochar los ajetes picados y añadir jamón opcional unos segundos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Incorporar la harina y cocinarla 1–2 minutos; añadir caldo reservado poco a poco para crear una salsa ligera, no espesa."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Agregar alcachofas, guisantes y habas, y disponer los espárragos encima; mover la cazuela suavemente y cocinar 5–8 minutos hasta que el conjunto esté caliente y las verduras en su punto."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Probar antes de salar y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Menestra navarra de los cuatro ases",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

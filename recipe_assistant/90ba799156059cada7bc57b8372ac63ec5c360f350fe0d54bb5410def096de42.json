@@ -1,0 +1,286 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 121,
+      "start_line": 15
+    },
+    "text": "\n# Crema de calabacín\n\n## Descripción\n\nCrema vegetal de calabacín y puerro, de sabor suave y textura sedosa. El líquido se añade de forma gradual porque el calabacín libera agua durante la cocción.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Pochado, cocción y triturado |\n\n## Ingredientes\n\n- 700 g de calabacín;\n- 1 puerro mediano (150 g de parte comestible);\n- 1 patata pequeña (120 g), opcional para aportar cuerpo;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 250–400 ml de agua o caldo vegetal, según textura;\n- sal y pimienta blanca o negra;\n- una pizca de nuez moscada, opcional;\n- 2 cucharadas de yogur natural o queso fresco, opcionales para servir.\n\n**Alérgenos:** los acabados con yogur o queso contienen leche. Revisar el caldo comercial si se utiliza.\n\n## Mise en place\n\nLavar el calabacín y cortar en dados. Mantener la piel si está en buen estado y se desea color verde. Limpiar el puerro separando sus capas para retirar tierra. Pelar y cortar la patata si se utiliza.\n\n## Elaboración\n\n### 1. Pochar el puerro\n\nCalentar el aceite en una cazuela a fuego medio-bajo. Añadir el puerro y cocinar 5–7 minutos, removiendo, hasta que esté tierno sin dorarse demasiado.\n\n### 2. Añadir calabacín y patata\n\nIncorporar calabacín y patata opcional. Rehogar 3–4 minutos para integrar sabores.\n\n### 3. Cocer\n\nAñadir inicialmente 250 ml de agua o caldo. Tapar parcialmente y cocinar a hervor suave durante 12–18 minutos, hasta que la patata y el calabacín estén completamente tiernos. Añadir algo de líquido si fuera necesario para evitar que se pegue.\n\n### 4. Triturar\n\nRetirar del fuego y triturar con cuidado hasta obtener una crema lisa. Si se utiliza batidora de vaso, seguir las precauciones del fabricante para líquidos calientes y trabajar en tandas.\n\n### 5. Ajustar\n\nAñadir más líquido poco a poco si la crema está demasiado espesa. Probar y ajustar sal, pimienta y nuez moscada. Servir con yogur o queso opcional.\n\n## Puntos críticos\n\n- El calabacín aporta humedad; no añadir todo el caldo desde el inicio.\n- El puerro debe ablandarse sin quemarse.\n- La patata espesa, pero puede hacer la crema pesada si se añade demasiada.\n- Triturar líquidos calientes exige evitar salpicaduras y sobrepresión.\n- Si se añade lácteo, incorporarlo preferiblemente al final para controlar la textura.\n\n## Perfil esperado\n\nCrema homogénea, suave y ligeramente dulce, con densidad suficiente para cubrir una cuchara sin resultar pastosa.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin patata | Textura más ligera; reducir líquido |\n| Con cebolla | Sustituir puerro por cebolla |\n| Con curry suave | Añadir una pizca durante el rehogado |\n| Con queso | Incorporar al final; controlar sal |\n| Con menta | Añadir al servir para un perfil fresco |\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Crema aguada | Exceso de caldo | Reducir suavemente o añadir verdura cocida |\n| Crema muy espesa | Poco líquido o demasiada patata | Añadir caldo caliente |\n| Sabor plano | Sazonado insuficiente | Ajustar sal y especias |\n| Textura fibrosa | Puerro insuficientemente cocido | Cocer más y triturar |\n| Color apagado | Cocción excesiva | Acortar cocción cuando sea posible |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar en recipientes poco profundos. Congelar porciones sin el acabado lácteo cuando sea posible; tras descongelar, recalentar completamente y triturar brevemente si se separa.\n\n## Relaciones dentro del SGCC\n\n- [Calabacín](../11_Despensa/06_Verduras/calabacin.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una crema de verduras acuosas, la textura se controla añadiendo líquido al final, no corrigiendo un exceso inicial.\n\n## Utilizado por\n\nCremas vegetales, primeros platos y preparaciones ligeras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/crema_de_calabacin.html",
+  "id": "REC-0040",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabacín;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de calabacín;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de calabacín;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro mediano (150 g de parte comestible);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 puerro mediano (150 g de parte comestible);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 puerro mediano (150 g de parte comestible);",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "patata pequeña (120 g), opcional para aportar cuerpo;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 patata pequeña (120 g), opcional para aportar cuerpo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 patata pequeña (120 g), opcional para aportar cuerpo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal, según textura;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "250",
+        "raw": "250–400 ml de agua o caldo vegetal, según textura;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "250–400 ml de agua o caldo vegetal, según textura;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta blanca o negra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta blanca o negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta blanca o negra;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de nuez moscada, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de nuez moscada, opcional;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de nuez moscada, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural o queso fresco, opcionales para servir.",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de yogur natural o queso fresco, opcionales para servir.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de yogur natural o queso fresco, opcionales para servir.",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar el calabacín y cortar en dados. Mantener la piel si está en buen estado y se desea color verde. Limpiar el puerro separando sus capas para retirar tierra. Pelar y cortar la patata si se utiliza.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/crema_de_calabacin.md",
+  "source_sha256": "2ff4dd2342714814f65a0a1c5d75c568687d25731f85f2f2fd556ce0b0d5a2fc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Pochar el puerro\n\nCalentar el aceite en una cazuela a fuego medio-bajo. Añadir el puerro y cocinar 5–7 minutos, removiendo, hasta que esté tierno sin dorarse demasiado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Añadir calabacín y patata\n\nIncorporar calabacín y patata opcional. Rehogar 3–4 minutos para integrar sabores.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Cocer\n\nAñadir inicialmente 250 ml de agua o caldo. Tapar parcialmente y cocinar a hervor suave durante 12–18 minutos, hasta que la patata y el calabacín estén completamente tiernos. Añadir algo de líquido si fuera necesario para evitar que se pegue.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Triturar\n\nRetirar del fuego y triturar con cuidado hasta obtener una crema lisa. Si se utiliza batidora de vaso, seguir las precauciones del fabricante para líquidos calientes y trabajar en tandas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Ajustar\n\nAñadir más líquido poco a poco si la crema está demasiado espesa. Probar y ajustar sal, pimienta y nuez moscada. Servir con yogur o queso opcional.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Crema de calabacín",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

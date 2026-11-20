@@ -1,0 +1,186 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 14
+    },
+    "text": "\n# Café bombón con leche condensada\n\n## Descripción\n\nBebida doméstica de referencia basada en **café corto y montaje en capas**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 1 taza |\n| Técnica | Café corto y montaje en capas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 35–45 ml de café espresso recién preparado;\n- 30–40 g de leche condensada;\n- canela molida o cacao, opcional;\n\n**Alérgenos:** Leche.\n\n## Preparación\n\n1. Preparar un vaso resistente al calor, preferiblemente transparente.\n2. Verter la leche condensada en el fondo del vaso, sin manchar excesivamente las paredes.\n3. Preparar el café espresso según la máquina disponible.\n4. Verter lentamente el café sobre el dorso de una cuchara para conservar inicialmente las dos capas.\n5. Añadir canela o cacao opcional y servir caliente; remover antes de beber si se prefiere una mezcla uniforme.\n\n## Puntos críticos\n\n- El café y el vaso pueden estar muy calientes. La leche condensada ya aporta una cantidad importante de azúcar; no añadir más sin probar.\n- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.\n- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.\n\n## Diagnóstico\n\n| Resultado | Causa posible | Ajuste de referencia |\n|---|---|---|\n| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |\n| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |\n| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |\n| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |\n\n## Conservación\n\nLas bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.\n\n## Relaciones dentro del SGCC\n\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café con leche](./cafe_con_leche.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **café corto y montaje en capas**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/cafe_bombon_con_leche_condensada.html",
+  "id": "REC-0259",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "café espresso recién preparado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "35",
+        "raw": "35–45 ml de café espresso recién preparado;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "35–45 ml de café espresso recién preparado;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche condensada;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "30",
+        "raw": "30–40 g de leche condensada;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "30–40 g de leche condensada;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida o cacao, opcional;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "canela molida o cacao, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "canela molida o cacao, opcional;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/cafe_bombon_con_leche_condensada.md",
+  "source_sha256": "93594bff79cfe3821272152f6a3a90b2ae8b1cda5e8dd0bf6b733cba1144bc94",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Preparar un vaso resistente al calor, preferiblemente transparente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Verter la leche condensada en el fondo del vaso, sin manchar excesivamente las paredes."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Preparar el café espresso según la máquina disponible."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Verter lentamente el café sobre el dorso de una cuchara para conservar inicialmente las dos capas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Añadir canela o cacao opcional y servir caliente; remover antes de beber si se prefiere una mezcla uniforme."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 66,
+        "start_line": 66
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Café bombón con leche condensada",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "1 taza",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

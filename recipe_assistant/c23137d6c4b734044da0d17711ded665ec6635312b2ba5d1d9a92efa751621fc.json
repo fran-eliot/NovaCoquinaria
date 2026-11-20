@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Penne all'arrabbiata\n\n## Descripción\n\nReceta de referencia centrada en **sofrito picante, reducción de tomate y acabado en salsa**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Sofrito picante, reducción de tomate y acabado en salsa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de penne secos\n- 400 g de tomate triturado\n- 3 dientes de ajo en láminas\n- 2 cucharadas de aceite de oliva\n- ¼–½ cucharadita de chile seco, ajustable\n- perejil fresco picado, opcional\n- sal y pimienta\n- 40 g de pecorino rallado, opcional\n\n**Alérgenos:** Gluten (trigo); leche si se usa pecorino.\n\n## Elaboración\n\n1. Poner agua abundante a hervir y salar con moderación según las indicaciones de la pasta.\n2. Dorar suavemente el ajo en aceite durante 1 minuto; incorporar chile, sin quemarlo.\n3. Añadir el tomate triturado y reducir a fuego medio-bajo unos 12–15 minutos, removiendo.\n4. Cocer los penne 1–2 minutos menos que el tiempo indicado para que terminen dentro de la salsa; reservar 150 ml de agua de cocción.\n5. Pasar la pasta a la sartén y terminar 1–2 minutos, añadiendo agua de cocción en pequeñas dosis hasta ligar salsa y pasta.\n6. Retirar del fuego y terminar con perejil y pecorino opcionales.\n\n## Puntos críticos\n\n- El ajo y el chile se vuelven amargos cuando se queman. La salsa debe concentrarse antes de incorporar agua de cocción.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Salsa de tomate reducida base](../12_Plantillas/02_Salsas/salsa_tomate_reducida_base.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/penne_all_arrabbiata.html",
+  "id": "REC-304",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "penne secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de penne secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de penne secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo en láminas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo en láminas",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo en láminas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chile seco, ajustable",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/4",
+        "raw": "¼–½ cucharadita de chile seco, ajustable",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "¼–½ cucharadita de chile seco, ajustable",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco picado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco picado, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pecorino rallado, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de pecorino rallado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de pecorino rallado, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/penne_all_arrabbiata.md",
+  "source_sha256": "f39fb32d22d8b9bc08e99fd2db2d3e3f735846631b25f3701ddcbe0474dabf1f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Poner agua abundante a hervir y salar con moderación según las indicaciones de la pasta."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Dorar suavemente el ajo en aceite durante 1 minuto; incorporar chile, sin quemarlo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir el tomate triturado y reducir a fuego medio-bajo unos 12–15 minutos, removiendo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Cocer los penne 1–2 minutos menos que el tiempo indicado para que terminen dentro de la salsa; reservar 150 ml de agua de cocción."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Pasar la pasta a la sartén y terminar 1–2 minutos, añadiendo agua de cocción en pequeñas dosis hasta ligar salsa y pasta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Retirar del fuego y terminar con perejil y pecorino opcionales."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Penne all'arrabbiata",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

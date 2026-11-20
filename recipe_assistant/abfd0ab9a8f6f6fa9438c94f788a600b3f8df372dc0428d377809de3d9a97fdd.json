@@ -1,0 +1,364 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 14
+    },
+    "text": "\n# Rollos de canela con glaseado de queso crema\n\n## Descripción\n\nPreparación de referencia basada en **masa levada, enrollado y horneado**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 unidades |\n| Técnica principal | Masa levada, enrollado y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de harina de trigo panificable\n- 220 ml de leche entera templada\n- 7 g de levadura seca de panadería\n- 65 g de azúcar para la masa\n- 1 huevo L\n- 65 g de mantequilla blanda para la masa\n- 7 g de sal\n- 55 g de mantequilla blanda para el relleno\n- 85 g de azúcar moreno\n- 2 cucharaditas de canela molida\n- 120 g de queso crema pasteurizado para glaseado\n- 45 g de azúcar glas para glaseado\n\n**Alérgenos:** Gluten (trigo), leche y huevo.\n\n## Elaboración\n\n1. Mezclar harina, leche templada, levadura, azúcar, huevo y sal; amasar incorporando los 65 g de mantequilla hasta conseguir una masa elástica.\n2. Cubrir y fermentar 60–90 minutos o hasta que aumente claramente de volumen.\n3. Estirar en rectángulo de aproximadamente 35 × 28 cm.\n4. Untar con 55 g de mantequilla, espolvorear azúcar moreno y canela, enrollar por el lado largo y cortar 12 piezas.\n5. Disponer en bandeja con espacio, cubrir y fermentar de nuevo 30–45 minutos.\n6. Hornear a 180 °C unos 22–28 minutos, hasta superficie dorada y centro de masa totalmente cocinado.\n7. Enfriar hasta templado y extender queso crema batido con azúcar glas; servir y refrigerar las sobras con cobertura.\n\n## Puntos críticos\n\n- El segundo levado influye en el volumen y la miga. Evitar exceso de harina en el amasado. El queso crema requiere refrigeración y no debe aplicarse sobre piezas excesivamente calientes.\n- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.\n- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |\n| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |\n| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |\n\n## Conservación\n\nEnfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.\n\n## Relaciones dentro del SGCC\n\n- [Fermentar masas hidratadas de pan](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes utilizados realmente, recipientes, cantidades, tiempos, textura y valoración. La formulación no altera las versiones domésticas anteriores ni acredita una comparación con ellas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **masa levada, enrollado y horneado**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/rollos_de_canela_con_glaseado_de_queso_crema.html",
+  "id": "REC-416",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo panificable",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de harina de trigo panificable",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de harina de trigo panificable",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 ml de leche entera templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "220 ml de leche entera templada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la masa",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar para la masa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar para la masa",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo L",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo L",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla blanda para la masa",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de mantequilla blanda para la masa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de mantequilla blanda para la masa",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla blanda para el relleno",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 g de mantequilla blanda para el relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "55 g de mantequilla blanda para el relleno",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar moreno",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "85",
+        "min": "85",
+        "raw": "85 g de azúcar moreno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "85 g de azúcar moreno",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de canela molida",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "queso crema pasteurizado para glaseado",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de queso crema pasteurizado para glaseado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de queso crema pasteurizado para glaseado",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para glaseado",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de azúcar glas para glaseado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de azúcar glas para glaseado",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/rollos_de_canela_con_glaseado_de_queso_crema.md",
+  "source_sha256": "af507b7fac8ce54f9ecbe779cc32b557aa5a3f0925d75b4a0a71b1c9a6b0e34c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, leche templada, levadura, azúcar, huevo y sal; amasar incorporando los 65 g de mantequilla hasta conseguir una masa elástica."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Cubrir y fermentar 60–90 minutos o hasta que aumente claramente de volumen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Estirar en rectángulo de aproximadamente 35 × 28 cm."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Untar con 55 g de mantequilla, espolvorear azúcar moreno y canela, enrollar por el lado largo y cortar 12 piezas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Disponer en bandeja con espacio, cubrir y fermentar de nuevo 30–45 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Hornear a 180 °C unos 22–28 minutos, hasta superficie dorada y centro de masa totalmente cocinado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Enfriar hasta templado y extender queso crema batido con azúcar glas; servir y refrigerar las sobras con cobertura."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas de pan",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Rollos de canela con glaseado de queso crema",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

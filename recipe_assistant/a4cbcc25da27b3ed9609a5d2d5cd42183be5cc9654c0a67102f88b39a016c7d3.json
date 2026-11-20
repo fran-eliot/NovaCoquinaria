@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Patatas a la importancia castellanas\n\n## Origen y contexto\n\n**Región:** Castilla y León. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 50–60 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de patatas para cocer\n- 2 huevos L\n- 80 g de harina de trigo para enharinar\n- 180 g de cebolla\n- 2 dientes de ajo\n- 100 ml de vino blanco seco\n- 500–650 ml de caldo de verduras suave o agua caliente\n- 1 hoja de laurel\n- una pizca de azafrán opcional\n- 4 cucharadas de aceite de oliva para fritura poco profunda, reponer si hace falta\n- sal, perejil fresco\n\n**Alérgenos:** Huevo, gluten (trigo); revisar caldo.\n\n## Elaboración\n\n1. Pelar y cortar las patatas en rodajas regulares de 1–1,5 cm; secarlas y salar ligeramente.\n2. Disponer harina y huevos batidos en recipientes separados. Enharinar las rodajas, sacudir el exceso y pasarlas por huevo.\n3. Freír por tandas a fuego medio en sartén con aceite, dorando ligeramente el rebozado por ambas caras sin pretender cocer por completo la patata; escurrir.\n4. En otra cazuela, pochar cebolla picada y ajo en dos cucharadas del aceite usado si está limpio; añadir el vino y reducir brevemente.\n5. Incorporar laurel, azafrán opcional y caldo caliente. Disponer las patatas rebozadas en una sola capa o dos muy cuidadas, parcialmente cubiertas.\n6. Cocer a hervor suave durante 18–25 minutos, moviendo la cazuela de vez en cuando sin remover las rodajas con fuerza.\n7. Comprobar que la patata está tierna hasta el centro, que el huevo está completamente cocido y que la salsa tiene textura ligeramente ligada. Corregir sal y añadir perejil.\n\n## Puntos críticos\n\n- La fritura inicial fija el rebozado, pero la patata se termina de cocinar en el caldo. Evitar hervir intensamente, pues se desprende la cobertura.\n- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |\n| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |\n| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.\n\n## Relaciones dentro del SGCC\n\n- [Patatas a la riojana con chorizo](./patatas_a_la_riojana_con_chorizo.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "60",
+      "min": "50",
+      "phase": "declared_total",
+      "raw": "50–60 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/patatas_a_la_importancia_castellanas.html",
+  "id": "REC-448",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas para cocer",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de patatas para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de patatas para cocer",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para enharinar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de harina de trigo para enharinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de harina de trigo para enharinar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de verduras suave o agua caliente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "500",
+        "raw": "500–650 ml de caldo de verduras suave o agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–650 ml de caldo de verduras suave o agua caliente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de azafrán opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de azafrán opcional",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de azafrán opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para fritura poco profunda, reponer si hace falta",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cucharadas de aceite de oliva para fritura poco profunda, reponer si hace falta",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "4 cucharadas de aceite de oliva para fritura poco profunda, reponer si hace falta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, perejil fresco",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, perejil fresco",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, perejil fresco",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/patatas_a_la_importancia_castellanas.md",
+  "source_sha256": "77424197d1fd2a38298403231fe1181065a37c8dfa234bc391f719b21198da4b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Pelar y cortar las patatas en rodajas regulares de 1–1,5 cm; secarlas y salar ligeramente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Disponer harina y huevos batidos en recipientes separados. Enharinar las rodajas, sacudir el exceso y pasarlas por huevo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Freír por tandas a fuego medio en sartén con aceite, dorando ligeramente el rebozado por ambas caras sin pretender cocer por completo la patata; escurrir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "En otra cazuela, pochar cebolla picada y ajo en dos cucharadas del aceite usado si está limpio; añadir el vino y reducir brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Incorporar laurel, azafrán opcional y caldo caliente. Disponer las patatas rebozadas en una sola capa o dos muy cuidadas, parcialmente cubiertas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Cocer a hervor suave durante 18–25 minutos, moviendo la cazuela de vez en cuando sin remover las rodajas con fuerza."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Comprobar que la patata está tierna hasta el centro, que el huevo está completamente cocido y que la salsa tiene textura ligeramente ligada. Corregir sal y añadir perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Patatas a la importancia castellanas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

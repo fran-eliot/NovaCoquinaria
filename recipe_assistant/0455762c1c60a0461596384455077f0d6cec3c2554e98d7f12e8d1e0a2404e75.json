@@ -1,0 +1,352 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Coca de recapte catalana con escalivada\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación doméstica de referencia inspirada en una elaboración regional, pendiente de contraste práctico. No se presenta como receta única o versión previamente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 cocas medianas (4–6 raciones) |\n| Tiempo orientativo | 35 min de preparación, 60–90 min de levado y 25–35 min de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de harina de trigo de fuerza media\n- 210 ml de agua templada\n- 5 g de levadura seca de panadería\n- 7 g de sal\n- 35 ml de aceite de oliva para la masa más 20 ml para acabar\n- 1 berenjena mediana (300 g)\n- 2 pimientos rojos (350 g en total)\n- 1 cebolla mediana (150 g)\n- 6 filetes de anchoa en conserva, opcionales\n- sal y pimienta al gusto\n\n**Alérgenos:** Trigo/gluten; pescado si se añaden anchoas.\n\n## Elaboración\n\n1. Asar pimientos, berenjena y cebolla a 210 °C durante 35–45 minutos, hasta que estén tiernos. Enfriar lo suficiente para manipular, pelar pimientos y berenjena y escurrir bien sus jugos.\n2. Mezclar harina, levadura seca, agua, sal y aceite de la masa; amasar 7–10 minutos hasta obtener una textura lisa y flexible.\n3. Tapar y dejar fermentar aproximadamente 60–90 minutos, hasta aumento visible de volumen, ajustando según temperatura ambiente.\n4. Dividir en dos, estirar sobre papel de horno en óvalos delgados de unos 3–5 mm y dejar reposar 10 minutos.\n5. Precalentar horno a 220 °C. Repartir sobre las cocas tiras escurridas de verduras asadas; rociar aceite y sazonar ligeramente.\n6. Hornear 20–28 minutos hasta masa cocida, borde dorado y base firme. Si se emplean anchoas en conserva listas para consumir, colocarlas los últimos 3–5 minutos o al salir del horno.\n7. Servir templada o a temperatura de servicio tras enfriado breve, sin mantener perecederos horas fuera del frío.\n\n## Puntos críticos\n\n- La coca de recapte admite coberturas tradicionales variadas; esta opción utiliza escalivada y anchoas opcionales, y se diferencia de la coca de trempó mallorquina y de la coca genérica de verduras.\n- Las hortalizas muy húmedas reblandecen la masa. Las anchoas suelen aportar bastante sal; probar antes de añadir más.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Base húmeda | Cobertura sin escurrir o masa gruesa | Escurrir verduras y estirar más fino |\n| Masa compacta | Fermentación insuficiente | Esperar aumento visible, no solo minutos fijos |\n| Bordes tostados y centro crudo | Carga excesiva o horno desigual | Reducir cobertura y hornear en parte baja |\n\n## Conservación\n\nEnfriar sin demora y guardar tapada en frigorífico a 4 °C o menos hasta 2 días; recalentar en horno hasta bien caliente. Si incorpora pescado, respetar cadena de frío.\n\n## Relaciones dentro del SGCC\n\n- [Escalivada](../04_Verduras/escalivada_de_berenjena_y_pimiento.md)\n- [Coca de trempó](../10_Horno/coca_de_trampo_mallorquina.md)\n- [Fermentar masas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos efectivos, tiempos, resultado y valoración después de elaborarla. Esta ficha no sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35 min de preparación, 60–90 min de levado y 25–35 min de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/coca_de_recapte_catalana_con_escalivada.html",
+  "id": "REC-531",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo de fuerza media",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de harina de trigo de fuerza media",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de harina de trigo de fuerza media",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "210",
+        "min": "210",
+        "raw": "210 ml de agua templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "210 ml de agua templada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de sal",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para la masa más 20 ml para acabar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva para la masa más 20 ml para acabar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva para la masa más 20 ml para acabar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "berenjena mediana (300 g)",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 berenjena mediana (300 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 berenjena mediana (300 g)",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos rojos (350 g en total)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 pimientos rojos (350 g en total)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 pimientos rojos (350 g en total)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana (150 g)",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana (150 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana (150 g)",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "filetes de anchoa en conserva, opcionales",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 filetes de anchoa en conserva, opcionales",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "6 filetes de anchoa en conserva, opcionales",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta al gusto",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal y pimienta al gusto",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/coca_de_recapte_catalana_con_escalivada.md",
+  "source_sha256": "349aca374e82ad7b6d7efb02ca374cb851025244d60200df11615c8948135357",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Asar pimientos, berenjena y cebolla a 210 °C durante 35–45 minutos, hasta que estén tiernos. Enfriar lo suficiente para manipular, pelar pimientos y berenjena y escurrir bien sus jugos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, levadura seca, agua, sal y aceite de la masa; amasar 7–10 minutos hasta obtener una textura lisa y flexible."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Tapar y dejar fermentar aproximadamente 60–90 minutos, hasta aumento visible de volumen, ajustando según temperatura ambiente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Dividir en dos, estirar sobre papel de horno en óvalos delgados de unos 3–5 mm y dejar reposar 10 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Precalentar horno a 220 °C. Repartir sobre las cocas tiras escurridas de verduras asadas; rociar aceite y sazonar ligeramente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Hornear 20–28 minutos hasta masa cocida, borde dorado y base firme. Si se emplean anchoas en conserva listas para consumir, colocarlas los últimos 3–5 minutos o al salir del horno."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Servir templada o a temperatura de servicio tras enfriado breve, sin mantener perecederos horas fuera del frío."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Coca de recapte catalana con escalivada",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "2 cocas medianas (4–6 raciones)",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

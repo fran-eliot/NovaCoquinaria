@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Tajín de garbanzos, calabaza y orejones\n\n## Descripción\n\nPreparación de referencia basada en **sofrito especiado y estofado dulce-salado**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica principal | Sofrito especiado y estofado dulce-salado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de garbanzos completamente cocidos y escurridos\n- 450 g de calabaza en dados de 2 cm\n- 90 g de orejones de albaricoque troceados\n- 160 g de cebolla picada\n- 250 g de tomate triturado\n- 250–350 ml de caldo vegetal\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de comino\n- ½ cucharadita de canela molida\n- ½ cucharadita de jengibre molido\n- sal y cilantro o perejil para servir\n\n**Alérgenos:** Revisar caldo y orejones comerciales, que pueden contener sulfitos.\n\n## Elaboración\n\n1. Pochar cebolla en aceite 8 minutos; incorporar comino, canela y jengibre y activar unos 30 segundos.\n2. Agregar tomate y reducir 6–8 minutos.\n3. Incorporar calabaza, orejones y caldo, tapar parcialmente y guisar 12–16 minutos a fuego suave.\n4. Añadir garbanzos completamente cocidos y continuar otros 8–10 minutos hasta que la calabaza esté tierna sin deshacerse.\n5. Destapar para reducir si la salsa está líquida; probar antes de salar por el caldo.\n6. Retirar del fuego, añadir hierbas frescas y servir con cuscús opcional preparado por separado.\n\n## Puntos críticos\n\n- Los garbanzos deben estar previamente cocidos. La cantidad de líquido depende del agua que suelte la calabaza y de la concentración del tomate; evitar una textura de sopa.\n- Distinguir las legumbres secas de las cocidas. Los tiempos de salteado, horneado o aliño no sustituyen la cocción segura de las legumbres secas.\n- Adaptar líquidos y tiempos al grosor, variedad y recipiente; utilizar utensilios limpios y refrigerar ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Legumbre demasiado firme | Cocción previa insuficiente | Terminar la cocción antes de preparar el plato |\n| Salsa aguada | Exceso de caldo o verduras húmedas | Reducir por separado o destapar al final |\n| Textura pastosa | Triturado o mezclado excesivo | Reservar parte de los ingredientes sin triturar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las ensaladas y cremas frías elaboradas con legumbres cocidas requieren higiene y conservación refrigerada; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Garbanzos al curry con coco y espinacas](./garbanzos_al_curry_con_coco_y_espinacas.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades, variedad, tiempo de cocción, textura y valoración. Esta propuesta no sustituye ninguna preparación doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **sofrito especiado y estofado dulce-salado**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/tajin_de_garbanzos_calabaza_y_orejones.html",
+  "id": "REC-398",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos y escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de garbanzos completamente cocidos y escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de garbanzos completamente cocidos y escurridos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza en dados de 2 cm",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de calabaza en dados de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de calabaza en dados de 2 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "orejones de albaricoque troceados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de orejones de albaricoque troceados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de orejones de albaricoque troceados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "250",
+        "raw": "250–350 ml de caldo vegetal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "250–350 ml de caldo vegetal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela molida",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre molido",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de jengibre molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de jengibre molido",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y cilantro o perejil para servir",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y cilantro o perejil para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y cilantro o perejil para servir",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/tajin_de_garbanzos_calabaza_y_orejones.md",
+  "source_sha256": "c381c11e8730f5ff579586512e28dcdcdc8a60a5f4a4d844820b293213b5d34e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Pochar cebolla en aceite 8 minutos; incorporar comino, canela y jengibre y activar unos 30 segundos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Agregar tomate y reducir 6–8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar calabaza, orejones y caldo, tapar parcialmente y guisar 12–16 minutos a fuego suave."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir garbanzos completamente cocidos y continuar otros 8–10 minutos hasta que la calabaza esté tierna sin deshacerse."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Destapar para reducir si la salsa está líquida; probar antes de salar por el caldo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Retirar del fuego, añadir hierbas frescas y servir con cuscús opcional preparado por separado."
+    }
+  ],
+  "techniques": [],
+  "title": "Tajín de garbanzos, calabaza y orejones",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

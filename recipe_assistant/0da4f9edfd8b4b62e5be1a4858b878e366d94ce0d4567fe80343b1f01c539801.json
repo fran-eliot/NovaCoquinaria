@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Minestrone con pasta pequeña y alubias\n\n## Descripción\n\nFórmula de referencia centrada en **sofrito de hortalizas y cocción escalonada de sopa con pasta**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Sofrito de hortalizas y cocción escalonada de sopa con pasta |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 130 g de pasta pequeña seca (ditalini o coditos)\n- 300 g de alubias blancas completamente cocidas y escurridas\n- 180 g de zanahoria en dados\n- 150 g de calabacín en dados\n- 120 g de cebolla picada\n- 100 g de apio en dados\n- 200 g de tomate triturado\n- 850–1000 ml de caldo de verduras\n- 2 cucharadas de aceite de oliva\n- 1 hoja de laurel\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo) y apio; revisar caldo comercial.\n\n## Elaboración\n\n1. Pochar cebolla, zanahoria y apio en una olla con aceite durante 8–10 minutos.\n2. Añadir tomate y reducir 5 minutos; incorporar caldo y laurel y cocer suavemente otros 10 minutos.\n3. Agregar calabacín y alubias ya cocidas; continuar 5 minutos para integrarlos en el caldo.\n4. Añadir la pasta pequeña y cocer el tiempo indicado en su envase, removiendo y añadiendo caldo caliente si espesa demasiado.\n5. Comprobar que la pasta esté completamente cocida y las verduras tiernas; retirar el laurel.\n6. Rectificar sal y pimienta y servir de inmediato para que la pasta no absorba todo el caldo.\n\n## Puntos críticos\n\n- Las alubias deben estar completamente cocidas antes de incorporarlas. La pasta absorbe caldo incluso después de apagar el fuego; si se guarda, conviene conservar pasta y caldo por separado.\n- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.\n- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |\n| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |\n| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md): absorción de caldo y control de textura.\n- [Pasta e ceci](./pasta_e_ceci.md)\n- [Sopa de garbanzos con fideos y limón](../03_Legumbres/sopa_de_garbanzos_con_fideos_y_limon.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **sofrito de hortalizas y cocción escalonada de sopa con pasta**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/minestrone_con_pasta_pequena_y_alubias.html",
+  "id": "REC-369",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta pequeña seca (ditalini o coditos)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de pasta pequeña seca (ditalini o coditos)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de pasta pequeña seca (ditalini o coditos)",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "alubias blancas completamente cocidas y escurridas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de alubias blancas completamente cocidas y escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de alubias blancas completamente cocidas y escurridas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de zanahoria en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de zanahoria en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de calabacín en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de calabacín en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "apio en dados",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de apio en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de apio en dados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de verduras",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1000",
+        "min": "850",
+        "raw": "850–1000 ml de caldo de verduras",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "850–1000 ml de caldo de verduras",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/minestrone_con_pasta_pequena_y_alubias.md",
+  "source_sha256": "56dcc532a06cb895fc6fc6b63736669afcba1e1eb4fe522bb716b662eda7260e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Pochar cebolla, zanahoria y apio en una olla con aceite durante 8–10 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Añadir tomate y reducir 5 minutos; incorporar caldo y laurel y cocer suavemente otros 10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Agregar calabacín y alubias ya cocidas; continuar 5 minutos para integrarlos en el caldo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir la pasta pequeña y cocer el tiempo indicado en su envase, removiendo y añadiendo caldo caliente si espesa demasiado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Comprobar que la pasta esté completamente cocida y las verduras tiernas; retirar el laurel."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Rectificar sal y pimienta y servir de inmediato para que la pasta no absorba todo el caldo."
+    }
+  ],
+  "techniques": [],
+  "title": "Minestrone con pasta pequeña y alubias",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

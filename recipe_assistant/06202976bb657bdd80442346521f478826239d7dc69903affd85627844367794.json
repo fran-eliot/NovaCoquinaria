@@ -1,0 +1,268 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 111,
+      "start_line": 15
+    },
+    "text": "\n# Panna cotta de vainilla\n\n## Descripción\n\nPostre frío de nata y leche estabilizado con gelatina. La textura correcta es temblorosa y cremosa, distinta del cuajado por huevo de un flan.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 moldes pequeños |\n| Preparación | 15 minutos, más refrigeración |\n| Cocinado | 5–10 minutos |\n| Dificultad | Media |\n| Técnica principal | Hidratación de gelatina y gelificación en frío |\n\n## Ingredientes\n\n- 400 ml de nata para montar\n- 200 ml de leche entera\n- 65 g de azúcar\n- 6 g de gelatina neutra en hojas o la equivalencia indicada por el fabricante\n- 1 cucharadita de extracto de vainilla\n- agua fría para hidratar gelatina\n\n**Alérgenos:** Leche. La gelatina convencional es de origen animal; revisar el producto y su capacidad gelificante.\n\n## Mise en place\n\nPreparar seis recipientes limpios de unos 100 ml. Hidratar la gelatina en agua fría siguiendo el tiempo y las instrucciones del fabricante; si es en polvo, respetar el método específico de hidratación.\n\n## Elaboración\n\n### 1. Calentar lácteos\n\nCalentar nata, leche, azúcar y vainilla en cazo a fuego medio-bajo hasta que el azúcar se disuelva y la mezcla esté muy caliente, sin hervor intenso.\n\n### 2. Incorporar gelatina\n\nRetirar del fuego. Escurrir la gelatina hidratada en hojas y disolverla en los lácteos calientes removiendo con suavidad; seguir las instrucciones de temperatura del producto.\n\n### 3. Repartir\n\nColar si quedan partículas, verter en recipientes limpios y dejar perder algo de calor sin prolongar la permanencia fuera de refrigeración.\n\n### 4. Enfriar y cuajar\n\nRefrigerar sin demoras cuando sea adecuado para los recipientes, durante al menos 4–6 horas o hasta que esté completamente cuajada.\n\n### 5. Servir\n\nServir en vaso o desmoldar brevemente con ayuda de agua templada en el exterior del molde, sin calentar el postre.\n\n## Puntos críticos\n\n- Demasiada gelatina produce una textura gomosa; pesar la cantidad.\n- El fabricante puede indicar hidratación y dosis diferentes para hojas y polvo.\n- La panna cotta es un postre lácteo perecedero: refrigerar y mantener frío.\n\n## Perfil esperado\n\nCuajado fino y tembloroso, sin grumos ni separación de líquido.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con ralladura de limón | Infusionar piel sin parte blanca y retirarla antes de cuajar |\n| Con coulis de fruta | Añadir fruta cocida y enfriada en el momento de servir |\n| Con yogur | Sustituir parte de la leche y vigilar temperatura y consistencia final |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| No cuaja | Dosis o hidratación insuficiente | Verificar gelatina y tiempo de frío |\n| Textura gomosa | Exceso de gelatina | Pesar y respetar proporciones |\n| Grumos | Gelatina sin disolver | Mezclar en líquido caliente y colar |\n\n## Conservación\n\nEnfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.\n\n## Relaciones dentro del SGCC\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Flan de huevo](./flan_de_huevo.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La gelificación en frío crea estructura sin necesidad de huevo ni horneado.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para hidratación de gelatina y gelificación en frío."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "15 minutos, más refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "10",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/panna_cotta_de_vainilla.html",
+  "id": "REC-0144",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "nata para montar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de nata para montar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de nata para montar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de leche entera",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "gelatina neutra en hojas o la equivalencia indicada por el fabricante",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de gelatina neutra en hojas o la equivalencia indicada por el fabricante",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de gelatina neutra en hojas o la equivalencia indicada por el fabricante",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "extracto de vainilla",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de extracto de vainilla",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de extracto de vainilla",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría para hidratar gelatina",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua fría para hidratar gelatina",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua fría para hidratar gelatina",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPreparar seis recipientes limpios de unos 100 ml. Hidratar la gelatina en agua fría siguiendo el tiempo y las instrucciones del fabricante; si es en polvo, respetar el método específico de hidratación.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/panna_cotta_de_vainilla.md",
+  "source_sha256": "04dd4e2220ab950f689cd109945e3bfddceb4b792eea114331f297f3f9dcee98",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Calentar lácteos\n\nCalentar nata, leche, azúcar y vainilla en cazo a fuego medio-bajo hasta que el azúcar se disuelva y la mezcla esté muy caliente, sin hervor intenso.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Incorporar gelatina\n\nRetirar del fuego. Escurrir la gelatina hidratada en hojas y disolverla en los lácteos calientes removiendo con suavidad; seguir las instrucciones de temperatura del producto.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Repartir\n\nColar si quedan partículas, verter en recipientes limpios y dejar perder algo de calor sin prolongar la permanencia fuera de refrigeración.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 4,
+      "text": "4. Enfriar y cuajar\n\nRefrigerar sin demoras cuando sea adecuado para los recipientes, durante al menos 4–6 horas o hasta que esté completamente cuajada.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nServir en vaso o desmoldar brevemente con ayuda de agua templada en el exterior del molde, sin calentar el postre.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 101,
+        "start_line": 101
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Panna cotta de vainilla",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 moldes pequeños",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

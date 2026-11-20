@@ -1,0 +1,356 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Gazpachos manchegos con pollo, conejo y torta cenceña\n\n## Origen y contexto\n\n**Región:** Castilla-La Mancha. La ficha propone una versión doméstica basada en la tradición regional; las variantes y las cantidades exactas pueden diferir según localidad y familia. No consta preparación ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo estimado | 80–100 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de pollo troceado con hueso\n- 450 g de conejo troceado con hueso\n- 220 g de torta cenceña seca troceada, comercial\n- 200 g de tomate triturado\n- 100 g de pimiento verde\n- 100 g de pimiento rojo\n- 3 dientes de ajo\n- 1,2–1,5 l de agua o caldo suave, orientativos\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de pimentón dulce\n- ½ cucharadita de tomillo o pebrella, si se dispone\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo) de la torta cenceña; revisar el caldo comercial.\n\n## Elaboración\n\n1. Secar las carnes y dorarlas por tandas en recipiente ancho con aceite. Añadir sal con moderación.\n2. Incorporar pimientos y ajo picados; sofreír 6–8 minutos y agregar tomate, reduciendo hasta perder parte de su agua.\n3. Separar brevemente del calor para añadir el pimentón y la pebrella o tomillo; mezclar.\n4. Verter el agua o caldo caliente y cocinar a hervor suave aproximadamente 40–50 minutos hasta que pollo y conejo estén completamente cocinados y tiernos; comprobar 74 °C en el pollo.\n5. Retirar las piezas y, cuando puedan manipularse, separar la carne de huesos y pequeños fragmentos. Devolver solo la carne deshuesada al guiso.\n6. Añadir las tortas cenceñas troceadas al caldo caliente y cocinar según su grosor y el envase, aproximadamente 10–18 minutos, añadiendo agua si absorben demasiado.\n7. Remover con cuidado para integrar y servir caliente cuando la torta esté cocida y el guiso jugoso.\n\n## Puntos críticos\n\n- Los gazpachos manchegos son un guiso caliente de carne y torta cenceña, no la sopa fría de tomate. Deshuesar con atención para evitar piezas pequeñas mezcladas con la torta.\n- Comprobar la cocción del ingrediente principal, las instrucciones de alimentos comerciales y el manejo higiénico de productos perecederos.\n- Ajustar agua, tiempos y tamaño de las piezas en la primera elaboración antes de fijar cantidades definitivas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Próximo ajuste |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |\n| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |\n| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Pollo al chilindrón](./pollo_al_chilindron_con_pimientos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.rtve.es/television/20240515/receta-gazpachos-manchegos/16102773.shtml)\n\n## Registro de prueba\n\nPendiente de anotar materia prima concreta, cantidades efectivas, tiempos, textura, resultado y valoración; ninguna versión propuesta sustituye elaboraciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/gazpachos_manchegos_con_pollo_conejo_y_torta_cencena.html",
+  "id": "REC-432",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pollo troceado con hueso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pollo troceado con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pollo troceado con hueso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "conejo troceado con hueso",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de conejo troceado con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de conejo troceado con hueso",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "torta cenceña seca troceada, comercial",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de torta cenceña seca troceada, comercial",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de torta cenceña seca troceada, comercial",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento rojo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave, orientativos",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": true,
+        "max": "1.5",
+        "min": "1.2",
+        "raw": "1,2–1,5 l de agua o caldo suave, orientativos",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1,2–1,5 l de agua o caldo suave, orientativos",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo o pebrella, si se dispone",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo o pebrella, si se dispone",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo o pebrella, si se dispone",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/gazpachos_manchegos_con_pollo_conejo_y_torta_cencena.md",
+  "source_sha256": "c5fea2c25c6d0f0a560ebdf7645378777e3f9fb28463a68c8899cc3ab737c092",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar las carnes y dorarlas por tandas en recipiente ancho con aceite. Añadir sal con moderación."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Incorporar pimientos y ajo picados; sofreír 6–8 minutos y agregar tomate, reduciendo hasta perder parte de su agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Separar brevemente del calor para añadir el pimentón y la pebrella o tomillo; mezclar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Verter el agua o caldo caliente y cocinar a hervor suave aproximadamente 40–50 minutos hasta que pollo y conejo estén completamente cocinados y tiernos; comprobar 74 °C en el pollo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Retirar las piezas y, cuando puedan manipularse, separar la carne de huesos y pequeños fragmentos. Devolver solo la carne deshuesada al guiso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Añadir las tortas cenceñas troceadas al caldo caliente y cocinar según su grosor y el envase, aproximadamente 10–18 minutos, añadiendo agua si absorben demasiado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Remover con cuidado para integrar y servir caliente cuando la torta esté cocida y el guiso jugoso."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Gazpachos manchegos con pollo, conejo y torta cenceña",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

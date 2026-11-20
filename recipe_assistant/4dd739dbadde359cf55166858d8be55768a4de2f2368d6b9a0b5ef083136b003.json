@@ -1,0 +1,294 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Soldaditos de Pavía de bacalao\n\n## Origen y contexto\n\n**Región:** Madrid y Andalucía. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tapas |\n| Tiempo orientativo | 35–45 min con bacalao desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de bacalao desalado sin piel ni espinas\n- 130 g de harina de trigo\n- 1 huevo\n- 130 ml de agua fría con gas\n- 4 g de impulsor químico\n- 1 pizca de azafrán o cúrcuma opcional\n- aceite para freír\n- 80 g de pimiento rojo asado, opcional\n\n**Alérgenos:** Pescado, huevo y trigo/gluten.\n\n## Elaboración\n\n1. Usar bacalao desalado siguiendo las indicaciones del proveedor, siempre refrigerado. Revisar espinas, cortar en tiras gruesas y secar bien.\n2. Batir huevo y agua fría, agregar harina, impulsor y azafrán opcional; mezclar brevemente hasta una pasta fluida que recubra el pescado.\n3. Calentar aceite a unos 175 °C. Sumergir las tiras en la pasta, dejando escurrir exceso.\n4. Freír en pequeñas tandas 3–5 min según grosor hasta rebozado dorado y bacalao completamente cocinado (63 °C como referencia en el centro).\n5. Escurrir sobre rejilla y servir caliente con tiras de pimiento asado si se desea.\n\n## Puntos críticos\n\n- Los soldaditos se preparan con tiras de bacalao y rebozado de fritura, no con merluza ni cazón en adobo.\n- Ajustar la consistencia de la pasta sin sobrebatir y verificar la cocción del pescado; la sal residual del bacalao varía.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Rebozado pesado | Pasta muy espesa | Añadir agua fría poco a poco |\n| Pescado salado | Desalado insuficiente | Respetar indicaciones del proveedor |\n| Rebozado blando | Aceite frío | Freír pocas tiras cada vez |\n\n## Conservación\n\nConsumir recién fritos. Refrigerar sobras sin demora a 4 °C o menos y consumir preferiblemente en 24 h; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Merluza a la romana](../06_Pescados_y_Mariscos/merluza_a_la_romana.md)\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras su elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min con bacalao desalado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Madrid y Andalucía. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/soldaditos_de_pavia_de_bacalao.html",
+  "id": "REC-565",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao desalado sin piel ni espinas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de bacalao desalado sin piel ni espinas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de bacalao desalado sin piel ni espinas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de harina de trigo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría con gas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 ml de agua fría con gas",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "130 ml de agua fría con gas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 g de impulsor químico",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "4 g de impulsor químico",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azafrán o cúrcuma opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de azafrán o cúrcuma opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de azafrán o cúrcuma opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo asado, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de pimiento rojo asado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de pimiento rojo asado, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/soldaditos_de_pavia_de_bacalao.md",
+  "source_sha256": "48be687370889a520b9383e41af05a18ae8962236640531e6c1cb0dd97922c83",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Usar bacalao desalado siguiendo las indicaciones del proveedor, siempre refrigerado. Revisar espinas, cortar en tiras gruesas y secar bien."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Batir huevo y agua fría, agregar harina, impulsor y azafrán opcional; mezclar brevemente hasta una pasta fluida que recubra el pescado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Calentar aceite a unos 175 °C. Sumergir las tiras en la pasta, dejando escurrir exceso."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Freír en pequeñas tandas 3–5 min según grosor hasta rebozado dorado y bacalao completamente cocinado (63 °C como referencia en el centro)."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Escurrir sobre rejilla y servir caliente con tiras de pimiento asado si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Soldaditos de Pavía de bacalao",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tapas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

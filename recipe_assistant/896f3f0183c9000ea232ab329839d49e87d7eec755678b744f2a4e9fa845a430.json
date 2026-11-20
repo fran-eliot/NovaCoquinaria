@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Ñoquis caseros de patata con mantequilla y salvia\n\n## Descripción\n\nPreparación de pasta que trabaja **masa de patata, formado y cocción breve**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Masa de patata, formado y cocción breve |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 650 g de patatas harinosas con piel;\n- 140–190 g de harina de trigo, según humedad;\n- 1 yema de huevo L;\n- 45 g de mantequilla;\n- 6–8 hojas de salvia fresca;\n- sal y pimienta;\n- 30 g de queso curado rallado opcional;\n\n**Alérgenos:** Trigo (gluten), huevo, leche.\n\n## Elaboración\n\n1. Cocer patatas enteras con piel hasta tiernas; escurrir bien, pelar con cuidado y pasar por pasapurés cuando estén templadas.\n2. Dejar salir vapor unos minutos; añadir yema, sal y 140 g de harina y unir con suavidad, incorporando más harina solo si hace falta.\n3. Dividir masa en cilindros de unos 2 cm y cortar piezas pequeñas; enharinar ligeramente la superficie de trabajo.\n4. Calentar abundante agua hasta hervor suave y cocer los ñoquis por tandas; retirarlos cuando suban a superficie y estén cocidos, comprobando una pieza.\n5. Mientras, fundir mantequilla a fuego medio y perfumar brevemente con salvia sin quemarla.\n6. Pasar los ñoquis escurridos a la sartén, mover suavemente y servir con pimienta y queso opcional.\n\n## Puntos críticos\n\n- Un amasado prolongado y exceso de harina endurecen los ñoquis; las patatas demasiado húmedas hacen difícil dar forma.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Patata](../11_Despensa/06_Verduras/patata.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **masa de patata, formado y cocción breve**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/noquis_caseros_de_patata_con_mantequilla_y_salvia.html",
+  "id": "REC-0248",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas harinosas con piel;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas harinosas con piel;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas harinosas con piel;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo, según humedad;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "190",
+        "min": "140",
+        "raw": "140–190 g de harina de trigo, según humedad;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "140–190 g de harina de trigo, según humedad;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "yema de huevo L;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 yema de huevo L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 yema de huevo L;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de mantequilla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de mantequilla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salvia fresca;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "6",
+        "raw": "6–8 hojas de salvia fresca;",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "6–8 hojas de salvia fresca;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de queso curado rallado opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de queso curado rallado opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/noquis_caseros_de_patata_con_mantequilla_y_salvia.md",
+  "source_sha256": "d8b819925fe824d6bc3bb3e9fd26d1f0a51234af796b2c1ef434116b047ed4f7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Cocer patatas enteras con piel hasta tiernas; escurrir bien, pelar con cuidado y pasar por pasapurés cuando estén templadas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Dejar salir vapor unos minutos; añadir yema, sal y 140 g de harina y unir con suavidad, incorporando más harina solo si hace falta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Dividir masa en cilindros de unos 2 cm y cortar piezas pequeñas; enharinar ligeramente la superficie de trabajo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Calentar abundante agua hasta hervor suave y cocer los ñoquis por tandas; retirarlos cuando suban a superficie y estén cocidos, comprobando una pieza."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Mientras, fundir mantequilla a fuego medio y perfumar brevemente con salvia sin quemarla."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Pasar los ñoquis escurridos a la sartén, mover suavemente y servir con pimienta y queso opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Ñoquis caseros de patata con mantequilla y salvia",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

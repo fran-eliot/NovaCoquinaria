@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 117,
+      "start_line": 15
+    },
+    "text": "\n# Pollo salteado con jengibre y soja\n\n## Descripción\n\nSalteado de pollo con pimiento y zanahoria, aromatizado con jengibre fresco, ajo y salsa de soja. Se diferencia del salteado vegetal básico por el acabado especiado y el control independiente del punto del pollo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 minutos |\n| Cocinado | 15–20 minutos, orientativos |\n| Dificultad | Media |\n| Técnica | Salteado por tandas |\n\n## Ingredientes\n\n- 450 g de pechuga de pollo en tiras uniformes;\n- 1 pimiento rojo (180 g);\n- 1 zanahoria (120 g);\n- 1/2 cebolla (80 g);\n- 2 dientes de ajo;\n- 15 g de jengibre fresco;\n- 2 cucharadas de aceite neutro;\n- 2 cucharadas de salsa de soja;\n- 3 cucharadas de agua;\n- 1 cucharadita de vinagre de arroz, opcional.\n\n**Alérgenos:** la salsa de soja contiene soja y puede contener trigo; comprobar etiquetado.\n\n## Mise en place\n\nLavar y cortar las verduras en tiras finas. Picar ajo y jengibre. Preparar el pollo crudo con utensilios separados de los vegetales listos para consumir. Mezclar soja, agua y vinagre opcional en un recipiente limpio.\n\n## Elaboración\n\n### 1. Cocinar el pollo\n\nCalentar una sartén amplia con parte del aceite. Saltear las tiras por tandas para favorecer el dorado. Comprobar con termómetro que las piezas alcanzan **74 °C en el centro**. Retirar a un plato limpio.\n\n### 2. Saltear verduras\n\nAñadir aceite restante y cocinar zanahoria, cebolla y pimiento unos 5–7 minutos, según corte y textura deseada.\n\n### 3. Incorporar aromáticos\n\nAñadir ajo y jengibre; cocinar aproximadamente un minuto, removiendo y evitando quemarlos.\n\n### 4. Integrar\n\nDevolver el pollo ya cocinado, añadir la salsa preparada y mezclar durante 1–2 minutos hasta calentar completamente y recubrir.\n\n### 5. Servir\n\nServir de inmediato, opcionalmente acompañado de arroz.\n\n## Puntos críticos\n\n- No lavar el pollo crudo ni reutilizar utensilios contaminados para servir.\n- La cocción segura del pollo se confirma con termómetro, no por color.\n- Cocinar por tandas evita que la sartén acumule agua.\n- La salsa de soja aporta sal; ajustar al final.\n- El jengibre y el ajo pueden quemarse si se incorporan demasiado pronto.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con brócoli | Escaldar brevemente, secar y saltear |\n| Con champiñones | Saltear por separado para evaporar humedad |\n| Con chile | Incorporar al final según tolerancia |\n| Con limón | Sustituir el vinagre por unas gotas al servir |\n\n## Diagnóstico\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Pollo seco | Cocción excesiva | Medir temperatura y retirar al punto |\n| Verduras aguadas | Sartén saturada | Trabajar por tandas |\n| Salsa salada | Exceso de soja | Reducir proporción y diluir |\n| Aromáticos amargos | Quemado | Añadir más tarde |\n\n## Conservación\n\nRefrigerar rápidamente las sobras en recipiente cerrado. Recalentar completamente y mantener separados los alimentos crudos y cocinados.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Cocinar pollo a la plancha](../00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md)\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n\n## Principio de NovaCoquinaria\n\n> El salteado por tandas permite controlar por separado la cocción segura del pollo y la textura de las verduras.\n\n## Utilizado por\n\nPlatos principales con arroz y salteados aromáticos."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "15–20 minutos, orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_salteado_con_jengibre_y_soja.html",
+  "id": "REC-0049",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pechuga de pollo en tiras uniformes;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pechuga de pollo en tiras uniformes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pechuga de pollo en tiras uniformes;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (180 g);",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria (120 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria (120 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria (120 g);",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (80 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla (80 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla (80 g);",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de agua;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de arroz, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de arroz, opcional.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de arroz, opcional.",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar y cortar las verduras en tiras finas. Picar ajo y jengibre. Preparar el pollo crudo con utensilios separados de los vegetales listos para consumir. Mezclar soja, agua y vinagre opcional en un recipiente limpio.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pollo_salteado_con_jengibre_y_soja.md",
+  "source_sha256": "4a4ff979026c510c4e8dbb791b63576ae4017e4af431751d754740c617fefb81",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Cocinar el pollo\n\nCalentar una sartén amplia con parte del aceite. Saltear las tiras por tandas para favorecer el dorado. Comprobar con termómetro que las piezas alcanzan **74 °C en el centro**. Retirar a un plato limpio.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Saltear verduras\n\nAñadir aceite restante y cocinar zanahoria, cebolla y pimiento unos 5–7 minutos, según corte y textura deseada.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Incorporar aromáticos\n\nAñadir ajo y jengibre; cocinar aproximadamente un minuto, removiendo y evitando quemarlos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Integrar\n\nDevolver el pollo ya cocinado, añadir la salsa preparada y mezclar durante 1–2 minutos hasta calentar completamente y recubrir.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nServir de inmediato, opcionalmente acompañado de arroz.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.html",
+      "label": "Cocinar pollo a la plancha",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Pollo salteado con jengibre y soja",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

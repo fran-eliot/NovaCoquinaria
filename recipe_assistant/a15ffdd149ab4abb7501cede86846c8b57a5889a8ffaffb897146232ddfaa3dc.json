@@ -1,0 +1,276 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Piriñaca gaditana de tomate, pimiento y cebolla\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación doméstica de referencia basada en los rasgos del plato; no se atribuye elaboración ni valoración previas y se identifican adaptaciones cuando corresponde.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones como acompañamiento |\n| Tiempo orientativo | 20 min más reposo frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 550 g de tomates maduros firmes\n- 180 g de pimiento verde\n- 120 g de cebolla blanca\n- 50 ml de aceite de oliva virgen extra\n- 20 ml de vinagre de Jerez, ajustar\n- sal\n- 120 g de atún en conserva escurrido, opcional\n\n**Alérgenos:** Sin alérgenos principales en la base; pescado si se añade atún; posibles sulfitos del vinagre.\n\n## Elaboración\n\n1. Lavar los tomates y el pimiento y pelar la cebolla; usar utensilios limpios y una tabla apta para verduras.\n2. Cortar el tomate en dados medianos y pimiento y cebolla en dados muy pequeños para una distribución uniforme.\n3. Mezclar aceite de oliva, vinagre y sal hasta formar un aliño sencillo.\n4. Incorporar el aliño a las verduras y mezclar sin aplastarlas.\n5. Refrigerar tapado durante 15–20 minutos para integrar sabores, evitando un reposo prolongado a temperatura ambiente.\n6. Servir fresca como acompañamiento de pescado o, si se desea, con atún de conserva añadido justo antes de comer.\n\n## Puntos críticos\n\n- La piriñaca gaditana es un picadillo aliñado de tomate, pimiento y cebolla; se diferencia de la pipirrana jiennense por no incorporar majado de yema cocida. El atún es opcional, no esencial.\n- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima preparación |\n|---|---|---|\n| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |\n| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |\n| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pipirrana jiennense](./pipirrana_jiennense_con_atun_y_huevo.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades y materias primas realmente utilizadas, tiempos, texturas y valoración. No se sustituye ninguna versión anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 min más reposo frío",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/pirinaca_gaditana_de_tomate_pimiento_y_cebolla.html",
+  "id": "REC-509",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomates maduros firmes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de tomates maduros firmes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de tomates maduros firmes",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento verde",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla blanca",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla blanca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla blanca",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de Jerez, ajustar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 ml de vinagre de Jerez, ajustar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "20 ml de vinagre de Jerez, ajustar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de atún en conserva escurrido, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de atún en conserva escurrido, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pirinaca_gaditana_de_tomate_pimiento_y_cebolla.md",
+  "source_sha256": "e10664beee750635a79227a4a942d64da866da44dc9e3e79cb46f4b47ee54dca",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar los tomates y el pimiento y pelar la cebolla; usar utensilios limpios y una tabla apta para verduras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cortar el tomate en dados medianos y pimiento y cebolla en dados muy pequeños para una distribución uniforme."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Mezclar aceite de oliva, vinagre y sal hasta formar un aliño sencillo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Incorporar el aliño a las verduras y mezclar sin aplastarlas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Refrigerar tapado durante 15–20 minutos para integrar sabores, evitando un reposo prolongado a temperatura ambiente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Servir fresca como acompañamiento de pescado o, si se desea, con atún de conserva añadido justo antes de comer."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Piriñaca gaditana de tomate, pimiento y cebolla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones como acompañamiento",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

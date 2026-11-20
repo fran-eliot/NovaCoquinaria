@@ -1,0 +1,273 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Pescado al vapor con jengibre y cebolleta de inspiración china\n\n## Descripción\n\n**Perfil:** China, cocción al vapor y aceite aromático. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 25–35 min |\n| Estado | Propuesta pendiente de prueba |\n\n## Ingredientes\n\n- 3 filetes gruesos de merluza o dorada, 150–180 g por persona\n- 25 g de jengibre fresco en juliana\n- 2 cebolletas en tiras finas\n- 2 cucharadas de salsa de soja clara\n- 2 cucharadas de agua\n- 2 cucharaditas de aceite de cacahuete o neutro\n- 1 cucharadita de aceite de sésamo opcional\n\n**Alérgenos:** Pescado, soja; posible trigo en soja, cacahuete o sésamo según aceite utilizado.\n\n## Elaboración\n\n1. Comprobar que el pescado está limpio y sin espinas accesibles, secarlo y conservarlo refrigerado hasta cocinar.\n2. Colocar el pescado en fuente adecuada para vapor, con la mitad del jengibre encima.\n3. Llevar el agua de la vaporera a ebullición, colocar la fuente sin sumergirla y tapar.\n4. Cocinar unos 7–12 minutos según grosor, comprobando 63 °C en el centro como referencia conservadora.\n5. Retirar el líquido excesivo de la fuente si es acuoso, añadir soja mezclada con dos cucharadas de agua y repartir la cebolleta y el jengibre restante.\n6. Calentar aparte el aceite neutro hasta muy caliente pero sin humo, verterlo con cuidado sobre los aromáticos y terminar con unas gotas de sésamo opcional.\n\n## Puntos críticos\n\n- El aceite caliente puede salpicar si hay agua acumulada; retirarla antes de verterlo y mantener distancia. No sustituir la comprobación del punto del pescado por el tiempo orientativo.\n- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.\n- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado observado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |\n| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |\n| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado al vapor](../00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md)\n- [Merluza al vapor con jengibre y soja](../06_Pescados_y_Mariscos/merluza_al_vapor_con_jengibre.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, producto, equipo, temperatura o tiempos, textura, ajustes y valoración. No se atribuye esta propuesta a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "declared_total",
+      "raw": "25–35 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "**Perfil:** China, cocción al vapor y aceite aromático. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Propuesta pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pescado_al_vapor_con_jengibre_y_cebolleta_estilo_chino.html",
+  "id": "REC-349",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes gruesos de merluza o dorada, 150–180 g por persona",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 filetes gruesos de merluza o dorada, 150–180 g por persona",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 filetes gruesos de merluza o dorada, 150–180 g por persona",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en juliana",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de jengibre fresco en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de jengibre fresco en juliana",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolletas en tiras finas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebolletas en tiras finas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebolletas en tiras finas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja clara",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete o neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de aceite de cacahuete o neutro",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de aceite de cacahuete o neutro",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/pescado_al_vapor_con_jengibre_y_cebolleta_estilo_chino.md",
+  "source_sha256": "0738c6a7b16ffa8076a29b8dd146b9301e60cfea914b9a679141eec73852dab1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Comprobar que el pescado está limpio y sin espinas accesibles, secarlo y conservarlo refrigerado hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Colocar el pescado en fuente adecuada para vapor, con la mitad del jengibre encima."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Llevar el agua de la vaporera a ebullición, colocar la fuente sin sumergirla y tapar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Cocinar unos 7–12 minutos según grosor, comprobando 63 °C en el centro como referencia conservadora."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Retirar el líquido excesivo de la fuente si es acuoso, añadir soja mezclada con dos cucharadas de agua y repartir la cebolleta y el jengibre restante."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Calentar aparte el aceite neutro hasta muy caliente pero sin humo, verterlo con cuidado sobre los aromáticos y terminar con unas gotas de sésamo opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.html",
+      "label": "Cocinar pescado al vapor",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md"
+    }
+  ],
+  "title": "Pescado al vapor con jengibre y cebolleta de inspiración china",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 16
+    },
+    "text": "\n# Polvorones de almendra y canela\n\n## Origen y contexto\n\n**Región:** Andalucía, tradición navideña española. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–22 unidades |\n| Tiempo orientativo | 70 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo\n- 100 g de almendra molida\n- 150 g de manteca de cerdo\n- 120 g de azúcar glas\n- 3 g de canela\n- azúcar glas para acabado\n\n**Alérgenos:** Trigo/gluten y almendra.\n\n## Elaboración\n\n1. Extender harina en bandeja y tostar a 150 °C durante 25–35 minutos, removiendo; dejar enfriar completamente.\n2. Tostar almendra por separado a temperatura moderada hasta ligeramente dorada y enfriar.\n3. Mezclar harina, almendra, azúcar y canela; añadir manteca blanda y trabajar solo hasta compactar.\n4. Estirar entre papeles hasta 2 cm y cortar piezas ovaladas. Refrigerar 20 minutos.\n5. Hornear a 175 °C durante 15–20 minutos hasta ligeramente dorados. Enfriar completamente sin mover y espolvorear azúcar glas.\n\n## Puntos críticos\n\n- La textura buscada es friable y se deshace en boca. Se diferencia de la ficha de mantecados por la proporción de sólidos, forma y acabado, sin reclamar una separación universal entre ambas familias.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Se rompen al mover | Todavía calientes | Enfriar totalmente |\n| Textura dura | Exceso de amasado | Trabajar solo hasta compactar |\n\n## Conservación\n\nGuardar completamente fríos en recipiente hermético y seco durante 7–10 días como orientación doméstica.\n\n## Relaciones dentro del SGCC\n\n- [mantecados de estepa de almendra](../08_Postres/mantecados_de_estepa_de_almendra.md)\n- [tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "70 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** Andalucía, tradición navideña española. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/polvorones_de_almendra_y_canela.html",
+  "id": "REC-589",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de almendra molida",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de manteca de cerdo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de manteca de cerdo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de azúcar glas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de azúcar glas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 g de canela",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "3 g de canela",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para acabado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar glas para acabado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar glas para acabado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/polvorones_de_almendra_y_canela.md",
+  "source_sha256": "9dc9777962cd869c3684d1b7be9b38fd1741f6a9e344e6f3ca30ebb7b8e2e7c1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Extender harina en bandeja y tostar a 150 °C durante 25–35 minutos, removiendo; dejar enfriar completamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Tostar almendra por separado a temperatura moderada hasta ligeramente dorada y enfriar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Mezclar harina, almendra, azúcar y canela; añadir manteca blanda y trabajar solo hasta compactar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Estirar entre papeles hasta 2 cm y cortar piezas ovaladas. Refrigerar 20 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Hornear a 175 °C durante 15–20 minutos hasta ligeramente dorados. Enfriar completamente sin mover y espolvorear azúcar glas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "tostar frutos secos y semillas",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Polvorones de almendra y canela",
+  "yield": {
+    "max": "22",
+    "min": "18",
+    "raw": "18–22 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "unidad"
+  }
+}

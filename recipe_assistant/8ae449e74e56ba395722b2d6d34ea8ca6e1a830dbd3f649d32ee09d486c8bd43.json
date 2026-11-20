@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Arroz al horno con berenjena, tomate y mozzarella\n\n## Descripción\n\nPreparación de referencia basada en **precocción de arroz, reducción y gratinado final**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica principal | Precocción de arroz, reducción y gratinado final |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 280 g de arroz redondo\n- 450 g de berenjena en dados\n- 350 g de tomate triturado\n- 150 g de mozzarella escurrida en dados\n- 130 g de cebolla picada\n- 2 dientes de ajo\n- 500–600 ml de caldo vegetal caliente, orientativos\n- 3 cucharadas de aceite de oliva\n- 1 cucharadita de orégano\n- sal y pimienta\n\n**Alérgenos:** Leche; revisar caldo comercial.\n\n## Elaboración\n\n1. Precalentar horno a 195 °C, calor arriba y abajo. Secar la berenjena cortada, mezclar con una cucharada de aceite y asar en bandeja 15–20 minutos hasta tierna.\n2. Pochar cebolla y ajo en cazuela apta para horno con aceite restante; añadir tomate y reducir 8–10 minutos.\n3. Incorporar arroz y parte del caldo caliente; cocinar unos 7–8 minutos a hervor suave, dejando el grano todavía firme y con líquido suficiente.\n4. Mezclar la berenjena asada con el arroz, ajustar el caldo y pasar a una fuente si la cazuela no es apta; cubrir y hornear unos 12–18 minutos, comprobando el punto de arroz y líquido.\n5. Destapar, distribuir mozzarella bien escurrida y orégano; gratinar 4–6 minutos, vigilando el dorado.\n6. Reposar unos 5 minutos y servir, comprobando que el arroz esté completamente cocido.\n\n## Puntos críticos\n\n- El arroz precocido termina en horno: cantidad de caldo y tiempo cambian según el recipiente. Escurrir mozzarella y secar berenjena para evitar un gratinado acuoso.\n- Ajustar la proporción de caldo a la variedad de arroz, el recipiente y la evaporación; las cantidades propuestas no garantizan el mismo punto en todos los equipos.\n- Cocinar completamente las proteínas y mantener separados utensilios usados con alimentos crudos y preparados.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Corrección para otra prueba |\n|---|---|---|\n| Arroz duro y seco | Faltó líquido o hubo evaporación excesiva | Ajustar caldo caliente y fuego antes de que se seque |\n| Arroz demasiado blando | Exceso de líquido o cocción prolongada | Medir caldo y comprobar el grano hacia el final |\n| Fondo quemado | Temperatura alta o sofrito demasiado concentrado | Controlar fuego y usar recipiente de fondo uniforme |\n\n## Conservación\n\nServir preferiblemente recién hecho. Si queda arroz, repartir en recipientes poco profundos, **enfriar rápidamente y refrigerar sin demora**. No mantener arroz cocido horas a temperatura ambiente: un recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente antes de servir los restos.\n\n## Relaciones dentro del SGCC\n\n- [Arroz al horno con garbanzos y patata](./arroz_al_horno_con_garbanzos_y_patata.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes efectivamente utilizados, proporción real de caldo, recipiente, tiempo de cocción, punto del grano y valoración. Ninguna cantidad se atribuye a versiones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **precocción de arroz, reducción y gratinado final**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_al_horno_con_berenjena_tomate_y_mozzarella.html",
+  "id": "REC-315",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de arroz redondo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "berenjena en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de berenjena en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de berenjena en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mozzarella escurrida en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de mozzarella escurrida en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de mozzarella escurrida en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal caliente, orientativos",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": true,
+        "max": "600",
+        "min": "500",
+        "raw": "500–600 ml de caldo vegetal caliente, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–600 ml de caldo vegetal caliente, orientativos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_al_horno_con_berenjena_tomate_y_mozzarella.md",
+  "source_sha256": "c3acd4b3e79361e0efa07b576001a2e3dedaaac0627f70f594e5788515a0dc55",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 195 °C, calor arriba y abajo. Secar la berenjena cortada, mezclar con una cucharada de aceite y asar en bandeja 15–20 minutos hasta tierna."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo en cazuela apta para horno con aceite restante; añadir tomate y reducir 8–10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar arroz y parte del caldo caliente; cocinar unos 7–8 minutos a hervor suave, dejando el grano todavía firme y con líquido suficiente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Mezclar la berenjena asada con el arroz, ajustar el caldo y pasar a una fuente si la cazuela no es apta; cubrir y hornear unos 12–18 minutos, comprobando el punto de arroz y líquido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Destapar, distribuir mozzarella bien escurrida y orégano; gratinar 4–6 minutos, vigilando el dorado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Reposar unos 5 minutos y servir, comprobando que el arroz esté completamente cocido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz al horno con berenjena, tomate y mozzarella",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

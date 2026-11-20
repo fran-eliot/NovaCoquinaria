@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 14
+    },
+    "text": "\n# Pavo en escabeche suave de naranja y laurel\n\n## Descripción\n\nPreparación de referencia basada en **dorado, cocción en escabeche y reposo refrigerado**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 45–60 min más enfriado |\n| Técnica principal | Dorado, cocción en escabeche y reposo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de contramuslos de pavo deshuesados en trozos grandes\n- 150 g de cebolla en juliana\n- 100 g de zanahoria en rodajas finas\n- 2 dientes de ajo enteros chafados\n- 90 ml de vinagre de vino blanco\n- 120 ml de zumo de naranja\n- 150 ml de agua\n- 60 ml de aceite de oliva\n- 2 hojas de laurel\n- 8 granos de pimienta negra\n- sal al gusto\n\n**Alérgenos:** Revisar vinagre y condimentos envasados.\n\n## Elaboración\n\n1. Secar el pavo y dorar ligeramente los trozos en cazuela con parte del aceite; retirar sin considerarlos cocidos.\n2. Rehogar cebolla, zanahoria y ajo en el aceite restante durante 5–7 minutos sin quemar.\n3. Añadir vinagre, zumo de naranja, agua, laurel y pimienta; llevar a hervor suave.\n4. Reincorporar el pavo y cocinar tapado a fuego suave aproximadamente 20–30 minutos hasta 74 °C en el centro de los trozos más gruesos.\n5. Comprobar el equilibrio de acidez y sal, apagar, retirar las hojas de laurel enteras y dejar bajar el calor brevemente.\n6. Distribuir pavo y líquido en recipientes poco profundos, enfriar rápidamente, refrigerar tapado y servir frío o tibio tras recalentamiento adecuado.\n\n## Puntos críticos\n\n- El escabeche doméstico **no es una conserva estable a temperatura ambiente**: requiere refrigeración. La acidez no sustituye la cocción completa ni justifica dejar el alimento templado durante horas.\n- El tiempo varía según tamaño, corte, recipiente y calor; comprobar la cocción completa y, cuando proceda, utilizar termómetro.\n- Evitar la contaminación cruzada entre carne cruda y alimentos listos para comer. Retirar las hojas de laurel antes del servicio; se emplean para infusionar, no para comerlas.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Carne poco tierna | Cocción insuficiente para el corte o hervor demasiado intenso | Adaptar el tiempo y utilizar calor suave en guisos |\n| Salsa demasiado líquida | Ingredientes con humedad o reducción escasa | Reducir la salsa antes del servicio, sin resecar la carne |\n| Exterior demasiado tostado | Dorado inicial demasiado intenso | Moderar el fuego antes de incorporar el líquido del escabeche |\n\n## Conservación\n\nServir recién cocinado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerar sin demora. Los adobos y escabeches caseros no sustituyen refrigeración, controles de temperatura ni técnicas validadas de conservación. Recalentar completamente las porciones destinadas a servirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Laurel](../11_Despensa/08_Especias/laurel.md): dosificación e infusión aromática.\n- [Sardinas en escabeche suave](../06_Pescados_y_Mariscos/sardinas_en_escabeche_suave.md)\n- [Pollo al ajillo con vino blanco](./pollo_al_ajillo_con_vino_blanco.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, corte, equipo, temperatura interior, tiempos, textura y valoración. No se atribuye esta fórmula a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–60 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado, cocción en escabeche y reposo refrigerado**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/pavo_en_escabeche_suave_de_naranja_y_laurel.html",
+  "id": "REC-327",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pavo deshuesados en trozos grandes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de contramuslos de pavo deshuesados en trozos grandes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de contramuslos de pavo deshuesados en trozos grandes",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla en juliana",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en rodajas finas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de zanahoria en rodajas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de zanahoria en rodajas finas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo enteros chafados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo enteros chafados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo enteros chafados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de zumo de naranja",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de zumo de naranja",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "granos de pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 granos de pimienta negra",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 granos de pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pavo_en_escabeche_suave_de_naranja_y_laurel.md",
+  "source_sha256": "95e6377dacc915a8686df7a27cd79a1f5235875dcc259a550894cf10cb3d2d74",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Secar el pavo y dorar ligeramente los trozos en cazuela con parte del aceite; retirar sin considerarlos cocidos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Rehogar cebolla, zanahoria y ajo en el aceite restante durante 5–7 minutos sin quemar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Añadir vinagre, zumo de naranja, agua, laurel y pimienta; llevar a hervor suave."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Reincorporar el pavo y cocinar tapado a fuego suave aproximadamente 20–30 minutos hasta 74 °C en el centro de los trozos más gruesos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Comprobar el equilibrio de acidez y sal, apagar, retirar las hojas de laurel enteras y dejar bajar el calor brevemente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Distribuir pavo y líquido en recipientes poco profundos, enfriar rápidamente, refrigerar tapado y servir frío o tibio tras recalentamiento adecuado."
+    }
+  ],
+  "techniques": [],
+  "title": "Pavo en escabeche suave de naranja y laurel",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

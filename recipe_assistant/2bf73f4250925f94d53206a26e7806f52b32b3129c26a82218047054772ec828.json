@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Batido verde de kiwi, manzana y espinacas\n\n## Descripción\n\nPreparación de referencia basada en **triturado de fruta y hoja fresca**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 vasos |\n| Técnica principal | Triturado de fruta y hoja fresca |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 kiwis maduros, unos 150 g pelados\n- 1 manzana mediana, unos 160 g sin corazón\n- 45 g de hojas tiernas de espinaca frescas y aptas para consumo en crudo\n- 250 ml de agua potable fría\n- 1 cucharada de zumo de limón\n- hielo opcional\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica; comprobar tolerancia individual al kiwi.\n\n## Elaboración\n\n1. Lavar muy bien manzana y espinacas, utilizando hojas aptas para consumo en crudo; pelar los kiwis.\n2. Retirar corazón y semillas de la manzana y cortarla en dados pequeños.\n3. Poner agua fría, kiwi, manzana y espinacas en la batidora.\n4. Triturar hasta lograr una bebida uniforme, interrumpiendo para bajar los restos adheridos a las paredes.\n5. Añadir zumo de limón, probar y ajustar con agua fría si la mezcla queda espesa.\n6. Servir inmediatamente con hielo opcional, evitando guardar durante horas una bebida de hojas frescas trituradas fuera del frigorífico.\n\n## Puntos críticos\n\n- Utilizar espinacas limpias y aptas para consumo crudo; este batido no constituye una esterilización ni un tratamiento térmico de las hojas. La fruta fresca triturada cambia de color y textura durante el reposo.\n- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.\n- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.\n\n## Diagnóstico\n\n| Observación | Causa probable | Ajuste para otra prueba |\n|---|---|---|\n| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |\n| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |\n| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |\n\n## Conservación\n\nPreparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.\n\n## Relaciones dentro del SGCC\n\n- [Espinacas](../11_Despensa/06_Verduras/espinacas.md): selección y manejo de hojas frescas.\n- [Batido de pera, yogur y canela](./batido_de_pera_yogur_y_canela.md)\n- [Limonada casera](./limonada_casera.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar productos y cantidades efectivas, temperatura, tiempos, textura, ajustes y valoración. No se modifica ni presupone ningún resultado doméstico anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **triturado de fruta y hoja fresca**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/batido_verde_de_kiwi_manzana_y_espinacas.html",
+  "id": "REC-393",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "kiwis maduros, unos 150 g pelados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 kiwis maduros, unos 150 g pelados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 kiwis maduros, unos 150 g pelados",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "manzana mediana, unos 160 g sin corazón",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 manzana mediana, unos 160 g sin corazón",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 manzana mediana, unos 160 g sin corazón",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "hojas tiernas de espinaca frescas y aptas para consumo en crudo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de hojas tiernas de espinaca frescas y aptas para consumo en crudo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de hojas tiernas de espinaca frescas y aptas para consumo en crudo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua potable fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua potable fría",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/batido_verde_de_kiwi_manzana_y_espinacas.md",
+  "source_sha256": "ad6e2f6b8b97076e03ff128b9b9032a0ab05c3e164d860bebc40d1555b466af7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar muy bien manzana y espinacas, utilizando hojas aptas para consumo en crudo; pelar los kiwis."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Retirar corazón y semillas de la manzana y cortarla en dados pequeños."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Poner agua fría, kiwi, manzana y espinacas en la batidora."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Triturar hasta lograr una bebida uniforme, interrumpiendo para bajar los restos adheridos a las paredes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Añadir zumo de limón, probar y ajustar con agua fría si la mezcla queda espesa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente con hielo opcional, evitando guardar durante horas una bebida de hojas frescas trituradas fuera del frigorífico."
+    }
+  ],
+  "techniques": [],
+  "title": "Batido verde de kiwi, manzana y espinacas",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

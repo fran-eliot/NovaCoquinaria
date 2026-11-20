@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Salmón a la plancha con salsa de yogur y eneldo\n\n## Descripción\n\nPreparación de referencia basada en **dorado de pescado y salsa fría**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Dorado de pescado y salsa fría |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 3 lomos de salmón de 150–170 g, sin espinas visibles\n- 150 g de yogur natural\n- 1 cucharada de zumo de limón\n- 1 cucharadita de eneldo seco o 1 cucharada fresco\n- 1 cucharada de aceite de oliva\n- sal y pimienta negra\n\n**Alérgenos:** Pescado y leche.\n\n## Elaboración\n\n1. Revisar los lomos para retirar espinas accesibles, secar con papel alimentario y mantener refrigerados hasta cocinar.\n2. Mezclar yogur refrigerado, zumo de limón y eneldo; salpimentar ligeramente y guardar la salsa en el frigorífico.\n3. Calentar una sartén antiadherente con el aceite a fuego medio-alto y colocar el salmón con la piel hacia abajo si la tiene.\n4. Dorar sin mover 4–6 minutos según grosor y bajar ligeramente el fuego si la piel se oscurece demasiado.\n5. Dar la vuelta y terminar 2–5 minutos más, comprobando el centro con termómetro hasta 63 °C como referencia conservadora de cocción.\n6. Servir de inmediato con la salsa fría aparte para no deshacer el dorado.\n\n## Puntos críticos\n\n- El grosor importa más que el peso total; evitar prolongar la cocción solo para conseguir color. La salsa láctea se conserva refrigerada y nunca entra en contacto con pescado crudo.\n- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.\n- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |\n| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |\n| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Salsa de yogur, limón y hierbas base](../12_Plantillas/02_Salsas/salsa_yogur_limon_y_hierbas_base.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, peso efectivo, método, tiempo, temperatura, resultado y valoración. No se atribuyen estas cantidades a una preparación anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado de pescado y salsa fría**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/salmon_a_la_plancha_con_salsa_de_yogur_y_eneldo.html",
+  "id": "REC-298",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de salmón de 150–170 g, sin espinas visibles",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 lomos de salmón de 150–170 g, sin espinas visibles",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 lomos de salmón de 150–170 g, sin espinas visibles",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de yogur natural",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de yogur natural",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "eneldo seco o 1 cucharada fresco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de eneldo seco o 1 cucharada fresco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de eneldo seco o 1 cucharada fresco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/salmon_a_la_plancha_con_salsa_de_yogur_y_eneldo.md",
+  "source_sha256": "355147a50d9b6532a9bae2ff5ca20cd79ec778559ebb8e6d67adbe52096e4501",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Revisar los lomos para retirar espinas accesibles, secar con papel alimentario y mantener refrigerados hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Mezclar yogur refrigerado, zumo de limón y eneldo; salpimentar ligeramente y guardar la salsa en el frigorífico."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Calentar una sartén antiadherente con el aceite a fuego medio-alto y colocar el salmón con la piel hacia abajo si la tiene."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Dorar sin mover 4–6 minutos según grosor y bajar ligeramente el fuego si la piel se oscurece demasiado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Dar la vuelta y terminar 2–5 minutos más, comprobando el centro con termómetro hasta 63 °C como referencia conservadora de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir de inmediato con la salsa fría aparte para no deshacer el dorado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Salmón a la plancha con salsa de yogur y eneldo",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Falafel de garbanzos remojados al horno\n\n## Descripción\n\nPreparación de referencia basada en **remojo refrigerado, triturado grueso y asado**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16 unidades pequeñas |\n| Técnica principal | Remojo refrigerado, triturado grueso y asado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de garbanzos secos\n- 75 g de cebolla\n- 2 dientes de ajo\n- 25 g de perejil fresco lavado\n- 1 cucharadita de comino molido\n- ½ cucharadita de cilantro molido\n- ½ cucharadita de impulsor químico opcional\n- 2 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Revisar impulsor químico comercial.\n\n## Elaboración\n\n1. Revisar y lavar los garbanzos secos; remojarlos en abundante agua potable dentro del frigorífico entre 12 y 18 horas.\n2. Escurrirlos totalmente y desechar el agua de remojo. No usar garbanzos cocidos ni probar la masa cruda.\n3. Triturar por pulsaciones con cebolla, ajo, perejil, especias, sal e impulsor opcional hasta obtener granulado fino que se pueda compactar; evitar un puré líquido.\n4. Refrigerar la mezcla tapada 30 minutos y precalentar el horno a 200 °C.\n5. Formar piezas pequeñas y ligeramente aplanadas; colocarlas en bandeja engrasada y pincelar con aceite.\n6. Hornear 20–30 minutos, girando con cuidado a mitad, hasta que las piezas estén doradas y el interior completamente cocinado.\n7. Servir calientes con salsa o ensalada; anotar en la primera prueba si la textura requiere un formado más fino.\n\n## Puntos críticos\n\n- La harina o el garbanzo crudo insuficientemente cocinado puede causar molestias. La cocción en horno de garbanzos solo remojados puede ser menos uniforme que en fritura; hacer piezas pequeñas y comprobar que el centro esté completamente cocido, sin textura cruda.\n- Ajustar los tiempos según el grosor, el recipiente y la temperatura real del horno. Verificar la cocción completa, especialmente de pescados y rellenos.\n- Lavar y manipular los ingredientes con higiene, separar utensilios para productos crudos y cocinados y mantener refrigerados los perecederos.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior dorado e interior firme | Temperatura elevada o piezas gruesas | Reducir calor, precocer o prolongar con protección |\n| Relleno acuoso | Verduras o lácteos sin escurrir | Reducir y escurrir antes del montaje |\n| Textura seca | Tiempo prolongado o falta de humedad | Comprobar antes el punto y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos y cerrados. Mantener refrigeradas las preparaciones con quesos frescos y no dejar productos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Tortitas especiadas de garbanzos al horno](../03_Legumbres/tortitas_de_garbanzos_especiadas_al_horno.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, molde o bandeja, temperatura, duración, textura y valoración. No se modifica ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **remojo refrigerado, triturado grueso y asado**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/falafel_de_garbanzos_remojados_al_horno.html",
+  "id": "REC-384",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de garbanzos secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de garbanzos secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "75 g de cebolla",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco lavado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de perejil fresco lavado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de perejil fresco lavado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro molido",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cilantro molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cilantro molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de impulsor químico opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de impulsor químico opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/falafel_de_garbanzos_remojados_al_horno.md",
+  "source_sha256": "6fcae8f625cfbb0bffc1a9b4c67b38fd8b74572a1098f6dc7aab225941a6338f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Revisar y lavar los garbanzos secos; remojarlos en abundante agua potable dentro del frigorífico entre 12 y 18 horas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrirlos totalmente y desechar el agua de remojo. No usar garbanzos cocidos ni probar la masa cruda."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Triturar por pulsaciones con cebolla, ajo, perejil, especias, sal e impulsor opcional hasta obtener granulado fino que se pueda compactar; evitar un puré líquido."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Refrigerar la mezcla tapada 30 minutos y precalentar el horno a 200 °C."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Formar piezas pequeñas y ligeramente aplanadas; colocarlas en bandeja engrasada y pincelar con aceite."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear 20–30 minutos, girando con cuidado a mitad, hasta que las piezas estén doradas y el interior completamente cocinado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir calientes con salsa o ensalada; anotar en la primera prueba si la textura requiere un formado más fino."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Falafel de garbanzos remojados al horno",
+  "yield": {
+    "max": "16",
+    "min": "16",
+    "raw": "16 unidades pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

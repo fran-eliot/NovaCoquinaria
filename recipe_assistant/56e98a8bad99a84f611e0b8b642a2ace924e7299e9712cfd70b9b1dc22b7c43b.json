@@ -1,0 +1,380 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Fideuà marinera de inspiración Gandia\n\n## Origen y contexto\n\n**Ámbito gastronómico:** Gandia, Comunitat Valenciana. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 45–60 min, con fumet ya preparado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 360 g de fideos secos para fideuà, preferentemente n.º 4 según la Asociación de Fideuà de Gandia\n- 350 g de rape en dados sin espinas visibles\n- 8 gambas grandes enteras o peladas según presentación\n- 4 cigalas medianas opcionales, para respetar el perfil marinero de Gandia\n- 200 g de tomate triturado o rallado\n- 1 cebolla pequeña rallada\n- 2 dientes de ajo\n- 1 cucharadita de pimentón dulce\n- una pizca de azafrán\n- 900–1100 ml de fumet de pescado caliente, orientativos según fideo y recipiente\n- 3 cucharadas de aceite de oliva\n- sal al final\n\n**Alérgenos:** Gluten (trigo), pescado y crustáceos; revisar fumet comercial.\n\n## Elaboración\n\n1. Preparar con antelación un fumet de pescado seguro y mantenerlo muy caliente. Limpiar y secar el rape y marisco, retirando fragmentos de espina y caparazón.\n2. Calentar la paella o recipiente ancho con aceite; marcar gambas y cigalas brevemente y retirarlas para no sobrecocerlas.\n3. Añadir cebolla rallada y ajo; pochar sin quemar. Incorporar tomate y reducir hasta que pierda buena parte del líquido.\n4. Añadir pimentón apartado un momento del fuego y mezclar con azafrán; incorporar rape y saltear brevemente.\n5. Verter el fumet caliente y repartir los fideos uniformemente, sin remover en exceso tras establecer la cocción.\n6. Cocinar según el calibre y envase del fideo, aproximadamente 10–13 minutos en total, ajustando líquido y fuego. Reincorporar gambas y cigalas en los últimos minutos y cocinar completamente el pescado y crustáceos.\n7. Comprobar que los fideos estén tiernos, el rape alcance 63 °C en el centro como referencia conservadora y el marisco esté completamente cocido; reposar 3–5 minutos antes de servir.\n\n## Puntos críticos\n\n- Esta es una formulación doméstica inspirada en Gandia, no una reproducción certificada de la receta oficial. Los fideos n.º 3 o n.º 4 y sus marcas absorben cantidades distintas de fumet; medir y ajustar. El arroz no sustituye al fideo.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Espaguetis con almejas y vino blanco](./espaguetis_con_almejas_y_vino_blanco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia de tradición y técnica:** [Asociación Cultural Gastronómica Fideuà de Gandia](https://fideuadegandia.org/la-autentica-receta-de-la-fideua-de-gandia/)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–60 min, con fumet ya preparado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/fideua_marinera_de_inspiracion_gandia.html",
+  "id": "REC-423",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fideos secos para fideuà, preferentemente n.º 4 según la Asociación de Fideuà de Gandia",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "360",
+        "min": "360",
+        "raw": "360 g de fideos secos para fideuà, preferentemente n.º 4 según la Asociación de Fideuà de Gandia",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "360 g de fideos secos para fideuà, preferentemente n.º 4 según la Asociación de Fideuà de Gandia",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "rape en dados sin espinas visibles",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de rape en dados sin espinas visibles",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de rape en dados sin espinas visibles",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "gambas grandes enteras o peladas según presentación",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 gambas grandes enteras o peladas según presentación",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 gambas grandes enteras o peladas según presentación",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cigalas medianas opcionales, para respetar el perfil marinero de Gandia",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cigalas medianas opcionales, para respetar el perfil marinero de Gandia",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 cigalas medianas opcionales, para respetar el perfil marinero de Gandia",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado o rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado o rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado o rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña rallada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña rallada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña rallada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de azafrán",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de azafrán",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de azafrán",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado caliente, orientativos según fideo y recipiente",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": true,
+        "max": "1100",
+        "min": "900",
+        "raw": "900–1100 ml de fumet de pescado caliente, orientativos según fideo y recipiente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "900–1100 ml de fumet de pescado caliente, orientativos según fideo y recipiente",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/fideua_marinera_de_inspiracion_gandia.md",
+  "source_sha256": "456e304b30cf30578c9038eed62a5215731f93c07715d42e3259bc4473003a71",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Preparar con antelación un fumet de pescado seguro y mantenerlo muy caliente. Limpiar y secar el rape y marisco, retirando fragmentos de espina y caparazón."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Calentar la paella o recipiente ancho con aceite; marcar gambas y cigalas brevemente y retirarlas para no sobrecocerlas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Añadir cebolla rallada y ajo; pochar sin quemar. Incorporar tomate y reducir hasta que pierda buena parte del líquido."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Añadir pimentón apartado un momento del fuego y mezclar con azafrán; incorporar rape y saltear brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Verter el fumet caliente y repartir los fideos uniformemente, sin remover en exceso tras establecer la cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Cocinar según el calibre y envase del fideo, aproximadamente 10–13 minutos en total, ajustando líquido y fuego. Reincorporar gambas y cigalas en los últimos minutos y cocinar completamente el pescado y crustáceos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Comprobar que los fideos estén tiernos, el rape alcance 63 °C en el centro como referencia conservadora y el marisco esté completamente cocido; reposar 3–5 minutos antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Fideuà marinera de inspiración Gandia",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

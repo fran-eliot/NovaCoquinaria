@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi despensa | NovaCoquinaria</title>
+<link rel="stylesheet" href="assets/culinary-explorer.c39f133e2b4fcbcc01d2.css">
+<link rel="stylesheet" href="assets/culinary-pantry.c39f133e2b4fcbcc01d2.css">
+<script type="module" src="assets/culinary-pantry-ui.c39f133e2b4fcbcc01d2.mjs"></script>
+</head>
+<body><main>
+<header><a href="index.html">NovaCoquinaria</a> · <a href="culinary-shopping.html">Mis compras</a><h1>Mi despensa</h1><p>Organiza los alimentos que tienes en casa.</p></header>
+<p class="notice">El inventario se guarda en este navegador, no se sincroniza ni se envía al servidor. Exporta una copia periódicamente. Las fechas declaradas no acreditan seguridad alimentaria.</p>
+<noscript>Activa JavaScript para gestionar el inventario.</noscript>
+<p id="status" role="status" aria-atomic="true">Cargando inventario…</p>
+<div class="actions"><button id="reload" class="secondary" type="button">Recargar inventario</button><button id="export" type="button" disabled>Exportar copia JSON</button></div>
+<section class="panel" aria-labelledby="import-heading">
+<h2 id="import-heading">Recuperar una copia</h2>
+<label>Archivo JSON <input id="import-file" type="file" accept=".json,application/json" disabled></label>
+<p id="import-preview" role="status"></p><div class="actions"><button id="import-confirm" type="button" disabled>Confirmar sustitución</button><button id="import-cancel" class="secondary" type="button" disabled>Cancelar importación</button></div>
+</section>
+<form id="entry-form"><fieldset id="entry-controls" disabled><legend id="entry-heading">Añadir alimento</legend>
+<div class="fields">
+<label>Nombre <input id="name" required maxlength="160" placeholder="Ej. arroz basmati"></label>
+<label>Cantidad (opcional) <input id="quantity" inputmode="decimal" maxlength="16" placeholder="Ej. 500"></label>
+<label>Unidad <input id="unit" list="units" maxlength="40" placeholder="Ej. g"><datalist id="units"><option value="g"><option value="kg"><option value="ml"><option value="l"><option value="unidades"><option value="paquetes"><option value="latas"></datalist></label>
+<label>Categoría <input id="category" maxlength="80" list="categories"><datalist id="categories"></datalist></label>
+<label>Ubicación <select id="location"><option value="pantry">Despensa</option><option value="fridge">Frigorífico</option><option value="freezer">Congelador</option><option value="other">Otra</option></select></label>
+<label>Tipo de fecha <select id="date-type"><option value="">Sin declarar</option><option value="expiry">Caducidad</option><option value="best_before">Consumo preferente</option></select></label>
+<label>Fecha <input id="date" type="date" min="0001-01-01" max="9999-12-31"></label>
+<label>Notas <textarea id="notes" maxlength="1000" rows="2"></textarea></label>
+</div>
+<p class="help">Cantidad y unidad deben declararse juntas, igual que el tipo de fecha y la fecha.</p>
+<div class="actions"><button id="save-entry" type="submit">Añadir alimento</button><button id="cancel-edit" class="secondary" type="button" hidden>Cancelar edición</button></div>
+</fieldset></form>
+<section aria-labelledby="inventory-heading">
+<h2 id="inventory-heading">Inventario</h2>
+<form id="filters"><fieldset id="filter-controls" disabled><legend>Filtrar alimentos</legend><div class="fields">
+<label>Nombre <input id="filter-name"></label>
+<label>Categoría <select id="filter-category"><option value="">Todas</option></select></label>
+<label>Ubicación <select id="filter-location"><option value="">Todas</option><option value="pantry">Despensa</option><option value="fridge">Frigorífico</option><option value="freezer">Congelador</option><option value="other">Otra</option></select></label>
+<label>Fecha declarada <select id="filter-date"><option value="">Todas</option><option value="past">Anterior a hoy</option><option value="today">Hoy</option><option value="future">Posterior a hoy</option><option value="undated">Sin fecha</option></select></label>
+</div><button type="reset" class="secondary">Limpiar filtros</button></fieldset></form>
+<p id="inventory-count" role="status"></p>
+<div id="inventory" class="results"></div>
+<section class="panel" aria-labelledby="selection-heading"><h2 id="selection-heading">Ingredientes para buscar recetas</h2><p>Selecciona alimentos concretos. Las menciones no acreditan disponibilidad suficiente ni compatibilidad.</p><p id="selection-count" role="status"></p><ul id="selection"></ul><div class="actions"><button id="search-recipes" type="button" disabled>Buscar recetas</button><button id="clear-selection" class="secondary" type="button" disabled>Limpiar selección</button></div><p class="help">Se buscarán recetas que mencionen todos los nombres seleccionados. Puedes ajustar los términos en el explorador.</p></section>
+</section></main></body></html>

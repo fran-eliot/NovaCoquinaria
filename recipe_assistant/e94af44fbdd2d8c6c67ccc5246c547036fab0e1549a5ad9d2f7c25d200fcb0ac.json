@@ -1,0 +1,331 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Arroz a banda alicantino con fumet de pescado\n\n## Origen y contexto\n\n**Región:** Alicante, Comunitat Valenciana. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 50–60 min con fumet preparado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 360 g de arroz redondo de tipo bomba o similar\n- 1–1,1 l de fumet de pescado colado, caliente y sabroso, según arroz\n- 250 g de sepia limpia troceada\n- 220 g de tomate maduro rallado\n- 2 dientes de ajo\n- 1 cucharadita de pulpa de ñora hidratada\n- una pizca de azafrán en hebras\n- 3 cucharadas de aceite de oliva\n- sal al final\n- alioli comercial o casero con huevo pasteurizado, opcional para servir\n\n**Alérgenos:** Pescado, moluscos (sepia); huevo y ajo si se sirve alioli con huevo, revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Preparar y colar con antelación un fumet de pescado a partir de pescado apto para consumo y mantenerlo caliente. Retirar espinas y restos sólidos; no utilizar cabezas o vísceras inadecuadas.\n2. Secar la sepia y saltearla en paella o recipiente ancho con aceite 4–6 minutos para evaporar humedad y comenzar a dorar.\n3. Añadir ajo picado y tomate rallado; sofreír 8–10 minutos hasta que se concentre. Incorporar pulpa de ñora y azafrán, removiendo.\n4. Agregar el arroz y nacararlo durante un minuto para impregnarlo del sofrito.\n5. Verter el fumet hirviendo (comenzar con proporción adecuada al arroz seleccionado), repartir uniformemente y dejar hervir a fuego moderado unos 7–8 minutos.\n6. Bajar el calor y continuar aproximadamente 9–12 minutos, ajustando el líquido conforme a la variedad y el recipiente, hasta que el grano esté cocido y el fondo casi seco. Evitar remover durante la cocción principal.\n7. Comprobar que la sepia esté completamente cocinada, reposar 4–5 minutos fuera del fuego y servir acompañado opcionalmente de alioli seguro.\n\n## Puntos críticos\n\n- El arroz a banda históricamente separa el pescado del arroz cocido en su caldo; esta formulación doméstica con sepia es una adaptación extendida, no una reproducción universal. La intensidad del fumet define el plato y su salinidad.\n- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |\n| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |\n| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.\n\n## Relaciones dentro del SGCC\n\n- [Arroz negro con calamares](./arroz_negro_con_calamares.md)\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "60",
+      "min": "50",
+      "phase": "declared_total",
+      "raw": "50–60 min con fumet preparado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_a_banda_alicantino_con_fumet_de_pescado.html",
+  "id": "REC-453",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo de tipo bomba o similar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "360",
+        "min": "360",
+        "raw": "360 g de arroz redondo de tipo bomba o similar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "360 g de arroz redondo de tipo bomba o similar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado colado, caliente y sabroso, según arroz",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1.1",
+        "min": "1",
+        "raw": "1–1,1 l de fumet de pescado colado, caliente y sabroso, según arroz",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1–1,1 l de fumet de pescado colado, caliente y sabroso, según arroz",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sepia limpia troceada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de sepia limpia troceada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de sepia limpia troceada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pulpa de ñora hidratada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pulpa de ñora hidratada",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pulpa de ñora hidratada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de azafrán en hebras",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de azafrán en hebras",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de azafrán en hebras",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "alioli comercial o casero con huevo pasteurizado, opcional para servir",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "alioli comercial o casero con huevo pasteurizado, opcional para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "alioli comercial o casero con huevo pasteurizado, opcional para servir",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_a_banda_alicantino_con_fumet_de_pescado.md",
+  "source_sha256": "6804c79994e7c3fdce4a39e0ac7e71598efc64dad2a5b5bf2fc054d105f0a557",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Preparar y colar con antelación un fumet de pescado a partir de pescado apto para consumo y mantenerlo caliente. Retirar espinas y restos sólidos; no utilizar cabezas o vísceras inadecuadas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Secar la sepia y saltearla en paella o recipiente ancho con aceite 4–6 minutos para evaporar humedad y comenzar a dorar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir ajo picado y tomate rallado; sofreír 8–10 minutos hasta que se concentre. Incorporar pulpa de ñora y azafrán, removiendo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Agregar el arroz y nacararlo durante un minuto para impregnarlo del sofrito."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Verter el fumet hirviendo (comenzar con proporción adecuada al arroz seleccionado), repartir uniformemente y dejar hervir a fuego moderado unos 7–8 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Bajar el calor y continuar aproximadamente 9–12 minutos, ajustando el líquido conforme a la variedad y el recipiente, hasta que el grano esté cocido y el fondo casi seco. Evitar remover durante la cocción principal."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Comprobar que la sepia esté completamente cocinada, reposar 4–5 minutos fuera del fuego y servir acompañado opcionalmente de alioli seguro."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    }
+  ],
+  "title": "Arroz a banda alicantino con fumet de pescado",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

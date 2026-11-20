@@ -1,0 +1,336 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Arroz salteado con piña y anacardos\n\n## Descripción\n\nReceta de referencia centrada en **salteado rápido de arroz refrigerado y contraste dulce-salado**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Salteado rápido de arroz refrigerado y contraste dulce-salado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de arroz jazmín cocido, enfriado rápidamente y refrigerado;\n- 180 g de piña natural en dados pequeños;\n- 90 g de pimiento rojo picado;\n- 70 g de zanahoria en dados pequeños;\n- 2 huevos L;\n- 45 g de anacardos tostados sin sal;\n- 2 cucharadas de salsa de soja clara;\n- 2 cucharadas de aceite de cacahuete u otro aceite apto;\n- 1 diente de ajo;\n- ½ cucharadita de curry suave en polvo, opcional;\n- cebollino fresco opcional;\n\n**Alérgenos:** Huevo, soja, anacardos (frutos de cáscara), cacahuete si se usa su aceite; trigo según salsa de soja.\n\n## Elaboración\n\n1. Utilizar arroz cocido enfriado rápidamente y conservado refrigerado; no emplear arroz que haya permanecido horas a temperatura ambiente.\n2. Tostar ligeramente los anacardos en sartén seca si no vienen tostados y reservar.\n3. Calentar una sartén amplia, añadir una cucharada de aceite y cuajar completamente el huevo batido; retirarlo a recipiente limpio.\n4. Saltear zanahoria y pimiento 3–4 minutos, añadir ajo y piña y cocinar 2 minutos hasta evaporar humedad.\n5. Añadir el arroz frío y deshacer los grumos, salteando por tandas si la sartén es pequeña; incorporar soja y curry opcional.\n6. Devolver el huevo, mezclar hasta que el conjunto esté bien caliente y terminar con anacardos y cebollino opcional.\n\n## Puntos críticos\n\n- El arroz cocido necesita enfriamiento rápido y conservación refrigerada por el riesgo de Bacillus cereus; recalentar o saltear no neutraliza necesariamente toxinas ya formadas.\n- La proporción de líquido varía por variedad de arroz, geometría del recipiente, intensidad del fuego y humedad de los ingredientes. Medir el líquido realmente incorporado.\n- Mantener higiene y conservación adecuadas de carnes, pescados, moluscos y verduras; comprobar la cocción completa de las proteínas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Grano duro | Falta de líquido o tiempo de cocción | Añadir líquido caliente en pequeñas cantidades y revisar el punto |\n| Arroz pasado | Exceso de líquido, tiempo o reposo | Reducir tiempo o líquido según el método |\n| Sabor excesivamente salado | Caldos o salsas ya salados | Probar los líquidos antes de salar |\n| Fondo seco antes de tiempo | Evaporación elevada | Ajustar el fuego y el recipiente |\n\n## Seguridad y conservación\n\nSi no se consume inmediatamente, **enfriar rápidamente el arroz cocido y refrigerarlo sin demora**. Evitar que permanezca horas a temperatura ambiente; el recalentamiento no corrige una conservación insegura previa. No guardar marisco ni pollo cocinado a temperatura ambiente. Refrigerar en recipientes poco profundos y recalentar completamente cuando corresponda.\n\n## Relaciones dentro del SGCC\n\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Plantilla de arroz frito](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos realmente utilizados, volumen total de líquidos, equipo, tiempos efectivos, textura final y valoración. No se atribuyen estas cantidades a una experiencia personal anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **salteado rápido de arroz refrigerado y contraste dulce-salado**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_salteado_con_pina_y_anacardos.html",
+  "id": "REC-0255",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz jazmín cocido, enfriado rápidamente y refrigerado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de arroz jazmín cocido, enfriado rápidamente y refrigerado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de arroz jazmín cocido, enfriado rápidamente y refrigerado;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "piña natural en dados pequeños;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de piña natural en dados pequeños;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de piña natural en dados pequeños;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo picado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de pimiento rojo picado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de pimiento rojo picado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados pequeños;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de zanahoria en dados pequeños;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de zanahoria en dados pequeños;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "anacardos tostados sin sal;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de anacardos tostados sin sal;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de anacardos tostados sin sal;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja clara;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja clara;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete u otro aceite apto;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de cacahuete u otro aceite apto;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de cacahuete u otro aceite apto;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "curry suave en polvo, opcional;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de curry suave en polvo, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de curry suave en polvo, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollino fresco opcional;",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebollino fresco opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebollino fresco opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_salteado_con_pina_y_anacardos.md",
+  "source_sha256": "cbca63284568b373e3f33b68025a57fe5506539166f7e0cece6b96ff8e6f286d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Utilizar arroz cocido enfriado rápidamente y conservado refrigerado; no emplear arroz que haya permanecido horas a temperatura ambiente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Tostar ligeramente los anacardos en sartén seca si no vienen tostados y reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Calentar una sartén amplia, añadir una cucharada de aceite y cuajar completamente el huevo batido; retirarlo a recipiente limpio."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Saltear zanahoria y pimiento 3–4 minutos, añadir ajo y piña y cocinar 2 minutos hasta evaporar humedad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Añadir el arroz frío y deshacer los grumos, salteando por tandas si la sartén es pequeña; incorporar soja y curry opcional."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Devolver el huevo, mezclar hasta que el conjunto esté bien caliente y terminar con anacardos y cebollino opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz salteado con piña y anacardos",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Filloas gallegas de leche y limón\n\n## Origen y contexto\n\n**Región:** Galicia. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 14–16 piezas finas |\n| Tiempo orientativo | 40–50 min más 30 min de reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 200 g de harina de trigo común\n- 3 huevos L\n- 500 ml de leche entera\n- 150 ml de agua potable\n- 25 g de azúcar, opcional para filloas dulces\n- piel fina rallada de medio limón lavado\n- 1 pizca de sal\n- mantequilla o aceite suave para engrasar la sartén\n- azúcar o miel opcionales para servir\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Batir huevos con leche y agua en un recipiente limpio; incorporar harina tamizada poco a poco, una pizca de sal y azúcar opcional.\n2. Añadir ralladura de limón y mezclar hasta obtener una masa muy fluida y sin grumos.\n3. Cubrir y dejar reposar 30 minutos en refrigeración por contener huevos y leche.\n4. Calentar una sartén antiadherente fina a fuego medio y engrasar mínimamente con mantequilla o aceite.\n5. Verter un cucharón pequeño de masa, girando la sartén para obtener una capa muy fina. Cocinar hasta que se desprendan los bordes.\n6. Dar la vuelta con espátula y cocer la otra cara hasta que esté completamente cuajada; repetir controlando la temperatura para evitar que se resequen.\n7. Servir solas, espolvoreadas de azúcar o con un hilo de miel; refrigerar las sobrantes sin demora.\n\n## Puntos críticos\n\n- Las filloas tienen variantes de caldo y de sangre, además de leche; esta es una formulación dulce de leche. Se buscan más finas y flexibles que una tortita gruesa y deben quedar totalmente cuajadas.\n- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |\n| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |\n| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md): selección de harina común y ajuste de hidratación.\n- [Frixuelos asturianos](./frixuelos_asturianos_con_limon_y_azucar.md)\n- [Torrijas de leche y canela](./torrijas_de_leche_y_canela.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40–50 min más 30 min de reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/filloas_gallegas_de_leche_y_limon.html",
+  "id": "REC-483",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua potable",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, opcional para filloas dulces",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de azúcar, opcional para filloas dulces",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de azúcar, opcional para filloas dulces",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "piel fina rallada de medio limón lavado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel fina rallada de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel fina rallada de medio limón lavado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla o aceite suave para engrasar la sartén",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "mantequilla o aceite suave para engrasar la sartén",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "mantequilla o aceite suave para engrasar la sartén",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel opcionales para servir",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar o miel opcionales para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar o miel opcionales para servir",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/filloas_gallegas_de_leche_y_limon.md",
+  "source_sha256": "e49b155d569af8ee54c1ef76fac027170edcc16efa41098f2be5a4172b3c6404",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Batir huevos con leche y agua en un recipiente limpio; incorporar harina tamizada poco a poco, una pizca de sal y azúcar opcional."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Añadir ralladura de limón y mezclar hasta obtener una masa muy fluida y sin grumos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Cubrir y dejar reposar 30 minutos en refrigeración por contener huevos y leche."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Calentar una sartén antiadherente fina a fuego medio y engrasar mínimamente con mantequilla o aceite."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Verter un cucharón pequeño de masa, girando la sartén para obtener una capa muy fina. Cocinar hasta que se desprendan los bordes."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Dar la vuelta con espátula y cocer la otra cara hasta que esté completamente cuajada; repetir controlando la temperatura para evitar que se resequen."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir solas, espolvoreadas de azúcar o con un hilo de miel; refrigerar las sobrantes sin demora."
+    }
+  ],
+  "techniques": [],
+  "title": "Filloas gallegas de leche y limón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "14–16 piezas finas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

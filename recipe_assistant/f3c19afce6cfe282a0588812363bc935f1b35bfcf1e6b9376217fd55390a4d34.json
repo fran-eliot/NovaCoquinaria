@@ -1,0 +1,212 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Batido de fresas y yogur\n\n## Descripción\n\nBebida doméstica de referencia basada en **triturado de fruta y lácteo en frío**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 vasos |\n| Técnica | Triturado de fruta y lácteo en frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de fresas frescas;\n- 250 g de yogur natural refrigerado;\n- 100 ml de leche fría;\n- 1–2 cucharaditas de miel o azúcar, opcionales;\n- 1 cucharadita de zumo de limón, opcional;\n\n**Alérgenos:** Leche.\n\n## Preparación\n\n1. Lavar bien las fresas bajo agua potable y retirar hojas y partes dañadas.\n2. Trocear la fruta y enfriarla si estaba a temperatura ambiente.\n3. Colocar fresas, yogur y leche fríos en la batidora; triturar hasta obtener mezcla homogénea.\n4. Probar antes de endulzar y añadir miel o azúcar solo si es necesario; incorporar limón opcional si se desea más acidez.\n5. Ajustar textura con un poco más de leche, sin diluir en exceso.\n6. Servir de inmediato; si se prepara con antelación, tapar y mantener refrigerado.\n\n## Puntos críticos\n\n- Los productos lácteos y las fresas trituradas deben mantenerse refrigerados. No utilizar fruta con zonas mohosas: retirarlas superficialmente no garantiza seguridad.\n- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.\n- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.\n\n## Diagnóstico\n\n| Resultado | Causa posible | Ajuste de referencia |\n|---|---|---|\n| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |\n| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |\n| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |\n| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |\n\n## Conservación\n\nLas bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.\n\n## Relaciones dentro del SGCC\n\n- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md)\n- [Batido de pera, yogur y canela](./batido_de_pera_yogur_y_canela.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **triturado de fruta y lácteo en frío**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/batido_de_fresas_y_yogur.html",
+  "id": "REC-0258",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fresas frescas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de fresas frescas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de fresas frescas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural refrigerado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de yogur natural refrigerado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de yogur natural refrigerado;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche fría;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de leche fría;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de leche fría;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar, opcionales;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de miel o azúcar, opcionales;",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de miel o azúcar, opcionales;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/batido_de_fresas_y_yogur.md",
+  "source_sha256": "b18c05dd6d906f2ae8939ae9f5467e3a6ddf7cb5aea4562d71848a93db94bb54",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Lavar bien las fresas bajo agua potable y retirar hojas y partes dañadas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Trocear la fruta y enfriarla si estaba a temperatura ambiente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Colocar fresas, yogur y leche fríos en la batidora; triturar hasta obtener mezcla homogénea."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Probar antes de endulzar y añadir miel o azúcar solo si es necesario; incorporar limón opcional si se desea más acidez."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Ajustar textura con un poco más de leche, sin diluir en exceso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Servir de inmediato; si se prepara con antelación, tapar y mantener refrigerado."
+    }
+  ],
+  "techniques": [],
+  "title": "Batido de fresas y yogur",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

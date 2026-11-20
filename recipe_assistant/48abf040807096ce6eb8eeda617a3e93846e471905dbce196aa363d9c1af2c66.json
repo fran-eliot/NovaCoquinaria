@@ -1,0 +1,352 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 93,
+      "start_line": 14
+    },
+    "text": "\n# Pollo al horno con verduras\n\n## Descripción\n\nMuslos de pollo asados con zanahoria, cebolla y pimiento. Las verduras se cortan de forma que puedan cocinarse junto al pollo, manteniendo separación e higiene durante la preparación.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Horneado | Aproximadamente 40–60 minutos, según piezas y horno |\n| Dificultad | Fácil |\n| Técnica | Asado |\n\n## Ingredientes\n\n- 4 muslos de pollo con hueso y piel, 900–1100 g;\n- 2 zanahorias, 200 g;\n- 1 cebolla grande, 180 g;\n- 1 pimiento rojo, 180 g;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 2 dientes de ajo;\n- 1 cucharadita de tomillo;\n- 1/2 cucharadita de pimentón dulce, opcional;\n- sal y pimienta;\n- 80 ml de agua o caldo, solo si la bandeja lo necesita.\n\n## Elaboración\n\n1. Precalentar el horno a **200 °C, calor arriba y abajo**.\n2. Lavar las verduras, cortar zanahorias en piezas pequeñas, cebolla en gajos y pimiento en tiras anchas.\n3. Distribuir verduras en una bandeja amplia con parte del aceite, sal y tomillo.\n4. Sin lavar el pollo crudo, secar su superficie con papel desechable y sazonar. Colocarlo sobre o entre las verduras, con espacio para circular el calor.\n5. Hornear aproximadamente 40–60 minutos. Vigilar que las verduras no se quemen y añadir una pequeña cantidad de líquido solo si hace falta.\n6. Medir la temperatura del pollo en la zona más gruesa, sin tocar hueso: debe alcanzar **74 °C**. Si las verduras están listas antes, retirarlas con utensilios limpios y mantenerlas de forma segura mientras termina el pollo.\n7. Servir en platos limpios. Los jugos de bandeja deben haber recibido cocción suficiente al estar en contacto con pollo crudo.\n\n## Puntos críticos\n\n- Los tiempos son orientativos: el termómetro determina la cocción segura del pollo.\n- No reutilizar utensilios contaminados con pollo crudo.\n- Las zanahorias requieren cortes menores que la cebolla.\n- Evitar una bandeja excesivamente llena para favorecer dorado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con patata | Cortar pequeña y comprobar que esté tierna |\n| Con limón | Añadir rodajas y ajustar acidez |\n| Con contramuslos deshuesados | Reducir tiempo orientativo y medir temperatura |\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Piel sin dorado | Bandeja húmeda o saturada | Separar y secar superficie |\n| Zanahoria dura | Corte grueso | Cortar más pequeña |\n| Pollo aún insuficiente | Pieza grande o cocción incompleta | Continuar hasta 74 °C |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar en recipiente cerrado y recalentar completamente. Separar las sobras del hueso si facilita enfriamiento y porcionado.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n\n## Principio de NovaCoquinaria\n\n> El pollo y las verduras pueden compartir bandeja, pero sus puntos de cocción deben comprobarse por separado.\n\n## Utilizado por\n\nPlatos principales al horno y preparaciones por lotes."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "Aproximadamente 40–60 minutos, según piezas y horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_al_horno_con_verduras.html",
+  "id": "REC-0048",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos de pollo con hueso y piel, 900–1100 g;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 muslos de pollo con hueso y piel, 900–1100 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 muslos de pollo con hueso y piel, 900–1100 g;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahorias, 200 g;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 zanahorias, 200 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 zanahorias, 200 g;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande, 180 g;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande, 180 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande, 180 g;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo, 180 g;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo, 180 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo, 180 g;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce, opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo, solo si la bandeja lo necesita.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua o caldo, solo si la bandeja lo necesita.",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua o caldo, solo si la bandeja lo necesita.",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pollo_al_horno_con_verduras.md",
+  "source_sha256": "05bbcdf2ef988a230b89401fb95ab811cb7b7aa49dd11c2acc529cafc9ebdeaf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a **200 °C, calor arriba y abajo**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Lavar las verduras, cortar zanahorias en piezas pequeñas, cebolla en gajos y pimiento en tiras anchas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Distribuir verduras en una bandeja amplia con parte del aceite, sal y tomillo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Sin lavar el pollo crudo, secar su superficie con papel desechable y sazonar. Colocarlo sobre o entre las verduras, con espacio para circular el calor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Hornear aproximadamente 40–60 minutos. Vigilar que las verduras no se quemen y añadir una pequeña cantidad de líquido solo si hace falta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Medir la temperatura del pollo en la zona más gruesa, sin tocar hueso: debe alcanzar **74 °C**. Si las verduras están listas antes, retirarlas con utensilios limpios y mantenerlas de forma segura mientras termina el pollo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir en platos limpios. Los jugos de bandeja deben haber recibido cocción suficiente al estar en contacto con pollo crudo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 84,
+        "start_line": 84
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Pollo al horno con verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

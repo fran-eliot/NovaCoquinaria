@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 123,
+      "start_line": 15
+    },
+    "text": "\n# Verduras asadas al horno\n\n## Descripción\n\nBandeja de hortalizas asadas con aceite de oliva y hierbas. Se busca una superficie dorada, bordes ligeramente caramelizados y centros tiernos, evitando que el exceso de humedad las cueza al vapor.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Preparación | 15 minutos |\n| Horneado | 25–40 minutos, según corte y horno |\n| Dificultad | Fácil |\n| Técnica principal | Asado en bandeja |\n\n## Ingredientes\n\n- 1 calabacín mediano (250 g);\n- 2 pimientos medianos (300 g);\n- 1 cebolla grande (180 g);\n- 2 zanahorias medianas (180 g);\n- 250 g de champiñones, opcionales;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 cucharadita de tomillo u orégano;\n- sal y pimienta negra;\n- 1 cucharadita de zumo de limón, opcional para terminar.\n\n## Mise en place\n\nPrecalentar el horno a **210 °C con calor arriba y abajo** o aproximadamente **200 °C con ventilador**, ajustando según el equipo. Preparar una bandeja amplia, preferiblemente metálica, y secar las verduras después de lavarlas.\n\nCortar zanahorias en bastones finos o medias lunas pequeñas; pimientos en tiras anchas; cebolla en gajos; calabacín en medias lunas gruesas y champiñones en mitades.\n\n## Elaboración\n\n### 1. Preparar verduras densas\n\nMezclar zanahorias, pimientos y cebolla con aproximadamente dos cucharadas de aceite, sal, pimienta y hierbas. Distribuir en una sola capa.\n\n### 2. Primera fase de horno\n\nAsar durante 10–15 minutos para dar ventaja a las verduras más densas.\n\n### 3. Añadir verduras acuosas\n\nMezclar calabacín y champiñones con el aceite restante. Incorporarlos a la bandeja, procurando mantener espacio entre piezas. Si no caben, utilizar una segunda bandeja.\n\n### 4. Terminar el asado\n\nContinuar horneando aproximadamente 15–25 minutos más, removiendo una vez si es necesario. Comprobar que las zanahorias estén tiernas y que las superficies presenten el dorado buscado.\n\n### 5. Ajustar y servir\n\nProbar y corregir sal y pimienta. Añadir limón opcional al salir del horno.\n\n## Puntos críticos\n\n- Una bandeja demasiado llena genera vapor y reduce el dorado.\n- Los cortes densos necesitan más tiempo o menor tamaño.\n- Calabacín y champiñones liberan agua; añadirlos después ayuda a preservar textura.\n- Los tiempos son orientativos y dependen del horno y de la cantidad.\n- No es necesario quemar los bordes para conseguir sabor.\n\n## Perfil esperado\n\nHortalizas tiernas con bordes dorados, sin charcos de líquido y con sabores concentrados.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con berenjena | Añadir junto a las verduras acuosas y controlar aceite |\n| Con patata | Cortar pequeña y dar más tiempo de horno |\n| Con pimentón | Añadir moderadamente para evitar que se queme |\n| Con especias | Probar comino o mezcla de hierbas |\n| Para crema | Triturar una parte con caldo caliente después del asado |\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Verduras blandas sin dorado | Bandeja saturada | Repartir en dos bandejas |\n| Zanahoria dura | Corte grueso | Cortar menor o adelantar |\n| Calabacín deshecho | Exceso de tiempo | Incorporar más tarde |\n| Bordes quemados | Temperatura alta o piezas pequeñas | Reducir temperatura o vigilar antes |\n| Mucho líquido | Humedad acumulada | Secar y espaciar |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar en recipiente cerrado. Para recuperar parte del dorado, recalentar en horno o sartén; evitar un recalentado excesivo que deshaga las verduras.\n\n## Relaciones dentro del SGCC\n\n- [Calabacín](../11_Despensa/06_Verduras/calabacin.md)\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Champiñón](../11_Despensa/07_Setas/champinon.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n## Principio de NovaCoquinaria\n\n> En el horno, el espacio entre piezas y la secuencia de incorporación determinan tanto el dorado como el tiempo.\n\n## Utilizado por\n\nGuarniciones, ensaladas templadas, rellenos y bases para cremas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "25–40 minutos, según corte y horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/verduras_asadas_al_horno.html",
+  "id": "REC-0039",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabacín mediano (250 g);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín mediano (250 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín mediano (250 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos medianos (300 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 pimientos medianos (300 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 pimientos medianos (300 g);",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahorias medianas (180 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 zanahorias medianas (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 zanahorias medianas (180 g);",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones, opcionales;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de champiñones, opcionales;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de champiñones, opcionales;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo u orégano;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo u orégano;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo u orégano;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional para terminar.",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional para terminar.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional para terminar.",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a **210 °C con calor arriba y abajo** o aproximadamente **200 °C con ventilador**, ajustando según el equipo. Preparar una bandeja amplia, preferiblemente metálica, y secar las verduras después de lavarlas.\n\nCortar zanahorias en bastones finos o medias lunas pequeñas; pimientos en tiras anchas; cebolla en gajos; calabacín en medias lunas gruesas y champiñones en mitades.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/verduras_asadas_al_horno.md",
+  "source_sha256": "4bc88ce57dd7ae361bb5f05d8297138c8c23362bb3d72fbeb144fd0d3d6964b1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Preparar verduras densas\n\nMezclar zanahorias, pimientos y cebolla con aproximadamente dos cucharadas de aceite, sal, pimienta y hierbas. Distribuir en una sola capa.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Primera fase de horno\n\nAsar durante 10–15 minutos para dar ventaja a las verduras más densas.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Añadir verduras acuosas\n\nMezclar calabacín y champiñones con el aceite restante. Incorporarlos a la bandeja, procurando mantener espacio entre piezas. Si no caben, utilizar una segunda bandeja.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Terminar el asado\n\nContinuar horneando aproximadamente 15–25 minutos más, removiendo una vez si es necesario. Comprobar que las zanahorias estén tiernas y que las superficies presenten el dorado buscado.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Ajustar y servir\n\nProbar y corregir sal y pimienta. Añadir limón opcional al salir del horno.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Verduras asadas al horno",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

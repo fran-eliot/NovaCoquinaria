@@ -1,0 +1,294 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Fideos chinos con miso y champiñones\n\n## Descripción\n\nFideos con champiñones dorados y salsa de miso de textura ligera, sin confundirla con una sopa japonesa tradicional.\n\n**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 12–15 minutos |\n| Método | Dorado, cocción de fideos y ligado |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 180 g de fideos chinos secos;\n- 250 g de champiñones laminados;\n- 1 cucharada de aceite de cacahuete;\n- 25 g de miso claro u oscuro, ajustando salinidad;\n- 90 ml de agua caliente de cocción de los fideos;\n- 1 cucharadita de vinagre de arroz;\n- 1 cucharadita de aceite de sésamo tostado;\n- 1 cebolleta opcional;\n\n**Alérgenos:** soja, trigo posible según fideos y miso, sésamo. Revisar los envases y evitar contaminación cruzada.\n\n## Elaboración\n\n1. Cocer los fideos según el envase y reservar 150 ml de su agua; escurrir.\n2. Dorar los champiñones en sartén amplia con aceite sin remover continuamente hasta evaporar su agua.\n3. Desleír el miso en 90 ml del agua templada reservada; evitar grumos.\n4. Bajar el fuego; añadir fideos y mezcla de miso, remover hasta que se adhiera sin hervir de forma agresiva.\n5. Agregar pequeñas cantidades de agua si se seca; apagar el fuego y ajustar con vinagre de arroz y sésamo.\n6. Servir inmediatamente con cebolleta si se dispone.\n\n## Puntos críticos\n\n- Miso y fideos pueden ser salados; no añadir soja por defecto. El tipo de fideo cambia la absorción.\n- Mantener una higiene adecuada y respetar las indicaciones de conservación y cocción de cada producto.\n- Ajustar la sal y el picante después de probar las salsas comerciales; no asumir concentraciones uniformes.\n\n## Diagnóstico\n\n| Situación | Causa probable | Ajuste para la próxima prueba |\n|---|---|---|\n| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |\n| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |\n| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |\n\n## Conservación\n\nRefrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.\n\n## Relaciones dentro del SGCC\n\n- [Miso](../11_Despensa/09_Salsas/miso.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n- [Cocina Asiática](./README.md)\n\n## Registro de prueba\n\n**Pendiente:** anotar presentación exacta de ingredientes, cantidades realmente utilizadas, textura, equilibrio de sabores y valoración antes de convertir esta propuesta en una receta probada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 31,
+          "start_line": 31
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/fideos_chinos_con_miso_y_champinones.html",
+  "id": "REC-0202",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fideos chinos secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de fideos chinos secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de fideos chinos secos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones laminados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de champiñones laminados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de champiñones laminados;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "miso claro u oscuro, ajustando salinidad;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de miso claro u oscuro, ajustando salinidad;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de miso claro u oscuro, ajustando salinidad;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente de cocción de los fideos;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de agua caliente de cocción de los fideos;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de agua caliente de cocción de los fideos;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de arroz;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de arroz;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de arroz;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo tostado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo tostado;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta opcional;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/fideos_chinos_con_miso_y_champinones.md",
+  "source_sha256": "4ff9bfc7281a047fb155747549fb77c80ace5afccad0efb2def661031be9a74c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Cocer los fideos según el envase y reservar 150 ml de su agua; escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Dorar los champiñones en sartén amplia con aceite sin remover continuamente hasta evaporar su agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Desleír el miso en 90 ml del agua templada reservada; evitar grumos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Bajar el fuego; añadir fideos y mezcla de miso, remover hasta que se adhiera sin hervir de forma agresiva."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Agregar pequeñas cantidades de agua si se seca; apagar el fuego y ajustar con vinagre de arroz y sésamo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente con cebolleta si se dispone."
+    }
+  ],
+  "techniques": [],
+  "title": "Fideos chinos con miso y champiñones",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

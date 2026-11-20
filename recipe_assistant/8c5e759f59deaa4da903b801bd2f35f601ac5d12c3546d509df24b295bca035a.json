@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Cuadrados de limón con base sablé\n\n## Descripción\n\nReceta de referencia centrada en **precocción de masa arenosa y cuajado de crema cítrica**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 cuadrados |\n| Técnica | Precocción de masa arenosa y cuajado de crema cítrica |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 180 g de harina de trigo para la base\n- 100 g de mantequilla fría\n- 50 g de azúcar para la base\n- una pizca de sal\n- 3 huevos L para el relleno\n- 150 g de azúcar para el relleno\n- 110 ml de zumo de limón colado\n- 20 g de harina de trigo adicional\n- ralladura fina de 1 limón\n\n**Alérgenos:** Gluten (trigo), leche y huevo.\n\n## Elaboración\n\n1. Precalentar horno a 175 °C y forrar un molde cuadrado de unos 20 cm.\n2. Mezclar 180 g de harina, 50 g de azúcar, sal y mantequilla hasta obtener migas que se compacten al presionar.\n3. Extender y presionar en el fondo del molde, pinchar ligeramente y precocer 17–20 minutos hasta dorado pálido.\n4. Batir huevos con 150 g de azúcar, incorporar zumo, ralladura y 20 g de harina hasta homogeneizar.\n5. Verter sobre la base caliente y hornear 18–24 minutos más, hasta relleno cuajado sin partes líquidas.\n6. Enfriar y refrigerar al menos 2 horas antes de cortar en cuadrados con cuchillo limpio.\n\n## Puntos críticos\n\n- La crema cítrica se cuaja en el horno; no es lemon curd para glasear pasteles ni debe diluirse con agua. El exceso de horneado puede agrietar la superficie.\n- Ajustar tiempos al molde, grosor y horno; comprobar la cocción real, especialmente en preparaciones con huevo.\n- Manipular huevos, fruta y lácteos con higiene y mantener los ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |\n| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |\n| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |\n\n## Conservación\n\nEnfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hornear masas en blanco](../00_Bases/03_Tecnicas/hornear_masas_en_blanco.md)\n- [Crema de limón con nata estilo posset](./crema_de_limon_con_nata_estilo_posset.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes realmente utilizados, molde, tiempos, temperatura, textura y valoración. No se modifica ni atribuye esta propuesta a una receta doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **precocción de masa arenosa y cuajado de crema cítrica**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/cuadrados_de_limon_con_base_sable.html",
+  "id": "REC-354",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo para la base",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de harina de trigo para la base",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de harina de trigo para la base",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fría",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de mantequilla fría",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de mantequilla fría",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la base",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de azúcar para la base",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de azúcar para la base",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para el relleno",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L para el relleno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L para el relleno",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el relleno",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de azúcar para el relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de azúcar para el relleno",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón colado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 ml de zumo de limón colado",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "110 ml de zumo de limón colado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo adicional",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de harina de trigo adicional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de harina de trigo adicional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de 1 limón",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de 1 limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de 1 limón",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/cuadrados_de_limon_con_base_sable.md",
+  "source_sha256": "95d5a77eb0bd0aa7f2eeda82d39f2fe0cd7f0dcad6dd14e31a8475cd46a68c2c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 175 °C y forrar un molde cuadrado de unos 20 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar 180 g de harina, 50 g de azúcar, sal y mantequilla hasta obtener migas que se compacten al presionar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Extender y presionar en el fondo del molde, pinchar ligeramente y precocer 17–20 minutos hasta dorado pálido."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Batir huevos con 150 g de azúcar, incorporar zumo, ralladura y 20 g de harina hasta homogeneizar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter sobre la base caliente y hornear 18–24 minutos más, hasta relleno cuajado sin partes líquidas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Enfriar y refrigerar al menos 2 horas antes de cortar en cuadrados con cuchillo limpio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_masas_en_blanco.html",
+      "label": "Hornear masas en blanco",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_masas_en_blanco.md"
+    }
+  ],
+  "title": "Cuadrados de limón con base sablé",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "12 cuadrados",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

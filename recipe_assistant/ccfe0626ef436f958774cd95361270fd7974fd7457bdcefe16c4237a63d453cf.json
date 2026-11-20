@@ -1,0 +1,233 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Bacalao al pilpil con ajo\n\n## Descripción\n\nPreparación de referencia basada en **confitado suave y emulsión de gelatina del pescado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 |\n| Técnica | Confitado suave y emulsión de gelatina del pescado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 3 lomos de bacalao desalado de 150–180 g cada uno\n- 160 ml de aceite de oliva virgen extra\n- 4 dientes de ajo laminados\n- 1 guindilla seca pequeña, opcional\n- 1–2 cucharadas de agua caliente solo si hace falta ajustar emulsión\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Comprobar que el bacalao está correctamente desalado, según grosor y procedencia, y secarlo con cuidado.\n2. Calentar aceite en cazuela baja y dorar suavemente las láminas de ajo y la guindilla opcional; retirarlos antes de que se quemen.\n3. Dejar bajar la temperatura del aceite y colocar los lomos con la piel hacia arriba o hacia abajo según la cazuela, manteniendo calor suave y sin fritura intensa.\n4. Cocinar lentamente hasta que el pescado alcance una cocción completa, con 63 °C en el centro como referencia conservadora; retirar los lomos con cuidado.\n5. Dejar templar el aceite y recuperar el líquido gelatinoso liberado; emulsionar con movimientos circulares de la cazuela o un colador pequeño, sin hervir.\n6. Reincorporar los lomos para calentarlos brevemente en la salsa ligada y terminar con ajos reservados.\n\n## Puntos críticos\n\n- El pilpil necesita gelatina natural del bacalao y temperatura moderada; si el aceite hierve, la emulsión puede romperse. El grado de desalado condiciona la sal final.\n- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.\n- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |\n| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |\n| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.\n\n## Relaciones dentro del SGCC\n\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Bacalao al horno con patatas y cebolla](./bacalao_al_horno_con_patatas.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar producto, pesos reales, método, temperatura, tiempos, textura y valoración. No se modifican versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **confitado suave y emulsión de gelatina del pescado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_al_pilpil_con_ajo.html",
+  "id": "REC-360",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de bacalao desalado de 150–180 g cada uno",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 lomos de bacalao desalado de 150–180 g cada uno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 lomos de bacalao desalado de 150–180 g cada uno",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "160 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla seca pequeña, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla seca pequeña, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla seca pequeña, opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente solo si hace falta ajustar emulsión",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de agua caliente solo si hace falta ajustar emulsión",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de agua caliente solo si hace falta ajustar emulsión",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_al_pilpil_con_ajo.md",
+  "source_sha256": "2b0bb89a71a986cf4f1f6b7554ff01213a8f8f41dd8c5361c98758800f8acb94",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Comprobar que el bacalao está correctamente desalado, según grosor y procedencia, y secarlo con cuidado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en cazuela baja y dorar suavemente las láminas de ajo y la guindilla opcional; retirarlos antes de que se quemen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Dejar bajar la temperatura del aceite y colocar los lomos con la piel hacia arriba o hacia abajo según la cazuela, manteniendo calor suave y sin fritura intensa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Cocinar lentamente hasta que el pescado alcance una cocción completa, con 63 °C en el centro como referencia conservadora; retirar los lomos con cuidado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Dejar templar el aceite y recuperar el líquido gelatinoso liberado; emulsionar con movimientos circulares de la cazuela o un colador pequeño, sin hervir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Reincorporar los lomos para calentarlos brevemente en la salsa ligada y terminar con ajos reservados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Bacalao al pilpil con ajo",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

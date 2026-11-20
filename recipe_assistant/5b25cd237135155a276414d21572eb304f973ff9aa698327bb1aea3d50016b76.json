@@ -1,0 +1,250 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 105,
+      "start_line": 15
+    },
+    "text": "\n# Agua de pepino, lima y menta\n\n## Descripción\n\nAgua aromatizada en frío con pepino, lima y menta. Se busca frescor sin triturado ni azúcar obligatorio, mediante una maceración breve refrigerada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 vasos |\n| Preparación | 10 minutos, más maceración |\n| Cocinado | Sin cocción |\n| Dificultad | Fácil |\n| Técnica principal | Maceración en frío |\n\n## Ingredientes\n\n- 1 litro de agua potable fría\n- 1/2 pepino (aproximadamente 150 g), en rodajas finas\n- 1 lima lavada, en rodajas finas\n- 6–8 hojas de menta fresca, lavadas\n- hielo para servir, opcional\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en la formulación base.\n\n## Mise en place\n\nLavar con agua potable pepino, lima y menta. Utilizar jarra limpia con tapa. Retirar semillas dañadas o partes deterioradas; cortar rodajas finas sin machacarlas.\n\n## Elaboración\n\n### 1. Preparar aromáticos\n\nCortar pepino y lima en rodajas finas. Dar un golpe ligero a las hojas de menta con la palma para liberar aromas sin triturarlas.\n\n### 2. Mezclar\n\nIntroducir los ingredientes en una jarra con el agua potable fría.\n\n### 3. Macerar\n\nTapar y refrigerar 30–60 minutos para una infusión ligera. Probar y prolongar brevemente si se busca mayor intensidad.\n\n### 4. Servir\n\nServir fría con hielo opcional. Retirar las rodajas tras un tiempo prolongado para evitar amargor de la piel de lima.\n\n## Puntos críticos\n\n- La maceración debe realizarse refrigerada; no mantener una jarra con fruta y hierbas durante horas fuera del frío.\n- Las pieles cítricas pueden aportar amargor con reposos largos.\n- Lavar los ingredientes resulta importante porque permanecen en contacto directo con el agua.\n\n## Perfil esperado\n\nAgua ligera con notas vegetales de pepino, frescor de menta y aroma cítrico.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con limón | Sustituir lima por limón lavado |\n| Con jengibre | Añadir 2–3 láminas finas |\n| Con gas | Añadir agua con gas muy fría al servir, sin macerarla largo tiempo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Amargor | Piel de lima en exceso o maceración larga | Reducir rodajas o retirarlas antes |\n| Poco aroma | Corte muy grueso o poco reposo | Laminar más fino y refrigerar |\n| Sabor deteriorado | Conservación prolongada | Preparar porciones pequeñas y mantener frío |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> Una bebida aromatizada en frío gana carácter por el corte y el reposo, sin necesidad de endulzantes.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para maceración en frío."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "10 minutos, más maceración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Sin cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/agua_de_pepino_lima_y_menta.html",
+  "id": "REC-0151",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua potable fría",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 litro de agua potable fría",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 litro de agua potable fría",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino (aproximadamente 150 g), en rodajas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": true,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 pepino (aproximadamente 150 g), en rodajas finas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 pepino (aproximadamente 150 g), en rodajas finas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "lima lavada, en rodajas finas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 lima lavada, en rodajas finas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 lima lavada, en rodajas finas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "menta fresca, lavadas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "6",
+        "raw": "6–8 hojas de menta fresca, lavadas",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "6–8 hojas de menta fresca, lavadas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar con agua potable pepino, lima y menta. Utilizar jarra limpia con tapa. Retirar semillas dañadas o partes deterioradas; cortar rodajas finas sin machacarlas.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/agua_de_pepino_lima_y_menta.md",
+  "source_sha256": "721f7479b179073a3befe0a4d631a84e4bfc5941bc1da1689b0beb1b42651b12",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Preparar aromáticos\n\nCortar pepino y lima en rodajas finas. Dar un golpe ligero a las hojas de menta con la palma para liberar aromas sin triturarlas.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Mezclar\n\nIntroducir los ingredientes en una jarra con el agua potable fría.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Macerar\n\nTapar y refrigerar 30–60 minutos para una infusión ligera. Probar y prolongar brevemente si se busca mayor intensidad.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Servir\n\nServir fría con hielo opcional. Retirar las rodajas tras un tiempo prolongado para evitar amargor de la piel de lima.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 96,
+        "start_line": 96
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Agua de pepino, lima y menta",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "vaso"
+  }
+}

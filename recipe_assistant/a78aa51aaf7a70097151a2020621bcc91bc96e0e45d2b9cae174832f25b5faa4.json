@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Judías verdes guisadas con tomate y cebolla\n\n## Descripción\n\nPreparación de referencia centrada en **precocción y reducción de salsa de tomate**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como guarnición |\n| Técnica | Precocción y reducción de salsa de tomate |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de judías verdes frescas o congeladas\n- 350 g de tomate triturado\n- 150 g de cebolla picada\n- 2 dientes de ajo\n- 2 cucharadas de aceite de oliva\n- ½ cucharadita de pimentón dulce\n- 80 ml de agua, si hace falta\n- sal y pimienta\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Si las judías son frescas, retirar las puntas y cortar; si son congeladas, seguir las indicaciones del envase.\n2. Cocer en agua hirviendo hasta que estén casi tiernas, unos 5–8 minutos según tamaño; escurrir muy bien.\n3. Pochar cebolla en aceite 7–9 minutos y añadir ajo durante 30 segundos.\n4. Apartar brevemente del calor, incorporar pimentón y añadir tomate triturado antes de que se queme.\n5. Reducir la salsa 10–12 minutos y añadir las judías escurridas.\n6. Cocinar juntas otros 5–8 minutos hasta que las judías estén tiernas; añadir poca agua solo si la salsa se adhiere al fondo.\n\n## Puntos críticos\n\n- El escurrido de las judías evita una salsa aguada. Comprobar la cocción según grosor, especialmente si las judías son congeladas muy gruesas.\n- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.\n- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |\n| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |\n| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Judías verdes salteadas con almendras y ajo](./judias_verdes_salteadas_con_almendras_y_ajo.md)\n- [Salsa de tomate reducida base](../12_Plantillas/02_Salsas/salsa_tomate_reducida_base.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, equipo, tiempos, textura y valoración. No se modifican ni se presuponen resultados de preparaciones anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **precocción y reducción de salsa de tomate**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/judias_verdes_guisadas_con_tomate_y_cebolla.html",
+  "id": "REC-343",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "judías verdes frescas o congeladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de judías verdes frescas o congeladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de judías verdes frescas o congeladas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua, si hace falta",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua, si hace falta",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua, si hace falta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/judias_verdes_guisadas_con_tomate_y_cebolla.md",
+  "source_sha256": "767ac582f4c3d3a7290f4513b95d7aa09420297f550a60bccdb6452ce92de0c5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Si las judías son frescas, retirar las puntas y cortar; si son congeladas, seguir las indicaciones del envase."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cocer en agua hirviendo hasta que estén casi tiernas, unos 5–8 minutos según tamaño; escurrir muy bien."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla en aceite 7–9 minutos y añadir ajo durante 30 segundos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Apartar brevemente del calor, incorporar pimentón y añadir tomate triturado antes de que se queme."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Reducir la salsa 10–12 minutos y añadir las judías escurridas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cocinar juntas otros 5–8 minutos hasta que las judías estén tiernas; añadir poca agua solo si la salsa se adhiere al fondo."
+    }
+  ],
+  "techniques": [],
+  "title": "Judías verdes guisadas con tomate y cebolla",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Quiche de puerros y espinacas\n\n## Descripción\n\nTarta salada de masa quebrada con puerro y espinacas salteados, cuajada con huevo y lácteos. La base se hornea en blanco y las verduras se escurren para evitar un fondo húmedo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 porciones |\n| Preparación | 25 minutos |\n| Cocinado | 35–45 minutos |\n| Dificultad | Media |\n| Técnica principal | Horneado en blanco y cuajado de relleno |\n\n## Ingredientes\n\n- 1 lámina de masa quebrada de unos 230 g\n- 2 puerros medianos (250 g limpios), en rodajas finas\n- 180 g de espinacas frescas\n- 3 huevos\n- 180 ml de nata para cocinar\n- 80 ml de leche\n- 70 g de queso curado rallado, opcional\n- 2 cucharadas de aceite de oliva virgen extra\n- sal, pimienta y nuez moscada\n- legumbres secas o pesos de horneado para la base\n\n**Alérgenos:** Gluten de la masa de trigo, huevo y leche; revisar composición de la masa preparada.\n\n## Mise en place\n\nPrecalentar el horno a 190 °C, calor arriba y abajo. Forrar un molde de tarta de unos 24 cm con la masa, pinchar suavemente la base y preparar papel y pesos para hornear en blanco. Lavar el puerro entre capas.\n\n## Elaboración\n\n### 1. Hornear la base\n\nCubrir masa con papel y pesos; hornear 12–15 minutos. Retirar papel y pesos y continuar 4–5 minutos hasta que la superficie pierda el aspecto crudo.\n\n### 2. Cocinar verduras\n\nPochar el puerro con aceite 8–10 minutos y añadir espinacas hasta que se ablanden. Escurrir el líquido y dejar templar.\n\n### 3. Preparar el cuajado\n\nBatir huevos, nata y leche sin montar excesivamente. Añadir sal moderada, pimienta, nuez moscada y queso opcional.\n\n### 4. Montar\n\nRepartir verduras escurridas sobre la base y verter la mezcla líquida, sin sobrepasar el borde.\n\n### 5. Hornear y reposar\n\nHornear 20–30 minutos, hasta que el centro esté cuajado sin líquido crudo. Reposar 10–15 minutos antes de cortar.\n\n## Puntos críticos\n\n- Escurrir bien las espinacas evita una base empapada.\n- El horneado en blanco reduce la humedad de la masa antes de añadir relleno.\n- La mezcla con huevo debe quedar completamente cocinada, no solo dorada por encima.\n\n## Perfil esperado\n\nBase crujiente, relleno tierno que mantiene el corte y sabor equilibrado de puerro.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con champiñones | Sustituir las espinacas por setas previamente doradas y secas |\n| Sin queso | Omitirlo y ajustar sal |\n| En moldes individuales | Reducir tiempo de horneado y comprobar el centro |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Fondo húmedo | Base sin precocer o verduras acuosas | Hornear en blanco y escurrir |\n| Centro líquido | Horno insuficiente | Prolongar de forma gradual |\n| Relleno seco | Horneado excesivo | Retirar al cuajado completo |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Puerro](../11_Despensa/06_Verduras/puerro.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> Una quiche equilibrada exige separar la deshidratación de las verduras del cuajado del relleno.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: horneado en blanco y cuajado de relleno."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "preparation",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "cooking",
+      "raw": "35–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/quiche_de_puerros_y_espinacas.html",
+  "id": "REC-0160",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lámina de masa quebrada de unos 230 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 lámina de masa quebrada de unos 230 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 lámina de masa quebrada de unos 230 g",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "puerros medianos (250 g limpios), en rodajas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 puerros medianos (250 g limpios), en rodajas finas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 puerros medianos (250 g limpios), en rodajas finas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de espinacas frescas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de espinacas frescas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para cocinar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de nata para cocinar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de nata para cocinar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "leche",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de leche",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de leche",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de queso curado rallado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de queso curado rallado, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y nuez moscada",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y nuez moscada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y nuez moscada",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "legumbres secas o pesos de horneado para la base",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "legumbres secas o pesos de horneado para la base",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "legumbres secas o pesos de horneado para la base",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 190 °C, calor arriba y abajo. Forrar un molde de tarta de unos 24 cm con la masa, pinchar suavemente la base y preparar papel y pesos para hornear en blanco. Lavar el puerro entre capas.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/quiche_de_puerros_y_espinacas.md",
+  "source_sha256": "1d2ed3078bb2277e7077ba61ca045d42e94d6c0c7b4fa52bc41a416901053889",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Hornear la base\n\nCubrir masa con papel y pesos; hornear 12–15 minutos. Retirar papel y pesos y continuar 4–5 minutos hasta que la superficie pierda el aspecto crudo.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Cocinar verduras\n\nPochar el puerro con aceite 8–10 minutos y añadir espinacas hasta que se ablanden. Escurrir el líquido y dejar templar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Preparar el cuajado\n\nBatir huevos, nata y leche sin montar excesivamente. Añadir sal moderada, pimienta, nuez moscada y queso opcional.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Montar\n\nRepartir verduras escurridas sobre la base y verter la mezcla líquida, sin sobrepasar el borde.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Hornear y reposar\n\nHornear 20–30 minutos, hasta que el centro esté cuajado sin líquido crudo. Reposar 10–15 minutos antes de cortar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Quiche de puerros y espinacas",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

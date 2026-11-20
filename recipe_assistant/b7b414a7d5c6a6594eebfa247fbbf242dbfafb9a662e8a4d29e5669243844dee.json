@@ -1,0 +1,219 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 15
+    },
+    "text": "\n# Esgarraet valenciano de pimiento y bacalao\n\n## Origen y contexto\n\n**Región:** Comunitat Valenciana. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tapas |\n| Tiempo orientativo | 55 min más reposo en frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de pimientos rojos\n- 150 g de bacalao desalado apto para cocinar\n- 2 dientes de ajo\n- 60 ml de aceite de oliva virgen extra\n\n**Alérgenos:** Pescado; gluten si se acompaña de pan.\n\n## Elaboración\n\n1. Asar los pimientos a 210 °C durante 35–45 minutos, girándolos hasta que la piel se desprenda con facilidad.\n2. Tapar brevemente, pelar y retirar semillas; desgarrar la pulpa en tiras con las manos limpias.\n3. Cocinar el bacalao desalado en agua a hervor suave hasta cocción completa (63 °C en el centro como referencia), escurrir, enfriar y separar en lascas.\n4. Mezclar pimiento, bacalao, ajo finamente picado y aceite; refrigerar al menos 30 minutos antes de servir con pan aparte.\n\n## Puntos críticos\n\n- La tradición utiliza pimiento rojo asado, bacalao en salazón, ajo y aceite. Esta adaptación doméstica emplea bacalao desalado y cocido para evitar consumirlo crudo. No confundir con pericana de pimientos secos ni con escalivada de verduras variadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Ensalada acuosa | Pimientos o bacalao mal escurridos | Escurrir antes de aliñar |\n| Exceso de sal | Desalado insuficiente | Seguir instrucciones del proveedor |\n\n## Conservación\n\nRefrigerar a 4 °C o menos y consumir preferiblemente en 24 horas. No conservar a temperatura ambiente en aceite.\n\n## Relaciones dentro del SGCC\n\n- [pericana alicantina de pimiento seco y bacalao](../04_Verduras/pericana_alicantina_de_pimiento_seco_y_bacalao.md)\n- [desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://blog.visitvalencia.com/paella-horchata-esgarraet-recetas-valencianas-para-hacer-desde-casa)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "55 min más reposo en frío",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Comunitat Valenciana. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/esgarraet_valenciano_de_pimiento_y_bacalao.html",
+  "id": "REC-575",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pimientos rojos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de pimientos rojos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de pimientos rojos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado apto para cocinar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de bacalao desalado apto para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de bacalao desalado apto para cocinar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/esgarraet_valenciano_de_pimiento_y_bacalao.md",
+  "source_sha256": "0afdfe5d14d0de219a463a1a3bc9e61600c98d9246971de3fc892227b8a1c529",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Asar los pimientos a 210 °C durante 35–45 minutos, girándolos hasta que la piel se desprenda con facilidad."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Tapar brevemente, pelar y retirar semillas; desgarrar la pulpa en tiras con las manos limpias."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Cocinar el bacalao desalado en agua a hervor suave hasta cocción completa (63 °C en el centro como referencia), escurrir, enfriar y separar en lascas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Mezclar pimiento, bacalao, ajo finamente picado y aceite; refrigerar al menos 30 minutos antes de servir con pan aparte."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "desalar bacalao",
+      "source_location": {
+        "end_line": 64,
+        "start_line": 64
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Esgarraet valenciano de pimiento y bacalao",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tapas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

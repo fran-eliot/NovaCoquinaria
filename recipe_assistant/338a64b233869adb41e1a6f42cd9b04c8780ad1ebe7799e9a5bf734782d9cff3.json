@@ -1,0 +1,378 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Suquet de peix catalán con patatas y picada\n\n## Origen y contexto\n\n**Región:** Cataluña, cocina marinera. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–65 min con fumet preparado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de pescado blanco firme limpio y sin espinas visibles (rape, merluza u otro apto)\n- 400 g de patatas\n- 180 g de cebolla\n- 280 g de tomate maduro triturado\n- 800–1000 ml de fumet de pescado caliente\n- 2 dientes de ajo\n- 30 g de almendras tostadas\n- 20 g de avellanas tostadas\n- 1 rebanada pequeña de pan tostado, unos 25 g\n- 1 cucharadita de pulpa de ñora hidratada\n- 2 cucharadas de aceite de oliva\n- perejil fresco y sal\n\n**Alérgenos:** Pescado, almendras, avellanas y gluten (pan); revisar fumet.\n\n## Elaboración\n\n1. Comprobar que el pescado está correctamente limpio, retirar espinas y mantenerlo refrigerado hasta incorporarlo.\n2. Pochar la cebolla picada en aceite a fuego medio durante unos 8 minutos.\n3. Incorporar tomate y pulpa de ñora, y reducir 10–12 minutos hasta obtener sofrito concentrado.\n4. Pelar y cascar las patatas; incorporarlas al sofrito y añadir fumet caliente hasta casi cubrir.\n5. Cocinar a hervor suave unos 15–20 minutos, hasta que la patata esté casi tierna.\n6. Preparar una picada majando ajo, almendras, avellanas, pan tostado y perejil con un poco de caldo; incorporarla a la cazuela y mover con suavidad.\n7. Añadir trozos de pescado y cocer lo necesario para que estén completamente hechos, alrededor de 5–8 minutos según grosor; comprobar 63 °C en el centro como referencia conservadora.\n8. Rectificar sal y servir inmediatamente, comprobando que no queden espinas.\n\n## Puntos críticos\n\n- El suquet admite pescados y mariscos diversos; la picada y el fumet construyen su sabor. No prolongar la cocción del pescado mientras se terminan de ablandar las patatas: estas deben ir primero.\n- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |\n| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |\n| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Marmitako de bonito con patatas](./marmitako_de_bonito_con_patatas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Suquet de peix tradicional (RTVE Catalunya)](https://www.rtve.es/play/noticies/20221009/com-preparar-suquet-peix-tipic-barceloneta/2405275.shtml)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 min con fumet preparado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/suquet_de_peix_catalan_con_patatas_y_picada.html",
+  "id": "REC-428",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pescado blanco firme limpio y sin espinas visibles (rape, merluza u otro apto)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de pescado blanco firme limpio y sin espinas visibles (rape, merluza u otro apto)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de pescado blanco firme limpio y sin espinas visibles (rape, merluza u otro apto)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de patatas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de tomate maduro triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de tomate maduro triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado caliente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1000",
+        "min": "800",
+        "raw": "800–1000 ml de fumet de pescado caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "800–1000 ml de fumet de pescado caliente",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras tostadas",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de almendras tostadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de almendras tostadas",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "avellanas tostadas",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de avellanas tostadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de avellanas tostadas",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada pequeña de pan tostado, unos 25 g",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada pequeña de pan tostado, unos 25 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada pequeña de pan tostado, unos 25 g",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pulpa de ñora hidratada",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pulpa de ñora hidratada",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pulpa de ñora hidratada",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco y sal",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco y sal",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/suquet_de_peix_catalan_con_patatas_y_picada.md",
+  "source_sha256": "6e496cad5d3e14e6f6699412ce32b43161f99e436781aca919d009480f49595b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Comprobar que el pescado está correctamente limpio, retirar espinas y mantenerlo refrigerado hasta incorporarlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar la cebolla picada en aceite a fuego medio durante unos 8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate y pulpa de ñora, y reducir 10–12 minutos hasta obtener sofrito concentrado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Pelar y cascar las patatas; incorporarlas al sofrito y añadir fumet caliente hasta casi cubrir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Cocinar a hervor suave unos 15–20 minutos, hasta que la patata esté casi tierna."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Preparar una picada majando ajo, almendras, avellanas, pan tostado y perejil con un poco de caldo; incorporarla a la cazuela y mover con suavidad."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Añadir trozos de pescado y cocer lo necesario para que estén completamente hechos, alrededor de 5–8 minutos según grosor; comprobar 63 °C en el centro como referencia conservadora."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 8,
+      "text": "Rectificar sal y servir inmediatamente, comprobando que no queden espinas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Suquet de peix catalán con patatas y picada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

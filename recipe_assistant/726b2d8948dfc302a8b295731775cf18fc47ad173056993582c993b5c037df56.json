@@ -1,0 +1,258 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 13
+    },
+    "text": "\n# Filetes de ternera con ajo y perejil\n\n## Descripción\n\nFiletes de ternera dorados en sartén con acabado de ajo y perejil, evitando quemar los aromáticos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Cocción | Variable según grosor |\n| Técnica | Plancha y acabado aromático |\n\n## Ingredientes\n\n- 2 filetes de ternera de 150–180 g cada uno;\n- 1 cucharada de aceite de oliva;\n- 2 dientes de ajo laminados;\n- 1 cucharada de perejil picado;\n- sal y pimienta;\n- unas gotas de limón, opcionales.\n\n## Elaboración\n\n1. Preparar una tabla para carne cruda. Secar los filetes con papel desechable y sazonar.\n2. Calentar sartén con aceite y cocinar los filetes sin amontonarlos, dorando ambas caras.\n3. Controlar el punto con termómetro. Como referencia conservadora para piezas enteras, alcanzar **63 °C y reposar 3 minutos**; adaptar a indicaciones del producto y recomendaciones locales.\n4. Retirar a plato limpio. Bajar fuego, añadir ajo y cocinar brevemente sin quemar.\n5. Añadir perejil y limón opcional; servir el acabado sobre la carne.\n\n## Puntos críticos\n\n- El tiempo depende del grosor y no demuestra seguridad.\n- No quemar el ajo.\n- Evitar contaminación cruzada entre utensilios crudos y cocinados.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomillo | Añadir al acabado |\n| Con champiñones | Saltear aparte antes de integrar |\n| Con limón | Ajustar acidez al servir |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Filete duro | Corte o cocción inadecuados | Revisar corte y temperatura |\n| Ajo amargo | Quemado | Añadir tarde |\n| Sin dorado | Exceso de humedad | Secar y precalentar |\n\n## Conservación\n\nRefrigerar rápidamente las sobras y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Ternera](../11_Despensa/03_Carnes/ternera.md)\n- [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n\n## Principio de NovaCoquinaria\n\n> Dorar la carne y aromatizar con ajo son dos fases distintas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Variable según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/filetes_de_ternera_con_ajo.html",
+  "id": "REC-0051",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de ternera de 150–180 g cada uno;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 filetes de ternera de 150–180 g cada uno;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 filetes de ternera de 150–180 g cada uno;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "unas gotas de limón, opcionales.",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de limón, opcionales.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de limón, opcionales.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/filetes_de_ternera_con_ajo.md",
+  "source_sha256": "6d43fbf40e08c52314cc3ec646cdeab3d313b7372331d4dd0f225392132ef281",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Preparar una tabla para carne cruda. Secar los filetes con papel desechable y sazonar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Calentar sartén con aceite y cocinar los filetes sin amontonarlos, dorando ambas caras."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Controlar el punto con termómetro. Como referencia conservadora para piezas enteras, alcanzar **63 °C y reposar 3 minutos**; adaptar a indicaciones del producto y recomendaciones locales."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Retirar a plato limpio. Bajar fuego, añadir ajo y cocinar brevemente sin quemar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Añadir perejil y limón opcional; servir el acabado sobre la carne."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "Sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    }
+  ],
+  "title": "Filetes de ternera con ajo y perejil",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

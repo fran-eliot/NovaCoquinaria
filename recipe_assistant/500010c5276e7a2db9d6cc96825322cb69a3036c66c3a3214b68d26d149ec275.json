@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Rooibos frío con manzana y canela\n\n## Descripción\n\nBebida de referencia basada en **infusión caliente, filtrado y enfriamiento**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Infusión caliente, filtrado y enfriamiento |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 10 g de rooibos puro o 4 bolsitas, según formato\n- 850 ml de agua\n- 1 manzana mediana, 150 g de pulpa en láminas\n- 1 rama pequeña de canela\n- 1–2 cucharaditas de miel opcional\n- cubitos de hielo para servir\n\n**Alérgenos:** Sin alérgenos principales; verificar mezclas aromatizadas comerciales.\n\n## Elaboración\n\n1. Lavar la manzana y cortarla en láminas finas, retirando corazón y semillas.\n2. Calentar el agua hasta casi ebullición; incorporar el rooibos y la canela.\n3. Infusionar 6–8 minutos, retirar el rooibos y dejar la canela otros 2 minutos si se desea más aroma.\n4. Añadir las láminas de manzana mientras la infusión aún está caliente durante 5 minutos, sin cocer la fruta hasta deshacerla.\n5. Retirar fruta y canela, endulzar opcionalmente y enfriar rápidamente en recipiente adecuado.\n6. Refrigerar hasta servir bien frío con hielo; añadir manzana fresca recién cortada si se desea un acabado crujiente.\n\n## Puntos críticos\n\n- El rooibos puro no es té y no contiene cafeína de forma natural; comprobar mezclas comerciales que puedan añadir té. No dejar fruta cortada ni bebida macerando durante horas fuera del frigorífico.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |\n| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |\n| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |\n\n## Conservación\n\nPreparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Manzana](../11_Despensa/17_Frutas/manzana.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **infusión caliente, filtrado y enfriamiento**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/rooibos_frio_con_manzana_y_canela.html",
+  "id": "REC-317",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rooibos puro o 4 bolsitas, según formato",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de rooibos puro o 4 bolsitas, según formato",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de rooibos puro o 4 bolsitas, según formato",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "850 ml de agua",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "manzana mediana, 150 g de pulpa en láminas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 manzana mediana, 150 g de pulpa en láminas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 manzana mediana, 150 g de pulpa en láminas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeña de canela",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama pequeña de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama pequeña de canela",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de miel opcional",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de miel opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cubitos de hielo para servir",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cubitos de hielo para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cubitos de hielo para servir",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/rooibos_frio_con_manzana_y_canela.md",
+  "source_sha256": "3c9ba0a7730feccb99e51601d60e78f2aadc21e73d840db6882299ecbad1514a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar la manzana y cortarla en láminas finas, retirando corazón y semillas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar el agua hasta casi ebullición; incorporar el rooibos y la canela."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Infusionar 6–8 minutos, retirar el rooibos y dejar la canela otros 2 minutos si se desea más aroma."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Añadir las láminas de manzana mientras la infusión aún está caliente durante 5 minutos, sin cocer la fruta hasta deshacerla."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Retirar fruta y canela, endulzar opcionalmente y enfriar rápidamente en recipiente adecuado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Refrigerar hasta servir bien frío con hielo; añadir manzana fresca recién cortada si se desea un acabado crujiente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Rooibos frío con manzana y canela",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 55,
+      "start_line": 13
+    },
+    "text": "\n# Limonada casera\n\n## Descripción\nLimonada fresca con equilibrio ajustable de acidez y dulzor, sin alcohol.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 vasos |\n| Preparación | 10 min |\n| Reposo | Opcional, 15 min en frío |\n\n## Ingredientes\n- 150 ml de zumo de limón recién exprimido;\n- 850 ml de agua fría;\n- 50–75 g de azúcar, según preferencia;\n- hielo y hojas de menta, opcionales.\n\n## Elaboración\n1. Lavar los limones, exprimir y colar el zumo.\n2. Disolver el azúcar en 100 ml de agua templada y dejar enfriar.\n3. Mezclar zumo, almíbar y agua restante.\n4. Probar y ajustar con agua o limón; refrigerar hasta servir.\n5. Añadir hielo y menta justo antes de consumir.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Muy ácida | Mucho zumo | Añadir agua y ajustar dulzor |\n| Muy dulce | Exceso de azúcar | Diluir y añadir limón gradualmente |\n| Aguada | Hielo derretido | Enfriar antes de servir |\n\n## Conservación\nMantener refrigerada y consumir preferentemente en 24–48 horas; no dejar a temperatura ambiente durante horas.\n\n## Relaciones\n- [Diagnóstico de bebidas: equilibrio de acidez y dulzor](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Té frío con limón](./te_frio_con_limon.md)\n- [Índice de bebidas](./README.md)\n\n## Principio de NovaCoquinaria\n> Ajustar el dulzor después de equilibrar la acidez."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "rest",
+      "raw": "Opcional, 15 min en frío",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/limonada_casera.html",
+  "id": "REC-0087",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zumo de limón recién exprimido;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de zumo de limón recién exprimido;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de zumo de limón recién exprimido;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 ml de agua fría;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "850 ml de agua fría;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, según preferencia;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "50",
+        "raw": "50–75 g de azúcar, según preferencia;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "50–75 g de azúcar, según preferencia;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo y hojas de menta, opcionales.",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo y hojas de menta, opcionales.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo y hojas de menta, opcionales.",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/limonada_casera.md",
+  "source_sha256": "6641ca8afe4b4621e0aa65f55f1275061880a9518d9aa63477d5ca1296f6004e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      },
+      "source_number": 1,
+      "text": "Lavar los limones, exprimir y colar el zumo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      },
+      "source_number": 2,
+      "text": "Disolver el azúcar en 100 ml de agua templada y dejar enfriar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "source_number": 3,
+      "text": "Mezclar zumo, almíbar y agua restante."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 4,
+      "text": "Probar y ajustar con agua o limón; refrigerar hasta servir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 5,
+      "text": "Añadir hielo y menta justo antes de consumir."
+    }
+  ],
+  "techniques": [],
+  "title": "Limonada casera",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "vaso"
+  }
+}

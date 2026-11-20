@@ -1,0 +1,614 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 559,
+      "start_line": 15
+    },
+    "text": "\n# Curry verde de pollo\n\n## Descripción\n\nEl curry verde de pollo es una preparación tailandesa de perfil fresco, herbal, cremoso y moderadamente picante.\n\nEsta receta aplica la plantilla [Curry base](../12_Plantillas/04_Cocciones/curry_base.md) mediante la técnica [Cocinar un curry](../00_Bases/03_Tecnicas/cocinar_curry.md), utilizando [Curry verde](../11_Despensa/08_Especias/curry_verde.md) como base aromática principal.\n\nConstituye la segunda implementación de referencia del dominio culinario **Currys** y permite comprobar la reutilización del conocimiento ya documentado en el SGCC.\n\n---\n\n## Estado de prueba doméstica\n\nEl curry verde está documentado como receta de referencia, pero **no consta evaluación posterior de una elaboración en casa**. La implementación de la plantilla culinaria no equivale a una prueba registrada.\n\nEn la próxima elaboración anotar marca y cantidad de pasta de curry, tipo de corte de pollo, cantidad de leche de coco, salinidad y equilibrio final entre picante, dulzor y lima. Comprobar **74 °C en el centro del pollo**.\n\n# Objetivo\n\nElaborar un curry verde equilibrado en el que:\n\n- la pasta de curry conserve su carácter herbal;\n- la leche de coco aporte cremosidad sin dominar;\n- el pollo quede jugoso;\n- las verduras mantengan textura;\n- el picante, la salinidad, el dulzor y la acidez permanezcan equilibrados.\n\n---\n\n# Información general\n\n| Dato | Valor |\n|------|-------|\n| Raciones | 4 |\n| Tiempo de preparación | 15 minutos |\n| Tiempo de cocinado | 25 minutos |\n| Dificultad | Fácil |\n| Cocina | Tailandesa |\n| Perfil | Herbal, cremoso y picante |\n\n---\n\n# Ingredientes\n\n## Principales\n\n- 600 g de pechuga o contramuslo de pollo;\n- 400 ml de [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md);\n- 2 cucharadas de [Curry verde](../11_Despensa/08_Especias/curry_verde.md);\n- 150 g de judías verdes;\n- 1 pimiento verde o rojo;\n- 1 cebolla pequeña;\n- 2 dientes de ajo;\n- 1 cucharadita de jengibre fresco rallado.\n\n## Condimentos\n\n- 1 cucharada de [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md);\n- 1 cucharadita de [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md);\n- 1 cucharadita de azúcar;\n- zumo de media lima;\n- pimienta negra, si fuera necesaria.\n\n## Para cocinar\n\n- 1 cucharada de aceite vegetal o de coco.\n\n## Finalización\n\n- cilantro fresco;\n- albahaca tailandesa, si se dispone;\n- chile fresco, opcional;\n- lima adicional.\n\n## Acompañamiento\n\n- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) o\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md).\n\n---\n\n# Mise en place\n\nPreparar todos los ingredientes antes de comenzar.\n\nConsultar:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n## Preparaciones previas\n\n- cortar el pollo en dados regulares;\n- retirar los extremos de las judías verdes y cortarlas;\n- cortar el pimiento en tiras;\n- picar la cebolla;\n- picar el ajo;\n- rallar el jengibre;\n- medir la pasta de curry;\n- agitar la leche de coco;\n- preparar los condimentos y elementos de finalización.\n\n---\n\n# Elaboración\n\n## 1. Calentar la grasa\n\nCalentar una cazuela amplia, sartén profunda o wok a fuego medio.\n\nAñadir el aceite sin dejar que llegue a humear.\n\n---\n\n## 2. Cocinar la base aromática\n\nAñadir la cebolla y cocinar durante 3–4 minutos, hasta que comience a quedar transparente.\n\nIncorporar el ajo y el jengibre.\n\nCocinar durante unos 30 segundos, evitando que el ajo se queme.\n\n---\n\n## 3. Desarrollar el curry verde\n\nAñadir el [Curry verde](../11_Despensa/08_Especias/curry_verde.md).\n\nCocinar entre 1 y 2 minutos a fuego medio, removiendo constantemente.\n\nLa pasta debe intensificar su aroma sin oscurecerse ni quemarse.\n\nConsultar:\n\n- [Cocinar un curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n\n---\n\n## 4. Incorporar una primera parte de leche de coco\n\nAñadir aproximadamente un tercio de la leche de coco.\n\nRemover hasta integrar completamente la pasta y formar una salsa homogénea.\n\n---\n\n## 5. Cocinar el pollo\n\nIncorporar el pollo.\n\nMezclar para cubrirlo con la base de curry y cocinar durante 3–4 minutos.\n\nNo es necesario cocinarlo completamente en esta fase.\n\n---\n\n## 6. Añadir las verduras\n\nIncorporar las judías verdes y el pimiento.\n\nRemover para distribuirlos de forma uniforme.\n\n---\n\n## 7. Completar el líquido\n\nAñadir el resto de la leche de coco.\n\nIncorporar:\n\n- la salsa de pescado;\n- la salsa de soja;\n- el azúcar.\n\nMezclar suavemente.\n\n---\n\n## 8. Cocinar a fuego suave\n\nCocinar durante 12–15 minutos a fuego medio-bajo.\n\nLa preparación debe mantener un hervor suave.\n\nRemover ocasionalmente hasta que:\n\n- el pollo esté completamente cocinado;\n- las judías verdes estén tiernas pero firmes;\n- el pimiento conserve algo de textura;\n- la salsa haya reducido ligeramente.\n\n---\n\n## 9. Ajustar el equilibrio\n\nProbar el curry.\n\nAjustar progresivamente:\n\n### Si falta salinidad o umami\n\nAñadir unas gotas de salsa de pescado.\n\n### Si resulta demasiado picante\n\nAñadir un poco más de leche de coco.\n\n### Si necesita dulzor\n\nAñadir una pequeña cantidad adicional de azúcar.\n\n### Si resulta pesado o plano\n\nAñadir lima.\n\nDebe evitarse corregir varios elementos a la vez.\n\n---\n\n## 10. Finalizar\n\nApagar el fuego.\n\nAñadir:\n\n- zumo de lima;\n- cilantro;\n- albahaca tailandesa, si se dispone;\n- chile fresco, si se desea más picante.\n\nRemover suavemente.\n\n---\n\n## 11. Reposar\n\nDejar reposar entre 5 y 10 minutos antes de servir.\n\nEste reposo permite integrar los sabores y estabilizar la textura de la salsa.\n\n---\n\n# Servicio\n\nServir caliente acompañado de arroz jazmín o basmati.\n\nPuede finalizarse con:\n\n- hojas de cilantro;\n- albahaca tailandesa;\n- rodajas de chile;\n- gajos de lima.\n\nLa salsa debe cubrir el pollo y las verduras sin resultar excesivamente líquida.\n\n---\n\n# Perfil esperado\n\nLa receta correctamente ejecutada debe presentar:\n\n- aroma herbal;\n- picante medio o alto, pero equilibrado;\n- textura cremosa;\n- frescor final;\n- pollo jugoso;\n- verduras con estructura;\n- salinidad moderada;\n- dulzor discreto;\n- acidez perceptible pero no dominante.\n\n---\n\n# Puntos críticos\n\n## Desarrollo de la pasta\n\nLa pasta de curry verde debe cocinarse brevemente en grasa.\n\nAñadirla directamente al líquido reduce su intensidad aromática.\n\n---\n\n## Control del picante\n\nLa intensidad varía notablemente entre fabricantes.\n\nEs preferible comenzar con una cantidad moderada y aumentar después.\n\n---\n\n## Cocción del pollo\n\nUna cocción excesiva puede dejar seca la pechuga.\n\nEl contramuslo tolera mejor una cocción ligeramente prolongada.\n\n---\n\n## Textura de las verduras\n\nLas judías verdes y el pimiento deben conservar algo de firmeza.\n\nNo deben cocinarse hasta perder completamente su textura.\n\n---\n\n## Tratamiento de la leche de coco\n\nEvitar hervores intensos y prolongados.\n\nConsultar:\n\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Cocinar un curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n\n---\n\n# Variantes\n\n## Curry verde de gambas\n\nSustituir el pollo por gambas.\n\nAñadirlas durante los últimos minutos para evitar una cocción excesiva.\n\n---\n\n## Curry verde de pescado\n\nUtilizar pescado blanco firme.\n\nIncorporarlo al final y remover con cuidado.\n\n---\n\n## Curry verde de tofu\n\nSustituir el pollo por tofu firme.\n\nPuede dorarse previamente para mejorar su textura.\n\n---\n\n## Curry verde de verduras\n\nOmitir el pollo y aumentar la cantidad de verduras.\n\nPuede reforzarse el umami con salsa de soja o miso.\n\n---\n\n## Curry verde más ligero\n\nSustituir una parte de la leche de coco por caldo.\n\nEl resultado será menos cremoso y más fluido.\n\n---\n\n# Sustituciones\n\n| Ingrediente original | Sustitución | Efecto |\n|----------------------|-------------|--------|\n| Curry verde | Curry rojo | Menos herbal y más profundo |\n| Leche de coco | Leche de coco ligera | Menor cremosidad |\n| Salsa de pescado | Salsa de soja | Menos complejidad fermentada |\n| Albahaca tailandesa | Cilantro | Perfil diferente, pero fresco |\n| Judías verdes | Calabacín | Textura más suave |\n| Pollo | Tofu | Versión vegetal |\n\nConsultar:\n\n- [Familias de curry](../98_Tablas/07_Comparativas/familias_de_curry.md)\n- [Sustituciones de ingredientes](../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md)\n\n---\n\n# Conservación\n\n## Refrigeración\n\nConservar en recipiente hermético hasta 3 días.\n\n## Congelación\n\nPuede congelarse sin el arroz.\n\nLas verduras pueden perder algo de textura después de descongelarse.\n\n## Recalentado\n\nRecalentar a fuego suave.\n\nSi la salsa ha espesado demasiado, añadir:\n\n- una pequeña cantidad de leche de coco;\n- caldo;\n- agua.\n\nConsultar:\n\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n# Errores frecuentes\n\n## Quemar el curry verde\n\nProduce notas amargas y destruye parte del perfil herbal.\n\n---\n\n## Añadir demasiada pasta desde el principio\n\nPuede hacer que el curry resulte excesivamente picante y salado.\n\n---\n\n## Hervir vigorosamente\n\nPuede separar la leche de coco y endurecer el pollo.\n\n---\n\n## Cocinar demasiado las verduras\n\nReduce su textura y frescor.\n\n---\n\n## Añadir la lima demasiado pronto\n\nUna cocción prolongada disminuye su frescor.\n\nDebe añadirse al final.\n\n---\n\n## Ajustar la sal antes de incorporar la salsa de pescado\n\nPuede provocar un exceso de salinidad.\n\n---\n\n## Omitir el reposo\n\nImpide que los sabores terminen de integrarse.\n\n---\n\n# Equipamiento\n\n## Imprescindible\n\n- cazuela amplia, sartén profunda o wok;\n- cuchillo de chef;\n- tabla de cortar;\n- espátula o cuchara de madera.\n\n## Recomendado\n\n- rallador fino;\n- báscula;\n- cucharas medidoras;\n- exprimidor de cítricos.\n\n---\n\n# Información nutricional\n\nValores aproximados por ración, sin acompañamiento.\n\n| Nutriente | Cantidad aproximada |\n|-----------|--------------------:|\n| Energía | 490 kcal |\n| Proteínas | 35 g |\n| Grasas | 31 g |\n| Hidratos de carbono | 16 g |\n| Fibra | 4 g |\n\n> Los valores son orientativos y dependen de los ingredientes y marcas utilizadas.\n\n---\n\n# Conocimiento reutilizado\n\n## Ingredientes\n\n- [Curry verde](../11_Despensa/08_Especias/curry_verde.md)\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n\n## Técnica\n\n- [Cocinar un curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n## Plantilla\n\n- [Curry base](../12_Plantillas/04_Cocciones/curry_base.md)\n\n## Tabla de autoridad\n\n- [Familias de curry](../98_Tablas/07_Comparativas/familias_de_curry.md)\n\n## Tablas relacionadas\n\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n- [Sustituciones de ingredientes](../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md)\n\n---\n\n# Diferencias respecto al curry amarillo de pollo\n\n| Curry amarillo de pollo | Curry verde de pollo |\n|-------------------------|-----------------------|\n| Perfil cálido y especiado | Perfil fresco y herbal |\n| Picante bajo o medio | Picante medio o alto |\n| Cúrcuma y especias cálidas | Chiles verdes y aromáticos frescos |\n| Más accesible | Más intenso |\n| Verduras dulces compatibles | Verduras verdes y frescas compatibles |\n\nConsultar:\n\n- [Curry amarillo de pollo](./curry_amarillo_de_pollo.md)\n- [Familias de curry](../98_Tablas/07_Comparativas/familias_de_curry.md)\n\n---\n\n# Principio de NovaCoquinaria\n\n> El carácter del curry verde no depende únicamente de su picante, sino de conservar el equilibrio entre frescor herbal, cremosidad, salinidad y acidez.\n\n---\n\n# Utilizado por\n\nSegunda implementación de referencia del dominio culinario **Currys** y receta de autoridad de la familia **Curry verde** dentro de NovaCoquinaria."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/curry_verde_de_pollo.html",
+  "id": "REC-0023",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Principales",
+      "name": "pechuga o contramuslo de pollo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de pechuga o contramuslo de pollo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de pechuga o contramuslo de pollo;",
+      "source_location": {
+        "end_line": 63,
+        "start_line": 63
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "Leche de coco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md);",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md);",
+      "source_location": {
+        "end_line": 64,
+        "start_line": 64
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "Curry verde;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de [Curry verde](../11_Despensa/08_Especias/curry_verde.md);",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de [Curry verde](../11_Despensa/08_Especias/curry_verde.md);",
+      "source_location": {
+        "end_line": 65,
+        "start_line": 65
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "judías verdes;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de judías verdes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de judías verdes;",
+      "source_location": {
+        "end_line": 66,
+        "start_line": 66
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "pimiento verde o rojo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde o rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde o rojo;",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "cebolla pequeña;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña;",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      }
+    },
+    {
+      "group": "Principales",
+      "name": "jengibre fresco rallado.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de jengibre fresco rallado.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de jengibre fresco rallado.",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "Salsa de pescado;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md);",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md);",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "Salsa de soja;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md);",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md);",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar;",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "zumo de media lima;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de media lima;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de media lima;",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "pimienta negra, si fuera necesaria.",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra, si fuera necesaria.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra, si fuera necesaria.",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      }
+    },
+    {
+      "group": "Para cocinar",
+      "name": "aceite vegetal o de coco.",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite vegetal o de coco.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite vegetal o de coco.",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      }
+    },
+    {
+      "group": "Finalización",
+      "name": "cilantro fresco;",
+      "optionality": "required",
+      "position": 14,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro fresco;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro fresco;",
+      "source_location": {
+        "end_line": 86,
+        "start_line": 86
+      }
+    },
+    {
+      "group": "Finalización",
+      "name": "albahaca tailandesa, si se dispone;",
+      "optionality": "required",
+      "position": 15,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "albahaca tailandesa, si se dispone;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "albahaca tailandesa, si se dispone;",
+      "source_location": {
+        "end_line": 87,
+        "start_line": 87
+      }
+    },
+    {
+      "group": "Finalización",
+      "name": "chile fresco, opcional;",
+      "optionality": "optional",
+      "position": 16,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "chile fresco, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "chile fresco, opcional;",
+      "source_location": {
+        "end_line": 88,
+        "start_line": 88
+      }
+    },
+    {
+      "group": "Finalización",
+      "name": "lima adicional.",
+      "optionality": "required",
+      "position": 17,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "lima adicional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "lima adicional.",
+      "source_location": {
+        "end_line": 89,
+        "start_line": 89
+      }
+    },
+    {
+      "group": "Acompañamiento",
+      "name": "Arroz jazmín o",
+      "optionality": "required",
+      "position": 18,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "[Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) o",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "[Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) o",
+      "source_location": {
+        "end_line": 93,
+        "start_line": 93
+      }
+    },
+    {
+      "group": "Acompañamiento",
+      "name": "Arroz basmati.",
+      "optionality": "required",
+      "position": 19,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "[Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md).",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "[Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md).",
+      "source_location": {
+        "end_line": 94,
+        "start_line": 94
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPreparar todos los ingredientes antes de comenzar.\n\nConsultar:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n",
+      "heading": "Mise en place",
+      "level": 1,
+      "source_location": {
+        "end_line": 105,
+        "start_line": 98
+      }
+    },
+    {
+      "content": "\n- cortar el pollo en dados regulares;\n- retirar los extremos de las judías verdes y cortarlas;\n- cortar el pimiento en tiras;\n- picar la cebolla;\n- picar el ajo;\n- rallar el jengibre;\n- medir la pasta de curry;\n- agitar la leche de coco;\n- preparar los condimentos y elementos de finalización.\n\n---\n",
+      "heading": "Preparaciones previas",
+      "level": 2,
+      "source_location": {
+        "end_line": 119,
+        "start_line": 106
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/curry_verde_de_pollo.md",
+  "source_sha256": "ed61f9c4f9a918b891d1b7ae138df5f708dfb7d69f4461f954cc7e87068e3525",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 129,
+        "start_line": 122
+      },
+      "source_number": 1,
+      "text": "1. Calentar la grasa\n\nCalentar una cazuela amplia, sartén profunda o wok a fuego medio.\n\nAñadir el aceite sin dejar que llegue a humear.\n\n---\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 139,
+        "start_line": 130
+      },
+      "source_number": 2,
+      "text": "2. Cocinar la base aromática\n\nAñadir la cebolla y cocinar durante 3–4 minutos, hasta que comience a quedar transparente.\n\nIncorporar el ajo y el jengibre.\n\nCocinar durante unos 30 segundos, evitando que el ajo se queme.\n\n---\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 153,
+        "start_line": 140
+      },
+      "source_number": 3,
+      "text": "3. Desarrollar el curry verde\n\nAñadir el [Curry verde](../11_Despensa/08_Especias/curry_verde.md).\n\nCocinar entre 1 y 2 minutos a fuego medio, removiendo constantemente.\n\nLa pasta debe intensificar su aroma sin oscurecerse ni quemarse.\n\nConsultar:\n\n- [Cocinar un curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n\n---\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 161,
+        "start_line": 154
+      },
+      "source_number": 4,
+      "text": "4. Incorporar una primera parte de leche de coco\n\nAñadir aproximadamente un tercio de la leche de coco.\n\nRemover hasta integrar completamente la pasta y formar una salsa homogénea.\n\n---\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 171,
+        "start_line": 162
+      },
+      "source_number": 5,
+      "text": "5. Cocinar el pollo\n\nIncorporar el pollo.\n\nMezclar para cubrirlo con la base de curry y cocinar durante 3–4 minutos.\n\nNo es necesario cocinarlo completamente en esta fase.\n\n---\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 179,
+        "start_line": 172
+      },
+      "source_number": 6,
+      "text": "6. Añadir las verduras\n\nIncorporar las judías verdes y el pimiento.\n\nRemover para distribuirlos de forma uniforme.\n\n---\n"
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 193,
+        "start_line": 180
+      },
+      "source_number": 7,
+      "text": "7. Completar el líquido\n\nAñadir el resto de la leche de coco.\n\nIncorporar:\n\n- la salsa de pescado;\n- la salsa de soja;\n- el azúcar.\n\nMezclar suavemente.\n\n---\n"
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 208,
+        "start_line": 194
+      },
+      "source_number": 8,
+      "text": "8. Cocinar a fuego suave\n\nCocinar durante 12–15 minutos a fuego medio-bajo.\n\nLa preparación debe mantener un hervor suave.\n\nRemover ocasionalmente hasta que:\n\n- el pollo esté completamente cocinado;\n- las judías verdes estén tiernas pero firmes;\n- el pimiento conserve algo de textura;\n- la salsa haya reducido ligeramente.\n\n---\n"
+    },
+    {
+      "order": 9,
+      "source_location": {
+        "end_line": 214,
+        "start_line": 209
+      },
+      "source_number": 9,
+      "text": "9. Ajustar el equilibrio\n\nProbar el curry.\n\nAjustar progresivamente:\n"
+    },
+    {
+      "order": 10,
+      "source_location": {
+        "end_line": 249,
+        "start_line": 235
+      },
+      "source_number": 10,
+      "text": "10. Finalizar\n\nApagar el fuego.\n\nAñadir:\n\n- zumo de lima;\n- cilantro;\n- albahaca tailandesa, si se dispone;\n- chile fresco, si se desea más picante.\n\nRemover suavemente.\n\n---\n"
+    },
+    {
+      "order": 11,
+      "source_location": {
+        "end_line": 257,
+        "start_line": 250
+      },
+      "source_number": 11,
+      "text": "11. Reposar\n\nDejar reposar entre 5 y 10 minutos antes de servir.\n\nEste reposo permite integrar los sabores y estabilizar la textura de la salsa.\n\n---\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar un curry",
+      "source_location": {
+        "end_line": 22,
+        "start_line": 22
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar un curry",
+      "source_location": {
+        "end_line": 150,
+        "start_line": 150
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar un curry",
+      "source_location": {
+        "end_line": 330,
+        "start_line": 330
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar un curry",
+      "source_location": {
+        "end_line": 515,
+        "start_line": 515
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Curry verde de pollo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 50,
+      "start_line": 50
+    },
+    "unit": "racion"
+  }
+}

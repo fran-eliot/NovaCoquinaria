@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Callos a la madrileña con chorizo y morcilla\n\n## Origen y contexto\n\n**Ámbito gastronómico:** Comunidad de Madrid. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Tiempo orientativo | 3–4 h cocción, según producto |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de callos de ternera limpios y preparados para cocinar\n- 250 g de pata o morro de ternera limpio y apto para consumo, opcional para gelatina\n- 160 g de chorizo para cocinar\n- 150 g de morcilla para cocinar\n- 180 g de cebolla\n- 3 dientes de ajo\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce\n- ½ cucharadita de pimentón picante opcional\n- 120 g de tomate triturado opcional\n- 2 cucharadas de aceite de oliva\n- agua de cocción y sal al final\n\n**Alérgenos:** Revisar chorizo y morcilla comerciales por gluten, sulfitos y otros componentes.\n\n## Elaboración\n\n1. Comprar callos y, si se usan, pata o morro ya limpios por un establecimiento autorizado; seguir las indicaciones del proveedor. No sustituir limpieza profesional por un simple aclarado doméstico.\n2. Poner los callos en una olla con agua, cebolla partida, laurel y la mitad del ajo; llevar a ebullición y cocer suavemente 2–3 horas o hasta textura tierna, añadiendo líquido según haga falta.\n3. Si se incorpora pata o morro, cocinarlos completamente según su naturaleza y comprobar su terneza. Retirar y colar una parte del caldo, reservándolo para la salsa.\n4. Preparar un sofrito con aceite, cebolla picada y ajo restante; separar unos segundos del fuego para añadir el pimentón sin quemarlo, agregar tomate opcional y reducir.\n5. Incorporar callos tiernos y parte del caldo gelatinoso; sumar chorizo y morcilla según su estado comercial y las instrucciones de cocción.\n6. Cocer a fuego suave 25–40 minutos adicionales, hasta que embutidos y guiso estén completamente cocidos, con salsa espesa y ligada.\n7. Retirar laurel, corregir la sal y reposar brevemente antes de servir caliente.\n\n## Puntos críticos\n\n- El tiempo depende enormemente de si los callos se compran crudos, escaldados o precocidos. Confirmar el formato comercial y no usar el tiempo indicado para un producto ya cocinado como si fuera válido para uno crudo. No romper la morcilla al remover.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Ternera guisada con verduras](./ternera_guisada_con_verduras.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "4",
+      "min": "3",
+      "phase": "declared_total",
+      "raw": "3–4 h cocción, según producto",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "h"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/callos_a_la_madrilena_con_chorizo_y_morcilla.html",
+  "id": "REC-421",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "callos de ternera limpios y preparados para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de callos de ternera limpios y preparados para cocinar",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de callos de ternera limpios y preparados para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pata o morro de ternera limpio y apto para consumo, opcional para gelatina",
+      "optionality": "optional",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de pata o morro de ternera limpio y apto para consumo, opcional para gelatina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de pata o morro de ternera limpio y apto para consumo, opcional para gelatina",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de chorizo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de chorizo para cocinar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "morcilla para cocinar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de morcilla para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de morcilla para cocinar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón picante opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón picante opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón picante opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de tomate triturado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de tomate triturado opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción y sal al final",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción y sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción y sal al final",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/callos_a_la_madrilena_con_chorizo_y_morcilla.md",
+  "source_sha256": "b1b6c1dc870e482bda9f0fbf97c729509176e353dff6936ff2fd73ed2f10d25d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Comprar callos y, si se usan, pata o morro ya limpios por un establecimiento autorizado; seguir las indicaciones del proveedor. No sustituir limpieza profesional por un simple aclarado doméstico."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Poner los callos en una olla con agua, cebolla partida, laurel y la mitad del ajo; llevar a ebullición y cocer suavemente 2–3 horas o hasta textura tierna, añadiendo líquido según haga falta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Si se incorpora pata o morro, cocinarlos completamente según su naturaleza y comprobar su terneza. Retirar y colar una parte del caldo, reservándolo para la salsa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Preparar un sofrito con aceite, cebolla picada y ajo restante; separar unos segundos del fuego para añadir el pimentón sin quemarlo, agregar tomate opcional y reducir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Incorporar callos tiernos y parte del caldo gelatinoso; sumar chorizo y morcilla según su estado comercial y las instrucciones de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Cocer a fuego suave 25–40 minutos adicionales, hasta que embutidos y guiso estén completamente cocidos, con salsa espesa y ligada."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, corregir la sal y reposar brevemente antes de servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Callos a la madrileña con chorizo y morcilla",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,5239 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de Gestión del Conocimiento Culinario">
+      
+      
+        <meta name="author" content="Fran Ramírez">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>ESPECIFICACIÓN DE COMPONENTES - NovaCoquinaria</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#especificacion-de-componentes" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../../index.html" title="NovaCoquinaria" class="md-header__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NovaCoquinaria
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ESPECIFICACIÓN DE COMPONENTES
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../index.html" title="NovaCoquinaria" class="md-nav__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    NovaCoquinaria
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../MANIFESTO.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifiesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CONTRIBUTING.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../QUALITY.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arquitectura
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VISION.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ARQUITECTURA.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ROADMAP.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/01_Fundamentos/mise_en_place.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mise en place
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/saltear.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Saltear
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/sofreir.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sofreír
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/wok.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wok
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tablas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tablas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/01_Cocciones/tiempos_coccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiempos de cocción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/02_Hornos/temperaturas_horno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Temperaturas de horno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/03_Conversiones/conversiones_unidades.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conversiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/04_Conservacion/conservacion_congelacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conservación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/05_Seguridad/seguridad_alimentaria.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seguridad alimentaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sustituciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroces
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arroces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_chaufa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz Chaufa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_higadillos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz con higadillos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_caldoso_alcachofas_marisco.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz caldoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verduras
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verduras
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/brocoli.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brócoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/champi%C3%B1ones_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/champi%C3%B1ones_sichuan.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones Sichuan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/habas_jamon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Habas con jamón
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carnes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Carnes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/lomo_asiatico.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lomo asiático
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/ternera_bambu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con bambú
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/ternera_salsa_ostras.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con salsa de ostras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/hamburguesa_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/hamburguesa_especiada.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa especiada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/medallones_solomillo_asiaticos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medallones asiáticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pescados y mariscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pescados y mariscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/caballa_japonesa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caballa japonesa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/gambas_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gambas al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/tintorera_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tintorera asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="especificacion-de-componentes">ESPECIFICACIÓN DE COMPONENTES<a class="headerlink" href="#especificacion-de-componentes" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Proyecto:</strong> NovaCoquinaria<br />
+<strong>Release:</strong> v1.4 – Knowledge Governance<br />
+<strong>Sistema:</strong> GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)<br />
+<strong>Especificación:</strong> v1.0.0</p>
+</blockquote>
+<hr />
+<h1 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h1>
+<p>El Sistema de Gestión del Conocimiento Culinario organiza su dominio mediante componentes conceptuales capaces de representar unidades de conocimiento con identidad, significado y responsabilidad propias.</p>
+<p>Estos componentes constituyen las entidades fundamentales sobre las que se construye el modelo de conocimiento de NovaCoquinaria.</p>
+<p>Ejemplos de componentes son:</p>
+<ul>
+<li>una receta;</li>
+<li>un ingrediente;</li>
+<li>una técnica culinaria;</li>
+<li>una base;</li>
+<li>una plantilla;</li>
+<li>una tabla de referencia;</li>
+<li>un menú;</li>
+<li>una colección.</li>
+</ul>
+<p>La presente especificación define el modelo oficial de componentes del SGCC y establece las reglas que determinan:</p>
+<ul>
+<li>qué es un componente;</li>
+<li>qué tipos de componentes existen;</li>
+<li>cómo se clasifican;</li>
+<li>qué propiedades poseen;</li>
+<li>cómo deben evolucionar;</li>
+<li>cómo se diferencian de sus representaciones documentales.</li>
+</ul>
+<p>Esta especificación constituye la base normativa para las futuras especificaciones de:</p>
+<ul>
+<li>relaciones;</li>
+<li>ontología;</li>
+<li>colecciones;</li>
+<li>Knowledge Graph;</li>
+<li>APIs de conocimiento;</li>
+<li>sistemas RAG;</li>
+<li>asistentes basados en inteligencia artificial.</li>
+</ul>
+<hr />
+<h1 id="objetivo">Objetivo<a class="headerlink" href="#objetivo" title="Permanent link">&para;</a></h1>
+<p>El objetivo de esta especificación es definir el catálogo conceptual de componentes gestionados por el SGCC.</p>
+<p>En particular, establece:</p>
+<ul>
+<li>el concepto general de componente;</li>
+<li>su relación con los activos de conocimiento;</li>
+<li>los principios que regulan su diseño;</li>
+<li>su clasificación funcional;</li>
+<li>las responsabilidades de cada familia de componentes;</li>
+<li>las reglas generales de identidad, composición y reutilización.</li>
+</ul>
+<p>Esta especificación permite que el conocimiento culinario pueda representarse de forma consistente con independencia de la tecnología, formato o medio utilizado para almacenarlo.</p>
+<hr />
+<h1 id="alcance">Alcance<a class="headerlink" href="#alcance" title="Permanent link">&para;</a></h1>
+<p>Esta especificación se aplica a todos los componentes conceptuales gestionados por el SGCC.</p>
+<p>Incluye componentes pertenecientes a:</p>
+<ul>
+<li>conocimiento culinario;</li>
+<li>organización del conocimiento;</li>
+<li>planificación culinaria;</li>
+<li>documentación de referencia;</li>
+<li>estructuras reutilizables;</li>
+<li>agrupaciones de activos.</li>
+</ul>
+<p>También establece las reglas generales necesarias para incorporar nuevos tipos de componentes en el futuro.</p>
+<p>No forma parte del alcance de esta especificación:</p>
+<ul>
+<li>definir todas las relaciones posibles entre componentes;</li>
+<li>construir la ontología completa del SGCC;</li>
+<li>establecer formatos físicos de almacenamiento;</li>
+<li>definir normas editoriales;</li>
+<li>describir la estructura interna detallada de cada documento;</li>
+<li>especificar APIs o modelos de base de datos concretos.</li>
+</ul>
+<p>Estos aspectos se desarrollarán en especificaciones especializadas.</p>
+<hr />
+<h1 id="dependencias-normativas">Dependencias normativas<a class="headerlink" href="#dependencias-normativas" title="Permanent link">&para;</a></h1>
+<p>Esta especificación deberá interpretarse junto con los siguientes documentos:</p>
+<ul>
+<li><code>ESPECIFICACION_DE_DOCUMENTOS</code>;</li>
+<li><code>ESPECIFICACION_DE_COLECCIONES</code>;</li>
+<li><code>MODELO_DE_CONOCIMIENTO</code>;</li>
+<li><code>ARQUITECTURA</code>;</li>
+<li><code>GOVERNANCE_MODEL</code>;</li>
+<li><code>QUALITY</code>.</li>
+</ul>
+<p>La especificación de documentos define cómo se representan persistentemente los activos.</p>
+<p>La presente especificación define qué entidades conceptuales pueden ser representadas.</p>
+<p>La futura especificación de relaciones definirá cómo se conectan entre sí.</p>
+<p>La futura especificación de ontología integrará componentes, propiedades y relaciones en un modelo semántico unificado.</p>
+<hr />
+<h1 id="definiciones">Definiciones<a class="headerlink" href="#definiciones" title="Permanent link">&para;</a></h1>
+<p>Esta sección establece el vocabulario normativo utilizado por el modelo de componentes.</p>
+<hr />
+<h2 id="activo-de-conocimiento">Activo de conocimiento<a class="headerlink" href="#activo-de-conocimiento" title="Permanent link">&para;</a></h2>
+<p>Entidad identificable que contiene, organiza o representa conocimiento gestionado por el SGCC.</p>
+<p>Un activo de conocimiento puede pertenecer al dominio culinario, al modelo conceptual o a la estructura organizativa del sistema.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>una receta;</li>
+<li>una técnica;</li>
+<li>un ingrediente;</li>
+<li>una colección;</li>
+<li>una especificación;</li>
+<li>una decisión arquitectónica.</li>
+</ul>
+<p>Todo componente es un activo de conocimiento, pero no todo activo de conocimiento tiene por qué ser un componente culinario.</p>
+<hr />
+<h2 id="componente">Componente<a class="headerlink" href="#componente" title="Permanent link">&para;</a></h2>
+<p>Activo de conocimiento con identidad, responsabilidad y significado propios dentro del modelo conceptual del SGCC.</p>
+<p>Un componente representa una entidad reutilizable que puede existir de forma independiente o participar en estructuras de conocimiento más complejas.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>un ingrediente utilizado por varias recetas;</li>
+<li>una técnica aplicada en diferentes preparaciones;</li>
+<li>una receta compuesta por ingredientes y procesos;</li>
+<li>una plantilla utilizada para generar múltiples recetas.</li>
+</ul>
+<p>Un componente existe conceptualmente con independencia de la forma en que sea almacenado.</p>
+<hr />
+<h2 id="componente-de-dominio">Componente de dominio<a class="headerlink" href="#componente-de-dominio" title="Permanent link">&para;</a></h2>
+<p>Componente que representa conocimiento perteneciente directamente al dominio culinario.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>receta;</li>
+<li>ingrediente;</li>
+<li>técnica;</li>
+<li>base culinaria;</li>
+<li>elaboración;</li>
+<li>menú.</li>
+</ul>
+<hr />
+<h2 id="componente-estructural">Componente estructural<a class="headerlink" href="#componente-estructural" title="Permanent link">&para;</a></h2>
+<p>Componente utilizado para organizar, clasificar o reutilizar otros activos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>plantilla;</li>
+<li>tabla;</li>
+<li>colección;</li>
+<li>esquema;</li>
+<li>taxonomía.</li>
+</ul>
+<hr />
+<h2 id="componente-atomico">Componente atómico<a class="headerlink" href="#componente-atomico" title="Permanent link">&para;</a></h2>
+<p>Componente que representa una unidad conceptual mínima dentro del modelo definido.</p>
+<p>Su carácter atómico no implica que carezca de propiedades internas, sino que no se descompone en otros componentes con identidad independiente dentro del contexto considerado.</p>
+<p>Ejemplos habituales:</p>
+<ul>
+<li>ingrediente;</li>
+<li>técnica;</li>
+<li>unidad de medida;</li>
+<li>concepto culinario.</li>
+</ul>
+<hr />
+<h2 id="componente-compuesto">Componente compuesto<a class="headerlink" href="#componente-compuesto" title="Permanent link">&para;</a></h2>
+<p>Componente formado mediante la combinación organizada de otros componentes.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>receta;</li>
+<li>menú;</li>
+<li>proceso culinario;</li>
+<li>colección temática.</li>
+</ul>
+<p>Un componente compuesto mantiene identidad propia y no equivale a la simple suma de sus partes.</p>
+<hr />
+<h2 id="instancia-de-componente">Instancia de componente<a class="headerlink" href="#instancia-de-componente" title="Permanent link">&para;</a></h2>
+<p>Manifestación concreta de un tipo de componente.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Tipo: Ingrediente
+Instancia: Ajo
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Tipo: Receta
+Instancia: Curry japonés
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Tipo: Técnica
+Instancia: Sofreír
+</code></pre></div>
+<hr />
+<h2 id="tipo-de-componente">Tipo de componente<a class="headerlink" href="#tipo-de-componente" title="Permanent link">&para;</a></h2>
+<p>Categoría conceptual que define las propiedades, responsabilidades y comportamientos esperados de un conjunto de componentes.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>receta;</li>
+<li>ingrediente;</li>
+<li>técnica;</li>
+<li>base;</li>
+<li>plantilla;</li>
+<li>colección.</li>
+</ul>
+<hr />
+<h2 id="propiedad">Propiedad<a class="headerlink" href="#propiedad" title="Permanent link">&para;</a></h2>
+<p>Característica descriptiva asociada a un componente.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>nombre;</li>
+<li>descripción;</li>
+<li>origen;</li>
+<li>dificultad;</li>
+<li>duración;</li>
+<li>categoría;</li>
+<li>estado.</li>
+</ul>
+<p>Las propiedades describen al componente, pero no representan necesariamente vínculos con otros componentes.</p>
+<hr />
+<h2 id="relacion">Relación<a class="headerlink" href="#relacion" title="Permanent link">&para;</a></h2>
+<p>Vínculo semántico entre dos o más componentes o activos de conocimiento.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Una receta utiliza un ingrediente.
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Una técnica se aplica en una elaboración.
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Una receta deriva de una plantilla.
+</code></pre></div>
+<p>Las relaciones se formalizarán en <code>ESPECIFICACION_DE_RELACIONES</code>.</p>
+<hr />
+<h2 id="representacion">Representación<a class="headerlink" href="#representacion" title="Permanent link">&para;</a></h2>
+<p>Forma concreta mediante la que un activo de conocimiento se almacena, intercambia o publica.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>documento Markdown;</li>
+<li>objeto JSON;</li>
+<li>registro de base de datos;</li>
+<li>recurso de una API;</li>
+<li>nodo de un grafo;</li>
+<li>fragmento RDF.</li>
+</ul>
+<p>La representación no define la identidad conceptual del componente.</p>
+<hr />
+<h2 id="documento-canonico">Documento canónico<a class="headerlink" href="#documento-canonico" title="Permanent link">&para;</a></h2>
+<p>Representación oficial y autoritativa de un activo de conocimiento dentro de la implementación actual del SGCC.</p>
+<p>Un documento canónico:</p>
+<ul>
+<li>posee identificador persistente;</li>
+<li>contiene metadatos estructurados;</li>
+<li>constituye la fuente oficial;</li>
+<li>puede generar otras representaciones derivadas.</li>
+</ul>
+<hr />
+<h2 id="coleccion">Colección<a class="headerlink" href="#coleccion" title="Permanent link">&para;</a></h2>
+<p>Activo organizativo que agrupa componentes relacionados mediante un criterio explícito.</p>
+<p>Una colección puede representar:</p>
+<ul>
+<li>una agrupación temática;</li>
+<li>una clasificación;</li>
+<li>una serie;</li>
+<li>un conjunto curado;</li>
+<li>una vista especializada del conocimiento.</li>
+</ul>
+<p>La colección organiza componentes, pero no modifica necesariamente su identidad individual.</p>
+<hr />
+<h2 id="ontologia">Ontología<a class="headerlink" href="#ontologia" title="Permanent link">&para;</a></h2>
+<p>Modelo formal que define:</p>
+<ul>
+<li>los tipos de entidades;</li>
+<li>sus propiedades;</li>
+<li>sus relaciones;</li>
+<li>sus restricciones;</li>
+<li>sus reglas semánticas.</li>
+</ul>
+<p>La ontología del SGCC se construirá a partir del modelo de componentes y del modelo de relaciones.</p>
+<hr />
+<h1 id="modelo-conceptual-general">Modelo conceptual general<a class="headerlink" href="#modelo-conceptual-general" title="Permanent link">&para;</a></h1>
+<p>El SGCC distingue entre el conocimiento, sus componentes y sus representaciones.</p>
+<div class="highlight"><pre><span></span><code>Activo de conocimiento
+        │
+        ├── Componente
+        │      │
+        │      ├── Componente de dominio
+        │      └── Componente estructural
+        │
+        ├── Documento
+        │
+        └── Colección
+</code></pre></div>
+<p>Esta clasificación expresa responsabilidades conceptuales, no necesariamente clases técnicas ni estructuras físicas.</p>
+<p>Un mismo activo puede participar simultáneamente en distintos contextos.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li>una receta es un componente de dominio;</li>
+<li>puede estar representada mediante un documento Markdown;</li>
+<li>puede pertenecer a varias colecciones;</li>
+<li>puede convertirse en un nodo del Knowledge Graph;</li>
+<li>puede exponerse mediante una API.</li>
+</ul>
+<hr />
+<h1 id="separacion-entre-componente-y-documento">Separación entre componente y documento<a class="headerlink" href="#separacion-entre-componente-y-documento" title="Permanent link">&para;</a></h1>
+<p>Un componente y un documento no son equivalentes.</p>
+<p>El componente representa la entidad conceptual.</p>
+<p>El documento representa una posible materialización persistente de dicha entidad.</p>
+<div class="highlight"><pre><span></span><code>Componente conceptual
+        │
+        ▼
+Documento canónico
+        │
+        ├── Markdown
+        ├── Front Matter
+        └── Enlaces
+</code></pre></div>
+<p>En el futuro, el mismo componente podrá disponer de otras representaciones:</p>
+<div class="highlight"><pre><span></span><code>Componente
+    │
+    ├── Documento Markdown
+    ├── Recurso JSON
+    ├── Registro de base de datos
+    ├── Nodo RDF
+    └── Recurso API
+</code></pre></div>
+<p>El cambio de representación no deberá alterar:</p>
+<ul>
+<li>su identidad;</li>
+<li>su significado;</li>
+<li>sus relaciones;</li>
+<li>su trazabilidad.</li>
+</ul>
+<hr />
+<h1 id="separacion-entre-componente-y-coleccion">Separación entre componente y colección<a class="headerlink" href="#separacion-entre-componente-y-coleccion" title="Permanent link">&para;</a></h1>
+<p>Una colección agrupa componentes, pero no los convierte en partes inseparables de ella.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Colección: Recetas japonesas
+        │
+        ├── Curry japonés
+        ├── Ramen
+        └── Okonomiyaki
+</code></pre></div>
+<p>Cada receta conserva:</p>
+<ul>
+<li>identidad propia;</li>
+<li>ciclo de vida propio;</li>
+<li>relaciones propias;</li>
+<li>capacidad para pertenecer a otras colecciones.</li>
+</ul>
+<p>Una colección no deberá utilizarse para duplicar componentes.</p>
+<hr />
+<h1 id="separacion-entre-componente-y-relacion">Separación entre componente y relación<a class="headerlink" href="#separacion-entre-componente-y-relacion" title="Permanent link">&para;</a></h1>
+<p>Un componente representa una entidad.</p>
+<p>Una relación representa el vínculo entre entidades.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>REC-0042 ── utiliza ── ING-0017
+</code></pre></div>
+<p>Donde:</p>
+<ul>
+<li><code>REC-0042</code> es un componente de tipo receta;</li>
+<li><code>ING-0017</code> es un componente de tipo ingrediente;</li>
+<li><code>utiliza</code> es una relación.</li>
+</ul>
+<p>La relación no forma parte de la identidad de ninguno de los componentes, aunque contribuya a definir su significado contextual.</p>
+<hr />
+<h1 id="principios-del-modelo-de-componentes">Principios del modelo de componentes<a class="headerlink" href="#principios-del-modelo-de-componentes" title="Permanent link">&para;</a></h1>
+<p>Todo componente gestionado por el SGCC deberá respetar los principios descritos en esta sección.</p>
+<hr />
+<h2 id="identidad-persistente">Identidad persistente<a class="headerlink" href="#identidad-persistente" title="Permanent link">&para;</a></h2>
+<p>Todo componente canónico deberá disponer de una identidad estable.</p>
+<p>Su identificador no deberá cambiar como consecuencia de:</p>
+<ul>
+<li>modificaciones de nombre;</li>
+<li>cambios de ubicación;</li>
+<li>reorganización del repositorio;</li>
+<li>cambios de formato;</li>
+<li>publicación en otros sistemas;</li>
+<li>incorporación a nuevas colecciones.</li>
+</ul>
+<hr />
+<h2 id="responsabilidad-unica">Responsabilidad única<a class="headerlink" href="#responsabilidad-unica" title="Permanent link">&para;</a></h2>
+<p>Cada tipo de componente deberá representar una responsabilidad conceptual claramente delimitada.</p>
+<p>No deberán crearse componentes que mezclen responsabilidades incompatibles.</p>
+<p>Por ejemplo, una receta no deberá utilizarse como sustituto de:</p>
+<ul>
+<li>una ficha de ingrediente;</li>
+<li>una técnica;</li>
+<li>una tabla de referencia;</li>
+<li>una decisión arquitectónica.</li>
+</ul>
+<hr />
+<h2 id="independencia-de-la-representacion">Independencia de la representación<a class="headerlink" href="#independencia-de-la-representacion" title="Permanent link">&para;</a></h2>
+<p>Los componentes deberán definirse mediante su significado, no mediante la tecnología que los almacena.</p>
+<p>No deberá decirse:</p>
+<blockquote>
+<p>Una receta es un archivo Markdown.</p>
+</blockquote>
+<p>Deberá decirse:</p>
+<blockquote>
+<p>Una receta es un componente culinario que puede representarse mediante un archivo Markdown.</p>
+</blockquote>
+<hr />
+<h2 id="reutilizacion">Reutilización<a class="headerlink" href="#reutilizacion" title="Permanent link">&para;</a></h2>
+<p>Los componentes deberán diseñarse para poder reutilizarse en distintos contextos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>un ingrediente puede participar en múltiples recetas;</li>
+<li>una técnica puede aplicarse en distintas elaboraciones;</li>
+<li>una base puede utilizarse en numerosos platos;</li>
+<li>una plantilla puede generar diferentes recetas.</li>
+</ul>
+<hr />
+<h2 id="composicion">Composición<a class="headerlink" href="#composicion" title="Permanent link">&para;</a></h2>
+<p>Los componentes podrán combinarse para formar estructuras más complejas.</p>
+<p>La composición deberá preservar la identidad de los componentes reutilizados cuando estos representen activos independientes.</p>
+<hr />
+<h2 id="coherencia-semantica">Coherencia semántica<a class="headerlink" href="#coherencia-semantica" title="Permanent link">&para;</a></h2>
+<p>Cada componente deberá mantener coherencia entre:</p>
+<ul>
+<li>su tipo;</li>
+<li>su nombre;</li>
+<li>sus propiedades;</li>
+<li>su contenido;</li>
+<li>sus relaciones.</li>
+</ul>
+<p>Un componente no deberá declararse de un tipo y asumir la responsabilidad de otro.</p>
+<hr />
+<h2 id="extensibilidad">Extensibilidad<a class="headerlink" href="#extensibilidad" title="Permanent link">&para;</a></h2>
+<p>El modelo deberá permitir incorporar nuevos tipos de componentes sin redefinir completamente la arquitectura existente.</p>
+<p>Toda ampliación deberá:</p>
+<ul>
+<li>responder a una necesidad real;</li>
+<li>evitar duplicar tipos existentes;</li>
+<li>mantener compatibilidad;</li>
+<li>documentar sus propiedades y relaciones;</li>
+<li>actualizar las especificaciones afectadas.</li>
+</ul>
+<hr />
+<h2 id="trazabilidad">Trazabilidad<a class="headerlink" href="#trazabilidad" title="Permanent link">&para;</a></h2>
+<p>La evolución de un componente deberá poder reconstruirse mediante:</p>
+<ul>
+<li>su identificador;</li>
+<li>su versionado;</li>
+<li>su historial documental;</li>
+<li>sus relaciones;</li>
+<li>sus representaciones.</li>
+</ul>
+<hr />
+<h2 id="interoperabilidad">Interoperabilidad<a class="headerlink" href="#interoperabilidad" title="Permanent link">&para;</a></h2>
+<p>Los componentes deberán poder utilizarse mediante distintas tecnologías y sistemas.</p>
+<p>El modelo deberá facilitar su integración con:</p>
+<ul>
+<li>bases de datos;</li>
+<li>APIs;</li>
+<li>grafos de conocimiento;</li>
+<li>motores de búsqueda;</li>
+<li>sistemas RAG;</li>
+<li>agentes inteligentes;</li>
+<li>herramientas de publicación.</li>
+</ul>
+<hr />
+<h2 id="evolucion-sostenible">Evolución sostenible<a class="headerlink" href="#evolucion-sostenible" title="Permanent link">&para;</a></h2>
+<p>Los componentes deberán evolucionar sin comprometer la estabilidad del conocimiento existente.</p>
+<p>Los cambios deberán preservar, siempre que resulte posible:</p>
+<ul>
+<li>identidad;</li>
+<li>compatibilidad;</li>
+<li>relaciones;</li>
+<li>significado;</li>
+<li>trazabilidad histórica.</li>
+</ul>
+<hr />
+<h1 id="clasificacion-general-de-componentes">Clasificación general de componentes<a class="headerlink" href="#clasificacion-general-de-componentes" title="Permanent link">&para;</a></h1>
+<p>El SGCC clasifica sus componentes según su responsabilidad conceptual.</p>
+<div class="highlight"><pre><span></span><code>Componente
+    │
+    ├── Componentes de dominio culinario
+    │      ├── Ingrediente
+    │      ├── Técnica
+    │      ├── Base culinaria
+    │      ├── Elaboración
+    │      ├── Receta
+    │      ├── Menú
+    │      └── Concepto culinario
+    │
+    ├── Componentes estructurales
+    │      ├── Plantilla
+    │      ├── Tabla
+    │      ├── Taxonomía
+    │      └── Esquema
+    │
+    └── Componentes organizativos
+           ├── Colección
+           ├── Serie
+           ├── Índice
+           └── Catálogo
+</code></pre></div>
+<p>Esta clasificación podrá evolucionar conforme madure el modelo de conocimiento.</p>
+<hr />
+<h1 id="componentes-de-dominio-culinario">Componentes de dominio culinario<a class="headerlink" href="#componentes-de-dominio-culinario" title="Permanent link">&para;</a></h1>
+<p>Representan conocimiento directamente relacionado con la cocina.</p>
+<p>Incluyen entidades, procesos y estructuras propias del dominio culinario.</p>
+<hr />
+<h2 id="ingrediente">Ingrediente<a class="headerlink" href="#ingrediente" title="Permanent link">&para;</a></h2>
+<p>Representa una sustancia o producto utilizado en una preparación culinaria.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>ajo;</li>
+<li>arroz;</li>
+<li>aceite de oliva;</li>
+<li>leche de coco;</li>
+<li>miso.</li>
+</ul>
+<hr />
+<h2 id="tecnica">Técnica<a class="headerlink" href="#tecnica" title="Permanent link">&para;</a></h2>
+<p>Representa un método o acción culinaria reutilizable.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>sofreír;</li>
+<li>emulsionar;</li>
+<li>marinar;</li>
+<li>confitar;</li>
+<li>fermentar.</li>
+</ul>
+<hr />
+<h2 id="base-culinaria">Base culinaria<a class="headerlink" href="#base-culinaria" title="Permanent link">&para;</a></h2>
+<p>Representa una preparación reutilizable que sirve como fundamento para otras elaboraciones.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>caldo;</li>
+<li>sofrito;</li>
+<li>roux;</li>
+<li>fondo oscuro;</li>
+<li>pasta de curry.</li>
+</ul>
+<hr />
+<h2 id="elaboracion">Elaboración<a class="headerlink" href="#elaboracion" title="Permanent link">&para;</a></h2>
+<p>Representa una fase o preparación con resultado propio dentro de un proceso culinario.</p>
+<p>Puede constituir:</p>
+<ul>
+<li>un subproceso;</li>
+<li>una preparación intermedia;</li>
+<li>una parte reutilizable de una receta;</li>
+<li>un componente interno con identidad funcional.</li>
+</ul>
+<hr />
+<h2 id="receta">Receta<a class="headerlink" href="#receta" title="Permanent link">&para;</a></h2>
+<p>Representa una especificación reproducible para obtener una preparación culinaria.</p>
+<p>Combina habitualmente:</p>
+<ul>
+<li>ingredientes;</li>
+<li>cantidades;</li>
+<li>técnicas;</li>
+<li>elaboraciones;</li>
+<li>secuencia de pasos;</li>
+<li>condiciones de ejecución;</li>
+<li>resultado esperado.</li>
+</ul>
+<hr />
+<h2 id="menu">Menú<a class="headerlink" href="#menu" title="Permanent link">&para;</a></h2>
+<p>Representa una composición planificada de varias preparaciones o recetas.</p>
+<p>Puede atender a criterios:</p>
+<ul>
+<li>gastronómicos;</li>
+<li>nutricionales;</li>
+<li>temporales;</li>
+<li>culturales;</li>
+<li>económicos;</li>
+<li>logísticos.</li>
+</ul>
+<hr />
+<h2 id="concepto-culinario">Concepto culinario<a class="headerlink" href="#concepto-culinario" title="Permanent link">&para;</a></h2>
+<p>Representa una idea, término o principio relevante para comprender el dominio.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>umami;</li>
+<li>mise en place;</li>
+<li>punto de cocción;</li>
+<li>equilibrio de sabores;</li>
+<li>estacionalidad.</li>
+</ul>
+<hr />
+<h1 id="componentes-estructurales">Componentes estructurales<a class="headerlink" href="#componentes-estructurales" title="Permanent link">&para;</a></h1>
+<p>Permiten organizar y reutilizar conocimiento sin representar necesariamente una preparación culinaria concreta.</p>
+<hr />
+<h2 id="plantilla">Plantilla<a class="headerlink" href="#plantilla" title="Permanent link">&para;</a></h2>
+<p>Define una estructura reutilizable para crear componentes homogéneos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>plantilla de curry;</li>
+<li>plantilla de guiso;</li>
+<li>plantilla de ensalada;</li>
+<li>plantilla de menú semanal.</li>
+</ul>
+<hr />
+<h2 id="tabla">Tabla<a class="headerlink" href="#tabla" title="Permanent link">&para;</a></h2>
+<p>Representa conocimiento estructurado en forma de correspondencias, equivalencias o referencias.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>tabla de temperaturas;</li>
+<li>equivalencias de medidas;</li>
+<li>tiempos de cocción;</li>
+<li>proporciones;</li>
+<li>sustituciones.</li>
+</ul>
+<hr />
+<h2 id="taxonomia">Taxonomía<a class="headerlink" href="#taxonomia" title="Permanent link">&para;</a></h2>
+<p>Define una clasificación jerárquica o controlada.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>tipos de cocina;</li>
+<li>familias de ingredientes;</li>
+<li>métodos de cocción;</li>
+<li>categorías de recetas.</li>
+</ul>
+<hr />
+<h2 id="esquema">Esquema<a class="headerlink" href="#esquema" title="Permanent link">&para;</a></h2>
+<p>Define la estructura abstracta de un tipo de conocimiento.</p>
+<p>Puede utilizarse para:</p>
+<ul>
+<li>validar componentes;</li>
+<li>generar formularios;</li>
+<li>construir APIs;</li>
+<li>definir modelos de datos;</li>
+<li>facilitar interoperabilidad.</li>
+</ul>
+<hr />
+<h1 id="componentes-organizativos">Componentes organizativos<a class="headerlink" href="#componentes-organizativos" title="Permanent link">&para;</a></h1>
+<p>Permiten agrupar, localizar y presentar otros activos de conocimiento.</p>
+<hr />
+<h2 id="coleccion_1">Colección<a class="headerlink" href="#coleccion_1" title="Permanent link">&para;</a></h2>
+<p>Agrupa componentes relacionados mediante uno o varios criterios explícitos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>recetas vegetarianas;</li>
+<li>técnicas de cocina japonesa;</li>
+<li>bases culinarias fundamentales;</li>
+<li>menús económicos.</li>
+</ul>
+<hr />
+<h2 id="serie">Serie<a class="headerlink" href="#serie" title="Permanent link">&para;</a></h2>
+<p>Representa una secuencia ordenada de componentes relacionados.</p>
+<p>Puede utilizarse para:</p>
+<ul>
+<li>recorridos de aprendizaje;</li>
+<li>progresión técnica;</li>
+<li>menús planificados;</li>
+<li>publicaciones temáticas.</li>
+</ul>
+<hr />
+<h2 id="indice">Índice<a class="headerlink" href="#indice" title="Permanent link">&para;</a></h2>
+<p>Facilita la localización y navegación entre componentes.</p>
+<p>Un índice puede estar generado automáticamente y no necesariamente constituye conocimiento canónico independiente.</p>
+<hr />
+<h2 id="catalogo">Catálogo<a class="headerlink" href="#catalogo" title="Permanent link">&para;</a></h2>
+<p>Representa una relación estructurada de componentes pertenecientes a un dominio o familia determinada.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>catálogo de ingredientes;</li>
+<li>catálogo de técnicas;</li>
+<li>catálogo de plantillas;</li>
+<li>catálogo de especificaciones.</li>
+</ul>
+<hr />
+<h1 id="clasificacion-por-nivel-de-composicion">Clasificación por nivel de composición<a class="headerlink" href="#clasificacion-por-nivel-de-composicion" title="Permanent link">&para;</a></h1>
+<p>Además de su responsabilidad funcional, los componentes pueden clasificarse por su nivel de composición.</p>
+<hr />
+<h2 id="componentes-atomicos">Componentes atómicos<a class="headerlink" href="#componentes-atomicos" title="Permanent link">&para;</a></h2>
+<p>Representan unidades básicas reutilizables.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>ingrediente;</li>
+<li>técnica;</li>
+<li>concepto;</li>
+<li>unidad de medida.</li>
+</ul>
+<div class="highlight"><pre><span></span><code>Ingrediente
+Técnica
+Concepto
+Unidad
+</code></pre></div>
+<hr />
+<h2 id="componentes-compuestos">Componentes compuestos<a class="headerlink" href="#componentes-compuestos" title="Permanent link">&para;</a></h2>
+<p>Integran varios componentes para representar una estructura de mayor complejidad.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>receta;</li>
+<li>base culinaria;</li>
+<li>menú;</li>
+<li>colección.</li>
+</ul>
+<div class="highlight"><pre><span></span><code>Receta
+    ├── Ingredientes
+    ├── Técnicas
+    ├── Elaboraciones
+    └── Resultado
+</code></pre></div>
+<hr />
+<h2 id="componentes-hibridos">Componentes híbridos<a class="headerlink" href="#componentes-hibridos" title="Permanent link">&para;</a></h2>
+<p>Algunos componentes pueden comportarse como atómicos o compuestos según el nivel de análisis.</p>
+<p>Por ejemplo, una salsa puede considerarse:</p>
+<ul>
+<li>una base reutilizable dentro de una receta;</li>
+<li>una elaboración compuesta por ingredientes y técnicas;</li>
+<li>un resultado culinario independiente.</li>
+</ul>
+<p>La clasificación deberá depender de la responsabilidad que el componente tenga dentro del modelo, no de su complejidad física.</p>
+<hr />
+<h1 id="catalogo-normativo-de-componentes">Catálogo normativo de componentes<a class="headerlink" href="#catalogo-normativo-de-componentes" title="Permanent link">&para;</a></h1>
+<p>Esta sección define los tipos de componentes reconocidos inicialmente por el SGCC.</p>
+<p>Cada componente se describe mediante:</p>
+<ul>
+<li>finalidad;</li>
+<li>responsabilidad;</li>
+<li>propiedades principales;</li>
+<li>restricciones;</li>
+<li>relaciones habituales;</li>
+<li>ejemplos.</li>
+</ul>
+<p>El catálogo representa el vocabulario conceptual base del sistema.</p>
+<p>La existencia de un tipo en este catálogo no obliga a que todas sus instancias dispongan inmediatamente de una representación documental propia.</p>
+<hr />
+<h1 id="ingrediente_1">Ingrediente<a class="headerlink" href="#ingrediente_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad">Finalidad<a class="headerlink" href="#finalidad" title="Permanent link">&para;</a></h2>
+<p>Representar una sustancia, producto o materia prima utilizada en una preparación culinaria.</p>
+<p>Un ingrediente puede ser:</p>
+<ul>
+<li>natural;</li>
+<li>procesado;</li>
+<li>compuesto;</li>
+<li>fresco;</li>
+<li>conservado;</li>
+<li>sólido;</li>
+<li>líquido;</li>
+<li>de origen vegetal, animal, mineral o microbiológico.</li>
+</ul>
+<hr />
+<h2 id="responsabilidad">Responsabilidad<a class="headerlink" href="#responsabilidad" title="Permanent link">&para;</a></h2>
+<p>El componente Ingrediente describe el producto en sí mismo.</p>
+<p>No deberá asumir la responsabilidad de:</p>
+<ul>
+<li>una receta completa;</li>
+<li>una técnica;</li>
+<li>una elaboración;</li>
+<li>una marca comercial concreta, salvo que resulte relevante;</li>
+<li>una cantidad utilizada en una receta específica.</li>
+</ul>
+<p>La cantidad pertenece al contexto de uso del ingrediente, no necesariamente al ingrediente como entidad.</p>
+<hr />
+<h2 id="propiedades-principales">Propiedades principales<a class="headerlink" href="#propiedades-principales" title="Permanent link">&para;</a></h2>
+<p>Un ingrediente podrá incluir propiedades como:</p>
+<ul>
+<li>nombre canónico;</li>
+<li>nombres alternativos;</li>
+<li>descripción;</li>
+<li>familia;</li>
+<li>origen;</li>
+<li>forma habitual de comercialización;</li>
+<li>características organolépticas;</li>
+<li>estacionalidad;</li>
+<li>conservación;</li>
+<li>preparación previa;</li>
+<li>alérgenos;</li>
+<li>restricciones dietéticas;</li>
+<li>sustituciones posibles;</li>
+<li>estado de madurez;</li>
+<li>nivel de procesamiento.</li>
+</ul>
+<hr />
+<h2 id="restricciones">Restricciones<a class="headerlink" href="#restricciones" title="Permanent link">&para;</a></h2>
+<p>Todo ingrediente deberá:</p>
+<ul>
+<li>poseer una identidad diferenciable;</li>
+<li>representar una entidad reutilizable;</li>
+<li>evitar mezclar en una sola instancia productos conceptualmente distintos;</li>
+<li>distinguir el producto genérico de sus variantes cuando estas afecten al uso culinario.</li>
+</ul>
+<p>Por ejemplo, podrán modelarse como componentes diferentes:</p>
+<div class="highlight"><pre><span></span><code>Arroz basmati
+Arroz arborio
+Arroz glutinoso
+</code></pre></div>
+<p>si sus propiedades y usos justifican dicha diferenciación.</p>
+<hr />
+<h2 id="relaciones-habituales">Relaciones habituales<a class="headerlink" href="#relaciones-habituales" title="Permanent link">&para;</a></h2>
+<p>Un ingrediente puede:</p>
+<ul>
+<li>ser utilizado por una receta;</li>
+<li>formar parte de una base;</li>
+<li>requerir una técnica;</li>
+<li>sustituir a otro ingrediente;</li>
+<li>pertenecer a una familia;</li>
+<li>presentar compatibilidad con otros ingredientes;</li>
+<li>contener o derivar de otros ingredientes;</li>
+<li>estar asociado a una temporada o región.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Ingrediente: Miso blanco
+
+Propiedades:
+- familia: condimentos fermentados
+- origen: Japón
+- sabor: suave, salino, umami
+- conservación: refrigerado
+
+Relaciones:
+- sustituye parcialmente a: miso rojo
+- se utiliza en: sopa de miso suave
+- combina con: tofu, alga wakame, dashi
+</code></pre></div>
+<hr />
+<h1 id="tecnica-culinaria">Técnica culinaria<a class="headerlink" href="#tecnica-culinaria" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_1">Finalidad<a class="headerlink" href="#finalidad_1" title="Permanent link">&para;</a></h2>
+<p>Representar una acción o método reutilizable aplicado durante una preparación culinaria.</p>
+<p>La técnica describe cómo se transforma un ingrediente, elaboración o preparación.</p>
+<hr />
+<h2 id="responsabilidad_1">Responsabilidad<a class="headerlink" href="#responsabilidad_1" title="Permanent link">&para;</a></h2>
+<p>Una técnica debe representar un método generalizable.</p>
+<p>No deberá limitarse a describir un paso aislado de una única receta cuando ese paso no posea valor reutilizable.</p>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Sofreír
+Emulsionar
+Confitar
+Fermentar
+Escaldar
+</code></pre></div>
+<p>son técnicas reutilizables.</p>
+<p>En cambio:</p>
+<div class="highlight"><pre><span></span><code>Añadir dos cucharadas de salsa al final
+</code></pre></div>
+<p>es normalmente una instrucción contextual de una receta, no una técnica independiente.</p>
+<hr />
+<h2 id="propiedades-principales_1">Propiedades principales<a class="headerlink" href="#propiedades-principales_1" title="Permanent link">&para;</a></h2>
+<p>Una técnica podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>definición;</li>
+<li>finalidad;</li>
+<li>contexto de aplicación;</li>
+<li>temperatura;</li>
+<li>duración aproximada;</li>
+<li>intensidad;</li>
+<li>equipo necesario;</li>
+<li>señales visuales;</li>
+<li>señales aromáticas;</li>
+<li>errores frecuentes;</li>
+<li>riesgos;</li>
+<li>variantes;</li>
+<li>resultado esperado;</li>
+<li>nivel de dificultad.</li>
+</ul>
+<hr />
+<h2 id="restricciones_1">Restricciones<a class="headerlink" href="#restricciones_1" title="Permanent link">&para;</a></h2>
+<p>Toda técnica deberá:</p>
+<ul>
+<li>representar una acción reproducible;</li>
+<li>describir un resultado observable;</li>
+<li>diferenciarse de una mera instrucción contextual;</li>
+<li>poder aplicarse, en principio, a más de una preparación.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_1">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_1" title="Permanent link">&para;</a></h2>
+<p>Una técnica puede:</p>
+<ul>
+<li>aplicarse a un ingrediente;</li>
+<li>formar parte de una elaboración;</li>
+<li>ser utilizada por una receta;</li>
+<li>requerir determinado equipo;</li>
+<li>preceder o seguir a otra técnica;</li>
+<li>ser variante de otra técnica;</li>
+<li>producir una transformación concreta.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_1">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_1" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Técnica: Emulsionar
+
+Finalidad:
+Combinar de forma estable dos líquidos normalmente inmiscibles.
+
+Propiedades:
+- dificultad: media
+- resultado esperado: mezcla homogénea
+- riesgo: separación de fases
+
+Relaciones:
+- se aplica en: mayonesa
+- requiere: batido o agitación
+- se relaciona con: montar, ligar
+</code></pre></div>
+<hr />
+<h1 id="base-culinaria_1">Base culinaria<a class="headerlink" href="#base-culinaria_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_2">Finalidad<a class="headerlink" href="#finalidad_2" title="Permanent link">&para;</a></h2>
+<p>Representar una preparación reutilizable que sirve como fundamento para otras recetas o elaboraciones.</p>
+<p>Una base culinaria posee valor propio porque puede utilizarse en múltiples contextos.</p>
+<hr />
+<h2 id="responsabilidad_2">Responsabilidad<a class="headerlink" href="#responsabilidad_2" title="Permanent link">&para;</a></h2>
+<p>La base deberá representar una preparación intermedia reutilizable.</p>
+<p>No deberá modelarse como base una elaboración que solo tenga sentido dentro de una única receta, salvo que se prevea su reutilización futura.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>caldo de verduras;</li>
+<li>sofrito;</li>
+<li>roux;</li>
+<li>fondo de carne;</li>
+<li>pasta de curry;</li>
+<li>salsa de tomate base;</li>
+<li>masa básica.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_2">Propiedades principales<a class="headerlink" href="#propiedades-principales_2" title="Permanent link">&para;</a></h2>
+<p>Una base podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>descripción;</li>
+<li>ingredientes;</li>
+<li>proporciones;</li>
+<li>técnicas;</li>
+<li>rendimiento;</li>
+<li>conservación;</li>
+<li>vida útil;</li>
+<li>variantes;</li>
+<li>usos recomendados;</li>
+<li>nivel de concentración;</li>
+<li>condiciones de almacenamiento.</li>
+</ul>
+<hr />
+<h2 id="restricciones_2">Restricciones<a class="headerlink" href="#restricciones_2" title="Permanent link">&para;</a></h2>
+<p>Toda base deberá:</p>
+<ul>
+<li>producir un resultado intermedio reconocible;</li>
+<li>poder reutilizarse en más de un contexto;</li>
+<li>mantener identidad propia;</li>
+<li>diferenciarse claramente de una receta final cuando su finalidad sea estructural.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_2">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_2" title="Permanent link">&para;</a></h2>
+<p>Una base puede:</p>
+<ul>
+<li>ser utilizada por una receta;</li>
+<li>estar compuesta por ingredientes;</li>
+<li>requerir técnicas;</li>
+<li>derivar de otra base;</li>
+<li>disponer de variantes;</li>
+<li>sustituir parcialmente a otra base;</li>
+<li>formar parte de una plantilla culinaria.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_2">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_2" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Base: Sofrito mediterráneo
+
+Componentes:
+- cebolla
+- ajo
+- tomate
+- aceite de oliva
+
+Técnicas:
+- picar
+- pochar
+- reducir
+
+Usos:
+- arroces
+- guisos
+- legumbres
+- salsas
+</code></pre></div>
+<hr />
+<h1 id="elaboracion_1">Elaboración<a class="headerlink" href="#elaboracion_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_3">Finalidad<a class="headerlink" href="#finalidad_3" title="Permanent link">&para;</a></h2>
+<p>Representar una preparación intermedia o una fase culinaria con resultado funcional propio.</p>
+<p>La elaboración permite modelar procesos complejos sin reducirlos a una secuencia lineal de instrucciones.</p>
+<hr />
+<h2 id="responsabilidad_3">Responsabilidad<a class="headerlink" href="#responsabilidad_3" title="Permanent link">&para;</a></h2>
+<p>Una elaboración describe una transformación parcial dentro de una receta o proceso.</p>
+<p>Puede representar:</p>
+<ul>
+<li>una salsa;</li>
+<li>un relleno;</li>
+<li>una guarnición;</li>
+<li>una masa;</li>
+<li>una marinada;</li>
+<li>una crema;</li>
+<li>una mezcla;</li>
+<li>una preparación intermedia.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_3">Propiedades principales<a class="headerlink" href="#propiedades-principales_3" title="Permanent link">&para;</a></h2>
+<p>Una elaboración podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>finalidad;</li>
+<li>ingredientes empleados;</li>
+<li>técnicas aplicadas;</li>
+<li>secuencia;</li>
+<li>duración;</li>
+<li>temperatura;</li>
+<li>resultado esperado;</li>
+<li>punto de finalización;</li>
+<li>dependencia de otras elaboraciones;</li>
+<li>posibilidad de preparación anticipada.</li>
+</ul>
+<hr />
+<h2 id="restricciones_3">Restricciones<a class="headerlink" href="#restricciones_3" title="Permanent link">&para;</a></h2>
+<p>Una elaboración deberá:</p>
+<ul>
+<li>producir un resultado identificable;</li>
+<li>poseer cohesión funcional;</li>
+<li>diferenciarse de una técnica;</li>
+<li>no dividir innecesariamente procesos simples.</li>
+</ul>
+<p>No toda fase de una receta deberá convertirse en una elaboración independiente.</p>
+<hr />
+<h2 id="relaciones-habituales_3">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_3" title="Permanent link">&para;</a></h2>
+<p>Una elaboración puede:</p>
+<ul>
+<li>formar parte de una receta;</li>
+<li>utilizar ingredientes;</li>
+<li>aplicar técnicas;</li>
+<li>depender de una base;</li>
+<li>preceder a otra elaboración;</li>
+<li>combinarse con otras elaboraciones;</li>
+<li>reutilizarse en distintas recetas.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_3">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_3" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Elaboración: Salsa de curry
+
+Utiliza:
+- pasta de curry
+- leche de coco
+- caldo
+
+Aplica:
+- sofreír
+- disolver
+- reducir
+
+Forma parte de:
+- curry de pollo
+- curry vegetal
+- curry de tofu
+</code></pre></div>
+<hr />
+<h1 id="receta_1">Receta<a class="headerlink" href="#receta_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_4">Finalidad<a class="headerlink" href="#finalidad_4" title="Permanent link">&para;</a></h2>
+<p>Representar una especificación culinaria reproducible orientada a obtener un resultado final o claramente consumible.</p>
+<p>La receta constituye uno de los componentes compuestos centrales del SGCC.</p>
+<hr />
+<h2 id="responsabilidad_4">Responsabilidad<a class="headerlink" href="#responsabilidad_4" title="Permanent link">&para;</a></h2>
+<p>Una receta deberá integrar de forma coherente:</p>
+<ul>
+<li>ingredientes;</li>
+<li>cantidades;</li>
+<li>técnicas;</li>
+<li>elaboraciones;</li>
+<li>secuencia;</li>
+<li>condiciones;</li>
+<li>resultado esperado.</li>
+</ul>
+<p>No deberá utilizarse como contenedor genérico de información sobre ingredientes, técnicas o cultura gastronómica cuando dicha información merezca componentes propios.</p>
+<hr />
+<h2 id="propiedades-principales_4">Propiedades principales<a class="headerlink" href="#propiedades-principales_4" title="Permanent link">&para;</a></h2>
+<p>Una receta podrá incluir:</p>
+<ul>
+<li>título;</li>
+<li>descripción;</li>
+<li>raciones;</li>
+<li>tiempo de preparación;</li>
+<li>tiempo de cocción;</li>
+<li>dificultad;</li>
+<li>ingredientes;</li>
+<li>cantidades;</li>
+<li>unidades;</li>
+<li>elaboraciones;</li>
+<li>instrucciones;</li>
+<li>técnicas;</li>
+<li>equipo;</li>
+<li>temperatura;</li>
+<li>origen;</li>
+<li>estilo culinario;</li>
+<li>variantes;</li>
+<li>sustituciones;</li>
+<li>conservación;</li>
+<li>servicio;</li>
+<li>alérgenos;</li>
+<li>valores nutricionales;</li>
+<li>coste estimado;</li>
+<li>nivel de picante;</li>
+<li>estacionalidad.</li>
+</ul>
+<hr />
+<h2 id="restricciones_4">Restricciones<a class="headerlink" href="#restricciones_4" title="Permanent link">&para;</a></h2>
+<p>Toda receta deberá:</p>
+<ul>
+<li>describir un resultado reproducible;</li>
+<li>declarar los componentes necesarios;</li>
+<li>mantener una secuencia comprensible;</li>
+<li>evitar ambigüedades críticas;</li>
+<li>diferenciar claramente ingredientes de instrucciones;</li>
+<li>conservar coherencia entre cantidades, rendimiento y raciones.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_4">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_4" title="Permanent link">&para;</a></h2>
+<p>Una receta puede:</p>
+<ul>
+<li>utilizar ingredientes;</li>
+<li>aplicar técnicas;</li>
+<li>contener elaboraciones;</li>
+<li>reutilizar bases;</li>
+<li>derivar de una plantilla;</li>
+<li>pertenecer a colecciones;</li>
+<li>ser variante de otra receta;</li>
+<li>sustituir ingredientes;</li>
+<li>formar parte de un menú;</li>
+<li>requerir equipo;</li>
+<li>estar asociada a una región o tradición.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_4">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_4" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Receta: Curry japonés de ternera
+
+Utiliza:
+- ternera
+- cebolla
+- zanahoria
+- patata
+- roux de curry
+
+Aplica:
+- dorar
+- sofreír
+- cocer
+- espesar
+
+Reutiliza:
+- base de caldo
+- plantilla de guiso
+
+Pertenece a:
+- cocina japonesa
+- recetas de cuchara
+</code></pre></div>
+<hr />
+<h1 id="menu_1">Menú<a class="headerlink" href="#menu_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_5">Finalidad<a class="headerlink" href="#finalidad_5" title="Permanent link">&para;</a></h2>
+<p>Representar una selección planificada y coherente de recetas, elaboraciones o preparaciones.</p>
+<p>Un menú no es una simple lista, sino una composición orientada a un contexto concreto.</p>
+<hr />
+<h2 id="responsabilidad_5">Responsabilidad<a class="headerlink" href="#responsabilidad_5" title="Permanent link">&para;</a></h2>
+<p>El menú deberá expresar una intención de planificación.</p>
+<p>Puede responder a criterios:</p>
+<ul>
+<li>gastronómicos;</li>
+<li>temporales;</li>
+<li>nutricionales;</li>
+<li>presupuestarios;</li>
+<li>culturales;</li>
+<li>logísticos;</li>
+<li>dietéticos.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_5">Propiedades principales<a class="headerlink" href="#propiedades-principales_5" title="Permanent link">&para;</a></h2>
+<p>Un menú podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>finalidad;</li>
+<li>número de comensales;</li>
+<li>periodo;</li>
+<li>platos;</li>
+<li>orden de servicio;</li>
+<li>coste;</li>
+<li>restricciones;</li>
+<li>equilibrio nutricional;</li>
+<li>tiempo total;</li>
+<li>planificación de preparación;</li>
+<li>reutilización de ingredientes;</li>
+<li>aprovechamiento de sobras.</li>
+</ul>
+<hr />
+<h2 id="restricciones_5">Restricciones<a class="headerlink" href="#restricciones_5" title="Permanent link">&para;</a></h2>
+<p>Todo menú deberá:</p>
+<ul>
+<li>poseer un criterio explícito de composición;</li>
+<li>mantener coherencia entre sus elementos;</li>
+<li>diferenciarse de una colección temática;</li>
+<li>indicar el contexto para el que ha sido diseñado.</li>
+</ul>
+<p>Una colección agrupa conocimiento.</p>
+<p>Un menú organiza preparaciones para una situación de consumo o planificación.</p>
+<hr />
+<h2 id="relaciones-habituales_5">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_5" title="Permanent link">&para;</a></h2>
+<p>Un menú puede:</p>
+<ul>
+<li>incluir recetas;</li>
+<li>reutilizar bases;</li>
+<li>compartir ingredientes;</li>
+<li>pertenecer a una planificación semanal;</li>
+<li>satisfacer restricciones dietéticas;</li>
+<li>derivar de una plantilla;</li>
+<li>estar asociado a una temporada o evento.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_5">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_5" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Menú: Semana económica de invierno
+
+Incluye:
+- lentejas estofadas
+- arroz con verduras
+- crema de calabaza
+- pollo asado
+- pasta con tomate
+
+Criterios:
+- bajo coste
+- reutilización de ingredientes
+- preparación anticipada
+- aprovechamiento de sobras
+</code></pre></div>
+<hr />
+<h1 id="concepto-culinario_1">Concepto culinario<a class="headerlink" href="#concepto-culinario_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_6">Finalidad<a class="headerlink" href="#finalidad_6" title="Permanent link">&para;</a></h2>
+<p>Representar una idea, término, principio o categoría necesaria para comprender el dominio culinario.</p>
+<hr />
+<h2 id="responsabilidad_6">Responsabilidad<a class="headerlink" href="#responsabilidad_6" title="Permanent link">&para;</a></h2>
+<p>Un concepto culinario explica conocimiento abstracto.</p>
+<p>No describe necesariamente una acción, un producto o una preparación concreta.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>umami;</li>
+<li>mise en place;</li>
+<li>sazón;</li>
+<li>punto de cocción;</li>
+<li>equilibrio;</li>
+<li>estacionalidad;</li>
+<li>maridaje.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_6">Propiedades principales<a class="headerlink" href="#propiedades-principales_6" title="Permanent link">&para;</a></h2>
+<p>Un concepto podrá incluir:</p>
+<ul>
+<li>definición;</li>
+<li>contexto;</li>
+<li>alcance;</li>
+<li>términos relacionados;</li>
+<li>ejemplos;</li>
+<li>contraejemplos;</li>
+<li>aplicaciones;</li>
+<li>origen;</li>
+<li>ambigüedades;</li>
+<li>traducciones o equivalencias.</li>
+</ul>
+<hr />
+<h2 id="restricciones_6">Restricciones<a class="headerlink" href="#restricciones_6" title="Permanent link">&para;</a></h2>
+<p>Todo concepto deberá:</p>
+<ul>
+<li>tener significado relevante para el SGCC;</li>
+<li>evitar definiciones circulares;</li>
+<li>distinguirse de técnicas, ingredientes o recetas;</li>
+<li>utilizar terminología coherente con el vocabulario oficial.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_6">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_6" title="Permanent link">&para;</a></h2>
+<p>Un concepto puede:</p>
+<ul>
+<li>explicar una técnica;</li>
+<li>clasificar ingredientes;</li>
+<li>contextualizar recetas;</li>
+<li>relacionarse con otros conceptos;</li>
+<li>pertenecer a una taxonomía;</li>
+<li>aparecer en reglas o recomendaciones.</li>
+</ul>
+<hr />
+<h1 id="unidad-de-medida">Unidad de medida<a class="headerlink" href="#unidad-de-medida" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_7">Finalidad<a class="headerlink" href="#finalidad_7" title="Permanent link">&para;</a></h2>
+<p>Representar una magnitud o unidad utilizada para expresar cantidades culinarias.</p>
+<p>Aunque pueda considerarse un elemento auxiliar, su formalización permite mejorar la interoperabilidad y validación.</p>
+<hr />
+<h2 id="responsabilidad_7">Responsabilidad<a class="headerlink" href="#responsabilidad_7" title="Permanent link">&para;</a></h2>
+<p>La unidad deberá representar una medida interpretable.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>gramo;</li>
+<li>kilogramo;</li>
+<li>mililitro;</li>
+<li>litro;</li>
+<li>cucharadita;</li>
+<li>cucharada;</li>
+<li>unidad;</li>
+<li>pizca.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_7">Propiedades principales<a class="headerlink" href="#propiedades-principales_7" title="Permanent link">&para;</a></h2>
+<p>Una unidad podrá incluir:</p>
+<ul>
+<li>símbolo;</li>
+<li>nombre;</li>
+<li>magnitud;</li>
+<li>sistema;</li>
+<li>equivalencias;</li>
+<li>nivel de precisión;</li>
+<li>contexto cultural;</li>
+<li>carácter exacto o aproximado.</li>
+</ul>
+<hr />
+<h2 id="restricciones_7">Restricciones<a class="headerlink" href="#restricciones_7" title="Permanent link">&para;</a></h2>
+<p>Deberá distinguirse entre:</p>
+<ul>
+<li>unidades exactas;</li>
+<li>unidades domésticas;</li>
+<li>unidades contextuales;</li>
+<li>expresiones aproximadas.</li>
+</ul>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre><span></span><code>5 g
+</code></pre></div>
+<p>no posee la misma precisión que:</p>
+<div class="highlight"><pre><span></span><code>una pizca
+</code></pre></div>
+<hr />
+<h2 id="relaciones-habituales_7">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_7" title="Permanent link">&para;</a></h2>
+<p>Una unidad puede:</p>
+<ul>
+<li>cuantificar un ingrediente;</li>
+<li>convertirse en otra unidad;</li>
+<li>depender de la densidad de un ingrediente;</li>
+<li>utilizarse en una tabla de equivalencias.</li>
+</ul>
+<hr />
+<h1 id="equipo-culinario">Equipo culinario<a class="headerlink" href="#equipo-culinario" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_8">Finalidad<a class="headerlink" href="#finalidad_8" title="Permanent link">&para;</a></h2>
+<p>Representar utensilios, dispositivos o instalaciones utilizados para ejecutar técnicas o recetas.</p>
+<hr />
+<h2 id="responsabilidad_8">Responsabilidad<a class="headerlink" href="#responsabilidad_8" title="Permanent link">&para;</a></h2>
+<p>El componente Equipo describe el recurso material necesario o recomendado para una operación culinaria.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>cuchillo;</li>
+<li>sartén;</li>
+<li>horno;</li>
+<li>batidora;</li>
+<li>olla a presión;</li>
+<li>termómetro;</li>
+<li>wok.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_8">Propiedades principales<a class="headerlink" href="#propiedades-principales_8" title="Permanent link">&para;</a></h2>
+<p>Un equipo podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>categoría;</li>
+<li>finalidad;</li>
+<li>capacidad;</li>
+<li>material;</li>
+<li>fuente de calor;</li>
+<li>rango de temperatura;</li>
+<li>mantenimiento;</li>
+<li>seguridad;</li>
+<li>alternativas;</li>
+<li>nivel de especialización.</li>
+</ul>
+<hr />
+<h2 id="restricciones_8">Restricciones<a class="headerlink" href="#restricciones_8" title="Permanent link">&para;</a></h2>
+<p>Todo equipo deberá representar un recurso reutilizable y no una instrucción.</p>
+<p>Las marcas o modelos concretos solo deberán modelarse cuando sus características sean relevantes para el conocimiento.</p>
+<hr />
+<h2 id="relaciones-habituales_8">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_8" title="Permanent link">&para;</a></h2>
+<p>Un equipo puede:</p>
+<ul>
+<li>ser requerido por una técnica;</li>
+<li>ser recomendado para una receta;</li>
+<li>sustituir a otro equipo;</li>
+<li>limitar cantidades;</li>
+<li>condicionar temperatura o tiempo;</li>
+<li>pertenecer a una categoría.</li>
+</ul>
+<hr />
+<h1 id="plantilla-culinaria">Plantilla culinaria<a class="headerlink" href="#plantilla-culinaria" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_9">Finalidad<a class="headerlink" href="#finalidad_9" title="Permanent link">&para;</a></h2>
+<p>Definir una estructura reutilizable para construir recetas, menús, preparaciones u otros componentes de forma coherente.</p>
+<hr />
+<h2 id="responsabilidad_9">Responsabilidad<a class="headerlink" href="#responsabilidad_9" title="Permanent link">&para;</a></h2>
+<p>La plantilla describe un patrón, no una instancia concreta.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>plantilla de curry;</li>
+<li>plantilla de guiso;</li>
+<li>plantilla de ensalada completa;</li>
+<li>plantilla de menú semanal;</li>
+<li>plantilla de masa básica.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_9">Propiedades principales<a class="headerlink" href="#propiedades-principales_9" title="Permanent link">&para;</a></h2>
+<p>Una plantilla podrá incluir:</p>
+<ul>
+<li>finalidad;</li>
+<li>estructura;</li>
+<li>roles de componentes;</li>
+<li>elementos obligatorios;</li>
+<li>elementos opcionales;</li>
+<li>proporciones;</li>
+<li>reglas;</li>
+<li>puntos de variación;</li>
+<li>restricciones;</li>
+<li>ejemplos de instancias.</li>
+</ul>
+<hr />
+<h2 id="restricciones_9">Restricciones<a class="headerlink" href="#restricciones_9" title="Permanent link">&para;</a></h2>
+<p>Toda plantilla deberá:</p>
+<ul>
+<li>permitir múltiples realizaciones;</li>
+<li>definir una estructura reconocible;</li>
+<li>distinguir componentes obligatorios y variables;</li>
+<li>evitar depender de ingredientes concretos salvo cuando formen parte esencial del patrón.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_9">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_9" title="Permanent link">&para;</a></h2>
+<p>Una plantilla puede:</p>
+<ul>
+<li>generar recetas;</li>
+<li>estructurar menús;</li>
+<li>requerir determinados tipos de componentes;</li>
+<li>definir proporciones;</li>
+<li>reutilizar técnicas;</li>
+<li>derivar de otra plantilla;</li>
+<li>especializar una plantilla más general.</li>
+</ul>
+<hr />
+<h2 id="ejemplo-conceptual_6">Ejemplo conceptual<a class="headerlink" href="#ejemplo-conceptual_6" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Plantilla: Curry cremoso
+
+Estructura:
+1. grasa
+2. aromáticos
+3. pasta o mezcla de especias
+4. líquido
+5. ingrediente principal
+6. ajuste final
+
+Variaciones:
+- curry rojo
+- curry verde
+- curry amarillo
+</code></pre></div>
+<hr />
+<h1 id="tabla-de-referencia">Tabla de referencia<a class="headerlink" href="#tabla-de-referencia" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_10">Finalidad<a class="headerlink" href="#finalidad_10" title="Permanent link">&para;</a></h2>
+<p>Representar conocimiento estructurado en forma de equivalencias, correspondencias, rangos o valores comparables.</p>
+<hr />
+<h2 id="responsabilidad_10">Responsabilidad<a class="headerlink" href="#responsabilidad_10" title="Permanent link">&para;</a></h2>
+<p>La tabla deberá facilitar una consulta precisa y repetible.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>equivalencias de medidas;</li>
+<li>temperaturas internas;</li>
+<li>tiempos de cocción;</li>
+<li>proporciones de arroz y agua;</li>
+<li>sustituciones de ingredientes;</li>
+<li>escalas de picante.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_10">Propiedades principales<a class="headerlink" href="#propiedades-principales_10" title="Permanent link">&para;</a></h2>
+<p>Una tabla podrá incluir:</p>
+<ul>
+<li>título;</li>
+<li>propósito;</li>
+<li>variables;</li>
+<li>unidades;</li>
+<li>filas;</li>
+<li>columnas;</li>
+<li>condiciones;</li>
+<li>fuente;</li>
+<li>precisión;</li>
+<li>excepciones;</li>
+<li>fecha de revisión.</li>
+</ul>
+<hr />
+<h2 id="restricciones_10">Restricciones<a class="headerlink" href="#restricciones_10" title="Permanent link">&para;</a></h2>
+<p>Toda tabla deberá:</p>
+<ul>
+<li>declarar claramente qué representa;</li>
+<li>identificar sus unidades;</li>
+<li>evitar valores sin contexto;</li>
+<li>distinguir datos exactos de orientativos;</li>
+<li>documentar excepciones relevantes.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_10">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_10" title="Permanent link">&para;</a></h2>
+<p>Una tabla puede:</p>
+<ul>
+<li>complementar una técnica;</li>
+<li>apoyar una receta;</li>
+<li>definir conversiones;</li>
+<li>relacionar ingredientes;</li>
+<li>establecer rangos de seguridad;</li>
+<li>formar parte de una colección.</li>
+</ul>
+<hr />
+<h1 id="taxonomia_1">Taxonomía<a class="headerlink" href="#taxonomia_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_11">Finalidad<a class="headerlink" href="#finalidad_11" title="Permanent link">&para;</a></h2>
+<p>Representar un sistema de clasificación controlado y, normalmente, jerárquico.</p>
+<hr />
+<h2 id="responsabilidad_11">Responsabilidad<a class="headerlink" href="#responsabilidad_11" title="Permanent link">&para;</a></h2>
+<p>La taxonomía organiza conceptos o componentes según criterios explícitos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>familias de ingredientes;</li>
+<li>tipos de cocción;</li>
+<li>cocinas regionales;</li>
+<li>categorías de recetas;</li>
+<li>tipos de dieta.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_11">Propiedades principales<a class="headerlink" href="#propiedades-principales_11" title="Permanent link">&para;</a></h2>
+<p>Una taxonomía podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>propósito;</li>
+<li>categorías;</li>
+<li>jerarquías;</li>
+<li>criterios de pertenencia;</li>
+<li>exclusiones;</li>
+<li>términos preferidos;</li>
+<li>sinónimos;</li>
+<li>profundidad;</li>
+<li>reglas de extensión.</li>
+</ul>
+<hr />
+<h2 id="restricciones_11">Restricciones<a class="headerlink" href="#restricciones_11" title="Permanent link">&para;</a></h2>
+<p>Toda taxonomía deberá:</p>
+<ul>
+<li>utilizar criterios consistentes;</li>
+<li>evitar categorías solapadas sin justificación;</li>
+<li>declarar términos ambiguos;</li>
+<li>diferenciar jerarquía de mera relación temática.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_11">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_11" title="Permanent link">&para;</a></h2>
+<p>Una taxonomía puede:</p>
+<ul>
+<li>clasificar componentes;</li>
+<li>contener conceptos;</li>
+<li>especializar otra taxonomía;</li>
+<li>alimentar filtros;</li>
+<li>utilizarse en el Knowledge Graph;</li>
+<li>definir vocabularios controlados.</li>
+</ul>
+<hr />
+<h1 id="esquema_1">Esquema<a class="headerlink" href="#esquema_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_12">Finalidad<a class="headerlink" href="#finalidad_12" title="Permanent link">&para;</a></h2>
+<p>Definir la estructura formal esperada para una familia de componentes o representaciones.</p>
+<hr />
+<h2 id="responsabilidad_12">Responsabilidad<a class="headerlink" href="#responsabilidad_12" title="Permanent link">&para;</a></h2>
+<p>El esquema describe qué propiedades pueden o deben existir y con qué restricciones.</p>
+<p>Puede servir de base para:</p>
+<ul>
+<li>validación;</li>
+<li>formularios;</li>
+<li>APIs;</li>
+<li>bases de datos;</li>
+<li>serialización;</li>
+<li>generación automática.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_12">Propiedades principales<a class="headerlink" href="#propiedades-principales_12" title="Permanent link">&para;</a></h2>
+<p>Un esquema podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>versión;</li>
+<li>tipo de componente;</li>
+<li>campos;</li>
+<li>tipos de datos;</li>
+<li>obligatoriedad;</li>
+<li>cardinalidades;</li>
+<li>restricciones;</li>
+<li>valores permitidos;</li>
+<li>compatibilidad.</li>
+</ul>
+<hr />
+<h2 id="restricciones_12">Restricciones<a class="headerlink" href="#restricciones_12" title="Permanent link">&para;</a></h2>
+<p>Todo esquema deberá:</p>
+<ul>
+<li>representar una necesidad formal;</li>
+<li>mantener versionado;</li>
+<li>preservar compatibilidad cuando resulte posible;</li>
+<li>diferenciar campos obligatorios y opcionales;</li>
+<li>evitar incorporar decisiones puramente visuales.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_12">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_12" title="Permanent link">&para;</a></h2>
+<p>Un esquema puede:</p>
+<ul>
+<li>validar componentes;</li>
+<li>implementar una especificación;</li>
+<li>derivar en un modelo de datos;</li>
+<li>generar una API;</li>
+<li>especializar otro esquema;</li>
+<li>ser utilizado por herramientas.</li>
+</ul>
+<hr />
+<h1 id="coleccion_2">Colección<a class="headerlink" href="#coleccion_2" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_13">Finalidad<a class="headerlink" href="#finalidad_13" title="Permanent link">&para;</a></h2>
+<p>Agrupar activos de conocimiento relacionados mediante uno o varios criterios explícitos.</p>
+<hr />
+<h2 id="responsabilidad_13">Responsabilidad<a class="headerlink" href="#responsabilidad_13" title="Permanent link">&para;</a></h2>
+<p>La colección organiza conocimiento existente.</p>
+<p>No crea nuevas identidades para los componentes agrupados ni duplica su contenido.</p>
+<hr />
+<h2 id="propiedades-principales_13">Propiedades principales<a class="headerlink" href="#propiedades-principales_13" title="Permanent link">&para;</a></h2>
+<p>Una colección podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>descripción;</li>
+<li>criterio de pertenencia;</li>
+<li>miembros;</li>
+<li>orden;</li>
+<li>alcance;</li>
+<li>curatoría;</li>
+<li>filtros;</li>
+<li>fecha de creación;</li>
+<li>actualización;</li>
+<li>carácter estático o dinámico.</li>
+</ul>
+<hr />
+<h2 id="restricciones_13">Restricciones<a class="headerlink" href="#restricciones_13" title="Permanent link">&para;</a></h2>
+<p>Toda colección deberá:</p>
+<ul>
+<li>declarar su criterio;</li>
+<li>referenciar componentes existentes;</li>
+<li>evitar duplicar el contenido de sus miembros;</li>
+<li>diferenciarse de un menú, índice o taxonomía.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_13">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_13" title="Permanent link">&para;</a></h2>
+<p>Una colección puede:</p>
+<ul>
+<li>contener componentes;</li>
+<li>pertenecer a otra colección;</li>
+<li>especializar una colección;</li>
+<li>derivarse de consultas;</li>
+<li>generar una vista;</li>
+<li>alimentar un catálogo o índice.</li>
+</ul>
+<hr />
+<h1 id="serie_1">Serie<a class="headerlink" href="#serie_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_14">Finalidad<a class="headerlink" href="#finalidad_14" title="Permanent link">&para;</a></h2>
+<p>Representar una secuencia ordenada de componentes relacionados mediante una progresión explícita.</p>
+<hr />
+<h2 id="responsabilidad_14">Responsabilidad<a class="headerlink" href="#responsabilidad_14" title="Permanent link">&para;</a></h2>
+<p>La serie incorpora orden y continuidad.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>aprendizaje de técnicas;</li>
+<li>progresión de dificultad;</li>
+<li>menús semanales;</li>
+<li>colecciones publicadas por entregas;</li>
+<li>evolución de una familia de recetas.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_14">Propiedades principales<a class="headerlink" href="#propiedades-principales_14" title="Permanent link">&para;</a></h2>
+<p>Una serie podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>propósito;</li>
+<li>miembros;</li>
+<li>orden;</li>
+<li>criterio de secuencia;</li>
+<li>punto de inicio;</li>
+<li>punto final;</li>
+<li>dependencias;</li>
+<li>ritmo o periodicidad.</li>
+</ul>
+<hr />
+<h2 id="restricciones_14">Restricciones<a class="headerlink" href="#restricciones_14" title="Permanent link">&para;</a></h2>
+<p>Toda serie deberá:</p>
+<ul>
+<li>tener un orden significativo;</li>
+<li>declarar el criterio de secuencia;</li>
+<li>distinguirse de una colección no ordenada;</li>
+<li>preservar la identidad individual de sus miembros.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_14">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_14" title="Permanent link">&para;</a></h2>
+<p>Una serie puede:</p>
+<ul>
+<li>contener componentes;</li>
+<li>preceder o continuar otra serie;</li>
+<li>formar parte de una colección;</li>
+<li>representar una ruta de aprendizaje;</li>
+<li>derivar de una planificación.</li>
+</ul>
+<hr />
+<h1 id="indice_1">Índice<a class="headerlink" href="#indice_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_15">Finalidad<a class="headerlink" href="#finalidad_15" title="Permanent link">&para;</a></h2>
+<p>Facilitar la localización y navegación entre activos de conocimiento.</p>
+<hr />
+<h2 id="responsabilidad_15">Responsabilidad<a class="headerlink" href="#responsabilidad_15" title="Permanent link">&para;</a></h2>
+<p>El índice ofrece acceso organizado, pero no redefine el conocimiento indexado.</p>
+<p>Puede generarse manual o automáticamente.</p>
+<hr />
+<h2 id="propiedades-principales_15">Propiedades principales<a class="headerlink" href="#propiedades-principales_15" title="Permanent link">&para;</a></h2>
+<p>Un índice podrá incluir:</p>
+<ul>
+<li>título;</li>
+<li>alcance;</li>
+<li>criterio de orden;</li>
+<li>entradas;</li>
+<li>categorías;</li>
+<li>enlaces;</li>
+<li>filtros;</li>
+<li>fecha de generación.</li>
+</ul>
+<hr />
+<h2 id="restricciones_15">Restricciones<a class="headerlink" href="#restricciones_15" title="Permanent link">&para;</a></h2>
+<p>Todo índice deberá:</p>
+<ul>
+<li>apuntar a fuentes existentes;</li>
+<li>evitar convertirse en una copia de los documentos;</li>
+<li>indicar su alcance;</li>
+<li>poder regenerarse cuando sea automático.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_15">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_15" title="Permanent link">&para;</a></h2>
+<p>Un índice puede:</p>
+<ul>
+<li>listar componentes;</li>
+<li>organizar una colección;</li>
+<li>derivarse de metadatos;</li>
+<li>alimentar navegación;</li>
+<li>enlazar catálogos;</li>
+<li>pertenecer a una representación publicada.</li>
+</ul>
+<hr />
+<h1 id="catalogo_1">Catálogo<a class="headerlink" href="#catalogo_1" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_16">Finalidad<a class="headerlink" href="#finalidad_16" title="Permanent link">&para;</a></h2>
+<p>Representar un inventario estructurado de componentes pertenecientes a una familia o dominio.</p>
+<hr />
+<h2 id="responsabilidad_16">Responsabilidad<a class="headerlink" href="#responsabilidad_16" title="Permanent link">&para;</a></h2>
+<p>El catálogo ofrece una visión sistemática y normalmente exhaustiva dentro de un alcance definido.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>catálogo de ingredientes;</li>
+<li>catálogo de técnicas;</li>
+<li>catálogo de plantillas;</li>
+<li>catálogo de especificaciones.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_16">Propiedades principales<a class="headerlink" href="#propiedades-principales_16" title="Permanent link">&para;</a></h2>
+<p>Un catálogo podrá incluir:</p>
+<ul>
+<li>alcance;</li>
+<li>criterios de inclusión;</li>
+<li>entradas;</li>
+<li>clasificación;</li>
+<li>estado;</li>
+<li>cobertura;</li>
+<li>fecha de actualización;</li>
+<li>fuente;</li>
+<li>reglas de mantenimiento.</li>
+</ul>
+<hr />
+<h2 id="restricciones_16">Restricciones<a class="headerlink" href="#restricciones_16" title="Permanent link">&para;</a></h2>
+<p>Todo catálogo deberá:</p>
+<ul>
+<li>declarar su alcance;</li>
+<li>diferenciarse de una selección curada;</li>
+<li>indicar si pretende ser exhaustivo;</li>
+<li>evitar duplicar las fuentes canónicas.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_16">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_16" title="Permanent link">&para;</a></h2>
+<p>Un catálogo puede:</p>
+<ul>
+<li>incluir referencias a componentes;</li>
+<li>derivarse de una taxonomía;</li>
+<li>generar índices;</li>
+<li>alimentar APIs;</li>
+<li>utilizarse para auditorías de cobertura;</li>
+<li>servir de base a validaciones.</li>
+</ul>
+<hr />
+<h1 id="componente-de-planificacion">Componente de planificación<a class="headerlink" href="#componente-de-planificacion" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_17">Finalidad<a class="headerlink" href="#finalidad_17" title="Permanent link">&para;</a></h2>
+<p>Representar decisiones organizativas sobre preparación, consumo, compra o aprovechamiento culinario.</p>
+<p>Esta familia incluye estructuras como:</p>
+<ul>
+<li>plan semanal;</li>
+<li>planificación de mise en place;</li>
+<li>plan de preparación;</li>
+<li>lista de compra derivada;</li>
+<li>estrategia de aprovechamiento.</li>
+</ul>
+<hr />
+<h2 id="responsabilidad_17">Responsabilidad<a class="headerlink" href="#responsabilidad_17" title="Permanent link">&para;</a></h2>
+<p>Un componente de planificación organiza acciones futuras a partir de otros componentes.</p>
+<p>No deberá confundirse con una receta o colección.</p>
+<hr />
+<h2 id="propiedades-principales_17">Propiedades principales<a class="headerlink" href="#propiedades-principales_17" title="Permanent link">&para;</a></h2>
+<p>Podrá incluir:</p>
+<ul>
+<li>periodo;</li>
+<li>objetivos;</li>
+<li>componentes implicados;</li>
+<li>secuencia;</li>
+<li>restricciones;</li>
+<li>recursos;</li>
+<li>tiempos;</li>
+<li>presupuesto;</li>
+<li>dependencias;</li>
+<li>estado de ejecución.</li>
+</ul>
+<hr />
+<h2 id="restricciones_17">Restricciones<a class="headerlink" href="#restricciones_17" title="Permanent link">&para;</a></h2>
+<p>Toda planificación deberá:</p>
+<ul>
+<li>declarar su periodo o contexto;</li>
+<li>diferenciar conocimiento canónico de decisiones temporales;</li>
+<li>poder rastrear los componentes de los que deriva;</li>
+<li>evitar modificar la identidad de las recetas o ingredientes utilizados.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_17">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_17" title="Permanent link">&para;</a></h2>
+<p>Una planificación puede:</p>
+<ul>
+<li>incluir menús;</li>
+<li>generar listas de compra;</li>
+<li>programar elaboraciones;</li>
+<li>reutilizar recetas;</li>
+<li>considerar disponibilidad;</li>
+<li>optimizar ingredientes;</li>
+<li>coordinar equipos y tiempos.</li>
+</ul>
+<hr />
+<h1 id="componente-de-restriccion-culinaria">Componente de restricción culinaria<a class="headerlink" href="#componente-de-restriccion-culinaria" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_18">Finalidad<a class="headerlink" href="#finalidad_18" title="Permanent link">&para;</a></h2>
+<p>Representar una condición que limita, condiciona o modifica la selección y ejecución de componentes culinarios.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>alergia;</li>
+<li>intolerancia;</li>
+<li>dieta vegetariana;</li>
+<li>límite presupuestario;</li>
+<li>ausencia de horno;</li>
+<li>tiempo máximo;</li>
+<li>disponibilidad estacional.</li>
+</ul>
+<hr />
+<h2 id="responsabilidad_18">Responsabilidad<a class="headerlink" href="#responsabilidad_18" title="Permanent link">&para;</a></h2>
+<p>La restricción describe una condición aplicable a una persona, receta, menú, planificación o contexto.</p>
+<hr />
+<h2 id="propiedades-principales_18">Propiedades principales<a class="headerlink" href="#propiedades-principales_18" title="Permanent link">&para;</a></h2>
+<p>Una restricción podrá incluir:</p>
+<ul>
+<li>tipo;</li>
+<li>descripción;</li>
+<li>severidad;</li>
+<li>ámbito;</li>
+<li>condición;</li>
+<li>excepciones;</li>
+<li>alternativas;</li>
+<li>origen;</li>
+<li>obligatoriedad;</li>
+<li>periodo de aplicación.</li>
+</ul>
+<hr />
+<h2 id="restricciones_18">Restricciones<a class="headerlink" href="#restricciones_18" title="Permanent link">&para;</a></h2>
+<p>Toda restricción deberá:</p>
+<ul>
+<li>expresar una condición interpretable;</li>
+<li>indicar su ámbito;</li>
+<li>diferenciar recomendaciones de prohibiciones;</li>
+<li>evitar inferencias médicas no verificadas;</li>
+<li>permitir evaluar compatibilidad cuando sea posible.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_18">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_18" title="Permanent link">&para;</a></h2>
+<p>Una restricción puede:</p>
+<ul>
+<li>excluir ingredientes;</li>
+<li>limitar técnicas;</li>
+<li>condicionar recetas;</li>
+<li>modificar menús;</li>
+<li>afectar a una planificación;</li>
+<li>requerir sustituciones;</li>
+<li>derivar de un perfil o contexto.</li>
+</ul>
+<hr />
+<h1 id="componente-de-resultado-culinario">Componente de resultado culinario<a class="headerlink" href="#componente-de-resultado-culinario" title="Permanent link">&para;</a></h1>
+<h2 id="finalidad_19">Finalidad<a class="headerlink" href="#finalidad_19" title="Permanent link">&para;</a></h2>
+<p>Representar el resultado esperado o real de una preparación.</p>
+<p>Este componente permite diferenciar la especificación de una receta de su ejecución concreta.</p>
+<hr />
+<h2 id="responsabilidad_19">Responsabilidad<a class="headerlink" href="#responsabilidad_19" title="Permanent link">&para;</a></h2>
+<p>El resultado describe el estado final obtenido o esperado.</p>
+<p>Puede incluir aspectos:</p>
+<ul>
+<li>visuales;</li>
+<li>aromáticos;</li>
+<li>gustativos;</li>
+<li>texturales;</li>
+<li>estructurales;</li>
+<li>de temperatura;</li>
+<li>de rendimiento.</li>
+</ul>
+<hr />
+<h2 id="propiedades-principales_19">Propiedades principales<a class="headerlink" href="#propiedades-principales_19" title="Permanent link">&para;</a></h2>
+<p>Un resultado podrá incluir:</p>
+<ul>
+<li>nombre;</li>
+<li>descripción;</li>
+<li>textura;</li>
+<li>sabor;</li>
+<li>aroma;</li>
+<li>color;</li>
+<li>temperatura;</li>
+<li>rendimiento;</li>
+<li>defectos;</li>
+<li>tolerancias;</li>
+<li>criterios de aceptación.</li>
+</ul>
+<hr />
+<h2 id="restricciones_19">Restricciones<a class="headerlink" href="#restricciones_19" title="Permanent link">&para;</a></h2>
+<p>Todo resultado deberá:</p>
+<ul>
+<li>estar asociado a una preparación o proceso;</li>
+<li>utilizar criterios observables;</li>
+<li>distinguir estado esperado de observación real;</li>
+<li>evitar descripciones puramente subjetivas cuando puedan utilizarse referencias más precisas.</li>
+</ul>
+<hr />
+<h2 id="relaciones-habituales_19">Relaciones habituales<a class="headerlink" href="#relaciones-habituales_19" title="Permanent link">&para;</a></h2>
+<p>Un resultado puede:</p>
+<ul>
+<li>ser producido por una receta;</li>
+<li>derivar de una elaboración;</li>
+<li>evaluarse mediante criterios;</li>
+<li>presentar defectos;</li>
+<li>compararse con otro resultado;</li>
+<li>satisfacer un objetivo culinario.</li>
+</ul>
+<hr />
+<h1 id="resumen-del-catalogo-inicial">Resumen del catálogo inicial<a class="headerlink" href="#resumen-del-catalogo-inicial" title="Permanent link">&para;</a></h1>
+<p>El catálogo inicial de componentes del SGCC queda compuesto por las siguientes familias:</p>
+<table>
+<thead>
+<tr>
+<th>Familia</th>
+<th>Componentes principales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dominio culinario</td>
+<td>Ingrediente, Técnica, Base, Elaboración, Receta, Menú, Concepto</td>
+</tr>
+<tr>
+<td>Magnitudes y recursos</td>
+<td>Unidad de medida, Equipo</td>
+</tr>
+<tr>
+<td>Estructura y reutilización</td>
+<td>Plantilla, Tabla, Taxonomía, Esquema</td>
+</tr>
+<tr>
+<td>Organización</td>
+<td>Colección, Serie, Índice, Catálogo</td>
+</tr>
+<tr>
+<td>Operación y contexto</td>
+<td>Planificación, Restricción, Resultado</td>
+</tr>
+</tbody>
+</table>
+<p>Este catálogo no se considera cerrado.</p>
+<p>Su evolución deberá realizarse mediante el procedimiento normativo definido en esta especificación y en el modelo de gobernanza del SGCC.</p>
+<hr />
+<h1 id="modelo-estructural-de-los-componentes">Modelo estructural de los componentes<a class="headerlink" href="#modelo-estructural-de-los-componentes" title="Permanent link">&para;</a></h1>
+<p>Esta sección define las reglas estructurales comunes que deben cumplir todos los componentes gestionados por el SGCC.</p>
+<p>Mientras que el catálogo anterior describe <strong>qué componentes existen</strong>, este apartado establece <strong>cómo se comportan</strong> dentro del modelo de conocimiento.</p>
+<hr />
+<h1 id="modelo-general">Modelo general<a class="headerlink" href="#modelo-general" title="Permanent link">&para;</a></h1>
+<p>Todo componente puede describirse mediante el siguiente modelo conceptual.</p>
+<div class="highlight"><pre><span></span><code>Componente
+    │
+    ├── Identidad
+    ├── Tipo
+    ├── Propiedades
+    ├── Relaciones
+    ├── Estado
+    ├── Versionado
+    ├── Representaciones
+    └── Historial
+</code></pre></div>
+<p>Estos elementos constituyen el contrato mínimo del modelo de componentes.</p>
+<p>Cada tipo concreto podrá ampliarlo con propiedades especializadas.</p>
+<hr />
+<h1 id="identidad">Identidad<a class="headerlink" href="#identidad" title="Permanent link">&para;</a></h1>
+<p>Todo componente deberá poseer una identidad conceptual propia.</p>
+<p>La identidad representa el componente, no su representación documental.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Componente
+
+↓
+
+Ingrediente &quot;Ajo&quot;
+
+↓
+
+Documento ING-0008.md
+
+↓
+
+Página HTML
+
+↓
+
+API JSON
+</code></pre></div>
+<p>Aunque existan varias representaciones, todas corresponden al mismo componente.</p>
+<hr />
+<h2 id="identidad-persistente_1">Identidad persistente<a class="headerlink" href="#identidad-persistente_1" title="Permanent link">&para;</a></h2>
+<p>La identidad permanecerá estable durante toda la vida del componente.</p>
+<p>No deberá modificarse por:</p>
+<ul>
+<li>cambios de nombre;</li>
+<li>reorganizaciones documentales;</li>
+<li>migraciones tecnológicas;</li>
+<li>generación de nuevas representaciones;</li>
+<li>incorporación a colecciones.</li>
+</ul>
+<p>Cuando un componente cambie sustancialmente de significado deberá crearse un componente nuevo y establecer la relación correspondiente entre ambos.</p>
+<hr />
+<h1 id="tipo">Tipo<a class="headerlink" href="#tipo" title="Permanent link">&para;</a></h1>
+<p>Todo componente pertenece exactamente a un tipo principal.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+Receta
+
+Técnica
+
+Base
+
+Plantilla
+</code></pre></div>
+<p>Un componente podrá participar en distintos contextos, pero su tipo principal permanecerá estable.</p>
+<hr />
+<h2 id="especializacion">Especialización<a class="headerlink" href="#especializacion" title="Permanent link">&para;</a></h2>
+<p>Un tipo podrá especializarse.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+    │
+
+───────────────
+
+│             │
+
+Vegetal     Animal
+</code></pre></div>
+<p>La especialización deberá:</p>
+<ul>
+<li>mantener la compatibilidad con el tipo padre;</li>
+<li>añadir restricciones o propiedades;</li>
+<li>no modificar la identidad conceptual del componente.</li>
+</ul>
+<hr />
+<h1 id="propiedades">Propiedades<a class="headerlink" href="#propiedades" title="Permanent link">&para;</a></h1>
+<p>Las propiedades describen un componente.</p>
+<p>No representan relaciones.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+Nombre
+
+Origen
+
+Estacionalidad
+
+Descripción
+</code></pre></div>
+<p>No son propiedades:</p>
+<div class="highlight"><pre><span></span><code>utiliza
+
+forma parte de
+
+sustituye
+</code></pre></div>
+<p>ya que representan relaciones entre componentes.</p>
+<hr />
+<h2 id="propiedades-obligatorias">Propiedades obligatorias<a class="headerlink" href="#propiedades-obligatorias" title="Permanent link">&para;</a></h2>
+<p>Cada tipo de componente deberá definir un conjunto mínimo de propiedades.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+nombre
+familia
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Receta
+
+nombre
+resultado esperado
+</code></pre></div>
+<hr />
+<h2 id="propiedades-opcionales">Propiedades opcionales<a class="headerlink" href="#propiedades-opcionales" title="Permanent link">&para;</a></h2>
+<p>Podrán añadirse propiedades adicionales cuando:</p>
+<ul>
+<li>aporten información relevante;</li>
+<li>no dupliquen otras existentes;</li>
+<li>mantengan compatibilidad con el modelo.</li>
+</ul>
+<hr />
+<h1 id="estado">Estado<a class="headerlink" href="#estado" title="Permanent link">&para;</a></h1>
+<p>Todo componente puede encontrarse en distintos estados durante su ciclo de vida.</p>
+<p>Modelo general:</p>
+<div class="highlight"><pre><span></span><code>Borrador
+
+↓
+
+En revisión
+
+↓
+
+Estable
+
+↓
+
+Obsoleto
+
+↓
+
+Archivado
+</code></pre></div>
+<p>El estado del componente es independiente del estado del documento que lo representa.</p>
+<p>Por ejemplo, un componente estable puede estar temporalmente representado mediante un documento en revisión durante una actualización editorial.</p>
+<hr />
+<h1 id="versionado">Versionado<a class="headerlink" href="#versionado" title="Permanent link">&para;</a></h1>
+<p>Los componentes podrán evolucionar sin perder su identidad.</p>
+<p>Existen dos niveles claramente diferenciados.</p>
+<hr />
+<h2 id="version-conceptual">Versión conceptual<a class="headerlink" href="#version-conceptual" title="Permanent link">&para;</a></h2>
+<p>Describe cambios en el significado del componente.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>redefinir una técnica;</li>
+<li>ampliar una plantilla;</li>
+<li>modificar una taxonomía.</li>
+</ul>
+<hr />
+<h2 id="version-documental">Versión documental<a class="headerlink" href="#version-documental" title="Permanent link">&para;</a></h2>
+<p>Describe cambios en la representación documental.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>reorganizar secciones;</li>
+<li>mejorar redacción;</li>
+<li>actualizar referencias;</li>
+<li>corregir ejemplos.</li>
+</ul>
+<hr />
+<h1 id="cardinalidad">Cardinalidad<a class="headerlink" href="#cardinalidad" title="Permanent link">&para;</a></h1>
+<p>Los componentes pueden participar en relaciones con diferentes cardinalidades.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Una receta
+
+utiliza
+
+muchos ingredientes
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Un ingrediente
+
+aparece en
+
+muchas recetas
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Una receta
+
+puede utilizar
+
+varias técnicas
+</code></pre></div>
+<p>La cardinalidad concreta de cada relación se definirá en la especificación correspondiente.</p>
+<hr />
+<h1 id="componentes-atomicos_1">Componentes atómicos<a class="headerlink" href="#componentes-atomicos_1" title="Permanent link">&para;</a></h1>
+<p>Los componentes atómicos representan unidades básicas del conocimiento.</p>
+<p>Características:</p>
+<ul>
+<li>identidad propia;</li>
+<li>responsabilidad única;</li>
+<li>reutilización elevada;</li>
+<li>baja dependencia.</li>
+</ul>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+Técnica
+
+Concepto
+
+Unidad
+</code></pre></div>
+<hr />
+<h2 id="propiedades_1">Propiedades<a class="headerlink" href="#propiedades_1" title="Permanent link">&para;</a></h2>
+<p>Los componentes atómicos deberán:</p>
+<ul>
+<li>ser reutilizables;</li>
+<li>evitar incorporar procesos complejos;</li>
+<li>minimizar dependencias innecesarias.</li>
+</ul>
+<hr />
+<h1 id="componentes-compuestos_1">Componentes compuestos<a class="headerlink" href="#componentes-compuestos_1" title="Permanent link">&para;</a></h1>
+<p>Los componentes compuestos integran otros componentes.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Receta
+
+│
+
+├── Ingredientes
+
+├── Técnicas
+
+├── Elaboraciones
+
+└── Resultado
+</code></pre></div>
+<hr />
+<h2 id="propiedades_2">Propiedades<a class="headerlink" href="#propiedades_2" title="Permanent link">&para;</a></h2>
+<p>Todo componente compuesto deberá:</p>
+<ul>
+<li>mantener identidad propia;</li>
+<li>conservar la identidad de sus partes;</li>
+<li>permitir reutilización de sus componentes internos cuando proceda.</li>
+</ul>
+<hr />
+<h1 id="componentes-agregados">Componentes agregados<a class="headerlink" href="#componentes-agregados" title="Permanent link">&para;</a></h1>
+<p>La agregación representa una agrupación donde los componentes mantienen independencia completa.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Colección
+
+│
+
+├── Receta A
+
+├── Receta B
+
+└── Receta C
+</code></pre></div>
+<p>Eliminar la colección no implica eliminar las recetas.</p>
+<hr />
+<h1 id="componentes-compuestos-por-composicion">Componentes compuestos por composición<a class="headerlink" href="#componentes-compuestos-por-composicion" title="Permanent link">&para;</a></h1>
+<p>En la composición existe una dependencia funcional más fuerte.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Receta
+
+│
+
+├── Elaboración
+
+│      │
+
+│      ├── Técnica
+
+│      └── Ingredientes
+</code></pre></div>
+<p>La elaboración tiene sentido dentro del contexto definido por la receta, aunque pueda reutilizarse posteriormente.</p>
+<hr />
+<h1 id="componentes-derivados">Componentes derivados<a class="headerlink" href="#componentes-derivados" title="Permanent link">&para;</a></h1>
+<p>Algunos componentes pueden derivarse automáticamente de otros.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Lista de compra
+
+↓
+
+derivada de
+
+↓
+
+Menú semanal
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Valores nutricionales
+
+↓
+
+calculados desde
+
+↓
+
+Ingredientes
+</code></pre></div>
+<p>Los componentes derivados deberán indicar claramente:</p>
+<ul>
+<li>origen;</li>
+<li>reglas de generación;</li>
+<li>nivel de actualización.</li>
+</ul>
+<hr />
+<h1 id="componentes-calculados">Componentes calculados<a class="headerlink" href="#componentes-calculados" title="Permanent link">&para;</a></h1>
+<p>Representan información obtenida mediante procesamiento automático.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>coste total;</li>
+<li>tiempo estimado;</li>
+<li>balance nutricional;</li>
+<li>emisiones aproximadas;</li>
+<li>cobertura documental.</li>
+</ul>
+<p>Su valor podrá regenerarse sin modificar la identidad del componente.</p>
+<hr />
+<h1 id="componentes-virtuales">Componentes virtuales<a class="headerlink" href="#componentes-virtuales" title="Permanent link">&para;</a></h1>
+<p>Algunos componentes pueden existir únicamente como construcciones lógicas.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Todas las recetas vegetarianas
+
+Recetas de menos de 30 minutos
+
+Ingredientes ricos en umami
+</code></pre></div>
+<p>No requieren necesariamente almacenamiento persistente.</p>
+<p>Podrán generarse dinámicamente mediante consultas.</p>
+<hr />
+<h1 id="composicion-del-conocimiento">Composición del conocimiento<a class="headerlink" href="#composicion-del-conocimiento" title="Permanent link">&para;</a></h1>
+<p>El SGCC organiza el conocimiento mediante composición progresiva.</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+↓
+
+Base
+
+↓
+
+Elaboración
+
+↓
+
+Receta
+
+↓
+
+Menú
+
+↓
+
+Planificación
+</code></pre></div>
+<p>Cada nivel reutiliza los anteriores sin duplicarlos.</p>
+<hr />
+<h1 id="reutilizacion_1">Reutilización<a class="headerlink" href="#reutilizacion_1" title="Permanent link">&para;</a></h1>
+<p>Todo componente deberá diseñarse para maximizar su reutilización.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Pasta de curry
+
+↓
+
+utilizada por
+
+↓
+
+Curry rojo
+
+Curry verde
+
+Curry vegetal
+
+Curry de pollo
+</code></pre></div>
+<p>Modificar la base actualiza automáticamente todas las recetas que la reutilizan conceptualmente.</p>
+<hr />
+<h1 id="acoplamiento">Acoplamiento<a class="headerlink" href="#acoplamiento" title="Permanent link">&para;</a></h1>
+<p>Los componentes deberán minimizar dependencias innecesarias.</p>
+<p>Se priorizará:</p>
+<div class="highlight"><pre><span></span><code>Alta cohesión
+
+Bajo acoplamiento
+</code></pre></div>
+<p>Esto facilita:</p>
+<ul>
+<li>mantenimiento;</li>
+<li>evolución;</li>
+<li>reutilización;</li>
+<li>interoperabilidad.</li>
+</ul>
+<hr />
+<h1 id="cohesion">Cohesión<a class="headerlink" href="#cohesion" title="Permanent link">&para;</a></h1>
+<p>Cada componente deberá representar una única responsabilidad claramente definida.</p>
+<p>Ejemplo correcto:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+↓
+
+Ajo
+</code></pre></div>
+<p>Ejemplo incorrecto:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+↓
+
+Ajo y cebolla
+</code></pre></div>
+<p>ya que representa dos componentes distintos.</p>
+<hr />
+<h1 id="granularidad">Granularidad<a class="headerlink" href="#granularidad" title="Permanent link">&para;</a></h1>
+<p>El modelo debe mantener una granularidad adecuada.</p>
+<p>No conviene modelar componentes demasiado grandes:</p>
+<div class="highlight"><pre><span></span><code>&quot;Cocina japonesa&quot;
+</code></pre></div>
+<p>ni excesivamente pequeños:</p>
+<div class="highlight"><pre><span></span><code>&quot;Cortar una zanahoria concreta en una receta concreta&quot;
+</code></pre></div>
+<p>La granularidad deberá favorecer:</p>
+<ul>
+<li>reutilización;</li>
+<li>comprensión;</li>
+<li>mantenibilidad.</li>
+</ul>
+<hr />
+<h1 id="integridad">Integridad<a class="headerlink" href="#integridad" title="Permanent link">&para;</a></h1>
+<p>Todo componente deberá mantener coherencia interna.</p>
+<p>Como mínimo:</p>
+<ul>
+<li>tipo correcto;</li>
+<li>propiedades válidas;</li>
+<li>relaciones compatibles;</li>
+<li>estado coherente;</li>
+<li>identidad única.</li>
+</ul>
+<p>Las herramientas podrán verificar automáticamente parte de esta integridad.</p>
+<hr />
+<h1 id="compatibilidad">Compatibilidad<a class="headerlink" href="#compatibilidad" title="Permanent link">&para;</a></h1>
+<p>Los componentes deberán poder utilizarse mediante diferentes tecnologías.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Markdown
+
+↓
+
+HTML
+
+↓
+
+JSON
+
+↓
+
+Base de datos
+
+↓
+
+Knowledge Graph
+
+↓
+
+API
+
+↓
+
+RDF
+</code></pre></div>
+<p>Todas las representaciones deberán preservar:</p>
+<ul>
+<li>identidad;</li>
+<li>significado;</li>
+<li>relaciones.</li>
+</ul>
+<hr />
+<h1 id="extensibilidad_1">Extensibilidad<a class="headerlink" href="#extensibilidad_1" title="Permanent link">&para;</a></h1>
+<p>El modelo deberá admitir nuevos componentes sin rediseñar la arquitectura.</p>
+<p>Para incorporar un nuevo tipo deberán definirse:</p>
+<ul>
+<li>finalidad;</li>
+<li>responsabilidad;</li>
+<li>propiedades;</li>
+<li>restricciones;</li>
+<li>relaciones habituales;</li>
+<li>compatibilidad con el modelo existente.</li>
+</ul>
+<hr />
+<h1 id="restricciones-generales">Restricciones generales<a class="headerlink" href="#restricciones-generales" title="Permanent link">&para;</a></h1>
+<p>Todo componente del SGCC deberá cumplir las siguientes reglas:</p>
+<ul>
+<li>representar una única responsabilidad principal;</li>
+<li>poseer identidad conceptual propia;</li>
+<li>evitar duplicar componentes existentes;</li>
+<li>permitir trazabilidad;</li>
+<li>mantener coherencia semántica;</li>
+<li>respetar el modelo documental;</li>
+<li>ser compatible con la ontología del proyecto.</li>
+</ul>
+<hr />
+<h1 id="validacion-de-componentes">Validación de componentes<a class="headerlink" href="#validacion-de-componentes" title="Permanent link">&para;</a></h1>
+<p>La validación podrá comprobar, entre otros aspectos:</p>
+<ul>
+<li>tipo válido;</li>
+<li>identidad persistente;</li>
+<li>propiedades obligatorias;</li>
+<li>relaciones permitidas;</li>
+<li>estado;</li>
+<li>coherencia semántica;</li>
+<li>compatibilidad con las especificaciones.</li>
+</ul>
+<p>Las reglas concretas podrán automatizarse mediante las herramientas del SGCC.</p>
+<hr />
+<h1 id="compatibilidad-con-la-ontologia">Compatibilidad con la ontología<a class="headerlink" href="#compatibilidad-con-la-ontologia" title="Permanent link">&para;</a></h1>
+<p>Cada componente descrito en esta especificación constituirá una entidad candidata de la ontología del SGCC.</p>
+<p>La ontología añadirá posteriormente:</p>
+<ul>
+<li>propiedades formales;</li>
+<li>axiomas;</li>
+<li>restricciones;</li>
+<li>cardinalidades;</li>
+<li>reglas de inferencia;</li>
+<li>vocabulario controlado.</li>
+</ul>
+<p>Esta especificación define <strong>las entidades</strong>.</p>
+<p>La ontología definirá <strong>su significado formal</strong>.</p>
+<hr />
+<h1 id="compatibilidad-con-el-knowledge-graph">Compatibilidad con el Knowledge Graph<a class="headerlink" href="#compatibilidad-con-el-knowledge-graph" title="Permanent link">&para;</a></h1>
+<p>Cada componente podrá representarse como un nodo del Knowledge Graph.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>[Receta]
+      │
+utiliza
+      │
+[Ingrediente]
+      │
+requiere
+      │
+[Técnica]
+</code></pre></div>
+<p>Las relaciones entre nodos se formalizarán en la especificación correspondiente.</p>
+<hr />
+<h1 id="compatibilidad-con-inteligencia-artificial">Compatibilidad con inteligencia artificial<a class="headerlink" href="#compatibilidad-con-inteligencia-artificial" title="Permanent link">&para;</a></h1>
+<p>Los componentes constituyen la unidad semántica fundamental para:</p>
+<ul>
+<li>recuperación de información;</li>
+<li>generación de embeddings;</li>
+<li>sistemas RAG;</li>
+<li>agentes especializados;</li>
+<li>asistentes conversacionales;</li>
+<li>recomendadores culinarios;</li>
+<li>razonamiento sobre conocimiento.</li>
+</ul>
+<p>Esta estructura facilita que los modelos de IA trabajen sobre entidades claramente definidas, en lugar de hacerlo únicamente sobre documentos completos.</p>
+<hr />
+<h1 id="transicion-hacia-las-siguientes-especificaciones">Transición hacia las siguientes especificaciones<a class="headerlink" href="#transicion-hacia-las-siguientes-especificaciones" title="Permanent link">&para;</a></h1>
+<p>La presente especificación ha definido:</p>
+<ul>
+<li>qué componentes existen;</li>
+<li>cómo se clasifican;</li>
+<li>qué propiedades generales poseen;</li>
+<li>cómo evolucionan;</li>
+<li>cómo se representan.</li>
+</ul>
+<p>La siguiente etapa del modelo consiste en definir:</p>
+<ul>
+<li>cómo pueden relacionarse entre sí;</li>
+<li>qué restricciones poseen dichas relaciones;</li>
+<li>cómo construir el grafo de conocimiento del SGCC.</li>
+</ul>
+<p>Estos aspectos se desarrollarán en <strong>ESPECIFICACION_DE_RELACIONES.md</strong>, que utilizará los componentes aquí definidos como base para formalizar el modelo semántico del sistema.</p>
+<hr />
+<h1 id="gobernanza-de-componentes">Gobernanza de componentes<a class="headerlink" href="#gobernanza-de-componentes" title="Permanent link">&para;</a></h1>
+<p>Esta sección establece las reglas para crear, modificar, versionar, deprecar y retirar tipos de componentes dentro del SGCC.</p>
+<p>La incorporación de nuevos componentes no deberá realizarse de forma improvisada.</p>
+<p>Todo cambio en el catálogo afecta potencialmente a:</p>
+<ul>
+<li>documentos;</li>
+<li>relaciones;</li>
+<li>ontología;</li>
+<li>esquemas;</li>
+<li>validadores;</li>
+<li>APIs;</li>
+<li>Knowledge Graph;</li>
+<li>sistemas RAG;</li>
+<li>agentes de inteligencia artificial.</li>
+</ul>
+<p>Por este motivo, la evolución del modelo de componentes deberá tratarse como una modificación estructural del sistema.</p>
+<hr />
+<h1 id="principios-de-gobernanza">Principios de gobernanza<a class="headerlink" href="#principios-de-gobernanza" title="Permanent link">&para;</a></h1>
+<p>La gobernanza de componentes se regirá por los siguientes principios.</p>
+<hr />
+<h2 id="necesidad-demostrable">Necesidad demostrable<a class="headerlink" href="#necesidad-demostrable" title="Permanent link">&para;</a></h2>
+<p>No deberá crearse un nuevo tipo de componente si la necesidad puede resolverse mediante:</p>
+<ul>
+<li>una propiedad;</li>
+<li>una relación;</li>
+<li>una especialización;</li>
+<li>una colección;</li>
+<li>una plantilla;</li>
+<li>una representación alternativa;</li>
+<li>un componente ya existente.</li>
+</ul>
+<p>La creación de un tipo nuevo deberá responder a una responsabilidad conceptual diferenciada.</p>
+<hr />
+<h2 id="fuente-canonica-unica">Fuente canónica única<a class="headerlink" href="#fuente-canonica-unica" title="Permanent link">&para;</a></h2>
+<p>Cada componente deberá disponer de una fuente canónica claramente identificable.</p>
+<p>Las representaciones derivadas no deberán competir con la fuente oficial.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Componente canónico
+
+↓
+
+Documento oficial
+
+↓
+
+Representaciones derivadas
+
+├── HTML
+├── JSON
+├── API
+└── Knowledge Graph
+</code></pre></div>
+<hr />
+<h2 id="compatibilidad-progresiva">Compatibilidad progresiva<a class="headerlink" href="#compatibilidad-progresiva" title="Permanent link">&para;</a></h2>
+<p>Los cambios deberán preservar, siempre que sea posible:</p>
+<ul>
+<li>identidad;</li>
+<li>trazabilidad;</li>
+<li>relaciones;</li>
+<li>interoperabilidad;</li>
+<li>compatibilidad con versiones anteriores.</li>
+</ul>
+<p>Las rupturas incompatibles deberán justificarse y documentarse.</p>
+<hr />
+<h2 id="evolucion-controlada">Evolución controlada<a class="headerlink" href="#evolucion-controlada" title="Permanent link">&para;</a></h2>
+<p>La ampliación del catálogo deberá realizarse mediante un proceso explícito de revisión.</p>
+<p>No deberán introducirse nuevos tipos únicamente porque una implementación concreta los necesite temporalmente.</p>
+<p>El modelo conceptual deberá permanecer independiente de decisiones técnicas accidentales.</p>
+<hr />
+<h2 id="responsabilidad-definida">Responsabilidad definida<a class="headerlink" href="#responsabilidad-definida" title="Permanent link">&para;</a></h2>
+<p>Todo tipo de componente deberá declarar con claridad:</p>
+<ul>
+<li>qué representa;</li>
+<li>qué no representa;</li>
+<li>qué propiedades posee;</li>
+<li>qué restricciones aplica;</li>
+<li>con qué componentes puede relacionarse.</li>
+</ul>
+<hr />
+<h1 id="creacion-de-nuevos-tipos-de-componentes">Creación de nuevos tipos de componentes<a class="headerlink" href="#creacion-de-nuevos-tipos-de-componentes" title="Permanent link">&para;</a></h1>
+<p>La creación de un nuevo tipo deberá comenzar con una propuesta formal.</p>
+<hr />
+<h2 id="preguntas-previas-obligatorias">Preguntas previas obligatorias<a class="headerlink" href="#preguntas-previas-obligatorias" title="Permanent link">&para;</a></h2>
+<p>Antes de crear un nuevo tipo deberán responderse, como mínimo, las siguientes preguntas:</p>
+<ol>
+<li>¿Qué responsabilidad conceptual representa?</li>
+<li>¿Existe ya otro componente con una responsabilidad equivalente?</li>
+<li>¿Puede resolverse mediante una propiedad?</li>
+<li>¿Puede resolverse mediante una relación?</li>
+<li>¿Puede modelarse como especialización de un tipo existente?</li>
+<li>¿Posee identidad propia?</li>
+<li>¿Puede existir de forma independiente?</li>
+<li>¿Será reutilizable?</li>
+<li>¿Qué impacto tendrá sobre relaciones, ontología y validación?</li>
+<li>¿Qué representaciones necesitará?</li>
+</ol>
+<p>Si estas preguntas no pueden responderse con claridad, el nuevo tipo no deberá incorporarse.</p>
+<hr />
+<h2 id="criterios-de-aceptacion">Criterios de aceptación<a class="headerlink" href="#criterios-de-aceptacion" title="Permanent link">&para;</a></h2>
+<p>Un nuevo tipo de componente podrá aceptarse cuando:</p>
+<ul>
+<li>represente una responsabilidad diferenciada;</li>
+<li>tenga significado estable;</li>
+<li>disponga de identidad propia;</li>
+<li>no duplique otro tipo;</li>
+<li>pueda definirse mediante propiedades y restricciones claras;</li>
+<li>aporte valor al modelo de conocimiento;</li>
+<li>sea compatible con la arquitectura;</li>
+<li>pueda integrarse en la ontología;</li>
+<li>disponga de una estrategia de validación;</li>
+<li>tenga casos de uso reales.</li>
+</ul>
+<hr />
+<h2 id="informacion-minima-de-la-propuesta">Información mínima de la propuesta<a class="headerlink" href="#informacion-minima-de-la-propuesta" title="Permanent link">&para;</a></h2>
+<p>Toda propuesta deberá incluir:</p>
+<div class="highlight"><pre><span></span><code>Nombre del tipo
+
+Finalidad
+
+Responsabilidad
+
+Alcance
+
+Propiedades
+
+Restricciones
+
+Relaciones habituales
+
+Ejemplos
+
+Contraejemplos
+
+Impacto arquitectónico
+
+Impacto documental
+
+Impacto ontológico
+</code></pre></div>
+<hr />
+<h1 id="procedimiento-de-incorporacion">Procedimiento de incorporación<a class="headerlink" href="#procedimiento-de-incorporacion" title="Permanent link">&para;</a></h1>
+<p>La incorporación de un nuevo tipo seguirá el siguiente flujo.</p>
+<div class="highlight"><pre><span></span><code>Necesidad detectada
+
+↓
+
+Análisis de reutilización
+
+↓
+
+Propuesta formal
+
+↓
+
+Revisión conceptual
+
+↓
+
+Revisión arquitectónica
+
+↓
+
+Actualización de especificaciones
+
+↓
+
+Implementación
+
+↓
+
+Validación
+
+↓
+
+Aprobación
+
+↓
+
+Publicación
+</code></pre></div>
+<hr />
+<h2 id="analisis-de-reutilizacion">Análisis de reutilización<a class="headerlink" href="#analisis-de-reutilizacion" title="Permanent link">&para;</a></h2>
+<p>Antes de crear un tipo nuevo deberá evaluarse si la necesidad puede cubrirse mediante:</p>
+<ul>
+<li>un componente existente;</li>
+<li>una especialización;</li>
+<li>una propiedad adicional;</li>
+<li>una relación;</li>
+<li>una colección dinámica;</li>
+<li>una vista;</li>
+<li>una representación derivada.</li>
+</ul>
+<hr />
+<h2 id="revision-conceptual">Revisión conceptual<a class="headerlink" href="#revision-conceptual" title="Permanent link">&para;</a></h2>
+<p>La revisión conceptual deberá comprobar:</p>
+<ul>
+<li>claridad semántica;</li>
+<li>unicidad de responsabilidad;</li>
+<li>coherencia terminológica;</li>
+<li>nivel adecuado de granularidad;</li>
+<li>compatibilidad con el catálogo existente.</li>
+</ul>
+<hr />
+<h2 id="revision-arquitectonica">Revisión arquitectónica<a class="headerlink" href="#revision-arquitectonica" title="Permanent link">&para;</a></h2>
+<p>La revisión arquitectónica deberá analizar:</p>
+<ul>
+<li>impacto sobre el modelo de conocimiento;</li>
+<li>impacto sobre relaciones;</li>
+<li>impacto sobre la ontología;</li>
+<li>impacto sobre almacenamiento;</li>
+<li>impacto sobre APIs;</li>
+<li>impacto sobre validadores;</li>
+<li>impacto sobre herramientas de IA.</li>
+</ul>
+<hr />
+<h2 id="actualizacion-normativa">Actualización normativa<a class="headerlink" href="#actualizacion-normativa" title="Permanent link">&para;</a></h2>
+<p>La incorporación de un nuevo tipo deberá actualizar, cuando corresponda:</p>
+<ul>
+<li><code>ESPECIFICACION_DE_COMPONENTES</code>;</li>
+<li><code>ESPECIFICACION_DE_RELACIONES</code>;</li>
+<li><code>ESPECIFICACION_DE_ONTOLOGIA</code>;</li>
+<li><code>MODELO_DE_CONOCIMIENTO</code>;</li>
+<li>esquemas;</li>
+<li>catálogos;</li>
+<li>validadores;</li>
+<li>documentación de APIs.</li>
+</ul>
+<hr />
+<h1 id="modificacion-de-tipos-existentes">Modificación de tipos existentes<a class="headerlink" href="#modificacion-de-tipos-existentes" title="Permanent link">&para;</a></h1>
+<p>No toda evolución requiere crear un tipo nuevo.</p>
+<p>Los tipos existentes podrán modificarse cuando el cambio no altere su identidad esencial.</p>
+<hr />
+<h2 id="cambios-compatibles">Cambios compatibles<a class="headerlink" href="#cambios-compatibles" title="Permanent link">&para;</a></h2>
+<p>Se consideran normalmente compatibles:</p>
+<ul>
+<li>añadir propiedades opcionales;</li>
+<li>ampliar ejemplos;</li>
+<li>mejorar definiciones;</li>
+<li>añadir relaciones permitidas;</li>
+<li>incorporar nuevas representaciones;</li>
+<li>documentar restricciones ya implícitas;</li>
+<li>añadir sinónimos o vocabulario controlado.</li>
+</ul>
+<hr />
+<h2 id="cambios-potencialmente-incompatibles">Cambios potencialmente incompatibles<a class="headerlink" href="#cambios-potencialmente-incompatibles" title="Permanent link">&para;</a></h2>
+<p>Requieren revisión especial:</p>
+<ul>
+<li>cambiar la responsabilidad del tipo;</li>
+<li>eliminar propiedades obligatorias;</li>
+<li>modificar cardinalidades;</li>
+<li>alterar su significado;</li>
+<li>fusionar dos tipos;</li>
+<li>dividir un tipo en varios;</li>
+<li>cambiar su relación con la ontología;</li>
+<li>modificar identificadores o nomenclaturas persistentes.</li>
+</ul>
+<hr />
+<h2 id="cambios-incompatibles">Cambios incompatibles<a class="headerlink" href="#cambios-incompatibles" title="Permanent link">&para;</a></h2>
+<p>Un cambio se considerará incompatible cuando provoque que instancias válidas dejen de serlo o que el significado previo ya no pueda interpretarse correctamente.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>redefinir una receta como simple texto narrativo;</li>
+<li>convertir una colección en componente de dominio;</li>
+<li>eliminar una relación obligatoria;</li>
+<li>cambiar el sentido de una propiedad existente.</li>
+</ul>
+<p>Los cambios incompatibles deberán implicar:</p>
+<ul>
+<li>nueva versión mayor;</li>
+<li>estrategia de migración;</li>
+<li>periodo de transición;</li>
+<li>actualización de dependencias;</li>
+<li>documentación explícita.</li>
+</ul>
+<hr />
+<h1 id="versionado-del-modelo-de-componentes">Versionado del modelo de componentes<a class="headerlink" href="#versionado-del-modelo-de-componentes" title="Permanent link">&para;</a></h1>
+<p>El catálogo de componentes seguirá versionado semántico.</p>
+<p>Formato:</p>
+<div class="highlight"><pre><span></span><code>MAJOR.MINOR.PATCH
+</code></pre></div>
+<hr />
+<h2 id="version-mayor">Versión mayor<a class="headerlink" href="#version-mayor" title="Permanent link">&para;</a></h2>
+<p>Se incrementará cuando existan cambios incompatibles.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>redefinición de tipos;</li>
+<li>eliminación de componentes;</li>
+<li>cambios de identidad;</li>
+<li>reestructuración profunda del catálogo;</li>
+<li>modificación de reglas fundamentales.</li>
+</ul>
+<hr />
+<h2 id="version-menor">Versión menor<a class="headerlink" href="#version-menor" title="Permanent link">&para;</a></h2>
+<p>Se incrementará cuando se incorporen cambios compatibles.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>nuevos tipos;</li>
+<li>nuevas propiedades opcionales;</li>
+<li>nuevas relaciones compatibles;</li>
+<li>especializaciones;</li>
+<li>ampliaciones del catálogo.</li>
+</ul>
+<hr />
+<h2 id="version-de-parche">Versión de parche<a class="headerlink" href="#version-de-parche" title="Permanent link">&para;</a></h2>
+<p>Se incrementará para cambios editoriales o aclaraciones que no alteren el modelo.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>correcciones;</li>
+<li>ejemplos;</li>
+<li>mejoras de redacción;</li>
+<li>referencias;</li>
+<li>aclaraciones semánticas.</li>
+</ul>
+<hr />
+<h1 id="versionado-de-componentes-individuales">Versionado de componentes individuales<a class="headerlink" href="#versionado-de-componentes-individuales" title="Permanent link">&para;</a></h1>
+<p>Además de la versión de la especificación, una instancia concreta podrá disponer de su propia versión.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Tipo: Plantilla culinaria
+Instancia: Plantilla de guiso
+Versión: 2.1.0
+</code></pre></div>
+<p>La versión individual deberá reflejar cambios relevantes en su significado o estructura.</p>
+<hr />
+<h1 id="deprecacion">Deprecación<a class="headerlink" href="#deprecacion" title="Permanent link">&para;</a></h1>
+<p>Un componente o tipo podrá declararse obsoleto cuando:</p>
+<ul>
+<li>haya sido sustituido;</li>
+<li>presente ambigüedades;</li>
+<li>duplique otro componente;</li>
+<li>resulte incompatible con el modelo actual;</li>
+<li>ya no deba utilizarse en nuevas contribuciones.</li>
+</ul>
+<hr />
+<h2 id="estado-obsoleto">Estado obsoleto<a class="headerlink" href="#estado-obsoleto" title="Permanent link">&para;</a></h2>
+<p>Un componente obsoleto:</p>
+<ul>
+<li>conservará su identificador;</li>
+<li>permanecerá accesible;</li>
+<li>no deberá utilizarse en nuevas contribuciones;</li>
+<li>deberá indicar su sustituto cuando exista;</li>
+<li>deberá mantener trazabilidad histórica.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Estado: obsoleto
+Sustituido por: CMP-0048
+</code></pre></div>
+<hr />
+<h2 id="periodo-de-transicion">Periodo de transición<a class="headerlink" href="#periodo-de-transicion" title="Permanent link">&para;</a></h2>
+<p>La deprecación deberá incluir, cuando proceda:</p>
+<ul>
+<li>fecha de inicio;</li>
+<li>versión afectada;</li>
+<li>sustituto recomendado;</li>
+<li>instrucciones de migración;</li>
+<li>fecha prevista de retirada.</li>
+</ul>
+<hr />
+<h1 id="archivado">Archivado<a class="headerlink" href="#archivado" title="Permanent link">&para;</a></h1>
+<p>El archivado representa la retirada operativa de un componente sin eliminar su existencia histórica.</p>
+<p>Un componente archivado:</p>
+<ul>
+<li>no participa en operaciones normales;</li>
+<li>no deberá aparecer en catálogos activos;</li>
+<li>podrá mantenerse para auditoría;</li>
+<li>conservará su identidad;</li>
+<li>podrá ser consultado por herramientas históricas.</li>
+</ul>
+<hr />
+<h1 id="eliminacion">Eliminación<a class="headerlink" href="#eliminacion" title="Permanent link">&para;</a></h1>
+<p>La eliminación física deberá evitarse.</p>
+<p>Solo podrá considerarse cuando:</p>
+<ul>
+<li>el componente se haya creado por error;</li>
+<li>no haya sido publicado;</li>
+<li>no tenga relaciones;</li>
+<li>no haya sido referenciado;</li>
+<li>no forme parte del historial oficial.</li>
+</ul>
+<p>En cualquier otro caso se preferirá:</p>
+<div class="highlight"><pre><span></span><code>Deprecación
+
+↓
+
+Archivado
+</code></pre></div>
+<hr />
+<h1 id="fusion-de-componentes">Fusión de componentes<a class="headerlink" href="#fusion-de-componentes" title="Permanent link">&para;</a></h1>
+<p>Dos componentes podrán fusionarse cuando representen la misma entidad o responsabilidad.</p>
+<p>La fusión deberá definir:</p>
+<ul>
+<li>componente superviviente;</li>
+<li>componentes deprecados;</li>
+<li>relaciones migradas;</li>
+<li>propiedades consolidadas;</li>
+<li>conflictos resueltos;</li>
+<li>trazabilidad.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>CMP-0012
+
++
+
+CMP-0037
+
+↓
+
+CMP-0012
+</code></pre></div>
+<p>El identificador superviviente deberá conservarse como canónico.</p>
+<hr />
+<h1 id="division-de-componentes">División de componentes<a class="headerlink" href="#division-de-componentes" title="Permanent link">&para;</a></h1>
+<p>Un componente podrá dividirse cuando contenga responsabilidades distintas.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Componente antiguo:
+&quot;Salsa y marinada&quot;
+
+↓
+
+Componentes nuevos:
+&quot;Salsa&quot;
+&quot;Marinada&quot;
+</code></pre></div>
+<p>La división deberá:</p>
+<ul>
+<li>crear nuevas identidades;</li>
+<li>conservar el componente original como obsoleto;</li>
+<li>establecer relaciones de derivación;</li>
+<li>migrar referencias;</li>
+<li>documentar el criterio.</li>
+</ul>
+<hr />
+<h1 id="renombrado">Renombrado<a class="headerlink" href="#renombrado" title="Permanent link">&para;</a></h1>
+<p>El nombre visible de un componente puede cambiar sin modificar su identidad.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Nombre anterior: Sofrito básico
+Nombre nuevo: Sofrito mediterráneo
+Identificador: sin cambios
+</code></pre></div>
+<p>El renombrado deberá conservar:</p>
+<ul>
+<li>alias;</li>
+<li>nombres anteriores;</li>
+<li>referencias;</li>
+<li>historial.</li>
+</ul>
+<hr />
+<h1 id="especializacion_1">Especialización<a class="headerlink" href="#especializacion_1" title="Permanent link">&para;</a></h1>
+<p>Un tipo podrá especializarse cuando exista una subcategoría con propiedades o restricciones propias.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Ingrediente
+
+↓
+
+Ingrediente fermentado
+</code></pre></div>
+<p>La especialización no deberá crearse únicamente por motivos de presentación.</p>
+<p>Deberá aportar significado o comportamiento adicional.</p>
+<hr />
+<h1 id="generalizacion">Generalización<a class="headerlink" href="#generalizacion" title="Permanent link">&para;</a></h1>
+<p>Varios tipos podrán generalizarse bajo un tipo común cuando compartan una responsabilidad estructural.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Receta
+Base
+Elaboración
+
+↓
+
+Preparación culinaria
+</code></pre></div>
+<p>La generalización deberá mejorar el modelo sin eliminar diferencias relevantes.</p>
+<hr />
+<h1 id="identificadores">Identificadores<a class="headerlink" href="#identificadores" title="Permanent link">&para;</a></h1>
+<p>Los identificadores deberán ser:</p>
+<ul>
+<li>únicos;</li>
+<li>persistentes;</li>
+<li>no ambiguos;</li>
+<li>independientes del nombre;</li>
+<li>independientes de la ubicación;</li>
+<li>compatibles con herramientas automáticas.</li>
+</ul>
+<hr />
+<h2 id="inmutabilidad">Inmutabilidad<a class="headerlink" href="#inmutabilidad" title="Permanent link">&para;</a></h2>
+<p>Un identificador asignado no deberá reutilizarse.</p>
+<p>Incluso si un componente se archiva, su identificador permanecerá reservado.</p>
+<hr />
+<h2 id="prefijos">Prefijos<a class="headerlink" href="#prefijos" title="Permanent link">&para;</a></h2>
+<p>Los prefijos podrán utilizarse para facilitar reconocimiento.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>ING-0001
+
+TEC-0001
+
+REC-0001
+
+BAS-0001
+
+TPL-0001
+</code></pre></div>
+<p>Los prefijos son una convención de representación, no la identidad semántica completa.</p>
+<hr />
+<h1 id="validacion-normativa">Validación normativa<a class="headerlink" href="#validacion-normativa" title="Permanent link">&para;</a></h1>
+<p>Todo componente deberá superar validaciones estructurales y semánticas.</p>
+<hr />
+<h2 id="validacion-estructural">Validación estructural<a class="headerlink" href="#validacion-estructural" title="Permanent link">&para;</a></h2>
+<p>Podrá comprobar:</p>
+<ul>
+<li>identificador;</li>
+<li>tipo;</li>
+<li>versión;</li>
+<li>estado;</li>
+<li>propiedades obligatorias;</li>
+<li>formato;</li>
+<li>referencias;</li>
+<li>esquema.</li>
+</ul>
+<hr />
+<h2 id="validacion-semantica">Validación semántica<a class="headerlink" href="#validacion-semantica" title="Permanent link">&para;</a></h2>
+<p>Podrá comprobar:</p>
+<ul>
+<li>coherencia entre tipo y contenido;</li>
+<li>compatibilidad de relaciones;</li>
+<li>duplicidades;</li>
+<li>granularidad;</li>
+<li>responsabilidad;</li>
+<li>vocabulario controlado;</li>
+<li>restricciones ontológicas.</li>
+</ul>
+<hr />
+<h2 id="validacion-automatica">Validación automática<a class="headerlink" href="#validacion-automatica" title="Permanent link">&para;</a></h2>
+<p>Las herramientas del SGCC podrán verificar automáticamente:</p>
+<ul>
+<li>identificadores duplicados;</li>
+<li>tipos desconocidos;</li>
+<li>propiedades inválidas;</li>
+<li>relaciones no permitidas;</li>
+<li>enlaces rotos;</li>
+<li>estados incoherentes;</li>
+<li>referencias a componentes inexistentes.</li>
+</ul>
+<hr />
+<h2 id="validacion-humana">Validación humana<a class="headerlink" href="#validacion-humana" title="Permanent link">&para;</a></h2>
+<p>La revisión humana seguirá siendo necesaria para evaluar:</p>
+<ul>
+<li>calidad conceptual;</li>
+<li>ambigüedad;</li>
+<li>utilidad;</li>
+<li>coherencia culinaria;</li>
+<li>adecuación de la granularidad;</li>
+<li>impacto arquitectónico.</li>
+</ul>
+<hr />
+<h1 id="matriz-de-decision-para-nuevos-componentes">Matriz de decisión para nuevos componentes<a class="headerlink" href="#matriz-de-decision-para-nuevos-componentes" title="Permanent link">&para;</a></h1>
+<p>Antes de crear un tipo nuevo deberá aplicarse la siguiente matriz.</p>
+<table>
+<thead>
+<tr>
+<th>Pregunta</th>
+<th>Sí</th>
+<th>No</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>¿Tiene identidad propia?</td>
+<td>continuar</td>
+<td>no crear</td>
+</tr>
+<tr>
+<td>¿Posee responsabilidad diferenciada?</td>
+<td>continuar</td>
+<td>reutilizar</td>
+</tr>
+<tr>
+<td>¿Puede existir independientemente?</td>
+<td>continuar</td>
+<td>considerar propiedad</td>
+</tr>
+<tr>
+<td>¿Será reutilizable?</td>
+<td>continuar</td>
+<td>considerar elaboración contextual</td>
+</tr>
+<tr>
+<td>¿No duplica otro tipo?</td>
+<td>continuar</td>
+<td>fusionar o reutilizar</td>
+</tr>
+<tr>
+<td>¿Puede definirse con reglas claras?</td>
+<td>continuar</td>
+<td>revisar concepto</td>
+</tr>
+<tr>
+<td>¿Aporta valor al modelo?</td>
+<td>continuar</td>
+<td>descartar</td>
+</tr>
+<tr>
+<td>¿Puede validarse?</td>
+<td>aceptar propuesta</td>
+<td>redefinir</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="registro-de-cambios">Registro de cambios<a class="headerlink" href="#registro-de-cambios" title="Permanent link">&para;</a></h1>
+<p>Toda modificación relevante deberá documentarse mediante:</p>
+<ul>
+<li>historial de versión;</li>
+<li>commit;</li>
+<li>pull request;</li>
+<li>entrada en BITÁCORA;</li>
+<li>ADR cuando exista impacto arquitectónico.</li>
+</ul>
+<hr />
+<h1 id="adr-asociados">ADR asociados<a class="headerlink" href="#adr-asociados" title="Permanent link">&para;</a></h1>
+<p>Será obligatorio crear un ADR cuando el cambio afecte a:</p>
+<ul>
+<li>estructura fundamental del catálogo;</li>
+<li>identidad de componentes;</li>
+<li>clasificación principal;</li>
+<li>compatibilidad;</li>
+<li>ontología;</li>
+<li>interoperabilidad;</li>
+<li>estrategia de almacenamiento;</li>
+<li>relación entre componente y documento.</li>
+</ul>
+<hr />
+<h1 id="responsabilidades">Responsabilidades<a class="headerlink" href="#responsabilidades" title="Permanent link">&para;</a></h1>
+<p>La gobernanza de componentes podrá implicar distintos roles.</p>
+<hr />
+<h2 id="autor">Autor<a class="headerlink" href="#autor" title="Permanent link">&para;</a></h2>
+<p>Responsable de proponer o modificar un componente.</p>
+<p>Deberá:</p>
+<ul>
+<li>justificar la necesidad;</li>
+<li>documentar el tipo;</li>
+<li>proporcionar ejemplos;</li>
+<li>analizar impacto;</li>
+<li>actualizar referencias.</li>
+</ul>
+<hr />
+<h2 id="revisor">Revisor<a class="headerlink" href="#revisor" title="Permanent link">&para;</a></h2>
+<p>Responsable de evaluar:</p>
+<ul>
+<li>claridad;</li>
+<li>duplicidad;</li>
+<li>coherencia;</li>
+<li>compatibilidad;</li>
+<li>impacto.</li>
+</ul>
+<hr />
+<h2 id="responsable-de-arquitectura">Responsable de arquitectura<a class="headerlink" href="#responsable-de-arquitectura" title="Permanent link">&para;</a></h2>
+<p>Deberá intervenir cuando el cambio afecte a:</p>
+<ul>
+<li>modelo conceptual;</li>
+<li>ontología;</li>
+<li>APIs;</li>
+<li>almacenamiento;</li>
+<li>Knowledge Graph;</li>
+<li>interoperabilidad.</li>
+</ul>
+<hr />
+<h2 id="responsable-de-calidad">Responsable de calidad<a class="headerlink" href="#responsable-de-calidad" title="Permanent link">&para;</a></h2>
+<p>Verificará:</p>
+<ul>
+<li>cumplimiento normativo;</li>
+<li>validaciones;</li>
+<li>trazabilidad;</li>
+<li>documentación;</li>
+<li>compatibilidad.</li>
+</ul>
+<hr />
+<h1 id="relacion-con-otras-especificaciones">Relación con otras especificaciones<a class="headerlink" href="#relacion-con-otras-especificaciones" title="Permanent link">&para;</a></h1>
+<p>Esta especificación deberá mantenerse coordinada con:</p>
+<ul>
+<li><code>ESPECIFICACION_DE_DOCUMENTOS</code>;</li>
+<li><code>ESPECIFICACION_DE_RELACIONES</code>;</li>
+<li><code>ESPECIFICACION_DE_ONTOLOGIA</code>;</li>
+<li><code>ESPECIFICACION_DE_COLECCIONES</code>;</li>
+<li><code>MODELO_DE_CONOCIMIENTO</code>;</li>
+<li><code>GOVERNANCE_MODEL</code>;</li>
+<li><code>QUALITY</code>;</li>
+<li><code>ARCHITECTURE</code>.</li>
+</ul>
+<hr />
+<h1 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h1>
+<h2 id="documentacion-estrategica">Documentación estratégica<a class="headerlink" href="#documentacion-estrategica" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>index.md</code></li>
+<li><code>NovaCoquinaria.md</code></li>
+<li><code>VISION.md</code></li>
+<li><code>MANIFESTO.md</code></li>
+</ul>
+<hr />
+<h2 id="arquitectura">Arquitectura<a class="headerlink" href="#arquitectura" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>ARQUITECTURA.md</code></li>
+<li><code>MODELO_DE_CONOCIMIENTO.md</code></li>
+<li><code>ADR/</code></li>
+</ul>
+<hr />
+<h2 id="gobernanza">Gobernanza<a class="headerlink" href="#gobernanza" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>GOVERNANCE_MODEL.md</code></li>
+<li><code>QUALITY.md</code></li>
+<li><code>KNOWLEDGE_STRATEGY.md</code></li>
+<li><code>KNOWLEDGE_MATURITY.md</code></li>
+</ul>
+<hr />
+<h2 id="especificaciones">Especificaciones<a class="headerlink" href="#especificaciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>ESPECIFICACION_DE_DOCUMENTOS.md</code></li>
+<li><code>ESPECIFICACION_DE_COLECCIONES.md</code></li>
+<li><code>ESPECIFICACION_DE_RELACIONES.md</code></li>
+<li><code>ESPECIFICACION_DE_ONTOLOGIA.md</code></li>
+</ul>
+<hr />
+<h1 id="conformidad">Conformidad<a class="headerlink" href="#conformidad" title="Permanent link">&para;</a></h1>
+<p>Un componente será conforme con esta especificación cuando:</p>
+<ul>
+<li>pertenezca a un tipo reconocido;</li>
+<li>posea identidad persistente;</li>
+<li>respete su responsabilidad;</li>
+<li>incluya las propiedades mínimas;</li>
+<li>mantenga relaciones válidas;</li>
+<li>conserve trazabilidad;</li>
+<li>supere las validaciones aplicables.</li>
+</ul>
+<p>Un nuevo tipo será conforme cuando:</p>
+<ul>
+<li>haya seguido el procedimiento de incorporación;</li>
+<li>esté documentado en el catálogo;</li>
+<li>haya sido revisado;</li>
+<li>disponga de reglas de validación;</li>
+<li>sea compatible con el modelo de conocimiento.</li>
+</ul>
+<hr />
+<h1 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h1>
+<p>La presente especificación define el contrato conceptual de los componentes del SGCC.</p>
+<p>Establece:</p>
+<ul>
+<li>qué tipos de componentes existen;</li>
+<li>qué responsabilidad posee cada uno;</li>
+<li>cómo se estructuran;</li>
+<li>cómo se reutilizan;</li>
+<li>cómo evolucionan;</li>
+<li>cómo se incorporan nuevos tipos;</li>
+<li>cómo se preserva su identidad;</li>
+<li>cómo se garantiza su trazabilidad.</li>
+</ul>
+<p>Los componentes constituyen la unidad semántica fundamental de NovaCoquinaria.</p>
+<p>A partir de ellos pueden construirse:</p>
+<ul>
+<li>documentos;</li>
+<li>colecciones;</li>
+<li>relaciones;</li>
+<li>grafos de conocimiento;</li>
+<li>APIs;</li>
+<li>sistemas RAG;</li>
+<li>agentes inteligentes;</li>
+<li>herramientas de validación;</li>
+<li>interfaces de consulta.</li>
+</ul>
+<p>La siguiente especificación deberá formalizar las relaciones entre estos componentes.</p>
+<p>Ese trabajo se desarrollará en:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DE_RELACIONES.md
+</code></pre></div>
+<p>La secuencia conceptual del modelo queda definida como:</p>
+<div class="highlight"><pre><span></span><code>Componentes
+
+↓
+
+Relaciones
+
+↓
+
+Ontología
+
+↓
+
+Knowledge Graph
+
+↓
+
+Sistemas inteligentes
+</code></pre></div>
+<p>Con esta especificación, NovaCoquinaria dispone de una base formal para representar el conocimiento culinario de forma coherente, extensible, interoperable y gobernable.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Ensalada de garbanzos con pimiento y limón\n\n## Descripción\n\nEnsalada fresca de garbanzos cocidos con pimientos crujientes, pepino, cebolla y un aliño de limón y comino. Complementa la ensalada de lentejas del módulo con una legumbre de mayor tamaño y una proporción de aliño adaptada a su superficie.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | No requiere, si los garbanzos están cocidos |\n| Dificultad | Fácil |\n| Técnica principal | Escurrido, corte uniforme y aliño |\n\n## Ingredientes\n\n- 600 g de garbanzos cocidos y escurridos;\n- 1 pimiento rojo mediano (150 g), en dados pequeños;\n- 1/2 pimiento verde (70 g), en dados pequeños;\n- 1 pepino pequeño (120 g), en dados;\n- 1/2 cebolla morada pequeña (50 g), picada fina;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 2 cucharadas de zumo de limón;\n- 1/2 cucharadita de comino molido;\n- sal y pimienta negra;\n- 2 cucharadas de perejil fresco picado, opcional.\n\n**Alérgenos:** revisar el etiquetado de conservas o condimentos comerciales utilizados.\n\n## Mise en place\n\nSi los garbanzos se han cocido en casa, enfriarlos rápidamente y mantenerlos refrigerados hasta preparar la ensalada. Si son de conserva, escurrir, enjuagar si interesa moderar la sal y dejar que pierdan el exceso de agua. Lavar las hortalizas y trabajar con utensilios limpios.\n\n## Elaboración\n\n### 1. Preparar los garbanzos\n\nComprobar que estén completamente tiernos, fríos y bien escurridos. Colocarlos en un bol amplio.\n\n### 2. Cortar las hortalizas\n\nCortar los dos pimientos y el pepino en dados de tamaño parecido. Picar la cebolla muy fina; si resulta demasiado intensa, ponerla unos minutos en agua fría y escurrirla bien.\n\n### 3. Preparar el aliño\n\nMezclar el zumo de limón con el comino, una pizca de sal y pimienta. Incorporar el aceite poco a poco batiendo hasta combinar.\n\n### 4. Montar\n\nAñadir las hortalizas a los garbanzos. Incorporar aproximadamente dos tercios del aliño, mezclar con cuidado y probar. Completar con el aliño restante solo si hace falta.\n\n### 5. Servir\n\nAñadir perejil opcional. Servir fresca o refrigerar tapada hasta el momento de consumo.\n\n## Puntos críticos\n\n- Un escurrido insuficiente diluye el aliño y deja agua al fondo.\n- El corte pequeño distribuye mejor las hortalizas entre garbanzos enteros.\n- La cantidad de limón depende de la acidez real de la fruta; ajustar al probar.\n- No mantener la ensalada fuera del frío durante periodos prolongados.\n\n## Perfil esperado\n\nGarbanzos enteros y mantecosos, verduras crujientes y aliño fresco con acidez definida y notas moderadas de comino.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomate | Añadir 150 g de tomate firme en dados justo antes de servir |\n| Con aceitunas | Añadir 40 g, reduciendo la sal inicial |\n| Con menta | Sustituir parte del perejil por menta fresca |\n| Con queso fresco | Añadir al final y declarar alérgeno leche |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Garbanzos con líquido de conserva | Aliño aguado | Escurrir bien |\n| Cebolla demasiado gruesa | Sabor dominante | Picar fina |\n| Exceso de limón | Acidez desequilibrada | Incorporar aliño por tandas |\n| Guardar mucho tiempo a temperatura ambiente | Riesgo de conservación insegura | Refrigerar sin demoras |\n\n## Conservación\n\nGuardar tapada en refrigeración y consumir en un plazo corto. Si se prepara con antelación, reservar parte del aliño y añadirlo antes de servir; incorporar tomate fresco al final si se utiliza. Mantener la cadena de frío.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Ensalada de lentejas](./ensalada_de_lentejas.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La legumbre aporta la estructura; el escurrido y el aliño determinan la frescura del conjunto.\n\n## Utilizado por\n\nEnsaladas frías de legumbres, comidas preparadas con antelación y guarniciones vegetales."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "No requiere, si los garbanzos están cocidos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_garbanzos_pimiento_limon.html",
+  "id": "REC-0105",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de garbanzos cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo mediano (150 g), en dados pequeños;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo mediano (150 g), en dados pequeños;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo mediano (150 g), en dados pequeños;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde (70 g), en dados pequeños;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 pimiento verde (70 g), en dados pequeños;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 pimiento verde (70 g), en dados pequeños;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino pequeño (120 g), en dados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pepino pequeño (120 g), en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pepino pequeño (120 g), en dados;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada pequeña (50 g), picada fina;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla morada pequeña (50 g), picada fina;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla morada pequeña (50 g), picada fina;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de limón;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil fresco picado, opcional.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil fresco picado, opcional.",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSi los garbanzos se han cocido en casa, enfriarlos rápidamente y mantenerlos refrigerados hasta preparar la ensalada. Si son de conserva, escurrir, enjuagar si interesa moderar la sal y dejar que pierdan el exceso de agua. Lavar las hortalizas y trabajar con utensilios limpios.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/ensalada_garbanzos_pimiento_limon.md",
+  "source_sha256": "d6db63a3768f4147859b846b77edf302cd00755092d8f4555a7604a56d4b6fb6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar los garbanzos\n\nComprobar que estén completamente tiernos, fríos y bien escurridos. Colocarlos en un bol amplio.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Cortar las hortalizas\n\nCortar los dos pimientos y el pepino en dados de tamaño parecido. Picar la cebolla muy fina; si resulta demasiado intensa, ponerla unos minutos en agua fría y escurrirla bien.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Preparar el aliño\n\nMezclar el zumo de limón con el comino, una pizca de sal y pimienta. Incorporar el aceite poco a poco batiendo hasta combinar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Montar\n\nAñadir las hortalizas a los garbanzos. Incorporar aproximadamente dos tercios del aliño, mezclar con cuidado y probar. Completar con el aliño restante solo si hace falta.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nAñadir perejil opcional. Servir fresca o refrigerar tapada hasta el momento de consumo.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Ensalada de garbanzos con pimiento y limón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

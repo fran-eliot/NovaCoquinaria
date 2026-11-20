@@ -1,0 +1,248 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 104,
+      "start_line": 14
+    },
+    "text": "\n# Berenjenas al horno con ajo y hierbas\n\n## Descripción\n\nBerenjenas asadas en mitades, con pulpa tierna y superficie dorada, aromatizadas con ajo y hierbas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2–4 como guarnición |\n| Preparación | 10 min |\n| Cocinado | 30–45 min |\n| Dificultad | Fácil |\n| Técnica principal | Asado de hortaliza en mitades |\n\n## Ingredientes\n\n- 2 berenjenas medianas (550–650 g en total);\n- 2 cucharadas de aceite de oliva virgen extra;\n- 2 dientes de ajo;\n- 1 cucharadita de tomillo u orégano;\n- Sal y pimienta negra;\n- 1 cucharadita de zumo de limón, opcional;\n\n## Elaboración\n\n### 1. Preparar\n\nPrecalentar horno a 200 °C con calor arriba y abajo. Lavar y secar berenjenas, partir longitudinalmente y practicar cortes superficiales en la pulpa sin perforar la piel.\n\n### 2. Condimentar\n\nPincelar la pulpa con aceite y añadir sal, pimienta y hierbas. Reservar el ajo picado para más tarde si se busca evitar su quemado.\n\n### 3. Asar\n\nColocar con pulpa hacia arriba y hornear unos 25–35 minutos. Comprobar con un cuchillo que el centro esté tierno.\n\n### 4. Aromatizar\n\nAñadir ajo picado mezclado con unas gotas de aceite durante los últimos 5–8 minutos, vigilando que no se queme.\n\n### 5. Servir\n\nTerminar con limón opcional y servir caliente o templado.\n\n## Puntos críticos\n\n- El tamaño de la berenjena determina el tiempo; la pulpa debe quedar completamente tierna.\n- El ajo añadido desde el principio puede quemarse.\n- No es necesario salar y purgar todas las berenjenas modernas; hacerlo solo si se busca extraer humedad.\n\n## Perfil esperado\n\nBerenjenas asadas en mitades, con pulpa tierna y superficie dorada, aromatizadas con ajo y hierbas.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomate | Añadir tomate reducido en los últimos minutos. |\n| Con yogur | Servir con salsa de yogur; incorpora alérgeno leche. |\n| Con pimentón | Espolvorear moderadamente al final. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Corrección |\n|---|---|---|\n| Centro duro | Tiempo insuficiente | Prolongar asado y comprobar la pulpa. |\n| Ajo amargo | Quemado | Añadir al final. |\n| Pulpa aceitosa | Exceso de aceite | Pincelar de forma medida. |\n\n## Conservación\n\nEnfriar las sobras rápidamente, refrigerar en recipientes adecuados y recalentar completamente cuando proceda. Si se congela, porcionar y valorar posibles cambios de textura tras descongelar.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El punto de una berenjena asada se comprueba en el centro de su pulpa, no solo por el color exterior.\n\n## Utilizado por\n\nGuarniciones, primeros platos y preparaciones vegetales."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/berenjenas_al_horno.html",
+  "id": "REC-0042",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas medianas (550–650 g en total);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas medianas (550–650 g en total);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas medianas (550–650 g en total);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo u orégano;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo u orégano;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo u orégano;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "Sal y pimienta negra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Sal y pimienta negra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/berenjenas_al_horno.md",
+  "source_sha256": "39e35049587f41ab9a4a5dbb58ae9adf1338a1e205c562c4ddb01dd0cad5b8b0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "1. Preparar\n\nPrecalentar horno a 200 °C con calor arriba y abajo. Lavar y secar berenjenas, partir longitudinalmente y practicar cortes superficiales en la pulpa sin perforar la piel.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "2. Condimentar\n\nPincelar la pulpa con aceite y añadir sal, pimienta y hierbas. Reservar el ajo picado para más tarde si se busca evitar su quemado.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "3. Asar\n\nColocar con pulpa hacia arriba y hornear unos 25–35 minutos. Comprobar con un cuchillo que el centro esté tierno.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 4,
+      "text": "4. Aromatizar\n\nAñadir ajo picado mezclado con unas gotas de aceite durante los últimos 5–8 minutos, vigilando que no se queme.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nTerminar con limón opcional y servir caliente o templado.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 94,
+        "start_line": 94
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Berenjenas al horno con ajo y hierbas",
+  "yield": {
+    "max": "4",
+    "min": "2",
+    "raw": "2–4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

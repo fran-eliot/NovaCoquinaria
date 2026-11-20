@@ -1,0 +1,226 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 71,
+      "start_line": 15
+    },
+    "text": "\n# Churros tradicionales de agua y harina\n\n## Origen y contexto\n\n**Región:** España. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo común\n- 250 ml de agua\n- 4 g de sal\n- aceite de oliva suave o girasol alto oleico para freír\n- azúcar para espolvorear\n\n**Alérgenos:** Trigo/gluten.\n\n## Elaboración\n\n1. Calentar agua y sal hasta hervor; apartar y añadir toda la harina, removiendo con espátula hasta masa homogénea sin bolsas secas.\n2. Dejar templar lo suficiente para manipular, cargar una churrera resistente con boquilla estrellada y compactar la masa evitando bolsas de aire.\n3. Calentar aceite en recipiente profundo a 175–180 °C. Formar piezas de longitud moderada con la churrera y depositarlas con cuidado cerca de la superficie, sin arrojar la masa.\n4. Freír tandas pequeñas hasta dorado uniforme y centro completamente cocido; retirar con espumadera.\n5. Escurrir sobre rejilla y espolvorear azúcar al gusto.\n\n## Puntos críticos\n\n- Utilizar una churrera adecuada y boquilla estrellada: las bolsas de aire y las masas mal compactadas pueden causar estallidos en aceite. No improvisar con boquilla lisa ni freír piezas gruesas; mantener distancia y no usar agua cerca del aceite. No consumir masa cruda.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Centro crudo | Piezas gruesas o aceite demasiado caliente | Reducir tamaño y mantener temperatura |\n| Churro grasiento | Aceite frío | Freír tandas pequeñas |\n\n## Conservación\n\nConsumir recién hechos; guardar cocidos y fríos en recipiente cerrado hasta el día siguiente y recalentar en horno.\n\n## Relaciones dentro del SGCC\n\n- [freir en sarten con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [flores manchegas fritas con canela](../08_Postres/flores_manchegas_fritas_con_canela.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** España. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/churros_tradicionales_de_agua_y_harina.html",
+  "id": "REC-578",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "4 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o girasol alto oleico para freír",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave o girasol alto oleico para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave o girasol alto oleico para freír",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para espolvorear",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar para espolvorear",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar para espolvorear",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/churros_tradicionales_de_agua_y_harina.md",
+  "source_sha256": "40b3f0eb253e3aaeeda364b4423f6c8198e232979ee395b759b81cf951f6d3b4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Calentar agua y sal hasta hervor; apartar y añadir toda la harina, removiendo con espátula hasta masa homogénea sin bolsas secas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Dejar templar lo suficiente para manipular, cargar una churrera resistente con boquilla estrellada y compactar la masa evitando bolsas de aire."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Calentar aceite en recipiente profundo a 175–180 °C. Formar piezas de longitud moderada con la churrera y depositarlas con cuidado cerca de la superficie, sin arrojar la masa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Freír tandas pequeñas hasta dorado uniforme y centro completamente cocido; retirar con espumadera."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Escurrir sobre rejilla y espolvorear azúcar al gusto."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "freir en sarten con control de temperatura",
+      "source_location": {
+        "end_line": 65,
+        "start_line": 65
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Churros tradicionales de agua y harina",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

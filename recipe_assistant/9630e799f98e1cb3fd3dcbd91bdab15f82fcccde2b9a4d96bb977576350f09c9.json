@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Berenjenas de Almagro aliñadas\n\n## Origen y contexto\n\n**Región:** Campo de Calatrava, Ciudad Real. Formulación doméstica de referencia inspirada en una elaboración regional, pendiente de contraste práctico. No se presenta como receta única o versión previamente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6–8 raciones de aperitivo |\n| Tiempo orientativo | 45–60 min más 24 h de reposo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de berenjenas pequeñas de Almagro frescas, aptas para cocinar\n- 850 ml de agua potable para cocer, más la necesaria si hace falta\n- 160 ml de vinagre de vino blanco de uso alimentario\n- 4 dientes de ajo\n- 1 cucharadita de comino molido (3 g)\n- 1 cucharadita de pimentón dulce (3 g)\n- 2 cucharadas de aceite de oliva virgen extra (30 ml)\n- 1 cucharadita rasa de sal (5 g), ajustar al final\n- 6–8 tiras de pimiento rojo asado, opcionales\n\n**Alérgenos:** No contiene alérgenos de declaración obligatoria en la formulación básica; comprobar ingredientes de los productos empleados.\n\n## Elaboración\n\n1. Lavar las berenjenas pequeñas, retirar partes dañadas y recortar la base de las hojas duras sin abrir completamente el fruto.\n2. Cocer en agua potable a hervor suave durante 12–20 minutos según tamaño; comprobar con un pincho que estén tiernas sin deshacerse.\n3. Escurrir y enfriar rápidamente en recipiente limpio, evitando dejarlas varias horas a temperatura ambiente.\n4. Machacar ajos con comino, pimentón, sal y aceite; mezclar con el vinagre y 250 ml de agua potable fría para preparar el aliño.\n5. Disponer las berenjenas en un recipiente alimentario no reactivo; introducir pimiento asado si se desea y cubrir con el aliño, añadiendo agua potable fría solo si es necesario.\n6. Tapar y refrigerar a 4 °C o menos un mínimo de 24 horas, volteando suavemente una vez para repartir sabores.\n7. Servir frías con un poco del aliño. Ajustar acidez y sal únicamente después de probar una berenjena.\n\n## Puntos críticos\n\n- Es una adaptación doméstica refrigerada del aliño tradicional, **no una conserva esterilizada ni estable a temperatura ambiente**. El vinagre de la receta no demuestra por sí solo acidez microbiológicamente segura para conservación sin frío.\n- Las berenjenas de Almagro tradicionales pueden utilizar técnicas y presentaciones específicas; esta propuesta no pretende sustituir un producto con indicación geográfica ni su pliego de elaboración.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Berenjena correosa | Cocción insuficiente | Continuar la cocción hasta que ceda al pincho |\n| Berenjena deshecha | Hervor excesivo o demasiados minutos | Mantener hervor suave y comprobar antes |\n| Aliño muy ácido | Proporción y reposo | Servir con menos líquido y registrar ajuste de la siguiente tanda |\n\n## Conservación\n\nConservar siempre refrigeradas en recipiente limpio y cerrado; consumir preferentemente en 2–3 días tras el reposo. No envasar al vacío ni almacenar a temperatura ambiente. Desechar ante cualquier alteración.\n\n## Relaciones dentro del SGCC\n\n- [Zanahorias aliñadas andaluzas](../04_Verduras/zanahorias_alinadas_andaluzas.md)\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos efectivos, tiempos, resultado y valoración después de elaborarla. Esta ficha no sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–60 min más 24 h de reposo refrigerado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/berenjenas_de_almagro_alinadas.html",
+  "id": "REC-526",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas pequeñas de Almagro frescas, aptas para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de berenjenas pequeñas de Almagro frescas, aptas para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de berenjenas pequeñas de Almagro frescas, aptas para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para cocer, más la necesaria si hace falta",
+      "optionality": "optional",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 ml de agua potable para cocer, más la necesaria si hace falta",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "850 ml de agua potable para cocer, más la necesaria si hace falta",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco de uso alimentario",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 ml de vinagre de vino blanco de uso alimentario",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "160 ml de vinagre de vino blanco de uso alimentario",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido (3 g)",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido (3 g)",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra (30 ml)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra (30 ml)",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra (30 ml)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "rasa de sal (5 g), ajustar al final",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita rasa de sal (5 g), ajustar al final",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita rasa de sal (5 g), ajustar al final",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tiras de pimiento rojo asado, opcionales",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "6",
+        "raw": "6–8 tiras de pimiento rojo asado, opcionales",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "6–8 tiras de pimiento rojo asado, opcionales",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/berenjenas_de_almagro_alinadas.md",
+  "source_sha256": "003b65d3e25afb6c5142b383f37692916cf2e56be1857fdae57df77327c4f6ff",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar las berenjenas pequeñas, retirar partes dañadas y recortar la base de las hojas duras sin abrir completamente el fruto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cocer en agua potable a hervor suave durante 12–20 minutos según tamaño; comprobar con un pincho que estén tiernas sin deshacerse."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Escurrir y enfriar rápidamente en recipiente limpio, evitando dejarlas varias horas a temperatura ambiente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Machacar ajos con comino, pimentón, sal y aceite; mezclar con el vinagre y 250 ml de agua potable fría para preparar el aliño."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Disponer las berenjenas en un recipiente alimentario no reactivo; introducir pimiento asado si se desea y cubrir con el aliño, añadiendo agua potable fría solo si es necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Tapar y refrigerar a 4 °C o menos un mínimo de 24 horas, volteando suavemente una vez para repartir sabores."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir frías con un poco del aliño. Ajustar acidez y sal únicamente después de probar una berenjena."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Berenjenas de Almagro aliñadas",
+  "yield": {
+    "max": "8",
+    "min": "6",
+    "raw": "6–8 raciones de aperitivo",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

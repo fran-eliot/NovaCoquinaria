@@ -1,0 +1,386 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Conejo a la catalana con chocolate y setas\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 85–105 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1,1 kg de conejo troceado para guiso\n- 250 g de setas variadas limpias\n- 200 g de cebolla\n- 250 g de tomate maduro rallado\n- 3 dientes de ajo\n- 100 ml de vino rancio de cocinar o vino blanco seco\n- 250–350 ml de caldo de pollo bajo en sal\n- 20 g de chocolate negro de 70 % cacao sin relleno\n- 25 g de almendra tostada\n- 40 ml de aceite de oliva\n- 1 hoja de laurel\n- sal, pimienta negra y 1 ramita de tomillo\n\n**Alérgenos:** Almendra; el chocolate puede contener leche o soja según marca; posibles sulfitos del vino y alérgenos del caldo.\n\n## Elaboración\n\n1. Secar el conejo y salpimentar. Dorar por tandas en cazuela con aceite y reservar.\n2. Pochar cebolla picada en la misma cazuela durante 12 minutos; añadir ajo y tomate y reducir 10 minutos.\n3. Desglasar con vino, hervir 3–4 minutos sin asumir eliminación total del alcohol; devolver el conejo y añadir caldo, laurel y tomillo.\n4. Cocinar a hervor suave, parcialmente tapado, entre 40 y 55 minutos, hasta que el conejo esté completamente cocido y tierno.\n5. Saltear las setas aparte para evaporar agua y dorarlas, y añadir al guiso durante sus últimos 10 minutos.\n6. Majar almendras con un poco de salsa y el chocolate picado, incorporar al guiso y remover a fuego bajo hasta que se funda y espese; no hervir intensamente.\n7. Comprobar la cocción de los trozos más gruesos (74 °C como referencia conservadora doméstica para conejo), ajustar sal y retirar laurel.\n\n## Puntos críticos\n\n- El chocolate se usa en poca cantidad para dar cuerpo y profundidad a la picada, no para obtener una salsa dulce.\n- Esta propuesta es una interpretación doméstica de guisos catalanes con picada; no se presenta como fórmula única ni como experiencia cocinada.\n- Las setas deben estar identificadas y ser aptas para consumo; evitar recolectadas sin verificación experta.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Salsa dulce | Chocolate con azúcar o exceso | Usar negro intenso y medir poca cantidad |\n| Conejo duro | Cocción corta | Estofar a hervor suave hasta tierno |\n| Salsa demasiado espesa | Picada excesiva o reducción | Ajustar con caldo caliente |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar a 4 °C o menos durante 2–3 días, o congelar porciones; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Conejo al ajillo](../05_Carnes/conejo_al_ajillo_con_vino_blanco.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Tostar frutos secos](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "105",
+      "min": "85",
+      "phase": "declared_total",
+      "raw": "85–105 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cataluña. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/conejo_a_la_catalana_con_chocolate_y_setas.html",
+  "id": "REC-540",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "conejo troceado para guiso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.1",
+        "min": "1.1",
+        "raw": "1,1 kg de conejo troceado para guiso",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1,1 kg de conejo troceado para guiso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "setas variadas limpias",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de setas variadas limpias",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de setas variadas limpias",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino rancio de cocinar o vino blanco seco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino rancio de cocinar o vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino rancio de cocinar o vino blanco seco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo bajo en sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "250",
+        "raw": "250–350 ml de caldo de pollo bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "250–350 ml de caldo de pollo bajo en sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate negro de 70 % cacao sin relleno",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de chocolate negro de 70 % cacao sin relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de chocolate negro de 70 % cacao sin relleno",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra tostada",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de almendra tostada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de almendra tostada",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta negra y 1 ramita de tomillo",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta negra y 1 ramita de tomillo",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta negra y 1 ramita de tomillo",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/conejo_a_la_catalana_con_chocolate_y_setas.md",
+  "source_sha256": "0cb499fac768b334b30470bfe5bdf2030509349e8ab6b521a62af473bcb32b3b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar el conejo y salpimentar. Dorar por tandas en cazuela con aceite y reservar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla picada en la misma cazuela durante 12 minutos; añadir ajo y tomate y reducir 10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Desglasar con vino, hervir 3–4 minutos sin asumir eliminación total del alcohol; devolver el conejo y añadir caldo, laurel y tomillo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Cocinar a hervor suave, parcialmente tapado, entre 40 y 55 minutos, hasta que el conejo esté completamente cocido y tierno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Saltear las setas aparte para evaporar agua y dorarlas, y añadir al guiso durante sus últimos 10 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Majar almendras con un poco de salsa y el chocolate picado, incorporar al guiso y remover a fuego bajo hasta que se funda y espese; no hervir intensamente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Comprobar la cocción de los trozos más gruesos (74 °C como referencia conservadora doméstica para conejo), ajustar sal y retirar laurel."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "Tostar frutos secos",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Conejo a la catalana con chocolate y setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

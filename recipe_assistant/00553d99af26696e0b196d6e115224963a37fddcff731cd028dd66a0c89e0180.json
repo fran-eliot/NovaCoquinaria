@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Tarta de zanahoria con nueces y queso crema\n\n## Descripción\n\nPropuesta de repostería basada en **bizcocho húmedo y cobertura láctea fría**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica principal | Bizcocho húmedo y cobertura láctea fría |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de zanahoria rallada fina;\n- 200 g de harina de trigo;\n- 3 huevos L;\n- 130 g de azúcar moreno;\n- 120 ml de aceite de oliva suave;\n- 70 g de nueces troceadas;\n- 10 g de impulsor químico;\n- 1 cucharadita de canela molida;\n- 180 g de queso crema frío;\n- 35 g de azúcar glas para la cobertura;\n\n**Alérgenos:** Huevo, gluten (trigo), nueces y leche.\n\n## Elaboración\n\n1. Precalentar el horno a 175 °C, calor arriba y abajo, y preparar un molde redondo de 20 cm.\n2. Batir huevos y azúcar hasta mezclar bien; incorporar aceite y zanahoria rallada.\n3. Combinar harina, impulsor y canela, incorporar a la mezcla y añadir las nueces sin batir demasiado.\n4. Verter en el molde y hornear aproximadamente 35–45 minutos, hasta que el centro esté cocido y una brocheta salga sin masa cruda.\n5. Enfriar por completo sobre rejilla, evitando cubrir mientras despida vapor.\n6. Mezclar queso crema frío y azúcar glas; extender sobre el bizcocho completamente frío. Refrigerar tapado hasta servir.\n\n## Puntos críticos\n\n- La cobertura de queso crema es perecedera y requiere refrigeración. Nunca extenderla sobre bizcocho tibio: se licuará y perderá estructura.\n- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.\n- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |\n| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |\n| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |\n\n## Conservación\n\nEnfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Queso crema](../11_Despensa/14_Huevos_Lacteos/queso_crema.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tarta_de_zanahoria_con_nueces_y_queso_crema.html",
+  "id": "REC-293",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zanahoria rallada fina;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de zanahoria rallada fina;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de zanahoria rallada fina;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar moreno;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar moreno;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar moreno;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de aceite de oliva suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de aceite de oliva suave;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces troceadas;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de nueces troceadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de nueces troceadas;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de impulsor químico;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "queso crema frío;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de queso crema frío;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de queso crema frío;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para la cobertura;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de azúcar glas para la cobertura;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de azúcar glas para la cobertura;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/tarta_de_zanahoria_con_nueces_y_queso_crema.md",
+  "source_sha256": "45ddb726422db2f9c34159d91b724f9a0c8efae210821afa3966946ab14f81cd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 175 °C, calor arriba y abajo, y preparar un molde redondo de 20 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Batir huevos y azúcar hasta mezclar bien; incorporar aceite y zanahoria rallada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Combinar harina, impulsor y canela, incorporar a la mezcla y añadir las nueces sin batir demasiado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Verter en el molde y hornear aproximadamente 35–45 minutos, hasta que el centro esté cocido y una brocheta salga sin masa cruda."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Enfriar por completo sobre rejilla, evitando cubrir mientras despida vapor."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Mezclar queso crema frío y azúcar glas; extender sobre el bizcocho completamente frío. Refrigerar tapado hasta servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Tarta de zanahoria con nueces y queso crema",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

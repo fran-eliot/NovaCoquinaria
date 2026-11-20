@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 86,
+      "start_line": 14
+    },
+    "text": "\n# Judiones con almejas y vino blanco\n\n## Descripción\n\nCazuela de judiones ya cocidos y almejas con ajo, vino blanco y perejil; las almejas se incorporan al final.\n\n**Estado de evidencia:** receta propuesta para una futura elaboración; no hay resultado ni valoración doméstica confirmados. Las cantidades son una formulación inicial reproducible, no una reconstrucción de una tanda cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 20 min más depuración de almejas si procede |\n| Cocinado | 20–25 min |\n| Método | Sofrito, salsa ligada y apertura de moluscos |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 550 g de judiones **cocidos** y escurridos;\n- 400 g de almejas vivas aptas para consumo;\n- 2 dientes de ajo picados;\n- 80 g de cebolla picada;\n- 2 cucharadas de aceite de oliva;\n- 70 ml de vino blanco;\n- 180 ml de caldo suave o agua;\n- 1 cucharada de perejil picado;\n- 1 cucharadita de maicena, opcional;\n\n**Alérgenos:** Moluscos (almejas); revisar el caldo.\n\n## Elaboración\n\n1. Revisar que las almejas sean de procedencia autorizada, se mantengan refrigeradas y se encuentren vivas; desechar las rotas o que no respondan al tacto. Depurar solo conforme al proveedor.\n2. Pochar cebolla 5–6 minutos con aceite; añadir ajo sin quemarlo.\n3. Incorporar vino blanco y reducir 2–3 minutos; agregar caldo y judiones cocidos.\n4. Hervir suavemente 5–7 minutos. Para ligar, deshacer algunos judiones o añadir la maicena disuelta en agua fría.\n5. Abrir las almejas en recipiente tapado al calor hasta que se abran; descartar las que permanezcan cerradas tras cocinar.\n6. Integrar almejas abiertas y sus jugos filtrados con los judiones; calentar brevemente, añadir perejil y servir inmediatamente.\n\n## Puntos críticos\n\n- No usar almejas recogidas por cuenta propia fuera de controles sanitarios. El vino calentado puede conservar alcohol; no se garantiza su eliminación.\n- Las cantidades de líquido y los tiempos dependen de presentación y cocción previa; registrar los utilizados en la prueba.\n- Mantener higiene, separación entre alimentos crudos y listos para consumo y las temperaturas adecuadas.\n\n## Perfil esperado y evaluación pendiente\n\nLa textura y el equilibrio final deberán verificarse mediante una elaboración real. Se propone registrar firmeza de la legumbre, densidad del fondo, intensidad de condimentos y valoración global; este perfil no implica un resultado ya conseguido.\n\n## Diagnóstico\n\n| Situación | Posible causa | Acción futura |\n|---|---|---|\n| Legumbre demasiado rota | Removido vigoroso o calentamiento prolongado | Incorporar más tarde y mover la cazuela con suavidad |\n| Plato demasiado seco | Evaporación o absorción | Añadir caldo o agua en pequeñas dosis |\n| Sabor descompensado | Acidez, sal o especias concentradas | Ajustar progresivamente y anotar cantidades |\n\n## Conservación\n\nEnfriar sin demora los sobrantes en recipientes poco profundos y mantenerlos refrigerados. Seguir las instrucciones de seguridad y consumo de legumbres comerciales, huevos o mariscos cuando correspondan. Evitar periodos prolongados a temperatura ambiente y recalentar por completo los platos que se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Almejas en salsa verde](../06_Pescados_y_Mariscos/almejas_en_salsa_verde.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Módulo de Legumbres](./README.md)\n\n## Registro de elaboración\n\n**Pendiente de prueba:** registrar ingredientes y gramajes reales, método, tiempos, resultado y posibles mejoras antes de atribuir a la ficha una valoración."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "20 min más depuración de almejas si procede",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/judiones_con_almejas_y_vino_blanco.html",
+  "id": "REC-0206",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "judiones cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de judiones **cocidos** y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de judiones **cocidos** y escurridos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "almejas vivas aptas para consumo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de almejas vivas aptas para consumo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de almejas vivas aptas para consumo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla picada;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de vino blanco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de vino blanco;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo suave o agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de caldo suave o agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de caldo suave o agua;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena, opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena, opcional;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/judiones_con_almejas_y_vino_blanco.md",
+  "source_sha256": "ffdbcdf1297ec7785d514e7a8687d73e91de01d589a688cd4718a971a97e8d6f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Revisar que las almejas sean de procedencia autorizada, se mantengan refrigeradas y se encuentren vivas; desechar las rotas o que no respondan al tacto. Depurar solo conforme al proveedor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla 5–6 minutos con aceite; añadir ajo sin quemarlo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Incorporar vino blanco y reducir 2–3 minutos; agregar caldo y judiones cocidos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Hervir suavemente 5–7 minutos. Para ligar, deshacer algunos judiones o añadir la maicena disuelta en agua fría."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Abrir las almejas en recipiente tapado al calor hasta que se abran; descartar las que permanezcan cerradas tras cocinar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Integrar almejas abiertas y sus jugos filtrados con los judiones; calentar brevemente, añadir perejil y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Judiones con almejas y vino blanco",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

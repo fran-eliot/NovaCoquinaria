@@ -1,0 +1,329 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Ensalada de garbanzos especiada de inspiración chaat\n\n## Descripción\n\nPreparación de referencia basada en **corte fino y aliño ácido de legumbre cocida**. Las cantidades y los tiempos no se atribuyen a una preparación doméstica y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 |\n| Técnica principal | Corte fino y aliño ácido de legumbre cocida |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de garbanzos completamente cocidos, escurridos\n- 180 g de tomate firme en dados\n- 120 g de pepino en dados\n- 70 g de cebolla morada muy picada\n- 20 ml de zumo de limón\n- 2 cucharadas de cilantro fresco o perejil\n- ½ cucharadita de comino molido\n- ¼ cucharadita de chile en polvo, opcional\n- ½ cucharadita de chaat masala, opcional y según etiquetado\n- 1 cucharada de aceite de oliva opcional\n- sal\n\n**Alérgenos:** Revisar composición del chaat masala comercial.\n\n## Elaboración\n\n1. Enjuagar y escurrir completamente los garbanzos cocidos; dejarlos enfriar en refrigeración si aún están calientes.\n2. Lavar tomate y pepino, cortarlos uniformemente y picar la cebolla muy fina.\n3. Mezclar zumo de limón con comino, chile opcional, chaat masala si se utiliza y aceite opcional.\n4. Combinar garbanzos y verduras, añadir el aliño y remover con suavidad.\n5. Probar la salinidad antes de añadir sal, especialmente si se usa chaat masala, que puede llevar sal.\n6. Servir en frío con cilantro o perejil fresco y algo más de limón si fuera necesario.\n\n## Puntos críticos\n\n- El perfil chaat se aproxima con especias disponibles; si no se usa chaat masala, reconocer que se trata de una adaptación. El tomate y el pepino sueltan agua: aliñar poco antes de servir.\n- Distinguir **legumbre completamente cocida**, **legumbre seca partida** y **harina de legumbre sin cocinar**: los tres productos requieren procedimientos diferentes.\n- Ajustar los tiempos a la variedad, grosor, equipo y temperatura real. Mantener higiene y refrigeración de ingredientes perecederos.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |\n| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |\n| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |\n\n## Conservación\n\nServir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Ensalada de garbanzos con pimiento y limón](./ensalada_garbanzos_pimiento_limon.md)\n- [Vinagreta mediterránea base](../12_Plantillas/02_Salsas/vinagreta_mediterranea_base.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, técnica, temperatura, tiempo, textura y valoración. No sustituye ni modifica versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_de_garbanzos_especiada_estilo_chaat.html",
+  "id": "REC-336",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos, escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de garbanzos completamente cocidos, escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de garbanzos completamente cocidos, escurridos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate firme en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de tomate firme en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de tomate firme en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pepino en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pepino en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada muy picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de cebolla morada muy picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de cebolla morada muy picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 ml de zumo de limón",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "20 ml de zumo de limón",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco o perejil",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de cilantro fresco o perejil",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de cilantro fresco o perejil",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "chile en polvo, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "¼ cucharadita de chile en polvo, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¼ cucharadita de chile en polvo, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "chaat masala, opcional y según etiquetado",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de chaat masala, opcional y según etiquetado",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de chaat masala, opcional y según etiquetado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva opcional",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/ensalada_de_garbanzos_especiada_estilo_chaat.md",
+  "source_sha256": "dc938ba3762100efebcb0fcf89afa87d217392afea5f3ccbafd972432d6b3f0f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Enjuagar y escurrir completamente los garbanzos cocidos; dejarlos enfriar en refrigeración si aún están calientes."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Lavar tomate y pepino, cortarlos uniformemente y picar la cebolla muy fina."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Mezclar zumo de limón con comino, chile opcional, chaat masala si se utiliza y aceite opcional."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Combinar garbanzos y verduras, añadir el aliño y remover con suavidad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Probar la salinidad antes de añadir sal, especialmente si se usa chaat masala, que puede llevar sal."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Servir en frío con cilantro o perejil fresco y algo más de limón si fuera necesario."
+    }
+  ],
+  "techniques": [],
+  "title": "Ensalada de garbanzos especiada de inspiración chaat",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

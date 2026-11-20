@@ -1,0 +1,389 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Empanada gallega de xoubas y pimientos\n\n## Origen y contexto\n\n**Región:** Galicia. Fórmula doméstica de referencia con los rasgos más reconocibles del plato. No se considera una receta cocinada y valorada ni una reproducción certificada de las especialidades protegidas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Tiempo orientativo | 2½–3 horas incluyendo fermentación |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de harina de trigo común o de fuerza media\n- 270 ml de agua templada para masa\n- 7 g de levadura seca de panadería\n- 70 ml de aceite de oliva para masa, parte puede proceder del sofrito ya frío\n- 8 g de sal\n- 550 g de xoubas o sardinas pequeñas limpias, sin cabeza ni vísceras y con espinas retiradas\n- 300 g de cebolla\n- 180 g de pimiento rojo\n- 150 g de tomate rallado\n- 3 cucharadas de aceite de oliva para sofrito\n- 1 cucharadita de pimentón dulce\n- 1 huevo batido para pincelar, opcional\n\n**Alérgenos:** Gluten (trigo), pescado; huevo si se pincela.\n\n## Elaboración\n\n1. Mezclar harina, agua, levadura, sal y aceite de masa; amasar hasta conseguir textura flexible y homogénea. Cubrir y fermentar aproximadamente 60–90 minutos hasta que aumente notablemente de volumen.\n2. Preparar el relleno: pochar cebolla y pimiento en aceite durante 15–20 minutos; añadir tomate y reducir 8 minutos más. Fuera del fuego, incorporar pimentón, dejar enfriar y escurrir exceso de líquido.\n3. Comprobar que las xoubas estén completamente limpias y que se hayan eliminado las espinas visibles. Mantener refrigeradas mientras se prepara la masa.\n4. Precalentar el horno a 200 °C y dividir la masa en dos partes, una ligeramente mayor para la base.\n5. Estirar la base sobre bandeja de horno; distribuir el sofrito ya frío y colocar las sardinas limpias encima en una capa sin amontonar, dejando margen para cerrar.\n6. Tapar con la otra lámina de masa, sellar bordes, hacer una chimenea central pequeña y pincelar con huevo opcional.\n7. Hornear unos 35–45 minutos hasta que la masa esté cocida y dorada y el pescado interior completamente cocinado (unos 63 °C como referencia conservadora).\n8. Reposar 10–15 minutos antes de cortar. Retirar espinas pequeñas detectadas al porcionar.\n\n## Puntos críticos\n\n- La empanada gallega de xoubas usa sardinas pequeñas, distintas del atún en conserva; el relleno no debe ser acuoso. Deben revisarse las espinas y cocinar el pescado completamente.\n- Ajustar tiempo, tamaño de pieza, ingredientes comerciales y cantidad de líquido al equipo empleado. Comprobar la cocción, prevenir contaminación cruzada y refrigerar los perecederos sin demora.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme o cruda | Cocción insuficiente o piezas grandes | Comprobar el interior y adaptar tiempo o tamaño |\n| Preparación excesivamente húmeda | Caldo de más o relleno sin reducir | Corregir líquido o evaporación según plato |\n| Sabor desequilibrado | Exceso de sal o condimentos | Ajustar después de probar y registrar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las carnes, pescados, huevos y cremas lácteas requieren conservación en frío; recalentar completamente las porciones destinadas al servicio caliente. No dejar preparaciones perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Empanada de atún y pimientos](./empanada_de_atun_y_pimientos.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar materia prima, cantidades reales, temperatura, duración, textura y valoración. No sustituye recetas anteriores ni presupone una versión mejorada sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "2½–3 horas incluyendo fermentación",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/empanada_gallega_de_xoubas_y_pimientos.html",
+  "id": "REC-475",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común o de fuerza media",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de harina de trigo común o de fuerza media",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de harina de trigo común o de fuerza media",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada para masa",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "270",
+        "min": "270",
+        "raw": "270 ml de agua templada para masa",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "270 ml de agua templada para masa",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para masa, parte puede proceder del sofrito ya frío",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva para masa, parte puede proceder del sofrito ya frío",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva para masa, parte puede proceder del sofrito ya frío",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "xoubas o sardinas pequeñas limpias, sin cabeza ni vísceras y con espinas retiradas",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de xoubas o sardinas pequeñas limpias, sin cabeza ni vísceras y con espinas retiradas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de xoubas o sardinas pequeñas limpias, sin cabeza ni vísceras y con espinas retiradas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de cebolla",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento rojo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate rallado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para sofrito",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva para sofrito",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva para sofrito",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pincelar, opcional",
+      "optionality": "optional",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pincelar, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pincelar, opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/empanada_gallega_de_xoubas_y_pimientos.md",
+  "source_sha256": "089512dbdd91a2114e656f9def9522ab2879229c964e3ee4dda0afbea6894bc4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, agua, levadura, sal y aceite de masa; amasar hasta conseguir textura flexible y homogénea. Cubrir y fermentar aproximadamente 60–90 minutos hasta que aumente notablemente de volumen."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Preparar el relleno: pochar cebolla y pimiento en aceite durante 15–20 minutos; añadir tomate y reducir 8 minutos más. Fuera del fuego, incorporar pimentón, dejar enfriar y escurrir exceso de líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Comprobar que las xoubas estén completamente limpias y que se hayan eliminado las espinas visibles. Mantener refrigeradas mientras se prepara la masa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Precalentar el horno a 200 °C y dividir la masa en dos partes, una ligeramente mayor para la base."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Estirar la base sobre bandeja de horno; distribuir el sofrito ya frío y colocar las sardinas limpias encima en una capa sin amontonar, dejando margen para cerrar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Tapar con la otra lámina de masa, sellar bordes, hacer una chimenea central pequeña y pincelar con huevo opcional."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Hornear unos 35–45 minutos hasta que la masa esté cocida y dorada y el pescado interior completamente cocinado (unos 63 °C como referencia conservadora)."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 8,
+      "text": "Reposar 10–15 minutos antes de cortar. Retirar espinas pequeñas detectadas al porcionar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Empanada gallega de xoubas y pimientos",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

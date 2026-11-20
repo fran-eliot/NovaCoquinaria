@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Cordero al chilindrón navarro\n\n## Origen y contexto\n\n**Región:** Navarra. Formulación doméstica de referencia inspirada en una elaboración regional, pendiente de contraste práctico. No se presenta como receta única o versión previamente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 90–120 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de cordero para guisar, en trozos medianos\n- 250 g de cebolla\n- 250 g de tomate triturado\n- 180 g de pimiento rojo fresco\n- 100 g de pimiento verde\n- 2 dientes de ajo\n- 120 ml de vino blanco seco\n- 100–200 ml de agua o caldo bajo en sal\n- 40 ml de aceite de oliva\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce (3 g), opcional\n- sal y pimienta negra\n\n**Alérgenos:** Posibles sulfitos en el vino; revisar el caldo comercial si se emplea.\n\n## Elaboración\n\n1. Secar el cordero con papel de cocina y salpimentar. Cortar cebolla y pimientos en tiras finas; picar el ajo.\n2. Dorar el cordero en una cazuela con aceite por tandas, sin sobrecargar el fondo; reservar.\n3. Pochar cebolla y pimientos en esa cazuela unos 12–15 minutos, añadir el ajo y cocinar un minuto.\n4. Incorporar el tomate y reducir 8–10 minutos para concentrar el sofrito. Si se usa pimentón, añadirlo sin quemarlo.\n5. Verter el vino y hervir varios minutos; devolver la carne, añadir laurel y un poco de caldo o agua.\n6. Tapar parcialmente y guisar a fuego muy suave 55–85 minutos, ajustando líquido, hasta que la carne esté completamente cocida y tierna.\n7. Retirar el laurel, reducir destapado si la salsa queda demasiado líquida y rectificar sal antes de servir.\n\n## Puntos críticos\n\n- El chilindrón es una familia de guisos con pimientos, tomate y carne; esta versión con cordero no es intercambiable con el pollo al chilindrón ya documentado.\n- El vino puede conservar alcohol residual tras la cocción. Verificar cocción completa; mantener utensilios de carne cruda separados de alimentos preparados.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Carne dura | Cocción insuficiente o hervor agresivo | Prolongar suavemente con líquido |\n| Salsa acuosa | Tomate poco reducido o exceso de caldo | Destapar y reducir sin resecar la carne |\n| Pimiento amargo | Sofrito quemado | Pochar a fuego medio-bajo y vigilar el ajo |\n\n## Conservación\n\nRefrigerar sin demora en recipientes poco profundos a 4 °C o menos; consumir en 2–3 días o congelar porciones. Recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Pollo al chilindrón](../05_Carnes/pollo_al_chilindron_con_pimientos.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos efectivos, tiempos, resultado y valoración después de elaborarla. Esta ficha no sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "120",
+      "min": "90",
+      "phase": "declared_total",
+      "raw": "90–120 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/cordero_al_chilindron_navarro.html",
+  "id": "REC-527",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cordero para guisar, en trozos medianos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de cordero para guisar, en trozos medianos",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de cordero para guisar, en trozos medianos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo fresco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento rojo fresco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento rojo fresco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "100",
+        "raw": "100–200 ml de agua o caldo bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–200 ml de agua o caldo bajo en sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g), opcional",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g), opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g), opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/cordero_al_chilindron_navarro.md",
+  "source_sha256": "2b4ab4fc79b02295f63a6dcc95dd25a591b3c3cd8a0575e84a6ecdd67776b854",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar el cordero con papel de cocina y salpimentar. Cortar cebolla y pimientos en tiras finas; picar el ajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Dorar el cordero en una cazuela con aceite por tandas, sin sobrecargar el fondo; reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimientos en esa cazuela unos 12–15 minutos, añadir el ajo y cocinar un minuto."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Incorporar el tomate y reducir 8–10 minutos para concentrar el sofrito. Si se usa pimentón, añadirlo sin quemarlo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Verter el vino y hervir varios minutos; devolver la carne, añadir laurel y un poco de caldo o agua."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Tapar parcialmente y guisar a fuego muy suave 55–85 minutos, ajustando líquido, hasta que la carne esté completamente cocida y tierna."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Retirar el laurel, reducir destapado si la salsa queda demasiado líquida y rectificar sal antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Cordero al chilindrón navarro",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

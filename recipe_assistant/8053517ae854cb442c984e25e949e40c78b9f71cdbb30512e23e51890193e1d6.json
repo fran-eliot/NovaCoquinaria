@@ -1,0 +1,244 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Alubias blancas crujientes con pimentón y limón\n\n## Descripción\n\nPreparación de referencia basada en **secado y asado de legumbre cocida**. Las cantidades y los tiempos no se atribuyen a una preparación doméstica y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 como guarnición |\n| Técnica principal | Secado y asado de legumbre cocida |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de alubias blancas completamente cocidas y escurridas\n- 2 cucharadas de aceite de oliva\n- ½ cucharadita de pimentón dulce\n- ¼ cucharadita de ajo en polvo\n- ralladura fina de medio limón\n- sal y pimienta\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Elaboración\n\n1. Precalentar horno a 210 °C, calor arriba y abajo, y preparar bandeja amplia.\n2. Enjuagar las alubias cocidas y secarlas con cuidado sobre papel alimentario sin romperlas.\n3. Mezclarlas con aceite, pimentón y ajo en polvo; extenderlas en una sola capa con espacio entre ellas.\n4. Asar aproximadamente 22–30 minutos, moviendo una vez a mitad, hasta que la superficie esté ligeramente dorada y seca.\n5. Retirar cuando estén firmes por fuera sin quemar el pimentón.\n6. Añadir ralladura de limón, sal y pimienta al servir y consumir calientes para mantener textura.\n\n## Puntos críticos\n\n- Las alubias son más frágiles y húmedas que los garbanzos: el resultado será una corteza superficial, no necesariamente un aperitivo tan crujiente. Usar únicamente alubias previamente cocidas.\n- Distinguir **legumbre completamente cocida**, **legumbre seca partida** y **harina de legumbre sin cocinar**: los tres productos requieren procedimientos diferentes.\n- Ajustar los tiempos a la variedad, grosor, equipo y temperatura real. Mantener higiene y refrigeración de ingredientes perecederos.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |\n| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |\n| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |\n\n## Conservación\n\nServir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos crujientes al horno](./garbanzos_crujientes_al_horno_con_especias.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, técnica, temperatura, tiempo, textura y valoración. No sustituye ni modifica versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/alubias_blancas_crujientes_con_pimenton_y_limon.html",
+  "id": "REC-338",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas completamente cocidas y escurridas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de alubias blancas completamente cocidas y escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de alubias blancas completamente cocidas y escurridas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo en polvo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "¼ cucharadita de ajo en polvo",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¼ cucharadita de ajo en polvo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/alubias_blancas_crujientes_con_pimenton_y_limon.md",
+  "source_sha256": "17ae152164c1d75a36aa4e48c318d2d83fd93e342e68005f445e591d6c801fac",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 210 °C, calor arriba y abajo, y preparar bandeja amplia."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Enjuagar las alubias cocidas y secarlas con cuidado sobre papel alimentario sin romperlas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Mezclarlas con aceite, pimentón y ajo en polvo; extenderlas en una sola capa con espacio entre ellas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Asar aproximadamente 22–30 minutos, moviendo una vez a mitad, hasta que la superficie esté ligeramente dorada y seca."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Retirar cuando estén firmes por fuera sin quemar el pimentón."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Añadir ralladura de limón, sal y pimienta al servir y consumir calientes para mantener textura."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Alubias blancas crujientes con pimentón y limón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

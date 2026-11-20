@@ -1,0 +1,260 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Trucha al horno con almendras y limón\n\n## Descripción\n\nPreparación de referencia basada en **horneado de pescado entero y acabado crujiente**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Técnica principal | Horneado de pescado entero y acabado crujiente |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 truchas de ración evisceradas, de 300–350 g cada una\n- 40 g de almendras laminadas\n- 1 limón\n- 2 dientes de ajo\n- 2 cucharadas de aceite de oliva\n- perejil picado\n- sal y pimienta\n\n**Alérgenos:** Pescado y almendras (frutos de cáscara).\n\n## Elaboración\n\n1. Precalentar el horno a 190 °C y revisar que las truchas estén correctamente evisceradas y limpias; mantenerlas refrigeradas.\n2. Secar por dentro y por fuera, salpimentar y añadir dentro de cada pieza una rodaja de limón y un poco de ajo.\n3. Ponerlas en fuente aceitada y hornear unos 15–22 minutos según grosor.\n4. Mientras, tostar las almendras suavemente en sartén seca, moviendo a menudo para que no se quemen.\n5. Comprobar 63 °C en la parte más gruesa del pescado, sin tocar la espina; prolongar brevemente si es necesario.\n6. Servir con zumo de limón, perejil y almendras tostadas por encima, retirando con cuidado las espinas al comer.\n\n## Puntos críticos\n\n- La trucha entera contiene espinas. Las almendras se incorporan al final para no quemarlas mientras se cocina el pescado.\n- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.\n- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |\n| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |\n| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pescado al horno base](../12_Plantillas/04_Cocciones/pescado_al_horno_base.md)\n- [Tostar frutos secos](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, peso efectivo, método, tiempo, temperatura, resultado y valoración. No se atribuyen estas cantidades a una preparación anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **horneado de pescado entero y acabado crujiente**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/trucha_al_horno_con_almendras_y_limon.html",
+  "id": "REC-299",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "truchas de ración evisceradas, de 300–350 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 truchas de ración evisceradas, de 300–350 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 truchas de ración evisceradas, de 300–350 g cada una",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras laminadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de almendras laminadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de almendras laminadas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "limón",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/trucha_al_horno_con_almendras_y_limon.md",
+  "source_sha256": "4c40b9a5566715eabe58022b99b169b06b266e3699e3996f653f39d9ad2daa05",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 190 °C y revisar que las truchas estén correctamente evisceradas y limpias; mantenerlas refrigeradas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Secar por dentro y por fuera, salpimentar y añadir dentro de cada pieza una rodaja de limón y un poco de ajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Ponerlas en fuente aceitada y hornear unos 15–22 minutos según grosor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Mientras, tostar las almendras suavemente en sartén seca, moviendo a menudo para que no se quemen."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Comprobar 63 °C en la parte más gruesa del pescado, sin tocar la espina; prolongar brevemente si es necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Servir con zumo de limón, perejil y almendras tostadas por encima, retirando con cuidado las espinas al comer."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "Tostar frutos secos",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Trucha al horno con almendras y limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

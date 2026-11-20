@@ -1,0 +1,284 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Papas aliñás gaditanas con cebolleta y perejil\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones de tapa |\n| Tiempo orientativo | 30–40 min más enfriado breve |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 850 g de patata de cocer de tamaño similar\n- 130 g de cebolleta fresca\n- 45 ml de aceite de oliva virgen extra\n- 15 ml de vinagre de Jerez o vino blanco\n- 12 g de perejil fresco lavado\n- sal al gusto\n- 2 huevos cocidos o 120 g de atún en conserva, opcionales\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en la base; huevo o pescado si se incorporan complementos; posibles sulfitos en vinagre.\n\n## Elaboración\n\n1. Lavar las patatas sin pelar y cocerlas enteras en agua con una pizca de sal durante 20–30 minutos, según calibre, hasta tiernas sin romperse.\n2. Escurrir, dejar entibiar lo justo para manipular y retirar la piel; cortar en rodajas gruesas o piezas regulares.\n3. Picar finamente la cebolleta y el perejil lavado; mezclarlos con las patatas todavía templadas.\n4. Emulsionar aceite, vinagre y sal, repartir sobre la patata y mover suavemente para que absorba el aliño sin aplastarse.\n5. Dejar reposar 10 minutos, probar y ajustar aceite o vinagre si fuera necesario.\n6. Servir templadas tras el reposo breve o enfriar rápidamente en frigorífico para servicio frío; añadir huevo o atún solo si se desea, identificándolos como variantes.\n\n## Puntos críticos\n\n- El aliño se incorpora con la patata aún templada, pero el reposo no debe prolongarse durante horas fuera del frigorífico.\n- Las papas aliñás son distintas de una ensaladilla con mayonesa: el acabado tradicional de referencia es aceite, vinagre, cebolleta y perejil.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Patata rota | Cocción excesiva | Comprobar punto antes y manipular con cuidado |\n| Aliño no absorbido | Patata demasiado fría | Aliñar templada |\n| Exceso de acidez | Demasiado vinagre | Agregar gradualmente y probar |\n\n## Conservación\n\nEnfriar y refrigerar a 4 °C o menos; consumir en 24–48 horas, especialmente si se añade huevo o pescado. No mantener al sol ni en bufés sin refrigeración.\n\n## Relaciones dentro del SGCC\n\n- [Piriñaca gaditana](../04_Verduras/pirinaca_gaditana_de_tomate_pimiento_y_cebolla.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "30–40 min más enfriado breve",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cádiz, Andalucía. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/papas_alinas_gaditanas_con_cebolleta_y_perejil.html",
+  "id": "REC-539",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patata de cocer de tamaño similar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 g de patata de cocer de tamaño similar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "850 g de patata de cocer de tamaño similar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta fresca",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de cebolleta fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de cebolleta fresca",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de Jerez o vino blanco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 ml de vinagre de Jerez o vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "15 ml de vinagre de Jerez o vino blanco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de perejil fresco lavado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de perejil fresco lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos cocidos o 120 g de atún en conserva, opcionales",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos cocidos o 120 g de atún en conserva, opcionales",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos cocidos o 120 g de atún en conserva, opcionales",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/papas_alinas_gaditanas_con_cebolleta_y_perejil.md",
+  "source_sha256": "81ced0f89934b0f86487498e165c1696e1ef5676473fb8d85cb86c570b2ebcef",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar las patatas sin pelar y cocerlas enteras en agua con una pizca de sal durante 20–30 minutos, según calibre, hasta tiernas sin romperse."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Escurrir, dejar entibiar lo justo para manipular y retirar la piel; cortar en rodajas gruesas o piezas regulares."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Picar finamente la cebolleta y el perejil lavado; mezclarlos con las patatas todavía templadas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Emulsionar aceite, vinagre y sal, repartir sobre la patata y mover suavemente para que absorba el aliño sin aplastarse."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Dejar reposar 10 minutos, probar y ajustar aceite o vinagre si fuera necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Servir templadas tras el reposo breve o enfriar rápidamente en frigorífico para servicio frío; añadir huevo o atún solo si se desea, identificándolos como variantes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Papas aliñás gaditanas con cebolleta y perejil",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones de tapa",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

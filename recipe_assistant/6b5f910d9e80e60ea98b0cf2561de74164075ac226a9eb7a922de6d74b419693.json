@@ -1,0 +1,284 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Bollos preñaos asturianos de chorizo\n\n## Origen y contexto\n\n**Región:** Asturias. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 bollos |\n| Tiempo orientativo | 25 min de trabajo, 90–120 min de levado y 25–30 min de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de harina de trigo panificable\n- 275 ml de agua templada\n- 6 g de levadura seca de panadería\n- 9 g de sal\n- 25 ml de aceite de oliva o 30 g de manteca de cerdo\n- 8 porciones de chorizo asturiano de unos 45 g cada una, apto para cocinar\n\n**Alérgenos:** Trigo/gluten; revisar etiquetado de chorizo por posibles alérgenos.\n\n## Elaboración\n\n1. Mezclar harina, agua, levadura, sal y aceite o manteca; amasar durante 8–12 minutos hasta formar masa elástica.\n2. Tapar y dejar fermentar 60–90 minutos, hasta aumento visible de volumen.\n3. Dividir en ocho bolas iguales y aplanar cada una; colocar en el centro una porción de chorizo sin envoltorio y cerrar bien la masa para sellarlo.\n4. Disponer sobre bandeja con papel, cierre hacia abajo, con separación; dejar reposar tapados 25–35 minutos.\n5. Precalentar el horno a 200 °C, calor arriba y abajo. Hacer un pequeño pinchazo de salida de vapor si la masa está muy tensa, sin abrir el bollo.\n6. Hornear 25–30 minutos hasta pan dorado y cocido, y comprobar que el chorizo ha alcanzado temperatura segura según su etiqueta; si es crudo, garantizar cocción completa.\n7. Dejar reposar 5–10 minutos antes de servir para evitar quemaduras con el relleno.\n\n## Puntos críticos\n\n- Usar chorizo apto para cocinar y respetar sus instrucciones; los tiempos pueden variar con el diámetro y humedad del embutido.\n- Es pan fermentado con chorizo dentro, distinto de una empanada plana de relleno repartido.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Pan compacto | Fermentación insuficiente | Esperar crecimiento visible |\n| Chorizo poco cocido | Pieza grande o horno breve | Usar porciones pequeñas y verificar cocción |\n| Bollo abierto | Cierre deficiente | Sellar con tensión moderada y dejar reposar |\n\n## Conservación\n\nPor contener embutido cocinado dentro, enfriar rápidamente y guardar a 4 °C o menos hasta 2 días; recalentar por completo o congelar porciones.\n\n## Relaciones dentro del SGCC\n\n- [Empanada gallega de zorza](../10_Horno/empanada_gallega_de_zorza.md)\n- [Fermentar masas hidratadas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://www.centroasturianomadrid.es/wp-content/uploads/2022/06/Revista-julio-definitiva.pdf)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25 min de trabajo, 90–120 min de levado y 25–30 min de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Asturias. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/bollos_prenaos_asturianos_de_chorizo.html",
+  "id": "REC-543",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo panificable",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de harina de trigo panificable",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de harina de trigo panificable",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "275",
+        "min": "275",
+        "raw": "275 ml de agua templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "275 ml de agua templada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "9",
+        "min": "9",
+        "raw": "9 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "9 g de sal",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva o 30 g de manteca de cerdo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de aceite de oliva o 30 g de manteca de cerdo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de aceite de oliva o 30 g de manteca de cerdo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "porciones de chorizo asturiano de unos 45 g cada una, apto para cocinar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 porciones de chorizo asturiano de unos 45 g cada una, apto para cocinar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 porciones de chorizo asturiano de unos 45 g cada una, apto para cocinar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/bollos_prenaos_asturianos_de_chorizo.md",
+  "source_sha256": "72f290b2ebe9347e668f9895c8d1a1765e52bd3218710e4943ec52f1dda4e17f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, agua, levadura, sal y aceite o manteca; amasar durante 8–12 minutos hasta formar masa elástica."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Tapar y dejar fermentar 60–90 minutos, hasta aumento visible de volumen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Dividir en ocho bolas iguales y aplanar cada una; colocar en el centro una porción de chorizo sin envoltorio y cerrar bien la masa para sellarlo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Disponer sobre bandeja con papel, cierre hacia abajo, con separación; dejar reposar tapados 25–35 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Precalentar el horno a 200 °C, calor arriba y abajo. Hacer un pequeño pinchazo de salida de vapor si la masa está muy tensa, sin abrir el bollo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear 25–30 minutos hasta pan dorado y cocido, y comprobar que el chorizo ha alcanzado temperatura segura según su etiqueta; si es crudo, garantizar cocción completa."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Dejar reposar 5–10 minutos antes de servir para evitar quemaduras con el relleno."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Bollos preñaos asturianos de chorizo",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "8 bollos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

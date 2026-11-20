@@ -1,0 +1,453 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 87,
+      "start_line": 15
+    },
+    "text": "\n# Rancho canario de garbanzos, papas y fideos\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 5–6 raciones |\n| Tiempo orientativo | 80–110 minutos con garbanzos ya cocidos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de garbanzos completamente cocidos y escurridos\n- 450 g de costilla fresca de cerdo troceada\n- 200 g de carne de ternera para guisar\n- 120 g de chorizo para cocinar\n- 350 g de papas peladas\n- 180 g de calabaza limpia\n- 130 g de fideos gruesos (n.º 4 o similar)\n- 170 g de cebolla\n- 200 g de tomate rallado\n- 80 g de pimiento rojo\n- 2 dientes de ajo\n- 1,5–1,8 l de agua o caldo bajo en sal\n- 30 ml de aceite de oliva\n- 1 cucharadita de pimentón dulce (3 g)\n- 1 hoja de laurel\n- comino, perejil, sal y pimienta al gusto\n\n**Alérgenos:** Trigo/gluten de los fideos; comprobar chorizo y caldo comercial.\n\n## Elaboración\n\n1. Utilizar garbanzos completamente cocidos, de conserva enjuagados o previamente cocidos de forma segura; no agregar garbanzos secos directamente a esta receta rápida.\n2. Dorar ligeramente costilla y ternera en una cazuela grande con aceite; cubrir con parte del agua y cocer a hervor suave unos 45–65 minutos, hasta que estén tiernas.\n3. En sartén aparte preparar un sofrito de cebolla, pimiento, tomate y ajo durante 12–15 minutos; incorporar pimentón sin quemarlo.\n4. Añadir el sofrito, laurel, chorizo en rodajas, calabaza y papas chascadas a la carne, completar caldo y cocer 15–20 minutos.\n5. Incorporar garbanzos cocidos y fideos gruesos; cocinar el tiempo indicado por el fabricante, normalmente 9–13 minutos, hasta que la pasta y la patata estén hechas.\n6. Machacar comino con perejil y un poco de caldo, añadir al final y ajustar el punto de sal, teniendo en cuenta el chorizo.\n7. Dejar reposar 5 minutos y servir caliente, con caldo ligado pero sin que los fideos queden secos.\n\n## Puntos críticos\n\n- Se elige garbanzo previamente cocido para separar claramente su tratamiento del de las carnes; garbanzos secos requerirían remojo y cocción completa previa, además de otros tiempos.\n- Los fideos absorben caldo durante el reposo; añadirlos al final y no dejar sobras durante horas a temperatura ambiente.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Carne dura | Cocción previa insuficiente | Prolongar antes de agregar patata y pasta |\n| Guiso excesivamente espeso | Absorción de fideos | Añadir caldo caliente hasta la consistencia buscada |\n| Sabor muy salado | Chorizo y caldo concentrados | Usar caldo poco salado y rectificar al final |\n\n## Conservación\n\nEnfriar rápidamente en porciones pequeñas; refrigerar a 4 °C o menos hasta 2 días y recalentar completamente. Si se congela, hacerlo preferiblemente sin la pasta.\n\n## Relaciones dentro del SGCC\n\n- [Cocido madrileño](../03_Legumbres/cocido_madrileno_de_tres_vuelcos.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://www.spain.info/es/receta/rancho-canario/)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración tras su elaboración. Esta propuesta no sustituye ninguna versión doméstica anterior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "110",
+      "min": "80",
+      "phase": "declared_total",
+      "raw": "80–110 minutos con garbanzos ya cocidos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Islas Canarias. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/rancho_canario_de_garbanzos_papas_y_fideos.html",
+  "id": "REC-533",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos y escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de garbanzos completamente cocidos y escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de garbanzos completamente cocidos y escurridos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "costilla fresca de cerdo troceada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de costilla fresca de cerdo troceada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de costilla fresca de cerdo troceada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "carne de ternera para guisar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de carne de ternera para guisar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de carne de ternera para guisar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chorizo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chorizo para cocinar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "papas peladas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de papas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de papas peladas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza limpia",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de calabaza limpia",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de calabaza limpia",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos gruesos (n.º 4 o similar)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de fideos gruesos (n.º 4 o similar)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de fideos gruesos (n.º 4 o similar)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de cebolla",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate rallado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de pimiento rojo",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "1.8",
+        "min": "1.5",
+        "raw": "1,5–1,8 l de agua o caldo bajo en sal",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1,5–1,8 l de agua o caldo bajo en sal",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 14,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      }
+    },
+    {
+      "group": null,
+      "name": "comino, perejil, sal y pimienta al gusto",
+      "optionality": "required",
+      "position": 15,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "comino, perejil, sal y pimienta al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "comino, perejil, sal y pimienta al gusto",
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/rancho_canario_de_garbanzos_papas_y_fideos.md",
+  "source_sha256": "22054eb6279b1b4ca5c112d6fa801fbe5782cb20d00b1986370885f3a63ee637",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "Utilizar garbanzos completamente cocidos, de conserva enjuagados o previamente cocidos de forma segura; no agregar garbanzos secos directamente a esta receta rápida."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "Dorar ligeramente costilla y ternera en una cazuela grande con aceite; cubrir con parte del agua y cocer a hervor suave unos 45–65 minutos, hasta que estén tiernas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 3,
+      "text": "En sartén aparte preparar un sofrito de cebolla, pimiento, tomate y ajo durante 12–15 minutos; incorporar pimentón sin quemarlo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 4,
+      "text": "Añadir el sofrito, laurel, chorizo en rodajas, calabaza y papas chascadas a la carne, completar caldo y cocer 15–20 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 57
+      },
+      "source_number": 5,
+      "text": "Incorporar garbanzos cocidos y fideos gruesos; cocinar el tiempo indicado por el fabricante, normalmente 9–13 minutos, hasta que la pasta y la patata estén hechas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 58
+      },
+      "source_number": 6,
+      "text": "Machacar comino con perejil y un poco de caldo, añadir al final y ajustar el punto de sal, teniendo en cuenta el chorizo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 59
+      },
+      "source_number": 7,
+      "text": "Dejar reposar 5 minutos y servir caliente, con caldo ligado pero sin que los fideos queden secos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Rancho canario de garbanzos, papas y fideos",
+  "yield": {
+    "max": "6",
+    "min": "5",
+    "raw": "5–6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

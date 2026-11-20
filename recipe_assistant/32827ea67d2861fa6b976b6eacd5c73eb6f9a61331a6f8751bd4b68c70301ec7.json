@@ -1,0 +1,307 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Risotto de remolacha y queso de cabra\n\n## Descripción\n\nPreparación de referencia basada en **adición gradual de caldo y mantecadatura**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Adición gradual de caldo y mantecadatura |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de arroz para risotto (arborio o carnaroli)\n- 250 g de remolacha previamente cocida, pelada\n- 800–950 ml de caldo vegetal caliente, orientativos\n- 100 g de cebolla picada\n- 80 g de queso de cabra cremoso\n- 30 g de mantequilla\n- 2 cucharadas de aceite de oliva\n- 50 ml de vino blanco opcional\n- sal y pimienta\n\n**Alérgenos:** Leche; vino con posible alcohol residual.\n\n## Elaboración\n\n1. Triturar la remolacha ya cocida con 100 ml de caldo hasta hacer un puré homogéneo.\n2. Pochar cebolla en aceite a fuego medio-bajo 6–8 minutos, sin dorarla en exceso.\n3. Añadir arroz seco sin lavar y nacararlo 1–2 minutos; agregar vino opcional y dejar reducir.\n4. Incorporar caldo caliente poco a poco, removiendo con suavidad y reponiendo al absorberse, durante 16–20 minutos orientativos.\n5. Cuando el arroz esté casi listo, incorporar el puré de remolacha, mezclando hasta teñir y ligar; ajustar la densidad con caldo.\n6. Apartar del fuego y mantecar con mantequilla y queso de cabra; reposar 1–2 minutos y servir fluido.\n\n## Puntos críticos\n\n- El puré de remolacha incorpora humedad y dulzor; añadirlo cerca del final permite controlar la textura. No hervir vigorosamente tras incorporar queso.\n- Ajustar la proporción de caldo a la variedad de arroz, el recipiente y la evaporación; las cantidades propuestas no garantizan el mismo punto en todos los equipos.\n- Cocinar completamente las proteínas y mantener separados utensilios usados con alimentos crudos y preparados.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Corrección para otra prueba |\n|---|---|---|\n| Arroz duro y seco | Faltó líquido o hubo evaporación excesiva | Ajustar caldo caliente y fuego antes de que se seque |\n| Arroz demasiado blando | Exceso de líquido o cocción prolongada | Medir caldo y comprobar el grano hacia el final |\n| Fondo quemado | Temperatura alta o sofrito demasiado concentrado | Controlar fuego y usar recipiente de fondo uniforme |\n\n## Conservación\n\nServir preferiblemente recién hecho. Si queda arroz, repartir en recipientes poco profundos, **enfriar rápidamente y refrigerar sin demora**. No mantener arroz cocido horas a temperatura ambiente: un recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente antes de servir los restos.\n\n## Relaciones dentro del SGCC\n\n- [Mantecar un risotto](../00_Bases/03_Tecnicas/mantecar_risotto.md)\n- [Risotto de setas](./risotto_de_setas.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes efectivamente utilizados, proporción real de caldo, recipiente, tiempo de cocción, punto del grano y valoración. Ninguna cantidad se atribuye a versiones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **adición gradual de caldo y mantecadatura**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/risotto_de_remolacha_y_queso_de_cabra.html",
+  "id": "REC-314",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz para risotto (arborio o carnaroli)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de arroz para risotto (arborio o carnaroli)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de arroz para risotto (arborio o carnaroli)",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "remolacha previamente cocida, pelada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de remolacha previamente cocida, pelada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de remolacha previamente cocida, pelada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal caliente, orientativos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": true,
+        "max": "950",
+        "min": "800",
+        "raw": "800–950 ml de caldo vegetal caliente, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "800–950 ml de caldo vegetal caliente, orientativos",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "queso de cabra cremoso",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de queso de cabra cremoso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de queso de cabra cremoso",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de mantequilla",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de vino blanco opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de vino blanco opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/risotto_de_remolacha_y_queso_de_cabra.md",
+  "source_sha256": "628a2f244e7030e61ada262e78b9e724501d19b2122f825281f818be9ef75dfe",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Triturar la remolacha ya cocida con 100 ml de caldo hasta hacer un puré homogéneo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite a fuego medio-bajo 6–8 minutos, sin dorarla en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir arroz seco sin lavar y nacararlo 1–2 minutos; agregar vino opcional y dejar reducir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar caldo caliente poco a poco, removiendo con suavidad y reponiendo al absorberse, durante 16–20 minutos orientativos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Cuando el arroz esté casi listo, incorporar el puré de remolacha, mezclando hasta teñir y ligar; ajustar la densidad con caldo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Apartar del fuego y mantecar con mantequilla y queso de cabra; reposar 1–2 minutos y servir fluido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/mantecar_risotto.html",
+      "label": "Mantecar un risotto",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/mantecar_risotto.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Risotto de remolacha y queso de cabra",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Fardelejos de Arnedo de almendra\n\n## Origen y contexto\n\n**Región:** Arnedo, La Rioja. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 14–16 unidades |\n| Tiempo orientativo | 55–75 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo común\n- 80 ml de agua templada\n- 55 ml de aceite de oliva suave\n- 1 pizca de sal\n- 170 g de almendra molida\n- 130 g de azúcar\n- 2 huevos M\n- ralladura de medio limón lavado\n- 450–600 ml de aceite de girasol alto oleico u oliva suave para freír\n- 40 g de azúcar glas para terminar\n\n**Alérgenos:** Trigo/gluten, almendra y huevo.\n\n## Elaboración\n\n1. Mezclar harina, agua, aceite y sal hasta masa suave; amasar 5 minutos y dejar reposar tapada 20 minutos.\n2. Mezclar almendra molida, azúcar, huevos y ralladura de limón hasta obtener relleno homogéneo y espeso; mantener refrigerado mientras se estira la masa.\n3. Estirar la masa muy fina sobre superficie ligeramente enharinada y cortar rectángulos aproximados de 10 × 12 cm.\n4. Colocar pequeñas porciones de relleno en el centro, doblar masa y sellar bordes con presión, expulsando aire; recortar exceso si es necesario.\n5. Calentar el aceite en sartén profunda hasta unos 170–175 °C. Freír los fardelejos en tandas sin amontonar, alrededor de 2–3 minutos por lado, hasta dorados y relleno completamente cocido.\n6. Escurrir sobre rejilla o papel de cocina limpio, dejar templar y espolvorear azúcar glas.\n7. Servir tibios o fríos, evitando probar masa o relleno crudos.\n\n## Puntos críticos\n\n- Los fardelejos se caracterizan por envoltura fina frita y relleno de almendra y huevo; no equivalen a las casadielles asturianas rellenas de nuez.\n- Las piezas deben ser pequeñas para permitir cocción completa del relleno antes de que la cobertura se tueste; verificar una pieza de prueba.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Relleno crudo | Pieza gruesa o aceite demasiado caliente | Reducir volumen y controlar temperatura |\n| Masa aceitosa | Aceite frío | Freír tandas pequeñas a temperatura estable |\n| Fugas de relleno | Sellado insuficiente | Presionar bordes y retirar aire |\n\n## Conservación\n\nConservar una vez fríos en recipiente cerrado en lugar fresco si se consumen el mismo día; refrigerar a 4 °C o menos para guardar hasta 2 días por el relleno húmedo de huevo. Evitar recalentamientos repetidos.\n\n## Relaciones dentro del SGCC\n\n- [Casadielles asturianas](../08_Postres/casadielles_asturianas_de_nueces_y_anis.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–75 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Arnedo, La Rioja. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/fardelejos_de_arnedo_de_almendra.html",
+  "id": "REC-555",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua templada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "55 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de almendra molida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos M",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos M",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de medio limón lavado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de medio limón lavado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de girasol alto oleico u oliva suave para freír",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "450",
+        "raw": "450–600 ml de aceite de girasol alto oleico u oliva suave para freír",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "450–600 ml de aceite de girasol alto oleico u oliva suave para freír",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para terminar",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar glas para terminar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar glas para terminar",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/fardelejos_de_arnedo_de_almendra.md",
+  "source_sha256": "14502ee41e2fca8394914fda3c05d8dcaf33b2b9d6bcc4905ecda04693ae2f4e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, agua, aceite y sal hasta masa suave; amasar 5 minutos y dejar reposar tapada 20 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Mezclar almendra molida, azúcar, huevos y ralladura de limón hasta obtener relleno homogéneo y espeso; mantener refrigerado mientras se estira la masa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Estirar la masa muy fina sobre superficie ligeramente enharinada y cortar rectángulos aproximados de 10 × 12 cm."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Colocar pequeñas porciones de relleno en el centro, doblar masa y sellar bordes con presión, expulsando aire; recortar exceso si es necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Calentar el aceite en sartén profunda hasta unos 170–175 °C. Freír los fardelejos en tandas sin amontonar, alrededor de 2–3 minutos por lado, hasta dorados y relleno completamente cocido."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Escurrir sobre rejilla o papel de cocina limpio, dejar templar y espolvorear azúcar glas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Servir tibios o fríos, evitando probar masa o relleno crudos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Fardelejos de Arnedo de almendra",
+  "yield": {
+    "max": "16",
+    "min": "14",
+    "raw": "14–16 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

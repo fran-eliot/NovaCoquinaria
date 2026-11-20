@@ -1,0 +1,377 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Pollo a la catalana con ciruelas y piñones\n\n## Origen y contexto\n\n**Región:** Cataluña. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 75–95 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1,2 kg de muslos y contramuslos de pollo con hueso\n- 170 g de cebolla\n- 120 g de tomate rallado\n- 130 g de ciruelas pasas sin hueso\n- 35 g de piñones\n- 3 dientes de ajo\n- 150 ml de vino blanco o vino rancio de cocinar\n- 200–300 ml de caldo de pollo bajo en sal\n- 40 ml de aceite de oliva\n- 1 hoja de laurel\n- 1 trocito de canela en rama, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Piñones (revisar posibles trazas de frutos de cáscara); sulfitos del vino y posibles alérgenos del caldo comercial.\n\n## Elaboración\n\n1. Secar el pollo, retirar plumas residuales y salpimentar. Hidratar las ciruelas 15 minutos en agua templada si están muy secas y escurrir.\n2. Dorar el pollo por tandas en cazuela con aceite, por ambos lados, sin intentar cocinarlo completamente; reservar.\n3. Pochar cebolla 10–12 minutos en la misma grasa; incorporar ajos y tomate, y reducir 8 minutos.\n4. Desglasar con el vino y dejar hervir unos minutos; devolver el pollo y añadir laurel, canela opcional y caldo suficiente para un fondo de guiso.\n5. Tapar parcialmente y cocinar a fuego suave unos 30–40 minutos; girar las piezas a mitad de cocción.\n6. Añadir las ciruelas durante los últimos 15 minutos; tostar los piñones en una sartén limpia y agregarlos cerca del final.\n7. Verificar al menos 74 °C en la parte más gruesa del pollo, sin tocar hueso, ajustar sal y reducir salsa si es necesario.\n\n## Puntos críticos\n\n- La fruta seca proporciona el carácter dulce-salado; no transformar la preparación en un pollo al chilindrón con pimientos.\n- El vino conserva una cantidad variable de alcohol tras la cocción. Vigilar que las ciruelas no se deshagan y que los piñones no se quemen.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Pollo seco | Cocción prolongada o hervor fuerte | Reducir temperatura y comprobar punto |\n| Salsa demasiado dulce | Exceso de ciruelas o reducción | Ajustar cantidad de fruta y equilibrio del sofrito |\n| Piñones amargos | Tostado excesivo | Tostar brevemente y añadir al final |\n\n## Conservación\n\nEnfriar y refrigerar a 4 °C o menos hasta 2–3 días; recalentar por completo antes de servir, o congelar porciones.\n\n## Relaciones dentro del SGCC\n\n- [Pollo al chilindrón](../05_Carnes/pollo_al_chilindron_con_pimientos.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://canalcocina.es/receta/pollo-a-la-catalana)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración tras su elaboración. Esta propuesta no sustituye ninguna versión doméstica anterior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "95",
+      "min": "75",
+      "phase": "declared_total",
+      "raw": "75–95 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cataluña. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_a_la_catalana_con_ciruelas_y_pinones.html",
+  "id": "REC-534",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos y contramuslos de pollo con hueso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.2",
+        "min": "1.2",
+        "raw": "1,2 kg de muslos y contramuslos de pollo con hueso",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1,2 kg de muslos y contramuslos de pollo con hueso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de tomate rallado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ciruelas pasas sin hueso",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de ciruelas pasas sin hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de ciruelas pasas sin hueso",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "piñones",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de piñones",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de piñones",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco o vino rancio de cocinar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de vino blanco o vino rancio de cocinar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de vino blanco o vino rancio de cocinar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo bajo en sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "200",
+        "raw": "200–300 ml de caldo de pollo bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "200–300 ml de caldo de pollo bajo en sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "trocito de canela en rama, opcional",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 trocito de canela en rama, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 trocito de canela en rama, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pollo_a_la_catalana_con_ciruelas_y_pinones.md",
+  "source_sha256": "a865b54c4cd83babb9885fef68515196051530641b6d5b9f1a281ee56b8f8e52",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar el pollo, retirar plumas residuales y salpimentar. Hidratar las ciruelas 15 minutos en agua templada si están muy secas y escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Dorar el pollo por tandas en cazuela con aceite, por ambos lados, sin intentar cocinarlo completamente; reservar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla 10–12 minutos en la misma grasa; incorporar ajos y tomate, y reducir 8 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Desglasar con el vino y dejar hervir unos minutos; devolver el pollo y añadir laurel, canela opcional y caldo suficiente para un fondo de guiso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Tapar parcialmente y cocinar a fuego suave unos 30–40 minutos; girar las piezas a mitad de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Añadir las ciruelas durante los últimos 15 minutos; tostar los piñones en una sartén limpia y agregarlos cerca del final."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Verificar al menos 74 °C en la parte más gruesa del pollo, sin tocar hueso, ajustar sal y reducir salsa si es necesario."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Pollo a la catalana con ciruelas y piñones",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 13
+    },
+    "text": "\n# Pollo glaseado con miso y jengibre\n\n## Descripción\n\nPollo dorado y terminado con una salsa de miso, jengibre y mirin, de perfil salado y ligeramente dulce.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocción | 18–25 min |\n| Técnica | Dorado y glaseado |\n\n## Ingredientes\n\n- 600 g de contramuslos de pollo deshuesados;\n- 1 cucharada de miso;\n- 1 cucharada de mirin;\n- 1 cucharadita de miel o azúcar;\n- 1 cucharada de agua;\n- 10 g de jengibre rallado;\n- 1 cucharada de aceite neutro.\n\n**Alérgenos:** soja; posible trigo o cebada en miso.\n\n## Elaboración\n\n1. Cortar pollo en piezas uniformes y separar utensilios de producto crudo.\n2. Mezclar miso, mirin, miel, agua y jengibre en recipiente limpio.\n3. Calentar aceite en sartén y dorar pollo por tandas.\n4. Bajar a fuego medio y continuar cocinando hasta aproximarse al punto final.\n5. Incorporar glaseado y mezclar brevemente, añadiendo agua si se concentra demasiado.\n6. Comprobar **74 °C en el centro del pollo** antes de servir.\n7. Servir con arroz o verduras.\n\n## Puntos críticos\n\n- El miso y el azúcar se queman a fuego alto.\n- No salar antes de probar la salsa.\n- El glaseado debe incorporarse hacia el final.\n- No reutilizar salsa que haya tocado pollo crudo sin cocción adecuada.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Glaseado amargo | Quemado | Reducir calor |\n| Pollo seco | Cocción excesiva | Controlar temperatura |\n| Muy salado | Exceso de miso | Diluir y reducir dosis |\n\n## Relaciones\n\n- [Miso](../11_Despensa/09_Salsas/miso.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n\n## Principio de NovaCoquinaria\n\n> Un glaseado con miso se añade tarde para evitar que se queme."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "18",
+      "phase": "cooking",
+      "raw": "18–25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pollo_glaseado_con_miso.html",
+  "id": "REC-0076",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de contramuslos de pollo deshuesados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de contramuslos de pollo deshuesados;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "miso;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de miso;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de miso;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mirin;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mirin;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel o azúcar;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel o azúcar;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de agua;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre rallado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/pollo_glaseado_con_miso.md",
+  "source_sha256": "cb90eac750522dee9eede25d630024e4490c0efc8184cf70e596ea52a6ff887c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Cortar pollo en piezas uniformes y separar utensilios de producto crudo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Mezclar miso, mirin, miel, agua y jengibre en recipiente limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Calentar aceite en sartén y dorar pollo por tandas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Bajar a fuego medio y continuar cocinando hasta aproximarse al punto final."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Incorporar glaseado y mezclar brevemente, añadiendo agua si se concentra demasiado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Comprobar **74 °C en el centro del pollo** antes de servir."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Servir con arroz o verduras."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Pollo glaseado con miso y jengibre",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

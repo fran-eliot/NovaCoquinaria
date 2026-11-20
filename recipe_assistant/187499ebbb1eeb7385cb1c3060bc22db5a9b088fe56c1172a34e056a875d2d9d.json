@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Pavo con salsa de naranja y mostaza\n\n## Descripción\n\nPreparación de referencia basada en **dorado de filetes y salsa cítrica ligada**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Dorado de filetes y salsa cítrica ligada |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de filetes de pechuga de pavo;\n- 150 ml de zumo de naranja natural;\n- 1 cucharada de mostaza de Dijon;\n- 1 cucharadita de miel, opcional;\n- 1 diente de ajo picado;\n- 80 ml de caldo de pollo bajo en sal;\n- 2 cucharadas de aceite de oliva;\n- sal y pimienta;\n\n**Alérgenos:** Mostaza; revisar caldo.\n\n## Elaboración\n\n1. Secar los filetes de pavo y salpimentar ligeramente.\n2. Dorar por tandas en sartén caliente con una cucharada de aceite; retirar antes de secarlos.\n3. Bajar el fuego y añadir ajo con el aceite restante durante 30 segundos.\n4. Incorporar zumo y caldo; reducir suavemente 3–5 minutos y mezclar la mostaza, sin hervir intensamente.\n5. Devolver el pavo y cocinar hasta que el centro alcance 74 °C, añadiendo algo de caldo si la salsa espesa demasiado.\n6. Probar y ajustar el dulzor con miel opcional; servir con la salsa.\n\n## Puntos críticos\n\n- La pechuga de pavo se seca fácilmente. La carne de ave debe cocinarse completamente y la salsa cítrica reducirse antes de añadir mostaza.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Desglasar fondos](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/pavo_en_salsa_de_naranja_y_mostaza.html",
+  "id": "REC-0262",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de pechuga de pavo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de filetes de pechuga de pavo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de filetes de pechuga de pavo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja natural;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de zumo de naranja natural;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de zumo de naranja natural;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mostaza de Dijon;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mostaza de Dijon;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel, opcional;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo bajo en sal;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de caldo de pollo bajo en sal;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de caldo de pollo bajo en sal;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pavo_en_salsa_de_naranja_y_mostaza.md",
+  "source_sha256": "9b7ab3000217e5969a779d7c2b3405d7a94eccd96fbda5f1cfc2c09e0a907bbf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Secar los filetes de pavo y salpimentar ligeramente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Dorar por tandas en sartén caliente con una cucharada de aceite; retirar antes de secarlos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Bajar el fuego y añadir ajo con el aceite restante durante 30 segundos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Incorporar zumo y caldo; reducir suavemente 3–5 minutos y mezclar la mostaza, sin hervir intensamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Devolver el pavo y cocinar hasta que el centro alcance 74 °C, añadiendo algo de caldo si la salsa espesa demasiado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Probar y ajustar el dulzor con miel opcional; servir con la salsa."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.html",
+      "label": "Desglasar fondos",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md"
+    }
+  ],
+  "title": "Pavo con salsa de naranja y mostaza",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

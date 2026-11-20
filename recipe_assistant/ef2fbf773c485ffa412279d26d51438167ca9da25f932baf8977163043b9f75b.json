@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Bizcocho marmolado de vainilla y chocolate\n\n## Descripción\n\nElaboración de referencia que trabaja **batido, masa dividida y horneado**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica | Batido, masa dividida y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 200 g de harina de trigo;\n- 3 huevos L;\n- 160 g de azúcar;\n- 110 g de mantequilla derretida y templada;\n- 110 ml de leche;\n- 25 g de cacao puro en polvo;\n- 10 g de impulsor químico;\n- 1 cucharadita de vainilla;\n- 1 pizca de sal;\n\n**Alérgenos:** Huevo, gluten (trigo), leche.\n\n## Elaboración\n\n1. Precalentar el horno a 175 °C, calor arriba y abajo; preparar un molde rectangular de unos 22 × 11 cm.\n2. Batir huevos y azúcar hasta conseguir mezcla más pálida y aireada. Incorporar mantequilla templada, vainilla y 90 ml de leche.\n3. Tamizar harina, impulsor y sal; integrar con movimientos suaves sin batir excesivamente.\n4. Separar un tercio de la masa y mezclarlo con el cacao y los 20 ml de leche restantes.\n5. Verter ambas masas de forma alterna en el molde y pasar una brocheta una o dos veces para crear vetas sin homogeneizar los colores.\n6. Hornear unos 35–45 minutos hasta que una brocheta central salga sin masa cruda; reposar 10 minutos y desmoldar sobre rejilla.\n\n## Puntos críticos\n\n- No mezclar demasiado tras incorporar la harina; el exceso de vueltas de la brocheta elimina el marmolado. Los tiempos dependen del molde.\n- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.\n- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |\n| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |\n| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |\n\n## Conservación\n\nSeguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Cacao puro](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bizcocho_marmolado_vainilla_chocolate.html",
+  "id": "REC-0232",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla derretida y templada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de mantequilla derretida y templada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de mantequilla derretida y templada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "110 ml de leche;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro en polvo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de cacao puro en polvo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de cacao puro en polvo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de impulsor químico;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vainilla;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vainilla;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/bizcocho_marmolado_vainilla_chocolate.md",
+  "source_sha256": "e68e4e3fb233730e288eb4ed25e3c5015a299b546a3cb9208de397691471f719",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 175 °C, calor arriba y abajo; preparar un molde rectangular de unos 22 × 11 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Batir huevos y azúcar hasta conseguir mezcla más pálida y aireada. Incorporar mantequilla templada, vainilla y 90 ml de leche."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Tamizar harina, impulsor y sal; integrar con movimientos suaves sin batir excesivamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Separar un tercio de la masa y mezclarlo con el cacao y los 20 ml de leche restantes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter ambas masas de forma alterna en el molde y pasar una brocheta una o dos veces para crear vetas sin homogeneizar los colores."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 35–45 minutos hasta que una brocheta central salga sin masa cruda; reposar 10 minutos y desmoldar sobre rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bizcocho marmolado de vainilla y chocolate",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Huevos al horno con espinacas y tomate\n\n## Descripción\n\nPreparación de horno doméstico mediante **reducción de salsa y cuajado en cazuelitas**. Formulación propuesta, sin elaboración o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Temperatura inicial | 190 °C, calor arriba y abajo |\n| Técnica | Reducción de salsa y cuajado en cazuelitas |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 4 huevos;\n- 200 g de espinacas escurridas;\n- 250 g de tomate triturado;\n- 80 g de cebolla;\n- 1 cucharada de aceite;\n- ½ cucharadita de pimentón;\n- 40 g de queso rallado opcional;\n\n**Alérgenos:** Huevo y leche si lleva queso. Revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Precalentar a 190 °C; preparar dos recipientes aptos para horno.\n2. Pochar cebolla 5 minutos; incorporar tomate y reducir 6–8 minutos.\n3. Añadir espinacas previamente escurridas y distribuir la salsa entre las cazuelitas.\n4. Hacer dos huecos por recipiente, colocar los huevos y queso opcional.\n5. Hornear 10–15 minutos como orientación, hasta que claras y yemas queden completamente cuajadas; comprobar el centro.\n\n## Puntos críticos\n\n- Escurrir espinacas para evitar una salsa líquida; garantizar cuajado seguro del huevo.\n- Ajustar tiempos y temperatura a grosor, recipiente y horno. Los tiempos indicados no sustituyen el control del punto real de cocción.\n- Usar utensilios aptos y evitar la contaminación cruzada entre ingredientes crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Superficie quemada | Horno alto o temperatura excesiva | Bajar bandeja o proteger antes del final |\n| Centro insuficientemente cocido | Piezas grandes | Prolongar y comprobar el centro |\n| Fondo húmedo | Ingredientes sin reducir o escurrir | Eliminar el exceso de agua antes de hornear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Índice de Horno](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente empleadas, recipiente, temperatura, tiempo, textura, resultado y valoración. Una descripción del resultado esperado no acredita una prueba."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/huevos_al_horno_con_espinacas_y_tomate.html",
+  "id": "REC-0213",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas escurridas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espinacas escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espinacas escurridas;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de queso rallado opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de queso rallado opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/huevos_al_horno_con_espinacas_y_tomate.md",
+  "source_sha256": "30ba96647ea7d8ee08861550dbce055f327ed3d9f9f8817ea5e1af7334da22c7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar a 190 °C; preparar dos recipientes aptos para horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla 5 minutos; incorporar tomate y reducir 6–8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir espinacas previamente escurridas y distribuir la salsa entre las cazuelitas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Hacer dos huecos por recipiente, colocar los huevos y queso opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Hornear 10–15 minutos como orientación, hasta que claras y yemas queden completamente cuajadas; comprobar el centro."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Huevos al horno con espinacas y tomate",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

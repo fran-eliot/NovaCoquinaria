@@ -1,0 +1,311 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Oyakodon de pollo y huevo\n\n## Descripción\n\n**Perfil:** Japón, adaptación doméstica con huevo completamente cuajado. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Tiempo orientativo | 30–40 min |\n| Estado | Propuesta pendiente de prueba |\n\n## Ingredientes\n\n- 250 g de contramuslo de pollo deshuesado en tiras\n- 2 huevos L\n- 140 g de arroz japonés de grano corto seco o arroz redondo\n- 180 ml de agua o caldo dashi, para la salsa\n- 100 g de cebolla en juliana\n- 2 cucharadas de salsa de soja clara\n- 1 cucharada de mirin\n- 1 cucharadita de azúcar, ajustable\n- cebolleta picada opcional\n\n**Alérgenos:** Huevos, soja; posible trigo y alcohol según soja y mirin.\n\n## Elaboración\n\n1. Cocer el arroz por absorción según la variedad y mantenerlo caliente para el servicio inmediato.\n2. Mezclar caldo o agua, soja, mirin y azúcar en una sartén de fondo ancho; añadir la cebolla y hervir suavemente 4–5 minutos.\n3. Incorporar el pollo en tiras, tapar y cocinar unos 6–9 minutos según grosor, hasta alcanzar 74 °C en el centro.\n4. Batir ligeramente los huevos y distribuirlos sobre el pollo cocido.\n5. Tapar y cocinar a fuego bajo hasta que claras y yemas estén completamente cuajadas, sin resecar en exceso el pollo.\n6. Repartir el arroz caliente en dos cuencos y servir la mezcla encima, con cebolleta opcional.\n\n## Puntos críticos\n\n- La versión doméstica propuesta cuece el huevo completamente por prudencia; en otras variantes japonesas se deja más fluido. Evitar que el pollo quede parcialmente crudo bajo el huevo.\n- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.\n- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado observado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |\n| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |\n| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Marinada asiática](../12_Plantillas/03_Marinadas/marinada_asiatica.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, producto, equipo, temperatura o tiempos, textura, ajustes y valoración. No se atribuye esta propuesta a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "**Perfil:** Japón, adaptación doméstica con huevo completamente cuajado. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Propuesta pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/oyakodon_de_pollo_y_huevo.html",
+  "id": "REC-346",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en tiras",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de contramuslo de pollo deshuesado en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de contramuslo de pollo deshuesado en tiras",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz japonés de grano corto seco o arroz redondo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de arroz japonés de grano corto seco o arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de arroz japonés de grano corto seco o arroz redondo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo dashi, para la salsa",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de agua o caldo dashi, para la salsa",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de agua o caldo dashi, para la salsa",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla en juliana",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja clara",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mirin",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mirin",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustable",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar, ajustable",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar, ajustable",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta picada opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebolleta picada opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebolleta picada opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/oyakodon_de_pollo_y_huevo.md",
+  "source_sha256": "32847138c4855d0d50e37d281b2452bf7e6b73a3f10dfd3019f20f20eff5dd1c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer el arroz por absorción según la variedad y mantenerlo caliente para el servicio inmediato."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar caldo o agua, soja, mirin y azúcar en una sartén de fondo ancho; añadir la cebolla y hervir suavemente 4–5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Incorporar el pollo en tiras, tapar y cocinar unos 6–9 minutos según grosor, hasta alcanzar 74 °C en el centro."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Batir ligeramente los huevos y distribuirlos sobre el pollo cocido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Tapar y cocinar a fuego bajo hasta que claras y yemas estén completamente cuajadas, sin resecar en exceso el pollo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Repartir el arroz caliente en dos cuencos y servir la mezcla encima, con cebolleta opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    }
+  ],
+  "title": "Oyakodon de pollo y huevo",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Caballa en escabeche de naranja y romero\n\n## Descripción\n\nElaboración de referencia centrada en **sellado de pescado azul y escabeche cítrico**. Se incorpora como propuesta nueva sin experiencia doméstica ni valoración confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Sellado de pescado azul y escabeche cítrico |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 500 g de filetes de caballa limpios de espinas;\n- 1 cebolla mediana (140 g) en juliana;\n- 2 dientes de ajo;\n- 100 ml de zumo de naranja;\n- 70 ml de vinagre de vino blanco;\n- 80 ml de agua;\n- 60 ml de aceite de oliva;\n- 1 ramita pequeña de romero;\n- 1 hoja de laurel;\n- pimienta negra y sal;\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Revisar espinas, secar los filetes y mantener refrigerados.\n2. Sellar brevemente la caballa en parte del aceite por el lado de piel, sin pretender terminarla; retirar.\n3. Cocinar cebolla y ajo con el resto del aceite 6–8 minutos a fuego bajo.\n4. Añadir romero, laurel, zumo, vinagre y agua con cuidado; hervir suavemente 4–5 minutos.\n5. Incorporar los filetes y continuar el tiempo necesario para que queden completamente cocinados, evitando hervor intenso.\n6. Retirar romero y laurel; enfriar sin demora y refrigerar en recipiente adecuado. Servir como plato frío refrigerado o templado.\n\n## Puntos críticos\n\n- El zumo de naranja contiene azúcar natural y puede caramelizarse; no reducir hasta sequedad. El escabeche no es una conserva para guardar sin frío.\n- Mantener el pescado o marisco refrigerado hasta el momento de cocinar. Revisar espinas, limpieza y procedencia, y separar utensilios de crudos y cocinados.\n- Los tiempos son orientativos; comprobar la cocción completa y ajustar a grosor y temperatura de partida.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Pescado seco | Calor excesivo o tiempo prolongado | Comprobar el centro y reducir el tiempo innecesario |\n| Salsa demasiado concentrada | Evaporación excesiva | Añadir líquido en pequeñas dosis y probar sal |\n| Piel sin dorar | Humedad superficial o temperatura insuficiente | Secar antes y controlar el fuego |\n\n## Conservación\n\nRefrigerar sin demora los sobrantes en recipientes poco profundos. Los escabeches preparados en casa **no son conservas esterilizadas** y se mantienen refrigerados. Consumir los platos con pescado o marisco en un plazo corto, siguiendo las indicaciones del producto; no dejar varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Caballa japonesa](./caballa_japonesa.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades realmente usadas, tiempos, resultado y valoración antes de considerar la preparación una receta doméstica probada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/caballa_en_escabeche_de_naranja_y_romero.html",
+  "id": "REC-0242",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de caballa limpios de espinas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de filetes de caballa limpios de espinas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de filetes de caballa limpios de espinas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana (140 g) en juliana;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana (140 g) en juliana;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana (140 g) en juliana;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de zumo de naranja;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de zumo de naranja;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de vinagre de vino blanco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de vinagre de vino blanco;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita pequeña de romero;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita pequeña de romero;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita pequeña de romero;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y sal;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y sal;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra y sal;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/caballa_en_escabeche_de_naranja_y_romero.md",
+  "source_sha256": "20af447c5828b88a646128a3c803e80a8f26a7b888c4626a15d372d08902b122",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Revisar espinas, secar los filetes y mantener refrigerados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Sellar brevemente la caballa en parte del aceite por el lado de piel, sin pretender terminarla; retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Cocinar cebolla y ajo con el resto del aceite 6–8 minutos a fuego bajo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir romero, laurel, zumo, vinagre y agua con cuidado; hervir suavemente 4–5 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar los filetes y continuar el tiempo necesario para que queden completamente cocinados, evitando hervor intenso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Retirar romero y laurel; enfriar sin demora y refrigerar en recipiente adecuado. Servir como plato frío refrigerado o templado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Caballa en escabeche de naranja y romero",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 118,
+      "start_line": 15
+    },
+    "text": "\n# Ensalada templada de lentejas y calabaza asada\n\n## Descripción\n\nEnsalada de lentejas enteras ya cocidas y calabaza asada, con vinagreta de mostaza y limón. Se distingue del guiso: la legumbre debe mantener su forma y el aliño se incorpora sin cocción posterior.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como plato ligero |\n| Preparación | 20 minutos |\n| Cocinado | 30–40 minutos más cocción de lentejas si están secas |\n| Dificultad | Fácil–media |\n| Técnica principal | Asado y aliño templado |\n\n## Ingredientes\n\n- 500 g de lentejas pardinas ya cocidas, bien escurridas\n- 550 g de calabaza limpia en dados de 2 cm\n- 1 cebolla roja pequeña (80 g), en pluma fina\n- 3 cucharadas de aceite de oliva virgen extra, repartidas\n- 1 cucharadita de mostaza de Dijon\n- 1 cucharada de zumo de limón\n- 1 cucharadita de vinagre de vino, opcional\n- 1 cucharada de agua templada para emulsionar\n- sal y pimienta negra\n- perejil fresco, opcional\n\n**Alérgenos:** Revisar mostaza (alérgeno), conservas y condimentos.\n\n## Mise en place\n\nPrecalentar el horno a 210 °C. Tener las lentejas totalmente cocidas y escurridas; si son secas, cocerlas aparte y enfriar o templar de manera segura. Cortar calabaza uniforme y preparar un cuenco de aliño.\n\n## Elaboración\n\n### 1. Asar la calabaza\n\nMezclar con 1 cucharada de aceite, sal y pimienta. Asar en bandeja separada 25–35 minutos, hasta tierna con bordes dorados.\n\n### 2. Preparar la cebolla\n\nCortar plumas finas; si se desea sabor más suave, dejarla unos minutos con una pequeña cantidad de limón y escurrir.\n\n### 3. Emulsionar vinagreta\n\nBatir mostaza, limón, vinagre opcional, agua y el aceite restante hasta obtener aliño ligado. Probar antes de salar.\n\n### 4. Integrar lentejas\n\nPoner lentejas cocidas escurridas en una fuente y añadir una parte del aliño. Mezclar suavemente sin romper granos.\n\n### 5. Finalizar\n\nIncorporar calabaza templada y cebolla. Añadir el resto de vinagreta según necesidad y perejil al servir.\n\n## Puntos críticos\n\n- No utilizar lenteja seca remojada como si fuera cocida.\n- La calabaza se asa separada para que sus jugos no conviertan la ensalada en puré.\n- Un exceso de aliño acuoso diluye sabores y rompe la textura.\n- La ensalada templada no debe permanecer mucho tiempo fuera de refrigeración.\n\n## Perfil esperado\n\nLentejas enteras, calabaza dulce y tierna con bordes dorados, y aliño ácido que aporta brillo sin formar un caldo.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con almendras tostadas | Añadir al final 30 g para un contraste crujiente; incorpora frutos de cáscara. |\n| Con espinacas | Añadir hojas tiernas al final, previamente lavadas y secas. |\n| Sin mostaza | Emulsionar solo aceite y limón, con menor estabilidad del aliño. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Ensalada pastosa | Lentejas recocidas o mezclado excesivo | Cocer al punto y mover con suavidad |\n| Agua en la fuente | Calabaza o lentejas mal escurridas | Secar y asar por separado |\n| Sabor ácido dominante | Demasiado limón y vinagre | Emulsionar por partes y probar |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar las sobras en recipiente limpio. Se puede conservar la vinagreta aparte para evitar reblandecimiento. Consumir en plazo corto y mantener frío si se prepara con antelación.\n\n## Relaciones dentro del SGCC\n\n- [Lentejas secas](../11_Despensa/02_Legumbres/lentejas.md)\n- [Calabaza](../11_Despensa/06_Verduras/calabaza.md)\n- [Mostaza](../11_Despensa/11_Condimentos/mostaza.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n\n## Principio de NovaCoquinaria\n\n> Una ensalada templada de legumbres requiere granos cocidos enteros y vegetales con el agua controlada antes del aliño.\n\n## Utilizado por\n\nReferencia para adaptar preparaciones de verduras y legumbres a distintas técnicas de horno y sartén."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "30–40 minutos más cocción de lentejas si están secas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_templada_de_lentejas_y_calabaza.html",
+  "id": "REC-0170",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lentejas pardinas ya cocidas, bien escurridas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de lentejas pardinas ya cocidas, bien escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de lentejas pardinas ya cocidas, bien escurridas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza limpia en dados de 2 cm",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de calabaza limpia en dados de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de calabaza limpia en dados de 2 cm",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla roja pequeña (80 g), en pluma fina",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla roja pequeña (80 g), en pluma fina",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla roja pequeña (80 g), en pluma fina",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra, repartidas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra, repartidas",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra, repartidas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza de Dijon",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza de Dijon",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de vino, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de vino, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada para emulsionar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de agua templada para emulsionar",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de agua templada para emulsionar",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco, opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco, opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 210 °C. Tener las lentejas totalmente cocidas y escurridas; si son secas, cocerlas aparte y enfriar o templar de manera segura. Cortar calabaza uniforme y preparar un cuenco de aliño.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/ensalada_templada_de_lentejas_y_calabaza.md",
+  "source_sha256": "bbcb9adfbe74f781049726a90e242e43b05d1a45f3cec020d0d453013266da72",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Asar la calabaza\n\nMezclar con 1 cucharada de aceite, sal y pimienta. Asar en bandeja separada 25–35 minutos, hasta tierna con bordes dorados.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Preparar la cebolla\n\nCortar plumas finas; si se desea sabor más suave, dejarla unos minutos con una pequeña cantidad de limón y escurrir.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Emulsionar vinagreta\n\nBatir mostaza, limón, vinagre opcional, agua y el aceite restante hasta obtener aliño ligado. Probar antes de salar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Integrar lentejas\n\nPoner lentejas cocidas escurridas en una fuente y añadir una parte del aliño. Mezclar suavemente sin romper granos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Finalizar\n\nIncorporar calabaza templada y cebolla. Añadir el resto de vinagreta según necesidad y perejil al servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 109,
+        "start_line": 109
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Ensalada templada de lentejas y calabaza asada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como plato ligero",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

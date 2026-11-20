@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Mantecados de Estepa de almendra\n\n## Origen y contexto\n\n**Región:** Estepa, Sevilla, Andalucía. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 20–24 unidades |\n| Tiempo orientativo | 40 min activos más reposo y 15–20 min de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de harina de trigo común\n- 170 g de manteca de cerdo apta para repostería\n- 130 g de azúcar glas\n- 90 g de almendra molida\n- 1 cucharadita de canela molida (2–3 g)\n- ralladura fina de medio limón lavado, opcional\n- 30 g de sésamo para decorar, opcional\n\n**Alérgenos:** Trigo/gluten y almendra; sésamo si se emplea.\n\n## Elaboración\n\n1. Extender la harina en una bandeja y tostarla en horno a 150 °C unos 25–35 minutos, removiendo cada 10 minutos, hasta que pierda humedad y tome ligero tono beige; dejar enfriar por completo.\n2. Mezclar la harina tostada fría con almendra molida, azúcar glas, canela y ralladura opcional.\n3. Incorporar manteca a temperatura ambiente y trabajar sin exceso hasta masa compactable; si está muy quebradiza dejar reposar tapada 20 minutos.\n4. Estirar entre papeles a 1,5–2 cm de grosor y cortar círculos, compactando los recortes con cuidado.\n5. Colocar en bandeja con papel, decorar con sésamo opcional y hornear a 175 °C durante 15–20 minutos, hasta que estén cocidos sin dorarlos excesivamente.\n6. Dejar enfriar completamente en la bandeja: son extremadamente frágiles mientras están calientes.\n7. Guardar una vez fríos, separados por papel alimentario para evitar roturas.\n\n## Puntos críticos\n\n- Es una formulación doméstica inspirada en mantecados tradicionales de Estepa, **no un producto certificado bajo indicación geográfica protegida**.\n- Tostar harina no equivale a asegurar por sí solo que la masa final pueda comerse cruda; respetar el horneado. Distinguir de nevaditos y perrunillas, aunque comparten manteca.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Mantecado quebrado al moverlo | Manipulación caliente | Enfriar por completo |\n| Masa que no compacta | Harina seca o poca grasa | Trabajar y reposar antes de ajustar |\n| Sabor tostado amargo | Harina demasiado tostada | Usar calor suave y remover |\n\n## Conservación\n\nGuardar completamente fríos en recipiente hermético, seco y fresco, alejados de fuentes de calor; consumir preferentemente en 7–10 días para buena calidad.\n\n## Relaciones dentro del SGCC\n\n- [Perrunillas extremeñas](../08_Postres/perrunillas_extremenas_de_manteca_y_limon.md)\n- [Nevaditos castellanos](../08_Postres/nevaditos_castellanos_de_manteca_y_vino_blanco.md)\n- [Hornear bizcochos](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40 min activos más reposo y 15–20 min de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/mantecados_de_estepa_de_almendra.html",
+  "id": "REC-560",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo apta para repostería",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de manteca de cerdo apta para repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de manteca de cerdo apta para repostería",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar glas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar glas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de almendra molida",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida (2–3 g)",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida (2–3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida (2–3 g)",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sésamo para decorar, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de sésamo para decorar, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de sésamo para decorar, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/mantecados_de_estepa_de_almendra.md",
+  "source_sha256": "adfc7498d8b703d620b468c64199a466ef2ca43dc04ef21de752720a4fa36778",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Extender la harina en una bandeja y tostarla en horno a 150 °C unos 25–35 minutos, removiendo cada 10 minutos, hasta que pierda humedad y tome ligero tono beige; dejar enfriar por completo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mezclar la harina tostada fría con almendra molida, azúcar glas, canela y ralladura opcional."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Incorporar manteca a temperatura ambiente y trabajar sin exceso hasta masa compactable; si está muy quebradiza dejar reposar tapada 20 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Estirar entre papeles a 1,5–2 cm de grosor y cortar círculos, compactando los recortes con cuidado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Colocar en bandeja con papel, decorar con sésamo opcional y hornear a 175 °C durante 15–20 minutos, hasta que estén cocidos sin dorarlos excesivamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Dejar enfriar completamente en la bandeja: son extremadamente frágiles mientras están calientes."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Guardar una vez fríos, separados por papel alimentario para evitar roturas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Mantecados de Estepa de almendra",
+  "yield": {
+    "max": "24",
+    "min": "20",
+    "raw": "20–24 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Sopa castellana de ajo y pan con huevo\n\n## Origen y contexto\n\n**Región:** Castilla y León, tradición castellana. Versión doméstica de referencia de una especialidad regional; no se declara como receta única ni como preparación ya probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 30–40 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 160 g de pan candeal asentado, cortado fino\n- 6 dientes de ajo laminados\n- 4 huevos L\n- 1 cucharadita de pimentón dulce\n- 1,1 l de caldo suave o agua caliente\n- 3 cucharadas de aceite de oliva\n- sal al final\n\n**Alérgenos:** Gluten (trigo), huevo; revisar caldo comercial.\n\n## Elaboración\n\n1. Calentar aceite en cazuela y dorar los ajos a fuego medio-bajo sin que se quemen.\n2. Incorporar rebanadas finas de pan y dorarlas ligeramente en el aceite, removiendo para impregnarlas.\n3. Retirar unos segundos del fuego e incorporar pimentón dulce, sin permitir que se queme.\n4. Añadir el caldo o agua caliente poco a poco; cocinar a fuego suave unos 12–15 minutos hasta que el pan se hidrate y el caldo ligue ligeramente.\n5. Cascar los huevos de uno en uno en un cuenco pequeño y añadirlos a la cazuela sin mezclar para que se escalfen.\n6. Cocinar a fuego suave hasta que claras y yemas estén completamente cuajadas para esta versión doméstica; repartir un huevo por ración.\n7. Probar sal y servir bien caliente.\n\n## Puntos críticos\n\n- El ajo debe dorarse, no quemarse, y el pimentón debe añadirse fuera del calor directo. Esta versión cuaja completamente los huevos; el nombre regional no implica una única formulación.\n- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste de una próxima tanda |\n|---|---|---|\n| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |\n| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |\n| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Ajoblanco malagueño](./ajoblanco_malagueno_de_almendras_y_uvas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades realmente empleadas, proceso, tiempos, textura y valoración. No sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/sopa_castellana_de_ajo_y_pan_con_huevo.html",
+  "id": "REC-443",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pan candeal asentado, cortado fino",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de pan candeal asentado, cortado fino",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de pan candeal asentado, cortado fino",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "6 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo suave o agua caliente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1.1",
+        "min": "1.1",
+        "raw": "1,1 l de caldo suave o agua caliente",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1,1 l de caldo suave o agua caliente",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/sopa_castellana_de_ajo_y_pan_con_huevo.md",
+  "source_sha256": "102e8e91b0024b70bfb651101248ed8a74c94a1b5895c07f91cdc9a8832e6f7c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Calentar aceite en cazuela y dorar los ajos a fuego medio-bajo sin que se quemen."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Incorporar rebanadas finas de pan y dorarlas ligeramente en el aceite, removiendo para impregnarlas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Retirar unos segundos del fuego e incorporar pimentón dulce, sin permitir que se queme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Añadir el caldo o agua caliente poco a poco; cocinar a fuego suave unos 12–15 minutos hasta que el pan se hidrate y el caldo ligue ligeramente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cascar los huevos de uno en uno en un cuenco pequeño y añadirlos a la cazuela sin mezclar para que se escalfen."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cocinar a fuego suave hasta que claras y yemas estén completamente cuajadas para esta versión doméstica; repartir un huevo por ración."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Probar sal y servir bien caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Sopa castellana de ajo y pan con huevo",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

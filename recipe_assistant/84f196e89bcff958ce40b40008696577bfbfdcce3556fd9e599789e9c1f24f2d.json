@@ -1,0 +1,327 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Piononos de Santa Fe con crema tostada\n\n## Origen y contexto\n\n**Región:** Santa Fe, Granada, Andalucía. Formulación doméstica de referencia con los elementos característicos de la preparación. Las proporciones se proponen para una futura prueba, sin atribuirles validez universal ni experiencia ya documentada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 10–12 unidades pequeñas |\n| Duración orientativa | 75–95 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 huevos L para una plancha fina de bizcocho\n- 100 g de azúcar para el bizcocho\n- 100 g de harina de trigo\n- 90 g de azúcar y 90 ml de agua para almíbar\n- 250 ml de leche entera para crema\n- 2 yemas de huevo L para crema\n- 45 g de azúcar para crema\n- 20 g de maicena\n- piel de limón lavada y canela en rama para aromatizar\n- azúcar glas o azúcar fino para quemar la superficie\n\n**Alérgenos:** Huevo, leche y gluten (trigo).\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C; batir los 4 huevos con 100 g de azúcar hasta obtener una espuma voluminosa e incorporar harina tamizada suavemente.\n2. Extender una capa fina y uniforme de masa sobre una bandeja con papel de hornear y cocer aproximadamente 9–12 minutos hasta que la plancha esté completamente hecha y flexible.\n3. Preparar un almíbar calentando 90 g de azúcar con 90 ml de agua hasta disolver; dejar enfriar.\n4. Para la crema, infusionar leche con piel de limón y canela, retirar los aromáticos y mezclar gradualmente con yemas, azúcar y maicena batidos.\n5. Devolver al cazo y cocer removiendo hasta que la crema espese y hierva suavemente al menos 1 minuto; enfriar rápidamente tapada a contacto.\n6. Pincelar la plancha de bizcocho con almíbar, extender una capa muy fina de crema fría y enrollarla firmemente sin romperla.\n7. Refrigerar el rollo hasta que se asiente; cortar cilindros individuales y colocar una pequeña porción de crema fría sobre cada uno.\n8. Espolvorear azúcar solo sobre la crema superior y caramelizar con soplete apto para repostería justo antes de servir, sin recalentar el centro; mantener refrigerados hasta el servicio.\n\n## Puntos críticos\n\n- Los piononos originales de Santa Fe tienen formatos y proporciones propios; esta es una interpretación doméstica por plancha enrollada. La crema debe cocerse completamente y mantenerse fría. El caramelizado exige un soplete adecuado y precaución.\n- Aplicar higiene de los ingredientes y utensilios, separar productos crudos y cocinados y refrigerar de forma apropiada los perecederos.\n- Comprobar el punto de cocción real de cada ingrediente y registrar ajustes de cantidades, temperatura y tiempo antes de consolidar una versión.\n\n## Diagnóstico\n\n| Observación | Posible causa | Ajuste para próxima elaboración |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |\n| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |\n| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Crema catalana con canela y limón](./crema_catalana_con_canela_y_limon.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes reales, pesos, tiempos, textura y valoración. Esta propuesta no modifica versiones previamente cocinadas ni declara una mejora sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/piononos_de_santa_fe_con_crema_tostada.html",
+  "id": "REC-441",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L para una plancha fina de bizcocho",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L para una plancha fina de bizcocho",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L para una plancha fina de bizcocho",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el bizcocho",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar para el bizcocho",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar para el bizcocho",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar y 90 ml de agua para almíbar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar y 90 ml de agua para almíbar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar y 90 ml de agua para almíbar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera para crema",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de leche entera para crema",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de leche entera para crema",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas de huevo L para crema",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 yemas de huevo L para crema",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 yemas de huevo L para crema",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para crema",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de azúcar para crema",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de azúcar para crema",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de maicena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de maicena",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de limón lavada y canela en rama para aromatizar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de limón lavada y canela en rama para aromatizar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de limón lavada y canela en rama para aromatizar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas o azúcar fino para quemar la superficie",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar glas o azúcar fino para quemar la superficie",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar glas o azúcar fino para quemar la superficie",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/piononos_de_santa_fe_con_crema_tostada.md",
+  "source_sha256": "2449b468c2904e58b64d39f965448b846493a8b6840323f2c3de89bf5d4b5f8b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C; batir los 4 huevos con 100 g de azúcar hasta obtener una espuma voluminosa e incorporar harina tamizada suavemente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Extender una capa fina y uniforme de masa sobre una bandeja con papel de hornear y cocer aproximadamente 9–12 minutos hasta que la plancha esté completamente hecha y flexible."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Preparar un almíbar calentando 90 g de azúcar con 90 ml de agua hasta disolver; dejar enfriar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Para la crema, infusionar leche con piel de limón y canela, retirar los aromáticos y mezclar gradualmente con yemas, azúcar y maicena batidos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Devolver al cazo y cocer removiendo hasta que la crema espese y hierva suavemente al menos 1 minuto; enfriar rápidamente tapada a contacto."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Pincelar la plancha de bizcocho con almíbar, extender una capa muy fina de crema fría y enrollarla firmemente sin romperla."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Refrigerar el rollo hasta que se asiente; cortar cilindros individuales y colocar una pequeña porción de crema fría sobre cada uno."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Espolvorear azúcar solo sobre la crema superior y caramelizar con soplete apto para repostería justo antes de servir, sin recalentar el centro; mantener refrigerados hasta el servicio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Piononos de Santa Fe con crema tostada",
+  "yield": {
+    "max": "12",
+    "min": "10",
+    "raw": "10–12 unidades pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

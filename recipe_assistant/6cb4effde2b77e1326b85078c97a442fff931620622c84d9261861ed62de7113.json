@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Agua fresca de sandía y lima\n\n## Descripción\n\nBebida doméstica de referencia basada en **triturado de fruta, colado opcional y ajuste ácido**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Triturado de fruta, colado opcional y ajuste ácido |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de pulpa de sandía sin corteza;\n- 250 ml de agua potable muy fría;\n- 30 ml de zumo de lima;\n- hojas de menta fresca opcionales;\n- 10–20 g de azúcar opcional según madurez;\n- hielo de agua potable para servir;\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Preparación\n\n1. Lavar el exterior de la sandía antes de cortarla, utilizar tabla y cuchillo limpios y separar la corteza de la pulpa.\n2. Retirar semillas visibles si se desea y pesar la pulpa limpia.\n3. Triturar con agua fría hasta una mezcla homogénea.\n4. Añadir zumo de lima y probar; ajustar con azúcar solo si la fruta lo necesita.\n5. Colar si se prefiere textura ligera; incorporar menta ligeramente golpeada, sin triturarla excesivamente.\n6. Servir con hielo y mantener la bebida restante refrigerada y tapada.\n\n## Puntos críticos\n\n- La fruta cortada y triturada es perecedera y debe refrigerarse rápidamente. Añadir el ácido al final evita ocultar el dulzor de una sandía madura.\n- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.\n- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.\n\n## Diagnóstico\n\n| Resultado | Causa posible | Ajuste de referencia |\n|---|---|---|\n| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |\n| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |\n| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |\n| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |\n\n## Conservación\n\nLas bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.\n\n## Relaciones dentro del SGCC\n\n- [Lima](../11_Despensa/11_Condimentos/lima.md)\n- [Agua de pepino, lima y menta](./agua_de_pepino_lima_y_menta.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **triturado de fruta, colado opcional y ajuste ácido**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/agua_fresca_de_sandia_y_lima.html",
+  "id": "REC-0261",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pulpa de sandía sin corteza;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de pulpa de sandía sin corteza;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de pulpa de sandía sin corteza;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable muy fría;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua potable muy fría;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua potable muy fría;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de zumo de lima;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de zumo de lima;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "hojas de menta fresca opcionales;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hojas de menta fresca opcionales;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hojas de menta fresca opcionales;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional según madurez;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "10",
+        "raw": "10–20 g de azúcar opcional según madurez;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "10–20 g de azúcar opcional según madurez;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo de agua potable para servir;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo de agua potable para servir;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo de agua potable para servir;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/agua_fresca_de_sandia_y_lima.md",
+  "source_sha256": "4e6c6493ada554766212b151cbc9dd7afa5e8792f3d850747dc79740c9a83fad",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar el exterior de la sandía antes de cortarla, utilizar tabla y cuchillo limpios y separar la corteza de la pulpa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Retirar semillas visibles si se desea y pesar la pulpa limpia."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Triturar con agua fría hasta una mezcla homogénea."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Añadir zumo de lima y probar; ajustar con azúcar solo si la fruta lo necesita."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Colar si se prefiere textura ligera; incorporar menta ligeramente golpeada, sin triturarla excesivamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir con hielo y mantener la bebida restante refrigerada y tapada."
+    }
+  ],
+  "techniques": [],
+  "title": "Agua fresca de sandía y lima",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

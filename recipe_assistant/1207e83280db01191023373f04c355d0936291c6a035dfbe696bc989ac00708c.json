@@ -1,0 +1,268 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 120,
+      "start_line": 16
+    },
+    "text": "\n# Espaguetis aglio e olio\n\n## Descripción\n\nPreparación italiana de pasta con ajo y aceite de oliva virgen extra. La textura de la salsa se consigue integrando el aceite aromatizado con una pequeña cantidad de agua de cocción mediante movimiento y calor controlado. El chile y el perejil son complementos habituales, pero opcionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 12–15 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Aromatizar aceite y ligar con agua de cocción |\n\n## Ingredientes\n\n- 200 g de espaguetis secos;\n- 4 dientes de ajo, laminados finamente;\n- 45 ml de aceite de oliva virgen extra;\n- 1 guindilla seca pequeña o una pizca de chile en copos, opcional;\n- 1 cucharada de perejil fresco picado, opcional;\n- sal para el agua de cocción;\n- agua de cocción reservada, según necesidad.\n\n## Mise en place\n\nLaminar el ajo con grosor uniforme, medir el aceite y preparar el chile y el perejil. Tener una sartén amplia disponible para terminar la pasta.\n\n## Elaboración\n\n### 1. Cocer la pasta\n\nCocer los espaguetis en agua salada. Comprobar el punto uno o dos minutos antes del tiempo del fabricante y reservar una taza de agua de cocción. Retirar la pasta ligeramente firme para terminarla en la sartén.\n\n### 2. Aromatizar el aceite\n\nMientras se cuece la pasta, calentar el aceite a fuego bajo o medio-bajo. Añadir el ajo y, si se utiliza, el chile. Cocinar lentamente hasta que el ajo esté ligeramente dorado, sin llegar a marrón oscuro. Retirar momentáneamente del fuego si se dora demasiado rápido.\n\n### 3. Integrar la pasta\n\nAñadir los espaguetis a la sartén con el aceite aromatizado. Incorporar unas cucharadas de agua de cocción y mezclar o agitar vigorosamente durante un breve acabado a fuego moderado.\n\nAñadir agua poco a poco hasta obtener una película brillante que recubra la pasta, sin charcos de aceite ni exceso de líquido.\n\n### 4. Finalizar\n\nComprobar la textura y la salinidad. Incorporar perejil fuera del fuego si se desea y servir inmediatamente.\n\n## Puntos críticos\n\n- **Ajo:** un dorado excesivo aporta amargor difícil de corregir.\n- **Agua de cocción:** debe añadirse gradualmente; no toda el agua reservada es necesaria.\n- **Ligado:** el movimiento de la pasta favorece la dispersión de aceite y agua; no se trata de hervir la salsa hasta secarla.\n- **Punto de cocción:** la pasta termina de cocinarse durante el mezclado.\n\n## Perfil esperado\n\nPasta firme, ajo fragante y suave, picante opcional y salsa ligera, brillante y adherida.\n\n## Variantes y sustituciones\n\n| Variante | Cambio | Resultado |\n|---|---|---|\n| Con chile | Añadir guindilla | Perfil picante |\n| Con perejil | Incorporarlo al final | Aroma fresco |\n| Con ralladura de limón | Añadir una pequeña cantidad al servir | Perfil cítrico, no tradicional en todas las versiones |\n| Con linguine | Sustituir espaguetis | Textura y superficie diferentes |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Corrección |\n|---|---|---|\n| Quemar el ajo | Amargor | Reducir temperatura y vigilar |\n| Añadir agua en exceso | Salsa acuosa | Incorporar pequeñas cantidades |\n| No mover la pasta | Aceite separado | Mezclar durante el acabado |\n| Cocer totalmente antes de saltear | Pasta blanda | Reservar parte de la cocción para la sartén |\n\n## Conservación\n\nConsumir recién preparada. Refrigerar rápidamente las sobras y recalentar suavemente con un poco de agua, asumiendo cierta pérdida de textura.\n\n---\n\n## Principio de NovaCoquinaria\n\n> En aglio e olio, el control del ajo y la integración de aceite y agua importan más que la cantidad de ingredientes.\n\n---\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n- [Relación entre formatos y salsas](../98_Tablas/07_Comparativas/relacion_pasta_salsa.md)\n- [Conservación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n## Utilizado por\n\nReceta de referencia del dominio **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_aglio_e_olio.html",
+  "id": "REC-0026",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espaguetis secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espaguetis secos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, laminados finamente;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo, laminados finamente;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo, laminados finamente;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla seca pequeña o una pizca de chile en copos, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla seca pequeña o una pizca de chile en copos, opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla seca pequeña o una pizca de chile en copos, opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil fresco picado, opcional;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil fresco picado, opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal para el agua de cocción;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal para el agua de cocción;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal para el agua de cocción;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción reservada, según necesidad.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción reservada, según necesidad.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción reservada, según necesidad.",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLaminar el ajo con grosor uniforme, medir el aceite y preparar el chile y el perejil. Tener una sartén amplia disponible para terminar la pasta.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/espaguetis_aglio_e_olio.md",
+  "source_sha256": "eb5af96c75124532ab14a94de2be3cb780984e6e40196ec570664198f8341daf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Cocer la pasta\n\nCocer los espaguetis en agua salada. Comprobar el punto uno o dos minutos antes del tiempo del fabricante y reservar una taza de agua de cocción. Retirar la pasta ligeramente firme para terminarla en la sartén.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar el aceite\n\nMientras se cuece la pasta, calentar el aceite a fuego bajo o medio-bajo. Añadir el ajo y, si se utiliza, el chile. Cocinar lentamente hasta que el ajo esté ligeramente dorado, sin llegar a marrón oscuro. Retirar momentáneamente del fuego si se dora demasiado rápido.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Integrar la pasta\n\nAñadir los espaguetis a la sartén con el aceite aromatizado. Incorporar unas cucharadas de agua de cocción y mezclar o agitar vigorosamente durante un breve acabado a fuego moderado.\n\nAñadir agua poco a poco hasta obtener una película brillante que recubra la pasta, sin charcos de aceite ni exceso de líquido.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Finalizar\n\nComprobar la textura y la salinidad. Incorporar perejil fuera del fuego si se desea y servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Espaguetis aglio e olio",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

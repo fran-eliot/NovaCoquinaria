@@ -1,0 +1,377 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Fideos a la cazuela catalanes con costilla\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 60–75 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de fideos gruesos de trigo (n.º 4 o similar)\n- 500 g de costilla de cerdo fresca cortada pequeña\n- 150 g de cebolla\n- 100 g de pimiento verde\n- 250 g de tomate maduro rallado\n- 3 dientes de ajo\n- 50 ml de aceite de oliva\n- 1 l de caldo de carne caliente, aproximado\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce (3 g)\n- 20 g de almendra tostada, opcional para la picada\n- perejil fresco, sal y pimienta\n\n**Alérgenos:** Trigo/gluten de los fideos; almendra si se incorpora la picada y posibles alérgenos del caldo.\n\n## Elaboración\n\n1. Secar la costilla, salpimentar y dorarla por tandas en una cazuela con aceite; reservar.\n2. Pochar cebolla y pimiento picados 10 minutos; añadir ajo y tomate y sofreír hasta reducir unos 10 minutos.\n3. Incorporar pimentón apartado un instante del fuego para evitar que se queme; devolver la costilla, añadir laurel y 500 ml de caldo.\n4. Tapar y guisar a fuego suave 25–35 minutos hasta que la carne esté tierna y bien cocinada, añadiendo caldo si se evapora.\n5. Añadir los fideos y unos 500 ml de caldo caliente restante; cocer según fabricante, alrededor de 10–14 minutos, removiendo de vez en cuando.\n6. Opcionalmente majar almendra con perejil y algo del caldo, añadir en los últimos 3 minutos y ajustar la consistencia, melosa y no completamente seca.\n7. Comprobar la cocción del cerdo y el punto de pasta y servir caliente después de 2 minutos de reposo.\n\n## Puntos críticos\n\n- Los fideos a la cazuela se guisan en un sofrito con carne y líquido absorbido parcialmente, distintos de la fideuá marinera ya incorporada.\n- La picada con almendra es opcional y modifica los alérgenos; los tiempos de la pasta dependen del calibre.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Fideos blandos | Exceso de cocción y reposo | Añadir pasta solo al final |\n| Costilla dura | Guiso previo corto | Prolongar antes de añadir fideos |\n| Cazuela seca | Caldo insuficiente | Reservar caldo caliente para ajustar |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar a 4 °C o menos durante un máximo orientativo de 2 días; recalentar completamente. La pasta absorberá caldo durante el reposo.\n\n## Relaciones dentro del SGCC\n\n- [Fideuá marinera](../02_Pastas/fideua_marinera_de_inspiracion_gandia.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "60",
+      "phase": "declared_total",
+      "raw": "60–75 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cataluña. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/fideos_a_la_cazuela_catalanes_con_costilla.html",
+  "id": "REC-550",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fideos gruesos de trigo (n.º 4 o similar)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de fideos gruesos de trigo (n.º 4 o similar)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de fideos gruesos de trigo (n.º 4 o similar)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "costilla de cerdo fresca cortada pequeña",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de costilla de cerdo fresca cortada pequeña",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de costilla de cerdo fresca cortada pequeña",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne caliente, aproximado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": true,
+        "max": "1",
+        "min": "1",
+        "raw": "1 l de caldo de carne caliente, aproximado",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 l de caldo de carne caliente, aproximado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra tostada, opcional para la picada",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de almendra tostada, opcional para la picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de almendra tostada, opcional para la picada",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco, sal y pimienta",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco, sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco, sal y pimienta",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/fideos_a_la_cazuela_catalanes_con_costilla.md",
+  "source_sha256": "8c439047251b9c5fc2bbdcca33b0f91da02a42753e10821387d036293c687790",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Secar la costilla, salpimentar y dorarla por tandas en una cazuela con aceite; reservar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento picados 10 minutos; añadir ajo y tomate y sofreír hasta reducir unos 10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Incorporar pimentón apartado un instante del fuego para evitar que se queme; devolver la costilla, añadir laurel y 500 ml de caldo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Tapar y guisar a fuego suave 25–35 minutos hasta que la carne esté tierna y bien cocinada, añadiendo caldo si se evapora."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Añadir los fideos y unos 500 ml de caldo caliente restante; cocer según fabricante, alrededor de 10–14 minutos, removiendo de vez en cuando."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Opcionalmente majar almendra con perejil y algo del caldo, añadir en los últimos 3 minutos y ajustar la consistencia, melosa y no completamente seca."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Comprobar la cocción del cerdo y el punto de pasta y servir caliente después de 2 minutos de reposo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Fideos a la cazuela catalanes con costilla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

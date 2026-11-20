@@ -1,0 +1,258 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 108,
+      "start_line": 15
+    },
+    "text": "\n# Brócoli al vapor con sésamo y limón\n\n## Descripción\n\nBrócoli cocinado al vapor y acabado con una salsa ligera de sésamo, limón y aceite. Introduce el vapor como método distinto del salteado y el asado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Preparación | 10 minutos |\n| Cocinado | 6–10 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Cocción al vapor y aliño |\n\n## Ingredientes\n\n- 600 g de brócoli en ramilletes\n- 1 cucharada de semillas de sésamo\n- 2 cucharadas de aceite de oliva virgen extra o aceite neutro\n- 1 cucharada de zumo de limón\n- 1 cucharadita de salsa de soja opcional\n- 1 diente de ajo pequeño rallado opcional\n- sal y pimienta negra\n\n**Alérgenos:** Sésamo; soja y trigo si se utiliza salsa de soja con trigo.\n\n## Mise en place\n\nSeparar los ramilletes de tamaño uniforme y cortar los tallos pelados en rodajas finas. Lavar y escurrir. Preparar cesta de vapor sin que toque el agua.\n\n## Elaboración\n\n### 1. Tostar sésamo\n\nTostar las semillas en sartén seca a fuego medio-bajo durante 1–2 minutos, moviendo hasta que desprendan aroma; retirar inmediatamente para evitar que se quemen.\n\n### 2. Cocer al vapor\n\nLlevar el agua a hervor; introducir tallos primero y, tras 1–2 minutos, ramilletes. Tapar y cocinar otros 4–6 minutos, comprobando con cuchillo hasta que estén tiernos pero aún firmes.\n\n### 3. Preparar aliño\n\nMezclar aceite, limón, salsa de soja opcional y ajo opcional; probar antes de salar.\n\n### 4. Terminar\n\nDejar escurrir el brócoli brevemente, mezclar con el aliño y repartir sésamo tostado. Servir de inmediato.\n\n## Puntos críticos\n\n- La cocción al vapor continúa ligeramente con calor residual; evitar dejar el brócoli tapado una vez tierno.\n- El tamaño de los ramilletes condiciona el tiempo.\n- El sésamo y la salsa de soja modifican el perfil de alérgenos.\n\n## Perfil esperado\n\nBrócoli verde y tierno con ligera firmeza, aliño cítrico y sésamo aromático.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con aceite de sésamo tostado | Sustituir una pequeña parte del aceite y ajustar la intensidad |\n| Con chile | Añadir unas escamas al aliño |\n| Sin soja | Omitir la salsa de soja y ajustar sal directamente |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Brócoli gris y blando | Exceso de cocción | Retirar al punto y destapar |\n| Aliño diluido | Agua adherida | Escurrir antes de mezclar |\n| Sésamo amargo | Tostado excesivo | Retirar al primer aroma tostado |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Brócoli](../11_Despensa/06_Verduras/brocoli.md)\n- [Diagnóstico de verduras](../98_Tablas/07_Comparativas/diagnostico_verduras.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El vapor permite conservar estructura sin dorado; el sabor se desarrolla en el aliño posterior.\n\n## Utilizado por\n\nPreparación de referencia de brócoli al vapor con sésamo y limón en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "6",
+      "phase": "cooking",
+      "raw": "6–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/brocoli_al_vapor_con_sesamo_y_limon.html",
+  "id": "REC-0120",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "brócoli en ramilletes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de brócoli en ramilletes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de brócoli en ramilletes",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de sésamo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de semillas de sésamo",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de semillas de sésamo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra o aceite neutro",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra o aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra o aceite neutro",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de soja opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de soja opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño rallado opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño rallado opcional",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño rallado opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSeparar los ramilletes de tamaño uniforme y cortar los tallos pelados en rodajas finas. Lavar y escurrir. Preparar cesta de vapor sin que toque el agua.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/brocoli_al_vapor_con_sesamo_y_limon.md",
+  "source_sha256": "740df060b56a6e37333e305cec6318852e423bf65337c03af598d586b8d53303",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Tostar sésamo\n\nTostar las semillas en sartén seca a fuego medio-bajo durante 1–2 minutos, moviendo hasta que desprendan aroma; retirar inmediatamente para evitar que se quemen.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Cocer al vapor\n\nLlevar el agua a hervor; introducir tallos primero y, tras 1–2 minutos, ramilletes. Tapar y cocinar otros 4–6 minutos, comprobando con cuchillo hasta que estén tiernos pero aún firmes.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Preparar aliño\n\nMezclar aceite, limón, salsa de soja opcional y ajo opcional; probar antes de salar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Terminar\n\nDejar escurrir el brócoli brevemente, mezclar con el aliño y repartir sésamo tostado. Servir de inmediato.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Brócoli al vapor con sésamo y limón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

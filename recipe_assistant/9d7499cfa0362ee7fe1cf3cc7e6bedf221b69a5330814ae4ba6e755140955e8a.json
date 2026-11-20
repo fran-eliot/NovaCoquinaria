@@ -1,0 +1,351 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Huevos a la flamenca sevillanos\n\n## Origen y contexto\n\n**Región:** Sevilla, Andalucía. La ficha propone una formulación doméstica con rasgos reconocibles de la especialidad regional. No consta como receta cocinada ni valorada personalmente, y se identifican las adaptaciones respecto a versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 cazuelitas |\n| Tiempo orientativo | 40–50 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 huevos L\n- 350 g de tomate triturado\n- 180 g de cebolla\n- 140 g de pimiento rojo\n- 150 g de guisantes completamente cocidos\n- 120 g de jamón serrano en dados\n- 100 g de chorizo apto para cocinar en rodajas pequeñas\n- 450 g de patatas\n- 3 cucharadas de aceite de oliva\n- sal moderada y pimentón dulce opcional\n\n**Alérgenos:** Huevo; revisar chorizo y jamón por soja, gluten, sulfitos u otros ingredientes comerciales.\n\n## Elaboración\n\n1. Precalentar horno a 190 °C y disponer cuatro cazuelitas aptas para horno.\n2. Pelar y cortar las patatas en dados pequeños; freírlas o asarlas por separado hasta que estén completamente tiernas. Escurrir.\n3. Pochar cebolla y pimiento en aceite durante 8–10 minutos; agregar el tomate y reducir unos 12 minutos hasta que la salsa esté espesa.\n4. Añadir chorizo y cocinarlo completamente; incorporar el jamón y los guisantes ya cocidos, mezclando suavemente.\n5. Distribuir patatas y sofrito en las cuatro cazuelitas, dejando un pequeño hueco central en cada una.\n6. Cascar un huevo en cuenco individual y deslizarlo sobre cada cazuelita sin romper la yema.\n7. Hornear aproximadamente 10–15 minutos, según el horno y la temperatura inicial, hasta que tanto claras como yemas estén completamente cuajadas en esta formulación doméstica.\n8. Dejar reposar brevemente y servir caliente, advirtiendo que la cerámica mantiene el calor.\n\n## Puntos críticos\n\n- Las cazuelitas pueden calentarse de forma desigual; comprobar el cuajado real del huevo. Jamón y chorizo pueden aportar suficiente sal; el chorizo debe cocinarse completamente.\n- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para próxima prueba |\n|---|---|---|\n| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |\n| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |\n| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |\n\n## Conservación\n\nServir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.\n\n## Relaciones dentro del SGCC\n\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Patatas a la importancia](../04_Verduras/patatas_a_la_importancia_castellanas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, procedencia de materias primas, tiempo efectivo, resultado y valoración. No se sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/huevos_a_la_flamenca_sevillanos.html",
+  "id": "REC-470",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de pimiento rojo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes completamente cocidos",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de guisantes completamente cocidos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de guisantes completamente cocidos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano en dados",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de jamón serrano en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de jamón serrano en dados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo apto para cocinar en rodajas pequeñas",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de chorizo apto para cocinar en rodajas pequeñas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de chorizo apto para cocinar en rodajas pequeñas",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de patatas",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y pimentón dulce opcional",
+      "optionality": "unknown",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y pimentón dulce opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y pimentón dulce opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/huevos_a_la_flamenca_sevillanos.md",
+  "source_sha256": "744a0d292b348275f2458ac6f467967a26c11b472840e49b0e340193955c5f72",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 190 °C y disponer cuatro cazuelitas aptas para horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pelar y cortar las patatas en dados pequeños; freírlas o asarlas por separado hasta que estén completamente tiernas. Escurrir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento en aceite durante 8–10 minutos; agregar el tomate y reducir unos 12 minutos hasta que la salsa esté espesa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir chorizo y cocinarlo completamente; incorporar el jamón y los guisantes ya cocidos, mezclando suavemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Distribuir patatas y sofrito en las cuatro cazuelitas, dejando un pequeño hueco central en cada una."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Cascar un huevo en cuenco individual y deslizarlo sobre cada cazuelita sin romper la yema."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Hornear aproximadamente 10–15 minutos, según el horno y la temperatura inicial, hasta que tanto claras como yemas estén completamente cuajadas en esta formulación doméstica."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Dejar reposar brevemente y servir caliente, advirtiendo que la cerámica mantiene el calor."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Huevos a la flamenca sevillanos",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 cazuelitas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

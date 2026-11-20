@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Bacalao a la vizcaína con pimiento choricero\n\n## Origen y contexto\n\n**Región:** Bizkaia, País Vasco. Formulación doméstica de referencia con los elementos característicos de la preparación. Las proporciones se proponen para una futura prueba, sin atribuirles validez universal ni experiencia ya documentada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Duración orientativa | 65–80 minutos, sin contar desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 lomos de bacalao desalado, unos 650–750 g\n- 6 pimientos choriceros secos o 80 g de pulpa de pimiento choricero sin tomate\n- 400 g de cebolla blanca y roja mezcladas, en juliana fina\n- 3 dientes de ajo\n- 3 cucharadas de aceite de oliva\n- 150–250 ml de agua o fumet suave\n- una pizca de sal solo después de probar\n\n**Alérgenos:** Pescado; revisar fumet comercial y pulpa de pimiento.\n\n## Elaboración\n\n1. Si se parte de bacalao en salazón, desalarlo en refrigeración con los cambios de agua adecuados a su grosor; retirar espinas visibles y secar.\n2. Hidratar los pimientos choriceros según el producto y raspar la pulpa descartando pieles y semillas.\n3. Pochar lentamente las cebollas y el ajo en aceite a fuego bajo durante 30–40 minutos hasta estar muy tiernos, sin quemarlos.\n4. Añadir la pulpa choricera y algo de agua o fumet; cocinar 10 minutos más. Triturar y pasar por colador si se desea una salsa fina.\n5. Colocar los lomos de bacalao en la salsa y cocer a fuego suave aproximadamente 7–12 minutos, según grosor, sin hervir con fuerza.\n6. Comprobar que el centro alcance 63 °C como referencia conservadora y retirar de inmediato para no secar el pescado.\n7. Probar la sal al final y servir los lomos cubiertos con salsa vizcaína.\n\n## Puntos críticos\n\n- La salsa vizcaína tradicional gira en torno a cebolla y pimiento choricero; esta versión no utiliza tomate. No confundir con el bacalao ajoarriero ni salar antes de conocer el desalado.\n- Aplicar higiene de los ingredientes y utensilios, separar productos crudos y cocinados y refrigerar de forma apropiada los perecederos.\n- Comprobar el punto de cocción real de cada ingrediente y registrar ajustes de cantidades, temperatura y tiempo antes de consolidar una versión.\n\n## Diagnóstico\n\n| Observación | Posible causa | Ajuste para próxima elaboración |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |\n| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |\n| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao ajoarriero navarro](./bacalao_ajoarriero_navarro_con_pimiento_choricero.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes reales, pesos, tiempos, textura y valoración. Esta propuesta no modifica versiones previamente cocinadas ni declara una mejora sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_a_la_vizcaina_con_pimiento_choricero.html",
+  "id": "REC-440",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de bacalao desalado, unos 650–750 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 lomos de bacalao desalado, unos 650–750 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 lomos de bacalao desalado, unos 650–750 g",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos choriceros secos o 80 g de pulpa de pimiento choricero sin tomate",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 pimientos choriceros secos o 80 g de pulpa de pimiento choricero sin tomate",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "6 pimientos choriceros secos o 80 g de pulpa de pimiento choricero sin tomate",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla blanca y roja mezcladas, en juliana fina",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de cebolla blanca y roja mezcladas, en juliana fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de cebolla blanca y roja mezcladas, en juliana fina",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o fumet suave",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de agua o fumet suave",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de agua o fumet suave",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal solo después de probar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal solo después de probar",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal solo después de probar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_a_la_vizcaina_con_pimiento_choricero.md",
+  "source_sha256": "8ac451c95c682eb909a35c5ecf20126b923506ab9a814429b6ed4c7f332196dd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Si se parte de bacalao en salazón, desalarlo en refrigeración con los cambios de agua adecuados a su grosor; retirar espinas visibles y secar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Hidratar los pimientos choriceros según el producto y raspar la pulpa descartando pieles y semillas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Pochar lentamente las cebollas y el ajo en aceite a fuego bajo durante 30–40 minutos hasta estar muy tiernos, sin quemarlos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Añadir la pulpa choricera y algo de agua o fumet; cocinar 10 minutos más. Triturar y pasar por colador si se desea una salsa fina."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Colocar los lomos de bacalao en la salsa y cocer a fuego suave aproximadamente 7–12 minutos, según grosor, sin hervir con fuerza."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Comprobar que el centro alcance 63 °C como referencia conservadora y retirar de inmediato para no secar el pescado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Probar la sal al final y servir los lomos cubiertos con salsa vizcaína."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bacalao a la vizcaína con pimiento choricero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

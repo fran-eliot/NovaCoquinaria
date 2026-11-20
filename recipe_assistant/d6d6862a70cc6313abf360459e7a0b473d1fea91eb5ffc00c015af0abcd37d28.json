@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 64,
+      "start_line": 13
+    },
+    "text": "\n# Pollo asado con patatas y limón\n\n## Descripción\nPollo al horno con patatas y limón en bandeja, con precocción breve de las patatas para coordinar tiempos.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Horneado | 45–60 min orientativos |\n| Temperatura | 200 °C, calor arriba y abajo |\n\n## Ingredientes\n- 4 muslos o contramuslos de pollo con hueso (aprox. 900 g);\n- 700 g de patatas;\n- 1 cebolla;\n- 1 limón;\n- 3 cucharadas de aceite de oliva;\n- 2 dientes de ajo;\n- 1 cucharadita de tomillo;\n- pimienta y sal moderada;\n- 100 ml de agua o caldo sin sal, opcional.\n\n## Elaboración\n1. Precalentar horno a **200 °C**.\n2. Pelar y cortar patatas en gajos de tamaño uniforme. Cocer en agua 7–8 minutos, escurrir y secar.\n3. Cortar cebolla en gajos y colocar con patatas en bandeja; añadir aceite, ajo y tomillo.\n4. Secar el pollo con papel de cocina sin lavarlo. Salpimentar y colocar sobre las verduras.\n5. Incorporar rodajas de limón y un poco de agua o caldo en el fondo si se desea jugosidad.\n6. Hornear 45–60 minutos, girando patatas a mitad de cocción. El tiempo varía según tamaño y horno.\n7. Comprobar **74 °C en la parte más gruesa del pollo, sin tocar hueso**, antes de servir. Si falta dorado, aumentar brevemente el calor superficial con vigilancia.\n\n## Puntos críticos\n- No confiar solo en el color del pollo para determinar seguridad.\n- Las patatas necesitan tiempo suficiente y espacio en la bandeja.\n- No reutilizar utensilios del pollo crudo para servir sin limpiarlos.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Patatas duras | Corte grueso o poco tiempo | Precocer más o prolongar |\n| Pollo seco | Exceso de cocción | Medir temperatura |\n| Piel pálida | Exceso de humedad | Secar y gratinar brevemente |\n\n## Relaciones\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n\n## Principio de NovaCoquinaria\n> Coordinar tiempos de pollo y patatas evita que uno termine antes que el otro."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "60",
+      "min": "45",
+      "phase": "baking",
+      "raw": "45–60 min orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/pollo_asado_con_patatas.html",
+  "id": "REC-0095",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos o contramuslos de pollo con hueso (aprox. 900 g);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 muslos o contramuslos de pollo con hueso (aprox. 900 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 muslos o contramuslos de pollo con hueso (aprox. 900 g);",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de patatas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de patatas;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo sin sal, opcional.",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo sin sal, opcional.",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo sin sal, opcional.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/pollo_asado_con_patatas.md",
+  "source_sha256": "f6b956c36cdb146e248c1e274a191ce2fdf8ec9fb18714d1de311434ca03ae5c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **200 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Pelar y cortar patatas en gajos de tamaño uniforme. Cocer en agua 7–8 minutos, escurrir y secar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Cortar cebolla en gajos y colocar con patatas en bandeja; añadir aceite, ajo y tomillo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Secar el pollo con papel de cocina sin lavarlo. Salpimentar y colocar sobre las verduras."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Incorporar rodajas de limón y un poco de agua o caldo en el fondo si se desea jugosidad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Hornear 45–60 minutos, girando patatas a mitad de cocción. El tiempo varía según tamaño y horno."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 7,
+      "text": "Comprobar **74 °C en la parte más gruesa del pollo, sin tocar hueso**, antes de servir. Si falta dorado, aumentar brevemente el calor superficial con vigilancia."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Pollo asado con patatas y limón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

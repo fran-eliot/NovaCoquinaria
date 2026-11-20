@@ -1,0 +1,344 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Fideos de arroz con gambas y lima\n\n## Descripción\n\nFideos de arroz salteados con gambas, zanahoria, cebolleta y lima. La preparación evita una salsa abundante para preservar la textura de los fideos y la cocción breve del marisco.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Preparación | 20 minutos |\n| Cocinado | 10–15 minutos, más hidratación según envase |\n| Dificultad | Fácil–media |\n| Técnica principal | Hidratación y salteado rápido |\n\n## Ingredientes\n\n- 250 g de fideos de arroz secos\n- 350 g de gambas peladas y limpias\n- 1 zanahoria en juliana fina\n- 2 cebolletas en tiras\n- 2 cucharadas de salsa de soja\n- 1 cucharada de zumo de lima, ajustable\n- 2 cucharadas de aceite neutro\n- 1 diente de ajo picado\n- 1 cucharadita de azúcar opcional\n- 40–60 ml de agua, solo si es necesario\n\n**Alérgenos:** Crustáceos y soja; posible trigo según salsa de soja.\n\n## Mise en place\n\nDescongelar gambas en refrigeración si procede, escurrirlas y secarlas. Hidratar los fideos siguiendo el envase y dejarlos ligeramente firmes si se acabarán en la sartén. Cortar verduras antes de comenzar.\n\n## Elaboración\n\n### 1. Hidratar fideos\n\nRemojar o cocer brevemente según las instrucciones del formato; escurrir y separar con cuidado.\n\n### 2. Saltear gambas\n\nCalentar una cucharada de aceite, saltear las gambas por tandas hasta que estén completamente cocinadas, opacas y firmes. Reservar.\n\n### 3. Saltear verduras\n\nAñadir aceite restante, zanahoria y cebolleta; cocinar 2–3 minutos conservando firmeza. Incorporar ajo unos segundos.\n\n### 4. Integrar fideos\n\nAñadir fideos y soja mezclada con azúcar opcional. Mover con cuidado 1–2 minutos, usando agua a cucharadas solo si se adhieren.\n\n### 5. Terminar\n\nDevolver las gambas, calentar el conjunto y añadir lima fuera del fuego. Servir inmediatamente.\n\n## Puntos críticos\n\n- Los fideos de arroz pueden romperse si se hidratan demasiado y después se saltean con fuerza.\n- Las gambas requieren una cocción completa pero breve.\n- Añadir demasiada salsa transforma el salteado en fideos blandos y húmedos.\n\n## Perfil esperado\n\nFideos sueltos y flexibles, gambas tiernas y acabado fresco de lima.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con brotes de soja | Añadir al final y cocinar completamente según el producto |\n| Con tofu | Sustituir gambas por tofu dorado; cambiar alérgenos |\n| Con chile | Añadir chile al ajo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Fideos rotos | Exceso de hidratación | Escurrir antes del punto final |\n| Gambas secas | Demasiado tiempo en sartén | Cocinarlas por separado e incorporar al final |\n| Salteado acuoso | Salsa excesiva | Añadir líquido con moderación |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n\n## Principio de NovaCoquinaria\n\n> En fideos de arroz, la hidratación previa y la humedad de la salsa se diseñan como un mismo proceso.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para hidratación y salteado rápido."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "10–15 minutos, más hidratación según envase",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/fideos_de_arroz_con_gambas_y_lima.html",
+  "id": "REC-0140",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fideos de arroz secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de fideos de arroz secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de fideos de arroz secos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "gambas peladas y limpias",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de gambas peladas y limpias",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de gambas peladas y limpias",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en juliana fina",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria en juliana fina",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria en juliana fina",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolletas en tiras",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebolletas en tiras",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebolletas en tiras",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima, ajustable",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de lima, ajustable",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de lima, ajustable",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua, solo si es necesario",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "40",
+        "raw": "40–60 ml de agua, solo si es necesario",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "40–60 ml de agua, solo si es necesario",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDescongelar gambas en refrigeración si procede, escurrirlas y secarlas. Hidratar los fideos siguiendo el envase y dejarlos ligeramente firmes si se acabarán en la sartén. Cortar verduras antes de comenzar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/fideos_de_arroz_con_gambas_y_lima.md",
+  "source_sha256": "46214b5c063ad8dd8dc90ebf910b80e6db8acdb2c1e5bd9d007483aa4cf5f5ed",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Hidratar fideos\n\nRemojar o cocer brevemente según las instrucciones del formato; escurrir y separar con cuidado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Saltear gambas\n\nCalentar una cucharada de aceite, saltear las gambas por tandas hasta que estén completamente cocinadas, opacas y firmes. Reservar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Saltear verduras\n\nAñadir aceite restante, zanahoria y cebolleta; cocinar 2–3 minutos conservando firmeza. Incorporar ajo unos segundos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Integrar fideos\n\nAñadir fideos y soja mezclada con azúcar opcional. Mover con cuidado 1–2 minutos, usando agua a cucharadas solo si se adhieren.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nDevolver las gambas, calentar el conjunto y añadir lima fuera del fuego. Servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Fideos de arroz con gambas y lima",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

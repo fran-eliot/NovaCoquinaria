@@ -1,0 +1,287 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Batido de pera, yogur y canela\n\n## Descripción\n\nBatido cremoso de pera madura con yogur y una pizca de canela, sin azúcar obligatorio. La cantidad de líquido se ajusta según lo jugosa que esté la fruta.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 vasos de unos 300 ml |\n| Preparación | 10 minutos |\n| Cocinado | Sin cocción |\n| Dificultad | Fácil–media |\n| Técnica principal | Triturado en frío y ajuste de textura |\n\n## Ingredientes\n\n- 2 peras maduras (300 g de pulpa limpia, sin corazón)\n- 250 g de yogur natural frío\n- 80–120 ml de leche fría o agua potable\n- 1/4 cucharadita de canela molida\n- 1 cucharadita de zumo de limón, opcional\n- 1 cucharadita de miel, solo si la fruta lo requiere, opcional\n- hielo para servir, opcional\n\n**Alérgenos:** Leche si se utilizan yogur o leche lácteos; revisar alternativas vegetales.\n\n## Mise en place\n\nLavar las peras, quitar corazón y zonas deterioradas y pelarlas si la piel resulta fibrosa. Mantener el yogur y la leche refrigerados y usar batidora limpia.\n\n## Elaboración\n\n### 1. Trocear\n\nCortar pera en trozos medianos y añadirla al vaso de batidora con el zumo de limón opcional.\n\n### 2. Triturar base\n\nAñadir yogur, 80 ml de leche o agua y canela. Triturar 30–60 segundos hasta quedar homogéneo.\n\n### 3. Ajustar cuerpo\n\nIncorporar líquido frío poco a poco si el batido está demasiado denso; evitar diluirlo en exceso.\n\n### 4. Ajustar dulzor\n\nProbar: añadir miel solo si la pera es poco dulce y mezclar de nuevo brevemente.\n\n### 5. Servir\n\nRepartir en vasos fríos y tomar enseguida; hielo opcional solo al servir para no diluir la bebida en el vaso de batidora.\n\n## Puntos críticos\n\n- La madurez de la pera condiciona dulzor y textura.\n- El exceso de agua crea un batido poco cremoso.\n- Las frutas cortadas y el yogur deben permanecer refrigerados si no se consumen enseguida.\n- La canela se dosifica en poca cantidad para no dominar el sabor de la pera.\n\n## Perfil esperado\n\nBatido frío, denso pero vertible, con sabor principal de pera y acidez suave del yogur.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con plátano | Añadir medio plátano y reducir líquido inicial. |\n| Sin lácteos | Utilizar yogur vegetal apto y agua, revisando composición. |\n| Con cardamomo | Sustituir canela por una pizca de cardamomo molido. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Prevención |\n|---|---|---|\n| Textura aguada | Demasiado líquido | Añadir por tandas |\n| Grumos de fruta | Pera firme o triturado corto | Usar fruta madura y triturar más |\n| Dulzor excesivo | Miel añadida sin probar | Probar primero la pera |\n\n## Conservación\n\nBebida perecedera con fruta fresca y yogur: servir recién preparada o guardar tapada en refrigeración durante un plazo corto. No mantenerla durante horas fuera de frío.\n\n## Relaciones dentro del SGCC\n\n- [Pera](../11_Despensa/17_Frutas/pera.md)\n- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md)\n- [Canela](../11_Despensa/08_Especias/canela.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Lassi de mango](./lassi_de_mango_y_yogur.md)\n\n## Principio de NovaCoquinaria\n\n> En un batido de fruta y yogur, la fruta determina cuánto líquido y dulzor adicional hacen falta.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Bebidas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Sin cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/batido_de_pera_yogur_y_canela.html",
+  "id": "REC-0187",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "peras maduras (300 g de pulpa limpia, sin corazón)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 peras maduras (300 g de pulpa limpia, sin corazón)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 peras maduras (300 g de pulpa limpia, sin corazón)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural frío",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de yogur natural frío",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de yogur natural frío",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche fría o agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "80",
+        "raw": "80–120 ml de leche fría o agua potable",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–120 ml de leche fría o agua potable",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "1/4 cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/4 cucharadita de canela molida",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "miel, solo si la fruta lo requiere, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel, solo si la fruta lo requiere, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel, solo si la fruta lo requiere, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar las peras, quitar corazón y zonas deterioradas y pelarlas si la piel resulta fibrosa. Mantener el yogur y la leche refrigerados y usar batidora limpia.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/batido_de_pera_yogur_y_canela.md",
+  "source_sha256": "a1b5e8b590054867206570d4900812285244200ed1284cc716c359b0fc40239c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Trocear\n\nCortar pera en trozos medianos y añadirla al vaso de batidora con el zumo de limón opcional.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Triturar base\n\nAñadir yogur, 80 ml de leche o agua y canela. Triturar 30–60 segundos hasta quedar homogéneo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Ajustar cuerpo\n\nIncorporar líquido frío poco a poco si el batido está demasiado denso; evitar diluirlo en exceso.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Ajustar dulzor\n\nProbar: añadir miel solo si la pera es poco dulce y mezclar de nuevo brevemente.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRepartir en vasos fríos y tomar enseguida; hielo opcional solo al servir para no diluir la bebida en el vaso de batidora.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Batido de pera, yogur y canela",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "2 vasos de unos 300 ml",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

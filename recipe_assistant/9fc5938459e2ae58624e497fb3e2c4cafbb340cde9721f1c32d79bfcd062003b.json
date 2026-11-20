@@ -1,0 +1,295 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Broa gallega de maíz y centeno\n\n## Origen y contexto\n\n**Región:** Galicia. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 1 hogaza de aprox. 900 g |\n| Tiempo orientativo | 35 min activos, 2–3 h de reposo y 45–60 min de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de harina de maíz amarilla fina **no precocida**\n- 160 g de harina de centeno integral\n- 120 g de harina de trigo panificable\n- 370 ml de agua hirviendo para escaldar el maíz\n- 130–170 ml de agua templada para ajustar la masa\n- 7 g de levadura seca de panadería\n- 11 g de sal\n\n**Alérgenos:** Trigo/gluten y centeno/gluten; comprobar molienda de maíz.\n\n## Elaboración\n\n1. Verter gradualmente 370 ml de agua hirviendo sobre la harina de maíz colocada en cuenco resistente al calor; remover con espátula hasta humedecer toda la harina sin tocar la mezcla caliente.\n2. Dejar templar hasta que la masa escaldada baje a menos de 35 °C, para no dañar la levadura.\n3. Añadir harinas de centeno y trigo, levadura seca, sal y 130 ml de agua templada; mezclar 8–10 minutos hasta una masa húmeda y pegajosa, agregando agua restante solo si se necesita.\n4. Tapar y fermentar en lugar templado 75–120 minutos, hasta que aumente visiblemente de volumen; no esperar el mismo desarrollo de gluten que en pan de trigo.\n5. Con manos humedecidas formar una hogaza compacta sobre papel de horno o dentro de molde; cubrir y dejar reposar 30–45 minutos.\n6. Precalentar horno a 230 °C; hornear 15 minutos a esa temperatura, después bajar a 200 °C y continuar 30–45 minutos hasta corteza tostada y centro cocido (temperatura interna aproximada 96 °C).\n7. Dejar enfriar al menos 2 horas sobre rejilla antes de cortar para estabilizar la miga.\n\n## Puntos críticos\n\n- La harina de maíz utilizada es molida **no precocida**, distinta de harina para arepas; el escaldado favorece hidratación y estructura.\n- Esta propuesta usa trigo en parte para mejorar manejo doméstico: no se presenta como formulación única ni como pieza tradicional certificada.\n- La masa es más húmeda y menos elástica que un pan de trigo, y no conviene añadir harina de más para obtener una bola seca.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Miga gomosa | Corte demasiado pronto o centro poco cocido | Enfriar completamente y verificar horneado |\n| Pan bajo | Poco levado o escaldado caliente | Respetar enfriado y fermentación |\n| Corteza excesiva | Horno demasiado intenso al final | Bajar temperatura y cubrir superficialmente |\n\n## Conservación\n\nGuardar una vez frío envuelto en tela limpia o bolsa de pan en lugar fresco 1–2 días; cortar y congelar rebanadas para conservar más tiempo. Evitar empaquetar caliente.\n\n## Relaciones dentro del SGCC\n\n- [Tortos asturianos de maíz](../04_Verduras/tortos_asturianos_de_maiz_con_queso.md)\n- [Fermentar masas hidratadas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35 min activos, 2–3 h de reposo y 45–60 min de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/broa_gallega_de_maiz_y_centeno.html",
+  "id": "REC-561",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de maíz amarilla fina no precocida",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de harina de maíz amarilla fina **no precocida**",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de harina de maíz amarilla fina **no precocida**",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de centeno integral",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de harina de centeno integral",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de harina de centeno integral",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo panificable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de harina de trigo panificable",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de harina de trigo panificable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua hirviendo para escaldar el maíz",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "370",
+        "min": "370",
+        "raw": "370 ml de agua hirviendo para escaldar el maíz",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "370 ml de agua hirviendo para escaldar el maíz",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada para ajustar la masa",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "130",
+        "raw": "130–170 ml de agua templada para ajustar la masa",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "130–170 ml de agua templada para ajustar la masa",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "11",
+        "min": "11",
+        "raw": "11 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "11 g de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/broa_gallega_de_maiz_y_centeno.md",
+  "source_sha256": "9f3f8045a84a8f1eb0f09357fc3034e620bfb071abce0767551d66f9170813de",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Verter gradualmente 370 ml de agua hirviendo sobre la harina de maíz colocada en cuenco resistente al calor; remover con espátula hasta humedecer toda la harina sin tocar la mezcla caliente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Dejar templar hasta que la masa escaldada baje a menos de 35 °C, para no dañar la levadura."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir harinas de centeno y trigo, levadura seca, sal y 130 ml de agua templada; mezclar 8–10 minutos hasta una masa húmeda y pegajosa, agregando agua restante solo si se necesita."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Tapar y fermentar en lugar templado 75–120 minutos, hasta que aumente visiblemente de volumen; no esperar el mismo desarrollo de gluten que en pan de trigo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Con manos humedecidas formar una hogaza compacta sobre papel de horno o dentro de molde; cubrir y dejar reposar 30–45 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Precalentar horno a 230 °C; hornear 15 minutos a esa temperatura, después bajar a 200 °C y continuar 30–45 minutos hasta corteza tostada y centro cocido (temperatura interna aproximada 96 °C)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Dejar enfriar al menos 2 horas sobre rejilla antes de cortar para estabilizar la miga."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Broa gallega de maíz y centeno",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "1 hogaza de aprox. 900 g",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

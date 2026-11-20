@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Lasaña de espinacas y ricotta\n\n## Descripción\n\nPreparación de pasta que trabaja **reducción de verduras, montaje y horneado**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Reducción de verduras, montaje y horneado |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 9–12 placas de lasaña, según tamaño y tipo;\n- 350 g de espinacas frescas o descongeladas y muy escurridas;\n- 250 g de ricotta;\n- 350 g de tomate triturado;\n- 200 ml de bechamel preparada;\n- 100 g de cebolla picada;\n- 1 diente de ajo;\n- 2 cucharadas de aceite de oliva;\n- 70 g de queso rallado para gratinar;\n- sal, pimienta y nuez moscada;\n\n**Alérgenos:** Trigo (gluten), leche y posibles huevos según placas.\n\n## Elaboración\n\n1. Consultar el envase de las placas para confirmar si precisan precocción y qué cantidad de líquido necesitan.\n2. Pochar cebolla y ajo con aceite; incorporar espinacas y cocinar hasta evaporar bien el agua.\n3. Fuera del fuego mezclar las espinacas templadas con ricotta, sal, pimienta y nuez moscada.\n4. Reducir tomate en un cazo 8 minutos y preparar la bechamel según su receta o etiquetado.\n5. En fuente de unos 20 × 25 cm alternar tomate, placas y relleno de espinacas; terminar con bechamel y queso.\n6. Hornear a 190 °C durante aproximadamente 30–40 minutos, según placas, hasta que estén completamente hidratadas y el centro caliente; reposar 10 minutos antes de cortar.\n\n## Puntos críticos\n\n- El agua de las espinacas puede ablandar las capas; ajustar líquido a las placas empleadas y respetar sus instrucciones.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Preparar bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md)\n- [Pasta al horno](../12_Plantillas/04_Cocciones/pasta_al_horno.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **reducción de verduras, montaje y horneado**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/lasana_de_espinacas_y_ricotta.html",
+  "id": "REC-0245",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "placas de lasaña, según tamaño y tipo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "9",
+        "raw": "9–12 placas de lasaña, según tamaño y tipo;",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "9–12 placas de lasaña, según tamaño y tipo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o descongeladas y muy escurridas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de espinacas frescas o descongeladas y muy escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de espinacas frescas o descongeladas y muy escurridas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de ricotta;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de ricotta;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "bechamel preparada;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de bechamel preparada;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de bechamel preparada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado para gratinar;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de queso rallado para gratinar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de queso rallado para gratinar;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y nuez moscada;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y nuez moscada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y nuez moscada;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/lasana_de_espinacas_y_ricotta.md",
+  "source_sha256": "e15f69d627a778f67ec679593e3516d966e47ca0a2e27b0748b2456d75ab542d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Consultar el envase de las placas para confirmar si precisan precocción y qué cantidad de líquido necesitan."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo con aceite; incorporar espinacas y cocinar hasta evaporar bien el agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Fuera del fuego mezclar las espinacas templadas con ricotta, sal, pimienta y nuez moscada."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Reducir tomate en un cazo 8 minutos y preparar la bechamel según su receta o etiquetado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "En fuente de unos 20 × 25 cm alternar tomate, placas y relleno de espinacas; terminar con bechamel y queso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Hornear a 190 °C durante aproximadamente 30–40 minutos, según placas, hasta que estén completamente hidratadas y el centro caliente; reposar 10 minutos antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.html",
+      "label": "Preparar bechamel sin grumos",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md"
+    }
+  ],
+  "title": "Lasaña de espinacas y ricotta",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

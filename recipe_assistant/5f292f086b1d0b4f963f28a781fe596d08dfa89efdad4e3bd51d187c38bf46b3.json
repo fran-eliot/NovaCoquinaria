@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Orzo con pollo, limón y espinacas\n\n## Descripción\n\nFórmula de referencia centrada en **dorado de ave y cocción de pasta corta en caldo**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Dorado de ave y cocción de pasta corta en caldo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 280 g de orzo o pasta con forma de arroz\n- 500 g de contramuslo de pollo deshuesado en dados\n- 140 g de espinacas frescas\n- 130 g de cebolla picada\n- 2 dientes de ajo\n- 750–900 ml de caldo de pollo bajo en sal, ajustables\n- 2 cucharadas de aceite de oliva\n- 1 cucharada de zumo de limón\n- ralladura de medio limón\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo); revisar caldo comercial.\n\n## Elaboración\n\n1. Secar el pollo y dorar en cazuela amplia con aceite durante 5–7 minutos por tandas, sin considerar que esté cocinado por completo.\n2. Retirar y pochar cebolla unos 5 minutos, añadir ajo brevemente y agregar el orzo seco; remover un minuto.\n3. Verter unos 750 ml de caldo caliente y reincorporar el pollo. Cocinar a hervor suave, removiendo ocasionalmente, según tiempo del paquete, normalmente 9–12 minutos.\n4. Añadir pequeñas cantidades adicionales de caldo si el orzo se seca antes de alcanzar su punto.\n5. Incorporar las espinacas durante los últimos 2–3 minutos y cocinar hasta reducir.\n6. Comprobar que el pollo alcance 74 °C en su centro y que la pasta esté bien cocida; retirar del fuego.\n7. Terminar con limón, ralladura y pimienta, probar y salar solo al final.\n\n## Puntos críticos\n\n- El orzo es pasta de trigo y no arroz: su almidón espesa el caldo con rapidez. El pollo debe quedar completamente cocinado antes de servir.\n- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.\n- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |\n| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |\n| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta e ceci](./pasta_e_ceci.md)\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **dorado de ave y cocción de pasta corta en caldo**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/orzo_con_pollo_limon_y_espinacas.html",
+  "id": "REC-366",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "orzo o pasta con forma de arroz",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de orzo o pasta con forma de arroz",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de orzo o pasta con forma de arroz",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de contramuslo de pollo deshuesado en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de contramuslo de pollo deshuesado en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de espinacas frescas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de espinacas frescas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo bajo en sal, ajustables",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "750",
+        "raw": "750–900 ml de caldo de pollo bajo en sal, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "750–900 ml de caldo de pollo bajo en sal, ajustables",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de medio limón",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de medio limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de medio limón",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/orzo_con_pollo_limon_y_espinacas.md",
+  "source_sha256": "efbb0e66006261542195f11b02c587a4be5c816a878d90245bdd5651e4c5e82e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Secar el pollo y dorar en cazuela amplia con aceite durante 5–7 minutos por tandas, sin considerar que esté cocinado por completo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Retirar y pochar cebolla unos 5 minutos, añadir ajo brevemente y agregar el orzo seco; remover un minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Verter unos 750 ml de caldo caliente y reincorporar el pollo. Cocinar a hervor suave, removiendo ocasionalmente, según tiempo del paquete, normalmente 9–12 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir pequeñas cantidades adicionales de caldo si el orzo se seca antes de alcanzar su punto."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar las espinacas durante los últimos 2–3 minutos y cocinar hasta reducir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Comprobar que el pollo alcance 74 °C en su centro y que la pasta esté bien cocida; retirar del fuego."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Terminar con limón, ralladura y pimienta, probar y salar solo al final."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Orzo con pollo, limón y espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,4972 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de Gestión del Conocimiento Culinario">
+      
+      
+        <meta name="author" content="Fran Ramírez">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Especificaciones del SGCC (Sistema de Gestión del Conocimiento Culinario) - NovaCoquinaria</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#especificaciones-del-sgcc-sistema-de-gestion-del-conocimiento-culinario" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../index.html" title="NovaCoquinaria" class="md-header__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NovaCoquinaria
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Especificaciones del SGCC (Sistema de Gestión del Conocimiento Culinario)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="NovaCoquinaria" class="md-nav__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    NovaCoquinaria
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MANIFESTO.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifiesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CHANGELOG.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QUALITY.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arquitectura
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VISION.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ARQUITECTURA.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ROADMAP.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/01_Fundamentos/mise_en_place.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mise en place
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/saltear.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Saltear
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/sofreir.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sofreír
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/wok.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wok
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tablas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tablas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/01_Cocciones/tiempos_coccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiempos de cocción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/02_Hornos/temperaturas_horno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Temperaturas de horno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/03_Conversiones/conversiones_unidades.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conversiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/04_Conservacion/conservacion_congelacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conservación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/05_Seguridad/seguridad_alimentaria.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seguridad alimentaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sustituciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroces
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arroces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_chaufa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz Chaufa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_higadillos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz con higadillos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_caldoso_alcachofas_marisco.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz caldoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verduras
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verduras
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/brocoli.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brócoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/champi%C3%B1ones_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/champi%C3%B1ones_sichuan.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones Sichuan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/habas_jamon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Habas con jamón
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carnes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Carnes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/lomo_asiatico.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lomo asiático
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/ternera_bambu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con bambú
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/ternera_salsa_ostras.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con salsa de ostras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/hamburguesa_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/hamburguesa_especiada.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa especiada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/medallones_solomillo_asiaticos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medallones asiáticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pescados y mariscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pescados y mariscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/caballa_japonesa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caballa japonesa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/gambas_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gambas al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/tintorera_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tintorera asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="especificaciones-del-sgcc-sistema-de-gestion-del-conocimiento-culinario">Especificaciones del SGCC (Sistema de Gestión del Conocimiento Culinario)<a class="headerlink" href="#especificaciones-del-sgcc-sistema-de-gestion-del-conocimiento-culinario" title="Permanent link">&para;</a></h1>
+<p><strong>Versión:</strong> 1.0.0<br />
+<strong>Estado:</strong> Enterprise Draft<br />
+<strong>Ubicación:</strong> <code>/specifications</code><br />
+<strong>Última actualización:</strong> 2026-08-02</p>
+<hr />
+<h1 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h1>
+<p>El directorio <strong><code>/specifications</code></strong> constituye el repositorio de referencia para las especificaciones funcionales y arquitectónicas del <strong>Sistema de Gestión del Conocimiento Culinario (SGCC)</strong> de NovaCoquinaria.</p>
+<p>Su objetivo es definir, de forma rigurosa, los componentes que conforman la plataforma, sus responsabilidades, contratos, relaciones y comportamiento esperado, proporcionando una base sólida para el diseño, implementación, validación y evolución del sistema.</p>
+<p>A diferencia de la documentación de gestión o de arquitectura de alto nivel, las especificaciones describen <strong>qué es cada componente</strong>, <strong>qué responsabilidades tiene</strong>, <strong>cómo interactúa con el resto del sistema</strong> y <strong>qué requisitos debe cumplir</strong> para considerarse conforme.</p>
+<hr />
+<h1 id="objetivos-del-directorio">Objetivos del directorio<a class="headerlink" href="#objetivos-del-directorio" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones persiguen los siguientes objetivos:</p>
+<ul>
+<li>definir formalmente cada componente del SGCC;</li>
+<li>establecer responsabilidades claras entre módulos;</li>
+<li>describir contratos funcionales y técnicos;</li>
+<li>documentar modelos de datos y entidades;</li>
+<li>normalizar terminología y conceptos;</li>
+<li>facilitar la implementación independiente de cada componente;</li>
+<li>servir como referencia para revisiones arquitectónicas;</li>
+<li>apoyar la validación funcional y técnica;</li>
+<li>permitir la evolución controlada de la plataforma;</li>
+<li>reducir ambigüedades durante el desarrollo.</li>
+</ul>
+<hr />
+<h1 id="filosofia">Filosofía<a class="headerlink" href="#filosofia" title="Permanent link">&para;</a></h1>
+<p>Toda especificación del SGCC deberá responder, al menos, a las siguientes preguntas:</p>
+<ul>
+<li>¿Qué problema resuelve este componente?</li>
+<li>¿Cuál es su responsabilidad?</li>
+<li>¿Qué entidades gestiona?</li>
+<li>¿Qué información consume?</li>
+<li>¿Qué información produce?</li>
+<li>¿Qué contratos expone?</li>
+<li>¿Qué dependencias posee?</li>
+<li>¿Qué restricciones debe respetar?</li>
+<li>¿Cómo interactúa con otros componentes?</li>
+<li>¿Qué criterios determinan su conformidad?</li>
+</ul>
+<p>Las especificaciones no constituyen documentación de implementación.</p>
+<p>No describen código fuente, tecnologías concretas ni decisiones de bajo nivel, salvo cuando resulten necesarias para formalizar un contrato arquitectónico.</p>
+<hr />
+<h1 id="alcance">Alcance<a class="headerlink" href="#alcance" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones cubren los principales dominios funcionales del SGCC:</p>
+<ul>
+<li>conocimiento;</li>
+<li>ingesta;</li>
+<li>ejecución;</li>
+<li>interfaces;</li>
+<li>integración entre componentes.</li>
+</ul>
+<p>Otros aspectos transversales (arquitectura global, decisiones ADR, roadmap, gobierno del proyecto, etc.) se documentan en sus respectivos directorios.</p>
+<hr />
+<h1 id="organizacion">Organización<a class="headerlink" href="#organizacion" title="Permanent link">&para;</a></h1>
+<p>Actualmente las especificaciones se agrupan en los siguientes dominios:</p>
+<div class="highlight"><pre><span></span><code>specifications/
+
+├── knowledge/
+├── ingestion/
+├── runtime/
+└── interfaces/
+</code></pre></div>
+<p>Cada dominio reúne documentos relacionados con una misma responsabilidad arquitectónica.</p>
+<hr />
+<h1 id="principios-generales">Principios generales<a class="headerlink" href="#principios-generales" title="Permanent link">&para;</a></h1>
+<p>Todas las especificaciones del SGCC comparten los siguientes principios.</p>
+<hr />
+<h2 id="responsabilidad-unica">Responsabilidad única<a class="headerlink" href="#responsabilidad-unica" title="Permanent link">&para;</a></h2>
+<p>Cada documento describe un único componente o dominio claramente identificado.</p>
+<p>No deberán mezclarse responsabilidades independientes dentro de una misma especificación.</p>
+<hr />
+<h2 id="cohesion">Cohesión<a class="headerlink" href="#cohesion" title="Permanent link">&para;</a></h2>
+<p>Las entidades descritas dentro de un documento deberán pertenecer al mismo ámbito funcional.</p>
+<hr />
+<h2 id="bajo-acoplamiento">Bajo acoplamiento<a class="headerlink" href="#bajo-acoplamiento" title="Permanent link">&para;</a></h2>
+<p>Las dependencias con otros componentes deberán minimizarse y documentarse explícitamente.</p>
+<hr />
+<h2 id="contratos-explicitos">Contratos explícitos<a class="headerlink" href="#contratos-explicitos" title="Permanent link">&para;</a></h2>
+<p>Toda interacción entre componentes deberá realizarse mediante contratos claramente definidos.</p>
+<hr />
+<h2 id="versionado">Versionado<a class="headerlink" href="#versionado" title="Permanent link">&para;</a></h2>
+<p>Toda especificación deberá evolucionar mediante versiones identificables.</p>
+<p>Los cambios incompatibles deberán quedar documentados.</p>
+<hr />
+<h2 id="trazabilidad">Trazabilidad<a class="headerlink" href="#trazabilidad" title="Permanent link">&para;</a></h2>
+<p>Toda decisión relevante deberá poder relacionarse con:</p>
+<ul>
+<li>arquitectura;</li>
+<li>ADR;</li>
+<li>requisitos;</li>
+<li>componentes afectados.</li>
+</ul>
+<hr />
+<h2 id="consistencia-terminologica">Consistencia terminológica<a class="headerlink" href="#consistencia-terminologica" title="Permanent link">&para;</a></h2>
+<p>Los conceptos utilizados deberán mantener el mismo significado en toda la documentación.</p>
+<p>Cuando exista un término oficial, deberá utilizarse siempre la misma denominación.</p>
+<hr />
+<h2 id="independencia-tecnologica">Independencia tecnológica<a class="headerlink" href="#independencia-tecnologica" title="Permanent link">&para;</a></h2>
+<p>Siempre que sea posible, las especificaciones deberán describir el comportamiento esperado sin depender de una implementación concreta.</p>
+<hr />
+<h2 id="reutilizacion">Reutilización<a class="headerlink" href="#reutilizacion" title="Permanent link">&para;</a></h2>
+<p>Las definiciones comunes deberán compartirse entre documentos, evitando duplicidades innecesarias.</p>
+<hr />
+<h2 id="evolucion-incremental">Evolución incremental<a class="headerlink" href="#evolucion-incremental" title="Permanent link">&para;</a></h2>
+<p>Las especificaciones están diseñadas para evolucionar progresivamente sin comprometer la coherencia global del sistema.</p>
+<hr />
+<h1 id="tipologia-de-documentos">Tipología de documentos<a class="headerlink" href="#tipologia-de-documentos" title="Permanent link">&para;</a></h1>
+<p>Dentro del directorio existen diferentes tipos de especificaciones.</p>
+<h2 id="especificaciones-de-conocimiento">Especificaciones de conocimiento<a class="headerlink" href="#especificaciones-de-conocimiento" title="Permanent link">&para;</a></h2>
+<p>Definen la estructura del conocimiento culinario.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>Ontología</li>
+<li>Documentos</li>
+<li>Relaciones</li>
+<li>Colecciones</li>
+<li>Componentes</li>
+<li>Knowledge Graph</li>
+</ul>
+<hr />
+<h2 id="especificaciones-de-ingesta">Especificaciones de ingesta<a class="headerlink" href="#especificaciones-de-ingesta" title="Permanent link">&para;</a></h2>
+<p>Definen el proceso mediante el cual el conocimiento entra en el sistema.</p>
+<p>Incluyen:</p>
+<ul>
+<li>adquisición;</li>
+<li>transformación;</li>
+<li>validación;</li>
+<li>incorporación al repositorio.</li>
+</ul>
+<hr />
+<h2 id="especificaciones-de-ejecucion">Especificaciones de ejecución<a class="headerlink" href="#especificaciones-de-ejecucion" title="Permanent link">&para;</a></h2>
+<p>Describen los motores responsables del funcionamiento operativo del SGCC.</p>
+<p>Incluyen, entre otros:</p>
+<ul>
+<li>Engine Registry;</li>
+<li>Retrieval Engine;</li>
+<li>Indexing Engine;</li>
+<li>Motor RAG;</li>
+<li>Razonador;</li>
+<li>Orquestador de Ejecución;</li>
+<li>Motor de Validación.</li>
+</ul>
+<hr />
+<h2 id="especificaciones-de-interfaces">Especificaciones de interfaces<a class="headerlink" href="#especificaciones-de-interfaces" title="Permanent link">&para;</a></h2>
+<p>Definen los contratos de comunicación entre el SGCC y consumidores externos o internos.</p>
+<p>Actualmente incluyen la especificación de APIs.</p>
+<hr />
+<h1 id="nivel-de-detalle-esperado">Nivel de detalle esperado<a class="headerlink" href="#nivel-de-detalle-esperado" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones siguen un enfoque de ingeniería de software orientado a sistemas enterprise.</p>
+<p>Cada documento desarrolla, cuando resulta aplicable:</p>
+<ul>
+<li>modelo conceptual;</li>
+<li>principios;</li>
+<li>arquitectura;</li>
+<li>entidades;</li>
+<li>contratos;</li>
+<li>ciclo de vida;</li>
+<li>reglas de negocio;</li>
+<li>validaciones;</li>
+<li>métricas;</li>
+<li>eventos;</li>
+<li>diagnósticos;</li>
+<li>calidad;</li>
+<li>conformidad;</li>
+<li>casos de uso;</li>
+<li>antipatrones.</li>
+</ul>
+<p>No todos los documentos requieren necesariamente todos estos apartados, pero se recomienda mantener una estructura homogénea siempre que sea posible.</p>
+<hr />
+<h1 id="publico-objetivo">Público objetivo<a class="headerlink" href="#publico-objetivo" title="Permanent link">&para;</a></h1>
+<p>Estas especificaciones están dirigidas principalmente a:</p>
+<ul>
+<li>arquitectos software;</li>
+<li>desarrolladores;</li>
+<li>revisores técnicos;</li>
+<li>responsables funcionales;</li>
+<li>colaboradores del proyecto;</li>
+<li>asistentes de inteligencia artificial utilizados durante el desarrollo.</li>
+</ul>
+<p>No constituyen documentación orientada al usuario final.</p>
+<hr />
+<h1 id="relacion-con-el-resto-del-proyecto">Relación con el resto del proyecto<a class="headerlink" href="#relacion-con-el-resto-del-proyecto" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones forman parte del conjunto documental de NovaCoquinaria y deben interpretarse conjuntamente con:</p>
+<ul>
+<li>la arquitectura general del sistema;</li>
+<li>las decisiones ADR;</li>
+<li>la visión del proyecto;</li>
+<li>el roadmap;</li>
+<li>las guías de desarrollo;</li>
+<li>la documentación de gestión.</li>
+</ul>
+<p>Cada uno de estos documentos cumple una función diferente y complementaria.</p>
+<hr />
+<h1 id="transicion-hacia-la-parte-ii">Transición hacia la Parte II<a class="headerlink" href="#transicion-hacia-la-parte-ii" title="Permanent link">&para;</a></h1>
+<p>La siguiente parte desarrollará:</p>
+<ul>
+<li>estructura completa del directorio;</li>
+<li>descripción detallada de cada dominio;</li>
+<li>mapa de especificaciones existentes;</li>
+<li>relaciones entre documentos;</li>
+<li>dependencias arquitectónicas;</li>
+<li>orden recomendado de lectura;</li>
+<li>criterios para incorporar nuevas especificaciones.</li>
+</ul>
+<hr />
+<h1 id="parte-ii-estructura-documental-dominios-catalogo-de-especificaciones-dependencias-y-orden-recomendado-de-lectura">Parte II — Estructura documental, dominios, catálogo de especificaciones, dependencias y orden recomendado de lectura<a class="headerlink" href="#parte-ii-estructura-documental-dominios-catalogo-de-especificaciones-dependencias-y-orden-recomendado-de-lectura" title="Permanent link">&para;</a></h1>
+<hr />
+<h1 id="estructura-general-del-directorio">Estructura general del directorio<a class="headerlink" href="#estructura-general-del-directorio" title="Permanent link">&para;</a></h1>
+<p>La estructura actual del directorio de especificaciones es la siguiente:</p>
+<div class="highlight"><pre><span></span><code>specifications/
+
+├── index.md
+│
+├── ingestion/
+│   └── ESPECIFICACION_DE_INGESTA.md
+│
+├── interfaces/
+│   └── ESPECIFICACION_DE_APIS.md
+│
+├── knowledge/
+│   ├── ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+│   ├── ESPECIFICACION_DE_COLECCIONES.md
+│   ├── ESPECIFICACION_DE_COMPONENTES.md
+│   ├── ESPECIFICACION_DE_DOCUMENTOS.md
+│   ├── ESPECIFICACION_DE_ONTOLOGIA.md
+│   └── ESPECIFICACION_DE_RELACIONES.md
+│
+└── runtime/
+    ├── ESPECIFICACION_DEL_ENGINE_REGISTRY.md
+    ├── ESPECIFICACION_DEL_INDEXING_ENGINE.md
+    ├── ESPECIFICACION_DEL_MOTOR_RAG.md
+    ├── ESPECIFICACION_DEL_ORQUESTADOR_DE_EJECUCION.md
+    ├── ESPECIFICACION_DEL_RAZONADOR.md
+    ├── ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md
+    └── ESPECIFICACION_DE_VALIDACION.md
+</code></pre></div>
+<p>La organización responde a cuatro dominios principales:</p>
+<div class="highlight"><pre><span></span><code>knowledge
+ingestion
+runtime
+interfaces
+</code></pre></div>
+<p>Cada dominio representa una responsabilidad arquitectónica diferenciada.</p>
+<hr />
+<h1 id="dominio-knowledge">Dominio <code>knowledge</code><a class="headerlink" href="#dominio-knowledge" title="Permanent link">&para;</a></h1>
+<p>El dominio <strong><code>knowledge</code></strong> define el modelo estructural, semántico y relacional del conocimiento culinario gestionado por NovaCoquinaria.</p>
+<p>Su responsabilidad principal es responder:</p>
+<div class="highlight"><pre><span></span><code>¿Qué conocimiento existe?
+
+¿Cómo se representa?
+
+¿Cómo se relaciona?
+
+¿Cómo se organiza?
+
+¿Cómo se identifica?
+
+¿Cómo puede consultarse y reutilizarse?
+</code></pre></div>
+<p>Este dominio constituye la base conceptual del SGCC.</p>
+<hr />
+<h1 id="especificaciones-del-dominio-knowledge">Especificaciones del dominio <code>knowledge</code><a class="headerlink" href="#especificaciones-del-dominio-knowledge" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="especificacion_de_ontologiamd"><code>ESPECIFICACION_DE_ONTOLOGIA.md</code><a class="headerlink" href="#especificacion_de_ontologiamd" title="Permanent link">&para;</a></h2>
+<p>Define la ontología general del conocimiento culinario.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>categorías conceptuales;</li>
+<li>clases;</li>
+<li>entidades;</li>
+<li>propiedades;</li>
+<li>restricciones semánticas;</li>
+<li>vocabulario controlado;</li>
+<li>jerarquías;</li>
+<li>axiomas;</li>
+<li>dominios y rangos;</li>
+<li>reglas de interoperabilidad semántica.</li>
+</ul>
+<p>La Ontología establece el significado compartido de los conceptos utilizados por el resto de especificaciones.</p>
+<hr />
+<h2 id="especificacion_de_documentosmd"><code>ESPECIFICACION_DE_DOCUMENTOS.md</code><a class="headerlink" href="#especificacion_de_documentosmd" title="Permanent link">&para;</a></h2>
+<p>Define el modelo documental del SGCC.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>tipos de documentos;</li>
+<li>estructura común;</li>
+<li>metadatos;</li>
+<li>Front Matter;</li>
+<li>identidad documental;</li>
+<li>lifecycle;</li>
+<li>versionado;</li>
+<li>estado;</li>
+<li>contenido;</li>
+<li>referencias;</li>
+<li>validación;</li>
+<li>trazabilidad.</li>
+</ul>
+<p>Esta especificación determina cómo se representa una unidad documental dentro del repositorio de conocimiento.</p>
+<hr />
+<h2 id="contrato-de-datos-de-recetas"><a href="knowledge/CONTRATO_DE_DATOS_DE_RECETAS.html">Contrato de datos de recetas</a><a class="headerlink" href="#contrato-de-datos-de-recetas" title="Permanent link">&para;</a></h2>
+<p>Proyección estructurada inicial de recetas Markdown, con identidad, cantidades, referencias, procedencia y evidencia culinaria; complementa el modelo documental para el primer prototipo de ingesta.</p>
+<hr />
+<h2 id="especificacion_de_componentesmd"><code>ESPECIFICACION_DE_COMPONENTES.md</code><a class="headerlink" href="#especificacion_de_componentesmd" title="Permanent link">&para;</a></h2>
+<p>Define los componentes reutilizables del conocimiento culinario.</p>
+<p>Puede incluir entidades como:</p>
+<ul>
+<li>ingredientes;</li>
+<li>técnicas;</li>
+<li>bases;</li>
+<li>preparaciones;</li>
+<li>plantillas;</li>
+<li>tablas;</li>
+<li>equipamiento;</li>
+<li>unidades;</li>
+<li>procesos;</li>
+<li>estructuras reutilizables.</li>
+</ul>
+<p>Su objetivo es evitar duplicidades y permitir la composición de conocimiento a partir de unidades normalizadas.</p>
+<hr />
+<h2 id="especificacion_de_relacionesmd"><code>ESPECIFICACION_DE_RELACIONES.md</code><a class="headerlink" href="#especificacion_de_relacionesmd" title="Permanent link">&para;</a></h2>
+<p>Define las relaciones entre documentos, componentes y entidades.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>tipos de relaciones;</li>
+<li>direccionalidad;</li>
+<li>cardinalidad;</li>
+<li>semántica;</li>
+<li>restricciones;</li>
+<li>relaciones inversas;</li>
+<li>integridad referencial;</li>
+<li>provenance;</li>
+<li>lifecycle de relaciones.</li>
+</ul>
+<p>Ejemplos conceptuales:</p>
+<div class="highlight"><pre><span></span><code>usa
+depende_de
+deriva_de
+sustituye_a
+incluye
+pertenece_a
+relacionado_con
+requiere
+</code></pre></div>
+<p>Esta especificación constituye la base relacional del Knowledge Graph.</p>
+<hr />
+<h2 id="especificacion_de_coleccionesmd"><code>ESPECIFICACION_DE_COLECCIONES.md</code><a class="headerlink" href="#especificacion_de_coleccionesmd" title="Permanent link">&para;</a></h2>
+<p>Define cómo se agrupan documentos y componentes en conjuntos funcionales.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>identidad de colección;</li>
+<li>criterios de pertenencia;</li>
+<li>colecciones estáticas;</li>
+<li>colecciones dinámicas;</li>
+<li>filtros;</li>
+<li>orden;</li>
+<li>visibilidad;</li>
+<li>versionado;</li>
+<li>curatoría;</li>
+<li>publicación.</li>
+</ul>
+<p>Las colecciones permiten organizar el conocimiento según objetivos de consulta, navegación o uso.</p>
+<hr />
+<h2 id="especificacion_del_knowledge_graphmd"><code>ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md</code><a class="headerlink" href="#especificacion_del_knowledge_graphmd" title="Permanent link">&para;</a></h2>
+<p>Define la representación en grafo del conocimiento culinario.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>nodos;</li>
+<li>relaciones;</li>
+<li>propiedades;</li>
+<li>Statements;</li>
+<li>provenance;</li>
+<li>snapshots;</li>
+<li>subgrafos;</li>
+<li>consultas;</li>
+<li>inferencia;</li>
+<li>validación;</li>
+<li>consistencia;</li>
+<li>traversal;</li>
+<li>lineage.</li>
+</ul>
+<p>El Knowledge Graph integra:</p>
+<div class="highlight"><pre><span></span><code>Ontología
++
+Documentos
++
+Componentes
++
+Relaciones
++
+Colecciones
+</code></pre></div>
+<p>y proporciona una estructura navegable y procesable para los motores del Runtime.</p>
+<hr />
+<h1 id="dependencias-internas-de-knowledge">Dependencias internas de <code>knowledge</code><a class="headerlink" href="#dependencias-internas-de-knowledge" title="Permanent link">&para;</a></h1>
+<p>La relación conceptual principal es:</p>
+<div class="highlight"><pre><span></span><code>Ontología
+    ↓
+Documentos
+    ↓
+Componentes
+    ↓
+Relaciones
+    ↓
+Colecciones
+    ↓
+Knowledge Graph
+</code></pre></div>
+<p>No representa necesariamente un orden de implementación estrictamente lineal, pero sí un orden de comprensión recomendado.</p>
+<hr />
+<h1 id="autoridad-conceptual-dentro-de-knowledge">Autoridad conceptual dentro de <code>knowledge</code><a class="headerlink" href="#autoridad-conceptual-dentro-de-knowledge" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá actuar como fuente principal para su propio ámbito.</p>
+<table>
+<thead>
+<tr>
+<th>Concepto</th>
+<th>Especificación autoritativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clases y conceptos</td>
+<td>Ontología</td>
+</tr>
+<tr>
+<td>Unidad documental</td>
+<td>Documentos</td>
+</tr>
+<tr>
+<td>Elementos reutilizables</td>
+<td>Componentes</td>
+</tr>
+<tr>
+<td>Vínculos semánticos</td>
+<td>Relaciones</td>
+</tr>
+<tr>
+<td>Agrupaciones</td>
+<td>Colecciones</td>
+</tr>
+<tr>
+<td>Representación en grafo</td>
+<td>Knowledge Graph</td>
+</tr>
+</tbody>
+</table>
+<p>Cuando un concepto aparezca en varias especificaciones, deberá mantenerse una única fuente autoritativa y utilizarse referencias desde el resto.</p>
+<hr />
+<h1 id="dominio-ingestion">Dominio <code>ingestion</code><a class="headerlink" href="#dominio-ingestion" title="Permanent link">&para;</a></h1>
+<p>El dominio <strong><code>ingestion</code></strong> define cómo entra el conocimiento en NovaCoquinaria.</p>
+<p>Responde:</p>
+<div class="highlight"><pre><span></span><code>¿De dónde procede la información?
+
+¿Cómo se recibe?
+
+¿Cómo se identifica?
+
+¿Cómo se transforma?
+
+¿Cómo se normaliza?
+
+¿Cómo se valida?
+
+¿Cómo se incorpora al SGCC?
+</code></pre></div>
+<hr />
+<h1 id="especificacion_de_ingestamd"><code>ESPECIFICACION_DE_INGESTA.md</code><a class="headerlink" href="#especificacion_de_ingestamd" title="Permanent link">&para;</a></h1>
+<p>Esta especificación define el pipeline de incorporación de conocimiento.</p>
+<p>Sus responsabilidades pueden incluir:</p>
+<ul>
+<li>fuentes;</li>
+<li>conectores;</li>
+<li>adquisición;</li>
+<li>recepción;</li>
+<li>lotes;</li>
+<li>documentos de entrada;</li>
+<li>formatos;</li>
+<li>parsing;</li>
+<li>extracción;</li>
+<li>normalización;</li>
+<li>deduplicación;</li>
+<li>clasificación;</li>
+<li>staging;</li>
+<li>lineage;</li>
+<li>validación;</li>
+<li>errores;</li>
+<li>cuarentena;</li>
+<li>publicación;</li>
+<li>reingesta;</li>
+<li>idempotencia.</li>
+</ul>
+<p>La ingesta actúa como frontera entre fuentes externas o internas y el modelo canónico del SGCC.</p>
+<hr />
+<h1 id="relacion-de-ingesta-con-knowledge">Relación de Ingesta con <code>knowledge</code><a class="headerlink" href="#relacion-de-ingesta-con-knowledge" title="Permanent link">&para;</a></h1>
+<p>La ingesta deberá producir información compatible con:</p>
+<ul>
+<li>la Ontología;</li>
+<li>el modelo de Documentos;</li>
+<li>los Componentes;</li>
+<li>las Relaciones;</li>
+<li>el Knowledge Graph.</li>
+</ul>
+<p>Flujo conceptual:</p>
+<div class="highlight"><pre><span></span><code>Fuente
+    ↓
+Ingesta
+    ↓
+Normalización
+    ↓
+Validación
+    ↓
+Documento canónico
+    ↓
+Componentes y Relaciones
+    ↓
+Knowledge Graph
+</code></pre></div>
+<hr />
+<h1 id="relacion-de-ingesta-con-runtime">Relación de Ingesta con <code>runtime</code><a class="headerlink" href="#relacion-de-ingesta-con-runtime" title="Permanent link">&para;</a></h1>
+<p>La ingesta podrá utilizar componentes del Runtime para:</p>
+<ul>
+<li>validación;</li>
+<li>indexación;</li>
+<li>extracción;</li>
+<li>clasificación;</li>
+<li>razonamiento;</li>
+<li>orquestación;</li>
+<li>publicación de eventos.</li>
+</ul>
+<p>No obstante, la responsabilidad funcional de incorporar información seguirá perteneciendo a <code>ingestion</code>.</p>
+<hr />
+<h1 id="dominio-runtime">Dominio <code>runtime</code><a class="headerlink" href="#dominio-runtime" title="Permanent link">&para;</a></h1>
+<p>El dominio <strong><code>runtime</code></strong> contiene los componentes responsables del procesamiento operativo del conocimiento.</p>
+<p>Responde:</p>
+<div class="highlight"><pre><span></span><code>¿Cómo se valida el conocimiento?
+
+¿Cómo se indexa?
+
+¿Cómo se recupera?
+
+¿Cómo se razona?
+
+¿Cómo se genera una respuesta?
+
+¿Cómo se coordinan los procesos?
+
+¿Cómo se descubren y seleccionan los motores?
+</code></pre></div>
+<hr />
+<h1 id="especificaciones-del-dominio-runtime">Especificaciones del dominio <code>runtime</code><a class="headerlink" href="#especificaciones-del-dominio-runtime" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="especificacion_de_validacionmd"><code>ESPECIFICACION_DE_VALIDACION.md</code><a class="headerlink" href="#especificacion_de_validacionmd" title="Permanent link">&para;</a></h2>
+<p>Define el motor o proceso de validación.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>validación estructural;</li>
+<li>validación semántica;</li>
+<li>reglas;</li>
+<li>Quality Gates;</li>
+<li>diagnósticos;</li>
+<li>severidades;</li>
+<li>resultados;</li>
+<li>excepciones;</li>
+<li>validación incremental;</li>
+<li>validación de documentos;</li>
+<li>validación de relaciones;</li>
+<li>validación de snapshots.</li>
+</ul>
+<p>Esta especificación es responsable de determinar si una unidad de conocimiento cumple los contratos del SGCC.</p>
+<hr />
+<h2 id="especificacion_del_indexing_enginemd"><code>ESPECIFICACION_DEL_INDEXING_ENGINE.md</code><a class="headerlink" href="#especificacion_del_indexing_enginemd" title="Permanent link">&para;</a></h2>
+<p>Define el motor de indexación.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>selección de unidades indexables;</li>
+<li>chunking;</li>
+<li>representaciones;</li>
+<li>embeddings;</li>
+<li>índices lexicales;</li>
+<li>índices vectoriales;</li>
+<li>índices híbridos;</li>
+<li>snapshots;</li>
+<li>publicación;</li>
+<li>actualización;</li>
+<li>eliminación;</li>
+<li>consistency;</li>
+<li>lineage;</li>
+<li>recuperación.</li>
+</ul>
+<p>El Indexing Engine transforma el conocimiento canónico en estructuras optimizadas para recuperación.</p>
+<hr />
+<h2 id="especificacion_del_retrieval_enginemd"><code>ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md</code><a class="headerlink" href="#especificacion_del_retrieval_enginemd" title="Permanent link">&para;</a></h2>
+<p>Define el motor de recuperación.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>Query Understanding;</li>
+<li>planificación de consulta;</li>
+<li>recuperación lexical;</li>
+<li>recuperación vectorial;</li>
+<li>recuperación estructurada;</li>
+<li>recuperación mediante grafo;</li>
+<li>ranking;</li>
+<li>reranking;</li>
+<li>fusión;</li>
+<li>filtros;</li>
+<li>evidencia;</li>
+<li>provenance;</li>
+<li>context selection.</li>
+</ul>
+<p>El Retrieval Engine recupera unidades de conocimiento relevantes para una necesidad concreta.</p>
+<hr />
+<h2 id="especificacion_del_razonadormd"><code>ESPECIFICACION_DEL_RAZONADOR.md</code><a class="headerlink" href="#especificacion_del_razonadormd" title="Permanent link">&para;</a></h2>
+<p>Define el motor de razonamiento.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>reglas;</li>
+<li>inferencia;</li>
+<li>deducción;</li>
+<li>resolución de restricciones;</li>
+<li>explicación;</li>
+<li>Statements;</li>
+<li>consistencia;</li>
+<li>razonamiento sobre relaciones;</li>
+<li>validación lógica;</li>
+<li>inferencia culinaria controlada.</li>
+</ul>
+<p>El Razonador deberá operar sobre conocimiento trazable y declarar siempre la base de sus conclusiones.</p>
+<hr />
+<h2 id="especificacion_del_motor_ragmd"><code>ESPECIFICACION_DEL_MOTOR_RAG.md</code><a class="headerlink" href="#especificacion_del_motor_ragmd" title="Permanent link">&para;</a></h2>
+<p>Define el motor de generación aumentada mediante recuperación.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>recepción de consultas;</li>
+<li>recuperación de contexto;</li>
+<li>context assembly;</li>
+<li>grounding;</li>
+<li>prompt construction;</li>
+<li>generación;</li>
+<li>citas;</li>
+<li>validación;</li>
+<li>no-respuesta;</li>
+<li>control de alucinaciones;</li>
+<li>modelos;</li>
+<li>resultados;</li>
+<li>feedback.</li>
+</ul>
+<p>El Motor RAG combina recuperación y generación sin sustituir al Retrieval Engine ni al Knowledge Graph.</p>
+<hr />
+<h2 id="especificacion_del_orquestador_de_ejecucionmd"><code>ESPECIFICACION_DEL_ORQUESTADOR_DE_EJECUCION.md</code><a class="headerlink" href="#especificacion_del_orquestador_de_ejecucionmd" title="Permanent link">&para;</a></h2>
+<p>Define la coordinación de procesos ejecutables.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>Workflows;</li>
+<li>DAGs;</li>
+<li>Steps;</li>
+<li>Jobs;</li>
+<li>Scheduler;</li>
+<li>Worker Pools;</li>
+<li>estados;</li>
+<li>eventos;</li>
+<li>señales;</li>
+<li>timers;</li>
+<li>retries;</li>
+<li>cancelación;</li>
+<li>compensación;</li>
+<li>concurrencia;</li>
+<li>persistencia;</li>
+<li>recovery;</li>
+<li>resultados;</li>
+<li>operación distribuida.</li>
+</ul>
+<p>El Orquestador determina:</p>
+<div class="highlight"><pre><span></span><code>qué debe ejecutarse
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>en qué orden
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>con qué dependencias
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>bajo qué políticas de recuperación
+</code></pre></div>
+<hr />
+<h2 id="especificacion_del_engine_registrymd"><code>ESPECIFICACION_DEL_ENGINE_REGISTRY.md</code><a class="headerlink" href="#especificacion_del_engine_registrymd" title="Permanent link">&para;</a></h2>
+<p>Define el catálogo y plano de control de Engines.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>Engine Definitions;</li>
+<li>Engine Instances;</li>
+<li>Providers;</li>
+<li>Capabilities;</li>
+<li>Operations;</li>
+<li>Contracts;</li>
+<li>registro;</li>
+<li>discovery;</li>
+<li>health;</li>
+<li>availability;</li>
+<li>matching;</li>
+<li>routing;</li>
+<li>seguridad;</li>
+<li>gobernanza;</li>
+<li>lifecycle.</li>
+</ul>
+<p>El Engine Registry responde:</p>
+<div class="highlight"><pre><span></span><code>¿Qué Engines existen?
+
+¿Qué capacidades ofrecen?
+
+¿Qué instancias están disponibles?
+
+¿Cuál puede ejecutar una Activity concreta?
+</code></pre></div>
+<hr />
+<h1 id="dependencias-internas-de-runtime">Dependencias internas de <code>runtime</code><a class="headerlink" href="#dependencias-internas-de-runtime" title="Permanent link">&para;</a></h1>
+<p>Flujo operativo simplificado:</p>
+<div class="highlight"><pre><span></span><code>Orquestador de Ejecución
+        ↓
+Engine Registry
+        ↓
+Engine compatible
+        ↓
+Validación / Indexación / Retrieval / Razonamiento / RAG
+</code></pre></div>
+<p>Flujo de conocimiento:</p>
+<div class="highlight"><pre><span></span><code>Conocimiento canónico
+        ↓
+Validation Engine
+        ↓
+Indexing Engine
+        ↓
+Retrieval Engine
+        ↓
+Razonador
+        ↓
+Motor RAG
+</code></pre></div>
+<p>Este flujo no implica que todos los componentes deban utilizarse siempre ni en ese orden exacto.</p>
+<hr />
+<h1 id="autoridad-conceptual-dentro-de-runtime">Autoridad conceptual dentro de <code>runtime</code><a class="headerlink" href="#autoridad-conceptual-dentro-de-runtime" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Concepto</th>
+<th>Especificación autoritativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reglas de validación</td>
+<td>Validación</td>
+</tr>
+<tr>
+<td>Estructuras de índice</td>
+<td>Indexing Engine</td>
+</tr>
+<tr>
+<td>Recuperación y ranking</td>
+<td>Retrieval Engine</td>
+</tr>
+<tr>
+<td>Inferencia</td>
+<td>Razonador</td>
+</tr>
+<tr>
+<td>Generación grounded</td>
+<td>Motor RAG</td>
+</tr>
+<tr>
+<td>Workflows y lifecycle de ejecución</td>
+<td>Orquestador</td>
+</tr>
+<tr>
+<td>Engines, Capabilities y Discovery</td>
+<td>Engine Registry</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="limites-de-responsabilidad-en-runtime">Límites de responsabilidad en <code>runtime</code><a class="headerlink" href="#limites-de-responsabilidad-en-runtime" title="Permanent link">&para;</a></h1>
+<p>Para evitar solapamientos, deberán respetarse las siguientes fronteras.</p>
+<hr />
+<h2 id="orquestador-frente-a-engine-registry">Orquestador frente a Engine Registry<a class="headerlink" href="#orquestador-frente-a-engine-registry" title="Permanent link">&para;</a></h2>
+<p>El Orquestador:</p>
+<ul>
+<li>coordina;</li>
+<li>agenda;</li>
+<li>controla estados;</li>
+<li>recupera ejecuciones.</li>
+</ul>
+<p>El Engine Registry:</p>
+<ul>
+<li>registra;</li>
+<li>describe;</li>
+<li>descubre;</li>
+<li>evalúa compatibilidad;</li>
+<li>proporciona candidatos.</li>
+</ul>
+<hr />
+<h2 id="retrieval-engine-frente-a-motor-rag">Retrieval Engine frente a Motor RAG<a class="headerlink" href="#retrieval-engine-frente-a-motor-rag" title="Permanent link">&para;</a></h2>
+<p>El Retrieval Engine:</p>
+<ul>
+<li>recupera evidencia;</li>
+<li>ordena candidatos;</li>
+<li>prepara contexto.</li>
+</ul>
+<p>El Motor RAG:</p>
+<ul>
+<li>consume contexto;</li>
+<li>genera una respuesta;</li>
+<li>mantiene grounding;</li>
+<li>produce citas.</li>
+</ul>
+<hr />
+<h2 id="knowledge-graph-frente-a-razonador">Knowledge Graph frente a Razonador<a class="headerlink" href="#knowledge-graph-frente-a-razonador" title="Permanent link">&para;</a></h2>
+<p>El Knowledge Graph:</p>
+<ul>
+<li>representa hechos y relaciones.</li>
+</ul>
+<p>El Razonador:</p>
+<ul>
+<li>deriva conclusiones;</li>
+<li>aplica reglas;</li>
+<li>explica inferencias.</li>
+</ul>
+<hr />
+<h2 id="validacion-frente-a-razonamiento">Validación frente a Razonamiento<a class="headerlink" href="#validacion-frente-a-razonamiento" title="Permanent link">&para;</a></h2>
+<p>La Validación comprueba conformidad.</p>
+<p>El Razonamiento genera conclusiones derivadas.</p>
+<p>Una conclusión puede posteriormente someterse a validación.</p>
+<hr />
+<h2 id="indexing-frente-a-retrieval">Indexing frente a Retrieval<a class="headerlink" href="#indexing-frente-a-retrieval" title="Permanent link">&para;</a></h2>
+<p>El Indexing Engine crea y mantiene índices.</p>
+<p>El Retrieval Engine consulta dichos índices.</p>
+<hr />
+<h1 id="dominio-interfaces">Dominio <code>interfaces</code><a class="headerlink" href="#dominio-interfaces" title="Permanent link">&para;</a></h1>
+<p>El dominio <strong><code>interfaces</code></strong> define cómo se exponen y consumen las capacidades del SGCC.</p>
+<p>Responde:</p>
+<div class="highlight"><pre><span></span><code>¿Cómo se comunica un consumidor con NovaCoquinaria?
+
+¿Qué recursos se exponen?
+
+¿Qué contratos se utilizan?
+
+¿Cómo se versionan?
+
+¿Cómo se representan errores?
+
+¿Cómo se autentican las solicitudes?
+
+¿Cómo se mantiene compatibilidad?
+</code></pre></div>
+<hr />
+<h1 id="especificacion_de_apismd"><code>ESPECIFICACION_DE_APIS.md</code><a class="headerlink" href="#especificacion_de_apismd" title="Permanent link">&para;</a></h1>
+<p>Define los contratos de interfaz del SGCC.</p>
+<p>Sus responsabilidades incluyen:</p>
+<ul>
+<li>API families;</li>
+<li>recursos;</li>
+<li>endpoints;</li>
+<li>requests;</li>
+<li>responses;</li>
+<li>errores;</li>
+<li>paginación;</li>
+<li>filtros;</li>
+<li>versionado;</li>
+<li>idempotencia;</li>
+<li>autenticación;</li>
+<li>autorización;</li>
+<li>rate limits;</li>
+<li>eventos;</li>
+<li>callbacks;</li>
+<li>observabilidad;</li>
+<li>lifecycle de contratos.</li>
+</ul>
+<p>Las APIs no deberán duplicar la lógica funcional de los componentes internos.</p>
+<p>Deberán exponerla mediante contratos estables.</p>
+<hr />
+<h1 id="relacion-de-interfaces-con-el-resto-de-dominios">Relación de <code>interfaces</code> con el resto de dominios<a class="headerlink" href="#relacion-de-interfaces-con-el-resto-de-dominios" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>Consumidor
+    ↓
+API
+    ↓
+Orquestador o componente funcional
+    ↓
+Knowledge / Runtime / Ingestion
+</code></pre></div>
+<p>La API actúa como frontera contractual.</p>
+<p>No deberá convertirse en la fuente autoritativa del modelo interno.</p>
+<hr />
+<h1 id="catalogo-actual-de-especificaciones">Catálogo actual de especificaciones<a class="headerlink" href="#catalogo-actual-de-especificaciones" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Dominio</th>
+<th>Documento</th>
+<th>Responsabilidad principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Knowledge</td>
+<td>Ontología</td>
+<td>Modelo conceptual</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Documentos</td>
+<td>Unidad documental</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Componentes</td>
+<td>Elementos reutilizables</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Relaciones</td>
+<td>Vínculos semánticos</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Colecciones</td>
+<td>Agrupación de conocimiento</td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>Knowledge Graph</td>
+<td>Representación en grafo</td>
+</tr>
+<tr>
+<td>Ingestion</td>
+<td>Ingesta</td>
+<td>Entrada y normalización</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Validación</td>
+<td>Conformidad y diagnósticos</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Indexing Engine</td>
+<td>Creación de índices</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Retrieval Engine</td>
+<td>Recuperación de conocimiento</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Razonador</td>
+<td>Inferencia y reglas</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Motor RAG</td>
+<td>Generación grounded</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Orquestador</td>
+<td>Coordinación de ejecuciones</td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Engine Registry</td>
+<td>Registro y selección de Engines</td>
+</tr>
+<tr>
+<td>Interfaces</td>
+<td>APIs</td>
+<td>Contratos de exposición</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="mapa-general-de-dependencias">Mapa general de dependencias<a class="headerlink" href="#mapa-general-de-dependencias" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>                         VISION
+                           │
+                           ▼
+                     ARQUITECTURA
+                           │
+                           ▼
+                        ADRs
+                           │
+                           ▼
+                    SPECIFICATIONS
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      Knowledge        Ingestion        Interfaces
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                        Runtime
+</code></pre></div>
+<hr />
+<h1 id="dependencias-funcionales-principales">Dependencias funcionales principales<a class="headerlink" href="#dependencias-funcionales-principales" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>Ontología
+    ↓
+Documentos
+    ↓
+Componentes
+    ↓
+Relaciones
+    ↓
+Knowledge Graph
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Fuentes
+    ↓
+Ingesta
+    ↓
+Validación
+    ↓
+Knowledge Graph
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Knowledge Graph
+    ↓
+Indexing Engine
+    ↓
+Retrieval Engine
+    ↓
+Motor RAG
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Knowledge Graph
+    ↓
+Razonador
+    ↓
+Motor RAG
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Orquestador de Ejecución
+    ↓
+Engine Registry
+    ↓
+Engines especializados
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>APIs
+    ↓
+Orquestador
+    ↓
+Runtime
+    ↓
+Knowledge
+</code></pre></div>
+<hr />
+<h1 id="dependencias-documentales">Dependencias documentales<a class="headerlink" href="#dependencias-documentales" title="Permanent link">&para;</a></h1>
+<p>Las dependencias documentales no deberán confundirse con dependencias de ejecución.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Motor RAG
+</code></pre></div>
+<p>puede depender documentalmente de:</p>
+<ul>
+<li>Retrieval Engine;</li>
+<li>APIs;</li>
+<li>Knowledge Graph;</li>
+<li>Ontología.</li>
+</ul>
+<p>Pero una implementación concreta podría desacoplarse mediante contratos.</p>
+<hr />
+<h1 id="tipos-de-dependencia">Tipos de dependencia<a class="headerlink" href="#tipos-de-dependencia" title="Permanent link">&para;</a></h1>
+<p>Toda dependencia entre especificaciones debería clasificarse como:</p>
+<div class="highlight"><pre><span></span><code>conceptual
+contractual
+runtime
+data
+security
+governance
+optional
+</code></pre></div>
+<hr />
+<h1 id="dependencia-conceptual">Dependencia conceptual<a class="headerlink" href="#dependencia-conceptual" title="Permanent link">&para;</a></h1>
+<p>Una especificación utiliza conceptos definidos por otra.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Knowledge Graph
+→
+Ontología
+</code></pre></div>
+<hr />
+<h1 id="dependencia-contractual">Dependencia contractual<a class="headerlink" href="#dependencia-contractual" title="Permanent link">&para;</a></h1>
+<p>Un componente consume contratos definidos por otro.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Motor RAG
+→
+Retrieval Result Contract
+</code></pre></div>
+<hr />
+<h1 id="dependencia-runtime">Dependencia Runtime<a class="headerlink" href="#dependencia-runtime" title="Permanent link">&para;</a></h1>
+<p>Un componente necesita que otro esté disponible durante ejecución.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Orquestador
+→
+Engine Registry
+</code></pre></div>
+<hr />
+<h1 id="dependencia-de-datos">Dependencia de datos<a class="headerlink" href="#dependencia-de-datos" title="Permanent link">&para;</a></h1>
+<p>Un componente consume datos producidos por otro.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Retrieval Engine
+→
+Index Snapshot
+</code></pre></div>
+<hr />
+<h1 id="dependencia-de-seguridad">Dependencia de seguridad<a class="headerlink" href="#dependencia-de-seguridad" title="Permanent link">&para;</a></h1>
+<p>Un componente necesita una decisión o perfil de seguridad.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Engine Registry
+→
+Trust Policy
+</code></pre></div>
+<hr />
+<h1 id="dependencia-de-gobernanza">Dependencia de gobernanza<a class="headerlink" href="#dependencia-de-gobernanza" title="Permanent link">&para;</a></h1>
+<p>Una evolución requiere aprobación o ADR.</p>
+<hr />
+<h1 id="dependencia-opcional">Dependencia opcional<a class="headerlink" href="#dependencia-opcional" title="Permanent link">&para;</a></h1>
+<p>El componente puede operar sin ella, pero con capacidades reducidas.</p>
+<hr />
+<h1 id="orden-recomendado-de-lectura">Orden recomendado de lectura<a class="headerlink" href="#orden-recomendado-de-lectura" title="Permanent link">&para;</a></h1>
+<p>No existe un único orden obligatorio.</p>
+<p>El orden dependerá del objetivo del lector.</p>
+<hr />
+<h1 id="ruta-de-lectura-conceptual">Ruta de lectura conceptual<a class="headerlink" href="#ruta-de-lectura-conceptual" title="Permanent link">&para;</a></h1>
+<p>Recomendada para comprender el modelo de conocimiento:</p>
+<div class="highlight"><pre><span></span><code>1. index.md
+2. ESPECIFICACION_DE_ONTOLOGIA.md
+3. ESPECIFICACION_DE_DOCUMENTOS.md
+4. ESPECIFICACION_DE_COMPONENTES.md
+5. ESPECIFICACION_DE_RELACIONES.md
+6. ESPECIFICACION_DE_COLECCIONES.md
+7. ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-del-ciclo-de-conocimiento">Ruta de lectura del ciclo de conocimiento<a class="headerlink" href="#ruta-de-lectura-del-ciclo-de-conocimiento" title="Permanent link">&para;</a></h1>
+<p>Recomendada para comprender cómo entra y se transforma la información:</p>
+<div class="highlight"><pre><span></span><code>1. index.md
+2. ESPECIFICACION_DE_INGESTA.md
+3. ESPECIFICACION_DE_VALIDACION.md
+4. ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+5. ESPECIFICACION_DEL_INDEXING_ENGINE.md
+6. ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-de-consulta-y-generacion">Ruta de lectura de consulta y generación<a class="headerlink" href="#ruta-de-lectura-de-consulta-y-generacion" title="Permanent link">&para;</a></h1>
+<p>Recomendada para comprender la interacción de consulta:</p>
+<div class="highlight"><pre><span></span><code>1. index.md
+2. ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+3. ESPECIFICACION_DEL_INDEXING_ENGINE.md
+4. ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md
+5. ESPECIFICACION_DEL_RAZONADOR.md
+6. ESPECIFICACION_DEL_MOTOR_RAG.md
+7. ESPECIFICACION_DE_APIS.md
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-del-runtime">Ruta de lectura del Runtime<a class="headerlink" href="#ruta-de-lectura-del-runtime" title="Permanent link">&para;</a></h1>
+<p>Recomendada para comprender la ejecución distribuida:</p>
+<div class="highlight"><pre><span></span><code>1. index.md
+2. ESPECIFICACION_DEL_ORQUESTADOR_DE_EJECUCION.md
+3. ESPECIFICACION_DEL_ENGINE_REGISTRY.md
+4. ESPECIFICACION_DE_VALIDACION.md
+5. ESPECIFICACION_DEL_INDEXING_ENGINE.md
+6. ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md
+7. ESPECIFICACION_DEL_RAZONADOR.md
+8. ESPECIFICACION_DEL_MOTOR_RAG.md
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-de-integracion">Ruta de lectura de integración<a class="headerlink" href="#ruta-de-lectura-de-integracion" title="Permanent link">&para;</a></h1>
+<p>Recomendada para implementar consumidores:</p>
+<div class="highlight"><pre><span></span><code>1. index.md
+2. ESPECIFICACION_DE_APIS.md
+3. ESPECIFICACION_DEL_ORQUESTADOR_DE_EJECUCION.md
+4. Especificación funcional del componente consumido
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-para-arquitectura">Ruta de lectura para arquitectura<a class="headerlink" href="#ruta-de-lectura-para-arquitectura" title="Permanent link">&para;</a></h1>
+<p>Recomendada para revisar el conjunto:</p>
+<div class="highlight"><pre><span></span><code>1. VISION.md
+2. ARQUITECTURA.md
+3. ADR relevantes
+4. specifications/index.md
+5. Ontología
+6. Knowledge Graph
+7. Ingesta
+8. Orquestador
+9. Engine Registry
+10. Retrieval Engine
+11. Motor RAG
+12. APIs
+</code></pre></div>
+<hr />
+<h1 id="ruta-de-lectura-para-implementacion-incremental">Ruta de lectura para implementación incremental<a class="headerlink" href="#ruta-de-lectura-para-implementacion-incremental" title="Permanent link">&para;</a></h1>
+<p>Orden recomendado de construcción conceptual:</p>
+<div class="highlight"><pre><span></span><code>1. Ontología
+2. Documentos
+3. Componentes
+4. Relaciones
+5. Validación
+6. Ingesta
+7. Knowledge Graph
+8. Indexing Engine
+9. Retrieval Engine
+10. APIs básicas
+11. Razonador
+12. Motor RAG
+13. Orquestador
+14. Engine Registry
+15. Capacidades avanzadas
+</code></pre></div>
+<p>Este orden es orientativo.</p>
+<p>No implica que todos los componentes deban desarrollarse de forma completa antes de comenzar el siguiente.</p>
+<hr />
+<h1 id="niveles-de-madurez-documental">Niveles de madurez documental<a class="headerlink" href="#niveles-de-madurez-documental" title="Permanent link">&para;</a></h1>
+<p>Cada especificación podrá clasificarse según el siguiente modelo.</p>
+<hr />
+<h2 id="nivel-0-idea">Nivel 0 — Idea<a class="headerlink" href="#nivel-0-idea" title="Permanent link">&para;</a></h2>
+<p>Existe el concepto, pero no una definición formal.</p>
+<hr />
+<h2 id="nivel-1-borrador-inicial">Nivel 1 — Borrador inicial<a class="headerlink" href="#nivel-1-borrador-inicial" title="Permanent link">&para;</a></h2>
+<p>El propósito y alcance están definidos.</p>
+<hr />
+<h2 id="nivel-2-modelo-conceptual">Nivel 2 — Modelo conceptual<a class="headerlink" href="#nivel-2-modelo-conceptual" title="Permanent link">&para;</a></h2>
+<p>Existen entidades, relaciones y responsabilidades.</p>
+<hr />
+<h2 id="nivel-3-contratos-definidos">Nivel 3 — Contratos definidos<a class="headerlink" href="#nivel-3-contratos-definidos" title="Permanent link">&para;</a></h2>
+<p>Existen contratos, estados, reglas y errores.</p>
+<hr />
+<h2 id="nivel-4-especificacion-completa">Nivel 4 — Especificación completa<a class="headerlink" href="#nivel-4-especificacion-completa" title="Permanent link">&para;</a></h2>
+<p>Incluye:</p>
+<ul>
+<li>arquitectura;</li>
+<li>lifecycle;</li>
+<li>seguridad;</li>
+<li>observabilidad;</li>
+<li>Quality Gates;</li>
+<li>conformidad.</li>
+</ul>
+<hr />
+<h2 id="nivel-5-validada-para-implementacion">Nivel 5 — Validada para implementación<a class="headerlink" href="#nivel-5-validada-para-implementacion" title="Permanent link">&para;</a></h2>
+<p>La especificación:</p>
+<ul>
+<li>ha sido revisada;</li>
+<li>no contiene contradicciones conocidas;</li>
+<li>está alineada con ADR;</li>
+<li>dispone de ejemplos;</li>
+<li>dispone de criterios de aceptación;</li>
+<li>puede implementarse.</li>
+</ul>
+<hr />
+<h2 id="nivel-6-implementada">Nivel 6 — Implementada<a class="headerlink" href="#nivel-6-implementada" title="Permanent link">&para;</a></h2>
+<p>Existe una implementación conforme.</p>
+<hr />
+<h2 id="nivel-7-verificada-en-produccion">Nivel 7 — Verificada en producción<a class="headerlink" href="#nivel-7-verificada-en-produccion" title="Permanent link">&para;</a></h2>
+<p>La implementación ha sido:</p>
+<ul>
+<li>desplegada;</li>
+<li>observada;</li>
+<li>validada;</li>
+<li>contrastada con la especificación.</li>
+</ul>
+<hr />
+<h1 id="estado-general-esperado">Estado general esperado<a class="headerlink" href="#estado-general-esperado" title="Permanent link">&para;</a></h1>
+<p>La documentación actual representa principalmente:</p>
+<div class="highlight"><pre><span></span><code>Nivel 3
+a
+Nivel 4
+</code></pre></div>
+<p>según el documento.</p>
+<p>La existencia de una especificación extensa no implica automáticamente que esté validada para implementación.</p>
+<hr />
+<h1 id="estado-documental-recomendado">Estado documental recomendado<a class="headerlink" href="#estado-documental-recomendado" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá declarar un estado.</p>
+<p>Valores recomendados:</p>
+<div class="highlight"><pre><span></span><code>draft
+review
+approved
+implementation_ready
+implemented
+deprecated
+retired
+</code></pre></div>
+<hr />
+<h1 id="draft">Draft<a class="headerlink" href="#draft" title="Permanent link">&para;</a></h1>
+<p>Documento en construcción.</p>
+<hr />
+<h1 id="review">Review<a class="headerlink" href="#review" title="Permanent link">&para;</a></h1>
+<p>Contenido completo pendiente de revisión.</p>
+<hr />
+<h1 id="approved">Approved<a class="headerlink" href="#approved" title="Permanent link">&para;</a></h1>
+<p>Arquitectura aprobada.</p>
+<hr />
+<h1 id="implementation-ready">Implementation Ready<a class="headerlink" href="#implementation-ready" title="Permanent link">&para;</a></h1>
+<p>Posee detalle suficiente para comenzar implementación.</p>
+<hr />
+<h1 id="implemented">Implemented<a class="headerlink" href="#implemented" title="Permanent link">&para;</a></h1>
+<p>Existe una implementación conforme.</p>
+<hr />
+<h1 id="deprecated">Deprecated<a class="headerlink" href="#deprecated" title="Permanent link">&para;</a></h1>
+<p>No se recomienda para nuevas implementaciones.</p>
+<hr />
+<h1 id="retired">Retired<a class="headerlink" href="#retired" title="Permanent link">&para;</a></h1>
+<p>Solo se conserva para referencia histórica.</p>
+<hr />
+<h1 id="criterios-para-crear-una-nueva-especificacion">Criterios para crear una nueva especificación<a class="headerlink" href="#criterios-para-crear-una-nueva-especificacion" title="Permanent link">&para;</a></h1>
+<p>No deberá crearse un nuevo documento únicamente porque aparezca un nuevo término.</p>
+<p>Una nueva especificación estará justificada cuando exista:</p>
+<ul>
+<li>responsabilidad propia;</li>
+<li>lifecycle propio;</li>
+<li>contratos propios;</li>
+<li>modelo de datos propio;</li>
+<li>ownership claro;</li>
+<li>independencia razonable;</li>
+<li>necesidad de evolución separada;</li>
+<li>volumen suficiente;</li>
+<li>impacto arquitectónico.</li>
+</ul>
+<hr />
+<h1 id="preguntas-previas">Preguntas previas<a class="headerlink" href="#preguntas-previas" title="Permanent link">&para;</a></h1>
+<p>Antes de crear una especificación deberá comprobarse:</p>
+<div class="highlight"><pre><span></span><code>¿Existe ya un documento que cubre esta responsabilidad?
+
+¿Es un componente o únicamente una función?
+
+¿Tiene entidades propias?
+
+¿Tiene contratos propios?
+
+¿Tiene lifecycle propio?
+
+¿Puede evolucionar independientemente?
+
+¿Necesita un owner distinto?
+
+¿Su separación reduce o aumenta duplicidad?
+</code></pre></div>
+<hr />
+<h1 id="cuando-ampliar-una-especificacion-existente">Cuándo ampliar una especificación existente<a class="headerlink" href="#cuando-ampliar-una-especificacion-existente" title="Permanent link">&para;</a></h1>
+<p>Se ampliará un documento existente cuando:</p>
+<ul>
+<li>el concepto pertenece claramente al mismo dominio;</li>
+<li>comparte lifecycle;</li>
+<li>comparte contratos;</li>
+<li>comparte ownership;</li>
+<li>su separación no aporta independencia;</li>
+<li>el volumen añadido sigue siendo manejable.</li>
+</ul>
+<hr />
+<h1 id="cuando-dividir-una-especificacion">Cuándo dividir una especificación<a class="headerlink" href="#cuando-dividir-una-especificacion" title="Permanent link">&para;</a></h1>
+<p>Podrá dividirse cuando:</p>
+<ul>
+<li>se vuelva difícil de navegar;</li>
+<li>contenga varios bounded contexts;</li>
+<li>existan owners diferentes;</li>
+<li>los ciclos de vida sean independientes;</li>
+<li>haya contratos reutilizables;</li>
+<li>existan implementaciones separadas;</li>
+<li>la evolución produzca conflictos frecuentes.</li>
+</ul>
+<hr />
+<h1 id="no-dividir-unicamente-por-tamano">No dividir únicamente por tamaño<a class="headerlink" href="#no-dividir-unicamente-por-tamano" title="Permanent link">&para;</a></h1>
+<p>Un documento extenso puede seguir siendo correcto si mantiene:</p>
+<ul>
+<li>cohesión;</li>
+<li>índice;</li>
+<li>estructura;</li>
+<li>autoridad única;</li>
+<li>navegación adecuada.</li>
+</ul>
+<hr />
+<h1 id="criterios-de-ubicacion-por-directorio">Criterios de ubicación por directorio<a class="headerlink" href="#criterios-de-ubicacion-por-directorio" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="ubicar-en-knowledge">Ubicar en <code>knowledge/</code><a class="headerlink" href="#ubicar-en-knowledge" title="Permanent link">&para;</a></h2>
+<p>Cuando el documento defina:</p>
+<ul>
+<li>conocimiento;</li>
+<li>semántica;</li>
+<li>entidades;</li>
+<li>documentos;</li>
+<li>relaciones;</li>
+<li>grafos;</li>
+<li>agrupaciones.</li>
+</ul>
+<hr />
+<h2 id="ubicar-en-ingestion">Ubicar en <code>ingestion/</code><a class="headerlink" href="#ubicar-en-ingestion" title="Permanent link">&para;</a></h2>
+<p>Cuando defina:</p>
+<ul>
+<li>entrada;</li>
+<li>adquisición;</li>
+<li>normalización;</li>
+<li>staging;</li>
+<li>incorporación;</li>
+<li>reingesta.</li>
+</ul>
+<hr />
+<h2 id="ubicar-en-runtime">Ubicar en <code>runtime/</code><a class="headerlink" href="#ubicar-en-runtime" title="Permanent link">&para;</a></h2>
+<p>Cuando defina:</p>
+<ul>
+<li>ejecución;</li>
+<li>procesamiento;</li>
+<li>motores;</li>
+<li>planificación;</li>
+<li>recuperación;</li>
+<li>generación;</li>
+<li>razonamiento;</li>
+<li>validación operativa.</li>
+</ul>
+<hr />
+<h2 id="ubicar-en-interfaces">Ubicar en <code>interfaces/</code><a class="headerlink" href="#ubicar-en-interfaces" title="Permanent link">&para;</a></h2>
+<p>Cuando defina:</p>
+<ul>
+<li>APIs;</li>
+<li>eventos públicos;</li>
+<li>callbacks;</li>
+<li>Webhooks;</li>
+<li>SDKs;</li>
+<li>contratos de consumidores.</li>
+</ul>
+<hr />
+<h1 id="posibles-dominios-futuros">Posibles dominios futuros<a class="headerlink" href="#posibles-dominios-futuros" title="Permanent link">&para;</a></h1>
+<p>Solo deberán crearse cuando existan documentos reales que los justifiquen.</p>
+<p>Ejemplos potenciales:</p>
+<div class="highlight"><pre><span></span><code>governance/
+security/
+operations/
+integration/
+deployment/
+evaluation/
+agents/
+</code></pre></div>
+<p>No deberán crearse directorios vacíos únicamente como previsión.</p>
+<hr />
+<h1 id="convencion-de-referencias">Convención de referencias<a class="headerlink" href="#convencion-de-referencias" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones deberán referenciar otros documentos mediante rutas relativas.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">Especificación del Knowledge Graph</span>](<span class="na">./knowledge/ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md</span>)
+</code></pre></div>
+<hr />
+<h1 id="referencias-estables">Referencias estables<a class="headerlink" href="#referencias-estables" title="Permanent link">&para;</a></h1>
+<p>Las referencias deberán utilizar:</p>
+<ul>
+<li>nombre canónico;</li>
+<li>ruta real;</li>
+<li>capitalización correcta;</li>
+<li>extensión exacta.</li>
+</ul>
+<hr />
+<h1 id="no-duplicar-contenido-autoritativo">No duplicar contenido autoritativo<a class="headerlink" href="#no-duplicar-contenido-autoritativo" title="Permanent link">&para;</a></h1>
+<p>Cuando otra especificación sea la fuente principal, se deberá:</p>
+<ol>
+<li>resumir únicamente lo necesario;</li>
+<li>enlazar la fuente;</li>
+<li>evitar redefinir el contrato;</li>
+<li>declarar cualquier extensión específica.</li>
+</ol>
+<hr />
+<h1 id="mapa-de-ownership-documental">Mapa de ownership documental<a class="headerlink" href="#mapa-de-ownership-documental" title="Permanent link">&para;</a></h1>
+<p>Se recomienda que cada documento declare:</p>
+<div class="highlight"><pre><span></span><code>owner conceptual
+owner técnico
+revisores
+estado
+última revisión
+próxima revisión
+</code></pre></div>
+<hr />
+<h1 id="ejemplo">Ejemplo<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">document_ownership</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">conceptual_owner</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TEAM-KNOWLEDGE</span>
+<span class="w">  </span><span class="nt">technical_owner</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TEAM-PLATFORM</span>
+<span class="w">  </span><span class="nt">reviewers</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ARCHITECTURE-BOARD</span>
+<span class="w">  </span><span class="nt">review_cycle</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">P90D</span>
+</code></pre></div>
+<hr />
+<h1 id="revision-cruzada">Revisión cruzada<a class="headerlink" href="#revision-cruzada" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones con dependencias deberán revisarse conjuntamente cuando exista un cambio incompatible.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Ontología
++
+Knowledge Graph
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Indexing Engine
++
+Retrieval Engine
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Orquestador
++
+Engine Registry
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Motor RAG
++
+Retrieval Engine
++
+APIs
+</code></pre></div>
+<hr />
+<h1 id="matriz-de-impacto">Matriz de impacto<a class="headerlink" href="#matriz-de-impacto" title="Permanent link">&para;</a></h1>
+<p>Todo cambio relevante deberá identificar:</p>
+<ul>
+<li>documento modificado;</li>
+<li>documentos consumidores;</li>
+<li>contratos afectados;</li>
+<li>migraciones;</li>
+<li>compatibilidad;</li>
+<li>ADR necesario;</li>
+<li>versión resultante.</li>
+</ul>
+<hr />
+<h1 id="ejemplo_1">Ejemplo<a class="headerlink" href="#ejemplo_1" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">specification_change_impact</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">source</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">document</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md</span>
+
+<span class="w">  </span><span class="nt">change</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">contract</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RETRIEVAL-RESULT</span>
+<span class="w">    </span><span class="nt">from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2.0.0</span>
+<span class="w">    </span><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3.0.0</span>
+
+<span class="w">  </span><span class="nt">affected</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ESPECIFICACION_DEL_MOTOR_RAG.md</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ESPECIFICACION_DEL_ENGINE_REGISTRY.md</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ESPECIFICACION_DE_APIS.md</span>
+
+<span class="w">  </span><span class="nt">compatibility</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">breaking</span>
+</code></pre></div>
+<hr />
+<h1 id="dependencias-circulares-documentales">Dependencias circulares documentales<a class="headerlink" href="#dependencias-circulares-documentales" title="Permanent link">&para;</a></h1>
+<p>Deberán evitarse ciclos de autoridad.</p>
+<p>Ejemplo problemático:</p>
+<div class="highlight"><pre><span></span><code>A define X según B
+B define X según A
+</code></pre></div>
+<p>Cada concepto deberá tener una única fuente principal.</p>
+<hr />
+<h1 id="dependencias-circulares-runtime">Dependencias circulares Runtime<a class="headerlink" href="#dependencias-circulares-runtime" title="Permanent link">&para;</a></h1>
+<p>Podrán existir colaboraciones bidireccionales, pero deberán formalizarse mediante contratos.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Orquestador
+↔
+Engine Registry
+</code></pre></div>
+<p>El Orquestador consulta el Registry.</p>
+<p>El Registry puede recibir métricas operativas del Orquestador.</p>
+<p>Esto no implica que ambos definan el mismo concepto.</p>
+<hr />
+<h1 id="documentos-transversales-futuros">Documentos transversales futuros<a class="headerlink" href="#documentos-transversales-futuros" title="Permanent link">&para;</a></h1>
+<p>Para mejorar la cohesión del conjunto se prevé la posible creación de:</p>
+<div class="highlight"><pre><span></span><code>GLOSARIO.md
+CONVENCIONES.md
+DEPENDENCIAS.md
+</code></pre></div>
+<hr />
+<h1 id="glosariomd"><code>GLOSARIO.md</code><a class="headerlink" href="#glosariomd" title="Permanent link">&para;</a></h1>
+<p>Servirá como fuente común de términos.</p>
+<hr />
+<h1 id="convencionesmd"><code>CONVENCIONES.md</code><a class="headerlink" href="#convencionesmd" title="Permanent link">&para;</a></h1>
+<p>Definirá:</p>
+<ul>
+<li>nombres;</li>
+<li>IDs;</li>
+<li>versiones;</li>
+<li>estados;</li>
+<li>contratos;</li>
+<li>ejemplos;</li>
+<li>estilo documental.</li>
+</ul>
+<hr />
+<h1 id="dependenciasmd"><code>DEPENDENCIAS.md</code><a class="headerlink" href="#dependenciasmd" title="Permanent link">&para;</a></h1>
+<p>Podrá mantener:</p>
+<ul>
+<li>matriz completa;</li>
+<li>diagramas;</li>
+<li>impacto;</li>
+<li>authority map;</li>
+<li>ciclos;</li>
+<li>orden de evolución.</li>
+</ul>
+<hr />
+<h1 id="no-sustituir-las-especificaciones">No sustituir las especificaciones<a class="headerlink" href="#no-sustituir-las-especificaciones" title="Permanent link">&para;</a></h1>
+<p>Estos documentos transversales deberán complementar, no reemplazar, las especificaciones de dominio.</p>
+<hr />
+<h1 id="transicion-hacia-la-parte-iii">Transición hacia la Parte III<a class="headerlink" href="#transicion-hacia-la-parte-iii" title="Permanent link">&para;</a></h1>
+<p>La tercera y última parte desarrollará:</p>
+<ul>
+<li>convenciones de nomenclatura;</li>
+<li>convenciones de archivos;</li>
+<li>estructura interna recomendada;</li>
+<li>versionado documental;</li>
+<li>estados;</li>
+<li>control de cambios;</li>
+<li>Quality Gates documentales;</li>
+<li>validación de enlaces;</li>
+<li>mantenimiento;</li>
+<li>gobernanza;</li>
+<li>checklist global;</li>
+<li>estado final del README.</li>
+</ul>
+<hr />
+<h1 id="parte-iii-convenciones-versionado-estados-validacion-mantenimiento-gobernanza-y-conformidad-documental">Parte III — Convenciones, versionado, estados, validación, mantenimiento, gobernanza y conformidad documental<a class="headerlink" href="#parte-iii-convenciones-versionado-estados-validacion-mantenimiento-gobernanza-y-conformidad-documental" title="Permanent link">&para;</a></h1>
+<hr />
+<h1 id="convenciones-generales">Convenciones generales<a class="headerlink" href="#convenciones-generales" title="Permanent link">&para;</a></h1>
+<p>El directorio <code>specifications/</code> deberá mantener convenciones homogéneas para facilitar:</p>
+<ul>
+<li>navegación;</li>
+<li>búsqueda;</li>
+<li>mantenimiento;</li>
+<li>revisión;</li>
+<li>automatización;</li>
+<li>validación;</li>
+<li>trazabilidad.</li>
+</ul>
+<p>Las convenciones descritas en esta parte se aplican a todas las especificaciones salvo excepción explícita y justificada.</p>
+<hr />
+<h1 id="convencion-de-nombres-de-archivo">Convención de nombres de archivo<a class="headerlink" href="#convencion-de-nombres-de-archivo" title="Permanent link">&para;</a></h1>
+<p>Los nombres de archivo deberán:</p>
+<ul>
+<li>utilizar mayúsculas;</li>
+<li>utilizar guion bajo;</li>
+<li>evitar espacios;</li>
+<li>utilizar caracteres ASCII siempre que sea posible;</li>
+<li>conservar extensión <code>.md</code>;</li>
+<li>describir con precisión el contenido;</li>
+<li>evitar abreviaturas ambiguas;</li>
+<li>mantener una única forma canónica.</li>
+</ul>
+<p>Formato general:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DE_&lt;CONCEPTO&gt;.md
+</code></pre></div>
+<p>o:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DEL_&lt;CONCEPTO&gt;.md
+</code></pre></div>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DE_INGESTA.md
+ESPECIFICACION_DE_DOCUMENTOS.md
+ESPECIFICACION_DE_RELACIONES.md
+ESPECIFICACION_DEL_ENGINE_REGISTRY.md
+ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md
+ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+</code></pre></div>
+<hr />
+<h1 id="nombres-canonicos">Nombres canónicos<a class="headerlink" href="#nombres-canonicos" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá tener un único nombre oficial.</p>
+<p>No deberán coexistir variantes como:</p>
+<div class="highlight"><pre><span></span><code>Knowledge Graph
+KnowledgeGraph
+Knowledge-Graph
+Grafo de Conocimiento
+KNOLWEDGE GRAPH
+</code></pre></div>
+<p>salvo en contextos de traducción o explicación.</p>
+<p>El nombre canónico deberá utilizarse en:</p>
+<ul>
+<li>títulos;</li>
+<li>enlaces;</li>
+<li>índices;</li>
+<li>referencias;</li>
+<li>diagramas;</li>
+<li>metadatos;</li>
+<li>dependencias.</li>
+</ul>
+<hr />
+<h1 id="correccion-de-nombres">Corrección de nombres<a class="headerlink" href="#correccion-de-nombres" title="Permanent link">&para;</a></h1>
+<p>Todo renombrado deberá incluir:</p>
+<ol>
+<li>cambio del archivo;</li>
+<li>actualización de enlaces;</li>
+<li>actualización de índices;</li>
+<li>actualización de referencias en ADR;</li>
+<li>validación de enlaces;</li>
+<li>registro del cambio.</li>
+</ol>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DEL_KNOLWEDGE_GRAPH.md
+</code></pre></div>
+<p>deberá renombrarse como:</p>
+<div class="highlight"><pre><span></span><code>ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md
+</code></pre></div>
+<hr />
+<h1 id="convencion-de-titulos">Convención de títulos<a class="headerlink" href="#convencion-de-titulos" title="Permanent link">&para;</a></h1>
+<p>El título principal deberá reflejar el nombre oficial.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Especificación del Engine Registry</span>
+</code></pre></div>
+<p>o:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Especificación del Knowledge Graph</span>
+</code></pre></div>
+<p>No deberán utilizarse títulos genéricos como:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Documento técnico</span>
+</code></pre></div>
+<hr />
+<h1 id="convencion-de-idioma">Convención de idioma<a class="headerlink" href="#convencion-de-idioma" title="Permanent link">&para;</a></h1>
+<p>La documentación del proyecto se redactará principalmente en español.</p>
+<p>Los términos técnicos ampliamente aceptados podrán conservarse en inglés cuando:</p>
+<ul>
+<li>sean nombres canónicos;</li>
+<li>formen parte de un contrato;</li>
+<li>representen componentes;</li>
+<li>eviten traducciones ambiguas.</li>
+</ul>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Engine Registry
+Knowledge Graph
+Runtime
+Workflow
+Snapshot
+Capability
+Quality Gate
+</code></pre></div>
+<p>Cuando un término inglés sea central, deberá utilizarse de forma consistente.</p>
+<hr />
+<h1 id="convencion-de-capitalizacion">Convención de capitalización<a class="headerlink" href="#convencion-de-capitalizacion" title="Permanent link">&para;</a></h1>
+<p>Se recomienda utilizar mayúscula inicial para conceptos arquitectónicos formalizados.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>Engine
+Capability
+Document
+Collection
+Statement
+Workflow
+Execution
+Snapshot
+</code></pre></div>
+<p>Los usos genéricos podrán escribirse en minúscula.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>El Engine Registry registra Engines.
+</code></pre></div>
+<hr />
+<h1 id="convencion-de-identificadores">Convención de identificadores<a class="headerlink" href="#convencion-de-identificadores" title="Permanent link">&para;</a></h1>
+<p>Los identificadores documentados deberán ser:</p>
+<ul>
+<li>únicos;</li>
+<li>estables;</li>
+<li>descriptivos;</li>
+<li>tipados;</li>
+<li>versionables cuando proceda.</li>
+</ul>
+<p>Formato recomendado:</p>
+<div class="highlight"><pre><span></span><code>&lt;TIPO&gt;-&lt;DOMINIO&gt;-&lt;IDENTIFICADOR&gt;
+</code></pre></div>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>ENGINE-RETRIEVAL-HYBRID
+CAP-HYBRID-RETRIEVAL
+EXEC-000041
+DOC-000123
+COL-000010
+REL-000081
+</code></pre></div>
+<hr />
+<h1 id="prefijos">Prefijos<a class="headerlink" href="#prefijos" title="Permanent link">&para;</a></h1>
+<p>Los prefijos deberán documentarse en <code>CONVENCIONES.md</code> o <code>GLOSARIO.md</code>.</p>
+<p>Ejemplos iniciales:</p>
+<table>
+<thead>
+<tr>
+<th>Prefijo</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DOC</code></td>
+<td>Documento</td>
+</tr>
+<tr>
+<td><code>COMP</code></td>
+<td>Componente</td>
+</tr>
+<tr>
+<td><code>REL</code></td>
+<td>Relación</td>
+</tr>
+<tr>
+<td><code>COL</code></td>
+<td>Colección</td>
+</tr>
+<tr>
+<td><code>KG</code></td>
+<td>Knowledge Graph</td>
+</tr>
+<tr>
+<td><code>ENGINE</code></td>
+<td>Engine</td>
+</tr>
+<tr>
+<td><code>CAP</code></td>
+<td>Capability</td>
+</tr>
+<tr>
+<td><code>EXEC</code></td>
+<td>Execution</td>
+</tr>
+<tr>
+<td><code>ACT</code></td>
+<td>Activity</td>
+</tr>
+<tr>
+<td><code>WF</code></td>
+<td>Workflow</td>
+</tr>
+<tr>
+<td><code>QG</code></td>
+<td>Quality Gate</td>
+</tr>
+<tr>
+<td><code>DIAG</code></td>
+<td>Diagnóstico</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="ids-de-ejemplo">IDs de ejemplo<a class="headerlink" href="#ids-de-ejemplo" title="Permanent link">&para;</a></h1>
+<p>Los ejemplos deberán distinguirse claramente de IDs reales.</p>
+<p>Se recomienda utilizar:</p>
+<div class="highlight"><pre><span></span><code>000001
+000041
+EXAMPLE
+DEMO
+</code></pre></div>
+<p>No deberán reutilizarse IDs reales del repositorio sin necesidad.</p>
+<hr />
+<h1 id="convencion-de-versiones">Convención de versiones<a class="headerlink" href="#convencion-de-versiones" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones deberán utilizar Semantic Versioning cuando sea aplicable:</p>
+<div class="highlight"><pre><span></span><code>MAJOR.MINOR.PATCH
+</code></pre></div>
+<hr />
+<h1 id="version-mayor">Versión mayor<a class="headerlink" href="#version-mayor" title="Permanent link">&para;</a></h1>
+<p>Se incrementará cuando exista:</p>
+<ul>
+<li>cambio incompatible;</li>
+<li>modificación de contratos;</li>
+<li>redefinición de entidades;</li>
+<li>eliminación de comportamiento;</li>
+<li>cambio de autoridad conceptual.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>1.4.0
+→
+2.0.0
+</code></pre></div>
+<hr />
+<h1 id="version-menor">Versión menor<a class="headerlink" href="#version-menor" title="Permanent link">&para;</a></h1>
+<p>Se incrementará cuando se añada:</p>
+<ul>
+<li>nueva sección;</li>
+<li>nueva entidad compatible;</li>
+<li>nueva capacidad;</li>
+<li>nuevo caso de uso;</li>
+<li>regla compatible.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>1.4.0
+→
+1.5.0
+</code></pre></div>
+<hr />
+<h1 id="version-patch">Versión patch<a class="headerlink" href="#version-patch" title="Permanent link">&para;</a></h1>
+<p>Se incrementará para:</p>
+<ul>
+<li>erratas;</li>
+<li>enlaces;</li>
+<li>aclaraciones;</li>
+<li>ejemplos;</li>
+<li>mejoras editoriales;</li>
+<li>correcciones no contractuales.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>1.4.0
+→
+1.4.1
+</code></pre></div>
+<hr />
+<h1 id="version-documental-frente-a-version-de-contrato">Versión documental frente a versión de contrato<a class="headerlink" href="#version-documental-frente-a-version-de-contrato" title="Permanent link">&para;</a></h1>
+<p>No deberán confundirse:</p>
+<div class="highlight"><pre><span></span><code>versión del documento
+</code></pre></div>
+<p>con:</p>
+<div class="highlight"><pre><span></span><code>versión de una API, Contract, Engine o Schema
+</code></pre></div>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">document</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.3.0</span>
+
+<span class="nt">api_contract</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2.0.0</span>
+</code></pre></div>
+<hr />
+<h1 id="versionado-por-partes">Versionado por partes<a class="headerlink" href="#versionado-por-partes" title="Permanent link">&para;</a></h1>
+<p>Cuando una especificación se redacte por partes, la numeración deberá ser consecutiva y completa.</p>
+<p>Ejemplo correcto:</p>
+<div class="highlight"><pre><span></span><code>Parte I
+Parte II
+Parte III
+Parte IV
+Parte V
+</code></pre></div>
+<p>Ejemplo incorrecto:</p>
+<div class="highlight"><pre><span></span><code>Parte I
+Parte II
+Parte III
+Parte V
+</code></pre></div>
+<hr />
+<h1 id="revision-de-numeracion">Revisión de numeración<a class="headerlink" href="#revision-de-numeracion" title="Permanent link">&para;</a></h1>
+<p>Antes de cerrar una especificación deberá comprobarse:</p>
+<ul>
+<li>que no falten partes;</li>
+<li>que no existan partes duplicadas;</li>
+<li>que la transición entre partes sea correcta;</li>
+<li>que el índice coincida con el contenido;</li>
+<li>que el cierre indique el número total real.</li>
+</ul>
+<hr />
+<h1 id="convencion-de-estados-documentales">Convención de estados documentales<a class="headerlink" href="#convencion-de-estados-documentales" title="Permanent link">&para;</a></h1>
+<p>Estados recomendados:</p>
+<div class="highlight"><pre><span></span><code>draft
+review
+approved
+implementation_ready
+implemented
+deprecated
+retired
+</code></pre></div>
+<hr />
+<h1 id="estado-draft">Estado <code>draft</code><a class="headerlink" href="#estado-draft" title="Permanent link">&para;</a></h1>
+<p>El documento:</p>
+<ul>
+<li>está en construcción;</li>
+<li>puede cambiar;</li>
+<li>no debe tomarse como contrato definitivo.</li>
+</ul>
+<hr />
+<h1 id="estado-review">Estado <code>review</code><a class="headerlink" href="#estado-review" title="Permanent link">&para;</a></h1>
+<p>El contenido está completo y pendiente de revisión.</p>
+<hr />
+<h1 id="estado-approved">Estado <code>approved</code><a class="headerlink" href="#estado-approved" title="Permanent link">&para;</a></h1>
+<p>La arquitectura ha sido aprobada.</p>
+<hr />
+<h1 id="estado-implementation_ready">Estado <code>implementation_ready</code><a class="headerlink" href="#estado-implementation_ready" title="Permanent link">&para;</a></h1>
+<p>El documento contiene detalle suficiente para implementación.</p>
+<hr />
+<h1 id="estado-implemented">Estado <code>implemented</code><a class="headerlink" href="#estado-implemented" title="Permanent link">&para;</a></h1>
+<p>Existe implementación alineada con la especificación.</p>
+<hr />
+<h1 id="estado-deprecated">Estado <code>deprecated</code><a class="headerlink" href="#estado-deprecated" title="Permanent link">&para;</a></h1>
+<p>El documento continúa disponible, pero no se recomienda para nuevas implementaciones.</p>
+<hr />
+<h1 id="estado-retired">Estado <code>retired</code><a class="headerlink" href="#estado-retired" title="Permanent link">&para;</a></h1>
+<p>Se conserva únicamente por trazabilidad histórica.</p>
+<hr />
+<h1 id="transiciones-de-estado">Transiciones de estado<a class="headerlink" href="#transiciones-de-estado" title="Permanent link">&para;</a></h1>
+<p>Flujo recomendado:</p>
+<div class="highlight"><pre><span></span><code>draft
+    ↓
+review
+    ↓
+approved
+    ↓
+implementation_ready
+    ↓
+implemented
+</code></pre></div>
+<p>Ramas alternativas:</p>
+<div class="highlight"><pre><span></span><code>approved
+    ↓
+deprecated
+    ↓
+retired
+</code></pre></div>
+<hr />
+<h1 id="estado-y-madurez">Estado y madurez<a class="headerlink" href="#estado-y-madurez" title="Permanent link">&para;</a></h1>
+<p>El estado documental y el nivel de madurez son conceptos diferentes.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>status = review
+maturity = level 4
+</code></pre></div>
+<p>Una especificación puede ser extensa y madura, pero seguir pendiente de revisión formal.</p>
+<hr />
+<h1 id="cabecera-recomendada">Cabecera recomendada<a class="headerlink" href="#cabecera-recomendada" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá comenzar con una cabecera homogénea.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SPEC-ENGINE-REGISTRY</span>
+<span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Especificación del Engine Registry</span>
+<span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.0.0</span>
+<span class="nt">status</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">review</span>
+<span class="nt">domain</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">runtime</span>
+<span class="nt">owners</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">conceptual</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TEAM-ARCHITECTURE</span>
+<span class="w">  </span><span class="nt">technical</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TEAM-PLATFORM</span>
+<span class="nt">created</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2026-08-02</span>
+<span class="nt">updated</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2026-08-02</span>
+<span class="nt">review_cycle</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">P90D</span>
+<span class="nt">tags</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">engine-registry</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">runtime</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">discovery</span>
+<span class="nn">---</span>
+</code></pre></div>
+<hr />
+<h1 id="campos-minimos-de-cabecera">Campos mínimos de cabecera<a class="headerlink" href="#campos-minimos-de-cabecera" title="Permanent link">&para;</a></h1>
+<p>Se recomienda incluir:</p>
+<div class="highlight"><pre><span></span><code>id
+title
+version
+status
+domain
+owners
+created
+updated
+tags
+</code></pre></div>
+<hr />
+<h1 id="campos-opcionales">Campos opcionales<a class="headerlink" href="#campos-opcionales" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>reviewers
+review_cycle
+dependencies
+consumed_by
+supersedes
+superseded_by
+adr
+maturity
+</code></pre></div>
+<hr />
+<h1 id="estructura-interna-recomendada">Estructura interna recomendada<a class="headerlink" href="#estructura-interna-recomendada" title="Permanent link">&para;</a></h1>
+<p>No todas las especificaciones deberán ser idénticas, pero se recomienda el siguiente patrón:</p>
+<div class="highlight"><pre><span></span><code>1. Introducción
+2. Objetivos
+3. Problema que resuelve
+4. Alcance
+5. Fuera de alcance
+6. Principios
+7. Arquitectura conceptual
+8. Modelo de dominio
+9. Entidades
+10. Contratos
+11. Lifecycle
+12. Reglas
+13. Integraciones
+14. Seguridad
+15. Observabilidad
+16. Eventos
+17. Diagnósticos
+18. Quality Gates
+19. Casos de uso
+20. Antipatrones
+21. Reglas de conformidad
+22. Checklist
+23. Conclusión
+</code></pre></div>
+<hr />
+<h1 id="indice">Índice<a class="headerlink" href="#indice" title="Permanent link">&para;</a></h1>
+<p>Los documentos extensos deberían disponer de índice.</p>
+<p>El índice podrá generarse mediante herramientas o mantenerse manualmente.</p>
+<p>Deberá reflejar:</p>
+<ul>
+<li>partes;</li>
+<li>capítulos;</li>
+<li>secciones principales;</li>
+<li>enlaces internos válidos.</li>
+</ul>
+<hr />
+<h1 id="particion-de-documentos-extensos">Partición de documentos extensos<a class="headerlink" href="#particion-de-documentos-extensos" title="Permanent link">&para;</a></h1>
+<p>Durante la redacción, una especificación podrá dividirse en varias entregas.</p>
+<p>Sin embargo, el archivo final deberá leerse como un único documento continuo.</p>
+<hr />
+<h1 id="convencion-de-partes">Convención de partes<a class="headerlink" href="#convencion-de-partes" title="Permanent link">&para;</a></h1>
+<p>Formato recomendado:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Parte I — Fundamentos</span>
+<span class="gh"># Parte II — Modelo de dominio</span>
+<span class="gh"># Parte III — Operación</span>
+</code></pre></div>
+<p>No se recomienda comenzar cada parte con una nueva cabecera YAML.</p>
+<p>La cabecera corresponde al documento completo.</p>
+<hr />
+<h1 id="transiciones-entre-partes">Transiciones entre partes<a class="headerlink" href="#transiciones-entre-partes" title="Permanent link">&para;</a></h1>
+<p>Cada parte podrá terminar con:</p>
+<div class="highlight"><pre><span></span><code>Transición hacia la Parte siguiente
+</code></pre></div>
+<p>La última parte deberá cerrar el documento y declarar su estado.</p>
+<hr />
+<h1 id="convencion-de-ejemplos">Convención de ejemplos<a class="headerlink" href="#convencion-de-ejemplos" title="Permanent link">&para;</a></h1>
+<p>Los ejemplos deberán ser:</p>
+<ul>
+<li>válidos;</li>
+<li>coherentes;</li>
+<li>mínimos;</li>
+<li>representativos;</li>
+<li>claramente diferenciados de contratos normativos.</li>
+</ul>
+<hr />
+<h1 id="ejemplo-normativo">Ejemplo normativo<a class="headerlink" href="#ejemplo-normativo" title="Permanent link">&para;</a></h1>
+<p>Cuando un bloque sea obligatorio deberá indicarse.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Formato requerido:
+</code></pre></div>
+<hr />
+<h1 id="ejemplo-ilustrativo">Ejemplo ilustrativo<a class="headerlink" href="#ejemplo-ilustrativo" title="Permanent link">&para;</a></h1>
+<p>Cuando no sea normativo deberá declararse.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Ejemplo orientativo:
+</code></pre></div>
+<hr />
+<h1 id="yaml">YAML<a class="headerlink" href="#yaml" title="Permanent link">&para;</a></h1>
+<p>Los bloques YAML deberán:</p>
+<ul>
+<li>respetar indentación;</li>
+<li>utilizar claves consistentes;</li>
+<li>evitar valores ambiguos;</li>
+<li>conservar versionado cuando proceda.</li>
+</ul>
+<hr />
+<h1 id="json">JSON<a class="headerlink" href="#json" title="Permanent link">&para;</a></h1>
+<p>Los ejemplos JSON deberán ser sintácticamente válidos.</p>
+<hr />
+<h1 id="pseudocodigo">Pseudocódigo<a class="headerlink" href="#pseudocodigo" title="Permanent link">&para;</a></h1>
+<p>El pseudocódigo deberá diferenciarse claramente de código implementable.</p>
+<hr />
+<h1 id="diagramas-textuales">Diagramas textuales<a class="headerlink" href="#diagramas-textuales" title="Permanent link">&para;</a></h1>
+<p>Los diagramas ASCII deberán:</p>
+<ul>
+<li>mantener alineación;</li>
+<li>evitar anchura excesiva;</li>
+<li>reflejar el flujo real;</li>
+<li>utilizar nombres canónicos.</li>
+</ul>
+<hr />
+<h1 id="tablas">Tablas<a class="headerlink" href="#tablas" title="Permanent link">&para;</a></h1>
+<p>Las tablas deberán utilizarse cuando mejoren la comparación.</p>
+<p>No deberán sustituir explicaciones necesarias.</p>
+<hr />
+<h1 id="contratos">Contratos<a class="headerlink" href="#contratos" title="Permanent link">&para;</a></h1>
+<p>Todo Contract deberá definir, cuando corresponda:</p>
+<ul>
+<li>ID;</li>
+<li>versión;</li>
+<li>input;</li>
+<li>output;</li>
+<li>errores;</li>
+<li>compatibilidad;</li>
+<li>ownership;</li>
+<li>lifecycle.</li>
+</ul>
+<hr />
+<h1 id="estados">Estados<a class="headerlink" href="#estados" title="Permanent link">&para;</a></h1>
+<p>Las máquinas de estados deberán:</p>
+<ul>
+<li>enumerar estados;</li>
+<li>declarar transiciones;</li>
+<li>declarar condiciones;</li>
+<li>declarar estados terminales;</li>
+<li>declarar errores.</li>
+</ul>
+<hr />
+<h1 id="eventos">Eventos<a class="headerlink" href="#eventos" title="Permanent link">&para;</a></h1>
+<p>Todo evento deberá definir:</p>
+<ul>
+<li>tipo;</li>
+<li>subject;</li>
+<li>timestamp;</li>
+<li>versión;</li>
+<li>datos;</li>
+<li>correlation;</li>
+<li>provenance.</li>
+</ul>
+<hr />
+<h1 id="diagnosticos">Diagnósticos<a class="headerlink" href="#diagnosticos" title="Permanent link">&para;</a></h1>
+<p>Los diagnósticos deberán utilizar códigos estables.</p>
+<p>Formato recomendado:</p>
+<div class="highlight"><pre><span></span><code>&lt;DOMINIO&gt;_&lt;CONCEPTO&gt;_&lt;PROBLEMA&gt;
+</code></pre></div>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>ENGINE_CONTRACT_INCOMPATIBLE
+DOCUMENT_FRONT_MATTER_MISSING
+RELATION_TARGET_NOT_FOUND
+</code></pre></div>
+<hr />
+<h1 id="severidades">Severidades<a class="headerlink" href="#severidades" title="Permanent link">&para;</a></h1>
+<p>Valores recomendados:</p>
+<div class="highlight"><pre><span></span><code>info
+warning
+error
+critical
+</code></pre></div>
+<hr />
+<h1 id="retryability">Retryability<a class="headerlink" href="#retryability" title="Permanent link">&para;</a></h1>
+<p>Cuando proceda, un diagnóstico deberá declarar:</p>
+<div class="highlight"><pre><span></span><code>retryable: true
+</code></pre></div>
+<p>o:</p>
+<div class="highlight"><pre><span></span><code>retryable: false
+</code></pre></div>
+<hr />
+<h1 id="quality-gates">Quality Gates<a class="headerlink" href="#quality-gates" title="Permanent link">&para;</a></h1>
+<p>Los Quality Gates deberán:</p>
+<ul>
+<li>tener ID;</li>
+<li>estar versionados;</li>
+<li>declarar criterios;</li>
+<li>producir resultado;</li>
+<li>conservar evidencia.</li>
+</ul>
+<hr />
+<h1 id="formato">Formato<a class="headerlink" href="#formato" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">quality_gate</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QG-DOCUMENT-0001</span>
+
+<span class="w">  </span><span class="nt">criteria</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">all</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">schema_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">references_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">metadata_complete == true</span>
+</code></pre></div>
+<hr />
+<h1 id="conformidad">Conformidad<a class="headerlink" href="#conformidad" title="Permanent link">&para;</a></h1>
+<p>Cada documento deberá definir qué significa ser conforme.</p>
+<p>La conformidad deberá expresarse mediante:</p>
+<ul>
+<li>reglas;</li>
+<li>Quality Gates;</li>
+<li>checklist;</li>
+<li>invariantes;</li>
+<li>criterios verificables.</li>
+</ul>
+<hr />
+<h1 id="antipatrones">Antipatrones<a class="headerlink" href="#antipatrones" title="Permanent link">&para;</a></h1>
+<p>Los antipatrones deberán:</p>
+<ul>
+<li>describir errores reales;</li>
+<li>explicar por qué son problemáticos;</li>
+<li>estar relacionados con el ámbito del documento.</li>
+</ul>
+<p>No deberán convertirse en listas genéricas desconectadas.</p>
+<hr />
+<h1 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá incluir una sección final de referencias cuando proceda.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="gu">## Referencias</span>
+
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ARQUITECTURA</span>](<span class="na">../architecture/ARQUITECTURA.md</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">VISION</span>](<span class="na">../VISION.md</span>)
+<span class="k">-</span><span class="w"> </span>[<span class="nt">ADR</span>](<span class="na">../governance/adr/index.md</span>)
+</code></pre></div>
+<hr />
+<h1 id="rutas-relativas">Rutas relativas<a class="headerlink" href="#rutas-relativas" title="Permanent link">&para;</a></h1>
+<p>Los enlaces deberán calcularse desde la ubicación real del documento.</p>
+<p>Ejemplo desde <code>specifications/runtime/</code>:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">Knowledge Graph</span>](<span class="na">./knowledge/ESPECIFICACION_DEL_KNOWLEDGE_GRAPH.md</span>)
+</code></pre></div>
+<hr />
+<h1 id="enlaces-internos">Enlaces internos<a class="headerlink" href="#enlaces-internos" title="Permanent link">&para;</a></h1>
+<p>Los enlaces a secciones deberán utilizar anchors estables.</p>
+<p>Se evitarán títulos que cambien con frecuencia cuando sean muy referenciados.</p>
+<hr />
+<h1 id="referencias-rotas">Referencias rotas<a class="headerlink" href="#referencias-rotas" title="Permanent link">&para;</a></h1>
+<p>No deberá aceptarse una modificación que introduzca enlaces rotos.</p>
+<hr />
+<h1 id="validacion-documental">Validación documental<a class="headerlink" href="#validacion-documental" title="Permanent link">&para;</a></h1>
+<p>Las especificaciones deberán pasar validaciones automáticas cuando exista soporte.</p>
+<hr />
+<h1 id="validaciones-minimas">Validaciones mínimas<a class="headerlink" href="#validaciones-minimas" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>Front Matter válido
+IDs únicos
+Enlaces internos válidos
+Enlaces relativos válidos
+Archivos referenciados existentes
+Numeración de partes correcta
+Encabezados coherentes
+Bloques YAML válidos
+Duplicados detectados
+Nombres canónicos correctos
+</code></pre></div>
+<hr />
+<h1 id="herramientas">Herramientas<a class="headerlink" href="#herramientas" title="Permanent link">&para;</a></h1>
+<p>El proyecto podrá utilizar:</p>
+<div class="highlight"><pre><span></span><code>validate_all.py
+validate_semantics.py
+generate_graph.py
+build_site_docs.py
+</code></pre></div>
+<p>según el alcance de cada documento.</p>
+<hr />
+<h1 id="validate_allpy"><code>validate_all.py</code><a class="headerlink" href="#validate_allpy" title="Permanent link">&para;</a></h1>
+<p>Deberá comprobar, al menos:</p>
+<ul>
+<li>Front Matter;</li>
+<li>IDs;</li>
+<li>enlaces;</li>
+<li>estructura;</li>
+<li>referencias.</li>
+</ul>
+<hr />
+<h1 id="validate_semanticspy"><code>validate_semantics.py</code><a class="headerlink" href="#validate_semanticspy" title="Permanent link">&para;</a></h1>
+<p>Podrá comprobar:</p>
+<ul>
+<li>tipos;</li>
+<li>dependencias;</li>
+<li>authority map;</li>
+<li>relaciones;</li>
+<li>campos obligatorios;</li>
+<li>conflictos terminológicos.</li>
+</ul>
+<hr />
+<h1 id="generate_graphpy"><code>generate_graph.py</code><a class="headerlink" href="#generate_graphpy" title="Permanent link">&para;</a></h1>
+<p>Podrá generar:</p>
+<ul>
+<li>grafo documental;</li>
+<li>relaciones;</li>
+<li>estadísticas;</li>
+<li>huérfanos;</li>
+<li>dependencias.</li>
+</ul>
+<hr />
+<h1 id="build_site_docspy"><code>build_site_docs.py</code><a class="headerlink" href="#build_site_docspy" title="Permanent link">&para;</a></h1>
+<p>Podrá generar documentación navegable.</p>
+<hr />
+<h1 id="validacion-manual">Validación manual<a class="headerlink" href="#validacion-manual" title="Permanent link">&para;</a></h1>
+<p>La automatización no sustituye revisión humana.</p>
+<p>Deberán revisarse manualmente:</p>
+<ul>
+<li>coherencia conceptual;</li>
+<li>autoridad;</li>
+<li>duplicidad;</li>
+<li>contradicciones;</li>
+<li>claridad;</li>
+<li>utilidad para implementación.</li>
+</ul>
+<hr />
+<h1 id="quality-gate-documental">Quality Gate documental<a class="headerlink" href="#quality-gate-documental" title="Permanent link">&para;</a></h1>
+<p>Se recomienda un Gate común.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">quality_gate</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QG-SPECIFICATION-DOCUMENT-0001</span>
+
+<span class="w">  </span><span class="nt">criteria</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">all</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">front_matter_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">canonical_name_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">document_id_unique == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">version_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">status_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">domain_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ownership_defined == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">headings_consistent == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">parts_consecutive == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">internal_links_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external_references_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yaml_examples_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">terminology_consistent == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">authoritative_scope_defined == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dependencies_declared == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">conformity_defined == true</span>
+</code></pre></div>
+<hr />
+<h1 id="quality-gate-de-referencias">Quality Gate de referencias<a class="headerlink" href="#quality-gate-de-referencias" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">quality_gate</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QG-SPECIFICATION-REFERENCES-0001</span>
+
+<span class="w">  </span><span class="nt">criteria</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">all</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">relative_paths_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">referenced_files_exist == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">renamed_files_updated == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">no_circular_authority == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">references_use_canonical_names == true</span>
+</code></pre></div>
+<hr />
+<h1 id="quality-gate-de-numeracion">Quality Gate de numeración<a class="headerlink" href="#quality-gate-de-numeracion" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">quality_gate</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QG-SPECIFICATION-PARTS-0001</span>
+
+<span class="w">  </span><span class="nt">criteria</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">all</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">part_numbers_unique == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">part_numbers_consecutive == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">declared_total_matches == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">transitions_match_next_part == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">final_part_closes_document == true</span>
+</code></pre></div>
+<hr />
+<h1 id="control-de-cambios">Control de cambios<a class="headerlink" href="#control-de-cambios" title="Permanent link">&para;</a></h1>
+<p>Todo cambio relevante deberá quedar trazado.</p>
+<hr />
+<h1 id="tipos-de-cambio">Tipos de cambio<a class="headerlink" href="#tipos-de-cambio" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>editorial
+compatible
+breaking
+structural
+rename
+deprecation
+retirement
+</code></pre></div>
+<hr />
+<h1 id="cambio-editorial">Cambio editorial<a class="headerlink" href="#cambio-editorial" title="Permanent link">&para;</a></h1>
+<p>No modifica contratos ni semántica.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>erratas;</li>
+<li>formato;</li>
+<li>enlaces;</li>
+<li>aclaraciones.</li>
+</ul>
+<hr />
+<h1 id="cambio-compatible">Cambio compatible<a class="headerlink" href="#cambio-compatible" title="Permanent link">&para;</a></h1>
+<p>Añade contenido sin romper consumidores.</p>
+<hr />
+<h1 id="cambio-incompatible">Cambio incompatible<a class="headerlink" href="#cambio-incompatible" title="Permanent link">&para;</a></h1>
+<p>Modifica:</p>
+<ul>
+<li>contratos;</li>
+<li>semántica;</li>
+<li>IDs;</li>
+<li>estados;</li>
+<li>invariantes;</li>
+<li>authority.</li>
+</ul>
+<hr />
+<h1 id="cambio-estructural">Cambio estructural<a class="headerlink" href="#cambio-estructural" title="Permanent link">&para;</a></h1>
+<p>Incluye:</p>
+<ul>
+<li>división de documento;</li>
+<li>movimiento de directorio;</li>
+<li>reorganización de dominios;</li>
+<li>nuevo mapa de autoridad.</li>
+</ul>
+<hr />
+<h1 id="registro-de-cambios">Registro de cambios<a class="headerlink" href="#registro-de-cambios" title="Permanent link">&para;</a></h1>
+<p>Podrá incluirse una sección:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Historial de cambios</span>
+</code></pre></div>
+<hr />
+<h1 id="formato-recomendado">Formato recomendado<a class="headerlink" href="#formato-recomendado" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>| Versión | Fecha | Tipo | Descripción |
+|---|---|---|---|
+| 1.0.0 | 2026-08-02 | initial | Primera versión |
+| 1.0.1 | 2026-08-03 | editorial | Corrección de enlaces |
+| 1.1.0 | 2026-08-10 | compatible | Añadido lifecycle |
+</code></pre></div>
+<hr />
+<h1 id="relacion-con-git">Relación con Git<a class="headerlink" href="#relacion-con-git" title="Permanent link">&para;</a></h1>
+<p>Los cambios documentales deberán utilizar commits descriptivos.</p>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>docs(specifications): add specifications README
+docs(knowledge): fix Knowledge Graph filename
+docs(apis): correct part numbering
+docs(retrieval): normalize part numbering
+</code></pre></div>
+<hr />
+<h1 id="pull-requests">Pull Requests<a class="headerlink" href="#pull-requests" title="Permanent link">&para;</a></h1>
+<p>Los cambios relevantes deberían incluir:</p>
+<ul>
+<li>propósito;</li>
+<li>documentos afectados;</li>
+<li>impacto;</li>
+<li>compatibilidad;</li>
+<li>validaciones ejecutadas;</li>
+<li>enlaces modificados;</li>
+<li>ADR relacionado.</li>
+</ul>
+<hr />
+<h1 id="revision-documental">Revisión documental<a class="headerlink" href="#revision-documental" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá revisarse según criticidad.</p>
+<hr />
+<h1 id="ciclos-recomendados">Ciclos recomendados<a class="headerlink" href="#ciclos-recomendados" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>critical runtime: P90D
+security: P90D
+interfaces: P120D
+knowledge: P180D
+stable foundational: P365D
+</code></pre></div>
+<hr />
+<h1 id="eventos-que-obligan-a-revision">Eventos que obligan a revisión<a class="headerlink" href="#eventos-que-obligan-a-revision" title="Permanent link">&para;</a></h1>
+<ul>
+<li>nueva versión mayor;</li>
+<li>cambio de arquitectura;</li>
+<li>incidente;</li>
+<li>vulnerabilidad;</li>
+<li>implementación divergente;</li>
+<li>nuevo consumidor;</li>
+<li>deprecation;</li>
+<li>migración;</li>
+<li>nuevo ADR.</li>
+</ul>
+<hr />
+<h1 id="ownership">Ownership<a class="headerlink" href="#ownership" title="Permanent link">&para;</a></h1>
+<p>Cada especificación deberá tener owner.</p>
+<hr />
+<h1 id="responsabilidades-del-owner">Responsabilidades del owner<a class="headerlink" href="#responsabilidades-del-owner" title="Permanent link">&para;</a></h1>
+<ul>
+<li>mantener contenido;</li>
+<li>resolver contradicciones;</li>
+<li>revisar cambios;</li>
+<li>aprobar versiones;</li>
+<li>actualizar dependencias;</li>
+<li>coordinar migraciones;</li>
+<li>iniciar deprecation.</li>
+</ul>
+<hr />
+<h1 id="documento-huerfano">Documento huérfano<a class="headerlink" href="#documento-huerfano" title="Permanent link">&para;</a></h1>
+<p>Una especificación sin owner deberá:</p>
+<ul>
+<li>generar warning;</li>
+<li>bloquear promoción de estado;</li>
+<li>asignarse temporalmente al equipo de arquitectura;</li>
+<li>revisarse.</li>
+</ul>
+<hr />
+<h1 id="gobernanza">Gobernanza<a class="headerlink" href="#gobernanza" title="Permanent link">&para;</a></h1>
+<p>La evolución de las especificaciones deberá integrarse con:</p>
+<ul>
+<li>Architecture Board;</li>
+<li>ADR;</li>
+<li>Roadmap;</li>
+<li>Release Process;</li>
+<li>Quality Pipeline.</li>
+</ul>
+<hr />
+<h1 id="adr-obligatorio">ADR obligatorio<a class="headerlink" href="#adr-obligatorio" title="Permanent link">&para;</a></h1>
+<p>Deberá considerarse ADR cuando un cambio:</p>
+<ul>
+<li>altera límites de dominio;</li>
+<li>cambia fuente autoritativa;</li>
+<li>introduce nuevo componente crítico;</li>
+<li>modifica contratos transversales;</li>
+<li>cambia estrategia de seguridad;</li>
+<li>cambia persistencia o consistencia;</li>
+<li>divide o fusiona especificaciones.</li>
+</ul>
+<hr />
+<h1 id="no-todo-cambio-requiere-adr">No todo cambio requiere ADR<a class="headerlink" href="#no-todo-cambio-requiere-adr" title="Permanent link">&para;</a></h1>
+<p>No será necesario para:</p>
+<ul>
+<li>erratas;</li>
+<li>enlaces;</li>
+<li>ejemplos;</li>
+<li>aclaraciones;</li>
+<li>cambios editoriales.</li>
+</ul>
+<hr />
+<h1 id="deprecation-documental">Deprecation documental<a class="headerlink" href="#deprecation-documental" title="Permanent link">&para;</a></h1>
+<p>Una especificación deprecated deberá declarar:</p>
+<ul>
+<li>razón;</li>
+<li>fecha;</li>
+<li>sustitución;</li>
+<li>periodo de transición;</li>
+<li>consumidores afectados;</li>
+<li>versión final soportada.</li>
+</ul>
+<hr />
+<h1 id="retirada">Retirada<a class="headerlink" href="#retirada" title="Permanent link">&para;</a></h1>
+<p>Una especificación retirada no deberá eliminarse inmediatamente.</p>
+<p>Deberá:</p>
+<ul>
+<li>mantenerse en archivo;</li>
+<li>conservar historial;</li>
+<li>enlazar sustitución;</li>
+<li>excluirse de nuevas implementaciones;</li>
+<li>preservar referencias históricas.</li>
+</ul>
+<hr />
+<h1 id="movimiento-de-archivos">Movimiento de archivos<a class="headerlink" href="#movimiento-de-archivos" title="Permanent link">&para;</a></h1>
+<p>Mover una especificación entre directorios deberá tratarse como cambio estructural.</p>
+<hr />
+<h1 id="requisitos">Requisitos<a class="headerlink" href="#requisitos" title="Permanent link">&para;</a></h1>
+<ul>
+<li>justificar nuevo dominio;</li>
+<li>actualizar enlaces;</li>
+<li>actualizar README;</li>
+<li>actualizar mapa de dependencias;</li>
+<li>mantener redirect documental cuando sea posible;</li>
+<li>validar site build.</li>
+</ul>
+<hr />
+<h1 id="directorios-futuros">Directorios futuros<a class="headerlink" href="#directorios-futuros" title="Permanent link">&para;</a></h1>
+<p>No deberán crearse directorios vacíos.</p>
+<p>Un nuevo dominio se justificará cuando exista:</p>
+<ul>
+<li>responsabilidad diferenciada;</li>
+<li>al menos una especificación real;</li>
+<li>ownership;</li>
+<li>dependencias claras;</li>
+<li>evolución independiente.</li>
+</ul>
+<hr />
+<h1 id="mantenimiento-del-readme">Mantenimiento del README<a class="headerlink" href="#mantenimiento-del-readme" title="Permanent link">&para;</a></h1>
+<p>Este README deberá actualizarse cuando:</p>
+<ul>
+<li>se cree una especificación;</li>
+<li>se retire una especificación;</li>
+<li>se mueva un archivo;</li>
+<li>cambie un dominio;</li>
+<li>cambie el orden de lectura;</li>
+<li>cambie la matriz de autoridad;</li>
+<li>cambie el modelo de madurez.</li>
+</ul>
+<hr />
+<h1 id="mantenimiento-del-catalogo">Mantenimiento del catálogo<a class="headerlink" href="#mantenimiento-del-catalogo" title="Permanent link">&para;</a></h1>
+<p>La tabla de especificaciones deberá reflejar siempre el estado real del repositorio.</p>
+<hr />
+<h1 id="no-usar-el-readme-como-duplicado">No usar el README como duplicado<a class="headerlink" href="#no-usar-el-readme-como-duplicado" title="Permanent link">&para;</a></h1>
+<p>El README debe:</p>
+<ul>
+<li>orientar;</li>
+<li>resumir;</li>
+<li>enlazar;</li>
+<li>definir convenciones.</li>
+</ul>
+<p>No debe reproducir el contenido completo de cada especificación.</p>
+<hr />
+<h1 id="checklist-para-una-nueva-especificacion">Checklist para una nueva especificación<a class="headerlink" href="#checklist-para-una-nueva-especificacion" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>[ ] El nuevo componente no está ya cubierto.
+[ ] Existe responsabilidad propia.
+[ ] Existe owner.
+[ ] Existe dominio adecuado.
+[ ] El nombre de archivo es canónico.
+[ ] El ID documental es único.
+[ ] La cabecera está completa.
+[ ] El propósito está definido.
+[ ] El alcance está definido.
+[ ] El fuera de alcance está definido.
+[ ] La autoridad conceptual está definida.
+[ ] Las dependencias están declaradas.
+[ ] Los contratos están identificados.
+[ ] El lifecycle está definido.
+[ ] Los diagnósticos están definidos cuando proceda.
+[ ] Los Quality Gates están definidos.
+[ ] La conformidad está definida.
+[ ] Las referencias son válidas.
+[ ] El README se ha actualizado.
+[ ] El mapa de dependencias se ha actualizado.
+[ ] Se ha determinado si requiere ADR.
+[ ] Las validaciones automáticas han pasado.
+</code></pre></div>
+<hr />
+<h1 id="checklist-para-modificar-una-especificacion">Checklist para modificar una especificación<a class="headerlink" href="#checklist-para-modificar-una-especificacion" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>[ ] Se ha clasificado el tipo de cambio.
+[ ] Se ha actualizado la versión.
+[ ] Se ha actualizado la fecha.
+[ ] Se han identificado consumidores.
+[ ] Se han revisado contratos.
+[ ] Se ha evaluado compatibilidad.
+[ ] Se han actualizado referencias.
+[ ] Se ha actualizado el historial.
+[ ] Se ha ejecutado validate_all.py.
+[ ] Se ha ejecutado validación semántica cuando procede.
+[ ] Se ha revisado el impacto en ADR.
+[ ] Se ha actualizado el README si procede.
+[ ] Se ha actualizado el mapa de dependencias.
+</code></pre></div>
+<hr />
+<h1 id="checklist-para-renombrar-una-especificacion">Checklist para renombrar una especificación<a class="headerlink" href="#checklist-para-renombrar-una-especificacion" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>[ ] Se ha definido el nuevo nombre canónico.
+[ ] Se ha renombrado el archivo.
+[ ] Se han actualizado todos los enlaces.
+[ ] Se han actualizado referencias en ADR.
+[ ] Se ha actualizado README.
+[ ] Se ha actualizado navegación.
+[ ] Se ha actualizado site_docs.
+[ ] Se ha validado el repositorio.
+[ ] No quedan referencias al nombre anterior.
+[ ] Se ha registrado el cambio.
+</code></pre></div>
+<hr />
+<h1 id="checklist-para-cerrar-una-especificacion">Checklist para cerrar una especificación<a class="headerlink" href="#checklist-para-cerrar-una-especificacion" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>[ ] Todas las partes están presentes.
+[ ] La numeración es consecutiva.
+[ ] El total de partes coincide.
+[ ] La conclusión está completa.
+[ ] El estado documental es correcto.
+[ ] La versión es correcta.
+[ ] Los owners están definidos.
+[ ] Las dependencias están actualizadas.
+[ ] Los casos de uso están cubiertos.
+[ ] Los antipatrones están cubiertos.
+[ ] Las reglas de conformidad están completas.
+[ ] El checklist interno está completo.
+[ ] Las referencias son válidas.
+[ ] Los Quality Gates están definidos.
+[ ] La validación automática ha pasado.
+[ ] La revisión manual ha pasado.
+</code></pre></div>
+<hr />
+<h1 id="diagnosticos-documentales">Diagnósticos documentales<a class="headerlink" href="#diagnosticos-documentales" title="Permanent link">&para;</a></h1>
+<p>Catálogo inicial recomendado:</p>
+<div class="highlight"><pre><span></span><code>SPEC_FRONT_MATTER_MISSING
+SPEC_DOCUMENT_ID_DUPLICATE
+SPEC_VERSION_INVALID
+SPEC_STATUS_INVALID
+SPEC_DOMAIN_INVALID
+SPEC_OWNER_MISSING
+SPEC_CANONICAL_NAME_INVALID
+SPEC_FILENAME_TYPO
+SPEC_PART_NUMBER_DUPLICATE
+SPEC_PART_NUMBER_GAP
+SPEC_DECLARED_PART_COUNT_MISMATCH
+SPEC_INTERNAL_LINK_BROKEN
+SPEC_REFERENCE_TARGET_MISSING
+SPEC_REFERENCE_USES_NON_CANONICAL_NAME
+SPEC_YAML_EXAMPLE_INVALID
+SPEC_TERMINOLOGY_INCONSISTENT
+SPEC_AUTHORITY_AMBIGUOUS
+SPEC_DEPENDENCY_UNDECLARED
+SPEC_DEPENDENCY_CYCLE
+SPEC_CONTRACT_DUPLICATED
+SPEC_CHANGELOG_MISSING
+SPEC_REVIEW_OVERDUE
+SPEC_DEPRECATED_WITHOUT_REPLACEMENT
+SPEC_RETIRED_STILL_REFERENCED
+</code></pre></div>
+<hr />
+<h1 id="diagnostic-contract">Diagnostic Contract<a class="headerlink" href="#diagnostic-contract" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">specification_diagnostic</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SPEC-DIAGNOSTIC-000041</span>
+
+<span class="w">  </span><span class="nt">code</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SPEC_PART_NUMBER_GAP</span>
+<span class="w">  </span><span class="nt">severity</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">error</span>
+
+<span class="w">  </span><span class="nt">document</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">specifications/interfaces/ESPECIFICACION_DE_APIS.md</span>
+
+<span class="w">  </span><span class="nt">details</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">detected_parts</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">I</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">II</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">III</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IV</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VI</span>
+
+<span class="w">    </span><span class="nt">missing</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">V</span>
+
+<span class="w">  </span><span class="nt">retryable</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</code></pre></div>
+<hr />
+<h1 id="metricas-documentales">Métricas documentales<a class="headerlink" href="#metricas-documentales" title="Permanent link">&para;</a></h1>
+<p>El proyecto podrá medir:</p>
+<ul>
+<li>número de especificaciones;</li>
+<li>documentos por dominio;</li>
+<li>nivel de madurez;</li>
+<li>enlaces válidos;</li>
+<li>enlaces rotos;</li>
+<li>documentos sin owner;</li>
+<li>revisiones vencidas;</li>
+<li>diagnósticos;</li>
+<li>dependencias;</li>
+<li>Quality Gates superados;</li>
+<li>documentos implementados;</li>
+<li>divergencias implementación-especificación.</li>
+</ul>
+<hr />
+<h1 id="indicadores-recomendados">Indicadores recomendados<a class="headerlink" href="#indicadores-recomendados" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>specifications_total
+specifications_by_domain
+specifications_by_status
+specifications_by_maturity
+broken_links_total
+documents_without_owner
+overdue_reviews
+validation_failures
+dependency_cycles
+implementation_alignment
+</code></pre></div>
+<hr />
+<h1 id="dashboard-documental">Dashboard documental<a class="headerlink" href="#dashboard-documental" title="Permanent link">&para;</a></h1>
+<p>Podrá mostrar:</p>
+<ul>
+<li>catálogo;</li>
+<li>estado;</li>
+<li>madurez;</li>
+<li>owner;</li>
+<li>revisión;</li>
+<li>dependencias;</li>
+<li>errores;</li>
+<li>últimas modificaciones.</li>
+</ul>
+<hr />
+<h1 id="deuda-documental">Deuda documental<a class="headerlink" href="#deuda-documental" title="Permanent link">&para;</a></h1>
+<p>Se considerará deuda documental:</p>
+<ul>
+<li>especificación incompleta;</li>
+<li>contrato duplicado;</li>
+<li>autoridad ambigua;</li>
+<li>enlace roto;</li>
+<li>owner inexistente;</li>
+<li>revisión vencida;</li>
+<li>implementación divergente;</li>
+<li>nombres inconsistentes;</li>
+<li>falta de Quality Gates;</li>
+<li>falta de deprecation plan.</li>
+</ul>
+<hr />
+<h1 id="registro-de-deuda">Registro de deuda<a class="headerlink" href="#registro-de-deuda" title="Permanent link">&para;</a></h1>
+<p>Podrá integrarse con:</p>
+<div class="highlight"><pre><span></span><code>KNOWN_ISSUES
+KNOWLEDGE_DEBT
+ROADMAP
+BITACORA
+</code></pre></div>
+<hr />
+<h1 id="priorizacion-de-deuda">Priorización de deuda<a class="headerlink" href="#priorizacion-de-deuda" title="Permanent link">&para;</a></h1>
+<p>Orden recomendado:</p>
+<div class="highlight"><pre><span></span><code>1. Contradicciones
+2. Seguridad
+3. Contratos rotos
+4. Authority ambiguity
+5. Enlaces rotos
+6. Owners ausentes
+7. Revisiones vencidas
+8. Mejoras editoriales
+</code></pre></div>
+<hr />
+<h1 id="conformidad-del-directorio-specifications">Conformidad del directorio <code>specifications/</code><a class="headerlink" href="#conformidad-del-directorio-specifications" title="Permanent link">&para;</a></h1>
+<p>El directorio será conforme cuando:</p>
+<ul>
+<li>todas las especificaciones estén catalogadas;</li>
+<li>los dominios sean coherentes;</li>
+<li>los nombres sean canónicos;</li>
+<li>los archivos existan;</li>
+<li>los enlaces sean válidos;</li>
+<li>los owners estén definidos;</li>
+<li>las versiones sean válidas;</li>
+<li>los estados sean válidos;</li>
+<li>las partes sean consecutivas;</li>
+<li>las dependencias estén documentadas;</li>
+<li>no existan ciclos de autoridad;</li>
+<li>las referencias utilicen rutas reales;</li>
+<li>los Quality Gates documentales hayan pasado;</li>
+<li>el README represente el estado real.</li>
+</ul>
+<hr />
+<h1 id="quality-gate-global">Quality Gate global<a class="headerlink" href="#quality-gate-global" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="nt">quality_gate</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QG-SPECIFICATIONS-REPOSITORY-0001</span>
+
+<span class="w">  </span><span class="nt">criteria</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">all</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">readme_exists == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">catalog_complete == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">domains_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">canonical_filenames_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">front_matter_complete == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">document_ids_unique == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">versions_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">statuses_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">owners_present == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">parts_consecutive == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">internal_links_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external_references_valid == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">no_authority_cycles == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dependencies_declared == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">no_orphan_specifications == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">review_dates_current == true</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">validation_pipeline_passed == true</span>
+</code></pre></div>
+<hr />
+<h1 id="orden-inmediato-de-saneamiento">Orden inmediato de saneamiento<a class="headerlink" href="#orden-inmediato-de-saneamiento" title="Permanent link">&para;</a></h1>
+<p>Tras crear este README se recomienda ejecutar:</p>
+<div class="highlight"><pre><span></span><code>1. Renombrar el archivo del Knowledge Graph.
+2. Actualizar todas sus referencias.
+3. Corregir la numeración de ESPECIFICACION_DE_APIS.md.
+4. Corregir la numeración de ESPECIFICACION_DEL_RETRIEVAL_ENGINE.md.
+5. Ejecutar validate_all.py.
+6. Corregir enlaces rotos.
+7. Normalizar cabeceras.
+8. Crear GLOSARIO.md.
+9. Crear CONVENCIONES.md.
+10. Crear DEPENDENCIAS.md.
+</code></pre></div>
+<hr />
+<h1 id="estructura-objetivo-inmediata">Estructura objetivo inmediata<a class="headerlink" href="#estructura-objetivo-inmediata" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>specifications/
+
+├── index.md
+├── GLOSARIO.md
+├── CONVENCIONES.md
+├── DEPENDENCIAS.md
+│
+├── ingestion/
+├── interfaces/
+├── knowledge/
+└── runtime/
+</code></pre></div>
+<p>Los tres documentos transversales solo deberán añadirse cuando estén realmente redactados.</p>
+<hr />
+<h1 id="estado-inicial-del-catalogo">Estado inicial del catálogo<a class="headerlink" href="#estado-inicial-del-catalogo" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>Especificaciones totales:
+15
+
+Dominios:
+4
+
+Knowledge:
+6
+
+Ingestion:
+1
+
+Runtime:
+7
+
+Interfaces:
+1
+</code></pre></div>
+<hr />
+<h1 id="arquitectura-documental-final">Arquitectura documental final<a class="headerlink" href="#arquitectura-documental-final" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>VISION
+    ↓
+ARQUITECTURA
+    ↓
+ADR
+    ↓
+SPECIFICATIONS README
+    ↓
+┌───────────────┬───────────────┬───────────────┬───────────────┐
+│               │               │               │               │
+Knowledge    Ingestion       Runtime        Interfaces      Transversal
+│               │               │               │               │
+Ontology      Sources       Orchestrator       APIs          Glossary
+Documents     Pipeline      Registry                         Conventions
+Components    Staging       Engines                          Dependencies
+Relations                   Execution
+Collections                 Retrieval
+Graph                       RAG
+</code></pre></div>
+<hr />
+<h1 id="checklist-global-del-readme">Checklist global del README<a class="headerlink" href="#checklist-global-del-readme" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>[ ] El objetivo del directorio está definido.
+[ ] La filosofía está definida.
+[ ] El alcance está definido.
+[ ] Los dominios están definidos.
+[ ] Las especificaciones están catalogadas.
+[ ] Las responsabilidades están descritas.
+[ ] Las fuentes autoritativas están declaradas.
+[ ] Las dependencias están descritas.
+[ ] Los límites entre componentes están definidos.
+[ ] Las rutas de lectura están incluidas.
+[ ] El modelo de madurez está definido.
+[ ] Los estados documentales están definidos.
+[ ] Los criterios para nuevas especificaciones están definidos.
+[ ] Las convenciones de archivos están definidas.
+[ ] Las convenciones de IDs están definidas.
+[ ] El versionado está definido.
+[ ] La estructura interna está recomendada.
+[ ] Los contratos están normalizados.
+[ ] Los eventos están normalizados.
+[ ] Los diagnósticos están normalizados.
+[ ] Los Quality Gates están definidos.
+[ ] La validación automática está descrita.
+[ ] La revisión manual está descrita.
+[ ] El control de cambios está definido.
+[ ] La relación con Git está definida.
+[ ] La gobernanza está definida.
+[ ] La deprecation está definida.
+[ ] Los movimientos de archivo están gobernados.
+[ ] Los checklists están incluidos.
+[ ] Las métricas documentales están definidas.
+[ ] La deuda documental está definida.
+[ ] La conformidad global está definida.
+[ ] Las incidencias conocidas están registradas.
+[ ] El orden de saneamiento está definido.
+</code></pre></div>
+<hr />
+<h1 id="referencias_1">Referencias<a class="headerlink" href="#referencias_1" title="Permanent link">&para;</a></h1>
+<ul>
+<li><a href="../architecture/ARQUITECTURA.html">ARQUITECTURA</a></li>
+<li><a href="../VISION.html">VISION</a></li>
+<li><a href="../management/ROADMAP.html">ROADMAP</a></li>
+<li><a href="../governance/adr/index.html">ADR</a></li>
+<li><a href="../management/PROJECT_STATUS.html">PROJECT_STATUS</a></li>
+<li><a href="../management/KNOWN_ISSUES.html">KNOWN_ISSUES</a></li>
+<li><a href="../management/BITACORA.html">BITACORA</a></li>
+</ul>
+<hr />
+<h1 id="estado-final-del-documento">Estado final del documento<a class="headerlink" href="#estado-final-del-documento" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>Documento:
+specifications/index.md
+
+Versión:
+1.0.0
+
+Estado:
+review
+
+Dominio:
+Documentación transversal
+
+Partes:
+3 / 3
+
+Estado de madurez:
+Nivel 4 — Especificación completa
+
+Especificación:
+FINALIZADA
+</code></pre></div>
+<hr />
+<h1 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h1>
+<p>El directorio <code>specifications/</code> constituye el catálogo formal de contratos, dominios y componentes del SGCC.</p>
+<p>Este README define:</p>
+<ul>
+<li>qué contiene;</li>
+<li>cómo se organiza;</li>
+<li>cómo debe leerse;</li>
+<li>cómo deben nombrarse los documentos;</li>
+<li>cómo deben versionarse;</li>
+<li>cómo deben validarse;</li>
+<li>cómo deben evolucionar;</li>
+<li>cómo se gobiernan;</li>
+<li>qué significa que sean conformes.</li>
+</ul>
+<p>Su función principal puede resumirse así:</p>
+<div class="highlight"><pre><span></span><code>Orientar
+    ↓
+Catalogar
+    ↓
+Relacionar
+    ↓
+Normalizar
+    ↓
+Validar
+    ↓
+Gobernar
+    ↓
+Evolucionar
+</code></pre></div>
+<p>El dominio <code>knowledge</code> define qué conocimiento existe.</p>
+<p>El dominio <code>ingestion</code> define cómo entra.</p>
+<p>El dominio <code>runtime</code> define cómo se procesa.</p>
+<p>El dominio <code>interfaces</code> define cómo se expone.</p>
+<p>Las convenciones garantizan consistencia.</p>
+<p>El versionado permite evolución.</p>
+<p>Los estados declaran madurez.</p>
+<p>Las dependencias permiten analizar impacto.</p>
+<p>Los Quality Gates aseguran calidad.</p>
+<p>La validación evita errores estructurales.</p>
+<p>La gobernanza mantiene coherencia a largo plazo.</p>
+<p>Un repositorio de especificaciones correctamente mantenido deberá poder responder:</p>
+<div class="highlight"><pre><span></span><code>¿Qué documentos existen?
+
+¿Qué responsabilidad tiene cada uno?
+
+¿Cuál es la fuente autoritativa de un concepto?
+
+¿Qué documentos dependen de otro?
+
+¿Qué orden de lectura se recomienda?
+
+¿Qué versión está vigente?
+
+¿Qué estado posee cada especificación?
+
+¿Quién es su owner?
+
+¿Qué contratos define?
+
+¿Qué Quality Gates debe superar?
+
+¿Qué cambios son compatibles?
+
+¿Qué cambios requieren ADR?
+
+¿Qué enlaces se verán afectados por un renombrado?
+
+¿Qué deuda documental existe?
+
+¿Qué debe corregirse antes de implementar?
+</code></pre></div>
+<p>Con esta tercera parte queda completado <code>specifications/index.md</code> como puerta de entrada, catálogo maestro y marco de gobierno documental de las especificaciones de NovaCoquinaria.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

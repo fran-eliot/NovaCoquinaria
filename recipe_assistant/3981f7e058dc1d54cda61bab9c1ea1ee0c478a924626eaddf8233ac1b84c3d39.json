@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 60,
+      "start_line": 13
+    },
+    "text": "\n# Patatas asadas con especias\n\n## Descripción\nPatatas en gajos con exterior dorado e interior tierno, condimentadas con pimentón y hierbas.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Horneado | 30–40 min |\n\n## Ingredientes\n- 800 g de patatas;\n- 3 cucharadas de aceite de oliva;\n- 1 cucharadita de pimentón dulce;\n- 1 cucharadita de ajo en polvo;\n- 1 cucharadita de tomillo o romero;\n- pimienta y sal moderada.\n\n## Elaboración\n1. Precalentar horno a **210 °C**.\n2. Lavar patatas y cortar en gajos uniformes; pelar opcionalmente.\n3. Cocer en agua 6–8 minutos, escurrir y secar bien.\n4. Mezclar aceite y especias; incorporar patatas y cubrirlas uniformemente.\n5. Repartir en bandeja amplia sin amontonar.\n6. Hornear 30–40 minutos, volteando a mitad, hasta que estén tiernas y doradas.\n7. Ajustar sal al servir.\n\n## Puntos críticos\n- Secar tras la precocción mejora el dorado.\n- No saturar bandeja.\n- Vigilar pimentón y ajo para evitar tostado excesivo.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Blandas y pálidas | Humedad y amontonamiento | Secar y espaciar |\n| Interior duro | Gajos grandes | Prolongar cocción |\n| Especias quemadas | Calor excesivo | Reducir temperatura |\n\n## Relaciones\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Pollo asado con patatas](./pollo_asado_con_patatas.md)\n\n## Principio de NovaCoquinaria\n> Precocción breve, superficie seca y espacio en bandeja favorecen el dorado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "baking",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/patatas_asadas_con_especias.html",
+  "id": "REC-0098",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de patatas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de patatas;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo en polvo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de ajo en polvo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de ajo en polvo;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo o romero;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo o romero;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo o romero;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/patatas_asadas_con_especias.md",
+  "source_sha256": "6780f032fa3999fd38c1ccb9cc95aad7481f67746f526268c1c527899a40f26e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **210 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 2,
+      "text": "Lavar patatas y cortar en gajos uniformes; pelar opcionalmente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 3,
+      "text": "Cocer en agua 6–8 minutos, escurrir y secar bien."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 4,
+      "text": "Mezclar aceite y especias; incorporar patatas y cubrirlas uniformemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 5,
+      "text": "Repartir en bandeja amplia sin amontonar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 6,
+      "text": "Hornear 30–40 minutos, volteando a mitad, hasta que estén tiernas y doradas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 7,
+      "text": "Ajustar sal al servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Patatas asadas con especias",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

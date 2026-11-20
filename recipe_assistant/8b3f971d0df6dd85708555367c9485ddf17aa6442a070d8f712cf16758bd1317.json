@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Linguine con calabacín, limón y almendras\n\n## Descripción\n\nPreparación de pasta que trabaja **salteado de verdura y acabado cítrico**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Salteado de verdura y acabado cítrico |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 270 g de linguine o espaguetis secos;\n- 2 calabacines medianos (400 g) en medias lunas;\n- 2 dientes de ajo laminados;\n- 50 g de almendras laminadas;\n- 3 cucharadas de aceite de oliva virgen extra;\n- ralladura fina de 1 limón;\n- 1–2 cucharadas de zumo de limón, ajustables;\n- 30 g de queso curado rallado opcional;\n- sal y pimienta;\n\n**Alérgenos:** Trigo (gluten), almendras (frutos de cáscara); leche si se usa queso.\n\n## Elaboración\n\n1. Tostar las almendras en sartén seca a fuego medio-bajo y reservarlas.\n2. Cocer la pasta en agua hirviendo con sal, reservando una taza de agua de cocción antes de escurrir.\n3. Saltear el calabacín con dos cucharadas de aceite en sartén amplia 6–8 minutos hasta dorar sin deshacerse.\n4. Añadir ajo y cocinar brevemente a fuego medio-bajo sin quemarlo.\n5. Añadir pasta y pequeñas dosis de agua de cocción, mezclar para ligar con el aceite restante y apagar el fuego.\n6. Terminar con ralladura, zumo de limón, pimienta, almendras y queso opcional; ajustar sal al final.\n\n## Puntos críticos\n\n- No añadir limón durante un hervor prolongado para mantener su aroma fresco; reservar las almendras hasta el final para conservar el crujiente.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **salteado de verdura y acabado cítrico**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/linguine_con_calabacin_limon_y_almendras.html",
+  "id": "REC-0249",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "linguine o espaguetis secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "270",
+        "min": "270",
+        "raw": "270 g de linguine o espaguetis secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "270 g de linguine o espaguetis secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacines medianos (400 g) en medias lunas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 calabacines medianos (400 g) en medias lunas;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 calabacines medianos (400 g) en medias lunas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras laminadas;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de almendras laminadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de almendras laminadas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de 1 limón;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de 1 limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de 1 limón;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, ajustables;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de zumo de limón, ajustables;",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de zumo de limón, ajustables;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de queso curado rallado opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de queso curado rallado opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/linguine_con_calabacin_limon_y_almendras.md",
+  "source_sha256": "753941ac4030ea3e9cca6c38b9856c9f2887b08eb524de400aa542217311e61b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Tostar las almendras en sartén seca a fuego medio-bajo y reservarlas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Cocer la pasta en agua hirviendo con sal, reservando una taza de agua de cocción antes de escurrir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Saltear el calabacín con dos cucharadas de aceite en sartén amplia 6–8 minutos hasta dorar sin deshacerse."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Añadir ajo y cocinar brevemente a fuego medio-bajo sin quemarlo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Añadir pasta y pequeñas dosis de agua de cocción, mezclar para ligar con el aceite restante y apagar el fuego."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Terminar con ralladura, zumo de limón, pimienta, almendras y queso opcional; ajustar sal al final."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Linguine con calabacín, limón y almendras",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

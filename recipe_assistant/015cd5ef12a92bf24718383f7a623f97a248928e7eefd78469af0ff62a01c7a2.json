@@ -1,0 +1,286 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Zanahorias glaseadas con naranja\n\n## Descripción\n\nZanahorias cocinadas en sartén con una pequeña cantidad de líquido y terminadas con reducción de zumo de naranja, formando una película brillante sin necesidad de un caramelo intenso.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Preparación | 10 minutos |\n| Cocinado | 15–25 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Cocción con poco líquido y reducción |\n\n## Ingredientes\n\n- 600 g de zanahorias peladas\n- 120 ml de zumo de naranja recién exprimido\n- 100 ml de agua\n- 1 cucharada de aceite de oliva virgen extra\n- 15 g de mantequilla opcional\n- 1 cucharadita de miel opcional\n- sal y pimienta negra\n- ralladura fina de media naranja lavada, opcional\n\n**Alérgenos:** Leche si se emplea mantequilla.\n\n## Mise en place\n\nCortar zanahorias longitudinalmente o en bastones de tamaño uniforme, aproximadamente 1–1,5 cm de grosor. Lavar la naranja antes de rallarla. Utilizar una sartén amplia con tapa.\n\n## Elaboración\n\n### 1. Comenzar cocción\n\nColocar zanahorias, agua, aceite y una pizca de sal en la sartén. Tapar y cocer a fuego medio 8–12 minutos hasta que empiecen a ablandarse.\n\n### 2. Comprobar punto\n\nPinchar una pieza gruesa: debe estar casi tierna antes de reducir; si sigue dura, añadir un poco de agua y prolongar la cocción.\n\n### 3. Añadir naranja\n\nVerter zumo de naranja y mantequilla o miel opcionales. Cocinar destapado a fuego medio, moviendo la sartén, hasta reducir a un líquido ligeramente almibarado.\n\n### 4. Glasear\n\nDar vueltas a las zanahorias para recubrirlas y retirar del fuego en cuanto estén tiernas y brillantes. Evitar reducir hasta una capa quemada.\n\n### 5. Terminar\n\nAñadir pimienta y ralladura opcional al servir, probando antes el equilibrio entre dulzor y acidez.\n\n## Puntos críticos\n\n- No iniciar una reducción intensa antes de que las zanahorias estén casi tiernas.\n- El zumo natural varía en dulzor; la miel es opcional.\n- Un glaseado brillante conserva una pequeña cantidad de humedad, no debe secarse hasta quemar los azúcares.\n\n## Perfil esperado\n\nZanahorias tiernas con algo de mordida, brillo uniforme y aroma cítrico.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con jengibre | Añadir 5 g rallados al incorporar la naranja |\n| Sin mantequilla | Usar solamente aceite de oliva |\n| Con comino | Añadir una pizca en el acabado |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Zanahorias duras | Líquido reducido demasiado pronto | Cocer tapadas hasta casi tiernas |\n| Glaseado amargo | Azúcares quemados | Retirar antes de que se seque |\n| Salsa acuosa | Reducción insuficiente | Destapar y reducir con cuidado |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Diagnóstico de verduras](../98_Tablas/07_Comparativas/diagnostico_verduras.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En un glaseado de hortalizas, primero se alcanza el punto de cocción y luego se concentra el líquido.\n\n## Utilizado por\n\nPreparación de referencia de zanahorias glaseadas con naranja en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/zanahorias_glaseadas_con_naranja.html",
+  "id": "REC-0123",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zanahorias peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de zanahorias peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de zanahorias peladas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja recién exprimido",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de zumo de naranja recién exprimido",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de zumo de naranja recién exprimido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de mantequilla opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de mantequilla opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de media naranja lavada, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de media naranja lavada, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de media naranja lavada, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nCortar zanahorias longitudinalmente o en bastones de tamaño uniforme, aproximadamente 1–1,5 cm de grosor. Lavar la naranja antes de rallarla. Utilizar una sartén amplia con tapa.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/zanahorias_glaseadas_con_naranja.md",
+  "source_sha256": "31b79cee319bec0ac0d359c4e93f51a06b4618081ebe07fa6198a881d34a0181",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Comenzar cocción\n\nColocar zanahorias, agua, aceite y una pizca de sal en la sartén. Tapar y cocer a fuego medio 8–12 minutos hasta que empiecen a ablandarse.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Comprobar punto\n\nPinchar una pieza gruesa: debe estar casi tierna antes de reducir; si sigue dura, añadir un poco de agua y prolongar la cocción.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Añadir naranja\n\nVerter zumo de naranja y mantequilla o miel opcionales. Cocinar destapado a fuego medio, moviendo la sartén, hasta reducir a un líquido ligeramente almibarado.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Glasear\n\nDar vueltas a las zanahorias para recubrirlas y retirar del fuego en cuanto estén tiernas y brillantes. Evitar reducir hasta una capa quemada.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nAñadir pimienta y ralladura opcional al servir, probando antes el equilibrio entre dulzor y acidez.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Zanahorias glaseadas con naranja",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

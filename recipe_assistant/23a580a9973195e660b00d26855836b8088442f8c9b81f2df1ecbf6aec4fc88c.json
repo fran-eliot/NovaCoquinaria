@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Mejillones con salsa de tomate picante\n\n## Descripción\n\nElaboración de referencia centrada en **apertura al vapor y salsa reducida**. Se incorpora como propuesta nueva sin experiencia doméstica ni valoración confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Apertura al vapor y salsa reducida |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 1 kg de mejillones vivos de origen autorizado;\n- 250 g de tomate triturado;\n- 100 g de cebolla picada;\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- ½ cucharadita de pimentón dulce;\n- chile seco al gusto, empezar con una pizca;\n- 60 ml de agua;\n- perejil picado opcional;\n\n**Alérgenos:** Moluscos.\n\n## Elaboración\n\n1. Revisar y limpiar los mejillones vivos; retirar ejemplares rotos o que no respondan al tacto tras manipularlos, y mantenerlos refrigerados.\n2. Abrirlos en olla tapada con un pequeño fondo de agua hasta que se abran; desechar los cerrados tras cocinar.\n3. Filtrar cuidadosamente el jugo de apertura para retirar arena, reservándolo.\n4. Pochar cebolla con aceite 6–8 minutos; añadir ajo y apartar del fuego para incorporar pimentón y chile.\n5. Agregar tomate y cocinar 8–10 minutos; ajustar con pequeñas cantidades del jugo filtrado, probando antes de añadir sal.\n6. Incorporar los mejillones ya abiertos y calentar brevemente; añadir perejil opcional y servir caliente.\n\n## Puntos críticos\n\n- Comprar únicamente moluscos de establecimiento autorizado. No utilizar mejillones con concha rota ni aquellos que permanezcan cerrados después de la cocción.\n- Mantener el pescado o marisco refrigerado hasta el momento de cocinar. Revisar espinas, limpieza y procedencia, y separar utensilios de crudos y cocinados.\n- Los tiempos son orientativos; comprobar la cocción completa y ajustar a grosor y temperatura de partida.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Pescado seco | Calor excesivo o tiempo prolongado | Comprobar el centro y reducir el tiempo innecesario |\n| Salsa demasiado concentrada | Evaporación excesiva | Añadir líquido en pequeñas dosis y probar sal |\n| Piel sin dorar | Humedad superficial o temperatura insuficiente | Secar antes y controlar el fuego |\n\n## Conservación\n\nRefrigerar sin demora los sobrantes en recipientes poco profundos. Los escabeches preparados en casa **no son conservas esterilizadas** y se mantienen refrigerados. Consumir los platos con pescado o marisco en un plazo corto, siguiendo las indicaciones del producto; no dejar varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Mejillones al vapor con ajo](./mejillones_al_vapor_con_ajo_y_vino_blanco.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades realmente usadas, tiempos, resultado y valoración antes de considerar la preparación una receta doméstica probada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/mejillones_con_salsa_de_tomate_picante.html",
+  "id": "REC-0243",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "mejillones vivos de origen autorizado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de mejillones vivos de origen autorizado;",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de mejillones vivos de origen autorizado;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "chile seco al gusto, empezar con una pizca;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "chile seco al gusto, empezar con una pizca;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "chile seco al gusto, empezar con una pizca;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de agua;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/mejillones_con_salsa_de_tomate_picante.md",
+  "source_sha256": "61a040bf1f917dff7bd5506dfd067308718e3eb20e611a7df209aa80796d07da",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Revisar y limpiar los mejillones vivos; retirar ejemplares rotos o que no respondan al tacto tras manipularlos, y mantenerlos refrigerados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Abrirlos en olla tapada con un pequeño fondo de agua hasta que se abran; desechar los cerrados tras cocinar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Filtrar cuidadosamente el jugo de apertura para retirar arena, reservándolo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Pochar cebolla con aceite 6–8 minutos; añadir ajo y apartar del fuego para incorporar pimentón y chile."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Agregar tomate y cocinar 8–10 minutos; ajustar con pequeñas cantidades del jugo filtrado, probando antes de añadir sal."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Incorporar los mejillones ya abiertos y calentar brevemente; añadir perejil opcional y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Mejillones con salsa de tomate picante",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

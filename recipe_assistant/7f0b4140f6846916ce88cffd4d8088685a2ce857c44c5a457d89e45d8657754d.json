@@ -1,0 +1,272 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Galletas de avena y canela\n\n## Descripción\n\nElaboración de referencia que trabaja **mezcla corta y horneado por tandas**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18 galletas |\n| Técnica | Mezcla corta y horneado por tandas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 140 g de copos de avena;\n- 100 g de harina de trigo;\n- 100 g de mantequilla blanda;\n- 90 g de azúcar moreno;\n- 1 huevo M;\n- ½ cucharadita de canela molida;\n- ½ cucharadita de impulsor químico;\n- 1 pizca de sal;\n\n**Alérgenos:** Gluten (trigo; avena según procesado), leche, huevo.\n\n## Elaboración\n\n1. Precalentar horno a 180 °C, calor arriba y abajo, y preparar dos bandejas con papel apto.\n2. Mezclar mantequilla y azúcar hasta obtener crema; incorporar huevo sin batir en exceso.\n3. Añadir harina, avena, canela, impulsor y sal; mezclar hasta integrar.\n4. Formar unas 18 porciones y distribuirlas espaciadas, aplastando ligeramente.\n5. Hornear 11–14 minutos orientativos hasta bordes dorados y centro asentado.\n6. Dejar reposar 5 minutos en bandeja antes de trasladar a rejilla, donde terminarán de tomar consistencia.\n\n## Puntos críticos\n\n- Las galletas siguen endureciendo al enfriar; no esperar a que estén completamente rígidas dentro del horno. Usar avena etiquetada sin gluten únicamente si se necesita prevenir contaminación cruzada, teniendo en cuenta que la receta también contiene harina de trigo.\n- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.\n- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |\n| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |\n| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |\n\n## Conservación\n\nSeguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Mantequilla](../11_Despensa/14_Huevos_Lacteos/mantequilla.md)\n- [Canela](../11_Despensa/08_Especias/canela.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/galletas_de_avena_y_canela.html",
+  "id": "REC-0235",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "copos de avena;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de copos de avena;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de copos de avena;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla blanda;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de mantequilla blanda;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de mantequilla blanda;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar moreno;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar moreno;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar moreno;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo M;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo M;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo M;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela molida;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela molida;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de impulsor químico;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de impulsor químico;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/galletas_de_avena_y_canela.md",
+  "source_sha256": "a92337286b9d958f5941f1c03c0afaf0717313f20baeee7da92ad3aabdd97007",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 180 °C, calor arriba y abajo, y preparar dos bandejas con papel apto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mezclar mantequilla y azúcar hasta obtener crema; incorporar huevo sin batir en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir harina, avena, canela, impulsor y sal; mezclar hasta integrar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Formar unas 18 porciones y distribuirlas espaciadas, aplastando ligeramente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Hornear 11–14 minutos orientativos hasta bordes dorados y centro asentado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Dejar reposar 5 minutos en bandeja antes de trasladar a rejilla, donde terminarán de tomar consistencia."
+    }
+  ],
+  "techniques": [],
+  "title": "Galletas de avena y canela",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "18 galletas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

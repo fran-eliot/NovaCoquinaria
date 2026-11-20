@@ -1,0 +1,299 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Ternasco de Aragón asado con patatas\n\n## Origen y contexto\n\n**Región:** Aragón. La ficha propone una versión doméstica basada en la tradición regional; las variantes y las cantidades exactas pueden diferir según localidad y familia. No consta preparación ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo estimado | 2–3 h según tamaño y horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 paletillas de ternasco de aproximadamente 650–800 g cada una\n- 900 g de patatas para asar\n- 4 dientes de ajo\n- 100 ml de vino blanco seco\n- 120–200 ml de agua\n- 2 hojas de laurel\n- 2 cucharadas de aceite de oliva virgen extra\n- romero o tomillo en pequeña cantidad, opcional\n- sal y pimienta\n\n**Alérgenos:** Vino con posible alcohol residual; revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Precalentar el horno a 155–160 °C, calor arriba y abajo. Secar las paletillas y sazonar.\n2. Pelar patatas y cortarlas en rodajas gruesas; colocarlas en una fuente con ajo chafado, laurel, algo de agua y aceite.\n3. Disponer las paletillas en otra fuente de horno con un fondo de agua y vino blanco, evitando que el líquido cubra la carne.\n4. Asar a temperatura moderada durante unos 75–100 minutos, vigilando que siempre quede algo de líquido y regando ocasionalmente con los jugos.\n5. Dar la vuelta a las paletillas y aumentar gradualmente a 185–195 °C para conseguir exterior dorado; asar las patatas hasta que estén completamente tiernas.\n6. Comprobar que el centro de la carne está completamente cocinado (al menos 63 °C con reposo adecuado como referencia mínima para pieza entera; para textura de asado tierno puede requerirse temperatura mayor) y que se desprende con facilidad del hueso.\n7. Reposar 10 minutos y servir con patatas y jugos desgrasados si se desea.\n\n## Puntos críticos\n\n- El ternasco es cordero joven: el tamaño y el hueso cambian el tiempo real. Evitar que se agote el agua de las fuentes, pero no cocer la carne sumergida. Esta versión no sustituye el cordero con romero del recetario.\n- Comprobar la cocción del ingrediente principal, las instrucciones de alimentos comerciales y el manejo higiénico de productos perecederos.\n- Ajustar agua, tiempos y tamaño de las piezas en la primera elaboración antes de fijar cantidades definitivas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Próximo ajuste |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |\n| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |\n| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Pollo asado con patatas](./pollo_asado_con_patatas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.ternascodearagon.es/blog/la-receta-del-asado-perfecto/)\n\n## Registro de prueba\n\nPendiente de anotar materia prima concreta, cantidades efectivas, tiempos, textura, resultado y valoración; ninguna versión propuesta sustituye elaboraciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/ternasco_de_aragon_asado_con_patatas.html",
+  "id": "REC-433",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "paletillas de ternasco de aproximadamente 650–800 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": true,
+        "max": "2",
+        "min": "2",
+        "raw": "2 paletillas de ternasco de aproximadamente 650–800 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 paletillas de ternasco de aproximadamente 650–800 g cada una",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas para asar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 g de patatas para asar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "900 g de patatas para asar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "120",
+        "raw": "120–200 ml de agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "120–200 ml de agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "romero o tomillo en pequeña cantidad, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "romero o tomillo en pequeña cantidad, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "romero o tomillo en pequeña cantidad, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/ternasco_de_aragon_asado_con_patatas.md",
+  "source_sha256": "2eadadd51a6f6d346a53550936418865291a8fdf59b80fa0ce413ade4e5a05d2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 155–160 °C, calor arriba y abajo. Secar las paletillas y sazonar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pelar patatas y cortarlas en rodajas gruesas; colocarlas en una fuente con ajo chafado, laurel, algo de agua y aceite."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Disponer las paletillas en otra fuente de horno con un fondo de agua y vino blanco, evitando que el líquido cubra la carne."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Asar a temperatura moderada durante unos 75–100 minutos, vigilando que siempre quede algo de líquido y regando ocasionalmente con los jugos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Dar la vuelta a las paletillas y aumentar gradualmente a 185–195 °C para conseguir exterior dorado; asar las patatas hasta que estén completamente tiernas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Comprobar que el centro de la carne está completamente cocinado (al menos 63 °C con reposo adecuado como referencia mínima para pieza entera; para textura de asado tierno puede requerirse temperatura mayor) y que se desprende con facilidad del hueso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Reposar 10 minutos y servir con patatas y jugos desgrasados si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Ternasco de Aragón asado con patatas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

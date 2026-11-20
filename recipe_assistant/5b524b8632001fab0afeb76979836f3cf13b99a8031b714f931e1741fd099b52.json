@@ -1,0 +1,277 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Bucatini all’amatriciana\n\n## Descripción\n\nPasta con guanciale, tomate, Pecorino Romano y un punto de chile opcional, inspirada en la preparación tradicional del Lacio. El guanciale aporta grasa y sabor al tomate.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 minutos |\n| Cocinado | 20–30 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Fundido gradual de grasa y reducción de tomate |\n\n## Ingredientes\n\n- 200 g de bucatini o espaguetis secos\n- 90 g de guanciale, en tiras\n- 300 g de tomate pelado triturado o tomate triturado\n- 35 g de Pecorino Romano rallado\n- 1 pizca de guindilla seca, opcional\n- sal para cocer pasta\n- agua de cocción reservada\n\n**Alérgenos:** **Gluten** y **leche**. Comprobar etiquetado del guanciale.\n\n## Mise en place\n\nRetirar corteza dura no comestible del guanciale y cortarlo en tiras regulares. Preparar el tomate y rallar el queso. No añadir aceite al principio salvo necesidad excepcional: la grasa del guanciale suele bastar.\n\n## Elaboración\n\n### 1. Fundir el guanciale\n\nPoner el guanciale en sartén fría y calentar progresivamente a fuego medio-bajo durante 6–9 minutos, hasta que suelte grasa y quede dorado sin quemarse. Reservar una parte para el acabado.\n\n### 2. Preparar la salsa\n\nAñadir al fondo de grasa la guindilla opcional y el tomate; cocinar 10–15 minutos a hervor moderado, hasta concentrar el sabor, sin que se seque.\n\n### 3. Cocer pasta\n\nCocer los bucatini en agua ligeramente salada, retirarlos algo antes de alcanzar su punto y reservar agua de cocción.\n\n### 4. Integrar\n\nAñadir la pasta a la salsa y mezclar 1–2 minutos con pequeñas cantidades de agua de cocción, según necesidad.\n\n### 5. Terminar\n\nApagar el fuego, probar sal y añadir la mayor parte del Pecorino sin recalentar en exceso. Servir con guanciale reservado y el queso restante.\n\n## Puntos críticos\n\n- El guanciale puede pasar de dorado a quemado con rapidez: controlar calor.\n- La sal del guanciale y del queso aconseja moderar la del agua de cocción.\n- No hervir el queso en la salsa para evitar que forme grumos.\n\n## Perfil esperado\n\nPasta recubierta por tomate concentrado y sabroso, con contraste de guanciale dorado y queso curado.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con espaguetis | Sustituir bucatini, manteniendo la técnica de acabado |\n| Con panceta | Alternativa doméstica con perfil diferente; no equivale al guanciale tradicional |\n| Sin chile | Omitirlo si se desea un sabor más suave |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Guanciale quemado | Amargor | Fundir desde sartén fría con calor gradual |\n| Salsa aceitosa | Exceso de grasa sin integrar | Reducir grasa libre si fuera excesiva antes de añadir tomate |\n| Plato salado | Condimentos curados y agua salada | Probar antes de salar |\n\n## Conservación\n\nConsumir preferiblemente recién preparada. Enfriar las sobras sin demoras y refrigerar en recipientes tapados y poco profundos. Recalentar completamente cuando corresponda; la salsa puede perder textura y requerir algo de líquido. No dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n\n## Principio de NovaCoquinaria\n\n> La grasa aromatizada del guanciale forma parte de la salsa, no es solo una guarnición.\n\n## Utilizado por\n\nReceta de referencia del módulo **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/bucatini_amatriciana.html",
+  "id": "REC-0113",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bucatini o espaguetis secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de bucatini o espaguetis secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de bucatini o espaguetis secos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "guanciale, en tiras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de guanciale, en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de guanciale, en tiras",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate pelado triturado o tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate pelado triturado o tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate pelado triturado o tomate triturado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "Pecorino Romano rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de Pecorino Romano rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de Pecorino Romano rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla seca, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de guindilla seca, opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de guindilla seca, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal para cocer pasta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal para cocer pasta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal para cocer pasta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción reservada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción reservada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción reservada",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nRetirar corteza dura no comestible del guanciale y cortarlo en tiras regulares. Preparar el tomate y rallar el queso. No añadir aceite al principio salvo necesidad excepcional: la grasa del guanciale suele bastar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/bucatini_amatriciana.md",
+  "source_sha256": "f8706bb96ddd1161fa30c91fa62f3c1273276c3db20630de2023f42080f5c70b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Fundir el guanciale\n\nPoner el guanciale en sartén fría y calentar progresivamente a fuego medio-bajo durante 6–9 minutos, hasta que suelte grasa y quede dorado sin quemarse. Reservar una parte para el acabado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Preparar la salsa\n\nAñadir al fondo de grasa la guindilla opcional y el tomate; cocinar 10–15 minutos a hervor moderado, hasta concentrar el sabor, sin que se seque.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Cocer pasta\n\nCocer los bucatini en agua ligeramente salada, retirarlos algo antes de alcanzar su punto y reservar agua de cocción.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Integrar\n\nAñadir la pasta a la salsa y mezclar 1–2 minutos con pequeñas cantidades de agua de cocción, según necesidad.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nApagar el fuego, probar sal y añadir la mayor parte del Pecorino sin recalentar en exceso. Servir con guanciale reservado y el queso restante.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 104,
+        "start_line": 104
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Bucatini all’amatriciana",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 15
+    },
+    "text": "\n# Cochinillo asado estilo segoviano\n\n## Origen y contexto\n\n**Región:** Segovia, Castilla y León. Fórmula doméstica de referencia con los rasgos más reconocibles del plato. No se considera una receta cocinada y valorada ni una reproducción certificada de las especialidades protegidas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones |\n| Tiempo orientativo | 2½–3½ horas según pieza y horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 medio cochinillo eviscerado, de unos 2,5–3,5 kg, preparado por carnicería autorizada\n- 350–500 ml de agua potable para la bandeja, según evaporación\n- 20 g de manteca de cerdo opcional para terminar\n- sal, cantidad moderada\n\n**Alérgenos:** Sin alérgenos principales añadidos; revisar manteca comercial.\n\n## Elaboración\n\n1. Adquirir cochinillo correctamente preparado y refrigerado. Secar la piel con papel y mantener la carne fría hasta preparar el horno.\n2. Precalentar el horno a 160–170 °C. Colocar una rejilla sobre una bandeja con un fondo de agua, de modo que la piel quede inicialmente hacia abajo y la carne no esté sumergida.\n3. Salar la parte interior y asar aproximadamente 75–100 minutos, controlando que no se evapore toda el agua de la bandeja.\n4. Dar la vuelta cuidadosamente con utensilios adecuados para dejar la piel hacia arriba; no perforarla innecesariamente.\n5. Continuar el asado a 170–180 °C hasta que las partes más gruesas estén completamente cocidas. Comprobar al menos 74 °C en el punto interior más grueso como criterio conservador para esta preparación.\n6. Aumentar el horno a 210–220 °C durante unos 10–20 minutos finales para dorar y dejar la piel crujiente, vigilando que no se queme. Añadir una capa fina de manteca opcional si se desea.\n7. Reposar 10–15 minutos fuera del horno, retirar huesecillos sueltos y servir con sus jugos desgrasados.\n\n## Puntos críticos\n\n- El tamaño y la forma de la pieza cambian mucho la cocción; el criterio decisivo es el interior completamente cocinado y la piel crujiente, no el tiempo fijo. Mantener agua en bandeja sin mojar la piel final.\n- Ajustar tiempo, tamaño de pieza, ingredientes comerciales y cantidad de líquido al equipo empleado. Comprobar la cocción, prevenir contaminación cruzada y refrigerar los perecederos sin demora.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme o cruda | Cocción insuficiente o piezas grandes | Comprobar el interior y adaptar tiempo o tamaño |\n| Preparación excesivamente húmeda | Caldo de más o relleno sin reducir | Corregir líquido o evaporación según plato |\n| Sabor desequilibrado | Exceso de sal o condimentos | Ajustar después de probar y registrar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las carnes, pescados, huevos y cremas lácteas requieren conservación en frío; recalentar completamente las porciones destinadas al servicio caliente. No dejar preparaciones perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Ternasco de Aragón asado con patatas](./ternasco_de_aragon_asado_con_patatas.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar materia prima, cantidades reales, temperatura, duración, textura y valoración. No sustituye recetas anteriores ni presupone una versión mejorada sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "2½–3½ horas según pieza y horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/cochinillo_asado_estilo_segoviano.html",
+  "id": "REC-473",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "medio cochinillo eviscerado, de unos 2,5–3,5 kg, preparado por carnicería autorizada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 medio cochinillo eviscerado, de unos 2,5–3,5 kg, preparado por carnicería autorizada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 medio cochinillo eviscerado, de unos 2,5–3,5 kg, preparado por carnicería autorizada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para la bandeja, según evaporación",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "350",
+        "raw": "350–500 ml de agua potable para la bandeja, según evaporación",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–500 ml de agua potable para la bandeja, según evaporación",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo opcional para terminar",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de manteca de cerdo opcional para terminar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de manteca de cerdo opcional para terminar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, cantidad moderada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, cantidad moderada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, cantidad moderada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/cochinillo_asado_estilo_segoviano.md",
+  "source_sha256": "932a0f24d7368090b0f88ae3fc254ae8f1834c649b204e5759d051e19f62bd8e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Adquirir cochinillo correctamente preparado y refrigerado. Secar la piel con papel y mantener la carne fría hasta preparar el horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Precalentar el horno a 160–170 °C. Colocar una rejilla sobre una bandeja con un fondo de agua, de modo que la piel quede inicialmente hacia abajo y la carne no esté sumergida."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Salar la parte interior y asar aproximadamente 75–100 minutos, controlando que no se evapore toda el agua de la bandeja."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Dar la vuelta cuidadosamente con utensilios adecuados para dejar la piel hacia arriba; no perforarla innecesariamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Continuar el asado a 170–180 °C hasta que las partes más gruesas estén completamente cocidas. Comprobar al menos 74 °C en el punto interior más grueso como criterio conservador para esta preparación."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Aumentar el horno a 210–220 °C durante unos 10–20 minutos finales para dorar y dejar la piel crujiente, vigilando que no se queme. Añadir una capa fina de manteca opcional si se desea."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 7,
+      "text": "Reposar 10–15 minutos fuera del horno, retirar huesecillos sueltos y servir con sus jugos desgrasados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Cochinillo asado estilo segoviano",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

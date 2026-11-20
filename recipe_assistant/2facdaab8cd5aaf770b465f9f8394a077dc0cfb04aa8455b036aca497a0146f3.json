@@ -1,0 +1,249 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 110,
+      "start_line": 15
+    },
+    "text": "\n# Pimientos asados y aliñados\n\n## Descripción\n\nPimientos rojos asados hasta ablandar la carne y desprender la piel, pelados y aliñados con ajo y aceite. La humedad de reposo facilita el pelado, mientras que el escurrido equilibra el aliño.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Preparación | 15 minutos, más reposo |\n| Cocinado | 30–45 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Asado entero, reposo y pelado |\n\n## Ingredientes\n\n- 4 pimientos rojos carnosos (800–900 g)\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 diente de ajo pequeño picado\n- 1 cucharadita de vinagre de vino, opcional\n- sal al gusto\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en la formulación base; revisar productos envasados.\n\n## Mise en place\n\nLavar y secar los pimientos. Precalentar el horno a 220 °C, calor arriba y abajo. Preparar bandeja y un recipiente apto para reposo con tapa sin cierre hermético.\n\n## Elaboración\n\n### 1. Asar\n\nColocar los pimientos enteros en bandeja y asar 30–45 minutos, girándolos una o dos veces, hasta que la piel presente manchas oscuras y la pulpa esté blanda. Evitar carbonizar completamente la carne.\n\n### 2. Reposar\n\nTrasladarlos con pinzas a un recipiente y tapar sin sellar herméticamente. Dejar reposar unos 10–15 minutos hasta que se puedan manipular con seguridad.\n\n### 3. Pelar\n\nRetirar piel, tallo y semillas sobre un plato para recoger los jugos. Evitar lavar bajo el grifo, porque arrastra sabor; descartar semillas.\n\n### 4. Cortar y aliñar\n\nCortar en tiras, colar los jugos de asado y añadir solo la cantidad necesaria. Mezclar con aceite, ajo y sal; terminar con vinagre opcional.\n\n### 5. Servir\n\nServir templados o enfriar rápidamente y refrigerar si se preparan con antelación.\n\n## Puntos críticos\n\n- No cerrar herméticamente un recipiente caliente: existe riesgo de presión y quemaduras al abrir.\n- Los pimientos deben quedar tiernos y pelables; el tiempo depende del grosor.\n- El ajo crudo obliga a mantener buenas prácticas de higiene y refrigeración.\n\n## Perfil esperado\n\nTiras suaves, dulces y carnosas, con aroma de asado y aliño equilibrado sin exceso de líquido.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con comino | Añadir una pizca al aliño |\n| Con perejil | Incorporar fresco justo antes de servir |\n| Sin vinagre | Priorizar el dulzor natural del pimiento |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Piel difícil de retirar | Asado o reposo insuficientes | Asar hasta blando y reposar cubierto |\n| Pimientos aguados | Exceso de jugo de asado | Escurrir y dosificar |\n| Ajo dominante | Dosis alta o reposo largo | Usar poca cantidad |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El asado concentra el sabor del pimiento; el reposo y el pelado preparan una textura delicada.\n\n## Utilizado por\n\nPreparación de referencia de pimientos asados y aliñados en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "15 minutos, más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "45",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/pimientos_asados_y_ali%C3%B1ados.html",
+  "id": "REC-0121",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pimientos rojos carnosos (800–900 g)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 pimientos rojos carnosos (800–900 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 pimientos rojos carnosos (800–900 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño picado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño picado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de vino, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de vino, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar y secar los pimientos. Precalentar el horno a 220 °C, calor arriba y abajo. Preparar bandeja y un recipiente apto para reposo con tapa sin cierre hermético.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pimientos_asados_y_aliñados.md",
+  "source_sha256": "786593f14167d22eaaceb0e4a717f09eb3b3096fdff3dcf5dfbe0e238777508e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Asar\n\nColocar los pimientos enteros en bandeja y asar 30–45 minutos, girándolos una o dos veces, hasta que la piel presente manchas oscuras y la pulpa esté blanda. Evitar carbonizar completamente la carne.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Reposar\n\nTrasladarlos con pinzas a un recipiente y tapar sin sellar herméticamente. Dejar reposar unos 10–15 minutos hasta que se puedan manipular con seguridad.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Pelar\n\nRetirar piel, tallo y semillas sobre un plato para recoger los jugos. Evitar lavar bajo el grifo, porque arrastra sabor; descartar semillas.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Cortar y aliñar\n\nCortar en tiras, colar los jugos de asado y añadir solo la cantidad necesaria. Mezclar con aceite, ajo y sal; terminar con vinagre opcional.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nServir templados o enfriar rápidamente y refrigerar si se preparan con antelación.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 101,
+        "start_line": 101
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Pimientos asados y aliñados",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

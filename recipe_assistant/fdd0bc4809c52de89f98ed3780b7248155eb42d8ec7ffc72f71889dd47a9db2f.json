@@ -1,0 +1,247 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 72,
+      "start_line": 16
+    },
+    "text": "\n# Turrón duro de almendra al estilo de Alicante\n\n## Origen y contexto\n\n**Región:** Comunitat Valenciana. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 1 tableta de unos 450 g |\n| Tiempo orientativo | 45 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de almendras peladas\n- 125 g de miel\n- 100 g de azúcar\n- 25 g de clara pasteurizada\n- 2 obleas alimentarias\n\n**Alérgenos:** Almendra y huevo; comprobar gluten en las obleas.\n\n## Elaboración\n\n1. Tostar almendras a 150 °C hasta doradas, mantener templadas.\n2. Preparar molde con una oblea y utensilios resistentes al calor. Calentar miel y azúcar en cazuela de fondo grueso, removiendo con cuidado, hasta 145–150 °C con termómetro.\n3. Retirar del fuego y dejar bajar ligeramente la temperatura. Incorporar progresivamente el jarabe a la clara pasteurizada previamente espumada, con utensilios resistentes al calor y evitando salpicaduras.\n4. Volver a fuego suave y remover hasta obtener una masa espesa y cocida; incorporar almendras templadas.\n5. Extender rápidamente en molde, cubrir con otra oblea y compactar con espátula. Enfriar totalmente antes de cortar.\n\n## Puntos críticos\n\n- El jarabe caliente produce quemaduras graves: evitar contacto y salpicaduras, usar protección y no permitir niños cerca. Fórmula doméstica no certificada IGP; dureza pendiente de prueba.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Turrón blando | Jarabe poco concentrado | Controlar temperatura |\n| Masa granulosa | Cristalización del azúcar | Evitar raspar paredes de la cazuela |\n\n## Conservación\n\nGuardar seco, fresco y herméticamente cerrado; consumir preferiblemente en una semana.\n\n## Relaciones dentro del SGCC\n\n- [bienmesabe canario de almendra y limon](../08_Postres/bienmesabe_canario_de_almendra_y_limon.md)\n- [tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** Comunitat Valenciana. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/turron_duro_de_almendra_estilo_alicante.html",
+  "id": "REC-590",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendras peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almendras peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almendras peladas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "125",
+        "min": "125",
+        "raw": "125 g de miel",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "125 g de miel",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "clara pasteurizada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de clara pasteurizada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de clara pasteurizada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "obleas alimentarias",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 obleas alimentarias",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 obleas alimentarias",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/turron_duro_de_almendra_estilo_alicante.md",
+  "source_sha256": "a32700b4c5b653fe84807f12afb1ac95db6525c011f2c1b1fb9fa3c0f5ec49f8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Tostar almendras a 150 °C hasta doradas, mantener templadas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Preparar molde con una oblea y utensilios resistentes al calor. Calentar miel y azúcar en cazuela de fondo grueso, removiendo con cuidado, hasta 145–150 °C con termómetro."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Retirar del fuego y dejar bajar ligeramente la temperatura. Incorporar progresivamente el jarabe a la clara pasteurizada previamente espumada, con utensilios resistentes al calor y evitando salpicaduras."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Volver a fuego suave y remover hasta obtener una masa espesa y cocida; incorporar almendras templadas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Extender rápidamente en molde, cubrir con otra oblea y compactar con espátula. Enfriar totalmente antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "tostar frutos secos y semillas",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Turrón duro de almendra al estilo de Alicante",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "1 tableta de unos 450 g",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": null
+  }
+}

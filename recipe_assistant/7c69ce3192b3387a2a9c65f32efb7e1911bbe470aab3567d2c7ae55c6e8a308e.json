@@ -1,0 +1,178 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 72,
+      "start_line": 15
+    },
+    "text": "\n# Talo vasco de maíz a la plancha\n\n## Origen y contexto\n\n**Región:** País Vasco y Navarra. Formulación doméstica de referencia, pendiente de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 unidades |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina fina de maíz no precocida\n- 220–260 ml de agua muy caliente\n- 5 g de sal\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en la base; verificar contaminación cruzada de la harina y etiqueta de cualquier relleno.\n\n## Elaboración\n\n1. Mezclar harina y sal en un cuenco. Incorporar agua caliente gradualmente con espátula hasta formar masa húmeda y manejable.\n2. Dejar templar, amasar brevemente y reposar tapado 15 minutos.\n3. Dividir en seis porciones; aplanarlas entre papeles alimentarios hasta discos de unos 3–4 mm, sin romper bordes.\n4. Cocinar en plancha caliente sin grasa o con una película mínima de aceite, 3–5 minutos por cada cara, hasta manchas tostadas y centro cocido.\n5. Servir recién hecho, solo o con relleno de chistorra previamente cocinada por completo.\n\n## Puntos críticos\n\n- Se clasifica en masas aunque la cocción es en plancha, no en horno. Usar harina de maíz no precocida y ajustar el agua según molienda; no confundir con tortos fritos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Disco quebradizo | Hidratación baja | Añadir agua poco a poco |\n| Centro crudo | Disco grueso | Aplanar y prolongar cocción |\n| Se pega | Plancha fría | Precalentar |\n\n## Conservación\n\nConsumir recién hecho. Refrigerar talos cocidos hasta 2 días y recalentar en plancha; los rellenos perecederos se conservan por separado.\n\n## Relaciones dentro del SGCC\n\n- [Harina de maíz no precocida](../11_Despensa/01_Cereales/harina_de_maiz_no_precocida.md): selección, hidratación y diferencias entre formatos de maíz.\n- [Seguridad alimentaria](../98_Tablas/05_Seguridad/seguridad_alimentaria.md): manejo separado del relleno de chistorra, refrigeración y recalentado.\n- [tortos asturianos de maiz con queso](../04_Verduras/tortos_asturianos_de_maiz_con_queso.md)\n- [broa gallega de maiz y centeno](../10_Horno/broa_gallega_de_maiz_y_centeno.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** País Vasco y Navarra. Formulación doméstica de referencia, pendiente de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/talo_vasco_de_maiz_en_plancha.html",
+  "id": "REC-573",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina fina de maíz no precocida",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina fina de maíz no precocida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina fina de maíz no precocida",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua muy caliente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "260",
+        "min": "220",
+        "raw": "220–260 ml de agua muy caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "220–260 ml de agua muy caliente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/talo_vasco_de_maiz_en_plancha.md",
+  "source_sha256": "2070bfa38c28b1dd37c31f1bb568e2afb3db26e1e09ad21960656b0ef63a88df",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Mezclar harina y sal en un cuenco. Incorporar agua caliente gradualmente con espátula hasta formar masa húmeda y manejable."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Dejar templar, amasar brevemente y reposar tapado 15 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Dividir en seis porciones; aplanarlas entre papeles alimentarios hasta discos de unos 3–4 mm, sin romper bordes."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Cocinar en plancha caliente sin grasa o con una película mínima de aceite, 3–5 minutos por cada cara, hasta manchas tostadas y centro cocido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Servir recién hecho, solo o con relleno de chistorra previamente cocinada por completo."
+    }
+  ],
+  "techniques": [],
+  "title": "Talo vasco de maíz a la plancha",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

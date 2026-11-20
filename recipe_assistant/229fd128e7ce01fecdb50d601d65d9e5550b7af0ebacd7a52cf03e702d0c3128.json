@@ -1,0 +1,293 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Cachopo asturiano de ternera, jamón y queso\n\n## Origen y contexto\n\n**Región:** Asturias. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 raciones grandes |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 filetes de ternera finos y amplios, unos 600 g en total\n- 100 g de jamón serrano en lonchas finas\n- 120 g de queso en lonchas de buena fundición\n- 70 g de harina de trigo\n- 2 huevos L\n- 140 g de pan rallado\n- aceite de oliva suave o aceite adecuado para freír, suficiente para fritura en sartén\n- sal moderada y pimienta\n\n**Alérgenos:** Gluten (trigo), huevo, leche; revisar pan rallado y jamón comerciales.\n\n## Elaboración\n\n1. Seleccionar filetes de tamaño parecido; retirar membranas duras y, si hace falta, aplastarlos suavemente entre láminas alimentarias para uniformar grosor.\n2. Colocar jamón y queso sobre dos filetes, sin llegar a los bordes; cubrir con los otros dos filetes y presionar el perímetro.\n3. Salar muy ligeramente el exterior, ya que el jamón y el queso aportan sal; pasar los cachopos por harina, huevo batido y pan rallado.\n4. Presionar el empanado sobre los bordes para sellar; refrigerar 10–15 minutos para facilitar el manejo.\n5. Calentar el aceite a temperatura de fritura moderada, aproximadamente 170–175 °C. Freír uno cada vez, ajustando a su grosor, unos 4–6 minutos por lado hasta dorado uniforme.\n6. Comprobar que la carne del interior está completamente cocinada según la seguridad y preferencias de consumo y que el queso esté fundido. Si el exterior dora demasiado pronto, bajar el fuego y prolongar.\n7. Escurrir sobre rejilla o papel adecuado y servir de inmediato.\n\n## Puntos críticos\n\n- El grosor de los filetes determina el tiempo: un exterior dorado no acredita que el interior esté hecho. Sellar bien los bordes para reducir fugas de queso y evitar sal excesiva.\n- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |\n| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |\n| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.\n\n## Relaciones dentro del SGCC\n\n- [Ternera guisada con verduras](./ternera_guisada_con_verduras.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/cachopo_asturiano_de_ternera_jamon_y_queso.html",
+  "id": "REC-451",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de ternera finos y amplios, unos 600 g en total",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 filetes de ternera finos y amplios, unos 600 g en total",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 filetes de ternera finos y amplios, unos 600 g en total",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano en lonchas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de jamón serrano en lonchas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de jamón serrano en lonchas finas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "queso en lonchas de buena fundición",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de queso en lonchas de buena fundición",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de queso en lonchas de buena fundición",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de harina de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de pan rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o aceite adecuado para freír, suficiente para fritura en sartén",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave o aceite adecuado para freír, suficiente para fritura en sartén",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave o aceite adecuado para freír, suficiente para fritura en sartén",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y pimienta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/cachopo_asturiano_de_ternera_jamon_y_queso.md",
+  "source_sha256": "c425d2884763e0b933ab85206b79e3dfcc23d21b74f879f064e68ce7f040c6bf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Seleccionar filetes de tamaño parecido; retirar membranas duras y, si hace falta, aplastarlos suavemente entre láminas alimentarias para uniformar grosor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Colocar jamón y queso sobre dos filetes, sin llegar a los bordes; cubrir con los otros dos filetes y presionar el perímetro."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Salar muy ligeramente el exterior, ya que el jamón y el queso aportan sal; pasar los cachopos por harina, huevo batido y pan rallado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Presionar el empanado sobre los bordes para sellar; refrigerar 10–15 minutos para facilitar el manejo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Calentar el aceite a temperatura de fritura moderada, aproximadamente 170–175 °C. Freír uno cada vez, ajustando a su grosor, unos 4–6 minutos por lado hasta dorado uniforme."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar que la carne del interior está completamente cocinada según la seguridad y preferencias de consumo y que el queso esté fundido. Si el exterior dora demasiado pronto, bajar el fuego y prolongar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Escurrir sobre rejilla o papel adecuado y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Cachopo asturiano de ternera, jamón y queso",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2 raciones grandes",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

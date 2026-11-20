@@ -1,0 +1,343 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 116,
+      "start_line": 15
+    },
+    "text": "\n# Albóndigas de ternera en salsa de tomate\n\n## Descripción\n\nAlbóndigas de carne de ternera picada doradas y terminadas en salsa de tomate. La mezcla se trabaja lo justo para obtener textura tierna y se cocina completamente por seguridad.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 25 minutos |\n| Cocinado | 25–35 minutos |\n| Dificultad | Media |\n| Técnica principal | Formado, dorado y cocción de carne picada en salsa |\n\n## Ingredientes\n\n- 600 g de carne de ternera picada, refrigerada\n- 1 huevo\n- 40 g de pan rallado\n- 2 cucharadas de leche\n- 1 diente de ajo picado\n- 2 cucharadas de perejil picado\n- 500 g de tomate triturado\n- 1 cebolla mediana, picada\n- 2 cucharadas de aceite de oliva virgen extra\n- 150 ml de agua o caldo\n- sal y pimienta negra\n\n**Alérgenos:** Huevo, gluten del pan y leche; revisar el pan rallado y el caldo.\n\n## Mise en place\n\nConservar carne picada refrigerada hasta su manipulación; separar utensilios y superficies. Mezclar pan rallado con leche, picar ajo y perejil, y preparar una cazuela con tapa.\n\n## Elaboración\n\n### 1. Preparar mezcla\n\nCombinar carne picada con huevo, pan humedecido, ajo, perejil, sal y pimienta, sin amasar en exceso.\n\n### 2. Formar\n\nDividir en unas 16 albóndigas de tamaño similar usando manos limpias; no dejar la mezcla cruda a temperatura ambiente más tiempo del necesario.\n\n### 3. Dorar\n\nCalentar aceite y dorar las albóndigas por tandas para desarrollar color superficial. Retirar a un plato limpio; aún no se consideran completamente cocidas.\n\n### 4. Preparar salsa\n\nEn la misma cazuela, cocinar cebolla 6–8 minutos, añadir tomate y caldo y reducir a hervor suave durante 8–10 minutos.\n\n### 5. Terminar la cocción\n\nIncorporar las albóndigas y cocinar a hervor suave, tapadas parcialmente, hasta alcanzar **71 °C en el centro** de varias piezas de carne picada. Ajustar líquido y sal antes de servir.\n\n## Puntos críticos\n\n- La carne picada requiere cocción completa: comprobar 71 °C en el centro; el dorado exterior no es suficiente.\n- El pan humedecido aporta ternura; trabajar la mezcla en exceso puede endurecer las albóndigas.\n- Lavar y desinfectar utensilios tras contacto con carne cruda.\n\n## Perfil esperado\n\nAlbóndigas tiernas pero firmes en salsa de tomate bien cocinada, sin interior crudo.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con carne mixta | Si incluye ave picada, aplicar temperatura segura de ave de 74 °C |\n| Con pimentón | Añadir una pizca a la salsa sin quemarla |\n| Sin leche | Hidratar el pan con agua; comprobar otros alérgenos |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Albóndigas duras | Mezclado excesivo | Combinar solo hasta integrar |\n| Centro insuficientemente cocinado | Tiempo escaso | Medir temperatura interna |\n| Salsa demasiado espesa | Evaporación excesiva | Añadir caldo gradualmente |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos y refrigerar tapadas. Consumir en un plazo corto, recalentar completamente antes de servir y no mantener carne cocinada largo tiempo a temperatura ambiente. Congelar en porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Ternera](../11_Despensa/03_Carnes/ternera.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Diagnóstico de carnes](../98_Tablas/07_Comparativas/diagnostico_carnes.md)\n\n## Principio de NovaCoquinaria\n\n> En carne picada, la seguridad del centro y la textura de la mezcla se controlan de forma independiente.\n\n## Utilizado por\n\nReceta de referencia del módulo Carnes para formado, dorado y cocción de carne picada en salsa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "preparation",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–35 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/albondigas_de_ternera_en_salsa_de_tomate.html",
+  "id": "REC-0128",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carne de ternera picada, refrigerada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de carne de ternera picada, refrigerada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de carne de ternera picada, refrigerada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de pan rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "leche",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de leche",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de leche",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil picado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de tomate triturado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, picada",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, picada",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua o caldo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua o caldo",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nConservar carne picada refrigerada hasta su manipulación; separar utensilios y superficies. Mezclar pan rallado con leche, picar ajo y perejil, y preparar una cazuela con tapa.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/albondigas_de_ternera_en_salsa_de_tomate.md",
+  "source_sha256": "f5b02d21aaa89a90a70c5c770c80c0d5939a3de693ca50dd7b8824e5208ba914",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Preparar mezcla\n\nCombinar carne picada con huevo, pan humedecido, ajo, perejil, sal y pimienta, sin amasar en exceso.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Formar\n\nDividir en unas 16 albóndigas de tamaño similar usando manos limpias; no dejar la mezcla cruda a temperatura ambiente más tiempo del necesario.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Dorar\n\nCalentar aceite y dorar las albóndigas por tandas para desarrollar color superficial. Retirar a un plato limpio; aún no se consideran completamente cocidas.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Preparar salsa\n\nEn la misma cazuela, cocinar cebolla 6–8 minutos, añadir tomate y caldo y reducir a hervor suave durante 8–10 minutos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Terminar la cocción\n\nIncorporar las albóndigas y cocinar a hervor suave, tapadas parcialmente, hasta alcanzar **71 °C en el centro** de varias piezas de carne picada. Ajustar líquido y sal antes de servir.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Albóndigas de ternera en salsa de tomate",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

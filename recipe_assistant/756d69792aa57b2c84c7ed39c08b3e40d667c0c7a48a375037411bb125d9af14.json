@@ -1,0 +1,268 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 111,
+      "start_line": 15
+    },
+    "text": "\n# Arroz pilaf con cebolla\n\n## Descripción\n\nArroz de grano largo nacarado en aceite con cebolla y cocido por absorción en caldo. El tostado ligero del grano y el reposo facilitan una textura suelta.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 10 minutos |\n| Cocinado | 18–22 minutos, más reposo |\n| Dificultad | Fácil–media |\n| Técnica principal | Nacarado y cocción tapada |\n\n## Ingredientes\n\n- 280 g de arroz basmati o de grano largo\n- 1 cebolla pequeña, picada fina\n- 2 cucharadas de aceite de oliva suave\n- 440–500 ml de caldo vegetal o agua caliente, ajustables\n- 1 hoja de laurel, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Revisar alérgenos del caldo comercial.\n\n## Mise en place\n\nMedir el caldo de acuerdo con el arroz y las indicaciones del paquete. Picar la cebolla y calentar el caldo por separado.\n\n## Elaboración\n\n### 1. Pochar\n\nCocinar la cebolla con aceite en cazuela 5–7 minutos a fuego medio-bajo, sin dorarla demasiado.\n\n### 2. Nacarar\n\nAñadir arroz y remover 1–2 minutos para recubrirlo de grasa, sin quemarlo.\n\n### 3. Añadir caldo\n\nIncorporar el caldo caliente, laurel opcional y sal moderada. Llevar a hervor suave.\n\n### 4. Cocer tapado\n\nTapar y bajar al mínimo. Cocinar el tiempo orientativo del arroz hasta que absorba líquido y esté tierno, ajustando con una pequeña cantidad de caldo caliente si se necesita.\n\n### 5. Reposar\n\nApagar y reposar 5 minutos con tapa. Retirar laurel y soltar con tenedor.\n\n## Puntos críticos\n\n- El nacarado es suave: dorar intensamente el arroz altera textura y aroma.\n- La sal del caldo cuenta en el sazonado.\n- El pilaf necesita reposo antes de soltar los granos.\n\n## Perfil esperado\n\nArroz de grano definido, ligeramente aromático a cebolla y caldo, sin exceso de grasa.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con guisantes | Añadir guisantes cocidos y calientes al final |\n| Con almendras | Añadir almendras tostadas al servir; incorpora frutos de cáscara |\n| Con azafrán | Infusionar hebras en el caldo caliente |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Granos rotos | Remover durante cocción | Mantener tapado sin agitar |\n| Fondo tostado | Calor elevado | Bajar el fuego al hervir |\n| Arroz salado | Caldo concentrado | Probar antes de añadir sal |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Para guardar sobrantes de arroz cocido, enfriar rápidamente en recipientes poco profundos y refrigerar sin demoras; no dejarlo durante horas a temperatura ambiente. Recalentar completamente y evitar ciclos repetidos de enfriado y recalentamiento. El arroz mantenido de forma insegura puede contener toxinas que el recalentado no elimina.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El pilaf combina un nacarado breve con una cocción por absorción sin remover.\n\n## Utilizado por\n\nPreparación de referencia del dominio Arroces: nacarado y cocción tapada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "18–22 minutos, más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_pilaf_con_cebolla.html",
+  "id": "REC-0155",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati o de grano largo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de arroz basmati o de grano largo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de arroz basmati o de grano largo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña, picada fina",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña, picada fina",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña, picada fina",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva suave",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva suave",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal o agua caliente, ajustables",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "440",
+        "raw": "440–500 ml de caldo vegetal o agua caliente, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "440–500 ml de caldo vegetal o agua caliente, ajustables",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel, opcional",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nMedir el caldo de acuerdo con el arroz y las indicaciones del paquete. Picar la cebolla y calentar el caldo por separado.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_pilaf_con_cebolla.md",
+  "source_sha256": "5a2b111118ab9bcae22f8767e5c98dcf2452ee10204a33355044bab7b044242c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Pochar\n\nCocinar la cebolla con aceite en cazuela 5–7 minutos a fuego medio-bajo, sin dorarla demasiado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Nacarar\n\nAñadir arroz y remover 1–2 minutos para recubrirlo de grasa, sin quemarlo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Añadir caldo\n\nIncorporar el caldo caliente, laurel opcional y sal moderada. Llevar a hervor suave.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 4,
+      "text": "4. Cocer tapado\n\nTapar y bajar al mínimo. Cocinar el tiempo orientativo del arroz hasta que absorba líquido y esté tierno, ajustando con una pequeña cantidad de caldo caliente si se necesita.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 5,
+      "text": "5. Reposar\n\nApagar y reposar 5 minutos con tapa. Retirar laurel y soltar con tenedor.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 102,
+        "start_line": 102
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Arroz pilaf con cebolla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

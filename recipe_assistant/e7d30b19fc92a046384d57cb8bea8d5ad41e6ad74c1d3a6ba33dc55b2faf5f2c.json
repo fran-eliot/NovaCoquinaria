@@ -1,0 +1,364 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 14
+    },
+    "text": "\n# Arroz jollof de tomate y pimientos\n\n## Descripción\n\nPreparación de referencia basada en **reducción de tomate especiado y cocción por absorción**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica principal | Reducción de tomate especiado y cocción por absorción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de arroz de grano largo\n- 350 g de tomate triturado\n- 160 g de pimiento rojo\n- 160 g de cebolla\n- 2 dientes de ajo\n- 2 cucharadas de aceite neutro\n- 450–550 ml de caldo vegetal caliente, orientativos\n- ½ cucharadita de tomillo seco\n- ½ cucharadita de curry suave en polvo\n- 1 hoja de laurel\n- una pizca de chile opcional\n- sal\n\n**Alérgenos:** Revisar composición del caldo y curry comercial.\n\n## Elaboración\n\n1. Triturar el pimiento con la mitad de la cebolla, ajo y tomate hasta obtener una base uniforme.\n2. Picar el resto de la cebolla y pocharla en aceite unos 5 minutos.\n3. Añadir el triturado y cocinar destapado durante 15–20 minutos, removiendo, hasta reducir notablemente el líquido y concentrar el sabor.\n4. Incorporar tomillo, curry, laurel y chile opcional. Agregar arroz enjuagado y escurrido, mezclando brevemente.\n5. Añadir caldo caliente medido, salar con moderación, tapar y cocinar a fuego bajo unos 15–20 minutos según variedad y fabricante, sin remover continuamente.\n6. Reposar tapado 8 minutos, comprobar que el grano esté cocido y soltar con tenedor antes de servir.\n\n## Puntos críticos\n\n- El jollof tiene variantes nacionales y familiares; esta es una aproximación doméstica, no una representación única. Reducir bien la salsa antes de añadir arroz es esencial para evitar un resultado pastoso.\n- Ajustar la proporción de caldo al tipo de arroz, superficie de la cazuela, potencia del fuego y tiempo real de cocción.\n- Mantener separados los alimentos crudos y los cocinados, comprobar la cocción completa de las proteínas y seguir el etiquetado de productos comerciales.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Arroz seco o duro | Evaporación excesiva o tiempo insuficiente | Revisar volumen de caldo y potencia del fuego |\n| Arroz pastoso | Exceso de líquido, manipulación o reposo prolongado | Medir líquido y respetar el método de cocción |\n| Fondo excesivamente tostado | Calor demasiado intenso o poco líquido | Moderar temperatura y utilizar un recipiente apropiado |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si sobra arroz cocido, distribuirlo en recipientes poco profundos, **enfriarlo rápidamente y refrigerarlo sin demora**. No mantenerlo durante horas a temperatura ambiente: el recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Arroz pilaf con cebolla](./arroz_pilaf_con_cebolla.md)\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar los pesos efectivos, variedad de arroz, proporción real de líquido, equipo, tiempo, textura y valoración. No se modifica ni se presupone el resultado de recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **reducción de tomate especiado y cocción por absorción**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_jollof_de_tomate_y_pimientos.html",
+  "id": "REC-374",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz de grano largo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz de grano largo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz de grano largo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de pimiento rojo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal caliente, orientativos",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": true,
+        "max": "550",
+        "min": "450",
+        "raw": "450–550 ml de caldo vegetal caliente, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "450–550 ml de caldo vegetal caliente, orientativos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo seco",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo seco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "curry suave en polvo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de curry suave en polvo",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de curry suave en polvo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de chile opcional",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de chile opcional",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de chile opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_jollof_de_tomate_y_pimientos.md",
+  "source_sha256": "51bc9069f2e1eeab3e1cb49b72ad6c6dc6c7147bd83f115e5fbd0ac196591cf8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Triturar el pimiento con la mitad de la cebolla, ajo y tomate hasta obtener una base uniforme."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Picar el resto de la cebolla y pocharla en aceite unos 5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Añadir el triturado y cocinar destapado durante 15–20 minutos, removiendo, hasta reducir notablemente el líquido y concentrar el sabor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Incorporar tomillo, curry, laurel y chile opcional. Agregar arroz enjuagado y escurrido, mezclando brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Añadir caldo caliente medido, salar con moderación, tapar y cocinar a fuego bajo unos 15–20 minutos según variedad y fabricante, sin remover continuamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Reposar tapado 8 minutos, comprobar que el grano esté cocido y soltar con tenedor antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz jollof de tomate y pimientos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

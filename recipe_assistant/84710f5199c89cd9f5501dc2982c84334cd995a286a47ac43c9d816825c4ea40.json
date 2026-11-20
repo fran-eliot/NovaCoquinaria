@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Marquesas de almendra de Navidad\n\n## Origen y contexto\n\n**Región:** Repostería navideña castellana. Formulación doméstica de referencia basada en los rasgos del plato; no se atribuye elaboración ni valoración previas y se identifican adaptaciones cuando corresponde.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16 unidades pequeñas |\n| Tiempo orientativo | 35–45 min, incluido horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 200 g de almendra molida fina\n- 150 g de azúcar glas para masa\n- 4 huevos L\n- 45 g de harina de trigo\n- ralladura fina de medio limón lavado\n- 5 g de levadura química de repostería, opcional\n- 40 g de azúcar glas para espolvorear\n\n**Alérgenos:** Almendras, huevo y gluten (trigo).\n\n## Elaboración\n\n1. Precalentar horno a 180 °C y preparar 16 cápsulas cuadradas de papel alimentario en molde que las sostenga.\n2. Batir huevos con el azúcar glas hasta obtener mezcla espumosa y ligeramente aireada.\n3. Incorporar ralladura y almendra molida con movimientos suaves.\n4. Tamizar harina y levadura química opcional e incorporar sin batir en exceso.\n5. Repartir en las cápsulas hasta aproximadamente dos tercios de su capacidad.\n6. Hornear 16–22 minutos según tamaño, hasta que los pastelitos estén firmes y completamente cocidos en su centro; comprobar con brocheta limpia.\n7. Enfriar totalmente sobre rejilla y cubrir con azúcar glas justo antes de presentar.\n\n## Puntos críticos\n\n- Las marquesas son pequeños bizcochitos de almendra de miga tierna, no mazapanes compactos. El batido de huevo y el tamaño de las cápsulas influyen en la altura.\n- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima preparación |\n|---|---|---|\n| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |\n| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |\n| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Tarta de Santiago](./tarta_de_santiago_de_almendra.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades y materias primas realmente utilizadas, tiempos, texturas y valoración. No se sustituye ninguna versión anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 min, incluido horneado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/marquesas_de_almendra_de_navidad.html",
+  "id": "REC-512",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendra molida fina",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de almendra molida fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de almendra molida fina",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para masa",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de azúcar glas para masa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de azúcar glas para masa",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de harina de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura química de repostería, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de levadura química de repostería, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de levadura química de repostería, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para espolvorear",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar glas para espolvorear",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar glas para espolvorear",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/marquesas_de_almendra_de_navidad.md",
+  "source_sha256": "bc970e4e63c4cb820bacfeeb7b8069d1bd61081cb173fdbd35203b8391cb14da",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 180 °C y preparar 16 cápsulas cuadradas de papel alimentario en molde que las sostenga."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Batir huevos con el azúcar glas hasta obtener mezcla espumosa y ligeramente aireada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Incorporar ralladura y almendra molida con movimientos suaves."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Tamizar harina y levadura química opcional e incorporar sin batir en exceso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Repartir en las cápsulas hasta aproximadamente dos tercios de su capacidad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Hornear 16–22 minutos según tamaño, hasta que los pastelitos estén firmes y completamente cocidos en su centro; comprobar con brocheta limpia."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Enfriar totalmente sobre rejilla y cubrir con azúcar glas justo antes de presentar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Marquesas de almendra de Navidad",
+  "yield": {
+    "max": "16",
+    "min": "16",
+    "raw": "16 unidades pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

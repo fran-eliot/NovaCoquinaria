@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Habas a la catalana con menta y morcilla\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación doméstica de referencia con los rasgos característicos de esta especialidad regional. No se declara como versión única, ni como receta ya probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–60 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de habas tiernas desgranadas\n- 180 g de cebolla tierna picada\n- 140 g de panceta fresca en dados\n- 150 g de butifarra negra apta para cocinar, en rodajas gruesas\n- 2 dientes de ajo\n- 100 ml de vino blanco seco\n- 180–250 ml de agua o caldo suave\n- 2 ramas pequeñas de menta fresca lavada\n- 1 hoja de laurel\n- 2 cucharadas de aceite de oliva\n- sal moderada y pimienta\n\n**Alérgenos:** Revisar butifarra y panceta comerciales por gluten, soja, sulfitos y otros alérgenos.\n\n## Elaboración\n\n1. Comprobar si las habas son muy tiernas; retirar pieles exteriores especialmente coriáceas si el tamaño lo requiere.\n2. Dorar la panceta a fuego medio en cazuela con aceite hasta que esté completamente cocinada y comience a soltar grasa.\n3. Añadir cebolla y ajo y pochar 8–10 minutos sin quemar.\n4. Incorporar las habas y remover dos minutos; añadir vino y dejar reducir brevemente, sin asumir eliminación completa de su alcohol.\n5. Agregar laurel, agua o caldo y una rama de menta. Tapar y cocer a fuego suave 15–25 minutos, según tamaño y madurez, hasta que las habas estén tiernas.\n6. Añadir la butifarra negra en los últimos 8–10 minutos o según el etiquetado, para calentarla o cocinarla completamente sin deshacer sus rodajas.\n7. Retirar laurel, ajustar la sal tras probar y terminar con unas hojas de menta fresca.\n\n## Puntos críticos\n\n- La menta y la butifarra negra distinguen esta preparación del salteado de habas con jamón. El tiempo depende de la madurez de la haba; revisar si la butifarra comercial ya está cocida o precisa cocción completa.\n- Ajustar tiempos, cantidades y textura a la materia prima. Respetar las condiciones del producto comercial, la higiene y la cadena de frío; comprobar la cocción completa de los ingredientes animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente preparación |\n|---|---|---|\n| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |\n| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Habas con jamón](./habas_jamon.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los productos realmente utilizados, pesos, tiempos, temperaturas, textura y valoración personal. No se sustituyen versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "60",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–60 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/habas_a_la_catalana_con_menta_y_morcilla.html",
+  "id": "REC-496",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "habas tiernas desgranadas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de habas tiernas desgranadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de habas tiernas desgranadas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla tierna picada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla tierna picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla tierna picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de panceta fresca en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de panceta fresca en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "butifarra negra apta para cocinar, en rodajas gruesas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de butifarra negra apta para cocinar, en rodajas gruesas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de butifarra negra apta para cocinar, en rodajas gruesas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "180",
+        "raw": "180–250 ml de agua o caldo suave",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "180–250 ml de agua o caldo suave",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeñas de menta fresca lavada",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 ramas pequeñas de menta fresca lavada",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "2 ramas pequeñas de menta fresca lavada",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y pimienta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y pimienta",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/habas_a_la_catalana_con_menta_y_morcilla.md",
+  "source_sha256": "8038d010a4adbb7a8f5d10084812ad627e0be0a0f5a434e7ff610075a3441cd1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Comprobar si las habas son muy tiernas; retirar pieles exteriores especialmente coriáceas si el tamaño lo requiere."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Dorar la panceta a fuego medio en cazuela con aceite hasta que esté completamente cocinada y comience a soltar grasa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Añadir cebolla y ajo y pochar 8–10 minutos sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Incorporar las habas y remover dos minutos; añadir vino y dejar reducir brevemente, sin asumir eliminación completa de su alcohol."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Agregar laurel, agua o caldo y una rama de menta. Tapar y cocer a fuego suave 15–25 minutos, según tamaño y madurez, hasta que las habas estén tiernas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Añadir la butifarra negra en los últimos 8–10 minutos o según el etiquetado, para calentarla o cocinarla completamente sin deshacer sus rodajas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, ajustar la sal tras probar y terminar con unas hojas de menta fresca."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Habas a la catalana con menta y morcilla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Pipirrana jiennense con atún y huevo\n\n## Origen y contexto\n\n**Región:** Jaén, Andalucía. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 30 minutos más refrigeración |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de tomates maduros\n- 180 g de pimiento verde\n- 2 huevos L\n- 180 g de atún en conserva escurrido\n- 2 dientes de ajo pequeños\n- 80 ml de aceite de oliva virgen extra\n- 10–15 ml de vinagre de vino, opcional según versión\n- sal\n\n**Alérgenos:** Huevo, pescado; comprobar atún comercial.\n\n## Elaboración\n\n1. Cocer los huevos hasta que las claras y yemas estén completamente cuajadas. Enfriarlos rápidamente, pelar y separar claras de yemas.\n2. Lavar bien los tomates y pimientos. Trocear el tomate en dados medianos y el pimiento en dados pequeños; picar las claras cocidas.\n3. Majar ajo con sal y yemas cocidas hasta obtener una pasta; incorporar aceite poco a poco hasta emulsionar. Ajustar con vinagre opcional si se desea.\n4. Mezclar las hortalizas en recipiente frío con las claras picadas y parte del atún escurrido.\n5. Incorporar el majado de yema y ajo, mezclando con cuidado para cubrir las verduras sin deshacerlas.\n6. Terminar con el resto del atún y refrigerar sin demora hasta el servicio.\n7. Servir fría, con sus jugos naturales y sin añadir agua.\n\n## Puntos críticos\n\n- El majado de ajo y yema cocida distingue esta preparación de una ensalada con vinagreta. Incorporar el aceite gradualmente para ligar la mezcla.\n- Utilizar tomates maduros pero capaces de mantener la forma al trocearlos. Conservar sus jugos naturales sin añadir agua.\n- Cocer completamente los huevos, enfriarlos antes de mezclar y mantener refrigerados el atún y las hortalizas preparadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Majado separado | Aceite añadido demasiado rápido o yema mal desmenuzada | Trabajar primero la yema con ajo y añadir aceite gradualmente |\n| Ensalada excesivamente líquida | Tomate muy acuoso o atún mal escurrido | Escurrir el atún y reservar parte del jugo del tomate para ajustar al final |\n| Verduras deshechas | Tomates demasiado blandos o mezcla enérgica | Elegir frutos maduros firmes y mezclar suavemente |\n| Ajo o acidez dominantes | Intensidad del ajo o exceso de vinagre | Probar el majado y ajustar el vinagre opcional antes de incorporarlo |\n\n## Conservación\n\nRefrigerar la pipirrana tapada desde el montaje hasta el servicio. Mantener el atún abierto y el huevo cocido en frío, respetando las indicaciones del envase del atún. Consumir preferentemente el día de elaboración; guardar las sobras sin demora en el frigorífico. Servir fría, sin recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): uso de yema cocida para ligar el majado.\n- [Gazpacho andaluz](./gazpacho_andaluz_de_tomate_y_pimiento.md)\n- [Salmorejo cordobés](./salmorejo_cordobes_con_huevo.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "30 minutos más refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.html",
+  "id": "REC-485",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomates maduros",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de tomates maduros",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de tomates maduros",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento verde",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de atún en conserva escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de atún en conserva escurrido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeños",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo pequeños",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo pequeños",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional según versión",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "10",
+        "raw": "10–15 ml de vinagre de vino, opcional según versión",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "10–15 ml de vinagre de vino, opcional según versión",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md",
+  "source_sha256": "e635e29e495da871bb434a33675b8906e20424b5a8a9865e5183560ae78ffc17",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer los huevos hasta que las claras y yemas estén completamente cuajadas. Enfriarlos rápidamente, pelar y separar claras de yemas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Lavar bien los tomates y pimientos. Trocear el tomate en dados medianos y el pimiento en dados pequeños; picar las claras cocidas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Majar ajo con sal y yemas cocidas hasta obtener una pasta; incorporar aceite poco a poco hasta emulsionar. Ajustar con vinagre opcional si se desea."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Mezclar las hortalizas en recipiente frío con las claras picadas y parte del atún escurrido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Incorporar el majado de yema y ajo, mezclando con cuidado para cubrir las verduras sin deshacerlas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Terminar con el resto del atún y refrigerar sin demora hasta el servicio."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir fría, con sus jugos naturales y sin añadir agua."
+    }
+  ],
+  "techniques": [],
+  "title": "Pipirrana jiennense con atún y huevo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

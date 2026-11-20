@@ -1,0 +1,303 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Zorongollo extremeño de pimientos asados\n\n## Origen y contexto\n\n**Región:** Extremadura. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Tiempo orientativo | 45–55 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de pimientos rojos carnosos\n- 160 g de cebolla\n- 2 huevos L\n- 1 diente de ajo pequeño picado\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de vinagre de vino blanco, ajustable\n- sal y comino molido opcional\n\n**Alérgenos:** Huevo; vinagre comercial con posibles sulfitos.\n\n## Elaboración\n\n1. Precalentar horno a 210 °C; lavar los pimientos y colocarlos enteros en bandeja, junto a cebolla pelada en trozos grandes.\n2. Asar 30–40 minutos, girando a mitad del tiempo, hasta que la piel de los pimientos esté tostada y la pulpa tierna.\n3. Introducir los pimientos calientes en recipiente tapado unos 10 minutos para facilitar el pelado; evitar quemaduras al abrir por el vapor.\n4. Pelar, retirar semillas y cortar la pulpa en tiras; escurrir los jugos excesivos, reservando una pequeña cantidad si son agradables.\n5. Cocer los huevos hasta que clara y yema estén completamente cuajadas, enfriar rápidamente, pelar y cortar.\n6. Aliñar los pimientos y cebolla asados con aceite, vinagre, ajo, sal y comino opcional; mezclar suavemente y añadir huevo cocido al servir.\n7. Refrigerar si no se sirve inmediatamente; consumir fresco, no templado durante horas.\n\n## Puntos críticos\n\n- La base reconocible del zorongollo son los pimientos asados aliñados; el huevo y la cebolla aparecen en variantes domésticas. No lavar los pimientos pelados bajo el grifo, pues se pierden jugos y aroma.\n- Verificar las instrucciones específicas de productos comerciales y la cocción de carnes, huevos, pescados y mariscos. Mantener higiene y cadena de frío en todos los productos perecederos.\n- La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente elaboración |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o corte desigual | Comprobar el interior y adaptar tiempo o grosor |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir sin perder jugos esenciales |\n| Sabor demasiado salado | Curados, fumet o adobos concentrados | Ajustar sal al final y probar previamente |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con lácteos, huevo, pescados y carnes deben conservarse en frío; las raciones calientes se recalientan completamente cuando corresponda. No mantener alimentos perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pimientos asados y aliñados](./pimientos_asados_y_aliñados.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, presentación del ingrediente, cocción, textura, resultado y valoración. Esta ficha no sustituye formulaciones anteriores ni se considera una versión mejorada sin comparación real."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–55 minutos más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Extremadura. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/zorongollo_extremeno_de_pimientos_asados.html",
+  "id": "REC-458",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pimientos rojos carnosos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de pimientos rojos carnosos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de pimientos rojos carnosos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño picado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco, ajustable",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino blanco, ajustable",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino blanco, ajustable",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y comino molido opcional",
+      "optionality": "unknown",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y comino molido opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y comino molido opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/zorongollo_extremeno_de_pimientos_asados.md",
+  "source_sha256": "57b9f8b390f0ad7eeacb70610d1c02560d4b6e7780474fe53cf14ba3c1094095",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 210 °C; lavar los pimientos y colocarlos enteros en bandeja, junto a cebolla pelada en trozos grandes."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Asar 30–40 minutos, girando a mitad del tiempo, hasta que la piel de los pimientos esté tostada y la pulpa tierna."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Introducir los pimientos calientes en recipiente tapado unos 10 minutos para facilitar el pelado; evitar quemaduras al abrir por el vapor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Pelar, retirar semillas y cortar la pulpa en tiras; escurrir los jugos excesivos, reservando una pequeña cantidad si son agradables."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cocer los huevos hasta que clara y yema estén completamente cuajadas, enfriar rápidamente, pelar y cortar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Aliñar los pimientos y cebolla asados con aceite, vinagre, ajo, sal y comino opcional; mezclar suavemente y añadir huevo cocido al servir."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Refrigerar si no se sirve inmediatamente; consumir fresco, no templado durante horas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Zorongollo extremeño de pimientos asados",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Besugo a la madrileña al horno\n\n## Origen y contexto\n\n**Región:** Madrid. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–70 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 besugo entero de 1,2–1,5 kg, eviscerado y escamado\n- 550 g de patatas\n- 200 g de cebolla\n- 3 dientes de ajo\n- 100 ml de vino blanco seco\n- 50 ml de aceite de oliva\n- 1 limón\n- 35 g de pan rallado, opcional\n- perejil fresco, sal y pimienta\n\n**Alérgenos:** Pescado, trigo/gluten si se emplea pan rallado; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Comprar besugo eviscerado y escamado, mantener en frío y comprobar limpieza de la cavidad y espinas; precalentar el horno a 200 °C.\n2. Cortar patatas en rodajas finas y cebolla en plumas; colocar en fuente con 30 ml de aceite, sal y 100 ml de agua, y asar 18–22 minutos para adelantar su cocción.\n3. Secar el besugo, salar ligeramente y practicar dos cortes superficiales por lado; introducir finas medias lunas de limón en los cortes si se desea.\n4. Colocar el besugo sobre las patatas precocidas, añadir vino y repartir ajo laminado y perejil por encima; rociar con el resto del aceite.\n5. Espolvorear una película fina de pan rallado opcional sobre el pescado para un acabado ligeramente tostado.\n6. Hornear 20–30 minutos más según grosor, hasta alcanzar cocción completa (63 °C en la parte central como referencia conservadora), evitando resecar.\n7. Comprobar que las patatas estén tiernas, reposar 3 minutos y servir retirando espinas cuidadosamente.\n\n## Puntos críticos\n\n- El besugo a la madrileña presenta pescado al horno sobre patatas y cebolla, tradicionalmente con ajo, perejil y acabado de pan en algunas versiones.\n- Es distinto del besugo a la sal: aquí el pescado se asa destapado con guarnición y jugos. Evitar prolongar el horneado para terminar patatas que no se hayan precocinado.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Patata dura | Precocción corta | Adelantar más su asado |\n| Pescado seco | Exceso de horno | Comprobar temperatura y grosor |\n| Cobertura quemada | Pan demasiado abundante o cerca del grill | Usar capa fina y vigilar |\n\n## Conservación\n\nRefrigerar pescado cocinado sin demora a 4 °C o menos y consumir preferiblemente dentro de 24 horas; retirar espinas y recalentar completamente las sobras.\n\n## Relaciones dentro del SGCC\n\n- [Besugo a la sal con hierbas](../10_Horno/besugo_a_la_sal_con_hierbas.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "70",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–70 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/besugo_a_la_madrilena_al_horno.html",
+  "id": "REC-559",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "besugo entero de 1,2–1,5 kg, eviscerado y escamado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 besugo entero de 1,2–1,5 kg, eviscerado y escamado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 besugo entero de 1,2–1,5 kg, eviscerado y escamado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de patatas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "limón",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de pan rallado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de pan rallado, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco, sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco, sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco, sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/besugo_a_la_madrilena_al_horno.md",
+  "source_sha256": "a0c1fb41c178d61e3495c1c1741c9430b64fc6e1483b563846c858ac63ae3bad",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Comprar besugo eviscerado y escamado, mantener en frío y comprobar limpieza de la cavidad y espinas; precalentar el horno a 200 °C."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cortar patatas en rodajas finas y cebolla en plumas; colocar en fuente con 30 ml de aceite, sal y 100 ml de agua, y asar 18–22 minutos para adelantar su cocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Secar el besugo, salar ligeramente y practicar dos cortes superficiales por lado; introducir finas medias lunas de limón en los cortes si se desea."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Colocar el besugo sobre las patatas precocidas, añadir vino y repartir ajo laminado y perejil por encima; rociar con el resto del aceite."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Espolvorear una película fina de pan rallado opcional sobre el pescado para un acabado ligeramente tostado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Hornear 20–30 minutos más según grosor, hasta alcanzar cocción completa (63 °C en la parte central como referencia conservadora), evitando resecar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Comprobar que las patatas estén tiernas, reposar 3 minutos y servir retirando espinas cuidadosamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Besugo a la madrileña al horno",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

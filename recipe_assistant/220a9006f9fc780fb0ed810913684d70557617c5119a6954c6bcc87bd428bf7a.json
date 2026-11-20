@@ -1,0 +1,257 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Tortos asturianos de maíz con queso\n\n## Origen y contexto\n\n**Región:** Asturias. Versión doméstica de referencia basada en rasgos regionales reconocibles, con adaptaciones identificadas cuando procede. No consta como receta ya preparada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 tortos pequeños |\n| Tiempo orientativo | 45–60 minutos incluido reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de maíz amarilla o blanca de molienda fina, sin cocer y de uso alimentario\n- 100 g de harina de trigo, opcional para facilitar cohesión en esta adaptación\n- 280–340 ml de agua tibia, ajustar\n- 6 g de sal\n- aceite para freír, suficiente\n- 160 g de queso asturiano apto para consumir o queso fresco escurrido, para acompañar\n\n**Alérgenos:** Leche (queso); gluten si se emplea harina de trigo.\n\n## Elaboración\n\n1. Mezclar harina de maíz, harina de trigo opcional y sal; incorporar agua tibia poco a poco hasta formar una masa húmeda y moldeable que no se desmorone.\n2. Reposar tapada unos 20–25 minutos para hidratar la harina; si la masa se agrieta, incorporar agua gradualmente.\n3. Dividir en ocho porciones iguales, formar bolas y aplastar entre dos hojas de papel alimentario hasta discos de unos 8–10 cm y 5–7 mm de grosor.\n4. Calentar aceite abundante a 170–175 °C y freír cada torto por tandas, aproximadamente 2–3 minutos por lado, hasta que esté dorado y completamente cocinado en el centro.\n5. Escurrir sobre rejilla, evitando apilar para mantener el exterior crujiente.\n6. Servir calientes acompañados de queso desmenuzado; pueden utilizarse otros acompañamientos regionales en futuras variantes.\n\n## Puntos críticos\n\n- El torto asturiano se basa en harina de maíz, no en maicena ni en harina de maíz precocida para arepas. Algunas versiones usan solo maíz: el trigo es una adaptación doméstica para facilitar el formado y debe identificarse.\n- Adaptar tiempos y cantidades a la materia prima y al equipo; seguir las indicaciones de productos comerciales y garantizar higiene, cadena de frío y cocción completa de ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Interior duro o incompleto | Tiempo insuficiente o piezas grandes | Comprobar el punto real y prolongar suavemente |\n| Preparación con exceso de agua | Líquido sobrante o escurrido insuficiente | Ajustar hidratación, reducir o escurrir |\n| Sabor desequilibrado | Sal, grasa o azúcar excesivos | Rectificar después de probar y registrar cantidades |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío carnes, pescados, huevos y lácteos y evitar horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Borrajas con patatas](./borrajas_con_patatas_y_aceite_de_oliva.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, cantidades, cocción, textura y valoración. Esta propuesta no sustituye versiones previas sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "60",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–60 minutos incluido reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/tortos_asturianos_de_maiz_con_queso.html",
+  "id": "REC-522",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de maíz amarilla o blanca de molienda fina, sin cocer y de uso alimentario",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de maíz amarilla o blanca de molienda fina, sin cocer y de uso alimentario",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de maíz amarilla o blanca de molienda fina, sin cocer y de uso alimentario",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo, opcional para facilitar cohesión en esta adaptación",
+      "optionality": "optional",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo, opcional para facilitar cohesión en esta adaptación",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo, opcional para facilitar cohesión en esta adaptación",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua tibia, ajustar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "340",
+        "min": "280",
+        "raw": "280–340 ml de agua tibia, ajustar",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "280–340 ml de agua tibia, ajustar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de sal",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír, suficiente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír, suficiente",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír, suficiente",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso asturiano apto para consumir o queso fresco escurrido, para acompañar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de queso asturiano apto para consumir o queso fresco escurrido, para acompañar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de queso asturiano apto para consumir o queso fresco escurrido, para acompañar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/tortos_asturianos_de_maiz_con_queso.md",
+  "source_sha256": "c8d207125173a74876471b0aef873595dfa8630c4cb1c8ce1c93f27f772a90e2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Mezclar harina de maíz, harina de trigo opcional y sal; incorporar agua tibia poco a poco hasta formar una masa húmeda y moldeable que no se desmorone."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Reposar tapada unos 20–25 minutos para hidratar la harina; si la masa se agrieta, incorporar agua gradualmente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Dividir en ocho porciones iguales, formar bolas y aplastar entre dos hojas de papel alimentario hasta discos de unos 8–10 cm y 5–7 mm de grosor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Calentar aceite abundante a 170–175 °C y freír cada torto por tandas, aproximadamente 2–3 minutos por lado, hasta que esté dorado y completamente cocinado en el centro."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Escurrir sobre rejilla, evitando apilar para mantener el exterior crujiente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Servir calientes acompañados de queso desmenuzado; pueden utilizarse otros acompañamientos regionales en futuras variantes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Tortos asturianos de maíz con queso",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "8 tortos pequeños",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

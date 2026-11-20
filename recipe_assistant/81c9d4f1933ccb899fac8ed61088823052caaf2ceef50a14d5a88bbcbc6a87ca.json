@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Pasta alla Norma con berenjena\n\n## Descripción\n\nPasta de inspiración siciliana con berenjena dorada, salsa de tomate, albahaca y ricotta salata opcional. Se distinguen la cocción de la berenjena y el acabado de la pasta en la salsa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Dorado de berenjena y reducción de tomate |\n\n## Ingredientes\n\n- 320 g de rigatoni u otra pasta corta seca\n- 2 berenjenas medianas (aproximadamente 550 g), en dados\n- 500 g de tomate triturado\n- 2 dientes de ajo\n- 4 cucharadas de aceite de oliva virgen extra, ajustables\n- 8–10 hojas de albahaca fresca\n- 50 g de ricotta salata rallada, opcional\n- sal y pimienta negra\n- agua de cocción de la pasta\n\n**Alérgenos:** **Gluten** y, si se emplea ricotta salata, **leche**.\n\n## Mise en place\n\nCortar las berenjenas en dados uniformes y secar su superficie. Preparar sartén amplia y tomate. La berenjena absorbe aceite: añadirlo con moderación y trabajar por tandas; no confundir ricotta salata con ricotta fresca.\n\n## Elaboración\n\n### 1. Dorar berenjena\n\nCalentar 2 cucharadas de aceite en sartén y dorar la berenjena por tandas, añadiendo aceite solo si hace falta. Cocinar hasta que el interior esté tierno y la superficie dorada; reservar.\n\n### 2. Aromatizar tomate\n\nEn la misma sartén, añadir el aceite restante si hace falta y cocinar el ajo 30–60 segundos sin quemarlo.\n\n### 3. Reducir salsa\n\nIncorporar el tomate y cocinar 12–18 minutos, removiendo, hasta que pierda el sabor crudo y adquiera cuerpo; salpimentar con moderación.\n\n### 4. Cocer pasta\n\nCocer la pasta en agua salada hasta un punto algo firme. Reservar una taza de agua de cocción.\n\n### 5. Integrar\n\nAñadir la pasta a la salsa, incorporar agua en pequeñas dosis y terminar 1–2 minutos. Agregar la berenjena y mezclar suavemente para no deshacerla.\n\n### 6. Servir\n\nApagar el fuego, añadir albahaca y terminar con ricotta salata opcional. Servir inmediatamente.\n\n## Puntos críticos\n\n- Cocinar suficientemente la berenjena evita una textura esponjosa o cruda.\n- La berenjena se dora mejor por tandas que en una sartén llena.\n- Añadir la albahaca al final preserva sus aromas.\n\n## Perfil esperado\n\nTomate concentrado y fresco, berenjena tierna con superficie dorada, pasta firme y aroma de albahaca.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Berenjena al horno | Asar a 220 °C hasta dorada y tierna, removiendo a mitad, con menos aceite |\n| Sin queso | Omitir la ricotta salata; adaptación vegetal |\n| Con tomate fresco | Utilizar tomate maduro y prolongar reducción si es acuoso |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Berenjena pálida y acuosa | Sartén saturada | Dorar por tandas |\n| Salsa aguada | Tomate poco reducido | Reducir antes de incorporar la pasta |\n| Albahaca apagada | Cocción prolongada | Añadir fuera del fuego |\n\n## Conservación\n\nConsumir preferiblemente recién preparada. Enfriar las sobras sin demoras y refrigerar en recipientes tapados y poco profundos. Recalentar completamente cuando corresponda; la salsa puede perder textura y requerir algo de líquido. No dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Relación entre formatos y salsas](../98_Tablas/07_Comparativas/relacion_pasta_salsa.md)\n\n## Principio de NovaCoquinaria\n\n> El sabor de la berenjena se construye antes de integrarla en el tomate.\n\n## Utilizado por\n\nReceta de referencia del módulo **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_alla_norma.html",
+  "id": "REC-0114",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rigatoni u otra pasta corta seca",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de rigatoni u otra pasta corta seca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de rigatoni u otra pasta corta seca",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "berenjenas medianas (aproximadamente 550 g), en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": true,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas medianas (aproximadamente 550 g), en dados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas medianas (aproximadamente 550 g), en dados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de tomate triturado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra, ajustables",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cucharadas de aceite de oliva virgen extra, ajustables",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "4 cucharadas de aceite de oliva virgen extra, ajustables",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "albahaca fresca",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "8",
+        "raw": "8–10 hojas de albahaca fresca",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "8–10 hojas de albahaca fresca",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta salata rallada, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de ricotta salata rallada, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de ricotta salata rallada, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de la pasta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción de la pasta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción de la pasta",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nCortar las berenjenas en dados uniformes y secar su superficie. Preparar sartén amplia y tomate. La berenjena absorbe aceite: añadirlo con moderación y trabajar por tandas; no confundir ricotta salata con ricotta fresca.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/pasta_alla_norma.md",
+  "source_sha256": "d97e2b76d72b3aa4785882e29357802b53161903d17b2730476191131617ecde",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Dorar berenjena\n\nCalentar 2 cucharadas de aceite en sartén y dorar la berenjena por tandas, añadiendo aceite solo si hace falta. Cocinar hasta que el interior esté tierno y la superficie dorada; reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar tomate\n\nEn la misma sartén, añadir el aceite restante si hace falta y cocinar el ajo 30–60 segundos sin quemarlo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Reducir salsa\n\nIncorporar el tomate y cocinar 12–18 minutos, removiendo, hasta que pierda el sabor crudo y adquiera cuerpo; salpimentar con moderación.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Cocer pasta\n\nCocer la pasta en agua salada hasta un punto algo firme. Reservar una taza de agua de cocción.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Integrar\n\nAñadir la pasta a la salsa, incorporar agua en pequeñas dosis y terminar 1–2 minutos. Agregar la berenjena y mezclar suavemente para no deshacerla.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 75,
+        "start_line": 72
+      },
+      "source_number": 6,
+      "text": "6. Servir\n\nApagar el fuego, añadir albahaca y terminar con ricotta salata opcional. Servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Pasta alla Norma con berenjena",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

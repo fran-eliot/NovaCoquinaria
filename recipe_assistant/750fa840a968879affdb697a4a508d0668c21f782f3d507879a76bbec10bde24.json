@@ -1,0 +1,295 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 87,
+      "start_line": 14
+    },
+    "text": "\n# Bacalao con tomate y pimiento\n\n## Descripción\n\nLomos de bacalao cocinados suavemente en salsa de tomate y pimiento. La salsa se reduce antes de incorporar el pescado para evitar una cocción excesiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Cocinado | 30–40 min |\n| Técnica | Sofrito, reducción y cocción en salsa |\n\n## Ingredientes\n\n- 600–700 g de bacalao fresco o desalado, listo para cocinar;\n- 400 g de tomate triturado;\n- 1 pimiento rojo (180 g);\n- 1 cebolla (150 g);\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- pimienta negra;\n- sal solo tras probar, especialmente si es bacalao desalado.\n\n**Alérgeno:** pescado.\n\n## Elaboración\n\n1. Si se utiliza bacalao en salazón, desalarlo previamente mediante un procedimiento adecuado en refrigeración, con cambios de agua según grosor; no usarlo sin comprobar su punto de sal. Si es congelado, descongelar en refrigeración.\n2. Lavar y cortar cebolla y pimiento. Secar bacalao y revisar espinas.\n3. Pochar cebolla y pimiento en aceite a fuego medio durante 10–12 minutos. Añadir ajo al final.\n4. Incorporar tomate y reducir destapado 15–20 minutos hasta concentrar la salsa.\n5. Colocar bacalao sobre la salsa y cocinar a hervor muy suave aproximadamente 6–12 minutos según grosor, evitando remover bruscamente.\n6. Comprobar cocción segura del centro (referencia conservadora: **63 °C**), probar la salsa y ajustar sal solo al final.\n\n## Puntos críticos\n\n- La sal del bacalao desalado puede variar mucho.\n- Cocinar la salsa antes de añadir pescado.\n- Evitar ebullición fuerte para preservar las lascas.\n- Revisar espinas antes de servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con aceitunas | Añadir al final y vigilar sal |\n| Con guindilla | Añadir poca cantidad al sofrito |\n| Con pimiento verde | Sustituir parte del rojo |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Salsa acuosa | Reducción insuficiente | Reducir antes de añadir bacalao |\n| Bacalao seco | Cocción prolongada | Añadir más tarde |\n| Demasiado salado | Desalado insuficiente | Corregir proceso previo |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar y recalentar completamente con cuidado de no deshacer el pescado.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa se cocina primero; el bacalao entra al final para conservar textura."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_con_tomate.html",
+  "id": "REC-0058",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao fresco o desalado, listo para cocinar;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "600",
+        "raw": "600–700 g de bacalao fresco o desalado, listo para cocinar;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "600–700 g de bacalao fresco o desalado, listo para cocinar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (180 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (180 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (150 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla (150 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla (150 g);",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo tras probar, especialmente si es bacalao desalado.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo tras probar, especialmente si es bacalao desalado.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo tras probar, especialmente si es bacalao desalado.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_con_tomate.md",
+  "source_sha256": "ebb58b1af250e536fb4ab36a3bc3773c66c3ba8c78bfcee5f22607002dd5ae77",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Si se utiliza bacalao en salazón, desalarlo previamente mediante un procedimiento adecuado en refrigeración, con cambios de agua según grosor; no usarlo sin comprobar su punto de sal. Si es congelado, descongelar en refrigeración."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Lavar y cortar cebolla y pimiento. Secar bacalao y revisar espinas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento en aceite a fuego medio durante 10–12 minutos. Añadir ajo al final."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar tomate y reducir destapado 15–20 minutos hasta concentrar la salsa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Colocar bacalao sobre la salsa y cocinar a hervor muy suave aproximadamente 6–12 minutos según grosor, evitando remover bruscamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar cocción segura del centro (referencia conservadora: **63 °C**), probar la salsa y ajustar sal solo al final."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bacalao con tomate y pimiento",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

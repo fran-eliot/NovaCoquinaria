@@ -1,0 +1,245 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Sopa dulce de almendras navideña\n\n## Origen y contexto\n\n**Región:** Madrid y las Castillas. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 30 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 ml de leche entera\n- 200 g de pasta dulce de almendras para sopa, comercial\n- 80 g de pan del día anterior\n- 1 rama de canela\n- piel de medio limón lavado\n- 20 g de almendras laminadas tostadas\n\n**Alérgenos:** Leche, almendras y trigo/gluten; revisar pasta comercial.\n\n## Elaboración\n\n1. Calentar leche con canela y piel de limón hasta hervor suave; apagar y dejar infusionar 5 minutos.\n2. Retirar aromáticos, cortar la pasta de almendra en dados y disolver en leche caliente removiendo a fuego bajo.\n3. Cocer suavemente 5 minutos sin dejar que se agarre; probar dulzor antes de añadir azúcar.\n4. Repartir pan en rebanadas finas en cuatro cuencos y cubrir con leche de almendras caliente; dejar que se empape unos minutos.\n5. Terminar con almendra tostada y servir templada.\n\n## Puntos críticos\n\n- Es una sopa dulce de Navidad, no el ajoblanco salado. La proporción se ajusta según concentración y azúcar de la pasta comercial.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Demasiado espesa | Exceso de pan o pasta | Añadir leche caliente |\n| Grumos | Pasta poco disuelta | Trocear y remover |\n\n## Conservación\n\nRefrigerar a 4 °C o menos sin demora y consumir en 24–48 h; recalentar suavemente hasta estar bien caliente.\n\n## Relaciones dentro del SGCC\n\n- [natillas caseras](../08_Postres/natillas_caseras.md)\n- [hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://bonviveur.com/es/recetas/sopa-de-almendras)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "30",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Madrid y las Castillas. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/sopa_dulce_de_almendras_navidena.html",
+  "id": "REC-583",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de leche entera",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pasta dulce de almendras para sopa, comercial",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de pasta dulce de almendras para sopa, comercial",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de pasta dulce de almendras para sopa, comercial",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pan del día anterior",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de pan del día anterior",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de pan del día anterior",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de medio limón lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de medio limón lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras laminadas tostadas",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de almendras laminadas tostadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de almendras laminadas tostadas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/sopa_dulce_de_almendras_navidena.md",
+  "source_sha256": "bf62ce24de92a4c898775709db94a5c3b4b8488bf244e530362864f4b077ae13",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Calentar leche con canela y piel de limón hasta hervor suave; apagar y dejar infusionar 5 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Retirar aromáticos, cortar la pasta de almendra en dados y disolver en leche caliente removiendo a fuego bajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Cocer suavemente 5 minutos sin dejar que se agarre; probar dulzor antes de añadir azúcar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Repartir pan en rebanadas finas en cuatro cuencos y cubrir con leche de almendras caliente; dejar que se empape unos minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Terminar con almendra tostada y servir templada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Sopa dulce de almendras navideña",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

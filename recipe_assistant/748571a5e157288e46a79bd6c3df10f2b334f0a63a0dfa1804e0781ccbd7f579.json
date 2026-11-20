@@ -1,0 +1,399 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 200,
+      "start_line": 25
+    },
+    "text": "\n# Arroz frito con gambas\n\n## Descripción\n\nEl arroz frito con gambas es una de las variantes más populares del arroz frito asiático. Destaca por combinar la textura firme del arroz frío con gambas jugosas, verduras ligeramente crujientes y el característico aroma del wok.\n\nEsta receta implementa la plantilla **Arroz frito base**, incorporando únicamente las particularidades propias del uso de gambas.\n\n---\n\n## Estado de la receta doméstica\n\nLa receta se desarrolló en el repertorio del proyecto con **300 g de arroz ya cocido y frío, 200 g de gambas y 2 huevos**. Estas cantidades son la **formulación documentada**, pero no hay una confirmación posterior de que se cocinara y valorara una tanda con ellas.\n\n### Puntos de reproducción y seguridad\n\n- Los **300 g de arroz** están expresados en **peso cocido**, no en crudo.\n- Enfriar rápidamente el arroz después de cocerlo y conservarlo refrigerado; no es necesario dejarlo toda la noche si se ha enfriado de forma segura.\n- Cocinar el huevo por completo y las gambas hasta quedar completamente cocinadas; retirarlas mientras se saltea el arroz evita que se resequen.\n- El tiempo de **aproximadamente un minuto por lado** es solo orientativo para gambas pequeñas: comprobar el punto según tamaño real.\n- Evitar dejar arroz cocido a temperatura ambiente; recalentar no corrige una conservación insegura anterior.\n\nPara una futura prueba anotar origen y peso del arroz ya cocido, tiempo de frío, tamaño de las gambas, salinidad y textura final del grano.\n\n# Ingredientes\n\n### Base\n\n- 300 g de arroz jazmín cocido y completamente frío\n- 200 g de gambas peladas\n- 2 huevos\n- ½ cebolla\n- ½ zanahoria\n- 1 diente de ajo\n- Un trozo pequeño de jengibre fresco\n- 2 cucharadas de aceite vegetal\n\n### Sazonado\n\n- 2 cucharadas de salsa de soja\n- 1 cucharadita de salsa de ostras (opcional)\n- 1 cucharadita de aceite de sésamo\n- Pimienta blanca\n\n### Decoración\n\n- Cebolleta fresca picada (opcional)\n- Semillas de sésamo (opcional)\n\n---\n\n# Preparación\n\nSeguir el procedimiento descrito en:\n\n- **PLA-0008 · Arroz frito base**\n\nAplicando las siguientes particularidades:\n\n1. Secar bien las gambas antes de cocinarlas.\n2. Saltearlas a fuego muy fuerte durante aproximadamente 1 minuto por cada lado.\n3. Retirarlas temporalmente para evitar una sobrecocción.\n4. Elaborar el arroz siguiendo la plantilla base.\n5. Incorporar nuevamente las gambas durante el último minuto de cocinado.\n6. Añadir el aceite de sésamo justo antes de servir.\n\n---\n\n# Resultado esperado\n\n- Granos completamente sueltos.\n- Gambas jugosas y ligeramente doradas.\n- Verduras todavía crujientes.\n- Aroma intenso a wok.\n- Color uniforme gracias a la soja y al huevo.\n\n---\n\n# Variantes\n\nPuede enriquecerse con:\n\n- guisantes;\n- maíz dulce;\n- brotes de soja;\n- setas;\n- kimchi;\n- salsa sriracha;\n- chile fresco.\n\n---\n\n# Maridaje\n\nCombina especialmente bien con:\n\n- sopa miso;\n- gyozas;\n- rollitos vietnamitas;\n- ensalada asiática de pepino.\n\n---\n\n# Conservación\n\n- Refrigerar hasta 48 horas.\n- Recalentar siempre a fuego fuerte.\n- No recomendable congelar una vez cocinado.\n\n---\n\n# Consejos\n\n- Utilizar arroz cocinado el día anterior.\n- No sobrecargar el wok.\n- Cocinar las gambas lo mínimo imprescindible.\n- Mantener todos los ingredientes preparados antes de comenzar el salteado.\n\n---\n\n# Errores frecuentes\n\n- Cocinar demasiado las gambas.\n- Utilizar arroz recién hecho.\n- Exceso de salsa de soja.\n- Añadir todos los ingredientes simultáneamente.\n- Cocinar a temperatura insuficiente.\n\n---\n\n# Relaciones SGCC\n\n## Implementa\n\n- PLA-0008 · Arroz frito base\n\n## Utiliza\n\n### Ingredientes\n\n- ING · Arroz jazmín\n- ING · Gambas\n- ING · Huevo\n- ING · Cebolla\n- ING · Ajo\n- ING · Jengibre\n- ING · Zanahoria\n\n### Condimentos\n\n- Salsa de soja\n- Salsa de ostras\n- Aceite de sésamo\n\n### Técnicas\n\n- Salteado al wok\n- Mise en place\n\n---\n\n# Referencias\n\n- [Plantilla: Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n- [Ingrediente: Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)\n- [Ingrediente: Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Ingrediente: Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md)\n\n---\n\n# Historial\n\n| Versión | Fecha | Cambios |\n|----------|------------|-------------------------------------------|\n| 1.0.0 | 2026-07-17 | Primera versión de la receta. |"
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 16,
+        "start_line": 16
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 17,
+        "start_line": 17
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_frito_gambas.html",
+  "id": "REC-0021",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Base",
+      "name": "arroz jazmín cocido y completamente frío",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de arroz jazmín cocido y completamente frío",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de arroz jazmín cocido y completamente frío",
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      }
+    },
+    {
+      "group": "Base",
+      "name": "gambas peladas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de gambas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de gambas peladas",
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      }
+    },
+    {
+      "group": "Base",
+      "name": "huevos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      }
+    },
+    {
+      "group": "Base",
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cebolla",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ cebolla",
+      "source_location": {
+        "end_line": 57,
+        "start_line": 57
+      }
+    },
+    {
+      "group": "Base",
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ zanahoria",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ zanahoria",
+      "source_location": {
+        "end_line": 58,
+        "start_line": 58
+      }
+    },
+    {
+      "group": "Base",
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 59,
+        "start_line": 59
+      }
+    },
+    {
+      "group": "Base",
+      "name": "Un trozo pequeño de jengibre fresco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Un trozo pequeño de jengibre fresco",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Un trozo pequeño de jengibre fresco",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      }
+    },
+    {
+      "group": "Base",
+      "name": "aceite vegetal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite vegetal",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite vegetal",
+      "source_location": {
+        "end_line": 61,
+        "start_line": 61
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja",
+      "source_location": {
+        "end_line": 65,
+        "start_line": 65
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "salsa de ostras (opcional)",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de ostras (opcional)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de ostras (opcional)",
+      "source_location": {
+        "end_line": 66,
+        "start_line": 66
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "aceite de sésamo",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "Pimienta blanca",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Pimienta blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Pimienta blanca",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      }
+    },
+    {
+      "group": "Decoración",
+      "name": "Cebolleta fresca picada (opcional)",
+      "optionality": "optional",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Cebolleta fresca picada (opcional)",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Cebolleta fresca picada (opcional)",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      }
+    },
+    {
+      "group": "Decoración",
+      "name": "Semillas de sésamo (opcional)",
+      "optionality": "optional",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Semillas de sésamo (opcional)",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Semillas de sésamo (opcional)",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_frito_gambas.md",
+  "source_sha256": "a62fece5b7a0bd4ca095fa029f2963b93a9d13b45eff5391d6b84d14ee0fcf44",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 85,
+        "start_line": 85
+      },
+      "source_number": 1,
+      "text": "Secar bien las gambas antes de cocinarlas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 86,
+        "start_line": 86
+      },
+      "source_number": 2,
+      "text": "Saltearlas a fuego muy fuerte durante aproximadamente 1 minuto por cada lado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 87,
+        "start_line": 87
+      },
+      "source_number": 3,
+      "text": "Retirarlas temporalmente para evitar una sobrecocción."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 88,
+        "start_line": 88
+      },
+      "source_number": 4,
+      "text": "Elaborar el arroz siguiendo la plantilla base."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 89,
+        "start_line": 89
+      },
+      "source_number": 5,
+      "text": "Incorporar nuevamente las gambas durante el último minuto de cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 90,
+        "start_line": 90
+      },
+      "source_number": 6,
+      "text": "Añadir el aceite de sésamo justo antes de servir."
+    }
+  ],
+  "techniques": [],
+  "title": "Arroz frito con gambas",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "frontmatter",
+    "source_location": {
+      "end_line": 18,
+      "start_line": 18
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Alboronía andaluza de berenjena y calabaza\n\n## Origen y contexto\n\n**Región:** Andalucía. Formulación doméstica de referencia que distingue los rasgos propios del plato; no se declara receta probada, versión única ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 55–65 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de berenjena en dados de 2 cm\n- 400 g de calabaza pelada en dados\n- 220 g de calabacín en dados\n- 200 g de cebolla picada\n- 250 g de tomate maduro rallado\n- 1 pimiento verde de 120 g\n- 2 dientes de ajo\n- 3 cucharadas de aceite de oliva virgen extra\n- ½ cucharadita de comino molido, opcional\n- sal y pimienta\n\n**Alérgenos:** Sin alérgenos principales añadidos.\n\n## Elaboración\n\n1. Lavar las verduras y cortar berenjena, calabaza y calabacín en dados de tamaño parecido; picar cebolla, pimiento y ajo.\n2. Pochar cebolla y pimiento en aceite durante 10 minutos; añadir ajo y cocinar brevemente sin quemarlo.\n3. Incorporar tomate rallado y reducir unos 10 minutos hasta obtener sofrito concentrado.\n4. Añadir berenjena y calabaza, mezclar y cocinar tapado a fuego suave unos 12–15 minutos, añadiendo dos o tres cucharadas de agua solo si fuese necesario.\n5. Incorporar calabacín y comino opcional, mezclar y continuar otros 10–15 minutos hasta que todas las verduras estén completamente tiernas sin quedar convertidas en puré.\n6. Destapar al final para evaporar jugos si sobra líquido, ajustar sal y pimienta y servir caliente o templada.\n\n## Puntos críticos\n\n- La alboronía incorpora tradicionalmente berenjena y calabaza en distintas proporciones; esta versión se diferencia del pisto por el protagonismo de ambas. Añadir el calabacín más tarde evita deshacerlo.\n- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste de próxima prueba |\n|---|---|---|\n| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |\n| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |\n| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pisto de verduras](./pisto_de_verduras.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes y cantidades realmente utilizados, tiempos, textura, resultado y valoración. No se sustituye ninguna versión previa sin evidencia comparativa."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/alboronia_andaluza_de_berenjena_y_calabaza.html",
+  "id": "REC-502",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjena en dados de 2 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de berenjena en dados de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de berenjena en dados de 2 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza pelada en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de calabaza pelada en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de calabaza pelada en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de calabacín en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de calabacín en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde de 120 g",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde de 120 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde de 120 g",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/alboronia_andaluza_de_berenjena_y_calabaza.md",
+  "source_sha256": "10793e7196ba22dba88797be7699b542b5d009e843cbf83e8bb543f584cb4912",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Lavar las verduras y cortar berenjena, calabaza y calabacín en dados de tamaño parecido; picar cebolla, pimiento y ajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite durante 10 minutos; añadir ajo y cocinar brevemente sin quemarlo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate rallado y reducir unos 10 minutos hasta obtener sofrito concentrado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir berenjena y calabaza, mezclar y cocinar tapado a fuego suave unos 12–15 minutos, añadiendo dos o tres cucharadas de agua solo si fuese necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Incorporar calabacín y comino opcional, mezclar y continuar otros 10–15 minutos hasta que todas las verduras estén completamente tiernas sin quedar convertidas en puré."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Destapar al final para evaporar jugos si sobra líquido, ajustar sal y pimienta y servir caliente o templada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Alboronía andaluza de berenjena y calabaza",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

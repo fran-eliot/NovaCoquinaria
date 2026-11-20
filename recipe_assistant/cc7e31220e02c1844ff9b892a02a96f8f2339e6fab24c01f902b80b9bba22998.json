@@ -1,0 +1,212 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Ayran de yogur y menta\n\n## Descripción\n\nPreparación de referencia basada en **dilución y batido en frío**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 vasos |\n| Técnica principal | Dilución y batido en frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de yogur natural sin azúcar, pasteurizado y refrigerado\n- 250 ml de agua potable muy fría\n- 1–2 g de sal fina, ajustables\n- 6 hojas de menta fresca lavada, opcionales\n- hielo para servir, opcional\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Mantener el yogur refrigerado hasta el momento de prepararlo.\n2. Batir el yogur con la mitad del agua fría hasta obtener una mezcla homogénea.\n3. Agregar el agua restante por tandas para ajustar la fluidez al gusto.\n4. Disolver una pequeña cantidad de sal, probar y corregir con prudencia.\n5. Añadir menta picada opcional justo antes de servir, o dejarla entera como aroma superficial.\n6. Servir inmediatamente en vasos fríos, con hielo opcional.\n\n## Puntos críticos\n\n- El ayran es una bebida salada: no endulzar ni añadir fruta si se busca conservar este perfil. El yogur se separa con el reposo y requiere una nueva mezcla antes de servir.\n- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.\n- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.\n\n## Diagnóstico\n\n| Observación | Causa probable | Ajuste para otra prueba |\n|---|---|---|\n| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |\n| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |\n| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |\n\n## Conservación\n\nPreparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.\n\n## Relaciones dentro del SGCC\n\n- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md): selección de la base láctea y control de textura.\n- [Lassi de mango y yogur](./lassi_de_mango_y_yogur.md)\n- [Agua de pepino, lima y menta](./agua_de_pepino_lima_y_menta.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar productos y cantidades efectivas, temperatura, tiempos, textura, ajustes y valoración. No se modifica ni presupone ningún resultado doméstico anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dilución y batido en frío**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/ayran_de_yogur_y_menta.html",
+  "id": "REC-388",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "yogur natural sin azúcar, pasteurizado y refrigerado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de yogur natural sin azúcar, pasteurizado y refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de yogur natural sin azúcar, pasteurizado y refrigerado",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable muy fría",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua potable muy fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua potable muy fría",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "sal fina, ajustables",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 g de sal fina, ajustables",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "1–2 g de sal fina, ajustables",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "menta fresca lavada, opcionales",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 hojas de menta fresca lavada, opcionales",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "6 hojas de menta fresca lavada, opcionales",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/ayran_de_yogur_y_menta.md",
+  "source_sha256": "fdea750911ae2cd758dafa8f0f092eb8cab7aca881e35303f5c908d7772db76d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Mantener el yogur refrigerado hasta el momento de prepararlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Batir el yogur con la mitad del agua fría hasta obtener una mezcla homogénea."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Agregar el agua restante por tandas para ajustar la fluidez al gusto."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Disolver una pequeña cantidad de sal, probar y corregir con prudencia."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Añadir menta picada opcional justo antes de servir, o dejarla entera como aroma superficial."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente en vasos fríos, con hielo opcional."
+    }
+  ],
+  "techniques": [],
+  "title": "Ayran de yogur y menta",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

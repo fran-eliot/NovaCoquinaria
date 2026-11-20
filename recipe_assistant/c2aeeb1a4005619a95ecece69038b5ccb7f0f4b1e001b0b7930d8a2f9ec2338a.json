@@ -1,0 +1,218 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 72,
+      "start_line": 16
+    },
+    "text": "\n# Mazapán toledano de almendra\n\n## Origen y contexto\n\n**Región:** Toledo, Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 20–24 piezas |\n| Tiempo orientativo | 40 min más reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de almendra molida fina\n- 250 g de azúcar glas\n- 35 g de clara de huevo pasteurizada\n- 1 yema para pintar\n\n**Alérgenos:** Almendra y huevo.\n\n## Elaboración\n\n1. Mezclar almendra y azúcar glas; añadir clara poco a poco hasta formar una pasta moldeable.\n2. Tapar y refrigerar 30 minutos. Dividir en porciones y formar figuritas pequeñas de grosor uniforme.\n3. Colocar sobre papel de horno y pincelar con yema batida.\n4. Hornear a 190 °C durante 8–12 minutos, vigilando el dorado y asegurando que las piezas estén completamente cocidas.\n5. Dejar enfriar en rejilla antes de manipular.\n\n## Puntos críticos\n\n- Formulación doméstica inspirada en el mazapán de Toledo, no certificada bajo IGP. No consumir masa cruda.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Masa quebradiza | Humedad insuficiente | Añadir clara en pequeñas cantidades |\n| Piezas extendidas | Exceso de clara | Ajustar almendra y enfriar |\n\n## Conservación\n\nGuardar fríos en recipiente cerrado, refrigerados a 4 °C o menos; consumir en 3–4 días.\n\n## Relaciones dentro del SGCC\n\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md): función estructural de la almendra molida y selección del fruto.\n- [panellets catalanes de pinones](../08_Postres/panellets_catalanes_de_pinones.md)\n- [marquesas de almendra de navidad](../08_Postres/marquesas_de_almendra_de_navidad.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40 min más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** Toledo, Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/mazapan_toledano_de_almendra.html",
+  "id": "REC-588",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendra molida fina",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almendra molida fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almendra molida fina",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de azúcar glas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de azúcar glas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "clara de huevo pasteurizada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de clara de huevo pasteurizada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de clara de huevo pasteurizada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "yema para pintar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 yema para pintar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 yema para pintar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/mazapan_toledano_de_almendra.md",
+  "source_sha256": "bde5fa18f79ac501fa3ebf4020b283dd77816295f592262b7a578e566782ed3b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Mezclar almendra y azúcar glas; añadir clara poco a poco hasta formar una pasta moldeable."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Tapar y refrigerar 30 minutos. Dividir en porciones y formar figuritas pequeñas de grosor uniforme."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Colocar sobre papel de horno y pincelar con yema batida."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Hornear a 190 °C durante 8–12 minutos, vigilando el dorado y asegurando que las piezas estén completamente cocidas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Dejar enfriar en rejilla antes de manipular."
+    }
+  ],
+  "techniques": [],
+  "title": "Mazapán toledano de almendra",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "20–24 piezas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": null
+  }
+}

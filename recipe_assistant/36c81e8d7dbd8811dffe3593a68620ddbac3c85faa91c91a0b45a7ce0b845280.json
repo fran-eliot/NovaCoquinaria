@@ -1,0 +1,198 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 59,
+      "start_line": 13
+    },
+    "text": "\n# Café frío con hielo\n\n## Descripción\nCafé preparado algo más concentrado para compensar la dilución al servir con hielo.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Enfriado | Según método |\n\n## Ingredientes\n- 250 ml de café preparado ligeramente concentrado;\n- 150 g de hielo para servir;\n- 100 ml de leche fría, opcional;\n- azúcar o almíbar, opcional.\n\n## Elaboración\n1. Preparar café con método habitual y concentración ligeramente superior a la de consumo caliente.\n2. Enfriarlo rápidamente en recipiente limpio y refrigerar hasta que esté frío; no dejarlo horas a temperatura ambiente.\n3. Repartir hielo en dos vasos.\n4. Verter café frío y añadir leche opcional.\n5. Probar y ajustar dulzor, teniendo en cuenta la dilución progresiva.\n\n## Puntos críticos\n- El café caliente vertido sobre hielo se diluye rápidamente; enfriarlo antes mejora el control.\n- El azúcar granulado se disuelve peor en frío: usar almíbar si se desea.\n- La cafeína permanece en la bebida fría.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Aguado | Exceso de hielo derretido | Enfriar previamente |\n| Amargo | Extracción excesiva | Revisar método |\n| Azúcar sin disolver | Añadido en frío | Usar almíbar |\n\n## Conservación\nMantener refrigerado; si se añade leche, consumir pronto y evitar exposición prolongada fuera de frío.\n\n## Relaciones\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café con leche](./cafe_con_leche.md)\n\n## Principio de NovaCoquinaria\n> Enfriar antes de añadir hielo permite controlar mejor la dilución."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/cafe_frio.html",
+  "id": "REC-0094",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "café preparado ligeramente concentrado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de café preparado ligeramente concentrado;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de café preparado ligeramente concentrado;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de hielo para servir;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de hielo para servir;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "leche fría, opcional;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de leche fría, opcional;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de leche fría, opcional;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o almíbar, opcional.",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar o almíbar, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar o almíbar, opcional.",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/cafe_frio.md",
+  "source_sha256": "2cdb8e0ef3232234944430521b99df74624958095d1e78ed641a9ce33a95c212",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      },
+      "source_number": 1,
+      "text": "Preparar café con método habitual y concentración ligeramente superior a la de consumo caliente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      },
+      "source_number": 2,
+      "text": "Enfriarlo rápidamente en recipiente limpio y refrigerar hasta que esté frío; no dejarlo horas a temperatura ambiente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "source_number": 3,
+      "text": "Repartir hielo en dos vasos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 4,
+      "text": "Verter café frío y añadir leche opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 5,
+      "text": "Probar y ajustar dulzor, teniendo en cuenta la dilución progresiva."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Café frío con hielo",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 121,
+      "start_line": 15
+    },
+    "text": "\n# Ensalada de lentejas con hortalizas\n\n## Descripción\n\nEnsalada de lentejas cocidas con hortalizas crujientes y vinagreta. El objetivo es conservar granos tiernos pero enteros, con contraste de textura y una acidez equilibrada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos con lentejas cocidas |\n| Cocinado | No requiere, si las lentejas están cocidas |\n| Dificultad | Fácil |\n| Técnica principal | Escurrido, corte y aliño |\n\n## Ingredientes\n\n- 600 g de lentejas cocidas, escurridas;\n- 1 pimiento rojo pequeño, en dados;\n- 1 pepino pequeño, en dados;\n- 1/2 cebolla morada, finamente picada;\n- 150 g de tomate firme, en dados;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 cucharada de vinagre de vino o zumo de limón;\n- 1 cucharadita de mostaza, opcional;\n- sal y pimienta negra;\n- perejil fresco picado, opcional.\n\n**Alérgenos:** la mostaza es un alérgeno de declaración obligatoria. Revisar conservas y condimentos comerciales.\n\n## Mise en place\n\nSi las lentejas se han cocido en casa, detener su cocción cuando estén tiernas pero aún enteras, escurrirlas y enfriarlas rápidamente en recipientes poco profundos; mantenerlas refrigeradas hasta preparar la ensalada. Si son de conserva, escurrir y enjuagar según el nivel de sal deseado. Lavar y cortar las hortalizas con utensilios limpios.\n\n## Elaboración\n\n### 1. Preparar las lentejas\n\nEscurrir muy bien las lentejas cocidas y frías para evitar diluir la vinagreta. Si conservan agua superficial, dejarlas unos minutos en el colador y moverlas suavemente, sin aplastarlas. Colocarlas en un bol amplio.\n\n### 2. Cortar las hortalizas\n\nCortar pimiento, pepino, cebolla y tomate en dados pequeños y similares. Retirar parte de las semillas del tomate si aporta demasiada agua.\n\n### 3. Preparar la vinagreta\n\nBatir primero el vinagre o limón con la mostaza opcional, sal y pimienta. Incorporar el aceite poco a poco mientras se bate para obtener una vinagreta que cubra las lentejas de forma uniforme; volver a batir antes de usar si se separa.\n\n### 4. Mezclar\n\nAñadir las hortalizas a las lentejas y mezclar con suavidad para mantener los granos enteros. Incorporar aproximadamente dos tercios de la vinagreta, remover de abajo arriba y probar; añadir el resto solo si hace falta para no enmascarar los sabores. Si el tomate libera mucho líquido, escurrir el exceso antes de terminar el aliño.\n\n### 5. Servir\n\nTerminar con perejil si se utiliza. Servir fresca, sin dejarla fuera de refrigeración durante periodos prolongados.\n\n## Puntos críticos\n\n- Las lentejas deben estar tiernas pero mantener la forma.\n- Escurrir bien evita una ensalada aguada.\n- Cortar hortalizas de tamaño uniforme mejora la distribución.\n- Ajustar la sal después de considerar la de las conservas.\n- La cebolla morada puede suavizarse con un breve reposo en agua fría, bien escurrida.\n\n## Perfil esperado\n\nLentejas enteras, hortalizas crujientes y vinagreta ligera, con contraste entre notas terrosas y acidez.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con zanahoria | Añadir rallada o en dados pequeños |\n| Con hierbas | Usar cilantro, menta o perejil |\n| Con queso fresco | Añadir al final; incorpora alérgeno leche |\n| Con garbanzos | Sustituir parte de las lentejas por garbanzos cocidos |\n| Con comino | Añadir una pizca a la vinagreta |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Lentejas demasiado cocidas | Se deshacen al mezclar | Cocer al punto de ensalada |\n| Lentejas húmedas | Aliño diluido | Escurrir bien |\n| Exceso de vinagre | Acidez dominante | Añadir gradualmente |\n| Hortalizas cortadas grandes | Mezcla irregular | Cortar en dados pequeños |\n\n## Conservación\n\nRefrigerar en recipiente cerrado y consumir en un plazo corto. Si se prepara con antelación, conservar las lentejas y las hortalizas muy acuosas por separado y reservar parte de la vinagreta para mezclar poco antes de servir, mejorando la textura. Mantener la cadena de frío; no confiar en el olor o el aspecto para determinar si una ensalada mal conservada es segura.\n\n## Relaciones dentro del SGCC\n\n- [Lentejas secas](../11_Despensa/02_Legumbres/lentejas.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una ensalada de legumbres, el escurrido y el punto de cocción importan tanto como el aliño.\n\n## Utilizado por\n\nEnsaladas completas, guarniciones y preparaciones frías."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos con lentejas cocidas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "No requiere, si las lentejas están cocidas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_de_lentejas.html",
+  "id": "REC-0037",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lentejas cocidas, escurridas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de lentejas cocidas, escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de lentejas cocidas, escurridas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo pequeño, en dados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo pequeño, en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo pequeño, en dados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino pequeño, en dados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pepino pequeño, en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pepino pequeño, en dados;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada, finamente picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla morada, finamente picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla morada, finamente picada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate firme, en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate firme, en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate firme, en dados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino o zumo de limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino o zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino o zumo de limón;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza, opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza, opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco picado, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco picado, opcional.",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSi las lentejas se han cocido en casa, detener su cocción cuando estén tiernas pero aún enteras, escurrirlas y enfriarlas rápidamente en recipientes poco profundos; mantenerlas refrigeradas hasta preparar la ensalada. Si son de conserva, escurrir y enjuagar según el nivel de sal deseado. Lavar y cortar las hortalizas con utensilios limpios.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/ensalada_de_lentejas.md",
+  "source_sha256": "474ad0b84f5c8610be1e668ecc48841433243cdff04853fc0c5c2798f1543b79",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar las lentejas\n\nEscurrir muy bien las lentejas cocidas y frías para evitar diluir la vinagreta. Si conservan agua superficial, dejarlas unos minutos en el colador y moverlas suavemente, sin aplastarlas. Colocarlas en un bol amplio.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Cortar las hortalizas\n\nCortar pimiento, pepino, cebolla y tomate en dados pequeños y similares. Retirar parte de las semillas del tomate si aporta demasiada agua.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Preparar la vinagreta\n\nBatir primero el vinagre o limón con la mostaza opcional, sal y pimienta. Incorporar el aceite poco a poco mientras se bate para obtener una vinagreta que cubra las lentejas de forma uniforme; volver a batir antes de usar si se separa.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Mezclar\n\nAñadir las hortalizas a las lentejas y mezclar con suavidad para mantener los granos enteros. Incorporar aproximadamente dos tercios de la vinagreta, remover de abajo arriba y probar; añadir el resto solo si hace falta para no enmascarar los sabores. Si el tomate libera mucho líquido, escurrir el exceso antes de terminar el aliño.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nTerminar con perejil si se utiliza. Servir fresca, sin dejarla fuera de refrigeración durante periodos prolongados.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Ensalada de lentejas con hortalizas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

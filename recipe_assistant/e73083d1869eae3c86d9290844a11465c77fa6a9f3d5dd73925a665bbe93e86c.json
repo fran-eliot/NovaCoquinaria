@@ -1,0 +1,352 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 13
+    },
+    "text": "\n# Estofado de cerdo con setas\n\n## Descripción\n\nEstofado de paleta de cerdo con champiñones y base aromática de cebolla y zanahoria, cocinado a hervor suave hasta quedar tierno.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 min |\n| Cocción | 90–140 min, según corte |\n| Técnica | Dorado y estofado |\n\n## Ingredientes\n\n- 800 g de paleta de cerdo en dados;\n- 300 g de champiñones;\n- 1 cebolla grande (180 g);\n- 1 zanahoria (120 g);\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- 400–500 ml de caldo o agua;\n- 1 hoja de laurel;\n- 1 cucharadita de tomillo;\n- sal y pimienta.\n\n## Elaboración\n\n1. Preparar verduras y champiñones en utensilios limpios. Cortar carne en dados uniformes en zona separada.\n2. Dorar la carne por tandas en cazuela con aceite. Reservar en recipiente para carne parcialmente cocinada.\n3. Pochar cebolla y zanahoria 8–10 minutos; añadir ajo y tomillo brevemente.\n4. Devolver carne y jugos, añadir laurel y caldo hasta cubrir parcialmente.\n5. Cocinar a hervor suave 75–120 minutos, vigilando líquido, hasta que la carne se aproxime a la ternura deseada.\n6. Saltear champiñones aparte para evaporar humedad y dorar. Incorporarlos durante los últimos 15–20 minutos del guiso.\n7. Comprobar que la carne está completamente cocinada y tierna; ajustar sal y reducir salsa si hace falta.\n\n## Puntos críticos\n\n- Utilizar paleta u otro corte apropiado para estofado, no lomo magro.\n- No hervir violentamente ni dejar secar la cazuela.\n- Cocinar las setas por separado ayuda a conservar su sabor.\n- Mantener higiene entre carne cruda y alimentos cocinados.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomate | Añadir 150 g de tomate triturado tras el sofrito |\n| Con vino blanco | Reducir 100 ml antes de incorporar caldo |\n| Con patata | Añadir al final según grosor |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Carne dura | Tiempo insuficiente para el corte | Prolongar hervor suave |\n| Salsa aguada | Exceso de líquido | Reducir destapada |\n| Setas blandas | Cocción prolongada | Añadir más tarde |\n\n## Conservación\n\nEnfriar rápidamente en recipientes poco profundos, refrigerar y recalentar completamente. Congelar porciones si se desea.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Plantilla de estofado](../12_Plantillas/04_Cocciones/estofado_de_carne.md)\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Champiñón](../11_Despensa/07_Setas/champinon.md)\n\n## Principio de NovaCoquinaria\n\n> La paleta necesita tiempo y humedad; las setas se añaden más tarde para conservar su identidad."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "90–140 min, según corte",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/estofado_de_cerdo_con_setas.html",
+  "id": "REC-0056",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "paleta de cerdo en dados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de paleta de cerdo en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de paleta de cerdo en dados;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de champiñones;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de champiñones;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria (120 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria (120 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria (120 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo o agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "400",
+        "raw": "400–500 ml de caldo o agua;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "400–500 ml de caldo o agua;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/estofado_de_cerdo_con_setas.md",
+  "source_sha256": "d74673cdf88fcb2688e9956a052a57abe0525b2d68d0b61c8a614d5f3eae389c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Preparar verduras y champiñones en utensilios limpios. Cortar carne en dados uniformes en zona separada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Dorar la carne por tandas en cazuela con aceite. Reservar en recipiente para carne parcialmente cocinada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y zanahoria 8–10 minutos; añadir ajo y tomillo brevemente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Devolver carne y jugos, añadir laurel y caldo hasta cubrir parcialmente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cocinar a hervor suave 75–120 minutos, vigilando líquido, hasta que la carne se aproxime a la ternura deseada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Saltear champiñones aparte para evaporar humedad y dorar. Incorporarlos durante los últimos 15–20 minutos del guiso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Comprobar que la carne está completamente cocinada y tierna; ajustar sal y reducir salsa si hace falta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Estofado de cerdo con setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

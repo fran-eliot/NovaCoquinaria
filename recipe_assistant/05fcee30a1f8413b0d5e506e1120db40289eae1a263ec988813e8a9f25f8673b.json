@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Arroz al horno con garbanzos y patata\n\n## Descripción\n\nArroz al horno de inspiración valenciana con garbanzos ya cocidos, patata y tomate. La versión vegetal se construye con sofrito y caldo caliente; no pretende reproducir todas las variantes tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 25–35 minutos de horno |\n| Dificultad | Fácil–media |\n| Técnica principal | Montaje y cocción en horno |\n\n## Ingredientes\n\n- 320 g de arroz redondo\n- 400 g de garbanzos cocidos y escurridos\n- 2 patatas medianas en rodajas de 1 cm\n- 1 tomate mediano en rodajas\n- 1 cabeza pequeña de ajo cortada horizontalmente\n- 160 g de tomate triturado\n- 2 cucharadas de aceite de oliva virgen extra\n- 750–900 ml de caldo vegetal caliente, según arroz y fuente\n- 1/2 cucharadita de pimentón dulce\n- sal y pimienta negra\n\n**Alérgenos:** Revisar caldo comercial.\n\n## Mise en place\n\nPrecalentar horno a 200 °C, calor arriba y abajo. Elegir fuente de barro o metal apta para horno, de profundidad moderada. Utilizar garbanzos completamente cocidos.\n\n## Elaboración\n\n### 1. Preparar patatas\n\nDorar ligeramente las rodajas de patata en sartén con parte del aceite, 3–4 minutos por cara; reservar.\n\n### 2. Hacer sofrito\n\nCalentar aceite restante, añadir tomate triturado y reducir 5 minutos. Incorporar pimentón fuera del fuego directo.\n\n### 3. Montar\n\nRepartir arroz, garbanzos y sofrito en la fuente. Añadir caldo muy caliente y distribuir por encima patata, rodajas de tomate y cabeza de ajo.\n\n### 4. Hornear\n\nHornear 20–30 minutos sin remover, según la variedad de arroz, la fuente y el horno, hasta que el grano esté tierno y el líquido absorbido. Si se seca demasiado pronto, añadir un poco de caldo caliente.\n\n### 5. Reposar\n\nRetirar la fuente con protección térmica, reposar 5 minutos y servir comprobando la ternura del arroz y la patata.\n\n## Puntos críticos\n\n- Los garbanzos deben estar completamente cocidos antes del horneado.\n- La relación caldo/arroz varía con la superficie de la fuente y la potencia del horno.\n- La fuente de barro conserva calor durante mucho tiempo; manipular con protección y colocar sobre superficie resistente.\n\n## Perfil esperado\n\nArroz de grano definido con superficie ligeramente tostada, garbanzos enteros y patata tierna.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con verduras asadas | Añadir berenjena asada escurrida y ajustar líquido |\n| Con azafrán | Infusionar hebras en caldo caliente |\n| Con carne | Añadir carne previamente cocinada de forma segura y adaptar tiempos de horno |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Arroz duro | Caldo insuficiente o horno fuerte | Añadir caldo caliente y continuar |\n| Arroz pastoso | Líquido excesivo | Ajustar a fuente y variedad |\n| Patata firme | Rodajas gruesas o precocción corta | Cortar uniforme y dorar antes |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Para guardar sobrantes de arroz cocido, enfriar rápidamente en recipientes poco profundos y refrigerar sin demoras; no dejarlo durante horas a temperatura ambiente. Recalentar completamente y evitar ciclos repetidos de enfriado y recalentamiento. El arroz mantenido de forma insegura puede contener toxinas que el recalentado no elimina.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El arroz al horno se decide al montar la fuente: humedad, distribución y recipiente gobiernan la cocción.\n\n## Utilizado por\n\nPreparación de referencia del dominio Arroces: montaje y cocción en horno."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–35 minutos de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_al_horno_con_garbanzos_y_patata.html",
+  "id": "REC-0159",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de garbanzos cocidos y escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de garbanzos cocidos y escurridos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas medianas en rodajas de 1 cm",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 patatas medianas en rodajas de 1 cm",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 patatas medianas en rodajas de 1 cm",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate mediano en rodajas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tomate mediano en rodajas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tomate mediano en rodajas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cabeza pequeña de ajo cortada horizontalmente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cabeza pequeña de ajo cortada horizontalmente",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cabeza pequeña de ajo cortada horizontalmente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de tomate triturado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal caliente, según arroz y fuente",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "750",
+        "raw": "750–900 ml de caldo vegetal caliente, según arroz y fuente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "750–900 ml de caldo vegetal caliente, según arroz y fuente",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar horno a 200 °C, calor arriba y abajo. Elegir fuente de barro o metal apta para horno, de profundidad moderada. Utilizar garbanzos completamente cocidos.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_al_horno_con_garbanzos_y_patata.md",
+  "source_sha256": "7c70a9e4349189b99e9ee0202c176d896965e0f38c8044c0d86cf239dec18a1e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar patatas\n\nDorar ligeramente las rodajas de patata en sartén con parte del aceite, 3–4 minutos por cara; reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Hacer sofrito\n\nCalentar aceite restante, añadir tomate triturado y reducir 5 minutos. Incorporar pimentón fuera del fuego directo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Montar\n\nRepartir arroz, garbanzos y sofrito en la fuente. Añadir caldo muy caliente y distribuir por encima patata, rodajas de tomate y cabeza de ajo.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Hornear\n\nHornear 20–30 minutos sin remover, según la variedad de arroz, la fuente y el horno, hasta que el grano esté tierno y el líquido absorbido. Si se seca demasiado pronto, añadir un poco de caldo caliente.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Reposar\n\nRetirar la fuente con protección térmica, reposar 5 minutos y servir comprobando la ternura del arroz y la patata.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Arroz al horno con garbanzos y patata",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

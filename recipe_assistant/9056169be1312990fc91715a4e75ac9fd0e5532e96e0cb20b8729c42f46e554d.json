@@ -1,0 +1,372 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Berenjenas rellenas de garbanzos y tomate\n\n## Descripción\n\nMitades de berenjena asadas y rellenadas con su propia pulpa, garbanzos cocidos y tomate reducido. El relleno mantiene el grano reconocible y evita una capa acuosa bajo la superficie dorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 mitades, 2–4 raciones |\n| Preparación | 20 minutos |\n| Cocinado | 40–55 minutos |\n| Dificultad | Media |\n| Técnica principal | Asado de mitades, reducción y relleno |\n\n## Ingredientes\n\n- 2 berenjenas medianas (700–800 g en total)\n- 300 g de garbanzos ya cocidos, escurridos\n- 220 g de tomate triturado\n- 1 cebolla pequeña (100 g), picada\n- 2 dientes de ajo, picados\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 cucharadita rasa de comino molido\n- 1/2 cucharadita de pimentón dulce\n- sal y pimienta negra\n- 25 g de pan rallado, opcional para acabado\n- perejil picado y unas gotas de limón, opcionales\n\n**Alérgenos:** Gluten si se incorpora pan rallado de trigo. Revisar conservas y condimentos.\n\n## Mise en place\n\nPrecalentar horno a 200 °C. Lavar las berenjenas, cortarlas longitudinalmente y marcar la pulpa en rombos sin perforar la piel. Escurrir y secar los garbanzos cocidos; no utilizar garbanzos secos remojados sin cocer.\n\n## Elaboración\n\n### 1. Asar las mitades\n\nPincelar superficies con 1 cucharada de aceite, sazonar y hornear con el corte hacia arriba 25–35 minutos hasta que la pulpa esté tierna.\n\n### 2. Vaciar sin romper\n\nDejar templar lo justo para manipular. Retirar la mayor parte de la pulpa con cuchara, manteniendo un borde de unos 8–10 mm para conservar la forma. Picar la pulpa.\n\n### 3. Preparar el sofrito\n\nPochar cebolla con el aceite restante 6–8 minutos, añadir ajo y especias durante 30 segundos a calor moderado.\n\n### 4. Concentrar el relleno\n\nAñadir tomate y pulpa de berenjena. Reducir 8–12 minutos, removiendo, hasta que no quede líquido libre. Incorporar garbanzos cocidos y calentar el conjunto.\n\n### 5. Rellenar y terminar\n\nRellenar las pieles, añadir pan rallado opcional y hornear 8–12 minutos más hasta que todo esté caliente y la superficie dorada. Servir con perejil y limón.\n\n## Puntos críticos\n\n- El tomate debe reducirse antes de rellenar; si permanece acuoso reblandece el fondo.\n- La piel de berenjena debe quedar íntegra para retener el relleno.\n- Los garbanzos están completamente cocidos antes de la receta.\n- El gratinado superficial no sustituye a calentar el relleno por completo.\n\n## Perfil esperado\n\nBerenjena tierna pero estable, relleno de garbanzos reconocibles y tomate concentrado, con acabado ligeramente crujiente opcional.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con ricotta | Incorporar 80 g al final; añade leche y textura cremosa. |\n| Con espinacas | Añadir 100 g de hojas y evaporar su agua antes de rellenar. |\n| Sin gluten | Omitir pan rallado o elegir uno certificado apto. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Mitades se rompen | Vaciado excesivo o asado largo | Mantener borde de pulpa y manipular templadas |\n| Relleno aguado | Tomate sin reducir | Evaporar el líquido antes de montar |\n| Garbanzos duros | Uso de legumbre no cocida | Partir de garbanzo cocido completamente |\n\n## Conservación\n\nRefrigerar las sobras tras enfriarlas rápidamente en recipientes poco profundos. Recalentar completamente y consumir en plazo corto. Pueden congelarse, con pérdida de firmeza de la berenjena tras descongelar.\n\n## Relaciones dentro del SGCC\n\n- [Berenjena](../11_Despensa/06_Verduras/berenjena.md)\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n\n## Principio de NovaCoquinaria\n\n> Un relleno vegetal necesita reducir su agua antes de volver al horno para no perder estructura.\n\n## Utilizado por\n\nReferencia para adaptar preparaciones de verduras y legumbres a distintas técnicas de horno y sartén."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "55",
+      "min": "40",
+      "phase": "cooking",
+      "raw": "40–55 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/berenjenas_rellenas_de_garbanzos_y_tomate.html",
+  "id": "REC-0167",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas medianas (700–800 g en total)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas medianas (700–800 g en total)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas medianas (700–800 g en total)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "garbanzos ya cocidos, escurridos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de garbanzos ya cocidos, escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de garbanzos ya cocidos, escurridos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de tomate triturado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña (100 g), picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña (100 g), picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña (100 g), picada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "rasa de comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita rasa de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita rasa de comino molido",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado, opcional para acabado",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de pan rallado, opcional para acabado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de pan rallado, opcional para acabado",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado y unas gotas de limón, opcionales",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado y unas gotas de limón, opcionales",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "perejil picado y unas gotas de limón, opcionales",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar horno a 200 °C. Lavar las berenjenas, cortarlas longitudinalmente y marcar la pulpa en rombos sin perforar la piel. Escurrir y secar los garbanzos cocidos; no utilizar garbanzos secos remojados sin cocer.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/berenjenas_rellenas_de_garbanzos_y_tomate.md",
+  "source_sha256": "c0e2f479504d9d768292afee0a0e52436321c751cddcd9b8127b9175bd18eb6a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Asar las mitades\n\nPincelar superficies con 1 cucharada de aceite, sazonar y hornear con el corte hacia arriba 25–35 minutos hasta que la pulpa esté tierna.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Vaciar sin romper\n\nDejar templar lo justo para manipular. Retirar la mayor parte de la pulpa con cuchara, manteniendo un borde de unos 8–10 mm para conservar la forma. Picar la pulpa.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Preparar el sofrito\n\nPochar cebolla con el aceite restante 6–8 minutos, añadir ajo y especias durante 30 segundos a calor moderado.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Concentrar el relleno\n\nAñadir tomate y pulpa de berenjena. Reducir 8–12 minutos, removiendo, hasta que no quede líquido libre. Incorporar garbanzos cocidos y calentar el conjunto.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Rellenar y terminar\n\nRellenar las pieles, añadir pan rallado opcional y hornear 8–12 minutos más hasta que todo esté caliente y la superficie dorada. Servir con perejil y limón.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Berenjenas rellenas de garbanzos y tomate",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 mitades, 2–4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

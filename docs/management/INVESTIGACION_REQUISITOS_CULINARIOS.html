@@ -1,0 +1,2584 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de Gestión del Conocimiento Culinario">
+      
+      
+        <meta name="author" content="Fran Ramírez">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Culinary Requirements Model - NovaCoquinaria</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#culinary-requirements-model" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../index.html" title="NovaCoquinaria" class="md-header__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NovaCoquinaria
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Culinary Requirements Model
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="NovaCoquinaria" class="md-nav__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    NovaCoquinaria
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MANIFESTO.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifiesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CHANGELOG.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../QUALITY.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arquitectura
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VISION.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ARQUITECTURA.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ROADMAP.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/01_Fundamentos/mise_en_place.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mise en place
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/saltear.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Saltear
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/sofreir.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sofreír
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Bases/03_Tecnicas/wok.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wok
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tablas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tablas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/01_Cocciones/tiempos_coccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiempos de cocción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/02_Hornos/temperaturas_horno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Temperaturas de horno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/03_Conversiones/conversiones_unidades.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conversiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/04_Conservacion/conservacion_congelacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conservación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/05_Seguridad/seguridad_alimentaria.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seguridad alimentaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sustituciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroces
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arroces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_chaufa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz Chaufa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_higadillos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz con higadillos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Arroces/arroz_caldoso_alcachofas_marisco.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz caldoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verduras
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verduras
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/brocoli.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brócoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/champi%C3%B1ones_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/champi%C3%B1ones_sichuan.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones Sichuan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Verduras/habas_jamon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Habas con jamón
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carnes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Carnes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/lomo_asiatico.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lomo asiático
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/ternera_bambu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con bambú
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/ternera_salsa_ostras.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con salsa de ostras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/hamburguesa_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/hamburguesa_especiada.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa especiada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Carnes/medallones_solomillo_asiaticos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medallones asiáticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pescados y mariscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pescados y mariscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/caballa_japonesa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caballa japonesa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/gambas_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gambas al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Pescados_y_Mariscos/tintorera_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tintorera asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crm-d01-proposito-y-alcance-de-investigacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRM-D01 — Propósito y alcance de investigación
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CRM-D01 — Propósito y alcance de investigación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#punto-de-partida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Punto de partida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preguntas-y-fronteras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preguntas y fronteras
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plan-de-investigacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plan de investigación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios de evaluación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Límites
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crm-d02-inventario-de-senales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRM-D02 — Inventario de señales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crm-d03-contraste-documental-dirigido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRM-D03 — Contraste documental dirigido
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CRM-D03 — Contraste documental dirigido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evidencia-de-crm-d02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidencia de CRM-D02
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraste-con-fuentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraste con fuentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implicaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicaciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crm-d04a-modelo-logico-candidato" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRM-D04A — Modelo lógico candidato
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CRM-D04A — Modelo lógico candidato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#corte-y-opciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corte y opciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="culinary-requirements-model">Culinary Requirements Model<a class="headerlink" href="#culinary-requirements-model" title="Permanent link">&para;</a></h1>
+<h2 id="crm-d01-proposito-y-alcance-de-investigacion">CRM-D01 — Propósito y alcance de investigación<a class="headerlink" href="#crm-d01-proposito-y-alcance-de-investigacion" title="Permanent link">&para;</a></h2>
+<h3 id="punto-de-partida">Punto de partida<a class="headerlink" href="#punto-de-partida" title="Permanent link">&para;</a></h3>
+<p>Tras la integración de #256, el corte de referencia es <code>d54e56e135020257ac58fd2f9564fa7e44d720eb</code>. Los tres workflows de main finalizaron correctamente. La <a href="INVESTIGACION_COMPATIBILIDAD_CULINARIA.html">investigación de compatibilidad</a> mostró viabilidad técnica acotada, pero utilidad operativa insuficiente para justificar una entrega productiva: 590 recetas indeterminadas sin confirmaciones manuales. Se adopta la alternativa B como dirección de investigación, sin aprobar una entrega de CCE.</p>
+<h3 id="problema">Problema<a class="headerlink" href="#problema" title="Permanent link">&para;</a></h3>
+<p>Una lista de ingredientes no siempre representa una conjunción de obligaciones. Puede contener alternativas, grupos de acompañamiento, elementos condicionales, cantidades netas o presentaciones específicas. La estructura editorial puede aportar contexto que no aparece en cada línea aislada. Una identidad conceptual tampoco acredita equivalencia entre formatos.</p>
+<p>El ejemplo del curry verde de pollo (REC-0023) documentado en CCE-D05 muestra alternativas de arroz en líneas separadas y expresiones condicionales clasificadas como required. No se conoce la prevalencia de esos problemas en el corpus.</p>
+<h3 id="preguntas-y-fronteras">Preguntas y fronteras<a class="headerlink" href="#preguntas-y-fronteras" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Pregunta de investigación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CRM-Q01</td>
+<td>¿Qué estructuras de requisitos aparecen en las recetas y en qué contexto documental?</td>
+</tr>
+<tr>
+<td>CRM-Q02</td>
+<td>¿Qué deuda procede de la proyección y cuál requiere aclaración de la fuente canónica?</td>
+</tr>
+<tr>
+<td>CRM-Q03</td>
+<td>¿Cómo preservar alternativas dentro de una línea y entre líneas sin imponer simultaneidad?</td>
+</tr>
+<tr>
+<td>CRM-Q04</td>
+<td>¿Cómo distinguir requisitos, opcionales, condiciones, acompañamientos y ambigüedad?</td>
+</tr>
+<tr>
+<td>CRM-Q05</td>
+<td>¿Cómo conservar identidad, presentación, cantidad y procedencia sin promover equivalencias?</td>
+</tr>
+<tr>
+<td>CRM-Q06</td>
+<td>¿Qué representación derivada ofrece una mejora verificable con mínima complejidad?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="plan-de-investigacion">Plan de investigación<a class="headerlink" href="#plan-de-investigacion" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Incremento</th>
+<th>Resultado esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CRM-D01</td>
+<td>Propósito, preguntas, límites y criterios de evaluación</td>
+</tr>
+<tr>
+<td>CRM-D02</td>
+<td>Inventario reproducible del corpus: señales, localizadores, recuentos y límites</td>
+</tr>
+<tr>
+<td>CRM-D03</td>
+<td>Contraste documental dirigido, incluyendo negativos y muestras ajenas al ajuste</td>
+</tr>
+<tr>
+<td>CRM-D04</td>
+<td>Comparación de representaciones y experimento aislado, con casos fijados y regresión</td>
+</tr>
+<tr>
+<td>CRM-D05</td>
+<td>Síntesis de evidencia, decisión sobre viabilidad y alternativas de entrega</td>
+</tr>
+</tbody>
+</table>
+<p>CRM-D02 distinguirá señales de defectos confirmados: una conjunción, un encabezado o un término como «opcional» no demuestran por sí solos su alcance semántico. Registrar denominadores por ocurrencia y receta, solapamientos y procedencia. El corpus histórico de RET-D01 permite comparar resultados; cualquier corpus adicional deberá fijarse explícitamente. CRM-D03 contrastará fuentes originales, no solo datos derivados.</p>
+<h3 id="criterios-de-evaluacion">Criterios de evaluación<a class="headerlink" href="#criterios-de-evaluacion" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Preservar Markdown como fuente canónica, ID literal, texto original y referencias por posición y localizador.</li>
+<li>Separar alternativas declaradas, conjunciones, condiciones no evaluadas y estructuras no interpretadas; evitar inferencias por mera aparición de palabras.</li>
+<li>No cambiar el significado de required, optional y unknown en los contratos publicados sin decisión posterior.</li>
+<li>Medir cobertura de representación, discrepancias, falsos positivos, abstenciones y regresiones, sin extrapolar precisión global a partir de muestras dirigidas.</li>
+<li>Comparar una extensión acotada del extractor, una proyección derivada independiente y la alternativa de no entregar; no seleccionar arquitectura de implementación anticipadamente.</li>
+</ul>
+<h3 id="limites">Límites<a class="headerlink" href="#limites" title="Permanent link">&para;</a></h3>
+<p>No se modifica en este incremento ningún motor, contrato publicado, ficha culinaria ni regla de identidad. No se aprueba un nuevo servicio, persistencia, API, ranking, sustituciones, escalado, IA o release. El experimento CCE se conserva como evidencia; su entrega productiva queda diferida. La denominación CRM identifica esta investigación, no un compromiso de componente software independiente.</p>
+<h2 id="crm-d02-inventario-de-senales">CRM-D02 — Inventario de señales<a class="headerlink" href="#crm-d02-inventario-de-senales" title="Permanent link">&para;</a></h2>
+<p>Corpus fijado RET-D01 <code>c0dd020dea003d8a4f7a0278a43f30d81501a7f0</code> y huella de proyección <code>d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c</code>. El inventario verifica los bytes de todas las fuentes y localizadores de ocurrencias, conserva las líneas originales y exige repetibilidad. S01 alternativa léxica en línea, S02 conector final y siguiente ocurrencia adyacente del mismo grupo, S03 conjunción, S04 marcador condicional, S05 opcionalidad léxica, S06 acompañamiento o guarnición, S07 selección finita de calificadores de presentación y preparación, S08 cantidad cualitativa según proyección. S02 cuenta ambos extremos; conectores finales sin pareja adyacente se registran aparte. Las categorías se solapan. Se registran denominadores, intersecciones, módulo, opcionalidad heredada, grupos y procedencia.</p>
+<p>Las señales son heurísticas: no acreditan alternativas reales, condiciones ni errores; no detectan todas las estructuras, principalmente fuera de las ocurrencias proyectadas. Se ignoran destinos de enlaces para las señales. No se modifica el extractor ni se promueve identidad. Pruebas sintéticas y ejecución de CI generan <code>culinary_requirements_inventory.json</code>; los recuentos reales se documentarán después de verificar la ejecución. CRM-D03 deberá contrastar fuentes originales incluyendo negativos y casos no señalados.</p>
+<h2 id="crm-d03-contraste-documental-dirigido">CRM-D03 — Contraste documental dirigido<a class="headerlink" href="#crm-d03-contraste-documental-dirigido" title="Permanent link">&para;</a></h2>
+<h3 id="evidencia-de-crm-d02">Evidencia de CRM-D02<a class="headerlink" href="#evidencia-de-crm-d02" title="Permanent link">&para;</a></h3>
+<p>PR #258 integrada en <code>17a575b60c3cae6edf97be5b380e7ab9147ad811</code>; los tres workflows del merge finalizaron correctamente. El <a href="https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44534298112/job/135595527680">job de la PR</a> ejecutó 114 pruebas sin error y verificó 590 fuentes. Se abrió el informe culinary_requirements_inventory.json del artefacto 14533739744 (snapshot dd3a043af6febcaaa13f387d8ea43837cfa7d65c, distinto del merge). Corpus y huella fijados en D02. Los recuentos siguientes son señales, no defectos confirmados.</p>
+<table>
+<thead>
+<tr>
+<th>Señal</th>
+<th style="text-align: right;">Ocurrencias</th>
+<th style="text-align: right;">Recetas</th>
+<th style="text-align: right;">Required</th>
+<th style="text-align: right;">Optional</th>
+<th style="text-align: right;">Unknown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01</td>
+<td style="text-align: right;">390</td>
+<td style="text-align: right;">293</td>
+<td style="text-align: right;">343</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>S02</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>S03</td>
+<td style="text-align: right;">484</td>
+<td style="text-align: right;">370</td>
+<td style="text-align: right;">446</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>S04</td>
+<td style="text-align: right;">129</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>S05</td>
+<td style="text-align: right;">487</td>
+<td style="text-align: right;">349</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">472</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>S06</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>S07</td>
+<td style="text-align: right;">873</td>
+<td style="text-align: right;">430</td>
+<td style="text-align: right;">757</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>S08</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>De 5.047 ocurrencias, 2.030 tienen alguna señal (40,2 %), distribuidas en 573/590 recetas. Las señales se solapan; S01/S03 coincide en 27 ocurrencias, S03/S07 en 95 y S05/S07 en 112. S02 detecta un único enlace adyacente; cero conectores finales sin pareja en la heurística. No representa todos los grupos de alternativas.</p>
+<h3 id="contraste-con-fuentes">Contraste con fuentes<a class="headerlink" href="#contraste-con-fuentes" title="Permanent link">&para;</a></h3>
+<p>Se seleccionaron seis recetas adicionales a los casos de ajuste inicial CCE, de manera deliberada para contrastar clases, negativos y contexto omitido. Se cotejaron las líneas originales del commit fijado con las posiciones y opcionalidad del informe. No es una muestra estadística ni evaluación de una implementación CRM.</p>
+<table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>Fuente, posición base cero y línea</th>
+<th>Observación documental</th>
+<th>Expectativa parcial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CRM-C01</td>
+<td><a href="../../01_Arroces/arroz_chaufa.html">Arroz chaufa</a> REC-0001, 0, L49</td>
+<td>Arroz jazmín o basmati, cocido y completamente frío; required</td>
+<td>Alternativa entre variedades; la conjunción de calificadores no crea dos ingredientes; conservar 300 g y preparación compartida</td>
+</tr>
+<tr>
+<td>CRM-C02</td>
+<td>REC-0001, 5, L54</td>
+<td>Un trozo pequeño de jengibre; required</td>
+<td>Cantidad cualitativa, no cero; no deducir gramos</td>
+</tr>
+<tr>
+<td>CRM-C03</td>
+<td>REC-0001, 9, L61</td>
+<td>Mirin (opcional); optional</td>
+<td>Conservar opción explícita</td>
+</tr>
+<tr>
+<td>CRM-C04</td>
+<td><a href="../../06_Pescados_y_Mariscos/merluza_al_horno_con_limon.html">Merluza al horno</a> REC-0057, 0, L32 y L43</td>
+<td>600 g de lomos, descongelados si procede; optional</td>
+<td>Condición de preparación, no de presencia del pescado; discrepancia confirmada de opcionalidad</td>
+</tr>
+<tr>
+<td>CRM-C05</td>
+<td>REC-0057, 5, L37 y L46</td>
+<td>Sal y pimienta; required</td>
+<td>Conjunción de dos ingredientes, sin repartir cantidades</td>
+</tr>
+<tr>
+<td>CRM-C06</td>
+<td><a href="../../07_Cocina_Asiatica/mapo_tofu_de_inspiracion_sichuan.html">Mapo tofu</a> REC-274, 1, L32 y L48</td>
+<td>Carne de cerdo o ternera, opcional</td>
+<td>Alternativa dentro de requisito opcional</td>
+</tr>
+<tr>
+<td>CRM-C07</td>
+<td>REC-274, 4, L35 y L56</td>
+<td>Doubanjiang o chile y miso como adaptación</td>
+<td>Alternativa con rama compuesta y carácter de adaptación; no equivalencia ni transferencia automática de dosis</td>
+</tr>
+<tr>
+<td>CRM-C08</td>
+<td><a href="../../06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.html">Trucha a la navarra</a> REC-493, 3, L35 y L46</td>
+<td>3 cucharadas de aceite, añadir si hace falta; optional</td>
+<td>El aceite base no es opcional; el ajuste adicional es condicional; discrepancia confirmada de opcionalidad</td>
+</tr>
+<tr>
+<td>CRM-C09</td>
+<td>REC-493, 4, L36 y L48</td>
+<td>Limón para acompañar; required; elaboración declara opcional</td>
+<td>Acompañamiento opcional explícito en otra sección; discrepancia contextual</td>
+</tr>
+<tr>
+<td>CRM-C10</td>
+<td>REC-493, 5, L37</td>
+<td>Sal moderada, pimienta y perejil opcional; unknown</td>
+<td>Preservar ámbito mixto; no extender opcionalidad del perejil a toda la línea</td>
+</tr>
+<tr>
+<td>CRM-C11</td>
+<td><a href="../../06_Pescados_y_Mariscos/caballa_japonesa.html">Caballa japonesa</a> REC-0009, 3–7, L69–77</td>
+<td>Guarnición, «A elegir:», cinco líneas required; S06 sin S02</td>
+<td>Grupo de elección explícito entre líneas sin conectores finales; no cinco obligaciones simultáneas; cardinalidad exacta y necesidad de servir guarnición quedan sin afirmar</td>
+</tr>
+<tr>
+<td>CRM-C12</td>
+<td><a href="../../02_Pastas/fusilli_con_crema_de_pimientos_asados_y_nueces.html">Fusilli con crema de pimientos</a> REC-368, 1, L32 y L45</td>
+<td>Pimiento asado y pelado, bien escurrido; required</td>
+<td>Negativo para división por conjunción: un producto con tres calificadores</td>
+</tr>
+</tbody>
+</table>
+<h3 id="implicaciones">Implicaciones<a class="headerlink" href="#implicaciones" title="Permanent link">&para;</a></h3>
+<p>Dos discrepancias de opcionalidad se explican por confundir el ámbito de una condición de manejo/ajuste con el del ingrediente base; otra depende de evidencia de elaboración fuera de la lista. Un grupo explícito de elección no está cubierto por S02. La conjunción puede describir cualificadores, requisitos distintos o una rama compuesta; por ello no se admite una regla general de división por conectores. El corpus proyectado conserva texto útil, pero los encabezados y frases no extraídas también son evidencia relevante.</p>
+<p>Para CRM-D04 comparar una representación plana con anotaciones de alcance frente a una representación lógica acotada de grupos y miembros, conservando ocurrencias y localizadores. No interpretar expresiones arbitrarias; abstenerse cuando ámbito o cardinalidad no estén acreditados. Los doce casos constituyen expectativas parciales derivadas de revisión, no resultados de ejecución. D04 debe fijar expectativas comprobables antes del código y añadir negativos sintéticos y muestras de contraste no utilizadas en el ajuste. No se cambia el contrato, extractor, identidad ni fichas.</p>
+<h2 id="crm-d04a-modelo-logico-candidato">CRM-D04A — Modelo lógico candidato<a class="headerlink" href="#crm-d04a-modelo-logico-candidato" title="Permanent link">&para;</a></h2>
+<h3 id="corte-y-opciones">Corte y opciones<a class="headerlink" href="#corte-y-opciones" title="Permanent link">&para;</a></h3>
+<h1 id="259-integrada-en-0934cb12b2b36e862727231d8f70814ad9248e36-los-tres-workflows-de-main-finalizaron-correctamente-se-conservan-el-corpus-y-la-huella-de-d02-evaluar-tres-representaciones-sin-decidir-entrega">259 integrada en <code>0934cb12b2b36e862727231d8f70814ad9248e36</code>; los tres workflows de main finalizaron correctamente. Se conservan el corpus y la huella de D02. Evaluar tres representaciones, sin decidir entrega:<a class="headerlink" href="#259-integrada-en-0934cb12b2b36e862727231d8f70814ad9248e36-los-tres-workflows-de-main-finalizaron-correctamente-se-conservan-el-corpus-y-la-huella-de-d02-evaluar-tres-representaciones-sin-decidir-entrega" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Alternativa</th>
+<th>Representación</th>
+<th>Límite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Anotaciones planas por ocurrencia</td>
+<td>No expresa agrupación arbitraria ni ramas compuestas sin convenciones adicionales</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Árbol lógico como representación principal</td>
+<td>Mayor coste de migración y riesgo de perder datos originales</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Ocurrencias originales intactas más árboles derivados parciales</td>
+<td>Requiere trazabilidad y cobertura explícita, permite abstención</td>
+</tr>
+</tbody>
+</table>
+<p>C es la hipótesis recomendada para el experimento. Comparar además extensión integrada del extractor frente a proyección experimental separada; para investigar se usa esta última, sin seleccionar arquitectura productiva. La opción de no entregar sigue abierta.</p>
+<h3 id="semantica-candidata">Semántica candidata<a class="headerlink" href="#semantica-candidata" title="Permanent link">&para;</a></h3>
+<p>Unidad de salida: requisito anotado asociado a una o varias ocurrencias originales de la misma receta y a evidencia documental adicional cuando sea necesaria. El árbol no reemplaza las ocurrencias ni altera su opcionalidad de origen. Cada nodo tiene tipo, hijos ordenados si procede, evidencia, y alcance de presencia (required, optional, conditional, unknown). conditional conserva una condición literal no evaluada. role distingue base, accompaniment, unknown; accompaniment no implica optional.</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Semántica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>atom</td>
+<td>Concepto textual único; no genera un ID de ingrediente</td>
+</tr>
+<tr>
+<td>all</td>
+<td>Conjunción documentada; cada miembro conserva su propio alcance</td>
+</tr>
+<tr>
+<td>any</td>
+<td>Alternativa documentada; no presupone exclusividad ni exactitud de dosis</td>
+</tr>
+<tr>
+<td>choice</td>
+<td>Selección declarada con cardinalidad no determinada</td>
+</tr>
+<tr>
+<td>opaque</td>
+<td>Expresión conservada cuya estructura o alcance no se ha interpretado</td>
+</tr>
+</tbody>
+</table>
+<p>Las cantidades originales se conservan en la ocurrencia. Una cantidad compartida se vincula al grupo cuando consta su alcance; nunca se copia a cada miembro de una conjunción o adaptación. Los calificadores se adjuntan al ámbito acreditado, como texto; una condición de preparación o ajuste se distingue de la condición de presencia (preparation, adjustment, presence, unknown). No se interpretan cantidades, condiciones, sustituciones ni disponibilidad en este ciclo. La marca adaptation conserva una alternativa culinaria declarada, no una equivalencia.</p>
+<h3 id="integridad-y-abstencion">Integridad y abstención<a class="headerlink" href="#integridad-y-abstencion" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Identidad de origen: commit, huella de proyección, receta, ruta, huella de fuente, posición y línea; toda evidencia adicional conserva sus líneas y texto original. Los nodos derivados no son nuevas ocurrencias del índice.</li>
+<li>Mantener todas las ocurrencias, incluidas duplicadas; las raíces forman una partición de posiciones sin pérdidas ni duplicación. Dentro de una raíz pueden reutilizarse referencias a la misma línea para describir partes de una expresión. No duplicar recuentos por esa reutilización.</li>
+<li>Sin evidencia revisada, producir una raíz opaque por ocurrencia, con alcance unknown, conservando separadamente la opcionalidad heredada. No asumir atomicidad por ausencia de señales. Un grupo parcial no puede presentarse como exhaustivo.</li>
+<li>Identidades explícitas y candidatos se conservan en la ocurrencia original. Ninguna división textual distribuye automáticamente IDs entre hijos ni promueve candidatos. No crear IDs nuevos ni unir grupos por nombre.</li>
+<li>Para el experimento, interpretaciones documentales acotadas mediante declaraciones revisadas ligadas al corpus; validar referencias, tipos, aridad, ausencia de solapamiento de raíces, procedencia y estructura. No confundir representación de una interpretación manual con extracción automática de semántica.</li>
+</ul>
+<h3 id="expectativas-fijadas-para-el-contraste">Expectativas fijadas para el contraste<a class="headerlink" href="#expectativas-fijadas-para-el-contraste" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>Estructura esperada</th>
+<th>Alcance y límites</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CRM-C01</td>
+<td>any(arroz jazmín, arroz basmati)</td>
+<td>required; 300 g compartidos; cocido y completamente frío</td>
+</tr>
+<tr>
+<td>CRM-C02</td>
+<td>atom(jengibre)</td>
+<td>required; cantidad cualitativa original</td>
+</tr>
+<tr>
+<td>CRM-C03</td>
+<td>atom(mirin)</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>CRM-C04</td>
+<td>atom(lomos de merluza)</td>
+<td>required; descongelación condicional de preparación</td>
+</tr>
+<tr>
+<td>CRM-C05</td>
+<td>all(sal, pimienta)</td>
+<td>required; sin asignar cantidades</td>
+</tr>
+<tr>
+<td>CRM-C06</td>
+<td>any(carne picada de cerdo, carne picada de ternera)</td>
+<td>optional; 180 g compartidos</td>
+</tr>
+<tr>
+<td>CRM-C07</td>
+<td>any(doubanjiang, all(chile, miso))</td>
+<td>required; segunda rama adaptation; no trasladar dosis</td>
+</tr>
+<tr>
+<td>CRM-C08</td>
+<td>atom(aceite de oliva)</td>
+<td>required; 3 cucharadas base, ajuste condicional</td>
+</tr>
+<tr>
+<td>CRM-C09</td>
+<td>atom(limón)</td>
+<td>optional, accompaniment; evidencia L36 y L48</td>
+</tr>
+<tr>
+<td>CRM-C10</td>
+<td>all(sal moderada, pimienta, perejil)</td>
+<td>primeros dos required; perejil optional; no extender opcionalidad</td>
+</tr>
+<tr>
+<td>CRM-C11</td>
+<td>choice(cinco guarniciones)</td>
+<td>accompaniment; presencia y cardinalidad unknown; evidencia L69–77</td>
+</tr>
+<tr>
+<td>CRM-C12</td>
+<td>atom(pimiento rojo)</td>
+<td>required; asado, pelado y escurrido; no dividir calificadores</td>
+</tr>
+</tbody>
+</table>
+<p>Contraste adicional fijado fuera de los doce casos CRM-C01–C12, no utilizado para ajustar las futuras reglas: <a href="../../03_Legumbres/ensalada_alubias_blancas_con_atun.html">ensalada de alubias</a> REC-0109, L34 (un producto con cocción y escurrido; no dividir), L42 (perejil optional), L43 y L63 (sal y pimienta negra, all); <a href="../../02_Pastas/fusilli_atun_limon_alcaparras.html">fusilli con atún</a> REC-0117 L43 y L55–63 (sal y agua de cocción, all; no afirmar que agua de cocción sea agua disponible de despensa). REC-0117 ya fue utilizado en CCE; estas líneas no pertenecen a los doce casos CRM. Los cuatro casos adicionales son expectativas documentales, no evidencia independiente de revisión humana externa.</p>
+<h3 id="plan-de-ejecucion">Plan de ejecución<a class="headerlink" href="#plan-de-ejecucion" title="Permanent link">&para;</a></h3>
+<p>D04B fijará datos revisados y expectativas en archivos separados, ejecutará un prototipo aislado y comparará A (anotación plana) y C (árbol parcial) sobre el mismo conjunto. B se compara conceptualmente por coste de sustitución; no se exige una segunda implementación completa. Distinguir capacidad representacional de cobertura automática: medir ocurrencias anotadas, opacas, raíces, evidencia preservada, casos representables y discrepancias, no precisión clínica ni culinaria global. Añadir negativos sintéticos: conjunción de calificadores, grupo solapado, referencias inexistentes, aridad inválida, adaptación con dosis no justificada, elección sin cardinalidad y condición sin evaluar. Validar repetibilidad y ausencia de mutación del índice. Si se explora reconocimiento automático, separar sus resultados y casos no ajustados; una anotación manual no demuestra automatización. D05 decidirá si el valor justifica una entrega acotada o diferirla.</p>
+<p>No se aprueba modificación del extractor, contrato, índice, fichas, motor CCE, infraestructura ni release.</p>
+<h2 id="crm-d04b-prototipo-representacional">CRM-D04B — Prototipo representacional<a class="headerlink" href="#crm-d04b-prototipo-representacional" title="Permanent link">&para;</a></h2>
+<p>Se fijan 16 anotaciones revisadas y expectativas de forma y alcance en archivos JSON separados. El prototipo verifica corpus, huella, líneas, posiciones, aridad, tipos y partición; preserva ocurrencias y genera raíces opacas para las posiciones no anotadas. Se compara un modelo plano restringido a anotaciones atómicas por ocurrencia con el híbrido; no se implementa un modelo plano con convenciones de agrupación adicionales. El contraste no constituye reconocimiento semántico automático, ni validación independiente de cada calificador o dosis: las expectativas comprueban forma y alcance raíz. El informe CI registra cobertura manual, abstención y reproducibilidad. No se cambia ningún contrato ni motor publicado. Resultados pendientes de ejecución.</p>
+<h2 id="crm-d05-sintesis-y-decision-propuesta">CRM-D05 — Síntesis y decisión propuesta<a class="headerlink" href="#crm-d05-sintesis-y-decision-propuesta" title="Permanent link">&para;</a></h2>
+<h3 id="evidencia-y-limites">Evidencia y límites<a class="headerlink" href="#evidencia-y-limites" title="Permanent link">&para;</a></h3>
+<h1 id="261-integrada-en-aa436c303143d3679223ef0ee53b982776e9502b-los-tres-workflows-de-main-finalizaron-correctamente-el-job-de-la-pr-ejecuto-121-pruebas-sin-error-se-abrio-localmente-el-informe-requirements_model_experimentjson-del-artefacto-14543454216-snapshot-0c7f87f7aee6c35816b774eca31473f6d3a1c4e1-distinto-del-merge-corpus-y-huella-de-proyeccion-identicos-a-d02-huellas-de-anotaciones-b9a7cfdd4eda377ccb7cacbf79bfe3f48ef1da7dcff03de6aa5e2783886f744b-y-expectativas-2337755055ede2416d36622cdf75c355c3767447fcdf0e2fe426cc8c2ecbaa5f">261 integrada en <code>aa436c303143d3679223ef0ee53b982776e9502b</code>; los tres workflows de main finalizaron correctamente. El <a href="https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44553000211/job/135661435212">job de la PR</a> ejecutó 121 pruebas sin error. Se abrió localmente el informe requirements_model_experiment.json del artefacto 14543454216 (snapshot 0c7f87f7aee6c35816b774eca31473f6d3a1c4e1, distinto del merge). Corpus y huella de proyección idénticos a D02. Huellas de anotaciones b9a7cfdd4eda377ccb7cacbf79bfe3f48ef1da7dcff03de6aa5e2783886f744b y expectativas 2337755055ede2416d36622cdf75c355c3767447fcdf0e2fe426cc8c2ecbaa5f.<a class="headerlink" href="#261-integrada-en-aa436c303143d3679223ef0ee53b982776e9502b-los-tres-workflows-de-main-finalizaron-correctamente-el-job-de-la-pr-ejecuto-121-pruebas-sin-error-se-abrio-localmente-el-informe-requirements_model_experimentjson-del-artefacto-14543454216-snapshot-0c7f87f7aee6c35816b774eca31473f6d3a1c4e1-distinto-del-merge-corpus-y-huella-de-proyeccion-identicos-a-d02-huellas-de-anotaciones-b9a7cfdd4eda377ccb7cacbf79bfe3f48ef1da7dcff03de6aa5e2783886f744b-y-expectativas-2337755055ede2416d36622cdf75c355c3767447fcdf0e2fe426cc8c2ecbaa5f" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Medida</th>
+<th style="text-align: right;">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recetas conservadas</td>
+<td style="text-align: right;">590</td>
+</tr>
+<tr>
+<td>Ocurrencias originales conservadas</td>
+<td style="text-align: right;">5047</td>
+</tr>
+<tr>
+<td>Recetas con anotaciones</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Ocurrencias revisadas</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>Ocurrencias opacas</td>
+<td style="text-align: right;">5027</td>
+</tr>
+<tr>
+<td>Raíces anotadas</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td>Raíces atom/all/any/choice</td>
+<td style="text-align: right;">8/4/3/1</td>
+</tr>
+<tr>
+<td>Casos representables en plano atómico restringido</td>
+<td style="text-align: right;">8/16</td>
+</tr>
+<tr>
+<td>Casos representados en híbrido</td>
+<td style="text-align: right;">16/16</td>
+</tr>
+</tbody>
+</table>
+<p>Las formas y presencia raíz de los 16 casos coinciden con las expectativas fijadas; se verificaron procedencia, partición, repetibilidad y ausencia de mutación. No se ha medido exactitud de interpretación automática: el 0,40 % anotado es esfuerzo de muestra manual, no estimación de cobertura alcanzable. El cálculo del plano es una comparación con un criterio restringido, no un prototipo general de anotaciones planas con agrupación. Las expectativas no verifican independientemente cada miembro, calificador, alcance de dosis ni condición. Las siete pruebas nuevas incluyen aridad, adaptación, elección, condición y ausencia de promoción; faltan pruebas unitarias específicas de solapamiento y referencias inexistentes aunque el prototipo valida ambos. Las declaraciones revisadas se mantienen como evidencia experimental, no datos de autoridad de producción.</p>
+<h3 id="alternativas">Alternativas<a class="headerlink" href="#alternativas" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Alternativa</th>
+<th>Evaluación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A — Entregar representación híbrida con anotaciones manuales</td>
+<td>Viable como representación acotada; no demuestra coste sostenible ni mejora de disponibilidad</td>
+</tr>
+<tr>
+<td>B — Investigar reconocimiento determinista acotado de estructuras sobre fuentes</td>
+<td>Recomendada: medir si se obtiene evidencia útil sin edición masiva ni división indiscriminada</td>
+</tr>
+<tr>
+<td>C — Integrar directamente el modelo en extractor/índice</td>
+<td>Prematura, implicaría cambio de contrato sin evidencias de automatización</td>
+</tr>
+<tr>
+<td>D — Diferir CRM y priorizar otro consumo de conocimiento</td>
+<td>Válida si B no muestra valor incremental</td>
+</tr>
+</tbody>
+</table>
+<p>Resultado propuesto: viabilidad representacional acotada del híbrido; reconocimiento automático no demostrado; entrega productiva diferida. No seleccionar todavía un contrato ni arquitectura de integración. Mantener CCE diferido.</p>
+<h3 id="siguiente-investigacion-propuesta">Siguiente investigación propuesta<a class="headerlink" href="#siguiente-investigacion-propuesta" title="Permanent link">&para;</a></h3>
+<p>Evaluar un reconocimiento acotado dentro de una proyección experimental separada, con señales como localizadores y no como verdad. Priorizar patrones documentales de ámbito inequívoco: grupos de elección con encabezado y declaración explícita, alternativas entre líneas con conectores, opcionalidad explícita y condiciones de preparación o ajuste claramente delimitadas. No comprometer todos estos patrones antes de revisar muestras. No dividir por conjunción de forma general, transferir cantidades o inferir cardinalidad ni identidades. Definir corpus fijado, conjunto de ajuste y conjunto de contraste disjunto por receta, expectativas documentales previas, negativos y abstención. Comparar contra la línea base heredada, registrar denominadores, falsos positivos, omisiones, coste de revisión y trazabilidad. Incluir pruebas de referencias y solapamiento antes de una eventual entrega. Si la evidencia es insuficiente, conservar el modelo como investigación y evaluar alternativas de consumo del conocimiento.</p>
+<p>La decisión queda pendiente de revisión; no se aprueba Delivery Scope, cambios productivos, release ni nueva infraestructura.</p>
+<h3 id="disposicion-de-la-investigacion">Disposición de la investigación<a class="headerlink" href="#disposicion-de-la-investigacion" title="Permanent link">&para;</a></h3>
+<p>Tras la integración de #262 y la continuación de la línea de investigación, se adopta la alternativa B de CRM-D05. CRM queda cerrado como ciclo representacional acotado, sin prueba de reconocimiento automático ni aprobación de entrega. Se inicia <a href="INVESTIGACION_RECONOCIMIENTO_REQUISITOS.html">CRR</a>. CCE permanece diferido; no se aprueba un cambio de contrato ni una release.</p>
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="INVESTIGACION_COMPATIBILIDAD_CULINARIA.html">Compatibilidad culinaria</a></li>
+<li><a href="REVISION_ESTRATEGICA_CULINARIA.html">Revisión estratégica</a></li>
+<li><a href="../specifications/knowledge/CONTRATO_DE_DATOS_DE_RECETAS.html">Contrato de datos</a></li>
+<li><a href="../specifications/knowledge/CONTRATO_DEL_INDICE_DE_CONOCIMIENTO.html">Contrato del índice</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

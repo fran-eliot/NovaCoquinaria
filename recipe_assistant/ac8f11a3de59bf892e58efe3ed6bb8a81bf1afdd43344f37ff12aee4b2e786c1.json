@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 16
+    },
+    "text": "\n# Crumble de manzana y pera\n\n## Descripción\n\nFruta horneada bajo una cobertura quebradiza de mantequilla, harina y azúcar. A diferencia de un pastel húmedo, el contraste entre fruta tierna y superficie crujiente define el resultado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Preparación | 20 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Media |\n| Técnica principal | Asado de fruta y cobertura arenosa |\n\n## Ingredientes\n\n- 450 g de manzana pelada y sin corazón, en dados\n- 350 g de pera firme pelada y sin corazón, en dados\n- 110 g de harina común de trigo\n- 70 g de mantequilla fría, en dados\n- 65 g de azúcar moreno o blanco\n- 1 cucharadita de canela opcional\n- 1 cucharadita de zumo de limón\n- 1 cucharadita de maicena opcional si la fruta es muy jugosa\n- 1 pizca de sal\n\n**Alérgenos:** Gluten (trigo) y leche (mantequilla).\n\n## Mise en place\n\nPrecalentar el horno a 190 °C, calor arriba y abajo. Usar una fuente de aproximadamente 20 cm. Cortar fruta en tamaños similares y mantener fría la mantequilla.\n\n## Elaboración\n\n### 1. Preparar fruta\n\nMezclar manzana y pera con limón, canela opcional y maicena si la fruta suelta mucho líquido. Distribuir uniformemente en la fuente.\n\n### 2. Formar el crumble\n\nMezclar harina, azúcar y sal. Añadir mantequilla fría y frotar con las yemas de los dedos hasta conseguir migas de tamaños variados; no amasar una masa compacta.\n\n### 3. Cubrir\n\nRepartir las migas por encima sin presionar. Dejar pequeñas irregularidades para favorecer bordes crujientes.\n\n### 4. Hornear\n\nHornear 30–40 minutos, hasta que la cobertura esté dorada y la fruta burbujee en los bordes. Comprobar con cuchillo que las piezas estén tiernas.\n\n### 5. Reposar\n\nDejar reposar 10 minutos para que el jugo se asiente y servir templado.\n\n## Puntos críticos\n\n- La mantequilla debe permanecer fría mientras se forman las migas.\n- Una capa muy compacta dificulta que la cobertura quede crujiente.\n- Si la superficie se dora demasiado antes de que la fruta ablande, cubrir ligeramente con papel de aluminio.\n\n## Perfil esperado\n\nFruta tierna y jugosa con cobertura irregular, seca y crujiente.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con avena | Sustituir 30 g de harina por copos de avena; comprobar etiquetado y alérgenos |\n| Con jengibre | Añadir una pizca a la fruta |\n| Solo manzana | Usar 800 g de manzana y ajustar maicena según jugosidad |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Cobertura pastosa | Mantequilla demasiado caliente o mezcla amasada | Trabajar frío sin compactar |\n| Fruta dura | Horneado insuficiente | Comprobar con cuchillo y prolongar |\n| Base muy líquida | Fruta muy acuosa | Escurrir o añadir un poco de maicena |\n\n## Conservación\n\nEnfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Pastel de manzana](./pastel_de_manzana.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> El crumble se construye con contraste: fruta húmeda debajo, cobertura seca y quebradiza arriba.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para asado de fruta y cobertura arenosa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/crumble_de_manzana_y_pera.html",
+  "id": "REC-0142",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "manzana pelada y sin corazón, en dados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de manzana pelada y sin corazón, en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de manzana pelada y sin corazón, en dados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pera firme pelada y sin corazón, en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de pera firme pelada y sin corazón, en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de pera firme pelada y sin corazón, en dados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "harina común de trigo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de harina común de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de harina común de trigo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fría, en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de mantequilla fría, en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de mantequilla fría, en dados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar moreno o blanco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar moreno o blanco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar moreno o blanco",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena opcional si la fruta es muy jugosa",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena opcional si la fruta es muy jugosa",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena opcional si la fruta es muy jugosa",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 190 °C, calor arriba y abajo. Usar una fuente de aproximadamente 20 cm. Cortar fruta en tamaños similares y mantener fría la mantequilla.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/crumble_de_manzana_y_pera.md",
+  "source_sha256": "a33d1f5efa1419d01380eb41a31a5f890d84e4f45f291f404bc64073e3ee7165",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar fruta\n\nMezclar manzana y pera con limón, canela opcional y maicena si la fruta suelta mucho líquido. Distribuir uniformemente en la fuente.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Formar el crumble\n\nMezclar harina, azúcar y sal. Añadir mantequilla fría y frotar con las yemas de los dedos hasta conseguir migas de tamaños variados; no amasar una masa compacta.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Cubrir\n\nRepartir las migas por encima sin presionar. Dejar pequeñas irregularidades para favorecer bordes crujientes.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Hornear\n\nHornear 30–40 minutos, hasta que la cobertura esté dorada y la fruta burbujee en los bordes. Comprobar con cuchillo que las piezas estén tiernas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Reposar\n\nDejar reposar 10 minutos para que el jugo se asiente y servir templado.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Crumble de manzana y pera",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

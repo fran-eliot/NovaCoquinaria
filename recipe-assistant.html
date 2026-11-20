@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asistente culinario | NovaCoquinaria</title>
+<link rel="stylesheet" href="assets/culinary-explorer.c39f133e2b4fcbcc01d2.css">
+<link rel="stylesheet" href="assets/recipe-assistant.c39f133e2b4fcbcc01d2.css">
+<script type="module" src="assets/recipe-assistant-ui.c39f133e2b4fcbcc01d2.mjs"></script>
+</head>
+<body><main>
+<header><a href="culinary-explorer.html">Volver al explorador</a>
+<h1 id="recipe-title">Asistente culinario</h1></header>
+<noscript>Activa JavaScript para utilizar el asistente.</noscript>
+<p id="load-status" role="status">Cargando receta…</p>
+<div id="assistant" hidden>
+<p><a id="source-link">Abrir ficha original completa</a> · <a href="#context">Consultar contexto y advertencias</a></p>
+<p class="notice">Consulta la ficha completa antes de cocinar. Los pasos reconocidos pueden omitir instrucciones; marcar un paso o terminar un temporizador no acredita cocción ni seguridad. El progreso se pierde al recargar o cambiar de receta.</p>
+<section class="panel" aria-labelledby="general-heading">
+<h2 id="general-heading">Información declarada</h2><p id="evidence"></p><div id="claims"></div><p id="yield"></p><ul id="durations"></ul>
+</section>
+<div class="cooking-layout">
+<section class="panel" aria-labelledby="ingredients-heading">
+<h2 id="ingredients-heading">Ingredientes</h2><p id="ingredient-progress" role="status"></p><div id="ingredients"></div>
+<details><summary>Seleccionar ingredientes para comprar</summary><p class="help">Selección independiente del progreso de cocina. No identifica faltantes.</p><div id="shopping-selection"></div><button id="send-shopping" type="button" disabled>Revisar en mis compras</button><p id="shopping-status" role="status"></p></details>
+<h3>Mise en place declarada</h3><div id="mise"></div></section>
+<div class="cooking-column">
+<section class="panel" aria-labelledby="steps-heading">
+<h2 id="steps-heading">Elaboración guiada</h2><p id="step-progress" role="status"></p>
+<div id="step-controls" hidden><h3 id="step-title" tabindex="-1"></h3><div id="step-text"></div><p id="step-location" class="meta"></p>
+<label class="check-row"><input type="checkbox" id="step-done">Marcar este paso como completado</label>
+<div class="actions"><button id="previous" type="button">Anterior</button><button id="next-step" type="button">Siguiente</button></div></div>
+</section>
+<section class="panel" aria-labelledby="timer-heading">
+<h2 id="timer-heading">Temporizador manual</h2>
+<p class="help">No garantiza avisos si la pestaña se suspende o el dispositivo se bloquea.</p>
+<form id="timer-form"><div class="timer-fields">
+<label>Minutos <input id="minutes" type="number" min="0" max="1439" step="1" value="5" required></label>
+<label>Segundos <input id="seconds" type="number" min="0" max="59" step="1" value="0" required></label>
+</div><button id="start-timer" type="submit">Iniciar</button></form>
+<p id="timer-display" role="timer" class="timer-display">00:00</p><p id="timer-status" role="status" aria-atomic="true">Inactivo</p>
+<div class="actions"><button id="pause-timer" type="button" disabled>Pausar</button><button id="resume-timer" type="button" disabled>Reanudar</button><button id="cancel-timer" type="button" disabled>Cancelar</button></div>
+</section>
+<button id="reset-session" type="button" class="secondary">Reiniciar preparación</button>
+</div></div>
+<section class="panel" aria-labelledby="techniques-heading"><h2 id="techniques-heading">Técnicas referenciadas</h2><ul id="techniques"></ul></section>
+<section class="panel" id="context" aria-labelledby="context-heading"><h2 id="context-heading">Contexto original y advertencias</h2><p>Texto íntegro de la ficha, incluidos antecedentes y variantes. No todas las formulaciones están probadas.</p><details open><summary>Mostrar u ocultar el contexto completo</summary><div id="context-text"></div></details></section>
+<footer><details><summary>Información técnica</summary><p id="provenance"></p></details></footer>
+</div></main></body></html>

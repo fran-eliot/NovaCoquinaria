@@ -1,0 +1,370 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Cocido lebaniego de garbanzos y relleno\n\n## Origen y contexto\n\n**Región:** Liébana, Cantabria. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones |\n| Tiempo orientativo | 12 horas de remojo y 2½–4 horas de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de garbanzos secos, preferentemente pequeños\n- 400 g de morcillo de ternera\n- 350 g de gallina o pollo con hueso\n- 200 g de panceta fresca\n- 180 g de chorizo para cocinar\n- 350 g de berza\n- 250 g de patatas\n- 120 g de miga de pan asentado para el relleno\n- 2 huevos L para el relleno\n- 1 diente de ajo, perejil y 1 cucharada de aceite de oliva\n- 2–2,5 l de agua potable, ajustar y sal al final\n\n**Alérgenos:** Gluten (pan), huevo; revisar embutidos comerciales.\n\n## Elaboración\n\n1. Remojar los garbanzos 10–12 horas en agua potable; escurrir. Mantener refrigeradas las carnes hasta cocinar.\n2. Poner ternera, ave y panceta en olla grande con agua fría; llevar a hervor y retirar la espuma.\n3. Incorporar los garbanzos al caldo caliente, cocer a fuego suave hasta que casi estén tiernos, añadiendo agua si es necesario.\n4. Añadir el chorizo según su presentación comercial y proseguir hasta que carnes y garbanzos estén completamente cocidos, comprobando al menos 74 °C en la parte gruesa del ave.\n5. Cocer la berza y las patatas en el caldo en el tramo final, ajustando a su tamaño.\n6. Preparar el relleno mezclando pan desmigado, huevos, ajo y perejil. Formar pequeñas porciones y dorarlas ligeramente en sartén con aceite.\n7. Introducir los rellenos dorados en el caldo hirviendo suavemente durante 10–15 minutos, hasta que estén completamente cocinados y cuajados en el centro.\n8. Separar carnes y verduras, retirar huesos y servir el cocido con caldo, garbanzos, carnes y relleno, según la costumbre de la casa.\n\n## Puntos críticos\n\n- El relleno de pan y huevo es característico de muchas versiones lebaniegas; no debe confundirse con la pilota catalana. El garbanzo seco requiere remojo y cocción completa; el relleno debe cuajarse por dentro.\n- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |\n| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |\n| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocido madrileño de tres vuelcos](./cocido_madrileno_de_tres_vuelcos.md)\n- [Cocido montañés](./cocido_montanes_con_alubias_berza_y_compango.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 horas de remojo y 2½–4 horas de cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/cocido_lebaniego_de_garbanzos_y_relleno.html",
+  "id": "REC-484",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos secos, preferentemente pequeños",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de garbanzos secos, preferentemente pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de garbanzos secos, preferentemente pequeños",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "morcillo de ternera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de morcillo de ternera",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de morcillo de ternera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "gallina o pollo con hueso",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de gallina o pollo con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de gallina o pollo con hueso",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de panceta fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de panceta fresca",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de chorizo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de chorizo para cocinar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "berza",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de berza",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de berza",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de patatas",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "miga de pan asentado para el relleno",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de miga de pan asentado para el relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de miga de pan asentado para el relleno",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para el relleno",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L para el relleno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L para el relleno",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, perejil y 1 cucharada de aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo, perejil y 1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo, perejil y 1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable, ajustar y sal al final",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2.5",
+        "min": "2",
+        "raw": "2–2,5 l de agua potable, ajustar y sal al final",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "2–2,5 l de agua potable, ajustar y sal al final",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/cocido_lebaniego_de_garbanzos_y_relleno.md",
+  "source_sha256": "721a8119ff4a234e9c1597451ab99569bd3364918b598ad7203b287374ac36fb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Remojar los garbanzos 10–12 horas en agua potable; escurrir. Mantener refrigeradas las carnes hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Poner ternera, ave y panceta en olla grande con agua fría; llevar a hervor y retirar la espuma."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Incorporar los garbanzos al caldo caliente, cocer a fuego suave hasta que casi estén tiernos, añadiendo agua si es necesario."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Añadir el chorizo según su presentación comercial y proseguir hasta que carnes y garbanzos estén completamente cocidos, comprobando al menos 74 °C en la parte gruesa del ave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Cocer la berza y las patatas en el caldo en el tramo final, ajustando a su tamaño."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Preparar el relleno mezclando pan desmigado, huevos, ajo y perejil. Formar pequeñas porciones y dorarlas ligeramente en sartén con aceite."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Introducir los rellenos dorados en el caldo hirviendo suavemente durante 10–15 minutos, hasta que estén completamente cocinados y cuajados en el centro."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 8,
+      "text": "Separar carnes y verduras, retirar huesos y servir el cocido con caldo, garbanzos, carnes y relleno, según la costumbre de la casa."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Cocido lebaniego de garbanzos y relleno",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

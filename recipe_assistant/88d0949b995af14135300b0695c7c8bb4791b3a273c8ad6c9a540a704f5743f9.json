@@ -1,0 +1,296 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Merluza con guisantes y cebolla\n\n## Descripción\n\nLomos de merluza terminados suavemente en un fondo de cebolla pochada, guisantes y caldo. El pescado se incorpora al final para evitar una cocción excesiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Media |\n| Técnica principal | Pochado y cocción final en salsa |\n\n## Ingredientes\n\n- 600–700 g de lomos de merluza sin espinas aparentes\n- 250 g de guisantes congelados\n- 1 cebolla grande, picada\n- 2 dientes de ajo, picados\n- 3 cucharadas de aceite de oliva virgen extra\n- 200 ml de caldo de pescado o agua\n- 1 cucharada de perejil fresco picado\n- sal y pimienta negra\n\n**Alérgenos:** Pescado; revisar alérgenos del caldo.\n\n## Mise en place\n\nDescongelar la merluza en refrigeración si procede, secarla y comprobar espinas. Preparar guisantes y caldo y mantener el pescado refrigerado hasta la cocción.\n\n## Elaboración\n\n### 1. Pochar cebolla\n\nCalentar el aceite en una cazuela y cocinar cebolla a fuego medio-bajo 10–12 minutos, sin dorado intenso. Incorporar ajo el último minuto.\n\n### 2. Formar el fondo\n\nAñadir el caldo y llevar a hervor suave; cocinar 3 minutos para unir los sabores.\n\n### 3. Cocer guisantes\n\nAñadir los guisantes congelados y cocinar según su tamaño e indicaciones, hasta que estén tiernos y completamente calientes.\n\n### 4. Incorporar pescado\n\nColocar los lomos sobre el fondo y cocinar tapados a hervor suave hasta alcanzar 63 °C en la zona más gruesa; el tiempo depende del grosor, generalmente unos minutos.\n\n### 5. Terminar\n\nRectificar sal y pimienta, añadir perejil y servir con parte del caldo.\n\n## Puntos críticos\n\n- No remover bruscamente los lomos para no romper sus lascas.\n- Cocinar los guisantes antes de incorporar el pescado cuando requieran más tiempo.\n- Verificar cocción interior de la merluza, no solo apariencia externa.\n\n## Perfil esperado\n\nMerluza jugosa en lascas, guisantes tiernos y salsa ligera con cebolla suave.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con patatas | Añadir patata cocida en rodajas antes del pescado |\n| Con vino blanco | Reducir 60 ml antes de añadir caldo; la cocción no elimina necesariamente todo el alcohol |\n| Con almejas | Añadir producto apto para consumo y cocinar completamente; incorpora moluscos |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pescado seco | Cocción prolongada | Introducir al final y comprobar el punto |\n| Guisantes duros | Cocción corta | Cocer antes del pescado |\n| Salsa aguada | Exceso de caldo | Ajustar antes de incorporar merluza |\n\n## Conservación\n\nRefrigerar el pescado o marisco crudo hasta su uso y descongelarlo en refrigeración. Enfriar las sobras sin demora, refrigerar en recipientes cerrados y consumirlas en un plazo corto. Recalentar completamente si se sirven de nuevo calientes; no dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Merluza](../11_Despensa/04_Pescados/merluza.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Diagnóstico de pescados y mariscos](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa y la guarnición se preparan antes; el pescado entra cuando solo falta su cocción.\n\n## Utilizado por\n\nReceta de referencia del módulo Pescados y Mariscos para pochado y cocción final en salsa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_con_guisantes_y_cebolla.html",
+  "id": "REC-0130",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza sin espinas aparentes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "600",
+        "raw": "600–700 g de lomos de merluza sin espinas aparentes",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "600–700 g de lomos de merluza sin espinas aparentes",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes congelados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de guisantes congelados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de guisantes congelados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande, picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande, picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande, picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado o agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de caldo de pescado o agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de caldo de pescado o agua",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil fresco picado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDescongelar la merluza en refrigeración si procede, secarla y comprobar espinas. Preparar guisantes y caldo y mantener el pescado refrigerado hasta la cocción.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/merluza_con_guisantes_y_cebolla.md",
+  "source_sha256": "c947621ffc450355169ef355dbcfac95779bc4b25ec29d3523587257dc262848",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Pochar cebolla\n\nCalentar el aceite en una cazuela y cocinar cebolla a fuego medio-bajo 10–12 minutos, sin dorado intenso. Incorporar ajo el último minuto.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Formar el fondo\n\nAñadir el caldo y llevar a hervor suave; cocinar 3 minutos para unir los sabores.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Cocer guisantes\n\nAñadir los guisantes congelados y cocinar según su tamaño e indicaciones, hasta que estén tiernos y completamente calientes.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Incorporar pescado\n\nColocar los lomos sobre el fondo y cocinar tapados a hervor suave hasta alcanzar 63 °C en la zona más gruesa; el tiempo depende del grosor, generalmente unos minutos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nRectificar sal y pimienta, añadir perejil y servir con parte del caldo.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 104,
+        "start_line": 104
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza con guisantes y cebolla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

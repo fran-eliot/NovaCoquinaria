@@ -1,0 +1,317 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Coca de verduras con masa de aceite\n\n## Descripción\n\nPreparación de referencia basada en **masa sin levadura, precocción breve y asado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 porciones |\n| Técnica | Masa sin levadura, precocción breve y asado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo\n- 140 ml de agua\n- 60 ml de aceite de oliva\n- 5 g de sal\n- 1 cucharadita de impulsor químico opcional\n- 180 g de pimiento rojo en tiras\n- 150 g de cebolla en pluma\n- 180 g de calabacín en láminas finas\n- 2 cucharadas de aceite de oliva para verduras\n- orégano, sal y pimienta\n\n**Alérgenos:** Gluten (trigo); revisar impulsor comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 210 °C, calor arriba y abajo. Cortar las verduras finas y secarlas bien.\n2. Mezclar harina, sal e impulsor opcional; añadir agua y 60 ml de aceite y amasar 3–4 minutos hasta una masa unida. Reposar tapada 15 minutos.\n3. Estirar la masa sobre papel apto de horno hasta un rectángulo fino, de unos 3–4 mm, y pinchar el centro con tenedor.\n4. Precocer la base 8–10 minutos para reducir el riesgo de humedad central.\n5. Mezclar verduras con dos cucharadas de aceite, sal, pimienta y orégano; distribuir sin amontonar sobre la base.\n6. Hornear 18–25 minutos adicionales, hasta masa bien cocida y bordes dorados. Ajustar si el calabacín desprende humedad.\n\n## Puntos críticos\n\n- Una base demasiado gruesa o con verduras muy húmedas queda cruda en el centro. La coca propuesta utiliza masa rápida de aceite y no reproduce una coca de fermentación tradicional.\n- El tiempo depende del corte, humedad, bandeja y comportamiento del horno; comprobar el centro y la base antes de terminar.\n- Separar alimentos crudos de los listos para comer, emplear utensilios higiénicos y conservar refrigerados los ingredientes perecederos antes de cocinar.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima elaboración |\n|---|---|---|\n| Base blanda o húmeda | Relleno con agua o exceso de espesor | Escurrir y reducir el relleno; ajustar precocción |\n| Superficie quemada e interior duro | Calor superior elevado o piezas gruesas | Bajar temperatura y precocer cuando proceda |\n| Textura seca | Exceso de horno o relleno insuficiente | Comprobar antes el punto real y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar en recipientes tapados y evitar periodos prolongados a temperatura ambiente. Las preparaciones con quesos frescos o huevo precisan especial cuidado de refrigeración antes y después del horneado.\n\n## Relaciones dentro del SGCC\n\n- [Focaccia de romero y aceite](./focaccia_de_romero_y_aceite.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes utilizados, tamaño real del corte o molde, temperatura, duración, textura y valoración. Estas propuestas no sustituyen recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **masa sin levadura, precocción breve y asado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/coca_de_verduras_con_masa_de_aceite.html",
+  "id": "REC-330",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "140 ml de agua",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de impulsor químico opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de impulsor químico opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo en tiras",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento rojo en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento rojo en tiras",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en pluma",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla en pluma",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla en pluma",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín en láminas finas",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de calabacín en láminas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de calabacín en láminas finas",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para verduras",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva para verduras",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva para verduras",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano, sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "orégano, sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "orégano, sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/coca_de_verduras_con_masa_de_aceite.md",
+  "source_sha256": "89c6fbf4fb9547f08701944ce76c0287dde8c07b7a19445dd2a571ffd2de63d7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 210 °C, calor arriba y abajo. Cortar las verduras finas y secarlas bien."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, sal e impulsor opcional; añadir agua y 60 ml de aceite y amasar 3–4 minutos hasta una masa unida. Reposar tapada 15 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Estirar la masa sobre papel apto de horno hasta un rectángulo fino, de unos 3–4 mm, y pinchar el centro con tenedor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Precocer la base 8–10 minutos para reducir el riesgo de humedad central."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Mezclar verduras con dos cucharadas de aceite, sal, pimienta y orégano; distribuir sin amontonar sobre la base."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Hornear 18–25 minutos adicionales, hasta masa bien cocida y bordes dorados. Ajustar si el calabacín desprende humedad."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Coca de verduras con masa de aceite",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

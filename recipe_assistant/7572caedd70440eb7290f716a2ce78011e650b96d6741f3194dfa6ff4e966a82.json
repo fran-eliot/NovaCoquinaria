@@ -1,0 +1,286 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 87,
+      "start_line": 14
+    },
+    "text": "\n# Merluza al vapor con jengibre y soja\n\n## Descripción\n\nLomos de merluza cocidos al vapor con jengibre, terminados con salsa ligera de soja y aceite de sésamo. Preparación de inspiración asiática.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Cocción | 8–15 min, según grosor |\n| Técnica | Vapor |\n\n## Ingredientes\n\n- 400 g de lomos de merluza;\n- 15 g de jengibre fresco en juliana;\n- 1 cebolleta pequeña, opcional;\n- 1 cucharada de salsa de soja;\n- 2 cucharadas de agua;\n- 1 cucharadita de aceite de sésamo;\n- unas gotas de limón.\n\n**Alérgenos:** pescado, soja; posible trigo en salsa de soja y sésamo en el aceite.\n\n## Elaboración\n\n1. Descongelar merluza en refrigeración si procede; secar y revisar espinas.\n2. Calentar agua en vaporera, sin que toque el cestillo.\n3. Disponer pescado en plato resistente al calor, añadir jengibre y cebolleta.\n4. Tapar y cocinar aproximadamente 8–15 minutos, según grosor, hasta alcanzar **63 °C en el centro** como referencia conservadora.\n5. Mezclar soja y agua; calentar la mezcla por separado si se desea. Añadir al pescado cocinado.\n6. Terminar con aceite de sésamo y unas gotas de limón. Servir inmediatamente.\n\n## Puntos críticos\n\n- La soja ya aporta sal: no sazonar en exceso.\n- Evitar que el agua toque el pescado.\n- Abrir la tapa alejando el vapor de la cara.\n- Revisar espinas antes de servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con cilantro | Añadir fresco al final |\n| Sin sésamo | Sustituir por aceite neutro |\n| Con chile | Añadir una pizca a la salsa |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Merluza seca | Exceso de cocción | Medir temperatura |\n| Salsa salada | Soja concentrada | Diluir |\n| Textura acuosa | Condensación | Escurrir antes de salsear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado al vapor](../00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md)\n- [Merluza](../11_Despensa/04_Pescados/merluza.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n\n## Principio de NovaCoquinaria\n\n> El vapor cocina el pescado y el acabado aporta intensidad sin prolongar la cocción."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "8–15 min, según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_al_vapor_con_jengibre.html",
+  "id": "REC-0063",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de lomos de merluza;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de lomos de merluza;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en juliana;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco en juliana;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco en juliana;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta pequeña, opcional;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta pequeña, opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta pequeña, opcional;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "unas gotas de limón.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de limón.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de limón.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/merluza_al_vapor_con_jengibre.md",
+  "source_sha256": "6cb5abe0dfbebd6b07a476275a5ed207c950d06b8c864f742e25765c7f5ec9ca",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Descongelar merluza en refrigeración si procede; secar y revisar espinas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Calentar agua en vaporera, sin que toque el cestillo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Disponer pescado en plato resistente al calor, añadir jengibre y cebolleta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Tapar y cocinar aproximadamente 8–15 minutos, según grosor, hasta alcanzar **63 °C en el centro** como referencia conservadora."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Mezclar soja y agua; calentar la mezcla por separado si se desea. Añadir al pescado cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Terminar con aceite de sésamo y unas gotas de limón. Servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.html",
+      "label": "Cocinar pescado al vapor",
+      "source_location": {
+        "end_line": 80,
+        "start_line": 80
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md"
+    }
+  ],
+  "title": "Merluza al vapor con jengibre y soja",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

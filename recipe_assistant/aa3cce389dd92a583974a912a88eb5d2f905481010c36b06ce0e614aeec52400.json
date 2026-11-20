@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 66,
+      "start_line": 13
+    },
+    "text": "\n# Arroz con leche cremoso\n\n## Descripción\nArroz cocido lentamente en leche aromatizada con canela y limón hasta obtener una textura cremosa.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Preparación | 10 min |\n| Cocción | 35–50 min |\n| Técnica | Cocción suave y removido |\n\n## Ingredientes\n- 150 g de arroz redondo;\n- 1 litro de leche entera;\n- 90–110 g de azúcar;\n- 1 rama de canela;\n- piel de medio limón sin parte blanca;\n- pizca de sal;\n- canela molida para servir.\n\n**Alérgeno:** leche.\n\n## Elaboración\n1. Calentar leche con canela y piel de limón sin dejar que se desborde.\n2. Añadir arroz y pizca de sal; mantener fuego bajo con burbujeo suave.\n3. Cocinar 35–50 minutos, removiendo con frecuencia, especialmente al final, hasta que el arroz esté tierno y la mezcla cremosa.\n4. Añadir azúcar en los últimos 5–10 minutos y remover para disolver.\n5. Retirar canela y piel de limón; repartir en recipientes poco profundos.\n6. Enfriar rápidamente y refrigerar. Espolvorear canela al servir.\n\n## Puntos críticos\n- La mezcla espesa al enfriar: retirar algo más fluida que el resultado final deseado.\n- Remover para evitar que leche y arroz se peguen.\n- No dejar arroz cocido a temperatura ambiente durante horas; enfriar y refrigerar con rapidez.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Arroz duro | Cocción insuficiente | Añadir leche caliente y prolongar |\n| Muy espeso | Evaporación excesiva | Añadir leche |\n| Fondo quemado | Calor alto o poco removido | Bajar fuego y usar olla gruesa |\n\n## Conservación\nRefrigerar rápidamente en recipientes poco profundos y consumir en pocos días; no mantener a temperatura ambiente por el riesgo asociado al arroz cocido.\n\n## Relaciones\n- [Diagnóstico de postres: texturas y cocción](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n- [Índice de postres](./README.md)\n\n## Principio de NovaCoquinaria\n> El arroz termina de espesar al enfriar: retirar la preparación antes de que quede demasiado densa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "50",
+      "min": "35",
+      "phase": "cooking",
+      "raw": "35–50 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/arroz_con_leche.html",
+  "id": "REC-0081",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de arroz redondo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de arroz redondo;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 litro de leche entera;",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 litro de leche entera;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "90",
+        "raw": "90–110 g de azúcar;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "90–110 g de azúcar;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "canela;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela;",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de medio limón sin parte blanca;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de medio limón sin parte blanca;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de medio limón sin parte blanca;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pizca de sal;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pizca de sal;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pizca de sal;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida para servir.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "canela molida para servir.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "canela molida para servir.",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/arroz_con_leche.md",
+  "source_sha256": "680acfdc8909bf08bf09ab4a32799c1eaeb31c775d66e14f74800bc7b45ef4a8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Calentar leche con canela y piel de limón sin dejar que se desborde."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Añadir arroz y pizca de sal; mantener fuego bajo con burbujeo suave."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Cocinar 35–50 minutos, removiendo con frecuencia, especialmente al final, hasta que el arroz esté tierno y la mezcla cremosa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Añadir azúcar en los últimos 5–10 minutos y remover para disolver."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Retirar canela y piel de limón; repartir en recipientes poco profundos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Enfriar rápidamente y refrigerar. Espolvorear canela al servir."
+    }
+  ],
+  "techniques": [],
+  "title": "Arroz con leche cremoso",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

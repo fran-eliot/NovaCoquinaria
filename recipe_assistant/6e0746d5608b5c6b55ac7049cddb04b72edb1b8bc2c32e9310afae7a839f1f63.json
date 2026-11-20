@@ -1,0 +1,267 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 107,
+      "start_line": 14
+    },
+    "text": "\n# Crema de zanahoria y jengibre\n\n## Descripción\n\nCrema de zanahoria con jengibre fresco, textura sedosa y equilibrio entre dulzor vegetal y notas aromáticas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Cocinado | 25–30 min |\n| Dificultad | Fácil |\n| Técnica principal | Pochado, cocción y triturado |\n\n## Ingredientes\n\n- 650 g de zanahorias;\n- 1 cebolla mediana (150 g);\n- 15 g de jengibre fresco pelado;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 500–700 ml de agua o caldo vegetal;\n- Sal y pimienta blanca;\n- 1 cucharadita de zumo de limón, opcional;\n\n## Elaboración\n\n### 1. Preparar\n\nLavar y pelar zanahorias; cortar en rodajas finas. Picar cebolla y rallar jengibre.\n\n### 2. Pochar\n\nCalentar aceite y cocinar cebolla a fuego medio-bajo durante 7–9 minutos sin quemar.\n\n### 3. Aromatizar\n\nAñadir jengibre y cocinar un minuto. Incorporar zanahorias y rehogar 2–3 minutos.\n\n### 4. Cocer\n\nAñadir inicialmente 500 ml de líquido y cocinar a hervor suave 18–25 minutos, hasta que las zanahorias estén muy tiernas.\n\n### 5. Triturar y ajustar\n\nTriturar con precauciones para líquidos calientes. Añadir caldo gradualmente hasta lograr densidad deseada; ajustar sal, pimienta y limón opcional.\n\n## Puntos críticos\n\n- La zanahoria debe quedar completamente tierna para evitar textura granulosa.\n- El jengibre puede dominar: ajustar cantidad al gusto.\n- Reservar parte del caldo evita una crema demasiado líquida.\n- Seguir instrucciones de la batidora para líquidos calientes.\n\n## Perfil esperado\n\nCrema de zanahoria con jengibre fresco, textura sedosa y equilibrio entre dulzor vegetal y notas aromáticas.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con leche de coco | Sustituir parte del caldo por leche de coco. |\n| Con comino | Añadir una pizca durante el pochado. |\n| Con naranja | Añadir un poco de ralladura al final, evitando parte blanca. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Corrección |\n|---|---|---|\n| Textura granulosa | Zanahoria poco cocida | Prolongar cocción y triturar. |\n| Demasiado líquida | Exceso de caldo | Añadir líquido por etapas. |\n| Jengibre dominante | Cantidad elevada | Reducir dosis en próxima preparación. |\n\n## Conservación\n\nEnfriar las sobras rápidamente, refrigerar en recipientes adecuados y recalentar completamente cuando proceda. Si se congela, porcionar y valorar posibles cambios de textura tras descongelar.\n\n## Relaciones dentro del SGCC\n\n- [Preparar cremas de verduras](../00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El dulzor de la zanahoria se equilibra con el jengibre, mientras la densidad se controla reservando líquido.\n\n## Utilizado por\n\nGuarniciones, primeros platos y preparaciones vegetales."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–30 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/crema_de_zanahoria_y_jengibre.html",
+  "id": "REC-0046",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zanahorias;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de zanahorias;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de zanahorias;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana (150 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana (150 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana (150 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco pelado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco pelado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco pelado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "500",
+        "raw": "500–700 ml de agua o caldo vegetal;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–700 ml de agua o caldo vegetal;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "Sal y pimienta blanca;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Sal y pimienta blanca;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Sal y pimienta blanca;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/crema_de_zanahoria_y_jengibre.md",
+  "source_sha256": "9db835f059a86ddc2e812bf87c1c1569c977e5723b3204254075d0b530ca863d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "1. Preparar\n\nLavar y pelar zanahorias; cortar en rodajas finas. Picar cebolla y rallar jengibre.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "2. Pochar\n\nCalentar aceite y cocinar cebolla a fuego medio-bajo durante 7–9 minutos sin quemar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "3. Aromatizar\n\nAñadir jengibre y cocinar un minuto. Incorporar zanahorias y rehogar 2–3 minutos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 4,
+      "text": "4. Cocer\n\nAñadir inicialmente 500 ml de líquido y cocinar a hervor suave 18–25 minutos, hasta que las zanahorias estén muy tiernas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 5,
+      "text": "5. Triturar y ajustar\n\nTriturar con precauciones para líquidos calientes. Añadir caldo gradualmente hasta lograr densidad deseada; ajustar sal, pimienta y limón opcional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cremas_de_verduras.html",
+      "label": "Preparar cremas de verduras",
+      "source_location": {
+        "end_line": 96,
+        "start_line": 96
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cremas_de_verduras.md"
+    }
+  ],
+  "title": "Crema de zanahoria y jengibre",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

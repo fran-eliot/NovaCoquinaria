@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Endivias gratinadas con jamón y bechamel\n\n## Descripción\n\nPreparación de referencia basada en **precocción y gratinado con bechamel**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica | Precocción y gratinado con bechamel |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 endivias grandes, unos 600 g\n- 4 lonchas de jamón cocido, unos 120 g\n- 350 ml de leche entera\n- 25 g de mantequilla\n- 25 g de harina de trigo\n- 60 g de queso rallado\n- una pizca de nuez moscada\n- sal y pimienta\n\n**Alérgenos:** Leche y gluten (trigo); revisar jamón cocido comercial.\n\n## Elaboración\n\n1. Lavar y retirar hojas dañadas de las endivias; cortar la parte leñosa de la base sin deshacerlas.\n2. Cocerlas al vapor durante 10–14 minutos, hasta que estén casi tiernas; escurrir y presionar suavemente para retirar exceso de agua.\n3. Precalentar el horno a 200 °C. Envolver cada endivia escurrida con una loncha de jamón y disponerlas en una fuente.\n4. Fundir la mantequilla, agregar harina y cocinar 1–2 minutos removiendo; añadir leche caliente gradualmente, sin dejar de batir.\n5. Cocer la bechamel 5–7 minutos hasta que espese, condimentar con nuez moscada, poca sal y pimienta.\n6. Cubrir las endivias con bechamel y queso rallado; gratinar 12–18 minutos hasta que el conjunto esté muy caliente y la superficie dorada.\n\n## Puntos críticos\n\n- Escurrir muy bien las endivias: su agua puede licuar la bechamel. El jamón cocido comercial puede contener ingredientes o aditivos alergénicos no evidentes.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md)\n- [Puerros templados con vinagreta](./puerros_templados_con_vinagreta_de_mostaza.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **precocción y gratinado con bechamel**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/endivias_gratinadas_con_jamon_y_bechamel.html",
+  "id": "REC-402",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "endivias grandes, unos 600 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 endivias grandes, unos 600 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 endivias grandes, unos 600 g",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "lonchas de jamón cocido, unos 120 g",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 lonchas de jamón cocido, unos 120 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 lonchas de jamón cocido, unos 120 g",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "350 ml de leche entera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de mantequilla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de harina de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de queso rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de queso rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de nuez moscada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de nuez moscada",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de nuez moscada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/endivias_gratinadas_con_jamon_y_bechamel.md",
+  "source_sha256": "a8cbe658d3f46174c96fd0a529838126aafc0d8d823dd84859fb7a47e77148e1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar y retirar hojas dañadas de las endivias; cortar la parte leñosa de la base sin deshacerlas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cocerlas al vapor durante 10–14 minutos, hasta que estén casi tiernas; escurrir y presionar suavemente para retirar exceso de agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Precalentar el horno a 200 °C. Envolver cada endivia escurrida con una loncha de jamón y disponerlas en una fuente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Fundir la mantequilla, agregar harina y cocinar 1–2 minutos removiendo; añadir leche caliente gradualmente, sin dejar de batir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cocer la bechamel 5–7 minutos hasta que espese, condimentar con nuez moscada, poca sal y pimienta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cubrir las endivias con bechamel y queso rallado; gratinar 12–18 minutos hasta que el conjunto esté muy caliente y la superficie dorada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.html",
+      "label": "Preparar bechamel sin grumos",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md"
+    }
+  ],
+  "title": "Endivias gratinadas con jamón y bechamel",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

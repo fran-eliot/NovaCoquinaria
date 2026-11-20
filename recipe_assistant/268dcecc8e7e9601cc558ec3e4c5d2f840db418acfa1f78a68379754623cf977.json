@@ -1,0 +1,236 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 58,
+      "start_line": 13
+    },
+    "text": "\n# Té frío con limón y menta\n\n## Descripción\nTé negro frío con limón y menta, preparado con infusión controlada para evitar astringencia.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 vasos |\n| Preparación | 10 min |\n| Enfriado | 1–2 h en refrigeración |\n\n## Ingredientes\n- 800 ml de agua;\n- 3 cucharaditas de té negro;\n- 100 ml de zumo de limón;\n- 30–50 g de azúcar, opcional;\n- 6 hojas de menta limpias;\n- hielo para servir.\n\n**Nota:** contiene cafeína.\n\n## Elaboración\n1. Calentar agua a unos **95 °C** e infusionar el té 3–4 minutos.\n2. Colar inmediatamente y disolver el azúcar mientras está caliente, si se utiliza.\n3. Añadir limón y menta cuando pierda algo de calor.\n4. Enfriar rápidamente en recipiente limpio y refrigerar hasta que esté bien frío.\n5. Servir con hielo, ajustando limón y agua según intensidad.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Astringente | Infusión larga | Reducir tiempo |\n| Muy diluido | Hielo excesivo | Servir bien frío |\n| Poco cítrico | Zumo insuficiente | Añadir gradualmente |\n\n## Conservación\nRefrigerar y consumir preferentemente en 24–48 horas.\n\n## Relaciones\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Limonada](./limonada_casera.md)\n\n## Principio de NovaCoquinaria\n> El té frío debe enfriarse después de una infusión breve, no dejarse extrayendo durante horas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/te_frio_con_limon.html",
+  "id": "REC-0089",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "800 ml de agua;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "té negro;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharaditas de té negro;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "3 cucharaditas de té negro;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de zumo de limón;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de zumo de limón;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "30",
+        "raw": "30–50 g de azúcar, opcional;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "30–50 g de azúcar, opcional;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "menta limpias;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 hojas de menta limpias;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "6 hojas de menta limpias;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir.",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/te_frio_con_limon.md",
+  "source_sha256": "d56269091d0d1de8415c84bde07cb28a4fbf1fee981f1e988cc50159d9e7f9d4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 1,
+      "text": "Calentar agua a unos **95 °C** e infusionar el té 3–4 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 2,
+      "text": "Colar inmediatamente y disolver el azúcar mientras está caliente, si se utiliza."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 3,
+      "text": "Añadir limón y menta cuando pierda algo de calor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 4,
+      "text": "Enfriar rápidamente en recipiente limpio y refrigerar hasta que esté bien frío."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 5,
+      "text": "Servir con hielo, ajustando limón y agua según intensidad."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Té frío con limón y menta",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "vaso"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Remojón granadino de naranja y bacalao\n\n## Origen y contexto\n\n**Región:** Granada, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones de entrante |\n| Tiempo orientativo | 30–40 min más enfriado del bacalao |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 3 naranjas de mesa (aprox. 550 g peladas)\n- 280 g de bacalao desalado para cocinar\n- 110 g de cebolleta\n- 80 g de aceitunas negras sin hueso\n- 2 huevos\n- 50 ml de aceite de oliva virgen extra\n- 10 ml de vinagre de Jerez, opcional\n- pimienta negra y perejil lavado\n\n**Alérgenos:** Pescado y huevo; posibles sulfitos si se usa vinagre.\n\n## Elaboración\n\n1. Utilizar bacalao ya desalado según las indicaciones del proveedor, siempre bajo refrigeración; no usar directamente bacalao salado sin el desalado adecuado.\n2. Cocer los huevos en agua hirviendo durante 10–11 minutos, enfriar rápidamente, pelar y cortar en cuartos.\n3. Cocinar el bacalao desalado en agua a hervor muy suave unos 6–10 minutos según grosor, hasta quedar completamente hecho (63 °C en el centro como referencia conservadora), escurrir y enfriar rápidamente.\n4. Retirar piel y espinas visibles, y desmenuzar el bacalao cocido en lascas grandes.\n5. Pelar las naranjas a vivo, retirando piel blanca y semillas; cortar en rodajas o gajos y reservar un poco de jugo.\n6. Cortar cebolleta en plumas finas y mezclarla con naranja, bacalao, aceitunas y aceite; añadir unas gotas de vinagre solo si se necesita más acidez.\n7. Colocar el huevo encima, sazonar con pimienta y refrigerar hasta el servicio; probar antes de añadir sal por la del bacalao.\n\n## Puntos críticos\n\n- El remojón es una ensalada de naranja con bacalao, no una versión de la pipirrana de tomate.\n- Se propone bacalao **cocido**, por seguridad y reproducibilidad; algunas versiones regionales emplean bacalao asado o tratado de otra forma. El aliño no sustituye el control de cocción y frío.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Exceso de sal | Bacalao insuficientemente desalado | Seguir instrucciones de desalado y probar antes |\n| Ensalada acuosa | Naranja muy jugosa o bacalao mal escurrido | Escurrir antes del montaje |\n| Sabor amargo | Albedo blanco en naranja | Pelar a vivo |\n\n## Conservación\n\nConservar refrigerado a 4 °C o menos y consumir preferiblemente en el mismo día, sin superar 24 horas una vez mezclados pescado y huevo.\n\n## Relaciones dentro del SGCC\n\n- [Pipirrana jiennense](../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md)\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "30–40 min más enfriado del bacalao",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Granada, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/remojon_granadino_de_naranja_y_bacalao.html",
+  "id": "REC-552",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "naranjas de mesa (aprox. 550 g peladas)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 naranjas de mesa (aprox. 550 g peladas)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 naranjas de mesa (aprox. 550 g peladas)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado para cocinar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de bacalao desalado para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de bacalao desalado para cocinar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de cebolleta",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de cebolleta",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras sin hueso",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de aceitunas negras sin hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de aceitunas negras sin hueso",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de Jerez, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 ml de vinagre de Jerez, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "10 ml de vinagre de Jerez, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y perejil lavado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y perejil lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra y perejil lavado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/remojon_granadino_de_naranja_y_bacalao.md",
+  "source_sha256": "22e56a9d7be00f45e10ce4b4663f13b61fb293fe93c9f0468bd3e17dd7d4dfcb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Utilizar bacalao ya desalado según las indicaciones del proveedor, siempre bajo refrigeración; no usar directamente bacalao salado sin el desalado adecuado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Cocer los huevos en agua hirviendo durante 10–11 minutos, enfriar rápidamente, pelar y cortar en cuartos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cocinar el bacalao desalado en agua a hervor muy suave unos 6–10 minutos según grosor, hasta quedar completamente hecho (63 °C en el centro como referencia conservadora), escurrir y enfriar rápidamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Retirar piel y espinas visibles, y desmenuzar el bacalao cocido en lascas grandes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Pelar las naranjas a vivo, retirando piel blanca y semillas; cortar en rodajas o gajos y reservar un poco de jugo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Cortar cebolleta en plumas finas y mezclarla con naranja, bacalao, aceitunas y aceite; añadir unas gotas de vinagre solo si se necesita más acidez."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Colocar el huevo encima, sazonar con pimienta y refrigerar hasta el servicio; probar antes de añadir sal por la del bacalao."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Remojón granadino de naranja y bacalao",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones de entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

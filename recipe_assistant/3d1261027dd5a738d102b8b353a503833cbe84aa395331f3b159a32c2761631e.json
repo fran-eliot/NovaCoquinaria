@@ -1,0 +1,214 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Trufas de chocolate y cacao\n\n## Descripción\n\nPropuesta de repostería basada en **ganache, reposo frío y formado**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–20 unidades |\n| Técnica principal | Ganache, reposo frío y formado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 200 g de chocolate negro para fundir;\n- 120 ml de nata para montar;\n- 20 g de mantequilla;\n- 25 g de cacao puro en polvo para rebozar;\n- 1 pizca de sal opcional;\n\n**Alérgenos:** Leche; soja y frutos secos según chocolate comercial.\n\n## Elaboración\n\n1. Picar el chocolate y colocarlo en recipiente resistente al calor.\n2. Calentar la nata hasta que empiece a humear, sin hervor intenso, y verterla sobre el chocolate.\n3. Esperar 1 minuto y remover desde el centro hasta formar una ganache lisa; agregar la mantequilla y sal opcional.\n4. Tapar y refrigerar 2–3 horas, hasta que se pueda formar sin que se adhiera demasiado.\n5. Con manos limpias y frías o dos cucharillas, formar porciones pequeñas y pasarlas por cacao tamizado.\n6. Conservar refrigeradas y sacarlas unos minutos antes de servir para que recuperen textura cremosa.\n\n## Puntos críticos\n\n- Una ganache excesivamente caliente puede separarse si se remueve con demasiada fuerza; la proporción chocolate/nata condiciona la firmeza. El cacao de cobertura absorbe humedad con el tiempo.\n- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.\n- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |\n| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |\n| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |\n\n## Conservación\n\nEnfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.\n\n## Relaciones dentro del SGCC\n\n- [Cacao puro en polvo](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md)\n- [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/trufas_de_chocolate_y_cacao.html",
+  "id": "REC-295",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chocolate negro para fundir;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de chocolate negro para fundir;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de chocolate negro para fundir;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de nata para montar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de nata para montar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de mantequilla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de mantequilla;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro en polvo para rebozar;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de cacao puro en polvo para rebozar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de cacao puro en polvo para rebozar;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal opcional;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/trufas_de_chocolate_y_cacao.md",
+  "source_sha256": "6408640a55d5ad61b4a64cc751c755a0bfca5e3e8d5e336dd7683ec2cc585a07",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Picar el chocolate y colocarlo en recipiente resistente al calor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Calentar la nata hasta que empiece a humear, sin hervor intenso, y verterla sobre el chocolate."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Esperar 1 minuto y remover desde el centro hasta formar una ganache lisa; agregar la mantequilla y sal opcional."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Tapar y refrigerar 2–3 horas, hasta que se pueda formar sin que se adhiera demasiado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Con manos limpias y frías o dos cucharillas, formar porciones pequeñas y pasarlas por cacao tamizado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Conservar refrigeradas y sacarlas unos minutos antes de servir para que recuperen textura cremosa."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.html",
+      "label": "Cocinar al baño maría",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.md"
+    }
+  ],
+  "title": "Trufas de chocolate y cacao",
+  "yield": {
+    "max": "20",
+    "min": "18",
+    "raw": "18–20 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Frixuelos asturianos con limón y azúcar\n\n## Origen y contexto\n\n**Región:** Asturias. Versión doméstica de referencia de una especialidad regional; no se declara como receta única ni como preparación ya probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 10–12 piezas finas |\n| Tiempo orientativo | 35–45 min más 20 min de reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo\n- 3 huevos L\n- 500 ml de leche entera\n- 40 g de azúcar\n- ralladura fina de medio limón bien lavado\n- 1 pizca de sal\n- 20 g de mantequilla fundida o aceite suave para la sartén\n- azúcar adicional para servir\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Batir huevos, leche, azúcar, ralladura de limón y sal en un cuenco.\n2. Agregar harina tamizada poco a poco y mezclar hasta obtener una masa fluida sin grumos; no batir excesivamente.\n3. Dejar reposar 20 minutos tapada y refrigerada.\n4. Calentar una sartén antiadherente mediana y engrasar con muy poca mantequilla o aceite.\n5. Verter una pequeña porción de masa, girar la sartén para formar una película muy fina y cocinar 1–2 minutos hasta que los bordes se despeguen.\n6. Dar la vuelta con espátula y cocinar el otro lado hasta que quede completamente cuajado; repetir hasta acabar la masa.\n7. Servir calientes, con una pequeña cantidad de azúcar, plegados o enrollados.\n\n## Puntos críticos\n\n- Los frixuelos se buscan finos y flexibles, no gruesos como tortitas americanas. Mantener la mezcla con huevo crudo refrigerada y cocinar completamente ambas caras.\n- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste de una próxima tanda |\n|---|---|---|\n| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |\n| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |\n| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Torrijas de leche y canela](./torrijas_de_leche_y_canela.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades realmente empleadas, proceso, tiempos, textura y valoración. No sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 min más 20 min de reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/frixuelos_asturianos_con_limon_y_azucar.html",
+  "id": "REC-447",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón bien lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón bien lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón bien lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida o aceite suave para la sartén",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de mantequilla fundida o aceite suave para la sartén",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de mantequilla fundida o aceite suave para la sartén",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para servir",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar adicional para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar adicional para servir",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/frixuelos_asturianos_con_limon_y_azucar.md",
+  "source_sha256": "003ba505bdf3840f2ee96012286b6b1491f3d1f7dfe1152c9ac1f25e2555ae68",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Batir huevos, leche, azúcar, ralladura de limón y sal en un cuenco."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Agregar harina tamizada poco a poco y mezclar hasta obtener una masa fluida sin grumos; no batir excesivamente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Dejar reposar 20 minutos tapada y refrigerada."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar una sartén antiadherente mediana y engrasar con muy poca mantequilla o aceite."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter una pequeña porción de masa, girar la sartén para formar una película muy fina y cocinar 1–2 minutos hasta que los bordes se despeguen."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Dar la vuelta con espátula y cocinar el otro lado hasta que quede completamente cuajado; repetir hasta acabar la masa."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir calientes, con una pequeña cantidad de azúcar, plegados o enrollados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Frixuelos asturianos con limón y azúcar",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "10–12 piezas finas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

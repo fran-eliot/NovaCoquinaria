@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Magdalenas caseras de limón\n\n## Descripción\n\nPropuesta de repostería basada en **batido de huevos, reposo frío y horneado**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 unidades |\n| Técnica principal | Batido de huevos, reposo frío y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 huevos L;\n- 160 g de harina de trigo;\n- 130 g de azúcar;\n- 110 ml de aceite de oliva suave;\n- 65 ml de leche;\n- 8 g de impulsor químico;\n- ralladura fina de 1 limón;\n- 1 pizca de sal;\n\n**Alérgenos:** Huevo, leche y gluten (trigo).\n\n## Elaboración\n\n1. Batir huevos y azúcar 3–4 minutos hasta obtener mezcla espumosa y más clara.\n2. Incorporar aceite, leche y ralladura de limón sin perder todo el aire del batido.\n3. Tamizar harina, impulsor y sal; mezclar suavemente hasta integrar.\n4. Tapar la masa y refrigerarla entre 30 y 60 minutos para que gane consistencia.\n5. Precalentar el horno a 210 °C, calor arriba y abajo. Colocar cápsulas en bandeja rígida para magdalenas y llenar hasta tres cuartos.\n6. Hornear 5 minutos a 210 °C; bajar a 190 °C y continuar 8–11 minutos más, hasta centro cocido y superficie dorada. Enfriar sobre rejilla.\n\n## Puntos críticos\n\n- No abrir el horno durante el ascenso inicial. Una cápsula sin molde rígido puede abrirse y perder altura; ajustar tiempos según tamaño.\n- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.\n- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |\n| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |\n| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |\n\n## Conservación\n\nEnfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Limón](../11_Despensa/11_Condimentos/limon.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/magdalenas_caseras_de_limon.html",
+  "id": "REC-292",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 ml de aceite de oliva suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "110 ml de aceite de oliva suave;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "65 ml de leche;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de impulsor químico;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de 1 limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de 1 limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de 1 limón;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/magdalenas_caseras_de_limon.md",
+  "source_sha256": "791dc037e0fdeaa883657ddbbfb9d6a90bcabe8362f95663eb1a6ed96f9d55bc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Batir huevos y azúcar 3–4 minutos hasta obtener mezcla espumosa y más clara."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Incorporar aceite, leche y ralladura de limón sin perder todo el aire del batido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Tamizar harina, impulsor y sal; mezclar suavemente hasta integrar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Tapar la masa y refrigerarla entre 30 y 60 minutos para que gane consistencia."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Precalentar el horno a 210 °C, calor arriba y abajo. Colocar cápsulas en bandeja rígida para magdalenas y llenar hasta tres cuartos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Hornear 5 minutos a 210 °C; bajar a 190 °C y continuar 8–11 minutos más, hasta centro cocido y superficie dorada. Enfriar sobre rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Magdalenas caseras de limón",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

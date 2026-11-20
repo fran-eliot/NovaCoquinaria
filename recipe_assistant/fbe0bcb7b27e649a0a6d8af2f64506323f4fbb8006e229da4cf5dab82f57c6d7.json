@@ -1,0 +1,299 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Pastel de patata y carne al horno\n\n## Descripción\n\nPreparación de horno doméstico mediante **puré, relleno reducido y gratinado**. Formulación propuesta, sin elaboración o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Temperatura inicial | 200 °C, calor arriba y abajo |\n| Técnica | Puré, relleno reducido y gratinado |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 650 g de patatas peladas;\n- 350 g de ternera picada;\n- 140 g de cebolla;\n- 120 g de zanahoria;\n- 150 g de tomate triturado;\n- 100 ml de leche;\n- 20 g de mantequilla;\n- 1 cucharada de aceite;\n- ½ cucharadita de tomillo;\n- 40 g de queso opcional;\n\n**Alérgenos:** Leche y derivados. Revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Cocer las patatas hasta tiernas; escurrir y hacer puré espeso con leche caliente y mantequilla.\n2. Sofreír cebolla y zanahoria 8 minutos; añadir carne y cocinarla completamente.\n3. Incorporar tomate y tomillo, y reducir hasta que el relleno quede espeso.\n4. Extender la carne en fuente para horno, cubrir con puré y marcar con tenedor; añadir queso opcional.\n5. Hornear a 200 °C durante 15–20 minutos, hasta calentar el interior y dorar la cubierta. Reposar 10 minutos antes de cortar.\n\n## Puntos críticos\n\n- Evitar puré líquido y relleno húmedo; comprobar que la carne picada esté totalmente cocinada.\n- Ajustar tiempos y temperatura a grosor, recipiente y horno. Los tiempos indicados no sustituyen el control del punto real de cocción.\n- Usar utensilios aptos y evitar la contaminación cruzada entre ingredientes crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Superficie quemada | Horno alto o temperatura excesiva | Bajar bandeja o proteger antes del final |\n| Centro insuficientemente cocido | Piezas grandes | Prolongar y comprobar el centro |\n| Fondo húmedo | Ingredientes sin reducir o escurrir | Eliminar el exceso de agua antes de hornear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Índice de Horno](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente empleadas, recipiente, temperatura, tiempo, textura, resultado y valoración. Una descripción del resultado esperado no acredita una prueba."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/pastel_de_patata_y_carne_al_horno.html",
+  "id": "REC-0214",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas peladas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas peladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas peladas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ternera picada;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de ternera picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de ternera picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de zanahoria;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de zanahoria;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de leche;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de mantequilla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de mantequilla;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "queso opcional;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de queso opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de queso opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/pastel_de_patata_y_carne_al_horno.md",
+  "source_sha256": "5d073e1690403553b6cd72d02929f1a29ddddd6e41f7d328297accfe0f3d7026",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Cocer las patatas hasta tiernas; escurrir y hacer puré espeso con leche caliente y mantequilla."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Sofreír cebolla y zanahoria 8 minutos; añadir carne y cocinarla completamente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate y tomillo, y reducir hasta que el relleno quede espeso."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Extender la carne en fuente para horno, cubrir con puré y marcar con tenedor; añadir queso opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Hornear a 200 °C durante 15–20 minutos, hasta calentar el interior y dorar la cubierta. Reposar 10 minutos antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Pastel de patata y carne al horno",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

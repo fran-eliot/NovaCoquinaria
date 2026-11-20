@@ -1,0 +1,297 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Raviolis caseros de ricotta y espinacas\n\n## Descripción\n\nFórmula de referencia centrada en **laminado de pasta fresca, relleno seco y sellado**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Laminado de pasta fresca, relleno seco y sellado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo tipo 00 o común\n- 3 huevos L para la masa\n- 250 g de espinacas frescas\n- 220 g de ricotta bien escurrida\n- 35 g de parmesano rallado\n- 1 cucharada de aceite de oliva\n- una pizca de nuez moscada\n- 35 g de mantequilla para servir\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Preparar la pasta fresca con harina y huevos, amasar hasta que esté lisa y dejar reposar tapada unos 30 minutos.\n2. Saltear las espinacas con aceite hasta que estén completamente cocinadas, escurrir presionando y picarlas finamente; dejar enfriar.\n3. Mezclar espinacas con ricotta escurrida, parmesano, nuez moscada, sal y pimienta. Mantener el relleno refrigerado mientras se trabaja.\n4. Laminar la masa fina por tandas; depositar pequeñas porciones de relleno separadas 3–4 cm en una lámina.\n5. Humedecer apenas los bordes, cubrir con otra lámina, expulsar el aire alrededor del relleno y cortar raviolis, sellando firmemente.\n6. Cocer por tandas en abundante agua hirviendo suavemente, aproximadamente 3–5 minutos según grosor, hasta pasta y relleno completamente cocinados.\n7. Escurrir con espumadera y servir con mantequilla fundida, sin recalentar demasiado para evitar roturas.\n\n## Puntos críticos\n\n- Escurrir y enfriar bien las espinacas y la ricotta antes de rellenar; un exceso de humedad dificulta el sellado.\n- Mantener cubiertas las láminas que no se estén utilizando para evitar que se sequen. Expulsar el aire alrededor del relleno y presionar los bordes sin atraparlo.\n- Cocer por tandas a hervor suave, comprobar que la pasta esté cocida y extraer con espumadera. No probar masa cruda y mantener refrigerado el relleno.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Raviolis abiertos | Bordes húmedos en exceso, relleno en la junta o sellado incompleto | Reducir el relleno por pieza, limpiar los bordes y presionar firmemente |\n| Relleno acuoso | Espinacas o ricotta insuficientemente escurridas | Escurrir por separado antes de mezclar |\n| Bolsas de aire o roturas | Aire atrapado o hervor demasiado intenso | Expulsar el aire al cerrar y mantener hervor suave |\n| Bordes duros | Lámina gruesa o cocción insuficiente | Laminar uniformemente y comprobar la cocción antes de retirar |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. Mantener la masa con huevo y el relleno de ricotta refrigerados si no se utilizan de inmediato; evitar permanencias prolongadas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Ricotta](../11_Despensa/14_Huevos_Lacteos/ricotta.md): escurrido y humedad del relleno.\n- [Pasta fresca al huevo casera](./pasta_fresca_al_huevo_casera.md)\n- [Lasaña de espinacas y ricotta](./lasana_de_espinacas_y_ricotta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **laminado de pasta fresca, relleno seco y sellado**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/raviolis_caseros_de_ricotta_y_espinacas.html",
+  "id": "REC-365",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo tipo 00 o común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo tipo 00 o común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo tipo 00 o común",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para la masa",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L para la masa",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L para la masa",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de espinacas frescas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de espinacas frescas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta bien escurrida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de ricotta bien escurrida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de ricotta bien escurrida",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "parmesano rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de parmesano rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de parmesano rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de nuez moscada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de nuez moscada",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de nuez moscada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla para servir",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de mantequilla para servir",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de mantequilla para servir",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/raviolis_caseros_de_ricotta_y_espinacas.md",
+  "source_sha256": "6c4f47a44ca43b311dd87c0525e448c6e0f40fbcc66fe6ae35c199c1969b556a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Preparar la pasta fresca con harina y huevos, amasar hasta que esté lisa y dejar reposar tapada unos 30 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Saltear las espinacas con aceite hasta que estén completamente cocinadas, escurrir presionando y picarlas finamente; dejar enfriar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mezclar espinacas con ricotta escurrida, parmesano, nuez moscada, sal y pimienta. Mantener el relleno refrigerado mientras se trabaja."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Laminar la masa fina por tandas; depositar pequeñas porciones de relleno separadas 3–4 cm en una lámina."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Humedecer apenas los bordes, cubrir con otra lámina, expulsar el aire alrededor del relleno y cortar raviolis, sellando firmemente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Cocer por tandas en abundante agua hirviendo suavemente, aproximadamente 3–5 minutos según grosor, hasta pasta y relleno completamente cocinados."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Escurrir con espumadera y servir con mantequilla fundida, sin recalentar demasiado para evitar roturas."
+    }
+  ],
+  "techniques": [],
+  "title": "Raviolis caseros de ricotta y espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

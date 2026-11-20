@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 13
+    },
+    "text": "\n# Pollo teriyaki\n\n## Descripción\n\nVersión doméstica de pollo teriyaki con salsa de soja, mirin y un toque dulce, reducida hasta glasear la carne.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocción | 15–20 min |\n| Técnica | Salteado y glaseado |\n\n## Ingredientes\n\n- 600 g de contramuslos de pollo deshuesados en dados;\n- 3 cucharadas de salsa de soja;\n- 2 cucharadas de mirin;\n- 1 cucharada de azúcar o miel;\n- 2 cucharadas de agua;\n- 1 cucharada de aceite neutro;\n- 10 g de jengibre rallado, opcional;\n- cebolleta para terminar, opcional.\n\n**Alérgenos:** soja y, según la salsa, trigo. Comprobar el etiquetado del mirin y de los demás ingredientes.\n\n## Elaboración\n\n1. Cortar pollo en piezas uniformes. Mantener utensilios de pollo crudo separados.\n2. Mezclar soja, mirin, azúcar y agua en un recipiente limpio.\n3. Calentar sartén amplia con aceite; dorar pollo por tandas a fuego medio-alto.\n4. Devolver todo el pollo, añadir jengibre y cocinar brevemente.\n5. Incorporar salsa y reducir a fuego medio, removiendo, hasta que cubra la carne sin quemarse.\n6. Comprobar **74 °C en el centro de las piezas más gruesas**. Si la salsa espesa antes de que el pollo esté listo, añadir un poco de agua y continuar.\n7. Terminar con cebolleta y servir con arroz.\n\n## Puntos críticos\n\n- La salsa de soja aporta sal; no salar antes de probar.\n- El azúcar puede quemarse durante la reducción.\n- No confundir salsa espesa con pollo completamente cocinado.\n- Reservar una porción de salsa limpia antes de contactar con carne cruda si se desea para servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Menos dulce | Reducir azúcar |\n| Con sésamo | Añadir al final y declarar alérgeno |\n| Con verduras | Saltear por separado e integrar al final |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Salsa quemada | Calor alto o azúcar | Bajar fuego y añadir agua |\n| Salsa líquida | Reducción insuficiente | Reducir sin resecar pollo |\n| Pollo seco | Cocción excesiva | Medir temperatura |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Mirin](../11_Despensa/09_Salsas/mirin.md)\n\n## Principio de NovaCoquinaria\n\n> Primero cocinar el pollo; después glasear con una salsa controlada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pollo_teriyaki.html",
+  "id": "REC-0067",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados en dados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de contramuslos de pollo deshuesados en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de contramuslos de pollo deshuesados en dados;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de salsa de soja;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de mirin;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de mirin;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de azúcar o miel;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de azúcar o miel;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre rallado, opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre rallado, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta para terminar, opcional.",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebolleta para terminar, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebolleta para terminar, opcional.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/pollo_teriyaki.md",
+  "source_sha256": "c1c714407c8990ab2928ef62100a92cc9c21840eaef9923d01d00940957631c4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Cortar pollo en piezas uniformes. Mantener utensilios de pollo crudo separados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mezclar soja, mirin, azúcar y agua en un recipiente limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Calentar sartén amplia con aceite; dorar pollo por tandas a fuego medio-alto."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Devolver todo el pollo, añadir jengibre y cocinar brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Incorporar salsa y reducir a fuego medio, removiendo, hasta que cubra la carne sin quemarse."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Comprobar **74 °C en el centro de las piezas más gruesas**. Si la salsa espesa antes de que el pollo esté listo, añadir un poco de agua y continuar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Terminar con cebolleta y servir con arroz."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Pollo teriyaki",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

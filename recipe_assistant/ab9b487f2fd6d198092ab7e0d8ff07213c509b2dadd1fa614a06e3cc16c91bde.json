@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Coles de Bruselas asadas con mostaza y miel\n\n## Descripción\n\nPreparación de referencia basada en **asado de crucíferas y glaseado final**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como guarnición |\n| Técnica | Asado de crucíferas y glaseado final |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de coles de Bruselas limpias\n- 2 cucharadas de aceite de oliva\n- 1 cucharada de mostaza de Dijon\n- 1 cucharadita de miel\n- 2 cucharaditas de vinagre de manzana\n- sal y pimienta\n\n**Alérgenos:** Mostaza.\n\n## Elaboración\n\n1. Precalentar el horno a 210 °C y preparar una bandeja amplia.\n2. Retirar hojas exteriores dañadas y la base seca de las coles, lavarlas, secarlas bien y cortar por la mitad las más grandes.\n3. Mezclar las coles con aceite, sal y pimienta, distribuir con la cara cortada hacia la bandeja y dejar espacio entre las piezas.\n4. Asar 18–24 minutos, dando vuelta una vez, hasta superficie dorada y centro tierno.\n5. Mezclar mostaza, miel y vinagre en un cuenco limpio; incorporar a las coles casi cocidas y devolverlas al horno 3–5 minutos.\n6. Servir calientes tras comprobar que no quede ningún centro excesivamente duro.\n\n## Puntos críticos\n\n- No añadir miel desde el principio: se quema antes de que las coles estén tiernas. La humedad superficial impide un dorado uniforme.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Zanahorias glaseadas con naranja](./zanahorias_glaseadas_con_naranja.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **asado de crucíferas y glaseado final**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/coles_de_bruselas_asadas_con_mostaza_y_miel.html",
+  "id": "REC-400",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "coles de Bruselas limpias",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de coles de Bruselas limpias",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de coles de Bruselas limpias",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mostaza de Dijon",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mostaza de Dijon",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de manzana",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de vinagre de manzana",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de vinagre de manzana",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/coles_de_bruselas_asadas_con_mostaza_y_miel.md",
+  "source_sha256": "455689634a97b23675fcc8a93cc6998c96360791c1e10794149df4fb435427d9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 210 °C y preparar una bandeja amplia."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Retirar hojas exteriores dañadas y la base seca de las coles, lavarlas, secarlas bien y cortar por la mitad las más grandes."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Mezclar las coles con aceite, sal y pimienta, distribuir con la cara cortada hacia la bandeja y dejar espacio entre las piezas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Asar 18–24 minutos, dando vuelta una vez, hasta superficie dorada y centro tierno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Mezclar mostaza, miel y vinagre en un cuenco limpio; incorporar a las coles casi cocidas y devolverlas al horno 3–5 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir calientes tras comprobar que no quede ningún centro excesivamente duro."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Coles de Bruselas asadas con mostaza y miel",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

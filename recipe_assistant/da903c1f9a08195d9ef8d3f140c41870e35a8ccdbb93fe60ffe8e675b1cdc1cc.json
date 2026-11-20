@@ -1,0 +1,311 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Larb de cerdo con lima y menta\n\n## Descripción\n\n**Perfil:** Laos y Tailandia, ensalada templada de carne picada bien cocinada. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 25–30 min |\n| Estado | Propuesta pendiente de prueba |\n\n## Ingredientes\n\n- 450 g de carne picada de cerdo\n- 2 cucharadas de zumo de lima\n- 1½ cucharadas de salsa de pescado, ajustables\n- 60 g de chalota o cebolla morada muy picada\n- 12 hojas de menta fresca lavada\n- 1 cucharada de cilantro fresco picado\n- ½ cucharadita de chile seco molido, opcional\n- 25 g de arroz glutinoso seco para tostar y moler, opcional\n- 2 cucharadas de agua\n\n**Alérgenos:** Pescado por la salsa; revisar otros alérgenos del producto comercial.\n\n## Elaboración\n\n1. Si se emplea arroz tostado, tostar el arroz seco a fuego medio 6–9 minutos hasta dorado, enfriar y moler grueso en utensilio limpio.\n2. Poner cerdo picado en sartén amplia con dos cucharadas de agua y cocinar removiendo y separando grumos.\n3. Continuar hasta que la carne alcance 71 °C en el centro y no queden partes crudas; retirar del fuego.\n4. Agregar lima y salsa de pescado, probar y ajustar gradualmente por la salinidad de esta última.\n5. Incorporar chalota, chile opcional y arroz tostado molido; mezclar y terminar con menta y cilantro.\n6. Servir templado inmediatamente, acompañado de hojas de lechuga lavadas si se desea.\n\n## Puntos críticos\n\n- En esta adaptación se cuece totalmente la carne picada; no servir carne de cerdo picada cruda. La salsa de pescado es salada y el arroz tostado es opcional, aunque aporta un rasgo importante del plato.\n- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.\n- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado observado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |\n| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |\n| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Lima](../11_Despensa/11_Condimentos/lima.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, producto, equipo, temperatura o tiempos, textura, ajustes y valoración. No se atribuye esta propuesta a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "declared_total",
+      "raw": "25–30 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "**Perfil:** Laos y Tailandia, ensalada templada de carne picada bien cocinada. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Propuesta pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/larb_de_cerdo_con_lima_y_menta.html",
+  "id": "REC-350",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carne picada de cerdo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de carne picada de cerdo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de carne picada de cerdo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de lima",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de lima",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado, ajustables",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1½ cucharadas de salsa de pescado, ajustables",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1½ cucharadas de salsa de pescado, ajustables",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chalota o cebolla morada muy picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de chalota o cebolla morada muy picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de chalota o cebolla morada muy picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "menta fresca lavada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 hojas de menta fresca lavada",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "12 hojas de menta fresca lavada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de cilantro fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de cilantro fresco picado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "chile seco molido, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de chile seco molido, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de chile seco molido, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz glutinoso seco para tostar y moler, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de arroz glutinoso seco para tostar y moler, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de arroz glutinoso seco para tostar y moler, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/larb_de_cerdo_con_lima_y_menta.md",
+  "source_sha256": "4af12c30e395e983d112a14c13ca20ed44c78cb809ba78cb86f84d92d03a33d7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Si se emplea arroz tostado, tostar el arroz seco a fuego medio 6–9 minutos hasta dorado, enfriar y moler grueso en utensilio limpio."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Poner cerdo picado en sartén amplia con dos cucharadas de agua y cocinar removiendo y separando grumos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Continuar hasta que la carne alcance 71 °C en el centro y no queden partes crudas; retirar del fuego."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Agregar lima y salsa de pescado, probar y ajustar gradualmente por la salinidad de esta última."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Incorporar chalota, chile opcional y arroz tostado molido; mezclar y terminar con menta y cilantro."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Servir templado inmediatamente, acompañado de hojas de lechuga lavadas si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    }
+  ],
+  "title": "Larb de cerdo con lima y menta",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Judiones de La Granja con chorizo y oreja\n\n## Origen y contexto\n\n**Región:** La Granja de San Ildefonso, Segovia. Versión doméstica de referencia basada en rasgos regionales reconocibles, con adaptaciones identificadas cuando procede. No consta como receta ya preparada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones |\n| Tiempo orientativo | 12 h de remojo más 2½–4 h de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de judiones secos de buena calidad\n- 250 g de oreja de cerdo limpia, preparada para cocinar\n- 180 g de chorizo apto para cocción\n- 160 g de panceta fresca\n- 1 cebolla mediana de unos 180 g\n- 1 zanahoria de 120 g\n- 2 dientes de ajo\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce\n- 3 cucharadas de aceite de oliva\n- agua potable abundante y sal al final\n\n**Alérgenos:** Revisar chorizo comercial por gluten, soja, sulfitos y otros posibles alérgenos.\n\n## Elaboración\n\n1. Remojar los judiones en abundante agua potable durante 10–12 horas y escurrir. Si se emplea oreja de cerdo fresca, revisar que esté limpia y preparada por carnicería autorizada.\n2. Cubrir los judiones con agua fría en cazuela amplia, añadir laurel, cebolla y zanahoria enteras y llevar gradualmente a ebullición.\n3. Incorporar oreja y panceta, desespumar y cocer a hervor muy suave unas 2–3 horas o hasta acercarse al punto tierno, añadiendo agua caliente si fuera necesario.\n4. Añadir el chorizo de acuerdo con su presentación comercial y continuar la cocción hasta que las carnes y el embutido queden completamente hechos.\n5. Retirar cebolla y zanahoria y triturar con parte del caldo si se desea un espesante natural sin romper judiones.\n6. Sofreír el ajo picado con aceite, apartar del calor e incorporar pimentón para que no se queme. Añadir al guiso junto con el puré de hortalizas.\n7. Terminar a fuego suave hasta que todos los judiones estén completamente tiernos, probar sal, retirar laurel y servir caliente.\n\n## Puntos críticos\n\n- Los judiones son grandes y requieren cocción lenta después del remojo. No confundir esta versión cárnica segoviana con los judiones con almejas ya registrados; las carnes deben cocinarse completamente.\n- Adaptar tiempos y cantidades a la materia prima y al equipo; seguir las indicaciones de productos comerciales y garantizar higiene, cadena de frío y cocción completa de ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Interior duro o incompleto | Tiempo insuficiente o piezas grandes | Comprobar el punto real y prolongar suavemente |\n| Preparación con exceso de agua | Líquido sobrante o escurrido insuficiente | Ajustar hidratación, reducir o escurrir |\n| Sabor desequilibrado | Sal, grasa o azúcar excesivos | Rectificar después de probar y registrar cantidades |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío carnes, pescados, huevos y lácteos y evitar horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocido montañés de alubias y berza](./cocido_montanes_con_alubias_berza_y_compango.md)\n- [Olla podrida burgalesa](./olla_podrida_burgalesa_de_alubias_rojas_y_compango.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, cantidades, cocción, textura y valoración. Esta propuesta no sustituye versiones previas sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 h de remojo más 2½–4 h de cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/judiones_de_la_granja_con_chorizo_y_oreja.html",
+  "id": "REC-520",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "judiones secos de buena calidad",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de judiones secos de buena calidad",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de judiones secos de buena calidad",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "oreja de cerdo limpia, preparada para cocinar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de oreja de cerdo limpia, preparada para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de oreja de cerdo limpia, preparada para cocinar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo apto para cocción",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de chorizo apto para cocción",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de chorizo apto para cocción",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de panceta fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de panceta fresca",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana de unos 180 g",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana de unos 180 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana de unos 180 g",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria de 120 g",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria de 120 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria de 120 g",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable abundante y sal al final",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable abundante y sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable abundante y sal al final",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/judiones_de_la_granja_con_chorizo_y_oreja.md",
+  "source_sha256": "e6bcf7e0c521b4c17fbb9a1a7a9ee5700c3ee88b0cbddc2e0e2ec1f345ea95a3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Remojar los judiones en abundante agua potable durante 10–12 horas y escurrir. Si se emplea oreja de cerdo fresca, revisar que esté limpia y preparada por carnicería autorizada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Cubrir los judiones con agua fría en cazuela amplia, añadir laurel, cebolla y zanahoria enteras y llevar gradualmente a ebullición."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Incorporar oreja y panceta, desespumar y cocer a hervor muy suave unas 2–3 horas o hasta acercarse al punto tierno, añadiendo agua caliente si fuera necesario."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Añadir el chorizo de acuerdo con su presentación comercial y continuar la cocción hasta que las carnes y el embutido queden completamente hechos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Retirar cebolla y zanahoria y triturar con parte del caldo si se desea un espesante natural sin romper judiones."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Sofreír el ajo picado con aceite, apartar del calor e incorporar pimentón para que no se queme. Añadir al guiso junto con el puré de hortalizas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Terminar a fuego suave hasta que todos los judiones estén completamente tiernos, probar sal, retirar laurel y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Judiones de La Granja con chorizo y oreja",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

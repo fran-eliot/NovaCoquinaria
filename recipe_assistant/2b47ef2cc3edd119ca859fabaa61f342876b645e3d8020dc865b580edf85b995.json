@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Ful medames de habas con comino y limón\n\n## Descripción\n\nPreparación de referencia basada en **machacado parcial y aliño caliente**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 como plato o 4 como entrante |\n| Técnica principal | Machacado parcial y aliño caliente |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de habas maduras completamente cocidas y escurridas (preferiblemente habas secas cocidas, no habitas tiernas)\n- 2 dientes de ajo pequeños majados\n- 2 cucharadas de aceite de oliva\n- 2 cucharadas de zumo de limón\n- ½ cucharadita de comino molido\n- 80–120 ml de agua de cocción limpia o agua potable caliente\n- sal y perejil picado\n\n**Alérgenos:** Habas: precaución para personas con déficit de G6PD.\n\n## Elaboración\n\n1. Comprobar que las habas han sido cocidas por completo; si se usa conserva, enjuagar y escurrir.\n2. Calentar suavemente las habas en cazuela con parte del agua durante 5–8 minutos.\n3. Machacar aproximadamente un tercio de las habas para espesar el conjunto sin obtener un puré uniforme.\n4. Incorporar ajo y comino, cocinar 2 minutos a fuego suave.\n5. Retirar del fuego y añadir limón y aceite; ajustar la consistencia con más agua caliente.\n6. Probar la sal y servir caliente o templado con perejil.\n\n## Puntos críticos\n\n- Usar habas ya completamente cocidas. El favismo (déficit de G6PD) contraindica el consumo de habas en personas afectadas. No confundir habas secas cocidas con habas frescas tiernas.\n- Distinguir las legumbres secas de las cocidas. Los tiempos de salteado, horneado o aliño no sustituyen la cocción segura de las legumbres secas.\n- Adaptar líquidos y tiempos al grosor, variedad y recipiente; utilizar utensilios limpios y refrigerar ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Legumbre demasiado firme | Cocción previa insuficiente | Terminar la cocción antes de preparar el plato |\n| Salsa aguada | Exceso de caldo o verduras húmedas | Reducir por separado o destapar al final |\n| Textura pastosa | Triturado o mezclado excesivo | Reservar parte de los ingredientes sin triturar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las ensaladas y cremas frías elaboradas con legumbres cocidas requieren higiene y conservación refrigerada; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Frijoles refritos con ajo y comino](./frijoles_refritos_con_ajo_y_comino.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades, variedad, tiempo de cocción, textura y valoración. Esta propuesta no sustituye ninguna preparación doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **machacado parcial y aliño caliente**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ful_medames_de_habas_con_comino_y_limon.html",
+  "id": "REC-394",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "habas maduras completamente cocidas y escurridas (preferiblemente habas secas cocidas, no habitas tiernas)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de habas maduras completamente cocidas y escurridas (preferiblemente habas secas cocidas, no habitas tiernas)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de habas maduras completamente cocidas y escurridas (preferiblemente habas secas cocidas, no habitas tiernas)",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeños majados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo pequeños majados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo pequeños majados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de limón",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción limpia o agua potable caliente",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "80",
+        "raw": "80–120 ml de agua de cocción limpia o agua potable caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–120 ml de agua de cocción limpia o agua potable caliente",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y perejil picado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y perejil picado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y perejil picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/ful_medames_de_habas_con_comino_y_limon.md",
+  "source_sha256": "f999d278a93885a49f1e6532fcfc1763609ce36b8275164a00116b0c43b13713",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Comprobar que las habas han sido cocidas por completo; si se usa conserva, enjuagar y escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar suavemente las habas en cazuela con parte del agua durante 5–8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Machacar aproximadamente un tercio de las habas para espesar el conjunto sin obtener un puré uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Incorporar ajo y comino, cocinar 2 minutos a fuego suave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Retirar del fuego y añadir limón y aceite; ajustar la consistencia con más agua caliente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Probar la sal y servir caliente o templado con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Ful medames de habas con comino y limón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3 como plato o 4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

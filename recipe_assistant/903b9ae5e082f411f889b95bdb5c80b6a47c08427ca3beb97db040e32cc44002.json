@@ -1,0 +1,246 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Cochifrito segoviano de cochinillo\n\n## Origen y contexto\n\n**Región:** Segovia, Castilla y León. Fórmula doméstica orientativa que recoge rasgos reconocibles de la tradición regional. Se diferencia de preparaciones relacionadas cuando corresponde, sin atribuir prueba ni valoración previa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–75 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 850 g de cochinillo fresco troceado pequeño, sin vísceras, preparado por carnicería autorizada\n- 6 dientes de ajo enteros sin pelar, ligeramente chafados\n- 2 hojas de laurel\n- 100 ml de agua o caldo suave para cocción inicial\n- aceite de oliva adecuado para freír, suficiente para cocinar por tandas\n- sal moderada y limón opcional\n\n**Alérgenos:** Sin alérgenos principales añadidos; revisar caldo comercial.\n\n## Elaboración\n\n1. Adquirir cochinillo correctamente preparado, refrigerado y cortado en trozos de tamaño uniforme; revisar astillas óseas y retirar las que se detecten.\n2. Poner los trozos en cazuela con agua o caldo, laurel y una pizca de sal; tapar y cocinar a fuego suave 20–30 minutos, ajustando hasta que la carne avance claramente en su cocción.\n3. Destapar y evaporar completamente el líquido residual. Secar superficialmente las piezas con cuidado antes de freír para reducir salpicaduras.\n4. Calentar aceite a unos 170–175 °C en sartén profunda, incorporar ajos chafados para aromatizar, sin quemarlos, y retirarlos si se tuestan.\n5. Freír el cochinillo en tandas pequeñas hasta que quede muy dorado y crujiente por fuera y completamente cocinado por dentro. Comprobar al menos 74 °C en el centro de la carne como objetivo conservador.\n6. Escurrir en rejilla, retirar fragmentos óseos sueltos, salar con moderación y servir inmediatamente.\n\n## Puntos críticos\n\n- El cochifrito se termina con fritura intensa y crujiente, no con asado prolongado como el cochinillo segoviano al horno. El agua de la cocción inicial debe evaporarse y las piezas secarse antes de introducirlas en aceite para evitar salpicaduras peligrosas.\n- Ajustar duración, tamaño de las piezas y líquidos a la materia prima. Mantener la cadena de frío e higiene alimentaria y comprobar la cocción completa de carnes, pescados, mariscos y huevos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una futura prueba |\n|---|---|---|\n| Ingrediente principal demasiado firme | Falta de cocción o tamaño desigual | Igualar porciones y comprobar el interior |\n| Salsa, masa o caldo descompensados | Hidratación excesiva o reducción insuficiente | Ajustar líquido, tiempo y calor progresivamente |\n| Sabor poco equilibrado | Exceso de sal o condimento | Probar y corregir antes del servicio |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carne, pescado, crustáceos, moluscos, huevos o lácteos necesitan manipulación higiénica y cadena de frío. Recalentar completamente las raciones que deban servirse calientes; no mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cochinillo asado estilo segoviano](../10_Horno/cochinillo_asado_estilo_segoviano.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar las cantidades, tiempos, producto utilizado, resultado y valoración reales. Esta formulación no sustituye preparaciones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–75 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/cochifrito_segoviano_de_cochinillo.html",
+  "id": "REC-517",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cochinillo fresco troceado pequeño, sin vísceras, preparado por carnicería autorizada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 g de cochinillo fresco troceado pequeño, sin vísceras, preparado por carnicería autorizada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "850 g de cochinillo fresco troceado pequeño, sin vísceras, preparado por carnicería autorizada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo enteros sin pelar, ligeramente chafados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 dientes de ajo enteros sin pelar, ligeramente chafados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "6 dientes de ajo enteros sin pelar, ligeramente chafados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave para cocción inicial",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo suave para cocción inicial",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo suave para cocción inicial",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva adecuado para freír, suficiente para cocinar por tandas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva adecuado para freír, suficiente para cocinar por tandas",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva adecuado para freír, suficiente para cocinar por tandas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y limón opcional",
+      "optionality": "unknown",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y limón opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y limón opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/cochifrito_segoviano_de_cochinillo.md",
+  "source_sha256": "4c71f9680ba9191d03388a867660e38675ca8cc7b0f401b7381d03928d607250",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Adquirir cochinillo correctamente preparado, refrigerado y cortado en trozos de tamaño uniforme; revisar astillas óseas y retirar las que se detecten."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Poner los trozos en cazuela con agua o caldo, laurel y una pizca de sal; tapar y cocinar a fuego suave 20–30 minutos, ajustando hasta que la carne avance claramente en su cocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Destapar y evaporar completamente el líquido residual. Secar superficialmente las piezas con cuidado antes de freír para reducir salpicaduras."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Calentar aceite a unos 170–175 °C en sartén profunda, incorporar ajos chafados para aromatizar, sin quemarlos, y retirarlos si se tuestan."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Freír el cochinillo en tandas pequeñas hasta que quede muy dorado y crujiente por fuera y completamente cocinado por dentro. Comprobar al menos 74 °C en el centro de la carne como objetivo conservador."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Escurrir en rejilla, retirar fragmentos óseos sueltos, salar con moderación y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Cochifrito segoviano de cochinillo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

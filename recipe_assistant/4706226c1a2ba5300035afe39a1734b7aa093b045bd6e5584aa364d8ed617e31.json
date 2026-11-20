@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 89,
+      "start_line": 14
+    },
+    "text": "\n# Calamares salteados con jengibre y verduras\n\n## Descripción\n\nCalamares en tiras salteados a fuego vivo con pimiento, cebolla y jengibre. El método evita que el calamar cueza en su propia agua.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocinado | 10–15 min |\n| Técnica | Salteado por tandas |\n\n## Ingredientes\n\n- 600 g de calamares limpios;\n- 1 pimiento rojo (180 g);\n- 1/2 cebolla (100 g);\n- 15 g de jengibre fresco;\n- 2 dientes de ajo;\n- 2 cucharadas de aceite neutro;\n- 1 cucharada de salsa de soja;\n- 1 cucharada de agua;\n- unas gotas de limón.\n\n**Alérgenos:** moluscos, soja; posible trigo en salsa de soja.\n\n## Elaboración\n\n1. Descongelar calamares en refrigeración si procede. Limpiar, cortar en tiras y secar muy bien.\n2. Cortar pimiento y cebolla en tiras finas; picar ajo y jengibre. Mezclar soja con agua en recipiente limpio.\n3. Calentar sartén amplia con parte del aceite. Saltear calamares por tandas breves a fuego alto hasta que estén bien cocinados; retirar a plato limpio.\n4. Añadir aceite restante y saltear pimiento y cebolla 4–6 minutos, según grosor.\n5. Incorporar ajo y jengibre durante 1 minuto sin quemar.\n6. Devolver calamares, añadir soja diluida y mezclar brevemente. Terminar con limón.\n\n## Puntos críticos\n\n- El calamar húmedo enfría la sartén y produce vapor.\n- Cocinar por tandas y no prolongar innecesariamente el salteado.\n- La salsa de soja ya aporta sal.\n- Mantener higiene y separación de utensilios para producto crudo.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con chile | Añadir al final |\n| Con champiñones | Saltear aparte para eliminar agua |\n| Sin soja | Sustituir por limón y sal moderada |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Calamares gomosos | Cocción prolongada | Acortar salteado |\n| Verduras aguadas | Sartén saturada | Trabajar por tandas |\n| Salsa salada | Soja concentrada | Diluir |\n\n## Conservación\n\nRefrigerar rápidamente las sobras y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Calamar](../11_Despensa/05_Mariscos/calamar.md)\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Diagnóstico de pescados y mariscos](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md)\n\n## Principio de NovaCoquinaria\n\n> Secar y saltear por tandas permite dorar el calamar sin cocerlo en exceso de líquido."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/calamares_salteados_con_jengibre.html",
+  "id": "REC-0066",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calamares limpios;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de calamares limpios;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de calamares limpios;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (180 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (100 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla (100 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla (100 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de agua;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "unas gotas de limón.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de limón.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de limón.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/calamares_salteados_con_jengibre.md",
+  "source_sha256": "55d567fc8808289d3b5deec04a2dda91d1c4e29853096e4795a465a637a992d9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Descongelar calamares en refrigeración si procede. Limpiar, cortar en tiras y secar muy bien."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cortar pimiento y cebolla en tiras finas; picar ajo y jengibre. Mezclar soja con agua en recipiente limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Calentar sartén amplia con parte del aceite. Saltear calamares por tandas breves a fuego alto hasta que estén bien cocinados; retirar a plato limpio."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir aceite restante y saltear pimiento y cebolla 4–6 minutos, según grosor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar ajo y jengibre durante 1 minuto sin quemar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Devolver calamares, añadir soja diluida y mezclar brevemente. Terminar con limón."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 83,
+        "start_line": 83
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Calamares salteados con jengibre y verduras",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

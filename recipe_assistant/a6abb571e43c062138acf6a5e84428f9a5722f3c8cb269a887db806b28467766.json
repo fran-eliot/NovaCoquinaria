@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Pollo en salsa de champiñones\n\n## Descripción\n\nPechuga de pollo dorada y terminada en salsa de champiñones, cebolla y caldo. La salsa se construye después de evaporar el agua de las setas para mantener sabor y textura.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 25–30 minutos |\n| Dificultad | Media |\n| Técnica principal | Dorado, evaporación y cocción final |\n\n## Ingredientes\n\n- 600 g de pechuga de pollo en filetes gruesos\n- 300 g de champiñones laminados\n- 1 cebolla pequeña, picada\n- 2 dientes de ajo, picados\n- 200 ml de caldo de pollo\n- 100 ml de nata para cocinar, opcional\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 cucharadita de mostaza suave, opcional\n- sal y pimienta negra\n- perejil opcional\n\n**Alérgenos:** Leche si se usa nata; mostaza si se utiliza. Comprobar el caldo.\n\n## Mise en place\n\nLimpiar los champiñones y secarlos; secar la superficie del pollo sin lavarlo y mantener utensilios separados. Preparar el caldo y un termómetro alimentario.\n\n## Elaboración\n\n### 1. Dorar pollo\n\nCalentar aceite y dorar los filetes por tandas 2–3 minutos por lado, sin asumir que están totalmente cocinados. Retirar a un plato limpio.\n\n### 2. Concentrar setas\n\nSaltear champiñones en la misma sartén 5–7 minutos, hasta evaporar buena parte del agua y dorarse. Retirar temporalmente.\n\n### 3. Preparar sofrito\n\nCocinar cebolla 5 minutos a fuego medio-bajo. Añadir ajo durante el último minuto.\n\n### 4. Formar salsa\n\nAñadir caldo y raspar el fondo. Incorporar champiñones, nata o mostaza opcionales y llevar a hervor suave.\n\n### 5. Terminar pollo\n\nDevolver el pollo con sus jugos y cocinar a fuego moderado hasta alcanzar al menos 74 °C en la parte más gruesa. Ajustar densidad con caldo o reducción breve, según necesidad.\n\n## Puntos críticos\n\n- El dorado inicial no garantiza que el pollo esté hecho: medir 74 °C.\n- Secar y dorar los champiñones antes de añadir caldo evita una salsa aguada.\n- La nata se incorpora con calor moderado para evitar separación y sobre-reducción.\n\n## Perfil esperado\n\nPollo completamente cocinado pero jugoso y salsa ligada con sabor concentrado de champiñón.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Sin nata | Reducir el caldo y ligar con una pequeña cantidad de puré de cebolla |\n| Con tomillo | Añadir una pizca al sofrito |\n| Con vino | Desglasar con 50 ml y reducir antes del caldo; no elimina necesariamente todo el alcohol |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pollo seco | Cocción prolongada | Controlar el punto con termómetro |\n| Salsa acuosa | Champiñones sin dorar | Evaporar el líquido antes de añadir caldo |\n| Salsa separada | Calor excesivo con nata | Usar hervor suave |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos y refrigerar tapadas. Consumir en un plazo corto, recalentar completamente antes de servir y no mantener carne cocinada largo tiempo a temperatura ambiente. Congelar en porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Champiñón](../11_Despensa/07_Setas/champinon.md)\n- [Diagnóstico de carnes](../98_Tablas/07_Comparativas/diagnostico_carnes.md)\n\n## Principio de NovaCoquinaria\n\n> Una salsa de setas se concentra antes de incorporar el líquido, y el pollo se termina sin sobrecocinar.\n\n## Utilizado por\n\nReceta de referencia del módulo Carnes para dorado, evaporación y cocción final."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_en_salsa_de_champinones.html",
+  "id": "REC-0125",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pechuga de pollo en filetes gruesos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de pechuga de pollo en filetes gruesos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de pechuga de pollo en filetes gruesos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones laminados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de champiñones laminados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de champiñones laminados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña, picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña, picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña, picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de caldo de pollo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de caldo de pollo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para cocinar, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de nata para cocinar, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de nata para cocinar, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza suave, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza suave, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza suave, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLimpiar los champiñones y secarlos; secar la superficie del pollo sin lavarlo y mantener utensilios separados. Preparar el caldo y un termómetro alimentario.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pollo_en_salsa_de_champinones.md",
+  "source_sha256": "453ffe21fc38f86afae73712fe0af367ee04768d7f5f969375aa3f37ff2e1baf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Dorar pollo\n\nCalentar aceite y dorar los filetes por tandas 2–3 minutos por lado, sin asumir que están totalmente cocinados. Retirar a un plato limpio.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Concentrar setas\n\nSaltear champiñones en la misma sartén 5–7 minutos, hasta evaporar buena parte del agua y dorarse. Retirar temporalmente.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Preparar sofrito\n\nCocinar cebolla 5 minutos a fuego medio-bajo. Añadir ajo durante el último minuto.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Formar salsa\n\nAñadir caldo y raspar el fondo. Incorporar champiñones, nata o mostaza opcionales y llevar a hervor suave.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Terminar pollo\n\nDevolver el pollo con sus jugos y cocinar a fuego moderado hasta alcanzar al menos 74 °C en la parte más gruesa. Ajustar densidad con caldo o reducción breve, según necesidad.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Pollo en salsa de champiñones",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

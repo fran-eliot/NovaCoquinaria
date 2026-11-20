@@ -1,0 +1,362 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 125,
+      "start_line": 16
+    },
+    "text": "\n# Espaguetis a la puttanesca\n\n## Descripción\n\nSalsa de tomate de carácter intenso con aceitunas, alcaparras, ajo y, en una versión habitual, anchoas. La preparación combina salinidad, acidez y notas aromáticas, por lo que exige moderación al salar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 20 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Sofrito breve, reducción y acabado en salsa |\n\n## Ingredientes\n\n- 200 g de espaguetis;\n- 300 g de tomate pelado troceado o triturado;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 2 dientes de ajo laminados;\n- 3 filetes de anchoa en aceite, opcionales según la variante;\n- 50 g de aceitunas negras sin hueso, cortadas;\n- 1 cucharada de alcaparras, escurridas;\n- 1 pizca de chile en copos, opcional;\n- perejil fresco picado, opcional;\n- sal solo después de probar;\n- agua de cocción de la pasta.\n\n**Alérgenos:** pescado si se utilizan anchoas; gluten en pasta de trigo.\n\n## Mise en place\n\nPreparar ajo, aceitunas y alcaparras. Si las alcaparras están conservadas en sal, enjuagarlas antes de utilizarlas. Tener el tomate listo y una sartén amplia.\n\n## Elaboración\n\n### 1. Preparar el fondo\n\nCalentar el aceite a fuego medio-bajo. Añadir el ajo y el chile, si se utiliza. Cocinar brevemente sin quemar el ajo. Incorporar las anchoas y remover hasta que se deshagan en el aceite.\n\n### 2. Desarrollar la salsa\n\nAñadir el tomate con cuidado. Cocinar a fuego medio-bajo durante unos 10–15 minutos, hasta que pierda parte del líquido y concentre su sabor.\n\nIncorporar aceitunas y alcaparras durante los últimos minutos para que se integren sin perder su identidad.\n\n### 3. Cocer la pasta\n\nCocer los espaguetis en agua moderadamente salada. Retirarlos ligeramente antes del punto final y reservar una taza de agua de cocción.\n\n### 4. Terminar en salsa\n\nMezclar la pasta con la salsa durante 1–2 minutos. Ajustar la consistencia con pequeñas cantidades de agua de cocción. Probar antes de añadir sal.\n\n### 5. Servir\n\nRetirar del fuego, incorporar perejil si se desea y servir inmediatamente.\n\n## Puntos críticos\n\n- Las anchoas, aceitunas y alcaparras pueden aportar suficiente sal por sí solas.\n- El tomate debe reducir antes de incorporar la pasta; una salsa aguada no recubre bien.\n- El ajo quemado aporta amargor.\n- Las anchoas deben integrarse en la grasa, no permanecer como trozos dominantes salvo preferencia expresa.\n\n## Perfil esperado\n\nTomate concentrado, salinidad equilibrada, notas de aceituna y alcaparra, picante moderado si se utiliza y pasta firme.\n\n## Variantes y sustituciones\n\n| Cambio | Resultado |\n|---|---|\n| Omitir anchoas | Versión sin pescado, de menor profundidad umami |\n| Añadir más chile | Mayor picante |\n| Utilizar linguine | Textura distinta, mismo principio de salsa |\n| Usar aceitunas de otra variedad | Cambia la intensidad y el perfil salino |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Salar antes de probar | Exceso de sal | Ajustar al final |\n| Reducir poco el tomate | Salsa acuosa | Cocinar hasta concentrar |\n| Quemar el ajo | Amargor | Fuego moderado |\n| Añadir demasiada agua al acabar | Pérdida de intensidad | Incorporar gradualmente |\n\n## Conservación\n\nRefrigerar las sobras rápidamente en recipiente cerrado. Recalentar de forma completa y suave, añadiendo una pequeña cantidad de agua si es necesario. La textura de la pasta puede deteriorarse.\n\n## Principio de NovaCoquinaria\n\n> En una salsa con ingredientes curados y conservados, el equilibrio depende tanto de la sal que se evita como de la que se añade.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n- [Relación entre formatos y salsas](../98_Tablas/07_Comparativas/relacion_pasta_salsa.md)\n- [Conservación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Utilizado por\n\nReceta de referencia del dominio **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_a_la_puttanesca.html",
+  "id": "REC-0029",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espaguetis;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espaguetis;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate pelado troceado o triturado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate pelado troceado o triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate pelado troceado o triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "filetes de anchoa en aceite, opcionales según la variante;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 filetes de anchoa en aceite, opcionales según la variante;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 filetes de anchoa en aceite, opcionales según la variante;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras sin hueso, cortadas;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de aceitunas negras sin hueso, cortadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de aceitunas negras sin hueso, cortadas;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "alcaparras, escurridas;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de alcaparras, escurridas;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de alcaparras, escurridas;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "chile en copos, opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de chile en copos, opcional;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de chile en copos, opcional;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco picado, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco picado, opcional;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo después de probar;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo después de probar;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo después de probar;",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de la pasta.",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción de la pasta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción de la pasta.",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPreparar ajo, aceitunas y alcaparras. Si las alcaparras están conservadas en sal, enjuagarlas antes de utilizarlas. Tener el tomate listo y una sartén amplia.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/pasta_a_la_puttanesca.md",
+  "source_sha256": "d89ab50a59e69e10cc536781a1e305fd11cef00c67acb40352b20d596df6e66a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 1,
+      "text": "1. Preparar el fondo\n\nCalentar el aceite a fuego medio-bajo. Añadir el ajo y el chile, si se utiliza. Cocinar brevemente sin quemar el ajo. Incorporar las anchoas y remover hasta que se deshagan en el aceite.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 59
+      },
+      "source_number": 2,
+      "text": "2. Desarrollar la salsa\n\nAñadir el tomate con cuidado. Cocinar a fuego medio-bajo durante unos 10–15 minutos, hasta que pierda parte del líquido y concentre su sabor.\n\nIncorporar aceitunas y alcaparras durante los últimos minutos para que se integren sin perder su identidad.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 3,
+      "text": "3. Cocer la pasta\n\nCocer los espaguetis en agua moderadamente salada. Retirarlos ligeramente antes del punto final y reservar una taza de agua de cocción.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 4,
+      "text": "4. Terminar en salsa\n\nMezclar la pasta con la salsa durante 1–2 minutos. Ajustar la consistencia con pequeñas cantidades de agua de cocción. Probar antes de añadir sal.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 73
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRetirar del fuego, incorporar perejil si se desea y servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 117,
+        "start_line": 117
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 118,
+        "start_line": 118
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Espaguetis a la puttanesca",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

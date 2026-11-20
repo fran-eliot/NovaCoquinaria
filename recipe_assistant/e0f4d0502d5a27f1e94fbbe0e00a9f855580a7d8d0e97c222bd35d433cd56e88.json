@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Limonada de jengibre y romero\n\n## Descripción\n\nBebida de referencia basada en **infusión aromática, enfriamiento y equilibrio de acidez**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Infusión aromática, enfriamiento y equilibrio de acidez |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 140 ml de zumo de limón recién exprimido y colado\n- 750 ml de agua potable en total\n- 20 g de jengibre fresco en láminas finas\n- 1 ramita pequeña de romero bien lavado\n- 35–55 g de azúcar, ajustables\n- cubitos de hielo al servir\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Reservar el zumo de limón colado en refrigeración.\n2. Calentar 250 ml del agua con el jengibre y el romero, retirar del calor y tapar 6–8 minutos.\n3. Filtrar la infusión para retirar jengibre y romero, disolver en ella el azúcar y dejarla perder calor.\n4. Mezclar con los 500 ml de agua restante fría y enfriar rápidamente.\n5. Añadir el zumo de limón cuando la mezcla esté fría; probar y ajustar acidez, dulzor y dilución.\n6. Refrigerar y servir con hielo, evitando dejar hierbas en maceración indefinida.\n\n## Puntos críticos\n\n- El romero puede dominar o amargar si se deja demasiado tiempo. La infusión caliente debe enfriarse antes de añadir el limón para conservar el perfil fresco.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |\n| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |\n| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |\n\n## Conservación\n\nPreparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.\n\n## Relaciones dentro del SGCC\n\n- [Limón](../11_Despensa/11_Condimentos/limon.md): dosificación de acidez y uso del zumo.\n- [Limonada casera](./limonada_casera.md)\n- [Infusión de jengibre y limón](./infusion_de_jengibre_y_limon.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **infusión aromática, enfriamiento y equilibrio de acidez**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/limonada_de_jengibre_y_romero.html",
+  "id": "REC-321",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zumo de limón recién exprimido y colado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 ml de zumo de limón recién exprimido y colado",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "140 ml de zumo de limón recién exprimido y colado",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable en total",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua potable en total",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua potable en total",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en láminas finas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de jengibre fresco en láminas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de jengibre fresco en láminas finas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita pequeña de romero bien lavado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita pequeña de romero bien lavado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita pequeña de romero bien lavado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustables",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "35",
+        "raw": "35–55 g de azúcar, ajustables",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "35–55 g de azúcar, ajustables",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cubitos de hielo al servir",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cubitos de hielo al servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cubitos de hielo al servir",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/limonada_de_jengibre_y_romero.md",
+  "source_sha256": "aae06055e347430bcda98150a63e93ca2e2692cbcfe325309fe7590d278ae9bf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Reservar el zumo de limón colado en refrigeración."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar 250 ml del agua con el jengibre y el romero, retirar del calor y tapar 6–8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Filtrar la infusión para retirar jengibre y romero, disolver en ella el azúcar y dejarla perder calor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Mezclar con los 500 ml de agua restante fría y enfriar rápidamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Añadir el zumo de limón cuando la mezcla esté fría; probar y ajustar acidez, dulzor y dilución."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Refrigerar y servir con hielo, evitando dejar hierbas en maceración indefinida."
+    }
+  ],
+  "techniques": [],
+  "title": "Limonada de jengibre y romero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

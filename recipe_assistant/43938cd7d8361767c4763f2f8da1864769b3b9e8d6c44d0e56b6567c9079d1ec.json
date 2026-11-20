@@ -1,0 +1,276 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 13
+    },
+    "text": "\n# Peras al vino tinto y especias\n\n## Descripción\n\nPeras enteras o partidas cocidas suavemente en vino tinto aromatizado con canela y cítricos. Preparación para adultos; la cocción **no garantiza la eliminación completa del alcohol**.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Cocción | 30–45 min, según madurez |\n| Técnica | Pochado y reducción |\n\n## Ingredientes\n\n- 4 peras firmes;\n- 500 ml de vino tinto;\n- 100–120 g de azúcar;\n- 1 rama de canela;\n- piel de medio limón o naranja sin parte blanca;\n- 1 clavo de olor, opcional;\n- 150 ml de agua, si hace falta cubrir.\n\n## Elaboración\n\n1. Pelar peras dejando rabito si se desea. Retirar corazón con cuidado si se sirven enteras.\n2. Calentar vino, azúcar, canela y piel cítrica hasta disolver el azúcar.\n3. Introducir peras y mantener hervor suave 25–40 minutos, girándolas para lograr color uniforme.\n4. Comprobar con brocheta que estén tiernas sin deshacerse; retirar peras.\n5. Reducir el líquido unos minutos hasta consistencia de almíbar ligero, vigilando para evitar que se queme.\n6. Servir templadas o frías con una pequeña cantidad de salsa.\n\n## Puntos críticos\n\n- Elegir peras firmes, no sobremaduras.\n- Evitar hervor fuerte que rompa la fruta.\n- El vino aporta alcohol; parte puede permanecer tras la cocción.\n- Si se desea versión sin alcohol, sustituir el vino por zumo de uva roja sin alcohol y ajustar azúcar y acidez.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Peras duras | Cocción breve | Prolongar suavemente |\n| Peras deshechas | Madurez excesiva | Usar piezas firmes |\n| Salsa empalagosa | Reducción excesiva | Añadir agua |\n\n## Conservación\n\nEnfriar y refrigerar en recipiente cerrado; consumir en pocos días.\n\n## Relaciones\n\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n- [Compota de manzana](./compota_de_manzana.md)\n\n## Principio de NovaCoquinaria\n\n> La cocción suave permite ablandar la fruta sin deshacerla."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "30–45 min, según madurez",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/peras_al_vino_tinto.html",
+  "id": "REC-0085",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "peras firmes;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 peras firmes;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 peras firmes;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "vino tinto;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de vino tinto;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de vino tinto;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "100",
+        "raw": "100–120 g de azúcar;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "100–120 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela;",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de medio limón o naranja sin parte blanca;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de medio limón o naranja sin parte blanca;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de medio limón o naranja sin parte blanca;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "clavo de olor, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 clavo de olor, opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 clavo de olor, opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua, si hace falta cubrir.",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua, si hace falta cubrir.",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua, si hace falta cubrir.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/peras_al_vino_tinto.md",
+  "source_sha256": "ddcb3b14643e5aba26fb8fb4ab7a9db0592ad200d2fc3fa3542ad3e8f1d7ba37",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Pelar peras dejando rabito si se desea. Retirar corazón con cuidado si se sirven enteras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Calentar vino, azúcar, canela y piel cítrica hasta disolver el azúcar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Introducir peras y mantener hervor suave 25–40 minutos, girándolas para lograr color uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Comprobar con brocheta que estén tiernas sin deshacerse; retirar peras."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Reducir el líquido unos minutos hasta consistencia de almíbar ligero, vigilando para evitar que se queme."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Servir templadas o frías con una pequeña cantidad de salsa."
+    }
+  ],
+  "techniques": [],
+  "title": "Peras al vino tinto y especias",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

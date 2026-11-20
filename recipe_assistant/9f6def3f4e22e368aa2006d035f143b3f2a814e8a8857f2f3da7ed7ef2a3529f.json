@@ -1,0 +1,331 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Patatas a la riojana con chorizo\n\n## Origen y contexto\n\n**Ámbito gastronómico:** La Rioja. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 45–55 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de patatas para guisar, peladas\n- 220 g de chorizo fresco o semicurado apto para cocinar, en rodajas gruesas\n- 180 g de cebolla picada\n- 1 pimiento verde pequeño, unos 100 g\n- 2 dientes de ajo\n- 1 cucharada de pulpa de pimiento choricero hidratado, unos 20 g\n- ½ cucharadita de pimentón dulce\n- 650–800 ml de agua o caldo bajo en sal, según recipiente\n- 2 cucharadas de aceite de oliva\n- 1 hoja de laurel y sal al final\n\n**Alérgenos:** Revisar chorizo comercial por gluten, soja o sulfitos.\n\n## Elaboración\n\n1. Pochar cebolla y pimiento verde en cazuela con aceite durante 8–10 minutos, incorporar ajo picado brevemente.\n2. Añadir chorizo en rodajas y saltearlo 2–3 minutos para que desprenda grasa y sabor.\n3. Apartar brevemente del calor e incorporar pimentón; añadir pulpa de pimiento choricero y remover sin quemar.\n4. Cascar las patatas en trozos medianos para favorecer que suelten almidón; mezclarlas con el sofrito.\n5. Verter agua o caldo caliente hasta cubrirlas apenas, incorporar laurel y mantener un hervor suave durante unos 20–30 minutos.\n6. Remover la cazuela mediante vaivén y cocinar hasta que las patatas estén tiernas y el chorizo completamente cocinado; machacar un par de trozos si se quiere más espesor.\n7. Probar antes de salar, retirar laurel y servir caliente.\n\n## Puntos críticos\n\n- La técnica de chascar las patatas ayuda a ligar el caldo. El chorizo varía en sal y grasa; escoger uno apto para cocinar y comprobar que está completamente hecho.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Patatas aplastadas con romero y ajo](./patatas_aplastadas_con_romero_y_ajo.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "55",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–55 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/patatas_a_la_riojana_con_chorizo.html",
+  "id": "REC-422",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas para guisar, peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de patatas para guisar, peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de patatas para guisar, peladas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo fresco o semicurado apto para cocinar, en rodajas gruesas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de chorizo fresco o semicurado apto para cocinar, en rodajas gruesas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de chorizo fresco o semicurado apto para cocinar, en rodajas gruesas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde pequeño, unos 100 g",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde pequeño, unos 100 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde pequeño, unos 100 g",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pulpa de pimiento choricero hidratado, unos 20 g",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de pulpa de pimiento choricero hidratado, unos 20 g",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de pulpa de pimiento choricero hidratado, unos 20 g",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal, según recipiente",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "650",
+        "raw": "650–800 ml de agua o caldo bajo en sal, según recipiente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "650–800 ml de agua o caldo bajo en sal, según recipiente",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel y sal al final",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel y sal al final",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel y sal al final",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/patatas_a_la_riojana_con_chorizo.md",
+  "source_sha256": "81293dd28036b0d4b386981c35d72d48d21b2fe8ce1b576542cf908b4c03f914",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Pochar cebolla y pimiento verde en cazuela con aceite durante 8–10 minutos, incorporar ajo picado brevemente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Añadir chorizo en rodajas y saltearlo 2–3 minutos para que desprenda grasa y sabor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Apartar brevemente del calor e incorporar pimentón; añadir pulpa de pimiento choricero y remover sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Cascar las patatas en trozos medianos para favorecer que suelten almidón; mezclarlas con el sofrito."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Verter agua o caldo caliente hasta cubrirlas apenas, incorporar laurel y mantener un hervor suave durante unos 20–30 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Remover la cazuela mediante vaivén y cocinar hasta que las patatas estén tiernas y el chorizo completamente cocinado; machacar un par de trozos si se quiere más espesor."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Probar antes de salar, retirar laurel y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Patatas a la riojana con chorizo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

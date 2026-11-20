@@ -1,0 +1,258 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 108,
+      "start_line": 15
+    },
+    "text": "\n# Puerros templados con vinagreta de mostaza\n\n## Descripción\n\nPuerros cocidos suavemente y aliñados con mostaza, vinagre y aceite. Su textura tierna y el escurrido cuidadoso son esenciales para que la vinagreta se adhiera.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como entrante |\n| Preparación | 15 minutos |\n| Cocinado | 12–20 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Cocción húmeda y escurrido |\n\n## Ingredientes\n\n- 4 puerros medianos (500–600 g de parte comestible)\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de vinagre de vino\n- 1 cucharadita de mostaza de Dijon\n- 1 cucharadita de agua\n- sal y pimienta negra\n- perejil picado opcional\n\n**Alérgenos:** Mostaza. Comprobar posibles alérgenos adicionales de la mostaza preparada.\n\n## Mise en place\n\nDesechar raíces y hojas duras; abrir longitudinalmente la parte verde clara y lavar cuidadosamente entre las capas para eliminar tierra. Cortar en troncos de 8–10 cm, de grosor similar.\n\n## Elaboración\n\n### 1. Cocer\n\nColocar los puerros en cesta de vapor sobre agua hirviendo, tapar y cocinar 12–20 minutos según grosor, hasta que un cuchillo atraviese el centro sin resistencia. También pueden cocerse en agua a hervor suave.\n\n### 2. Escurrir\n\nRetirar y colocar sobre una rejilla o colador. Dejar que pierdan el agua superficial y el calor intenso; secar con cuidado sin aplastar.\n\n### 3. Preparar vinagreta\n\nBatir mostaza con vinagre y agua; añadir el aceite poco a poco y emulsionar. Salpimentar.\n\n### 4. Aliñar\n\nDisponer puerros templados en fuente y repartir la vinagreta. Reposar 3–5 minutos para integrar y añadir perejil opcional.\n\n## Puntos críticos\n\n- Lavar entre las hojas evita restos de arena en el plato.\n- El tiempo varía según diámetro; comprobar el centro.\n- Escurrir bien impide que el agua de cocción diluya la vinagreta.\n\n## Perfil esperado\n\nPuerros tiernos pero enteros, con dulzor suave y aliño ácido moderado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con limón | Sustituir vinagre por zumo de limón |\n| Con huevo cocido | Añadir huevo picado; incorpora alérgeno huevo |\n| En frío | Enfriar rápidamente, refrigerar y aliñar al servir |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Textura fibrosa | Puerro grueso insuficientemente cocido | Prolongar hasta tierno |\n| Vinagreta aguada | Escurrido deficiente | Secar antes de aliñar |\n| Puerro deshecho | Cocción excesiva | Comprobar progresivamente el punto |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Puerro](../11_Despensa/06_Verduras/puerro.md)\n- [Diagnóstico de verduras](../98_Tablas/07_Comparativas/diagnostico_verduras.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una verdura cocida y aliñada, el escurrido es parte de la técnica, no un detalle final.\n\n## Utilizado por\n\nPreparación de referencia de puerros templados con vinagreta de mostaza en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/puerros_templados_con_vinagreta_de_mostaza.html",
+  "id": "REC-0119",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "puerros medianos (500–600 g de parte comestible)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 puerros medianos (500–600 g de parte comestible)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 puerros medianos (500–600 g de parte comestible)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza de Dijon",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza de Dijon",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de agua",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de agua",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDesechar raíces y hojas duras; abrir longitudinalmente la parte verde clara y lavar cuidadosamente entre las capas para eliminar tierra. Cortar en troncos de 8–10 cm, de grosor similar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/puerros_templados_con_vinagreta_de_mostaza.md",
+  "source_sha256": "d6f81182781fda00e9aee81529b09eb20ff7969655b82ca6a38c037fd275c765",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Cocer\n\nColocar los puerros en cesta de vapor sobre agua hirviendo, tapar y cocinar 12–20 minutos según grosor, hasta que un cuchillo atraviese el centro sin resistencia. También pueden cocerse en agua a hervor suave.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Escurrir\n\nRetirar y colocar sobre una rejilla o colador. Dejar que pierdan el agua superficial y el calor intenso; secar con cuidado sin aplastar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Preparar vinagreta\n\nBatir mostaza con vinagre y agua; añadir el aceite poco a poco y emulsionar. Salpimentar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Aliñar\n\nDisponer puerros templados en fuente y repartir la vinagreta. Reposar 3–5 minutos para integrar y añadir perejil opcional.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Puerros templados con vinagreta de mostaza",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

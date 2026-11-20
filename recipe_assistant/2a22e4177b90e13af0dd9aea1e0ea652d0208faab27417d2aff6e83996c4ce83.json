@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 13
+    },
+    "text": "\n# Pollo marinado con yogur y especias\n\n## Descripción\n\nContramuslos deshuesados marinados en yogur, limón y especias, cocinados al horno. El yogur aporta un recubrimiento aromático y acidez suave.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Marinado | 2–6 h en refrigeración |\n| Horneado | Aproximadamente 25–35 min, según grosor |\n| Técnica | Marinado y asado |\n\n## Ingredientes\n\n- 700 g de contramuslos de pollo deshuesados;\n- 150 g de yogur natural sin azúcar;\n- 1 cucharada de zumo de limón;\n- 2 dientes de ajo rallados;\n- 10 g de jengibre rallado;\n- 1 cucharadita de comino molido;\n- 1 cucharadita de pimentón dulce;\n- 1 cucharada de aceite de oliva;\n- sal y pimienta.\n\n**Alérgeno:** leche (yogur).\n\n## Elaboración\n\n1. Mezclar yogur, limón, ajo, jengibre, especias, aceite y sal en un recipiente apto.\n2. Añadir el pollo crudo sin lavarlo; mezclar, tapar y **refrigerar 2–6 horas**. Evitar contacto con alimentos listos para consumir.\n3. Precalentar horno a 200 °C con calor arriba y abajo.\n4. Disponer pollo en bandeja sin amontonar. Desechar el exceso de marinada que tocó carne cruda.\n5. Hornear aproximadamente 25–35 minutos; el tiempo es orientativo. Medir **74 °C en la parte más gruesa** con termómetro.\n6. Retirar a una fuente limpia y reposar brevemente. Servir con arroz o verduras.\n\n## Puntos críticos\n\n- Marinar siempre en frío.\n- No reutilizar marinada cruda como salsa sin tratamiento térmico adecuado.\n- Evitar quemar el recubrimiento de yogur y especias.\n- No confiar en el color exterior para comprobar la cocción.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con chile | Añadir una pizca a la marinada |\n| Con cilantro | Incorporar al servir |\n| Con limón más suave | Reducir zumo |\n\n## Diagnóstico\n\n| Problema | Causa | Corrección |\n|---|---|---|\n| Especias quemadas | Calor alto o restos gruesos | Ajustar posición y retirar exceso |\n| Pollo seco | Cocción excesiva | Medir temperatura |\n| Sabor muy ácido | Mucho limón o tiempo | Reducir ambos |\n\n## Conservación\n\nEnfriar rápidamente las sobras y refrigerar. No guardar marinada cruda para reutilizarla sin cocción adecuada.\n\n## Relaciones dentro del SGCC\n\n- [Marinar carnes](../00_Bases/03_Tecnicas/marinar_carnes.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Diagnóstico de carnes](../98_Tablas/07_Comparativas/diagnostico_carnes.md)\n\n## Principio de NovaCoquinaria\n\n> El marinado aporta aroma, pero el punto de cocción se confirma con termómetro."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "Aproximadamente 25–35 min, según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_marinado_con_yogur.html",
+  "id": "REC-0055",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de contramuslos de pollo deshuesados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de contramuslos de pollo deshuesados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural sin azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de yogur natural sin azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de yogur natural sin azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo rallados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo rallados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo rallados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre rallado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/pollo_marinado_con_yogur.md",
+  "source_sha256": "6af0d3557b9151f54714b2a296717f5d1895465ba85fec6ef0b0fbf29fed838a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Mezclar yogur, limón, ajo, jengibre, especias, aceite y sal en un recipiente apto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Añadir el pollo crudo sin lavarlo; mezclar, tapar y **refrigerar 2–6 horas**. Evitar contacto con alimentos listos para consumir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Precalentar horno a 200 °C con calor arriba y abajo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Disponer pollo en bandeja sin amontonar. Desechar el exceso de marinada que tocó carne cruda."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Hornear aproximadamente 25–35 minutos; el tiempo es orientativo. Medir **74 °C en la parte más gruesa** con termómetro."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Retirar a una fuente limpia y reposar brevemente. Servir con arroz o verduras."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/marinar_carnes.html",
+      "label": "Marinar carnes",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      },
+      "source_path": "00_Bases/03_Tecnicas/marinar_carnes.md"
+    }
+  ],
+  "title": "Pollo marinado con yogur y especias",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 66,
+      "start_line": 13
+    },
+    "text": "\n# Sopa de miso con tofu y setas\n\n## Descripción\nSopa doméstica de inspiración japonesa con miso, tofu y champiñones. El miso se incorpora al final para preservar sus aromas.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 10 min |\n| Cocción | 10–15 min |\n| Técnica | Infusión y disolución final |\n\n## Ingredientes\n- 750 ml de agua o caldo vegetal suave;\n- 200 g de tofu firme;\n- 150 g de champiñones;\n- 2–3 cucharadas de miso, ajustando según salinidad;\n- 1 cebolleta;\n- 5 g de alga wakame seca, opcional, hidratada según fabricante.\n\n**Alérgenos:** soja; el miso puede contener cebada o trigo según elaboración. Revisar etiquetado del tofu, miso y caldo.\n\n## Elaboración\n1. Limpiar y laminar champiñones; cortar tofu en dados y cebolleta fina.\n2. Calentar agua o caldo hasta hervor suave.\n3. Añadir champiñones y cocinar 5–7 minutos; incorporar tofu y wakame hidratada opcional hasta calentar completamente.\n4. Retirar del hervor fuerte. Disolver miso aparte en un cucharón de caldo caliente y devolver a la olla.\n5. Mezclar sin hervir intensamente, probar y ajustar miso gradualmente.\n6. Terminar con cebolleta y servir caliente.\n\n## Puntos críticos\n- No añadir sal antes de probar el miso.\n- Disolver el miso por separado evita grumos.\n- Comprobar tipo de alga y cantidad indicada por fabricante.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Muy salada | Miso excesivo | Diluir con caldo sin sal |\n| Grumos | Miso sin disolver | Mezclar aparte |\n| Aroma apagado | Hervor fuerte posterior | Añadir miso al final |\n\n## Conservación\nEnfriar rápidamente y refrigerar las sobras; recalentar completamente antes de consumir.\n\n## Relaciones\n- [Miso](../11_Despensa/09_Salsas/miso.md)\n- [Preparar sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md)\n- [Plantilla de sopa asiática](../12_Plantillas/04_Cocciones/sopa_asiatica_base.md)\n\n## Principio de NovaCoquinaria\n> El miso sazona y aromatiza al final; no es necesario hervirlo intensamente."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/sopa_de_miso_con_tofu.html",
+  "id": "REC-0072",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua o caldo vegetal suave;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua o caldo vegetal suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua o caldo vegetal suave;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "tofu firme;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tofu firme;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tofu firme;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de champiñones;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de champiñones;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "miso, ajustando según salinidad;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "2",
+        "raw": "2–3 cucharadas de miso, ajustando según salinidad;",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "2–3 cucharadas de miso, ajustando según salinidad;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "alga wakame seca, opcional, hidratada según fabricante.",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de alga wakame seca, opcional, hidratada según fabricante.",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de alga wakame seca, opcional, hidratada según fabricante.",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/sopa_de_miso_con_tofu.md",
+  "source_sha256": "d07f6886c66c78eda0b6d59f86fd876d20c9787fed9c5147f25d5f9f756b39ad",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 1,
+      "text": "Limpiar y laminar champiñones; cortar tofu en dados y cebolleta fina."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 2,
+      "text": "Calentar agua o caldo hasta hervor suave."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 3,
+      "text": "Añadir champiñones y cocinar 5–7 minutos; incorporar tofu y wakame hidratada opcional hasta calentar completamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 4,
+      "text": "Retirar del hervor fuerte. Disolver miso aparte en un cucharón de caldo caliente y devolver a la olla."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 5,
+      "text": "Mezclar sin hervir intensamente, probar y ajustar miso gradualmente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 6,
+      "text": "Terminar con cebolleta y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.html",
+      "label": "Preparar sopas asiáticas",
+      "source_location": {
+        "end_line": 62,
+        "start_line": 62
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md"
+    }
+  ],
+  "title": "Sopa de miso con tofu y setas",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

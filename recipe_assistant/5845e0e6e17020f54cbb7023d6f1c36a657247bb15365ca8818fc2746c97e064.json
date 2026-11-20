@@ -1,0 +1,295 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Leche merengada tradicional\n\n## Origen y contexto\n\n**Región:** Comunidad Valenciana y otras regiones de España. Formulación doméstica de referencia inspirada en una elaboración regional, pendiente de contraste práctico. No se presenta como receta única o versión previamente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos de 200 ml |\n| Tiempo orientativo | 20 min más 3–4 h de enfriado y congelación parcial |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 ml de leche entera pasteurizada\n- 90 g de azúcar\n- 1 rama de canela\n- piel de 1 limón sin la parte blanca\n- 2 claras de huevo pasteurizadas (aprox. 65 g)\n- 1 pizca de sal\n- canela molida para servir\n\n**Alérgenos:** Leche y huevo.\n\n## Elaboración\n\n1. Lavar el limón y sacar tiras de piel sin parte blanca. Calentar leche, azúcar, rama de canela y piel de limón, sin dejar que se desborde.\n2. Mantener a calor suave 5 minutos desde que esté caliente; retirar del fuego, tapar y dejar infusionar 10 minutos.\n3. Colar, enfriar rápidamente en recipiente poco profundo y refrigerar hasta que esté muy fría.\n4. Colocar la leche aromatizada en congelador en recipiente ancho 2–3 horas, removiendo cada 30–40 minutos, hasta obtener cristales blandos sin congelar completamente.\n5. Montar las claras pasteurizadas muy frías con la pizca de sal hasta espuma firme; no usar claras crudas sin pasteurizar en esta preparación de consumo frío.\n6. Incorporar la espuma a la leche granizada con movimientos envolventes poco antes de servir.\n7. Servir enseguida en vasos fríos con canela molida; no volver a congelar repetidamente la mezcla ya espumada.\n\n## Puntos críticos\n\n- Esta preparación se distingue de la leche preparada simple por la incorporación de espuma de claras y textura parcialmente helada.\n- Las claras pasteurizadas deben ser aptas para consumo sin cocción según fabricante; la refrigeración es obligatoria. La clara no pasteurizada no resulta adecuada para esta versión.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Bebida sin espuma | Claras poco montadas o mezcla caliente | Enfriar bien y montar poco antes del servicio |\n| Bloque de hielo | Congelación prolongada sin remover | Remover cada media hora y servir granizada |\n| Amargor | Exceso de parte blanca de limón | Retirar solo la piel superficial |\n\n## Conservación\n\nConsumir inmediatamente después de montar. Conservar la base de leche sin claras hasta 24 horas refrigerada a 4 °C o menos; no almacenar durante horas la bebida terminada a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Chocolate caliente](../09_Bebidas/chocolate_caliente.md)\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos efectivos, tiempos, resultado y valoración después de elaborarla. Esta ficha no sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 min más 3–4 h de enfriado y congelación parcial",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/leche_merengada_tradicional.html",
+  "id": "REC-530",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera pasteurizada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 ml de leche entera pasteurizada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "800 ml de leche entera pasteurizada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de 1 limón sin la parte blanca",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de 1 limón sin la parte blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de 1 limón sin la parte blanca",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "claras de huevo pasteurizadas (aprox. 65 g)",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 claras de huevo pasteurizadas (aprox. 65 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 claras de huevo pasteurizadas (aprox. 65 g)",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida para servir",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "canela molida para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "canela molida para servir",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/leche_merengada_tradicional.md",
+  "source_sha256": "17cf92b8289e80042aa52a899035d5cc3d957ba1effda4d34e9b516d738ac766",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Lavar el limón y sacar tiras de piel sin parte blanca. Calentar leche, azúcar, rama de canela y piel de limón, sin dejar que se desborde."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mantener a calor suave 5 minutos desde que esté caliente; retirar del fuego, tapar y dejar infusionar 10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Colar, enfriar rápidamente en recipiente poco profundo y refrigerar hasta que esté muy fría."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Colocar la leche aromatizada en congelador en recipiente ancho 2–3 horas, removiendo cada 30–40 minutos, hasta obtener cristales blandos sin congelar completamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Montar las claras pasteurizadas muy frías con la pizca de sal hasta espuma firme; no usar claras crudas sin pasteurizar en esta preparación de consumo frío."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Incorporar la espuma a la leche granizada con movimientos envolventes poco antes de servir."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Servir enseguida en vasos fríos con canela molida; no volver a congelar repetidamente la mezcla ya espumada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Leche merengada tradicional",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 vasos de 200 ml",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

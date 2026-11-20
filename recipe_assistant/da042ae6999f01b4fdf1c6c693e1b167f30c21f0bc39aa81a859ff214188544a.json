@@ -1,0 +1,274 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Bacalao a la llauna con ajo y pimentón\n\n## Origen y contexto\n\n**Región:** Cataluña. Fórmula doméstica de referencia con los rasgos más reconocibles del plato. No se considera una receta cocinada y valorada ni una reproducción certificada de las especialidades protegidas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 35–45 minutos sin desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 lomos de bacalao desalado de 160–180 g cada uno\n- 5 dientes de ajo laminados\n- 1 cucharadita de pimentón dulce\n- 80 ml de vino blanco seco\n- 70 g de harina de trigo para rebozado ligero\n- 4 cucharadas de aceite de oliva\n- perejil fresco y sal solo al final\n\n**Alérgenos:** Pescado, gluten (trigo); posibles sulfitos del vino.\n\n## Elaboración\n\n1. Desalar el bacalao en refrigeración si parte de salazón, siguiendo grosor y proveedor; secarlo bien y retirar espinas visibles.\n2. Precalentar el horno a 190 °C y preparar una fuente de metal o cerámica apta para horno.\n3. Enharinar ligeramente los lomos, sacudiendo el exceso, y dorarlos por ambos lados en sartén con aceite caliente, sin cocinarlos por completo.\n4. Pasar los lomos a la fuente. En el aceite restante, dorar ajo laminado suavemente sin quemarlo.\n5. Apartar del calor para añadir pimentón; verter el vino y llevar de nuevo a hervor para integrar, sin asumir que desaparece todo el alcohol.\n6. Verter el refrito sobre los lomos y terminar en horno unos 8–12 minutos, hasta que el pescado alcance unos 63 °C en el centro como referencia conservadora y se separe en lascas.\n7. Espolvorear perejil y servir enseguida, comprobando la salinidad antes de salar.\n\n## Puntos críticos\n\n- La primera fritura es breve para evitar que el bacalao se seque en el horno. El pimentón debe retirarse del calor directo para que no amargue. No confundir con bacalao a la vizcaína o al pilpil.\n- Ajustar tiempo, tamaño de pieza, ingredientes comerciales y cantidad de líquido al equipo empleado. Comprobar la cocción, prevenir contaminación cruzada y refrigerar los perecederos sin demora.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme o cruda | Cocción insuficiente o piezas grandes | Comprobar el interior y adaptar tiempo o tamaño |\n| Preparación excesivamente húmeda | Caldo de más o relleno sin reducir | Corregir líquido o evaporación según plato |\n| Sabor desequilibrado | Exceso de sal o condimentos | Ajustar después de probar y registrar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las carnes, pescados, huevos y cremas lácteas requieren conservación en frío; recalentar completamente las porciones destinadas al servicio caliente. No dejar preparaciones perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao a la vizcaína](./bacalao_a_la_vizcaina_con_pimiento_choricero.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar materia prima, cantidades reales, temperatura, duración, textura y valoración. No sustituye recetas anteriores ni presupone una versión mejorada sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 minutos sin desalado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_a_la_llauna_con_ajo_y_pimenton.html",
+  "id": "REC-474",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de bacalao desalado de 160–180 g cada uno",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 lomos de bacalao desalado de 160–180 g cada uno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 lomos de bacalao desalado de 160–180 g cada uno",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para rebozado ligero",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de harina de trigo para rebozado ligero",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de harina de trigo para rebozado ligero",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "4 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco y sal solo al final",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco y sal solo al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco y sal solo al final",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_a_la_llauna_con_ajo_y_pimenton.md",
+  "source_sha256": "4f4162713632e670eac7ce2586e10535a7cf7379e92867435fa01f2942741147",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Desalar el bacalao en refrigeración si parte de salazón, siguiendo grosor y proveedor; secarlo bien y retirar espinas visibles."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Precalentar el horno a 190 °C y preparar una fuente de metal o cerámica apta para horno."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Enharinar ligeramente los lomos, sacudiendo el exceso, y dorarlos por ambos lados en sartén con aceite caliente, sin cocinarlos por completo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Pasar los lomos a la fuente. En el aceite restante, dorar ajo laminado suavemente sin quemarlo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Apartar del calor para añadir pimentón; verter el vino y llevar de nuevo a hervor para integrar, sin asumir que desaparece todo el alcohol."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Verter el refrito sobre los lomos y terminar en horno unos 8–12 minutos, hasta que el pescado alcance unos 63 °C en el centro como referencia conservadora y se separe en lascas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Espolvorear perejil y servir enseguida, comprobando la salinidad antes de salar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bacalao a la llauna con ajo y pimentón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

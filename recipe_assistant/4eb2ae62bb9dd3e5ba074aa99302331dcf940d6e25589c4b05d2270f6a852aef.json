@@ -1,0 +1,317 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Tortitas especiadas de garbanzos al horno\n\n## Descripción\n\nPreparación de referencia centrada en **triturado grueso, formado y horneado**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Técnica | Triturado grueso, formado y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de garbanzos completamente cocidos, escurridos y secos;\n- 1 huevo M;\n- 60 g de cebolla picada fina;\n- 2 dientes de ajo;\n- 30 g de harina de trigo o de garbanzo para ligar, ajustables;\n- 2 cucharadas de perejil picado;\n- 1 cucharadita de comino molido;\n- ½ cucharadita de cilantro molido;\n- 2 cucharadas de aceite de oliva;\n- sal y pimienta;\n\n**Alérgenos:** Huevo; gluten si se usa harina de trigo.\n\n## Elaboración\n\n1. Precalentar horno a 205 °C con calor arriba y abajo, preparar bandeja con papel de hornear.\n2. Escurrir y secar muy bien los garbanzos cocidos. Triturar a pulsos hasta obtener textura granulada, no puré líquido.\n3. Añadir cebolla, ajo, perejil, comino, cilantro, huevo y harina; mezclar y dejar reposar 10 minutos para comprobar firmeza.\n4. Formar 10–12 tortitas pequeñas y aplanarlas ligeramente sobre la bandeja; pincelar con aceite.\n5. Hornear 18–25 minutos, girando con cuidado a mitad de cocción, hasta que el exterior esté dorado y el interior totalmente cocinado.\n6. Servir caliente con aliño de yogur o limón opcional, conservando la textura de la tortita.\n\n## Puntos críticos\n\n- Es una adaptación horneada con garbanzos cocidos y huevo, no un falafel tradicional elaborado con garbanzos secos remojados. El huevo debe quedar totalmente cocinado; secar la legumbre evita una masa excesivamente blanda.\n- Las cantidades de legumbres especificadas se refieren a **producto completamente cocido**; para legumbres secas, consultar la técnica de cocción antes de preparar la receta.\n- Ajustar tiempos y líquido según producto, recipiente e intensidad de fuego; evitar que las legumbres queden frías en el centro o se rompan innecesariamente.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección para una próxima prueba |\n|---|---|---|\n| Salsa aguada | Demasiado caldo o ingredientes sin escurrir | Reducir antes de integrar las legumbres o añadir menos líquido |\n| Granos rotos | Remoción intensa o cocción prolongada | Utilizar fuego suave y movimientos cuidadosos |\n| Sabor demasiado intenso | Exceso de condimentos concentrados | Añadir condimentos por etapas y probar antes de salar |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y tapados. No mantener preparaciones cocinadas durante horas a temperatura ambiente. Recalentar completamente cuando se sirvan calientes y seguir las indicaciones de las legumbres envasadas.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar peso efectivo, producto utilizado, tiempos, resultado y valoración. No atribuir a esta fórmula cantidades o resultados de otras preparaciones domésticas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **triturado grueso, formado y horneado**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/tortitas_de_garbanzos_especiadas_al_horno.html",
+  "id": "REC-0282",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos, escurridos y secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de garbanzos completamente cocidos, escurridos y secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de garbanzos completamente cocidos, escurridos y secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo M;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo M;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo M;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada fina;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de cebolla picada fina;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de cebolla picada fina;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo o de garbanzo para ligar, ajustables;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de harina de trigo o de garbanzo para ligar, ajustables;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de harina de trigo o de garbanzo para ligar, ajustables;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cilantro molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cilantro molido;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/tortitas_de_garbanzos_especiadas_al_horno.md",
+  "source_sha256": "cdf2645f4a9ffb2594c64bdf96103194b95b1c5595d3ef4b3fdb6782ae8637c5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 205 °C con calor arriba y abajo, preparar bandeja con papel de hornear."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Escurrir y secar muy bien los garbanzos cocidos. Triturar a pulsos hasta obtener textura granulada, no puré líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir cebolla, ajo, perejil, comino, cilantro, huevo y harina; mezclar y dejar reposar 10 minutos para comprobar firmeza."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Formar 10–12 tortitas pequeñas y aplanarlas ligeramente sobre la bandeja; pincelar con aceite."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Hornear 18–25 minutos, girando con cuidado a mitad de cocción, hasta que el exterior esté dorado y el interior totalmente cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Servir caliente con aliño de yogur o limón opcional, conservando la textura de la tortita."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Tortitas especiadas de garbanzos al horno",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

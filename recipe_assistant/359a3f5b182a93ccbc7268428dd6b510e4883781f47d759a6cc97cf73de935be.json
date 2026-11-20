@@ -1,0 +1,398 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Alfajores al estilo de Medina Sidonia\n\n## Origen y contexto\n\n**Región:** Medina Sidonia, Cádiz. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16–20 unidades |\n| Tiempo orientativo | 50–65 min más enfriamiento |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 180 g de miel\n- 90 g de almendras\n- 70 g de avellanas\n- 100 g de pan rallado fino\n- 20 g de harina de trigo\n- 20 g de sésamo\n- 3 g de anís en grano\n- 2 g de cilantro en grano\n- 2 g de canela\n- 1 pizca de clavo molido\n- 70 g de azúcar\n- 50 ml de agua\n- 60 g de azúcar glas\n\n**Alérgenos:** Almendras, avellanas, sésamo y trigo/gluten.\n\n## Elaboración\n\n1. Tostar almendras y avellanas suavemente; tostar aparte sésamo, anís y cilantro sin quemarlos. Moler frutos secos y especias.\n2. Tostar harina en bandeja a 150 °C removiendo hasta ligera coloración, y cocinarla después en la mezcla; usar pan rallado listo para consumo.\n3. Calentar miel, azúcar y agua en cazuela amplia hasta disolver el azúcar. Añadir frutos secos, especias, pan rallado y harina.\n4. Cocinar a fuego suave removiendo de forma continua durante 8–12 minutos hasta una pasta espesa y bien cocinada que mantenga forma; evitar quemaduras con la mezcla caliente.\n5. Dejar templar hasta poder manipular con seguridad, dividir en cilindros pequeños y rebozar en azúcar glas.\n6. Enfriar completamente antes de guardar.\n\n## Puntos críticos\n\n- La composición se inspira en los ingredientes documentados de la tradición asidonense. Las proporciones y método doméstico no están certificados bajo la IGP ni corresponden a una fórmula industrial validada. No ofrecer miel a menores de 12 meses.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Pasta quebradiza | Exceso de sólidos | Ajustar con pequeñas cantidades de miel caliente |\n| Pasta pegajosa | Mezcla poco reducida | Cocinar un poco más removiendo |\n\n## Conservación\n\nGuardar en recipiente limpio, seco y cerrado, en lugar fresco; consumir preferiblemente en 3–5 días como criterio doméstico prudente, sin atribuir estabilidad comercial.\n\n## Relaciones dentro del SGCC\n\n- [mantecados de estepa de almendra](../08_Postres/mantecados_de_estepa_de_almendra.md)\n- [tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.iaph.es/paisajes-culturales-conocimientos-tradicionales-cambio-climatico/atlas/alfajores-en-medina-sidonia/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "50–65 min más enfriamiento",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Medina Sidonia, Cádiz. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/alfajores_estilo_medina_sidonia_de_miel_y_frutos_secos.html",
+  "id": "REC-579",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "miel",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de miel",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de miel",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de almendras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de almendras",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "avellanas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de avellanas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de avellanas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado fino",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pan rallado fino",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pan rallado fino",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de harina de trigo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sésamo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de sésamo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de sésamo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 g de anís en grano",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "3 g de anís en grano",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro en grano",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de cilantro en grano",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de cilantro en grano",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de canela",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de canela",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "clavo molido",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de clavo molido",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de clavo molido",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de azúcar",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de agua",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de azúcar glas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de azúcar glas",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/alfajores_estilo_medina_sidonia_de_miel_y_frutos_secos.md",
+  "source_sha256": "d6c6c8332d8b7c09336f4d41bcc634a7525e77c094f8ea9fcd2a376705922c2a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "Tostar almendras y avellanas suavemente; tostar aparte sésamo, anís y cilantro sin quemarlos. Moler frutos secos y especias."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "Tostar harina en bandeja a 150 °C removiendo hasta ligera coloración, y cocinarla después en la mezcla; usar pan rallado listo para consumo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 3,
+      "text": "Calentar miel, azúcar y agua en cazuela amplia hasta disolver el azúcar. Añadir frutos secos, especias, pan rallado y harina."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 4,
+      "text": "Cocinar a fuego suave removiendo de forma continua durante 8–12 minutos hasta una pasta espesa y bien cocinada que mantenga forma; evitar quemaduras con la mezcla caliente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 5,
+      "text": "Dejar templar hasta poder manipular con seguridad, dividir en cilindros pequeños y rebozar en azúcar glas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 6,
+      "text": "Enfriar completamente antes de guardar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "tostar frutos secos y semillas",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Alfajores al estilo de Medina Sidonia",
+  "yield": {
+    "max": "20",
+    "min": "16",
+    "raw": "16–20 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

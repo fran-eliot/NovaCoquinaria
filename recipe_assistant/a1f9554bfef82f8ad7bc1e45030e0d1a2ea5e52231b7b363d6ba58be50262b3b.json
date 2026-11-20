@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Nasi goreng de verduras y huevo\n\n## Descripción\n\nArroz frito de inspiración indonesia con kecap manis. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 25–30 min, más cocción y refrigeración previas del arroz |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de arroz cocido y correctamente refrigerado\n- 2 huevos L\n- 120 g de zanahoria en dados pequeños\n- 100 g de guisantes previamente cocidos\n- 80 g de cebolla picada\n- 2 dientes de ajo\n- 2 cucharadas de kecap manis\n- 1 cucharada de salsa de soja clara\n- 1 cucharada de aceite neutro\n- ½ cucharadita de sambal o chile opcional\n- cebolleta lavada para terminar\n\n**Alérgenos:** Huevo, soja; posible trigo en kecap manis y soja.\n\n## Elaboración\n\n1. Preparar el arroz con antelación, enfriarlo rápidamente y refrigerarlo sin demora; usarlo frío directamente del frigorífico.\n2. Calentar la mitad del aceite y cuajar completamente los huevos revueltos; reservarlos en un recipiente limpio.\n3. Añadir el aceite restante y saltear cebolla, ajo y zanahoria hasta que estén tiernos.\n4. Incorporar guisantes ya cocidos y arroz frío; saltear por tandas si la sartén es pequeña, deshaciendo los grumos.\n5. Añadir kecap manis, soja y chile opcional, mezclar hasta que el arroz esté completamente caliente y las salsas distribuidas.\n6. Reincorporar los huevos ya cocidos y servir inmediatamente con cebolleta.\n\n## Puntos críticos\n\n- El arroz cocido mal enfriado puede permitir la proliferación de Bacillus cereus; saltearlo después no corrige un almacenamiento inseguro. Kecap manis es más dulce y espeso que la soja ordinaria.\n- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.\n- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |\n| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |\n| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Arroz frito con kimchi y huevo](./arroz_frito_con_kimchi_y_huevo.md)\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Enfriar y recalentar arroz](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25–30 min, más cocción y refrigeración previas del arroz",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Arroz frito de inspiración indonesia con kecap manis. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/nasi_goreng_de_verduras_y_huevo.html",
+  "id": "REC-411",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz cocido y correctamente refrigerado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de arroz cocido y correctamente refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de arroz cocido y correctamente refrigerado",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados pequeños",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de zanahoria en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de zanahoria en dados pequeños",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes previamente cocidos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de guisantes previamente cocidos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de guisantes previamente cocidos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "kecap manis",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de kecap manis",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de kecap manis",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja clara",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sambal o chile opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de sambal o chile opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de sambal o chile opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta lavada para terminar",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebolleta lavada para terminar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebolleta lavada para terminar",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/nasi_goreng_de_verduras_y_huevo.md",
+  "source_sha256": "85c299eabb3185af2a2b695884812650526201d57e7e0806a13b447d91eba9b2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Preparar el arroz con antelación, enfriarlo rápidamente y refrigerarlo sin demora; usarlo frío directamente del frigorífico."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Calentar la mitad del aceite y cuajar completamente los huevos revueltos; reservarlos en un recipiente limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir el aceite restante y saltear cebolla, ajo y zanahoria hasta que estén tiernos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Incorporar guisantes ya cocidos y arroz frío; saltear por tandas si la sartén es pequeña, deshaciendo los grumos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Añadir kecap manis, soja y chile opcional, mezclar hasta que el arroz esté completamente caliente y las salsas distribuidas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Reincorporar los huevos ya cocidos y servir inmediatamente con cebolleta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Nasi goreng de verduras y huevo",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

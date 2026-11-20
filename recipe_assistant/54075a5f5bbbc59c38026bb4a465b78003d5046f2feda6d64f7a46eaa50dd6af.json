@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Ajoblanco malagueño de almendras y uvas\n\n## Origen y contexto\n\n**Región:** Málaga, Andalucía. Formulación doméstica de referencia con los elementos característicos de la preparación. Las proporciones se proponen para una futura prueba, sin atribuirles validez universal ni experiencia ya documentada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 cuencos |\n| Duración orientativa | 20 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 160 g de almendras crudas peladas\n- 90 g de miga de pan blanco del día anterior\n- 1 diente de ajo pequeño, sin germen\n- 650–800 ml de agua potable muy fría\n- 70 ml de aceite de oliva virgen extra\n- 25 ml de vinagre de vino blanco\n- 160 g de uvas lavadas para servir\n- sal\n\n**Alérgenos:** Almendras y gluten (trigo); revisar vinagre comercial por sulfitos.\n\n## Elaboración\n\n1. Comprobar que las almendras sean aptas para consumo y poner el pan a remojo en parte del agua fría durante 5 minutos.\n2. Triturar las almendras con el ajo y un poco de agua hasta obtener una pasta fina.\n3. Agregar el pan remojado y seguir triturando hasta homogeneizar.\n4. Incorporar el aceite poco a poco, triturando para emulsionar; añadir vinagre y agua fría hasta textura de crema ligera.\n5. Probar la sal y acidez, colar si se desea una textura especialmente fina y refrigerar sin demora hasta servir.\n6. Lavar y cortar las uvas si hace falta, retirando pepitas; servir el ajoblanco frío con uvas añadidas en el momento.\n\n## Puntos críticos\n\n- El ajo crudo domina con facilidad: incorporar poco y ajustar. El ajoblanco es una sopa fría de almendras, pan, ajo y aceite, no un gazpacho de tomate. La refrigeración es necesaria.\n- Aplicar higiene de los ingredientes y utensilios, separar productos crudos y cocinados y refrigerar de forma apropiada los perecederos.\n- Comprobar el punto de cocción real de cada ingrediente y registrar ajustes de cantidades, temperatura y tiempo antes de consolidar una versión.\n\n## Diagnóstico\n\n| Observación | Posible causa | Ajuste para próxima elaboración |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |\n| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |\n| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Gazpacho andaluz de tomate y pimiento](./gazpacho_andaluz_de_tomate_y_pimiento.md)\n- [Emulsionar vinagretas y aliños](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes reales, pesos, tiempos, textura y valoración. Esta propuesta no modifica versiones previamente cocinadas ni declara una mejora sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/ajoblanco_malagueno_de_almendras_y_uvas.html",
+  "id": "REC-437",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendras crudas peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de almendras crudas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de almendras crudas peladas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "miga de pan blanco del día anterior",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de miga de pan blanco del día anterior",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de miga de pan blanco del día anterior",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño, sin germen",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño, sin germen",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño, sin germen",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable muy fría",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "650",
+        "raw": "650–800 ml de agua potable muy fría",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "650–800 ml de agua potable muy fría",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "uvas lavadas para servir",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de uvas lavadas para servir",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de uvas lavadas para servir",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/ajoblanco_malagueno_de_almendras_y_uvas.md",
+  "source_sha256": "3004038997761a3132239007bebfa7d69a112e253a431623a7766ac835742274",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Comprobar que las almendras sean aptas para consumo y poner el pan a remojo en parte del agua fría durante 5 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Triturar las almendras con el ajo y un poco de agua hasta obtener una pasta fina."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Agregar el pan remojado y seguir triturando hasta homogeneizar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar el aceite poco a poco, triturando para emulsionar; añadir vinagre y agua fría hasta textura de crema ligera."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Probar la sal y acidez, colar si se desea una textura especialmente fina y refrigerar sin demora hasta servir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Lavar y cortar las uvas si hace falta, retirando pepitas; servir el ajoblanco frío con uvas añadidas en el momento."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas y aliños",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Ajoblanco malagueño de almendras y uvas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 cuencos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "cuenco"
+  }
+}

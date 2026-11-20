@@ -1,0 +1,331 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Carcamusas toledanas de magro de cerdo\n\n## Origen y contexto\n\n**Región:** Toledo, Castilla-La Mancha. La ficha describe una formulación doméstica de referencia; las variantes familiares y regionales pueden utilizar otras proporciones o acabados. No consta como elaboración personal probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 65–80 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 g de magro de cerdo en dados\n- 150 g de chorizo apto para cocinar en rodajas\n- 120 g de guisantes completamente cocidos\n- 250 g de tomate triturado\n- 180 g de cebolla\n- 2 dientes de ajo\n- 100 ml de vino blanco\n- 180–250 ml de agua o caldo bajo en sal\n- 3 cucharadas de aceite de oliva\n- 1 hoja de laurel, sal y pimienta\n\n**Alérgenos:** Revisar chorizo y caldo comerciales por sulfitos y otros alérgenos.\n\n## Elaboración\n\n1. Secar el magro, salpimentar y dorarlo por tandas en aceite; reservar.\n2. Pochar cebolla y ajo picados en la misma cazuela durante 8–10 minutos.\n3. Incorporar el chorizo, saltearlo brevemente y añadir tomate triturado; cocinar unos 8 minutos hasta reducir.\n4. Agregar el vino, llevar a hervor y reducir unos minutos, sin asumir que desaparece por completo su alcohol.\n5. Devolver el cerdo a la cazuela y añadir laurel y caldo suficiente; cocinar tapado parcialmente a fuego suave unos 35–45 minutos, hasta que la carne quede completamente cocinada y tierna.\n6. Agregar los guisantes ya cocidos durante los últimos 5 minutos para calentarlos sin deshacerlos.\n7. Comprobar la cocción del chorizo, rectificar la sal después de probar y servir caliente.\n\n## Puntos críticos\n\n- El magro debe quedar tierno y el tomate reducido; el chorizo puede aportar sal suficiente. No añadir los guisantes al principio para evitar que se deshagan.\n- Ajustar las cantidades de líquido, calor y tiempos a la materia prima y al equipo utilizados. Mantener higiene, separar crudos y cocinados y atender a las instrucciones de los productos comerciales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |\n| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Pollo al chilindrón](./pollo_al_chilindron_con_pimientos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, cantidades efectivas, tiempos, temperatura, textura y valoración. No se sustituyen otras versiones sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "80",
+      "min": "65",
+      "phase": "declared_total",
+      "raw": "65–80 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/carcamusas_toledanas_de_magro_de_cerdo.html",
+  "id": "REC-463",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "magro de cerdo en dados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de magro de cerdo en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de magro de cerdo en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo apto para cocinar en rodajas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de chorizo apto para cocinar en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de chorizo apto para cocinar en rodajas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes completamente cocidos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de guisantes completamente cocidos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de guisantes completamente cocidos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "180",
+        "raw": "180–250 ml de agua o caldo bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "180–250 ml de agua o caldo bajo en sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel, sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel, sal y pimienta",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel, sal y pimienta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/carcamusas_toledanas_de_magro_de_cerdo.md",
+  "source_sha256": "99b27400a2d874830593dac505fec3a935cd22a63c27dbb21a445de6d517ad15",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Secar el magro, salpimentar y dorarlo por tandas en aceite; reservar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo picados en la misma cazuela durante 8–10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar el chorizo, saltearlo brevemente y añadir tomate triturado; cocinar unos 8 minutos hasta reducir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Agregar el vino, llevar a hervor y reducir unos minutos, sin asumir que desaparece por completo su alcohol."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Devolver el cerdo a la cazuela y añadir laurel y caldo suficiente; cocinar tapado parcialmente a fuego suave unos 35–45 minutos, hasta que la carne quede completamente cocinada y tierna."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Agregar los guisantes ya cocidos durante los últimos 5 minutos para calentarlos sin deshacerlos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Comprobar la cocción del chorizo, rectificar la sal después de probar y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Carcamusas toledanas de magro de cerdo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

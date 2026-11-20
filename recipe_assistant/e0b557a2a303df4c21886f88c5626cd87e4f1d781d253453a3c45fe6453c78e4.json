@@ -1,0 +1,327 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Arroz con frijoles y cilantro\n\n## Descripción\n\nArroz con legumbre cocida y sofrito, de inspiración latinoamericana. Adaptación doméstica de inspiración latinoamericana, sin atribuirle una procedencia regional única ni afirmar una ejecución doméstica previa.\n\n**Estado de evidencia:** receta de referencia propuesta, pendiente de cocinar y valorar. Los gramajes y métodos son orientativos para repetir y evaluar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Arroz con legumbre cocida y sofrito, de inspiración latinoamericana |\n| Prueba doméstica | Pendiente |\n\n## Ingredientes\n\n- 180 g de arroz basmati seco;\n- 280 g de frijoles negros completamente cocidos y escurridos;\n- 100 g de cebolla picada;\n- 90 g de pimiento rojo picado;\n- 2 dientes de ajo;\n- 1 cucharada de aceite;\n- 300 ml de agua o caldo bajo en sal, ajustables al arroz;\n- ½ cucharadita de comino molido;\n- 2 cucharadas de cilantro fresco picado opcional;\n- 1 cucharada de zumo de lima, al terminar;\n- sal al gusto;\n\n**Alérgenos:** Revisar el caldo comercial.\n\n## Elaboración\n\n1. Lavar el arroz y escurrirlo bien; tener los frijoles completamente cocidos preparados.\n2. Pochar cebolla y pimiento 6–8 minutos en aceite; añadir ajo y comino 30 segundos.\n3. Incorporar arroz escurrido y remover un minuto para impregnarlo del sofrito.\n4. Añadir agua o caldo y llevar a hervor suave; tapar y cocer a fuego bajo 10–12 minutos, ajustando tiempo y líquido a la variedad.\n5. Cuando el arroz esté casi hecho, incorporar cuidadosamente los frijoles cocidos calientes, tapar y finalizar hasta absorber el líquido.\n6. Reposar tapado 8 minutos, soltar con tenedor, añadir cilantro opcional y lima, y servir.\n\n## Puntos críticos\n\n- Los frijoles deben estar cocidos previamente y el arroz necesita enfriamiento rápido y refrigeración si no se consume al momento; el exceso de remoción rompe los granos.\n- Comprobar el punto de cocción de cada ingrediente y mantener control de higiene y conservación; los tiempos son orientativos.\n\n## Diagnóstico y ajustes\n\n| Problema | Posible causa | Ajuste en otra elaboración |\n|---|---|---|\n| Textura seca | Evaporación o cocción prolongada | Corregir líquido y tiempo gradualmente |\n| Condimentos desequilibrados | Concentración de sal, acidez o especias | Añadir y probar en pequeñas dosis |\n| Dorado excesivo | Temperatura elevada o sartén sobrecargada | Controlar temperatura y trabajar por tandas |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y mantener cerradas y frías. No dejar preparados perecederos varias horas a temperatura ambiente. En arroz cocido, prestar atención especial al enfriamiento rápido por el riesgo de *Bacillus cereus*. Recalentar completamente al servir de nuevo en caliente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md): control del líquido, tapa y reposo.\n- [Arroz basmati por absorción](./arroz_basmati_por_absorcion.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivamente utilizadas, ajustes durante la preparación, duración, resultado y valoración antes de clasificar esta propuesta como receta cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_frijoles_y_cilantro.html",
+  "id": "REC-0231",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati seco;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de arroz basmati seco;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de arroz basmati seco;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "frijoles negros completamente cocidos y escurridos;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de frijoles negros completamente cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de frijoles negros completamente cocidos y escurridos;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo picado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de pimiento rojo picado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de pimiento rojo picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal, ajustables al arroz;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de agua o caldo bajo en sal, ajustables al arroz;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de agua o caldo bajo en sal, ajustables al arroz;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco picado opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de cilantro fresco picado opcional;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de cilantro fresco picado opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima, al terminar;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de lima, al terminar;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de lima, al terminar;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_con_frijoles_y_cilantro.md",
+  "source_sha256": "f1ee68a34ac9ec29fdf0fcdfd1ec84eb1dc649fe817beca6939acbedd4189b8e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Lavar el arroz y escurrirlo bien; tener los frijoles completamente cocidos preparados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento 6–8 minutos en aceite; añadir ajo y comino 30 segundos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Incorporar arroz escurrido y remover un minuto para impregnarlo del sofrito."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Añadir agua o caldo y llevar a hervor suave; tapar y cocer a fuego bajo 10–12 minutos, ajustando tiempo y líquido a la variedad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Cuando el arroz esté casi hecho, incorporar cuidadosamente los frijoles cocidos calientes, tapar y finalizar hasta absorber el líquido."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Reposar tapado 8 minutos, soltar con tenedor, añadir cilantro opcional y lima, y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    }
+  ],
+  "title": "Arroz con frijoles y cilantro",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

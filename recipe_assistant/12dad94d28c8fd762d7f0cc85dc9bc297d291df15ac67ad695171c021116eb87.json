@@ -1,0 +1,306 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 116,
+      "start_line": 15
+    },
+    "text": "\n# Focaccia de romero y aceite de oliva\n\n## Descripción\n\nPan plano de masa hidratada, fermentado en bandeja y horneado con aceite de oliva y romero. El reposo y el plegado facilitan una miga aireada sin amasado intensivo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 1 bandeja de 20 × 30 cm, 6–8 porciones |\n| Preparación | 25 minutos activos, más 2–3 horas de fermentación |\n| Cocinado | 20–30 minutos |\n| Dificultad | Media |\n| Técnica principal | Fermentación, pliegues y horneado de masa hidratada |\n\n## Ingredientes\n\n- 400 g de harina de trigo de fuerza media\n- 320 g de agua potable a temperatura ambiente\n- 7 g de levadura seca de panadería o unos 20 g de levadura fresca\n- 8 g de sal fina\n- 35 ml de aceite de oliva virgen extra, más un poco para la bandeja\n- 2 ramitas pequeñas de romero fresco, limpias\n- sal en escamas, opcional\n\n**Alérgenos:** Gluten (trigo).\n\n## Mise en place\n\nUtilizar un recipiente amplio y una bandeja de unos 20 × 30 cm. Verificar que la levadura sea de panadería y no impulsor químico. La fermentación depende de la temperatura de la cocina.\n\n## Elaboración\n\n### 1. Mezclar masa\n\nMezclar harina, agua y levadura hasta humedecer toda la harina. Añadir sal y 15 ml del aceite; integrar hasta formar una masa pegajosa.\n\n### 2. Dar estructura\n\nReposar 20 minutos y realizar dos o tres tandas de pliegues con manos humedecidas, separadas por 20 minutos, estirando suavemente los bordes hacia el centro.\n\n### 3. Fermentar\n\nDejar reposar tapada hasta que aumente claramente de volumen y muestre burbujas; orientar entre 1 y 2 horas adicionales, según temperatura.\n\n### 4. Extender en bandeja\n\nAceitar generosamente la bandeja, pasar la masa y extender sin desgarrarla. Si se retrae, reposar 10 minutos antes de continuar. Dejar que recupere volumen durante 20–40 minutos.\n\n### 5. Marcar y condimentar\n\nPrecalentar horno a 220 °C. Presionar la masa con yemas aceitadas creando hoyuelos; repartir aceite restante, romero y sal opcional.\n\n### 6. Hornear y enfriar\n\nHornear 20–30 minutos hasta dorado uniforme y miga cocida, ajustando por bandeja y horno. Sacar de la bandeja y enfriar sobre rejilla antes de cortar.\n\n## Puntos críticos\n\n- Una masa muy hidratada se trabaja mejor con reposos y manos húmedas que añadiendo mucha harina.\n- Los tiempos de fermentación cambian con la temperatura y la actividad de la levadura; guiarse por el aumento de volumen.\n- No confundir levadura panadera con impulsor químico de bizcocho.\n\n## Perfil esperado\n\nSuperficie dorada y ligeramente crujiente, interior aireado, aroma de romero y aceite.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con aceitunas | Añadir aceitunas escurridas antes del horneado y moderar sal |\n| Con tomate cherry | Añadir mitades bien escurridas sobre la superficie |\n| Con tomillo | Sustituir el romero por tomillo fresco |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Miga compacta | Fermentación corta | Esperar signos de gas y volumen |\n| Base pálida | Bandeja o temperatura inadecuadas | Precalentar bien y ajustar posición |\n| Masa seca | Exceso de harina durante pliegues | Usar manos húmedas |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una masa hidratada, el tiempo y los pliegues crean estructura antes de que el horno la fije.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: fermentación, pliegues y horneado de masa hidratada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "25 minutos activos, más 2–3 horas de fermentación",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "30",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/focaccia_de_romero_y_aceite.html",
+  "id": "REC-0161",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo de fuerza media",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de harina de trigo de fuerza media",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de harina de trigo de fuerza media",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable a temperatura ambiente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de agua potable a temperatura ambiente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de agua potable a temperatura ambiente",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería o unos 20 g de levadura fresca",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería o unos 20 g de levadura fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería o unos 20 g de levadura fresca",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal fina",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de sal fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de sal fina",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra, más un poco para la bandeja",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva virgen extra, más un poco para la bandeja",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva virgen extra, más un poco para la bandeja",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ramitas pequeñas de romero fresco, limpias",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 ramitas pequeñas de romero fresco, limpias",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 ramitas pequeñas de romero fresco, limpias",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal en escamas, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal en escamas, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal en escamas, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nUtilizar un recipiente amplio y una bandeja de unos 20 × 30 cm. Verificar que la levadura sea de panadería y no impulsor químico. La fermentación depende de la temperatura de la cocina.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/focaccia_de_romero_y_aceite.md",
+  "source_sha256": "74a5f6f86d725100e998984bd2bce539e84377f20b60a98c193dcb684e3d2141",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Mezclar masa\n\nMezclar harina, agua y levadura hasta humedecer toda la harina. Añadir sal y 15 ml del aceite; integrar hasta formar una masa pegajosa.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Dar estructura\n\nReposar 20 minutos y realizar dos o tres tandas de pliegues con manos humedecidas, separadas por 20 minutos, estirando suavemente los bordes hacia el centro.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Fermentar\n\nDejar reposar tapada hasta que aumente claramente de volumen y muestre burbujas; orientar entre 1 y 2 horas adicionales, según temperatura.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Extender en bandeja\n\nAceitar generosamente la bandeja, pasar la masa y extender sin desgarrarla. Si se retrae, reposar 10 minutos antes de continuar. Dejar que recupere volumen durante 20–40 minutos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 5,
+      "text": "5. Marcar y condimentar\n\nPrecalentar horno a 220 °C. Presionar la masa con yemas aceitadas creando hoyuelos; repartir aceite restante, romero y sal opcional.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 6,
+      "text": "6. Hornear y enfriar\n\nHornear 20–30 minutos hasta dorado uniforme y miga cocida, ajustando por bandeja y horno. Sacar de la bandeja y enfriar sobre rejilla antes de cortar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Focaccia de romero y aceite de oliva",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "1 bandeja de 20 × 30 cm, 6–8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

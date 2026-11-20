@@ -1,0 +1,316 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Adobo filipino de cerdo con soja y vinagre\n\n## Descripción\n\nPreparación de referencia basada en **marinado refrigerado y braseado ácido-salado**. Esta formulación todavía no consta como preparada o valorada en casa; cantidades y tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Método | Marinado refrigerado y braseado ácido-salado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 g de aguja de cerdo en dados grandes\n- 90 ml de vinagre de caña o de vino blanco\n- 70 ml de salsa de soja clara\n- 200 ml de agua\n- 6 dientes de ajo chafados\n- 2 hojas de laurel\n- 10 granos de pimienta negra\n- 1 cucharadita de azúcar opcional\n- 1 cucharada de aceite neutro\n\n**Alérgenos:** Soja; posible trigo en salsa de soja.\n\n## Elaboración\n\n1. Mezclar soja, vinagre, ajo y pimienta en recipiente apto; añadir el cerdo, tapar y marinar refrigerado de 1 a 3 horas.\n2. Escurrir la carne conservando el líquido de marinada en un cuenco separado para cocinarlo después.\n3. Dorar el cerdo por tandas en cazuela con una cucharada de aceite.\n4. Incorporar toda la marinada reservada, agua y laurel; llevar a ebullición antes de bajar a hervor suave.\n5. Tapar parcialmente y guisar 50–70 minutos, hasta carne completamente cocinada y tierna.\n6. Destapar y reducir la salsa 5–10 minutos, removiendo para que no se pegue; corregir con agua si queda demasiado salada y azúcar opcional si la acidez domina.\n7. Retirar laurel y servir con arroz recién cocido.\n\n## Puntos críticos\n\n- La marinada ha estado en contacto con cerdo crudo: solo se reutiliza si se hierve y cocina completamente. El vinagre no sustituye la refrigeración ni la cocción.\n- Los tiempos varían según corte, grosor y equipo. Comprobar la temperatura interior de la carne, especialmente aves y carne picada.\n- Mantener materias primas refrigeradas y utensilios para crudos separados de los alimentos listos para comer.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste en otra prueba |\n|---|---|---|\n| Carne seca o dura | Calor elevado o técnica inadecuada para el corte | Moderar calor o prolongar braseado suave cuando corresponda |\n| Salsa líquida | Falta de reducción o exceso de caldo | Reducir separadamente sin sobrecocinar la carne |\n| Sabor desequilibrado | Exceso de sal, vinagre o reducción | Dosificar condimentos y probar antes de terminar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes poco profundos. Los marinados con vinagre no son conservas y deben mantenerse refrigerados. Recalentar completamente antes de servir las porciones destinadas a consumo caliente.\n\n## Relaciones dentro del SGCC\n\n- [Marinar carnes](../00_Bases/03_Tecnicas/marinar_carnes.md)\n- [Brasear carnes en cazuela](../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes efectivos, corte, equipo, temperaturas, tiempos, textura y valoración. No se altera ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **marinado refrigerado y braseado ácido-salado**. Esta formulación todavía no consta como preparada o valorada en casa; cantidades y tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/adobo_filipino_de_cerdo_con_soja_y_vinagre.html",
+  "id": "REC-378",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "aguja de cerdo en dados grandes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de aguja de cerdo en dados grandes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de aguja de cerdo en dados grandes",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de caña o de vino blanco",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de vinagre de caña o de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de vinagre de caña o de vino blanco",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de salsa de soja clara",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de salsa de soja clara",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de agua",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo chafados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 dientes de ajo chafados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "6 dientes de ajo chafados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "granos de pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 granos de pimienta negra",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "10 granos de pimienta negra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/adobo_filipino_de_cerdo_con_soja_y_vinagre.md",
+  "source_sha256": "6d9b168b1424c378bcbf1640097cceac0e78cdc84e22666089db35b01ca1805c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Mezclar soja, vinagre, ajo y pimienta en recipiente apto; añadir el cerdo, tapar y marinar refrigerado de 1 a 3 horas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrir la carne conservando el líquido de marinada en un cuenco separado para cocinarlo después."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Dorar el cerdo por tandas en cazuela con una cucharada de aceite."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar toda la marinada reservada, agua y laurel; llevar a ebullición antes de bajar a hervor suave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Tapar parcialmente y guisar 50–70 minutos, hasta carne completamente cocinada y tierna."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Destapar y reducir la salsa 5–10 minutos, removiendo para que no se pegue; corregir con agua si queda demasiado salada y azúcar opcional si la acidez domina."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Retirar laurel y servir con arroz recién cocido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/marinar_carnes.html",
+      "label": "Marinar carnes",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/marinar_carnes.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.html",
+      "label": "Brasear carnes en cazuela",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md"
+    }
+  ],
+  "title": "Adobo filipino de cerdo con soja y vinagre",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

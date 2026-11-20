@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Puré de apionabo y patata con nuez moscada\n\n## Descripción\n\nPreparación de referencia centrada en **cocción de raíces y triturado controlado**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como guarnición |\n| Técnica | Cocción de raíces y triturado controlado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de apionabo pelado en dados\n- 350 g de patata pelada en dados\n- 120 ml de leche caliente, ajustables\n- 25 g de mantequilla\n- una pizca de nuez moscada\n- sal y pimienta\n\n**Alérgenos:** Apio y leche.\n\n## Elaboración\n\n1. Pelar cuidadosamente el apionabo, retirar partes leñosas y cortarlo en dados de 2 cm; cortar la patata de tamaño similar.\n2. Colocar ambas raíces en olla, cubrir con agua fría ligeramente salada y llevar a hervor.\n3. Cocer a hervor suave durante 18–25 minutos, hasta que ambas se deshagan fácilmente al pinchar.\n4. Escurrir bien y dejar evaporar la humedad residual un minuto en la olla caliente, sin quemar.\n5. Chafar a mano o pasar por pasapurés, agregar mantequilla y leche caliente poco a poco hasta lograr textura suave.\n6. Terminar con nuez moscada, pimienta y sal; servir caliente.\n\n## Puntos críticos\n\n- No triturar intensamente la patata con batidora de cuchillas: el almidón puede volver el puré pegajoso. El apionabo es un tipo de apio y debe señalarse como alérgeno.\n- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.\n- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |\n| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |\n| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Crema de zanahoria y jengibre](./crema_de_zanahoria_y_jengibre.md)\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, equipo, tiempos, textura y valoración. No se modifican ni se presuponen resultados de preparaciones anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **cocción de raíces y triturado controlado**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/pure_de_apionabo_y_patata_con_nuez_moscada.html",
+  "id": "REC-345",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "apionabo pelado en dados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de apionabo pelado en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de apionabo pelado en dados",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patata pelada en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de patata pelada en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de patata pelada en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche caliente, ajustables",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de leche caliente, ajustables",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de leche caliente, ajustables",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de mantequilla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de nuez moscada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de nuez moscada",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de nuez moscada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pure_de_apionabo_y_patata_con_nuez_moscada.md",
+  "source_sha256": "c7ce2017a9d627ea281e407ad8c36070e2ea287847ec60f26f66fe2ed7c6028f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Pelar cuidadosamente el apionabo, retirar partes leñosas y cortarlo en dados de 2 cm; cortar la patata de tamaño similar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Colocar ambas raíces en olla, cubrir con agua fría ligeramente salada y llevar a hervor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Cocer a hervor suave durante 18–25 minutos, hasta que ambas se deshagan fácilmente al pinchar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Escurrir bien y dejar evaporar la humedad residual un minuto en la olla caliente, sin quemar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Chafar a mano o pasar por pasapurés, agregar mantequilla y leche caliente poco a poco hasta lograr textura suave."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Terminar con nuez moscada, pimienta y sal; servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Puré de apionabo y patata con nuez moscada",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 13
+    },
+    "text": "\n# Arroz frito con huevo y verduras\n\n## Descripción\n\nArroz salteado con huevo, verduras y salsa de soja. Adecuado para arroz previamente cocido y **enfriado de forma segura**, no para arroz que haya permanecido horas a temperatura ambiente.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min (con arroz ya cocido y refrigerado) |\n| Cocción | 10–12 min |\n| Técnica | Salteado |\n\n## Ingredientes\n\n- 450 g de arroz cocido, refrigerado correctamente;\n- 2 huevos;\n- 150 g de verduras variadas cortadas pequeñas;\n- 2 cebolletas o 1/2 cebolla;\n- 2 cucharadas de salsa de soja;\n- 2 cucharadas de aceite neutro;\n- pimienta;\n- unas gotas de aceite de sésamo, opcional.\n\n**Alérgenos:** huevo, soja, posible trigo y sésamo si se utiliza.\n\n## Elaboración\n\n1. Utilizar arroz cocido que se haya **enfriado rápidamente y guardado refrigerado**. Si se cocina en el momento, enfriarlo con rapidez en recipientes poco profundos y refrigerarlo; no dejarlo reposar a temperatura ambiente durante horas.\n2. Batir huevos en recipiente limpio. Cortar verduras y cebolleta.\n3. Calentar sartén amplia con parte del aceite y cuajar los huevos por completo, removiendo; reservar en plato limpio.\n4. Saltear verduras 3–4 minutos hasta que estén cocinadas.\n5. Añadir arroz frío y deshacer grumos con espátula. Saltear por tandas si la sartén es pequeña.\n6. Incorporar soja y huevo; mezclar hasta que el arroz esté **muy caliente en toda su masa**.\n7. Terminar con cebolleta y aceite de sésamo opcional. Servir inmediatamente.\n\n## Puntos críticos\n\n- El arroz cocido mal refrigerado puede favorecer *Bacillus cereus*; recalentarlo no elimina necesariamente toxinas ya formadas.\n- No reutilizar arroz con conservación dudosa.\n- Cocinar bien el huevo.\n- Evitar exceso de soja y de líquido.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con gambas | Cocinarlas completamente aparte y añadir al final |\n| Con pollo | Utilizar pollo completamente cocinado |\n| Sin huevo | Omitir y reforzar verduras |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Arroz apelmazado | Exceso de humedad | Usar arroz frío y suelto |\n| Arroz pastoso | Sartén saturada | Saltear por tandas |\n| Muy salado | Exceso de soja | Dosificar |\n\n## Conservación\n\nConsumir preferentemente recién hecho. Si sobran porciones, enfriar rápidamente y refrigerar; no recalentar repetidamente ni conservar arroz con historial térmico desconocido.\n\n## Relaciones dentro del SGCC\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n\n## Principio de NovaCoquinaria\n\n> Para arroz frito, la seguridad del enfriado previo importa tanto como la técnica de salteado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "15 min (con arroz ya cocido y refrigerado)",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": null
+    },
+    {
+      "max": "12",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–12 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/arroz_frito_con_huevo.html",
+  "id": "REC-0069",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz cocido, refrigerado correctamente;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de arroz cocido, refrigerado correctamente;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de arroz cocido, refrigerado correctamente;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "verduras variadas cortadas pequeñas;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de verduras variadas cortadas pequeñas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de verduras variadas cortadas pequeñas;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolletas o 1/2 cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebolletas o 1/2 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebolletas o 1/2 cebolla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "unas gotas de aceite de sésamo, opcional.",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de aceite de sésamo, opcional.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de aceite de sésamo, opcional.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/arroz_frito_con_huevo.md",
+  "source_sha256": "0e30725202cde1d24cc7a8c5326f441b95fb1955413085cabdd93c886857639a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Utilizar arroz cocido que se haya **enfriado rápidamente y guardado refrigerado**. Si se cocina en el momento, enfriarlo con rapidez en recipientes poco profundos y refrigerarlo; no dejarlo reposar a temperatura ambiente durante horas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Batir huevos en recipiente limpio. Cortar verduras y cebolleta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Calentar sartén amplia con parte del aceite y cuajar los huevos por completo, removiendo; reservar en plato limpio."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Saltear verduras 3–4 minutos hasta que estén cocinadas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Añadir arroz frío y deshacer grumos con espátula. Saltear por tandas si la sartén es pequeña."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Incorporar soja y huevo; mezclar hasta que el arroz esté **muy caliente en toda su masa**."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Terminar con cebolleta y aceite de sésamo opcional. Servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Arroz frito con huevo y verduras",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

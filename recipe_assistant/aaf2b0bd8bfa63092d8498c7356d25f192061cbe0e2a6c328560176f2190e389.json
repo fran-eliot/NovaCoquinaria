@@ -1,0 +1,289 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Tinga de pollo con tomate y chipotle\n\n## Descripción\n\nGuiso de pollo deshebrado con chipotle. Adaptación doméstica de inspiración latinoamericana, sin atribuirle una procedencia regional única ni afirmar una ejecución doméstica previa.\n\n**Estado de evidencia:** receta de referencia propuesta, pendiente de cocinar y valorar. Los gramajes y métodos son orientativos para repetir y evaluar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Guiso de pollo deshebrado con chipotle |\n| Prueba doméstica | Pendiente |\n\n## Ingredientes\n\n- 450 g de pechuga o contramuslo de pollo deshuesado;\n- 1 cebolla grande (180 g) en plumas;\n- 2 dientes de ajo;\n- 350 g de tomate triturado;\n- 1 chile chipotle adobado o 1 cucharadita de salsa de chipotle, ajustable;\n- 150 ml de agua o caldo bajo en sal;\n- 1 cucharada de aceite de oliva;\n- ½ cucharadita de orégano seco;\n- sal al gusto;\n\n**Alérgenos:** Revisar la salsa chipotle envasada.\n\n## Elaboración\n\n1. Cocer el pollo en agua o caldo hasta que esté completamente hecho; comprobar 74 °C en el centro y deshebrar con dos tenedores.\n2. Pochar cebolla con aceite 8–10 minutos; añadir el ajo durante 30–60 segundos.\n3. Triturar el tomate con chipotle y una pequeña cantidad del caldo; comenzar con menos picante del previsto.\n4. Añadir salsa y orégano a la cebolla; cocer a fuego medio-bajo 8–10 minutos hasta concentrar.\n5. Incorporar el pollo deshebrado y añadir caldo poco a poco; cocer 5–8 minutos hasta que se impregne sin secarse.\n6. Probar y ajustar sal y picante; servir caliente sobre arroz o en tortillas, si se dispone.\n\n## Puntos críticos\n\n- El chipotle comercial puede ser muy picante y salado; añadirlo gradualmente. Usar la salsa con cuidado si se espesa antes de incorporar pollo.\n- Comprobar el punto de cocción de cada ingrediente y mantener control de higiene y conservación; los tiempos son orientativos.\n\n## Diagnóstico y ajustes\n\n| Problema | Posible causa | Ajuste en otra elaboración |\n|---|---|---|\n| Textura seca | Evaporación o cocción prolongada | Corregir líquido y tiempo gradualmente |\n| Condimentos desequilibrados | Concentración de sal, acidez o especias | Añadir y probar en pequeñas dosis |\n| Dorado excesivo | Temperatura elevada o sartén sobrecargada | Controlar temperatura y trabajar por tandas |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y mantener cerradas y frías. No dejar preparados perecederos varias horas a temperatura ambiente. En arroz cocido, prestar atención especial al enfriamiento rápido por el riesgo de *Bacillus cereus*. Recalentar completamente al servir de nuevo en caliente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pollo a la plancha](../00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivamente utilizadas, ajustes durante la preparación, duración, resultado y valoración antes de clasificar esta propuesta como receta cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/tinga_de_pollo_con_tomate_y_chipotle.html",
+  "id": "REC-0226",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pechuga o contramuslo de pollo deshuesado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pechuga o contramuslo de pollo deshuesado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pechuga o contramuslo de pollo deshuesado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g) en plumas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g) en plumas;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g) en plumas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "chile chipotle adobado o 1 cucharadita de salsa de chipotle, ajustable;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 chile chipotle adobado o 1 cucharadita de salsa de chipotle, ajustable;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 chile chipotle adobado o 1 cucharadita de salsa de chipotle, ajustable;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo bajo en sal;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua o caldo bajo en sal;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua o caldo bajo en sal;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de orégano seco;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de orégano seco;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/tinga_de_pollo_con_tomate_y_chipotle.md",
+  "source_sha256": "f4d8af6999afd2eb2e2b0b871c2d7997660b95517dc77750a099a920592991b1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Cocer el pollo en agua o caldo hasta que esté completamente hecho; comprobar 74 °C en el centro y deshebrar con dos tenedores."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla con aceite 8–10 minutos; añadir el ajo durante 30–60 segundos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Triturar el tomate con chipotle y una pequeña cantidad del caldo; comenzar con menos picante del previsto."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir salsa y orégano a la cebolla; cocer a fuego medio-bajo 8–10 minutos hasta concentrar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Incorporar el pollo deshebrado y añadir caldo poco a poco; cocer 5–8 minutos hasta que se impregne sin secarse."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Probar y ajustar sal y picante; servir caliente sobre arroz o en tortillas, si se dispone."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.html",
+      "label": "Cocinar pollo a la plancha",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md"
+    }
+  ],
+  "title": "Tinga de pollo con tomate y chipotle",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

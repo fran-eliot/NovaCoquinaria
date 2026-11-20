@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Atascaburras manchego de patata y bacalao\n\n## Origen y contexto\n\n**Región:** Castilla-La Mancha. Formulación doméstica de referencia basada en los rasgos del plato; no se atribuye elaboración ni valoración previas y se identifican adaptaciones cuando corresponde.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–55 min, sin incluir desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de patatas\n- 300 g de bacalao desalado sin espinas\n- 3 dientes de ajo\n- 90 ml de aceite de oliva virgen extra\n- 2 huevos L\n- 50 g de nueces peladas\n- sal solo tras probar y agua de cocción reservada\n\n**Alérgenos:** Pescado, huevo y nueces.\n\n## Elaboración\n\n1. Desalar el bacalao en refrigeración siguiendo el grosor y las instrucciones del proveedor, si procede; retirar todas las espinas visibles.\n2. Pelar las patatas, trocearlas y cocerlas en agua hasta que estén completamente tiernas; reservar un poco del agua.\n3. Escalfar el bacalao desalado por separado hasta que esté completamente cocinado (unos 63 °C en el centro como referencia conservadora); escurrir y desmigar.\n4. Cocer los huevos hasta cuajado completo, enfriar, pelar y cortar en cuartos.\n5. Majar los ajos pelados con una pizca de sal; incorporar patatas aún calientes y machacar sin triturar hasta hacer una crema espesa.\n6. Añadir bacalao desmigado y aceite en hilo mientras se mezcla, ajustando con cucharadas del agua de las patatas hasta lograr consistencia untuosa.\n7. Probar sal, disponer en fuente y decorar con huevos duros y nueces. Servir templado.\n\n## Puntos críticos\n\n- El bacalao, las patatas y el ajo deben integrarse sin convertir el conjunto en sopa. El desalado no sustituye la cocción segura del pescado. Revisar espinas minuciosamente.\n- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima preparación |\n|---|---|---|\n| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |\n| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |\n| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Porrusalda vasca](./porrusalda_vasca_de_puerro_patata_y_calabaza.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades y materias primas realmente utilizadas, tiempos, texturas y valoración. No se sustituye ninguna versión anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–55 min, sin incluir desalado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/atascaburras_manchego_de_patata_y_bacalao.html",
+  "id": "REC-508",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado sin espinas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de bacalao desalado sin espinas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de bacalao desalado sin espinas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces peladas",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de nueces peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de nueces peladas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo tras probar y agua de cocción reservada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo tras probar y agua de cocción reservada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo tras probar y agua de cocción reservada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/atascaburras_manchego_de_patata_y_bacalao.md",
+  "source_sha256": "2e2577f9d836108cdc86a228ea6dfcc3e3adb8814482e8f78b471f90a3408464",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Desalar el bacalao en refrigeración siguiendo el grosor y las instrucciones del proveedor, si procede; retirar todas las espinas visibles."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pelar las patatas, trocearlas y cocerlas en agua hasta que estén completamente tiernas; reservar un poco del agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Escalfar el bacalao desalado por separado hasta que esté completamente cocinado (unos 63 °C en el centro como referencia conservadora); escurrir y desmigar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Cocer los huevos hasta cuajado completo, enfriar, pelar y cortar en cuartos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Majar los ajos pelados con una pizca de sal; incorporar patatas aún calientes y machacar sin triturar hasta hacer una crema espesa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Añadir bacalao desmigado y aceite en hilo mientras se mezcla, ajustando con cucharadas del agua de las patatas hasta lograr consistencia untuosa."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Probar sal, disponer en fuente y decorar con huevos duros y nueces. Servir templado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Atascaburras manchego de patata y bacalao",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

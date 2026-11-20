@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Sancocho canario de pescado salado y batata\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Versión doméstica de referencia basada en rasgos regionales reconocibles, con adaptaciones identificadas cuando procede. No consta como receta ya preparada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 24–36 horas de desalado en frío más 40–55 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de cherne salado o pescado blanco salado apto para desalar\n- 800 g de papas para cocer\n- 450 g de batata\n- 180 g de gofio alimentario de maíz tostado\n- 120–160 ml de agua caliente para la pella, ajustar\n- 120 g de mojo rojo preparado y apto para acompañar\n- agua potable para cocer y desalar\n\n**Alérgenos:** Pescado; comprobar ingredientes y trazas del gofio y del mojo comercial.\n\n## Elaboración\n\n1. Desalar el pescado salado en el frigorífico siguiendo el grosor e instrucciones del proveedor; como orientación, 24–36 horas con varios cambios de agua potable. Mantenerlo siempre frío.\n2. Enjuagar y revisar el pescado desalado; retirar espinas visibles y comprobar la salinidad con la cocción.\n3. Pelar o lavar cuidadosamente papas y batata, y cortar ambas en piezas grandes similares.\n4. Poner las papas y la batata en cazuela con agua potable y cocer suavemente unos 15–25 minutos, hasta estar casi tiernas.\n5. Añadir el pescado desalado y continuar unos 6–10 minutos según grosor, hasta que alcance unos 63 °C en su parte central como referencia conservadora y se separe en lascas.\n6. Preparar la pella mezclando gofio con agua caliente potable poco a poco hasta obtener una masa compacta moldeable; no utilizar caldo excesivamente salado de desalado. Formar un cilindro y cortarlo en rodajas.\n7. Escurrir papas, batata y pescado, retirar espinas detectadas y servir acompañados del mojo rojo y las rodajas de pella de gofio.\n\n## Puntos críticos\n\n- El sancocho canario utiliza habitualmente pescado salado, papas y batata, con mojo y pella de gofio. El desalado debe hacerse en frío y no convierte el pescado en seguro para consumo crudo; controlar espinas y cocción.\n- Adaptar tiempos y cantidades a la materia prima y al equipo; seguir las indicaciones de productos comerciales y garantizar higiene, cadena de frío y cocción completa de ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Interior duro o incompleto | Tiempo insuficiente o piezas grandes | Comprobar el punto real y prolongar suavemente |\n| Preparación con exceso de agua | Líquido sobrante o escurrido insuficiente | Ajustar hidratación, reducir o escurrir |\n| Sabor desequilibrado | Sal, grasa o azúcar excesivos | Rectificar después de probar y registrar cantidades |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío carnes, pescados, huevos y lácteos y evitar horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Papas arrugadas con mojo picón](../04_Verduras/papas_arrugadas_con_mojo_picon_rojo.md)\n- [Caldeirada gallega](./caldeirada_gallega_de_merluza_y_patatas.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia gastronómica externa](https://www.spain.info/es/receta/sancocho-canario/)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, cantidades, cocción, textura y valoración. Esta propuesta no sustituye versiones previas sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "24–36 horas de desalado en frío más 40–55 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/sancocho_canario_de_pescado_salado_y_batata.html",
+  "id": "REC-523",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cherne salado o pescado blanco salado apto para desalar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de cherne salado o pescado blanco salado apto para desalar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de cherne salado o pescado blanco salado apto para desalar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "papas para cocer",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de papas para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de papas para cocer",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "batata",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de batata",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de batata",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "gofio alimentario de maíz tostado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de gofio alimentario de maíz tostado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de gofio alimentario de maíz tostado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente para la pella, ajustar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "120",
+        "raw": "120–160 ml de agua caliente para la pella, ajustar",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "120–160 ml de agua caliente para la pella, ajustar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mojo rojo preparado y apto para acompañar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de mojo rojo preparado y apto para acompañar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de mojo rojo preparado y apto para acompañar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para cocer y desalar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable para cocer y desalar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable para cocer y desalar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/sancocho_canario_de_pescado_salado_y_batata.md",
+  "source_sha256": "e8499c115c831c5d71f4010786ae2a62f596a0c0b6958c7626985ba1573e5a37",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Desalar el pescado salado en el frigorífico siguiendo el grosor e instrucciones del proveedor; como orientación, 24–36 horas con varios cambios de agua potable. Mantenerlo siempre frío."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Enjuagar y revisar el pescado desalado; retirar espinas visibles y comprobar la salinidad con la cocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Pelar o lavar cuidadosamente papas y batata, y cortar ambas en piezas grandes similares."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Poner las papas y la batata en cazuela con agua potable y cocer suavemente unos 15–25 minutos, hasta estar casi tiernas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Añadir el pescado desalado y continuar unos 6–10 minutos según grosor, hasta que alcance unos 63 °C en su parte central como referencia conservadora y se separe en lascas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Preparar la pella mezclando gofio con agua caliente potable poco a poco hasta obtener una masa compacta moldeable; no utilizar caldo excesivamente salado de desalado. Formar un cilindro y cortarlo en rodajas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Escurrir papas, batata y pescado, retirar espinas detectadas y servir acompañados del mojo rojo y las rodajas de pella de gofio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Sancocho canario de pescado salado y batata",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

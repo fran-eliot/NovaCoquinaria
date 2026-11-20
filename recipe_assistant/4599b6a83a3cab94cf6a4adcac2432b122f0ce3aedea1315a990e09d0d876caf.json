@@ -1,0 +1,220 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 109,
+      "start_line": 15
+    },
+    "text": "\n# Sorbete de limón sin huevo\n\n## Descripción\n\nSorbete de limón elaborado con agua, azúcar y zumo de limón, sin clara de huevo. Se controla la cristalización con removidos periódicos durante la congelación doméstica.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 pequeñas |\n| Preparación | 15 minutos, más enfriado y congelación |\n| Cocinado | 5 minutos para el almíbar |\n| Dificultad | Media |\n| Técnica principal | Almíbar y cristalización controlada |\n\n## Ingredientes\n\n- 250 ml de zumo de limón colado\n- 400 ml de agua\n- 170 g de azúcar\n- ralladura fina de medio limón lavado, opcional\n\n**Alérgenos:** La formulación base no incluye los alérgenos habituales de declaración obligatoria; revisar posibles añadidos.\n\n## Mise en place\n\nLavar los limones antes de rallarlos y exprimirlos. Preparar un recipiente ancho apto para congelador con tapa. Enfriar completamente el almíbar antes de mezclarlo con el zumo.\n\n## Elaboración\n\n### 1. Preparar almíbar\n\nCalentar agua y azúcar en un cazo hasta que se disuelva por completo; no es necesario caramelizar. Retirar del fuego.\n\n### 2. Enfriar\n\nDejar perder calor y refrigerar el almíbar sin demora hasta que esté bien frío.\n\n### 3. Mezclar\n\nIncorporar zumo de limón colado y ralladura opcional. Probar el equilibrio dulce-ácido y ajustar con moderación si el limón es especialmente intenso.\n\n### 4. Congelar\n\nVerter en recipiente ancho y congelar. Durante las primeras 3–4 horas remover o raspar con tenedor cada 30–45 minutos, rompiendo los cristales de los bordes.\n\n### 5. Servir\n\nCuando esté firme, dejar reposar brevemente en refrigeración para facilitar el servicio. Servir recién raspado o batido rápidamente para textura más fina.\n\n## Puntos críticos\n\n- El azúcar mejora la textura y dificulta que se congele como un bloque de hielo; no reducirlo drásticamente sin cambiar el resultado.\n- La congelación doméstica genera cristales mayores que una sorbetera; los removidos mejoran la textura.\n- El sorbete no necesita clara de huevo cruda.\n\n## Perfil esperado\n\nSorbete fresco, ácido y dulce equilibrado, con cristales finos y textura raspable.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con lima | Sustituir parte del limón por lima |\n| Con menta | Infusionar unas hojas en el almíbar caliente y retirar antes de congelar |\n| Con sorbetera | Seguir instrucciones del equipo con la mezcla previamente fría |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Bloque muy duro | Cristales grandes o azúcar insuficiente | Remover durante congelación y dejar templar brevemente antes de servir |\n| Demasiado ácido | Limón concentrado | Equilibrar con almíbar antes de congelar |\n| Cristales gruesos | Congelación sin remover | Raspar periódicamente |\n\n## Conservación\n\nEnfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.\n\n## Relaciones dentro del SGCC\n\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n- [Compota de manzana](./compota_de_manzana.md)\n\n## Principio de NovaCoquinaria\n\n> La textura de un sorbete depende tanto de la proporción de azúcar como del control de los cristales.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para almíbar y cristalización controlada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "15 minutos, más enfriado y congelación",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5 minutos para el almíbar",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/sorbete_de_limon_sin_huevo.html",
+  "id": "REC-0146",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zumo de limón colado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de zumo de limón colado",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de zumo de limón colado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de agua",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de azúcar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar los limones antes de rallarlos y exprimirlos. Preparar un recipiente ancho apto para congelador con tapa. Enfriar completamente el almíbar antes de mezclarlo con el zumo.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 41
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/sorbete_de_limon_sin_huevo.md",
+  "source_sha256": "559a55bfac1f84e0f98fccf19a49af535e83911c6d2fcd4c545f74afdb9bb4f6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "1. Preparar almíbar\n\nCalentar agua y azúcar en un cazo hasta que se disuelva por completo; no es necesario caramelizar. Retirar del fuego.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "2. Enfriar\n\nDejar perder calor y refrigerar el almíbar sin demora hasta que esté bien frío.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 3,
+      "text": "3. Mezclar\n\nIncorporar zumo de limón colado y ralladura opcional. Probar el equilibrio dulce-ácido y ajustar con moderación si el limón es especialmente intenso.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 4,
+      "text": "4. Congelar\n\nVerter en recipiente ancho y congelar. Durante las primeras 3–4 horas remover o raspar con tenedor cada 30–45 minutos, rompiendo los cristales de los bordes.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nCuando esté firme, dejar reposar brevemente en refrigeración para facilitar el servicio. Servir recién raspado o batido rápidamente para textura más fina.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Sorbete de limón sin huevo",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

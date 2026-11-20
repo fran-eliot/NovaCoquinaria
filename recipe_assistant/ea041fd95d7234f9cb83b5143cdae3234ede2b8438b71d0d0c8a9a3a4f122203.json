@@ -1,0 +1,213 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Patacones de plátano verde\n\n## Descripción\n\nDoble fritura y aplastado de plátano macho verde. Adaptación doméstica de inspiración latinoamericana, sin atribuirle una procedencia regional única ni afirmar una ejecución doméstica previa.\n\n**Estado de evidencia:** receta de referencia propuesta, pendiente de cocinar y valorar. Los gramajes y métodos son orientativos para repetir y evaluar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Doble fritura y aplastado de plátano macho verde |\n| Prueba doméstica | Pendiente |\n\n## Ingredientes\n\n- 2 plátanos macho verdes (aproximadamente 500 g enteros);\n- aceite para freír en sartén, en cantidad adecuada al recipiente;\n- sal al gusto;\n- 1 diente de ajo rallado opcional;\n- 2 cucharadas de agua con sal y ajo, opcionales para pincelar;\n\n**Alérgenos:** Sin alérgenos principales; verificar contaminación cruzada del aceite.\n\n## Elaboración\n\n1. Pelar los plátanos macho verdes cortando superficialmente la piel a lo largo; cortar la pulpa en cilindros de 3–4 cm.\n2. Secar y freír las piezas en aceite a aproximadamente 160–170 °C durante 3–5 minutos, hasta que se ablanden sin dorarse demasiado.\n3. Retirar y escurrir. Aplastar cada pieza entre dos superficies limpias hasta obtener discos de 0,8–1 cm.\n4. Si se quiere aroma de ajo, pincelar ligeramente con agua con ajo y volver a secar bien antes de freír; evitar introducir agua libre en aceite.\n5. Freír de nuevo a unos 175 °C hasta dorar y quedar crujientes, aproximadamente 2–4 minutos por tanda.\n6. Escurrir, salar y servir de inmediato.\n\n## Puntos críticos\n\n- El plátano debe ser macho verde, no banana madura. Secar bien antes de freír para reducir salpicaduras.\n- Comprobar el punto de cocción de cada ingrediente y mantener control de higiene y conservación; los tiempos son orientativos.\n\n## Diagnóstico y ajustes\n\n| Problema | Posible causa | Ajuste en otra elaboración |\n|---|---|---|\n| Textura seca | Evaporación o cocción prolongada | Corregir líquido y tiempo gradualmente |\n| Condimentos desequilibrados | Concentración de sal, acidez o especias | Añadir y probar en pequeñas dosis |\n| Dorado excesivo | Temperatura elevada o sartén sobrecargada | Controlar temperatura y trabajar por tandas |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y mantener cerradas y frías. No dejar preparados perecederos varias horas a temperatura ambiente. En arroz cocido, prestar atención especial al enfriamiento rápido por el riesgo de *Bacillus cereus*. Recalentar completamente al servir de nuevo en caliente.\n\n## Relaciones dentro del SGCC\n\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivamente utilizadas, ajustes durante la preparación, duración, resultado y valoración antes de clasificar esta propuesta como receta cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/patacones_de_platano_verde.html",
+  "id": "REC-0230",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "plátanos macho verdes (aproximadamente 500 g enteros);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": true,
+        "max": "2",
+        "min": "2",
+        "raw": "2 plátanos macho verdes (aproximadamente 500 g enteros);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 plátanos macho verdes (aproximadamente 500 g enteros);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír en sartén, en cantidad adecuada al recipiente;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír en sartén, en cantidad adecuada al recipiente;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír en sartén, en cantidad adecuada al recipiente;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo rallado opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo rallado opcional;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo rallado opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua con sal y ajo, opcionales para pincelar;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua con sal y ajo, opcionales para pincelar;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua con sal y ajo, opcionales para pincelar;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/patacones_de_platano_verde.md",
+  "source_sha256": "0dabe9733a60b685d1dfc748c71a5119a5fb182c343756f204adaf96bd500c08",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Pelar los plátanos macho verdes cortando superficialmente la piel a lo largo; cortar la pulpa en cilindros de 3–4 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Secar y freír las piezas en aceite a aproximadamente 160–170 °C durante 3–5 minutos, hasta que se ablanden sin dorarse demasiado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Retirar y escurrir. Aplastar cada pieza entre dos superficies limpias hasta obtener discos de 0,8–1 cm."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Si se quiere aroma de ajo, pincelar ligeramente con agua con ajo y volver a secar bien antes de freír; evitar introducir agua libre en aceite."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Freír de nuevo a unos 175 °C hasta dorar y quedar crujientes, aproximadamente 2–4 minutos por tanda."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Escurrir, salar y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Patacones de plátano verde",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

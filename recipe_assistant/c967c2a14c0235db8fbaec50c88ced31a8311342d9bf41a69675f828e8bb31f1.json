@@ -1,0 +1,219 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 57,
+      "start_line": 13
+    },
+    "text": "\n# Chocolate caliente con cacao\n\n## Descripción\nBebida caliente de cacao puro y leche, con dulzor y densidad regulables.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 5 min |\n| Cocción | 5–8 min |\n\n## Ingredientes\n- 500 ml de leche;\n- 40 g de cacao puro sin azúcar;\n- 25–40 g de azúcar, al gusto;\n- 10 g de maicena, opcional para textura espesa;\n- pizca de canela, opcional.\n\n**Alérgeno:** leche; comprobar trazas en cacao.\n\n## Elaboración\n1. Reservar 100 ml de leche fría y mezclar con cacao, azúcar y maicena opcional hasta disolver.\n2. Calentar el resto de la leche en cazo a fuego medio.\n3. Incorporar la mezcla de cacao y remover continuamente.\n4. Cocinar a fuego suave 3–5 minutos; si se añade maicena, dejar que espese suficientemente.\n5. Ajustar dulzor y servir caliente.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Grumos | Cacao mal mezclado | Disolver primero en frío |\n| Muy espeso | Exceso de almidón | Añadir leche |\n| Poco sabor | Cacao insuficiente | Aumentar ligeramente |\n\n## Conservación\nRefrigerar rápidamente las sobras y recalentar completamente antes de consumir.\n\n## Relaciones\n- [Diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Batido de plátano y cacao](./batido_de_platano_y_cacao.md)\n\n## Principio de NovaCoquinaria\n> Disolver el cacao en frío evita grumos y facilita controlar la textura."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "8",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5–8 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/chocolate_caliente.html",
+  "id": "REC-0092",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro sin azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de cacao puro sin azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de cacao puro sin azúcar;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, al gusto;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "25",
+        "raw": "25–40 g de azúcar, al gusto;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "25–40 g de azúcar, al gusto;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena, opcional para textura espesa;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de maicena, opcional para textura espesa;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de maicena, opcional para textura espesa;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "pizca de canela, opcional.",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pizca de canela, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pizca de canela, opcional.",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/chocolate_caliente.md",
+  "source_sha256": "8590bf6dda406fa6a3b98912c2f33fe67cee35d6ab51d4c049ecb344e51356b0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 1,
+      "text": "Reservar 100 ml de leche fría y mezclar con cacao, azúcar y maicena opcional hasta disolver."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 2,
+      "text": "Calentar el resto de la leche en cazo a fuego medio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 3,
+      "text": "Incorporar la mezcla de cacao y remover continuamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 4,
+      "text": "Cocinar a fuego suave 3–5 minutos; si se añade maicena, dejar que espese suficientemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 5,
+      "text": "Ajustar dulzor y servir caliente."
+    }
+  ],
+  "techniques": [],
+  "title": "Chocolate caliente con cacao",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

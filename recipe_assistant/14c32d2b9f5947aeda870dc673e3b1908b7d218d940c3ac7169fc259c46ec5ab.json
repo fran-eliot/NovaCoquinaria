@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Marmitako de bonito con patatas\n\n## Descripción\n\nPreparación de referencia basada en **guiso de patatas y adición final de pescado azul**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica | Guiso de patatas y adición final de pescado azul |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de bonito fresco sin piel ni espinas visibles, en dados grandes\n- 650 g de patatas peladas\n- 170 g de cebolla picada\n- 170 g de pimiento verde en dados\n- 300 g de tomate triturado\n- 2 dientes de ajo\n- 650–800 ml de caldo de pescado o agua caliente\n- 3 cucharadas de aceite de oliva\n- ½ cucharadita de pimentón dulce\n- sal y pimienta\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Secar el bonito, retirar espinas visibles y guardarlo refrigerado mientras se prepara el guiso.\n2. Pochar cebolla y pimiento en aceite durante 10 minutos, incorporar ajo brevemente y añadir tomate; reducir 8 minutos.\n3. Apartar la cazuela unos segundos del calor para incorporar pimentón sin quemarlo.\n4. Cascar las patatas en trozos medianos, mezclarlas con el sofrito y añadir caldo caliente hasta cubrir justo las patatas.\n5. Cocer a hervor suave 18–25 minutos según el tamaño de los trozos, hasta que las patatas estén tiernas.\n6. Añadir el bonito y cocinar 3–6 minutos a calor suave, según grosor, hasta cocción completa; usar 63 °C como referencia conservadora.\n7. Dejar reposar brevemente fuera del calor, corregir sal y servir caliente.\n\n## Puntos críticos\n\n- El bonito se añade casi al final: una cocción prolongada lo seca. La patata debe ablandarse primero; comprobar el pescado en el centro en vez de confiar solo en minutos.\n- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.\n- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |\n| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |\n| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.\n\n## Relaciones dentro del SGCC\n\n- [Bonito encebollado con vino blanco](./bonito_encebollado_con_vino_blanco.md)\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar producto, pesos reales, método, temperatura, tiempos, textura y valoración. No se modifican versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **guiso de patatas y adición final de pescado azul**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/marmitako_de_bonito_con_patatas.html",
+  "id": "REC-359",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bonito fresco sin piel ni espinas visibles, en dados grandes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de bonito fresco sin piel ni espinas visibles, en dados grandes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de bonito fresco sin piel ni espinas visibles, en dados grandes",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas peladas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas peladas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de pimiento verde en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de pimiento verde en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate triturado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado o agua caliente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "650",
+        "raw": "650–800 ml de caldo de pescado o agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "650–800 ml de caldo de pescado o agua caliente",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/marmitako_de_bonito_con_patatas.md",
+  "source_sha256": "64efb5fac860af1c88a1ff2e2d16a9c636c68bff9c4e1e54856655af60aeaba9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Secar el bonito, retirar espinas visibles y guardarlo refrigerado mientras se prepara el guiso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite durante 10 minutos, incorporar ajo brevemente y añadir tomate; reducir 8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Apartar la cazuela unos segundos del calor para incorporar pimentón sin quemarlo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Cascar las patatas en trozos medianos, mezclarlas con el sofrito y añadir caldo caliente hasta cubrir justo las patatas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Cocer a hervor suave 18–25 minutos según el tamaño de los trozos, hasta que las patatas estén tiernas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Añadir el bonito y cocinar 3–6 minutos a calor suave, según grosor, hasta cocción completa; usar 63 °C como referencia conservadora."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Dejar reposar brevemente fuera del calor, corregir sal y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Marmitako de bonito con patatas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

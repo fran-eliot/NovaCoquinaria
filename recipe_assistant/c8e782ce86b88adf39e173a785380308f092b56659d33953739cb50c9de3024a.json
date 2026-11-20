@@ -1,0 +1,320 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Merluza a la gallega con ajada\n\n## Origen y contexto\n\n**Región:** Galicia. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de merluza en cuatro rodajas gruesas\n- 650 g de patatas\n- 180 g de cebolla\n- 2 hojas de laurel\n- 5 dientes de ajo\n- 65 ml de aceite de oliva virgen extra\n- 1 cucharadita colmada de pimentón dulce (4 g)\n- 15 ml de vinagre de vino blanco, opcional\n- sal y agua potable\n\n**Alérgenos:** Pescado; posibles sulfitos si se usa vinagre.\n\n## Elaboración\n\n1. Comprobar el pescado fresco, mantener refrigerado y revisar espinas visibles. Pelar patatas y cortarlas en rodajas de 1,5–2 cm.\n2. Poner las patatas con cebolla en cuartos, laurel, sal y agua que las cubra en una cazuela; cocer suavemente 15–20 minutos, hasta casi tiernas.\n3. Añadir la merluza en rodajas sobre las patatas y continuar 6–10 minutos, según grosor, hasta que el pescado quede completamente cocinado (63 °C en el centro como referencia conservadora).\n4. Mientras, laminar los ajos y calentarlos a fuego medio-bajo en aceite en una sartén pequeña hasta dorados suaves; apartar del fuego.\n5. Esperar unos segundos e incorporar el pimentón sin quemarlo; añadir vinagre opcional con cuidado para evitar salpicaduras y remover.\n6. Escurrir parcialmente las patatas y la merluza, reservando un poco de caldo; servir juntas con ajada tibia por encima.\n7. Retirar espinas detectadas al emplatar y ajustar sal, sin volver a hervir la ajada.\n\n## Puntos críticos\n\n- La ajada gallega se incorpora al final y distingue esta preparación de la merluza al horno o a la romana ya documentadas.\n- Añadir pimentón fuera del fuego para evitar amargor. El pescado exige cocción completa y control de espinas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Merluza seca | Exceso de tiempo en cazuela | Reducir cocción según grosor |\n| Ajada amarga | Ajo o pimentón quemado | Controlar temperatura |\n| Patata dura | Rodajas gruesas o cocción corta | Comprobar antes de agregar merluza |\n\n## Conservación\n\nRefrigerar rápidamente a 4 °C o menos y consumir preferiblemente en 24 horas; recalentar completamente evitando resecar el pescado.\n\n## Relaciones dentro del SGCC\n\n- [Merluza en salsa verde](../06_Pescados_y_Mariscos/merluza_en_salsa_verde.md)\n- [Caldeirada gallega](../06_Pescados_y_Mariscos/caldeirada_gallega_de_merluza_y_patatas.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Galicia. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_a_la_gallega_con_ajada.html",
+  "id": "REC-548",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "merluza en cuatro rodajas gruesas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de merluza en cuatro rodajas gruesas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de merluza en cuatro rodajas gruesas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "65 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "colmada de pimentón dulce (4 g)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita colmada de pimentón dulce (4 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita colmada de pimentón dulce (4 g)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 ml de vinagre de vino blanco, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "15 ml de vinagre de vino blanco, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y agua potable",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y agua potable",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y agua potable",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/merluza_a_la_gallega_con_ajada.md",
+  "source_sha256": "27952625c1af19bed8e0c0f6e43821043359f09cb93523cc5cff6f842651541f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Comprobar el pescado fresco, mantener refrigerado y revisar espinas visibles. Pelar patatas y cortarlas en rodajas de 1,5–2 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Poner las patatas con cebolla en cuartos, laurel, sal y agua que las cubra en una cazuela; cocer suavemente 15–20 minutos, hasta casi tiernas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir la merluza en rodajas sobre las patatas y continuar 6–10 minutos, según grosor, hasta que el pescado quede completamente cocinado (63 °C en el centro como referencia conservadora)."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Mientras, laminar los ajos y calentarlos a fuego medio-bajo en aceite en una sartén pequeña hasta dorados suaves; apartar del fuego."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Esperar unos segundos e incorporar el pimentón sin quemarlo; añadir vinagre opcional con cuidado para evitar salpicaduras y remover."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Escurrir parcialmente las patatas y la merluza, reservando un poco de caldo; servir juntas con ajada tibia por encima."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Retirar espinas detectadas al emplatar y ajustar sal, sin volver a hervir la ajada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza a la gallega con ajada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

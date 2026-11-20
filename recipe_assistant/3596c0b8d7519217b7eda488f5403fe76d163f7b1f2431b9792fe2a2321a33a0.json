@@ -1,0 +1,295 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Tejas de Tolosa de almendra\n\n## Origen y contexto\n\n**Región:** Tolosa, Gipuzkoa (País Vasco). Formulación doméstica de referencia inspirada en una elaboración regional, pendiente de contraste práctico. No se presenta como receta única o versión previamente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–22 tejas finas |\n| Tiempo orientativo | 20 min de masa más 10–14 min por bandeja |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 100 g de almendra laminada\n- 100 g de azúcar\n- 50 g de harina de trigo común\n- 2 claras de huevo L (aprox. 65 g)\n- 40 g de mantequilla fundida y templada\n- ralladura fina de media naranja lavada\n- 1 pizca de sal\n\n**Alérgenos:** Almendra (fruto de cáscara), trigo/gluten, huevo y leche.\n\n## Elaboración\n\n1. Precalentar el horno a 170 °C con calor arriba y abajo y forrar dos bandejas con papel de horno.\n2. Mezclar azúcar, harina, sal y ralladura; incorporar claras sin montarlas y después mantequilla fundida templada.\n3. Añadir la almendra laminada con movimientos suaves y dejar reposar 10 minutos en lugar fresco.\n4. Distribuir cucharadas pequeñas de masa separadas unos 7 cm; aplanar con cuchara hasta discos muy finos.\n5. Hornear una bandeja cada vez 10–14 minutos, hasta bordes dorados y centros cocidos; controlar el final, porque se queman con rapidez.\n6. Nada más sacar una bandeja, despegar cada disco con espátula y curvar sobre un rodillo limpio mientras aún es flexible; utilizar protección contra quemaduras.\n7. Dejar endurecer completamente sobre rejilla antes de guardar.\n\n## Puntos críticos\n\n- Teja y cigarrillo de Tolosa son piezas relacionadas pero con formas distintas; aquí se propone una teja curvada, no un cigarrillo enrollado.\n- No probar masa cruda con harina y clara. Moldear solo cuando el disco todavía esté caliente y flexible, con protección para las manos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Teja blanda | Poco horneado o humedad de almacenamiento | Dorar completamente y enfriar antes de cerrar |\n| Teja quebrada al curvar | Se enfrió antes de moldear | Trabajar pocas unidades por bandeja |\n| Bordes quemados | Capa desigual o horno intenso | Extender fino y uniforme; reducir temperatura |\n\n## Conservación\n\nGuardar completamente frías en recipiente hermético, en lugar seco y fresco, durante 3–5 días si mantienen textura. Evitar refrigeración por humedad.\n\n## Relaciones dentro del SGCC\n\n- [Perrunillas extremeñas](../08_Postres/perrunillas_extremenas_de_manteca_y_limon.md)\n- [Tostar frutos secos](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos efectivos, tiempos, resultado y valoración después de elaborarla. Esta ficha no sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 min de masa más 10–14 min por bandeja",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tejas_de_tolosa_de_almendra.html",
+  "id": "REC-529",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendra laminada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de almendra laminada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de almendra laminada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de harina de trigo común",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "claras de huevo L (aprox. 65 g)",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 claras de huevo L (aprox. 65 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 claras de huevo L (aprox. 65 g)",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida y templada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de mantequilla fundida y templada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de mantequilla fundida y templada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de media naranja lavada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de media naranja lavada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de media naranja lavada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/tejas_de_tolosa_de_almendra.md",
+  "source_sha256": "a21544d86636dafb572ab9ef573792beb716755ed3c8529ececf9a86e275c039",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 170 °C con calor arriba y abajo y forrar dos bandejas con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mezclar azúcar, harina, sal y ralladura; incorporar claras sin montarlas y después mantequilla fundida templada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir la almendra laminada con movimientos suaves y dejar reposar 10 minutos en lugar fresco."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Distribuir cucharadas pequeñas de masa separadas unos 7 cm; aplanar con cuchara hasta discos muy finos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Hornear una bandeja cada vez 10–14 minutos, hasta bordes dorados y centros cocidos; controlar el final, porque se queman con rapidez."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Nada más sacar una bandeja, despegar cada disco con espátula y curvar sobre un rodillo limpio mientras aún es flexible; utilizar protección contra quemaduras."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Dejar endurecer completamente sobre rejilla antes de guardar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "Tostar frutos secos",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Tejas de Tolosa de almendra",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "18–22 tejas finas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

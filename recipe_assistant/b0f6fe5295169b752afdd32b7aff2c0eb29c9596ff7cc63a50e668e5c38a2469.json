@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Atole de avena y canela\n\n## Descripción\n\nPreparación de referencia basada en **hidratación y espesado suave de cereal**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tazas |\n| Técnica principal | Hidratación y espesado suave de cereal |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 90 g de copos de avena finos\n- 650 ml de leche entera pasteurizada\n- 300 ml de agua potable\n- 1 rama pequeña de canela\n- 30–45 g de azúcar, ajustables\n- ½ cucharadita de vainilla opcional\n- una pizca de sal\n\n**Alérgenos:** Leche; avena con posible contaminación cruzada con gluten, según certificación.\n\n## Elaboración\n\n1. Triturar los copos de avena con 300 ml de agua hasta obtener una mezcla uniforme.\n2. Calentar la leche con canela y sal en una cazuela de fondo grueso; retirar la rama cuando la leche esté aromatizada.\n3. Verter gradualmente la avena triturada mientras se remueve con varillas.\n4. Cocinar a fuego medio-bajo durante 8–12 minutos, removiendo, hasta que la avena esté completamente cocida y la textura resulte bebible pero ligeramente espesa.\n5. Añadir azúcar y vainilla opcional, mezclar y ajustar con un poco de agua o leche caliente si espesa demasiado.\n6. Servir caliente sin dejarlo reposar mucho, porque la avena seguirá absorbiendo líquido.\n\n## Puntos críticos\n\n- Este atole es una adaptación con avena, no una formulación de atole de maíz. Remover para evitar que se agarre al fondo y no servir copos crudos simplemente hidratados.\n- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.\n- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.\n\n## Diagnóstico\n\n| Observación | Causa probable | Ajuste para otra prueba |\n|---|---|---|\n| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |\n| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |\n| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |\n\n## Conservación\n\nPreparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.\n\n## Relaciones dentro del SGCC\n\n- [Canela](../11_Despensa/08_Especias/canela.md): selección y extracción aromática en leche.\n- [Chocolate caliente](./chocolate_caliente.md)\n- [Leche dorada con cúrcuma](./leche_dorada_con_curcuma.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar productos y cantidades efectivas, temperatura, tiempos, textura, ajustes y valoración. No se modifica ni presupone ningún resultado doméstico anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **hidratación y espesado suave de cereal**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/atole_de_avena_y_canela.html",
+  "id": "REC-390",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "copos de avena finos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de copos de avena finos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de copos de avena finos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera pasteurizada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 ml de leche entera pasteurizada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "650 ml de leche entera pasteurizada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de agua potable",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeña de canela",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama pequeña de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama pequeña de canela",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustables",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "30",
+        "raw": "30–45 g de azúcar, ajustables",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "30–45 g de azúcar, ajustables",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de vainilla opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de vainilla opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/atole_de_avena_y_canela.md",
+  "source_sha256": "a66f0417e4749e1284bbab5683facd3c294d0e55d31660a8ca8b82632a8d9c58",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Triturar los copos de avena con 300 ml de agua hasta obtener una mezcla uniforme."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar la leche con canela y sal en una cazuela de fondo grueso; retirar la rama cuando la leche esté aromatizada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Verter gradualmente la avena triturada mientras se remueve con varillas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Cocinar a fuego medio-bajo durante 8–12 minutos, removiendo, hasta que la avena esté completamente cocida y la textura resulte bebible pero ligeramente espesa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Añadir azúcar y vainilla opcional, mezclar y ajustar con un poco de agua o leche caliente si espesa demasiado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Servir caliente sin dejarlo reposar mucho, porque la avena seguirá absorbiendo líquido."
+    }
+  ],
+  "techniques": [],
+  "title": "Atole de avena y canela",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tazas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

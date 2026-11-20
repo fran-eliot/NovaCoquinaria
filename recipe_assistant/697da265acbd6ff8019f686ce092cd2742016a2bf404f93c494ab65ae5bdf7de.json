@@ -1,0 +1,254 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Tamagoyaki japonés de huevo y mirin\n\n## Descripción\n\nTortilla japonesa enrollada por capas. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Tiempo orientativo | 20 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 huevos L\n- 1 cucharada de mirin\n- 2 cucharaditas de salsa de soja clara\n- 2 cucharadas de agua o caldo dashi frío\n- 1 cucharadita de azúcar, opcional\n- 1 cucharada de aceite neutro para engrasar\n\n**Alérgenos:** Huevo, soja, posible trigo y alcohol residual en el mirin.\n\n## Elaboración\n\n1. Batir los huevos suavemente con mirin, soja, agua y azúcar opcional sin incorporar demasiado aire.\n2. Calentar una sartén antiadherente pequeña a fuego medio-bajo y aceitar con una fina película.\n3. Verter una capa delgada de mezcla, dejar cuajar completamente y enrollarla hacia un extremo.\n4. Engrasar la superficie libre, añadir otra capa levantando ligeramente el rollo para que el huevo nuevo llegue por debajo y esperar a que cuaje.\n5. Repetir hasta terminar la mezcla, manteniendo el calor moderado para no dorar demasiado.\n6. Comprobar el cuajado completo de todas las capas, reposar dos minutos y cortar en porciones.\n\n## Puntos críticos\n\n- Una capa demasiado gruesa no se enrolla bien. Para esta versión doméstica se cuaja completamente el huevo, sin centro fluido.\n- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.\n- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |\n| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |\n| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Oyakodon de pollo y huevo](./oyakodon_de_pollo_y_huevo.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "declared_total",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Tortilla japonesa enrollada por capas. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/tamagoyaki_japones_de_huevo_y_mirin.html",
+  "id": "REC-408",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mirin",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mirin",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de salsa de soja clara",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo dashi frío",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua o caldo dashi frío",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua o caldo dashi frío",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro para engrasar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro para engrasar",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro para engrasar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/tamagoyaki_japones_de_huevo_y_mirin.md",
+  "source_sha256": "c5d656b19f7b51782d3e57925998032157e2ff944852da246d4edd18f92af105",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Batir los huevos suavemente con mirin, soja, agua y azúcar opcional sin incorporar demasiado aire."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar una sartén antiadherente pequeña a fuego medio-bajo y aceitar con una fina película."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Verter una capa delgada de mezcla, dejar cuajar completamente y enrollarla hacia un extremo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Engrasar la superficie libre, añadir otra capa levantando ligeramente el rollo para que el huevo nuevo llegue por debajo y esperar a que cuaje."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Repetir hasta terminar la mezcla, manteniendo el calor moderado para no dorar demasiado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Comprobar el cuajado completo de todas las capas, reposar dos minutos y cortar en porciones."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Tamagoyaki japonés de huevo y mirin",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

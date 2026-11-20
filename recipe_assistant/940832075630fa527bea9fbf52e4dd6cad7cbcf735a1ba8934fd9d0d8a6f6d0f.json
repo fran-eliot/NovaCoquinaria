@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Ensalada de hinojo, manzana y naranja\n\n## Descripción\n\nPreparación de referencia basada en **laminado fino, cítricos y vinagreta fresca**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica | Laminado fino, cítricos y vinagreta fresca |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 bulbos de hinojo, unos 400 g limpios\n- 1 manzana firme de unos 180 g\n- 2 naranjas medianas\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de zumo de limón\n- 30 g de nueces troceadas, opcionales\n- sal, pimienta y hojas tiernas de hinojo\n\n**Alérgenos:** Nueces si se utilizan; revisar tolerancia individual a cítricos.\n\n## Elaboración\n\n1. Lavar muy bien los bulbos de hinojo, retirar partes exteriores dañadas y laminarlos finamente con cuchillo o mandolina protegida.\n2. Lavar la manzana, retirar semillas y corazón, y cortarla en láminas finas.\n3. Pelar las naranjas retirando la parte blanca exterior; separar gajos sin semillas y recoger parte de su jugo.\n4. Mezclar aceite, limón, una cucharada de jugo de naranja, sal y pimienta para la vinagreta.\n5. Disponer hinojo, manzana y gajos de naranja en una fuente, aliñar y mezclar suavemente.\n6. Terminar con hojas tiernas del hinojo y nueces opcionales justo antes de servir; conservar refrigerada hasta el servicio.\n\n## Puntos críticos\n\n- Es una preparación cruda: higienizar hinojo y manzana y evitar la contaminación cruzada. El limón retrasa el pardeamiento de la manzana, pero no sustituye la refrigeración.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hinojo asado con naranja y aceitunas](./hinojo_asado_con_naranja_y_aceitunas.md)\n- [Emulsionar vinagretas y aliños](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **laminado fino, cítricos y vinagreta fresca**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/ensalada_de_hinojo_manzana_y_naranja.html",
+  "id": "REC-405",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bulbos de hinojo, unos 400 g limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 bulbos de hinojo, unos 400 g limpios",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 bulbos de hinojo, unos 400 g limpios",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "manzana firme de unos 180 g",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 manzana firme de unos 180 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 manzana firme de unos 180 g",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "naranjas medianas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 naranjas medianas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 naranjas medianas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces troceadas, opcionales",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de nueces troceadas, opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de nueces troceadas, opcionales",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y hojas tiernas de hinojo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y hojas tiernas de hinojo",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y hojas tiernas de hinojo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/ensalada_de_hinojo_manzana_y_naranja.md",
+  "source_sha256": "b10022e8ed706878d9308721aba368d892c0bb771ea2d5ddd34d15a01450fe36",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Lavar muy bien los bulbos de hinojo, retirar partes exteriores dañadas y laminarlos finamente con cuchillo o mandolina protegida."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Lavar la manzana, retirar semillas y corazón, y cortarla en láminas finas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Pelar las naranjas retirando la parte blanca exterior; separar gajos sin semillas y recoger parte de su jugo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Mezclar aceite, limón, una cucharada de jugo de naranja, sal y pimienta para la vinagreta."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Disponer hinojo, manzana y gajos de naranja en una fuente, aliñar y mezclar suavemente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Terminar con hojas tiernas del hinojo y nueces opcionales justo antes de servir; conservar refrigerada hasta el servicio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas y aliños",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Ensalada de hinojo, manzana y naranja",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

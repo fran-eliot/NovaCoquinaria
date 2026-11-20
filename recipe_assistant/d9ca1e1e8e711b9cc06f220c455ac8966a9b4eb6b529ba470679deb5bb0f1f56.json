@@ -1,0 +1,317 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Arroz con sepia y guisantes\n\n## Descripción\n\nPreparación de referencia basada en **sofrito marino y cocción de arroz en cazuela**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica principal | Sofrito marino y cocción de arroz en cazuela |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de arroz redondo\n- 450 g de sepia limpia en dados de 2 cm\n- 150 g de guisantes congelados\n- 180 g de tomate triturado\n- 150 g de cebolla picada\n- 2 dientes de ajo\n- 850–950 ml de caldo de pescado caliente, orientativos\n- 3 cucharadas de aceite de oliva\n- ½ cucharadita de pimentón dulce\n- sal y pimienta\n\n**Alérgenos:** Moluscos y pescado (caldo).\n\n## Elaboración\n\n1. Secar la sepia y cortarla en trozos uniformes, manteniéndola refrigerada hasta cocinar.\n2. Dorar la sepia por tandas en cazuela ancha con aceite durante 3–4 minutos; retirar.\n3. Pochar cebolla y ajo, añadir tomate y reducir 8 minutos hasta que el sofrito esté concentrado.\n4. Añadir pimentón con cuidado, devolver sepia y verter una parte del caldo; cocinar 8–12 minutos a fuego suave para avanzar su ternura.\n5. Agregar arroz y caldo caliente restante, remover una vez para repartir y cocinar a hervor moderado el tiempo adecuado para la variedad, aproximadamente 16–19 minutos.\n6. Incorporar los guisantes durante los últimos 5–7 minutos; comprobar que arroz, guisantes y sepia estén completamente cocinados y dejar reposar brevemente.\n\n## Puntos críticos\n\n- La sepia libera agua: el secado y salteado por tandas ayudan a conservar el sofrito concentrado. Controlar el punto real de la sepia; piezas grandes requieren más tiempo.\n- Ajustar la proporción de caldo a la variedad de arroz, el recipiente y la evaporación; las cantidades propuestas no garantizan el mismo punto en todos los equipos.\n- Cocinar completamente las proteínas y mantener separados utensilios usados con alimentos crudos y preparados.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Corrección para otra prueba |\n|---|---|---|\n| Arroz duro y seco | Faltó líquido o hubo evaporación excesiva | Ajustar caldo caliente y fuego antes de que se seque |\n| Arroz demasiado blando | Exceso de líquido o cocción prolongada | Medir caldo y comprobar el grano hacia el final |\n| Fondo quemado | Temperatura alta o sofrito demasiado concentrado | Controlar fuego y usar recipiente de fondo uniforme |\n\n## Conservación\n\nServir preferiblemente recién hecho. Si queda arroz, repartir en recipientes poco profundos, **enfriar rápidamente y refrigerar sin demora**. No mantener arroz cocido horas a temperatura ambiente: un recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente antes de servir los restos.\n\n## Relaciones dentro del SGCC\n\n- [Arroz seco en cazuela](../12_Plantillas/05_Arroces/arroz_seco_en_cazuela_base.md)\n- [Sepia a la plancha](../06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes efectivamente utilizados, proporción real de caldo, recipiente, tiempo de cocción, punto del grano y valoración. Ninguna cantidad se atribuye a versiones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **sofrito marino y cocción de arroz en cazuela**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_sepia_y_guisantes.html",
+  "id": "REC-311",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sepia limpia en dados de 2 cm",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de sepia limpia en dados de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de sepia limpia en dados de 2 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes congelados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de guisantes congelados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de guisantes congelados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de tomate triturado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado caliente, orientativos",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": true,
+        "max": "950",
+        "min": "850",
+        "raw": "850–950 ml de caldo de pescado caliente, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "850–950 ml de caldo de pescado caliente, orientativos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/arroz_con_sepia_y_guisantes.md",
+  "source_sha256": "1280a07515ccbee7b8ff4787659cf8a89348dcd0328fb01c97ce361f2db905b5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Secar la sepia y cortarla en trozos uniformes, manteniéndola refrigerada hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Dorar la sepia por tandas en cazuela ancha con aceite durante 3–4 minutos; retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo, añadir tomate y reducir 8 minutos hasta que el sofrito esté concentrado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir pimentón con cuidado, devolver sepia y verter una parte del caldo; cocinar 8–12 minutos a fuego suave para avanzar su ternura."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Agregar arroz y caldo caliente restante, remover una vez para repartir y cocinar a hervor moderado el tiempo adecuado para la variedad, aproximadamente 16–19 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Incorporar los guisantes durante los últimos 5–7 minutos; comprobar que arroz, guisantes y sepia estén completamente cocinados y dejar reposar brevemente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz con sepia y guisantes",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

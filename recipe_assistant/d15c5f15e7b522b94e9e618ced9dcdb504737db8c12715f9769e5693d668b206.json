@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Coliflor asada entera con yogur y especias\n\n## Descripción\n\nPreparación de horno doméstico mediante **asado entero y salsa fría**. Formulación propuesta, sin elaboración o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Temperatura inicial | 190 °C, calor arriba y abajo |\n| Técnica | Asado entero y salsa fría |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 1 coliflor pequeña de 700–900 g;\n- 3 cucharadas de aceite de oliva;\n- 1 cucharadita de pimentón;\n- ½ cucharadita de comino;\n- ½ cucharadita de cúrcuma;\n- 120 g de yogur natural;\n- 1 cucharada de zumo de limón;\n- 1 diente pequeño de ajo;\n\n**Alérgenos:** Leche (yogur). Revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Quitar las hojas duras de la coliflor sin separar los ramilletes; lavar y secar.\n2. Mezclar aceite y especias, y distribuir sobre la coliflor.\n3. Hornear a 190 °C cubierta con tapa apta para horno o aluminio durante 35 minutos.\n4. Destapar y continuar otros 20–40 minutos, hasta que el tallo central se atraviese fácilmente y la superficie esté dorada.\n5. Mezclar yogur, limón y ajo; mantener refrigerado y acompañar la coliflor al servir.\n\n## Puntos críticos\n\n- Comprobar el centro, no solo el dorado exterior; la duración varía con el tamaño.\n- Ajustar tiempos y temperatura a grosor, recipiente y horno. Los tiempos indicados no sustituyen el control del punto real de cocción.\n- Usar utensilios aptos y evitar la contaminación cruzada entre ingredientes crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Superficie quemada | Horno alto o temperatura excesiva | Bajar bandeja o proteger antes del final |\n| Centro insuficientemente cocido | Piezas grandes | Prolongar y comprobar el centro |\n| Fondo húmedo | Ingredientes sin reducir o escurrir | Eliminar el exceso de agua antes de hornear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Índice de Horno](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente empleadas, recipiente, temperatura, tiempo, textura, resultado y valoración. Una descripción del resultado esperado no acredita una prueba."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/coliflor_asada_entera_con_yogur_y_especias.html",
+  "id": "REC-0212",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "coliflor pequeña de 700–900 g;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 coliflor pequeña de 700–900 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 coliflor pequeña de 700–900 g;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "comino;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cúrcuma;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cúrcuma;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cúrcuma;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de yogur natural;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de yogur natural;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeño de ajo;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente pequeño de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente pequeño de ajo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/coliflor_asada_entera_con_yogur_y_especias.md",
+  "source_sha256": "2af01fde56af5473c517362a24e9506d3c5c0cdf8e78db017ef10d5f0cdff611",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Quitar las hojas duras de la coliflor sin separar los ramilletes; lavar y secar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar aceite y especias, y distribuir sobre la coliflor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Hornear a 190 °C cubierta con tapa apta para horno o aluminio durante 35 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Destapar y continuar otros 20–40 minutos, hasta que el tallo central se atraviese fácilmente y la superficie esté dorada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Mezclar yogur, limón y ajo; mantener refrigerado y acompañar la coliflor al servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Coliflor asada entera con yogur y especias",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

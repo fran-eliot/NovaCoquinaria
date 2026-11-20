@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Coca de llanda valenciana con limón y canela\n\n## Origen y contexto\n\n**Región:** Comunitat Valenciana. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 porciones |\n| Tiempo orientativo | 20 minutos preparación + 30–40 minutos de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo común\n- 3 huevos L\n- 220 g de azúcar\n- 220 ml de leche entera\n- 140 ml de aceite de oliva suave o girasol\n- 12 g de levadura química de repostería\n- ralladura de un limón lavado\n- 1 cucharadita de canela molida\n- 30 g de azúcar adicional para la superficie\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Precalentar horno a 180 °C y forrar una bandeja rectangular de unos 25 × 30 cm con papel de horno, dejando bordes.\n2. Batir huevos con azúcar hasta obtener mezcla homogénea ligeramente aireada.\n3. Añadir leche y aceite gradualmente, seguido de ralladura de limón.\n4. Tamizar harina y levadura química e incorporar a la mezcla con movimientos suaves hasta que desaparezcan los grumos secos.\n5. Verter la masa en la llanda y espolvorear una mezcla de canela y azúcar adicional sobre la superficie.\n6. Hornear 30–40 minutos según grosor, hasta que la superficie esté dorada y una brocheta insertada en el centro salga limpia.\n7. Enfriar sobre rejilla, cortar en cuadrados y servir.\n\n## Puntos críticos\n\n- La coca de llanda es un bizcocho de bandeja de poca altura; una bandeja demasiado pequeña da un grosor distinto y altera el tiempo. No confundir levadura química con levadura de panadería.\n- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |\n| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |\n| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Sobaos pasiegos](./sobaos_pasiegos_de_mantequilla.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 minutos preparación + 30–40 minutos de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/coca_de_llanda_valenciana_con_limon_y_canela.html",
+  "id": "REC-489",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de azúcar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "220 ml de leche entera",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o girasol",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 ml de aceite de oliva suave o girasol",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "140 ml de aceite de oliva suave o girasol",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura química de repostería",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de levadura química de repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de levadura química de repostería",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de un limón lavado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de un limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de un limón lavado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para la superficie",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar adicional para la superficie",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar adicional para la superficie",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/coca_de_llanda_valenciana_con_limon_y_canela.md",
+  "source_sha256": "f30d3123d08634cf5283143d815e2d3e8d9be0af20c78debbe085d32c6ace308",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 180 °C y forrar una bandeja rectangular de unos 25 × 30 cm con papel de horno, dejando bordes."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Batir huevos con azúcar hasta obtener mezcla homogénea ligeramente aireada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir leche y aceite gradualmente, seguido de ralladura de limón."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Tamizar harina y levadura química e incorporar a la mezcla con movimientos suaves hasta que desaparezcan los grumos secos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Verter la masa en la llanda y espolvorear una mezcla de canela y azúcar adicional sobre la superficie."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Hornear 30–40 minutos según grosor, hasta que la superficie esté dorada y una brocheta insertada en el centro salga limpia."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Enfriar sobre rejilla, cortar en cuadrados y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Coca de llanda valenciana con limón y canela",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

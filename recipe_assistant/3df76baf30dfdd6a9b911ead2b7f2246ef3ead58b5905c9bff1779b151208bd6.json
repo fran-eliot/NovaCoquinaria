@@ -1,0 +1,306 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 116,
+      "start_line": 15
+    },
+    "text": "\n# Garbanzos crujientes al horno con especias\n\n## Descripción\n\nGarbanzos cocidos asados en una sola capa hasta desarrollar una superficie seca y crujiente, con comino, pimentón y limón. No se busca secar por completo el interior ni usar legumbre cruda.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como aperitivo o guarnición |\n| Preparación | 15 minutos |\n| Cocinado | 30–45 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Secado y asado de legumbre cocida |\n\n## Ingredientes\n\n- 500 g de garbanzos ya cocidos, escurridos\n- 2 cucharadas de aceite de oliva virgen extra\n- 3/4 cucharadita de comino molido\n- 1/2 cucharadita de pimentón dulce\n- 1/4 cucharadita de pimienta negra\n- sal al gusto, según salinidad de la conserva\n- ralladura fina de medio limón, opcional\n- una pizca de chile, opcional\n\n**Alérgenos:** Revisar posibles ingredientes añadidos en conservas y mezclas de especias.\n\n## Mise en place\n\nPrecalentar horno a 200 °C con ventilador o 210 °C calor arriba y abajo. Enjuagar si es necesario y escurrir muy bien los garbanzos cocidos. Extender sobre paño o papel limpio y retirar humedad superficial.\n\n## Elaboración\n\n### 1. Secar la legumbre\n\nDejar los garbanzos extendidos 5–10 minutos sobre papel limpio. Retirar pieles desprendidas, sin necesidad de pelar todos los granos.\n\n### 2. Primer asado\n\nMezclar con aceite y una pizca de sal. Repartir sobre bandeja en una sola capa. Hornear 20 minutos, removiendo a mitad.\n\n### 3. Condimentar\n\nReducir ligeramente la temperatura si se doran demasiado; incorporar comino, pimentón y pimienta, mezclando para repartir.\n\n### 4. Terminar el crujiente\n\nHornear otros 10–20 minutos, moviendo una vez, hasta que la superficie se note seca y crujiente, sin oscurecer excesivamente las especias.\n\n### 5. Servir\n\nDejar reposar 3–5 minutos para valorar la textura y terminar con ralladura de limón. Consumir preferiblemente recién preparados.\n\n## Puntos críticos\n\n- Solo usar garbanzos completamente cocidos; el horno no sustituye la cocción de una legumbre seca.\n- Escurrir y secar es determinante para reducir el vapor.\n- La superficie se vuelve más crujiente al templarse, pero puede ablandarse después.\n- No usar aceite excesivo ni quemar pimentón durante el asado largo.\n\n## Perfil esperado\n\nGarbanzos con exterior dorado y ligeramente crujiente, centro aún tierno y especias repartidas sin amargor.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con curry | Sustituir comino y pimentón por una mezcla de curry alimentaria de dosis moderada. |\n| Con limón y perejil | Añadir ralladura y hierbas frescas al servir. |\n| Con ahumado | Usar una pizca de pimentón ahumado sin prolongar el asado de la especia. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Garbanzos blandos | Humedad superficial o bandeja saturada | Escurrir más y usar bandeja amplia |\n| Especias amargas | Añadidas demasiado pronto y quemadas | Incorporar tras la primera fase |\n| Garbanzos muy duros | Exceso de horneado | Retirar al punto de crujiente superficial |\n\n## Conservación\n\nEnfriar sin demoras y refrigerar las sobras como cualquier legumbre cocida. La refrigeración reducirá el crujiente; recalentar en horno para recuperarlo parcialmente. No almacenar un lote doméstico como aperitivo seco estable a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Comino](../11_Despensa/08_Especias/comino.md)\n- [Pimentón](../11_Despensa/08_Especias/pimenton.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> Un garbanzo cocido desarrolla textura crujiente al perder humedad superficial, no por prolongar sin límite su asado.\n\n## Utilizado por\n\nReferencia para adaptar preparaciones de verduras y legumbres a distintas técnicas de horno y sartén."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_crujientes_al_horno_con_especias.html",
+  "id": "REC-0169",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos ya cocidos, escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de garbanzos ya cocidos, escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de garbanzos ya cocidos, escurridos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3/4",
+        "min": "3/4",
+        "raw": "3/4 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "3/4 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "1/4 cucharadita de pimienta negra",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/4 cucharadita de pimienta negra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto, según salinidad de la conserva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto, según salinidad de la conserva",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto, según salinidad de la conserva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de chile, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de chile, opcional",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de chile, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar horno a 200 °C con ventilador o 210 °C calor arriba y abajo. Enjuagar si es necesario y escurrir muy bien los garbanzos cocidos. Extender sobre paño o papel limpio y retirar humedad superficial.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/garbanzos_crujientes_al_horno_con_especias.md",
+  "source_sha256": "511ae22f38d45759bb6c27e2cf3b71d886d1c9ac5c21664de0d8cfe110b2fcaf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Secar la legumbre\n\nDejar los garbanzos extendidos 5–10 minutos sobre papel limpio. Retirar pieles desprendidas, sin necesidad de pelar todos los granos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Primer asado\n\nMezclar con aceite y una pizca de sal. Repartir sobre bandeja en una sola capa. Hornear 20 minutos, removiendo a mitad.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Condimentar\n\nReducir ligeramente la temperatura si se doran demasiado; incorporar comino, pimentón y pimienta, mezclando para repartir.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Terminar el crujiente\n\nHornear otros 10–20 minutos, moviendo una vez, hasta que la superficie se note seca y crujiente, sin oscurecer excesivamente las especias.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nDejar reposar 3–5 minutos para valorar la textura y terminar con ralladura de limón. Consumir preferiblemente recién preparados.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Garbanzos crujientes al horno con especias",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como aperitivo o guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Albóndigas de cordero en salsa de tomate y comino\n\n## Descripción\n\nPreparación de referencia basada en **formado de carne picada y cocción completa en salsa**. Esta formulación todavía no consta como preparada o valorada en casa; cantidades y tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Método | Formado de carne picada y cocción completa en salsa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de carne picada de cordero\n- 1 huevo L\n- 40 g de pan rallado\n- 1 diente de ajo rallado\n- 1 cucharadita de comino molido\n- ½ cucharadita de cilantro molido\n- 450 g de tomate triturado\n- 150 g de cebolla picada\n- 2 cucharadas de aceite de oliva\n- 100 ml de agua\n- sal, pimienta y perejil opcional\n\n**Alérgenos:** Huevo y gluten (trigo).\n\n## Elaboración\n\n1. Mezclar carne picada, huevo, pan rallado, ajo, comino, cilantro, sal y pimienta con manos limpias o utensilio, sin amasar en exceso.\n2. Formar 16–20 albóndigas uniformes y conservar refrigeradas hasta cocinar.\n3. Pochar cebolla en cazuela con aceite 7 minutos, añadir tomate y reducir 8 minutos.\n4. Añadir agua, llevar a hervor suave e incorporar las albóndigas separadas, sin amontonarlas.\n5. Tapar parcialmente y cocinar 15–20 minutos según tamaño, girándolas una vez con cuidado, hasta que alcancen 71 °C en el centro.\n6. Destapar brevemente para ajustar densidad, probar sal y terminar con perejil opcional.\n\n## Puntos críticos\n\n- Las albóndigas de carne picada requieren cocción completa en el centro; no basta con dorar la superficie. Ajustar el pan rallado según la humedad de la mezcla.\n- Los tiempos varían según corte, grosor y equipo. Comprobar la temperatura interior de la carne, especialmente aves y carne picada.\n- Mantener materias primas refrigeradas y utensilios para crudos separados de los alimentos listos para comer.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste en otra prueba |\n|---|---|---|\n| Carne seca o dura | Calor elevado o técnica inadecuada para el corte | Moderar calor o prolongar braseado suave cuando corresponda |\n| Salsa líquida | Falta de reducción o exceso de caldo | Reducir separadamente sin sobrecocinar la carne |\n| Sabor desequilibrado | Exceso de sal, vinagre o reducción | Dosificar condimentos y probar antes de terminar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes poco profundos. Los marinados con vinagre no son conservas y deben mantenerse refrigerados. Recalentar completamente antes de servir las porciones destinadas a consumo caliente.\n\n## Relaciones dentro del SGCC\n\n- [Albóndigas de ternera en salsa de tomate](./albondigas_de_ternera_en_salsa_de_tomate.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes efectivos, corte, equipo, temperaturas, tiempos, textura y valoración. No se altera ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **formado de carne picada y cocción completa en salsa**. Esta formulación todavía no consta como preparada o valorada en casa; cantidades y tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/albondigas_de_cordero_en_salsa_de_tomate_y_comino.html",
+  "id": "REC-381",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carne picada de cordero",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de carne picada de cordero",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de carne picada de cordero",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de pan rallado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo rallado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo rallado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro molido",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cilantro molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cilantro molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de tomate triturado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y perejil opcional",
+      "optionality": "unknown",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y perejil opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y perejil opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/albondigas_de_cordero_en_salsa_de_tomate_y_comino.md",
+  "source_sha256": "76cc5e3b90354cd257cf7a26c49dfdc8d0a1a9cc0afe2443f0cfbfdded574db7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Mezclar carne picada, huevo, pan rallado, ajo, comino, cilantro, sal y pimienta con manos limpias o utensilio, sin amasar en exceso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Formar 16–20 albóndigas uniformes y conservar refrigeradas hasta cocinar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla en cazuela con aceite 7 minutos, añadir tomate y reducir 8 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir agua, llevar a hervor suave e incorporar las albóndigas separadas, sin amontonarlas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Tapar parcialmente y cocinar 15–20 minutos según tamaño, girándolas una vez con cuidado, hasta que alcancen 71 °C en el centro."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Destapar brevemente para ajustar densidad, probar sal y terminar con perejil opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Albóndigas de cordero en salsa de tomate y comino",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

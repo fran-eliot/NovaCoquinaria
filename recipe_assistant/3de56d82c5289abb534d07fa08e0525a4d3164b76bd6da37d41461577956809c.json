@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Pak choi salteado con ajo, jengibre y soja\n\n## Descripción\n\nPreparación de referencia centrada en **salteado diferenciado de tallos y hojas**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 como guarnición |\n| Técnica | Salteado diferenciado de tallos y hojas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de pak choi\n- 2 dientes de ajo laminados\n- 12 g de jengibre fresco rallado\n- 1 cucharada de salsa de soja clara\n- 1 cucharada de aceite neutro\n- 2 cucharadas de agua\n- ½ cucharadita de aceite de sésamo tostado, opcional\n\n**Alérgenos:** Soja; posible trigo en salsa de soja; sésamo si se utiliza.\n\n## Elaboración\n\n1. Separar los pak choi por la base, lavar hoja por hoja para retirar arena y secar cuidadosamente.\n2. Cortar los tallos gruesos en trozos de 3 cm y reservar las hojas por separado.\n3. Calentar una sartén amplia con aceite a fuego medio-alto, añadir tallos y saltear 2–3 minutos.\n4. Agregar ajo y jengibre, remover 30 segundos sin quemarlos y añadir las hojas.\n5. Verter dos cucharadas de agua y la soja; tapar 1–2 minutos, hasta que los tallos estén tiernos y las hojas reducidas.\n6. Destapar, evaporar exceso de líquido y terminar fuera del fuego con aceite de sésamo opcional.\n\n## Puntos críticos\n\n- Los tallos necesitan más tiempo que las hojas. La soja ya aporta sal; probar antes de añadir más.\n- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.\n- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |\n| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |\n| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, equipo, tiempos, textura y valoración. No se modifican ni se presuponen resultados de preparaciones anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **salteado diferenciado de tallos y hojas**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/pak_choi_salteado_con_ajo_jengibre_y_soja.html",
+  "id": "REC-340",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pak choi",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de pak choi",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de pak choi",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de jengibre fresco rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de jengibre fresco rallado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja clara",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de aceite de sésamo tostado, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de aceite de sésamo tostado, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/pak_choi_salteado_con_ajo_jengibre_y_soja.md",
+  "source_sha256": "8703674be09b547643aec59840975f15b02e79927e836fd4bbcc82726568ae3b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Separar los pak choi por la base, lavar hoja por hoja para retirar arena y secar cuidadosamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Cortar los tallos gruesos en trozos de 3 cm y reservar las hojas por separado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Calentar una sartén amplia con aceite a fuego medio-alto, añadir tallos y saltear 2–3 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Agregar ajo y jengibre, remover 30 segundos sin quemarlos y añadir las hojas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Verter dos cucharadas de agua y la soja; tapar 1–2 minutos, hasta que los tallos estén tiernos y las hojas reducidas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Destapar, evaporar exceso de líquido y terminar fuera del fuego con aceite de sésamo opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Pak choi salteado con ajo, jengibre y soja",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Hojaldres de manzana y canela\n\n## Descripción\n\nPropuesta de repostería basada en **relleno seco, sellado de hojaldre y horneado**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 piezas |\n| Técnica principal | Relleno seco, sellado de hojaldre y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 lámina rectangular de hojaldre refrigerado de aproximadamente 250–275 g;\n- 2 manzanas medianas (300 g de pulpa);\n- 25 g de azúcar;\n- ½ cucharadita de canela;\n- 1 cucharadita de zumo de limón;\n- 10 g de mantequilla;\n- 1 huevo batido para pincelar, opcional;\n\n**Alérgenos:** Gluten (trigo), leche según hojaldre y mantequilla; huevo si se pincela.\n\n## Elaboración\n\n1. Pelar y cortar las manzanas en dados pequeños. Cocinarlas con mantequilla, azúcar, canela y limón 6–8 minutos, hasta reducir casi toda el agua.\n2. Dejar enfriar por completo el relleno antes de montarlo, para evitar que funda la grasa del hojaldre.\n3. Precalentar el horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel.\n4. Cortar la lámina fría en ocho rectángulos; colocar relleno en una mitad de cada pieza dejando bordes libres.\n5. Doblar, sellar con tenedor, hacer un pequeño corte superior de ventilación y pincelar con huevo opcional.\n6. Hornear 18–23 minutos, hasta que el hojaldre esté expandido, dorado y totalmente cocido en la base; enfriar ligeramente antes de servir.\n\n## Puntos críticos\n\n- El relleno debe estar frío y con poca humedad. Si el hojaldre se calienta durante el montaje pierde capas y puede quedar crudo por debajo.\n- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.\n- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |\n| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |\n| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |\n\n## Conservación\n\nEnfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.\n\n## Relaciones dentro del SGCC\n\n- [Manzana](../11_Despensa/17_Frutas/manzana.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/hojaldres_de_manzana_y_canela.html",
+  "id": "REC-297",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lámina rectangular de hojaldre refrigerado de aproximadamente 250–275 g;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": true,
+        "max": "1",
+        "min": "1",
+        "raw": "1 lámina rectangular de hojaldre refrigerado de aproximadamente 250–275 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 lámina rectangular de hojaldre refrigerado de aproximadamente 250–275 g;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "manzanas medianas (300 g de pulpa);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 manzanas medianas (300 g de pulpa);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 manzanas medianas (300 g de pulpa);",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de mantequilla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de mantequilla;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pincelar, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pincelar, opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pincelar, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/hojaldres_de_manzana_y_canela.md",
+  "source_sha256": "1a3e229ffe945d11549517f6d0da6ee22d084749d6caa84e89fc208a0b12804b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Pelar y cortar las manzanas en dados pequeños. Cocinarlas con mantequilla, azúcar, canela y limón 6–8 minutos, hasta reducir casi toda el agua."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Dejar enfriar por completo el relleno antes de montarlo, para evitar que funda la grasa del hojaldre."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Precalentar el horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Cortar la lámina fría en ocho rectángulos; colocar relleno en una mitad de cada pieza dejando bordes libres."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Doblar, sellar con tenedor, hacer un pequeño corte superior de ventilación y pincelar con huevo opcional."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear 18–23 minutos, hasta que el hojaldre esté expandido, dorado y totalmente cocido en la base; enfriar ligeramente antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Hojaldres de manzana y canela",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "8 piezas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

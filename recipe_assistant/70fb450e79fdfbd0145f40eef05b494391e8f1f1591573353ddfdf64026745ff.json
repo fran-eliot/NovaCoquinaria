@@ -1,0 +1,228 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 13
+    },
+    "text": "\n# Compota de manzana con canela\n\n## Descripción\n\nManzana cocida suavemente con limón y canela, con textura ajustable entre trozos tiernos y puré rústico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 10 min |\n| Cocción | 15–25 min |\n| Técnica | Cocción húmeda |\n\n## Ingredientes\n\n- 700 g de manzana pelada y descorazonada;\n- 80 ml de agua;\n- 1 cucharada de zumo de limón;\n- 1 rama de canela o media cucharadita molida;\n- 0–30 g de azúcar, opcional según fruta.\n\n## Elaboración\n\n1. Cortar manzanas en dados de tamaño uniforme.\n2. Colocar en cazo con agua, limón, canela y azúcar opcional.\n3. Tapar y cocinar a fuego bajo 10–15 minutos, removiendo ocasionalmente.\n4. Destapar y continuar 5–10 minutos hasta obtener la consistencia deseada.\n5. Retirar rama de canela y machacar parcialmente o triturar según textura.\n6. Servir templada o fría.\n\n## Puntos críticos\n\n- Añadir poca agua al principio; la fruta libera líquido.\n- Ajustar azúcar al final, tras probar.\n- Para compota espesa, reducir destapada.\n- No almacenar a temperatura ambiente como conserva: esta receta no incluye proceso de envasado seguro.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con jengibre | Añadir una lámina durante cocción |\n| Con pera | Sustituir parte de manzana |\n| Sin azúcar añadido | Omitirlo si la fruta es dulce |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Muy líquida | Exceso de agua | Reducir destapada |\n| Pegada al fondo | Calor alto | Bajar fuego y remover |\n| Muy ácida | Fruta o limón intensos | Ajustar con manzana dulce |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar en recipiente cerrado y consumir en pocos días.\n\n## Relaciones\n\n- [Pastel de manzana](./pastel_de_manzana.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> El agua se añade con moderación: la manzana libera la suya durante la cocción."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/compota_de_manzana.html",
+  "id": "REC-0086",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "manzana pelada y descorazonada;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de manzana pelada y descorazonada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de manzana pelada y descorazonada;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela o media cucharadita molida;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela o media cucharadita molida;",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela o media cucharadita molida;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": null,
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "0–30 g de azúcar, opcional según fruta.",
+        "status": "ambiguous",
+        "unit": null
+      },
+      "raw": "0–30 g de azúcar, opcional según fruta.",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/compota_de_manzana.md",
+  "source_sha256": "0031e843ded20f8c892e1af3a365576f5ab3d2f1797443602f1d45c320e95c23",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Cortar manzanas en dados de tamaño uniforme."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Colocar en cazo con agua, limón, canela y azúcar opcional."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Tapar y cocinar a fuego bajo 10–15 minutos, removiendo ocasionalmente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Destapar y continuar 5–10 minutos hasta obtener la consistencia deseada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Retirar rama de canela y machacar parcialmente o triturar según textura."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Servir templada o fría."
+    }
+  ],
+  "techniques": [],
+  "title": "Compota de manzana con canela",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

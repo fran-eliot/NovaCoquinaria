@@ -1,0 +1,325 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 117,
+      "start_line": 15
+    },
+    "text": "\n# Bizcocho de naranja y almendra\n\n## Descripción\n\nBizcocho de miga tierna con ralladura y zumo de naranja y una parte de almendra molida. Se utiliza impulsor químico para una expansión moderada; la almendra aporta grasa y humedad, pero no reemplaza toda la estructura de la harina.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 8 porciones, molde redondo de 20 cm |\n| Preparación | 20 minutos |\n| Cocinado | 35–45 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Emulsión de huevo, mezclado breve y horneado |\n\n## Ingredientes\n\n- 3 huevos medianos\n- 120 g de azúcar\n- 120 g de harina de trigo común\n- 80 g de almendra molida\n- 90 ml de aceite de oliva suave\n- 80 ml de zumo de naranja recién exprimido\n- ralladura fina de una naranja bien lavada, sin parte blanca\n- 8 g de impulsor químico de repostería\n- 1 pizca de sal\n\n**Alérgenos:** Huevo, gluten de trigo y frutos de cáscara (almendra). Comprobar la composición del impulsor.\n\n## Mise en place\n\nPrecalentar horno a 175 °C, calor arriba y abajo. Engrasar y forrar el fondo de un molde de 20 cm. Lavar la naranja y preparar ralladura y zumo; pesar secos y huevos antes de mezclar.\n\n## Elaboración\n\n### 1. Batir huevos y azúcar\n\nBatir durante 3–5 minutos hasta que la mezcla aumente volumen y tenga una textura aireada.\n\n### 2. Incorporar líquidos\n\nAñadir aceite en hilo fino mientras se mezcla a velocidad baja y después zumo y ralladura de naranja.\n\n### 3. Añadir ingredientes secos\n\nMezclar harina, almendra molida, impulsor y sal. Incorporarlos con espátula o batidora a velocidad muy baja hasta desaparecer la harina, sin batir en exceso.\n\n### 4. Hornear\n\nVerter en el molde y hornear 35–45 minutos en zona media, sin abrir la puerta al principio. Comprobar cuajado del centro con una brocheta limpia o temperatura apropiada.\n\n### 5. Enfriar\n\nReposar 10 minutos en el molde, desmoldar y dejar terminar de enfriar sobre rejilla antes de cortar.\n\n## Puntos críticos\n\n- La almendra molida no forma la estructura de gluten que aporta la harina.\n- Demasiado zumo puede hundir la miga; respetar cantidades.\n- Batir los secos durante mucho tiempo puede endurecer el bizcocho.\n- No confiar solo en el dorado exterior para dar por cocido el centro.\n\n## Perfil esperado\n\nBizcocho suave, de corte limpio y aroma de naranja, con miga ligeramente húmeda y textura fina de almendra.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con canela | Añadir 1/4 cucharadita a los ingredientes secos. |\n| Con yogur | Sustituir parte del zumo por yogur solo reformulando humedad; incorpora leche. |\n| Con cobertura cítrica | Pincelar con una pequeña cantidad de zumo reducido y enfriado, sin empapar el centro. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Prevención |\n|---|---|---|\n| Centro hundido | Exceso de líquido, impulsor o cocción corta | Pesar ingredientes y comprobar centro |\n| Miga dura | Mezclado excesivo tras añadir harina | Integrar secos lo justo |\n| Superficie oscura y centro crudo | Calor excesivo | Ajustar temperatura y posición de horno |\n\n## Conservación\n\nEnfriar completamente antes de guardar. Conservar tapado en lugar fresco durante un periodo corto, o refrigerar si hay calor ambiental elevado. Congelar porciones bien envueltas si se necesita guardar más tiempo. No conservar masas crudas con huevo fuera de frío.\n\n## Relaciones dentro del SGCC\n\n- [Naranja](../11_Despensa/17_Frutas/naranja.md)\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)\n- [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md)\n- [Impulsor químico](../11_Despensa/15_Reposteria/impulsor_quimico.md)\n- [Hornear bizcochos](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n\n## Principio de NovaCoquinaria\n\n> La expansión del bizcocho depende de una masa equilibrada: la almendra añade humedad y aroma, pero la harina y los huevos sostienen su estructura.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Postres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "cooking",
+      "raw": "35–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/bizcocho_de_naranja_y_almendra.html",
+  "id": "REC-0186",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos medianos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos medianos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos medianos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de harina de trigo común",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de almendra molida",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja recién exprimido",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de zumo de naranja recién exprimido",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de zumo de naranja recién exprimido",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de una naranja bien lavada, sin parte blanca",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de una naranja bien lavada, sin parte blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de una naranja bien lavada, sin parte blanca",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico de repostería",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de impulsor químico de repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de impulsor químico de repostería",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar horno a 175 °C, calor arriba y abajo. Engrasar y forrar el fondo de un molde de 20 cm. Lavar la naranja y preparar ralladura y zumo; pesar secos y huevos antes de mezclar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/bizcocho_de_naranja_y_almendra.md",
+  "source_sha256": "a7e0bcd957beb25fcc3e3c67ceb8b134257d605c3847d051f6ba32ff7f7a7c3f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Batir huevos y azúcar\n\nBatir durante 3–5 minutos hasta que la mezcla aumente volumen y tenga una textura aireada.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Incorporar líquidos\n\nAñadir aceite en hilo fino mientras se mezcla a velocidad baja y después zumo y ralladura de naranja.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Añadir ingredientes secos\n\nMezclar harina, almendra molida, impulsor y sal. Incorporarlos con espátula o batidora a velocidad muy baja hasta desaparecer la harina, sin batir en exceso.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Hornear\n\nVerter en el molde y hornear 35–45 minutos en zona media, sin abrir la puerta al principio. Comprobar cuajado del centro con una brocheta limpia o temperatura apropiada.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Enfriar\n\nReposar 10 minutos en el molde, desmoldar y dejar terminar de enfriar sobre rejilla antes de cortar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos",
+      "source_location": {
+        "end_line": 109,
+        "start_line": 109
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bizcocho de naranja y almendra",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "8 porciones, molde redondo de 20 cm",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

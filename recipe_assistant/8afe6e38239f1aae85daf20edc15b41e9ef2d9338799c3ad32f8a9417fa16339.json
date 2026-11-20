@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Tortillitas de camarones gaditanas\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 10–12 tortillitas |\n| Tiempo orientativo | 35–45 minutos más 15 minutos de reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 170 g de camarones pequeños crudos de procedencia autorizada y aptos para cocinar\n- 100 g de harina de trigo\n- 70 g de harina de garbanzo\n- 300–360 ml de agua muy fría, ajustar\n- 75 g de cebolleta finamente picada\n- 2 cucharadas de perejil fresco picado\n- sal moderada\n- aceite de oliva suave o aceite apto para freír, suficiente\n\n**Alérgenos:** Crustáceos, gluten (trigo); la harina de garbanzo debe ser de uso alimentario.\n\n## Elaboración\n\n1. Comprobar que los camarones son aptos para consumo y están correctamente refrigerados; seguir las indicaciones de limpieza de la pescadería y retirar restos no comestibles si corresponde.\n2. Mezclar las harinas y la sal, agregar el agua fría poco a poco hasta obtener una masa muy fluida, sin grumos gruesos.\n3. Incorporar cebolleta, perejil y camarones; mezclar y dejar reposar unos 15 minutos en refrigeración por contener marisco crudo.\n4. Calentar aceite abundante en sartén ancha a unos 175–180 °C.\n5. Verter pequeñas porciones de mezcla con cucharón, extendiéndolas en disco fino para formar bordes irregulares. No abarrotar el aceite.\n6. Freír aproximadamente 2–3 minutos por lado según tamaño, hasta que las tortillitas estén crujientes y los camarones completamente cocinados.\n7. Escurrir sobre rejilla y servir inmediatamente, sin apilarlas para evitar que se ablanden.\n\n## Puntos críticos\n\n- La masa debe ser muy líquida para producir tortillitas finas y crujientes. Los camarones son crustáceos y deben cocinarse completamente; no sustituir por camarones secos sin ajustar hidratación y sal.\n- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |\n| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |\n| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Gambas al ajillo](./gambas_al_ajillo.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 minutos más 15 minutos de reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/tortillitas_de_camarones_gaditanas.html",
+  "id": "REC-487",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "camarones pequeños crudos de procedencia autorizada y aptos para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de camarones pequeños crudos de procedencia autorizada y aptos para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de camarones pequeños crudos de procedencia autorizada y aptos para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de garbanzo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de harina de garbanzo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de harina de garbanzo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua muy fría, ajustar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "360",
+        "min": "300",
+        "raw": "300–360 ml de agua muy fría, ajustar",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "300–360 ml de agua muy fría, ajustar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta finamente picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 g de cebolleta finamente picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "75 g de cebolleta finamente picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil fresco picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o aceite apto para freír, suficiente",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave o aceite apto para freír, suficiente",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave o aceite apto para freír, suficiente",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/tortillitas_de_camarones_gaditanas.md",
+  "source_sha256": "7a5e389f5933eb8606f36332ecf1fb908d931ff30169386f938146934ee6434a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Comprobar que los camarones son aptos para consumo y están correctamente refrigerados; seguir las indicaciones de limpieza de la pescadería y retirar restos no comestibles si corresponde."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar las harinas y la sal, agregar el agua fría poco a poco hasta obtener una masa muy fluida, sin grumos gruesos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Incorporar cebolleta, perejil y camarones; mezclar y dejar reposar unos 15 minutos en refrigeración por contener marisco crudo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar aceite abundante en sartén ancha a unos 175–180 °C."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter pequeñas porciones de mezcla con cucharón, extendiéndolas en disco fino para formar bordes irregulares. No abarrotar el aceite."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Freír aproximadamente 2–3 minutos por lado según tamaño, hasta que las tortillitas estén crujientes y los camarones completamente cocinados."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Escurrir sobre rejilla y servir inmediatamente, sin apilarlas para evitar que se ablanden."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Tortillitas de camarones gaditanas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "10–12 tortillitas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Merluza a la romana\n\n## Descripción\n\nElaboración de referencia centrada en **enharinado, rebozado en huevo y fritura**. Se incorpora como propuesta nueva sin experiencia doméstica ni valoración confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Enharinado, rebozado en huevo y fritura |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 500 g de lomos de merluza sin espinas, en porciones;\n- 70 g de harina de trigo;\n- 2 huevos L;\n- aceite de oliva suficiente para fritura en sartén;\n- sal y pimienta blanca;\n- limón para servir, opcional;\n\n**Alérgenos:** Pescado, gluten (trigo), huevo.\n\n## Elaboración\n\n1. Secar bien las porciones de merluza y comprobar que estén libres de espinas.\n2. Salpimentar ligeramente y preparar un plato con harina y otro con huevos batidos.\n3. Pasar cada porción por harina, sacudir exceso y luego recubrir con huevo batido.\n4. Calentar el aceite a 170–175 °C y freír por tandas sin sobrecargar la sartén, dando la vuelta cuando el rebozado dore.\n5. Continuar hasta que el centro del pescado esté completamente cocinado y el rebozado no tenga huevo crudo.\n6. Escurrir sobre rejilla o papel y servir de inmediato.\n\n## Puntos críticos\n\n- La merluza debe estar seca para evitar desprendimiento de la cobertura y salpicaduras; no usar el dorado exterior como única prueba de cocción interior.\n- Mantener el pescado o marisco refrigerado hasta el momento de cocinar. Revisar espinas, limpieza y procedencia, y separar utensilios de crudos y cocinados.\n- Los tiempos son orientativos; comprobar la cocción completa y ajustar a grosor y temperatura de partida.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Pescado seco | Calor excesivo o tiempo prolongado | Comprobar el centro y reducir el tiempo innecesario |\n| Salsa demasiado concentrada | Evaporación excesiva | Añadir líquido en pequeñas dosis y probar sal |\n| Piel sin dorar | Humedad superficial o temperatura insuficiente | Secar antes y controlar el fuego |\n\n## Conservación\n\nRefrigerar sin demora los sobrantes en recipientes poco profundos. Los escabeches preparados en casa **no son conservas esterilizadas** y se mantienen refrigerados. Consumir los platos con pescado o marisco en un plazo corto, siguiendo las indicaciones del producto; no dejar varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades realmente usadas, tiempos, resultado y valoración antes de considerar la preparación una receta doméstica probada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_a_la_romana.html",
+  "id": "REC-0241",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza sin espinas, en porciones;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de lomos de merluza sin espinas, en porciones;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de lomos de merluza sin espinas, en porciones;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suficiente para fritura en sartén;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suficiente para fritura en sartén;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suficiente para fritura en sartén;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta blanca;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta blanca;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta blanca;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "limón para servir, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "limón para servir, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "limón para servir, opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/merluza_a_la_romana.md",
+  "source_sha256": "611fa0e42f1d6516a2d3e623b4d9fab841a1f34a077f2cc3954b5e16502c64f0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Secar bien las porciones de merluza y comprobar que estén libres de espinas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Salpimentar ligeramente y preparar un plato con harina y otro con huevos batidos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Pasar cada porción por harina, sacudir exceso y luego recubrir con huevo batido."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Calentar el aceite a 170–175 °C y freír por tandas sin sobrecargar la sartén, dando la vuelta cuando el rebozado dore."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Continuar hasta que el centro del pescado esté completamente cocinado y el rebozado no tenga huevo crudo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Escurrir sobre rejilla o papel y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza a la romana",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

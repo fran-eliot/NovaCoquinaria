@@ -1,0 +1,346 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Picadillo de ternera con aceitunas y pasas\n\n## Descripción\n\nGuiso rápido de carne picada con contrastes salados y dulces. Adaptación doméstica de inspiración latinoamericana, sin atribuirle una procedencia regional única ni afirmar una ejecución doméstica previa.\n\n**Estado de evidencia:** receta de referencia propuesta, pendiente de cocinar y valorar. Los gramajes y métodos son orientativos para repetir y evaluar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Guiso rápido de carne picada con contrastes salados y dulces |\n| Prueba doméstica | Pendiente |\n\n## Ingredientes\n\n- 450 g de ternera picada;\n- 150 g de cebolla picada;\n- 120 g de pimiento verde en dados;\n- 2 dientes de ajo;\n- 250 g de tomate triturado;\n- 60 g de aceitunas verdes sin hueso;\n- 35 g de pasas;\n- 80 ml de agua;\n- 1 cucharadita de comino molido;\n- ½ cucharadita de orégano seco;\n- 1 cucharada de aceite de oliva;\n- pimienta y sal al gusto;\n\n**Alérgenos:** Revisar aceitunas envasadas.\n\n## Elaboración\n\n1. Lavar y cortar las hortalizas; picar las aceitunas y reservar las pasas.\n2. Pochar cebolla y pimiento en aceite durante 7–8 minutos; añadir ajo un minuto.\n3. Incorporar la ternera picada y desmenuzarla con espátula; cocinar completamente, sin dejar porciones crudas.\n4. Agregar comino, orégano y tomate; mezclar y cocer 5 minutos.\n5. Añadir aceitunas, pasas y agua, y cocinar 8–10 minutos a fuego suave hasta integrar y reducir el líquido.\n6. Probar antes de salar por las aceitunas; acompañar con arroz si se desea.\n\n## Puntos críticos\n\n- Las aceitunas aportan sal y las pasas dulzor; la combinación se ajusta en la primera prueba, no se atribuye a una tanda doméstica conocida.\n- Comprobar el punto de cocción de cada ingrediente y mantener control de higiene y conservación; los tiempos son orientativos.\n\n## Diagnóstico y ajustes\n\n| Problema | Posible causa | Ajuste en otra elaboración |\n|---|---|---|\n| Textura seca | Evaporación o cocción prolongada | Corregir líquido y tiempo gradualmente |\n| Condimentos desequilibrados | Concentración de sal, acidez o especias | Añadir y probar en pequeñas dosis |\n| Dorado excesivo | Temperatura elevada o sartén sobrecargada | Controlar temperatura y trabajar por tandas |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y mantener cerradas y frías. No dejar preparados perecederos varias horas a temperatura ambiente. En arroz cocido, prestar atención especial al enfriamiento rápido por el riesgo de *Bacillus cereus*. Recalentar completamente al servir de nuevo en caliente.\n\n## Relaciones dentro del SGCC\n\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivamente utilizadas, ajustes durante la preparación, duración, resultado y valoración antes de clasificar esta propuesta como receta cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/picadillo_cubano_con_aceitunas_y_pasitas.html",
+  "id": "REC-0227",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "ternera picada;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de ternera picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de ternera picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde en dados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde en dados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas verdes sin hueso;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de aceitunas verdes sin hueso;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de aceitunas verdes sin hueso;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pasas;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de pasas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de pasas;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de orégano seco;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de orégano seco;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal al gusto;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "pimienta y sal al gusto;",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/picadillo_cubano_con_aceitunas_y_pasitas.md",
+  "source_sha256": "0c8ebe4b16b18c7a8f7e4866adf04aaa457f0f0418e0e7e39f1eeb8c40f572e0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "Lavar y cortar las hortalizas; picar las aceitunas y reservar las pasas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite durante 7–8 minutos; añadir ajo un minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 3,
+      "text": "Incorporar la ternera picada y desmenuzarla con espátula; cocinar completamente, sin dejar porciones crudas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 4,
+      "text": "Agregar comino, orégano y tomate; mezclar y cocer 5 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 5,
+      "text": "Añadir aceitunas, pasas y agua, y cocinar 8–10 minutos a fuego suave hasta integrar y reducir el líquido."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 6,
+      "text": "Probar antes de salar por las aceitunas; acompañar con arroz si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Picadillo de ternera con aceitunas y pasas",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Pantxineta vasca de hojaldre, crema y almendras\n\n## Origen y contexto\n\n**Región:** Donostia / San Sebastián, País Vasco. Formulación doméstica de referencia con los rasgos característicos de esta especialidad regional. No se declara como versión única, ni como receta ya probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Tiempo orientativo | 60–75 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 láminas de hojaldre refrigerado de unos 250 g cada una\n- 500 ml de leche entera\n- 4 yemas de huevo L\n- 100 g de azúcar para crema\n- 40 g de maicena\n- 1 tira de piel de limón y 1 rama de canela para infusionar\n- 100 g de almendra laminada\n- 1 huevo batido para pincelar, opcional\n- 20 g de azúcar glas para terminar\n\n**Alérgenos:** Gluten, leche, huevo y almendras.\n\n## Elaboración\n\n1. Infusionar la leche con piel de limón y canela, retirar los aromáticos y dejar templar.\n2. Batir yemas, azúcar y maicena; añadir gradualmente leche infusionada y devolver al cazo.\n3. Cocinar removiendo hasta que espese y hierva suavemente al menos un minuto, asegurando la cocción completa de las yemas. Extender en recipiente bajo, cubrir a contacto y refrigerar rápidamente.\n4. Precalentar el horno a 190–200 °C. Colocar una lámina de hojaldre sobre bandeja forrada con papel adecuado.\n5. Extender la crema ya fría por el centro dejando un borde libre de 2–3 cm. Cubrir con la otra lámina de hojaldre y sellar cuidadosamente los bordes.\n6. Pincelar con huevo opcional, distribuir almendra laminada por encima y hacer pequeñas salidas de vapor sin perforar de forma excesiva.\n7. Hornear unos 30–40 minutos hasta que la masa esté completamente cocida, dorada y laminada, cuidando que la almendra no se queme.\n8. Dejar perder calor y refrigerar las sobras por contener crema pastelera; espolvorear azúcar glas al servir.\n\n## Puntos críticos\n\n- La crema pastelera debe enfriarse antes de rellenar para evitar un hojaldre húmedo y mal cocido. La pantxineta combina hojaldre, crema y almendras; no confundir con el ponche segoviano de mazapán.\n- Ajustar tiempos, cantidades y textura a la materia prima. Respetar las condiciones del producto comercial, la higiene y la cadena de frío; comprobar la cocción completa de los ingredientes animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente preparación |\n|---|---|---|\n| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |\n| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Ponche segoviano](./ponche_segoviano_con_crema_y_mazapan.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los productos realmente utilizados, pesos, tiempos, temperaturas, textura y valoración personal. No se sustituyen versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "60–75 minutos más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/pantxineta_vasca_de_hojaldre_crema_y_almendras.html",
+  "id": "REC-500",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "láminas de hojaldre refrigerado de unos 250 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 láminas de hojaldre refrigerado de unos 250 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 láminas de hojaldre refrigerado de unos 250 g cada una",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas de huevo L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 yemas de huevo L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 yemas de huevo L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para crema",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar para crema",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar para crema",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de maicena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de maicena",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tira de piel de limón y 1 rama de canela para infusionar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tira de piel de limón y 1 rama de canela para infusionar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tira de piel de limón y 1 rama de canela para infusionar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra laminada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de almendra laminada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de almendra laminada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pincelar, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pincelar, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pincelar, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para terminar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de azúcar glas para terminar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de azúcar glas para terminar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/pantxineta_vasca_de_hojaldre_crema_y_almendras.md",
+  "source_sha256": "37e51995a3af66680e6ed17662dac0e8d2d49dad9a3091fe6709d638a1139c57",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Infusionar la leche con piel de limón y canela, retirar los aromáticos y dejar templar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Batir yemas, azúcar y maicena; añadir gradualmente leche infusionada y devolver al cazo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Cocinar removiendo hasta que espese y hierva suavemente al menos un minuto, asegurando la cocción completa de las yemas. Extender en recipiente bajo, cubrir a contacto y refrigerar rápidamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Precalentar el horno a 190–200 °C. Colocar una lámina de hojaldre sobre bandeja forrada con papel adecuado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Extender la crema ya fría por el centro dejando un borde libre de 2–3 cm. Cubrir con la otra lámina de hojaldre y sellar cuidadosamente los bordes."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Pincelar con huevo opcional, distribuir almendra laminada por encima y hacer pequeñas salidas de vapor sin perforar de forma excesiva."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Hornear unos 30–40 minutos hasta que la masa esté completamente cocida, dorada y laminada, cuidando que la almendra no se queme."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 8,
+      "text": "Dejar perder calor y refrigerar las sobras por contener crema pastelera; espolvorear azúcar glas al servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Pantxineta vasca de hojaldre, crema y almendras",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

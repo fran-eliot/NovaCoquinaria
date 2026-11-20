@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Chipirones en su tinta con cebolla\n\n## Descripción\n\nPreparación de referencia basada en **sofrito lento, guiso de cefalópodo y salsa oscura**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica | Sofrito lento, guiso de cefalópodo y salsa oscura |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de chipirones limpios y cortados, reservando tentáculos\n- 2 sobres de tinta de calamar alimentaria, según etiqueta\n- 250 g de cebolla picada\n- 120 g de pimiento verde picado\n- 2 dientes de ajo\n- 130 g de tomate triturado\n- 100 ml de vino blanco opcional\n- 200–300 ml de agua o caldo de pescado\n- 3 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Moluscos; pescado si se usa caldo; vino con posible alcohol residual.\n\n## Elaboración\n\n1. Limpiar los chipirones, retirar partes no comestibles y mantenerlos refrigerados; utilizar tinta comercial apta para consumo.\n2. Pochar cebolla y pimiento en aceite 12–15 minutos para conseguir una base dulce y concentrada; añadir ajo brevemente.\n3. Incorporar tomate y reducir unos 7 minutos; agregar vino opcional y dejar reducir.\n4. Añadir chipirones y tentáculos y cocinar 3 minutos, hasta que empiecen a liberar su jugo.\n5. Disolver la tinta en parte del caldo frío o templado para evitar grumos, incorporar al guiso junto con líquido restante.\n6. Cocinar a fuego suave 20–30 minutos o hasta que los chipirones estén tiernos y completamente cocinados, corrigiendo líquido según evaporación.\n7. Probar sal al final y servir con arroz cocido de forma segura si se desea.\n\n## Puntos críticos\n\n- La tinta debe ser un ingrediente alimentario adecuado y estar completamente cocinada, no añadirse cruda como acabado. Los tiempos cambian con el tamaño del chipirón; no dejar salsa espesa pegarse al fondo.\n- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.\n- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |\n| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |\n| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.\n\n## Relaciones dentro del SGCC\n\n- [Calamares guisados en salsa de tomate](./calamares_en_salsa.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar producto, pesos reales, método, temperatura, tiempos, textura y valoración. No se modifican versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **sofrito lento, guiso de cefalópodo y salsa oscura**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/chipirones_en_su_tinta_con_cebolla.html",
+  "id": "REC-361",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chipirones limpios y cortados, reservando tentáculos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de chipirones limpios y cortados, reservando tentáculos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de chipirones limpios y cortados, reservando tentáculos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sobres de tinta de calamar alimentaria, según etiqueta",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 sobres de tinta de calamar alimentaria, según etiqueta",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 sobres de tinta de calamar alimentaria, según etiqueta",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde picado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde picado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de tomate triturado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de pescado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "200",
+        "raw": "200–300 ml de agua o caldo de pescado",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "200–300 ml de agua o caldo de pescado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/chipirones_en_su_tinta_con_cebolla.md",
+  "source_sha256": "a46231b2cc1ae3d78ec1bafc54d58a9e11d392f62f9a073cc282ec67954575ea",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Limpiar los chipirones, retirar partes no comestibles y mantenerlos refrigerados; utilizar tinta comercial apta para consumo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite 12–15 minutos para conseguir una base dulce y concentrada; añadir ajo brevemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate y reducir unos 7 minutos; agregar vino opcional y dejar reducir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir chipirones y tentáculos y cocinar 3 minutos, hasta que empiecen a liberar su jugo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Disolver la tinta en parte del caldo frío o templado para evitar grumos, incorporar al guiso junto con líquido restante."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Cocinar a fuego suave 20–30 minutos o hasta que los chipirones estén tiernos y completamente cocinados, corrigiendo líquido según evaporación."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Probar sal al final y servir con arroz cocido de forma segura si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Chipirones en su tinta con cebolla",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

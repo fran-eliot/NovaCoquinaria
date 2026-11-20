@@ -1,0 +1,390 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 122,
+      "start_line": 15
+    },
+    "text": "\n# Garbanzos al curry con coco y espinacas\n\n## Descripción\n\nGuiso rápido de garbanzos ya cocidos con leche de coco, especias de curry y espinacas. Presenta una adaptación doméstica especiada, no una formulación regional tradicional.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 25–30 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Sofrito especiado y guiso de legumbre cocida |\n\n## Ingredientes\n\n- 650 g de garbanzos cocidos y escurridos;\n- 300 ml de leche de coco sin azúcar;\n- 200 g de espinacas frescas o congeladas;\n- 1 cebolla mediana, picada;\n- 2 dientes de ajo, picados;\n- 15 g de jengibre fresco, rallado;\n- 200 g de tomate triturado;\n- 2 cucharadas de aceite de oliva o aceite neutro;\n- 2 cucharaditas de mezcla de curry en polvo, ajustables;\n- 1/2 cucharadita de comino molido, opcional;\n- 150–250 ml de agua;\n- sal al gusto;\n- zumo de 1/2 limón, opcional al final\n\n**Alérgenos:** La composición de las mezclas comerciales de curry varía; revisar etiquetas y posibles alérgenos.\n\n## Mise en place\n\nEscurrir y enjuagar los garbanzos si procede. Preparar por separado el curry, el tomate y el coco. Si se usan espinacas congeladas, seguir las indicaciones del producto y contar con el agua que puedan liberar.\n\n## Elaboración\n\n### 1. Sofreír\n\nCalentar el aceite y cocinar la cebolla 7–9 minutos. Añadir ajo y jengibre durante 1 minuto.\n\n### 2. Desarrollar especias\n\nIncorporar curry y comino opcional con fuego medio-bajo durante 20–30 segundos, removiendo. Añadir una cucharada de agua si la sartén está seca.\n\n### 3. Reducir tomate\n\nAñadir tomate triturado y cocinar 5–7 minutos para concentrar su sabor.\n\n### 4. Formar salsa\n\nIncorporar leche de coco y 150 ml de agua. Llevar a hervor suave y mezclar hasta obtener una salsa homogénea.\n\n### 5. Incorporar legumbre y verdura\n\nAgregar los garbanzos cocidos y cocinar 8–10 minutos. Añadir las espinacas en los últimos minutos; comprobar que queden tiernas y bien calientes.\n\n### 6. Equilibrar\n\nAjustar la densidad con el agua restante, probar antes de salar y añadir limón opcional fuera del fuego. Servir caliente.\n\n## Puntos críticos\n\n- La legumbre debe estar ya cocida; un guiso breve en coco no cocina adecuadamente garbanzos secos.\n- Diferentes mezclas comerciales de curry tienen distinta concentración y sal: ajustar al gusto.\n- Mantener hervor suave después de añadir coco para conservar una salsa uniforme.\n\n## Perfil esperado\n\nGarbanzos enteros en salsa cremosa especiada, con espinacas integradas y acidez final moderada.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Más picante | Añadir chile poco a poco tras probar |\n| Con coliflor | Incorporar ramilletes pequeños precocidos o cocinar hasta tiernos antes de añadir garbanzos |\n| Sin tomate | Reducir agua y ajustar limón al final |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Curry amargo | Especias quemadas | Aromatizar brevemente con humedad suficiente |\n| Salsa excesivamente líquida | Demasiada agua o espinacas húmedas | Reducir antes de incorporar la legumbre o usar menos agua |\n| Garbanzos deshechos | Cocción prolongada | Incorporar ya cocidos al final |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos, refrigerar tapado y consumir en un plazo corto. Congelar en porciones si la preparación lo permite. Recalentar completamente los platos calientes; las ensaladas se mantienen refrigeradas y no deben permanecer largo tiempo a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En un curry con legumbre cocida, el sabor se desarrolla en la salsa antes de integrar los granos.\n\n## Utilizado por\n\nGarbanzos al curry con coco y espinacas como preparación de referencia del módulo Legumbres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_al_curry_con_coco_y_espinacas.html",
+  "id": "REC-0111",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de garbanzos cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco sin azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de leche de coco sin azúcar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de leche de coco sin azúcar;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o congeladas;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espinacas frescas o congeladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espinacas frescas o congeladas;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, picada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco, rallado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco, rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco, rallado;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva o aceite neutro;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva o aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva o aceite neutro;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "mezcla de curry en polvo, ajustables;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de mezcla de curry en polvo, ajustables;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de mezcla de curry en polvo, ajustables;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido, opcional;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de comino molido, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de comino molido, opcional;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de agua;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de agua;",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de 1/2 limón, opcional al final",
+      "optionality": "optional",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de 1/2 limón, opcional al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de 1/2 limón, opcional al final",
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nEscurrir y enjuagar los garbanzos si procede. Preparar por separado el curry, el tomate y el coco. Si se usan espinacas congeladas, seguir las indicaciones del producto y contar con el agua que puedan liberar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/garbanzos_al_curry_con_coco_y_espinacas.md",
+  "source_sha256": "68776594ef40c6c74ba4fc7f2326157fe5cea80cd25a8b7f69048d448b1e4db9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 1,
+      "text": "1. Sofreír\n\nCalentar el aceite y cocinar la cebolla 7–9 minutos. Añadir ajo y jengibre durante 1 minuto.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 2,
+      "text": "2. Desarrollar especias\n\nIncorporar curry y comino opcional con fuego medio-bajo durante 20–30 segundos, removiendo. Añadir una cucharada de agua si la sartén está seca.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 3,
+      "text": "3. Reducir tomate\n\nAñadir tomate triturado y cocinar 5–7 minutos para concentrar su sabor.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 4,
+      "text": "4. Formar salsa\n\nIncorporar leche de coco y 150 ml de agua. Llevar a hervor suave y mezclar hasta obtener una salsa homogénea.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 75,
+        "start_line": 72
+      },
+      "source_number": 5,
+      "text": "5. Incorporar legumbre y verdura\n\nAgregar los garbanzos cocidos y cocinar 8–10 minutos. Añadir las espinacas en los últimos minutos; comprobar que queden tiernas y bien calientes.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 79,
+        "start_line": 76
+      },
+      "source_number": 6,
+      "text": "6. Equilibrar\n\nAjustar la densidad con el agua restante, probar antes de salar y añadir limón opcional fuera del fuego. Servir caliente.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Garbanzos al curry con coco y espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Cocido maragato de carnes y garbanzos\n\n## Origen y contexto\n\n**Región:** Maragatería, León, Castilla y León. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones |\n| Tiempo orientativo | 12 h remojo + 2½–4 h cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de garbanzos secos\n- 450 g de morcillo de ternera\n- 300 g de lacón o espinazo salado, desalado según presentación\n- 350 g de gallina o pollo con hueso\n- 200 g de tocino fresco\n- 2 chorizos aptos para cocer\n- 400 g de repollo\n- 200 g de fideos finos para sopa\n- 2–2,5 l de agua potable, ajustar\n- sal al final\n\n**Alérgenos:** Gluten (fideos); revisar embutidos y carnes curadas por otros alérgenos y sulfitos.\n\n## Elaboración\n\n1. Remojar los garbanzos 10–12 horas en abundante agua potable; escurrir. Desalar las carnes saladas según sus características en refrigeración.\n2. Poner carnes, tocino y huesos de uso alimentario en una olla con agua; llevar al hervor, retirar espuma y dejar cocer suavemente.\n3. Añadir los garbanzos al caldo caliente, preferiblemente en malla alimentaria; mantener a hervor suave hasta que estén tiernos, ajustando el tiempo al producto.\n4. Incorporar chorizos atendiendo al etiquetado y cocer hasta que aves y embutidos estén completamente cocinados; comprobar al menos 74 °C en la parte gruesa de las aves.\n5. Cocer el repollo por separado con un poco de caldo hasta tierno. Separar las carnes de los huesos y revisar fragmentos pequeños.\n6. Colar una parte del caldo, llevarlo a ebullición y cocer los fideos según el envase.\n7. Servir en el orden característico del cocido maragato: primero las carnes y embutidos, después los garbanzos y el repollo, y finalmente la sopa de fideos.\n8. Rectificar la sal al final y servir todos los vuelcos calientes.\n\n## Puntos críticos\n\n- La peculiaridad del cocido maragato es servir la sopa al final, a diferencia del cocido madrileño. El orden de servicio debe conservarse; no confundir los tiempos de cocción de garbanzos y embutidos.\n- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |\n| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |\n| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocido madrileño de tres vuelcos](./cocido_madrileno_de_tres_vuelcos.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 h remojo + 2½–4 h cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/cocido_maragato_de_carnes_y_garbanzos.html",
+  "id": "REC-479",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de garbanzos secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de garbanzos secos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "morcillo de ternera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de morcillo de ternera",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de morcillo de ternera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "lacón o espinazo salado, desalado según presentación",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de lacón o espinazo salado, desalado según presentación",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de lacón o espinazo salado, desalado según presentación",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "gallina o pollo con hueso",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de gallina o pollo con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de gallina o pollo con hueso",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tocino fresco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tocino fresco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tocino fresco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizos aptos para cocer",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 chorizos aptos para cocer",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 chorizos aptos para cocer",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "repollo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de repollo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de repollo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos finos para sopa",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de fideos finos para sopa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de fideos finos para sopa",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable, ajustar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2.5",
+        "min": "2",
+        "raw": "2–2,5 l de agua potable, ajustar",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "2–2,5 l de agua potable, ajustar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/cocido_maragato_de_carnes_y_garbanzos.md",
+  "source_sha256": "fb06ce35c9663d0dd39ddc02d27895f6e71612011550df5754eee87764968ef7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Remojar los garbanzos 10–12 horas en abundante agua potable; escurrir. Desalar las carnes saladas según sus características en refrigeración."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Poner carnes, tocino y huesos de uso alimentario en una olla con agua; llevar al hervor, retirar espuma y dejar cocer suavemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir los garbanzos al caldo caliente, preferiblemente en malla alimentaria; mantener a hervor suave hasta que estén tiernos, ajustando el tiempo al producto."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Incorporar chorizos atendiendo al etiquetado y cocer hasta que aves y embutidos estén completamente cocinados; comprobar al menos 74 °C en la parte gruesa de las aves."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Cocer el repollo por separado con un poco de caldo hasta tierno. Separar las carnes de los huesos y revisar fragmentos pequeños."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Colar una parte del caldo, llevarlo a ebullición y cocer los fideos según el envase."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Servir en el orden característico del cocido maragato: primero las carnes y embutidos, después los garbanzos y el repollo, y finalmente la sopa de fideos."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Rectificar la sal al final y servir todos los vuelcos calientes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Cocido maragato de carnes y garbanzos",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

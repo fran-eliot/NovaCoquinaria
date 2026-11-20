@@ -1,0 +1,193 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 14
+    },
+    "text": "\n# Granizado de limón casero\n\n## Descripción\n\nBebida doméstica de referencia basada en **almíbar corto, congelación y rotura de cristales**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Almíbar corto, congelación y rotura de cristales |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 150 ml de zumo de limón recién exprimido;\n- 650 ml de agua potable;\n- 90–120 g de azúcar;\n- ralladura fina de medio limón, opcional;\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Preparación\n\n1. Lavar los limones, rallar solo la parte amarilla si se usa y exprimir el zumo; colarlo para retirar semillas.\n2. Calentar 200 ml del agua con el azúcar hasta disolver por completo, sin necesidad de caramelizar; dejar enfriar.\n3. Mezclar el almíbar frío con zumo, ralladura y los 450 ml restantes de agua.\n4. Verter en una fuente poco profunda apta para congelación, tapar y llevar al congelador.\n5. Cada 30–45 minutos remover y raspar con un tenedor para romper los cristales hasta obtener textura de granizado; repetir durante 3–4 horas orientativas.\n6. Servir inmediatamente en vasos fríos, ajustando el dulzor antes de congelar en una futura tanda.\n\n## Puntos críticos\n\n- No congelar la mezcla todavía caliente ni dejarla varias horas fuera del frigorífico. El equilibrio de azúcar y ácido influye directamente en el tamaño de los cristales.\n- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.\n- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.\n\n## Diagnóstico\n\n| Resultado | Causa posible | Ajuste de referencia |\n|---|---|---|\n| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |\n| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |\n| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |\n| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |\n\n## Conservación\n\nLas bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.\n\n## Relaciones dentro del SGCC\n\n- [Limón](../11_Despensa/11_Condimentos/limon.md)\n- [Limonada casera](./limonada_casera.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **almíbar corto, congelación y rotura de cristales**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/granizado_de_limon_casero.html",
+  "id": "REC-0257",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zumo de limón recién exprimido;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de zumo de limón recién exprimido;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de zumo de limón recién exprimido;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 ml de agua potable;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "650 ml de agua potable;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "90",
+        "raw": "90–120 g de azúcar;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "90–120 g de azúcar;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón, opcional;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/granizado_de_limon_casero.md",
+  "source_sha256": "4ec1215e98296f24478b19b2fb74b60fd9c76c34e49338c4d87d196153dc180c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Lavar los limones, rallar solo la parte amarilla si se usa y exprimir el zumo; colarlo para retirar semillas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Calentar 200 ml del agua con el azúcar hasta disolver por completo, sin necesidad de caramelizar; dejar enfriar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Mezclar el almíbar frío con zumo, ralladura y los 450 ml restantes de agua."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Verter en una fuente poco profunda apta para congelación, tapar y llevar al congelador."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Cada 30–45 minutos remover y raspar con un tenedor para romper los cristales hasta obtener textura de granizado; repetir durante 3–4 horas orientativas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente en vasos fríos, ajustando el dulzor antes de congelar en una futura tanda."
+    }
+  ],
+  "techniques": [],
+  "title": "Granizado de limón casero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

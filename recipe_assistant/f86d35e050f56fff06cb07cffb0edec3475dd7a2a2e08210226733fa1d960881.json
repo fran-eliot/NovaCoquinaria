@@ -1,0 +1,301 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Kimchi jjigae de cerdo y tofu\n\n## Descripción\n\n**Perfil:** Corea, guiso de kimchi adaptado a despensa doméstica. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 35–45 min |\n| Estado | Propuesta pendiente de prueba |\n\n## Ingredientes\n\n- 220 g de carne de cerdo en tiras finas\n- 250 g de kimchi con su jugo\n- 220 g de tofu firme escurrido\n- 120 g de cebolla en juliana\n- 1 diente de ajo picado\n- 500–600 ml de caldo suave o agua\n- 1 cucharadita de pasta de chile coreana gochujang, opcional\n- 1 cucharadita de aceite neutro\n- cebolleta para terminar\n\n**Alérgenos:** Soja; según kimchi o gochujang, pescado, crustáceos y trigo.\n\n## Elaboración\n\n1. Calentar el aceite y dorar las tiras de cerdo por tandas, dejando que se evapore su humedad.\n2. Añadir cebolla y ajo y cocinar 3 minutos; incorporar el kimchi picado y saltear otros 3–4 minutos.\n3. Agregar caldo y parte del jugo de kimchi, llevar a hervor suave y cocinar 12–15 minutos.\n4. Probar el caldo antes de añadir gochujang opcional: la salinidad y el picante del kimchi varían mucho entre marcas.\n5. Introducir el tofu en dados y continuar otros 5–7 minutos sin remover excesivamente.\n6. Comprobar que el cerdo está completamente cocinado y servir muy caliente con cebolleta.\n\n## Puntos críticos\n\n- El kimchi comercial cambia según marca y puede contener salsa de pescado o crustáceos. Ajustar el caldo y el picante al final, sin añadir soja automáticamente.\n- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.\n- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado observado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |\n| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |\n| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Kimchi](../11_Despensa/12_Conservas/kimchi.md)\n- [Sopa asiática base](../12_Plantillas/04_Cocciones/sopa_asiatica_base.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, producto, equipo, temperatura o tiempos, textura, ajustes y valoración. No se atribuye esta propuesta a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "**Perfil:** Corea, guiso de kimchi adaptado a despensa doméstica. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Propuesta pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/kimchi_jjigae_de_cerdo_y_tofu.html",
+  "id": "REC-347",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carne de cerdo en tiras finas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de carne de cerdo en tiras finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de carne de cerdo en tiras finas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "kimchi con su jugo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de kimchi con su jugo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de kimchi con su jugo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tofu firme escurrido",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de tofu firme escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de tofu firme escurrido",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla en juliana",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo suave o agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "500",
+        "raw": "500–600 ml de caldo suave o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–600 ml de caldo suave o agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pasta de chile coreana gochujang, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pasta de chile coreana gochujang, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pasta de chile coreana gochujang, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite neutro",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite neutro",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta para terminar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebolleta para terminar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebolleta para terminar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/kimchi_jjigae_de_cerdo_y_tofu.md",
+  "source_sha256": "fc717b6ad89fdbedc704f30e84731307f4515e104b72ac6e121996696878b419",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Calentar el aceite y dorar las tiras de cerdo por tandas, dejando que se evapore su humedad."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Añadir cebolla y ajo y cocinar 3 minutos; incorporar el kimchi picado y saltear otros 3–4 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Agregar caldo y parte del jugo de kimchi, llevar a hervor suave y cocinar 12–15 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Probar el caldo antes de añadir gochujang opcional: la salinidad y el picante del kimchi varían mucho entre marcas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Introducir el tofu en dados y continuar otros 5–7 minutos sin remover excesivamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar que el cerdo está completamente cocinado y servir muy caliente con cebolleta."
+    }
+  ],
+  "techniques": [],
+  "title": "Kimchi jjigae de cerdo y tofu",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

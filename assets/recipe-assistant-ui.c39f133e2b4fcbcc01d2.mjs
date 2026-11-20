@@ -1,0 +1,178 @@
+import {createCookingSession, createManualTimer} from "./recipe-assistant-session.c39f133e2b4fcbcc01d2.mjs";
+
+import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.c39f133e2b4fcbcc01d2.mjs";
+import {inline, renderMarkdown} from "./recipe-assistant-markdown.c39f133e2b4fcbcc01d2.mjs";
+
+const $ = id => document.getElementById(id);
+const evidenceLabels = {prepared:"Elaboración registrada",pending:"Pendiente de prueba",unknown:"Evidencia desconocida"};
+const optionality = {required:"Requerido",optional:"Opcional",unknown:"Opcionalidad desconocida"};
+const phases = {preparation:"Preparación",cooking:"Cocinado",baking:"Horneado",rest:"Reposo",chilling:"Refrigeración",declared_total:"Tiempo declarado",marinating:"Marinado"};
+const modules = new Set(["01_Arroces","02_Pastas","03_Legumbres","04_Verduras","05_Carnes","06_Pescados_y_Mariscos","07_Cocina_Asiatica","08_Postres","09_Bebidas","10_Horno"]);
+const hash = (s,n) => typeof s==="string" && s.length===n && /^[a-f0-9]+$/.test(s);
+const nonempty = s => typeof s==="string" && s.trim().length>0;
+const obj = o => o!==null && typeof o==="object" && !Array.isArray(o);
+const check = (condition,message="Datos incompatibles") => {if(!condition) throw new Error(message);};
+
+function node(tag,text,cls) {
+  const el=document.createElement(tag);
+  if(text!==undefined) el.textContent=text;
+  if(cls) el.className=cls;
+  return el;
+}
+function link(label,href) {const a=node("a",label);a.setAttribute("href",href);return a;}
+function safeHref(path,technique=false) {
+  check(nonempty(path) && path.endsWith(".md") && !/[\\:#?\u0000-\u001f\u007f]/u.test(path) &&
+    path.split("/").every(v=>v && v!=="." && v!=="..") &&
+    (technique?path.startsWith("00_Bases/03_Tecnicas/"):modules.has(path.split("/")[0])),"Ruta inválida");
+  return (path.slice(0,-3).split("/").map(encodeURIComponent).join("/")+".html")
+    .replace(/[!'()*]/g,c=>"%"+c.charCodeAt(0).toString(16).toUpperCase());
+}
+const base=new URL("../",import.meta.url);
+async function bytes(url) {
+  const response=await fetch(url,{cache:"no-cache"});
+  check(response.ok,"Recurso no disponible");
+  return await response.arrayBuffer();
+}
+const parse = buffer => JSON.parse(new TextDecoder("utf-8",{fatal:true}).decode(buffer));
+async function sha256(buffer) {
+  check(globalThis.crypto?.subtle,"Se requiere un contexto seguro");
+  return Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256",buffer)),v=>v.toString(16).padStart(2,"0")).join("");
+}
+
+export async function loadRecipe(params) {
+  const id=params.get("id"), legacyCommit=params.get("commit"), legacyIndex=params.get("index");
+  const legacy=params.has("commit")||params.has("index");
+  check(params.getAll("id").length===1 && nonempty(id) && (!legacy || (params.getAll("commit").length===1 &&
+    params.getAll("index").length===1 && hash(legacyCommit,40) && hash(legacyIndex,64))),
+    "Selecciona una receta desde el explorador");
+  const manifest=parse(await bytes(new URL("recipe_assistant/manifest.json",base)));
+  check(obj(manifest) && manifest.schema_version==="0.1.0" && manifest.index_version==="0.2.0" &&
+    hash(manifest.source_commit,40) && hash(manifest.index_sha256,64) &&
+    (!legacy || (manifest.source_commit===legacyCommit && manifest.index_sha256===legacyIndex)) && obj(manifest.recipes) &&
+    manifest.recipe_count===Object.keys(manifest.recipes).length,"Catálogo desactualizado; vuelve al explorador");
+  const commit=manifest.source_commit, index=manifest.index_sha256;
+  check(Object.hasOwn(manifest.recipes,id),"Receta desconocida");
+  const entry=manifest.recipes[id];
+  const filename=await sha256(new TextEncoder().encode(id))+".json";
+  check(obj(entry) && entry.file===filename && hash(entry.sha256,64) && hash(entry.source_sha256,64));
+  const raw=await bytes(new URL("recipe_assistant/"+filename,base));
+  check(await sha256(raw)===entry.sha256,"Huella de receta incorrecta");
+  const recipe=parse(raw);
+  check(obj(recipe) && recipe.schema_version==="0.1.0" && recipe.index_version===manifest.index_version &&
+    recipe.id===id && recipe.source_commit===commit && recipe.index_sha256===index &&
+    recipe.source_sha256===entry.source_sha256 && nonempty(recipe.title) &&
+    recipe.href===entry.href && recipe.href===safeHref(recipe.source_path));
+  check(obj(recipe.context) && recipe.context.mode==="full_source" && nonempty(recipe.context.text));
+  const last=recipe.context.source_location?.end_line;
+  const loc=l=>obj(l) && Number.isInteger(l.start_line) && Number.isInteger(l.end_line) &&
+    l.start_line>=1 && l.end_line>=l.start_line && l.end_line<=last;
+  check(Number.isInteger(last) && loc(recipe.context.source_location));
+  const nullableText=v=>v===null || typeof v==="string";
+  for(const key of ["ingredients","steps","durations","mise_en_place","techniques","diagnostics"])
+    check(Array.isArray(recipe[key]));
+  for(const e of recipe.ingredients) check(obj(e) && nonempty(e.raw) && nullableText(e.name) &&
+    nullableText(e.group) && obj(e.quantity) && Object.hasOwn(optionality,e.optionality) && loc(e.source_location));
+  for(const s of recipe.steps) check(obj(s) && nonempty(s.text) && loc(s.source_location));
+  for(const d of [...recipe.durations,...(recipe.yield===null?[]:[recipe.yield])])
+    check(obj(d) && nonempty(d.raw) && loc(d.source_location));
+  for(const s of recipe.mise_en_place) check(obj(s) && nullableText(s.heading) &&
+    typeof s.content==="string" && loc(s.source_location));
+  for(const t of recipe.techniques) check(obj(t) && nonempty(t.label) && loc(t.source_location) &&
+    t.href===safeHref(t.source_path,true));
+  check(obj(recipe.evidence) && Object.hasOwn(evidenceLabels,recipe.evidence.status) &&
+    Array.isArray(recipe.evidence.claims) && recipe.evidence.claims.every(c=>obj(c)&&nonempty(c.text)&&loc(c.source_location)));
+  return recipe;
+}
+function line(l){return "Fuente: líneas "+l.start_line+"–"+l.end_line;}
+function renderRecipe(r) {
+  const session=createCookingSession(r), timer=createManualTimer();
+  $("recipe-title").textContent=r.title;
+  document.title=r.title+" | NovaCoquinaria";
+  $("source-link").href=r.href;
+  $("evidence").textContent=evidenceLabels[r.evidence.status]+" · No equivale a validación de la fórmula actual.";
+  for(const c of r.evidence.claims) $("claims").append(inline(node("p",undefined,"source-text meta"),c.text+" · "+line(c.source_location)));
+  $("yield").textContent="Rendimiento: "+(r.yield?r.yield.raw:
+    r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
+  for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
+  if(!r.durations.length) $("durations").append(node("li","Tiempos no declarados o no reconocidos."));
+  const shoppingChecks=[];
+  for(const e of r.ingredients){
+    const label=node("label",undefined,"check-row"),check=node("input");
+    check.type="checkbox";label.append(check,node("span",e.raw));$("shopping-selection").append(label);
+    shoppingChecks.push({check,position:e.position});
+  }
+  $("send-shopping").disabled=!shoppingChecks.length;
+  $("send-shopping").addEventListener("click",()=>{
+    try{
+      const selection=createRecipeSelection(r,shoppingChecks.filter(x=>x.check.checked).map(x=>x.position));
+      if(!confirm("¿Abrir compras? Se perderá el progreso de preparación de esta página."))return;
+      putRecipeSelection(()=>window.sessionStorage,selection);location.assign("culinary-shopping.html");
+    }catch(e){$("shopping-status").textContent=e.message;}
+  });
+  let group=null;
+  const inputs=[];
+  for(const e of r.ingredients) {
+    if(e.group!==group){group=e.group;$("ingredients").append(node("h3",group??"Sin grupo"));}
+    const label=node("label",undefined,"check-row"),input=node("input");
+    input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();});
+    label.append(input,inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]));
+    $("ingredients").append(label);inputs.push(input);
+  }
+  if(!inputs.length) $("ingredients").append(node("p","No se reconocieron ingredientes; consulta la ficha."));
+  for(const s of r.mise_en_place) {
+    if(s.heading) $("mise").append(node("h4",s.heading));
+    const body=node("div");renderMarkdown(body,s.content);$("mise").append(body);
+  }
+  if(!r.mise_en_place.length) $("mise").append(node("p","No se reconoció una sección explícita."));
+  for(const t of r.techniques){const li=node("li");li.append(link(t.label,t.href));$("techniques").append(li);}
+  if(!r.techniques.length) $("techniques").append(node("li","Sin referencias a técnicas disponibles en esta vista."));
+  renderMarkdown($("context-text"),r.context.text);
+  $("provenance").textContent=r.id+" · commit "+r.source_commit+" · esquema "+r.schema_version;
+  function progress(){
+    const s=session.snapshot();
+    $("ingredient-progress").textContent=s.prepared.length+" de "+s.ingredientCount+" ingredientes marcados";
+    $("step-progress").textContent=s.stepCount?s.completed.length+" de "+s.stepCount+" pasos marcados":"No se reconocieron pasos; consulta el contexto completo.";
+    $("step-controls").hidden=s.current===null;
+    if(s.current===null)return;
+    const step=r.steps[s.current-1];
+    $("step-title").textContent="Paso "+s.current+" de "+s.stepCount;
+    renderMarkdown($("step-text"),step.text);
+    $("step-location").textContent=line(step.source_location);
+    $("step-done").checked=s.completed.includes(s.current);
+    $("previous").disabled=s.current===1;$("next-step").disabled=s.current===s.stepCount;
+  }
+  $("step-done").addEventListener("change",()=>{session.markStep(session.snapshot().current,$("step-done").checked);progress();});
+  for(const [id,delta] of [["previous",-1],["next-step",1]]) $(id).addEventListener("click",()=>{session.move(delta);progress();$("step-title").focus();});
+  let lastStatus=null;
+  function refreshTimer(){
+    const t=timer.snapshot(),active=t.status==="running"||t.status==="paused",sec=t.remainingSeconds;
+    $("timer-display").textContent=[Math.floor(sec/3600),Math.floor(sec%3600/60),sec%60].map(n=>String(n).padStart(2,"0")).join(":");
+    $("start-timer").disabled=active;$("minutes").disabled=active;$("seconds").disabled=active;
+    $("pause-timer").disabled=t.status!=="running";$("resume-timer").disabled=t.status!=="paused";$("cancel-timer").disabled=t.status==="idle";
+    if(lastStatus!==t.status){$("timer-status").textContent=({idle:"Inactivo",running:"En ejecución",paused:"Pausado",finished:"Tiempo finalizado. Comprueba el estado de la preparación."})[t.status];lastStatus=t.status;}
+    $("timer-status").classList.toggle("timer-finished",t.status==="finished");
+  }
+  $("timer-form").addEventListener("submit",e=>{e.preventDefault();try{timer.start($("minutes").valueAsNumber,$("seconds").valueAsNumber);refreshTimer();}catch{ $("timer-status").textContent="Introduce una duración válida de al menos un segundo."; }});
+  for(const [id,method] of [["pause-timer","pause"],["resume-timer","resume"],["cancel-timer","cancel"]])
+    $(id).addEventListener("click",()=>{timer[method]();refreshTimer();});
+  $("reset-session").addEventListener("click",()=>{
+    if(!confirm("¿Reiniciar ingredientes, pasos y temporizador?"))return;
+    session.reset();timer.cancel();inputs.forEach(i=>i.checked=false);progress();refreshTimer();
+  });
+  progress();refreshTimer();setInterval(refreshTimer,250);
+  document.addEventListener("visibilitychange",refreshTimer);
+}
+
+async function init(){
+  try{
+    const recipe=await loadRecipe(new URLSearchParams(location.search));
+    renderRecipe(recipe);
+    const clean=new URL(location.href);clean.search=new URLSearchParams({id:recipe.id}).toString();
+    history.replaceState(null,"",clean);
+    $("assistant").hidden=false;$("load-status").textContent="Receta cargada.";
+  }catch(error){
+    $("assistant").hidden=true;
+    $("load-status").textContent="No se pudo abrir la receta. Vuelve al explorador y selecciona de nuevo. "+(error instanceof Error?error.message:"");
+  }
+}
+init();

@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Canelones de espinacas y setas gratinados\n\n## Descripción\n\nPreparación de referencia centrada en **relleno evaporado, montaje y gratinado**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Relleno evaporado, montaje y gratinado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 12 tubos de canelones secos;\n- 300 g de espinacas frescas o descongeladas y escurridas;\n- 250 g de champiñones picados;\n- 100 g de cebolla picada;\n- 350 ml de bechamel ya preparada;\n- 200 g de tomate triturado;\n- 70 g de queso para gratinar;\n- 2 cucharadas de aceite de oliva;\n- 1 diente de ajo;\n- sal, pimienta y nuez moscada;\n\n**Alérgenos:** Gluten, leche; posibles huevos según pasta.\n\n## Elaboración\n\n1. Precalentar el horno a 190 °C y seguir las instrucciones de precocción o hidratación de los tubos de canelones.\n2. Pochar cebolla y ajo en aceite, incorporar setas picadas y cocinar hasta evaporar el líquido.\n3. Añadir las espinacas y reducir bien su humedad; templar el relleno y condimentar.\n4. Cocinar el tomate triturado unos 8 minutos hasta reducir ligeramente; extender una capa fina en fuente de horno.\n5. Rellenar los canelones y colocarlos en la fuente. Cubrir con el tomate restante, la bechamel y el queso.\n6. Hornear unos 25–35 minutos o lo indicado en las placas, hasta que la pasta esté tierna, el centro caliente y la superficie gratinada; reposar 5 minutos.\n\n## Puntos críticos\n\n- La hidratación de la pasta depende del fabricante y del líquido disponible. Reducir la humedad de verduras y setas antes de rellenar.\n- Los tiempos y temperaturas de horno son orientativos; ajustar según el tamaño, el recipiente y el equipo. Comprobar siempre el punto del interior cuando corresponda.\n- Mantener condiciones higiénicas al manipular carnes, pescados y alimentos perecederos, y separar los utensilios usados en crudo.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en una próxima prueba |\n|---|---|---|\n| Superficie muy oscura | Exceso de calor superior o tiempo largo | Cubrir temporalmente o reducir el grill |\n| Interior poco cocinado | Piezas gruesas o temperatura inadecuada | Comprobar el centro y prolongar la cocción |\n| Preparación seca | Exceso de tiempo o humedad insuficiente | Corregir tiempo o líquido en otra elaboración |\n\n## Conservación\n\nEnfriar rápidamente las sobras cocinadas y refrigerarlas en recipientes tapados y poco profundos. No dejar ingredientes perecederos ni arroz cocido varias horas a temperatura ambiente. Recalentar completamente cuando corresponda y seguir las indicaciones del fabricante en masas, conservas y productos envasados.\n\n## Relaciones dentro del SGCC\n\n- [Preparar bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md)\n- [Gratinar coberturas](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los pesos, ajustes, tiempo y temperatura reales, el punto de cocción, el resultado y su valoración. Estas cantidades no se atribuyen a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **relleno evaporado, montaje y gratinado**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/canelones_de_espinacas_y_setas_gratinados.html",
+  "id": "REC-268",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tubos de canelones secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 tubos de canelones secos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "12 tubos de canelones secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o descongeladas y escurridas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de espinacas frescas o descongeladas y escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de espinacas frescas o descongeladas y escurridas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones picados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de champiñones picados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de champiñones picados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "bechamel ya preparada;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 ml de bechamel ya preparada;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "350 ml de bechamel ya preparada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso para gratinar;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de queso para gratinar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de queso para gratinar;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y nuez moscada;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y nuez moscada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y nuez moscada;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/canelones_de_espinacas_y_setas_gratinados.md",
+  "source_sha256": "b9fdd59feefe30c48365540e65e4fffa6d506c743064f036ac7d8b945c6cdfcc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 190 °C y seguir las instrucciones de precocción o hidratación de los tubos de canelones."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo en aceite, incorporar setas picadas y cocinar hasta evaporar el líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir las espinacas y reducir bien su humedad; templar el relleno y condimentar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Cocinar el tomate triturado unos 8 minutos hasta reducir ligeramente; extender una capa fina en fuente de horno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Rellenar los canelones y colocarlos en la fuente. Cubrir con el tomate restante, la bechamel y el queso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Hornear unos 25–35 minutos o lo indicado en las placas, hasta que la pasta esté tierna, el centro caliente y la superficie gratinada; reposar 5 minutos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.html",
+      "label": "Preparar bechamel sin grumos",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.html",
+      "label": "Gratinar coberturas",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md"
+    }
+  ],
+  "title": "Canelones de espinacas y setas gratinados",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

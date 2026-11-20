@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 118,
+      "start_line": 15
+    },
+    "text": "\n# Risotto de setas\n\n## Descripción\n\nArroz de grano corto apto para risotto, cocido con adiciones graduales de caldo y terminado con mantequilla y queso. La cremosidad procede de la liberación de almidón y la mantecadatura final, no de nata.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 20–30 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Adición gradual de caldo y mantecadatura |\n\n## Ingredientes\n\n- 320 g de arroz arborio o carnaroli\n- 350 g de setas cultivadas troceadas\n- 1 chalota o cebolla pequeña picada\n- 1 litro aproximadamente de caldo vegetal caliente\n- 2 cucharadas de aceite de oliva virgen extra\n- 30 g de mantequilla fría\n- 50 g de Parmigiano Reggiano finamente rallado\n- 60 ml de vino blanco seco, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Leche (mantequilla y queso); revisar caldo.\n\n## Mise en place\n\nMantener el caldo caliente, pero sin hervor fuerte. Limpiar y secar las setas, rallar queso y preparar los ingredientes antes de iniciar la cocción del arroz.\n\n## Elaboración\n\n### 1. Dorar setas\n\nSaltear las setas por tandas en una cucharada de aceite hasta evaporar la humedad y dorar. Reservar.\n\n### 2. Pochar y nacarar\n\nCocinar la chalota con el aceite restante a fuego medio-bajo 3–4 minutos. Añadir arroz sin lavarlo y nacarar 1–2 minutos.\n\n### 3. Desglasar\n\nAñadir vino opcional y reducir parcialmente; la reducción no garantiza eliminación total de alcohol.\n\n### 4. Cocer gradualmente\n\nAgregar un cucharón de caldo caliente, remover suavemente y seguir añadiendo conforme se absorba. Comprobar regularmente el grano; suele tardar 16–22 minutos según variedad.\n\n### 5. Integrar y ligar\n\nCuando esté tierno con ligero centro firme, incorporar setas y apagar el fuego. Añadir mantequilla fría y queso gradualmente, moviendo la cazuela y añadiendo un poco de caldo si es necesario.\n\n### 6. Servir\n\nReposar solo 1–2 minutos y servir fluido, antes de que el almidón espese en exceso.\n\n## Puntos críticos\n\n- No lavar el arroz destinado a risotto: se perdería almidón superficial útil.\n- El caldo debe añadirse en tandas y la textura comprobarse, no gobernarse solo por reloj.\n- La mantequilla y el queso se incorporan fuera del fuego para lograr una emulsión estable.\n\n## Perfil esperado\n\nGranos enteros y tiernos, unidos por una salsa cremosa que se extiende ligeramente en el plato.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin vino | Omitirlo y usar caldo desde el principio |\n| Con guisantes | Añadir guisantes ya cocidos al final |\n| Con tomillo | Aromatizar las setas con poca cantidad |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Arroz seco y compacto | Falta de caldo al terminar | Añadir caldo caliente antes de servir |\n| Grano duro | Cocción insuficiente | Continuar con caldo por tandas |\n| Salsa separada | Mantecadatura demasiado caliente | Retirar del fuego y mover con suavidad |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Para guardar sobrantes de arroz cocido, enfriar rápidamente en recipientes poco profundos y refrigerar sin demoras; no dejarlo durante horas a temperatura ambiente. Recalentar completamente y evitar ciclos repetidos de enfriado y recalentamiento. El arroz mantenido de forma insegura puede contener toxinas que el recalentado no elimina.\n\n## Relaciones dentro del SGCC\n\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Diagnóstico de verduras](../98_Tablas/07_Comparativas/diagnostico_verduras.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La textura de un risotto se construye durante la cocción y se termina fuera del fuego.\n\n## Utilizado por\n\nPreparación de referencia del dominio Arroces: adición gradual de caldo y mantecadatura."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/risotto_de_setas.html",
+  "id": "REC-0156",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz arborio o carnaroli",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz arborio o carnaroli",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz arborio o carnaroli",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "setas cultivadas troceadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de setas cultivadas troceadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de setas cultivadas troceadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "chalota o cebolla pequeña picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 chalota o cebolla pequeña picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 chalota o cebolla pequeña picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aproximadamente de caldo vegetal caliente",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": true,
+        "max": "1",
+        "min": "1",
+        "raw": "1 litro aproximadamente de caldo vegetal caliente",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 litro aproximadamente de caldo vegetal caliente",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fría",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de mantequilla fría",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de mantequilla fría",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "Parmigiano Reggiano finamente rallado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de Parmigiano Reggiano finamente rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de Parmigiano Reggiano finamente rallado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de vino blanco seco, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de vino blanco seco, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nMantener el caldo caliente, pero sin hervor fuerte. Limpiar y secar las setas, rallar queso y preparar los ingredientes antes de iniciar la cocción del arroz.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "01_Arroces/risotto_de_setas.md",
+  "source_sha256": "9992889a1ab024b02757c24b59198951a6a728a23f98d59b41cee992c8f669c5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Dorar setas\n\nSaltear las setas por tandas en una cucharada de aceite hasta evaporar la humedad y dorar. Reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Pochar y nacarar\n\nCocinar la chalota con el aceite restante a fuego medio-bajo 3–4 minutos. Añadir arroz sin lavarlo y nacarar 1–2 minutos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Desglasar\n\nAñadir vino opcional y reducir parcialmente; la reducción no garantiza eliminación total de alcohol.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Cocer gradualmente\n\nAgregar un cucharón de caldo caliente, remover suavemente y seguir añadiendo conforme se absorba. Comprobar regularmente el grano; suele tardar 16–22 minutos según variedad.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Integrar y ligar\n\nCuando esté tierno con ligero centro firme, incorporar setas y apagar el fuego. Añadir mantequilla fría y queso gradualmente, moviendo la cazuela y añadiendo un poco de caldo si es necesario.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 75,
+        "start_line": 72
+      },
+      "source_number": 6,
+      "text": "6. Servir\n\nReposar solo 1–2 minutos y servir fluido, antes de que el almidón espese en exceso.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 108,
+        "start_line": 108
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Risotto de setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Carrilleras de cerdo estofadas al vino tinto\n\n## Descripción\n\nCarrilleras doradas y cocinadas lentamente con cebolla, zanahoria y vino tinto hasta que el tejido conjuntivo se ablande. Corte pensado para estofado, no para cocción corta a la plancha.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 25 minutos |\n| Cocinado | 2–3 horas, según tamaño y corte |\n| Dificultad | Media |\n| Técnica principal | Dorado y estofado prolongado |\n\n## Ingredientes\n\n- 900 g de carrilleras de cerdo limpias\n- 2 cebollas medianas, picadas\n- 2 zanahorias, en rodajas\n- 2 dientes de ajo, picados\n- 300 ml de vino tinto\n- 350–500 ml de caldo de carne o agua\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 hoja de laurel\n- 1 ramita de tomillo opcional\n- sal y pimienta negra\n\n**Alérgenos:** Revisar la composición del caldo comercial. Contiene vino; la cocción no garantiza eliminación total de alcohol.\n\n## Mise en place\n\nRetirar membranas exteriores duras de las carrilleras si es necesario, secar y separar los utensilios de carne cruda. Preparar verduras y líquido. Escoger cazuela con tapa y fondo grueso.\n\n## Elaboración\n\n### 1. Dorar carne\n\nCalentar aceite y dorar las carrilleras por tandas, 2–3 minutos por cara; retirarlas.\n\n### 2. Sofreír\n\nAñadir cebolla y zanahoria, cocinar 8–10 minutos, y agregar ajo 1 minuto.\n\n### 3. Desglasar\n\nAñadir vino tinto, raspar el fondo y dejar hervir unos minutos para reducir parcialmente.\n\n### 4. Estofar\n\nDevolver carrilleras, laurel y caldo suficiente para cubrir parcialmente. Tapar y cocer a hervor muy suave 2–3 horas o hasta que un tenedor entre sin resistencia, dando la vuelta si hace falta.\n\n### 5. Terminar salsa\n\nRetirar carne y aromáticos. Triturar o reducir la salsa si se desea más fina; devolver la carne y calentar el conjunto. Ajustar sal y pimienta.\n\n## Puntos críticos\n\n- Las carrilleras requieren tiempo para ablandar el colágeno; un dorado fuerte no sustituye el estofado.\n- Reponer líquido caliente si disminuye demasiado para evitar que se agarre.\n- Si se sirve a personas que evitan alcohol, utilizar una versión sin vino; la evaporación no elimina todo necesariamente.\n\n## Perfil esperado\n\nCarne muy tierna, casi deshilachable, con salsa oscura y concentrada sin exceso de grasa superficial.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Sin vino | Sustituirlo por caldo y una pequeña cantidad de tomate para aportar acidez |\n| Con setas | Añadir setas doradas en los últimos 20 minutos |\n| Con puré de verduras | Triturar el sofrito para ligar la salsa |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Carne dura | Estofado insuficiente | Prolongar a fuego suave con líquido |\n| Salsa aguada | Reducción insuficiente | Reducir al final por separado |\n| Fondo quemado | Falta de líquido o calor excesivo | Vigilar el hervor y reponer caldo |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos y refrigerar tapadas. Consumir en un plazo corto, recalentar completamente antes de servir y no mantener carne cocinada largo tiempo a temperatura ambiente. Congelar en porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Estofado de carne](../12_Plantillas/04_Cocciones/estofado_de_carne.md)\n\n## Principio de NovaCoquinaria\n\n> En un corte rico en colágeno, la ternura se construye con tiempo, humedad y calor moderado.\n\n## Utilizado por\n\nReceta de referencia del módulo Carnes para dorado y estofado prolongado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "preparation",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "2–3 horas, según tamaño y corte",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/carrilleras_de_cerdo_estofadas_al_vino_tinto.html",
+  "id": "REC-0127",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carrilleras de cerdo limpias",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 g de carrilleras de cerdo limpias",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "900 g de carrilleras de cerdo limpias",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollas medianas, picadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebollas medianas, picadas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebollas medianas, picadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahorias, en rodajas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 zanahorias, en rodajas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 zanahorias, en rodajas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino tinto",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de vino tinto",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de vino tinto",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne o agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "350",
+        "raw": "350–500 ml de caldo de carne o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–500 ml de caldo de carne o agua",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita de tomillo opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita de tomillo opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita de tomillo opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nRetirar membranas exteriores duras de las carrilleras si es necesario, secar y separar los utensilios de carne cruda. Preparar verduras y líquido. Escoger cazuela con tapa y fondo grueso.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/carrilleras_de_cerdo_estofadas_al_vino_tinto.md",
+  "source_sha256": "9cdc4630ec00a3a5d158dfba0200f17db99d7734c197a1bc846fae50914f936a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Dorar carne\n\nCalentar aceite y dorar las carrilleras por tandas, 2–3 minutos por cara; retirarlas.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Sofreír\n\nAñadir cebolla y zanahoria, cocinar 8–10 minutos, y agregar ajo 1 minuto.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Desglasar\n\nAñadir vino tinto, raspar el fondo y dejar hervir unos minutos para reducir parcialmente.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Estofar\n\nDevolver carrilleras, laurel y caldo suficiente para cubrir parcialmente. Tapar y cocer a hervor muy suave 2–3 horas o hasta que un tenedor entre sin resistencia, dando la vuelta si hace falta.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Terminar salsa\n\nRetirar carne y aromáticos. Triturar o reducir la salsa si se desea más fina; devolver la carne y calentar el conjunto. Ajustar sal y pimienta.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Carrilleras de cerdo estofadas al vino tinto",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

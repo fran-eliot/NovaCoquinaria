@@ -1,0 +1,330 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Sopa vietnamita de ternera y fideos de arroz\n\n## Descripción\n\nCaldo aromático inspirado en phở, con ternera totalmente cocinada. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 55–65 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de ternera tierna en tiras finas\n- 180 g de fideos de arroz secos\n- 1 l de caldo de carne bajo en sal\n- 1 cebolla grande partida\n- 30 g de jengibre fresco en rodajas\n- 1 rama de canela\n- 2 unidades de anís estrellado\n- 1 cucharada de salsa de pescado, ajustable\n- 100 g de brotes de soja aptos para cocinar, opcionales\n- lima y hierbas frescas lavadas para terminar\n\n**Alérgenos:** Pescado; posibles ingredientes del caldo y fideos comerciales.\n\n## Elaboración\n\n1. Dorar la superficie cortada de la cebolla y el jengibre en sartén seca.\n2. Calentar el caldo con cebolla, jengibre, canela y anís; mantener a hervor suave 35–40 minutos y colar.\n3. Hidratar o cocer los fideos de arroz siguiendo el envase; escurrirlos y repartirlos en cuencos.\n4. Añadir la ternera al caldo ya colado y cocinar hasta que esté completamente hecha; comprobar el punto de los trozos más gruesos.\n5. Si se emplean brotes de soja, cocinarlos también en el caldo antes de servir.\n6. Repartir caldo, ternera y brotes entre los cuencos; corregir con salsa de pescado y terminar con lima y hierbas.\n\n## Puntos críticos\n\n- Esta adaptación no sirve la carne cruda para que se termine en la mesa. Los brotes crudos presentan mayor riesgo microbiológico: cocinarlos, especialmente para personas vulnerables.\n- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.\n- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |\n| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |\n| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md)\n- [Fideos de arroz con gambas y lima](./fideos_de_arroz_con_gambas_y_lima.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Caldo aromático inspirado en phở, con ternera totalmente cocinada. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/sopa_vietnamita_de_ternera_y_fideos_de_arroz.html",
+  "id": "REC-407",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "ternera tierna en tiras finas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de ternera tierna en tiras finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de ternera tierna en tiras finas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos de arroz secos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de fideos de arroz secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de fideos de arroz secos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne bajo en sal",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 l de caldo de carne bajo en sal",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 l de caldo de carne bajo en sal",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande partida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande partida",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande partida",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en rodajas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de jengibre fresco en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de jengibre fresco en rodajas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "anís estrellado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 unidades de anís estrellado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 unidades de anís estrellado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado, ajustable",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de pescado, ajustable",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de pescado, ajustable",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "brotes de soja aptos para cocinar, opcionales",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de brotes de soja aptos para cocinar, opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de brotes de soja aptos para cocinar, opcionales",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "lima y hierbas frescas lavadas para terminar",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "lima y hierbas frescas lavadas para terminar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "lima y hierbas frescas lavadas para terminar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/sopa_vietnamita_de_ternera_y_fideos_de_arroz.md",
+  "source_sha256": "ccb58f106684fc123efb3fb07b8f6d76e0d1cf2f5081cb0a24dfb6e349228052",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Dorar la superficie cortada de la cebolla y el jengibre en sartén seca."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Calentar el caldo con cebolla, jengibre, canela y anís; mantener a hervor suave 35–40 minutos y colar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Hidratar o cocer los fideos de arroz siguiendo el envase; escurrirlos y repartirlos en cuencos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir la ternera al caldo ya colado y cocinar hasta que esté completamente hecha; comprobar el punto de los trozos más gruesos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Si se emplean brotes de soja, cocinarlos también en el caldo antes de servir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Repartir caldo, ternera y brotes entre los cuencos; corregir con salsa de pescado y terminar con lima y hierbas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.html",
+      "label": "Preparar sopas asiáticas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md"
+    }
+  ],
+  "title": "Sopa vietnamita de ternera y fideos de arroz",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

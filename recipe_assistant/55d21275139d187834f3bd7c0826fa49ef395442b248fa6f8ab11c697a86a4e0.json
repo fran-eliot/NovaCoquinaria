@@ -1,0 +1,248 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 105,
+      "start_line": 14
+    },
+    "text": "\n# Brócoli salteado con ajo y limón\n\n## Descripción\n\nBrócoli con tallos tiernos, superficie ligeramente dorada y acabado de ajo y limón; se combina precocción breve con salteado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 como guarnición |\n| Preparación | 10 min |\n| Cocinado | 10–15 min |\n| Dificultad | Fácil |\n| Técnica principal | Escaldado breve y salteado |\n\n## Ingredientes\n\n- 500 g de brócoli;\n- 2 dientes de ajo laminados;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 1 cucharada de zumo de limón;\n- Sal y pimienta negra;\n- Una pizca de chile, opcional;\n\n## Elaboración\n\n### 1. Preparar\n\nLavar brócoli, separar ramilletes de tamaño similar y pelar y cortar los tallos gruesos en piezas pequeñas.\n\n### 2. Precocer\n\nEscaldar 2–3 minutos en agua hirviendo hasta comenzar a ablandar. Escurrir muy bien y secar; el punto final se alcanzará en sartén.\n\n### 3. Saltear\n\nCalentar aceite en sartén amplia y saltear brócoli 4–6 minutos por tandas, dejando que algunas caras se doren.\n\n### 4. Añadir ajo\n\nBajar ligeramente el fuego, añadir ajo y chile opcional y cocinar 1–2 minutos, sin quemar.\n\n### 5. Terminar\n\nAjustar sal y pimienta y añadir limón fuera del fuego.\n\n## Puntos críticos\n\n- El escaldado no debe dejar el brócoli completamente blando.\n- Secar tras escaldar permite dorado real.\n- El ajo necesita menos tiempo que el brócoli.\n- Los tallos deben quedar tiernos, no crudos.\n\n## Perfil esperado\n\nBrócoli con tallos tiernos, superficie ligeramente dorada y acabado de ajo y limón; se combina precocción breve con salteado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin escaldado | Usar piezas pequeñas y terminar con unas cucharadas de agua y tapa breve. |\n| Con sésamo | Añadir semillas tostadas; contiene sésamo. |\n| Con soja | Sustituir parte de sal por salsa de soja; revisar trigo y soja como alérgenos. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Corrección |\n|---|---|---|\n| Brócoli acuoso | Escurrido deficiente | Secar antes de saltear. |\n| Tallos duros | Corte grueso | Pelar, cortar y precocer. |\n| Ajo quemado | Incorporación temprana | Añadir al final. |\n\n## Conservación\n\nEnfriar las sobras rápidamente, refrigerar en recipientes adecuados y recalentar completamente cuando proceda. Si se congela, porcionar y valorar posibles cambios de textura tras descongelar.\n\n## Relaciones dentro del SGCC\n\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El escaldado resuelve la cocción interior; el salteado aporta el dorado y el acabado aromático.\n\n## Utilizado por\n\nGuarniciones, primeros platos y preparaciones vegetales."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/brocoli_salteado_con_ajo.html",
+  "id": "REC-0043",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "brócoli;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de brócoli;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de brócoli;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "Sal y pimienta negra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Sal y pimienta negra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "Una pizca de chile, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Una pizca de chile, opcional;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Una pizca de chile, opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/brocoli_salteado_con_ajo.md",
+  "source_sha256": "81a5c8e483931bc72d3116ed5374fdc0029b852830032898b065998a68453fee",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "1. Preparar\n\nLavar brócoli, separar ramilletes de tamaño similar y pelar y cortar los tallos gruesos en piezas pequeñas.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "2. Precocer\n\nEscaldar 2–3 minutos en agua hirviendo hasta comenzar a ablandar. Escurrir muy bien y secar; el punto final se alcanzará en sartén.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "3. Saltear\n\nCalentar aceite en sartén amplia y saltear brócoli 4–6 minutos por tandas, dejando que algunas caras se doren.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 4,
+      "text": "4. Añadir ajo\n\nBajar ligeramente el fuego, añadir ajo y chile opcional y cocinar 1–2 minutos, sin quemar.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nAjustar sal y pimienta y añadir limón fuera del fuego.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 95,
+        "start_line": 95
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Brócoli salteado con ajo y limón",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

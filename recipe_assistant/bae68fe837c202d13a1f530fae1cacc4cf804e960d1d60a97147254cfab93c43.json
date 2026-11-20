@@ -1,0 +1,313 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Patatas bravas madrileñas con salsa de pimentón\n\n## Origen y contexto\n\n**Región:** Madrid. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tapas |\n| Tiempo orientativo | 45–55 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de patatas\n- aceite de oliva suave para freír\n- 30 ml de aceite de oliva para la salsa\n- 100 g de cebolla\n- 1 diente de ajo\n- 15 g de harina de trigo\n- 6 g de pimentón dulce y 2–4 g de picante\n- 250 ml de caldo bajo en sal\n- sal\n\n**Alérgenos:** Trigo/gluten; comprobar caldo.\n\n## Elaboración\n\n1. Pelar las patatas y cortarlas en trozos irregulares de unos 3 cm; lavar y secar cuidadosamente.\n2. Pochar cebolla y ajo picados en los 30 ml de aceite durante 8–10 min. Agregar harina y cocinar 1–2 min removiendo.\n3. Apartar del fuego, agregar ambos pimentones y verter caldo gradualmente sin dejar de remover. Cocer 8–10 min, triturar y ajustar sal y picante.\n4. Freír patatas en tandas a unos 150–160 °C hasta tiernas, aproximadamente 8–12 min; escurrir. Elevar aceite a 180 °C y dorar otros 2–4 min.\n5. Escurrir, salar y servir enseguida con salsa caliente en cantidad moderada.\n\n## Puntos críticos\n\n- La versión madrileña elegida se basa en pimentón, harina y caldo, sin tomate ni mayonesa; existen otras variantes.\n- Secar las patatas antes de freír; no llenar en exceso la sartén ni dejar aceite caliente sin vigilancia.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Patatas blandas | Aceite frío | Freír en tandas y terminar a mayor temperatura |\n| Salsa amarga | Pimentón quemado | Añadir fuera del fuego |\n| Salsa espesa | Exceso de harina | Ajustar con caldo |\n\n## Conservación\n\nRefrigerar la salsa a 4 °C o menos hasta 2 días y recalentar completamente. Las patatas se consumen mejor recién fritas.\n\n## Relaciones dentro del SGCC\n\n- [Patatas a la importancia](../04_Verduras/patatas_a_la_importancia_castellanas.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia gastronómica](https://academiamadrilenadegastronomia.org/patatas-bravas/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras su elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "55",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–55 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Madrid. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/patatas_bravas_madrilenas_con_salsa_de_pimenton.html",
+  "id": "REC-562",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de patatas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave para freír",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave para freír",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva para la salsa",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de aceite de oliva para la salsa",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de aceite de oliva para la salsa",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de harina de trigo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce y 2–4 g de picante",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de pimentón dulce y 2–4 g de picante",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de pimentón dulce y 2–4 g de picante",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo bajo en sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de caldo bajo en sal",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de caldo bajo en sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "04_Verduras/patatas_bravas_madrilenas_con_salsa_de_pimenton.md",
+  "source_sha256": "e56de7e5ae6910c4ccc581beeef2657daf49ec6b5d0d434289e8215ed3001f17",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Pelar las patatas y cortarlas en trozos irregulares de unos 3 cm; lavar y secar cuidadosamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo picados en los 30 ml de aceite durante 8–10 min. Agregar harina y cocinar 1–2 min removiendo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Apartar del fuego, agregar ambos pimentones y verter caldo gradualmente sin dejar de remover. Cocer 8–10 min, triturar y ajustar sal y picante."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Freír patatas en tandas a unos 150–160 °C hasta tiernas, aproximadamente 8–12 min; escurrir. Elevar aceite a 180 °C y dorar otros 2–4 min."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Escurrir, salar y servir enseguida con salsa caliente en cantidad moderada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Patatas bravas madrileñas con salsa de pimentón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tapas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

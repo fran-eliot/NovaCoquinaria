@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Champiñones grandes rellenos de espinacas y queso\n\n## Descripción\n\nPreparación de referencia basada en **vaciado, reducción del relleno y gratinado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica | Vaciado, reducción del relleno y gratinado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 8 champiñones grandes, 600–700 g en total\n- 250 g de espinacas frescas\n- 100 g de queso crema\n- 60 g de queso curado rallado\n- 70 g de cebolla muy picada\n- 1 diente de ajo\n- 2 cucharadas de aceite de oliva\n- 20 g de pan rallado opcional\n- sal y pimienta\n\n**Alérgenos:** Leche; gluten (trigo) si se usa pan rallado.\n\n## Elaboración\n\n1. Precalentar horno a 195 °C, calor arriba y abajo. Limpiar los champiñones con cuidado y separar los pies; picarlos finos.\n2. Colocar los sombreros con la cavidad hacia arriba en fuente ligeramente engrasada y hornear 8 minutos para que comiencen a soltar líquido.\n3. Mientras, pochar cebolla y pies picados en aceite durante 6–8 minutos, hasta evaporar bien la humedad; añadir ajo durante 30 segundos.\n4. Añadir las espinacas y cocinarlas hasta que reduzcan volumen y se evapore el agua. Retirar del calor, templar y mezclar con queso crema.\n5. Escurrir el líquido de la fuente, rellenar los sombreros y repartir queso rallado y pan opcional encima.\n6. Hornear otros 12–18 minutos hasta champiñones tiernos, centro caliente y cobertura dorada; servir calientes.\n\n## Puntos críticos\n\n- El relleno debe estar bien reducido para que no quede una piscina de agua bajo los sombreros. No sobrecargar de sal antes de incorporar el queso.\n- El tiempo depende del corte, humedad, bandeja y comportamiento del horno; comprobar el centro y la base antes de terminar.\n- Separar alimentos crudos de los listos para comer, emplear utensilios higiénicos y conservar refrigerados los ingredientes perecederos antes de cocinar.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima elaboración |\n|---|---|---|\n| Base blanda o húmeda | Relleno con agua o exceso de espesor | Escurrir y reducir el relleno; ajustar precocción |\n| Superficie quemada e interior duro | Calor superior elevado o piezas gruesas | Bajar temperatura y precocer cuando proceda |\n| Textura seca | Exceso de horno o relleno insuficiente | Comprobar antes el punto real y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar en recipientes tapados y evitar periodos prolongados a temperatura ambiente. Las preparaciones con quesos frescos o huevo precisan especial cuidado de refrigeración antes y después del horneado.\n\n## Relaciones dentro del SGCC\n\n- [Champiñones al ajillo](../04_Verduras/champinones_al_ajillo.md)\n- [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes utilizados, tamaño real del corte o molde, temperatura, duración, textura y valoración. Estas propuestas no sustituyen recetas domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **vaciado, reducción del relleno y gratinado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/champinones_grandes_rellenos_de_espinacas_y_queso.html",
+  "id": "REC-329",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "champiñones grandes, 600–700 g en total",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 champiñones grandes, 600–700 g en total",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 champiñones grandes, 600–700 g en total",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de espinacas frescas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de espinacas frescas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "queso crema",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de queso crema",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de queso crema",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de queso curado rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de queso curado rallado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla muy picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de cebolla muy picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de cebolla muy picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de pan rallado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de pan rallado opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/champinones_grandes_rellenos_de_espinacas_y_queso.md",
+  "source_sha256": "685385919e0049799b16cb4c1370052532cf051fd67cec629e1b594a9a901497",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 195 °C, calor arriba y abajo. Limpiar los champiñones con cuidado y separar los pies; picarlos finos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Colocar los sombreros con la cavidad hacia arriba en fuente ligeramente engrasada y hornear 8 minutos para que comiencen a soltar líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mientras, pochar cebolla y pies picados en aceite durante 6–8 minutos, hasta evaporar bien la humedad; añadir ajo durante 30 segundos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Añadir las espinacas y cocinarlas hasta que reduzcan volumen y se evapore el agua. Retirar del calor, templar y mezclar con queso crema."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Escurrir el líquido de la fuente, rellenar los sombreros y repartir queso rallado y pan opcional encima."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear otros 12–18 minutos hasta champiñones tiernos, centro caliente y cobertura dorada; servir calientes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.html",
+      "label": "Gratinar coberturas sin quemar",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md"
+    }
+  ],
+  "title": "Champiñones grandes rellenos de espinacas y queso",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 87,
+      "start_line": 14
+    },
+    "text": "\n# Merluza en salsa verde\n\n## Descripción\n\nMerluza cocinada suavemente en una salsa de ajo, perejil y caldo, ligada mediante movimiento de cazuela. Versión doméstica sencilla de la preparación.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Cocinado | 15–20 min |\n| Técnica | Cocción en salsa |\n\n## Ingredientes\n\n- 700 g de lomos de merluza;\n- 3 dientes de ajo picados;\n- 3 cucharadas de aceite de oliva;\n- 150–200 ml de caldo de pescado;\n- 3 cucharadas de perejil fresco picado;\n- 1 cucharadita de harina de trigo, opcional para espesar;\n- sal y pimienta.\n\n**Alérgenos:** pescado; trigo si se utiliza harina. Revisar ingredientes del caldo.\n\n## Elaboración\n\n1. Descongelar merluza en refrigeración si procede. Escurrir, secar y revisar espinas.\n2. Calentar aceite en cazuela amplia y cocinar ajo a fuego medio-bajo sin dorar intensamente.\n3. Si se usa harina, añadirla y cocinar brevemente antes de incorporar caldo poco a poco.\n4. Añadir caldo y parte del perejil; mantener hervor suave.\n5. Colocar los lomos en una sola capa y cocinar suavemente aproximadamente 6–10 minutos según grosor, girando solo si es necesario.\n6. Mover la cazuela con suavidad para integrar la salsa. Comprobar el centro del pescado (referencia conservadora **63 °C**).\n7. Añadir el resto del perejil y ajustar sal antes de servir.\n\n## Puntos críticos\n\n- El ajo no debe quemarse.\n- La merluza es delicada y puede romperse al remover.\n- El caldo puede aportar sal; ajustar al final.\n- La harina es opcional; una reducción suave puede dar cuerpo.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con guisantes | Incorporar cocidos en la fase final |\n| Con espárragos | Añadir al final |\n| Sin harina | Reducir salsa y mover cazuela |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Salsa muy líquida | Caldo excesivo | Reducir antes de añadir pescado |\n| Merluza deshecha | Manipulación excesiva | Mover cazuela |\n| Ajo amargo | Quemado | Cocinar a fuego suave |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar y recalentar completamente con suavidad.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa se integra moviendo la cazuela y el pescado se cocina con suavidad."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_en_salsa_verde.html",
+  "id": "REC-0060",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de lomos de merluza;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de lomos de merluza;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "150",
+        "raw": "150–200 ml de caldo de pescado;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–200 ml de caldo de pescado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de perejil fresco picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de perejil fresco picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo, opcional para espesar;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de harina de trigo, opcional para espesar;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de harina de trigo, opcional para espesar;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/merluza_en_salsa_verde.md",
+  "source_sha256": "f50783e8648f899df9c42705251ec4921dbacfe7ad6b0c7bae10237ffdce67c9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Descongelar merluza en refrigeración si procede. Escurrir, secar y revisar espinas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en cazuela amplia y cocinar ajo a fuego medio-bajo sin dorar intensamente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Si se usa harina, añadirla y cocinar brevemente antes de incorporar caldo poco a poco."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Añadir caldo y parte del perejil; mantener hervor suave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Colocar los lomos en una sola capa y cocinar suavemente aproximadamente 6–10 minutos según grosor, girando solo si es necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Mover la cazuela con suavidad para integrar la salsa. Comprobar el centro del pescado (referencia conservadora **63 °C**)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Añadir el resto del perejil y ajustar sal antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza en salsa verde",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

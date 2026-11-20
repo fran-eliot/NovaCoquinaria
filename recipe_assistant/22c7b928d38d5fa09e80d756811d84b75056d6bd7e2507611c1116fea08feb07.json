@@ -1,0 +1,203 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 14
+    },
+    "text": "\n# Espresso tonic con naranja\n\n## Descripción\n\nBebida de referencia basada en **extracción de café y montaje sobre tónica fría**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 1 vaso |\n| Técnica | Extracción de café y montaje sobre tónica fría |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 espresso doble de 35–45 ml\n- 150 ml de agua tónica muy fría\n- 4–5 cubitos de hielo aptos para consumo\n- 1 tira fina de piel de naranja sin parte blanca\n\n**Alérgenos:** Revisar ingredientes de la tónica comercial.\n\n## Elaboración\n\n1. Enfriar previamente el vaso y mantener la tónica refrigerada.\n2. Preparar un espresso doble de intensidad habitual y dejar reposar 1–2 minutos para moderar la temperatura.\n3. Llenar el vaso de hielo y añadir la tónica con cuidado para evitar espuma excesiva.\n4. Verter el café lentamente sobre el hielo o el reverso de una cuchara para obtener una separación momentánea.\n5. Aromatizar con una tira de piel de naranja bien lavada, sin exprimir cantidades excesivas de aceites amargos.\n6. Servir inmediatamente y remover ligeramente antes de beber si se desea mezcla uniforme.\n\n## Puntos críticos\n\n- La tónica es carbonatada y hace mucha espuma si el café se vierte muy caliente o deprisa. Contiene cafeína por el espresso y, según marca, también por otros ingredientes añadidos.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |\n| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |\n| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |\n\n## Conservación\n\nPreparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.\n\n## Relaciones dentro del SGCC\n\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café frío con hielo](./cafe_frio.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **extracción de café y montaje sobre tónica fría**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/espresso_tonic_con_naranja.html",
+  "id": "REC-319",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espresso doble de 35–45 ml",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 espresso doble de 35–45 ml",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 espresso doble de 35–45 ml",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua tónica muy fría",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua tónica muy fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua tónica muy fría",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cubitos de hielo aptos para consumo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "4",
+        "raw": "4–5 cubitos de hielo aptos para consumo",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "4–5 cubitos de hielo aptos para consumo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tira fina de piel de naranja sin parte blanca",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tira fina de piel de naranja sin parte blanca",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tira fina de piel de naranja sin parte blanca",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/espresso_tonic_con_naranja.md",
+  "source_sha256": "531a85fa4608aeb9bb482a5f001656016e784fdfd9d1c07e835dd4ad8fac486d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Enfriar previamente el vaso y mantener la tónica refrigerada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Preparar un espresso doble de intensidad habitual y dejar reposar 1–2 minutos para moderar la temperatura."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Llenar el vaso de hielo y añadir la tónica con cuidado para evitar espuma excesiva."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Verter el café lentamente sobre el hielo o el reverso de una cuchara para obtener una separación momentánea."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Aromatizar con una tira de piel de naranja bien lavada, sin exprimir cantidades excesivas de aceites amargos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente y remover ligeramente antes de beber si se desea mezcla uniforme."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Espresso tonic con naranja",
+  "yield": {
+    "max": "1",
+    "min": "1",
+    "raw": "1 vaso",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

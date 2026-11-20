@@ -1,0 +1,198 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 60,
+      "start_line": 13
+    },
+    "text": "\n# Infusión de jengibre y limón\n\n## Descripción\nBebida aromática sin hojas de té, naturalmente sin cafeína cuando se prepara con los ingredientes indicados.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 5 min |\n| Infusión | 8–12 min |\n\n## Ingredientes\n- 500 ml de agua;\n- 15–20 g de jengibre fresco en rodajas;\n- 1–2 cucharadas de zumo de limón;\n- miel o azúcar, opcionales.\n\n## Elaboración\n1. Lavar jengibre y cortar en láminas finas.\n2. Llevar agua a hervor y añadir jengibre.\n3. Mantener hervor suave 5 minutos, apagar y reposar 3–7 minutos.\n4. Colar y añadir limón al final.\n5. Probar y endulzar opcionalmente.\n\n## Puntos críticos\n- A mayor cantidad de jengibre, mayor intensidad picante.\n- Añadir limón al final conserva un perfil más fresco.\n- No atribuir a la infusión propiedades terapéuticas no demostradas.\n- No ofrecer miel a menores de un año.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Muy picante | Mucho jengibre | Diluir |\n| Muy ácida | Mucho limón | Añadir agua |\n| Poco aroma | Infusión corta | Prolongar moderadamente |\n\n## Conservación\nConsumir recién preparada o enfriar rápidamente y refrigerar.\n\n## Relaciones\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Limonada casera](./limonada_casera.md)\n\n## Principio de NovaCoquinaria\n> La intensidad del jengibre se controla con dosis y tiempo, no solo con azúcar."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/infusion_de_jengibre_y_limon.html",
+  "id": "REC-0093",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de agua;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en rodajas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "15",
+        "raw": "15–20 g de jengibre fresco en rodajas;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "15–20 g de jengibre fresco en rodajas;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de zumo de limón;",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de zumo de limón;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar, opcionales.",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "miel o azúcar, opcionales.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "miel o azúcar, opcionales.",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "09_Bebidas/infusion_de_jengibre_y_limon.md",
+  "source_sha256": "50070dc3c01bd1ce072c197a423cb0832824454e66a3fa724c97ade2a0b53198",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      },
+      "source_number": 1,
+      "text": "Lavar jengibre y cortar en láminas finas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      },
+      "source_number": 2,
+      "text": "Llevar agua a hervor y añadir jengibre."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "source_number": 3,
+      "text": "Mantener hervor suave 5 minutos, apagar y reposar 3–7 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 4,
+      "text": "Colar y añadir limón al final."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 5,
+      "text": "Probar y endulzar opcionalmente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Infusión de jengibre y limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

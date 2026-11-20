@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Bacalao gratinado con puerro y mostaza\n\n## Descripción\n\nPreparación de horno doméstico mediante **puerro reducido y gratinado de pescado**. Formulación propuesta, sin elaboración o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Temperatura inicial | 190 °C, calor arriba y abajo |\n| Técnica | Puerro reducido y gratinado de pescado |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 450 g de bacalao desalado sin espinas;\n- 220 g de puerro limpio;\n- 100 ml de nata para cocinar;\n- 1 cucharadita de mostaza de Dijon;\n- 25 g de pan rallado;\n- 1 cucharada de aceite de oliva;\n- 20 g de queso rallado opcional;\n- pimienta; sal solo tras probar;\n\n**Alérgenos:** Pescado, leche, mostaza y trigo (pan rallado). Revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Precalentar a 190 °C, comprobar el desalado del bacalao y secarlo.\n2. Pochar el puerro con aceite 8–10 minutos, evaporando su humedad.\n3. Mezclar el puerro con nata y mostaza; extender en fuente poco profunda.\n4. Colocar el bacalao encima y añadir pan rallado y queso opcional.\n5. Hornear 12–18 minutos orientativos según el grosor, hasta cocción completa del pescado; dorar brevemente si fuera necesario y servir.\n\n## Puntos críticos\n\n- El bacalao puede seguir salado: probar antes de corregir. No prolongar el gratinado a costa de secar el pescado.\n- Ajustar tiempos y temperatura a grosor, recipiente y horno. Los tiempos indicados no sustituyen el control del punto real de cocción.\n- Usar utensilios aptos y evitar la contaminación cruzada entre ingredientes crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Superficie quemada | Horno alto o temperatura excesiva | Bajar bandeja o proteger antes del final |\n| Centro insuficientemente cocido | Piezas grandes | Prolongar y comprobar el centro |\n| Fondo húmedo | Ingredientes sin reducir o escurrir | Eliminar el exceso de agua antes de hornear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Índice de Horno](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente empleadas, recipiente, temperatura, tiempo, textura, resultado y valoración. Una descripción del resultado esperado no acredita una prueba."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/bacalao_gratinado_con_puerro_y_mostaza.html",
+  "id": "REC-0216",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao desalado sin espinas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de bacalao desalado sin espinas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de bacalao desalado sin espinas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro limpio;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de puerro limpio;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de puerro limpio;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para cocinar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de nata para cocinar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de nata para cocinar;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza de Dijon;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza de Dijon;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de pan rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de pan rallado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de queso rallado opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de queso rallado opcional;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta; sal solo tras probar;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta; sal solo tras probar;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta; sal solo tras probar;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/bacalao_gratinado_con_puerro_y_mostaza.md",
+  "source_sha256": "ad000d4a7da2bf042b2d01aace86ed1087249e5c4eec50202c48f9718d9e9e2d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar a 190 °C, comprobar el desalado del bacalao y secarlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar el puerro con aceite 8–10 minutos, evaporando su humedad."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mezclar el puerro con nata y mostaza; extender en fuente poco profunda."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Colocar el bacalao encima y añadir pan rallado y queso opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Hornear 12–18 minutos orientativos según el grosor, hasta cocción completa del pescado; dorar brevemente si fuera necesario y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Bacalao gratinado con puerro y mostaza",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

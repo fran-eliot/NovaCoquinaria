@@ -1,0 +1,321 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Perdiz a la toledana estofada\n\n## Origen y contexto\n\n**Región:** Toledo, Castilla-La Mancha. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 90–130 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 perdices limpias de origen autorizado (aprox. 1,2 kg en total)\n- 300 g de cebolla\n- 200 g de zanahoria\n- 4 dientes de ajo\n- 180 ml de vino blanco seco\n- 250–400 ml de caldo de carne bajo en sal\n- 60 ml de aceite de oliva\n- 2 hojas de laurel\n- 10 granos de pimienta negra\n- sal\n\n**Alérgenos:** Posibles sulfitos del vino; comprobar caldo.\n\n## Elaboración\n\n1. Mantener las perdices refrigeradas hasta cocinar. Secar, sazonar y dorar en cazuela con aceite por todos lados.\n2. Retirar las aves; pochar cebolla en juliana y zanahoria cortada unos 12 minutos junto con los ajos.\n3. Añadir vino y reducir brevemente; devolver las perdices y agregar laurel, pimienta y caldo.\n4. Tapar y cocinar a hervor suave durante 65–100 minutos según tamaño y origen, girando ocasionalmente hasta carne tierna y completamente cocida (74 °C en la parte gruesa como referencia).\n5. Retirar laurel, ajustar consistencia de la salsa y servir caliente; comprobar que no quedan perdigones ni fragmentos si son aves de caza.\n\n## Puntos críticos\n\n- Usar aves de procedencia legal y controlada. El vino blanco es una elección doméstica entre varias fórmulas de estofado; no se plantea como receta única ni como conserva en escabeche. Evitar caza abatida con munición de plomo cuando sea posible.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Carne dura | Estofado insuficiente | Prolongar a fuego suave |\n| Salsa acuosa | Exceso de caldo | Reducir al final |\n\n## Conservación\n\nEnfriar sin demora y refrigerar a 4 °C o menos hasta 2 días; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [conejo al ajillo con vino blanco](../05_Carnes/conejo_al_ajillo_con_vino_blanco.md)\n- [estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.spain.info/es/receta/perdices-la-toledana/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "130",
+      "min": "90",
+      "phase": "declared_total",
+      "raw": "90–130 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Toledo, Castilla-La Mancha. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/perdiz_a_la_toledana_estofada.html",
+  "id": "REC-576",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "perdices limpias de origen autorizado (aprox. 1,2 kg en total)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 perdices limpias de origen autorizado (aprox. 1,2 kg en total)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 perdices limpias de origen autorizado (aprox. 1,2 kg en total)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de zanahoria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de zanahoria",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne bajo en sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "250",
+        "raw": "250–400 ml de caldo de carne bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "250–400 ml de caldo de carne bajo en sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "granos de pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 granos de pimienta negra",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "10 granos de pimienta negra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "05_Carnes/perdiz_a_la_toledana_estofada.md",
+  "source_sha256": "5f34679c8e7a8ec59e8566494c0b1b335cb26d97dc3706cbd0f4a947bb4f63fb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Mantener las perdices refrigeradas hasta cocinar. Secar, sazonar y dorar en cazuela con aceite por todos lados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Retirar las aves; pochar cebolla en juliana y zanahoria cortada unos 12 minutos junto con los ajos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir vino y reducir brevemente; devolver las perdices y agregar laurel, pimienta y caldo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Tapar y cocinar a hervor suave durante 65–100 minutos según tamaño y origen, girando ocasionalmente hasta carne tierna y completamente cocida (74 °C en la parte gruesa como referencia)."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Retirar laurel, ajustar consistencia de la salsa y servir caliente; comprobar que no quedan perdigones ni fragmentos si son aves de caza."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "estofar carnes",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Perdiz a la toledana estofada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

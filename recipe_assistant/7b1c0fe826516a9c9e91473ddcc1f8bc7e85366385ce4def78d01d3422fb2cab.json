@@ -1,0 +1,275 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Tocino de cielo jerezano de yemas\n\n## Origen y contexto\n\n**Región:** Jerez de la Frontera, Cádiz. Fórmula doméstica orientativa que recoge rasgos reconocibles de la tradición regional. Se diferencia de preparaciones relacionadas cuando corresponde, sin atribuir prueba ni valoración previa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones pequeñas |\n| Tiempo orientativo | 45 minutos más 30–45 minutos de horno y refrigeración |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 10 yemas L\n- 2 huevos L completos\n- 300 g de azúcar para almíbar\n- 160 ml de agua potable para almíbar\n- 70 g de azúcar adicional para caramelo\n- 30 ml de agua para caramelo\n\n**Alérgenos:** Huevo.\n\n## Elaboración\n\n1. Preparar un molde pequeño apto para baño maría y precalentar el horno a 160 °C.\n2. Calentar 70 g de azúcar con 30 ml de agua hasta obtener caramelo ámbar claro; verterlo con precaución sobre el fondo del molde y dejar endurecer.\n3. Poner los 300 g de azúcar y 160 ml de agua en cazo y cocinar hasta un almíbar ligero de unos 105–108 °C. Dejar que pierda parte del calor.\n4. Batir suavemente yemas y huevos sin incorporar demasiado aire. Añadir almíbar templado en hilo mientras se remueve para evitar que coagulen de golpe.\n5. Colar la mezcla para retirar posibles grumos y verter sobre el caramelo.\n6. Poner el molde en bandeja de baño maría con agua caliente, cubrirlo flojamente si se dora demasiado y hornear unos 30–45 minutos hasta cuajado completo, comprobando una temperatura interna de al menos 71 °C como referencia conservadora.\n7. Retirar del baño maría con cuidado, enfriar rápidamente y refrigerar al menos 4 horas antes de desmoldar.\n8. Servir porciones pequeñas muy frías.\n\n## Puntos críticos\n\n- Es un postre muy concentrado en yemas y azúcar, diferente del flan de leche. El almíbar caliente puede cuajar el huevo si se vierte de golpe; los huevos deben alcanzar una cocción segura y el baño maría no debe hervir violentamente.\n- Ajustar duración, tamaño de las piezas y líquidos a la materia prima. Mantener la cadena de frío e higiene alimentaria y comprobar la cocción completa de carnes, pescados, mariscos y huevos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una futura prueba |\n|---|---|---|\n| Ingrediente principal demasiado firme | Falta de cocción o tamaño desigual | Igualar porciones y comprobar el interior |\n| Salsa, masa o caldo descompensados | Hidratación excesiva o reducción insuficiente | Ajustar líquido, tiempo y calor progresivamente |\n| Sabor poco equilibrado | Exceso de sal o condimento | Probar y corregir antes del servicio |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carne, pescado, crustáceos, moluscos, huevos o lácteos necesitan manipulación higiénica y cadena de frío. Recalentar completamente las raciones que deban servirse calientes; no mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Yemas de Santa Teresa](./yemas_de_santa_teresa_de_avila.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar las cantidades, tiempos, producto utilizado, resultado y valoración reales. Esta formulación no sustituye preparaciones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45 minutos más 30–45 minutos de horno y refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tocino_de_cielo_jerezano_de_yemas.html",
+  "id": "REC-518",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "yemas L",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 yemas L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "10 yemas L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L completos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L completos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L completos",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para almíbar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de azúcar para almíbar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de azúcar para almíbar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para almíbar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 ml de agua potable para almíbar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "160 ml de agua potable para almíbar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para caramelo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de azúcar adicional para caramelo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de azúcar adicional para caramelo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para caramelo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de agua para caramelo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de agua para caramelo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "08_Postres/tocino_de_cielo_jerezano_de_yemas.md",
+  "source_sha256": "917b81e30b231b6e6f649c7f20ccb744d6e2da4e448ed5e1aeb3aade689c6c8c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Preparar un molde pequeño apto para baño maría y precalentar el horno a 160 °C."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar 70 g de azúcar con 30 ml de agua hasta obtener caramelo ámbar claro; verterlo con precaución sobre el fondo del molde y dejar endurecer."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Poner los 300 g de azúcar y 160 ml de agua en cazo y cocinar hasta un almíbar ligero de unos 105–108 °C. Dejar que pierda parte del calor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Batir suavemente yemas y huevos sin incorporar demasiado aire. Añadir almíbar templado en hilo mientras se remueve para evitar que coagulen de golpe."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Colar la mezcla para retirar posibles grumos y verter sobre el caramelo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Poner el molde en bandeja de baño maría con agua caliente, cubrirlo flojamente si se dora demasiado y hornear unos 30–45 minutos hasta cuajado completo, comprobando una temperatura interna de al menos 71 °C como referencia conservadora."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Retirar del baño maría con cuidado, enfriar rápidamente y refrigerar al menos 4 horas antes de desmoldar."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 8,
+      "text": "Servir porciones pequeñas muy frías."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Tocino de cielo jerezano de yemas",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

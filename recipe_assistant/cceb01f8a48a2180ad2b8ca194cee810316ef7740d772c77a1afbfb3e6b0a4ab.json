@@ -1,0 +1,292 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Doenjang jjigae de tofu y calabacín\n\n## Descripción\n\nGuiso coreano de pasta fermentada de soja. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 30–35 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de tofu firme en dados\n- 250 g de calabacín en medias lunas\n- 150 g de patata en dados pequeños\n- 120 g de cebolla en tiras\n- 600 ml de agua o caldo suave\n- 35 g de doenjang (pasta coreana de soja fermentada)\n- 1 diente de ajo picado\n- 1 cebolleta\n- ½ chile fresco opcional\n\n**Alérgenos:** Soja; posible trigo, cebada o marisco según pasta comercial y caldo.\n\n## Elaboración\n\n1. Calentar el caldo con la patata y cebolla durante 8–10 minutos.\n2. Diluir la pasta doenjang en un poco de caldo caliente con ayuda de un colador y devolverla a la cazuela.\n3. Añadir calabacín, ajo y chile opcional y cocinar suavemente 6–8 minutos.\n4. Incorporar tofu y continuar otros 5 minutos hasta que todo esté bien caliente y la patata tierna.\n5. Probar antes de añadir cualquier sal; terminar con cebolleta y servir inmediatamente.\n\n## Puntos críticos\n\n- Doenjang no es idéntico al miso japonés y su salinidad varía. Si se sustituye por miso, debe registrarse como una variante doméstica distinta.\n- Mantener el tofu refrigerado hasta incorporarlo; cortar la patata en dados pequeños y añadir el tofu al final para evitar que se deshaga.\n- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |\n| Patata dura o calabacín deshecho | Tamaños irregulares o incorporación simultánea | Empezar por la patata y escalonar las verduras |\n| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener el guiso tapado en refrigeración y recalentar completamente solo la porción que se vaya a consumir. Respetar las indicaciones del fabricante sobre conservación del tofu abierto y de la pasta doenjang.\n\n## Relaciones dentro del SGCC\n\n- [Tofu firme](../11_Despensa/02_Legumbres/tofu_firme.md): selección y manipulación de dados en caldo.\n- [Sopa de miso con tofu](./sopa_de_miso_con_tofu.md)\n- [Kimchi jjigae de cerdo y tofu](./kimchi_jjigae_de_cerdo_y_tofu.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "35",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–35 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Guiso coreano de pasta fermentada de soja. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/doenjang_jjigae_de_tofu_y_calabacin.html",
+  "id": "REC-409",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tofu firme en dados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tofu firme en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tofu firme en dados",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín en medias lunas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de calabacín en medias lunas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de calabacín en medias lunas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patata en dados pequeños",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de patata en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de patata en dados pequeños",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en tiras",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla en tiras",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 ml de agua o caldo suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "600 ml de agua o caldo suave",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "doenjang (pasta coreana de soja fermentada)",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de doenjang (pasta coreana de soja fermentada)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de doenjang (pasta coreana de soja fermentada)",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "chile fresco opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ chile fresco opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ chile fresco opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "07_Cocina_Asiatica/doenjang_jjigae_de_tofu_y_calabacin.md",
+  "source_sha256": "f4348e55b9d76958ce174396d1ff4a444db0bbb8d063bbb8d56c40d80f615eb9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Calentar el caldo con la patata y cebolla durante 8–10 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Diluir la pasta doenjang en un poco de caldo caliente con ayuda de un colador y devolverla a la cazuela."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir calabacín, ajo y chile opcional y cocinar suavemente 6–8 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar tofu y continuar otros 5 minutos hasta que todo esté bien caliente y la patata tierna."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Probar antes de añadir cualquier sal; terminar con cebolleta y servir inmediatamente."
+    }
+  ],
+  "techniques": [],
+  "title": "Doenjang jjigae de tofu y calabacín",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

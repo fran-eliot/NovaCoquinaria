@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Espaguetis con almejas y vino blanco\n\n## Descripción\n\nReceta de referencia centrada en **apertura controlada de bivalvos y emulsión**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Apertura controlada de bivalvos y emulsión |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de espaguetis secos\n- 750 g de almejas vivas de establecimiento autorizado\n- 3 dientes de ajo laminados\n- 80 ml de vino blanco seco\n- 3 cucharadas de aceite de oliva\n- 1 cucharada de perejil fresco picado\n- pimienta negra y sal con moderación\n\n**Alérgenos:** Moluscos y gluten (trigo); vino con posible alcohol residual.\n\n## Elaboración\n\n1. Comprobar origen autorizado de las almejas y mantenerlas refrigeradas. Desechar conchas rotas y ejemplares que no cierren al tocarlos.\n2. Cocer los espaguetis 1–2 minutos menos de lo que indica el paquete, reservando agua de cocción.\n3. Mientras, cocinar el ajo suavemente con aceite en cazuela; incorporar las almejas y el vino, tapar y calentar hasta que se abran, unos 3–6 minutos según tamaño.\n4. Retirar las almejas abiertas a una fuente limpia, desechar las que permanezcan cerradas y filtrar el jugo de cocción para retirar arena.\n5. Añadir a la cazuela el jugo filtrado y espaguetis; terminar la pasta 1–2 minutos con un poco de su agua de cocción para ligar.\n6. Reincorporar las almejas solo para calentarlas, añadir perejil y servir inmediatamente.\n\n## Puntos críticos\n\n- El lavado doméstico no elimina biotoxinas: utilizar bivalvos de establecimientos autorizados. Evitar prolongar su cocción después de abrirse; el jugo ya aporta sal.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Almejas en salsa verde](../06_Pescados_y_Mariscos/almejas_en_salsa_verde.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_con_almejas_y_vino_blanco.html",
+  "id": "REC-305",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de espaguetis secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de espaguetis secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "almejas vivas de establecimiento autorizado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de almejas vivas de establecimiento autorizado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de almejas vivas de establecimiento autorizado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil fresco picado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y sal con moderación",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y sal con moderación",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra y sal con moderación",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "02_Pastas/espaguetis_con_almejas_y_vino_blanco.md",
+  "source_sha256": "4caff546da5b8d50254d7316a09d8810016a672cb56c4df623160d916ed33db5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Comprobar origen autorizado de las almejas y mantenerlas refrigeradas. Desechar conchas rotas y ejemplares que no cierren al tocarlos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Cocer los espaguetis 1–2 minutos menos de lo que indica el paquete, reservando agua de cocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Mientras, cocinar el ajo suavemente con aceite en cazuela; incorporar las almejas y el vino, tapar y calentar hasta que se abran, unos 3–6 minutos según tamaño."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Retirar las almejas abiertas a una fuente limpia, desechar las que permanezcan cerradas y filtrar el jugo de cocción para retirar arena."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Añadir a la cazuela el jugo filtrado y espaguetis; terminar la pasta 1–2 minutos con un poco de su agua de cocción para ligar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Reincorporar las almejas solo para calentarlas, añadir perejil y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    }
+  ],
+  "title": "Espaguetis con almejas y vino blanco",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Zarzuela catalana de pescado y marisco\n\n## Origen y contexto\n\n**Región:** Cataluña. Fórmula doméstica orientativa que recoge rasgos reconocibles de la tradición regional. Se diferencia de preparaciones relacionadas cuando corresponde, sin atribuir prueba ni valoración previa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 65–80 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de rape limpio en medallones, de origen autorizado\n- 350 g de merluza en trozos sin espinas visibles\n- 300 g de mejillones vivos depurados\n- 250 g de almejas vivas depuradas\n- 200 g de gambas crudas enteras o peladas\n- 230 g de tomate rallado\n- 160 g de cebolla\n- 2 dientes de ajo\n- 100 ml de vino blanco seco\n- 500–650 ml de fumet de pescado caliente y colado\n- 40 g de almendras tostadas\n- 1 rebanada de pan tostado de 25 g\n- 4 cucharadas de aceite de oliva\n- perejil y sal\n\n**Alérgenos:** Pescado, crustáceos, moluscos, almendras, gluten de trigo y posibles sulfitos del vino.\n\n## Elaboración\n\n1. Mantener pescado y marisco refrigerados. Comprobar procedencia de bivalvos; descartar piezas rotas y las que no cierren al tocarlas estando vivas.\n2. Limpiar mejillones y almejas según corresponda; abrirlos por separado con calor, retirar los que no se abran y colar bien el líquido de cocción para eliminar posibles arenas.\n3. Pochar cebolla y ajo picados en cazuela amplia con aceite durante 8–10 minutos. Añadir tomate y reducir 10–12 minutos.\n4. Verter el vino y reducir brevemente, sin asumir que desaparece todo su alcohol. Añadir fumet caliente y algo del jugo colado de bivalvos.\n5. Majar almendras tostadas, pan y perejil con un poco de caldo e incorporar la picada; cocer 5 minutos para ligar.\n6. Añadir rape y merluza y cocer suavemente unos 6–9 minutos, según grosor; incorporar gambas y cocinar hasta que todo el pescado y marisco quede completamente hecho (aproximadamente 63 °C en el centro de los pescados como referencia conservadora).\n7. Agregar mejillones y almejas ya abiertos, calentar 1–2 minutos sin sobrecocerlos, comprobar sal y servir.\n\n## Puntos críticos\n\n- La zarzuela reúne varias especies en una salsa con picada y se diferencia del suquet de peix por su combinación de marisco y pescado y su presentación. Los bivalvos no abiertos se desechan; el fumet y el jugo de moluscos se cuelan.\n- Ajustar duración, tamaño de las piezas y líquidos a la materia prima. Mantener la cadena de frío e higiene alimentaria y comprobar la cocción completa de carnes, pescados, mariscos y huevos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una futura prueba |\n|---|---|---|\n| Ingrediente principal demasiado firme | Falta de cocción o tamaño desigual | Igualar porciones y comprobar el interior |\n| Salsa, masa o caldo descompensados | Hidratación excesiva o reducción insuficiente | Ajustar líquido, tiempo y calor progresivamente |\n| Sabor poco equilibrado | Exceso de sal o condimento | Probar y corregir antes del servicio |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carne, pescado, crustáceos, moluscos, huevos o lácteos necesitan manipulación higiénica y cadena de frío. Recalentar completamente las raciones que deban servirse calientes; no mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Suquet de peix catalán](./suquet_de_peix_catalan_con_patatas_y_picada.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar las cantidades, tiempos, producto utilizado, resultado y valoración reales. Esta formulación no sustituye preparaciones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "80",
+      "min": "65",
+      "phase": "declared_total",
+      "raw": "65–80 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/zarzuela_catalana_de_pescado_y_marisco.html",
+  "id": "REC-516",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rape limpio en medallones, de origen autorizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de rape limpio en medallones, de origen autorizado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de rape limpio en medallones, de origen autorizado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "merluza en trozos sin espinas visibles",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de merluza en trozos sin espinas visibles",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de merluza en trozos sin espinas visibles",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mejillones vivos depurados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de mejillones vivos depurados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de mejillones vivos depurados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almejas vivas depuradas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almejas vivas depuradas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almejas vivas depuradas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "gambas crudas enteras o peladas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de gambas crudas enteras o peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de gambas crudas enteras o peladas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "230",
+        "min": "230",
+        "raw": "230 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "230 g de tomate rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cebolla",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado caliente y colado",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "500",
+        "raw": "500–650 ml de fumet de pescado caliente y colado",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–650 ml de fumet de pescado caliente y colado",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras tostadas",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de almendras tostadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de almendras tostadas",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada de pan tostado de 25 g",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada de pan tostado de 25 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada de pan tostado de 25 g",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "4 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil y sal",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil y sal",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "06_Pescados_y_Mariscos/zarzuela_catalana_de_pescado_y_marisco.md",
+  "source_sha256": "fef200c7b05dbf7d0268bff9eac543e9674445bb2d32e1a5c9addfe74025a03a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "Mantener pescado y marisco refrigerados. Comprobar procedencia de bivalvos; descartar piezas rotas y las que no cierren al tocarlas estando vivas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "Limpiar mejillones y almejas según corresponda; abrirlos por separado con calor, retirar los que no se abran y colar bien el líquido de cocción para eliminar posibles arenas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo picados en cazuela amplia con aceite durante 8–10 minutos. Añadir tomate y reducir 10–12 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 4,
+      "text": "Verter el vino y reducir brevemente, sin asumir que desaparece todo su alcohol. Añadir fumet caliente y algo del jugo colado de bivalvos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 5,
+      "text": "Majar almendras tostadas, pan y perejil con un poco de caldo e incorporar la picada; cocer 5 minutos para ligar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 6,
+      "text": "Añadir rape y merluza y cocer suavemente unos 6–9 minutos, según grosor; incorporar gambas y cocinar hasta que todo el pescado y marisco quede completamente hecho (aproximadamente 63 °C en el centro de los pescados como referencia conservadora)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 57
+      },
+      "source_number": 7,
+      "text": "Agregar mejillones y almejas ya abiertos, calentar 1–2 minutos sin sobrecocerlos, comprobar sal y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Zarzuela catalana de pescado y marisco",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

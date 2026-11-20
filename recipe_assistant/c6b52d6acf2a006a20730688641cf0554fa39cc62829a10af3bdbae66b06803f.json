@@ -1,0 +1,328 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Pastel de berenjena y patata con tomate\n\n## Descripción\n\nPreparación de referencia basada en **precocción de hortalizas, montaje por capas y gratinado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica | Precocción de hortalizas, montaje por capas y gratinado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de berenjena en rodajas de 1 cm\n- 500 g de patata pelada en rodajas finas de 4–5 mm\n- 400 g de tomate triturado\n- 140 g de cebolla picada\n- 2 dientes de ajo\n- 120 g de mozzarella escurrida\n- 35 g de queso curado rallado\n- 3 cucharadas de aceite de oliva\n- 1 cucharadita de orégano\n- sal y pimienta\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Precalentar horno a 200 °C. Repartir la berenjena en bandeja, pincelar con una cucharada de aceite y asar 18–22 minutos, girando a mitad.\n2. Cocer las rodajas de patata en agua con sal unos 7–9 minutos hasta que estén casi tiernas, sin romperse; escurrir muy bien.\n3. Pochar cebolla y ajo con aceite restante, añadir tomate y orégano y reducir 12–15 minutos hasta salsa espesa.\n4. Bajar el horno a 190 °C y montar en fuente alternando salsa, patata y berenjena; repartir mozzarella escurrida entre alguna capa.\n5. Terminar con tomate y queso curado, y hornear 20–25 minutos hasta interior muy caliente y cubierta dorada.\n6. Reposar 10 minutos para asentar las capas antes de servir.\n\n## Puntos críticos\n\n- La berenjena y el tomate deben perder agua antes del montaje; patata precocida y mozzarella escurrida evitan una fuente acuosa y patata dura.\n- El tiempo depende del corte, humedad, bandeja y comportamiento del horno; comprobar el centro y la base antes de terminar.\n- Separar alimentos crudos de los listos para comer, emplear utensilios higiénicos y conservar refrigerados los ingredientes perecederos antes de cocinar.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima elaboración |\n|---|---|---|\n| Base blanda o húmeda | Relleno con agua o exceso de espesor | Escurrir y reducir el relleno; ajustar precocción |\n| Superficie quemada e interior duro | Calor superior elevado o piezas gruesas | Bajar temperatura y precocer cuando proceda |\n| Textura seca | Exceso de horno o relleno insuficiente | Comprobar antes el punto real y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar en recipientes tapados y evitar periodos prolongados a temperatura ambiente. Las preparaciones con quesos frescos o huevo precisan especial cuidado de refrigeración antes y después del horneado.\n\n## Relaciones dentro del SGCC\n\n- [Berenjenas al horno](../04_Verduras/berenjenas_al_horno.md)\n- [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes utilizados, tamaño real del corte o molde, temperatura, duración, textura y valoración. Estas propuestas no sustituyen recetas domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **precocción de hortalizas, montaje por capas y gratinado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/pastel_de_berenjena_y_patata_con_tomate.html",
+  "id": "REC-332",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjena en rodajas de 1 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de berenjena en rodajas de 1 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de berenjena en rodajas de 1 cm",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patata pelada en rodajas finas de 4–5 mm",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de patata pelada en rodajas finas de 4–5 mm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de patata pelada en rodajas finas de 4–5 mm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mozzarella escurrida",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de mozzarella escurrida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de mozzarella escurrida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de queso curado rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de queso curado rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "10_Horno/pastel_de_berenjena_y_patata_con_tomate.md",
+  "source_sha256": "8f6478f6988c3d0275e49b99afac133d23448decd471d3923de1d157b5a3e497",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 200 °C. Repartir la berenjena en bandeja, pincelar con una cucharada de aceite y asar 18–22 minutos, girando a mitad."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cocer las rodajas de patata en agua con sal unos 7–9 minutos hasta que estén casi tiernas, sin romperse; escurrir muy bien."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo con aceite restante, añadir tomate y orégano y reducir 12–15 minutos hasta salsa espesa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Bajar el horno a 190 °C y montar en fuente alternando salsa, patata y berenjena; repartir mozzarella escurrida entre alguna capa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Terminar con tomate y queso curado, y hornear 20–25 minutos hasta interior muy caliente y cubierta dorada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Reposar 10 minutos para asentar las capas antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.html",
+      "label": "Gratinar coberturas sin quemar",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md"
+    }
+  ],
+  "title": "Pastel de berenjena y patata con tomate",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

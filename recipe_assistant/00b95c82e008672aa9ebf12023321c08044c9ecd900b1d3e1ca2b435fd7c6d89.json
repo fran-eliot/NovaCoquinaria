@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 86,
+      "start_line": 14
+    },
+    "text": "\n# Lentejas con arroz y cebolla dorada\n\n## Descripción\n\nPlato inspirado libremente en la combinación levantina de lentejas, arroz y cebolla dorada, con comino y limón.\n\n**Estado de evidencia:** receta propuesta para una futura elaboración; no hay resultado ni valoración doméstica confirmados. Las cantidades son una formulación inicial reproducible, no una reconstrucción de una tanda cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocinado | 35–45 min |\n| Método | Cocción separada y cebolla dorada lenta |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 180 g de lentejas pardinas secas;\n- 120 g de arroz basmati seco;\n- 2 cebollas grandes (300 g) en juliana;\n- 3 cucharadas de aceite de oliva;\n- ½ cucharadita de comino molido;\n- 750 ml de agua para lentejas, ajustables;\n- agua para cocer arroz según su envase;\n- 1 cucharada de zumo de limón;\n- sal y pimienta negra;\n\n**Alérgenos:** No contiene alérgenos principales por sus ingredientes básicos; revisar contaminación cruzada.\n\n## Elaboración\n\n1. Enjuagar las lentejas, eliminar impurezas y cocerlas en agua hasta tiernas, comprobando la variedad; escurrir si sobra líquido.\n2. Lavar y cocer el arroz por separado según envase; reservar tapado para que repose.\n3. Mientras, dorar lentamente cebolla con aceite 20–25 minutos a fuego medio-bajo; remover y añadir cucharaditas de agua si se pega, sin quemarla.\n4. Añadir comino a la cebolla durante los últimos 30 segundos.\n5. Mezclar con cuidado lentejas y arroz calientes; ajustar sal, pimienta y limón.\n6. Servir con la cebolla dorada encima para preservar el contraste de texturas.\n\n## Puntos críticos\n\n- No prolongar la cocción del arroz esperando a que las lentejas se ablanden. Arroz cocido: enfriar y refrigerar sin demora si se prepara con antelación.\n- Las cantidades de líquido y los tiempos dependen de presentación y cocción previa; registrar los utilizados en la prueba.\n- Mantener higiene, separación entre alimentos crudos y listos para consumo y las temperaturas adecuadas.\n\n## Perfil esperado y evaluación pendiente\n\nLa textura y el equilibrio final deberán verificarse mediante una elaboración real. Se propone registrar firmeza de la legumbre, densidad del fondo, intensidad de condimentos y valoración global; este perfil no implica un resultado ya conseguido.\n\n## Diagnóstico\n\n| Situación | Posible causa | Acción futura |\n|---|---|---|\n| Legumbre demasiado rota | Removido vigoroso o calentamiento prolongado | Incorporar más tarde y mover la cazuela con suavidad |\n| Plato demasiado seco | Evaporación o absorción | Añadir caldo o agua en pequeñas dosis |\n| Sabor descompensado | Acidez, sal o especias concentradas | Ajustar progresivamente y anotar cantidades |\n\n## Conservación\n\nEnfriar sin demora los sobrantes en recipientes poco profundos y mantenerlos refrigerados. Seguir las instrucciones de seguridad y consumo de legumbres comerciales, huevos o mariscos cuando correspondan. Evitar periodos prolongados a temperatura ambiente y recalentar por completo los platos que se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati por absorción](../01_Arroces/arroz_basmati_por_absorcion.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Módulo de Legumbres](./README.md)\n\n## Registro de elaboración\n\n**Pendiente de prueba:** registrar ingredientes y gramajes reales, método, tiempos, resultado y posibles mejoras antes de atribuir a la ficha una valoración."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "cooking",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/lentejas_con_arroz_y_cebolla_dorada.html",
+  "id": "REC-0207",
+  "index_sha256": "3718a9423a138b053bbca8e7dcaf9d6c73a68ab26c4e3e9613d2282d711c192e",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lentejas pardinas secas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de lentejas pardinas secas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de lentejas pardinas secas;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz basmati seco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de arroz basmati seco;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de arroz basmati seco;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollas grandes (300 g) en juliana;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebollas grandes (300 g) en juliana;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebollas grandes (300 g) en juliana;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para lentejas, ajustables;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua para lentejas, ajustables;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua para lentejas, ajustables;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para cocer arroz según su envase;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua para cocer arroz según su envase;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua para cocer arroz según su envase;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "765d50784bcceb87303a72ce621090e40893d587",
+  "source_path": "03_Legumbres/lentejas_con_arroz_y_cebolla_dorada.md",
+  "source_sha256": "a0bc068098619815b8fd030319eb1d93e59343f48446daaada49ecc0031c53e4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Enjuagar las lentejas, eliminar impurezas y cocerlas en agua hasta tiernas, comprobando la variedad; escurrir si sobra líquido."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Lavar y cocer el arroz por separado según envase; reservar tapado para que repose."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Mientras, dorar lentamente cebolla con aceite 20–25 minutos a fuego medio-bajo; remover y añadir cucharaditas de agua si se pega, sin quemarla."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Añadir comino a la cebolla durante los últimos 30 segundos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Mezclar con cuidado lentejas y arroz calientes; ajustar sal, pimienta y limón."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Servir con la cebolla dorada encima para preservar el contraste de texturas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Lentejas con arroz y cebolla dorada",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}
