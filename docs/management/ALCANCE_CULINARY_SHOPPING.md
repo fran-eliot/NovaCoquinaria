@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.5
+version: 0.1.6
 estado: borrador
 ultima_revision: 2026-11-19
 ---
@@ -109,3 +109,11 @@ El coordinador `assets/culinary-shopping-pantry-coordinator.mjs` recibe adaptado
 La recuperación de una intención pendiente es deliberadamente conservadora: solo permite completar el registro si existe una entrada exactamente igual a la intención. Nunca crea otra entrada en recuperación, aunque el destino esté ausente. La ausencia no permite distinguir un fallo de escritura de un lote posteriormente consumido, eliminado o perdido tras restauración. Una entrada diferente también bloquea la recuperación. Estos casos requieren revisión manual y mantienen el registro protegido; no se habilita aún resolución destructiva ni reintento de alta. Un estado completed acredita el contraste realizado entonces, no existencias actuales.
 
 Los adaptadores conservan la detección de conflictos por lectura previa. No existe transacción atómica entre claves ni garantía frente a escrituras concurrentes, restauraciones independientes o modificaciones entre comprobaciones. El coordinador no adquiere bloqueo global y su uso exige confirmación individual. Las ocho pruebas Node cubren orden de escrituras, cancelación, fallo de intención, fallo de Pantry, fallo de finalización recuperable, colisión, destino modificado/ausente y datos desactualizados o inválidos. La interfaz y la publicación de este recorrido permanecen deshabilitadas hasta completar su revisión, controles de concurrencia y pruebas de navegador. No se modifica la release.
+
+## Unidad D3 — Revisión y transferencia desde la interfaz
+
+Shopping ofrece la incorporación individual de artículos comprados sin transferencia. Un diálogo revisa nombre, cantidad, unidad, categoría, notas, ubicación obligatoria y fecha opcional con su tipo. No se sugiere una ubicación ni una caducidad; el usuario confirma la creación de un lote independiente. El coordinador registra la intención antes de escribir en Pantry. Los artículos pendientes muestran los datos de destino y permiten exclusivamente verificar el lote existente, sin volver a darlo de alta. Tras un error la interfaz relee Shopping y comunica el estado sin confirmar éxito ni repetir la escritura. Los registros protegidos siguen sin admitir edición, desmarcado ni eliminación.
+
+La interfaz emplea Web Locks con nombre novacoquinaria.shopping-pantry-transfer y adquisición exclusiva no bloqueante para serializar transferencias entre pestañas que ejecutan este protocolo. Si no existe la API, se deshabilita el recorrido; si el bloqueo está ocupado, se rechaza la operación. Durante la operación se impiden nuevos cambios en la misma interfaz y se contrasta la fotografía revisada. Las escrituras ordinarias de Pantry y Shopping no adquieren este bloqueo; los adaptadores conservan su contraste optimista. No se acredita atomicidad ni eliminación de toda carrera entre escrituras ordinarias, otras versiones de la aplicación o restauraciones independientes.
+
+Se incorporan enlaces recíprocos entre Shopping y Pantry y se incluye el coordinador en el versionado de recursos. Se amplía el recorrido Chromium con cancelación, revisión de ubicación y fecha, alta y visualización en Pantry, protección del historial, fallo inducido al finalizar y recuperación tras recarga sin duplicar el lote, y fallo inducido al escribir Pantry con destino ausente y rechazo de recreación. Es evidencia dirigida, no una prueba exhaustiva de concurrencia ni accesibilidad. La comprobación real en el portal público de Pantry sigue pendiente, así como la aceptación final de Shopping y los resultados de este incremento. No se modifica la release v1.6.0.
