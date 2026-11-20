@@ -1,8 +1,13 @@
 import {addList,renameList,removeList,addItem,editItem,removeItem,markPurchased,filterItems} from "./culinary-shopping-model.mjs";
 import {createShoppingPersistence,MAX_JSON_LENGTH} from "./culinary-shopping-persistence.mjs";
 import {takeRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
+import {createPantryPersistence} from "./culinary-pantry-persistence.mjs";
+import {transferPurchased,recoverTransfer} from "./culinary-shopping-pantry-coordinator.mjs";
+import {validateEntry} from "./culinary-pantry-model.mjs";
 const $=id=>document.getElementById(id);
 const store=createShoppingPersistence(()=>window.localStorage);
+const pantry=createPantryPersistence(()=>window.localStorage);
+let transferReview=null,transferBusy=false;
 let recipeReview=null,reviewRows=[];
 let data=null,ready=false,active=null,editing=null,preview=null,generation=0;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -11,6 +16,7 @@ const list=()=>data?.lists.find(l=>l.id===active);
 const optional=id=>$(id).value.trim()||null;
 function newId(){if(globalThis.crypto?.randomUUID)return crypto.randomUUID();throw Error("Se requiere HTTPS o localhost para crear identificadores.");}
 function controls(){
+  $("reload").disabled=transferBusy;
   $("list-controls").disabled=!ready;$("item-controls").disabled=!ready||!list();
   $("rename-controls").disabled=!ready||!list();$("import-file").disabled=!ready;
   $("import-confirm").disabled=!ready||!preview;$("import-cancel").disabled=!preview;
@@ -54,9 +60,67 @@ function card(item){
   label.append(check,el("span","Comprado: "+item.name));article.append(label);
   if(locked)article.append(el("p",item.transfer.state==="pending"?"Transferencia pendiente de revisión. Registro protegido.":"Transferencia registrada. No acredita existencias actuales. Registro protegido.","help"));
   const actions=el("div",undefined,"actions");
+  if(item.purchased&&!locked)actions.append(action("Incorporar a despensa",()=>openTransfer(item),!ready||!navigator.locks));
+  if(item.transfer?.state==="pending"){
+    const t=item.transfer.entry,d=el("details");d.append(el("summary","Destino revisado"),el("p",t.name+" · "+(t.quantity===null?"Cantidad no declarada":t.quantity+" "+t.unit)),el("p","Ubicación: "+t.location+" · "+(t.date??"Sin fecha")),el("p","ID: "+t.id,"meta"));
+    if(t.category)d.append(el("p","Categoría: "+t.category));
+    if(t.notes)d.append(el("p",t.notes,"notes"));
+    if(t.date_type)d.append(el("p","Tipo de fecha: "+t.date_type));
+    article.append(d);
+    actions.append(action("Verificar transferencia pendiente",()=>recover(item),!ready||!navigator.locks));
+  }
   actions.append(action("Editar",()=>startEdit(item),!ready||locked),action("Eliminar",()=>{if(!ready||!confirm("¿Eliminar "+item.name+" de la lista?"))return;try{if(save(removeItem(data,active,item.id),"Artículo eliminado.")){if(editing===item.id)resetEditor();render();}}catch(e){error(e);}},!ready||locked));
   article.append(actions);return article;
 }
+function openTransfer(item){
+  if(!ready||transferBusy||!navigator.locks)return;
+  transferReview={listId:active,itemId:item.id,expected:data};
+  $("transfer-form").reset();
+  for(const k of ["name","quantity","unit","category","notes"])$("transfer-"+k).value=item[k]??"";
+  $("transfer-feedback").textContent="";
+  $("transfer-dialog").showModal();
+  $("transfer-location").focus();
+}
+function readTransfer(){
+  return validateEntry({id:"shopping-"+transferReview.itemId,name:$("transfer-name").value.trim(),
+    quantity:optional("transfer-quantity")?.replace(",",".")??null,unit:optional("transfer-unit"),
+    category:optional("transfer-category"),notes:optional("transfer-notes"),location:$("transfer-location").value,
+    date_type:optional("transfer-date-type"),date:optional("transfer-date")});
+}
+async function executeTransfer(operation,args){
+  if(!ready||transferBusy)return;
+  if(!navigator.locks){announce("Este navegador no permite coordinar transferencias entre pestañas.");return;}
+  transferBusy=true;ready=false;render();
+  try{
+    const result=await navigator.locks.request("novacoquinaria.shopping-pantry-transfer",{ifAvailable:true},lock=>{
+      if(!lock)throw Error("Hay otra transferencia en curso. Revisa el estado antes de continuar.");
+      return operation({shopping:store,pantry,...args,confirmed:true});
+    });
+    data=result.data;ready=true;announce("Transferencia registrada en la despensa.");
+  }catch(e){
+    // Releer el estado persistido, incluso cuando el segundo guardado falló.
+    try{data=store.load().data;ready=true;}
+    catch{data=store.snapshot();ready=false;}
+    announce("No se completó la transferencia: "+(e instanceof Error?e.message:"Error desconocido.")+" Revisa el estado; no se ha repetido ninguna escritura.");
+  }finally{transferBusy=false;render();}
+}
+function recover(item){
+  if(!ready||transferBusy)return;
+  if(!confirm("¿Verificar el lote registrado? No se creará ningún alimento nuevo."))return;
+  void executeTransfer(recoverTransfer,{expected:data,listId:active,itemId:item.id});
+}
+$("transfer-form").addEventListener("submit",event=>{
+  event.preventDefault();
+  if(!transferReview||!ready||transferBusy)return;
+  try{
+    const entry=readTransfer(),review=transferReview;
+    if(!confirm("¿Crear este lote en la despensa y proteger el registro de compra?"))return;
+    $("transfer-dialog").close();transferReview=null;
+    void executeTransfer(transferPurchased,{...review,entry});
+  }catch(e){$("transfer-feedback").textContent=e.message;}
+});
+$("transfer-cancel").addEventListener("click",()=>{$("transfer-dialog").close();});
+$("transfer-dialog").addEventListener("close",()=>{transferReview=null;});
 function renderItems(){
   const current=list();if(!current)return;
   const category=$("filter-category"),previous=category.value;category.replaceChildren(new Option("Todas",""));$("categories").replaceChildren();
@@ -133,6 +197,6 @@ $("import-file").addEventListener("change",async()=>{const file=$("import-file")
 });
 $("import-cancel").addEventListener("click",()=>{clearImport();announce("Importación cancelada.");});
 $("import-confirm").addEventListener("click",()=>{if(!ready||!preview||!confirm("¿Sustituir todas las listas por la copia seleccionada?"))return;try{data=store.confirmImport(preview,true).data;clearImport();active=null;resetEditor();$("filters").reset();render();announce("Listas importadas.");}catch(e){error(e);}});
-window.addEventListener("storage",event=>{if(store.observeStorageEvent(event)){ready=false;clearImport();render();announce("Las listas cambiaron en otra pestaña. Recarga antes de guardar.");}});
+window.addEventListener("storage",event=>{if(store.observeStorageEvent(event)){ready=false;if($("transfer-dialog").open)$("transfer-dialog").close();clearImport();render();announce("Las listas cambiaron en otra pestaña. Recarga antes de guardar.");}});
 load();
 try{recipeReview=takeRecipeSelection(()=>window.sessionStorage);renderRecipeReview();}catch(e){announce("No se pudo recuperar la selección de receta.");}
