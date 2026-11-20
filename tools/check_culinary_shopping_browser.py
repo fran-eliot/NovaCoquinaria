@@ -87,13 +87,96 @@ def exercise(site):
                 item=next(l for l in document["lists"] if l["name"]=="Recetas")["items"][0]
                 assert item["provenance"]["recipe_id"]=="REC-0017" and item["quantity"] is None
                 assert page.evaluate("(key)=>localStorage.getItem(key)",PANTRY) is None
+                # Un artículo comprado no se incorpora hasta la revisión del destino.
+                page.locator("#lists button").filter(has_text="Semanal").click()
+                card=page.locator("#items article").filter(has_text="Arroz")
+                card.get_by_role("button",name="Incorporar a despensa").click()
+                expect(page.locator("#transfer-dialog")).to_be_visible()
+                expect(page.locator("#transfer-location")).to_have_value("")
+                page.locator("#transfer-cancel").click()
+                assert page.evaluate("(key)=>localStorage.getItem(key)",PANTRY) is None
+                card.get_by_role("button",name="Incorporar a despensa").click()
+                page.locator("#transfer-location").select_option("pantry")
+                page.locator("#transfer-date-type").select_option("best_before")
+                page.locator("#transfer-date").fill("2030-01-15")
+                page.once("dialog",lambda d:d.accept())
+                page.locator("#transfer-confirm").click()
+                expect(page.locator("#status")).to_have_text("Transferencia registrada en la despensa.")
+                expect(card.get_by_role("checkbox")).to_be_disabled()
+                expect(card.get_by_role("button",name="Incorporar a despensa")).to_have_count(0)
+                document=page.evaluate("(key)=>JSON.parse(localStorage.getItem(key))",KEY)
+                rice=document["lists"][0]["items"][0]
+                assert rice["transfer"]["state"]=="completed"
+                entries=page.evaluate("(key)=>JSON.parse(localStorage.getItem(key)).entries",PANTRY)
+                assert entries==[rice["transfer"]["entry"]]
+                assert entries[0]["date"]=="2030-01-15" and entries[0]["quantity"]=="1.50"
+                page.goto(base+"culinary-pantry.html")
+                expect(page.locator("#inventory article")).to_have_count(1)
+                expect(page.locator("#inventory")).to_contain_text("Arroz")
+                page.goto(base+"culinary-shopping.html")
+                expect(page.locator("#items article")).to_have_count(1)
+                expect(page.locator("#delete-list")).to_be_disabled()
+
+                # Interrumpir únicamente la escritura final de Shopping.
+                page.locator("#item-name").fill("Leche")
+                page.locator("#save-item").click()
+                milk=page.locator("#items article").filter(has_text="Leche")
+                milk.get_by_role("checkbox").check()
+                page.evaluate("""key=>{
+                    const original=Storage.prototype.setItem;
+                    Storage.prototype.setItem=function(k,v){
+                        if(k===key&&JSON.parse(v).lists.some(l=>l.items.some(i=>i.name==="Leche"&&i.transfer?.state==="completed")))
+                            throw Error("Fallo de finalización simulado");
+                        return original.call(this,k,v);
+                    };
+                }""",KEY)
+                milk.get_by_role("button",name="Incorporar a despensa").click()
+                page.locator("#transfer-location").select_option("fridge")
+                page.once("dialog",lambda d:d.accept())
+                page.locator("#transfer-confirm").click()
+                expect(page.locator("#status")).to_contain_text("No se completó la transferencia")
+                expect(milk).to_contain_text("Transferencia pendiente")
+                assert page.evaluate("(key)=>JSON.parse(localStorage.getItem(key)).entries.length",PANTRY)==2
+                page.reload()
+                milk=page.locator("#items article").filter(has_text="Leche")
+                expect(milk.get_by_role("button",name="Verificar transferencia pendiente")).to_be_enabled()
+                page.once("dialog",lambda d:d.accept())
+                milk.get_by_role("button",name="Verificar transferencia pendiente").click()
+                expect(page.locator("#status")).to_have_text("Transferencia registrada en la despensa.")
+                assert page.evaluate("(key)=>JSON.parse(localStorage.getItem(key)).entries.length",PANTRY)==2
+                expect(milk.get_by_role("button",name="Verificar transferencia pendiente")).to_have_count(0)
+
+                # Fallo previo al alta: la recuperación no puede volver a crear el lote.
+                page.locator("#item-name").fill("Limón")
+                page.locator("#save-item").click()
+                lemon=page.locator("#items article").filter(has_text="Limón")
+                lemon.get_by_role("checkbox").check()
+                page.evaluate("""key=>{
+                    const original=Storage.prototype.setItem;
+                    Storage.prototype.setItem=function(k,v){
+                        if(k===key)throw Error("Fallo de despensa simulado");
+                        return original.call(this,k,v);
+                    };
+                }""",PANTRY)
+                lemon.get_by_role("button",name="Incorporar a despensa").click()
+                page.locator("#transfer-location").select_option("fridge")
+                page.once("dialog",lambda d:d.accept())
+                page.locator("#transfer-confirm").click()
+                expect(lemon).to_contain_text("Transferencia pendiente")
+                page.reload()
+                lemon=page.locator("#items article").filter(has_text="Limón")
+                page.once("dialog",lambda d:d.accept())
+                lemon.get_by_role("button",name="Verificar transferencia pendiente").click()
+                expect(page.locator("#status")).to_contain_text("No se acredita el destino exacto")
+                assert page.evaluate("(key)=>JSON.parse(localStorage.getItem(key)).entries.length",PANTRY)==2
+                expect(lemon).to_contain_text("Transferencia pendiente")
                 assert not errors, errors
                 browser.close()
         finally:
             server.shutdown()
             server.server_close()
             thread.join()
-    return {"passed":True,"browser":"Chromium","lists":True,"backup":True,"recipe_selection":True,"pantry_unchanged":True}
+    return {"passed":True,"browser":"Chromium","lists":True,"backup":True,"recipe_selection":True,"pantry_unchanged_before_transfer":True,"pantry_transfer":True,"partial_recovery":True,"no_repeat_when_absent":True}
 
 
 if __name__=="__main__":
