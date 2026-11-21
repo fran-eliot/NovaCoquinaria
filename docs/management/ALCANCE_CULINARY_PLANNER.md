@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PLANNER-2026
 titulo: Alcance de entrega de Culinary Planner
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: borrador
 ultima_revision: 2026-11-21
 ---
@@ -133,3 +133,13 @@ Los formularios permiten añadir platos libres, modificar fecha, momento, títul
 La UI emplea el adaptador de persistencia de la unidad B: guardado y recarga locales, exportación JSON, importación con recuento y confirmación, manejo visible de conflictos y de errores, bloqueo de cambios tras modificaciones externas observadas. Los textos personales se insertan mediante `textContent`; no se escriben datos en Shopping ni Pantry. Los controles utilizan etiquetas nativas, regiones de estado y foco visible. Aún no se acredita una revisión integral de accesibilidad.
 
 La plantilla y los recursos se incorporan como fuentes, pero **no al build público** en esta unidad. Knowledge audit comprobará la sintaxis del módulo; las pruebas de recorrido Chromium y publicación corresponden a la unidad D. El estado de Planner 0.1.0 permanece en implementación y la release v1.6.0 no cambia.
+
+## Unidad D — Integración con el catálogo y publicación
+
+La incorporación de recetas al plan es explícita: Explorer ofrece un botón por receta y Recipe Assistant una acción para abrir Planner. El identificador seleccionado se transporta una sola vez mediante `sessionStorage`. Planner recupera el catálogo vigente, busca una coincidencia única, valida la ruta de la ficha y obtiene de él el título, el commit y la ubicación documental antes de preparar una entrada editable. La selección no escribe el plan hasta que el usuario revisa fecha, momento de comida y título y confirma el alta. La cancelación de preparación no incorpora entradas, y una selección inválida o desaparecida no se vincula automáticamente con otras recetas.
+
+Las entradas históricas con origen de receta solo muestran enlaces a la ficha y al asistente si el ID, el commit y la ruta documental coinciden exactamente con el catálogo validado en esa sesión. Si no se puede comprobar la vigencia, se muestra una advertencia y no se fabrican destinos de navegación. La edición de un registro con origen de receta preserva su procedencia; para cambiarla hay que crear otra entrada. Las entradas libres nunca se transforman en recetas por coincidencia de título.
+
+El build de MkDocs incluye la plantilla Planner, su CSS, el modelo, el adaptador de persistencia, la interfaz y el módulo de transferencia con nombres versionados de forma conjunta. La portada enlaza a Planner y Explorer ofrece acceso. Las pruebas de sitio comprueban la presencia y el versionado de los cinco módulos, junto con los recursos existentes. Los recorridos Chromium de Planner cubren alta, edición, filtros, calendario, copia JSON, selección desde Explorer/Assistant, bloqueo de referencia caducada y aislamiento de Shopping/Pantry. Se mantiene la regresión de las otras cuatro aplicaciones.
+
+Este incremento no calcula faltantes, no genera listas ni consume existencias, no usa backend ni sincronización y no promete validación nutricional. El CI y el despliegue deberán constatarse antes del cierre técnico: la presencia de la plantilla no equivale por sí misma a aceptación pública. La última release aprobada continúa siendo v1.6.0.
