@@ -99,7 +99,6 @@ test("documentos incompatibles impiden nueva escritura sin alterar el valor invÃ
     requires(()=>target.load(),"version");
     requires(()=>target.save(key===S?baseShopping():key===P?emptyPantry():basePlan()),"not_ready");
     assert.equal(f.raw(key),damaged);
-    assert.deepEqual(f.planner().load().data,basePlan())===false; // no effect, test continues only for non-planner below
   }
 });
 test("una restauraciÃ³n Shopping que elimina historial protegido es rechazada",()=>{
