@@ -90,6 +90,8 @@ jobs:
         run: node --test tools/test_culinary_shopping_persistence.mjs
       - name: Check Culinary Planner UI syntax
         run: node --check assets/culinary-planner-ui.mjs
+      - name: Test Culinary Planner recipe selection
+        run: node --test tools/test_culinary_planner_recipe_transfer.mjs
       - name: Test Culinary Planner persistence
         run: node --test tools/test_culinary_planner_persistence.mjs
       - name: Test Culinary Planner model
