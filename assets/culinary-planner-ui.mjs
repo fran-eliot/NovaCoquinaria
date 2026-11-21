@@ -1,5 +1,6 @@
 import {addPlanEntry,editPlanEntry,removePlanEntry,filterPlanEntries,
   weekDates,weekStart,shiftCivilDate,validCivilDate} from "./culinary-planner-model.mjs";
+import {consumeSelection,selectCatalogRecord} from "./culinary-planner-recipe-transfer.mjs";
 import {createPlannerPersistence,MAX_JSON_LENGTH} from "./culinary-planner-persistence.mjs";
 
 const $=id=>document.getElementById(id);
@@ -12,12 +13,14 @@ const civilToday=()=>{
   const d=new Date();return String(d.getFullYear()).padStart(4,"0")+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 };
 let data=null,ready=false,chosen=civilToday(),editing=null,preview=null,request=0;
+let catalog=null,selectedRecipe=null;
 function weekFor(date){return weekDates(date);}
 function button(text,callback,disabled=false){
   const b=node("button",text,"secondary");b.type="button";b.disabled=disabled;b.addEventListener("click",callback);return b;
 }
 function controls(){
-  $("entry-controls").disabled=!ready;$("import-file").disabled=!ready;
+  $("entry-controls").disabled=!ready;
+  $("recipe-clear").disabled=!ready||editing!==null||selectedRecipe===null;$("import-file").disabled=!ready;
   $("import-confirm").disabled=!ready||preview===null;
   $("import-cancel").disabled=preview===null;
   $("export").disabled=store.snapshot()===null;
@@ -33,7 +36,7 @@ function cancelPreview(){
   ++request;preview=null;$("import-file").value="";$("import-preview").textContent="";controls();
 }
 function resetEditor(){
-  editing=null;$("entry-form").reset();$("editor-heading").textContent="Añadir un plato libre";
+  editing=null;selectedRecipe=null;$("entry-source").textContent="Plato libre: sin receta asociada.";$("entry-form").reset();$("editor-heading").textContent="Añadir un plato libre";
   $("entry-save").textContent="Añadir al plan";$("entry-cancel").hidden=true;
   $("entry-date").value=chosen;
 }
@@ -86,12 +89,25 @@ function startEdit(entry){
   $("entry-save").textContent="Guardar cambios";$("entry-cancel").hidden=false;
   $("entry-date").value=entry.date;$("entry-meal").value=entry.meal;
   $("entry-title").value=entry.title;$("entry-notes").value=entry.notes??"";
+  $("entry-source").textContent=entry.source.type==="recipe"?
+    "Receta vinculada: "+entry.source.recipe_id+" (procedencia histórica, no editable).":"Plato libre.";
   $("entry-title").focus();
 }
 function drawEntry(entry){
   const article=node("article",undefined,"plan-entry");
   article.append(node("h4",entry.title),node("p",entry.source.type==="recipe"?"Receta documentada (referencia pendiente de verificar)":"Plato libre","meta"));
   if(entry.notes!==null)article.append(node("p",entry.notes,"plan-notes"));
+  if(entry.source.type==="recipe"){
+    let record=null;
+    try{record=selectCatalogRecord(catalog,entry.source.recipe_id);}catch{}
+    const verified=record!==null&&record.source_commit===entry.source.source_commit&&
+      record.source_path===entry.source.source_path;
+    if(verified){
+      const original=node("a","Consultar ficha original");original.href=record.href;
+      const assistant=node("a","Abrir asistente");assistant.href="recipe-assistant.html?"+new URLSearchParams({id:record.id});
+      const nav=node("div",undefined,"actions");nav.append(original,assistant);article.append(nav);
+    }else article.append(node("p","Referencia de receta no verificada. Vuelve al explorador para comprobar su vigencia.","help"));
+  }
   const actions=node("div",undefined,"actions");
   actions.append(button("Editar",()=>startEdit(entry),!ready));
   actions.append(button("Eliminar",()=>{
@@ -128,10 +144,17 @@ $("entry-form").addEventListener("submit",event=>{
     if(!validCivilDate(date))throw Error("Introduce una fecha civil válida.");
     weekFor(date);
     const entry={id:original?.id??crypto.randomUUID(),date,meal:$("entry-meal").value,title:$("entry-title").value.trim(),
-      notes:$("entry-notes").value.trim()||null,source:original?.source??{type:"free_text"}};
+      notes:$("entry-notes").value.trim()||null,source:original?.source??
+       (selectedRecipe?{type:"recipe",recipe_id:selectedRecipe.id,
+          source_commit:selectedRecipe.source_commit,source_path:selectedRecipe.source_path}:{type:"free_text"})};
     const next=original?editPlanEntry(data,original.id,entry):addPlanEntry(data,entry);
     if(save(next,original?"Comida actualizada.":"Comida añadida.")){chosen=date;resetEditor();render();$("entry-title").focus();}
   }catch(error){message(error.message);}
+});
+$("recipe-clear").addEventListener("click",()=>{
+  if(editing!==null||!selectedRecipe)return;
+  selectedRecipe=null;$("entry-source").textContent="Plato libre: sin receta asociada.";
+  $("entry-title").value="";$("entry-title").focus();controls();
 });
 $("entry-cancel").addEventListener("click",()=>{resetEditor();$("entry-title").focus();});
 $("filter-form").addEventListener("input",renderDay);
@@ -144,6 +167,32 @@ $("day-next").addEventListener("click",()=>changeDay(1));
 $("week-today").addEventListener("click",()=>{try{selectDay(civilToday());}catch(e){message(e.message);}});
 $("reload").addEventListener("click",()=>{
   if(editing!==null&&!confirm("¿Descartar la edición actual y recargar?"))return;load();
+async function initCatalog(){
+  try{
+    const response=await fetch(new URL("../culinary_explorer.json",import.meta.url),{cache:"no-cache"});
+    if(!response.ok)throw Error("Catálogo no disponible.");
+    const value=await response.json();
+    if(!Array.isArray(value.recipes)||typeof value.source_commit!=="string"||
+      !/^[a-f0-9]{40}$/.test(value.source_commit))throw Error("Catálogo incompatible.");
+    catalog=value;
+    const selection=consumeSelection(()=>window.sessionStorage);
+    if(selection){
+      const record=selectCatalogRecord(catalog,selection.recipe_id);
+      if(!ready)throw Error("El plan está bloqueado. Recarga después de recuperar el almacenamiento.");
+      selectedRecipe=record;
+      $("entry-title").value=record.title;
+      $("entry-source").textContent="Receta seleccionada: "+record.id+" · "+record.title+
+        ". Revisa la fecha y confirma para incorporarla.";
+      $("entry-title").focus();controls();message("Receta verificada. Revisa y confirma la incorporación al plan.");
+    }
+    render();
+  }catch(error){
+    $("catalog-status").textContent=error.message+
+      " Los platos libres siguen disponibles; las referencias no verificadas no tendrán enlace.";
+    render();
+  }
+}
+void initCatalog();
 });
 $("export").addEventListener("click",()=>{
   try{
