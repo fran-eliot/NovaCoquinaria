@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PLANNER-2026
 titulo: Alcance de entrega de Culinary Planner
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: borrador
 ultima_revision: 2026-11-21
 ---
@@ -123,3 +123,13 @@ Las escrituras comparan el contenido actual con la línea base cargada y rechaza
 La exportación produce JSON validado y conserva notas y referencias históricas. La previsualización de importación muestra el recuento de entradas y vincula la confirmación a esa previsualización concreta del adaptador. Cancelar no escribe. La sustitución, solo tras confirmación explícita y contraste con el almacenamiento vigente, permite reemplazar el plan completo; no modifica Pantry ni Shopping, ni agrega entradas automáticamente. No se añade sincronización, recuperación de borrados ni almacenamiento remoto.
 
 Once pruebas Node cubren aislamiento de claves, recarga, versiones, fallos de acceso, lectura y escritura, cuota, conflictos entre pestañas, previsualización, cancelación, importación y copias de referencias documentales. Knowledge audit ejecuta las pruebas. Quedan pendientes la interfaz, recorridos Chromium y publicación; no se modifica la release v1.6.0.
+
+## Unidad C — Interfaz semanal y edición manual
+
+La plantilla `tools/templates/culinary-planner.html` y los recursos `assets/culinary-planner-ui.mjs` y `assets/culinary-planner.css` introducen una aplicación estática adaptable al móvil con vista semanal desde lunes, selección de día, navegación de semanas y días, y tarjetas por momento de comida. Cada fecha admite varias entradas y conserva su orden declarado. La selección de fecha y los desplazamientos usan el modelo civil sin conversión de día a UTC. La fecha del sistema se lee exclusivamente para determinar el día actual en el navegador, no para interpretar las entradas almacenadas.
+
+Los formularios permiten añadir platos libres, modificar fecha, momento, título y notas, o eliminar entradas mediante confirmación. Si existe una referencia a receta en una copia importada, su procedencia permanece inalterada durante la edición y se etiqueta como pendiente de comprobación; no se construyen enlaces a recetas desde IDs sin contrastar con el catálogo. La selección desde Explorer o Recipe Assistant se reserva para la unidad D. Los filtros por momento y título actúan sobre el día seleccionado y no cambian el plan.
+
+La UI emplea el adaptador de persistencia de la unidad B: guardado y recarga locales, exportación JSON, importación con recuento y confirmación, manejo visible de conflictos y de errores, bloqueo de cambios tras modificaciones externas observadas. Los textos personales se insertan mediante `textContent`; no se escriben datos en Shopping ni Pantry. Los controles utilizan etiquetas nativas, regiones de estado y foco visible. Aún no se acredita una revisión integral de accesibilidad.
+
+La plantilla y los recursos se incorporan como fuentes, pero **no al build público** en esta unidad. Knowledge audit comprobará la sintaxis del módulo; las pruebas de recorrido Chromium y publicación corresponden a la unidad D. El estado de Planner 0.1.0 permanece en implementación y la release v1.6.0 no cambia.
