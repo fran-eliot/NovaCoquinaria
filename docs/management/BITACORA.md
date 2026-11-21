@@ -2,7 +2,7 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.7
+version: 2.8
 estado: estable
 ultima_revision: 2026-11-21
 ---
@@ -527,6 +527,14 @@ Culinary Pantry 0.1.0 incorpora por primera vez estado personal persistente al S
 Culinary Shopping 0.1.0 enlaza selección de ingredientes de recetas, listas declaradas y entradas revisadas del inventario personal. El cambio amplía el SGCC desde la consulta y la preparación hacia la organización de compras: cada transición exige una decisión humana, conserva procedencia cuando existe y no equipara texto, cantidad declarada y disponibilidad.
 
 La implementación dirigida y el despliegue de #297 se registran en el [alcance de entrega](./ALCANCE_CULINARY_SHOPPING.md). El carácter local de las aplicaciones y la ausencia de transacciones entre claves obligan a conservar intenciones y detener las recuperaciones inciertas. El uso público no está todavía contrastado por el propietario. La release v1.6.0 no cambia.
+
+---
+
+## 2026-11-21 · Planificación culinaria declarada
+
+El proyecto incorpora un calendario de comidas con fuentes libres y referencias explícitas a recetas del catálogo. Este nuevo uso conecta descubrimiento, preparación, compras e inventario sin asumir que el sistema conoce qué debería comerse, qué ingredientes faltan o qué existencias se consumirán. La experiencia conserva decisiones humanas, planificación local y referencias verificadas en lugar de recomendaciones automáticas.
+
+El cierre de integración #303 cuenta con CI y recorridos Chromium satisfactorios. El despliegue público no estaba confirmado al corte: gh-pages continuaba publicando el commit anterior. Esta diferencia separa el estado técnico del uso público real. No se aprobó nueva release.
 
 ---
 
