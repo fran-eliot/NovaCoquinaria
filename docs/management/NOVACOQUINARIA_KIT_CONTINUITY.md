@@ -11,7 +11,7 @@ ultima_revision: 2026-11-21
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 21 de noviembre de 2026, tras la integración técnica de Culinary Planner (merge #303), con publicación pública aún no verificada.  
+> **Corte de información:** 21 de noviembre de 2026, tras la integración técnica de Culinary Planner (merge #303), con publicación confirmada en gh-pages y uso manual aún pendiente.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -28,7 +28,7 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 |---|---|
 | Rama principal | `main`, consultada el 2026-11-21 después de #297 |
 | Última versión publicada | [`v1.6.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), 2026-11-19 |
-| Fase estratégica | Explotación práctica; Explorer, Recipe Assistant, Pantry y Shopping desplegados; Planner integrado en main y publicación pendiente de confirmar |
+| Fase estratégica | Explotación práctica; Explorer, Recipe Assistant, Pantry y Shopping desplegados; Planner integrado y desplegado; prueba manual pública pendiente |
 | Última PR fusionada | [#303](https://github.com/fran-eliot/NovaCoquinaria/pull/303) |
 | Commit histórico del tag | [`836f02e848299c0a7a7897b22bb83cd13e0c373a`](https://github.com/fran-eliot/NovaCoquinaria/commit/836f02e848299c0a7a7897b22bb83cd13e0c373a) |
 | Commit de main comprobado | `fd3ddc760788dc0a61749c514f964d51a126a527` |
@@ -203,7 +203,7 @@ La [Bitácora](./BITACORA.md) mantiene los hitos que cambian la identidad o tray
 
 **Listas personales desplegadas:** [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPPING.md), listas y artículos, selección explícita desde Assistant, registro de compras y transferencia revisada a Pantry mediante intención persistida y verificación; sin atomicidad entre almacenamientos, prueba pública pendiente.
 
-**Planificador integrado:** [Culinary Planner 0.1.0](./ALCANCE_CULINARY_PLANNER.md), calendario civil semanal, comidas declaradas, referencias verificadas a recetas y copias locales. PR #303 fusionada; publicación en gh-pages aún no acreditada al corte.
+**Planificador integrado:** [Culinary Planner 0.1.0](./ALCANCE_CULINARY_PLANNER.md), calendario civil semanal, comidas declaradas, referencias verificadas a recetas y copias locales. PR #303 fusionada; publicación en gh-pages verificada, uso público manual pendiente.
 
 **Futuras o solo especificadas:** búsqueda sin diacríticos o semántica, ampliación de candidatos de identidad, filtros de tiempos y rendimientos, backend, API, sincronización de despensa, planificación, comparativas de precios y compras automatizadas, Runtime operativo, RAG/GraphRAG y agentes. No confundir una especificación con una función implementada.
 
@@ -296,7 +296,7 @@ Corte #246: 102 pruebas, 590/590 fuentes verificadas, igualdad de bytes, 68 comp
 
 Las PR #299–#303 entregaron el alcance, modelo, persistencia local, interfaz semanal e integración del planificador con Explorer y Recipe Assistant. La PR #303 se fusionó en `fd3ddc760788dc0a61749c514f964d51a126a527`. Los tres workflows de PR terminaron en success: Knowledge integrity, Knowledge audit y Culinary Explorer site. El recorrido Chromium del planificador registró `passed: true`, incluidos calendario, operaciones CRUD, copia JSON, importación explícita de recetas, referencias obsoletas bloqueadas y aislamiento de Shopping/Pantry. El resultado es aceptación técnica dirigida, no validación manual del portal público.
 
-**Despliegue observado:** `gh-pages` en `4a3fcae1537183798777ae6feb077ab2c5e4d97a` todavía indica `Deployed 9ed54f7`; la consulta de la rama no encuentra `culinary-planner.html`. No declarar Planner desplegado hasta comprobar un commit de gh-pages que incluya `fd3ddc7` y la página publicada, seguido de la prueba pública independiente. La última release continúa siendo v1.6.0. No se ha aprobado nueva release, plataforma ni capacidad inteligente.
+**Despliegue observado:** `gh-pages` en `936e5b4f3ae822c5d7bb9d656618ddce4210abf7` indica `Deployed fd3ddc7`; se comprobó la existencia de `culinary-planner.html` en la rama publicada. No hay prueba de uso manual independiente en la URL pública. La última release continúa siendo v1.6.0. No se ha aprobado nueva release, plataforma ni capacidad inteligente.
 
 ## 8. Registro del corte y siguiente actualización
 
@@ -304,12 +304,12 @@ Las PR #299–#303 entregaron el alcance, modelo, persistencia local, interfaz s
 |---|---|
 | Última PR fusionada observada | [#303](https://github.com/fran-eliot/NovaCoquinaria/pull/303) |
 | Commit de main | `fd3ddc760788dc0a61749c514f964d51a126a527` |
-| Últimos aportes | Culinary Planner 0.1.0 integrado en main, CI superado; gh-pages aún anterior al merge #303 |
+| Últimos aportes | Culinary Planner 0.1.0 integrado en main, CI superado; gh-pages desplegado desde el merge #303 |
 | PR abiertas al realizar la consulta | Ninguna |
 | Workflows de PR #303 | Knowledge integrity, Knowledge audit y Culinary Explorer site: success |
 | Última release | v1.6.0 (2026-11-19) |
 | Próximo identificador | REC-0592, candidato sujeto a verificar |
-| Siguiente prioridad | Verificar despliegue de Planner, comprobar recorrido público y revisar la siguiente decisión estratégica |
+| Siguiente prioridad | Comprobar recorrido público de Planner y revisar la siguiente decisión estratégica |
 | Controles pendientes | Pruebas públicas de consultas y accesibilidad exhaustiva; Contraste individual de los JSON, precisión/exhaustividad de extracción, revisión práctica, duplicidades conceptuales y working tree local |
 
 Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o recuentos como si fueran dinámicos.
