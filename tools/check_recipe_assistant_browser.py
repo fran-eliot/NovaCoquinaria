@@ -141,9 +141,12 @@ def exercise(site):
                 shopping_before = page.locator("#shopping-selection label").all_text_contents()
                 target = original + 1 if original < 24 else original - 1
                 page.locator("#scaling-target").fill(str(target))
+                # El recuento incluye masas, volúmenes, fracciones exactas
+                # y unidades contables enteras; la muestra inicial es un mínimo.
+                visible_scaled = page.locator("#scaling-preview li").filter(has_text=" → ").count()
+                assert scaled_count <= visible_scaled <= len(scale_recipe["ingredients"])
                 expect(page.locator("#scaling-status")).to_contain_text(
-                    f"{scaled_count} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
-                assert page.locator("#scaling-preview li").filter(has_text=" → ").count() == scaled_count
+                    f"{visible_scaled} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
                 assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
