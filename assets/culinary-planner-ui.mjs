@@ -167,32 +167,6 @@ $("day-next").addEventListener("click",()=>changeDay(1));
 $("week-today").addEventListener("click",()=>{try{selectDay(civilToday());}catch(e){message(e.message);}});
 $("reload").addEventListener("click",()=>{
   if(editing!==null&&!confirm("¿Descartar la edición actual y recargar?"))return;load();
-async function initCatalog(){
-  try{
-    const response=await fetch(new URL("../culinary_explorer.json",import.meta.url),{cache:"no-cache"});
-    if(!response.ok)throw Error("Catálogo no disponible.");
-    const value=await response.json();
-    if(!Array.isArray(value.recipes)||typeof value.source_commit!=="string"||
-      !/^[a-f0-9]{40}$/.test(value.source_commit))throw Error("Catálogo incompatible.");
-    catalog=value;
-    const selection=consumeSelection(()=>window.sessionStorage);
-    if(selection){
-      const record=selectCatalogRecord(catalog,selection.recipe_id);
-      if(!ready)throw Error("El plan está bloqueado. Recarga después de recuperar el almacenamiento.");
-      selectedRecipe=record;
-      $("entry-title").value=record.title;
-      $("entry-source").textContent="Receta seleccionada: "+record.id+" · "+record.title+
-        ". Revisa la fecha y confirma para incorporarla.";
-      $("entry-title").focus();controls();message("Receta verificada. Revisa y confirma la incorporación al plan.");
-    }
-    render();
-  }catch(error){
-    $("catalog-status").textContent=error.message+
-      " Los platos libres siguen disponibles; las referencias no verificadas no tendrán enlace.";
-    render();
-  }
-}
-void initCatalog();
 });
 $("export").addEventListener("click",()=>{
   try{
@@ -230,3 +204,29 @@ window.addEventListener("storage",event=>{
   }
 });
 load();
+async function initCatalog(){
+  try{
+    const response=await fetch(new URL("../culinary_explorer.json",import.meta.url),{cache:"no-cache"});
+    if(!response.ok)throw Error("Catálogo no disponible.");
+    const value=await response.json();
+    if(!Array.isArray(value.recipes)||typeof value.source_commit!=="string"||
+      !/^[a-f0-9]{40}$/.test(value.source_commit))throw Error("Catálogo incompatible.");
+    catalog=value;
+    const selection=consumeSelection(()=>window.sessionStorage);
+    if(selection){
+      const record=selectCatalogRecord(catalog,selection.recipe_id);
+      if(!ready)throw Error("El plan está bloqueado. Recarga después de recuperar el almacenamiento.");
+      selectedRecipe=record;
+      $("entry-title").value=record.title;
+      $("entry-source").textContent="Receta seleccionada: "+record.id+" · "+record.title+
+        ". Revisa la fecha y confirma para incorporarla.";
+      $("entry-title").focus();controls();message("Receta verificada. Revisa y confirma la incorporación al plan.");
+    }
+    render();
+  }catch(error){
+    $("catalog-status").textContent=error.message+
+      " Los platos libres siguen disponibles; las referencias no verificadas no tendrán enlace.";
+    render();
+  }
+}
+void initCatalog();
