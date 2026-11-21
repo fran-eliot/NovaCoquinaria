@@ -534,7 +534,7 @@ La implementación dirigida y el despliegue de #297 se registran en el [alcance 
 
 El proyecto incorpora un calendario de comidas con fuentes libres y referencias explícitas a recetas del catálogo. Este nuevo uso conecta descubrimiento, preparación, compras e inventario sin asumir que el sistema conoce qué debería comerse, qué ingredientes faltan o qué existencias se consumirán. La experiencia conserva decisiones humanas, planificación local y referencias verificadas en lugar de recomendaciones automáticas.
 
-El cierre de integración #303 cuenta con CI y recorridos Chromium satisfactorios. El despliegue público no estaba confirmado al corte: gh-pages continuaba publicando el commit anterior. Esta diferencia separa el estado técnico del uso público real. No se aprobó nueva release.
+El cierre de integración #303 cuenta con CI y recorridos Chromium satisfactorios. El despliegue se confirmó en gh-pages desde el commit fd3ddc7, sin prueba manual de uso público en el corte. Esta diferencia separa el estado técnico del uso público real. No se aprobó nueva release.
 
 ---
 
