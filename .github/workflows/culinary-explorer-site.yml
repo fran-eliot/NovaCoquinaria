@@ -47,6 +47,8 @@ jobs:
         run: python tools/check_culinary_planner_browser.py --site site --output /tmp/planner-browser.json
       - name: Check integrated culinary workflow browser journey
         run: python tools/check_culinary_integrated_journey_browser.py --site site --output /tmp/integrated-journey-browser.json
+      - name: Check directed culinary accessibility browser journeys
+        run: python tools/check_culinary_accessibility_browser.py --site site --output /tmp/accessibility-browser.json
       - uses: actions/upload-artifact@v4
         with:
           name: explorer-browser
@@ -57,3 +59,4 @@ jobs:
             /tmp/shopping-browser.json
             /tmp/planner-browser.json
             /tmp/integrated-journey-browser.json
+            /tmp/accessibility-browser.json
