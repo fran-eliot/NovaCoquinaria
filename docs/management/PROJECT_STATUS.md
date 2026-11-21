@@ -2,9 +2,9 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.3
+version: 3.4
 estado: estable
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-21
 ---
 
 # Estado del Proyecto
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Comprobar Pantry en el portal y delimitar Culinary Shopping |
+| Próximo objetivo | Comprobar Pantry y Shopping en el portal y delimitar Culinary Planner |
 
 ---
 
@@ -90,6 +90,10 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 
 #289 integra las cuatro unidades de [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md). Las pruebas dirigidas de inventario, persistencia, copias, cambios externos y transferencia a Explorer finalizaron correctamente en Chromium. CI: 141 Python y 30 Node; 590 recetas. gh-pages registra el despliegue del merge; comprobación pública pendiente. No se modifica v1.6.0.
 
+## Corte de listas de compra — 2026-11-21
+
+Las PR #291–#297 incorporan [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPPING.md): listas declaradas, revisión de ingredientes desde Recipe Assistant, marcado de compras y alta confirmada de lotes en Pantry. La intención se registra previamente y una recuperación no recrea un lote de resultado incierto. Web Locks solo coordina operaciones cooperantes; no existe transacción atómica entre almacenamientos. CI #297: 141 pruebas Python, 63 Node y recorridos Chromium satisfactorios de Explorer, Assistant, Pantry y Shopping. gh-pages registra Deployed 765d507; se comprobaron los recursos publicados en la rama, no la experiencia de un usuario real en la URL pública. La release vigente sigue siendo v1.6.0.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -113,6 +117,7 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 | Culinary Explorer 0.1.0 | 🟢 Publicado; aceptación técnica acotada |
 | Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
 | Culinary Pantry 0.1.0 | 🟢 Integrado y desplegado; prueba pública pendiente |
+| Culinary Shopping 0.1.0 | 🟢 Integrado y desplegado; aceptación técnica dirigida, prueba pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -162,7 +167,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Comprobar el uso público de Pantry y delimitar Culinary Shopping, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Comprobar el uso público de Pantry y Shopping y delimitar Culinary Planner, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
