@@ -80,9 +80,8 @@ def exercise(site):
                 # Seleccionar explícitamente una receta desde Explorer.
                 page.goto(base+"culinary-explorer.html")
                 expect(page.locator("#results article").first).to_be_visible()
-                page.locator("#results article").first.get_by_role("button",name="Planificar receta").click()
                 page.once("dialog",lambda d:d.accept())
-                # La anterior llamada puede emitir un diálogo síncrono; se registra antes de pulsar en la ruta real.
+                page.locator("#results article").first.get_by_role("button",name="Planificar receta").click()
                 expect(page).to_have_url(base+"culinary-planner.html")
                 expect(page.locator("#entry-source")).to_contain_text("Receta seleccionada")
                 assert page.evaluate("(k)=>sessionStorage.getItem(k)",SELECTION) is None
