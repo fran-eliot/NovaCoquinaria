@@ -1,7 +1,16 @@
 /* Vista de escalado conservadora: no altera fuente, estado ni compras. */
 const UNITS = new Set(["g", "kg", "ml", "cl", "l"]);
 const decimal = value => {
-  if (typeof value !== "string" || !/^(?:0|[1-9]\d*)(?:\.\d+)?$/.test(value)) return null;
+  if (typeof value !== "string") return null;
+  // Las cantidades exactas del extractor pueden expresarse como fracciones.
+  const fraction = /^(\d+)\/(\d+)$/.exec(value);
+  if (fraction) {
+    const numerator = Number(fraction[1]), denominator = Number(fraction[2]);
+    if (!Number.isSafeInteger(numerator) || !Number.isSafeInteger(denominator) ||
+        numerator <= 0 || denominator <= 0) return null;
+    return numerator / denominator;
+  }
+  if (!/^(?:0|[1-9]\d*)(?:\.\d+)?$/.test(value)) return null;
   const n = Number(value);
   return Number.isFinite(n) && n > 0 ? n : null;
 };
