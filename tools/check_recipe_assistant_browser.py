@@ -1,8 +1,10 @@
 """Recorridos del asistente sobre el portal construido bajo un subdirectorio."""
 import argparse
+import hashlib
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
+import re
 from pathlib import Path
 import shutil
 import tempfile
@@ -102,6 +104,53 @@ def exercise(site):
                     expect(page.locator("#context-text")).to_contain_text(snippet)
                     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
                     report["samples"].append(identity)
+                # Verificación de escalado sobre una proyección real publicada.
+                # Elegir una receta admisible sin fijar identificadores editoriales.
+                scaling_candidate = None
+                for candidate_id in sorted(manifest["recipes"]):
+                    filename = hashlib.sha256(candidate_id.encode("utf-8")).hexdigest() + ".json"
+                    candidate = json.loads((site / "recipe_assistant" / filename).read_bytes())
+                    y = candidate.get("yield") or {}
+                    if (y.get("unit") not in ("racion", "porcion") or
+                            y.get("min") != y.get("max")):
+                        continue
+                    try:
+                        original = int(y["min"])
+                    except (ValueError, TypeError):
+                        continue
+                    if not 1 <= original <= 24 or str(original) != y["min"]:
+                        continue
+                    eligible = [entry for entry in candidate["ingredients"]
+                                if entry["quantity"]["status"] == "exact"
+                                and entry["quantity"]["approximate"] is False
+                                and entry["quantity"]["min"] == entry["quantity"]["max"]
+                                and entry["quantity"]["unit"] in ("g", "kg", "ml", "cl", "l")
+                                and isinstance(entry["quantity"]["min"], str)
+                                and re.fullmatch(r"(?:0|[1-9]\d*)(?:\.\d+)?", entry["quantity"]["min"])
+                                and float(entry["quantity"]["min"]) > 0]
+                    if eligible:
+                        scaling_candidate = (candidate_id, candidate, original, len(eligible))
+                        break
+                assert scaling_candidate is not None, "No hay ninguna receta apta para verificar escalado"
+                scale_id, scale_recipe, original, scaled_count = scaling_candidate
+                page.goto(url(scale_id))
+                expect(page.locator("#assistant")).to_be_visible(timeout=15000)
+                expect(page.locator("#scaling-panel")).to_be_visible()
+                expect(page.locator("#scaling-original")).to_have_text(str(original))
+                assert page.locator("#scaling-preview li").count() == len(scale_recipe["ingredients"])
+                shopping_before = page.locator("#shopping-selection label").all_text_contents()
+                target = original + 1 if original < 24 else original - 1
+                page.locator("#scaling-target").fill(str(target))
+                expect(page.locator("#scaling-status")).to_contain_text(
+                    f"{scaled_count} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
+                assert page.locator("#scaling-preview li").filter(has_text=" → ").count() == scaled_count
+                assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
+                page.locator("#scaling-target").fill("0")
+                expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
+                assert page.locator("#scaling-preview li").count() == 0
+                page.reload()
+                expect(page.locator("#scaling-target")).to_have_value(str(original))
+                report["scaling_sample"] = scale_id
                 page.get_by_role("link", name="Volver al explorador").click()
                 expect(page.locator("#title")).to_be_enabled(timeout=15000)
                 for invalid in [url("REC-inexistente"), url("REC-0017", "0"*40)]:
