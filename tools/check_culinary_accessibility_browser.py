@@ -52,7 +52,7 @@ def exercise(site):
                                 expect(skip).to_have_count(1)
                                 page.keyboard.press("Tab")
                                 expect(skip).to_be_focused()
-                                assert skip.evaluate("(el)=>getComputedStyle(el).transform")=="matrix(1, 0, 0, 1, 0, 0)",name
+                                assert skip.evaluate("(el)=>{const r=el.getBoundingClientRect();return r.bottom>0 && r.top>=0 && r.left>=0 && r.width>0 && r.height>0}"),name
                                 page.keyboard.press("Enter")
                                 expect(page.locator("#main-content")).to_be_focused()
                                 metrics=page.evaluate("""()=>({
