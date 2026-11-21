@@ -1,3 +1,4 @@
+import {storeSelection} from "./culinary-planner-recipe-transfer.mjs";
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
 
 import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
@@ -87,6 +88,11 @@ function line(l){return "Fuente: líneas "+l.start_line+"–"+l.end_line;}
 function renderRecipe(r) {
   const session=createCookingSession(r), timer=createManualTimer();
   $("recipe-title").textContent=r.title;
+  $("plan-recipe").addEventListener("click",()=>{
+    if(!confirm("¿Abrir el planificador? Se perderá el progreso de preparación de esta página."))return;
+    try{storeSelection(()=>window.sessionStorage,r.id);location.assign("culinary-planner.html");}
+    catch(error){$("load-status").textContent=error.message;}
+  });
   document.title=r.title+" | NovaCoquinaria";
   $("source-link").href=r.href;
   $("evidence").textContent=evidenceLabels[r.evidence.status]+" · No equivale a validación de la fórmula actual.";
