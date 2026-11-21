@@ -2,16 +2,16 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 2.5.0
+version: 2.6.0
 estado: estable
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-21
 ---
 
 # Kit de continuidad de NovaCoquinaria
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 19 de noviembre de 2026, tras la integración y despliegue de Culinary Pantry (merge #289).  
+> **Corte de información:** 21 de noviembre de 2026, tras la integración y el despliegue de Culinary Shopping (merge #297).  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -26,16 +26,16 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 
 | Elemento | Situación y alcance de la evidencia |
 |---|---|
-| Rama principal | `main`, consultada el 2026-11-19 después de #289 |
+| Rama principal | `main`, consultada el 2026-11-21 después de #297 |
 | Última versión publicada | [`v1.6.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), 2026-11-19 |
-| Fase estratégica | Explotación práctica; Explorer, Recipe Assistant y Pantry 0.1.0 desplegados |
-| Última PR fusionada | [#289](https://github.com/fran-eliot/NovaCoquinaria/pull/289) |
+| Fase estratégica | Explotación práctica; Explorer, Recipe Assistant, Pantry y Shopping 0.1.0 desplegados |
+| Última PR fusionada | [#297](https://github.com/fran-eliot/NovaCoquinaria/pull/297) |
 | Commit histórico del tag | [`836f02e848299c0a7a7897b22bb83cd13e0c373a`](https://github.com/fran-eliot/NovaCoquinaria/commit/836f02e848299c0a7a7897b22bb83cd13e0c373a) |
-| Commit de main comprobado | `1c7742e5fab1453075ad84e55448d151908670f4` |
+| Commit de main comprobado | `765d50784bcceb87303a72ce621090e40893d587` |
 | PR abiertas | Ninguna en la consulta del corte |
-| Integridad | [Knowledge integrity de PR #289](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44627262284): success |
-| Auditoría | [Knowledge audit de PR #289](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44627262348): success; 141 pruebas Python y 30 Node |
-| Despliegue | gh-pages 4737f9a5bb3bfd45f010dde00a3734dfd39f8bf8 (Deployed 1c7742e); prueba pública de Pantry pendiente |
+| Integridad | [Knowledge integrity de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697344018): success |
+| Auditoría | [Knowledge audit de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697343958): success; 141 pruebas Python y 63 Node |
+| Despliegue | gh-pages `a6f541d03364dade49d0b0f61dd90a2480926496` (Deployed 765d507); rutas publicadas de Shopping y Pantry comprobadas en la rama; prueba pública de uso pendiente |
 | Inventario Markdown | 927 archivos según inventario del job #246 |
 | Recetas | 590 rutas y 590 documentos extraídos; Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
 | Despensa y técnicas | 126 fichas de ingrediente y 52 técnicas por ruta, excluidos índices y BACKLOG |
@@ -181,7 +181,19 @@ La [Bitácora](./BITACORA.md) mantiene los hitos que cambian la identidad o tray
 - #286–#289: modelo, persistencia, interfaz e integración. Almacenamiento local con clave novacoquinaria.culinary-pantry, esquema 0.1.0; transferencia efímera de nombres a Explorer mediante sessionStorage.
 - #289: tres workflows satisfactorios; 141 Python, 30 Node y recorridos Chromium de las tres aplicaciones. 590 recetas; 591 archivos de asistente y 51 destinos de técnicas. Snapshot CI 2ba17bded8f2de3c365c51745f3377b9f0fd3a33.
 - gh-pages contiene el despliegue del merge #289 y la plantilla de Pantry con recursos versionados. Verificación de uso público pendiente.
-- Siguiente capacidad candidata: Culinary Shopping, listas declaradas y revisión humana; no deducir faltantes. Sin nueva release.
+- Culinary Shopping es la siguiente capacidad desarrollada en #291–#297; próxima candidata: Culinary Planner. Sin nueva release.
+
+### Actualización de continuidad: PRs #290–#297
+
+- #290: cierre técnico de Pantry y kit 2.5.0.
+- #291: alcance de Shopping 0.1.0, criterios SHP-01–SHP-15 y separación entre listas, inventario y recetas.
+- #292–#294: modelo de listas, almacenamiento local versionado e interfaz.
+- #295: selección de ocurrencias desde Recipe Assistant hacia Shopping, con cantidades de compra revisadas y procedencia literal, sin inferir faltantes.
+- #296: intención de transferencia persistida antes de escribir Pantry y recuperación sin recreación automática.
+- #297: revisión individual, Web Locks para transferencias cooperantes, contraste de destino y recorridos Chromium, incluidos fallos parciales.
+- CI #297: 141 pruebas Python, 63 Node; cuatro recorridos Chromium correctos. Auditoría semántica sin advertencias ni documentos huérfanos. Las 590 recetas se mantienen; la proyección contiene 591 archivos y 51 destinos de técnicas.
+- gh-pages `a6f541d03364dade49d0b0f61dd90a2480926496` publicó `765d507` y contiene `culinary-shopping.html` y `culinary-pantry.html` con referencias versionadas. No hay prueba manual pública documentada para Shopping ni Pantry.
+- Próximo candidato: Culinary Planner, mediante decisiones explícitas y sin suponer compatibilidad, existencias suficientes, nutrientes o tiempos completos. No se aprueba una nueva release.
 
 **Aplicación publicada:** Culinary Explorer 0.1.0, consumidor estático de solo lectura del índice, con título, menciones AND, módulo, evidencia y acceso a fichas; sin interpretación de disponibilidad.
 
@@ -189,7 +201,9 @@ La [Bitácora](./BITACORA.md) mantiene los hitos que cambian la identidad o tray
 
 **Despensa personal desplegada:** [Culinary Pantry 0.1.0](./ALCANCE_CULINARY_PANTRY.md), inventario local versionado, copias JSON, filtros, lotes y transferencia de nombres mediante sessionStorage; prueba pública pendiente. No infiere compatibilidad ni suficiencia.
 
-**Futuras o solo especificadas:** búsqueda sin diacríticos o semántica, ampliación de candidatos de identidad, filtros de tiempos y rendimientos, backend, API, sincronización de despensa, planificación, compra inteligente, Runtime operativo, RAG/GraphRAG y agentes. No confundir una especificación con una función implementada.
+**Listas personales desplegadas:** [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPPING.md), listas y artículos, selección explícita desde Assistant, registro de compras y transferencia revisada a Pantry mediante intención persistida y verificación; sin atomicidad entre almacenamientos, prueba pública pendiente.
+
+**Futuras o solo especificadas:** búsqueda sin diacríticos o semántica, ampliación de candidatos de identidad, filtros de tiempos y rendimientos, backend, API, sincronización de despensa, planificación, comparativas de precios y compras automatizadas, Runtime operativo, RAG/GraphRAG y agentes. No confundir una especificación con una función implementada.
 
 **Documentación de gestión desfasada respecto al contenido:** [PROJECT_STATUS](./PROJECT_STATUS.md) se actualiza con este cierre; conserva sus cortes históricos; el [BACKLOG de Despensa](../../11_Despensa/BACKLOG.md) contiene casillas históricas sin sincronizar con numerosas fichas existentes. El backlog de Despensa no debe utilizarse como inventario actual.
 
@@ -257,19 +271,19 @@ Corte #235: 590 recetas, 588 títulos normalizados, 5.047 ocurrencias de ingredi
 
 Corte #246: 102 pruebas, 590/590 fuentes verificadas, igualdad de bytes, 68 comparaciones directas de registros, 34 con el experimento compartido, 18 casos fijados y 16 de regresión por corpus. Cero advertencias y cero huérfanos; 927 Markdown. El [job](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44524998284/job/135563094114) corresponde al snapshot sintético 7249024567f5f74d0dd6c6c7d9d78babf62ab67a. La proyección fijada de RET-D01 (c0dd020dea003d8a4f7a0278a43f30d81501a7f0) conserva huella d72cb4cb48f8ab112d3f60003bb8a20acfe295925756e6456b12bf7b2648a89c. El corpus de CI contiene 590 recetas, 5.047 ocurrencias, 36 explícitas y 1.044 candidatas; las 72 adicionales del experimento (71 recetas) no se integraron. Comparaciones de consistencia, no precisión culinaria ni validación exhaustiva del ZIP. Modo terms explícito, no interpreta negaciones, alternativas, equivalencias o disponibilidad. Referencias: [investigación](./EVOLUCION_RECUPERACION_CULINARIA.md) y [alcance](./ALCANCE_RECUPERACION_TEXTUAL.md).
 
-1. Comprobar el uso público de Pantry y delimitar Culinary Shopping; conservar los experimentos y la [deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md). No promover identidades ni integrar requisitos automáticamente.
+1. Comprobar el uso público de Pantry y Shopping y delimitar Culinary Planner; conservar los experimentos y la [deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md). No promover identidades ni integrar requisitos automáticamente.
 2. Preservar separación de coincidencia textual, identidad y candidatos, así como alcance de evidencia culinaria.
 3. Revisar los informes y muestras por commit; no convertir cobertura en exactitud.
 4. No seleccionar persistencia, API, RAG o agentes ni autorizar una release sin decisión específica.
 
 ## 7. Recuperación del estado antes de un nuevo incremento
 
-1. Consultar el `main` remoto y contrastar su commit vigente con `1c7742e5fab1453075ad84e55448d151908670f4` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
-2. Revisar si la última PR conocida ([#289](https://github.com/fran-eliot/NovaCoquinaria/pull/289)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
+1. Consultar el `main` remoto y contrastar su commit vigente con `765d50784bcceb87303a72ce621090e40893d587` (**referencia histórica de este corte**, no asumir que continúa siendo HEAD).
+2. Revisar si la última PR conocida ([#297](https://github.com/fran-eliot/NovaCoquinaria/pull/297)) ha sido seguida por nuevas PR, la lista de PR abiertas y los resultados de [Knowledge integrity](../../.github/workflows/knowledge-integrity.yml), [Knowledge audit](../../.github/workflows/knowledge-audit.yml) y MkDocs para el commit relevante. Ante una PR abierta o CI fallida, resolver primero ese estado y no generar tandas paralelas sin necesidad.
 3. Leer este kit junto con [PROJECT_STATUS](./PROJECT_STATUS.md), [ROADMAP](./ROADMAP.md), [BITACORA](./BITACORA.md), [RELEASES](./RELEASES.md), [CONSOLIDACION_CONOCIMIENTO](./CONSOLIDACION_CONOCIMIENTO.md), [EVOLUCION_DE_RECETAS](./EVOLUCION_DE_RECETAS.md), [RECETAS_COCINADAS](./RECETAS_COCINADAS.md) y los índices del módulo en cuestión.
 4. Antes de redactar, revisar el árbol completo de `main` y detectar solapamientos por **nombre, ingrediente, técnica y tradición regional**, no solo por el nombre exacto del archivo. Distinguir las variantes de una misma familia de platos y explicar las diferencias cuando sea pertinente.
 5. Comprobar todos los identificadores de receta vigentes. La serie reciente llega a `REC-0591` (Front Matter `REC-591`) en este corte; `REC-0592` es **solo candidato** si continúa libre, y nunca un ID reservado irrevocablemente. Recalcular también recuentos de ficheros antes de reutilizarlos.
-6. Priorizar el alcance de Culinary Shopping, sin inferir faltantes o compatibilidad. Incorporar nuevas recetas selectivamente y mantener su estructura y evidencia de elaboración.
+6. Priorizar el alcance de Culinary Planner, sin deducir faltantes, suficiencia ni preferencias. Incorporar nuevas recetas selectivamente y mantener su estructura y evidencia de elaboración.
 7. Cuando se introduzcan antecedentes de recetas que el propietario haya cocinado, preservar su versión principal y su valoración comprobada. No dar por mejor una versión posterior ni trasladar cantidades antiguas a otra sin evidencia.
 8. Crear una rama temática desde el `main` actualizado, incorporar fichas e índices coherentes, comprobar enlaces y abrir una PR. Entregar el enlace directo de la PR y revisar el resultado de GitHub Actions. El propietario revisa, fusiona y elimina la rama remota; no hacerlo en su lugar.
 9. Reservar las actualizaciones de gestión, continuidad o integridad para PR específicas cuando corresponda, sin completar artificialmente tandas con fichas que no aporten valor.
@@ -278,16 +292,16 @@ Corte #246: 102 pruebas, 590/590 fuentes verificadas, igualdad de bytes, 68 comp
 
 ## 8. Registro del corte y siguiente actualización
 
-| Campo | Valor en el corte de 2026-11-19 |
+| Campo | Valor en el corte de 2026-11-21 |
 |---|---|
-| Última PR fusionada observada | [#289](https://github.com/fran-eliot/NovaCoquinaria/pull/289) |
-| Commit de main | `1c7742e5fab1453075ad84e55448d151908670f4` |
-| Últimos aportes | Culinary Pantry 0.1.0 integrado y desplegado; prueba pública pendiente |
+| Última PR fusionada observada | [#297](https://github.com/fran-eliot/NovaCoquinaria/pull/297) |
+| Commit de main | `765d50784bcceb87303a72ce621090e40893d587` |
+| Últimos aportes | Culinary Shopping 0.1.0 integrado y desplegado; prueba pública de Shopping/Pantry pendiente |
 | PR abiertas al realizar la consulta | Ninguna |
-| Workflows de PR #289 | Knowledge integrity, Knowledge audit y Culinary Explorer site: success |
+| Workflows de PR #297 | Knowledge integrity, Knowledge audit y Culinary Explorer site: success |
 | Última release | v1.6.0 (2026-11-19) |
 | Próximo identificador | REC-0592, candidato sujeto a verificar |
-| Siguiente prioridad | Comprobación pública de Pantry y alcance de Culinary Shopping |
+| Siguiente prioridad | Comprobación pública de Pantry/Shopping y alcance acotado de Culinary Planner |
 | Controles pendientes | Pruebas públicas de consultas y accesibilidad exhaustiva; Contraste individual de los JSON, precisión/exhaustividad de extracción, revisión práctica, duplicidades conceptuales y working tree local |
 
 Este corte debe actualizarse después de merges futuros; no reutilizar el SHA o recuentos como si fueran dinámicos.
