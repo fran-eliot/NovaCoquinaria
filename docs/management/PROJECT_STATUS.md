@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Confirmar el despliegue de Planner y verificar el uso público de las aplicaciones |
+| Próximo objetivo | Verificar el uso público de Planner y las demás aplicaciones |
 
 ---
 
@@ -96,7 +96,7 @@ Las PR #291–#297 incorporan [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPP
 
 ## Corte de planificación culinaria — 2026-11-21
 
-La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c514f964d51a126a527`. El planificador permite registrar varias comidas por fecha, conservar referencias históricas, seleccionar expresamente recetas desde Explorer/Assistant y mantener copias locales independientes de Shopping/Pantry. CI de #303: los tres workflows finalizaron en success y Chromium confirmó la navegación y el aislamiento. Esta evidencia no equivale a publicación: el último gh-pages observado corresponde a 9ed54f7 y no contiene todavía la página del planificador. No hay prueba manual pública acreditada. La release publicada permanece v1.6.0.
+La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c514f964d51a126a527`. El planificador permite registrar varias comidas por fecha, conservar referencias históricas, seleccionar expresamente recetas desde Explorer/Assistant y mantener copias locales independientes de Shopping/Pantry. CI de #303: los tres workflows finalizaron en success y Chromium confirmó la navegación y el aislamiento. Esta evidencia no equivale a publicación: gh-pages ha publicado fd3ddc7 y contiene la página del planificador. No hay prueba manual pública acreditada. La release publicada permanece v1.6.0.
 
 # Estado por capacidades
 
@@ -122,7 +122,7 @@ La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c51
 | Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
 | Culinary Pantry 0.1.0 | 🟢 Integrado y desplegado; prueba pública pendiente |
 | Culinary Shopping 0.1.0 | 🟢 Integrado y desplegado; aceptación técnica dirigida, prueba pública pendiente |
-| Culinary Planner 0.1.0 | 🟡 Implementado en main y validado en CI; despliegue público aún no comprobado |
+| Culinary Planner 0.1.0 | 🟡 Implementado en main y validado en CI; despliegue en gh-pages verificado; prueba manual pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
