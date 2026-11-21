@@ -2,7 +2,7 @@
 id: DOC-REVISION-APLICACIONES-CULINARIAS-2026
 titulo: Revisión estratégica de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: propuesta
 ultima_revision: 2026-11-21
 ---
@@ -120,3 +120,13 @@ La prueba enlaza explícitamente Explorer → Planner → Recipe Assistant → S
 **Alcance de evidencia:** CWC-01–CWC-05 y CWC-10 de forma dirigida; CWC-11 en la medida acreditada por la construcción y las regresiones existentes. La Unidad A no verifica CWC-06–CWC-09 ni CWC-12 en su totalidad: quedan para las unidades B–D. La regresión no acredita uso público manual, atomicidad entre claves, sincronización ni seguridad culinaria.
 
 El resultado de CI y el artefacto `integrated-journey-browser.json` se anotarán solo después de observarlos. No se asume que añadir un test equivale a superarlo.
+
+## Unidad B — Matriz de almacenamiento y fallos
+
+La prueba `tools/test_culinary_storage_failure_matrix.mjs` usa tres adaptadores reales de almacenamiento local con un `Storage` simulado y compartido, bajo las claves separadas de Planner, Shopping y Pantry. El escenario se ejecuta en Node y no modifica datos de personas, el portal público o el modelo persistido de las aplicaciones.
+
+**Casos de contraste añadidos:** aislamiento de restauraciones y eventos entre claves; conflicto de edición simultánea; errores de lectura, escritura y cuota; documentos incompatibles; importaciones que eliminarían transferencias protegidas; fallo previo al alta en Pantry; fallo al completar el historial tras crear el lote; restauración independiente de Pantry que elimina un lote pendiente; divergencia del destino; pérdida de destino tras transferencia `completed`; rechazo de una fotografía de Shopping obsoleta. La prueba exige ausencia de escrituras adicionales durante recuperaciones inciertas y contrasta el documento final en las tres claves.
+
+Esta matriz **no promete transacciones** ni coherencia de copias independientes. La marca `completed` es evidencia de contraste al finalizar la transferencia, no prueba de existencias actuales. Una importación o borrado posterior del inventario puede dejar historial y destino divergentes; no se auto-reconcilian. Las pruebas no abarcan interrupciones físicas del navegador en cada instrucción, navegadores diferentes, permisos reales, concurrencia no cooperante ni restauraciones simultáneas.
+
+**Criterios abordados:** CWC-06, CWC-07 y CWC-08 mediante casos controlados y reproducibles. Las pruebas originales del coordinador y persistencia permanecen como regresión. Esta unidad no acredita CWC-09 o CWC-12 ni modifica contratos funcionales o libera una versión. Su aceptación depende del resultado observado en Knowledge audit.
