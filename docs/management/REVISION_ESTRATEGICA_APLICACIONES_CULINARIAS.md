@@ -2,7 +2,7 @@
 id: DOC-REVISION-APLICACIONES-CULINARIAS-2026
 titulo: Revisión estratégica de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: propuesta
 ultima_revision: 2026-11-21
 ---
@@ -130,3 +130,11 @@ La prueba `tools/test_culinary_storage_failure_matrix.mjs` usa tres adaptadores 
 Esta matriz **no promete transacciones** ni coherencia de copias independientes. La marca `completed` es evidencia de contraste al finalizar la transferencia, no prueba de existencias actuales. Una importación o borrado posterior del inventario puede dejar historial y destino divergentes; no se auto-reconcilian. Las pruebas no abarcan interrupciones físicas del navegador en cada instrucción, navegadores diferentes, permisos reales, concurrencia no cooperante ni restauraciones simultáneas.
 
 **Criterios abordados:** CWC-06, CWC-07 y CWC-08 mediante casos controlados y reproducibles. Las pruebas originales del coordinador y persistencia permanecen como regresión. Esta unidad no acredita CWC-09 o CWC-12 ni modifica contratos funcionales o libera una versión. Su aceptación depende del resultado observado en Knowledge audit.
+
+## Unidad C — Línea base dirigida de usabilidad y accesibilidad
+
+Se incorpora a las cinco plantillas un enlace de salto al contenido principal visible al recibir el foco, con destino explícito y región principal enfocables. El estilo compartido conserva un indicador de foco visible y adapta controles al ancho reducido. Estos cambios no alteran datos, procedimientos culinarios, esquemas ni las transiciones con Shopping o Pantry.
+
+El recorrido `tools/check_culinary_accessibility_browser.py`, añadido a **Culinary Explorer site**, contrasta en Chromium los cinco documentos a 320, 390 y 1.280 píxeles. Comprueba que el enlace de salto es el primer elemento del recorrido Tab y activa el foco de la región principal, que existe una región de estado identificable, que no aparece desplazamiento horizontal de documento y que no hay errores JavaScript. Verifica adicionalmente selección de día con teclado y rechazo de formularios incompletos en Planner sin persistencia.
+
+**Evidencia acotada:** CWC-09 mediante casos dirigidos; CWC-11 mediante regresión del portal. No se afirma conformidad WCAG, cobertura completa de lectores de pantalla, contraste exhaustivo, criterios de zoom, navegación de todos los diálogos, revisión por personas usuarias, dispositivos físicos ni aceptación de la URL pública. Se conservarán los fallos observados y se corregirán en la misma PR antes de aceptar la unidad.
