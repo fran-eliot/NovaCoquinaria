@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PLANNER-2026
 titulo: Alcance de entrega de Culinary Planner
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: borrador
 ultima_revision: 2026-11-21
 ---
@@ -113,3 +113,13 @@ El origen `free_text` contiene únicamente su discriminante. Un origen `recipe` 
 El cálculo de semanas emplea días ordinales gregorianos enteros, sin conversiones a UTC ni objeto `Date`; comienza en lunes y rechaza desplazamientos fuera del intervalo representable. El último día del año 9999 es válido como fecha, pero una vista semanal que sobrepase el límite del calendario no se genera. Los filtros por fecha, momento y título son acumulables; el texto se compara con normalización Unicode NFC y sin distinguir mayúsculas, sin interpretación semántica. La composición de referencias visibles, el catálogo y las búsquedas de recetas quedan fuera de esta unidad.
 
 Se incorporan ocho pruebas Node sobre validación, años bisiestos, transiciones anuales, orden, inmovilidad de origen, duplicados, filtros, referencias no comprobadas y ausencia de URLs personales. La cobertura se conecta con Knowledge audit. Persistencia, interfaz e integración continúan pendientes; no se modifica la release v1.6.0.
+
+## Unidad B — Persistencia local del Planner
+
+El módulo `assets/culinary-planner-persistence.mjs` proporciona un adaptador sin DOM ni red, con `Storage` inyectable y clave `novacoquinaria.culinary-planner`, independiente de Shopping y Pantry. Conserva el esquema de `culinary-planner-model.mjs` 0.1.0 y un máximo de 12 millones de unidades UTF-16 para el JSON; el espacio real depende del navegador. La primera carga sin clave devuelve un plan vacío sin escribir. Una carga inválida o de versión no admitida bloquea las modificaciones sin reemplazar el documento existente.
+
+Las escrituras comparan el contenido actual con la línea base cargada y rechazan los cambios externos observados. Se distinguen falta de almacenamiento, errores de lectura, conflictos, falta de cuota y errores de escritura, sin suponer transacciones atómicas entre pestañas. El último documento válido se conserva en memoria incluso cuando una carga posterior falla; no constituye una segunda copia durable.
+
+La exportación produce JSON validado y conserva notas y referencias históricas. La previsualización de importación muestra el recuento de entradas y vincula la confirmación a esa previsualización concreta del adaptador. Cancelar no escribe. La sustitución, solo tras confirmación explícita y contraste con el almacenamiento vigente, permite reemplazar el plan completo; no modifica Pantry ni Shopping, ni agrega entradas automáticamente. No se añade sincronización, recuperación de borrados ni almacenamiento remoto.
+
+Once pruebas Node cubren aislamiento de claves, recarga, versiones, fallos de acceso, lectura y escritura, cuota, conflictos entre pestañas, previsualización, cancelación, importación y copias de referencias documentales. Knowledge audit ejecuta las pruebas. Quedan pendientes la interfaz, recorridos Chromium y publicación; no se modifica la release v1.6.0.
