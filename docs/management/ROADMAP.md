@@ -2,7 +2,7 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.17
+version: 2.18
 estado: estable
 ultima_revision: 2026-11-21
 ---
@@ -233,6 +233,7 @@ El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registr
 - [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md): 0.1.0 integrado y desplegado; inventario declarado, persistencia local y búsqueda por menciones, prueba pública pendiente.
 - [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md): 0.1.0 integrado y desplegado; listas y transferencias revisadas, aceptación técnica dirigida superada, uso público pendiente.
 - [Culinary Planner](./ALCANCE_CULINARY_PLANNER.md): 0.1.0 integrado en main tras #303 y contrastado mediante CI; despliegue verificado, prueba manual pública pendiente. Planificación manual por fecha, recetas vinculadas o platos libres, sin inferir cocinabilidad, nutrición, faltantes ni disponibilidad.
+- [Consolidación de recorridos culinarios](./REVISION_ESTRATEGICA_APLICACIONES_CULINARIAS.md): dirección propuesta para verificar transiciones entre las cinco aplicaciones, fallos de almacenamiento, accesibilidad y aceptación pública antes de abrir una capacidad nueva; implementación no iniciada.
 
 # Capacidades futuras
 
