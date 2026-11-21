@@ -2,9 +2,9 @@
 id: DOC-0016
 titulo: Roadmap
 tipo: gestion
-version: 2.14
+version: 2.15
 estado: estable
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-21
 ---
 
 # Roadmap
@@ -231,8 +231,8 @@ El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registr
 - Culinary Explorer 0.1.0: datos, búsqueda, interfaz e integración publicados; aceptación técnica acotada cerrada.
 - [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md): 0.1.0 integrado y desplegado en gh-pages; aceptación técnica dirigida superada y funcionamiento público comunicado tras #284.
 - [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md): 0.1.0 integrado y desplegado; inventario declarado, persistencia local y búsqueda por menciones, prueba pública pendiente.
-- [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md): alcance 0.1.0 de listas declaradas y transferencias revisadas; implementación pendiente, sin deducción automática de faltantes.
-- Culinary Planner: capacidad posterior, no comprometida.
+- [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md): 0.1.0 integrado y desplegado; listas y transferencias revisadas, aceptación técnica dirigida superada, uso público pendiente.
+- Culinary Planner: siguiente capacidad candidata, alcance pendiente; sin inferir cocinabilidad, nutrición, faltantes ni disponibilidad.
 
 # Capacidades futuras
 

@@ -2,9 +2,9 @@
 id: DOC-0014
 titulo: Bitácora del Proyecto
 tipo: gestion
-version: 2.6
+version: 2.7
 estado: estable
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-21
 ---
 
 # Bitácora del Proyecto
@@ -519,6 +519,14 @@ El SGCC incorpora así seguimiento efímero de cocina sin alterar las fuentes ca
 ## 2026-11-19 · Del conocimiento al inventario personal
 
 Culinary Pantry 0.1.0 incorpora por primera vez estado personal persistente al SGCC. El inventario vive en el navegador, separado del conocimiento canónico, con copias manuales y consultas de menciones seleccionadas. El [alcance de entrega](./ALCANCE_CULINARY_PANTRY.md) registra las pruebas dirigidas y el despliegue de #289; la comprobación pública permanece pendiente. Esta separación permite avanzar hacia listas de compra sin equiparar el inventario a una interpretación de requisitos. No se publica una nueva release.
+
+---
+
+## 2026-11-20 · De listas de compra a un ciclo culinario conectado
+
+Culinary Shopping 0.1.0 enlaza selección de ingredientes de recetas, listas declaradas y entradas revisadas del inventario personal. El cambio amplía el SGCC desde la consulta y la preparación hacia la organización de compras: cada transición exige una decisión humana, conserva procedencia cuando existe y no equipara texto, cantidad declarada y disponibilidad.
+
+La implementación dirigida y el despliegue de #297 se registran en el [alcance de entrega](./ALCANCE_CULINARY_SHOPPING.md). El carácter local de las aplicaciones y la ausencia de transacciones entre claves obligan a conservar intenciones y detener las recuperaciones inciertas. El uso público no está todavía contrastado por el propietario. La release v1.6.0 no cambia.
 
 ---
 
