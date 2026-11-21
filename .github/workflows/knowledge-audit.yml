@@ -106,6 +106,8 @@ jobs:
         run: node --test tools/test_culinary_pantry_model.mjs
       - name: Test Recipe Assistant cooking session
         run: node --test tools/test_recipe_assistant_session.mjs
+      - name: Test Recipe Assistant conservative scaling
+        run: node --test tools/test_recipe_assistant_scaling.mjs
       - name: Check Recipe Assistant UI syntax
         run: node --check assets/recipe-assistant-ui.mjs
       - name: Check Culinary Explorer UI syntax

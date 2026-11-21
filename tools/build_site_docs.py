@@ -105,7 +105,7 @@ def version_application_assets() -> None:
     assets = SITE_DOCS / "assets"
     names = ("culinary-explorer-ui.mjs", "culinary-explorer-search.mjs",
              "culinary-explorer.css", "recipe-assistant-ui.mjs",
-             "recipe-assistant-session.mjs", "recipe-assistant-markdown.mjs",
+             "recipe-assistant-session.mjs", "recipe-assistant-scaling.mjs", "recipe-assistant-markdown.mjs",
              "recipe-assistant.css", "culinary-pantry.css", "culinary-pantry-ui.mjs",
              "culinary-pantry-model.mjs", "culinary-pantry-persistence.mjs", "culinary-pantry-transfer.mjs",
              "culinary-shopping.css", "culinary-shopping-ui.mjs", "culinary-shopping-model.mjs",

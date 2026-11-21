@@ -1,5 +1,6 @@
 import {storeSelection} from "./culinary-planner-recipe-transfer.mjs";
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
+import {scalingBasis, scaleIngredient} from "./recipe-assistant-scaling.mjs";
 
 import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
 import {inline, renderMarkdown} from "./recipe-assistant-markdown.mjs";
@@ -99,6 +100,30 @@ function renderRecipe(r) {
   for(const c of r.evidence.claims) $("claims").append(inline(node("p",undefined,"source-text meta"),c.text+" · "+line(c.source_location)));
   $("yield").textContent="Rendimiento: "+(r.yield?r.yield.raw:
     r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
+  const originalServings=scalingBasis(r);
+  if(originalServings!==null){
+    $("scaling-panel").hidden=false;
+    $("scaling-original").textContent=String(originalServings);
+    const target=$("scaling-target"),preview=$("scaling-preview"),status=$("scaling-status");
+    target.value=String(originalServings);
+    function updateScaling(){
+      preview.replaceChildren();
+      const desired=target.valueAsNumber;
+      if(!Number.isInteger(desired)||desired<1||desired>24){
+        status.textContent="Indica entre 1 y 24 raciones.";return;
+      }
+      let count=0;
+      for(const entry of r.ingredients){
+        const scaled=scaleIngredient(entry,originalServings,desired);
+        const li=node("li");
+        if(scaled){li.textContent=entry.raw+" → "+scaled.quantity+" "+scaled.unit;count++;}
+        else li.textContent=entry.raw+" — sin ajuste automático";
+        preview.append(li);
+      }
+      status.textContent=count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
+    }
+    target.addEventListener("input",updateScaling);updateScaling();
+  }
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
   if(!r.durations.length) $("durations").append(node("li","Tiempos no declarados o no reconocidos."));
   const shoppingChecks=[];

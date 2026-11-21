@@ -1,0 +1,24 @@
+/* Vista de escalado conservadora: no altera fuente, estado ni compras. */
+const UNITS = new Set(["g", "kg", "ml", "cl", "l"]);
+const decimal = value => {
+  if (typeof value !== "string" || !/^(?:0|[1-9]\d*)(?:\.\d+)?$/.test(value)) return null;
+  const n = Number(value);
+  return Number.isFinite(n) && n > 0 ? n : null;
+};
+export function scalingBasis(recipe) {
+  const y = recipe?.yield;
+  if (!y || !["racion","porcion"].includes(y.unit) || y.min !== y.max) return null;
+  const original = decimal(y.min);
+  return original !== null && Number.isInteger(original) && original <= 24 ? original : null;
+}
+export function scaleIngredient(entry, originalServings, targetServings) {
+  if (!Number.isInteger(originalServings) || originalServings < 1 || originalServings > 24 ||
+      !Number.isInteger(targetServings) || targetServings < 1 || targetServings > 24) return null;
+  const q = entry?.quantity;
+  if (!q || q.status !== "exact" || q.approximate !== false || q.min !== q.max || !UNITS.has(q.unit)) return null;
+  const amount = decimal(q.min);
+  if (amount === null) return null;
+  const result = amount * targetServings / originalServings;
+  if (!Number.isFinite(result) || result <= 0 || result > 1e7) return null;
+  return {quantity: Number(result.toFixed(3)).toLocaleString("es-ES", {maximumFractionDigits:3}), unit:q.unit};
+}
