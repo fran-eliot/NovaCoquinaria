@@ -35,7 +35,7 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 | PR abiertas | Ninguna en la consulta del corte |
 | Integridad | [Knowledge integrity de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697344018): success |
 | Auditoría | [Knowledge audit de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697343958): success; 141 pruebas Python y 63 Node |
-| Despliegue | gh-pages `a6f541d03364dade49d0b0f61dd90a2480926496` (Deployed 765d507); rutas publicadas de Shopping y Pantry comprobadas en la rama; prueba pública de uso pendiente |
+| Despliegue | gh-pages `936e5b4f3ae822c5d7bb9d656618ddce4210abf7` (Deployed fd3ddc7); ruta Planner comprobada en la rama; prueba manual de uso pendiente |
 | Inventario Markdown | 927 archivos según inventario del job #246 |
 | Recetas | 590 rutas y 590 documentos extraídos; Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
 | Despensa y técnicas | 126 fichas de ingrediente y 52 técnicas por ruta, excluidos índices y BACKLOG |
@@ -181,7 +181,7 @@ La [Bitácora](./BITACORA.md) mantiene los hitos que cambian la identidad o tray
 - #286–#289: modelo, persistencia, interfaz e integración. Almacenamiento local con clave novacoquinaria.culinary-pantry, esquema 0.1.0; transferencia efímera de nombres a Explorer mediante sessionStorage.
 - #289: tres workflows satisfactorios; 141 Python, 30 Node y recorridos Chromium de las tres aplicaciones. 590 recetas; 591 archivos de asistente y 51 destinos de técnicas. Snapshot CI 2ba17bded8f2de3c365c51745f3377b9f0fd3a33.
 - gh-pages contiene el despliegue del merge #289 y la plantilla de Pantry con recursos versionados. Verificación de uso público pendiente.
-- Culinary Shopping es la siguiente capacidad desarrollada en #291–#297; próxima candidata: Culinary Planner. Sin nueva release.
+- Culinary Shopping se desarrolló en #291–#297 y Culinary Planner en #299–#303; siguiente capacidad por decidir. Sin nueva release.
 
 ### Actualización de continuidad: PRs #290–#297
 
