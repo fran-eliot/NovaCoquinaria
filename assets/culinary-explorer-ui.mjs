@@ -1,3 +1,4 @@
+import {storeSelection} from "./culinary-planner-recipe-transfer.mjs";
 import {createSearch} from "./culinary-explorer-search.mjs";
 
 import {takeMentions} from "./culinary-pantry-transfer.mjs";
@@ -72,6 +73,16 @@ function card({recipe,matches}) {
   // Un enlace corto debe abrir la aplicación actual y no una página antigua en caché.
   cook.href = "recipe-assistant.html?" + params.toString();
   article.append(cook);
+  const plan=element("button","Planificar receta","secondary");
+  plan.type="button";
+  plan.addEventListener("click",()=>{
+    try{
+      if(!confirm("¿Abrir el planificador para incorporar esta receta?"))return;
+      storeSelection(()=>window.sessionStorage,recipe.id);
+      window.location.assign("culinary-planner.html");
+    }catch(error){$("status").textContent=error.message;}
+  });
+  article.append(plan);
   if (matches.length) {
     const details = element("details");
     details.append(element("summary","Ver menciones coincidentes"));
