@@ -2,7 +2,7 @@
 id: DOC-REVISION-APLICACIONES-CULINARIAS-2026
 titulo: Revisión estratégica de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: propuesta
 ultima_revision: 2026-11-21
 ---
@@ -110,3 +110,13 @@ La primera ejecución recomendada es **Unidad A — Integrated Journey Baseline*
 - [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md)
 - [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md)
 - [Deuda semántica de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md)
+
+## Unidad A — Línea base del recorrido integrado
+
+Se incorpora `tools/check_culinary_integrated_journey_browser.py` al workflow **Culinary Explorer site**. El escenario utiliza un servidor HTTP local, un contexto de Chromium nuevo y una copia temporal del portal; no carga, guarda ni elimina datos personales del portal público.
+
+La prueba enlaza explícitamente Explorer → Planner → Recipe Assistant → Shopping → Pantry, con una misma referencia de receta y las tres claves locales observadas en cada frontera. Verifica la selección efímera, que Planner no escribe antes de confirmar, que el asistente no crea una compra al marcar una ocurrencia, la revisión de artículo antes de añadirlo, la inexistencia de inventario después del marcado de compra, la cancelación de transferencia, la creación de un lote individual tras revisión y confirmación, su coincidencia íntegra con el historial protegido de Shopping, y la persistencia del recorrido tras recargas. Las cantidades de compra y de inventario solo proceden de la acción explícita del test, no se calculan desde las menciones de la receta.
+
+**Alcance de evidencia:** CWC-01–CWC-05 y CWC-10 de forma dirigida; CWC-11 en la medida acreditada por la construcción y las regresiones existentes. La Unidad A no verifica CWC-06–CWC-09 ni CWC-12 en su totalidad: quedan para las unidades B–D. La regresión no acredita uso público manual, atomicidad entre claves, sincronización ni seguridad culinaria.
+
+El resultado de CI y el artefacto `integrated-journey-browser.json` se anotarán solo después de observarlos. No se asume que añadir un test equivale a superarlo.
