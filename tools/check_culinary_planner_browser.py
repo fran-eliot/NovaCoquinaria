@@ -83,6 +83,7 @@ def exercise(site):
                 page.once("dialog",lambda d:d.accept())
                 page.locator("#results article").first.get_by_role("button",name="Planificar receta").click()
                 expect(page).to_have_url(base+"culinary-planner.html")
+                print("Planner integration diagnostic:",page.locator("#catalog-status").inner_text(),page.locator("#entry-source").inner_text(),flush=True)
                 expect(page.locator("#entry-source")).to_contain_text("Receta seleccionada")
                 assert page.evaluate("(k)=>sessionStorage.getItem(k)",SELECTION) is None
                 page.locator("#entry-date").fill("2026-11-21")
