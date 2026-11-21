@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.4
+version: 3.5
 estado: estable
 ultima_revision: 2026-11-21
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Comprobar Pantry y Shopping en el portal y delimitar Culinary Planner |
+| Próximo objetivo | Verificar el uso público de Planner y las demás aplicaciones |
 
 ---
 
@@ -94,6 +94,10 @@ Las cuatro unidades de [Culinary Explorer 0.1.0](./ALCANCE_CULINARY_EXPLORER.md)
 
 Las PR #291–#297 incorporan [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPPING.md): listas declaradas, revisión de ingredientes desde Recipe Assistant, marcado de compras y alta confirmada de lotes en Pantry. La intención se registra previamente y una recuperación no recrea un lote de resultado incierto. Web Locks solo coordina operaciones cooperantes; no existe transacción atómica entre almacenamientos. CI #297: 141 pruebas Python, 63 Node y recorridos Chromium satisfactorios de Explorer, Assistant, Pantry y Shopping. gh-pages registra Deployed 765d507; se comprobaron los recursos publicados en la rama, no la experiencia de un usuario real en la URL pública. La release vigente sigue siendo v1.6.0.
 
+## Corte de planificación culinaria — 2026-11-21
+
+La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c514f964d51a126a527`. El planificador permite registrar varias comidas por fecha, conservar referencias históricas, seleccionar expresamente recetas desde Explorer/Assistant y mantener copias locales independientes de Shopping/Pantry. CI de #303: los tres workflows finalizaron en success y Chromium confirmó la navegación y el aislamiento. El despliegue en gh-pages está comprobado (fd3ddc7 y página del planificador), pero esta evidencia no acredita el uso manual público. No hay prueba manual pública acreditada. La release publicada permanece v1.6.0.
+
 # Estado por capacidades
 
 | Capacidad | Estado |
@@ -118,6 +122,7 @@ Las PR #291–#297 incorporan [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPP
 | Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
 | Culinary Pantry 0.1.0 | 🟢 Integrado y desplegado; prueba pública pendiente |
 | Culinary Shopping 0.1.0 | 🟢 Integrado y desplegado; aceptación técnica dirigida, prueba pública pendiente |
+| Culinary Planner 0.1.0 | 🟡 Implementado en main y validado en CI; despliegue en gh-pages verificado; prueba manual pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -167,7 +172,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Comprobar el uso público de Pantry y Shopping y delimitar Culinary Planner, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Comprobar el uso público de Planner, Pantry y Shopping y evaluar la siguiente prioridad, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 

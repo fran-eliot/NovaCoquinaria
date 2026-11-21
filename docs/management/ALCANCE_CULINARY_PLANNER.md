@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PLANNER-2026
 titulo: Alcance de entrega de Culinary Planner
 tipo: gestion
-version: 0.1.4
+version: 0.1.5
 estado: borrador
 ultima_revision: 2026-11-21
 ---
@@ -143,3 +143,20 @@ Las entradas históricas con origen de receta solo muestran enlaces a la ficha y
 El build de MkDocs incluye la plantilla Planner, su CSS, el modelo, el adaptador de persistencia, la interfaz y el módulo de transferencia con nombres versionados de forma conjunta. La portada enlaza a Planner y Explorer ofrece acceso. Las pruebas de sitio comprueban la presencia y el versionado de los cinco módulos, junto con los recursos existentes. Los recorridos Chromium de Planner cubren alta, edición, filtros, calendario, copia JSON, selección desde Explorer/Assistant, bloqueo de referencia caducada y aislamiento de Shopping/Pantry. Se mantiene la regresión de las otras cuatro aplicaciones.
 
 Este incremento no calcula faltantes, no genera listas ni consume existencias, no usa backend ni sincronización y no promete validación nutricional. El CI y el despliegue deberán constatarse antes del cierre técnico: la presencia de la plantilla no equivale por sí misma a aceptación pública. La última release aprobada continúa siendo v1.6.0.
+
+## Corte de integración técnica — PR #303
+
+Las unidades A–D se han fusionado mediante #300–#303 (alcance #299). El commit de main es `fd3ddc760788dc0a61749c514f964d51a126a527`. Las verificaciones de la PR #303 terminaron satisfactoriamente: Knowledge integrity, Knowledge audit y Culinary Explorer site. El recorrido Chromium del planificador generó `{"passed":true,"browser":"Chromium","planner_week":true,"crud":true,"backup":true,"explorer_selection":true,"assistant_selection":true,"stale_reference_blocked":true,"local_only":true}`. Se corrigieron en la misma PR la inicialización del catálogo al entrar en Planner y un selector ambiguo en las pruebas.
+
+| Criterio | Evidencia y limitación |
+|---|---|
+| PLN-01–PLN-05 | Modelo puro, fechas civiles y operaciones verificadas con Node |
+| PLN-06–PLN-07 | Selección explícita, procedencia y bloqueo conservador de referencias históricas; tests Node y Chromium |
+| PLN-08 | Filtros de día, momento y título; recorrido Chromium |
+| PLN-09–PLN-10 | Almacenamiento exclusivo, recarga, copias e importación con confirmación; tests Node y Chromium dirigidos |
+| PLN-11 | Navegación Explorer/Assistant con coincidencia verificada contra el catálogo |
+| PLN-12–PLN-13 | Aislamiento de Shopping/Pantry y textos no ejecutables en las pruebas dirigidas |
+| PLN-14 | Pruebas Node y recorrido Chromium con resultado satisfactorio |
+| PLN-15 | Build reproducible y validaciones de sitio satisfactorias; despliegue en gh-pages confirmado; prueba manual pública pendiente |
+
+**Publicación verificada:** la rama `gh-pages` (`936e5b4f3ae822c5d7bb9d656618ddce4210abf7`) registra `Deployed fd3ddc7` y contiene `culinary-planner.html`. Falta la prueba manual de navegación y funcionalidad en la URL pública; las comprobaciones Chromium en CI no la sustituyen. La release vigente es v1.6.0.
