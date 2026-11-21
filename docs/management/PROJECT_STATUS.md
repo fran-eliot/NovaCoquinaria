@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.5
+version: 3.6
 estado: estable
 ultima_revision: 2026-11-21
 ---
@@ -122,7 +122,7 @@ La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c51
 | Culinary Recipe Assistant 0.1.0 | 🟢 Publicado; funcionamiento comunicado tras #284 |
 | Culinary Pantry 0.1.0 | 🟢 Integrado y desplegado; prueba pública pendiente |
 | Culinary Shopping 0.1.0 | 🟢 Integrado y desplegado; aceptación técnica dirigida, prueba pública pendiente |
-| Culinary Planner 0.1.0 | 🟡 Implementado en main y validado en CI; despliegue en gh-pages verificado; prueba manual pública pendiente |
+| Culinary Planner 0.1.0 | 🟢 Implementado y desplegado, con CI dirigido satisfactorio; prueba manual pública pendiente |
 | Plataforma software | ⚪ Backend y Runtime planificados |
 
 ---
@@ -172,9 +172,15 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Comprobar el uso público de Planner, Pantry y Shopping y evaluar la siguiente prioridad, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Ejecutar el protocolo manual de aceptación de las cinco aplicaciones y evaluar la siguiente prioridad, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
+
+## Consolidación de recorridos — 21 de noviembre de 2026
+
+Las PR #306–#308 consolidan pruebas de extremo a extremo, recuperación conservadora de transferencias y accesibilidad dirigida en las cinco aplicaciones. Cada PR superó Knowledge integrity, Knowledge audit y Culinary Explorer site. El despliegue de la PR #308 se observó en gh-pages `63ea9fc73467b1503d62beeeca65508340fd0980` (`Deployed 49cd792`) y se comprobaron los enlaces de salto al contenido en los cinco HTML de la rama. La aceptación funcional manual del portal público no se ha documentado y no debe considerarse superada.
+
+La Unidad D dispone de un [protocolo de aceptación pública](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md) con evidencia pendiente de cumplimentar. Ninguna de las nuevas unidades compromete una release; la última versión autorizada es v1.6.0.
 
 # Prioridades actuales
 
