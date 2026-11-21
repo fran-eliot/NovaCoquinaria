@@ -157,6 +157,6 @@ Las unidades A–D se han fusionado mediante #300–#303 (alcance #299). El comm
 | PLN-11 | Navegación Explorer/Assistant con coincidencia verificada contra el catálogo |
 | PLN-12–PLN-13 | Aislamiento de Shopping/Pantry y textos no ejecutables en las pruebas dirigidas |
 | PLN-14 | Pruebas Node y recorrido Chromium con resultado satisfactorio |
-| PLN-15 | Build reproducible y validaciones de sitio satisfactorias; publicación pública pendiente de confirmar |
+| PLN-15 | Build reproducible y validaciones de sitio satisfactorias; despliegue en gh-pages confirmado; prueba manual pública pendiente |
 
-**Publicación no acreditada en el corte:** la rama `gh-pages` (`4a3fcae1537183798777ae6feb077ab2c5e4d97a`) registra `Deployed 9ed54f7`, anterior al merge #303, y la consulta de `culinary-planner.html` devuelve 404. Verificar un nuevo despliegue del commit `fd3ddc760788dc0a61749c514f964d51a126a527` y la navegación real antes de cerrar aceptación pública. La release vigente es v1.6.0.
+**Publicación verificada:** la rama `gh-pages` (`936e5b4f3ae822c5d7bb9d656618ddce4210abf7`) registra `Deployed fd3ddc7` y contiene `culinary-planner.html`. Falta la prueba manual de navegación y funcionalidad en la URL pública; las comprobaciones Chromium en CI no la sustituyen. La release vigente es v1.6.0.
