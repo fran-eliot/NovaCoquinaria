@@ -96,7 +96,7 @@ Las PR #291–#297 incorporan [Culinary Shopping 0.1.0](./ALCANCE_CULINARY_SHOPP
 
 ## Corte de planificación culinaria — 2026-11-21
 
-La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c514f964d51a126a527`. El planificador permite registrar varias comidas por fecha, conservar referencias históricas, seleccionar expresamente recetas desde Explorer/Assistant y mantener copias locales independientes de Shopping/Pantry. CI de #303: los tres workflows finalizaron en success y Chromium confirmó la navegación y el aislamiento. Esta evidencia no equivale a publicación: gh-pages ha publicado fd3ddc7 y contiene la página del planificador. No hay prueba manual pública acreditada. La release publicada permanece v1.6.0.
+La PR #303 integra Culinary Planner 0.1.0 en el commit `fd3ddc760788dc0a61749c514f964d51a126a527`. El planificador permite registrar varias comidas por fecha, conservar referencias históricas, seleccionar expresamente recetas desde Explorer/Assistant y mantener copias locales independientes de Shopping/Pantry. CI de #303: los tres workflows finalizaron en success y Chromium confirmó la navegación y el aislamiento. El despliegue en gh-pages está comprobado (fd3ddc7 y página del planificador), pero esta evidencia no acredita el uso manual público. No hay prueba manual pública acreditada. La release publicada permanece v1.6.0.
 
 # Estado por capacidades
 
@@ -172,7 +172,7 @@ Actualmente el SGCC permite:
 
 ## Próximo objetivo
 
-Comprobar el despliegue y uso público de Planner, Pantry y Shopping y evaluar la siguiente prioridad, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
+Comprobar el uso público de Planner, Pantry y Shopping y evaluar la siguiente prioridad, conservando la evidencia experimental y la deuda registrada. No se compromete nueva release. La [consolidación del conocimiento](./CONSOLIDACION_CONOCIMIENTO.md) define los incrementos y sus condiciones de aceptación. Las recetas nuevas se incorporarán de forma selectiva según experiencia, carencias y reutilización.
 
 ---
 
