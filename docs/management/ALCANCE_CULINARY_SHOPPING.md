@@ -2,9 +2,9 @@
 id: DOC-ALCANCE-SHOPPING-2026
 titulo: Alcance de entrega de Culinary Shopping
 tipo: gestion
-version: 0.1.6
+version: 0.1.7
 estado: borrador
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-21
 ---
 
 # Culinary Shopping — alcance de entrega
@@ -117,3 +117,32 @@ Shopping ofrece la incorporación individual de artículos comprados sin transfe
 La interfaz emplea Web Locks con nombre novacoquinaria.shopping-pantry-transfer y adquisición exclusiva no bloqueante para serializar transferencias entre pestañas que ejecutan este protocolo. Si no existe la API, se deshabilita el recorrido; si el bloqueo está ocupado, se rechaza la operación. Durante la operación se impiden nuevos cambios en la misma interfaz y se contrasta la fotografía revisada. Las escrituras ordinarias de Pantry y Shopping no adquieren este bloqueo; los adaptadores conservan su contraste optimista. No se acredita atomicidad ni eliminación de toda carrera entre escrituras ordinarias, otras versiones de la aplicación o restauraciones independientes.
 
 Se incorporan enlaces recíprocos entre Shopping y Pantry y se incluye el coordinador en el versionado de recursos. Se amplía el recorrido Chromium con cancelación, revisión de ubicación y fecha, alta y visualización en Pantry, protección del historial, fallo inducido al finalizar y recuperación tras recarga sin duplicar el lote, y fallo inducido al escribir Pantry con destino ausente y rechazo de recreación. Es evidencia dirigida, no una prueba exhaustiva de concurrencia ni accesibilidad. La comprobación real en el portal público de Pantry sigue pendiente, así como la aceptación final de Shopping y los resultados de este incremento. No se modifica la release v1.6.0.
+
+## Cierre técnico — #297
+
+Las unidades A–D se integraron a través de #292–#297, tras el alcance aprobado en #291. El merge final es `765d50784bcceb87303a72ce621090e40893d587`. La comprobación dirigida de CI de la PR #297 se ejecutó sobre el merge sintético `39ae81050fb9930c55b5ac78f55e559b68a9e720`, que no debe confundirse con el merge de main.
+
+- [Knowledge integrity](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697344018): success.
+- [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697343958): success; 141 Python y 63 pruebas Node, sin advertencias semánticas ni documentos huérfanos.
+- [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697343969): success; reconstrucción reproducible, 590 recetas y 591 archivos del asistente; los cuatro recorridos Chromium finalizaron con passed=true.
+- gh-pages `a6f541d03364dade49d0b0f61dd90a2480926496`: mensaje de despliegue Deployed 765d507; se comprobó en la rama el HTML de Shopping, Pantry y Assistant con recursos versionados. La visita independiente de un usuario real al portal público no está acreditada.
+
+| Criterio | Evidencia y límite |
+|---|---|
+| SHP-01 | Modelo 0.1.0 y límites, diez pruebas Node |
+| SHP-02 | Operaciones puras y recorrido Chromium de listas |
+| SHP-03 | Validación compartida con Pantry y revisión de cantidades literales |
+| SHP-04 | Marcado reversible, filtros, progreso; no modifica Pantry al marcar |
+| SHP-05 | Almacenamiento separado y recarga en navegador |
+| SHP-06 | Copia JSON, importación validada y cancelación en pruebas |
+| SHP-07 | Errores/conflictos simulados, sin garantía de concurrencia transaccional |
+| SHP-08 | Selección de ocurrencias desde Assistant y transferencia efímera en Chromium |
+| SHP-09 | Revisión de artículos y procedencia; no inferencia de cantidades o faltantes |
+| SHP-10 | Incorporación individual de comprados con formulario de revisión; no transferencia masiva |
+| SHP-11 | Intención anterior al lote, recuperación sin recreación y fallos parciales inducidos; sin atomicidad |
+| SHP-12 | Controles nativos y pruebas Chromium móvil/escritorio; accesibilidad exhaustiva no auditada |
+| SHP-13 | Texto no activo y datos personales locales; sin aislamiento de otros scripts del origen |
+| SHP-14 | 141 Python, 63 Node y los cuatro recorridos Chromium en CI |
+| SHP-15 | Build y despliegue versionados comprobados en rama; prueba manual pública pendiente |
+
+**Estado:** implementación completa, validación técnica dirigida superada y despliegue registrado. La comprobación pública de Shopping y Pantry permanece pendiente. No se aprueba una nueva release; v1.6.0 sigue siendo la última versión publicada. La siguiente capacidad candidata es Culinary Planner, sin anticipar inferencias de suficiencia, disponibilidad o compatibilidad.
