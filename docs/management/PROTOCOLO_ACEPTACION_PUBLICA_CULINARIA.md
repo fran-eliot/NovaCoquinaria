@@ -2,7 +2,7 @@
 id: DOC-ACEPTACION-PUBLICA-CULINARIA-2026
 titulo: Protocolo de aceptación pública de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: pendiente-de-ejecucion-manual
 ultima_revision: 2026-11-21
 ---
@@ -84,3 +84,11 @@ Para cada caso ejecutado, registrar como mínimo: `fecha`, `URL`, `commit main`,
 Esta unidad entrega **el protocolo, la matriz de evidencias vacía y la reconciliación documental**. No se declarará completada la aceptación pública hasta disponer de la comprobación manual del propietario, resolver incidencias bloqueantes y registrar su decisión. El cierre **documental** puede validarse en PR separada del cierre **operativo**.
 
 No se añade backend, sincronización, inferencia de faltantes, automatización de compras, nuevas recetas, sprint, milestone ni release. Se mantienen los principios y el reparto de responsabilidades entre el repositorio y el propietario.
+
+## Comprobación HTTP pública complementaria — sonda de solo lectura
+
+Se incorpora `tools/check_culinary_public_http.py` y el workflow manual `Culinary Public HTTP Smoke`. Puede ejecutarse desde **GitHub → Actions → Culinary Public HTTP Smoke → Run workflow**, una vez fusionada la PR que lo incluya. El workflow no está programado, no modifica ningún documento ni accede al almacenamiento de los navegadores. Genera el artefacto `culinary-public-http-evidence` con la URL base, fecha UTC, resultados por página, recursos obtenidos y concordancia entre catálogo y manifiesto.
+
+El contraste utiliza solicitudes GET de red a las cinco páginas, a sus scripts y CSS de entrada, al JSON del catálogo y al manifiesto de Recipe Assistant. Exige respuesta HTTP 200, enlace de salto visible en HTML, destino de navegación, módulos de entrada versionados, recursos presentes, catálogo no vacío y concordancia de recuento, `source_commit` e `index_sha256` con el manifiesto. Se rechazan recursos que cambien de origen o utilicen rutas relativas inseguras. Las pruebas de contrato del propio comprobador se ejecutan **sin acceso a red** durante Knowledge audit.
+
+Esta comprobación es evidencia pública HTTP, **no** aceptación de los casos PUB-01–PUB-07: no ejecuta JavaScript, no comprueba interacciones, no usa el `localStorage` del usuario, no prueba un dispositivo real y no sustituye las decisiones del propietario. Hasta observar una ejecución real del workflow y su artefacto no se debe marcar como satisfecha la nueva comprobación. Un resultado HTTP positivo, si se obtiene, será un escalón intermedio entre publicación observada en `gh-pages` y aceptación manual del portal.
