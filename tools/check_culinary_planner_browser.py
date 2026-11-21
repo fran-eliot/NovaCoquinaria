@@ -83,7 +83,6 @@ def exercise(site):
                 page.once("dialog",lambda d:d.accept())
                 page.locator("#results article").first.get_by_role("button",name="Planificar receta").click()
                 expect(page).to_have_url(base+"culinary-planner.html")
-                print("Planner integration diagnostic:",page.locator("#catalog-status").inner_text(),page.locator("#entry-source").inner_text(),flush=True)
                 expect(page.locator("#entry-source")).to_contain_text("Receta seleccionada")
                 assert page.evaluate("(k)=>sessionStorage.getItem(k)",SELECTION) is None
                 page.locator("#entry-date").fill("2026-11-21")
@@ -117,7 +116,7 @@ def exercise(site):
                 page.evaluate("([key,raw])=>localStorage.setItem(key,raw)",[PLANNER,json.dumps(plan)])
                 page.reload()
                 expect(page.locator("#entry-controls")).to_be_enabled()
-                page.locator("#week-grid button").filter(has_text="21").click()
+                page.locator('#week-grid button[aria-label^="Sábado 2026-11-21:"]').click()
                 recipe_card=page.locator("#day-entries article").filter(has_text=item["title"])
                 expect(recipe_card).to_contain_text("Referencia de receta no verificada")
                 expect(recipe_card.get_by_role("link",name="Abrir asistente")).to_have_count(0)
