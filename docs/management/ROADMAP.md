@@ -232,7 +232,7 @@ El [alcance de recuperación textual](./ALCANCE_RECUPERACION_TEXTUAL.md) registr
 - [Culinary Recipe Assistant](./ALCANCE_CULINARY_RECIPE_ASSISTANT.md): 0.1.0 integrado y desplegado en gh-pages; aceptación técnica dirigida superada y funcionamiento público comunicado tras #284.
 - [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md): 0.1.0 integrado y desplegado; inventario declarado, persistencia local y búsqueda por menciones, prueba pública pendiente.
 - [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md): 0.1.0 integrado y desplegado; listas y transferencias revisadas, aceptación técnica dirigida superada, uso público pendiente.
-- [Culinary Planner](./ALCANCE_CULINARY_PLANNER.md): 0.1.0 integrado en main tras #303 y contrastado mediante CI; despliegue y prueba pública pendientes. Planificación manual por fecha, recetas vinculadas o platos libres, sin inferir cocinabilidad, nutrición, faltantes ni disponibilidad.
+- [Culinary Planner](./ALCANCE_CULINARY_PLANNER.md): 0.1.0 integrado en main tras #303 y contrastado mediante CI; despliegue verificado, prueba manual pública pendiente. Planificación manual por fecha, recetas vinculadas o platos libres, sin inferir cocinabilidad, nutrición, faltantes ni disponibilidad.
 
 # Capacidades futuras
 
