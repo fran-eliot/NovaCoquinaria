@@ -88,6 +88,8 @@ jobs:
         run: node --test tools/test_culinary_shopping_pantry_coordinator.mjs
       - name: Test Culinary Shopping persistence
         run: node --test tools/test_culinary_shopping_persistence.mjs
+      - name: Test Culinary Planner model
+        run: node --test tools/test_culinary_planner_model.mjs
       - name: Test Culinary Shopping model
         run: node --test tools/test_culinary_shopping_model.mjs
       - name: Test Culinary Pantry model

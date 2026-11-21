@@ -2,7 +2,7 @@
 id: DOC-ALCANCE-PLANNER-2026
 titulo: Alcance de entrega de Culinary Planner
 tipo: gestion
-version: 0.1.0
+version: 0.1.1
 estado: borrador
 ultima_revision: 2026-11-21
 ---
@@ -103,3 +103,13 @@ Las ramas y PR serán temáticas, partiendo cada una del último `main` aprobado
 - [Culinary Pantry](./ALCANCE_CULINARY_PANTRY.md)
 - [Culinary Shopping](./ALCANCE_CULINARY_SHOPPING.md)
 - [Deuda semántica de requisitos culinarios](./DEUDA_REQUISITOS_CULINARIOS.md)
+
+## Unidad A — Contrato y modelo de planificación
+
+`assets/culinary-planner-model.mjs` implementa un modelo puro, sin almacenamiento, DOM o red. La estructura `{schema_version:"0.1.0",entries:[]}` admite hasta 2.000 entradas, cada una con ID ASCII opaco y único de hasta 80 caracteres, fecha civil ISO de año 0001–9999, comida declarada (`breakfast`, `lunch`, `dinner`, `other`), título de hasta 160 caracteres, notas opcionales de hasta 1.000 caracteres y origen estricto. Las operaciones de alta, edición y eliminación conservan el orden de inserción y devuelven copias validadas.
+
+El origen `free_text` contiene únicamente su discriminante. Un origen `recipe` conserva `recipe_id`, `source_commit` (SHA de 40 caracteres) y `source_path` (ruta relativa Markdown acotada). Estos campos son referencias históricas, no enlaces autorizados: el consumidor deberá comprobar el registro contra el catálogo actual antes de habilitar navegación. El título es siempre una declaración del usuario; no se normaliza contra otras recetas. La edición conserva el tipo y la procedencia, y requiere crear otra entrada para cambiar la identidad documental.
+
+El cálculo de semanas emplea días ordinales gregorianos enteros, sin conversiones a UTC ni objeto `Date`; comienza en lunes y rechaza desplazamientos fuera del intervalo representable. El último día del año 9999 es válido como fecha, pero una vista semanal que sobrepase el límite del calendario no se genera. Los filtros por fecha, momento y título son acumulables; el texto se compara con normalización Unicode NFC y sin distinguir mayúsculas, sin interpretación semántica. La composición de referencias visibles, el catálogo y las búsquedas de recetas quedan fuera de esta unidad.
+
+Se incorporan ocho pruebas Node sobre validación, años bisiestos, transiciones anuales, orden, inmovilidad de origen, duplicados, filtros, referencias no comprobadas y ausencia de URLs personales. La cobertura se conecta con Knowledge audit. Persistencia, interfaz e integración continúan pendientes; no se modifica la release v1.6.0.
