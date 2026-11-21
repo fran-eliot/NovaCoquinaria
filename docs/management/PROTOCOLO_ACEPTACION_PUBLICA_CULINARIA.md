@@ -18,7 +18,7 @@ La ruta pública conocida es `https://fran-eliot.github.io/NovaCoquinaria/`. Par
 ### Condiciones previas
 
 1. Verificar que `main` contiene el merge #308 (commit `49cd7925f8de2c280512b1854b0dbd2f4120f0a7`) y que Knowledge integrity, Knowledge audit y Culinary Explorer site han terminado correctamente.
-2. Verificar un nuevo mensaje de despliegue de `gh-pages` que corresponda a ese commit **o a otro posterior que lo contenga** y comprobar que los cinco HTML incluyen el enlace `Saltar al contenido principal`. Inicialmente se observó `Deployed 6402600`, anterior a #308; posteriormente `gh-pages` se actualizó a `63ea9fc73467b1503d62beeeca65508340fd0980` (`Deployed 49cd792`). Planner incorpora el enlace de salto en la rama publicada; comprobar los restantes HTML y el funcionamiento real en la URL pública sigue siendo un control separado.
+2. Verificar un nuevo mensaje de despliegue de `gh-pages` que corresponda a ese commit **o a otro posterior que lo contenga** y comprobar que los cinco HTML incluyen el enlace `Saltar al contenido principal`. Inicialmente se observó `Deployed 6402600`, anterior a #308; posteriormente `gh-pages` se actualizó a `63ea9fc73467b1503d62beeeca65508340fd0980` (`Deployed 49cd792`). Los cinco HTML incorporan el enlace de salto en la rama publicada; comprobar el funcionamiento real en la URL pública sigue siendo un control separado.
 3. Usar **perfil temporal o ventana de prueba aislada** sin datos habituales de Pantry, Shopping y Planner. Las tres aplicaciones comparten el origen y guardan datos en `localStorage`; borrar los datos del sitio en un perfil normal podría destruir información real.
 4. No importar las copias personales en esta prueba; emplear exclusivamente nombres y cantidades de ejemplo. Si la prueba se interrumpe, conservar el perfil de prueba mientras se investiga y eliminarlo solo cuando el usuario haya revisado sus resultados.
 5. No ejecutar compras reales, no asumir que una receta es segura para el consumo ni interpretar productos declarados como físicamente disponibles.
@@ -75,7 +75,7 @@ Para cada caso ejecutado, registrar como mínimo: `fecha`, `URL`, `commit main`,
 | Unidad A — recorrido integrado | Integrada en #306; CI success | Chromium local, escenario controlado |
 | Unidad B — matriz de fallos | Integrada en #307; CI success | Storage simulado, sin sincronización ni atomicidad |
 | Unidad C — accesibilidad dirigida | Integrada en #308; CI success (15 casos) | No es auditoría WCAG ni prueba manual |
-| GitHub Pages | `Deployed 49cd792` observado y enlace de salto de Planner presente en la rama | Verificar cinco destinos y uso público real |
+| GitHub Pages | `Deployed 49cd792` observado y cinco HTML con enlace de salto comprobados en la rama | Verificar uso público real |
 | Pruebas públicas del propietario | No acreditadas | No marcar como superadas sin ejecución |
 | Nueva release | No autorizada | Sigue v1.6.0 |
 
