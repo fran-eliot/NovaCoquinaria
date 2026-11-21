@@ -2,7 +2,7 @@
 id: DOC-REVISION-APLICACIONES-CULINARIAS-2026
 titulo: Revisión estratégica de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.3
+version: 0.1.4
 estado: propuesta
 ultima_revision: 2026-11-21
 ---
@@ -138,3 +138,11 @@ Se incorpora a las cinco plantillas un enlace de salto al contenido principal vi
 El recorrido `tools/check_culinary_accessibility_browser.py`, añadido a **Culinary Explorer site**, contrasta en Chromium los cinco documentos a 320, 390 y 1.280 píxeles. Comprueba que el enlace de salto es el primer elemento del recorrido Tab y activa el foco de la región principal, que existe una región de estado identificable, que no aparece desplazamiento horizontal de documento y que no hay errores JavaScript. Verifica adicionalmente selección de día con teclado y rechazo de formularios incompletos en Planner sin persistencia.
 
 **Evidencia acotada:** CWC-09 mediante casos dirigidos; CWC-11 mediante regresión del portal. No se afirma conformidad WCAG, cobertura completa de lectores de pantalla, contraste exhaustivo, criterios de zoom, navegación de todos los diálogos, revisión por personas usuarias, dispositivos físicos ni aceptación de la URL pública. Se conservarán los fallos observados y se corregirán en la misma PR antes de aceptar la unidad.
+
+## Unidad D — Protocolo de aceptación pública y estado documental
+
+Se publica el [protocolo de aceptación pública](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md), con identificadores PUB-01–PUB-07, recorridos manuales de las cinco aplicaciones, condiciones para proteger datos reales, una plantilla de evidencia sin resultados inventados y una regla de cierre separando documentación de aceptación operativa.
+
+Las PR #306, #307 y #308 están fusionadas, con Knowledge integrity, Knowledge audit y Culinary Explorer site satisfactorios en cada caso. La línea base integrada comprobó un recorrido continuo en Chromium; la matriz de fallos abordó restauraciones y recuperación conservadora; la accesibilidad dirigida validó quince casos en anchuras 320/390/1280 px, sin acreditar conformidad WCAG.
+
+El despliegue `gh-pages` `63ea9fc73467b1503d62beeeca65508340fd0980` registra `Deployed 49cd792`, correspondiente al merge #308. Las cinco plantillas publicadas contienen el enlace de salto al contenido. Esto **no acredita** la ejecución de PUB-01–PUB-07 por el propietario ni equivale a aceptación pública del CWC-12; ese control sigue pendiente. No se publica nueva release: v1.6.0 continúa vigente.
