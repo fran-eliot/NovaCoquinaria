@@ -4,6 +4,7 @@ import hashlib
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
+import re
 from pathlib import Path
 import shutil
 import tempfile
@@ -123,7 +124,10 @@ def exercise(site):
                                 if entry["quantity"]["status"] == "exact"
                                 and entry["quantity"]["approximate"] is False
                                 and entry["quantity"]["min"] == entry["quantity"]["max"]
-                                and entry["quantity"]["unit"] in ("g", "kg", "ml", "cl", "l")]
+                                and entry["quantity"]["unit"] in ("g", "kg", "ml", "cl", "l")
+                                and isinstance(entry["quantity"]["min"], str)
+                                and re.fullmatch(r"(?:0|[1-9]\\d*)(?:\\.\\d+)?", entry["quantity"]["min"])
+                                and float(entry["quantity"]["min"]) > 0]
                     if eligible:
                         scaling_candidate = (candidate_id, candidate, original, len(eligible))
                         break
