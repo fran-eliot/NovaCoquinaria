@@ -88,6 +88,8 @@ jobs:
         run: node --test tools/test_culinary_shopping_pantry_coordinator.mjs
       - name: Test Culinary Shopping persistence
         run: node --test tools/test_culinary_shopping_persistence.mjs
+      - name: Check Culinary Planner UI syntax
+        run: node --check assets/culinary-planner-ui.mjs
       - name: Test Culinary Planner persistence
         run: node --test tools/test_culinary_planner_persistence.mjs
       - name: Test Culinary Planner model

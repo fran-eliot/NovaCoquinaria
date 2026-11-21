@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planificador culinario | NovaCoquinaria</title>
+<link rel="stylesheet" href="assets/culinary-explorer.css">
+<link rel="stylesheet" href="assets/culinary-planner.css">
+<script type="module" src="assets/culinary-planner-ui.mjs"></script>
+</head>
+<body><main>
+<header><a href="index.html">NovaCoquinaria</a><h1>Mi planificador culinario</h1><p>Organiza tus comidas por fechas y momentos del día.</p></header>
+<p class="notice">El plan es personal y se guarda únicamente en este navegador. No comprueba existencias, ingredientes faltantes, valores nutricionales ni viabilidad de las recetas.</p>
+<noscript>Activa JavaScript para utilizar el calendario.</noscript>
+<p id="status" role="status" aria-atomic="true">Cargando planificación…</p>
+<div class="actions"><button id="reload" class="secondary" type="button">Recargar plan</button><button id="export" type="button" disabled>Exportar copia JSON</button></div>
+<details class="panel"><summary>Importar copia de planificación</summary>
+<label>Archivo JSON <input id="import-file" type="file" accept=".json,application/json" disabled></label>
+<p id="import-preview" role="status"></p>
+<div class="actions"><button id="import-confirm" type="button" disabled>Confirmar sustitución</button><button id="import-cancel" type="button" class="secondary" disabled>Cancelar</button></div>
+<p class="help">Se sustituirá el plan completo solo tras confirmarlo. Shopping y Pantry no se modifican.</p>
+</details>
+<section class="panel" aria-labelledby="week-heading">
+<h2 id="week-heading">Calendario semanal</h2>
+<div class="actions"><button class="secondary" id="week-previous" type="button">Semana anterior</button><button class="secondary" id="week-next" type="button">Semana siguiente</button><button class="secondary" id="week-today" type="button">Semana actual</button></div>
+<p id="week-range" role="status"></p><div id="week-grid" class="week-grid" aria-label="Días de la semana"></div>
+</section>
+<section class="panel" aria-labelledby="day-heading">
+<h2 id="day-heading" tabindex="-1">Comidas del día</h2><div class="actions"><button class="secondary" id="day-previous" type="button">Día anterior</button><button class="secondary" id="day-next" type="button">Día siguiente</button></div>
+<p id="day-count" role="status"></p>
+<form id="filter-form"><fieldset><legend>Filtrar las entradas del día</legend><div class="fields">
+<label>Momento <select id="filter-meal"><option value="">Todos</option><option value="breakfast">Desayuno</option><option value="lunch">Comida</option><option value="dinner">Cena</option><option value="other">Otro</option></select></label>
+<label>Buscar por título <input id="filter-title" maxlength="160"></label></div><button class="secondary" type="reset">Limpiar filtros</button></fieldset></form>
+<div id="day-entries"></div>
+</section>
+<section class="panel" aria-labelledby="editor-heading">
+<h2 id="editor-heading">Añadir un plato libre</h2>
+<p class="help">Las referencias a recetas del catálogo se incorporarán en la unidad de integración. No se asignan por parecido del título.</p>
+<form id="entry-form"><fieldset id="entry-controls" disabled><legend>Detalle de la comida</legend><div class="fields">
+<label>Fecha <input id="entry-date" type="date" min="0001-01-01" max="9999-12-31" required></label>
+<label>Momento de comida <select id="entry-meal" required><option value="breakfast">Desayuno</option><option value="lunch">Comida</option><option value="dinner">Cena</option><option value="other">Otro</option></select></label>
+<label>Plato <input id="entry-title" maxlength="160" required></label>
+<label>Notas <textarea id="entry-notes" rows="3" maxlength="1000"></textarea></label></div>
+<div class="actions"><button id="entry-save" type="submit">Añadir al plan</button><button id="entry-cancel" type="button" class="secondary" hidden>Cancelar edición</button></div></fieldset></form>
+</section>
+<footer><p>Un plato libre es una declaración del usuario, no una receta verificada. Guarda copias de seguridad periódicamente.</p></footer>
+</main></body></html>
