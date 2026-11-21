@@ -2,7 +2,7 @@
 id: DOC-ACEPTACION-PUBLICA-CULINARIA-2026
 titulo: Protocolo de aceptación pública de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.1
+version: 0.1.2
 estado: pendiente-de-ejecucion-manual
 ultima_revision: 2026-11-21
 ---
@@ -92,3 +92,18 @@ Se incorpora `tools/check_culinary_public_http.py` y el workflow manual `Culinar
 El contraste utiliza solicitudes GET de red a las cinco páginas, a sus scripts y CSS de entrada, al JSON del catálogo y al manifiesto de Recipe Assistant. Exige respuesta HTTP 200, enlace de salto visible en HTML, destino de navegación, módulos de entrada versionados, recursos presentes, catálogo no vacío y concordancia de recuento, `source_commit` e `index_sha256` con el manifiesto. Se rechazan recursos que cambien de origen o utilicen rutas relativas inseguras. Las pruebas de contrato del propio comprobador se ejecutan **sin acceso a red** durante Knowledge audit.
 
 Esta comprobación es evidencia pública HTTP, **no** aceptación de los casos PUB-01–PUB-07: no ejecuta JavaScript, no comprueba interacciones, no usa el `localStorage` del usuario, no prueba un dispositivo real y no sustituye las decisiones del propietario. Hasta observar una ejecución real del workflow y su artefacto no se debe marcar como satisfecha la nueva comprobación. Un resultado HTTP positivo, si se obtiene, será un escalón intermedio entre publicación observada en `gh-pages` y aceptación manual del portal.
+
+## Evidencia HTTP observada — 2026-11-21
+
+El workflow `Culinary Public HTTP Smoke` se ejecutó correctamente en la PR #311, run `44946142425`, job `136973764535`, sobre la publicación `https://fran-eliot.github.io/NovaCoquinaria/`. El registro de ejecución indica `passed: true` y `checked_at_utc: 2026-11-21T20:25:04+00:00`.
+
+| Control de red | Resultado real |
+|---|---|
+| Explorer, Assistant, Pantry, Shopping, Planner | 5/5 con HTTP 200 |
+| Recursos de entrada JavaScript/CSS | 10 comprobados con HTTP 200 |
+| Enlaces de salto y módulos de entrada versionados | Presentes en las cinco páginas |
+| Catálogo público | 590 recetas |
+| Concordancia catálogo/manifiesto de Recipe Assistant | Correcta |
+| Commit documental del catálogo | `20214dd19a732c91d52ab469380d2b97146a6707` |
+
+La verificación empleó GET de solo lectura. No ejecutó JavaScript, no manipuló datos personales, no comprobó `localStorage` y **no convierte PUB-01–PUB-07 o CWC-12 en aceptados**. El informe está disponible como artefacto de la ejecución de GitHub Actions y el resultado también consta en sus logs. Para afirmar aceptación operativa sigue siendo necesaria la comprobación del propietario con un perfil temporal aislado.
