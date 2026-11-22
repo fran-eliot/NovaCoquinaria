@@ -4,8 +4,8 @@ tipo: receta
 titulo: Larb de cerdo con lima y menta
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,13 +59,14 @@ etiquetas:
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Carne picada con partes insuficientemente cocidas | Grumos grandes o cocción desigual en sartén | Separar los grumos y comprobar que alcance los 71 °C previstos antes del aliño |
+| Carne demasiado seca | Cocción prolongada después de estar completamente hecha | Retirar del calor al alcanzar la cocción segura antes de incorporar lima y hierbas |
+| Larb excesivamente salado | Salsa de pescado comercial concentrada | Incorporarla gradualmente y probar después de cocer la carne |
+| Aroma de menta apagado o arroz tostado blando | Hierbas añadidas con calor excesivo o arroz tostado molido incorporado demasiado pronto | Añadir menta y cilantro al final y el arroz tostado opcional cerca del servicio |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Mantener el cerdo picado crudo refrigerado y separado de las hierbas listas para comer. Cocinar completamente la carne, servir el larb templado de inmediato o enfriar rápidamente las sobras y refrigerarlas tapadas. Consumir pronto y recalentar completamente las porciones que se vayan a comer, teniendo en cuenta que las hierbas pierden frescura. El **arroz glutinoso opcional se tuesta seco y se muele**, no es arroz cocido utilizado como guarnición.
 
 ## Relaciones dentro del SGCC
 
