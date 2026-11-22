@@ -101,6 +101,8 @@ function renderRecipe(r) {
   $("yield").textContent="Rendimiento: "+(r.yield?r.yield.raw:
     r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
   const originalServings=scalingBasis(r);
+  const inlineScaled=new Map();
+  let refreshScaling=()=>{};
   if(originalServings!==null){
     $("scaling-panel").hidden=false;
     $("scaling-original").textContent=String(originalServings);
@@ -110,6 +112,7 @@ function renderRecipe(r) {
       preview.replaceChildren();
       const desired=target.valueAsNumber;
       if(!Number.isInteger(desired)||desired<1||desired>24){
+        for(const hint of inlineScaled.values()){hint.hidden=true;hint.textContent="";}
         status.textContent="Indica entre 1 y 24 raciones.";return;
       }
       let count=0;
@@ -118,10 +121,16 @@ function renderRecipe(r) {
         const li=node("li");
         if(scaled){li.textContent=entry.raw+" → "+scaled.quantity+" "+scaled.unit;count++;}
         else li.textContent=entry.raw+" — sin ajuste automático";
+        const hint=inlineScaled.get(entry.position);
+        if(hint){
+          hint.hidden=!scaled || desired===originalServings;
+          hint.textContent=scaled && desired!==originalServings?"Adaptado: "+scaled.quantity+" "+scaled.unit:"";
+        }
         preview.append(li);
       }
       status.textContent=count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
     }
+    refreshScaling=updateScaling;
     target.addEventListener("input",updateScaling);updateScaling();
   }
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
@@ -146,10 +155,14 @@ function renderRecipe(r) {
     if(e.group!==group){group=e.group;$("ingredients").append(node("h3",group??"Sin grupo"));}
     const label=node("label",undefined,"check-row"),input=node("input");
     input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();});
-    label.append(input,inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]));
-    $("ingredients").append(label);inputs.push(input);
+    const ingredientText=inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]);
+    const hint=node("small",undefined,"scaled-ingredient-hint");
+    hint.hidden=true;
+    label.append(input,ingredientText,hint);
+    $("ingredients").append(label);inputs.push(input);inlineScaled.set(e.position,hint);
   }
   if(!inputs.length) $("ingredients").append(node("p","No se reconocieron ingredientes; consulta la ficha."));
+  refreshScaling();
   for(const s of r.mise_en_place) {
     if(s.heading) $("mise").append(node("h4",s.heading));
     const body=node("div");renderMarkdown(body,s.content);$("mise").append(body);
