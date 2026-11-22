@@ -46,10 +46,19 @@ export function formatScaledList(recipe, targetServings) {
     "Cantidades orientativas. Revisar la ficha y los tiempos antes de cocinar.",
     ""
   ];
+  let previousGroup=null,first=true;
+  const grouped=recipe.ingredients.some(entry=>typeof entry.group==="string" && entry.group.trim());
   for(const entry of recipe.ingredients){
+    const group=typeof entry.group==="string" && entry.group.trim()?entry.group.trim():null;
+    if(grouped && (first || group!==previousGroup)){
+      if(!first) rows.push("");
+      rows.push(group??"Sin grupo");
+    }
     const scaled=scaleIngredient(entry,originalServings,targetServings);
     rows.push("- "+entry.raw+(targetServings===originalServings?"":scaled?
       " → "+scaled.quantity+" "+scaled.unit:" [revisar manualmente]"));
+    previousGroup=group;
+    first=false;
   }
   return rows.join("\n");
 }
