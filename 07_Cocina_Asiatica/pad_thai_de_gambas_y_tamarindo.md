@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pad thai de gambas y tamarindo
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -61,14 +61,14 @@ Preparación de referencia de inspiración asiática centrada en **hidratación 
 
 | Problema | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Fideos de arroz duros | Hidratación insuficiente o salteado breve para el grosor | Seguir el envase y comprobar ternura durante los 2–4 minutos finales, añadiendo algo de agua si procede |
+| Fideos pegados o deshechos | Hidratación excesiva o salteado prolongado | Partir de fideos flexibles pero aún sin cocer del todo y controlar su textura al mezclar |
+| Salsa demasiado ácida o salada | Pasta de tamarindo concentrada o salsa de pescado intensa | Probar la mezcla antes del salteado y registrar la marca y concentración utilizada |
+| Gambas correosas o huevo poco cuajado | Cocción desequilibrada de los ingredientes | Cocinar las gambas por separado hasta estar hechas y cuajar completamente el huevo antes de mezclar con los fideos |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Mantener refrigeradas las gambas, los huevos y los brotes frescos antes de cocinar. Servir el pad thai recién preparado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas tapadas; recalentar completamente las porciones destinadas al consumo. Los **fideos de arroz cocidos** y el marisco no deben permanecer horas a temperatura ambiente, y un recalentado no corrige una conservación previa insegura.
 
 ## Relaciones dentro del SGCC
 
