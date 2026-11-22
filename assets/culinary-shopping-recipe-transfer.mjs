@@ -26,7 +26,7 @@ export function createRecipeSelection(recipe,positions,{targetServings=null}={})
   const items=positions.map(pos=>{
     const e=recipe.ingredients[pos];
     if(!Number.isInteger(pos)||pos<0||!e||e.position!==pos)throw Error("Ocurrencia desconocida.");
-    const scaled=targetServings===null?null:scaleIngredient(e,base,targetServings);
+    const scaled=targetServings===null||targetServings===base?null:scaleIngredient(e,base,targetServings);
     const quantity=scaled?.quantity.replace(",",".")??null;
     return {name:(e.name||e.raw).trim().slice(0,160),provenance:{recipe_id:recipe.id,position:pos,
       source_location:{start_line:e.source_location.start_line,end_line:e.source_location.end_line},raw:e.raw,source_commit:recipe.source_commit},
