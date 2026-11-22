@@ -4,8 +4,8 @@ tipo: receta
 titulo: Panna cotta de vainilla
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - nata
@@ -94,8 +94,7 @@ Cuajado fino y tembloroso, sin grumos ni separación de líquido.
 
 ## Conservación
 
-Enfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.
-
+Una vez distribuida en moldes, enfriar la panna cotta sin demoras innecesarias y conservarla **tapada y refrigerada** durante el cuajado y hasta servir. Desmoldar cerca del servicio, si procede, sin dejar este postre lácteo a temperatura ambiente durante periodos prolongados. Consumir en un plazo corto según las condiciones de conservación de la nata y la leche utilizadas; si se incorpora un coulis, valorar también su conservación.
 ## Relaciones dentro del SGCC
 
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)

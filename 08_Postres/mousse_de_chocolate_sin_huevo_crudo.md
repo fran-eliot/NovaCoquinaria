@@ -4,8 +4,8 @@ tipo: receta
 titulo: Mousse de chocolate sin huevo crudo
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -47,22 +47,20 @@ Elaboración de referencia que trabaja **emulsión de chocolate y nata montada**
 
 ## Puntos críticos
 
-- Un chocolate demasiado caliente derrite la nata montada; si está excesivamente frío puede formar grumos. No se añade huevo crudo.
-- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.
-- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.
-
+- La ganache debe estar templada y todavía fluida antes de mezclarla con la nata montada: demasiado caliente deshace la espuma y demasiado fría forma grumos de chocolate.
+- Montar la nata fría hasta **picos suaves**, incorporar primero una cuarta parte para igualar densidades y añadir el resto con movimientos envolventes. Esta mousse **no se hornea ni contiene huevo crudo**.
+- Mantener la nata en frío y refrigerar los vasitos después del montaje, sin dejarlos a temperatura ambiente durante un tiempo prolongado.
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
-
+| Mousse líquida o sin aire | Ganache demasiado caliente o nata poco montada | Dejar templar el chocolate y montar nata fría hasta picos suaves antes de incorporarla |
+| Grumos sólidos de chocolate | Ganache demasiado fría al combinar con la nata | Integrar mientras esté fluida y templada, sin recalentar la mousse ya montada |
+| Textura granulosa o grasa | Nata excesivamente batida | Detener el batido en picos suaves y trabajar la mezcla sin sobrebatir |
+| Mousse demasiado dulce | Azúcar glas añadido a un chocolate ya dulce | Evaluar la primera tanda antes de ajustar los 25 g de azúcar glas en otra prueba |
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
-
+Refrigerar **tapados** los cinco vasitos durante el reposo indicado y mantener la mousse de nata y chocolate siempre en frío. Servir sin prolongar su exposición a temperatura ambiente y devolver al frigorífico cualquier porción sobrante. Consumir en un plazo corto de acuerdo con la frescura de la nata empleada; no tratarla como una elaboración de chocolate estable a temperatura ambiente.
 ## Relaciones dentro del SGCC
 
 - [Cacao puro](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md)

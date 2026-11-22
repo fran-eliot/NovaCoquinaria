@@ -4,8 +4,8 @@ tipo: receta
 titulo: Sorbete de limón sin huevo
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - limon
@@ -92,8 +92,7 @@ Sorbete fresco, ácido y dulce equilibrado, con cristales finos y textura raspab
 
 ## Conservación
 
-Enfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.
-
+Conservar el sorbete de agua, azúcar y limón **congelado**, en un recipiente alimentario bien cerrado para limitar olores y cristales grandes en la superficie. Extraer únicamente la cantidad que se vaya a servir; si está muy duro, dejarlo ablandar brevemente bajo control antes de rasparlo, evitando ciclos prolongados de descongelación y recongelación. Este sorbete no lleva huevo ni lácteos, por lo que las pautas de cremas refrigeradas no son aplicables.
 ## Relaciones dentro del SGCC
 
 - [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)

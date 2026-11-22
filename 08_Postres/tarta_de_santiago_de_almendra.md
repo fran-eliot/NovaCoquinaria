@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tarta de almendra estilo Santiago
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -57,14 +57,13 @@ Elaboración de referencia que trabaja **batido de huevos y horneado de almendra
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
-
+| Centro todavía líquido con bordes dorados | Cocción insuficiente en el molde de 22 cm o calor exterior excesivo | Comprobar el centro con brocheta y prolongar el horneado por intervalos cortos si es necesario |
+| Tarta excesivamente seca | Tiempo de horno prolongado para el grosor de la masa | Revisar antes de agotar el intervalo orientativo y registrar textura una vez fría |
+| Mezcla con zonas de almendra sin integrar | Distribución desigual de los ingredientes secos o de los huevos | Mezclar almendra, azúcar, canela y ralladura antes de añadir los huevos, sin montar excesivamente |
+| Dulzor excesivo | Proporción de 220 g de azúcar y posible acabado con azúcar glas | Valorar la tanda antes de proponer un ajuste; el azúcar glas decorativo es opcional |
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
-
+Enfriar completamente la tarta de almendra antes de desmoldar y cubrirla para evitar condensación. Al no llevar relleno ni crema perecedera, conservarla protegida durante un periodo breve en un lugar fresco y seco, adaptándolo a la humedad y temperatura del ambiente; refrigerar si las condiciones no permiten esa conservación. Una variante con cobertura láctea requerirá revisar el almacenamiento. No atribuir prueba doméstica a esta formulación todavía pendiente de cocinar.
 ## Relaciones dentro del SGCC
 
 - [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)
