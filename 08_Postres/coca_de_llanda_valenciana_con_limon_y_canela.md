@@ -4,8 +4,8 @@ tipo: receta
 titulo: Coca de llanda valenciana con limón y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,15 +58,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |
-| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |
-| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |
+| Centro húmedo o sin cocer | Bandeja más pequeña o masa más alta que la prevista | Utilizar la llanda aproximada de 25 × 30 cm y comprobar el centro con brocheta |
+| Miga compacta | Mezcla excesiva después de incorporar harina e impulsor | Integrar los secos suavemente, solo hasta desaparecer los grumos |
+| Corteza de azúcar demasiado oscura | Calor superficial alto o dorado acelerado | Vigilar el punto de la cobertura de canela y azúcar sin retirar antes de cocer el centro |
+| Grosor desigual | Masa mal distribuida en la bandeja | Nivelar suavemente antes de hornear y registrar el molde utilizado |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.
+Enfriar completamente la coca de llanda sobre rejilla antes de cortarla y cubrirla para evitar condensación. Al ser un bizcocho **sin relleno perecedero**, puede conservarse protegida durante un periodo breve en un lugar fresco y seco si el ambiente lo permite; refrigerar si hay calor, humedad elevada o se retrasa el consumo. Una eventual cobertura de crema requeriría otras condiciones de conservación.
 
 ## Relaciones dentro del SGCC
 

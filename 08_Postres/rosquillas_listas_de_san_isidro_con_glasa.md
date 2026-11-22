@@ -4,8 +4,8 @@ tipo: receta
 titulo: Rosquillas listas de San Isidro con glasa
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -55,20 +55,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- Las rosquillas listas de San Isidro se distinguen de las tontas por su cobertura de glasa y de las de Santa Clara por el acabado específico; esta receta es una adaptación doméstica. No usar clara cruda sin pasteurizar para una cobertura que no vuelve al horno.
-- Ajustar duración, tamaño de las piezas y líquidos a la materia prima. Mantener la cadena de frío e higiene alimentaria y comprobar la cocción completa de carnes, pescados, mariscos y huevos.
+- La diferencia característica frente a las rosquillas tontas es la glasa: aplicarla únicamente sobre las rosquillas ya horneadas y frías, y dejarla secar antes de guardarlas.
+- Añadir los 25–35 ml de zumo de limón o agua **poco a poco** al azúcar glas para controlar la consistencia. La clara es opcional y, si se utiliza en cobertura sin nuevo horneado, debe ser pasteurizada y manejarse conforme a la etiqueta.
+- Formar 16–20 aros de tamaño similar y comprobar que la masa con huevo está completamente cocida antes de glasear.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste para una futura prueba |
 |---|---|---|
-| Ingrediente principal demasiado firme | Falta de cocción o tamaño desigual | Igualar porciones y comprobar el interior |
-| Salsa, masa o caldo descompensados | Hidratación excesiva o reducción insuficiente | Ajustar líquido, tiempo y calor progresivamente |
-| Sabor poco equilibrado | Exceso de sal o condimento | Probar y corregir antes del servicio |
+| Rosquillas excesivamente duras | Demasiada harina añadida al formar o cocción prolongada | Manejar la masa pegajosa con manos ligeramente aceitadas y vigilar el intervalo de 18–24 minutos |
+| Glasa que escurre y no cubre | Exceso de líquido en relación con el azúcar glas | Añadir líquido en cantidades pequeñas hasta obtener cobertura espesa |
+| Glasa irregular o que tarda en secar | Rosquillas todavía templadas o cobertura muy líquida | Dejar enfriar totalmente las piezas y secar antes de guardar |
+| Aros con centro poco cocido | Piezas desiguales o agujero central demasiado pequeño | Formar anillos similares y comprobar el centro antes de retirarlos del horno |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carne, pescado, crustáceos, moluscos, huevos o lácteos necesitan manipulación higiénica y cadena de frío. Recalentar completamente las raciones que deban servirse calientes; no mantener alimentos perecederos durante horas a temperatura ambiente.
+Dejar secar por completo la glasa sobre las rosquillas frías antes de guardarlas protegidas en un recipiente limpio y seco. Si se prepara la versión con **clara pasteurizada**, aplicar también las instrucciones de uso y conservación de ese ovoproducto; no atribuir a todas las glasas la misma estabilidad. Mantener alejadas de la humedad y consumir en un plazo prudente según los ingredientes efectivamente utilizados.
 
 ## Relaciones dentro del SGCC
 

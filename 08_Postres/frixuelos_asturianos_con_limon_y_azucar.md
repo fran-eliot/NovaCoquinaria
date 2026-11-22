@@ -4,8 +4,8 @@ tipo: receta
 titulo: Frixuelos asturianos con limón y azúcar
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -52,20 +52,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- Los frixuelos se buscan finos y flexibles, no gruesos como tortitas americanas. Mantener la mezcla con huevo crudo refrigerada y cocinar completamente ambas caras.
-- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.
+- Los frixuelos deben quedar finos y flexibles, no como tortitas gruesas: distribuir una pequeña cantidad de masa inclinando rápidamente la sartén.
+- Respetar el reposo refrigerado de la mezcla con leche y huevo; cocinar por completo ambas caras y mantener las porciones crudas en frío hasta utilizarlas.
+- Evitar un exceso de grasa en la sartén, que dificultaría obtener una película fina y homogénea.
 
 ## Diagnóstico
 
-| Resultado | Causa probable | Ajuste de una próxima tanda |
+| Resultado | Causa probable | Ajuste para una próxima tanda |
 |---|---|---|
-| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |
-| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |
-| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |
+| Frixuelos gruesos y rígidos | Exceso de masa en la sartén o cocción prolongada | Verter menos mezcla, repartir enseguida y controlar el tiempo de cada cara |
+| Grumos de harina | Harina añadida bruscamente o sin tamizar | Incorporar gradualmente la harina tamizada hasta obtener masa fluida |
+| Frixuelos que se rompen al girar | Sartén poco caliente, adherencia o vuelta prematura | Engrasar muy ligeramente y esperar a que los bordes se despeguen |
+| Bordes secos o tostados en exceso | Fuego demasiado intenso o tiempo prolongado | Ajustar el calor y retirar cuando las dos caras estén completamente cuajadas |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.
+Mantener refrigerada la masa cruda de huevo y leche durante el reposo y hasta cocinarla. Servir los frixuelos preferentemente recién hechos; enfriar y refrigerar pronto los sobrantes ya cocidos, en recipiente limpio y protegido. No mantenerlos durante periodos prolongados a temperatura ambiente y consumir en un plazo corto según la frescura de los ingredientes.
 
 ## Relaciones dentro del SGCC
 
