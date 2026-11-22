@@ -1,4 +1,5 @@
 """Offline contract tests for public read-only HTTP smoke."""
+import hashlib
 import json
 import unittest
 from urllib.error import URLError
@@ -37,13 +38,23 @@ def fixture():
         data[page] = html.encode()
         data[f"assets/{prefix}-ui.{'b' * 20}.mjs"] = b"export const ok=true;"
     data["assets/culinary-explorer.css"] = b"body{margin:0}"
+    recipe_id = "REC-0017"
+    filename = hashlib.sha256(recipe_id.encode()).hexdigest() + ".json"
+    recipe = {"id": recipe_id, "title": "Receta de prueba",
+              "source_commit": SHA, "index_sha256": "0" * 64,
+              "source_sha256": "c" * 64, "href": "01_Arroces/prueba.html",
+              "ingredients": [{"raw": "200 g de arroz"}], "steps": [{"text": "Cocer arroz"}]}
+    recipe_bytes = json.dumps(recipe).encode()
+    data["recipe_assistant/" + filename] = recipe_bytes
     data["culinary_explorer.json"] = json.dumps({
         "source_commit": SHA, "index_sha256": "0" * 64, "recipe_count": 1,
-        "recipes": [{"id": "REC-0017"}],
+        "recipes": [{"id": recipe_id, "title": recipe["title"]}],
     }).encode()
     data["recipe_assistant/manifest.json"] = json.dumps({
         "source_commit": SHA, "index_sha256": "0" * 64, "recipe_count": 1,
-        "recipes": {"REC-0017": "record"},
+        "recipes": {recipe_id: {"file": filename,
+            "sha256": hashlib.sha256(recipe_bytes).hexdigest(),
+            "source_sha256": recipe["source_sha256"], "href": recipe["href"]}},
     }).encode()
     return data
 
@@ -65,6 +76,8 @@ class PublicSmokeTests(unittest.TestCase):
         self.assertEqual(len(result["pages"]), 5)
         self.assertEqual(result["catalog_recipes"], 1)
         self.assertEqual(result["assets_checked"], 6)
+        self.assertEqual(result["sample_recipe_id"], "REC-0017")
+        self.assertTrue(result["sample_recipe_integrity"])
         self.assertFalse(result["manual_browser_acceptance"])
         self.assertTrue(all(method == "GET" for method, _ in seen))
 
@@ -80,6 +93,27 @@ class PublicSmokeTests(unittest.TestCase):
         manifest["source_commit"] = "c" * 40
         data["recipe_assistant/manifest.json"] = json.dumps(manifest).encode()
         with self.assertRaisesRegex(ValueError, "disagreement"):
+            inspect(BASE, self.opener(data, seen))
+
+
+    def test_recipe_hash_mismatch_is_rejected(self):
+        data, seen = fixture(), []
+        filename = hashlib.sha256(b"REC-0017").hexdigest() + ".json"
+        data["recipe_assistant/" + filename] = b'{"id":"REC-0017","ingredients":[]}'
+        with self.assertRaisesRegex(ValueError, "payload hash mismatch"):
+            inspect(BASE, self.opener(data, seen))
+
+    def test_recipe_catalog_mismatch_is_rejected(self):
+        data, seen = fixture(), []
+        filename = hashlib.sha256(b"REC-0017").hexdigest() + ".json"
+        recipe = json.loads(data["recipe_assistant/" + filename])
+        recipe["title"] = "Título diferente"
+        data["recipe_assistant/" + filename] = json.dumps(recipe).encode()
+        manifest = json.loads(data["recipe_assistant/manifest.json"])
+        manifest["recipes"]["REC-0017"]["sha256"] = hashlib.sha256(
+            data["recipe_assistant/" + filename]).hexdigest()
+        data["recipe_assistant/manifest.json"] = json.dumps(manifest).encode()
+        with self.assertRaisesRegex(ValueError, "payload/catalog mismatch"):
             inspect(BASE, self.opener(data, seen))
 
     def test_missing_asset_is_not_accepted(self):
