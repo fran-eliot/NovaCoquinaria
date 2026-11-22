@@ -33,3 +33,21 @@ export function scaleIngredient(entry, originalServings, targetServings) {
       (COUNT_UNITS.has(q.unit) && !Number.isSafeInteger(result))) return null;
   return {quantity: Number(result.toFixed(3)).toLocaleString("es-ES", {maximumFractionDigits:3}), unit:q.unit};
 }
+
+export function formatScaledList(recipe, targetServings) {
+  const originalServings=scalingBasis(recipe);
+  if(originalServings===null || !Number.isInteger(targetServings) ||
+      targetServings<1 || targetServings>24 || !Array.isArray(recipe.ingredients))
+    throw new Error("Raciones no válidas para exportar");
+  const rows=[
+    recipe.title+" — "+targetServings+" raciones (original: "+originalServings+")",
+    "Cantidades orientativas. Revisar la ficha y los tiempos antes de cocinar.",
+    ""
+  ];
+  for(const entry of recipe.ingredients){
+    const scaled=scaleIngredient(entry,originalServings,targetServings);
+    rows.push("- "+entry.raw+(scaled && targetServings!==originalServings?
+      " → "+scaled.quantity+" "+scaled.unit:" [revisar manualmente]"));
+  }
+  return rows.join("\n");
+}
