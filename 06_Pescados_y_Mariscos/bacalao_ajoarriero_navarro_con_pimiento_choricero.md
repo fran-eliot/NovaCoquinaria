@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bacalao ajoarriero navarro con pimiento choricero
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,15 +58,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Próximo ajuste |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |
-| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |
-| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |
+| Bacalao excesivamente salado | Desalado incompleto o sal incorporada antes de probar | Seguir el desalado refrigerado según grosor y añadir sal únicamente al final |
+| Bacalao seco o desmigado en exceso | Cocción prolongada o movimientos bruscos de la cazuela | Incorporar el pescado al final, cocinar a fuego suave y mover con cuidado |
+| Salsa aguada | Tomate insuficientemente reducido o agua excesiva de la pulpa choricera | Respetar la reducción inicial del tomate y ajustar líquido antes de incorporar el bacalao |
+| Patata opcional dura | Dados incorporados sin cocción previa suficiente | Si se usa esta variante, cocerla hasta tierna antes de añadir el pescado |
 
 ## Conservación
 
-Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.
+Mantener el **bacalao en desalado dentro del frigorífico**, con los cambios de agua indicados por el proveedor. Tras cocinar el ajoarriero, servir de inmediato o enfriar rápidamente las sobras y refrigerarlas tapadas en recipientes poco profundos. Recalentar completamente solo las porciones previstas para el servicio y consumir en un plazo corto. El pescado previamente salado y desalado ya no debe tratarse como un producto seco estable.
 
 ## Relaciones dentro del SGCC
 

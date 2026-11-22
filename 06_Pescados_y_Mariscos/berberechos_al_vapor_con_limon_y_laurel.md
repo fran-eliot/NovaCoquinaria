@@ -4,8 +4,8 @@ tipo: receta
 titulo: Berberechos al vapor con limón y laurel
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - pescados-mariscos
   - receta-propuesta
@@ -47,21 +47,22 @@ Preparación de referencia basada en **depuración supervisada por origen y aper
 
 ## Puntos críticos
 
-- No se puede eliminar el riesgo de biotoxinas con el cocinado doméstico: comprar solo bivalvos de zonas controladas y establecimientos autorizados. No asumir que un remojo casero depura contaminantes.
-- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.
-- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.
+- Comprar **berberechos vivos de establecimientos autorizados** y respetar la depuración y trazabilidad del proveedor: el cocinado doméstico no elimina necesariamente las biotoxinas marinas.
+- Desechar las conchas rotas y ejemplares que no respondan al comprobarlos en crudo, así como las piezas que permanezcan cerradas tras la cocción. No intentar recuperarlas mediante un hervido prolongado.
+- Cocinar al **vapor**, sin buscar dorado: controlar la apertura y retirar las piezas hechas dentro del intervalo orientativo de 3–5 minutos.
 
 ## Diagnóstico
 
 | Problema | Causa probable | Ajuste para otra elaboración |
 |---|---|---|
-| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |
-| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |
-| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |
+| Berberechos correosos | Tiempo excesivo después de abrirse | Retirar las piezas abiertas en cuanto estén cocinadas, sin prolongar innecesariamente el vapor |
+| Piezas que permanecen cerradas | Ejemplares no aptos o que no han abierto durante la cocción prevista | Desecharlas, sin servirlas ni forzar su apertura |
+| Arena en el jugo | Sedimentos arrastrados del producto | Utilizar producto de origen autorizado y filtrar el líquido de cocción si va a servirse |
+| Sabor demasiado intenso o salado | Salinidad natural del líquido de los bivalvos | Probar el jugo antes de añadir cualquier sazón; esta receta no necesita sal añadida |
 
 ## Conservación
 
-Servir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.
+Mantener los berberechos vivos refrigerados y en las condiciones que indique el establecimiento hasta su preparación. Servirlos preferentemente **recién cocinados** y desechar las piezas que no se hayan abierto. Si hay sobras de producto cocido apto, enfriarlas rápidamente y refrigerarlas en recipiente cerrado, consumiéndolas pronto. No dejar los bivalvos durante periodos prolongados a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
