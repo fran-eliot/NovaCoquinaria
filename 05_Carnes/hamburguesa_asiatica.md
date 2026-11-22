@@ -11,8 +11,8 @@ tiempo_preparacion: 20 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.3
-ultima_revision: 2026-11-15
+version: 1.0.4
+ultima_revision: 2026-11-22
 etiquetas:
 - hamburguesa
 - ternera
@@ -92,9 +92,11 @@ Fácil.
 
 ## Salsa
 
-Preparar una versión adaptada de la:
+Preparar aparte una versión adaptada de la:
 
-* Salsa china base.
+* [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md).
+
+La plantilla propone proporciones orientativas para 2–3 raciones, pero **no consta qué salsa adicional se utilizó en la hamburguesa doméstica**. Para una futura preparación, empezar con una cantidad pequeña de salsa ya preparada, probar su salinidad y añadir más solo si se necesita; no incorporar automáticamente toda la cantidad de la plantilla a dos hamburguesas.
 
 ---
 
@@ -117,10 +119,10 @@ Consultar:
 
 1. Preparar la mezcla de carne sin trabajarla en exceso.
 2. Formar las hamburguesas.
-3. Cocinar a la plancha o sartén.
+3. Cocinar a la plancha o sartén hasta que la **carne picada esté completamente cocinada**, comprobando el centro con un termómetro alimentario apropiado; el dorado exterior no basta para establecer la cocción. Ajustar el tiempo al grosor real en lugar de considerar los 10 minutos declarados como garantía.
 4. Tostar ligeramente el pan.
 5. Montar con verduras frescas.
-6. Añadir la salsa.
+6. Añadir poco a poco la salsa preparada aparte, probando antes de aumentar la cantidad, ya que la carne contiene salsa de soja.
 7. Servir inmediatamente.
 
 ---

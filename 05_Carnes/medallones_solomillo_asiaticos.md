@@ -12,8 +12,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.1.0
-ultima_revision: 2026-11-15
+version: 1.1.1
+ultima_revision: 2026-11-22
 etiquetas:
 - solomillo
 - ternera
@@ -79,7 +79,9 @@ Media.
 
 Preparar una versión reducida de:
 
-* Salsa china base.
+* [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md).
+
+La plantilla ofrece proporciones orientativas para 2–3 raciones, pero la **adaptación propuesta de dos medallones y 265 g** se documenta más arriba como una opción distinta, con cantidades explícitas de soja, agua, mirin y salsa de ostras opcional. No equiparar ese ajuste con lo realmente cocinado ni verter por defecto la cantidad total de la plantilla sobre dos medallones.
 
 Puede reforzarse con:
 
@@ -115,10 +117,10 @@ Consultar:
 # Elaboración
 
 1. Calentar una sartén o plancha a temperatura alta.
-2. Sellar los medallones por ambas caras.
-3. Continuar la cocción hasta alcanzar el punto deseado.
-4. Dejar reposar la carne unos minutos.
-5. Reducir ligeramente la salsa.
+2. Sellar los medallones por ambas caras, adaptando tiempo y calor al grosor y al tipo de carne.
+3. **Distinguir ternera y cerdo antes de decidir la cocción.** Para solomillo de cerdo de pieza entera, comprobar con termómetro alimentario una temperatura interna de al menos **63 °C** y dejar **3 minutos de reposo**, según la referencia conservadora recogida en el bloque de adaptación; en ternera entera, comprobar el punto de cocción adecuado a la pieza y a las personas que la consumirán. No aplicar indistintamente «el punto deseado» a ambos productos ni asumir que el sellado exterior confirma la temperatura interna.
+4. Dejar reposar la carne según corresponda al tipo de pieza.
+5. Reducir ligeramente la salsa preparada por separado y probar su salinidad antes de napar.
 6. Napar los medallones con la salsa.
 7. Servir inmediatamente con la guarnición elegida.
 
