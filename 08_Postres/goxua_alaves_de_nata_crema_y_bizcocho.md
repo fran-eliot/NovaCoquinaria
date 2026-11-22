@@ -4,8 +4,8 @@ tipo: receta
 titulo: Goxua alavés de nata, crema y bizcocho
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -56,20 +56,21 @@ etiquetas:
 ## Puntos críticos
 
 - El goxua combina nata, bizcocho y crema pastelera, generalmente con superficie caramelizada. El orden y los aromáticos varían según casas. Evitar quemar el azúcar directamente sobre vasos no aptos para soplete.
-- Verificar las instrucciones específicas de productos comerciales y la cocción de carnes, huevos, pescados y mariscos. Mantener higiene y cadena de frío en todos los productos perecederos.
+- La crema se prepara con **yemas y leche**: cocinar hasta espesar, sin dejar zonas crudas, y enfriar rápidamente antes de montar el postre. Mantener la nata y la crema refrigeradas; no extender el soplete sobre recipientes de vidrio que no indiquen resistencia al choque térmico.
 - La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste para la siguiente elaboración |
 |---|---|---|
-| Textura demasiado firme | Cocción insuficiente o corte desigual | Comprobar el interior y adaptar tiempo o grosor |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir sin perder jugos esenciales |
-| Sabor demasiado salado | Curados, fumet o adobos concentrados | Ajustar sal al final y probar previamente |
+| Crema con grumos | Calor demasiado intenso o incorporación brusca de leche caliente a las yemas | Incorporar la leche poco a poco y cocinar removiendo; en una próxima prueba ajustar el fuego antes de cambiar proporciones |
+| Capas acuosas y bizcocho deshecho | Bizcocho excesivamente empapado o crema incorporada todavía templada | Humedecer el bizcocho ligeramente con café o almíbar fríos y montar solo con la crema enfriada |
+| Nata que pierde volumen | Nata poco fría, exceso de batido o contacto con crema tibia | Montar nata bien fría hasta picos suaves y mantener las capas refrigeradas antes de servir |
+| Azúcar de superficie quemado o recipiente dañado | Calor del soplete excesivo o vaso no adecuado | Caramelizar brevemente solo en recipientes resistentes al calor, o preparar caramelo aparte según la alternativa ya prevista |
 
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con lácteos, huevo, pescados y carnes deben conservarse en frío; las raciones calientes se recalientan completamente cuando corresponda. No mantener alimentos perecederos horas a temperatura ambiente.
+Preparar la crema con higiene y **enfriarla rápidamente en refrigeración** antes de montar. Conservar los vasitos de goxua siempre refrigerados y protegidos por contener nata montada, crema de yemas y leche. Caramelizar justo antes de servir cuando el recipiente sea apto; no mantener los vasitos fuera de frío durante periodos prolongados. Consumir en un plazo corto atendiendo a la frescura de los ingredientes, sin tratar el bizcocho húmedo como producto seco de despensa.
 
 ## Relaciones dentro del SGCC
 
