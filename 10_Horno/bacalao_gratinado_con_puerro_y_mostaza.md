@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bacalao gratinado con puerro y mostaza
 categoria: Horno
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - horno
   - receta-propuesta
@@ -64,7 +64,7 @@ Preparación de horno doméstico mediante **puerro reducido y gratinado de pesca
 
 ## Conservación
 
-Refrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.
+Servir preferentemente recién preparado. Si sobra bacalao gratinado con puerro y nata, enfriar sin demora y refrigerar en recipientes poco profundos y tapados, respetando los plazos de conservación apropiados para pescado cocinado y lácteos. No dejar esta preparación perecedera varias horas a temperatura ambiente; recalentar completamente las porciones que se sirvan calientes. Esta pauta se refiere a los ingredientes efectivos del plato y no presupone la presencia de huevo ni carne.
 
 ## Relaciones dentro del SGCC
 
