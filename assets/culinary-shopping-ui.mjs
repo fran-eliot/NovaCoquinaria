@@ -156,8 +156,9 @@ function renderRecipeReview(){
   for(const x of recipeReview.items){
     const field=el("fieldset"),legend=el("legend",x.provenance.raw),label=el("label",undefined,"purchase-check"),check=el("input");
     check.type="checkbox";check.checked=true;label.append(check,el("span","Incluir artículo"));field.append(legend,label);
+    if(x.suggestion)field.append(el("p","Cantidad orientativa según raciones seleccionadas. Revisar antes de añadir.","help"));
     const fields={};
-    for(const [key,title,max,value] of [["name","Nombre",160,x.name],["quantity","Cantidad",16,""],["unit","Unidad",40,""]]){
+    for(const [key,title,max,value] of [["name","Nombre",160,x.name],["quantity","Cantidad",16,x.suggestion?.quantity??""],["unit","Unidad",40,x.suggestion?.unit??""]]){
       const l=el("label",title),input=el("input");input.maxLength=max;input.value=value;if(key==="quantity")input.inputMode="decimal";l.append(input);field.append(l);fields[key]=input;
     }
     $("review-items").append(field);reviewRows.push({check,fields,provenance:x.provenance});
