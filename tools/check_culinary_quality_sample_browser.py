@@ -60,7 +60,13 @@ def exercise(site: Path) -> dict:
                     page.locator("#title").fill(title)
                     page.locator("#title-mode").select_option("exact")
                     page.get_by_role("button", name="Buscar", exact=True).click()
-                    entry = page.locator("#results article").first
+                    # Exact titles are not unique in the corpus. Select the
+                    # canonical source path, not the first title match.
+                    source_href = recipes[identity]["href"]
+                    entry = page.locator("#results article").filter(
+                        has=page.locator(f'h3 a[href="{source_href}"]')
+                    )
+                    expect(entry).to_have_count(1)
                     expect(entry.locator("h3 a")).to_have_text(title)
                     entry.get_by_role("link", name="Preparar receta", exact=True).click()
 
