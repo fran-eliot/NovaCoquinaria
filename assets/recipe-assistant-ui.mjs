@@ -153,12 +153,31 @@ function renderRecipe(r) {
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
   if(!r.durations.length) $("durations").append(node("li","Tiempos no declarados o no reconocidos."));
   const shoppingChecks=[];
+  function refreshShoppingSelection(){
+    const count=shoppingChecks.filter(x=>x.check.checked).length;
+    $("shopping-count").textContent=count+" de "+shoppingChecks.length+" ingredientes seleccionados";
+    $("send-shopping").disabled=count===0;
+    $("shopping-select-all").disabled=shoppingChecks.length===0;
+    $("shopping-select-required").disabled=!shoppingChecks.some(x=>x.optionality==="required");
+    $("shopping-clear").disabled=count===0;
+  }
   for(const e of r.ingredients){
     const label=node("label",undefined,"check-row"),check=node("input");
-    check.type="checkbox";label.append(check,node("span",e.raw));$("shopping-selection").append(label);
-    shoppingChecks.push({check,position:e.position});
+    check.type="checkbox";
+    check.addEventListener("change",refreshShoppingSelection);
+    label.append(check,node("span",e.raw));
+    $("shopping-selection").append(label);
+    shoppingChecks.push({check,position:e.position,optionality:e.optionality});
   }
-  $("send-shopping").disabled=!shoppingChecks.length;
+  for(const [id,eligible] of [
+    ["shopping-select-all",()=>true],
+    ["shopping-select-required",x=>x.optionality==="required"],
+    ["shopping-clear",()=>false]
+  ]) $(id).addEventListener("click",()=>{
+    for(const entry of shoppingChecks)entry.check.checked=eligible(entry);
+    refreshShoppingSelection();
+  });
+  refreshShoppingSelection();
   $("send-shopping").addEventListener("click",()=>{
     try{
       const desired=originalServings===null?null:$("scaling-target").valueAsNumber;
