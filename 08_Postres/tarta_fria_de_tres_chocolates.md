@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tarta fría de tres chocolates
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -52,20 +52,21 @@ Preparación de referencia basada en **cuajado escalonado de tres capas refriger
 ## Puntos críticos
 
 - La fuerza de gelificación varía entre hojas y marcas; ajustar según etiqueta, no solo por número de hojas. Si la siguiente mezcla está demasiado caliente, puede fundir la capa anterior.
-- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.
+- Esta tarta **no se hornea**: el resultado depende de la proporción y fuerza de gelatina, de las temperaturas de vertido y del reposo refrigerado. Mantener la mezcla láctea en condiciones higiénicas y evitar dejar capas a temperatura ambiente más tiempo del necesario.
 - La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.
 
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste propuesto |
 |---|---|---|
-| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |
-| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |
-| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |
+| Una capa queda blanda y no sostiene la siguiente | Gelatina no disuelta, fuerza distinta de la prevista o reposo insuficiente | Comprobar indicaciones del fabricante y esperar a que la capa esté firme antes del siguiente vertido; no añadir capas sobre una base líquida |
+| La capa inferior se mezcla con la superior | Nueva mezcla demasiado caliente o vertido directo y brusco | Dejar templar sin que cuaje en el recipiente y verter despacio sobre una cuchara, cuando la capa previa esté firme |
+| Separación entre capas al cortar | Capa inferior excesivamente cuajada antes de añadir la siguiente, o falta de adherencia entre capas | En una prueba posterior ajustar el intervalo entre vertidos manteniendo cada capa suficientemente firme; no asumir una causa única sin observar el corte |
+| Base de galleta se deshace al desmoldar | Triturado o compactación insuficientes, o base poco refrigerada | Compactar de manera uniforme y enfriar la base antes de incorporar el chocolate |
 
 ## Conservación
 
-Enfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.
+Conservar la tarta de tres chocolates **siempre refrigerada**, bien protegida, debido a las capas de leche y nata. Minimizar el tiempo fuera de frío al montar, cortar y servir, y devolver al frigorífico las porciones restantes. No tratar la base de galleta como una galleta seca de despensa: está en contacto con un relleno lácteo húmedo. Consumir en un plazo corto de acuerdo con el estado y las instrucciones de los ingredientes empleados.
 
 ## Relaciones dentro del SGCC
 
