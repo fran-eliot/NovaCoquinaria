@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bizcocho marmolado de vainilla y chocolate
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -59,13 +59,14 @@ Elaboración de referencia que trabaja **batido, masa dividida y horneado**, sin
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
+| Vetas apenas visibles | Exceso de pasadas de la brocheta o mezclado de las dos masas | Alternar porciones y dar solo una o dos pasadas; no homogeneizar los colores |
+| Masa oscura demasiado espesa para intercalar | Cacao incorporado sin integrar bien los 20 ml de leche reservados | Añadir al tercio separado el cacao junto con esos 20 ml, manteniendo los otros 90 ml en la masa base |
+| Interior crudo y superficie dorada | Molde profundo o calor excesivo en el exterior | Comprobar con brocheta central y prolongar por intervalos cortos protegiendo la superficie si hace falta |
+| Miga compacta | Batido prolongado después de agregar harina o impulsor | Incorporar los secos hasta integrar y evitar remover de más después de dividir las masas |
 
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
+Enfriar el bizcocho desmoldado sobre rejilla antes de cubrirlo o introducirlo en un recipiente, para evitar condensación. Sin relleno ni cobertura perecedera, puede conservarse tapado un periodo breve en lugar fresco y seco, valorando la humedad ambiental; si hace calor o se prevé conservarlo más tiempo, refrigerar bien protegido y comprobar su estado antes de servir. Una cobertura láctea o cremosa requiere sus propias condiciones de refrigeración.
 
 ## Relaciones dentro del SGCC
 

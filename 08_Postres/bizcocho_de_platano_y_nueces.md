@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bizcocho de plátano y nueces
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -59,13 +59,14 @@ Elaboración de referencia que trabaja **aprovechamiento de fruta madura y horne
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
+| Miga apelmazada o muy húmeda en el centro | Plátano con mucha humedad o cocción insuficiente en el molde | Verificar el centro antes de desmoldar; en otra prueba registrar madurez y peso neto de plátano, sin cambiar varios ingredientes a la vez |
+| Corteza oscura con centro aún crudo | Calor exterior intenso o molde con profundidad diferente | Proteger la superficie si se dora antes de que el centro esté cocido y ajustar el tiempo según el molde real |
+| Nueces concentradas en una zona | Reparto desigual al incorporar los trozos | Integrarlas de forma uniforme al final, sin prolongar el batido de la harina |
+| Dulzor excesivo | Madurez del plátano y azúcar añadido | Valorar primero el resultado real; considerar reducir azúcar **solo en una prueba posterior** |
 
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
+Dejar templar el bizcocho unos 10 minutos, desmoldar y enfriar sobre rejilla antes de envolverlo para evitar condensación. Por su contenido de fruta y humedad, conservarlo protegido, en un lugar fresco solo si las condiciones y el tiempo de consumo lo permiten; refrigerar si hace calor, hay humedad elevada o se retrasa el consumo, y desechar ante signos de deterioro. Si se añade una cobertura perecedera, adaptar la conservación a ella.
 
 ## Relaciones dentro del SGCC
 

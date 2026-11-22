@@ -4,8 +4,8 @@ tipo: receta
 titulo: Magdalenas caseras de limón
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -58,13 +58,14 @@ Propuesta de repostería basada en **batido de huevos, reposo frío y horneado**
 
 | Resultado | Posible causa | Ajuste en una siguiente preparación |
 |---|---|---|
-| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |
-| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |
-| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |
+| Poco copete o magdalenas extendidas | Cápsulas sin soporte rígido, masa templada o pérdida de aire tras el batido | Usar bandeja rígida y respetar el reposo frío de 30–60 minutos; incorporar la harina suavemente |
+| Superficie dorada y centro aún crudo | Golpe inicial de horno excesivo para el tamaño de las cápsulas | Comprobar el centro al final del horneado y ajustar la segunda fase en una próxima prueba sin prolongar el calor alto |
+| Miga compacta | Batido insuficiente de huevos y azúcar o mezcla excesiva después de añadir harina | Mantener el batido inicial orientativo de 3–4 minutos e integrar los secos sin desinflar demasiado |
+| Aroma de limón discreto | Ralladura poco aromática o demasiado fina en cantidad | Evaluar primero la tanda; en una repetición ajustar la ralladura sin añadir zumo como sustitución automática |
 
 ## Conservación
 
-Enfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.
+Enfriar completamente las magdalenas sin relleno sobre rejilla antes de colocarlas en un recipiente limpio, cerrado y seco para evitar condensación. Mantenerlas en lugar fresco y seco durante un periodo breve, adaptando la conservación a temperatura y humedad; comprobar si aparecen signos de deterioro. Si se incorporan posteriormente rellenos o coberturas de nata, crema o queso, conservar según sus ingredientes y mantener refrigeradas las preparaciones perecederas.
 
 ## Relaciones dentro del SGCC
 
