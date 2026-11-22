@@ -4,8 +4,8 @@ tipo: receta
 titulo: Mapo tofu de inspiración Sichuán
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -61,14 +61,14 @@ Preparación de referencia de inspiración asiática centrada en **sofrito pican
 
 | Problema | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Dados de tofu rotos | Hervor fuerte o remoción excesiva | Incorporar con cuidado y mantener hervor muy suave durante los 5–7 minutos previstos |
+| Salsa con grumos de almidón | Maicena añadida sin disolver o toda de golpe | Disolver primero en agua fría e incorporar gradualmente, cocinando 1–2 minutos |
+| Salsa demasiado salada o picante | Doubanjiang o salsa de soja comercial muy concentrados | Comprobar etiquetas y ajustar después de probar; distinguir la sustitución con miso y chile como variante |
+| Carne picada opcional sin cocción completa | Sofrito de carne demasiado breve antes de añadir la salsa | Cocinar completamente la carne por separado antes de incorporar condimentos y tofu |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Mantener refrigerado el tofu y, si se utiliza, la carne picada cruda hasta su preparación. Enfriar pronto las sobras de mapo tofu en recipientes poco profundos y refrigerarlas tapadas; recalentar completamente las porciones, removiendo con cuidado para no romper el tofu. Respetar las indicaciones de conservación de la pasta fermentada y del tofu abierto. No aplicar precauciones de arroz cocido salvo que se sirva una guarnición de arroz.
 
 ## Relaciones dentro del SGCC
 

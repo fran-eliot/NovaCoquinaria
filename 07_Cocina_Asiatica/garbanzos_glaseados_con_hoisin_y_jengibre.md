@@ -4,8 +4,8 @@ tipo: receta
 titulo: Garbanzos glaseados con hoisin y jengibre
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -63,13 +63,14 @@ Garbanzos ya cocidos con salsa hoisin, jengibre y vinagre de arroz: glaseado rá
 
 | Situación | Causa probable | Ajuste para la próxima prueba |
 |---|---|---|
-| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |
-| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |
-| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |
+| Glaseado quemado o amargo | Hoisin azucarada reducida a fuego excesivo | Bajar el fuego y añadir pequeñas cantidades del agua prevista si comienza a pegarse |
+| Garbanzos poco impregnados | Salsa insuficientemente repartida o líquido evaporado antes de cubrirlos | Mezclar suavemente durante los últimos 2–3 minutos para obtener una película uniforme |
+| Fondo demasiado líquido | Pimiento que libera agua o reducción insuficiente | Evaporar brevemente a calor moderado sin romper los garbanzos |
+| Sabor demasiado salado | Hoisin comercial concentrada | Comprobar su etiqueta y probar antes de añadir sal o aceite de sésamo opcional |
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Enfriar rápidamente las sobras de garbanzos ya cocidos y glaseados y refrigerarlas tapadas en recipiente poco profundo. Recalentar completamente las porciones destinadas al servicio, a fuego moderado para evitar que la hoisin azucarada se queme. Consumir en un plazo corto conforme a la conservación de las legumbres cocidas y de la salsa comercial; no aplicar a esta receta sin arroz las indicaciones destinadas a arroz cocido.
 
 ## Relaciones dentro del SGCC
 

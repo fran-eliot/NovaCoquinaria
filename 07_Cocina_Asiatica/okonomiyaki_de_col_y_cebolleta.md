@@ -4,8 +4,8 @@ tipo: receta
 titulo: Okonomiyaki de col y cebolleta
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,14 +59,14 @@ Preparación de referencia de inspiración asiática centrada en **masa ligada c
 
 | Problema | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Centro de la tortita crudo | Masa demasiado gruesa o fuego demasiado fuerte | Mantener aproximadamente 2 cm de grosor, cocinar a fuego medio-bajo y comprobar el centro con huevo y harina |
+| Tortita que se rompe al darle la vuelta | Mezcla poco ligada o giro prematuro | Distribuir bien col y masa y usar una espátula ancha o plato cuando la primera cara tenga estructura |
+| Mezcla demasiado acuosa | Col mal escurrida o exceso de líquido respecto a la harina | Escurrir las verduras antes de incorporarlas y registrar la textura de la primera tanda |
+| Cobertura demasiado salada | Salsa comercial de okonomiyaki o Worcestershire concentrada | Probar la salsa por separado y dosificarla al servir; no atribuir el problema a miso que esta fórmula no contiene |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Mantener la masa cruda con huevo refrigerada hasta cocinarla. Servir las tortitas recién hechas o enfriar rápidamente las sobrantes y guardarlas tapadas en frigorífico; conservar por separado las salsas y la mayonesa opcional conforme a sus etiquetas. Recalentar completamente las porciones y comprobar que la masa esté cocida en el centro; esta receta no lleva arroz y no requiere indicaciones específicas de arroz cocido.
 
 ## Relaciones dentro del SGCC
 
