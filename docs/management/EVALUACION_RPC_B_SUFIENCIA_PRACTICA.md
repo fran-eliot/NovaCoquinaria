@@ -61,3 +61,17 @@ Se proponen **cuatro intervenciones concretas**, condicionadas a la revisión de
 - Esta muestra dirigida no permite calcular tasas de error para los cinco módulos o el recetario entero.
 
 **Decisión propuesta:** aceptar RPC-B como revisión documental dirigida y autorizar solo un **piloto RPC-C limitado a los cuatro ajustes** identificados, manteniendo pruebas de navegación RPC-08 y decisión de producto RPC-D sujetas a verificación y revisión separadas. La última release publicada es `v1.7.0`.
+
+
+## RPC-C — Piloto de cuatro ajustes editoriales (propuesto en PR independiente)
+
+Las cuatro intervenciones siguientes se prepararon sobre la muestra ya evaluada, **sin alterar los seis controles**:
+
+| Hallazgo RPC-B | ID | Cambio delimitado | Límite |
+|---|---|---|---|
+| H-RPC-B07 | `REC-0087` | Declarar que 100 ml de agua para disolver azúcar **se descuentan de los 850 ml totales**, dejando 750 ml para mezcla | Mantener 150 ml de zumo, azúcar y ajustes de sabor; no afirmar prueba realizada |
+| H-RPC-B02 | `REC-367` | Precisar que la plantilla de pasta al horno es genérica y **no específica de conchiglioni rellenos**, que siguen sus propios pasos | Conservar cantidades, procedimiento y `pendiente de prueba` |
+| H-RPC-B09 | `REC-0216` | Acotar conservación a pescado, puerro y lácteos presentes, sin consejos genéricos sobre huevo o carne | No prometer plazos ni validar seguridad real |
+| H-RPC-B10 | `REC-561` | Separar fermentación principal, reposo final, horno y **enfriado mínimo antes de cortar**; mantener el templado de escaldado sin duración inferida | No calcular un total único ni declarar tiempos medidos |
+
+El resultado esperado es mayor claridad **documental**, no una demostración de mejora gastronómica. La revisión y fusión de esta PR no cierra automáticamente RPC-C: se debe observar el CI y contrastar después la navegación RPC-08 de diez fichas por separado, o registrar su ausencia. La release publicada permanece en `v1.7.0`.
