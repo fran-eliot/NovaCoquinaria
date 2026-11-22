@@ -4,8 +4,8 @@ tipo: receta
 titulo: Escaldums mallorquins de pollo y almendras
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -61,15 +61,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la siguiente preparación |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |
-| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |
+| Pollo con centro insuficientemente cocido | Piezas grandes, con hueso, o guiso demasiado corto | Comprobar al menos 74 °C en la parte gruesa, sin tocar hueso, tal como establece la receta |
+| Salsa excesivamente espesa | Picada de pan y almendra que absorbe líquido durante los últimos minutos | Incorporar caldo caliente de forma gradual y remover moviendo la cazuela |
+| Salsa poco ligada | Picada insuficientemente integrada o caldo abundante al final | Majar fino almendras, pan y ajo e incorporarlos en los últimos 10–15 minutos previstos |
+| Sabor amargo | Ajo de la picada o sofrito demasiado tostado | Dorar ajo y sofrito suavemente, sin quemarlos |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.
+Enfriar sin demora las sobras del guiso de **pollo con salsa de almendras y pan** y refrigerarlas tapadas en recipientes poco profundos. Evitar dejar la cazuela completa horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes, removiendo suavemente para recuperar la consistencia de la picada; consumir en un plazo corto. La salsa espesa no sustituye el control de temperatura del pollo.
 
 ## Relaciones dentro del SGCC
 
