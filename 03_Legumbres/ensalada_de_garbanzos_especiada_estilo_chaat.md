@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ensalada de garbanzos especiada de inspiración chaat
 categoria: Legumbres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - legumbres
   - receta-propuesta
@@ -61,13 +61,14 @@ Preparación de referencia basada en **corte fino y aliño ácido de legumbre co
 
 | Síntoma | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |
-| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |
-| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |
+| Ensalada acuosa | Tomate y pepino liberan agua tras aliñarlos o garbanzos mal escurridos | Escurrir bien, cortar las verduras uniformemente y aliñar poco antes de servir |
+| Garbanzos demasiado firmes | Uso de garbanzos que no estaban completamente cocidos | Comprobar la cocción previa; el aliño ácido en frío no cuece la legumbre |
+| Sabor excesivamente salado | Chaat masala comercial con sal añadida | Revisar su etiqueta y probar antes de añadir sal |
+| Picante o acidez dominantes | Chile opcional o zumo de limón concentrados | Ajustar gradualmente el aliño en una próxima preparación, respetando las cantidades de referencia hasta probarlas |
 
 ## Conservación
 
-Servir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.
+Servir fría la ensalada de garbanzos completamente cocidos y vegetales frescos. Guardar las sobras **refrigeradas y tapadas**, preferiblemente sin esperar varias horas tras el aliñado; tomate y pepino pierden textura al reposar. No mantener las hortalizas cortadas y la legumbre cocida durante periodos prolongados a temperatura ambiente. Consumir pronto según la frescura y manipulación de los ingredientes.
 
 ## Relaciones dentro del SGCC
 

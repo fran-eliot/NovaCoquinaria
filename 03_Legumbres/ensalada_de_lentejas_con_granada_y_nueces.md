@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ensalada de lentejas con granada y nueces
 categoria: Legumbres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - legumbres
   - receta-propuesta
@@ -59,13 +59,14 @@ Preparación de referencia basada en **escurrido, contraste de texturas y vinagr
 
 | Resultado | Causa probable | Ajuste para otra elaboración |
 |---|---|---|
-| Legumbre demasiado firme | Cocción previa insuficiente | Terminar la cocción antes de preparar el plato |
-| Salsa aguada | Exceso de caldo o verduras húmedas | Reducir por separado o destapar al final |
-| Textura pastosa | Triturado o mezclado excesivo | Reservar parte de los ingredientes sin triturar |
+| Lentejas pastosas o rotas | Legumbre recocida o mezclada con fuerza | Partir de lentejas completamente cocidas pero firmes y remover suavemente |
+| Líquido acumulado en la fuente | Lentejas mal escurridas o pepino con mucha agua | Escurrir y enfriar los ingredientes antes de aliñar; no intentar reducir al fuego una ensalada fría |
+| Nueces blandas | Incorporación demasiado temprana a la vinagreta | Tostar, dejar enfriar y añadir las nueces al final, justo antes del servicio |
+| Acidez dominante | Exceso de limón respecto al conjunto | Emulsionar el aliño y graduarlo tras probar, registrando el resultado antes de cambiar la fórmula |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las ensaladas y cremas frías elaboradas con legumbres cocidas requieren higiene y conservación refrigerada; no dejarlas horas a temperatura ambiente.
+Mantener **refrigerada y tapada** la ensalada de lentejas cocidas, granada, pepino y cebolla. Añadir las nueces tostadas cerca del servicio para preservar su textura; si se prepara con antelación, conservar el aliño aparte cuando sea posible. Consumir en un plazo corto y no dejar las legumbres cocidas ni los vegetales cortados durante horas fuera de frío.
 
 ## Relaciones dentro del SGCC
 

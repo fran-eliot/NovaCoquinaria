@@ -4,8 +4,8 @@ tipo: receta
 titulo: Crema de coliflor con tahini y limón
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - verduras
   - receta-propuesta
@@ -58,13 +58,14 @@ Preparación de referencia basada en **cocción de crucífera, triturado y emuls
 
 | Resultado | Posible causa | Ajuste en otra prueba |
 |---|---|---|
-| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |
-| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |
-| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |
+| Crema demasiado líquida | Se ha triturado con todo el caldo antes de evaluar la densidad | Reservar parte del caldo tras la cocción e incorporarlo poco a poco al triturar |
+| Grumos o textura fibrosa | Coliflor o patata insuficientemente tiernas antes de triturar | Comprobar la cocción de ambas y triturar hasta lograr la textura deseada |
+| Sabor amargo dominante | Tahini intenso o dosis excesiva para el gusto buscado | Probar con los 35 g propuestos y registrar la valoración antes de reformular |
+| Aliño ácido poco integrado | Zumo de limón incorporado en ebullición intensa o sin mezclar | Añadir el tahini y el limón fuera del hervor fuerte y triturar brevemente |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.
+Enfriar rápidamente las sobras de crema de coliflor, patata y tahini y mantenerlas **refrigeradas en recipientes tapados y poco profundos**. Al recalentar una porción, hacerlo completamente y con suavidad, removiendo para recuperar una textura homogénea; añadir algo de caldo si se hubiera espesado en frío. No almacenar la crema cocinada a temperatura ambiente durante periodos prolongados.
 
 ## Relaciones dentro del SGCC
 
