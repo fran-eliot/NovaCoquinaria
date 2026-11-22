@@ -4,8 +4,8 @@ tipo: receta
 titulo: Agua de arroz y canela de inspiración horchata
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,15 +54,16 @@ Bebida de referencia basada en **remojo refrigerado, triturado, filtrado y diluc
 
 ## Diagnóstico
 
-| Síntoma | Posible causa | Ajuste en la próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |
-| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |
-| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |
+| Sedimento duro o textura arenosa | Arroz hidratado insuficientemente triturado o filtro demasiado grueso | Respetar el remojo refrigerado, triturar bien y filtrar con paño apto antes de servir |
+| Bebida demasiado diluida | Exceso de agua de dilución respecto al extracto filtrado | Registrar el rendimiento real del filtrado antes de ajustar los 700 ml previstos |
+| Dulzor o canela dominantes | Azúcar o extracción de canela intensos para el gusto buscado | Probar después de filtrar y registrar el resultado antes de cambiar la fórmula |
+| Separación de fases en el vaso | Partículas finas del cereal sedimentadas | Remover antes del servicio; no confundir sedimentación con garantía de inocuidad |
 
 ## Conservación
 
-Preparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.
+Esta bebida contiene **arroz crudo remojado y triturado, sin cocción ni pasteurización**. Mantener todo el remojo de 6–8 horas refrigerado, desechar su agua, utilizar agua potable nueva y utensilios higienizados. Filtrar y refrigerar inmediatamente la bebida resultante; consumir preferiblemente **el mismo día** y no dejarla durante periodos prolongados a temperatura ambiente. Para personas especialmente vulnerables, considerar una preparación alternativa con arroz completamente cocido y manejo seguro, sin atribuirla a esta fórmula.
 
 ## Relaciones dentro del SGCC
 
