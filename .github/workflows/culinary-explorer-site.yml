@@ -39,6 +39,8 @@ jobs:
         run: python tools/check_explorer_browser.py --site site --output /tmp/explorer-browser.json
       - name: Check Recipe Assistant browser journeys
         run: python tools/check_recipe_assistant_browser.py --site site --output /tmp/assistant-browser.json
+      - name: Check eight editorial sample journeys in Chromium
+        run: python tools/check_culinary_quality_sample_browser.py --site site --output /tmp/quality-sample-browser.json
       - name: Check Culinary Pantry browser journeys
         run: python tools/check_culinary_pantry_browser.py --site site --output /tmp/pantry-browser.json
       - name: Check Culinary Shopping browser journeys
@@ -55,6 +57,7 @@ jobs:
           path: |
             /tmp/explorer-browser.json
             /tmp/assistant-browser.json
+            /tmp/quality-sample-browser.json
             /tmp/pantry-browser.json
             /tmp/shopping-browser.json
             /tmp/planner-browser.json
