@@ -2,9 +2,9 @@
 id: DOC-ACEPTACION-PUBLICA-CULINARIA-2026
 titulo: Protocolo de aceptación pública de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.2
+version: 0.1.3
 estado: pendiente-de-ejecucion-manual
-ultima_revision: 2026-11-21
+ultima_revision: 2026-11-22
 ---
 
 # Protocolo de aceptación pública — Culinary Workflows Consolidation
@@ -78,6 +78,28 @@ Para cada caso ejecutado, registrar como mínimo: `fecha`, `URL`, `commit main`,
 | GitHub Pages | `Deployed 49cd792` observado y cinco HTML con enlace de salto comprobados en la rama | Verificar uso público real |
 | Pruebas públicas del propietario | No acreditadas | No marcar como superadas sin ejecución |
 | Nueva release | No autorizada | Sigue v1.6.0 |
+
+
+## Corte de evidencia pública automatizada — 22 de noviembre de 2026
+
+La sonda HTTP ampliada se ejecutó en [Culinary Public HTTP Smoke #3](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45039229371) a las **15:36:19 UTC**, con `passed: true`. Constató cinco páginas HTTP 200, diez recursos de entrada comprobados, catálogo de 590 recetas, concordancia de manifiesto y la huella de la ficha pública `REC-0017`. El informe indicó `source_commit: bb003d7d19069421d00dbee19c6262b6e2e51f4c`, que identifica el contenido documental servido en ese momento; no equivale a afirmar que cada posterior merge se haya desplegado.
+
+La sonda Chromium pública se ejecutó después en [Culinary Public Browser Smoke #5](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45042029261) a las **16:08:10 UTC**, con `passed: true` sobre `https://fran-eliot.github.io/NovaCoquinaria/`. Sus contextos efímeros verificaron la inicialización JavaScript de las cinco aplicaciones a 390 px sin errores de página ni desbordamiento, la selección `REC-0017` de Explorer a Assistant, la apertura de Planner con receta seleccionada sin crear comida y la revisión en Shopping de un ingrediente sin guardar compra ni lote en Pantry.
+
+| Alcance | Evidencia comprobada | Restricción |
+|---|---|---|
+| Recursos publicados y ficha de muestra | [HTTP Smoke #3](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45039229371), `passed: true` | GET de solo lectura; una ficha, no todo el corpus |
+| Inicialización y navegación en navegador público | [Browser Smoke #5](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45042029261), `passed: true` | Chromium automatizado, viewport 390 px y contextos vacíos |
+| Edición, persistencia y restauración de copias | Sin aceptación manual pública registrada | Se requiere perfil de prueba aislado del propietario |
+| Alta confirmada de compra y transferencia a Pantry | Sin aceptación manual pública registrada | No se ejecutan escrituras en las sondas públicas |
+| Teclado, dispositivos y experiencia humana | Sin aceptación manual pública registrada | Pruebas dirigidas de CI no son auditoría de accesibilidad |
+| PUB-01–PUB-07 y CWC-12 | **Pendientes** | No inferir cierre desde los workflows correctos |
+
+### Próxima comprobación del propietario
+
+Ejecutar el [recorrido PUB-06](#recorrido-manual-integrado-recomendado--pub-06) en un **perfil temporal independiente**: añadir una comida a Planner, revisar y guardar una compra, marcarla como comprada, confirmar un lote en Pantry, recargar y comprobar persistencia, exportar JSON y cancelar cualquier importación de ensayo. Contrastar también PUB-01–PUB-05 (carga y controles de cada aplicación) y PUB-07 según el alcance no destructivo del protocolo. Registrar fecha, navegador, URL, acción, observado y capturas pertinentes **sin datos personales**. No utilizar el perfil habitual ni eliminar sus datos.
+
+Este corte reconcilia evidencia automatizada ya obtenida; **no afirma ejecución manual**, no modifica CWC-12 ni autoriza nueva release. La release vigente continúa siendo `v1.6.0`.
 
 ## Regla de cierre de la Unidad D
 
