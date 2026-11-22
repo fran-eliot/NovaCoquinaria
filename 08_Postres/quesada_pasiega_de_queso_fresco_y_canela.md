@@ -4,8 +4,8 @@ tipo: receta
 titulo: Quesada pasiega de queso fresco y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -52,21 +52,20 @@ etiquetas:
 
 ## Puntos críticos
 
-- La quesada pasiega tradicional tiene variantes con cuajada o leche cuajada; el queso fresco es una adaptación de referencia. No confundir con tarta de queso alta y cremosa: se busca una pieza relativamente baja y cuajada.
-- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.
-
+- Esta formulación con queso fresco escurrido es una adaptación doméstica de referencia; se busca una quesada baja y cuajada, no una tarta de queso alta.
+- Escurrir el suero del queso antes de preparar la masa. Su humedad afecta directamente al punto de la quesada, pero no justifica cambiar cantidades antes de evaluar una elaboración real.
+- Utilizar el molde de 20 × 25 cm propuesto y comprobar que el centro con huevo esté completamente cuajado; refrigerar las porciones no consumidas después del enfriado inicial.
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste en otra prueba |
 |---|---|---|
-| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |
-| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |
-| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |
-
+| Quesada demasiado acuosa | Queso fresco insuficientemente escurrido o cuajado incompleto | Escurrir el suero antes de mezclar y comprobar el centro al terminar el horno |
+| Textura demasiado densa o gomosa | Mezcla trabajada en exceso o variación notable de humedad del queso | Integrar la harina solo hasta desaparecer los grumos secos y registrar la textura del queso utilizado |
+| Superficie dorada y centro líquido | Calor exterior intenso o masa más alta de lo previsto | Mantener una altura moderada en el molde y ajustar el tiempo de horneado según el cuajado real |
+| Aroma de canela o limón dominante | Diferencia de intensidad entre ingredientes | Valorar la primera tanda antes de ajustar los aromáticos en una versión posterior |
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.
-
+Dejar templar la quesada tras el horneado y **refrigerar pronto** las porciones restantes en un recipiente limpio y protegido, por su contenido de queso fresco y huevo. Servir fría o atemperar brevemente la porción destinada al consumo, sin mantener el conjunto a temperatura ambiente durante periodos prolongados. Consumir en un plazo corto de acuerdo con la frescura del queso empleado.
 ## Relaciones dentro del SGCC
 
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)
