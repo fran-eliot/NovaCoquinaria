@@ -4,8 +4,8 @@ tipo: receta
 titulo: Oyakodon de pollo y huevo
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,13 +59,14 @@ etiquetas:
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Pollo aún crudo bajo el huevo | Tiras demasiado gruesas o cocción previa insuficiente | Comprobar los 74 °C en el pollo antes de añadir los huevos, como indica la elaboración |
+| Huevo todavía líquido | Cocción final insuficiente de la cubierta | Mantener la sartén tapada a fuego bajo hasta que claras y yemas estén completamente cuajadas en esta versión |
+| Pollo seco y huevo muy duro | Tiempo prolongado después de cuajar el huevo | Cocinar el pollo completamente primero y retirar una vez cuajado el huevo, evitando calor innecesario |
+| Salsa demasiado salada | Reducción excesiva del caldo con soja y mirin | Mantener el hervor suave y comprobar la concentración antes de servir sobre el arroz |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Servir inmediatamente el oyakodon con **arroz, pollo y huevo completamente cocinados**. Si sobran porciones, enfriarlas rápidamente en recipientes poco profundos y refrigerarlas sin demora; el arroz cocido requiere especial atención al enfriado y no debe quedar horas a temperatura ambiente. Recalentar completamente únicamente las porciones destinadas al consumo, sin intentar compensar con calor un almacenamiento previo inadecuado.
 
 ## Relaciones dentro del SGCC
 
