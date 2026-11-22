@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ternera salteada con pimienta negra y cebolla
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -61,15 +61,16 @@ Tiras de ternera salteadas con cebolla, soja y pimienta negra molida al momento,
 
 ## Diagnóstico
 
-| Situación | Causa probable | Ajuste para la próxima prueba |
+| Situación | Causa probable | Ajuste para una próxima elaboración |
 |---|---|---|
-| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |
-| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |
-| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |
+| Ternera dura o seca | Tiras cortadas a favor de la fibra o cocción prolongada dentro de la salsa | Cortar a contrapelo y devolver la carne solo al final, comprobando su cocción completa |
+| Carne sin dorado | Tandas demasiado grandes o superficie de la carne húmeda | Secar ligeramente y saltear en las dos tandas previstas |
+| Salsa con grumos | Maicena sin disolver o mezcla no removida antes de añadirla | Disolver los ½ cucharadita de maicena en el agua fría con las salsas y remover antes del hervor |
+| Salsa demasiado salada o espesa | Soja y salsa de ostras concentradas o reducción excesiva | Probar antes de salar y ajustar con pequeñas cantidades de agua si es necesario |
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Mantener la ternera cruda refrigerada hasta el salteado, con utensilios separados para crudos y cocinados. Enfriar rápidamente las sobras de ternera y cebolla con salsa y refrigerarlas tapadas en recipiente poco profundo. Recalentar completamente las porciones destinadas al consumo, evitando calentamientos repetidos que resequen las tiras. Esta receta no incluye arroz; si se añade como guarnición, aplicar además sus precauciones específicas.
 
 ## Relaciones dentro del SGCC
 

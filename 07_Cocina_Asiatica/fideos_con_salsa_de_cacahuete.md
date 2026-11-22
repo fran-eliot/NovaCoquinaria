@@ -4,8 +4,8 @@ tipo: receta
 titulo: Fideos con salsa de cacahuete y lima
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta
@@ -58,12 +58,16 @@ Fideos salteados con verduras y salsa cremosa de cacahuete, soja y lima. Prepara
 
 ## Diagnóstico
 
-| Problema | Causa | Ajuste |
+| Problema | Causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Salsa pastosa | Falta de agua | Diluir |
-| Muy salada | Exceso de soja | Reducir dosis |
-| Fideos blandos | Cocción inicial excesiva | Cocer menos |
+| Salsa demasiado pastosa | Crema de cacahuete espesa o poca agua | Incorporar gradualmente parte de los 80–120 ml de agua caliente previstos hasta que cubra los fideos |
+| Sabor excesivamente salado | Salsa de soja concentrada o mezcla reducida demasiado tiempo | Probar antes de añadir soja extra y evitar hervir la salsa hasta secarla |
+| Fideos blandos o apelmazados | Cocción inicial excesiva y posterior salteado | Cocer ligeramente por debajo del punto final, escurrir y mezclar brevemente |
+| Verduras demasiado blandas | Salteado prolongado antes de incorporar fideos | Cortar en tiras finas y limitar el salteado a los 4–6 minutos orientativos |
 
+## Conservación
+
+Servir preferentemente los fideos con salsa de cacahuete recién preparados. Enfriar pronto las sobras cocinadas y refrigerarlas tapadas en recipiente poco profundo, sin dejarlas durante periodos prolongados a temperatura ambiente. Al recalentar completamente una porción, añadir un poco de agua si la salsa se ha espesado; la textura de los fideos puede cambiar. Respetar la conservación de la crema de cacahuete comercial y mantener identificados los alérgenos de **cacahuete, trigo y soja**.
 ## Relaciones
 
 - [Fideos salteados con verduras](./fideos_salteados_con_verduras.md)

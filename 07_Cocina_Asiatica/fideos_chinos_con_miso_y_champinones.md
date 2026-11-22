@@ -4,8 +4,8 @@ tipo: receta
 titulo: Fideos chinos con miso y champiñones
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -60,15 +60,16 @@ Fideos con champiñones dorados y salsa de miso de textura ligera, sin confundir
 
 ## Diagnóstico
 
-| Situación | Causa probable | Ajuste para la próxima prueba |
+| Situación | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |
-| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |
-| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |
+| Fideos excesivamente salados | Miso comercial intenso o fideos cocidos en agua muy salada | Probar el miso antes de añadir otros condimentos y conservar parte del agua de cocción sin salar en exceso |
+| Champiñones pálidos y con exceso de agua | Sartén saturada durante el dorado | Cocinar los champiñones por tandas y dejar evaporar su humedad antes de mezclar |
+| Salsa de miso con grumos | Pasta añadida directamente sin diluir | Desleír los 25 g de miso en el agua de cocción templada reservada |
+| Fideos secos o salsa demasiado concentrada | Líquido evaporado durante el mezclado final | Añadir gradualmente agua de cocción reservada y evitar hervor fuerte del miso |
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Servir los fideos preferentemente recién preparados. Enfriar rápidamente las sobras de fideos y champiñones cocinados y conservarlas tapadas en frigorífico, en porciones poco profundas. Recalentar completamente solo lo que vaya a consumirse; añadir un poco de agua si el miso se ha concentrado o los fideos han absorbido la salsa. Consumir en un plazo corto y seguir las instrucciones de conservación del miso abierto.
 
 ## Relaciones dentro del SGCC
 
