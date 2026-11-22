@@ -4,8 +4,8 @@ tipo: receta
 titulo: Filloas gallegas de leche y limón
 categoria: Postres
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,16 +58,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste siguiente |
+| Resultado | Posible causa | Ajuste en una próxima prueba |
 |---|---|---|
-| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |
-| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |
-| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |
-
+| Filloas gruesas o poco flexibles | Exceso de masa en la sartén o cocción demasiado prolongada | Verter un cucharón pequeño, girar la sartén enseguida y cocer cada lado solo hasta el punto necesario |
+| Grumos de harina en la masa | Harina incorporada de golpe | Tamizar e incorporar gradualmente a los huevos, la leche y el agua |
+| Filloas que se pegan o rompen al girarlas | Sartén insuficientemente caliente, engrase irregular o giro prematuro | Calentar y engrasar ligeramente la sartén, esperando a que se desprendan los bordes |
+| Bordes secos y quebradizos | Temperatura excesiva o tiempo prolongado en la sartén | Ajustar el fuego medio y comprobar la cocción completa sin resecar la masa |
 ## Conservación
 
-Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.
-
+La masa cruda contiene **huevo y leche**: mantenerla refrigerada durante el reposo de treinta minutos y no dejarla fuera de frío innecesariamente. Consumir las filloas cocidas preferentemente recién hechas; enfriar rápidamente las sobrantes y conservarlas tapadas en frigorífico. Consumirlas en un plazo corto según la frescura de los ingredientes y recalentar únicamente la porción destinada al servicio si se desea templada. Las variantes con rellenos perecederos necesitan conservación ajustada a esos ingredientes.
 ## Relaciones dentro del SGCC
 
 - [Harina de trigo](../11_Despensa/01_Cereales/harina_de_trigo.md): selección de harina común y ajuste de hidratación.

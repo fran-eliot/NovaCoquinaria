@@ -4,8 +4,8 @@ tipo: receta
 titulo: Piononos de Santa Fe con crema tostada
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -61,16 +61,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Observación | Posible causa | Ajuste para próxima elaboración |
+| Observación | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |
-| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |
-| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |
-
+| Plancha que se rompe al enrollar | Bizcocho demasiado seco o grueso | Extender una capa fina y uniforme y comprobar el punto dentro de los 9–12 minutos orientativos |
+| Cilindros que no mantienen la forma | Exceso de almíbar o reposo insuficiente del rollo | Pincelar el bizcocho sin empaparlo y refrigerar antes de cortar |
+| Crema con grumos | Yemas calentadas bruscamente o cocción sin remover | Templar con leche infusionada poco a poco y cocer removiendo |
+| Cobertura de crema que pierde forma al caramelizar | Crema todavía templada o exposición excesiva al soplete | Enfriar la crema, caramelizar solo su superficie justo antes del servicio y no recalentar el centro |
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.
-
+La crema de yemas y leche debe enfriarse rápidamente y mantenerse **refrigerada** antes del montaje. Conservar también los piononos terminados protegidos en frigorífico, y caramelizar la pequeña porción superior de crema justo antes de servir. Evitar dejarlos durante periodos prolongados a temperatura ambiente y consumir pronto según la frescura de los ingredientes. No aplicar instrucciones de recalentado de platos salados a este postre frío.
 ## Relaciones dentro del SGCC
 
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)

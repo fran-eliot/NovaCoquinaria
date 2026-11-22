@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tocino de cielo jerezano de yemas
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,14 +58,13 @@ etiquetas:
 
 | Resultado | Posible causa | Ajuste para una futura prueba |
 |---|---|---|
-| Ingrediente principal demasiado firme | Falta de cocción o tamaño desigual | Igualar porciones y comprobar el interior |
-| Salsa, masa o caldo descompensados | Hidratación excesiva o reducción insuficiente | Ajustar líquido, tiempo y calor progresivamente |
-| Sabor poco equilibrado | Exceso de sal o condimento | Probar y corregir antes del servicio |
-
+| Mezcla con grumos de huevo | Almíbar demasiado caliente al incorporarlo a las yemas | Dejar templar parcialmente el almíbar e introducirlo en hilo, removiendo; colar antes del horno |
+| Superficie agujereada o textura áspera | Baño maría con ebullición intensa o mezcla muy aireada | Batir suavemente y mantener el baño sin hervor violento |
+| Centro aún líquido | Tiempo insuficiente o molde más profundo de lo previsto | Comprobar la cocción del centro, incluida la referencia térmica de la receta, y prolongar de forma gradual |
+| Caramelo de sabor amargo | Azúcar calentado más allá del ámbar claro | Detener el caramelo en el tono previsto y manejarlo con precaución para evitar quemaduras |
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carne, pescado, crustáceos, moluscos, huevos o lácteos necesitan manipulación higiénica y cadena de frío. Recalentar completamente las raciones que deban servirse calientes; no mantener alimentos perecederos durante horas a temperatura ambiente.
-
+Retirar el molde del baño maría, enfriar el tocino de cielo sin demoras innecesarias y **refrigerar protegido** durante al menos las cuatro horas de reposo previstas. Mantenerlo refrigerado por su alta proporción de yemas y huevos y servir frío, sin dejarlo durante periodos prolongados a temperatura ambiente. Consumir en un plazo corto según la frescura del huevo; no recalentar por rutina un postre diseñado para servicio frío.
 ## Relaciones dentro del SGCC
 
 - [Yemas de Santa Teresa](./yemas_de_santa_teresa_de_avila.md)
