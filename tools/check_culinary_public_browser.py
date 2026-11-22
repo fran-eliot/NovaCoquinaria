@@ -93,6 +93,27 @@ def exercise(base=DEFAULT_BASE):
                             raise AssertionError("Recipe Assistant has no ingredient controls")
                         if page.locator("#step-title").count() == 0:
                             raise AssertionError("Recipe Assistant has no guided steps")
+                        # Revisión aislada: seleccionar una ocurrencia y abrir Shopping
+                        # sin confirmar un artículo ni crear listas o lotes.
+                        page.get_by_text("Seleccionar ingredientes para comprar", exact=True).click()
+                        checks = page.locator("#shopping-selection input")
+                        expect(checks.first).to_be_visible()
+                        expect(page.locator("#send-shopping")).to_be_disabled()
+                        checks.first.check()
+                        expect(page.locator("#send-shopping")).to_be_enabled()
+                        page.once("dialog", lambda dialog: dialog.accept())
+                        page.locator("#send-shopping").click()
+                        expect(page).to_have_url(urljoin(base, "culinary-shopping.html"))
+                        expect(page.locator("#recipe-review")).to_be_visible(timeout=20000)
+                        expect(page.locator("#review-items fieldset")).to_have_count(1)
+                        expect(page.locator("#review-source")).to_contain_text("REC-0017")
+                        expect(page.locator("#review-confirm")).to_be_disabled()
+                        assert page.evaluate(
+                            "(key) => localStorage.getItem(key)",
+                            "novacoquinaria.culinary-shopping") is None, "Shopping saved an unconfirmed article"
+                        assert page.evaluate(
+                            "(key) => localStorage.getItem(key)",
+                            "novacoquinaria.culinary-pantry") is None, "Shopping created a pantry entry"
                     else:
                         expect(page.locator(ready_selector)).to_be_enabled(timeout=20000)
                     if errors:
@@ -101,6 +122,10 @@ def exercise(base=DEFAULT_BASE):
                         raise AssertionError(f"Horizontal overflow on mobile viewport: {path}")
                     record = {"page": path, "http": 200, "javascript": "ready",
                               "viewport_width": 390, "page_errors": 0}
+                    if path.startswith("recipe-assistant"):
+                        record["assistant_to_shopping_review"] = True
+                        record["shopping_article_created"] = False
+                        record["pantry_lot_created"] = False
                     if path.startswith("culinary-explorer"):
                         record["linked_recipe_id"] = "REC-0017"
                         record["explorer_to_assistant"] = True
