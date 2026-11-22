@@ -4,8 +4,8 @@ tipo: receta
 titulo: Carpaccio de calabacín con limón y parmesano
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - verduras
   - receta-propuesta
@@ -48,21 +48,22 @@ Preparación de referencia centrada en **laminado fino y aliño en frío**. No c
 
 ## Puntos críticos
 
-- Es una preparación cruda: la limpieza de la verdura y la higiene de la mandolina son importantes. No utilizar calabacín con sabor anormalmente amargo, pues puede indicar presencia de cucurbitacinas.
-- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.
-- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.
+- La receta se prepara **en crudo**, con calabacín lavado y láminas finísimas; usar protector en la mandolina y utensilios higiénicos.
+- No utilizar calabacín con amargor anómalo, por el posible contenido de cucurbitacinas: descartarlo, sin intentar neutralizar el amargor con sal o limón.
+- Secar el calabacín y añadir la sal al final para limitar la liberación de agua. Conservar el parmesano refrigerado hasta el montaje.
 
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |
-| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |
-| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |
+| Láminas que sueltan demasiada agua | Calabacín húmedo o sal incorporada con antelación | Secarlo tras lavar y añadir la sal justo antes de servir |
+| Textura rígida o gruesa | Laminado poco fino o irregular | Cortar rodajas o tiras muy finas con utensilio apropiado, sin intentar ablandarlas por calor |
+| Aliño ácido demasiado dominante | Exceso de limón para la cantidad de calabacín | Probar después del reposo frío de 5–10 minutos y registrar el equilibrio antes de reformular |
+| Piñones blandos o queso con textura alterada | Incorporación prematura al aliño húmedo | Añadir los piñones fríos y el parmesano justo antes del servicio |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.
+Servir el carpaccio preferentemente recién montado y mantenerlo **refrigerado** durante el reposo breve previsto. Las láminas crudas de calabacín y el parmesano cortado no deben quedar durante periodos prolongados a temperatura ambiente. Tapar las sobras y consumir pronto; el limón no sustituye la higiene ni la cadena de frío. No describir este plato como una verdura cocinada ni recalentarlo por rutina.
 
 ## Relaciones dentro del SGCC
 
