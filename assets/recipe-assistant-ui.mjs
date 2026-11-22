@@ -161,7 +161,9 @@ function renderRecipe(r) {
   $("send-shopping").disabled=!shoppingChecks.length;
   $("send-shopping").addEventListener("click",()=>{
     try{
-      const selection=createRecipeSelection(r,shoppingChecks.filter(x=>x.check.checked).map(x=>x.position));
+      const desired=originalServings===null?null:$("scaling-target").valueAsNumber;
+      const selection=createRecipeSelection(r,shoppingChecks.filter(x=>x.check.checked).map(x=>x.position),
+        {targetServings:desired});
       if(!confirm("¿Abrir compras? Se perderá el progreso de preparación de esta página."))return;
       putRecipeSelection(()=>window.sessionStorage,selection);location.assign("culinary-shopping.html");
     }catch(e){$("shopping-status").textContent=e.message;}
