@@ -4,8 +4,8 @@ tipo: receta
 titulo: Arroz basmati con coco y lima
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -52,21 +52,22 @@ Guarnición de arroz basmati con leche de coco y lima, suave y aromática, aprop
 
 ## Puntos críticos
 
-- El coco cambia la absorción: los 310 ml totales son punto de partida para 200 g de arroz lavado, no una proporción universal; ajustar al envase.
-- Mantener una higiene adecuada y respetar las indicaciones de conservación y cocción de cada producto.
-- Ajustar la sal y el picante después de probar las salsas comerciales; no asumir concentraciones uniformes.
+- La leche de coco modifica la absorción: los **310 ml de líquido para 200 g de basmati lavado** son una referencia pendiente de prueba, no una regla universal. Respetar el envase del arroz empleado.
+- Mantener el hervor suave y la tapa puesta durante la cocción por absorción; comprobar el grano antes de añadir más agua.
+- El arroz cocido requiere enfriamiento rápido y refrigeración si no se sirve inmediatamente. Incorporar el zumo de lima al final, como indica el procedimiento.
 
 ## Diagnóstico
 
-| Situación | Causa probable | Ajuste para la próxima prueba |
+| Situación | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |
-| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |
-| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |
+| Grano duro con líquido absorbido | Agua insuficiente para la variedad real de basmati | Añadir 1–2 cucharadas de agua caliente y terminar la cocción tapada, como indica la elaboración |
+| Arroz pastoso y pegajoso | Exceso de líquido, lavado insuficiente o cocción prolongada | Lavar y escurrir bien, controlar absorción y registrar la variedad utilizada |
+| Fondo pegado o tostado | Fuego demasiado intenso durante la cocción tapada | Bajar al mínimo tras llevar a hervor suave |
+| Aroma de lima débil o amargor | Zumo añadido demasiado pronto o piel con parte blanca | Retirar la piel tras reposar y añadir el zumo únicamente al final |
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Servir el arroz basmati con coco preferentemente recién hecho. Si sobra, **enfriarlo rápidamente** en porciones poco profundas y refrigerarlo tapado sin dejarlo durante horas a temperatura ambiente: el arroz cocido puede presentar riesgos microbiológicos que el recalentado posterior no elimina necesariamente. Consumir en un plazo corto y recalentar completamente solo las porciones necesarias; desechar el arroz cuyo enfriado y almacenamiento seguros no puedan verificarse.
 
 ## Relaciones dentro del SGCC
 
