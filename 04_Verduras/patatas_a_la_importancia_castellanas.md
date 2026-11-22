@@ -5,7 +5,7 @@ titulo: Patatas a la importancia castellanas
 categoria: Verduras
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-15
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -68,7 +68,7 @@ etiquetas:
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.
+Consumir preferentemente recién preparado. Si sobran patatas a la importancia, enfriarlas sin demora en recipientes poco profundos y conservarlas refrigeradas. Al servirlas de nuevo, calentar completamente la porción y comprobar que el centro esté caliente; evitar varios ciclos de recalentamiento. Esta recomendación se refiere a la preparación con patata, huevo y salsa, sin extrapolar criterios de conservación de otros platos.
 
 ## Relaciones dentro del SGCC
 
