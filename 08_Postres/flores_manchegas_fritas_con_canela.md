@@ -4,8 +4,8 @@ tipo: receta
 titulo: Flores manchegas fritas con canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-18
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -51,8 +51,9 @@ etiquetas:
 
 ## Puntos críticos
 
-- El molde específico es imprescindible para reproducir la forma; no sumergirlo completamente en la masa.
-- Mantener mango seco, evitar salpicaduras y no tocar el molde caliente. No probar la masa cruda.
+- Usar el molde específico caliente y sumergirlo en la masa **sin cubrir el borde superior**, para que la flor pueda desprenderse durante la fritura.
+- Mantener el mango y las manos secos, evitar salpicaduras y no tocar el molde metálico caliente. No consumir la masa cruda con huevo y leche.
+- Freír en tandas con el aceite alrededor de los 175–180 °C orientativos; escurrir sobre rejilla para conservar la textura ligera.
 
 ## Diagnóstico
 
@@ -64,7 +65,7 @@ etiquetas:
 
 ## Conservación
 
-Guardar las flores completamente frías en recipiente seco y cerrado; consumir preferentemente en 1–2 días. La masa cruda no se conserva a temperatura ambiente.
+Dejar enfriar por completo las flores fritas sobre rejilla antes de guardarlas en recipiente limpio, seco y cerrado. Conservarlas alejadas de la humedad y consumirlas preferentemente en 1–2 días, conforme al criterio prudente ya indicado para esta fórmula. La **masa cruda con huevo y leche debe permanecer refrigerada** durante el reposo y hasta su uso; no confundir su conservación con la de las flores ya fritas.
 
 ## Relaciones dentro del SGCC
 

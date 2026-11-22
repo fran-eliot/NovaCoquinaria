@@ -4,8 +4,8 @@ tipo: receta
 titulo: Perrunillas extremeñas de manteca y limón
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -57,15 +57,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste en la próxima elaboración |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Interior duro o incompleto | Tiempo insuficiente o piezas grandes | Comprobar el punto real y prolongar suavemente |
-| Preparación con exceso de agua | Líquido sobrante o escurrido insuficiente | Ajustar hidratación, reducir o escurrir |
-| Sabor desequilibrado | Sal, grasa o azúcar excesivos | Rectificar después de probar y registrar cantidades |
+| Piezas que se rompen al moverlas | Manipulación mientras están muy calientes | Enfriar por completo sobre rejilla antes de trasladarlas con fuerza |
+| Perrunillas duras en lugar de quebradizas | Mezcla demasiado trabajada o horneado prolongado | Integrar la harina solo hasta formar masa moldeable y vigilar el punto antes de resecar |
+| Interior crudo con superficie dorada | Piezas de grosor desigual o demasiado grandes | Formar porciones similares y comprobar la cocción interior, incluida la clara del pincelado |
+| Acabado azucarado desigual | Clara mal distribuida o azúcar extra aplicado de forma irregular | Pincelar con capa fina y repartir el azúcar antes de hornear |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío carnes, pescados, huevos y lácteos y evitar horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes.
+Enfriar completamente las perrunillas horneadas sobre rejilla antes de guardarlas en recipiente limpio, cerrado y seco. Mantenerlas protegidas de la humedad y el calor durante un periodo prudente según el ambiente, comprobando su estado antes de consumirlas. La formulación horneada sin crema perecedera no requiere las mismas pautas que un postre lácteo frío; la masa cruda con huevo sí debe manipularse higiénicamente.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pestiños andaluces con miel y ajonjolí
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -55,20 +55,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- La masa debe estirarse fina para freírse por dentro. El ajonjolí es sésamo alergénico; la miel y el aceite calientes pueden provocar quemaduras.
-- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.
+- Estirar la masa a unos 2 mm y cerrar bien las esquinas para que no se abran durante la fritura; comprobar que el interior quede cocido.
+- Mantener el aceite cerca de los 170–175 °C previstos y freír pocas piezas cada vez. La miel caliente y el aceite pueden provocar quemaduras.
+- El ajonjolí es sésamo y debe identificarse como alérgeno; el vino blanco de la masa puede dejar alcohol residual.
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima tanda |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |
-| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |
-| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |
+| Pestiños que se abren al freír | Esquinas poco presionadas o masa excesivamente gruesa | Estirar fino y cerrar bien las dos esquinas antes de introducir en el aceite |
+| Masa grasienta o poco crujiente | Aceite insuficientemente caliente o demasiadas piezas a la vez | Mantener la temperatura y freír por tandas pequeñas |
+| Exterior oscuro e interior crudo | Aceite demasiado caliente o masa demasiado gruesa | Comprobar el grosor aproximado de 2 mm y la cocción interior |
+| Baño de miel desigual o demasiado líquido | Miel y agua poco integradas o exceso de líquido en la cobertura | Calentar suavemente la proporción prevista, bañar por tandas y escurrir sobre rejilla |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.
+Dejar enfriar completamente los pestiños ya bañados en miel sobre rejilla antes de guardarlos en recipiente alimentario limpio y protegido. Mantenerlos en lugar fresco y seco durante un plazo prudente, según condiciones de humedad y temperatura; comprobar que no haya signos de deterioro. La miel no implica estabilidad comercial validada ni justifica prolongar indefinidamente su conservación. No aplicar a esta receta consejos de enfriado de arroz o conservación de carnes.
 
 ## Relaciones dentro del SGCC
 
