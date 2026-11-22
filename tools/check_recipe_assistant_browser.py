@@ -147,6 +147,7 @@ def exercise(site):
                 shopping_before = page.locator("#shopping-selection label").all_text_contents()
                 page.get_by_text("Seleccionar ingredientes para comprar", exact=True).click()
                 page.locator("#shopping-selection input").first.check()
+                expect(page.locator("#shopping-proposals")).to_contain_text("cantidades originales")
                 expect(page.locator("#send-shopping")).to_be_enabled()
                 expect(page.locator("#scaling-reset")).to_be_disabled()
                 target = original + 1 if original < 24 else original - 1
@@ -157,6 +158,14 @@ def exercise(site):
                 # y unidades contables enteras; la muestra inicial es un mínimo.
                 visible_scaled = page.locator("#scaling-preview li").filter(has_text=" → ").count()
                 assert scaled_count <= visible_scaled <= len(scale_recipe["ingredients"])
+                page.locator("#shopping-select-all").click()
+                expect(page.locator("#shopping-proposals")).to_contain_text(
+                    f"{visible_scaled} de {len(scale_recipe['ingredients'])} ingredientes con cantidad propuesta")
+                expect(page.locator("#shopping-proposals")).to_contain_text(
+                    f"{len(scale_recipe['ingredients']) - visible_scaled} requieren revisión manual")
+                page.locator("#shopping-clear").click()
+                expect(page.locator("#shopping-proposals")).to_contain_text("Selecciona ingredientes")
+                page.locator("#shopping-selection input").first.check()
                 expect(page.locator("#scaling-status")).to_contain_text(
                     f"{visible_scaled} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
                 assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
@@ -183,6 +192,7 @@ def exercise(site):
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
                 expect(page.locator("#shopping-scaling-note")).to_contain_text("Raciones no válidas")
+                expect(page.locator("#shopping-proposals")).to_contain_text("Corrige las raciones")
                 expect(page.locator("#send-shopping")).to_be_disabled()
                 expect(page.locator("#scaling-reset")).to_be_enabled()
                 expect(page.locator("#copy-scaling")).to_be_disabled()

@@ -180,6 +180,17 @@ function renderRecipe(r) {
     $("shopping-count").textContent=count+" de "+shoppingChecks.length+" ingredientes seleccionados";
     const desired=originalServings===null?null:$("scaling-target").valueAsNumber;
     const validServings=desired===null || (Number.isInteger(desired)&&desired>=1&&desired<=24);
+    const proposalStatus=$("shopping-proposals");
+    if(count===0)proposalStatus.textContent="Selecciona ingredientes para consultar el alcance de la adaptación.";
+    else if(!validServings)proposalStatus.textContent="Corrige las raciones antes de calcular las cantidades propuestas.";
+    else if(originalServings===null || desired===originalServings)
+      proposalStatus.textContent=count+" ingredientes con cantidades originales; no se propondrán ajustes automáticos.";
+    else{
+      const selected=shoppingChecks.filter(x=>x.check.checked);
+      const proposals=selected.filter(x=>scaleIngredient(r.ingredients[x.position],originalServings,desired)!==null).length;
+      proposalStatus.textContent=proposals+" de "+count+" ingredientes con cantidad propuesta; "+
+        (count-proposals)+" requieren revisión manual en Shopping.";
+    }
     $("send-shopping").disabled=count===0 || !validServings;
     $("shopping-select-all").disabled=shoppingChecks.length===0;
     $("shopping-select-required").disabled=!shoppingChecks.some(x=>x.optionality==="required");
