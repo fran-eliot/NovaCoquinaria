@@ -1,6 +1,6 @@
 import {storeSelection} from "./culinary-planner-recipe-transfer.mjs";
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
-import {scalingBasis, scaleIngredient} from "./recipe-assistant-scaling.mjs";
+import {scalingBasis, scaleIngredient, formatScaledList} from "./recipe-assistant-scaling.mjs";
 
 import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
 import {inline, renderMarkdown} from "./recipe-assistant-markdown.mjs";
@@ -106,15 +106,18 @@ function renderRecipe(r) {
   if(originalServings!==null){
     $("scaling-panel").hidden=false;
     $("scaling-original").textContent=String(originalServings);
-    const target=$("scaling-target"),preview=$("scaling-preview"),status=$("scaling-status");
+    const target=$("scaling-target"),preview=$("scaling-preview"),status=$("scaling-status"),copy=$("copy-scaling");
     target.value=String(originalServings);
     function updateScaling(){
       preview.replaceChildren();
       const desired=target.valueAsNumber;
+      $("copy-scaling-status").textContent="";
+      copy.disabled=true;
       if(!Number.isInteger(desired)||desired<1||desired>24){
         for(const hint of inlineScaled.values()){hint.hidden=true;hint.textContent="";}
         status.textContent="Indica entre 1 y 24 raciones.";return;
       }
+      copy.disabled=false;
       let count=0;
       for(const entry of r.ingredients){
         const scaled=scaleIngredient(entry,originalServings,desired);
@@ -131,7 +134,21 @@ function renderRecipe(r) {
       status.textContent=count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
     }
     refreshScaling=updateScaling;
-    target.addEventListener("input",updateScaling);updateScaling();
+    target.addEventListener("input",updateScaling);
+    copy.addEventListener("click",async()=>{
+      copy.disabled=true;
+      try{
+        if(!navigator.clipboard?.writeText) throw new Error("Portapapeles no disponible");
+        await navigator.clipboard.writeText(formatScaledList(r,target.valueAsNumber));
+        $("copy-scaling-status").textContent="Lista copiada. Revisa las cantidades no ajustadas.";
+      }catch{
+        $("copy-scaling-status").textContent="No se pudo copiar. Comprueba los permisos del navegador.";
+      }finally{
+        const desired=target.valueAsNumber;
+        copy.disabled=!(Number.isInteger(desired)&&desired>=1&&desired<=24);
+      }
+    });
+    updateScaling();
   }
   for(const d of r.durations) $("durations").append(node("li",(Object.hasOwn(phases,d.phase)?phases[d.phase]:d.phase)+": "+d.raw));
   if(!r.durations.length) $("durations").append(node("li","Tiempos no declarados o no reconocidos."));
