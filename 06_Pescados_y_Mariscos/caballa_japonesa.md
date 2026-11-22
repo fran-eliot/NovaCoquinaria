@@ -11,8 +11,8 @@ tiempo_preparacion: 15 min
 tiempo_coccion: 10 min
 raciones: 2
 estado: estable
-version: 1.0.2
-ultima_revision: 2026-11-15
+version: 1.0.3
+ultima_revision: 2026-11-22
 etiquetas:
 - caballa
 - pescado
@@ -62,9 +62,11 @@ Fácil.
 
 ## Salsa
 
-Preparar una versión ligera de:
+Preparar aparte una versión ligera de:
 
-* Salsa teriyaki base.
+* [Salsa teriyaki base](../12_Plantillas/02_Salsas/salsa_teriyaki_base.md).
+
+Las proporciones de la plantilla son **orientativas para 2–3 raciones**, no la cantidad de salsa utilizada en la experiencia doméstica confirmada. Para una futura tanda, reservar una parte para un glaseado fino, incorporar gradualmente y evitar que una capa abundante o una reducción excesiva oculte la caballa.
 
 ## Guarnición
 
@@ -97,10 +99,10 @@ Consultar:
 
 1. Preparar la salsa.
 2. Calentar una plancha o sartén.
-3. Cocinar la caballa primero por el lado de la piel.
-4. Dar la vuelta cuando la piel esté dorada y crujiente.
-5. Añadir la salsa durante el último minuto.
-6. Glasear ligeramente.
+3. Cocinar la caballa primero por el lado de la piel, ajustando el calor al grosor de los lomos.
+4. Dar la vuelta cuando la piel esté dorada y crujiente y comprobar que el centro del pescado completa la cocción; no tomar solo el color de la piel ni los 10 minutos orientativos como garantía.
+5. Añadir una pequeña parte de la salsa preparada cuando el pescado esté casi cocinado; el último minuto indicado es orientativo, y hay que evitar quemar el glaseado.
+6. Glasear ligeramente, añadiendo más salsa solo si es necesario.
 7. Servir inmediatamente.
 
 ---
