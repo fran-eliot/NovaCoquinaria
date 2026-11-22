@@ -4,8 +4,8 @@ tipo: receta
 titulo: Botillo del Bierzo con cachelos y berza
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -49,21 +49,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- La forma de presentación comercial condiciona totalmente la cocción. Un botillo crudo curado no es seguro por el mero hecho de estar curado; atender a etiqueta y cocción completa. Una ebullición violenta puede romper la envoltura.
-- Verificar las instrucciones específicas de productos comerciales y la cocción de carnes, huevos, pescados y mariscos. Mantener higiene y cadena de frío en todos los productos perecederos.
-- La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.
+- **La etiqueta del botillo comercial manda**: distinguir producto crudo curado, precocido o ya cocido y seguir el tratamiento de seguridad del fabricante. El curado no equivale a cocción completa.
+- Mantener hervor muy suave para evitar roturas de la envoltura y quemaduras por salpicaduras; abrir el botillo cocinado lejos de la cara por la salida de vapor.
+- Añadir berza y patatas según sus tiempos propios para que estén tiernas cuando el botillo esté completamente cocinado. Probar el caldo antes de añadir sal, por tratarse de un producto curado.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste para la siguiente elaboración |
 |---|---|---|
-| Textura demasiado firme | Cocción insuficiente o corte desigual | Comprobar el interior y adaptar tiempo o grosor |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir sin perder jugos esenciales |
-| Sabor demasiado salado | Curados, fumet o adobos concentrados | Ajustar sal al final y probar previamente |
+| Botillo con interior insuficientemente cocido | Tratamiento o tiempo inadecuados para su presentación comercial | Verificar etiqueta, grosor y cocción completa del producto antes de servir |
+| Envoltura rota y carne dispersa | Ebullición violenta o manipulación brusca | Mantener hervor suave y extraer el botillo con cuidado |
+| Cachelos duros y botillo listo | Patatas incorporadas demasiado tarde o trozos grandes | Ajustar su incorporación a los 20–30 minutos orientativos finales, comprobando su ternura |
+| Conjunto muy salado | Sal propia del botillo curado o adición de sal antes de probar | Sazonar solo al final, después de evaluar el caldo y el producto |
 
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con lácteos, huevo, pescados y carnes deben conservarse en frío; las raciones calientes se recalientan completamente cuando corresponda. No mantener alimentos perecederos horas a temperatura ambiente.
+Seguir las condiciones de conservación indicadas para el **botillo comercial antes de cocinarlo**. Tras cocinarlo completamente, enfriar rápidamente las sobras de carne, cachelos y berza en porciones poco profundas y mantenerlas tapadas en refrigeración. Recalentar completamente las porciones destinadas a servirse calientes y consumir pronto; no considerar el curado original como garantía de conservación del plato ya cocinado.
 
 ## Relaciones dentro del SGCC
 
