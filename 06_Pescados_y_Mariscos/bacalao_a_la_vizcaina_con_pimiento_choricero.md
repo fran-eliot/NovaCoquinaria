@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bacalao a la vizcaína con pimiento choricero
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -57,15 +57,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Observación | Posible causa | Ajuste para próxima elaboración |
+| Observación | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |
-| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |
-| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |
+| Bacalao demasiado salado | Desalado insuficiente o sal añadida antes del servicio | Desalar refrigerado según grosor y probar la salsa antes de incorporar sal |
+| Lomos secos o separados en exceso | Cocción prolongada o hervor intenso dentro de la salsa | Cocinar suavemente durante el intervalo orientativo y comprobar el centro sin sobrecocer |
+| Salsa vizcaína muy líquida | Exceso de agua o fumet o cebolla poco reducida | Pochar bien la cebolla y ajustar el líquido antes de añadir el bacalao |
+| Salsa amarga | Ajo o pulpa choricera quemados o restos de piel de pimiento | Pochar suavemente, retirar pieles y semillas y evitar tostar excesivamente la pulpa |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.
+Desalar el bacalao en refrigeración cuando se parte de salazón, siguiendo el grosor y el etiquetado. Conservar refrigerado el pescado ya desalado hasta cocinarlo. Servir la vizcaína recién hecha o enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas tapadas. Recalentar completamente las porciones destinadas al consumo y consumir en un plazo corto; esta salsa no convierte el bacalao cocinado en una conserva.
 
 ## Relaciones dentro del SGCC
 
