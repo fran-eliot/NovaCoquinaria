@@ -4,8 +4,8 @@ tipo: receta
 titulo: Crema de limón y nata estilo posset
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -46,22 +46,20 @@ Propuesta de repostería basada en **reducción breve de nata y cuajado por acid
 
 ## Puntos críticos
 
-- La acidez cuaja la nata, por lo que necesita nata suficientemente grasa y zumo medido. No sustituir por leche ni añadir agua: se perdería estructura. No equivale a lemon curd ni a mermelada.
-- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.
-- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.
-
+- El cuajado se produce por la combinación de nata suficientemente grasa y acidez del limón, **sin horno ni huevo**. Medir los 70 ml de zumo y no sustituir la nata por leche ni diluir la mezcla con agua.
+- Mantener el hervor moderado aproximado de 3 minutos propuesto, removiendo para que la nata no se pegue ni se desborde. Incorporar el zumo fuera del fuego y repartir en recipientes limpios.
+- Refrigerar los vasitos después de perder el calor excesivo durante un tiempo breve. El reposo orientativo de 4 horas permite valorar la consistencia; no equivale a un tiempo de cocción.
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste en una siguiente preparación |
 |---|---|---|
-| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |
-| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |
-| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |
-
+| Crema demasiado fluida tras el reposo | Nata con poca grasa, zumo mal medido o enfriamiento insuficiente | Verificar porcentaje graso y volumen de limón y respetar el reposo en frío antes de reformular |
+| Separación de líquido | Equilibrio de nata y acidez alterado o mezcla diluida | No añadir agua ni sustituir nata por leche; registrar ingredientes y aspecto al incorporar el limón |
+| Textura demasiado firme | Reducción excesiva o proporción distinta de los ingredientes | En otra prueba controlar el hervor y medir los volúmenes, sin atribuir una causa única sin observación |
+| Acidez o dulzor desequilibrados | Variabilidad del limón y percepción de los 110 g de azúcar | Valorar la fórmula preparada antes de ajustar el azúcar o el zumo en una repetición |
 ## Conservación
 
-Enfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.
-
+Repartir la crema recién preparada en vasitos limpios, evitar enfriamientos prolongados a temperatura ambiente y **refrigerar tapados** una vez que hayan perdido el calor excesivo. Mantener siempre frío este postre de nata, servirlo directamente desde el frigorífico y consumir en un plazo corto según la frescura y conservación del lácteo. No aplicar indicaciones para bizcochos u horneados secos a esta crema cuajada por acidez.
 ## Relaciones dentro del SGCC
 
 - [Limón](../11_Despensa/11_Condimentos/limon.md)
