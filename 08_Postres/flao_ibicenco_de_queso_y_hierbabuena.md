@@ -4,8 +4,8 @@ tipo: receta
 titulo: Flaó ibicenco de queso y hierbabuena
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,15 +58,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |
-| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |
-| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |
+| Relleno acuoso o sin cuajar | Queso fresco con exceso de suero o cocción insuficiente | Escurrir el queso y comprobar el centro con huevo antes de retirar del horno |
+| Base de masa poco cocida | Masa demasiado gruesa o humedad del relleno | Estirar uniformemente en el molde bajo y verificar también el punto de la base |
+| Relleno demasiado firme o agrietado | Exceso de calor o prolongación del horneado | Ajustar el tiempo al grosor real sin dejar el centro crudo |
+| Aroma de hierbabuena demasiado intenso o débil | Diferencias entre hojas frescas o su picado | Registrar la variedad y cantidad utilizada antes de ajustar las 12–16 hojas en otra preparación |
 
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.
+Dejar templar el flaó después de comprobar que el relleno está cocido y refrigerar pronto las porciones no consumidas, protegidas en recipiente limpio. El **queso fresco y los huevos** requieren conservar el postre refrigerado; servir a temperatura fresca sin mantener la tarta durante periodos prolongados fuera de frío. Consumir en un plazo corto conforme a la frescura del queso empleado.
 
 ## Relaciones dentro del SGCC
 
