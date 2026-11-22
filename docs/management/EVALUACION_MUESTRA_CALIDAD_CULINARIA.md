@@ -71,8 +71,8 @@ En [`REC-0201`](../../07_Cocina_Asiatica/calamares_salteados_con_kimchi.md), **I
 | Eje | Conforme | Incidencia | Desconocido | No aplica |
 |---|---:|---:|---:|---:|
 | E01 Identidad/procedencia | 8 | 0 | 0 | 0 |
-| E02 Ingredientes/cantidades | 5 | 3 | 0 | 0 |
-| E03 Elaboración/secuencia | 5 | 3 | 0 | 0 |
+| E02 Ingredientes/cantidades | 4 | 4 | 0 | 0 |
+| E03 Elaboración/secuencia | 4 | 4 | 0 | 0 |
 | E04 Rendimiento/tiempo | 8 | 0 | 0 | 0 |
 | E05 Alternativas/condiciones | 8 | 0 | 0 | 0 |
 | E06 Grado de verificación | 6 | 0 | 2 | 0 |
