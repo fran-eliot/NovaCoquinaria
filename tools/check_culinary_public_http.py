@@ -3,6 +3,7 @@
 This is network evidence, not manual functional acceptance or a browser test.
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -107,8 +108,27 @@ def inspect(base, opener=urlopen):
         if catalog.get(field) != manifest.get(field):
             raise ValueError(f"Catalog/manifest disagreement: {field}")
     recipe_id = "REC-0017"
-    if recipe_id not in manifest.get("recipes", {}):
+    entry = manifest.get("recipes", {}).get(recipe_id)
+    if not isinstance(entry, dict):
         raise ValueError(f"Known recipe absent from assistant manifest: {recipe_id}")
+    filename = hashlib.sha256(recipe_id.encode("utf-8")).hexdigest() + ".json"
+    if entry.get("file") != filename:
+        raise ValueError("Assistant recipe filename mismatch")
+    raw_recipe = fetch(base, "recipe_assistant/" + filename, opener)
+    if hashlib.sha256(raw_recipe).hexdigest() != entry.get("sha256"):
+        raise ValueError("Assistant recipe payload hash mismatch")
+    recipe = json.loads(raw_recipe.decode("utf-8"))
+    catalog_record = next((row for row in catalog["recipes"] if row.get("id") == recipe_id), None)
+    if (not isinstance(recipe, dict) or not isinstance(catalog_record, dict)
+            or recipe.get("id") != recipe_id
+            or recipe.get("title") != catalog_record.get("title")
+            or recipe.get("source_commit") != manifest.get("source_commit")
+            or recipe.get("index_sha256") != manifest.get("index_sha256")
+            or recipe.get("source_sha256") != entry.get("source_sha256")
+            or recipe.get("href") != entry.get("href")
+            or not isinstance(recipe.get("ingredients"), list) or not recipe["ingredients"]
+            or not isinstance(recipe.get("steps"), list) or not recipe["steps"]):
+        raise ValueError("Assistant recipe payload/catalog mismatch")
     for asset in sorted(resources):
         fetch(base, asset, opener)
     return {
@@ -121,6 +141,8 @@ def inspect(base, opener=urlopen):
         "catalog_recipes": len(catalog["recipes"]),
         "source_commit": catalog["source_commit"],
         "assistant_manifest": True,
+        "sample_recipe_id": recipe_id,
+        "sample_recipe_integrity": True,
         "manual_browser_acceptance": False,
         "local_storage_tested": False,
     }
