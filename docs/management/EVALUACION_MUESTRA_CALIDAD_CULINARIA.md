@@ -99,3 +99,14 @@ Se recomiendan **como máximo seis intervenciones** y dos controles sin cambio:
 Antes de cerrar globalmente la Unidad B, completar **E07** en Explorer y Recipe Assistant sobre los ocho IDs seleccionados o conservar ese eje expresamente como no ejecutado. La presente revisión documental puede aprobarse separadamente de la aceptación de navegación individual; no debe convertir `D` en `C` por existir pruebas públicas sobre otras recetas.
 
 **Versión publicada:** `v1.7.0`. No se autoriza nueva release ni cambio de arquitectura con esta evaluación.
+
+
+## Unidad C — Primera tanda propuesta de correcciones editoriales
+
+La primera tanda temática se presenta en una PR separada sobre `REC-448`, `REC-0201` y `REC-0021`, después de la evaluación documentada en este informe. **No se alteran pesos ni proporciones base, resultados de experiencia doméstica, variantes ni estado pendiente de prueba.**
+
+- **REC-448 / H-B05:** conservación específica de patatas a la importancia y su salsa, retirando las referencias a arroz y otras preparaciones no relacionadas.
+- **REC-0201 / H-B08:** condición y momento de uso de un máximo de 30 ml de agua como propuesta de ajuste todavía no probada; conservación limitada a la receta descrita.
+- **REC-0021 / H-B04:** armonización de refrigeración, conservación y recalentamiento del arroz con el bloque previo de seguridad; se retira la obligación de haberlo cocinado el día anterior, que era contradictoria con la posibilidad de enfriarlo adecuadamente el mismo día.
+
+La aprobación de esta PR validará únicamente el alcance editorial de la tanda. Permanecen pendientes las intervenciones propuestas para las tres fichas de carne/caballa, los controles sin intervención de merluza y gambas y el recorrido individual E07. **No se afirma que se hayan repetido ni probado estas recetas tras la edición.**
