@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bonito encebollado con vino blanco
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - pescado
   - receta-propuesta
@@ -56,15 +56,16 @@ Elaboración de referencia centrada en **cebolla pochada y cocción corta del pe
 
 ## Diagnóstico
 
-| Problema | Causa probable | Ajuste |
+| Problema | Causa probable | Ajuste para una próxima prueba |
 |---|---|---|
-| Pescado seco | Calor excesivo o tiempo prolongado | Comprobar el centro y reducir el tiempo innecesario |
-| Salsa demasiado concentrada | Evaporación excesiva | Añadir líquido en pequeñas dosis y probar sal |
-| Piel sin dorar | Humedad superficial o temperatura insuficiente | Secar antes y controlar el fuego |
+| Bonito seco o fibroso | Pescado incorporado demasiado pronto o cocción excesiva | Pochar y reducir la cebolla primero; introducir el bonito al final y comprobar la cocción completa sin prolongarla innecesariamente |
+| Cebolla todavía firme | Pochado inicial insuficiente | Respetar los 15–20 minutos orientativos antes de agregar vino y pescado |
+| Salsa demasiado reducida o salada | Vino y caldo evaporados en exceso | Ajustar con pequeñas cantidades del agua o caldo previsto y probar antes de salar |
+| Tacos de bonito deshechos | Hervor violento o manipulación brusca | Cocinar suavemente por ambas caras sin remover en exceso |
 
 ## Conservación
 
-Refrigerar sin demora los sobrantes en recipientes poco profundos. Los escabeches preparados en casa **no son conservas esterilizadas** y se mantienen refrigerados. Consumir los platos con pescado o marisco en un plazo corto, siguiendo las indicaciones del producto; no dejar varias horas a temperatura ambiente.
+Mantener el bonito fresco refrigerado hasta incorporarlo a la cebolla ya pochada. Servir el plato inmediatamente tras la cocción o enfriar rápidamente las sobras en recipientes poco profundos y conservarlas tapadas **en frigorífico**. Consumir en un plazo corto y recalentar completamente las porciones previstas para servir, procurando no resecar el pescado. El vino de la salsa no convierte esta preparación en una conserva.
 
 ## Relaciones dentro del SGCC
 
