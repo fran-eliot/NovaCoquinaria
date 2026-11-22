@@ -21,12 +21,21 @@ test("fracciones exactas y límites de representación",()=>{
   for(const value of ["0/2","1/0","-1/2","2/3/4","9007199254740993/2"])
     assert.equal(scaleIngredient(item(value),4,6),null);
 });
+test("unidades contables: solo cantidades enteras positivas",()=>{
+  assert.deepEqual(scaleIngredient(item("2","unidad"),4,6),{quantity:"3",unit:"unidad"});
+  assert.deepEqual(scaleIngredient(item("4","diente"),4,6),{quantity:"6",unit:"diente"});
+  assert.deepEqual(scaleIngredient(item("2","hoja"),4,8),{quantity:"4",unit:"hoja"});
+  assert.deepEqual(scaleIngredient(item("1","rama"),2,4),{quantity:"2",unit:"rama"});
+  assert.equal(scaleIngredient(item("1","unidad"),4,6),null);
+  assert.equal(scaleIngredient(item("1/2","unidad"),4,6),null);
+  assert.equal(scaleIngredient(item("1","diente"),4,2),null);
+  assert.equal(scaleIngredient(item("3","unidad"),4,2),null);
+});
 test("rechaza intervalos, aproximaciones, medidas y valores inseguros",()=>{
   const entry=item();
   for(const quantity of [
     {...entry.quantity,status:"range",max:"400"},
     {...entry.quantity,approximate:true},
-    {...entry.quantity,unit:"unidad"},
     {...entry.quantity,unit:"cucharada"},
     {...entry.quantity,min:"Infinity",max:"Infinity"},
     {...entry.quantity,status:"ambiguous"}

@@ -1,5 +1,6 @@
 /* Vista de escalado conservadora: no altera fuente, estado ni compras. */
 const UNITS = new Set(["g", "kg", "ml", "cl", "l"]);
+const COUNT_UNITS = new Set(["unidad", "diente", "hoja", "rama"]);
 const decimal = value => {
   if (typeof value !== "string") return null;
   // Las cantidades exactas del extractor pueden expresarse como fracciones.
@@ -24,10 +25,11 @@ export function scaleIngredient(entry, originalServings, targetServings) {
   if (!Number.isInteger(originalServings) || originalServings < 1 || originalServings > 24 ||
       !Number.isInteger(targetServings) || targetServings < 1 || targetServings > 24) return null;
   const q = entry?.quantity;
-  if (!q || q.status !== "exact" || q.approximate !== false || q.min !== q.max || !UNITS.has(q.unit)) return null;
+  if (!q || q.status !== "exact" || q.approximate !== false || q.min !== q.max || !UNITS.has(q.unit) && !COUNT_UNITS.has(q.unit)) return null;
   const amount = decimal(q.min);
   if (amount === null) return null;
   const result = amount * targetServings / originalServings;
-  if (!Number.isFinite(result) || result <= 0 || result > 1e7) return null;
+  if (!Number.isFinite(result) || result <= 0 || result > 1e7 ||
+      (COUNT_UNITS.has(q.unit) && !Number.isSafeInteger(result))) return null;
   return {quantity: Number(result.toFixed(3)).toLocaleString("es-ES", {maximumFractionDigits:3}), unit:q.unit};
 }
