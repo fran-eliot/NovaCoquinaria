@@ -4,8 +4,8 @@ tipo: receta
 titulo: Marquesas de almendra de Navidad
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -51,21 +51,20 @@ etiquetas:
 
 ## Puntos críticos
 
-- Las marquesas son pequeños bizcochitos de almendra de miga tierna, no mazapanes compactos. El batido de huevo y el tamaño de las cápsulas influyen en la altura.
-- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.
-
+- Las marquesas son bizcochitos tiernos de almendra; no se busca una masa compacta de mazapán. El aire incorporado al batir huevos con azúcar glas contribuye al volumen.
+- Mantener las cápsulas apoyadas en un molde rígido y llenarlas solo hasta aproximadamente dos tercios para obtener piezas regulares.
+- Vigilar que el centro con huevo esté completamente cocido sin prolongar el horneado hasta secar toda la miga; dejar enfriar antes del azúcar glas decorativo.
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste en la próxima preparación |
 |---|---|---|
-| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |
-| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |
-| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |
-
+| Marquesas planas o compactas | Batido de huevo poco aireado o mezcla excesiva tras incorporar harina | Batir huevos con azúcar hasta espumar e incorporar secos suavemente |
+| Centro húmedo sin cocer | Cápsulas demasiado llenas o horneado insuficiente | Mantener un llenado de dos tercios y comprobar el centro de las piezas |
+| Bordes secos y centro ya cocido | Horneado excesivo para el tamaño de las cápsulas | Comprobar antes del límite orientativo de 16–22 minutos |
+| Cubierta de azúcar glas humedecida | Azúcar espolvoreado con los pastelitos aún calientes | Enfriar por completo y decorar justo antes de servir |
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.
-
+Enfriar completamente las marquesas horneadas sobre rejilla antes de guardarlas en un recipiente limpio y protegido, en lugar fresco y seco durante un periodo breve según el ambiente. Espolvorear el azúcar glas decorativo preferiblemente al servir. Si se añade posteriormente una crema o relleno perecedero, revisar la conservación; esta formulación se refiere a bizcochitos sin ese añadido.
 ## Relaciones dentro del SGCC
 
 - [Tarta de Santiago](./tarta_de_santiago_de_almendra.md)

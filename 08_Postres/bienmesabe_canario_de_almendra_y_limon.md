@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bienmesabe canario de almendra y limón
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -52,21 +52,20 @@ etiquetas:
 
 ## Puntos críticos
 
-- El bienmesabe canario es una crema dulce y densa de almendra y yemas, no un bizcocho. Las yemas deben cocinarse completamente sin que se formen grumos; un hervor violento puede cortar la textura.
-- Ajustar tiempos, líquido y sal a ingredientes y equipo. Mantener higiene y cadena de frío, atender al etiquetado y comprobar la cocción segura de los productos animales y sus rellenos.
-
+- El bienmesabe es una crema densa de almendra y yemas: no debe tratarse como un bizcocho ni como una salsa salada.
+- Incorporar la pasta de almendra templada poco a poco a las yemas y cocinar removiendo sin ebullición violenta, comprobando que la mezcla con huevo alcance la referencia de cocción indicada en la elaboración.
+- Tras espesar, pasar la crema a un recipiente bajo, enfriar rápidamente y mantener refrigerada. Los acompañamientos opcionales tienen condiciones propias de conservación.
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Ingrediente firme o poco hecho | Cocción insuficiente o piezas grandes | Comprobar el interior y prolongar con calor moderado |
-| Preparación demasiado líquida | Exceso de agua o reducción incompleta | Ajustar cantidad y reducir progresivamente |
-| Sabor desequilibrado | Exceso de sal o azúcar | Corregir después de probar y anotar proporciones |
-
+| Crema con grumos de yema | Pasta demasiado caliente al incorporar las yemas o calentamiento posterior excesivo | Igualar temperaturas gradualmente y cocinar removiendo a fuego suave |
+| Pasta excesivamente líquida | Almíbar poco reducido o falta de espesado con almendra | Comprobar la textura durante los pasos de almíbar y cocción, sin añadir más azúcar antes de probar |
+| Pasta demasiado espesa o que se pega | Reducción intensa o fuego alto | Mantener el fuego bajo y remover, registrando la textura para una futura comparación |
+| Dulzor intenso | Proporción de azúcar y almendra de esta fórmula | Valorar la primera preparación antes de reducir azúcar en una variante no probada |
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescado, huevos y lácteos requieren refrigeración y manipulación higiénica. Recalentar completamente las porciones destinadas a consumo caliente, sin mantener perecederos horas a temperatura ambiente.
-
+Enfriar rápidamente el bienmesabe después de cocinar las yemas y conservarlo **tapado y refrigerado** por su contenido en huevo. Servir porciones pequeñas frías y devolver al frigorífico lo que no se consuma, evitando permanencias prolongadas a temperatura ambiente. Consumir pronto según la frescura de los ingredientes; si se sirve con helado, mantener este congelado hasta el servicio.
 ## Relaciones dentro del SGCC
 
 - [Tarta de Santiago de almendra](./tarta_de_santiago_de_almendra.md)
