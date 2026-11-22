@@ -109,3 +109,10 @@ Es una **línea base descriptiva reproducible**, no una mejora ya demostrada de 
 ## Unidad B — Protocolo de muestra editorial fijado (22-11-2026)
 
 La [muestra editorial de calidad culinaria](./MUESTRA_EDITORIAL_CALIDAD_CULINARIA.md) fija ocho recetas cuyas rutas canónicas fueron verificadas, junto con ocho ejes de revisión, una escala descriptiva y reglas de evidencia antes de emitir valoraciones. La selección es dirigida, no estadísticamente representativa: cubre cinco módulos y excluye explícitamente otros cinco. La revisión de fichas completas y el registro de hallazgos deben realizarse en una PR posterior, sin reescrituras ni conclusiones anticipadas. Se mantiene la release `v1.7.0`.
+
+
+## Unidad C — Cierre técnico acotado (22-11-2026)
+
+El [cierre del piloto editorial](./CIERRE_PILOTO_CALIDAD_CULINARIA.md) documenta seis intervenciones implementadas y fusionadas en #343 y #344, dos controles sin intervención y la prueba E07 de ocho recorridos individuales en Chromium local de #345, cuyo workflow concluyó satisfactoriamente. No se equipara ese test con aceptación pública manual ni se afirma una nueva prueba doméstica de los platos.
+
+La Unidad C se considera **Complete — Bounded Editorial & Local Browser Validation**, dentro de ese alcance. La propuesta siguiente es una decisión estratégica de Unidad D, sujeta a revisión independiente y sin autorizar por sí misma otra release o funcionalidad.
