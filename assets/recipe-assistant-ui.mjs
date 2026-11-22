@@ -118,11 +118,13 @@ function renderRecipe(r) {
         status.textContent="Indica entre 1 y 24 raciones.";return;
       }
       copy.disabled=false;
+      const unchanged=desired===originalServings;
       let count=0;
       for(const entry of r.ingredients){
-        const scaled=scaleIngredient(entry,originalServings,desired);
+        const scaled=unchanged?null:scaleIngredient(entry,originalServings,desired);
         const li=node("li");
-        if(scaled){li.textContent=entry.raw+" → "+scaled.quantity+" "+scaled.unit;count++;}
+        if(unchanged)li.textContent=entry.raw;
+        else if(scaled){li.textContent=entry.raw+" → "+scaled.quantity+" "+scaled.unit;count++;}
         else li.textContent=entry.raw+" — sin ajuste automático";
         const hint=inlineScaled.get(entry.position);
         if(hint){
@@ -131,7 +133,8 @@ function renderRecipe(r) {
         }
         preview.append(li);
       }
-      status.textContent=count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
+      status.textContent=unchanged?"Raciones originales. Se muestran las cantidades declaradas sin ajustes.":
+        count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
     }
     refreshScaling=updateScaling;
     target.addEventListener("input",updateScaling);

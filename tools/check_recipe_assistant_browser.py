@@ -138,6 +138,11 @@ def exercise(site):
                 expect(page.locator("#scaling-panel")).to_be_visible()
                 expect(page.locator("#scaling-original")).to_have_text(str(original))
                 assert page.locator("#scaling-preview li").count() == len(scale_recipe["ingredients"])
+                expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
+                assert page.locator("#scaling-preview li").filter(has_text=" → ").count() == 0
+                assert page.locator("#scaling-preview li").filter(has_text="sin ajuste automático").count() == 0
+                assert page.locator("#scaling-preview li").all_text_contents() == [
+                    entry["raw"] for entry in scale_recipe["ingredients"]]
                 shopping_before = page.locator("#shopping-selection label").all_text_contents()
                 target = original + 1 if original < 24 else original - 1
                 page.locator("#scaling-target").fill(str(target))
@@ -165,6 +170,7 @@ def exercise(site):
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
                 page.reload()
                 expect(page.locator("#scaling-target")).to_have_value(str(original))
+                expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
                 report["scaling_sample"] = scale_id
                 page.get_by_role("link", name="Volver al explorador").click()
