@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bizcocho de tres leches y vainilla
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -61,13 +61,14 @@ Receta de referencia centrada en **bizcocho aireado, perforado y remojo refriger
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
+| Bizcocho se deshace al incorporar las tres leches | Base insuficientemente cocida o líquido vertido de golpe sobre un bizcocho frágil | Verificar la cocción antes de remojar, perforar ligeramente y repartir el líquido por tandas en vez de verterlo de una vez |
+| Zonas secas tras el reposo | Reparto desigual de la mezcla de leches o absorción todavía incompleta | Distribuir el remojo gradualmente por toda la superficie y comprobar tras las 4–6 horas orientativas de frío; registrar el resultado antes de aumentar el líquido |
+| Líquido acumulado y corte poco estable | Capacidad de absorción de la miga insuficiente para la mezcla o falta de tiempo de reposo | Mantener refrigerado y comprobar la absorción; en otra prueba ajustar el remojo según la miga realmente obtenida, sin cambiar ingredientes sin evidencia |
+| Cobertura de nata pierde consistencia | Nata o bizcocho demasiado templados al montar y extender | Montar la nata pasteurizada bien fría y cubrir el pastel frío justo antes de servir |
 
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
+Tras añadir la mezcla de tres leches, **refrigerar el bizcocho sin demora** en un recipiente apto para retener el líquido y mantenerlo protegido durante el reposo de 4–6 horas. Conservar refrigerado también después de añadir la nata montada, servir porciones sin dejar la tarta fuera de frío prolongadamente y devolver las sobras al frigorífico. Consumir pronto, según frescura y condiciones de los lácteos utilizados; esta elaboración húmeda no se conserva como un bizcocho seco.
 
 ## Relaciones dentro del SGCC
 
