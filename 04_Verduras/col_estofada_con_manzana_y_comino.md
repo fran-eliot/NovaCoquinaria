@@ -4,8 +4,8 @@ tipo: receta
 titulo: Col estofada con manzana y comino
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - verduras
   - receta-propuesta
@@ -56,15 +56,16 @@ Preparación de referencia centrada en **sudado y cocción húmeda breve**. No c
 
 ## Diagnóstico
 
-| Problema | Posible causa | Ajuste en la próxima prueba |
+| Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |
-| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |
-| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |
+| Col todavía dura | Tiras demasiado gruesas o estofado insuficiente | Cortar la col fina y comprobar su punto al finalizar los 12–18 minutos orientativos |
+| Preparación con exceso de caldo | Líquido añadido en exceso o cocción demasiado tapada | Destapar al final para evaporar sin resecar ni quemar la col |
+| Manzana convertida en puré | Manzana muy madura o incorporada demasiado pronto | Añadirla los últimos cinco minutos para conservar parte de su forma |
+| Comino amargo o demasiado intenso | Especia quemada o concentración excesiva | Incorporarlo junto a la col con calor moderado y valorar el sabor antes de ajustar dosis |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.
+Enfriar sin demoras las sobras de **col y manzana estofadas** en recipientes poco profundos y refrigerar tapadas. Recalentar completamente la porción destinada al consumo, teniendo en cuenta que la manzana puede perder firmeza con un nuevo calentamiento. Consumir en un plazo corto; no aplicar instrucciones de aliños lácteos a esta receta sin lácteos.
 
 ## Relaciones dentro del SGCC
 
