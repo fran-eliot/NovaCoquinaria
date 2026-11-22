@@ -124,3 +124,8 @@ No crear este bloque en todas las fichas automáticamente. Cuando corresponda, i
 Seleccionar **una sola nueva preparación real**, cuando exista y el propietario desee documentarla, y recoger únicamente datos que realmente pueda recordar o medir. Registrar las lagunas como `no documentado`. Comprobar si la nota mínima permite actualizar la ficha sin empeorar su versión preferida ni ocultar variantes. Evaluar utilidad práctica y esfuerzo antes de aumentar alcance. **Si no existe nueva experiencia, abstenerse; no inventarla ni presentar los tres casos históricos como ensayo CPFL-B.**
 
 **Decisión CPFL-A:** el ciclo de feedback es **factible como proceso editorial asistido y trazable sin nueva infraestructura**. Se recomienda **considerar CPFL-B**, una sola preparación efectiva nueva y aprobada, pero ni el piloto, ni CPFL-C, ni una app, ni un nuevo release quedan autorizados por esta PR. Sigue publicada `v1.7.0`.
+
+
+## CPFL-B — Protocolo previo a una observación nueva
+
+El [protocolo CPFL-B](./PROTOCOLO_PILOTO_CPFL_B.md) fija un piloto de **una preparación real**, preguntas conversacionales mínimas, comparación de variantes y criterios de aceptación antes de cualquier captura. Su estado es **PREPARED — NOT EXECUTED**: no se ha comunicado una nueva experiencia para el piloto, no se ha editado ninguna receta y no se ha probado ninguna interfaz nueva. CPFL-C no queda autorizada.
