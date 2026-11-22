@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bica gallega mantecada de mantequilla
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,14 +59,13 @@ etiquetas:
 
 | Resultado | Posible causa | Ajuste en la próxima elaboración |
 |---|---|---|
-| Interior duro o incompleto | Tiempo insuficiente o piezas grandes | Comprobar el punto real y prolongar suavemente |
-| Preparación con exceso de agua | Líquido sobrante o escurrido insuficiente | Ajustar hidratación, reducir o escurrir |
-| Sabor desequilibrado | Sal, grasa o azúcar excesivos | Rectificar después de probar y registrar cantidades |
-
+| Centro húmedo sin cocer y superficie dorada | Grosor del molde o horneado insuficiente | Comprobar el centro antes de retirar y ajustar gradualmente el tiempo, protegiendo la superficie si hace falta |
+| Miga compacta | Batido prolongado tras incorporar los 300 g de harina | Integrar harina e impulsor suavemente en las dos tandas indicadas |
+| Superficie de azúcar demasiado oscura | Calor exterior intenso o capa superficial irregular | Repartir los 30 g de azúcar extra de manera uniforme y vigilar el dorado sin dejar el centro crudo |
+| Mezcla con aspecto cortado al añadir huevos o nata | Ingredientes a temperaturas diferentes o incorporación brusca | Incorporar huevos uno a uno y la nata progresivamente; registrar el comportamiento antes de variar la fórmula |
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío carnes, pescados, huevos y lácteos y evitar horas a temperatura ambiente. Recalentar completamente las porciones destinadas a consumirse calientes.
-
+Dejar enfriar completamente la bica sobre rejilla antes de cortar y tapar, evitando condensación que ablande la costra de azúcar. **Sin rellenos ni coberturas perecederas**, puede conservarse protegida brevemente en lugar fresco y seco, según temperatura y humedad ambiental; refrigerar si las condiciones no permiten mantenerla así. No aplicar pautas de recalentado de carnes ni refrigeración obligatoria de una crema fría a esta bica ya horneada. Si se añadiese una cobertura láctea, revisar la conservación.
 ## Relaciones dentro del SGCC
 
 - [Coca de llanda valenciana](./coca_de_llanda_valenciana_con_limon_y_canela.md)

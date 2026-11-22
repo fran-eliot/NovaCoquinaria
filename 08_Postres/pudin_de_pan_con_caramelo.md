@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pudin de pan con caramelo
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -57,14 +57,13 @@ Elaboración de referencia que trabaja **aprovechamiento de pan y baño maría**
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
-
+| Trozos de pan secos o aislados | Hidratación desigual durante los 10–15 minutos de remojo | Trocear el pan de forma uniforme y comprobar que absorba la leche templada antes de mezclarlo con el huevo |
+| Centro líquido al terminar el horno | Cuajado insuficiente en el molde de aproximadamente 1 litro | Verificar el centro y prolongar gradualmente el baño maría sin ebullición violenta |
+| Textura agujereada o gomosa | Baño maría demasiado caliente o exceso de mezcla al batir | Evitar hervores fuertes y batir los huevos solo lo necesario para integrarlos |
+| Caramelo amargo | Azúcar calentado más allá del dorado previsto | Detener el caramelo cuando esté dorado; no tocarlo ni probarlo caliente |
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
-
+Tras completar el cuajado, retirar el pudin del baño maría, dejar que pierda calor sin demoras innecesarias y **refrigerarlo protegido** antes de desmoldar, como indica la elaboración. Al llevar pan empapado en leche y huevo, mantener el pudin refrigerado hasta servir, no en la despensa como pan horneado seco. Consumir en un plazo corto según las condiciones de preparación y la frescura de leche y huevos.
 ## Relaciones dentro del SGCC
 
 - [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)

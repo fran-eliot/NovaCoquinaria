@@ -4,8 +4,8 @@ tipo: receta
 titulo: Clafoutis de cerezas al horno
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -58,14 +58,13 @@ Receta de referencia centrada en **batido fluido y cuajado de fruta al horno**. 
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
-
+| Centro líquido mientras los bordes están dorados | Falta de cuajado en el centro o fuente más profunda que la prevista | Comprobar el centro de la mezcla con huevo y prolongar suavemente el horneado si es necesario |
+| Textura gomosa en lugar de cremosa | Horneado excesivo o batido demasiado intenso | Batir huevos y azúcar solo hasta integrar y revisar el punto antes de que el conjunto se seque |
+| Grumos de harina | Harina incorporada bruscamente a los líquidos | Integrar primero la harina tamizada y añadir la leche gradualmente como indica la elaboración |
+| Zonas muy acuosas junto a la fruta | Cerezas húmedas o distribución desigual | Secar bien las cerezas deshuesadas y repartirlas uniformemente, sin alterar la proporción antes de probarla |
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
-
+El clafoutis contiene leche, mantequilla y huevo y conserva humedad de la fruta. Tras el templado previsto para servir, **refrigerar pronto** las porciones que no se consuman, tapadas y en recipiente limpio. Mantenerlas refrigeradas y consumir en un plazo corto según la frescura de los ingredientes; no guardar esta elaboración húmeda como si fuera un bizcocho seco. Revisar que no queden huesos de cereza al servir.
 ## Relaciones dentro del SGCC
 
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Rollos de canela con glaseado de queso crema
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -55,22 +55,20 @@ Preparación de referencia basada en **masa levada, enrollado y horneado**. Esta
 
 ## Puntos críticos
 
-- El segundo levado influye en el volumen y la miga. Evitar exceso de harina en el amasado. El queso crema requiere refrigeración y no debe aplicarse sobre piezas excesivamente calientes.
-- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.
-- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.
-
+- El primer levado de 60–90 minutos y el segundo de 30–45 minutos son referencias: comprobar que la masa aumente de volumen y que las piezas tengan espacio en la bandeja.
+- Evitar añadir harina de más durante el amasado; la mantequilla de la masa se incorpora mientras se trabaja y el relleno se extiende sobre el rectángulo antes de enrollar.
+- El glaseado con **queso crema pasteurizado** se aplica cuando los rollos ya no están excesivamente calientes y exige refrigeración posterior; no confundir su conservación con la de una masa horneada sin cobertura.
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste propuesto |
 |---|---|---|
-| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |
-| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |
-| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |
-
+| Rollos compactos y poco esponjosos | Fermentación insuficiente o harina extra durante el amasado | Comprobar el crecimiento real en ambos levados y evitar añadir harina innecesaria |
+| Interior de masa todavía crudo y superficie dorada | Rollos gruesos o cocción desigual | Comprobar el centro de los rollos y prolongar con prudencia el horneado si hace falta |
+| Espiral abierta o relleno escapado | Enrollado poco uniforme o corte que deforma la masa | Enrollar con tensión moderada, cortar doce piezas de grosor similar y dejar espacio para el segundo levado |
+| Glaseado demasiado fluido | Queso crema calentado al contacto con piezas muy calientes | Dejar templar los rollos antes de cubrir y mantener después las sobras refrigeradas |
 ## Conservación
 
-Enfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.
-
+Dejar templar los rollos recién horneados antes de extender el glaseado. **Una vez incorporado el queso crema**, guardar los rollos sobrantes tapados y refrigerados; limitar su permanencia a temperatura ambiente durante el servicio y consumir en un plazo corto según el producto lácteo usado. Sin glaseado, la conservación de la masa horneada sería distinta, pero no debe aplicarse esa alternativa a rollos que ya llevan cobertura perecedera.
 ## Relaciones dentro del SGCC
 
 - [Fermentar masas hidratadas de pan](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Crumble de manzana y pera
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - manzana
@@ -98,8 +98,7 @@ Fruta tierna y jugosa con cobertura irregular, seca y crujiente.
 
 ## Conservación
 
-Enfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.
-
+Tras servir el crumble templado, enfriar las porciones restantes sin demoras innecesarias y conservarlas **tapadas y refrigeradas** debido a la humedad de la fruta cocinada. La cobertura puede perder textura crujiente durante el almacenamiento; si se desea recuperar algo de contraste, calentar solo la porción que se vaya a consumir, comprobando su estado y evitando ciclos repetidos de calentamiento. Consumir en un plazo corto según los ingredientes y las condiciones de conservación. No aplicar pautas genéricas de postres congelados a esta receta servida templada.
 ## Relaciones dentro del SGCC
 
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)

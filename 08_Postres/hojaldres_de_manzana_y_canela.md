@@ -4,8 +4,8 @@ tipo: receta
 titulo: Hojaldres de manzana y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -57,14 +57,13 @@ Propuesta de repostería basada en **relleno seco, sellado de hojaldre y hornead
 
 | Resultado | Posible causa | Ajuste en una siguiente preparación |
 |---|---|---|
-| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |
-| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |
-| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |
-
+| Base de hojaldre blanda o húmeda | Relleno de manzana demasiado acuoso o introducido caliente | Reducir casi toda el agua del relleno, enfriar por completo y comprobar que la base quede cocida |
+| Capas poco desarrolladas | Hojaldre calentado durante el montaje | Mantener la lámina fría, trabajar con rapidez y no aplastar los bordes más allá del sellado |
+| Relleno que se escapa | Bordes mal sellados o piezas demasiado cargadas | Dejar borde libre y sellar con tenedor, conservando el corte de ventilación superior |
+| Hojaldre dorado por arriba pero crudo por debajo | Calor desigual o bandeja inadecuada para el grosor | Verificar el punto de la base antes de retirar y ajustar el horneado en una prueba posterior |
 ## Conservación
 
-Enfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.
-
+Dejar enfriar los hojaldres sobre rejilla para que no se acumule vapor bajo la base. Guardar protegidos durante un periodo breve en condiciones frescas y secas **solo cuando el relleno de fruta esté completamente cocinado y las condiciones de conservación lo permitan**; refrigerar si hace calor, hay mucha humedad o se retrasa el consumo. La refrigeración puede ablandar el hojaldre, pero no justifica mantener a temperatura ambiente una preparación deteriorada. No aplicar reglas de tartas con nata o queso crema a esta fórmula sin esos ingredientes.
 ## Relaciones dentro del SGCC
 
 - [Manzana](../11_Despensa/17_Frutas/manzana.md)
