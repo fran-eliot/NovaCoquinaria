@@ -71,3 +71,23 @@ test("lista exportable conserva originales y señala ajustes pendientes",()=>{
   assert.throws(()=>formatScaledList(recipe,0));
   assert.throws(()=>formatScaledList({...recipe,yield:null},6));
 });
+
+test("lista copiada conserva secciones y ocurrencias de ingredientes",()=>{
+  const recipe={title:"Tarta",yield:{min:"4",max:"4",unit:"porcion"},ingredients:[
+    {...item("200","g"),raw:"200 g harina",group:"Masa"},
+    {...item("100","g"),raw:"100 g azúcar",group:"Masa"},
+    {...item("2","unidad"),raw:"2 huevos",group:"Relleno"},
+    {raw:"canela al gusto",group:null,quantity:{status:"qualitative"}},
+    {...item("50","g"),raw:"50 g chocolate",group:"Cobertura"}
+  ]};
+  const before=structuredClone(recipe);
+  const copied=formatScaledList(recipe,6);
+  assert.match(copied,/Masa\n- 200 g harina → 300 g\n- 100 g azúcar → 150 g/);
+  assert.match(copied,/Relleno\n- 2 huevos → 3 unidad/);
+  assert.match(copied,/Sin grupo\n- canela al gusto \[revisar manualmente\]/);
+  assert.match(copied,/Cobertura\n- 50 g chocolate → 75 g/);
+  assert.deepEqual(recipe,before);
+  assert.equal((copied.match(/Masa/g)||[]).length,1);
+  const ungrouped={...recipe,ingredients:[{...recipe.ingredients[0],group:null}]};
+  assert.doesNotMatch(formatScaledList(ungrouped,6),/Sin grupo/);
+});
