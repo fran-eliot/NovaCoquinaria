@@ -4,8 +4,8 @@ tipo: receta
 titulo: Frit mallorquí de cordero, patata y verduras
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -61,15 +61,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Patatas blandas o deshechas al mezclar | Fritura insuficiente o incorporación demasiado temprana al conjunto | Dorar y escurrir por separado; añadir durante los últimos 2–3 minutos indicados |
+| Cordero duro | Trozos desiguales o cocción insuficiente | Cortar en dados pequeños uniformes y comprobar la cocción completa antes de mezclarlos con las verduras |
+| Hígado seco o con zonas crudas, si se emplea | Piezas desiguales o control insuficiente de la cocción | Cocinar por separado y comprobar que quede completamente hecho sin prolongar innecesariamente |
+| Conjunto excesivamente graso | Patatas mal escurridas o aceite acumulado al saltear | Escurrir bien la patata y controlar el aceite de la sartén antes del mezclado final |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Servir el frit mallorquí preferentemente recién hecho. Enfriar sin demora las sobras de **cordero, hígado opcional, patata y verduras cocinadas** en recipientes poco profundos, conservarlas tapadas y refrigeradas y recalentar completamente solo lo que se vaya a consumir. Mantener las vísceras crudas separadas del resto de ingredientes hasta su cocción. No dejar esta preparación con carne varias horas a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
