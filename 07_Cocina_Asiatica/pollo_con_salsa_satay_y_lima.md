@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pollo con salsa satay y lima
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -60,15 +60,16 @@ Pollo en salsa cremosa de cacahuete, con salsa satay comercial y lima. Adaptaci�
 
 ## Diagnóstico
 
-| Situación | Causa probable | Ajuste para la próxima prueba |
+| Situación | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |
-| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |
-| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |
+| Salsa satay demasiado espesa o pegada al fondo | Cacahuete y leche de coco concentrados por reducción | Cocinar a fuego moderado y añadir pequeñas cantidades de los 50 ml de agua previstos si se espesa |
+| Salsa excesivamente salada o picante | Producto satay comercial de alta concentración | Probar la salsa antes de añadir sal o más picante y registrar la marca utilizada |
+| Pollo sin cocción completa | Tiras de diferente grosor o cocción insuficiente en la salsa | Comprobar los 74 °C en la parte gruesa de los trozos antes de servir |
+| Sabor ácido dominante | Lima añadida en exceso al final | Incorporar las dosis de lima gradualmente y valorar el resultado antes de ajustar la formulación |
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Mantener refrigerado el pollo crudo y conservar la salsa satay abierta según las instrucciones del fabricante. Tras cocinar por completo el pollo en salsa de cacahuete y coco, enfriar rápidamente las sobras en porciones poco profundas y refrigerarlas tapadas. Recalentar completamente lo que se vaya a consumir, removiendo con suavidad y ajustando con agua si la salsa ha espesado. No dejar este plato con carne y salsa perecedera durante periodos prolongados a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
