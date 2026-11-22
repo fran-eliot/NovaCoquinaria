@@ -67,7 +67,7 @@ etiquetas:
 
 ## Conservación
 
-Mantener **pochas frescas o congeladas sin cocer** según su presentación comercial y cocinarlas completamente antes del consumo. Tras el estofado, enfriar rápidamente las sobras de pochas y hortalizas en recipientes poco profundos y conservarlas tapadas en frigorífico. No dejarlas durante horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio. Esta fórmula no contiene carnes, pescados, huevos ni lácteos; el manejo higiénico y el frío siguen siendo necesarios para las legumbres cocinadas.
+Mantener **pochas frescas o congeladas sin cocer** según su presentación comercial y cocinarlas completamente antes del consumo. Tras el estofado, enfriar rápidamente las sobras de pochas y hortalizas en recipientes poco profundos y conservarlas tapadas en frigorífico. No dejarlas durante horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio. El manejo higiénico y el frío siguen siendo necesarios también para un guiso exclusivamente vegetal.
 
 ## Relaciones dentro del SGCC
 
