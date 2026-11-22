@@ -148,11 +148,16 @@ def exercise(site):
                 expect(page.locator("#scaling-status")).to_contain_text(
                     f"{visible_scaled} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
                 assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
+                expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(visible_scaled)
+                assert all("Adaptado: " in value for value in
+                           page.locator("#ingredients .scaled-ingredient-hint:visible").all_text_contents())
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
                 assert page.locator("#scaling-preview li").count() == 0
+                expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
                 page.reload()
                 expect(page.locator("#scaling-target")).to_have_value(str(original))
+                expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
                 report["scaling_sample"] = scale_id
                 page.get_by_role("link", name="Volver al explorador").click()
                 expect(page.locator("#title")).to_be_enabled(timeout=15000)
