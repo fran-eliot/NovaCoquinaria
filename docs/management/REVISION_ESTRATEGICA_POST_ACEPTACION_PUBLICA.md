@@ -97,3 +97,10 @@ Mantener las cinco aplicaciones y sus datos locales tal como están, atender def
 - [Revisión estratégica culinaria anterior](./REVISION_ESTRATEGICA_CULINARIA.md)
 - [Deuda de requisitos culinarios](./DEUDA_REQUISITOS_CULINARIOS.md)
 - [Kit de continuidad](./NOVACOQUINARIA_KIT_CONTINUITY.md)
+
+
+## Unidad A — Corte de línea base técnica (22-11-2026)
+
+Se incorpora la [línea base de calidad culinaria](./LINEA_BASE_CALIDAD_CULINARIA.md) mediante reutilización de los resultados observados en [Knowledge audit #300](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45046377378), proyección fijada a `7bc20e9a019d95445a13f59b109d52185c450a18`. El informe distingue cobertura extraída de evaluación humana e identifica explícitamente los denominadores, los límites de los estados de preparación y la discrepancia entre alguna duración numérica y un total temporal único.
+
+Es una **línea base descriptiva reproducible**, no una mejora ya demostrada de calidad, una nueva herramienta de auditoría ni una aprobación automática del piloto editorial. La decisión sobre Unidad B requerirá seleccionar y fijar la muestra antes de evaluarla, conservando la mejor versión de cada receta y las variantes documentadas. La release publicada continúa siendo `v1.7.0`.
