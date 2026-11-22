@@ -65,7 +65,7 @@ etiquetas:
 
 ## Conservación
 
-El **tumbet de patata, berenjena, pimiento y tomate** se puede servir recién terminado o refrigerar después de enfriar rápidamente las sobras en recipientes poco profundos. Guardar tapado en frigorífico, no dejarlo varias horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio, procurando conservar las capas. Esta formulación vegetal no lleva las carnes, pescados, huevos ni lácteos enumerados en antiguas advertencias genéricas.
+El **tumbet de patata, berenjena, pimiento y tomate** se puede servir recién terminado o refrigerar después de enfriar rápidamente las sobras en recipientes poco profundos. Guardar tapado en frigorífico, no dejarlo varias horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio, procurando conservar las capas. La conservación en frío corresponde también a estas hortalizas ya cocinadas y montadas.
 
 ## Relaciones dentro del SGCC
 
