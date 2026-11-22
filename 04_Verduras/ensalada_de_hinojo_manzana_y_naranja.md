@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ensalada de hinojo, manzana y naranja
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - verduras
   - receta-propuesta
@@ -49,21 +49,22 @@ Preparación de referencia basada en **laminado fino, cítricos y vinagreta fres
 
 ## Puntos críticos
 
-- Es una preparación cruda: higienizar hinojo y manzana y evitar la contaminación cruzada. El limón retrasa el pardeamiento de la manzana, pero no sustituye la refrigeración.
-- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.
-- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.
+- Es una ensalada **cruda y sin cocción**: lavar hinojo y manzana, pelar la naranja e impedir la contaminación cruzada.
+- Cortar el hinojo y la manzana en láminas finas y uniformes; usar el protector de la mandolina si se emplea.
+- El zumo de limón ayuda a limitar el pardeamiento de la manzana, pero no sustituye la refrigeración. Incorporar las nueces opcionales cerca del servicio para preservar su textura.
 
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste en otra prueba |
 |---|---|---|
-| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |
-| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |
-| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |
+| Ensalada con demasiado líquido | Naranja con mucho jugo o hinojo y manzana mal escurridos después del lavado | Secar los ingredientes y medir el jugo que se añade a la vinagreta |
+| Hinojo demasiado fibroso | Cortes gruesos o partes exteriores duras | Retirar zonas dañadas y laminar finamente |
+| Manzana oscurecida | Corte anticipado y exposición prolongada al aire | Preparar cerca del servicio y mezclar con el aliño de limón sin retrasar la refrigeración |
+| Nueces reblandecidas | Contacto prolongado con la vinagreta | Incorporarlas al final y servir de inmediato |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.
+Mantener la ensalada **refrigerada y protegida** desde el montaje hasta el servicio. Es una preparación cruda de hortalizas y frutas cortadas; consumir preferentemente pronto para evitar pérdida de textura y pardeamiento. Guardar la vinagreta y las nueces opcionales por separado si se prepara con antelación. No aplicar instrucciones de enfriado de platos cocinados a esta ensalada sin cocción.
 
 ## Relaciones dentro del SGCC
 
