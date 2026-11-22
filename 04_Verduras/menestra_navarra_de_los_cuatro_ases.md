@@ -4,8 +4,8 @@ tipo: receta
 titulo: Menestra navarra de los cuatro ases
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -60,15 +60,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Alcachofas o espárragos duros | Limpieza insuficiente o cocción previa corta para su calibre | Limpiar cuidadosamente y ajustar por separado la cocción hasta un punto ligeramente firme |
+| Guisantes y habas deshechos | Cocción previa prolongada o calentamiento final excesivo | Controlar su punto antes de incorporarlos a la cazuela común |
+| Salsa con grumos de harina | Harina mal integrada o caldo añadido de golpe | Cocinar la harina 1–2 minutos e incorporar el caldo reservado gradualmente |
+| Menestra demasiado salada | Jamón opcional y caldo de cocción ya salados | Probar después de añadir el jamón y antes de salar el conjunto |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Enfriar rápidamente las sobras de **alcachofas, espárragos, guisantes y habas cocidos** y refrigerarlas tapadas en recipientes poco profundos. Si se utiliza el **jamón opcional**, mantenerlo y manipularlo según su etiquetado. Evitar dejar la menestra durante horas a temperatura ambiente y recalentar completamente las porciones previstas, con suavidad para no deshacer las verduras. No introducir advertencias sobre pescados o mariscos que no forman parte de la preparación.
 
 ## Relaciones dentro del SGCC
 
