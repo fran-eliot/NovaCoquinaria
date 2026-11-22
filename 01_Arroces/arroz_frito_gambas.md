@@ -19,7 +19,7 @@ raciones: 2
 estado: Estable
 version: 1.1.0
 fecha_creacion: 2026-07-17
-ultima_revision: 2026-11-15
+ultima_revision: 2026-11-22
 autor: NovaCoquinaria
 ---
 
@@ -128,15 +128,15 @@ Combina especialmente bien con:
 
 # Conservación
 
-- Refrigerar hasta 48 horas.
-- Recalentar siempre a fuego fuerte.
-- No recomendable congelar una vez cocinado.
+- Después de cocinar, enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos; no dejar el arroz cocido a temperatura ambiente. Respetar el plazo de conservación adecuado a los ingredientes y la cadena de frío, en lugar de considerar «48 horas» una garantía de seguridad.
+- Al consumir una porción refrigerada, recalentarla completamente y de manera uniforme. Un fuego fuerte por sí solo no demuestra calentamiento suficiente ni corrige una conservación previa insegura.
+- Evitar congelar la preparación si no se puede garantizar un enfriamiento, envasado y conservación adecuados.
 
 ---
 
 # Consejos
 
-- Utilizar arroz cocinado el día anterior.
+- Utilizar arroz ya cocinado, enfriado rápidamente y conservado refrigerado; puede prepararse el mismo día y no necesita reposar toda la noche.
 - No sobrecargar el wok.
 - Cocinar las gambas lo mínimo imprescindible.
 - Mantener todos los ingredientes preparados antes de comenzar el salteado.
