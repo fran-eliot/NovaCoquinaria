@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tarta de zanahoria con nueces y queso crema
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -60,13 +60,14 @@ Propuesta de repostería basada en **bizcocho húmedo y cobertura láctea fría*
 
 | Resultado | Posible causa | Ajuste en una siguiente preparación |
 |---|---|---|
-| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |
-| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |
-| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |
+| Centro húmedo y todavía crudo | Humedad de la zanahoria, profundidad del molde o tiempo de horneado insuficiente | Comprobar el centro antes de sacar del horno y ajustar el tiempo de forma gradual; no atribuir una causa única sin probarlo |
+| Miga excesivamente compacta | Incorporación prolongada de la harina o reparto desigual de la zanahoria y las nueces | Integrar los secos y las nueces sin batir de más; repartir de manera homogénea la zanahoria rallada |
+| Cobertura de queso crema blanda o que resbala | Bizcocho aún templado o cobertura calentada en exceso durante el montaje | Dejar enfriar completamente el bizcocho, mezclar el queso crema frío con el azúcar glas y refrigerar la tarta ya cubierta |
+| Cobertura demasiado dulce para el bizcocho | Dulzor conjunto de la masa y los 35 g de azúcar glas | Valorar el resultado de una preparación antes de proponer cambiar el azúcar de la cobertura en una siguiente prueba |
 
 ## Conservación
 
-Enfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.
+Enfriar completamente el bizcocho antes de aplicar la cobertura. Una vez extendida la mezcla de **queso crema y azúcar glas**, conservar la tarta protegida **en frigorífico**; no dejarla durante periodos prolongados a temperatura ambiente al decorar o servir. Refrigerar pronto las porciones sobrantes y consumir en un plazo corto según la frescura y las instrucciones del queso empleado.
 
 ## Relaciones dentro del SGCC
 
