@@ -4,8 +4,8 @@ tipo: receta
 titulo: Torrijas de leche y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - pan
@@ -96,7 +96,7 @@ Exterior dorado y fragante, interior húmedo y suave sin desprender líquido en 
 
 ## Conservación
 
-Enfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.
+Servir las torrijas preferentemente templadas después de freír y comprobar que el rebozado de huevo está completamente cocinado. Enfriar sin demoras las que no se consuman y conservarlas **tapadas y refrigeradas** por su contenido de leche y huevo y la humedad del pan empapado. Consumir en un plazo corto según la frescura de los ingredientes; si se atemperan o calientan de nuevo, hacerlo solo con las porciones destinadas a servir. No aplicar instrucciones de postres congelados a estas torrijas sin una congelación expresamente prevista.
 
 ## Relaciones dentro del SGCC
 
