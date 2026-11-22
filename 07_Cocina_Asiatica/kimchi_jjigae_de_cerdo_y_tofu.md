@@ -4,8 +4,8 @@ tipo: receta
 titulo: Kimchi jjigae de cerdo y tofu
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,13 +59,14 @@ etiquetas:
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Caldo muy salado o ácido | Kimchi comercial intenso o demasiado jugo añadido | Incorporar el jugo gradualmente y probar antes de usar gochujang opcional |
+| Tofu roto en trozos pequeños | Remoción excesiva tras incorporarlo | Añadir los dados en los últimos 5–7 minutos y mover la cazuela con suavidad |
+| Cerdo insuficientemente cocido | Tiras grandes o cocción desigual antes del caldo | Saltear por tandas y comprobar cocción completa antes de servir |
+| Guiso muy líquido o de sabor plano | Exceso de caldo respecto al kimchi y al sofrito | Mantener la referencia de 500–600 ml y registrar la concentración del kimchi antes de cambiar la receta |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Mantener **cerdo, tofu abierto y kimchi** en condiciones de refrigeración adecuadas según sus etiquetas hasta cocinar. Enfriar rápidamente las sobras del guiso y refrigerarlas tapadas en recipientes poco profundos, sin dejarlas horas a temperatura ambiente. Recalentar completamente las porciones destinadas al consumo y consumir pronto; la fermentación del kimchi no convierte este guiso con carne y tofu en una conserva.
 
 ## Relaciones dentro del SGCC
 
