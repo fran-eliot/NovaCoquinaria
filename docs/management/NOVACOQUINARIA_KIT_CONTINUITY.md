@@ -2,16 +2,16 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 2.8.0
+version: 2.9.0
 estado: estable
-ultima_revision: 2026-11-21
+ultima_revision: 2026-11-22
 ---
 
 # Kit de continuidad de NovaCoquinaria
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 21 de noviembre de 2026, tras consolidación de recorridos (#306–#308), con las cinco aplicaciones desplegadas y aceptación manual pública pendiente.  
+> **Corte de información:** 22 de noviembre de 2026, tras PR #327 y el ciclo de adaptación de raciones e integración con Shopping. La aceptación manual pública continúa pendiente.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
 
 ## 1. Identidad y propósito
@@ -26,15 +26,15 @@ Referencias: [identidad](../../NovaCoquinaria.md), [visión](../VISION.md), [arq
 
 | Elemento | Situación y alcance de la evidencia |
 |---|---|
-| Rama principal | `main`, consultada el 2026-11-21 después de #297 |
+| Rama principal | `main`, consultada el 2026-11-22 tras la fusión de #327 |
 | Última versión publicada | [`v1.6.0`](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0), 2026-11-19 |
 | Fase estratégica | Explotación práctica; Explorer, Recipe Assistant, Pantry y Shopping desplegados; Planner integrado y desplegado; prueba manual pública pendiente |
-| Última PR fusionada | [#308](https://github.com/fran-eliot/NovaCoquinaria/pull/308) |
+| Última PR fusionada | [#327](https://github.com/fran-eliot/NovaCoquinaria/pull/327) |
 | Commit histórico del tag | [`836f02e848299c0a7a7897b22bb83cd13e0c373a`](https://github.com/fran-eliot/NovaCoquinaria/commit/836f02e848299c0a7a7897b22bb83cd13e0c373a) |
-| Commit de main comprobado | `49cd7925f8de2c280512b1854b0dbd2f4120f0a7` |
+| Commit de main comprobado | `eb24a7e864a3afaa54bc11c7d843f7985d14db1d` |
 | PR abiertas | Ninguna en la consulta del corte |
-| Integridad | [Knowledge integrity de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697344018): success |
-| Auditoría | [Knowledge audit de PR #297](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/44697343958): success; 141 pruebas Python y 63 Node |
+| Integridad | [Knowledge integrity de PR #327](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45038074580): success |
+| Auditoría | [Knowledge audit de PR #327](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45038074577): success; cifras de pruebas históricas no extrapolables |
 | Despliegue | gh-pages `63ea9fc73467b1503d62beeeca65508340fd0980` (Deployed 49cd792); cinco páginas y enlaces de salto comprobados en rama; uso manual pendiente |
 | Inventario Markdown | 927 archivos según inventario del job #246 |
 | Recetas | 590 rutas y 590 documentos extraídos; Arroces 39; Pastas 37; Legumbres 61; Verduras 86; Carnes 82; Pescados y Mariscos 69; Cocina Asiática 44; Postres 82; Bebidas 36; Horno 54 |
@@ -304,9 +304,19 @@ Las PR #305–#308 documentaron la decisión estratégica y ejecutaron tres unid
 
 **Publicación observada:** gh-pages `63ea9fc73467b1503d62beeeca65508340fd0980` (`Deployed 49cd792`), con los cinco HTML y su enlace de salto incorporados. **Aceptación manual pública: no acreditada.** El [protocolo PUB-01–PUB-07](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md) define el recorrido y los campos de evidencia. La Unidad D queda documentalmente preparada, no operativamente aceptada. No se autoriza ninguna nueva release; sigue v1.6.0.
 
+## Actualización técnica del 22 de noviembre de 2026 — Recipe Assistant y Shopping
+
+La referencia operativa vigente es el merge de [PR #327](https://github.com/fran-eliot/NovaCoquinaria/pull/327), commit `eb24a7e864a3afaa54bc11c7d843f7985d14db1d`. Se comprobaron cero PR abiertas, y los workflows [Knowledge integrity](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45038074580), [Knowledge audit](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45038074577) y [Culinary Explorer site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45038074561) finalizaron en `success`. Estos resultados son CI del repositorio, no aceptación manual del portal publicado.
+
+Las PR #309–#327 avanzaron la experiencia de Recipe Assistant y su relación con Shopping. El ciclo más reciente #315–#327 incluye escalado conservador de cantidades exactas para raciones declaradas, unidades contables enteras, copia al portapapeles y conservación de grupos, sugerencias de cantidades en la revisión de Shopping, selección rápida de ingredientes, restauración del rendimiento original, mensajes contextuales y resumen de propuestas frente a revisiones manuales. Se corrigieron cantidades positivas redondeadas a cero (#320), separadores de miles españoles en el transporte (#325) y bloqueo del envío con raciones inválidas (#326). La PR #326 requirió corregir una prueba Chromium sobre la apertura del desplegable; la nueva ejecución y la PR #327 terminaron con los tres workflows correctos.
+
+**Límites vigentes:** los valores adaptados son orientativos, no sustituyen la receta; las cantidades no escalables siguen sujetas a revisión manual. Shopping exige revisión y aceptación antes de guardar y no identifica automáticamente faltantes de Pantry. No se infieren identidades, preferencias, rendimientos desconocidos ni validación culinaria. La aceptación manual pública [PUB-01–PUB-07](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md) continúa sin acreditarse. La release publicada sigue siendo `v1.6.0`; no hay autorización de nueva release.
+
+**Siguiente prioridad:** ejecutar y registrar aceptación pública real de las cinco aplicaciones con el protocolo vigente, detectar problemas de uso en condiciones reales y cerrar los defectos reproducibles. Evitar nuevas microfunciones de presentación hasta disponer de dicha evidencia. Contrastar previamente estado de PR y CI de `main` antes de abrir ramas. Este corte no cambia decisiones estratégicas de API, almacenamiento remoto, RAG, agentes ni despliegue.
+
 ## 8. Registro del corte y siguiente actualización
 
-| Campo | Valor en el corte de 2026-11-21 |
+| Campo | Valor en el corte histórico de 2026-11-21 (sustituido por actualización del 22-11) |
 |---|---|
 | Última PR fusionada observada | [#308](https://github.com/fran-eliot/NovaCoquinaria/pull/308) |
 | Commit de main | `49cd7925f8de2c280512b1854b0dbd2f4120f0a7` |
