@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ponche segoviano con crema y mazapán
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -60,16 +60,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Próximo ajuste |
+| Resultado | Posible causa | Ajuste en una próxima prueba |
 |---|---|---|
-| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |
-| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |
-| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |
-
+| Bizcocho que se deshace al montar | Almíbar aplicado en exceso | Pincelar cada plancha con el almíbar frío sin empapar y observar su absorción |
+| Crema con grumos o poca consistencia | Incorporación brusca de leche a las yemas o cocción insuficiente | Añadir la leche caliente gradualmente y cocinar removiendo hasta espesar |
+| Cubierta de mazapán agrietada | Lámina estirada con grosor desigual o doblada bruscamente | Estirar el mazapán comercial apto hasta unos 3–5 mm y cubrir con cuidado |
+| Capas que se deslizan al cortar | Crema aún templada o falta de reposo del conjunto | Montar únicamente con crema fría y refrigerar para estabilizar antes de cortar |
 ## Conservación
 
-Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.
-
+Enfriar rápidamente la crema de yemas y leche antes de montar y mantener el ponche segoviano **tapado y refrigerado** por su relleno perecedero. Utilizar mazapán comercial listo para consumo según su etiqueta y limitar el tiempo fuera de frío durante el montaje y servicio. Consumir en un plazo corto según la frescura de la crema y el bizcocho; la cubierta de mazapán no hace estable a temperatura ambiente el postre completo.
 ## Relaciones dentro del SGCC
 
 - [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)
