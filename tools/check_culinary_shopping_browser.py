@@ -1,5 +1,6 @@
 """Recorridos de Shopping y selección desde Recipe Assistant."""
 import argparse
+import hashlib
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
@@ -86,6 +87,57 @@ def exercise(site):
                 document=page.evaluate("(key)=>JSON.parse(localStorage.getItem(key))",KEY)
                 item=next(l for l in document["lists"] if l["name"]=="Recetas")["items"][0]
                 assert item["provenance"]["recipe_id"]=="REC-0017" and item["quantity"] is None
+                assert page.evaluate("(key)=>localStorage.getItem(key)",PANTRY) is None
+                # Revisar las cantidades propuestas con una receta real escalable.
+                manifest=json.loads((site/"recipe_assistant"/"manifest.json").read_bytes())
+                selected=None
+                for identity in sorted(manifest["recipes"]):
+                    filename=hashlib.sha256(identity.encode()).hexdigest()+".json"
+                    candidate=json.loads((site/"recipe_assistant"/filename).read_bytes())
+                    y=candidate.get("yield") or {}
+                    try:
+                        original=int(y["min"])
+                    except (ValueError,TypeError,KeyError):
+                        continue
+                    if y.get("unit") not in ("racion","porcion") or y["min"]!=y["max"] or not 1<=original<24:
+                        continue
+                    for ingredient in candidate["ingredients"]:
+                        q=ingredient["quantity"]
+                        if (q["status"]=="exact" and q["approximate"] is False and
+                            q["min"]==q["max"] and q["unit"] in ("g","kg","ml","cl","l") and
+                            isinstance(q["min"],str) and q["min"].isdigit() and int(q["min"])>0):
+                            selected=(identity,ingredient,original)
+                            break
+                    if selected:
+                        break
+                assert selected is not None, "Sin muestra escalable para Shopping"
+                identity,ingredient,original=selected
+                page.goto(base+"recipe-assistant.html?id="+identity)
+                expect(page.locator("#assistant")).to_be_visible()
+                page.locator("#scaling-target").fill(str(original+1))
+                page.get_by_text("Seleccionar ingredientes para comprar",exact=True).click()
+                page.locator("#shopping-selection input").nth(ingredient["position"]).check()
+                page.once("dialog",lambda d:d.accept())
+                page.locator("#send-shopping").click()
+                expect(page.locator("#recipe-review")).to_be_visible()
+                review=page.locator("#review-items fieldset")
+                expect(review).to_have_count(1)
+                amount=int(ingredient["quantity"]["min"])*(original+1)/original
+                expected=("%0.3f"%amount).rstrip("0").rstrip(".")
+                expect(review.locator("input").nth(2)).to_have_value(expected)
+                expect(review.locator("input").nth(3)).to_have_value(ingredient["quantity"]["unit"])
+                assert page.evaluate("(key)=>sessionStorage.getItem(key)",TRANSFER) is None
+                review.locator("input").nth(2).fill("2")
+                page.locator("#review-list").select_option(destination)
+                page.once("dialog",lambda d:d.accept())
+                page.locator("#review-confirm").click()
+                expect(page.locator("#status")).to_have_text("Ingredientes añadidos a la lista.")
+                document=page.evaluate("(key)=>JSON.parse(localStorage.getItem(key))",KEY)
+                saved=[i for l in document["lists"] for i in l["items"] if
+                       i["provenance"] and i["provenance"]["recipe_id"]==identity]
+                assert len(saved)==1
+                assert saved[0]["quantity"]=="2" and saved[0]["unit"]==ingredient["quantity"]["unit"]
+                assert saved[0]["provenance"]["raw"]==ingredient["raw"]
                 assert page.evaluate("(key)=>localStorage.getItem(key)",PANTRY) is None
                 # Un artículo comprado no se incorpora hasta la revisión del destino.
                 page.locator("#lists button").filter(has_text="Semanal").click()
