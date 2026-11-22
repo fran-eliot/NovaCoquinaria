@@ -4,8 +4,8 @@ tipo: receta
 titulo: Japchae de fideos de boniato y verduras
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -52,21 +52,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- Dangmyeon no equivale a fideos de arroz ni a pasta de trigo: cambiar el formato altera hidratación y textura. La salsa debe humedecer sin encharcar.
-- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.
-- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.
+- Utilizar **dangmyeon de almidón de boniato**, no fideos de trigo ni de arroz: seguir las instrucciones de hidratación y cocción del envase antes del salteado.
+- Escurrir bien las espinacas y evaporar la humedad de los champiñones para no encharcar los fideos. Incorporar soja y azúcar en el salteado final, sin prolongarlo innecesariamente.
+- Revisar el etiquetado de la salsa de soja por salinidad y posibles alérgenos; el aceite de sésamo tostado se incorpora al final para conservar su aroma.
 
 ## Diagnóstico
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Fideos duros o poco flexibles | Cocción inicial insuficiente para el producto comercial | Seguir el envase y comprobar que estén flexibles y transparentes antes de saltear |
+| Fideos pegados en bloque | Escurrido prolongado sin soltarlos o salsa mal distribuida | Separar los fideos al incorporarlos y repartir el aliño en los 1–2 minutos de salteado |
+| Plato acuoso | Champiñones o espinacas con exceso de humedad | Saltear las setas por tandas y escurrir las espinacas antes de mezclar |
+| Sabor excesivamente salado | Salsa de soja comercial más concentrada que la prevista | Probar el conjunto antes de cualquier ajuste de condimentos |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Servir el japchae preferentemente templado y recién preparado. Enfriar sin demora las sobras de **fideos de boniato cocidos y verduras**, refrigerarlas tapadas en recipientes poco profundos y consumir pronto. Recalentar completamente las porciones que se vayan a servir, teniendo en cuenta que los fideos pueden perder elasticidad. No tratar los dangmyeon como arroz cocido ni dejar el plato horas a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
