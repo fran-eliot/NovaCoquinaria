@@ -4,8 +4,8 @@ tipo: receta
 titulo: Cuadrados de limón con base sablé
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -59,14 +59,13 @@ Receta de referencia centrada en **precocción de masa arenosa y cuajado de crem
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
-
+| Relleno de limón todavía líquido | Cuajado insuficiente del relleno con huevo | Verificar que no haya partes líquidas al terminar el segundo horneado y prolongar con cuidado si procede |
+| Superficie agrietada o relleno seco | Horneado excesivo del relleno cítrico | Revisar antes de superar los 18–24 minutos orientativos de la segunda fase |
+| Base húmeda o poco quebradiza | Precocción insuficiente de la base antes del relleno | Comprobar el dorado pálido de la base en su primera cocción, sin confundirla con un relleno que aún no se ha añadido |
+| Cuadrados que se deforman al cortar | Relleno todavía caliente o sin reposo suficiente | Enfriar y respetar las 2 horas orientativas de refrigeración antes de porcionar |
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
-
+Después de enfriar, mantener los cuadrados **refrigerados y protegidos**, porque la capa de limón contiene huevo y conserva humedad. Cortar preferentemente después del reposo en frío y devolver las porciones no servidas al frigorífico. Consumir en un plazo corto según el estado de los ingredientes utilizados. La base sablé ya horneada **no convierte el conjunto en un producto seco de despensa**.
 ## Relaciones dentro del SGCC
 
 - [Hornear masas en blanco](../00_Bases/03_Tecnicas/hornear_masas_en_blanco.md)
