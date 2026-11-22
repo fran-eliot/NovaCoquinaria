@@ -4,8 +4,8 @@ tipo: receta
 titulo: Espresso tonic con naranja
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -52,15 +52,16 @@ Bebida de referencia basada en **extracción de café y montaje sobre tónica fr
 
 ## Diagnóstico
 
-| Síntoma | Posible causa | Ajuste en la próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |
-| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |
-| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |
+| Espuma que desborda el vaso | Espresso vertido demasiado caliente o deprisa sobre la tónica | Dejar templar el café si corresponde y verter lentamente sobre el hielo |
+| Bebida sin burbujas | Tónica abierta con antelación o mezcla enérgica | Utilizar tónica bien fría recién abierta y evitar remover de forma intensa |
+| Amargor excesivo | Espresso muy extraído o tónica amarga | Comprobar extracción del café y perfil de la tónica comercial antes de alterar proporciones |
+| Aroma de naranja apenas perceptible | Piel o rodaja poco aromática o añadida demasiado pronto | Utilizar naranja lavada y preparar el acabado cítrico cerca del servicio |
 
 ## Conservación
 
-Preparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.
+Preparar el espresso tonic **en el momento de servirlo** para conservar el gas de la tónica y la temperatura de servicio. Mantener la tónica refrigerada conforme a su envase y lavar la naranja antes de utilizarla. No es una infusión ni una bebida de cereal: evitar referencias a remojos o filtrados que no intervienen en la fórmula. Desechar la mezcla que haya permanecido durante periodos prolongados a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Rooibos frío con manzana y canela
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,15 +54,16 @@ Bebida de referencia basada en **infusión caliente, filtrado y enfriamiento**. 
 
 ## Diagnóstico
 
-| Síntoma | Posible causa | Ajuste en la próxima prueba |
+| Resultado | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |
-| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |
-| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |
+| Aroma de rooibos muy débil | Dosis o extracción insuficiente para el producto empleado | Ajustar el tiempo de infusión dentro de las recomendaciones del envase y registrar el resultado |
+| Bebida demasiado diluida | Hielo fundido o agua incorporada de más | Enfriar la infusión antes del montaje y valorar la dilución al servir |
+| Manzana oscurecida o con textura alterada | Fruta cortada con demasiada antelación | Añadir la manzana lavada al líquido ya frío y refrigerar la maceración |
+| Aroma de canela dominante | Rama mantenida demasiado tiempo en la bebida | Retirar la canela después del periodo de aromatización previsto y probar |
 
 ## Conservación
 
-Preparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.
+Preparar la infusión con agua potable, enfriarla rápidamente y **refrigerarla tapada** antes de añadir o mantener la manzana cortada. La bebida terminada con fruta fresca debe consumirse en un plazo corto y no dejarse macerar durante horas a temperatura ambiente. El rooibos puro no contiene cafeína de forma natural, pero conviene comprobar posibles mezclas comerciales.
 
 ## Relaciones dentro del SGCC
 

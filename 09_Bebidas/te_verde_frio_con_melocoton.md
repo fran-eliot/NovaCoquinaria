@@ -4,8 +4,8 @@ tipo: receta
 titulo: Té verde frío con melocotón
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,16 +54,16 @@ Bebida doméstica de referencia basada en **infusión controlada, enfriamiento y
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Té amargo o astringente | Agua demasiado caliente o infusión más larga de lo previsto | Mantener los 75–80 °C y filtrar a los 2–3 minutos orientativos |
+| Bebida poco aromática a melocotón | Fruta poco madura o triturado insuficiente | Elegir fruta madura, retirar el hueso y triturar finamente la pulpa |
+| Bebida demasiado dulce | Azúcar añadido sin valorar el dulzor del melocotón | Mezclar primero el puré con el té frío y endulzar solo después de probar |
+| Separación de pulpa y líquido | Reposo de fruta triturada dentro del té | Remover antes de servir y mantener refrigerada la mezcla hasta el consumo |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+Enfriar rápidamente la infusión filtrada y conservarla **tapada y refrigerada**. Lavar y preparar el melocotón con utensilios limpios, mezclar su pulpa con el té ya frío cerca del servicio y consumir pronto. La fruta fresca triturada acorta el tiempo de conservación respecto a una infusión sola; no dejar la bebida durante horas a temperatura ambiente. Recordar que el té verde contiene cafeína.
 
 ## Relaciones dentro del SGCC
 

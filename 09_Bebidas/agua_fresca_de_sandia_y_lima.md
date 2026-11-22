@@ -4,8 +4,8 @@ tipo: receta
 titulo: Agua fresca de sandía y lima
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,16 +54,16 @@ Bebida doméstica de referencia basada en **triturado de fruta, colado opcional 
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Bebida muy aguada | Sandía poco sabrosa o exceso de agua añadida | Probar primero el triturado de sandía y añadir el agua prevista gradualmente |
+| Dulzor excesivo | Azúcar añadido a una sandía ya madura | Triturar y probar antes de emplear el endulzante opcional |
+| Acidez predominante | Zumo de lima añadido sin probar la fruta | Ajustar el cítrico al final, tras valorar el dulzor natural |
+| Pulpa separada o textura granulosa | Sedimentación natural o triturado irregular | Triturar uniformemente y remover antes de servir; filtrar solo si se desea otro acabado |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+Lavar la superficie de la sandía antes de cortarla y manipular su pulpa con utensilios limpios. La **sandía cortada y triturada requiere refrigeración**: servir el agua fresca inmediatamente o conservarla tapada en frigorífico para consumo cercano. No mantenerla durante periodos prolongados a temperatura ambiente; el zumo de lima y el hielo no sustituyen la cadena de frío.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Café bombón con leche condensada
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -50,16 +50,16 @@ Bebida doméstica de referencia basada en **café corto y montaje en capas**. La
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Las dos capas se mezclan al servir | Espresso vertido muy deprisa sobre la leche condensada | Verter lentamente el café sobre el dorso de una cuchara en vaso resistente al calor |
+| Bebida demasiado dulce | Proporción elevada de leche condensada para el gusto buscado | Probar la relación entre los 30–40 g de leche condensada y el espresso antes de añadir azúcar extra |
+| Café demasiado amargo | Extracción excesiva del espresso | Revisar la preparación del café sin atribuir el amargor a fruta o infusiones |
+| Montaje poco visible | Vaso opaco o paredes manchadas durante el vertido | Utilizar vaso transparente y verter cuidadosamente los ingredientes |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+Servir el **café bombón caliente y recién montado**, teniendo cuidado con el vaso y el espresso. La leche condensada abierta debe guardarse conforme al etiquetado y manipularse con utensilios limpios. No preparar el café con leche condensada para dejarlo horas a temperatura ambiente; si quedan sobras de la bebida, enfriar rápidamente y refrigerar, aunque perderá la presentación en capas.
 
 ## Relaciones dentro del SGCC
 

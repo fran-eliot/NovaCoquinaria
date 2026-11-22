@@ -4,8 +4,8 @@ tipo: receta
 titulo: Batido de piña, coco y lima
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,15 +54,16 @@ Bebida de referencia basada en **triturado de fruta y ajuste de cremosidad**. Es
 
 ## Diagnóstico
 
-| Síntoma | Posible causa | Ajuste en la próxima prueba |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |
-| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |
-| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |
+| Batido demasiado espeso | Leche de coco culinaria concentrada o pulpa de piña fibrosa | Añadir el agua de la fórmula gradualmente y registrar el tipo de leche de coco |
+| Bebida excesivamente diluida | Uso de bebida de coco ligera más el agua prevista | Comprobar la composición del producto antes de añadir toda el agua |
+| Acidez dominante | Piña muy ácida o exceso de lima | Probar la piña triturada antes de añadir el cítrico |
+| Fibras o separación al reposar | Triturado insuficiente o sedimentación de la fruta | Triturar hasta homogeneizar y remover antes de servir, manteniendo el frío |
 
 ## Conservación
 
-Preparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.
+Emplear piña apta y bien manipulada, agua potable y leche de coco conservada según su envase. Servir el batido **recién triturado y frío** o refrigerarlo tapado de inmediato. Consumir pronto: la fruta triturada y la leche de coco abierta no deben permanecer durante horas a temperatura ambiente. No aplicar instrucciones de infusiones calientes a esta bebida sin cocción.
 
 ## Relaciones dentro del SGCC
 
