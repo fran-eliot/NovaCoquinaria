@@ -139,6 +139,7 @@ def exercise(site):
                 expect(page.locator("#scaling-original")).to_have_text(str(original))
                 assert page.locator("#scaling-preview li").count() == len(scale_recipe["ingredients"])
                 expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
+                expect(page.locator("#shopping-scaling-note")).to_contain_text("sin cantidades propuestas")
                 assert page.locator("#scaling-preview li").filter(has_text=" → ").count() == 0
                 assert page.locator("#scaling-preview li").filter(has_text="sin ajuste automático").count() == 0
                 assert page.locator("#scaling-preview li").all_text_contents() == [
@@ -147,6 +148,8 @@ def exercise(site):
                 expect(page.locator("#scaling-reset")).to_be_disabled()
                 target = original + 1 if original < 24 else original - 1
                 page.locator("#scaling-target").fill(str(target))
+                expect(page.locator("#shopping-scaling-note")).to_contain_text(f"de {original} a {target} raciones")
+                expect(page.locator("#shopping-scaling-note")).to_contain_text("revisarlas antes de guardarlas")
                 # El recuento incluye masas, volúmenes, fracciones exactas
                 # y unidades contables enteras; la muestra inicial es un mínimo.
                 visible_scaled = page.locator("#scaling-preview li").filter(has_text=" → ").count()
@@ -176,6 +179,7 @@ def exercise(site):
                 assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
+                expect(page.locator("#shopping-scaling-note")).to_contain_text("Raciones no válidas")
                 expect(page.locator("#scaling-reset")).to_be_enabled()
                 expect(page.locator("#copy-scaling")).to_be_disabled()
                 assert page.locator("#scaling-preview li").count() == 0
