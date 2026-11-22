@@ -2,8 +2,8 @@
 id: DOC-ACEPTACION-PUBLICA-CULINARIA-2026
 titulo: Protocolo de aceptación pública de las aplicaciones culinarias
 tipo: gestion
-version: 0.2.0
-estado: aceptacion-manual-comunicada-pendiente-ratificacion
+version: 0.2.1
+estado: cierre-funcional-acotado
 ultima_revision: 2026-11-22
 ---
 
@@ -66,7 +66,7 @@ El propietario comunicó el resultado **«Todo ok»** después de cada bloque gu
 | PUB-05 Planner | **Satisfactorio** | Selección de receta desde Explorer, incorporación explícita al calendario, apertura de Assistant, persistencia tras recarga, exportación JSON y cancelación de importación |
 | PUB-06 Recorrido conectado | **Satisfactorio por etapas** | Las mismas pruebas se confirmaron consecutivamente en el perfil de ensayo; no consta observación independiente adicional de todos los pasos en una única sesión ininterrumpida |
 | PUB-07 Límites negativos | **Satisfactorio para controles no destructivos** | Navegación por teclado y salto al contenido, visualización estrecha, bloqueo de segunda transferencia del artículo ya incorporado, persistencia del plan e independencia entre Planner, Shopping y Pantry; escenarios destructivos no ejecutados manualmente |
-| CWC-12 Aceptación pública | **Candidato a cierre funcional acotado** | Resultado satisfactorio comunicado para PUB-01–PUB-07 en los límites indicados; la decisión formal de cierre se somete a revisión y aprobación de esta PR |
+| CWC-12 Aceptación pública | **Cierre funcional acotado documentado** | PUB-01–PUB-07 satisfactorios dentro del alcance registrado; #335 integrada en `main`; no implica aceptación general ni nueva release |
 
 **Incidencias comunicadas:** ninguna durante estos bloques. Esto no demuestra ausencia universal de defectos. La transferencia Shopping → Pantry se comprobó como un único lote declarado, sin alta por cancelación y sin repetición desde el artículo transferido.
 
@@ -115,9 +115,15 @@ Ejecutar el [recorrido PUB-06](#recorrido-manual-integrado-recomendado--pub-06) 
 
 Este corte reconcilia evidencia automatizada ya obtenida; **no afirma ejecución manual**, no modifica CWC-12 ni autoriza nueva release. La release vigente continúa siendo `v1.6.0`.
 
+## Decisión de cierre funcional acotado — CWC-12
+
+La fusión de [PR #335](https://github.com/fran-eliot/NovaCoquinaria/pull/335) incorporó en `main` el registro de aceptación manual comunicado para PUB-01–PUB-07, con resultados satisfactorios dentro de sus límites. Junto con la evidencia automatizada HTTP y Chromium, esto satisface el objetivo de CWC-12 **para los recorridos y controles expresamente verificados**. Se declara **Unidad D / CWC-12: Complete — Bounded Public Acceptance**, limitado a la aceptación funcional descrita, sin atribuir cobertura adicional.
+
+La aprobación de este cierre corresponde a la revisión y fusión de esta PR documental; no modifica código, recetas ni datos personales. No consta prueba manual de escenarios destructivos, dispositivos diversos, auditoría WCAG completa, reconciliación automática de almacenamientos ni verificación del despliegue exacto observado en cada sesión. Los riesgos y restricciones arquitectónicas siguen vigentes. Sin autorización de una nueva release: `v1.6.0` permanece publicada.
+
 ## Regla de cierre de la Unidad D
 
-La Unidad D dispone del protocolo, las sondas públicas satisfactorias y el registro de las comprobaciones manuales comunicadas por el propietario el 2026-11-22. El alcance funcional dirigido es **candidato a cierre CWC-12**, condicionado a la revisión y aprobación formal del propietario de este registro y sus límites. No se interpreta la simple declaración de resultados como autorización automática de una release o de un cierre irreversible. La aceptación manual acotada no supone conformidad WCAG exhaustiva, seguridad general, disponibilidad futura ni validación de todas las recetas.
+La Unidad D dispone del protocolo, las sondas públicas satisfactorias y el registro de las comprobaciones manuales comunicadas por el propietario el 2026-11-22. El alcance funcional dirigido de CWC-12 queda **cerrado de forma acotada** tras la incorporación por el propietario del registro manual en la [PR #335](https://github.com/fran-eliot/NovaCoquinaria/pull/335), merge `b4386d057bfb434d04133949f85d0317123ba99e`. El cierre conserva sus límites de evidencia, y no autoriza una release ni se interpreta como verificación exhaustiva. La aceptación manual acotada no supone conformidad WCAG exhaustiva, seguridad general, disponibilidad futura ni validación de todas las recetas.
 
 No se añade backend, sincronización, inferencia de faltantes, automatización de compras, nuevas recetas, sprint, milestone ni release. Se mantienen los principios y el reparto de responsabilidades entre el repositorio y el propietario.
 
