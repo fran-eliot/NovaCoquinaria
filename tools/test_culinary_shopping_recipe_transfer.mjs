@@ -41,3 +41,18 @@ test("rechazo de propuestas manipuladas o incompatibles",()=>{
     assert.throws(()=>putRecipeSelection(()=>storage(),{...correct,items:[{...correct.items[0],suggestion}]}));
   }
 });
+
+test("separadores de miles y decimales no alteran el valor enviado a Shopping",()=>{
+  const source={...recipe,yield:{min:"4",max:"4",unit:"racion"},ingredients:[
+    {...recipe.ingredients[0],quantity:{status:"exact",min:"12000",max:"12000",unit:"g",approximate:false}},
+    {...recipe.ingredients[1],quantity:{status:"exact",min:"12345.678",max:"12345.678",unit:"g",approximate:false}}
+  ]};
+  const result=createRecipeSelection(source,[0,1],{targetServings:6});
+  assert.deepEqual(result.items.map(x=>x.suggestion),[
+    {quantity:"18000",unit:"g"},
+    {quantity:"18518.517",unit:"g"}
+  ]);
+  const temporary=storage();
+  putRecipeSelection(()=>temporary,result);
+  assert.deepEqual(takeRecipeSelection(()=>temporary),result);
+});
