@@ -4,8 +4,8 @@ tipo: receta
 titulo: Flan de coco al baño maría
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -58,14 +58,13 @@ Receta de referencia centrada en **caramelo y cuajado suave de huevos y coco**. 
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
-
+| Flan con agujeros grandes o textura áspera | Baño maría demasiado caliente o mezcla batida incorporando mucho aire | Mantener el baño suave y mezclar los huevos sin montar; registrar temperatura y molde antes de variar la fórmula |
+| Centro aún líquido | Tiempo insuficiente para el tamaño de las flaneras | Comprobar el centro y la referencia de cocción de la propia receta; prolongar gradualmente sin hacer hervir el baño |
+| Caramelo muy amargo | Azúcar demasiado oscuro durante su elaboración | Retirarlo al tono ámbar indicado y manipularlo con precaución por riesgo de quemaduras |
+| Distribución desigual del coco | Coco rallado acumulado en algunas flaneras | Repartir la mezcla uniformemente, removiendo suavemente durante el llenado sin generar espuma |
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
-
+Retirar las flaneras del baño maría con cuidado, enfriarlas sin demoras innecesarias y refrigerarlas protegidas durante el reposo indicado. Mantener los flanes de huevo y leche **refrigerados**, desmoldar preferentemente cerca del servicio y devolver las porciones sobrantes al frío. Consumir en un plazo corto según la frescura de los ingredientes empleados; no tratarlos como postres secos de despensa.
 ## Relaciones dentro del SGCC
 
 - [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)
