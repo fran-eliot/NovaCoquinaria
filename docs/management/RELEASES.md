@@ -2,9 +2,9 @@
 id: DOC-0013
 titulo: Releases
 tipo: gestion
-version: 2.2
+version: 2.3
 estado: estable
-ultima_revision: 2026-11-19
+ultima_revision: 2026-11-22
 ---
 
 # Releases
@@ -80,6 +80,7 @@ Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 | v1.4.0 | ✅ | Gobernanza del conocimiento |
 | v1.5.0 | ✅ | Marco de especificaciones |
 | v1.6.0 | ✅ | Culinary Knowledge & Retrieval |
+| v1.7.0 | ⏳ Candidata | Culinary Applications & Workflows |
 
 ---
 
@@ -281,6 +282,36 @@ Markdown sigue siendo canónico. No se entrega plataforma, Runtime completo, per
 ### Estado
 
 Publicada el 2026-11-19: [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0). Tag verificado sobre `836f02e848299c0a7a7897b22bb83cd13e0c373a` (merge #249); Knowledge integrity, Knowledge audit y Deploy MkDocs satisfactorios. La sincronización documental posterior no modifica el tag.
+
+---
+
+## v1.7.0 · Culinary Applications & Workflows — candidata
+
+### Propósito
+
+Consolidar las primeras **cinco aplicaciones culinarias públicas**, sus recorridos integrados y la aceptación funcional acotada tras v1.6.0. El tag y la GitHub Release **no están autorizados ni publicados** por esta propuesta documental.
+
+### Capacidades incorporadas
+
+- Culinary Explorer: búsqueda y consulta de recetas con procedencia rastreable.
+- Recipe Assistant: preparación guiada, temporizador, contexto completo y adaptación conservadora de cantidades declaradas.
+- Culinary Pantry: inventario local de lotes declarados y enlaces con las consultas.
+- Culinary Shopping: listas personales, revisión de ingredientes de recetas y transferencias explícitas a Pantry.
+- Culinary Planner: calendario manual de comidas, recetas vinculadas y conservación de referencias.
+- Exportaciones y vistas previas de importación JSON individuales, sin restauración conjunta ni sincronización.
+- Navegación pública entre aplicaciones y consolidación funcional con aceptación manual dirigida PUB-01–PUB-07, documentada en [CWC-12](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md).
+
+### Impacto y límites
+
+NovaCoquinaria pasa de facilitar recuperación programática de conocimiento a ofrecer un conjunto usable de aplicaciones culinarias estáticas. Las cantidades adaptadas son orientativas; una lista parcial no prueba disponibilidad, ni una coincidencia demuestra cocinabilidad. No se entrega backend, transacción atómica entre almacenamientos, recomendaciones inteligentes ni garantía de seguridad alimentaria. La aceptación es funcional y acotada, no auditoría completa de accesibilidad o seguridad.
+
+### Estado y publicación
+
+**Candidata — pendiente de CI final, aprobación del propietario, creación de tag y publicación de GitHub Release.** La última versión realmente publicada permanece en [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0). El commit de publicación de v1.7.0 se fijará después del merge y de comprobar los workflows de `main`, evitando atribuir el tag a un commit provisional.
+
+### Preparó la siguiente etapa
+
+[Culinary Knowledge Quality Baseline](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md): medir y contrastar calidad, trazabilidad y utilidad editorial antes de seleccionar otra gran capacidad.
 
 ---
 
