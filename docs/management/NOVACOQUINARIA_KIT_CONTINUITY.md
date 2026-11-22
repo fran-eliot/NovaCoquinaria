@@ -2,7 +2,7 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 3.1.0
+version: 3.2.0
 estado: estable
 ultima_revision: 2026-11-22
 ---
@@ -13,6 +13,19 @@ ultima_revision: 2026-11-22
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
 > **Corte de información:** 22 de noviembre de 2026, tras la publicación confirmada de v1.7.0 y cierre funcional acotado de CWC-12. Los cortes anteriores se conservan como históricos.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
+
+## Estado vigente — RPC y decisión de siguiente capacidad (22-11-2026)
+
+**Este bloque prevalece sobre los cortes históricos que siguen debajo.** Tras el merge de [PR #353](https://github.com/fran-eliot/NovaCoquinaria/pull/353), `main` se verificó en `31e458401bb2f175faff2f82f8ca4a9f7a269245`; los workflows de PR `Knowledge integrity`, `Knowledge audit` y `Culinary Explorer site` concluyeron en `success`; no había PR abiertas al tomar el corte.
+
+- **Última release publicada:** [v1.7.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.7.0); el trabajo posterior no mueve el tag ni publica otra versión.
+- **RPC-A:** [diagnóstico y contrato de suficiencia práctica](./DIAGNOSTICO_RECIPE_PRACTICAL_COMPLETENESS.md), con cifras históricas ligadas a fuente y denominadores, no un clasificador de cocinabilidad.
+- **RPC-B:** [protocolo de diez fichas](./MUESTRA_RPC_B_SUFIENCIA_PRACTICA.md) y [evaluación dirigida](./EVALUACION_RPC_B_SUFIENCIA_PRACTICA.md) sobre Pastas, Legumbres, Postres, Bebidas y Horno.
+- **RPC-C:** [cierre acotado](./CIERRE_RPC_C_SUFIENCIA_PRACTICA.md) tras PR #351 (cuatro cambios y seis controles) y #352 (diez recorridos RPC-08 en Chromium local, 10/10 correctos, [workflow #170](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45053932903)). No implica aceptación manual pública específica ni pruebas domésticas nuevas.
+- **RPC-D:** [decisión de producto propuesta](./DECISION_PRODUCTO_RPC_D.md): valorar *Culinary Preparation Feedback Loop*, comenzando, si se autoriza, **solo por CPFL-A** (contrato de observación y viabilidad documental). CPFL-B/C, interfaces, backend y nuevas releases no autorizados.
+- **Método:** Markdown canónico, experiencia real separada de propuestas, conservar mejor versión y variantes; el asistente crea ramas y PR, el propietario revisa/mergea y elimina la rama remota.
+
+---
 
 ## Estado vigente — cierre de Culinary Knowledge Quality Baseline (22-11-2026)
 

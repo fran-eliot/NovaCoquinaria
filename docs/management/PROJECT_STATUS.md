@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.8
+version: 3.9
 estado: estable
 ultima_revision: 2026-11-22
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Revisar la propuesta de Recipe Practical Completeness — diagnóstico RPC-A (sin implementación aprobada) |
+| Próximo objetivo | Revisar decisión RPC-D y alcance CPFL-A (ciclo de observación de preparaciones reales; sin función nueva aprobada) |
 
 ---
 
@@ -49,6 +49,12 @@ Tras completar este marco de especificaciones (v1.5.0), el proyecto ha iniciado 
 El sistema de auditoría del conocimiento permite medir automáticamente la cobertura estructural, la madurez y la reutilización del conocimiento por dominios culinarios, facilitando la planificación de futuras ampliaciones.
 
 ---
+
+## Corte de suficiencia práctica y decisión RPC-D — 2026-11-22
+
+Tras #353 (merge `31e458401bb2f175faff2f82f8ca4a9f7a269245`), RPC-A–C dispone de contrato documental, muestra fijada de diez recetas, evaluación editorial, cuatro mejoras selectivas y 10/10 recorridos individuales en Chromium local acreditados por #352. La navegación dirigida no sustituye una prueba doméstica ni aceptación manual pública específica.
+
+La [decisión RPC-D](./DECISION_PRODUCTO_RPC_D.md) propone como siguiente candidata **Culinary Preparation Feedback Loop**, con **solo CPFL-A (descubrimiento documental y viabilidad)** recomendado inicialmente. No autoriza desarrollo de interfaces ni backend, cambios de modelo o release. La última versión publicada permanece en `v1.7.0`.
 
 ## Corte de calidad culinaria y decisión de capacidad — 2026-11-22
 
