@@ -4,8 +4,8 @@ tipo: receta
 titulo: "Leche frita tradicional con canela"
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,16 +59,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste siguiente |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Textura demasiado firme o cruda | Cocción insuficiente o piezas grandes | Comprobar el interior y adaptar tiempo o tamaño |
-| Preparación excesivamente húmeda | Caldo de más o relleno sin reducir | Corregir líquido o evaporación según plato |
-| Sabor desequilibrado | Exceso de sal o condimentos | Ajustar después de probar y registrar dosis |
-
+| Crema con grumos antes de enfriar | Maicena mal disuelta o incorporada sin remover | Disolver completamente en los 150 ml de leche fría e incorporar en hilo sin dejar de remover |
+| Porciones que se rompen al cortarlas | Crema poco cocida o refrigeración insuficiente | Cocer el almidón hasta espesar y respetar las 4 horas orientativas de frío antes de cortar |
+| Rebozado que se desprende | Piezas húmedas o pasadas por harina y huevo con demasiada antelación | Rebozar justo antes de freír, manipulando las porciones frías con cuidado |
+| Exterior oscuro e interior sin calentar adecuadamente | Aceite demasiado caliente o piezas de grosor desigual | Mantener el intervalo orientativo de 170–175 °C y formar piezas similares, comprobando el interior |
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las carnes, pescados, huevos y cremas lácteas requieren conservación en frío; recalentar completamente las porciones destinadas al servicio caliente. No dejar preparaciones perecederas durante horas a temperatura ambiente.
-
+Enfriar rápidamente la crema de leche cocida y conservarla **refrigerada y protegida** durante su cuajado. Freír las porciones rebozadas cerca del servicio; no dejar durante periodos prolongados a temperatura ambiente las piezas con leche y huevo. Refrigerar pronto las sobras en un recipiente limpio y consumir en un plazo corto según la frescura de los ingredientes. El acabado de azúcar y canela no convierte la leche frita en un dulce estable de despensa.
 ## Relaciones dentro del SGCC
 
 - [Natillas caseras](./natillas_caseras.md)
