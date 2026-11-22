@@ -4,8 +4,8 @@ tipo: receta
 titulo: "Sobaos pasiegos de mantequilla"
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -51,21 +51,20 @@ etiquetas:
 
 ## Puntos críticos
 
-- La mantequilla aporta estructura y sabor característicos; no sustituir por aceite sin documentar una variante. El sobao pasiego protegido por IGP tiene requisitos específicos: esta es una formulación doméstica inspirada en ese producto, no un sobao certificado.
-- Ajustar tiempo, tamaño de pieza, ingredientes comerciales y cantidad de líquido al equipo empleado. Comprobar la cocción, prevenir contaminación cruzada y refrigerar los perecederos sin demora.
-
+- La mantequilla aporta textura y sabor; cambiarla por aceite constituiría otra formulación. Esta receta doméstica no se presenta como producto certificado por la IGP.
+- Incorporar los huevos de uno en uno a la mantequilla batida y repartir la masa en doce moldes hasta aproximadamente dos tercios; evitar batir de más después de añadir harina.
+- Comprobar el centro de las piezas durante el horneado orientativo de 20–28 minutos. El tamaño del molde afecta al punto de cocción y al dorado exterior.
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste siguiente |
+| Resultado | Posible causa | Ajuste para la siguiente preparación |
 |---|---|---|
-| Textura demasiado firme o cruda | Cocción insuficiente o piezas grandes | Comprobar el interior y adaptar tiempo o tamaño |
-| Preparación excesivamente húmeda | Caldo de más o relleno sin reducir | Corregir líquido o evaporación según plato |
-| Sabor desequilibrado | Exceso de sal o condimentos | Ajustar después de probar y registrar dosis |
-
+| Masa con aspecto cortado antes de añadir harina | Huevos incorporados demasiado rápido o ingredientes a distinta temperatura | Añadir los huevos uno a uno, integrando cada uno antes del siguiente |
+| Sobao compacto | Mezcla demasiado trabajada tras añadir la harina | Incorporar los ingredientes secos con suavidad, sin prolongar el batido |
+| Superficie dorada con centro crudo | Molde demasiado lleno o pieza mayor que la prevista | Mantener el llenado en dos tercios y comprobar el centro antes de retirar |
+| Sobaos secos o quebradizos | Horneado prolongado para el tamaño de los moldes | Revisar el punto antes del final del intervalo orientativo y registrar el resultado tras enfriar |
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las carnes, pescados, huevos y cremas lácteas requieren conservación en frío; recalentar completamente las porciones destinadas al servicio caliente. No dejar preparaciones perecederas durante horas a temperatura ambiente.
-
+Enfriar los sobaos horneados sobre rejilla antes de guardarlos para evitar condensación. Al ser piezas horneadas sin relleno perecedero, pueden mantenerse protegidas durante un periodo breve en lugar fresco y seco, dependiendo de la temperatura y humedad ambiental; refrigerar si esas condiciones no se cumplen. No aplicar indicaciones de conservación de carnes o cremas lácteas a estos sobaos ya cocidos.
 ## Relaciones dentro del SGCC
 
 - [Quesada pasiega](./quesada_pasiega_de_queso_fresco_y_canela.md)
