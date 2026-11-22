@@ -4,8 +4,8 @@ tipo: receta
 titulo: Nevaditos castellanos de manteca y vino blanco
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -51,20 +51,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- El grosor alto y la manteca producen una textura hojaldrada corta sin ser hojaldre laminado. El azúcar glas se añade solo cuando los dulces están fríos. El vino puede conservar alcohol residual.
-- Ajustar tiempos, cantidades y textura a la materia prima. Respetar las condiciones del producto comercial, la higiene y la cadena de frío; comprobar la cocción completa de los ingredientes animales.
+- Mantener el grosor propuesto de 1,5–2 cm: la textura hojaldrada corta procede de la manteca y de una mezcla breve, no de un hojaldre laminado.
+- Trabajar la masa solo hasta integrar y refrigerarla brevemente si está demasiado blanda para cortar; el centro debe estar completamente cocido.
+- Espolvorear el azúcar glas **cuando estén fríos** para evitar que se humedezca. El vino blanco de la fórmula puede dejar alcohol residual.
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la siguiente preparación |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |
-| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |
+| Nevaditos duros o compactos | Amasado prolongado o piezas demasiado finas | Mezclar solo hasta integrar y mantener el grosor de referencia |
+| Centro poco cocido con base dorada | Piezas demasiado gruesas o tiempo insuficiente | Comprobar el centro y ajustar el horneado con incrementos cortos |
+| Piezas que pierden la forma antes de entrar al horno | Masa demasiado templada o blanda | Aplicar el reposo frío orientativo de 15–20 minutos si hace falta |
+| Azúcar glas que se disuelve al cubrir | Piezas todavía calientes o con humedad superficial | Enfriar completamente sobre rejilla antes de espolvorear |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.
+Dejar enfriar totalmente los nevaditos y guardarlos en un recipiente limpio, seco y bien cerrado para mantener su textura y el acabado de azúcar glas. Conservarlos en lugar fresco y alejado de la humedad durante un periodo breve acorde con los ingredientes empleados, verificando su estado antes de servir. No aplicar indicaciones de refrigeración y recalentado de carne o marisco a estos dulces secos.
 
 ## Relaciones dentro del SGCC
 
