@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pastel cordobés de cabello de ángel y hojaldre
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -49,21 +49,20 @@ etiquetas:
 
 ## Puntos críticos
 
-- El pastel cordobés tradicional utiliza cabello de ángel y masa de hojaldre; la versión de láminas compradas es una adaptación doméstica. Vigilar que la base quede cocida, no húmeda.
-- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.
-
+- Las dos láminas de hojaldre refrigerado y el cabello de ángel comercial son una adaptación doméstica de referencia; revisar las instrucciones de ambos productos.
+- Dejar un borde libre de 2–3 cm, sellar sin aplastar el laminado central y abrir pequeñas salidas de vapor para evitar fugas.
+- La base debe quedar completamente horneada y no empapada por el relleno. Ajustar la cocción según el grosor real y comprobar el punto por debajo antes de retirar.
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste de próxima prueba |
+| Resultado | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |
-| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |
-| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |
-
+| Base húmeda o poco desarrollada | Relleno concentrado en un punto o cocción incompleta por debajo | Repartir uniformemente el cabello de ángel y comprobar el dorado de la base |
+| Cabello de ángel que se sale por el borde | Sellado insuficiente o relleno extendido hasta el límite | Respetar el borde libre y sellar con cuidado sin aplastar las capas centrales |
+| Hojaldre poco laminado | Masa excesivamente templada o comprimida | Mantener las láminas frías hasta montar y evitar presionar la parte central |
+| Superficie demasiado oscura con base cruda | Calor desigual en el horno | Revisar el punto inferior y ajustar posición y tiempo en una prueba posterior |
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.
-
+Dejar templar el pastel cordobés sobre rejilla y conservarlo protegido según las instrucciones de **hojaldre y cabello de ángel comerciales** realmente empleados. Evitar dejarlo durante periodos prolongados en ambiente cálido o húmedo; refrigerar si la etiqueta del relleno o las condiciones de conservación lo requieren, teniendo en cuenta que el frío puede ablandar el hojaldre. Consumir en un plazo corto y no tratar automáticamente el relleno húmedo como un producto seco de despensa.
 ## Relaciones dentro del SGCC
 
 - [Ponche segoviano](./ponche_segoviano_con_crema_y_mazapan.md)
