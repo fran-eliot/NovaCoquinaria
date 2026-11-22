@@ -1,0 +1,41 @@
+name: Culinary Post-Deploy HTTP Assurance
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy MkDocs site
+    types:
+      - completed
+
+permissions:
+  contents: read
+
+jobs:
+  public-post-deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate public smoke contract offline
+        run: python -m unittest tools.test_culinary_public_http
+      - name: Check published pages and source commit
+        env:
+          EXPECTED_SOURCE_COMMIT: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          python tools/check_culinary_public_http.py \
+            --base-url https://fran-eliot.github.io/NovaCoquinaria/ \
+            --expected-source-commit "$EXPECTED_SOURCE_COMMIT" \
+            --output /tmp/culinary-post-deploy-http.json
+      - name: Upload public deployment assurance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: culinary-post-deploy-http-evidence
+          path: /tmp/culinary-post-deploy-http.json
+          if-no-files-found: warn

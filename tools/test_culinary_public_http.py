@@ -4,7 +4,7 @@ import json
 import unittest
 from urllib.error import URLError
 
-from tools.check_culinary_public_http import PAGES, allowed_path, inspect
+from tools.check_culinary_public_http import PAGES, allowed_path, inspect, verify_deployed_commit
 
 BASE = "https://example.test/NovaCoquinaria/"
 SHA = "a" * 40
@@ -80,6 +80,21 @@ class PublicSmokeTests(unittest.TestCase):
         self.assertTrue(result["sample_recipe_integrity"])
         self.assertFalse(result["manual_browser_acceptance"])
         self.assertTrue(all(method == "GET" for method, _ in seen))
+
+    def test_public_deployment_provenance_match(self):
+        report = inspect(BASE, self.opener(fixture(), []))
+        checked = verify_deployed_commit(report, SHA)
+        self.assertEqual(checked["expected_source_commit"], SHA)
+        self.assertTrue(checked["source_commit_verified"])
+
+    def test_public_deployment_provenance_stale_or_invalid(self):
+        report = inspect(BASE, self.opener(fixture(), []))
+        with self.assertRaisesRegex(ValueError, "source_commit mismatch"):
+            verify_deployed_commit(report, "b" * 40)
+        for invalid in ("", "abc", "A" * 40, "../" + SHA):
+            with self.subTest(invalid=invalid):
+                with self.assertRaisesRegex(ValueError, "Expected commit"):
+                    verify_deployed_commit(report, invalid)
 
     def test_missing_skip_link_is_rejected(self):
         data, seen = fixture(), []

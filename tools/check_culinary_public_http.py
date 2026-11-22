@@ -148,16 +148,33 @@ def inspect(base, opener=urlopen):
     }
 
 
+def verify_deployed_commit(report, expected):
+    """Compare published catalog provenance to the triggering deployment commit."""
+    if not isinstance(expected, str) or not re.fullmatch(r"[0-9a-f]{40}", expected):
+        raise ValueError("Expected commit must be a 40-character lowercase Git SHA")
+    actual = report.get("source_commit")
+    if actual != expected:
+        raise ValueError(f"Public site source_commit mismatch: expected {expected}, published {actual}")
+    report["expected_source_commit"] = expected
+    report["source_commit_verified"] = True
+    return report
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-url", default=DEFAULT_BASE)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--expected-source-commit", default=None,
+                        help="Require public catalog source_commit to match deployment SHA")
     args = parser.parse_args()
     try:
         result = inspect(args.base_url)
+        if args.expected_source_commit is not None:
+            result = verify_deployed_commit(result, args.expected_source_commit)
     except (ValueError, UnicodeError, KeyError, json.JSONDecodeError, HTTPError, URLError, TimeoutError, OSError) as exc:
         result = {"passed": False, "scope": "public-http-read-only",
                   "base_url": args.base_url, "error": str(exc),
+                  "expected_source_commit": args.expected_source_commit,
                   "manual_browser_acceptance": False}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
