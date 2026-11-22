@@ -1,0 +1,35 @@
+name: Culinary Public Browser Smoke
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/culinary-public-browser.yml
+      - tools/check_culinary_public_browser.py
+
+permissions:
+  contents: read
+
+jobs:
+  public-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Chromium test dependencies
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Verify published application JavaScript in disposable Chromium contexts
+        run: |
+          python tools/check_culinary_public_browser.py --output /tmp/culinary-public-browser.json
+      - name: Upload public browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: culinary-public-browser-evidence
+          path: /tmp/culinary-public-browser.json
+          if-no-files-found: error
