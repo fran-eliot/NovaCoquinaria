@@ -80,7 +80,7 @@ Cada Release consolida una nueva capacidad antes de incorporar la siguiente.
 | v1.4.0 | ✅ | Gobernanza del conocimiento |
 | v1.5.0 | ✅ | Marco de especificaciones |
 | v1.6.0 | ✅ | Culinary Knowledge & Retrieval |
-| v1.7.0 | ⏳ Candidata | Culinary Applications & Workflows |
+| v1.7.0 | ✅ | Culinary Applications & Workflows |
 
 ---
 
@@ -285,11 +285,11 @@ Publicada el 2026-11-19: [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/r
 
 ---
 
-## v1.7.0 · Culinary Applications & Workflows — candidata
+## v1.7.0 · Culinary Applications & Workflows
 
 ### Propósito
 
-Consolidar las primeras **cinco aplicaciones culinarias públicas**, sus recorridos integrados y la aceptación funcional acotada tras v1.6.0. El tag y la GitHub Release **no están autorizados ni publicados** por esta propuesta documental.
+Consolidar las primeras **cinco aplicaciones culinarias públicas**, sus recorridos integrados y la aceptación funcional acotada tras v1.6.0. El tag `v1.7.0` está publicado sobre el commit de integración de #338. El propietario ha confirmado la publicación de la GitHub Release.
 
 ### Capacidades incorporadas
 
@@ -307,7 +307,7 @@ NovaCoquinaria pasa de facilitar recuperación programática de conocimiento a o
 
 ### Estado y publicación
 
-**Candidata — pendiente de CI final, aprobación del propietario, creación de tag y publicación de GitHub Release.** La última versión realmente publicada permanece en [v1.6.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.6.0). El commit de publicación de v1.7.0 se fijará después del merge y de comprobar los workflows de `main`, evitando atribuir el tag a un commit provisional.
+**Publicada el 2026-11-22 (confirmación del propietario):** [v1.7.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.7.0). El tag apunta exactamente al commit `86e778e8cd9ee8a46fa34fdebc1b8bdb336e114f` (merge #338), comprobado mediante comparación de refs sin diferencias. Los workflows de la PR #338 finalizaron en `success`; no se infiere de ello la ejecución de los workflows de `main` ni se afirma una verificación independiente de los metadatos de la ficha Release.
 
 ### Preparó la siguiente etapa
 

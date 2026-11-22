@@ -79,7 +79,7 @@ MAJOR.MINOR.PATCH
 
 ---
 
-## [1.7.0] - Pendiente de publicación
+## [1.7.0] - 2026-11-22
 
 ### Added
 
