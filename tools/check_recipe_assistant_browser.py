@@ -148,11 +148,19 @@ def exercise(site):
                 expect(page.locator("#scaling-status")).to_contain_text(
                     f"{visible_scaled} de {len(scale_recipe['ingredients'])} cantidades ajustadas")
                 assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
+                page.context.grant_permissions(["clipboard-read", "clipboard-write"])
+                page.locator("#copy-scaling").click()
+                expect(page.locator("#copy-scaling-status")).to_contain_text("Lista copiada")
+                copied = page.evaluate("navigator.clipboard.readText()")
+                assert scale_recipe["title"] in copied
+                assert "raciones" in copied
+                assert ("revisar manualmente" in copied) == (visible_scaled < len(scale_recipe["ingredients"]))
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(visible_scaled)
                 assert all("Adaptado: " in value for value in
                            page.locator("#ingredients .scaled-ingredient-hint:visible").all_text_contents())
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
+                expect(page.locator("#copy-scaling")).to_be_disabled()
                 assert page.locator("#scaling-preview li").count() == 0
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
                 page.reload()

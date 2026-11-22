@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {scalingBasis,scaleIngredient} from "../assets/recipe-assistant-scaling.mjs";
+import {scalingBasis,scaleIngredient,formatScaledList} from "../assets/recipe-assistant-scaling.mjs";
 const item = (min="320",unit="g") => ({raw:"320 g arroz",quantity:{status:"exact",min,max:min,unit,approximate:false}});
 test("rendimiento explícito y único",()=>{
   assert.equal(scalingBasis({yield:{min:"4",max:"4",unit:"racion"}}),4);
@@ -41,4 +41,22 @@ test("rechaza intervalos, aproximaciones, medidas y valores inseguros",()=>{
     {...entry.quantity,status:"ambiguous"}
   ]) assert.equal(scaleIngredient({...entry,quantity},4,6),null);
   for(const target of [0,25,1.5,NaN]) assert.equal(scaleIngredient(entry,4,target),null);
+});
+
+test("lista exportable conserva originales y señala ajustes pendientes",()=>{
+  const recipe={title:"Receta de prueba",yield:{min:"4",max:"4",unit:"racion"},ingredients:[
+    item("320","g"),item("2","unidad"),{raw:"sal al gusto",quantity:{status:"qualitative"}}
+  ]};
+  const source=structuredClone(recipe);
+  const result=formatScaledList(recipe,6);
+  assert.match(result,/Receta de prueba — 6 raciones/);
+  assert.match(result,/320 g arroz → 480 g/);
+  assert.match(result,/320 g arroz/);
+  assert.match(result,/320 g arroz.*480 g/);
+  assert.match(result,/320 g arroz/);
+  assert.match(result,/sal al gusto \[revisar manualmente\]/);
+  assert.deepEqual(recipe,source);
+  assert.doesNotMatch(formatScaledList(recipe,4),/\[revisar manualmente\]/);
+  assert.throws(()=>formatScaledList(recipe,0));
+  assert.throws(()=>formatScaledList({...recipe,yield:null},6));
 });
