@@ -125,3 +125,9 @@ El workflow se activa manualmente desde Actions o al modificar los archivos de e
 La sonda Chromium pública también verifica la transición entre las dos aplicaciones: realiza una búsqueda por el título de `REC-0017` obtenido del catálogo público, selecciona `Preparar receta`, comprueba que la URL corresponde al identificador esperado y verifica título, ingredientes y pasos de la receta abierta. El informe registra `explorer_to_assistant` y `linked_recipe_id` para distinguir este recorrido del arranque aislado de cada página. Se conservan los controles sobre errores JavaScript, origen público oficial y contexto de navegador desechable.
 
 La prueba es una muestra dirigida de navegación, no una aceptación manual de los recorridos PUB-01–PUB-07 ni una verificación general de todos los enlaces o recetas. No crea ni modifica registros personales.
+
+## Navegación pública Recipe Assistant → Culinary Planner
+
+La sonda Chromium pública extiende el recorrido iniciado en Explorer hasta Planner. Desde la ficha abierta de `REC-0017` confirma la acción `Planificar receta`, verifica que Planner recibe la receta seleccionada con su título y comprueba que no se ha creado ninguna comida ni documento persistente por el mero hecho de abrir el editor. La referencia seleccionada se transmite exclusivamente mediante almacenamiento temporal de sesión en el contexto desechable de la prueba.
+
+El informe incluye `assistant_to_planner_selection` y `planner_entry_created: false` cuando se superan las comprobaciones. No se confirma ninguna incorporación al calendario, no se importa ni exporta información personal y no se interactúa con el perfil habitual. Este recorrido automatizado no acredita la aceptación manual de PUB-05, PUB-06 ni CWC-12.
