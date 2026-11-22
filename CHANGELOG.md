@@ -75,7 +75,37 @@ MAJOR.MINOR.PATCH
 
 ### Changed
 
-- _(Vacío hasta la siguiente Release.)_
+- _(Reservado para cambios posteriores a v1.7.0.)_
+
+---
+
+## [1.7.0] - Pendiente de publicación
+
+### Added
+
+- Culinary Explorer 0.1.0: búsqueda pública por título, ingredientes mencionados y otros metadatos, con enlaces a las fuentes y distinción entre coincidencias textuales e identidades.
+- Culinary Recipe Assistant 0.1.0: ingredientes, elaboración por pasos, temporizador manual, consulta del contexto y selección de ingredientes para compras.
+- Culinary Pantry 0.1.0: inventario local declarado, gestión de lotes y consulta orientativa por menciones, sin inferir disponibilidad o cocinabilidad.
+- Culinary Shopping 0.1.0: listas de compra locales, revisión de ingredientes enviados desde recetas, marcado de compras e incorporación explícita de lotes a Pantry.
+- Culinary Planner 0.1.0: planificación manual de comidas por fecha, selección de recetas y referencias a su procedencia.
+- Exportación y vista previa de importación JSON independientes para las aplicaciones de datos personales.
+
+### Improved
+
+- Navegación integrada entre Explorer, Assistant, Planner, Shopping y Pantry, sin altas implícitas de comidas, compras o inventario.
+- Adaptación orientativa de cantidades para raciones declaradas y unidades admitidas, con advertencias y revisión humana antes de enviar a Shopping.
+- Consolidación de recorridos, pruebas de persistencia y fallos de almacenamiento, recuperación conservadora y accesibilidad dirigida mediante Chromium.
+- Comprobaciones públicas HTTP y Chromium, y aceptación funcional manual acotada PUB-01–PUB-07, registradas con sus límites.
+
+### Changed
+
+- Se mantiene Markdown como fuente canónica; las aplicaciones consumen proyecciones regenerables y los datos personales permanecen en almacenamiento local independiente.
+- La siguiente prioridad propuesta es medir la calidad y utilidad del conocimiento culinario antes de ampliar la automatización.
+
+### Limitations
+
+- No se entrega backend, sincronización entre dispositivos, compras automáticas, recomendaciones de cocinabilidad, suficiencia de cantidades ni garantías de seguridad alimentaria.
+- La aceptación manual no equivale a auditoría completa de accesibilidad, compatibilidad, seguridad o calidad del corpus.
 
 ---
 
