@@ -69,7 +69,7 @@ etiquetas:
 
 ## Conservación
 
-Enfriar rápidamente las sobras de **alcachofas, espárragos, guisantes y habas cocidos** y refrigerarlas tapadas en recipientes poco profundos. Si se utiliza el **jamón opcional**, mantenerlo y manipularlo según su etiquetado. Evitar dejar la menestra durante horas a temperatura ambiente y recalentar completamente las porciones previstas, con suavidad para no deshacer las verduras. No introducir advertencias sobre pescados o mariscos que no forman parte de la preparación.
+Enfriar rápidamente las sobras de **alcachofas, espárragos, guisantes y habas cocidos** y refrigerarlas tapadas en recipientes poco profundos. Si se utiliza el **jamón opcional**, mantenerlo y manipularlo según su etiquetado. Evitar dejar la menestra durante horas a temperatura ambiente y recalentar completamente las porciones previstas, con suavidad para no deshacer las verduras.
 
 ## Relaciones dentro del SGCC
 
