@@ -4,8 +4,8 @@ tipo: receta
 titulo: Yemas de Santa Teresa de Ávila
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -50,20 +50,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- Son dulces concentrados de yema y almíbar; el almíbar por sí solo no garantiza la cocción segura de la yema tras la mezcla, por lo que se exige cocción y comprobación de temperatura. La masa caliente causa quemaduras.
-- Ajustar tiempos, líquido y sal a ingredientes y equipo. Mantener higiene y cadena de frío, atender al etiquetado y comprobar la cocción segura de los productos animales y sus rellenos.
+- El almíbar por sí solo **no garantiza la cocción del huevo**. Tras incorporar las yemas, mantener la cocción suave y comprobar que la pasta alcanza la referencia de 71 °C indicada en el procedimiento.
+- Añadir el almíbar en hilo y remover sin interrupción para evitar grumos; la masa y el azúcar calientes pueden provocar quemaduras.
+- Enfriar rápidamente la pasta cocida y mantenerla refrigerada antes de formar las bolitas; manipular con manos y utensilios limpios.
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Ingrediente firme o poco hecho | Cocción insuficiente o piezas grandes | Comprobar el interior y prolongar con calor moderado |
-| Preparación demasiado líquida | Exceso de agua o reducción incompleta | Ajustar cantidad y reducir progresivamente |
-| Sabor desequilibrado | Exceso de sal o azúcar | Corregir después de probar y anotar proporciones |
+| Pasta granulada | Almíbar añadido muy deprisa o fuego demasiado alto al cocinar las yemas | Incorporar en hilo y cocinar a fuego bajo removiendo sin parar |
+| Pasta demasiado fluida para formar | Falta de espesado tras añadir yemas | Comprobar el punto moldeable y la cocción segura antes de enfriar, sin añadir azúcar extra a ciegas |
+| Yemas demasiado duras o secas | Cocción excesiva o reducción intensa | Registrar el punto de la pasta para ajustar la siguiente tanda sin sacrificar la cocción suficiente |
+| Bolitas que se pegan al formar | Pasta todavía templada o enfriado insuficiente | Refrigerar hasta poder manipular y emplear parte del azúcar glas previsto para el formado |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescado, huevos y lácteos requieren refrigeración y manipulación higiénica. Recalentar completamente las porciones destinadas a consumo caliente, sin mantener perecederos horas a temperatura ambiente.
+Después de cocinar y comprobar el punto de las yemas, enfriar rápidamente la pasta y conservar las bolitas **refrigeradas en recipiente cerrado**. Limitar el tiempo fuera de frío durante el formado y el servicio, por su contenido concentrado de huevo. Consumir en un plazo corto según frescura de las yemas y condiciones de manipulación; no tratar el azúcar como garantía de conservación a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
