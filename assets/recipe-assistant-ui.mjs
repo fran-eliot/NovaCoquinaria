@@ -106,11 +106,12 @@ function renderRecipe(r) {
   if(originalServings!==null){
     $("scaling-panel").hidden=false;
     $("scaling-original").textContent=String(originalServings);
-    const target=$("scaling-target"),preview=$("scaling-preview"),status=$("scaling-status"),copy=$("copy-scaling");
+    const target=$("scaling-target"),preview=$("scaling-preview"),status=$("scaling-status"),copy=$("copy-scaling"),reset=$("scaling-reset");
     target.value=String(originalServings);
     function updateScaling(){
       preview.replaceChildren();
       const desired=target.valueAsNumber;
+      reset.disabled=target.value===String(originalServings);
       $("copy-scaling-status").textContent="";
       copy.disabled=true;
       if(!Number.isInteger(desired)||desired<1||desired>24){
@@ -138,6 +139,11 @@ function renderRecipe(r) {
     }
     refreshScaling=updateScaling;
     target.addEventListener("input",updateScaling);
+    reset.addEventListener("click",()=>{
+      target.value=String(originalServings);
+      updateScaling();
+      target.focus();
+    });
     copy.addEventListener("click",async()=>{
       copy.disabled=true;
       try{

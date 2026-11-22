@@ -144,6 +144,7 @@ def exercise(site):
                 assert page.locator("#scaling-preview li").all_text_contents() == [
                     entry["raw"] for entry in scale_recipe["ingredients"]]
                 shopping_before = page.locator("#shopping-selection label").all_text_contents()
+                expect(page.locator("#scaling-reset")).to_be_disabled()
                 target = original + 1 if original < 24 else original - 1
                 page.locator("#scaling-target").fill(str(target))
                 # El recuento incluye masas, volúmenes, fracciones exactas
@@ -163,11 +164,25 @@ def exercise(site):
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(visible_scaled)
                 assert all("Adaptado: " in value for value in
                            page.locator("#ingredients .scaled-ingredient-hint:visible").all_text_contents())
+                expect(page.locator("#scaling-reset")).to_be_enabled()
+                page.locator("#scaling-reset").click()
+                expect(page.locator("#scaling-target")).to_have_value(str(original))
+                expect(page.locator("#scaling-target")).to_be_focused()
+                expect(page.locator("#scaling-reset")).to_be_disabled()
+                expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
+                expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
+                assert page.locator("#scaling-preview li").all_text_contents() == [
+                    entry["raw"] for entry in scale_recipe["ingredients"]]
+                assert page.locator("#shopping-selection label").all_text_contents() == shopping_before
                 page.locator("#scaling-target").fill("0")
                 expect(page.locator("#scaling-status")).to_contain_text("Indica entre 1 y 24")
+                expect(page.locator("#scaling-reset")).to_be_enabled()
                 expect(page.locator("#copy-scaling")).to_be_disabled()
                 assert page.locator("#scaling-preview li").count() == 0
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(0)
+                page.locator("#scaling-reset").click()
+                expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
+                expect(page.locator("#scaling-reset")).to_be_disabled()
                 page.reload()
                 expect(page.locator("#scaling-target")).to_have_value(str(original))
                 expect(page.locator("#scaling-status")).to_contain_text("Raciones originales")
