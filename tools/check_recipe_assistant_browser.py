@@ -154,7 +154,7 @@ def exercise(site):
                 copied = page.evaluate("navigator.clipboard.readText()")
                 assert scale_recipe["title"] in copied
                 assert "raciones" in copied
-                assert "revisar manualmente" in copied
+                assert ("revisar manualmente" in copied) == (visible_scaled < len(scale_recipe["ingredients"]))
                 expect(page.locator("#ingredients .scaled-ingredient-hint:visible")).to_have_count(visible_scaled)
                 assert all("Adaptado: " in value for value in
                            page.locator("#ingredients .scaled-ingredient-hint:visible").all_text_contents())
