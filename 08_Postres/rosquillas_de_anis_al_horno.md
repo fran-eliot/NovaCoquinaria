@@ -4,8 +4,8 @@ tipo: receta
 titulo: Rosquillas de anís al horno
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -51,22 +51,20 @@ Propuesta de repostería basada en **masa aromática, formado y horneado**. La f
 
 ## Puntos críticos
 
-- La harina adicional debe ser mínima o las rosquillas quedarán duras. La cocción al horno produce textura distinta de las rosquillas fritas.
-- Los tiempos orientativos varían con el horno, la forma del molde y el tamaño de las porciones.
-- Mantener utensilios higienizados y evitar contacto cruzado entre alimentos crudos y productos listos para comer.
-
+- Añadir la mínima harina adicional necesaria al formar: trabajar la masa en exceso puede producir rosquillas duras.
+- Respetar el reposo previsto de 10–15 minutos y formar veinte aros de tamaño similar, manteniendo visible el agujero central para favorecer un horneado uniforme.
+- Estas rosquillas se **hornean**, no se fríen; vigilar el dorado y comprobar que el interior con huevo quede cocido.
 ## Diagnóstico
 
 | Resultado | Posible causa | Ajuste en una siguiente preparación |
 |---|---|---|
-| Estructura demasiado compacta | Mezclado excesivo o formulación desequilibrada | Medir ingredientes y mezclar solo lo necesario |
-| Interior poco firme | Cocción o reposo insuficiente | Comprobar el centro o ampliar el reposo refrigerado según la técnica |
-| Sabor demasiado dulce | Dulzor de productos comerciales o de la fruta | Ajustar el azúcar en una repetición |
-
+| Rosquillas duras | Exceso de harina adicional o masa trabajada demasiado tiempo | Añadir harina extra solo si es imprescindible y mezclar lo justo |
+| Formas irregulares o agujero cerrado | Porciones desiguales o aro mal formado | Dividir en veinte porciones parecidas y dejar abertura central visible |
+| Exterior dorado e interior poco cocido | Piezas demasiado gruesas o horno intenso | Comprobar el interior y ajustar el tamaño y el tiempo en otra prueba |
+| Aroma de anís débil | Anís en grano poco triturado o intensidad variable | Machacar ligeramente el anís y valorar el resultado antes de ajustar la dosis |
 ## Conservación
 
-Enfriar y conservar con higiene. Los postres con nata, queso crema o ganache deben mantenerse refrigerados; tampoco deben dejarse durante horas a temperatura ambiente las preparaciones con rellenos perecederos. Guardar los productos horneados sin cremas perecederas en envase cerrado, adaptando el plazo a la humedad ambiental.
-
+Dejar enfriar por completo las rosquillas horneadas sobre rejilla antes de guardarlas en un recipiente limpio, cerrado y seco para evitar condensación. Mantenerlas protegidas de la humedad en un lugar fresco durante un periodo prudente según el ambiente y comprobar su estado antes de consumirlas. No aplicar a esta versión sin relleno las pautas de refrigeración de postres con nata o queso crema.
 ## Relaciones dentro del SGCC
 
 - [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)
