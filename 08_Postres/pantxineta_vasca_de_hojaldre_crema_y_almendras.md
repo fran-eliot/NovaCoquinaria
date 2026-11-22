@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pantxineta vasca de hojaldre, crema y almendras
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,16 +59,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la siguiente preparación |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |
-| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |
-
+| Base de hojaldre húmeda o poco cocida | Crema incorporada caliente o cocción insuficiente de la base | Enfriar completamente la crema antes de montar y comprobar el dorado de la base antes de retirar del horno |
+| Crema con grumos | Yemas calentadas demasiado rápido o maicena mal dispersada | Incorporar la leche infusionada gradualmente y cocer removiendo hasta espesar |
+| Relleno que se escapa | Borde libre insuficiente o sellado débil | Conservar los 2–3 cm de margen y sellar sin comprimir la zona central del hojaldre |
+| Almendras quemadas y hojaldre sin terminar | Calor superficial excesivo durante el horneado | Vigilar las láminas de almendra y comprobar la cocción completa de la masa; ajustar en una prueba posterior |
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.
-
+La pantxineta lleva **crema pastelera de yemas y leche**: tras el horneado, enfriar las porciones sobrantes sin demora innecesaria y guardarlas tapadas en frigorífico. Minimizar el tiempo fuera de frío al servir y consumir en un plazo corto según la crema y los productos comerciales utilizados. El hojaldre puede perder textura crujiente al refrigerarse, pero no debe mantenerse a temperatura ambiente una preparación con crema perecedera para evitarlo.
 ## Relaciones dentro del SGCC
 
 - [Ponche segoviano](./ponche_segoviano_con_crema_y_mazapan.md)
