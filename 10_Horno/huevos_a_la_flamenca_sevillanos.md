@@ -4,8 +4,8 @@ tipo: receta
 titulo: Huevos a la flamenca sevillanos
 categoria: Horno
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -60,15 +60,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Clara o yema insuficientemente cuajadas | Cazuelitas desigualmente calientes o tiempo de horno corto | Comprobar que tanto claras como yemas estén completamente cuajadas antes del servicio |
+| Huevos demasiado secos | Exceso de horno después del cuajado | Vigilar el punto hacia el final de los 10–15 minutos orientativos |
+| Salsa demasiado líquida bajo los huevos | Tomate insuficientemente reducido antes del montaje | Reducir el sofrito hasta que quede espeso y añadir guisantes ya cocidos y escurridos |
+| Conjunto demasiado salado | Sal aportada por jamón y chorizo | Probar el sofrito tras incorporar los embutidos y salar con moderación |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Servir los **huevos a la flamenca** recién horneados y con claras, yemas y chorizo completamente cocinados. No dejar durante horas las cazuelitas con huevo, jamón, chorizo y patata a temperatura ambiente. Si sobran porciones, enfriarlas pronto en recipientes poco profundos y refrigerarlas tapadas; recalentar completamente solo lo que se vaya a consumir, comprobando el centro. Las cazuelitas de cerámica pueden conservar mucho calor y requieren precaución al manipularlas.
 
 ## Relaciones dentro del SGCC
 
