@@ -4,8 +4,8 @@ tipo: receta
 titulo: Carcamusas toledanas de magro de cerdo
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,15 +59,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste en la próxima elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Magro de cerdo duro | Tiempo de estofado insuficiente o hervor demasiado fuerte | Comprobar ternura y cocción completa; prolongar suavemente el guiso si hace falta |
+| Salsa demasiado líquida | Tomate poco reducido o exceso de caldo | Reducir el sofrito de tomate y destapar brevemente al final, sin resecar la carne |
+| Plato excesivamente salado | Chorizo o caldo comercial con sal elevada | Probar el conjunto después de incorporar el chorizo antes de añadir más sal |
+| Guisantes deshechos | Incorporación temprana o cocción prolongada | Añadir los guisantes completamente cocidos en los últimos cinco minutos previstos |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+Enfriar rápidamente las carcamusas sobrantes de **cerdo y chorizo** en recipientes poco profundos y refrigerar tapadas. Mantener refrigerados tanto el magro como el chorizo antes de cocinar, siguiendo sus etiquetas. Recalentar completamente las porciones destinadas a consumo caliente y consumir en un plazo corto; la salsa de tomate no sustituye la conservación en frío.
 
 ## Relaciones dentro del SGCC
 
