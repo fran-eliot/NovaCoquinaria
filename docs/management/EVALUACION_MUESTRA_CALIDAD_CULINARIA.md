@@ -123,3 +123,31 @@ La segunda tanda temática aplica los hallazgos H-B01, H-B02 y H-B03 sobre **REC
 Las tres fichas conservan la mejor versión documentada, las variantes, los ingredientes base y el estado de experiencia doméstica registrado. Se incrementa solo la versión documental de las fichas; **no se atribuyen nuevas pruebas culinarias, tiempos observados o cantidades históricas**.
 
 Con ambas tandas (#343 y esta PR) se habrán abordado las seis intervenciones propuestas en la evaluación documental. Seguirá pendiente la comprobación individual E07 en el portal público y un contraste de resultados posintervención antes de declarar cerrada la Unidad C.
+
+
+## Contraste de resultados tras las tandas #343 y #344 — alcance y evidencia
+
+Las PR [#343](https://github.com/fran-eliot/NovaCoquinaria/pull/343) y [#344](https://github.com/fran-eliot/NovaCoquinaria/pull/344) se integraron en `main` (`cdc92e7e31ce26d24ac1f328af978eff200af1e3` y `87d5429935924fdfd3e36d49069d51f1e6bca497`). Sus workflows de PR **Knowledge integrity**, **Knowledge audit** y **Culinary Explorer site** finalizaron en `success`. Esto acredita los controles automatizados del repositorio, pero no verifica por sí solo que las mejoras sean mejores al cocinarlas.
+
+La trazabilidad de las **seis intervenciones editoriales** es la siguiente:
+
+| Hallazgo | Ficha | Cambio incluido | Situación |
+|---|---|---|---|
+| H-B01 | REC-0007 | Salsa china como preparación aparte y cocción de carne picada comprobable | Fusionado en #344 |
+| H-B02 | REC-0009 | Glaseado incremental y verificación de cocción sin tiempos históricos ficticios | Fusionado en #344 |
+| H-B03 | REC-0008 | Ternera/cerdo diferenciados y ajuste de salsa de 265 g separado de la plantilla | Fusionado en #344 |
+| H-B04 | REC-0021 | Conservación/recalentamiento de arroz armonizados; sin imponer preparación el día anterior | Fusionado en #343 |
+| H-B05 | REC-448 | Conservación adaptada al plato, sin comentarios genéricos de otros alimentos | Fusionado en #343 |
+| H-B08 | REC-0201 | Uso condicionado de agua delimitado; conservación centrada en el plato | Fusionado en #343 |
+
+**Controles sin intervención:** REC-0057 y REC-0059. No constan resultados de repetición culinaria de estas recetas tras las ediciones.
+
+### E07: prueba automatizada dirigida propuesta
+
+Se añade `tools/check_culinary_quality_sample_browser.py` al workflow **Culinary Explorer site**. Para los ocho IDs fijados en el protocolo, el script busca por título exacto en Explorer, abre «Preparar receta», verifica identidad, ingredientes, pasos, contexto y enlace a la ficha fuente, y contrasta que la página fuente se abra sin errores JavaScript en Chromium a 390 px. Usa una copia temporal del sitio construido con un contexto aislado por receta; no modifica datos personales públicos.
+
+**Evidencia pendiente de observar:** la ejecución de CI de esta PR y el artefacto `quality-sample-browser.json`. Hasta que se consulte el resultado satisfactorio, E07 permanece `desconocido` en la matriz histórica de la Unidad B. Incluso si pasa, acreditará solo un recorrido **automatizado local dirigido**, no pruebas manuales individuales en Pages ni evaluación de la fidelidad culinaria del contenido.
+
+### Decisión pendiente
+
+Las seis correcciones están integradas y la prueba E07 queda instrumentada para contraste. El cierre formal de Unidad C requiere **observar la ejecución real de CI** y reconciliar resultados y límites, antes de recomendar la siguiente decisión estratégica. Se preserva `v1.7.0` como versión publicada.
