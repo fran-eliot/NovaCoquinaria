@@ -55,6 +55,27 @@ def exercise(base=DEFAULT_BASE):
                         expect(page.locator("#results-section")).to_be_visible()
                         if page.locator("#results > *").count() == 0:
                             raise AssertionError("Explorer search returned no results for arroz")
+                        # Comprobar en la publicación el enlace real Explorer -> Assistant,
+                        # utilizando el título publicado, sin editar datos persistentes.
+                        title = page.evaluate("""async () => {
+                            const response = await fetch("culinary_explorer.json", {cache: "no-cache"});
+                            if (!response.ok) throw Error("Public catalog unavailable");
+                            const catalog = await response.json();
+                            const entry = catalog.recipes.find(x => x.id === "REC-0017");
+                            if (!entry?.title) throw Error("Known recipe not found");
+                            return entry.title;
+                        }""")
+                        page.locator("#title").fill(title)
+                        page.locator("#title-mode").select_option("exact")
+                        page.get_by_role("button", name="Buscar", exact=True).click()
+                        page.get_by_role("link", name="Preparar receta", exact=True).first.click()
+                        expect(page).to_have_url(urljoin(base, "recipe-assistant.html?id=REC-0017"))
+                        expect(page.locator("#assistant")).to_be_visible(timeout=20000)
+                        expect(page.locator("#recipe-title")).to_have_text(title)
+                        if page.locator("#ingredients input").count() == 0:
+                            raise AssertionError("Recipe selected from Explorer lacks ingredients")
+                        if page.locator("#step-title").count() == 0:
+                            raise AssertionError("Recipe selected from Explorer lacks guided steps")
                     elif path.startswith("recipe-assistant"):
                         expect(page.locator("#recipe-title")).not_to_be_empty()
                         if page.locator("#ingredients input").count() == 0:
@@ -67,8 +88,12 @@ def exercise(base=DEFAULT_BASE):
                         raise AssertionError(f"JavaScript errors on {path}: {errors[:3]}")
                     if page.evaluate("document.documentElement.scrollWidth > innerWidth"):
                         raise AssertionError(f"Horizontal overflow on mobile viewport: {path}")
-                    records.append({"page": path, "http": 200, "javascript": "ready",
-                                    "viewport_width": 390, "page_errors": 0})
+                    record = {"page": path, "http": 200, "javascript": "ready",
+                              "viewport_width": 390, "page_errors": 0}
+                    if path.startswith("culinary-explorer"):
+                        record["linked_recipe_id"] = "REC-0017"
+                        record["explorer_to_assistant"] = True
+                    records.append(record)
                 finally:
                     context.close()
         finally:
