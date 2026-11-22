@@ -51,3 +51,18 @@ La mejora se considera un primer ciclo de **aseguramiento operativo de publicaci
 - **Más aplicaciones o métricas de cocinabilidad**: no resuelve el riesgo operativo demostrado.
 
 El propietario revisa y fusiona la PR; no se publica ninguna versión ni se modifica el tag de `v1.7.0`.
+
+
+## Primera ejecución real y ajuste de propagación (22-11-2026)
+
+La [PR #357](https://github.com/fran-eliot/NovaCoquinaria/pull/357) se fusionó en `f42849e0e39ad555647c7d4377e081ed0ad73ef2`. La ejecución de [Deploy MkDocs site](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45058071211) concluyó en `success`, pero el primer [Culinary Post-Deploy HTTP Assurance](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45058219028), job `137318117150`, concluyó en **failure**:
+
+- **SHA esperado:** `f42849e0e39ad555647c7d4377e081ed0ad73ef2`.
+- **`source_commit` efectivamente leído en el catálogo público:** `0f08607769323e09cc206ade1e2e63966df8915f` (publicación anterior).
+- **Pruebas offline:** 9/9 correctas.
+- **Control HTTP:** falló exclusivamente por discrepancia del SHA publicado; se guardó `culinary-post-deploy-http-evidence`.
+- **Contexto:** el workflow automático de Pages para el nuevo despliegue se inició aproximadamente al mismo tiempo. Esto es compatible con un intervalo de propagación pendiente; el resultado observado **no prueba que la web finalmente se actualizase ni que el workflow de comprobación esté ya corregido**.
+
+Se propone modificar **solo el job de aseguramiento** con un máximo de **12 verificaciones**, 15 segundos de espera entre intentos. Cada una vuelve a consultar el sitio HTTP y exige **coincidencia estricta** del SHA del evento desencadenante. El resultado es correcto únicamente si alguna verificación alcanza esa coincidencia; si transcurre toda la ventana, la ejecución sigue fallando y conserva el JSON de evidencia de la última comprobación.
+
+Este reintento no introduce aceptación de una versión antigua, no automatiza un redeploy y no convierte un HTTP 200 en prueba de aceptación funcional. **La corrección debe validarse después de fusionar la PR**, observando una nueva ejecución post-deploy; la PR en sí no reproduce ese evento.

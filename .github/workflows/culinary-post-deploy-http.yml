@@ -28,10 +28,25 @@ jobs:
         env:
           EXPECTED_SOURCE_COMMIT: ${{ github.event.workflow_run.head_sha }}
         run: |
-          python tools/check_culinary_public_http.py \
-            --base-url https://fran-eliot.github.io/NovaCoquinaria/ \
-            --expected-source-commit "$EXPECTED_SOURCE_COMMIT" \
-            --output /tmp/culinary-post-deploy-http.json
+          # GitHub Pages may still serve the prior deployment immediately
+          # after the publishing workflow completes. Retry only for a bounded
+          # interval; never accept a mismatch as success.
+          for attempt in $(seq 1 12); do
+            echo "Public deployment verification attempt $attempt/12"
+            if python tools/check_culinary_public_http.py \
+              --base-url https://fran-eliot.github.io/NovaCoquinaria/ \
+              --expected-source-commit "$EXPECTED_SOURCE_COMMIT" \
+              --output /tmp/culinary-post-deploy-http.json; then
+              echo "Public deployment matches $EXPECTED_SOURCE_COMMIT"
+              exit 0
+            fi
+            if [ "$attempt" -lt 12 ]; then
+              echo "Public deployment not yet verified; retrying in 15 seconds"
+              sleep 15
+            fi
+          done
+          echo "::error::Published site did not match the triggering deployment within the bounded verification window"
+          exit 1
       - name: Upload public deployment assurance evidence
         if: always()
         uses: actions/upload-artifact@v4
