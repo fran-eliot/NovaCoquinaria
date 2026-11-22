@@ -4,8 +4,8 @@ tipo: receta
 titulo: Paparajotes murcianos de hoja de limonero
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -54,20 +54,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- La hoja aromatiza la masa, pero no es comestible en esta preparación y debe retirarse antes de comer. No utilizar hojas tratadas con productos no aptos para consumo; evitar confundir la hoja de limonero con otras especies.
-- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.
+- Utilizar exclusivamente hojas de limonero de procedencia conocida y sin tratamientos incompatibles con uso culinario; lavar y secar antes de rebozar.
+- **La hoja no se come:** sirve de soporte aromático y se retira y desecha al consumir cada paparajote. Esta advertencia debe acompañar también el servicio a personas que no conozcan el plato.
+- Controlar la fritura alrededor de los 170–175 °C orientativos y cocinar completamente la masa que contiene huevo y leche, sin acumular demasiadas piezas por tanda.
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Rebozado que resbala de la hoja | Hoja mojada o masa demasiado fluida | Secar bien las hojas y comprobar que la masa se adhiera antes de freír |
+| Masa muy gruesa o poco cocida | Rebozado excesivo o aceite demasiado caliente | Cubrir con una película uniforme y freír por tandas hasta cocción completa |
+| Paparajote grasiento | Aceite demasiado frío o fritura de demasiadas piezas | Mantener temperatura estable y escurrir al sacar |
+| Hoja difícil de retirar al comer | Masa muy adherida o presentación sin explicación | Indicar expresamente que debe separarse la masa frita de la hoja y desechar esta última |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Servir los paparajotes preferentemente templados y recién fritos. La masa cruda con huevo y leche debe permanecer refrigerada durante su reposo y hasta utilizarse; enfriar y refrigerar pronto las porciones cocidas que sobren, evitando dejarlas fuera de frío durante periodos prolongados. El rebozado puede perder textura al almacenarse. **Retirar y desechar siempre la hoja de limonero al comer**, también si se guardan unidades para más tarde.
 
 ## Relaciones dentro del SGCC
 
