@@ -79,3 +79,10 @@ Decidir con resultados si merece la pena incorporar visualización de campos fia
 **Aprobar únicamente la prioridad estratégica de Recipe Practical Completeness y el alcance de diagnóstico RPC-A**, sin publicar una versión, crear un nuevo milestone ni aprobar las unidades posteriores. El cierre del ciclo Culinary Knowledge Quality Baseline A–D sería entonces **Complete — Bounded Evidence & Strategic Recommendation**, sujeto a la revisión de esta propuesta. Hasta esa aprobación, esta es una recomendación documentada, no un compromiso de producto.
 
 Referencias: [Kit de continuidad](./NOVACOQUINARIA_KIT_CONTINUITY.md), [Estado del proyecto](./PROJECT_STATUS.md), [Revisión estratégica anterior](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md), [Deuda de requisitos](./DEUDA_REQUISITOS_CULINARIOS.md).
+
+
+## RPC-A — Diagnóstico inicial documentado (22-11-2026)
+
+Se añade el [contrato y diagnóstico de suficiencia práctica](./DIAGNOSTICO_RECIPE_PRACTICAL_COMPLETENESS.md): cinco estados de lectura editorial, nueve ejes prácticos, métricas reproducibles sobre el corte de Knowledge audit #317 y casos ya contrastados del piloto. Se reutilizan los auditores actuales y no se crea otro clasificador ni se modifica el modelo canónico.
+
+**Recomendación posterior, no autorización automática:** preparar un protocolo RPC-B sobre los cinco módulos ausentes de la muestra anterior, con selección de fichas y criterios previos a su evaluación. Se mantienen v1.7.0 y los límites de evidencia doméstica y semántica.
