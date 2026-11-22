@@ -10,7 +10,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
-from playwright.sync_api import sync_playwright, expect
 
 DEFAULT_BASE = "https://fran-eliot.github.io/NovaCoquinaria/"
 PAGES = (
@@ -30,6 +29,7 @@ def check_base(base):
 
 def exercise(base=DEFAULT_BASE):
     check_base(base)
+    from playwright.sync_api import sync_playwright, expect
     records = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
