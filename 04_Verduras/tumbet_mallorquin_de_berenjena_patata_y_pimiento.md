@@ -4,8 +4,8 @@ tipo: receta
 titulo: Tumbet mallorquín de berenjena, patata y pimiento
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,13 +58,14 @@ etiquetas:
 
 | Resultado | Posible causa | Ajuste para la próxima elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Capas demasiado grasas | Patata y berenjena mal escurridas después de freírlas | Freír por tandas y escurrir cada hortaliza antes del montaje |
+| Berenjena todavía firme | Rodajas demasiado gruesas o fritura insuficiente | Mantener el corte de aproximadamente 1 cm y cocinar completamente antes de montar |
+| Salsa de tomate acuosa | Reducción insuficiente de los 550 g de tomate triturado | Respetar la reducción inicial antes de cubrir las capas |
+| Patatas deshechas o conjunto sin capas reconocibles | Manipulación excesiva al montar o fritura demasiado intensa | Mantener las hortalizas separadas hasta el montaje y calentarlas juntas sin remover |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+El **tumbet de patata, berenjena, pimiento y tomate** se puede servir recién terminado o refrigerar después de enfriar rápidamente las sobras en recipientes poco profundos. Guardar tapado en frigorífico, no dejarlo varias horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio, procurando conservar las capas. Esta formulación vegetal no lleva las carnes, pescados, huevos ni lácteos enumerados en antiguas advertencias genéricas.
 
 ## Relaciones dentro del SGCC
 
