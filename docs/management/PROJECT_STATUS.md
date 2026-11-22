@@ -2,7 +2,7 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.7
+version: 3.8
 estado: estable
 ultima_revision: 2026-11-22
 ---
@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Iniciar línea base reproducible de calidad y utilidad del conocimiento culinario (Unidad A propuesta) |
+| Próximo objetivo | Revisar la propuesta de Recipe Practical Completeness — diagnóstico RPC-A (sin implementación aprobada) |
 
 ---
 
@@ -49,6 +49,12 @@ Tras completar este marco de especificaciones (v1.5.0), el proyecto ha iniciado 
 El sistema de auditoría del conocimiento permite medir automáticamente la cobertura estructural, la madurez y la reutilización del conocimiento por dominios culinarios, facilitando la planificación de futuras ampliaciones.
 
 ---
+
+## Corte de calidad culinaria y decisión de capacidad — 2026-11-22
+
+Tras el merge de #346 (`3c9b8d024ec2c7502987620b448f9ade35bdc7b0`), la línea base de calidad culinaria, la evaluación dirigida de ocho fichas, las seis correcciones en #343–#344 y los ocho recorridos E07 en Chromium local de #345 están integrados y los tres workflows de #346 finalizaron correctamente. El [cierre acotado](./CIERRE_PILOTO_CALIDAD_CULINARIA.md) no afirma mejora gastronómica real, aceptación manual pública individual ni validez estadística para el corpus.
+
+La [decisión estratégica posterior](./DECISION_ESTRATEGICA_POST_CALIDAD_CULINARIA.md) **propone** priorizar un diagnóstico de suficiencia práctica de recetas (RPC-A), reutilizando las métricas actuales, con módulos y fases siguientes sujetos a autorización. La versión publicada continúa siendo `v1.7.0`.
 
 ## Corte de transición — 2026-11-18
 

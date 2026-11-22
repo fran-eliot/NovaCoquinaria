@@ -2,7 +2,7 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 3.0.0
+version: 3.1.0
 estado: estable
 ultima_revision: 2026-11-22
 ---
@@ -13,6 +13,20 @@ ultima_revision: 2026-11-22
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
 > **Corte de información:** 22 de noviembre de 2026, tras la publicación confirmada de v1.7.0 y cierre funcional acotado de CWC-12. Los cortes anteriores se conservan como históricos.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
+
+## Estado vigente — cierre de Culinary Knowledge Quality Baseline (22-11-2026)
+
+**Este bloque prevalece sobre los cortes anteriores de este Kit.** Se verificó `main` tras el merge de [#346](https://github.com/fran-eliot/NovaCoquinaria/pull/346) en `3c9b8d024ec2c7502987620b448f9ade35bdc7b0`. Knowledge integrity, Knowledge audit y Culinary Explorer site de la PR concluyeron en `success`; ninguna PR estaba abierta antes de abrir la propuesta de Unidad D.
+
+- **Publicación global:** [v1.7.0](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.7.0) sigue siendo la última release declarada; su tag permanece fijado al merge #338. No hay release posterior autorizada.
+- **Unidad A:** [línea base reproducible](./LINEA_BASE_CALIDAD_CULINARIA.md), 590 recetas y alcance fijado al commit del artefacto CI, no inventario automáticamente actualizado de `main`.
+- **Unidad B:** [muestra de ocho recetas y evaluación editorial dirigida](./EVALUACION_MUESTRA_CALIDAD_CULINARIA.md); no representativa de todo el corpus.
+- **Unidad C:** [cierre acotado](./CIERRE_PILOTO_CALIDAD_CULINARIA.md); seis intervenciones en #343–#344, controles de no intervención y **8/8 recorridos E07** de Explorer → Assistant → fuente verificados en Chromium local mediante #345. No se demuestra con ello que los platos hayan sido probados de nuevo ni que la web pública haya sido revisada manualmente en esos ocho casos.
+- **Unidad D:** [decisión estratégica propuesta](./DECISION_ESTRATEGICA_POST_CALIDAD_CULINARIA.md) — priorizar **Recipe Practical Completeness** y autorizar inicialmente solo un diagnóstico RPC-A, sin asumir que el esquema de datos, la interfaz o las fases posteriores ya estén aprobados.
+- **Prioridad operativa:** revisión de la decisión estratégica; evitar nuevas funcionalidades sobre semántica insuficiente y conservar Markdown como fuente de verdad, variantes mejores y estados de prueba reales.
+- **Método:** asistente trabaja directamente en ramas/PR temáticas; propietario revisa, fusiona y elimina ramas. No fusionar ni publicar releases automáticamente.
+
+---
 
 ## Estado vigente — publicación de v1.7.0 (22-11-2026)
 
