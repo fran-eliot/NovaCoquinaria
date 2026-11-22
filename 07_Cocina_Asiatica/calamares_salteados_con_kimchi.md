@@ -5,7 +5,7 @@ titulo: Calamares salteados con kimchi
 categoria: Cocina Asiática
 estado: borrador
 version: 1.0.0
-ultima_revision: 2026-11-15
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -49,7 +49,7 @@ Calamares con kimchi y cebolla: acidez fermentada, picante moderado y cocción r
 2. Escurrir ligeramente el kimchi, reservando una cucharada del jugo.
 3. Saltear la cebolla con aceite 2–3 minutos y añadir ajo unos segundos.
 4. Elevar el fuego, incorporar calamar bien escurrido y saltear brevemente hasta que esté cocinado; retirar si la sartén se llena de líquido.
-5. Añadir kimchi y el jugo reservado a la sartén; reducir 1–2 minutos sin quemar.
+5. Añadir kimchi y el jugo reservado a la sartén; reducir 1–2 minutos sin quemar. Solo si el fondo se seca demasiado o se pega antes de completar la reducción, añadir poco a poco **hasta 30 ml de agua** para despegarlo, evitando diluir una salsa que ya esté líquida. Es un ajuste propuesto pendiente de prueba, no una cantidad utilizada en una elaboración confirmada.
 6. Reincorporar el calamar, mezclar, comprobar cocción completa, ajustar soja solo si hace falta y terminar con sésamo.
 
 ## Puntos críticos
@@ -68,7 +68,7 @@ Calamares con kimchi y cebolla: acidez fermentada, picante moderado y cocción r
 
 ## Conservación
 
-Refrigerar las sobras rápidamente, en recipientes poco profundos, y consumir dentro del plazo seguro para sus ingredientes; no dejar preparaciones cocinadas varias horas a temperatura ambiente. Recalentar completamente cuando corresponda. En el caso de arroz cocido, extremar el enfriamiento rápido y la refrigeración por el riesgo de *Bacillus cereus*.
+Refrigerar sin demora las sobras de calamares con kimchi en recipientes poco profundos y respetar los plazos de conservación de los ingredientes utilizados. No dejar el plato cocinado varias horas a temperatura ambiente; recalentar completamente las porciones que se sirvan calientes. Esta indicación se limita a la preparación descrita y no presupone que se acompañe con arroz.
 
 ## Relaciones dentro del SGCC
 
