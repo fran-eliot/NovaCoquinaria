@@ -4,8 +4,8 @@ tipo: receta
 titulo: Ayran de yogur y menta
 categoria: Bebidas
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -47,21 +47,22 @@ Preparación de referencia basada en **dilución y batido en frío**. Esta formu
 
 ## Puntos críticos
 
-- El ayran es una bebida salada: no endulzar ni añadir fruta si se busca conservar este perfil. El yogur se separa con el reposo y requiere una nueva mezcla antes de servir.
-- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.
-- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.
+- El ayran es una bebida **salada de yogur**, no un batido dulce: graduar los 1–2 g de sal después de mezclar y probar.
+- Mantener el yogur pasteurizado refrigerado, utilizar agua potable muy fría y lavar la menta opcional antes de incorporarla.
+- La separación de suero al reposar es posible; volver a mezclar antes del servicio, sin confundirla automáticamente con deterioro.
 
 ## Diagnóstico
 
-| Observación | Causa probable | Ajuste para otra prueba |
+| Resultado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |
-| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |
-| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |
+| Ayran demasiado espeso | Yogur más denso de lo previsto | Añadir los 250 ml de agua fría en varias tandas hasta alcanzar la fluidez deseada |
+| Ayran demasiado líquido | Agua añadida de golpe o yogur poco denso | Añadir el agua gradualmente y registrar la textura del yogur elegido |
+| Sal demasiado perceptible | Cantidad elevada respecto al yogur y agua utilizados | Disolver primero una cantidad pequeña dentro de los 1–2 g propuestos y probar |
+| Suero separado al reposar | Separación natural de la mezcla diluida | Batir de nuevo antes de servir y conservar siempre refrigerado |
 
 ## Conservación
 
-Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.
+Preparar con **yogur refrigerado**, agua potable y utensilios limpios; servir el ayran frío y preferentemente recién batido. Si se prepara con antelación, conservar tapado en frigorífico, mezclar de nuevo antes de servir y consumir pronto según la frescura del yogur. No dejar una bebida láctea durante periodos prolongados a temperatura ambiente; el hielo opcional no sustituye la refrigeración.
 
 ## Relaciones dentro del SGCC
 

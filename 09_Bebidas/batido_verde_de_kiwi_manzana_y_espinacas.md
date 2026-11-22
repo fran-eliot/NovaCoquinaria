@@ -4,8 +4,8 @@ tipo: receta
 titulo: Batido verde de kiwi, manzana y espinacas
 categoria: Bebidas
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -54,15 +54,16 @@ Preparación de referencia basada en **triturado de fruta y hoja fresca**. Esta 
 
 ## Diagnóstico
 
-| Observación | Causa probable | Ajuste para otra prueba |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |
-| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |
-| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |
+| Textura con fibras o fragmentos de hojas | Espinacas poco trituradas o manzana cortada en trozos grandes | Cortar la manzana antes y triturar hasta que las hojas queden integradas |
+| Bebida demasiado espesa | Relación fruta/agua elevada para la madurez utilizada | Añadir agua fría gradualmente después del triturado |
+| Sabor ácido dominante | Kiwis poco maduros o limón intenso | Valorar la madurez de los kiwis y probar antes de modificar el zumo de limón |
+| Color y aroma deteriorados al reposar | Oxidación de frutas y hojas trituradas | Preparar cerca del servicio y mantener refrigerado, sin interpretar el limón como conservante validado |
 
 ## Conservación
 
-Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.
+Utilizar solo **espinacas frescas aptas para consumo crudo**, fruta lavada y utensilios higienizados. Servir el batido de kiwi, manzana y hojas trituradas inmediatamente o refrigerarlo tapado sin demora para consumirlo pronto. La trituración no elimina microorganismos y el zumo de limón no sustituye la refrigeración. Evitar dejar el batido durante horas a temperatura ambiente y desecharlo ante signos de deterioro.
 
 ## Relaciones dentro del SGCC
 

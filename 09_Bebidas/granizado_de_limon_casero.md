@@ -4,8 +4,8 @@ tipo: receta
 titulo: Granizado de limón casero
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -52,16 +52,16 @@ Bebida doméstica de referencia basada en **almíbar corto, congelación y rotur
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Bloque de hielo compacto en vez de cristales pequeños | No se ha raspado la mezcla durante la congelación | Raspar con tenedor cada 30–45 minutos según la elaboración |
+| Granizado demasiado líquido al servir | Congelación insuficiente o temperatura de servicio alta | Completar el tiempo de congelación y servir directamente en vasos fríos |
+| Textura demasiado blanda o dulzor intenso | Proporción elevada de azúcar para la mezcla y el congelador utilizados | Registrar el resultado antes de variar los 90–120 g de azúcar en una prueba posterior |
+| Amargor de la ralladura | Presencia de parte blanca del limón | Utilizar solo ralladura amarilla fina y colar el zumo para eliminar semillas |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+Enfriar el almíbar antes de mezclarlo con el zumo de limón y trasladar pronto la preparación a un recipiente apto para **congelación**. Mantener el granizado en el congelador, tapado y protegido de olores, hasta el servicio; no dejarlo derretirse durante periodos prolongados a temperatura ambiente. Servir directamente en vasos fríos y evitar recongelar repetidamente una mezcla que haya permanecido templada.
 
 ## Relaciones dentro del SGCC
 

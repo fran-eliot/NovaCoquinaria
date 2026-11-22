@@ -4,8 +4,8 @@ tipo: receta
 titulo: Batido de fresas y yogur
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -53,16 +53,16 @@ Bebida doméstica de referencia basada en **triturado de fruta y lácteo en frí
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Batido demasiado líquido | Leche adicional excesiva o fresas con mucho jugo | Partir de los 100 ml previstos y añadir leche extra solo después de evaluar la textura |
+| Dulzor excesivo | Fresas maduras y miel o azúcar opcional innecesarios | Triturar primero sin endulzar y probar antes de añadir el endulzante |
+| Batido demasiado ácido | Fresas poco maduras o limón opcional excesivo | Probar antes de incorporar el zumo de limón y registrar el equilibrio real |
+| Trozos grandes o textura irregular | Triturado insuficiente o fruta demasiado firme | Trocear las fresas y triturar hasta homogeneizar sin dejar la bebida templarse |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+Lavar las fresas con agua potable, desechar las que presenten moho y usar **yogur y leche refrigerados**. Consumir el batido preferentemente recién triturado; si queda sobrante, guardarlo inmediatamente tapado en frigorífico y consumirlo pronto. No mantener fruta triturada con lácteos durante horas fuera de frío; remover si se separan fases durante un reposo breve.
 
 ## Relaciones dentro del SGCC
 

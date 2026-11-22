@@ -4,8 +4,8 @@ tipo: receta
 titulo: Atole de avena y canela
 categoria: Bebidas
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -55,15 +55,16 @@ Preparación de referencia basada en **hidratación y espesado suave de cereal**
 
 ## Diagnóstico
 
-| Observación | Causa probable | Ajuste para otra prueba |
+| Resultado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |
-| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |
-| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |
+| Atole con grumos de avena | Mezcla triturada poco uniforme o incorporación brusca a la leche | Triturar con el agua prevista y verter gradualmente removiendo con varillas |
+| Fondo pegado o sabor tostado indeseado | Calor excesivo durante el espesado de avena y leche | Mantener fuego medio-bajo y remover durante los 8–12 minutos orientativos |
+| Bebida excesivamente espesa | La avena continúa absorbiendo líquido incluso después de apagar el fuego | Añadir gradualmente agua o leche caliente y servir sin reposo prolongado |
+| Avena todavía cruda | Cocción insuficiente tras incorporar el cereal | Mantener la cocción hasta que la avena esté completamente hecha y el atole resulte bebible |
 
 ## Conservación
 
-Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.
+El atole lleva **leche pasteurizada y avena cocida**. Servir preferentemente caliente y recién preparado; si sobra, enfriar rápidamente en recipientes poco profundos y refrigerar tapado. Al recalentar completamente una porción, remover y ajustar con agua o leche porque espesará en frío. Consumir en un plazo corto y no dejar la bebida láctea durante horas a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 

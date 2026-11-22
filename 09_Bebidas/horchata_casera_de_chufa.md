@@ -4,8 +4,8 @@ tipo: receta
 titulo: Horchata casera de chufa
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -47,22 +47,22 @@ Bebida doméstica de referencia basada en **remojo refrigerado, triturado y filt
 
 ## Puntos críticos
 
-- La horchata casera no está pasteurizada: mantener remojo, triturado y bebida final bajo condiciones higiénicas y refrigeradas; prepararla para consumo rápido. No usar chufas de origen incierto.
-- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.
-- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.
+- Seleccionar **chufas alimentarias** de proveedor fiable, descartar las dañadas y lavarlas bien antes de iniciar el remojo.
+- Mantener el remojo de 12–24 horas **siempre en frigorífico**, descartar el agua utilizada y emplear agua potable limpia para triturar y diluir.
+- Esta horchata casera no está pasteurizada: higienizar batidora, filtros y envases, refrigerar inmediatamente y preparar para consumo cercano.
 
 ## Diagnóstico
 
-| Resultado | Causa posible | Ajuste de referencia |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Demasiado diluida | Exceso de agua o hielo fundido | Añadir líquido gradualmente |
-| Demasiado dulce | Azúcar adicional o fruta muy madura | Reducir azúcar añadido |
-| Amarga o astringente | Extracción excesiva o piel/corteza | Ajustar tiempo de infusión o preparación |
-| Textura irregular | Triturado o filtrado insuficiente | Triturar en tandas y filtrar si procede |
+| Horchata arenosa o con posos gruesos | Chufas insuficientemente trituradas o filtrado poco fino | Triturar bien las chufas remojadas y filtrar con material alimentario limpio |
+| Horchata demasiado diluida | Exceso de agua añadida en relación con el extracto | Incorporar gradualmente el agua prevista y registrar el volumen obtenido tras filtrar |
+| Horchata excesivamente dulce | Azúcar añadida sin probar la extracción | Disolver y ajustar dentro del intervalo de 50–70 g según el resultado de la primera prueba |
+| Separación de fases durante el reposo | Partículas vegetales sedimentadas | Remover antes de servir manteniendo la bebida refrigerada; no confundir separación con seguridad microbiológica |
 
 ## Conservación
 
-Las bebidas con fruta fresca triturada, lácteos o ingredientes hidratados se mantienen refrigeradas y se preparan para consumo cercano. Evitar dejarlas varias horas a temperatura ambiente. Mantener recipientes y utensilios limpios; desechar bebidas con olor, textura o aspecto anómalo.
+La **horchata casera sin pasteurizar** requiere higiene y refrigeración continua: mantener el remojo en frío, descartar esa agua, triturar con agua potable nueva y filtrar con utensilios limpios. Refrigerar la bebida inmediatamente en recipiente cerrado y consumir preferentemente **el mismo día**. No dejarla durante periodos prolongados a temperatura ambiente; el azúcar añadido no garantiza conservación segura.
 
 ## Relaciones dentro del SGCC
 
