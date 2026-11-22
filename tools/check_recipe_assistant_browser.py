@@ -145,6 +145,7 @@ def exercise(site):
                 assert page.locator("#scaling-preview li").all_text_contents() == [
                     entry["raw"] for entry in scale_recipe["ingredients"]]
                 shopping_before = page.locator("#shopping-selection label").all_text_contents()
+                page.get_by_text("Seleccionar ingredientes para comprar", exact=True).click()
                 page.locator("#shopping-selection input").first.check()
                 expect(page.locator("#send-shopping")).to_be_enabled()
                 expect(page.locator("#scaling-reset")).to_be_disabled()
