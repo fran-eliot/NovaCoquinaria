@@ -4,8 +4,8 @@ tipo: receta
 titulo: Borrachuelos malagueños de cabello de ángel
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-18
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,14 +58,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Se abren al freír | Sellado débil | Reducir relleno y presionar bordes |
-| Masa aceitosa | Aceite frío | Freír en tandas |
+| Se abren al freír | Bordes mal sellados o exceso de cabello de ángel | Expulsar aire, colocar solo una cucharadita de relleno y presionar bien los bordes |
+| Masa aceitosa | Aceite poco caliente o exceso de piezas por tanda | Mantener los 170–175 °C orientativos y freír en tandas pequeñas |
+| Exterior tostado con masa todavía cruda | Aceite demasiado caliente o masa estirada de forma desigual | Estirar porciones finas y comprobar que la masa esté completamente cocida |
+| Acabado de azúcar irregular | Piezas demasiado frías o mal escurridas al rebozar | Escurrir primero y rebozar cuando estén templadas, como propone la elaboración |
 
 ## Conservación
 
-Guardar fríos en recipiente cerrado en lugar fresco y seco; consumir preferiblemente en 2–3 días. Refrigerar si el relleno comercial lo requiere.
+Dejar enfriar los borrachuelos antes de guardarlos en recipiente limpio y cerrado, protegidos de la humedad. Respetar especialmente las **instrucciones de conservación del cabello de ángel comercial** una vez abierto o empleado como relleno; refrigerar el producto terminado si así lo requieren el fabricante o las condiciones ambientales. Consumir en un plazo corto y recordar que la fritura no garantiza la desaparición total del alcohol del vino y del anís.
 
 ## Relaciones dentro del SGCC
 
