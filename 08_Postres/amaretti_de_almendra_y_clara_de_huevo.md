@@ -4,8 +4,8 @@ tipo: receta
 titulo: Amaretti de almendra y clara de huevo
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -49,22 +49,20 @@ Preparación de referencia basada en **masa de almendra y merengue, formado y ho
 
 ## Puntos críticos
 
-- No son galletas de trigo: la almendra molida aporta estructura y grasa. El tiempo define textura más tierna o crujiente, pero el huevo debe quedar completamente cocido.
-- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.
-- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.
-
+- La almendra molida y las claras forman la estructura: no se utiliza harina de trigo ni se pretende el cuajado de una crema en capas.
+- Batir las claras hasta espuma firme, no seca; incorporar con cuidado a la almendra para formar piezas similares. Hornear hasta que el centro de las galletas con huevo esté completamente cocido.
+- Vigilar el tamaño de las piezas y el dorado de la base dentro del intervalo orientativo de 16–20 minutos, sin interpretar las grietas superficiales como prueba suficiente de cocción.
 ## Diagnóstico
 
-| Problema | Posible causa | Ajuste propuesto |
+| Problema | Posible causa | Ajuste propuesto para otra prueba |
 |---|---|---|
-| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |
-| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |
-| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |
-
+| Piezas que pierden la forma antes del horno | Masa demasiado húmeda o claras incorporadas sin suficiente estructura | Comprobar el punto de espuma firme y formar porciones de tamaño similar; documentar la consistencia antes de reformular |
+| Exterior dorado y centro todavía crudo | Piezas demasiado grandes o horno demasiado fuerte para su grosor | Comprobar la cocción del centro y ajustar el tiempo según el tamaño real |
+| Galletas excesivamente duras o secas | Horneado prolongado | Revisar el dorado antes del final del intervalo y evaluar la textura una vez frías |
+| Grietas o color desiguales | Tamaños distintos o rebozado irregular | Repartir porciones similares y rebozar uniformemente solo si se usa el azúcar glas opcional |
 ## Conservación
 
-Enfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.
-
+Dejar enfriar completamente los amaretti horneados sobre rejilla antes de guardarlos en un recipiente limpio, cerrado y seco. Mantenerlos protegidos de la humedad para preservar su textura y consumirlos en un plazo prudente según las condiciones de elaboración. La mezcla cruda de claras debe manipularse con higiene y mantenerse refrigerada hasta su cocción; no trasladar a las galletas secas las instrucciones de conservación de tartas con nata.
 ## Relaciones dentro del SGCC
 
 - [Montar claras a punto de nieve](../00_Bases/03_Tecnicas/montar_claras_a_punto_de_nieve.md)
