@@ -62,7 +62,7 @@ etiquetas:
 
 ## Conservación
 
-Servir preferentemente recién cocinadas las **borrajas con patatas**. Enfriar pronto las sobras en recipientes poco profundos, mantenerlas tapadas en frigorífico y consumirlas en un plazo corto. Recalentar completamente las porciones que vayan a servirse calientes. Utilizar borrajas alimentarias correctamente identificadas y lavadas; no atribuir a esta receta riesgos propios de carnes o lácteos que no contiene.
+Servir preferentemente recién cocinadas las **borrajas con patatas**. Enfriar pronto las sobras en recipientes poco profundos, mantenerlas tapadas en frigorífico y consumirlas en un plazo corto. Recalentar completamente las porciones que vayan a servirse calientes. Utilizar borrajas alimentarias correctamente identificadas y lavadas antes de la cocción.
 
 ## Relaciones dentro del SGCC
 
