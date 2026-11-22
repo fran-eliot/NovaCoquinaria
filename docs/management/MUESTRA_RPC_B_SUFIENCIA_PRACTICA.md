@@ -62,3 +62,8 @@ Se aplican los nueve ejes de [RPC-A](./DIAGNOSTICO_RECIPE_PRACTICAL_COMPLETENESS
 ### Entregable y puertas de revisión
 
 El entregable de esta PR es la **selección fijada y el protocolo**, no una evaluación de los diez casos. El avance posterior a una evaluación RPC-B, y especialmente una intervención RPC-C, requerirá evidencia y aprobación independientes. Si la muestra muestra incertidumbre abundante, registrar abstenciones antes que intentar completar datos automáticamente. La arquitectura sigue siendo Markdown canónico y el último lanzamiento publicado continúa siendo `v1.7.0`.
+
+
+## Evaluación documental posterior, sin alterar la selección
+
+Tras fijar la presente muestra se ha realizado una [evaluación documental RPC-B](./EVALUACION_RPC_B_SUFIENCIA_PRACTICA.md) sobre los diez casos y las plantillas relacionadas. Se documentan observaciones y cuatro posibles intervenciones editoriales; RPC-08, recorrido individual en Explorer/Assistant de esta muestra, **permanece desconocido/no ejecutado**. La evaluación se tramita en una PR independiente y no modifica las fichas canónicas ni la selección original.
