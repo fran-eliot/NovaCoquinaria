@@ -110,3 +110,16 @@ La primera tanda temática se presenta en una PR separada sobre `REC-448`, `REC-
 - **REC-0021 / H-B04:** armonización de refrigeración, conservación y recalentamiento del arroz con el bloque previo de seguridad; se retira la obligación de haberlo cocinado el día anterior, que era contradictoria con la posibilidad de enfriarlo adecuadamente el mismo día.
 
 La aprobación de esta PR validará únicamente el alcance editorial de la tanda. Permanecen pendientes las intervenciones propuestas para las tres fichas de carne/caballa, los controles sin intervención de merluza y gambas y el recorrido individual E07. **No se afirma que se hayan repetido ni probado estas recetas tras la edición.**
+
+
+## Unidad C — Segunda tanda propuesta: proteínas y salsas
+
+La segunda tanda temática aplica los hallazgos H-B01, H-B02 y H-B03 sobre **REC-0007, REC-0009 y REC-0008**, en una PR independiente de la tanda de conservación (#343). Los cambios son aclaraciones operativas dirigidas:
+
+- **REC-0007 (hamburguesa asiática):** diferenciar la salsa base preparada aparte de la soja ya integrada en la carne; limitar la adición al gusto y trasladar al procedimiento principal la verificación de cocción completa de carne picada, sin inventar dosis de la experiencia recordada.
+- **REC-0009 (caballa japonesa):** vincular la salsa a su plantilla y usar glaseado incremental al final; explicitar que tiempo, punto y salsa reales no se han recuperado de la preparación muy satisfactoria.
+- **REC-0008 (medallones asiáticos):** separar ternera y cerdo en el criterio operativo de cocción, conectar la salsa de referencia con el ajuste específico ya documentado para 265 g y no presentar ese ajuste como receta efectivamente ejecutada.
+
+Las tres fichas conservan la mejor versión documentada, las variantes, los ingredientes base y el estado de experiencia doméstica registrado. Se incrementa solo la versión documental de las fichas; **no se atribuyen nuevas pruebas culinarias, tiempos observados o cantidades históricas**.
+
+Con ambas tandas (#343 y esta PR) se habrán abordado las seis intervenciones propuestas en la evaluación documental. Seguirá pendiente la comprobación individual E07 en el portal público y un contraste de resultados posintervención antes de declarar cerrada la Unidad C.
