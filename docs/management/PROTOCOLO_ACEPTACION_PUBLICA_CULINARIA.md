@@ -107,3 +107,9 @@ El workflow `Culinary Public HTTP Smoke` se ejecutó correctamente en la PR #311
 | Commit documental del catálogo | `20214dd19a732c91d52ab469380d2b97146a6707` |
 
 La verificación empleó GET de solo lectura. No ejecutó JavaScript, no manipuló datos personales, no comprobó `localStorage` y **no convierte PUB-01–PUB-07 o CWC-12 en aceptados**. El informe está disponible como artefacto de la ejecución de GitHub Actions y el resultado también consta en sus logs. Para afirmar aceptación operativa sigue siendo necesaria la comprobación del propietario con un perfil temporal aislado.
+
+## Ampliación de la sonda pública: integridad de ficha individual
+
+La comprobación HTTP de solo lectura contrasta también una ficha concreta de Recipe Assistant (`REC-0017`) con el manifiesto y el catálogo públicos. Descarga el JSON de la ficha, verifica el nombre de archivo derivado del identificador, compara la huella SHA-256 con la del manifiesto y comprueba identificador, título, procedencia, referencia e índice, así como la existencia de ingredientes y pasos. El resultado queda identificado en el informe mediante `sample_recipe_id` y `sample_recipe_integrity`.
+
+Se trata de una muestra dirigida, no de la verificación íntegra de las 590 recetas ni de una prueba de navegador. La comprobación depende de ejecutar el workflow `Culinary Public HTTP Smoke` contra la publicación actual. Los casos PUB-01–PUB-07 permanecen pendientes de aceptación manual.
