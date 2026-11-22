@@ -128,3 +128,10 @@ Los JSON de `site/knowledge-audit/` son **salidas derivadas**, no la fuente de v
 ## RPC-B — Protocolo de muestra fijado (22-11-2026)
 
 Se ha preparado la [muestra dirigida RPC-B](./MUESTRA_RPC_B_SUFIENCIA_PRACTICA.md) con diez fichas verificadas (dos por módulo) de Pastas, Legumbres, Postres, Bebidas y Horno, ausentes en la muestra anterior. El documento congela identificadores, rutas, motivaciones de selección y nueve ejes RPC con estados explícitos antes de registrar resultados. **Todavía no se ha realizado la evaluación editorial ni una nueva prueba de navegador de estos casos.** No se introducen cambios de recetas, modelos o interfaces.
+
+
+## RPC-C — Cierre técnico acotado (22-11-2026)
+
+Tras [la evaluación RPC-B](./EVALUACION_RPC_B_SUFIENCIA_PRACTICA.md), cuatro correcciones editoriales se integraron mediante PR #351; la PR #352 incorporó un test específico para los diez recorridos RPC-08 y su ejecución Chromium local concluyó **10/10 correcta** con CI satisfactorio. El [informe de cierre RPC-C](./CIERRE_RPC_C_SUFIENCIA_PRACTICA.md) distingue expresamente los resultados documentales y funcionales de la aceptación pública manual, las pruebas reales en cocina y cualquier medida general de suficiencia del corpus.
+
+**Siguiente decisión pendiente:** RPC-D, revisión de producto y arquitectura, sin autorización de funcionalidades ni release por el mero cierre de RPC-C.
