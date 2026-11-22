@@ -104,3 +104,8 @@ Mantener las cinco aplicaciones y sus datos locales tal como están, atender def
 Se incorpora la [línea base de calidad culinaria](./LINEA_BASE_CALIDAD_CULINARIA.md) mediante reutilización de los resultados observados en [Knowledge audit #300](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45046377378), proyección fijada a `7bc20e9a019d95445a13f59b109d52185c450a18`. El informe distingue cobertura extraída de evaluación humana e identifica explícitamente los denominadores, los límites de los estados de preparación y la discrepancia entre alguna duración numérica y un total temporal único.
 
 Es una **línea base descriptiva reproducible**, no una mejora ya demostrada de calidad, una nueva herramienta de auditoría ni una aprobación automática del piloto editorial. La decisión sobre Unidad B requerirá seleccionar y fijar la muestra antes de evaluarla, conservando la mejor versión de cada receta y las variantes documentadas. La release publicada continúa siendo `v1.7.0`.
+
+
+## Unidad B — Protocolo de muestra editorial fijado (22-11-2026)
+
+La [muestra editorial de calidad culinaria](./MUESTRA_EDITORIAL_CALIDAD_CULINARIA.md) fija ocho recetas cuyas rutas canónicas fueron verificadas, junto con ocho ejes de revisión, una escala descriptiva y reglas de evidencia antes de emitir valoraciones. La selección es dirigida, no estadísticamente representativa: cubre cinco módulos y excluye explícitamente otros cinco. La revisión de fichas completas y el registro de hallazgos deben realizarse en una PR posterior, sin reescrituras ni conclusiones anticipadas. Se mantiene la release `v1.7.0`.
