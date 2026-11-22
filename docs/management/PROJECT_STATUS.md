@@ -182,6 +182,12 @@ Las PR #306–#308 consolidan pruebas de extremo a extremo, recuperación conser
 
 La Unidad D dispone de un [protocolo de aceptación pública](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md) con evidencia pendiente de cumplimentar. Ninguna de las nuevas unidades compromete una release; la última versión autorizada es v1.6.0.
 
+## Aceptación manual pública comunicada — 22 de noviembre de 2026
+
+El propietario comunicó resultado satisfactorio tras ejecutar de forma guiada los controles de las cinco aplicaciones y el recorrido integrado de selección de receta, planificación, revisión y registro de compras, incorporación confirmada de un lote a Pantry, persistencia y exportación/previa de copias JSON. También confirmó navegación por teclado, ausencia de desbordamiento apreciable en ventana estrecha, protección frente a repetición de transferencia e independencia de estados entre Planner, Shopping y Pantry. No se han comunicado incidencias.
+
+El [protocolo de aceptación pública](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md) recoge PUB-01–PUB-07 como **satisfactorios dentro del alcance manual declarado**, sin capturas ni metadatos completos del navegador. Las pruebas destructivas solo conservan la evidencia de CI; no se consideran ejecutadas manualmente. CWC-12 queda **propuesto para cierre funcional acotado**, sujeto a revisión y aprobación del registro por el propietario. Las sondas públicas HTTP y Chromium ya disponen de ejecuciones satisfactorias independientes. No se autoriza nueva release, ni se modifica `v1.6.0`.
+
 # Prioridades actuales
 
 ## Prioridad alta

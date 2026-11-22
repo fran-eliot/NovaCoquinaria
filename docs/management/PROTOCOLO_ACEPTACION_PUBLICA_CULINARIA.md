@@ -2,8 +2,8 @@
 id: DOC-ACEPTACION-PUBLICA-CULINARIA-2026
 titulo: Protocolo de aceptación pública de las aplicaciones culinarias
 tipo: gestion
-version: 0.1.3
-estado: pendiente-de-ejecucion-manual
+version: 0.2.0
+estado: aceptacion-manual-comunicada-pendiente-ratificacion
 ultima_revision: 2026-11-22
 ---
 
@@ -11,7 +11,7 @@ ultima_revision: 2026-11-22
 
 ## Objetivo y criterios de evidencia
 
-Este protocolo concreta la Unidad D y el criterio CWC-12 de la [revisión estratégica](./REVISION_ESTRATEGICA_APLICACIONES_CULINARIAS.md): comprobar la experiencia real de las cinco aplicaciones en GitHub Pages, separar los resultados del CI y registrar observaciones reproducibles. **El documento es un plan de ejecución, no un acta de resultados.** Ningún caso manual figura como superado por el hecho de existir el protocolo.
+Este protocolo concreta la Unidad D y el criterio CWC-12 de la [revisión estratégica](./REVISION_ESTRATEGICA_APLICACIONES_CULINARIAS.md): comprobar la experiencia real de las cinco aplicaciones en GitHub Pages, separar los resultados del CI y registrar observaciones reproducibles. **El documento contiene el plan y, desde 2026-11-22, un registro de resultados manuales comunicados.** Las confirmaciones manuales constan en el registro posterior; no se derivan de la sola existencia del protocolo.
 
 La ruta pública conocida es `https://fran-eliot.github.io/NovaCoquinaria/`. Para cada comprobación, anotar URL, fecha, navegador y versión, acción, resultado observado y evidencia. No confundir una plantilla presente en `gh-pages` con carga HTTP real o éxito funcional en la web pública.
 
@@ -53,18 +53,28 @@ Realizar las operaciones dentro del **mismo perfil de prueba**, sin abrir nuevas
 - Una transferencia con destino ausente o divergente debe detenerse para revisión; **nunca** debe repetir automáticamente el alta. No forzar este escenario en el perfil habitual: está cubierto por pruebas automatizadas de Unidad B y solo se reproducirá manualmente en un perfil descartable si hay razón y pasos controlados.
 - No probar pérdida de datos, fallos físicos, almacenamiento lleno ni restauraciones cruzadas en el perfil personal. Los escenarios destructivos pertenecen a pruebas aisladas.
 
-## Registro de evidencia a completar por el propietario
+## Registro de aceptación manual comunicada — 22 de noviembre de 2026
 
-| Caso | Estado inicial | Resultado manual | Evidencia o incidencia |
-|---|---|---|---|
-| PUB-01 Explorer | No ejecutado | Pendiente | — |
-| PUB-02 Recipe Assistant | No ejecutado | Pendiente | — |
-| PUB-03 Pantry | No ejecutado | Pendiente | — |
-| PUB-04 Shopping | No ejecutado | Pendiente | — |
-| PUB-05 Planner | No ejecutado | Pendiente | — |
-| PUB-06 Recorrido conectado | No ejecutado | Pendiente | — |
-| PUB-07 Límites negativos | No ejecutado; casos destructivos cubiertos solo por CI | Pendiente de decisión manual | — |
-| CWC-12 Aceptación pública | **No acreditada** | Pendiente | — |
+El propietario comunicó el resultado **«Todo ok»** después de cada bloque guiado de aceptación en el portal público, en un contexto de prueba separado del uso habitual. Este registro constituye **evidencia declarativa de ejecución manual**, no telemetría ni una auditoría independiente. La fecha de comunicación es 2026-11-22; **no se han aportado capturas, versión de navegador, sistema operativo, ancho exacto ni identificador de despliegue visto por el usuario**. No inventar estos datos ni extrapolar más allá de las operaciones descritas.
+
+| Caso | Resultado comunicado | Alcance efectivamente solicitado y confirmado |
+|---|---|---|
+| PUB-01 Explorer | **Satisfactorio** | Carga de catálogo, búsqueda de `arroz`, selección y navegación a una receta |
+| PUB-02 Recipe Assistant | **Satisfactorio** | Título, ingredientes, pasos, contexto, marcado de ingrediente y avance de paso |
+| PUB-03 Pantry | **Satisfactorio** | Recepción de lote confirmado desde Shopping, ausencia de lote tras cancelación, recarga, persistencia, exportación JSON y vista previa de importación cancelada |
+| PUB-04 Shopping | **Satisfactorio** | Selección desde Assistant, creación de lista de prueba, revisión y alta de artículo, marcado de comprado, cancelación y confirmación expresa de incorporación a Pantry, persistencia y copia JSON |
+| PUB-05 Planner | **Satisfactorio** | Selección de receta desde Explorer, incorporación explícita al calendario, apertura de Assistant, persistencia tras recarga, exportación JSON y cancelación de importación |
+| PUB-06 Recorrido conectado | **Satisfactorio por etapas** | Las mismas pruebas se confirmaron consecutivamente en el perfil de ensayo; no consta observación independiente adicional de todos los pasos en una única sesión ininterrumpida |
+| PUB-07 Límites negativos | **Satisfactorio para controles no destructivos** | Navegación por teclado y salto al contenido, visualización estrecha, bloqueo de segunda transferencia del artículo ya incorporado, persistencia del plan e independencia entre Planner, Shopping y Pantry; escenarios destructivos no ejecutados manualmente |
+| CWC-12 Aceptación pública | **Candidato a cierre funcional acotado** | Resultado satisfactorio comunicado para PUB-01–PUB-07 en los límites indicados; la decisión formal de cierre se somete a revisión y aprobación de esta PR |
+
+**Incidencias comunicadas:** ninguna durante estos bloques. Esto no demuestra ausencia universal de defectos. La transferencia Shopping → Pantry se comprobó como un único lote declarado, sin alta por cancelación y sin repetición desde el artículo transferido.
+
+**Evidencia técnica complementaria:** [HTTP Smoke #3](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45039229371) y [Browser Smoke #5](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45042029261), ambos satisfactorios; no sustituyen la comprobación humana.
+
+**Referencia Git:** `main` en el corte de documentación: `f40032f5fee5466278199924e0517b1a9cd4d716`. Es un corte del repositorio al registrar resultados, **no un identificador de versión comprobado visualmente por el usuario en el navegador**. Plataforma declarada: `https://fran-eliot.github.io/NovaCoquinaria/`.
+
+Para futuras ampliaciones de aceptación, conservar como campos deseables: navegador y versión, sistema/dispositivo, URL concreta, versión servida, captura o incidencia y decisión firmada. La falta de estos metadatos se reconoce expresamente, sin invalidar la declaración manual ni atribuirle una precisión que no tiene.
 
 Para cada caso ejecutado, registrar como mínimo: `fecha`, `URL`, `commit main`, `commit de despliegue`, `navegador y sistema`, `acción y datos de prueba`, `resultado esperado`, `resultado observado`, `captura o referencia de incidencia` y `decisión de aceptación` (`aceptado` / `bloqueado` / `no ejecutado`). Evitar incluir datos personales en capturas compartidas.
 
@@ -76,11 +86,15 @@ Para cada caso ejecutado, registrar como mínimo: `fecha`, `URL`, `commit main`,
 | Unidad B — matriz de fallos | Integrada en #307; CI success | Storage simulado, sin sincronización ni atomicidad |
 | Unidad C — accesibilidad dirigida | Integrada en #308; CI success (15 casos) | No es auditoría WCAG ni prueba manual |
 | GitHub Pages | `Deployed 49cd792` observado y cinco HTML con enlace de salto comprobados en la rama | Verificar uso público real |
-| Pruebas públicas del propietario | No acreditadas | No marcar como superadas sin ejecución |
+| Pruebas públicas del propietario | Resultado satisfactorio comunicado el 2026-11-22 para PUB-01–PUB-07, en alcance acotado | Sin capturas ni datos técnicos completos del navegador |
 | Nueva release | No autorizada | Sigue v1.6.0 |
 
 
-## Corte de evidencia pública automatizada — 22 de noviembre de 2026
+## Corte histórico de evidencia pública automatizada — 22 de noviembre de 2026 (anterior a la aceptación manual)
+
+*Las menciones a «pendiente» de este corte describen el estado previo a las confirmaciones manuales registradas arriba.*
+
+
 
 La sonda HTTP ampliada se ejecutó en [Culinary Public HTTP Smoke #3](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45039229371) a las **15:36:19 UTC**, con `passed: true`. Constató cinco páginas HTTP 200, diez recursos de entrada comprobados, catálogo de 590 recetas, concordancia de manifiesto y la huella de la ficha pública `REC-0017`. El informe indicó `source_commit: bb003d7d19069421d00dbee19c6262b6e2e51f4c`, que identifica el contenido documental servido en ese momento; no equivale a afirmar que cada posterior merge se haya desplegado.
 
@@ -103,7 +117,7 @@ Este corte reconcilia evidencia automatizada ya obtenida; **no afirma ejecución
 
 ## Regla de cierre de la Unidad D
 
-Esta unidad entrega **el protocolo, la matriz de evidencias vacía y la reconciliación documental**. No se declarará completada la aceptación pública hasta disponer de la comprobación manual del propietario, resolver incidencias bloqueantes y registrar su decisión. El cierre **documental** puede validarse en PR separada del cierre **operativo**.
+La Unidad D dispone del protocolo, las sondas públicas satisfactorias y el registro de las comprobaciones manuales comunicadas por el propietario el 2026-11-22. El alcance funcional dirigido es **candidato a cierre CWC-12**, condicionado a la revisión y aprobación formal del propietario de este registro y sus límites. No se interpreta la simple declaración de resultados como autorización automática de una release o de un cierre irreversible. La aceptación manual acotada no supone conformidad WCAG exhaustiva, seguridad general, disponibilidad futura ni validación de todas las recetas.
 
 No se añade backend, sincronización, inferencia de faltantes, automatización de compras, nuevas recetas, sprint, milestone ni release. Se mantienen los principios y el reparto de responsabilidades entre el repositorio y el propietario.
 
