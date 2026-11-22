@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bulgogi de ternera con pera y soja
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -52,22 +52,22 @@ Preparación de referencia de inspiración asiática centrada en **marinado refr
 
 ## Puntos críticos
 
-- La pera ablanda y endulza, pero una marinada larga puede alterar demasiado la textura. No sobrecargar la sartén o la carne hervirá en su líquido.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- Mantener la ternera en **marinado refrigerado** durante los 30–90 minutos previstos; la pera aporta dulzor y puede cambiar la textura si el contacto es excesivo.
+- Escurrir ligeramente las tiras y saltear por tandas pequeñas para favorecer el dorado sin hervir la carne en su propio líquido.
+- Cualquier marinada que haya estado en contacto con **carne cruda** debe cocinarse completamente antes de reutilizarse en la salsa; no servirla directamente.
 
 ## Diagnóstico
 
 | Problema | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Carne cocida sin dorado | Sartén saturada o carne con exceso de marinada | Escurrir ligeramente y saltear en tandas pequeñas con sartén bien caliente |
+| Textura demasiado blanda | Marinada con pera prolongada o carne muy fina | Respetar el intervalo de 30–90 minutos y registrar el corte y grosor |
+| Glaseado quemado o demasiado oscuro | Soja, mirin y azúcares reducidos con calor excesivo | Reducir brevemente al final y controlar el fuego |
+| Sabor muy salado | Salsa de soja concentrada o marinada reducida en exceso | Probar antes de añadir sal y ajustar solo después de valorar la primera tanda |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Mantener refrigeradas la ternera cruda y su marinada, sin reutilizar el líquido crudo como salsa sin cocción completa. Enfriar pronto las sobras de bulgogi cocinado y refrigerarlas tapadas en recipientes poco profundos. Recalentar completamente las porciones destinadas a servir y consumir en un plazo corto. Esta formulación no incorpora arroz; si se acompaña de él, aplicar además sus normas específicas de conservación.
 
 ## Relaciones dentro del SGCC
 

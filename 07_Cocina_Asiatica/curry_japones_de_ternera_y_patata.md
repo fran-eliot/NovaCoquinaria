@@ -4,8 +4,8 @@ tipo: receta
 titulo: Curry japonés de ternera y patata
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -56,16 +56,16 @@ Preparación de referencia de inspiración asiática centrada en **guiso de tern
 
 ## Diagnóstico
 
-| Problema | Posible causa | Ajuste para otra prueba |
+| Problema | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Ternera dura mientras la salsa espesa | Tiempo insuficiente de guiso antes del roux | Cocer la carne suavemente hasta que se ablande antes de añadir patata y zanahoria |
+| Patata o zanahoria todavía duras | Trozos demasiado grandes o cocción previa al roux insuficiente | Comprobar que estén tiernos antes de incorporar las pastillas de curry |
+| Salsa con grumos | Roux comercial añadido entero o sin disolver | Trocear las pastillas, bajar el fuego y remover según instrucciones del fabricante |
+| Salsa excesivamente espesa o salada | Exceso de roux o evaporación tras espesar | Respetar la dosificación comercial y ajustar con líquido caliente gradualmente, probando antes de salar |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Enfriar rápidamente las sobras de curry de **ternera, patata y roux** en recipientes poco profundos y refrigerarlas tapadas. Recalentar completamente y con suavidad las porciones destinadas al consumo, añadiendo algo de agua o caldo si la salsa ha espesado en frío. Respetar el etiquetado del roux comercial. Si se sirve con arroz, enfriarlo y refrigerarlo con las precauciones específicas para arroz cocido; no se incluye por defecto en el guiso.
 
 ## Relaciones dentro del SGCC
 

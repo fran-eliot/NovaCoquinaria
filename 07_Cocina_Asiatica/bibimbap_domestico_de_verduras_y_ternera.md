@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bibimbap doméstico de verduras y ternera
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,16 +59,16 @@ Preparación de referencia de inspiración asiática centrada en **cocción sepa
 
 ## Diagnóstico
 
-| Problema | Posible causa | Ajuste para otra prueba |
+| Problema | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Salsa demasiado salada | Soja, miso u otros fermentados concentrados | Añadir salsa salada gradualmente y corregir con líquido |
-| Salsa demasiado espesa | Reducción excesiva o demasiado almidón | Corregir con pequeñas dosis de agua o caldo |
-| Alimento sin dorado | Sartén sobrecargada o ingredientes muy húmedos | Secar y cocinar por tandas |
-| Picante excesivo | Concentración de pasta o chile no calibrada | Empezar con menos y ajustar al final |
+| Verduras aguadas y sin contraste | Espinacas poco escurridas o salteado conjunto | Escurrir las espinacas y cocinar zanahoria y calabacín por separado |
+| Ternera seca o correosa | Tiras demasiado gruesas o cocción prolongada | Cortar fino, cocinar completamente y añadir la soja solo al final |
+| Arroz apelmazado o frío | Arroz mantenido en condiciones inadecuadas o montado demasiado pronto | Utilizar arroz caliente recién cocido o previamente enfriado y refrigerado de forma segura, sin dejarlo horas fuera de frío |
+| Conjunto demasiado salado o picante | Soja añadida a la carne y gochujang opcional concentrado | Probar los condimentos comerciales y añadir el picante únicamente al servir |
 
 ## Conservación
 
-Refrigerar sin demora las sobras cocinadas y evitar periodos prolongados a temperatura ambiente. En platos con arroz cocido, enfriarlo rápidamente si no se consume de inmediato y no confiar en un recalentado para corregir un almacenamiento previo inseguro. Mantener separados alimentos crudos y cocinados.
+Servir el bibimbap inmediatamente tras montar **arroz, ternera, verduras y huevo completamente cocidos**. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas tapadas; el arroz cocido requiere especial atención y no debe permanecer horas a temperatura ambiente. Recalentar completamente las porciones destinadas al consumo y no intentar corregir un almacenamiento previo inseguro mediante un nuevo salteado.
 
 ## Relaciones dentro del SGCC
 

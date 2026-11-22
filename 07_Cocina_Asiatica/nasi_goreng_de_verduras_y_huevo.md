@@ -4,8 +4,8 @@ tipo: receta
 titulo: Nasi goreng de verduras y huevo
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,15 +59,16 @@ Arroz frito de inspiración indonesia con kecap manis. La ficha es una **propues
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste propuesto |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |
-| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |
-| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |
+| Arroz apelmazado o pastoso | Granos húmedos, mal separados o sartén demasiado llena | Utilizar arroz previamente enfriado y refrigerado de manera segura; deshacer grumos y saltear por tandas |
+| Sabor excesivamente dulce | Kecap manis más concentrado que el previsto | Comprobar la marca y probar antes de modificar la dosis en otra preparación |
+| Arroz demasiado salado | Combinación de kecap manis y soja clara | Probar el conjunto antes de añadir más condimentos |
+| Huevo seco o deshecho | Huevo sobrecocinado junto con el arroz | Cuajarlo completamente por separado y reincorporarlo al final como establece la elaboración |
 
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.
+Preparar el nasi goreng únicamente con **arroz cocido que se haya enfriado rápidamente y conservado refrigerado**; descartar arroz cuyo almacenamiento seguro no pueda verificarse. Consumir recién salteado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Recalentar completamente solo las porciones destinadas a comer y no confiar en el recalentado para corregir una conservación previa insegura.
 
 ## Relaciones dentro del SGCC
 

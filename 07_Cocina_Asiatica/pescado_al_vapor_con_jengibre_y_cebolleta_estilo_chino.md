@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pescado al vapor con jengibre y cebolleta de inspiración china
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -49,21 +49,22 @@ etiquetas:
 
 ## Puntos críticos
 
-- El aceite caliente puede salpicar si hay agua acumulada; retirarla antes de verterlo y mantener distancia. No sustituir la comprobación del punto del pescado por el tiempo orientativo.
-- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.
-- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.
+- Comprobar el punto del **pescado al vapor** según el grosor real del filete, usando la referencia conservadora de 63 °C indicada en la elaboración; no buscar dorado exterior.
+- Retirar el exceso de líquido acuoso de la fuente antes de verter el aceite muy caliente sobre jengibre y cebolleta. Mantener distancia para prevenir salpicaduras y quemaduras.
+- Ajustar la salinidad de la salsa de soja comercial y revisar las espinas antes del servicio.
 
 ## Diagnóstico
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Pescado seco o que se deshace | Cocción al vapor demasiado prolongada para su grosor | Comprobar el punto antes del límite orientativo de 7–12 minutos sin servir pescado insuficientemente cocido |
+| Centro del filete poco cocido | Grosor desigual o tiempo insuficiente | Verificar el centro y prolongar gradualmente el vapor hasta cocción completa |
+| Aliño acuoso y poco aromático | Exceso de líquido de cocción conservado en la fuente | Retirar el líquido sobrante antes de añadir soja y aromáticos |
+| Salpicaduras al verter el aceite | Agua acumulada bajo la cebolleta y el jengibre | Escurrir la fuente, mantener distancia y añadir con mucha precaución el aceite caliente |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Mantener refrigerado el pescado crudo hasta cocinarlo. Servir preferentemente el filete **recién hecho al vapor**, después de comprobar su cocción y retirar espinas. Enfriar pronto las sobras, refrigerarlas tapadas en recipientes poco profundos y consumir en un plazo corto. Recalentar completamente solo las porciones destinadas a servir; esta receta no contiene arroz salvo que se añada como acompañamiento independiente.
 
 ## Relaciones dentro del SGCC
 

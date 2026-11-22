@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pollo tailandés con albahaca y chile
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -51,21 +51,22 @@ Inspiración pad kra pao: adaptación con albahaca disponible. La ficha es una *
 
 ## Puntos críticos
 
-- La albahaca común no reproduce exactamente el perfil de la albahaca sagrada tailandesa; no presentarla como sustitución idéntica. Evitar sal adicional automática por las salsas.
-- Mantener refrigerados los ingredientes perecederos, separar utensilios de crudos y cocinados y verificar la cocción de aves, huevos y otros productos animales.
-- Ajustar salsas comerciales gradualmente por sus diferencias de dulzor, salinidad y alérgenos.
+- Cocinar completamente el **pollo picado**, separando grumos y verificando al menos los 74 °C previstos antes de incorporar la salsa.
+- Probar la combinación de salsa de soja y salsa de ostras antes de salar: ambas son concentradas y la de ostras introduce alérgeno de moluscos.
+- Incorporar la albahaca **con el fuego apagado**, para preservar su aroma. Esta versión usa albahaca común y no se presenta como equivalente idéntico a la albahaca sagrada tailandesa.
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste propuesto |
+| Resultado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Preparación demasiado salada | Condimento fermentado concentrado | Reducir dosis inicial y corregir al final |
-| Pérdida de textura | Fuego bajo, exceso de humedad o sobrecocción | Adecuar tandas, cocción y momento del acabado |
-| Sabor desequilibrado | Acidez, picante o dulzor sin compensar | Ajustar gradualmente tras probar |
+| Pollo con grumos poco cocidos | Carne picada no separada durante el salteado | Deshacer los grumos y comprobar cocción completa antes de añadir la salsa |
+| Salsa muy salada | Soja y salsa de ostras concentradas | Probar antes de salar y registrar marcas para futuras pruebas |
+| Glaseado muy seco o quemado | Azúcar y salsas reducidos más de los 1–2 minutos previstos | Moderar el calor y retirar al quedar la salsa adherida al pollo |
+| Aroma de albahaca apagado | Hojas añadidas demasiado pronto y cocidas largo tiempo | Apagar el fuego antes de incorporarlas y mezclar solo hasta ablandarlas |
 
 ## Conservación
 
-Consumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. El arroz cocido debe enfriarse rápidamente tras cocinarse y mantenerse refrigerado; nunca utilizar arroz que haya permanecido horas a temperatura ambiente.
+Mantener el pollo picado refrigerado hasta prepararlo y separar los utensilios de carne cruda de las hierbas frescas. Servir el salteado recién hecho o enfriar rápidamente las sobras y refrigerarlas tapadas. Recalentar completamente las porciones destinadas al consumo. Si se acompaña con el arroz recién cocido sugerido, enfriar y refrigerar también ese arroz sin demora y no dejarlo horas a temperatura ambiente.
 
 ## Relaciones dentro del SGCC
 
