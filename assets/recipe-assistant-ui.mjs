@@ -150,10 +150,11 @@ function renderRecipe(r) {
         count+" de "+r.ingredients.length+" cantidades ajustadas. Verifica ingredientes, proporciones y tiempos en la ficha original.";
     }
     refreshScaling=updateScaling;
-    target.addEventListener("input",updateScaling);
+    target.addEventListener("input",()=>{updateScaling();refreshShoppingSelection();});
     reset.addEventListener("click",()=>{
       target.value=String(originalServings);
       updateScaling();
+      refreshShoppingSelection();
       target.focus();
     });
     copy.addEventListener("click",async()=>{
@@ -177,7 +178,9 @@ function renderRecipe(r) {
   function refreshShoppingSelection(){
     const count=shoppingChecks.filter(x=>x.check.checked).length;
     $("shopping-count").textContent=count+" de "+shoppingChecks.length+" ingredientes seleccionados";
-    $("send-shopping").disabled=count===0;
+    const desired=originalServings===null?null:$("scaling-target").valueAsNumber;
+    const validServings=desired===null || (Number.isInteger(desired)&&desired>=1&&desired<=24);
+    $("send-shopping").disabled=count===0 || !validServings;
     $("shopping-select-all").disabled=shoppingChecks.length===0;
     $("shopping-select-required").disabled=!shoppingChecks.some(x=>x.optionality==="required");
     $("shopping-clear").disabled=count===0;
