@@ -4,8 +4,8 @@ tipo: receta
 titulo: Galletas crujientes de sésamo y naranja
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -59,13 +59,14 @@ Receta de referencia centrada en **masa corta, reposo y horneado fino**. No cons
 
 | Problema | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Centro sin cuajar | Falta de calor o molde demasiado profundo | Prolongar cocción con calor moderado y comprobar el centro |
-| Textura seca | Cocción excesiva o humedad insuficiente | Comprobar antes el punto y revisar proporciones |
-| Mezcla separada o con grumos | Diferencias de temperatura o batido excesivo | Incorporar ingredientes gradualmente y controlar el calor |
+| Galletas blandas tras enfriar | Grosor desigual, cocción insuficiente para el tamaño o humedad al almacenarlas | Formar piezas próximas a 5–6 mm, comprobar la cocción y enfriar sobre rejilla antes de cerrar el recipiente |
+| Bordes demasiado oscuros o sésamo amargo | Sésamo ya tostado expuesto demasiado tiempo al calor | Revisar el horno antes de los 11 minutos orientativos si las piezas son pequeñas; retirar al dorado apropiado, sin prolongar solo para conseguir más color |
+| Galletas que se extienden demasiado | Masa templada o mantequilla muy blanda durante el formado | Respetar el reposo en frío de 25–30 minutos y hornear por tandas, sin dejar toda la masa esperando al calor |
+| Aroma de naranja escaso | Ralladura insuficiente o con poca intensidad | En una próxima prueba ajustar la ralladura sin añadir líquido de naranja sin valorar el efecto en la masa |
 
 ## Conservación
 
-Enfriar rápidamente las preparaciones con huevos o lácteos y refrigerar sin demora. Mantener refrigerados los postres cremosos y los bizcochos empapados en leche. Guardar las galletas completamente frías en recipiente cerrado y seco. Evitar dejar alimentos perecederos varias horas a temperatura ambiente.
+Dejar enfriar las galletas por completo sobre rejilla; guardarlas en un recipiente limpio, cerrado y seco, lejos de fuentes de humedad o calor. Evitar envasarlas todavía templadas porque la condensación perjudica la textura crujiente. Estas indicaciones se refieren a la galleta horneada sin rellenos ni coberturas perecederas; cualquier añadido posterior exige revisar su conservación. Desechar si presentan signos de deterioro.
 
 ## Relaciones dentro del SGCC
 
