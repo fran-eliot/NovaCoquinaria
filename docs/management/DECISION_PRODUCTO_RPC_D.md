@@ -76,3 +76,10 @@ Solo si el flujo manual demuestra valor y aparecen requisitos repetidos, evaluar
 **Aprobar solamente la prioridad de Culinary Preparation Feedback Loop y el alcance de descubrimiento documental CPFL-A**. La fusión de este documento registra una recomendación RPC-D y cerraría **Recipe Practical Completeness A–D como ciclo de investigación y pilotos acotados**, pero **no autoriza** una nueva interfaz, integración con GitHub desde el navegador, backend, release o ampliación masiva del recetario.
 
 La versión publicada permanece en **v1.7.0**. El asistente prepara ramas y PR; el propietario las revisa, fusiona y elimina ramas remotas.
+
+
+## CPFL-A — Diagnóstico documental realizado (22-11-2026)
+
+El [contrato de feedback de preparaciones](./CONTRATO_FEEDBACK_PREPARACIONES_CPFL_A.md) documenta los recursos de Markdown existentes y sus límites, propone una nota de observación mínima y **opcional** y verifica tres ejemplos históricos del repositorio: pastel de manzana `REC-0079`, hamburguesa asiática `REC-0007` y caballa japonesa `REC-0009`. Cada ejemplo distingue la preparación realmente declarada, los datos desconocidos y las propuestas aún sin probar.
+
+La conclusión es una **viabilidad editorial acotada sin infraestructura nueva**. La fase CPFL-B queda condicionada a que exista una preparación **nueva y real**, voluntariamente documentada; no se ha ejecutado ni autorizado automáticamente un piloto culinario. Última release publicada: `v1.7.0`.
