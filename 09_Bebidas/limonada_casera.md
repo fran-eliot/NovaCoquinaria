@@ -4,8 +4,8 @@ tipo: receta
 titulo: Limonada casera
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-14
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - bebidas
   - receta
@@ -25,14 +25,14 @@ Limonada fresca con equilibrio ajustable de acidez y dulzor, sin alcohol.
 
 ## Ingredientes
 - 150 ml de zumo de limón recién exprimido;
-- 850 ml de agua fría;
+- 850 ml de agua **en total**, de los que se reservan 100 ml para disolver el azúcar (templar solo esa parte y dejarla enfriar);
 - 50–75 g de azúcar, según preferencia;
 - hielo y hojas de menta, opcionales.
 
 ## Elaboración
 1. Lavar los limones, exprimir y colar el zumo.
-2. Disolver el azúcar en 100 ml de agua templada y dejar enfriar.
-3. Mezclar zumo, almíbar y agua restante.
+2. Apartar **100 ml de los 850 ml de agua declarados**, templarlos lo necesario para disolver el azúcar y dejar enfriar esa mezcla.
+3. Mezclar el zumo con el almíbar ya frío y los **750 ml restantes** de agua. No añadir otros 100 ml aparte, salvo que se quiera diluir la bebida al ajustar su sabor.
 4. Probar y ajustar con agua o limón; refrigerar hasta servir.
 5. Añadir hielo y menta justo antes de consumir.
 

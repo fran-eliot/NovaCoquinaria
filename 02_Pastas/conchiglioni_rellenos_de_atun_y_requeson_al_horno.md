@@ -4,8 +4,8 @@ tipo: receta
 titulo: Conchiglioni rellenos de atún y requesón al horno
 categoria: Pastas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - pasta
   - receta-propuesta
@@ -17,6 +17,8 @@ etiquetas:
 ## Descripción
 
 Fórmula de referencia centrada en **precocción de pasta grande, relleno y gratinado**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.
+
+La [plantilla general de pasta al horno](../12_Plantillas/04_Cocciones/pasta_al_horno.md) aporta criterios orientativos de hidratación, salsa y gratinado, **pero no es específica para pasta rellena**. Para estas conchas prevalecen los pasos de precocción, relleno, disposición y horneado indicados aquí; no deben sustituirse por el patrón genérico.
 
 ## Información general
 

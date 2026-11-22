@@ -4,8 +4,8 @@ tipo: receta
 titulo: Broa gallega de maíz y centeno
 categoria: Horno
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -24,8 +24,10 @@ etiquetas:
 | Dato | Valor |
 |---|---|
 | Rendimiento | 1 hogaza de aprox. 900 g |
-| Tiempo orientativo | 35 min activos, 2–3 h de reposo y 45–60 min de horno |
+| Tiempo orientativo | 35 min activos; fermentación principal de 75–120 min y reposo final de 30–45 min; horno de 45–60 min; **enfriado de al menos 2 h antes de cortar**, aparte de los tiempos anteriores |
 | Estado | Pendiente de prueba doméstica |
+
+El escaldado debe templarse antes de añadir la levadura y su duración no está cuantificada. La información temporal distingue trabajo activo, esperas, horno y enfriado; **no constituye un tiempo total único ni un tiempo observado en una preparación doméstica**.
 
 ## Ingredientes
 
