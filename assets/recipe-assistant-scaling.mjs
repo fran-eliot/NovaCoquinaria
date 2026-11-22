@@ -31,7 +31,9 @@ export function scaleIngredient(entry, originalServings, targetServings) {
   const result = amount * targetServings / originalServings;
   if (!Number.isFinite(result) || result <= 0 || result > 1e7 ||
       (COUNT_UNITS.has(q.unit) && !Number.isSafeInteger(result))) return null;
-  return {quantity: Number(result.toFixed(3)).toLocaleString("es-ES", {maximumFractionDigits:3}), unit:q.unit};
+  const rounded=Number(result.toFixed(3));
+  if(!Number.isFinite(rounded) || rounded<=0) return null;
+  return {quantity: rounded.toLocaleString("es-ES", {maximumFractionDigits:3}), unit:q.unit};
 }
 
 export function formatScaledList(recipe, targetServings) {

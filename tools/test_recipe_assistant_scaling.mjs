@@ -21,6 +21,17 @@ test("fracciones exactas y límites de representación",()=>{
   for(const value of ["0/2","1/0","-1/2","2/3/4","9007199254740993/2"])
     assert.equal(scaleIngredient(item(value),4,6),null);
 });
+test("no presenta cero después del redondeo de cantidades positivas",()=>{
+  assert.equal(scaleIngredient(item("0.001","g"),24,1),null);
+  assert.equal(scaleIngredient(item("0.0004","l"),1,1),null);
+  assert.equal(scaleIngredient(item("1/4000","kg"),1,1),null);
+  assert.deepEqual(scaleIngredient(item("0.001","g"),1,1),{quantity:"0,001",unit:"g"});
+  const recipe={title:"Prueba",yield:{min:"24",max:"24",unit:"racion"},ingredients:[
+    {...item("0.001","g"),raw:"0.001 g de especia"}
+  ]};
+  assert.match(formatScaledList(recipe,1),/revisar manualmente/);
+  assert.doesNotMatch(formatScaledList(recipe,1),/→ 0 g/);
+});
 test("unidades contables: solo cantidades enteras positivas",()=>{
   assert.deepEqual(scaleIngredient(item("2","unidad"),4,6),{quantity:"3",unit:"unidad"});
   assert.deepEqual(scaleIngredient(item("4","diente"),4,6),{quantity:"6",unit:"diente"});
