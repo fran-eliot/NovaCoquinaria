@@ -101,6 +101,17 @@ function renderRecipe(r) {
   $("yield").textContent="Rendimiento: "+(r.yield?r.yield.raw:
     r.diagnostics.some(d=>d.code==="YIELD_AMBIGUOUS")?"Declaraciones ambiguas; consultar contexto.":"No declarado o no reconocido.");
   const originalServings=scalingBasis(r);
+  function refreshShoppingScalingNote(){
+    const desired=originalServings===null?null:$("scaling-target").valueAsNumber;
+    const note=$("shopping-scaling-note");
+    if(originalServings===null)note.textContent="Sin rendimiento escalable: Shopping recibirá los ingredientes originales, sin cantidades propuestas.";
+    else if(!Number.isInteger(desired)||desired<1||desired>24)
+      note.textContent="Raciones no válidas. Corrige el valor antes de enviar ingredientes a Shopping.";
+    else if(desired===originalServings)
+      note.textContent="Raciones originales ("+originalServings+"): Shopping recibirá los ingredientes originales, sin cantidades propuestas.";
+    else note.textContent="Adaptación de "+originalServings+" a "+desired+" raciones: Shopping propondrá únicamente las cantidades escalables para revisarlas antes de guardarlas.";
+  }
+  refreshShoppingScalingNote();
   const inlineScaled=new Map();
   let refreshScaling=()=>{};
   if(originalServings!==null){
@@ -111,6 +122,7 @@ function renderRecipe(r) {
     function updateScaling(){
       preview.replaceChildren();
       const desired=target.valueAsNumber;
+      refreshShoppingScalingNote();
       reset.disabled=target.value===String(originalServings);
       $("copy-scaling-status").textContent="";
       copy.disabled=true;
