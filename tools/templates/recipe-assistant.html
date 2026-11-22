@@ -22,7 +22,7 @@
 <h2 id="general-heading">Información declarada</h2><p id="evidence"></p><div id="claims"></div><p id="yield"></p><ul id="durations"></ul>
 <div id="scaling-panel" hidden>
 <h3>Adaptación orientativa de cantidades</h3>
-<p class="help">Solo para rendimiento explícito en raciones o porciones. Adapta cantidades exactas de masa o volumen y unidades contables solo cuando el resultado es entero. El escalado no cambia la receta ni los ingredientes enviados a compras. Verifica manualmente tiempos, especias, textura y seguridad.</p>
+<p class="help">Solo para rendimiento explícito en raciones o porciones. Adapta cantidades exactas de masa o volumen y unidades contables solo cuando el resultado es entero. El escalado no modifica la receta original. Al enviar ingredientes a Shopping puede proponer cantidades adaptadas, que siempre deben revisarse antes de guardarlas. Verifica manualmente tiempos, especias, textura y seguridad.</p>
 <p>Raciones originales: <strong id="scaling-original"></strong></p>
 <label>Raciones deseadas <input id="scaling-target" type="number" min="1" max="24" step="1"></label> <button id="scaling-reset" type="button" class="secondary" disabled>Restaurar raciones originales</button>
 <p id="scaling-status" role="status"></p><button id="copy-scaling" type="button" disabled>Copiar lista adaptada</button><p id="copy-scaling-status" role="status"></p><ul id="scaling-preview"></ul>
@@ -31,7 +31,7 @@
 <div class="cooking-layout">
 <section class="panel" aria-labelledby="ingredients-heading">
 <h2 id="ingredients-heading">Ingredientes</h2><p id="ingredient-progress" role="status"></p><div id="ingredients"></div>
-<details><summary>Seleccionar ingredientes para comprar</summary><p class="help">Selección independiente del progreso de cocina. No identifica faltantes.</p><div class="actions"><button id="shopping-select-all" type="button" class="secondary">Seleccionar todos</button><button id="shopping-select-required" type="button" class="secondary">Solo requeridos</button><button id="shopping-clear" type="button" class="secondary">Limpiar</button></div><p id="shopping-count" role="status"></p><div id="shopping-selection"></div><button id="send-shopping" type="button" disabled>Revisar en mis compras</button><p id="shopping-status" role="status"></p></details>
+<details><summary>Seleccionar ingredientes para comprar</summary><p class="help">Selección independiente del progreso de cocina. No identifica faltantes.</p><p id="shopping-scaling-note" class="help"></p><div class="actions"><button id="shopping-select-all" type="button" class="secondary">Seleccionar todos</button><button id="shopping-select-required" type="button" class="secondary">Solo requeridos</button><button id="shopping-clear" type="button" class="secondary">Limpiar</button></div><p id="shopping-count" role="status"></p><div id="shopping-selection"></div><button id="send-shopping" type="button" disabled>Revisar en mis compras</button><p id="shopping-status" role="status"></p></details>
 <h3>Mise en place declarada</h3><div id="mise"></div></section>
 <div class="cooking-column">
 <section class="panel" aria-labelledby="steps-heading">
