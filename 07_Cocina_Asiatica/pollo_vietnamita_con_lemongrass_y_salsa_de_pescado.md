@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pollo vietnamita con lemongrass y salsa de pescado
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -59,13 +59,14 @@ etiquetas:
 
 | Resultado observado | Posible causa | Ajuste para otra prueba |
 |---|---|---|
-| Plato excesivamente salado | Salsas concentradas o reducción excesiva | Reducir el condimento inicial y corregir al final |
-| Ingredientes húmedos y sin dorado | Sartén sobrecargada o superficie mojada | Secar y cocinar por tandas cuando proceda |
-| Textura seca o dura | Tiempo excesivo o hervor intenso | Ajustar el tiempo según el grosor y comprobar la cocción |
+| Tiras de pollo sin dorado y con exceso de líquido | Carne con marinada superficial abundante o sartén llena | Escurrir ligeramente y saltear por tandas pequeñas |
+| Trozos fibrosos de lemongrass | Capas exteriores duras o picado grueso | Emplear solo el corazón tierno y picarlo muy fino |
+| Pollo seco | Cocción prolongada tras alcanzar el punto seguro | Comprobar los 74 °C en la parte gruesa sin prolongar innecesariamente |
+| Sabor excesivamente salado | Salsa de pescado más concentrada de lo previsto | Registrar la marca y probar antes de modificar su cantidad en otra tanda |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Mantener separados alimentos crudos y cocinados. El arroz ya cocido se enfría rápidamente y no debe permanecer horas a temperatura ambiente.
+Marinar el pollo **siempre refrigerado** y mantener separado el líquido que ha estado en contacto con carne cruda de cualquier aliño de servicio. Tras cocinar el pollo por completo, servirlo inmediatamente o enfriar pronto las sobras y refrigerarlas tapadas en recipientes poco profundos. Recalentar completamente las porciones destinadas a comer y consumir en un plazo corto. Si se sirve con arroz, conservar ese acompañamiento según las pautas específicas para arroz cocido.
 
 ## Relaciones dentro del SGCC
 
