@@ -131,3 +131,11 @@ La prueba es una muestra dirigida de navegación, no una aceptación manual de l
 La sonda Chromium pública extiende el recorrido iniciado en Explorer hasta Planner. Desde la ficha abierta de `REC-0017` confirma la acción `Planificar receta`, verifica que Planner recibe la receta seleccionada con su título y comprueba que no se ha creado ninguna comida ni documento persistente por el mero hecho de abrir el editor. La referencia seleccionada se transmite exclusivamente mediante almacenamiento temporal de sesión en el contexto desechable de la prueba.
 
 El informe incluye `assistant_to_planner_selection` y `planner_entry_created: false` cuando se superan las comprobaciones. No se confirma ninguna incorporación al calendario, no se importa ni exporta información personal y no se interactúa con el perfil habitual. Este recorrido automatizado no acredita la aceptación manual de PUB-05, PUB-06 ni CWC-12.
+
+## Navegación pública Recipe Assistant → Culinary Shopping (revisión sin guardar)
+
+La sonda Chromium pública comprueba también la transferencia de una ocurrencia de ingrediente desde la ficha `REC-0017` a la pantalla de revisión de compras: despliega la selección de ingredientes, marca solo uno, confirma la navegación y verifica en Shopping que existe una única fila de revisión con procedencia de la receta. El botón de incorporación permanece deshabilitado cuando no hay ninguna lista de destino en el perfil temporal.
+
+La prueba verifica que esta navegación no ha creado un documento persistente de Shopping ni un lote en Pantry. No crea listas, no pulsa `Añadir seleccionados`, no declara compras y no confirma transferencias. Las interacciones se realizan únicamente en un contexto Chromium descartable, sin datos del perfil personal. El resultado registra `assistant_to_shopping_review`, `shopping_article_created: false` y `pantry_lot_created: false`.
+
+Esta muestra de navegación no sustituye la comprobación manual del flujo completo PUB-04/PUB-06, incluido el tratamiento de compras declaradas y transferencias a despensa, ni acredita CWC-12.
