@@ -4,8 +4,8 @@ tipo: receta
 titulo: Frangollo canario de maíz, leche y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,16 +59,15 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste en la próxima preparación |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |
-| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |
-| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |
-
+| Granos duros pese a que la mezcla está espesa | Molienda gruesa o cocción insuficiente respecto al producto comercial | Respetar el tiempo del fabricante y añadir pequeñas cantidades de leche o agua calientes si espesa antes de ablandarse |
+| Grumos compactos al añadir el maíz | Incorporación demasiado rápida o poco movimiento | Incorporar el frangollo gradualmente mientras se remueve |
+| Fondo pegado o tostado | Fuego demasiado alto o mezcla sin remover | Cocinar a fuego bajo y remover con frecuencia, especialmente al final |
+| Textura demasiado líquida tras la cocción | Absorción menor de la prevista o cocción incompleta | Comprobar primero que el maíz esté tierno; registrar molienda y proporción antes de cambiar líquidos en una repetición |
 ## Conservación
 
-Consumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.
-
+Tras comprobar que el maíz está cocido, repartir el frangollo en cuencos poco profundos, enfriar rápidamente y mantener **refrigerado y tapado** por su contenido de leche. Servir fresco sin dejar las porciones durante periodos prolongados a temperatura ambiente. Consumir en un plazo corto según la frescura de la leche y de los acompañamientos incorporados; no conservarlo como si fuera un cereal seco.
 ## Relaciones dentro del SGCC
 
 - [Quesada pasiega](./quesada_pasiega_de_queso_fresco_y_canela.md)
