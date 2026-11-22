@@ -4,8 +4,8 @@ tipo: receta
 titulo: Crema de guisantes partidos con puerro y menta
 categoria: Legumbres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - legumbres
   - receta-propuesta
@@ -58,13 +58,14 @@ Preparación de referencia basada en **cocción de legumbre seca partida y tritu
 
 | Síntoma | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |
-| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |
-| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |
+| Guisantes aún duros tras el tiempo previsto | Variedad seca o cocción insuficiente | Seguir las instrucciones del envase y prolongar el hervor suave hasta que estén completamente tiernos antes de triturar |
+| Crema demasiado espesa | La legumbre partida ha absorbido gran parte de los 900 ml iniciales | Incorporar gradualmente líquido caliente y registrar el volumen final para una próxima prueba |
+| Crema demasiado líquida | Exceso de caldo añadido antes del triturado | Reducir suavemente antes de ajustar la densidad, sin intentar escurrir una crema ya preparada |
+| Aroma de menta apagado | Hojas añadidas demasiado pronto y hervidas en exceso | Incorporar la menta opcional al final, como indica la preparación |
 
 ## Conservación
 
-Servir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.
+Enfriar sin demoras las sobras de crema de **legumbre cocida**, en porciones poco profundas, y refrigerar tapadas. La crema espesa al enfriarse: al recalentar completamente la porción destinada al consumo, ajustar con un poco de agua o caldo si fuera necesario. No dejar la crema a temperatura ambiente durante periodos prolongados y consumir en un plazo corto.
 
 ## Relaciones dentro del SGCC
 
