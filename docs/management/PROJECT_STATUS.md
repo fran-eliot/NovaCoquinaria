@@ -34,7 +34,7 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Verificar el uso público de Planner y las demás aplicaciones |
+| Próximo objetivo | Evaluar una línea base actualizada de calidad y utilidad del conocimiento culinario, tras la aceptación funcional pública acotada |
 
 ---
 
@@ -193,6 +193,12 @@ El [protocolo de aceptación pública](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.
 Las unidades A, B y C mantienen la evidencia técnica de PR #306–#308; la Unidad D dispone de prueba HTTP pública, sonda Chromium pública y resultados manuales de PUB-01–PUB-07 incorporados mediante PR #335 (merge `b4386d057bfb434d04133949f85d0317123ba99e`). Se registra **CWC-12 como cerrado en alcance funcional acotado** con las restricciones del [protocolo](./PROTOCOLO_ACEPTACION_PUBLICA_CULINARIA.md). El cierre no comprende escenarios destructivos manuales, conformidad WCAG global, garantía de sincronización ni integridad culinaria exhaustiva.
 
 La consolidación de las cinco aplicaciones no crea una nueva fase por sí sola. La siguiente decisión es revisar la utilidad práctica, las carencias del conocimiento y la deuda de identidad/requisitos antes de autorizar nuevas capacidades. Continúa `v1.6.0` como última release publicada; no se autoriza otra.
+
+## Revisión estratégica posterior a CWC-12 — 22 de noviembre de 2026
+
+Tras la integración de #336 y el cierre acotado de la aceptación funcional pública de las cinco aplicaciones, se propone desplazar el énfasis de las interfaces hacia la **calidad, trazabilidad y utilidad del conocimiento culinario**. La [revisión estratégica tras la aceptación pública](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md) compara las alternativas y recomienda primero una línea base reproducible de cobertura y calidad editorial, reutilizando herramientas y separando mediciones automáticas de revisión humana.
+
+Esta propuesta no equivale a una nueva fase implementada, no aprueba automáticamente el piloto editorial ni altera `v1.6.0`. El siguiente desarrollo requiere una decisión diferenciada y PR temática.
 
 # Prioridades actuales
 
