@@ -4,8 +4,8 @@ tipo: receta
 titulo: Casadielles asturianas de nueces y anís
 categoria: Postres
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -60,15 +60,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Masa dura o poco laminada | Masa demasiado gruesa o excesivamente trabajada | Respetar el reposo de 25–30 minutos y estirar las doce piezas finas de modo uniforme |
+| Centro de masa crudo y exterior muy dorado | Aceite excesivamente caliente o pieza demasiado gruesa | Mantener el rango orientativo de 165–170 °C y comprobar la cocción completa de la masa |
+| Fugas de nueces y azúcar | Relleno demasiado húmedo o extremos mal cerrados | Conseguir relleno húmedo pero no líquido y sellar bien los bordes antes de freír |
+| Casadielles aceitosas | Aceite poco caliente o fritura por tandas demasiado grandes | Freír pocas unidades y mantener temperatura estable, escurriendo al final |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+Dejar enfriar las casadielles fritas y conservarlas protegidas en un recipiente limpio, siguiendo las condiciones de temperatura y humedad del lugar y el tiempo previsto hasta el consumo. Por su relleno de nueces y azúcar, con vino y anís opcional, revisar la frescura de los ingredientes y refrigerar si hay calor, humedad elevada o se retrasa el consumo; el frío puede afectar a la textura de la masa frita. No aplicar instrucciones de conservación de carnes o cremas a estas piezas sin tales ingredientes.
 
 ## Relaciones dentro del SGCC
 
