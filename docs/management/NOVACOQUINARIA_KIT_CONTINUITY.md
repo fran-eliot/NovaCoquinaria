@@ -2,7 +2,7 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 2.9.0
+version: 3.0.0
 estado: estable
 ultima_revision: 2026-11-22
 ---
@@ -11,8 +11,31 @@ ultima_revision: 2026-11-22
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
-> **Corte de información:** 22 de noviembre de 2026, tras PR #327 y el ciclo de adaptación de raciones e integración con Shopping. La aceptación manual pública continúa pendiente.  
+> **Corte de información:** 22 de noviembre de 2026, tras la publicación confirmada de v1.7.0 y cierre funcional acotado de CWC-12. Los cortes anteriores se conservan como históricos.  
 > **Naturaleza:** documento de traspaso operativo; no reemplaza la documentación oficial ni el estado vigente de GitHub.
+
+## Estado vigente — publicación de v1.7.0 (22-11-2026)
+
+Este bloque **prevalece sobre los cortes históricos** del kit que aún mencionan v1.6.0 como vigente o la aceptación pública como pendiente. Repositorio: `fran-eliot/NovaCoquinaria`.
+
+| Referencia | Estado comprobado o declarado |
+|---|---|
+| Release | [v1.7.0 — Culinary Applications & Workflows](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.7.0), publicación confirmada por el propietario |
+| Tag | `v1.7.0` apunta exactamente a `86e778e8cd9ee8a46fa34fdebc1b8bdb336e114f` (merge #338), comparación sin diferencias |
+| GitHub main (corte de publicación) | `86e778e8cd9ee8a46fa34fdebc1b8bdb336e114f` |
+| PR de preparación | [#338](https://github.com/fran-eliot/NovaCoquinaria/pull/338), fusionada; tres workflows de PR correctos |
+| PR abiertas antes de esta sincronización | Ninguna |
+| Aplicaciones publicadas | Culinary Explorer, Recipe Assistant, Pantry, Shopping y Planner |
+| Aceptación | CWC-12 y Culinary Workflows Consolidation 0.1.0: Complete — Bounded Public Acceptance tras #335–#336 |
+| Pruebas | [HTTP pública](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45039229371) y [Chromium público](https://github.com/fran-eliot/NovaCoquinaria/actions/runs/45042029261) satisfactorias; PUB-01–PUB-07 satisfactorias dentro del alcance manual declarado |
+| Siguiente línea de trabajo | [Culinary Knowledge Quality Baseline](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md), propuesta en #337: iniciar por inventario y calidad reproducible (Unidad A), sin aprobar automáticamente las demás unidades |
+| Decisión de publicación posterior | Ninguna nueva release autorizada después de v1.7.0 |
+
+**Criterios editoriales y arquitectónicos:** Markdown es fuente de verdad; conservar la mejor versión culinaria, registrar variantes, diferenciar recetas probadas de las pendientes y no inventar validaciones personales. El almacenamiento local de Planner, Shopping y Pantry es independiente y no transaccional. No inferir cocinabilidad, disponibilidad, nutrición, sustituciones ni seguridad alimentaria a partir de menciones. La aceptación manual fue dirigida y declarativa, no auditoría exhaustiva. El tag queda fijado: las próximas PR no alteran retrospectivamente v1.7.0.
+
+**Continuidad operativa:** comprobar el estado de `main`, PR y workflows antes de crear nuevas ramas; realizar cada desarrollo directamente en GitHub y abrir una PR temática. El propietario revisa, fusiona y elimina las ramas remotas. La propuesta de siguiente avance es fijar mediciones reproducibles de cobertura y calidad culinaria reutilizando los scripts existentes, no añadir otro motor sin necesidad. La PR de sincronización documental de este corte no debe confundirse con la versión etiquetada.
+
+---
 
 ## 1. Identidad y propósito
 
