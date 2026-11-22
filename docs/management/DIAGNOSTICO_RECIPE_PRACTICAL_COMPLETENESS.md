@@ -123,3 +123,8 @@ python tools/evaluate_recipe_queries.py --index site/knowledge-audit/recipe_inde
 ```
 
 Los JSON de `site/knowledge-audit/` son **salidas derivadas**, no la fuente de verdad. La auditoría de esta PR regenerará los datos con su propio SHA; el corte descriptivo arriba se mantiene ligado a la ejecución #317. Al comparar ejecuciones, conservar **los dos SHA** y el contrato del extractor, sin atribuir cambios de contenido a una variación de herramienta.
+
+
+## RPC-B — Protocolo de muestra fijado (22-11-2026)
+
+Se ha preparado la [muestra dirigida RPC-B](./MUESTRA_RPC_B_SUFIENCIA_PRACTICA.md) con diez fichas verificadas (dos por módulo) de Pastas, Legumbres, Postres, Bebidas y Horno, ausentes en la muestra anterior. El documento congela identificadores, rutas, motivaciones de selección y nueve ejes RPC con estados explícitos antes de registrar resultados. **Todavía no se ha realizado la evaluación editorial ni una nueva prueba de navegador de estos casos.** No se introducen cambios de recetas, modelos o interfaces.
