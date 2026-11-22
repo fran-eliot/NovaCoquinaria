@@ -4,8 +4,8 @@ tipo: receta
 titulo: Caldeirada gallega de merluza y patatas
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,15 +59,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste de próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |
-| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |
-| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |
+| Patatas duras al terminar el pescado | Precocción insuficiente de las rodajas gruesas | Comprobar que estén casi tiernas antes de incorporar la merluza |
+| Merluza deshecha o seca | Hervor fuerte o tiempo excesivo después de añadir el pescado | Mantener hervor muy suave los 6–10 minutos orientativos según grosor y comprobar su cocción completa |
+| Ajada amarga | Ajo quemado o pimentón añadido con el aceite demasiado caliente | Dorar suavemente el ajo y retirar del fuego antes de incorporar pimentón |
+| Caldeirada aguada o aliño poco perceptible | Exceso de agua conservada en la cazuela | Escurrir parte del líquido con cuidado antes de repartir la ajada, sin romper patatas ni pescado |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.
+Servir la caldeirada preferentemente recién elaborada, comprobando las espinas al repartir las rodajas. Enfriar pronto las sobras de merluza y patata en recipientes poco profundos y guardarlas **tapadas y refrigeradas**. Consumir en un plazo corto y recalentar completamente solo la porción destinada al servicio, manipulando suavemente el pescado para evitar que se deshaga. La ajada con aceite y vinagre opcional no sustituye la refrigeración.
 
 ## Relaciones dentro del SGCC
 

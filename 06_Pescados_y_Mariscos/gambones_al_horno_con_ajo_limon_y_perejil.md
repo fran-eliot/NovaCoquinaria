@@ -4,8 +4,8 @@ tipo: receta
 titulo: Gambones al horno con ajo, limón y perejil
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - pescados-mariscos
   - receta-propuesta
@@ -48,21 +48,22 @@ Preparación de referencia basada en **asado breve de crustáceos enteros y ali�
 
 ## Puntos críticos
 
-- Los gambones enteros pueden necesitar más o menos tiempo según calibre y horno. No confundir color del caparazón con comprobación de cocción de la carne.
-- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.
-- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.
+- Los gambones se hornean enteros en una sola capa: el calibre determina el tiempo y el color del caparazón no demuestra por sí solo que la carne esté cocida.
+- Mantener refrigerados los crustáceos crudos y separar superficies y utensilios antes y después de cocinar. Comprobar que la carne esté opaca y completamente hecha, evitando prolongar el asado hasta volverla correosa.
+- Añadir el limón **fuera del horno**, como establece la receta, y sazonar con moderación para no ocultar el sabor del marisco.
 
 ## Diagnóstico
 
 | Síntoma | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |
-| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |
-| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |
+| Gambones correosos o secos | Exceso de horno para su calibre | Revisar la cocción de la carne antes del límite orientativo de 7–11 minutos |
+| Carne todavía translúcida | Piezas grandes o tiempo insuficiente | Prolongar el asado de manera gradual hasta cocción completa, sin guiarse solo por el caparazón |
+| Ajo demasiado tostado | Ajo picado expuesto demasiado tiempo al calor intenso | Repartir el aliño uniformemente y vigilar su dorado en una próxima preparación |
+| Sabor excesivamente ácido o salado | Limón o sal añadidos sin probar | Añadir el limón al terminar y ajustar la sal con moderación antes de servir |
 
 ## Conservación
 
-Servir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.
+Servir los gambones preferentemente recién hechos. Mantener el marisco crudo refrigerado hasta el horno; enfriar rápidamente las sobras ya cocidas y guardarlas tapadas **en frigorífico**, sin dejarlas durante periodos prolongados fuera de frío. Consumir en un plazo corto y recalentar completamente únicamente las porciones que se vayan a servir, teniendo en cuenta que pueden perder jugosidad.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Choto al ajillo granadino
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -58,15 +58,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste siguiente |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |
-| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |
-| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |
+| Cabrito duro o difícil de separar del hueso | Estofado insuficiente para el tamaño del corte | Comprobar cocción completa y ternura, prolongando el hervor suave si es necesario |
+| Ajo amargo | Dientes quemados durante el dorado | Dorarlos suavemente sin oscurecerlos demasiado antes de añadir el vino |
+| Salsa demasiado líquida | Exceso de agua o falta de reducción | Mantener solo el fondo necesario para guisar y reducir controladamente sin resecar las piezas |
+| Majado con grumos o salsa muy espesa | Almendras y pan poco triturados o cantidad excesiva de picada | Triturar finamente con jugo del guiso y ajustar poco a poco; el majado es opcional |
 
 ## Conservación
 
-Consumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.
+Mantener el cabrito crudo refrigerado hasta cocinarlo y evitar la contaminación cruzada al prepararlo. Enfriar pronto las sobras de choto al ajillo en recipientes poco profundos, conservarlas tapadas **en frigorífico** y recalentar completamente solo lo que se vaya a consumir. No dejar el guiso fuera de frío durante periodos prolongados; ajustar su plazo de consumo a las condiciones reales de preparación y conservación.
 
 ## Relaciones dentro del SGCC
 

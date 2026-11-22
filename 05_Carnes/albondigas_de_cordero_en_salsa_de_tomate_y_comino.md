@@ -4,8 +4,8 @@ tipo: receta
 titulo: Albóndigas de cordero en salsa de tomate y comino
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - carnes
   - receta-propuesta
@@ -59,15 +59,16 @@ Preparación de referencia basada en **formado de carne picada y cocción comple
 
 ## Diagnóstico
 
-| Problema | Causa probable | Ajuste en otra prueba |
+| Problema | Causa probable | Ajuste para una próxima prueba |
 |---|---|---|
-| Carne seca o dura | Calor elevado o técnica inadecuada para el corte | Moderar calor o prolongar braseado suave cuando corresponda |
-| Salsa líquida | Falta de reducción o exceso de caldo | Reducir separadamente sin sobrecocinar la carne |
-| Sabor desequilibrado | Exceso de sal, vinagre o reducción | Dosificar condimentos y probar antes de terminar |
+| Albóndigas compactas o duras | Mezcla de carne, huevo y pan rallado amasada en exceso | Integrar solo hasta homogeneizar y formar las 16–20 piezas de tamaño similar |
+| Albóndigas rotas dentro de la salsa | Mezcla poco ligada o remoción intensa durante el hervor | Comprobar el formado y girar con cuidado, sin amontonarlas en la cazuela |
+| Salsa demasiado líquida | Tomate poco reducido o exceso de agua al terminar | Aprovechar la reducción inicial del tomate y ajustar la densidad destapando brevemente sin sobrecocer las albóndigas |
+| Albóndigas doradas pero crudas en el centro | Cocción insuficiente de carne picada | Comprobar los 71 °C en el centro previstos en el procedimiento, sin confiar en el aspecto exterior |
 
 ## Conservación
 
-Servir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes poco profundos. Los marinados con vinagre no son conservas y deben mantenerse refrigerados. Recalentar completamente antes de servir las porciones destinadas a consumo caliente.
+Mantener la carne picada y las albóndigas formadas **refrigeradas** hasta su cocción. Una vez cocinadas por completo en la salsa, servir inmediatamente o enfriar pronto las sobras en recipientes poco profundos y refrigerarlas tapadas. Recalentar completamente solo la porción destinada al servicio y consumir en un plazo corto; la salsa de tomate no convierte la carne picada cocinada en una conserva.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Cordero estofado con garbanzos y comino
 categoria: Carnes
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - carnes
   - receta-propuesta
@@ -62,13 +62,14 @@ Preparación de referencia basada en **estofado lento con incorporación final d
 
 | Síntoma | Causa probable | Ajuste para otra elaboración |
 |---|---|---|
-| Carne poco tierna | Cocción insuficiente para el corte o hervor demasiado intenso | Adaptar el tiempo y utilizar calor suave en guisos |
-| Salsa demasiado líquida | Ingredientes con humedad o reducción escasa | Reducir la salsa antes del servicio, sin resecar la carne |
-| Exterior demasiado tostado | Fuego intenso o condimentos azucarados añadidos pronto | Moderar el calor y aplicar glaseados al final |
+| Cordero todavía duro | Corte que necesita más tiempo o hervor demasiado fuerte | Mantener cocción suave hasta casi tierno antes de incorporar los garbanzos |
+| Garbanzos rotos | Legumbre añadida demasiado pronto o removida con fuerza | Utilizar garbanzos totalmente cocidos y agregarlos solo los últimos 10–15 minutos previstos |
+| Salsa acuosa | Tomate insuficientemente reducido o demasiado caldo | Reducir el tomate en su fase inicial y ajustar con cuidado el líquido del estofado |
+| Comino amargo o excesivo | Especia tostada demasiado tiempo o dosis intensa para el conjunto | Rehogar brevemente con el ajo y valorar el resultado antes de cambiar proporciones |
 
 ## Conservación
 
-Servir recién cocinado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerar sin demora. Los adobos y escabeches caseros no sustituyen refrigeración, controles de temperatura ni técnicas validadas de conservación. Recalentar completamente las porciones destinadas a servirse calientes.
+Enfriar rápidamente las sobras de estofado con **cordero y garbanzos cocidos**, preferiblemente en recipientes poco profundos, y refrigerar tapadas. No mantener la cazuela a temperatura ambiente durante periodos prolongados. Recalentar completamente las porciones destinadas al consumo, con calor moderado para preservar la legumbre, y consumir en un plazo corto. Los garbanzos secos requieren cocción previa completa, también cuando se vaya a conservar una preparación.
 
 ## Relaciones dentro del SGCC
 
