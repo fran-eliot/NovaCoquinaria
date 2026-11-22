@@ -75,3 +75,14 @@ Las cuatro intervenciones siguientes se prepararon sobre la muestra ya evaluada,
 | H-RPC-B10 | `REC-561` | Separar fermentación principal, reposo final, horno y **enfriado mínimo antes de cortar**; mantener el templado de escaldado sin duración inferida | No calcular un total único ni declarar tiempos medidos |
 
 El resultado esperado es mayor claridad **documental**, no una demostración de mejora gastronómica. La revisión y fusión de esta PR no cierra automáticamente RPC-C: se debe observar el CI y contrastar después la navegación RPC-08 de diez fichas por separado, o registrar su ausencia. La release publicada permanece en `v1.7.0`.
+
+
+## RPC-08 — Contraste automatizado propuesto tras la intervención RPC-C
+
+La PR #351 integró cuatro mejoras editoriales en `main`, commit `9151ef5021fefb7247c8ec456aa8e1d877e608e2`, con **Knowledge integrity**, **Knowledge audit** y **Culinary Explorer site** satisfactorios. No se modificaron los seis casos de control ni se registraron nuevas elaboraciones domésticas.
+
+Para revisar individualmente **RPC-08**, una PR de prueba incorpora `tools/check_rpc_b_sample_browser.py` al workflow `Culinary Explorer site`. El test fija los diez IDs RPC-B01–RPC-B10 y, para cada uno, busca el título exacto en Explorer, selecciona **la ruta canónica** (no el primer título coincidente), abre Recipe Assistant, contrasta identidad, ingredientes, pasos, contexto y enlace a fuente, y abre la ficha HTML canónica, con viewport de 390 px y contexto aislado por caso.
+
+La ejecución usa **Chromium sobre un sitio construido y servido localmente**, no comprueba el despliegue de GitHub Pages ni demuestra calidad culinaria. El resultado se recogerá en `rpc-b-sample-browser.json` dentro del artefacto `explorer-browser`.
+
+**Estado de evidencia:** hasta observar un run satisfactorio de esta PR, los diez RPC-08 permanecen `desconocido` en la evaluación previa. No modificar retroactivamente la matriz ni declarar la Unidad RPC-C cerrada antes de observar los resultados y documentar los límites.
