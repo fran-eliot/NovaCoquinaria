@@ -76,6 +76,17 @@ def exercise(base=DEFAULT_BASE):
                             raise AssertionError("Recipe selected from Explorer lacks ingredients")
                         if page.locator("#step-title").count() == 0:
                             raise AssertionError("Recipe selected from Explorer lacks guided steps")
+                        # La selección para Planner es temporal, no crea entradas persistentes.
+                        page.once("dialog", lambda dialog: dialog.accept())
+                        page.locator("#plan-recipe").click()
+                        expect(page).to_have_url(urljoin(base, "culinary-planner.html"))
+                        expect(page.locator("#entry-controls")).to_be_enabled(timeout=20000)
+                        expect(page.locator("#entry-source")).to_contain_text("Receta seleccionada")
+                        expect(page.locator("#entry-title")).to_have_value(title)
+                        expect(page.locator("#day-entries article")).to_have_count(0)
+                        assert page.evaluate(
+                            "(key) => localStorage.getItem(key)",
+                            "novacoquinaria.culinary-planner") is None, "Planning created an entry without confirmation"
                     elif path.startswith("recipe-assistant"):
                         expect(page.locator("#recipe-title")).not_to_be_empty()
                         if page.locator("#ingredients input").count() == 0:
@@ -93,6 +104,8 @@ def exercise(base=DEFAULT_BASE):
                     if path.startswith("culinary-explorer"):
                         record["linked_recipe_id"] = "REC-0017"
                         record["explorer_to_assistant"] = True
+                        record["assistant_to_planner_selection"] = True
+                        record["planner_entry_created"] = False
                     records.append(record)
                 finally:
                     context.close()
