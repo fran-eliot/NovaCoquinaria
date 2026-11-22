@@ -2,9 +2,9 @@
 id: DOC-0011
 titulo: Estado del Proyecto
 tipo: gestion
-version: 3.6
+version: 3.7
 estado: estable
-ultima_revision: 2026-11-21
+ultima_revision: 2026-11-22
 ---
 
 # Estado del Proyecto
@@ -30,11 +30,11 @@ No documenta la evolución histórica del proyecto ni planifica su futuro.
 |---------|-------|
 | Proyecto | NovaCoquinaria |
 | Sistema | GASTRO (SGCC) |
-| Versión publicada | **v1.6.0 — Culinary Knowledge & Retrieval** |
+| Versión publicada | **v1.7.0 — Culinary Applications & Workflows** |
 | Estado | 🟢 Desarrollo activo |
 | Fase | Consolidación y explotación del conocimiento |
 | Madurez global | Pendiente de reevaluación con auditoría actualizada |
-| Próximo objetivo | Evaluar una línea base actualizada de calidad y utilidad del conocimiento culinario, tras la aceptación funcional pública acotada |
+| Próximo objetivo | Iniciar línea base reproducible de calidad y utilidad del conocimiento culinario (Unidad A propuesta) |
 
 ---
 
@@ -199,6 +199,12 @@ La consolidación de las cinco aplicaciones no crea una nueva fase por sí sola.
 Tras la integración de #336 y el cierre acotado de la aceptación funcional pública de las cinco aplicaciones, se propone desplazar el énfasis de las interfaces hacia la **calidad, trazabilidad y utilidad del conocimiento culinario**. La [revisión estratégica tras la aceptación pública](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md) compara las alternativas y recomienda primero una línea base reproducible de cobertura y calidad editorial, reutilizando herramientas y separando mediciones automáticas de revisión humana.
 
 Esta propuesta no equivale a una nueva fase implementada, no aprueba automáticamente el piloto editorial ni altera `v1.6.0`. El siguiente desarrollo requiere una decisión diferenciada y PR temática.
+
+## Publicación de v1.7.0 — 22 de noviembre de 2026
+
+El propietario confirmó la publicación de [NovaCoquinaria v1.7.0 — Culinary Applications & Workflows](https://github.com/fran-eliot/NovaCoquinaria/releases/tag/v1.7.0). El tag `v1.7.0` apunta exactamente a `86e778e8cd9ee8a46fa34fdebc1b8bdb336e114f` (merge #338), comprobado mediante comparación de commits sin diferencias. Las pruebas de PR #338 finalizaron satisfactoriamente. La publicación consolida las cinco aplicaciones públicas y la aceptación funcional acotada de CWC-12. No equivale a auditoría general de seguridad, disponibilidad, compatibilidad, accesibilidad o calidad culinaria.
+
+El [Kit de continuidad 3.0.0](./NOVACOQUINARIA_KIT_CONTINUITY.md) prevalece sobre los cortes anteriores. La siguiente propuesta es [Culinary Knowledge Quality Baseline](./REVISION_ESTRATEGICA_POST_ACEPTACION_PUBLICA.md), comenzando con medición reproducible de cobertura y utilidad. No hay otra release autorizada.
 
 # Prioridades actuales
 
