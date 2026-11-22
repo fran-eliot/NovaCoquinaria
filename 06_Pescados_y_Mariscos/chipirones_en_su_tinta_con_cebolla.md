@@ -4,8 +4,8 @@ tipo: receta
 titulo: Chipirones en su tinta con cebolla
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - pescados-mariscos
   - receta-propuesta
@@ -53,21 +53,22 @@ Preparación de referencia basada en **sofrito lento, guiso de cefalópodo y sal
 
 ## Puntos críticos
 
-- La tinta debe ser un ingrediente alimentario adecuado y estar completamente cocinada, no añadirse cruda como acabado. Los tiempos cambian con el tamaño del chipirón; no dejar salsa espesa pegarse al fondo.
-- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.
-- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.
+- Utilizar **tinta de calamar alimentaria** y cocinarla completamente dentro del guiso; no añadir tinta cruda como acabado.
+- Pochar bien cebolla y pimiento antes de añadir los chipirones, y disolver la tinta en caldo frío o templado para evitar grumos. Vigilar el fondo, porque la salsa oscura puede pegarse al concentrarse.
+- Ajustar el tiempo a los chipirones realmente adquiridos y comprobar que estén tiernos y completamente cocinados. Separar utensilios de producto crudo y cocinado.
 
 ## Diagnóstico
 
 | Síntoma | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |
-| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |
-| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |
+| Chipirones duros o gomosos | Tiempo inadecuado para el tamaño y textura del cefalópodo | Mantener cocción suave y comprobar ternura y cocción completa antes de retirar |
+| Salsa con grumos de tinta | Tinta añadida directamente sin diluir | Disolver previamente en parte del caldo frío o templado |
+| Salsa que se pega o sabe a quemado | Fondo demasiado concentrado o fuego fuerte | Remover suavemente y ajustar el líquido durante el guiso |
+| Salsa demasiado líquida | Exceso de caldo o agua que han soltado los chipirones | Ajustar los 200–300 ml según evaporación y reducir suavemente sin sobrecocer el cefalópodo |
 
 ## Conservación
 
-Servir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.
+Mantener refrigerados los chipirones y la tinta comercial según su etiquetado hasta cocinar. Enfriar rápidamente las sobras del guiso en recipientes poco profundos y conservarlas **tapadas y refrigeradas**. Recalentar completamente las porciones destinadas a comer y consumir en un plazo corto; si se acompaña con arroz, aplicar también las precauciones de enfriado y refrigeración del arroz cocido.
 
 ## Relaciones dentro del SGCC
 
