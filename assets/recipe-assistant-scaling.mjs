@@ -46,7 +46,7 @@ export function formatScaledList(recipe, targetServings) {
   ];
   for(const entry of recipe.ingredients){
     const scaled=scaleIngredient(entry,originalServings,targetServings);
-    rows.push("- "+entry.raw+(scaled && targetServings!==originalServings?
+    rows.push("- "+entry.raw+(targetServings===originalServings?"":scaled?
       " → "+scaled.quantity+" "+scaled.unit:" [revisar manualmente]"));
   }
   return rows.join("\n");
