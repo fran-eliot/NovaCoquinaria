@@ -4,8 +4,8 @@ tipo: receta
 titulo: Galletas de avena y canela
 categoria: Postres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-22
 etiquetas:
   - postres
   - receta-propuesta
@@ -58,13 +58,14 @@ Elaboración de referencia que trabaja **mezcla corta y horneado por tandas**, s
 
 | Problema | Posible causa | Ajuste en una prueba posterior |
 |---|---|---|
-| Textura excesivamente densa | Mezcla demasiado batida o proporción de líquido desequilibrada | Integrar los secos con suavidad y medir líquidos |
-| Interior poco cocido o sin estructura | Tiempo insuficiente o temperatura excesiva en el exterior | Comprobar el centro y ajustar gradualmente |
-| Sabor demasiado dulce | Madurez de fruta o azúcar de productos comerciales | Revisar la cantidad de azúcar añadida en la próxima prueba |
+| Galletas demasiado compactas | Masa trabajada en exceso al incorporar harina y avena | Mezclar los ingredientes secos solo hasta integrarlos; registrar el resultado antes de modificar proporciones |
+| Bordes muy oscuros y centro aún blando | Piezas desiguales, horno demasiado intenso o tiempo excesivo para las más pequeñas | Formar porciones de tamaño parecido, separarlas y revisar antes el punto de las piezas pequeñas; no juzgar el centro solo por su dureza en caliente |
+| Galletas poco crujientes tras enfriar | Grosor elevado o humedad retenida al guardarlas templadas | Aplanar las porciones de forma uniforme en la próxima prueba y enfriar por completo sobre rejilla antes de guardarlas |
+| Dulzor excesivo | La cantidad de azúcar resulta alta para el gusto buscado | Evaluar la tanda antes de proponer reducir el azúcar; no atribuir este resultado a una prueba todavía no realizada |
 
 ## Conservación
 
-Seguir la vida útil de los ingredientes y refrigerar sin demora las preparaciones perecederas con huevo, leche o nata. Los postres fríos se mantienen refrigerados y no deben pasar horas a temperatura ambiente. Los bizcochos sin rellenos perecederos se pueden conservar tapados brevemente en un lugar fresco y seco, adaptando el plazo a humedad y ambiente.
+Dejar enfriar completamente las galletas horneadas sobre rejilla antes de guardarlas. Conservarlas en recipiente limpio, cerrado y seco, en lugar fresco y alejado de la humedad; comprobar olor, textura y posible deterioro antes de servir. No aplicar a estas galletas secas las instrucciones de refrigeración propias de cremas y postres fríos. Si se añade después un relleno o cobertura perecedera, cambiar la conservación según los ingredientes realmente empleados.
 
 ## Relaciones dentro del SGCC
 
