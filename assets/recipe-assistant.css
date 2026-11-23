@@ -40,3 +40,7 @@
 .ingredient-filter{display:flex;align-items:center;gap:.6rem;cursor:pointer;margin:.65rem 0 1rem;font-weight:600}
 .ingredient-filter input{width:1.15rem;height:1.15rem;accent-color:var(--accent)}
 .ingredient-filter[hidden],#ingredients .check-row[hidden],#ingredients h3[hidden]{display:none}
+
+#reset-ingredients{margin:.2rem 0 .6rem}
+#ingredient-filter-empty{margin:.6rem 0;padding:.6rem .75rem;border-inline-start:3px solid var(--accent)}
+#ingredient-filter-empty[hidden]{display:none}
