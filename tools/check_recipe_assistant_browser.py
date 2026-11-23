@@ -62,6 +62,11 @@ def exercise(site):
                 assert "Resultado observado: bien" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
                 assert "Fecha efectiva de preparación: no documentada" in exported_note
+                page.context.grant_permissions(["clipboard-read", "clipboard-write"])
+                page.locator("#feedback-copy").click()
+                expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
+                copied_note = page.evaluate("navigator.clipboard.readText()")
+                assert copied_note == exported_note
                 expect(page.locator("#feedback-date")).to_be_disabled()
                 page.locator("#feedback-status").select_option("confirmada")
                 expect(page.locator("#feedback-date")).to_be_enabled()
