@@ -4,8 +4,8 @@ tipo: receta
 titulo: Okonomiyaki de col y cebolleta
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-22
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -51,9 +51,9 @@ Preparación de referencia de inspiración asiática centrada en **masa ligada c
 
 ## Puntos críticos
 
-- La masa debe cocinarse por completo en el centro; una tortita demasiado gruesa se tuesta por fuera sin cuajar. Worcestershire con tomate no reproduce exactamente la salsa específica.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- Cocinar el **centro de la tortita de col, harina y huevo** completamente; un exterior dorado no garantiza que el interior esté cuajado.
+- Conservar la **masa cruda con huevo refrigerada** hasta cocinarla y evitar contaminación cruzada con verduras destinadas a consumirse listas.
+- Comprobar alérgenos de soja, trigo y huevo, y de la salsa comercial; la combinación de Worcestershire con tomate es una adaptación, no una reproducción exacta de la salsa específica.
 
 ## Diagnóstico
 
