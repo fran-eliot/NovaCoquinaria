@@ -259,9 +259,11 @@ function renderRecipe(r) {
     $("step-location").textContent=line(step.source_location);
     $("step-done").checked=s.completed.includes(s.current);
     $("previous").disabled=s.current===1;$("next-step").disabled=s.current===s.stepCount;
+    $("first-pending-step").disabled=session.firstPending()===null;
   }
   $("step-done").addEventListener("change",()=>{session.markStep(session.snapshot().current,$("step-done").checked);progress();});
   for(const [id,delta] of [["previous",-1],["next-step",1]]) $(id).addEventListener("click",()=>{session.move(delta);progress();$("step-title").focus();});
+  $("first-pending-step").addEventListener("click",()=>{session.jumpToFirstPending();progress();$("step-title").focus();});
   let lastStatus=null;
   function refreshTimer(){
     const t=timer.snapshot(),active=t.status==="running"||t.status==="paused",sec=t.remainingSeconds;
