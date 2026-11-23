@@ -264,6 +264,10 @@ function renderRecipe(r) {
     $("step-controls").hidden=s.current===null;
     if(s.current===null)return;
     const step=r.steps[s.current-1];
+    for (const option of $("step-picker").options) {
+      const order=Number(option.value);
+      option.textContent="Paso "+order+" — "+(s.completed.includes(order)?"completado":"pendiente");
+    }
     $("step-picker").value=String(s.current);
     $("step-title").textContent="Paso "+s.current+" de "+s.stepCount;
     renderMarkdown($("step-text"),step.text);
