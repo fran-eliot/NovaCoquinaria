@@ -11,3 +11,5 @@
 #preparation-feedback label{font-weight:600}
 #preparation-feedback textarea,#preparation-feedback select,#preparation-feedback input[type=date]{width:100%;max-width:100%;box-sizing:border-box;font:inherit;padding:.65rem;border:1px solid var(--line);border-radius:.35rem;background:var(--bg);color:inherit}
 #preparation-feedback #feedback-message{min-height:1.5em}
+
+#preparation-feedback #feedback-copy{margin-inline-start:.6rem;margin-block:.4rem}

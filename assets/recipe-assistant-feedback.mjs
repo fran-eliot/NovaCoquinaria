@@ -112,10 +112,11 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   const message = document.createElement("p");
   message.id = "feedback-message";
   message.setAttribute("role", "status");
+  const note = () => feedbackMarkdown(recipe,
+    Object.fromEntries(Object.entries(fields).map(([key, control]) => [key, control.value])));
   download.addEventListener("click", () => {
     try {
-      const values = Object.fromEntries(Object.entries(fields).map(([key, control]) => [key, control.value]));
-      const markdown = feedbackMarkdown(recipe, values);
+      const markdown = note();
       const url = URL.createObjectURL(new Blob([markdown], {type: "text/markdown;charset=utf-8"}));
       const anchor = document.createElement("a");
       anchor.href = url;
@@ -129,7 +130,21 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       message.textContent = error instanceof Error ? error.message : "No se pudo exportar la nota";
     }
   });
-  panel.append(download, message);
+  const copy = document.createElement("button");
+  copy.type = "button";
+  copy.id = "feedback-copy";
+  copy.textContent = "Copiar nota Markdown";
+  copy.addEventListener("click", async () => {
+    try {
+      const markdown = note();
+      if (!navigator.clipboard?.writeText) throw new Error("Portapapeles no disponible");
+      await navigator.clipboard.writeText(markdown);
+      message.textContent = "Nota copiada. Revísala antes de incorporarla al recetario.";
+    } catch (error) {
+      message.textContent = error instanceof Error ? error.message : "No se pudo copiar la nota";
+    }
+  });
+  panel.append(download, copy, message);
   host.append(panel);
   return panel;
 }
