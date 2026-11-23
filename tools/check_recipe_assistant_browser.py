@@ -49,9 +49,9 @@ def exercise(site):
                 expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 expect(page.locator("#recipe-title")).to_have_text(recipes[identity]["title"])
                 expect(page.locator("#preparation-feedback")).to_be_visible()
-                expect(page.locator("#feedback-status")).to_be_empty()
+                expect(page.locator("#feedback-message")).to_be_empty()
                 page.locator("#feedback-export").click()
-                expect(page.locator("#feedback-status")).to_contain_text("Escribe alguna observación")
+                expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-result").fill("Resultado observado: bien")
                 with page.expect_download() as note_download:
                     page.locator("#feedback-export").click()
@@ -61,7 +61,7 @@ def exercise(site):
                 assert "Preparación no confirmada" in exported_note
                 assert "Resultado observado: bien" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
-                page.locator("#feedback-status").is_visible()
+                page.locator("#feedback-message").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
                 assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
                 assert any("culinary-explorer-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
