@@ -41,3 +41,7 @@ Una vez CI resulte satisfactorio, revisar manualmente en escritorio y móvil al 
 Tras la fusión de [PR #403](https://github.com/fran-eliot/NovaCoquinaria/pull/403) y sus tres workflows satisfactorios, el recorrido de `tools/check_recipe_assistant_browser.py` se amplía con una matriz de anchos CSS de **320, 390, 768 y 1280 px** en Chromium. Para cada ancho verifica el contenedor del asistente, barras de progreso, filtro, selector y enlaces a las cuatro secciones, así como la ausencia de desbordamiento horizontal del documento. A 390 px incluye navegación por ancla y selección de un paso con retorno del foco al título.
 
 Esta matriz es **automatización de navegador con viewport simulado**, no validación en dispositivos móviles físicos ni revisión visual exhaustiva. Su resultado se conocerá tras el CI de la PR que introduce la cobertura. No sustituye las tareas manuales pendientes del apartado anterior: lectores de pantalla, navegador móvil real, interacción táctil, legibilidad de textos largos, portapapeles y descargas reales ni aceptación de la URL pública.
+
+## Protocolo de aceptación manual
+
+La [matriz RA-M01–RA-M18](./PROTOCOLO_ACEPTACION_MANUAL_RECIPE_ASSISTANT.md) recoge escenarios, criterios de aceptación, ficha de evidencias y reglas de cierre. **Todos sus casos permanecen en NOT RUN** hasta que se realice una ejecución manual real. La aprobación de Chromium en la PR #404 no cambia ese estado.
