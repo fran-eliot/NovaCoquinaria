@@ -38,8 +38,18 @@ export function createCookingSession(recipe) {
     if (current!==null) current=Math.max(1,Math.min(stepCount,current+delta));
     return snapshot();
   }
+  function firstPending() {
+    for (let order=1; order<=stepCount; order++)
+      if (!completed.has(order)) return order;
+    return null;
+  }
+  function jumpToFirstPending() {
+    const pending=firstPending();
+    if (pending!==null) current=pending;
+    return snapshot();
+  }
   function reset() { prepared.clear(); completed.clear(); current=stepCount?1:null; return snapshot(); }
-  return {snapshot, markIngredient, markStep, move, reset};
+  return {snapshot, markIngredient, markStep, move, firstPending, jumpToFirstPending, reset};
 }
 
 export function createManualTimer(now = () => performance.now()) {
