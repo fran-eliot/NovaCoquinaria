@@ -102,6 +102,33 @@ def exercise(site):
                 copied_note = page.evaluate("navigator.clipboard.readText()")
                 assert not warns_on_exit()
                 assert copied_note == exported_note
+                page.evaluate("""() => {
+                    Object.defineProperty(navigator.clipboard, 'writeText', {
+                        configurable: true,
+                        value: value => new Promise(resolve => {
+                            window.__pendingCopyText = value;
+                            window.__resolvePendingCopy = resolve;
+                        })
+                    });
+                    document.querySelector('#feedback-message').textContent = '';
+                }""")
+                page.locator("#feedback-copy").click()
+                page.wait_for_function("typeof window.__resolvePendingCopy === 'function'")
+                assert page.evaluate("window.__pendingCopyText") == exported_note
+                page.locator("#feedback-result").fill("Modificado mientras se copia")
+                assert warns_on_exit()
+                page.evaluate("window.__resolvePendingCopy()")
+                expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
+                assert warns_on_exit(), "Una edición posterior al inicio de la copia sigue pendiente"
+                page.evaluate("delete navigator.clipboard.writeText")
+                page.locator("#feedback-result").fill("Otra observación pendiente")
+                assert warns_on_exit()
+                page.locator("#feedback-result").fill("Resultado observado: bien")
+                assert not warns_on_exit(), "La nota vuelve a coincidir con la versión exportada"
+                page.locator("#feedback-message").evaluate("(element) => element.textContent = ''")
+                page.locator("#feedback-copy").click()
+                expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
+                assert not warns_on_exit()
                 expect(page.locator("#feedback-date")).to_be_disabled()
                 page.locator("#feedback-status").select_option("confirmada")
                 expect(page.locator("#feedback-date")).to_be_enabled()
