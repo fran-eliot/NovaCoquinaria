@@ -136,6 +136,18 @@ def exercise(site):
                 assert not warns_on_exit()
                 page.locator("#feedback-message").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
+                expect(page.locator("#feedback-shortcut")).to_have_attribute("href", "#preparation-feedback")
+                assert page.evaluate("""() => {
+                    const section = document.querySelector('#preparation-feedback');
+                    return section.nextElementSibling?.id === 'context';
+                }""")
+                page.locator("#feedback-shortcut").click()
+                expect(page).to_have_url(base + "recipe-assistant.html?id=REC-0017#preparation-feedback")
+                assert page.evaluate("""() => {
+                    const section = document.querySelector('#preparation-feedback');
+                    const box = section.getBoundingClientRect();
+                    return box.top < innerHeight && box.bottom > 0;
+                }""")
                 assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
                 assert any("culinary-explorer-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
                 assert any("recipe-assistant-markdown." in u and not u.endswith("-markdown.mjs") for u in loaded_modules)
