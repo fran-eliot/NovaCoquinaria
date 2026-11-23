@@ -1,5 +1,6 @@
 import {storeSelection} from "./culinary-planner-recipe-transfer.mjs";
 import {createCookingSession, createManualTimer} from "./recipe-assistant-session.mjs";
+import {mountPreparationFeedback} from "./recipe-assistant-feedback.mjs";
 import {scalingBasis, scaleIngredient, formatScaledList} from "./recipe-assistant-scaling.mjs";
 
 import {createRecipeSelection,putRecipeSelection} from "./culinary-shopping-recipe-transfer.mjs";
@@ -244,6 +245,7 @@ function renderRecipe(r) {
   for(const t of r.techniques){const li=node("li");li.append(link(t.label,t.href));$("techniques").append(li);}
   if(!r.techniques.length) $("techniques").append(node("li","Sin referencias a técnicas disponibles en esta vista."));
   renderMarkdown($("context-text"),r.context.text);
+  mountPreparationFeedback(r);
   $("provenance").textContent=r.id+" · commit "+r.source_commit+" · esquema "+r.schema_version;
   function progress(){
     const s=session.snapshot();

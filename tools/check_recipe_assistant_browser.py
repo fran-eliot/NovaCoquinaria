@@ -29,7 +29,7 @@ def exercise(site):
         try:
             with sync_playwright() as p:
                 browser = p.chromium.launch()
-                page = browser.new_page(viewport={"width": 390, "height": 844})
+                page = browser.new_page(viewport={"width": 390, "height": 844}, accept_downloads=True)
                 errors = []
                 loaded_modules = []
                 page.on("request", lambda req: loaded_modules.append(req.url) if ".mjs" in req.url else None)
@@ -48,6 +48,20 @@ def exercise(site):
                 page.get_by_role("link", name="Preparar receta", exact=True).first.click()
                 expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 expect(page.locator("#recipe-title")).to_have_text(recipes[identity]["title"])
+                expect(page.locator("#preparation-feedback")).to_be_visible()
+                expect(page.locator("#feedback-status")).to_be_empty()
+                page.locator("#feedback-export").click()
+                expect(page.locator("#feedback-status")).to_contain_text("Escribe alguna observación")
+                page.locator("#feedback-result").fill("Resultado observado: bien")
+                with page.expect_download() as note_download:
+                    page.locator("#feedback-export").click()
+                note_file = root / "observation.md"
+                note_download.value.save_as(note_file)
+                exported_note = note_file.read_text(encoding="utf-8")
+                assert "Preparación no confirmada" in exported_note
+                assert "Resultado observado: bien" in exported_note
+                assert identity in exported_note and manifest["source_commit"] in exported_note
+                page.locator("#feedback-status").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
                 assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
                 assert any("culinary-explorer-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
