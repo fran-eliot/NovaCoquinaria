@@ -4,8 +4,8 @@ tipo: receta
 titulo: Txangurro a la donostiarra gratinado
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -59,15 +59,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Fragmentos duros en el relleno | Restos de caparazón o cartílago en el centollo cocido | Revisar minuciosamente los 400 g de carne antes de mezclar con el sofrito |
+| Relleno acuoso | Tomate o verduras insuficientemente reducidos | Reducir el sofrito antes de incorporar el centollo |
+| Carne de centollo seca | Gratinado prolongado de producto ya cocido | Gratinar solo hasta obtener la superficie dorada prevista sin recalentar en exceso |
+| Sabor demasiado salado | Centollo comercial ya sazonado | Probar el relleno antes de añadir sal |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+Partir de **carne de centollo previamente cocida**, mantenerla refrigerada conforme al proveedor y evitar contaminación cruzada durante la extracción y el montaje. Servir el txangurro recién gratinado; si sobra, enfriarlo rápidamente en porciones poco profundas y refrigerarlo tapado. Recalentar completamente las porciones destinadas a servirse calientes y consumir pronto. Si se utiliza mantequilla opcional, atender a su etiquetado y a los alérgenos lácteos.
 
 ## Relaciones dentro del SGCC
 
