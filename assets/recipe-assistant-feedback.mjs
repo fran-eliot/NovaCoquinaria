@@ -8,6 +8,14 @@ export function feedbackMarkdown(recipe, values) {
     throw new Error("Referencia de receta inválida");
   if (!values || !["confirmada", "no_confirmada"].includes(values.status))
     throw new Error("Estado de preparación inválido");
+  const date = trim(values.date);
+  if (date) {
+    if (values.status !== "confirmada" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+      throw new Error("Indica una fecha válida de una preparación confirmada");
+    const parsed = new Date(date + "T00:00:00Z");
+    if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== date)
+      throw new Error("Fecha de elaboración inválida");
+  }
   for (const key of ["result", "differences", "proposal", "preference"])
     if (typeof values[key] !== "string" || values[key].length > 5000)
       throw new Error("Nota inválida o demasiado extensa");
@@ -22,7 +30,7 @@ export function feedbackMarkdown(recipe, values) {
     "- Estado declarado: " + (values.status === "confirmada" ?
       "Preparación confirmada por quien redacta esta nota" :
       "Preparación no confirmada; anotaciones y propuestas sin prueba acreditada"),
-    "- Fecha efectiva de preparación: no documentada",
+    "- Fecha efectiva de preparación: " + (date || "no documentada"),
     "- Procedencia: declaración del usuario de esta exportación, pendiente de revisión editorial",
     "",
     "## Resultado observado o comentario",
@@ -77,6 +85,22 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
     fields[id] = control;
   }
   field("status", "¿Has preparado esta receta?", false);
+  const dateWrapper = document.createElement("div");
+  dateWrapper.className = "feedback-field";
+  const dateLabel = document.createElement("label");
+  dateLabel.htmlFor = "feedback-date";
+  dateLabel.textContent = "Fecha real de elaboración (opcional, solo si se conoce)";
+  const dateInput = document.createElement("input");
+  dateInput.id = dateLabel.htmlFor;
+  dateInput.type = "date";
+  dateInput.disabled = true;
+  fields.status.addEventListener("change", () => {
+    dateInput.disabled = fields.status.value !== "confirmada";
+    if (dateInput.disabled) dateInput.value = "";
+  });
+  dateWrapper.append(dateLabel, dateInput);
+  panel.append(dateWrapper);
+  fields.date = dateInput;
   field("result", "Resultado y valoración (solo si constan)");
   field("differences", "Cambios que realmente realizaste o recuerdas");
   field("preference", "Mejor versión conocida y variantes");
