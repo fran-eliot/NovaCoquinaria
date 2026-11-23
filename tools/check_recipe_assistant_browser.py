@@ -136,6 +136,15 @@ def exercise(site):
                 assert not warns_on_exit()
                 page.locator("#feedback-message").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
+                nav = page.get_by_role("navigation", name="Secciones de preparación")
+                expect(nav.get_by_role("link")).to_have_count(4)
+                for destination, section in [
+                    ("Ingredientes", "ingredients-section"),
+                    ("Elaboración guiada", "steps-section"),
+                ]:
+                    nav.get_by_role("link", name=destination, exact=True).click()
+                    assert page.url.endswith("#" + section)
+                    expect(page.locator("#" + section)).to_be_visible()
                 expect(page.locator("#feedback-shortcut")).to_have_attribute("href", "#preparation-feedback")
                 assert page.evaluate("""() => {
                     const section = document.querySelector('#preparation-feedback');
