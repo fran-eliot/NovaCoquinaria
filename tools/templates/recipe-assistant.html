@@ -31,12 +31,12 @@
 </section>
 <div class="cooking-layout">
 <section class="panel" id="ingredients-section" aria-labelledby="ingredients-heading">
-<h2 id="ingredients-heading">Ingredientes</h2><p id="ingredient-progress" role="status"></p><div id="ingredients"></div>
+<h2 id="ingredients-heading">Ingredientes</h2><p id="ingredient-progress" role="status"></p><progress id="ingredient-progress-bar" aria-label="Progreso de ingredientes marcados" value="0" max="1" hidden></progress><div id="ingredients"></div>
 <details><summary>Seleccionar ingredientes para comprar</summary><p class="help">Selección independiente del progreso de cocina. No identifica faltantes.</p><p id="shopping-scaling-note" class="help"></p><div class="actions"><button id="shopping-select-all" type="button" class="secondary">Seleccionar todos</button><button id="shopping-select-required" type="button" class="secondary">Solo requeridos</button><button id="shopping-clear" type="button" class="secondary">Limpiar</button></div><p id="shopping-count" role="status"></p><p id="shopping-proposals" class="help" role="status"></p><div id="shopping-selection"></div><button id="send-shopping" type="button" disabled>Revisar en mis compras</button><p id="shopping-status" role="status"></p></details>
 <h3>Mise en place declarada</h3><div id="mise"></div></section>
 <div class="cooking-column">
 <section class="panel" id="steps-section" aria-labelledby="steps-heading">
-<h2 id="steps-heading">Elaboración guiada</h2><p id="step-progress" role="status"></p>
+<h2 id="steps-heading">Elaboración guiada</h2><p id="step-progress" role="status"></p><progress id="step-progress-bar" aria-label="Progreso de pasos marcados" value="0" max="1" hidden></progress>
 <div id="step-controls" hidden><label class="step-picker">Ir al paso <select id="step-picker" aria-label="Seleccionar paso de elaboración"></select></label><h3 id="step-title" tabindex="-1"></h3><div id="step-text"></div><p id="step-location" class="meta"></p>
 <label class="check-row"><input type="checkbox" id="step-done">Marcar este paso como completado</label>
 <div class="actions"><button id="previous" type="button">Anterior</button><button id="next-step" type="button">Siguiente</button><button id="complete-next-step" type="button" class="secondary">Completar y siguiente</button><button id="first-pending-step" type="button" class="secondary">Ir al primer paso pendiente</button></div></div>
