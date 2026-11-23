@@ -21,3 +21,5 @@
 #preparation-feedback .feedback-optional{border-top:1px solid var(--line);margin-block:1rem;padding-top:.75rem}
 #preparation-feedback .feedback-optional summary{cursor:pointer;font-weight:600;padding:.45rem 0}
 #preparation-feedback .feedback-optional summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+#preparation-feedback #feedback-clear{margin-inline-start:.6rem;margin-block:.4rem}
