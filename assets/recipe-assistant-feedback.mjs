@@ -10,7 +10,7 @@ export function feedbackMarkdown(recipe, values) {
     throw new Error("Estado de preparación inválido");
   const date = trim(values.date);
   if (date) {
-    if (values.status !== "confirmada" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+    if (values.status !== "confirmada" || !/^\d{4}-\d{2}-\d{2}$/.test(date))
       throw new Error("Indica una fecha válida de una preparación confirmada");
     const parsed = new Date(date + "T00:00:00Z");
     if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== date)
