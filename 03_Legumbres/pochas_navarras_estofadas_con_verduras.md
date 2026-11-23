@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pochas navarras estofadas con verduras
 categoria: Legumbres
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -60,13 +60,14 @@ etiquetas:
 
 | Resultado | Posible causa | Ajuste para la próxima elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Pochas duras después del tiempo orientativo | Variedad, madurez o cocción insuficiente de alubia fresca o congelada | Mantener hervor suave hasta que el interior de todas las pochas esté completamente tierno, sin equipararlas a legumbres de conserva |
+| Pochas abiertas o deshechas | Ebullición intensa o remoción brusca | Mover la cazuela suavemente y comprobar el punto con antelación |
+| Caldo demasiado aguado | Agua inicial excesiva o sofrito de tomate insuficientemente reducido | Ajustar el líquido caliente poco a poco y mantener un hervor suave sin secar las pochas |
+| Sabor demasiado salado | Sal añadida antes de reducir el guiso | Sazonar al final, una vez comprobada la cocción de la legumbre |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+Mantener **pochas frescas o congeladas sin cocer** según su presentación comercial y cocinarlas completamente antes del consumo. Tras el estofado, enfriar rápidamente las sobras de pochas y hortalizas en recipientes poco profundos y conservarlas tapadas en frigorífico. No dejarlas durante horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio. El manejo higiénico y el frío siguen siendo necesarios también para un guiso exclusivamente vegetal.
 
 ## Relaciones dentro del SGCC
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Bibimbap doméstico de verduras y ternera
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-22
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -53,9 +53,9 @@ Preparación de referencia de inspiración asiática centrada en **cocción sepa
 
 ## Puntos críticos
 
-- El montaje no debe dejar ingredientes cocinados durante horas a temperatura ambiente. El gochujang suele contener trigo y soja y no equivale exactamente al chile seco.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- Montar y servir el bibimbap con **arroz recién cocido y caliente** o arroz previamente enfriado y refrigerado de forma segura; no mantener arroz y demás componentes cocinados durante horas a temperatura ambiente.
+- Cocinar completamente la **ternera en tiras** y los **tres huevos**, manteniendo los utensilios de carne cruda separados de las verduras ya listas para el servicio.
+- El gochujang opcional puede contener trigo y soja y no equivale exactamente al chile seco. Comprobar el etiquetado de la salsa y añadirla al servir, sin confundirla con una salsa idéntica al chile seco.
 
 ## Diagnóstico
 

@@ -4,8 +4,8 @@ tipo: receta
 titulo: Sopa de pescado vasca con sopako
 categoria: Pescados y Mariscos
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -62,15 +62,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Espinas o restos en la sopa | Caldo de pescado de roca insuficientemente colado o pescado desmigado sin revisar | Colar cuidadosamente el fumet y comprobar de nuevo el pescado cocinado antes de servir |
+| Sopa demasiado espesa | Pan sopako en exceso para el caldo realmente disponible | Incorporar el pan medido y ajustar la textura con fumet limpio y caliente |
+| Sopa sin cuerpo | Sofrito poco reducido o pan insuficientemente integrado | Reducir el tomate como indica la receta y cocinar el pan hasta dar cuerpo sin convertir la sopa en puré espeso |
+| Almejas opcionales no abiertas | Bivalvos que no han abierto durante su cocción | Desechar las almejas cerradas; usar solo producto de procedencia autorizada |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Mantener **pescados y almejas opcionales** refrigerados hasta cocinarlos, revisando su procedencia y retirando espinas y conchas no aptas antes de servir. Enfriar pronto las sobras de sopa con pan y pescado cocinado en recipientes poco profundos y refrigerarlas tapadas; no conservar durante horas la cazuela templada. Recalentar completamente las porciones destinadas al servicio y consumir en un plazo corto. El brandy opcional no convierte la sopa en conserva.
 
 ## Relaciones dentro del SGCC
 

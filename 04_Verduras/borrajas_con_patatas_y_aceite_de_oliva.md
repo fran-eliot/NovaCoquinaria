@@ -4,8 +4,8 @@ tipo: receta
 titulo: Borrajas con patatas y aceite de oliva
 categoria: Verduras
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -53,15 +53,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para la próxima elaboración |
+| Resultado | Posible causa | Ajuste para otra elaboración |
 |---|---|---|
-| Textura demasiado dura | Falta de cocción o corte excesivamente grueso | Comprobar el interior y prolongar la cocción con suavidad |
-| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Corregir hidratación y reducción sin resecar |
-| Sabor desequilibrado | Sal, acidez o grasa excesivas | Rectificar gradualmente después de probar |
+| Tallos de borraja fibrosos | Limpieza insuficiente o tallos gruesos con poca cocción | Retirar partes duras, cortar en tramos uniformes y comprobar su ternura |
+| Patatas demasiado blandas | Dados pequeños o exceso de cocción tras incorporar borraja | Ajustar el tamaño de los trozos y comprobar su punto durante la cocción conjunta |
+| Verduras acuosas al servir | Escurrido insuficiente o exceso del agua de cocción reservada | Escurrir primero y reincorporar solo unas cucharadas si se desea |
+| Aceite o ajo con sabor amargo | Ajo opcional tostado en exceso | Aromatizar suavemente el aceite sin quemar las láminas |
 
 ## Conservación
 
-Consumir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescados, crustáceos, huevos o lácteos necesitan cadena de frío y manejo higiénico. No mantener alimentos perecederos varias horas a temperatura ambiente; recalentar por completo las raciones destinadas a consumirse calientes.
+Servir preferentemente recién cocinadas las **borrajas con patatas**. Enfriar pronto las sobras en recipientes poco profundos, mantenerlas tapadas en frigorífico y consumirlas en un plazo corto. Recalentar completamente las porciones que vayan a servirse calientes. Utilizar borrajas alimentarias correctamente identificadas y lavadas antes de la cocción.
 
 ## Relaciones dentro del SGCC
 
