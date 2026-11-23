@@ -165,6 +165,17 @@ def exercise(site):
                 assert page.locator("#context-text li").count() > 0
                 expect(page.locator("#context-text")).to_contain_text("74 °C")
                 expect(page.locator("#mise")).to_contain_text("Mise en place")
+                expect(page.locator("#step-picker option")).to_have_count(9)
+                expect(page.locator("#step-picker")).to_have_value("1")
+                page.locator("#step-picker").select_option("7")
+                expect(page.locator("#step-title")).to_have_text("Paso 7 de 9")
+                expect(page.locator("#step-picker")).to_have_value("7")
+                expect(page.locator("#step-progress")).to_contain_text("0 de 9")
+                expect(page.locator("#step-title")).to_be_focused()
+                page.locator("#previous").click()
+                expect(page.locator("#step-picker")).to_have_value("6")
+                page.locator("#step-picker").select_option("1")
+                expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
                 expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
                 assert page.evaluate("""async () => {
                     const {createCookingSession} = await import('./assets/recipe-assistant-session.mjs');
