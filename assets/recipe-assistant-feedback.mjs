@@ -57,7 +57,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   heading.id = "preparation-feedback-heading";
   heading.textContent = "Notas tras la preparación";
   const intro = document.createElement("p");
-  intro.textContent = "Exporta una nota para revisar después. No se guarda ni se envía; una propuesta no equivale a una prueba realizada.";
+  intro.textContent = "Copia o descarga la nota antes de salir. No se guarda ni se envía; el navegador avisará si hay cambios sin exportar. Una propuesta no equivale a una prueba realizada.";
   panel.append(heading, intro);
   const fields = {};
   function field(id, labelText, multiline = true) {
@@ -124,6 +124,16 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   message.setAttribute("role", "status");
   const note = () => feedbackMarkdown(recipe,
     Object.fromEntries(Object.entries(fields).map(([key, control]) => [key, control.value])));
+  const currentValues = () => JSON.stringify(
+    Object.fromEntries(Object.entries(fields).map(([key, control]) => [key, control.value])));
+  const initialValues = currentValues();
+  let exportedValues = initialValues;
+  const hasUnsavedNote = () => currentValues() !== initialValues && currentValues() !== exportedValues;
+  window.addEventListener("beforeunload", event => {
+    if (!hasUnsavedNote()) return;
+    event.preventDefault();
+    event.returnValue = "";
+  });
   download.addEventListener("click", () => {
     try {
       const markdown = note();
@@ -133,6 +143,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       anchor.download = "observacion-" + recipe.id + ".md";
       panel.append(anchor);
       anchor.click();
+      exportedValues = currentValues();
       anchor.remove();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
       message.textContent = "Nota exportada. Revísala antes de proponer cambios en el repositorio.";
@@ -149,6 +160,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       const markdown = note();
       if (!navigator.clipboard?.writeText) throw new Error("Portapapeles no disponible");
       await navigator.clipboard.writeText(markdown);
+      exportedValues = currentValues();
       message.textContent = "Nota copiada. Revísala antes de incorporarla al recetario.";
     } catch (error) {
       message.textContent = error instanceof Error ? error.message : "No se pudo copiar la nota";
@@ -193,6 +205,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       control.value = key === "status" ? "no_confirmada" : "";
     fields.date.disabled = true;
     optional.open = false;
+    exportedValues = initialValues;
     invalidate();
     message.textContent = "Formulario limpio.";
     fields.status.focus();
