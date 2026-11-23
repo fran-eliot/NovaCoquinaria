@@ -237,6 +237,16 @@ function renderRecipe(r) {
     $("ingredient-filter-empty").hidden=!onlyPending || ingredientRows.length===0 || visibleGroups.size>0;
   }
   $("ingredient-only-pending").addEventListener("change",refreshIngredientFilter);
+  $("mark-all-ingredients").addEventListener("click",()=>{
+    const state=session.snapshot();
+    if(state.ingredientCount===0 || state.prepared.length===state.ingredientCount)return;
+    if(!confirm("¿Marcar todos los ingredientes como preparados? Puedes desmarcarlos individualmente."))return;
+    session.markAllIngredients();
+    for(const input of inputs)input.checked=true;
+    refreshIngredientFilter();
+    progress();
+    $("ingredient-progress").focus();
+  });
   $("reset-ingredients").addEventListener("click",()=>{
     if(!session.snapshot().prepared.length)return;
     if(!confirm("¿Restablecer las marcas de ingredientes? Los pasos y el temporizador se conservarán."))return;
@@ -283,6 +293,7 @@ function renderRecipe(r) {
     const s=session.snapshot();
     $("ingredient-progress").textContent=s.prepared.length+" de "+s.ingredientCount+" ingredientes marcados";
     $("reset-ingredients").disabled=s.prepared.length===0;
+    $("mark-all-ingredients").disabled=s.ingredientCount===0 || s.prepared.length===s.ingredientCount;
     $("step-progress").textContent=s.stepCount?s.completed.length+" de "+s.stepCount+" pasos marcados":"No se reconocieron pasos; consulta el contexto completo.";
     $("reset-steps").disabled=s.completed.length===0;
     for(const [id,count,total] of [
