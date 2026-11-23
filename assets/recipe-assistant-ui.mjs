@@ -261,6 +261,15 @@ function renderRecipe(r) {
     const s=session.snapshot();
     $("ingredient-progress").textContent=s.prepared.length+" de "+s.ingredientCount+" ingredientes marcados";
     $("step-progress").textContent=s.stepCount?s.completed.length+" de "+s.stepCount+" pasos marcados":"No se reconocieron pasos; consulta el contexto completo.";
+    for(const [id,count,total] of [
+      ["ingredient-progress-bar",s.prepared.length,s.ingredientCount],
+      ["step-progress-bar",s.completed.length,s.stepCount]
+    ]){
+      const bar=$(id);
+      bar.hidden=total===0;
+      bar.max=Math.max(1,total);
+      bar.value=count;
+    }
     $("step-controls").hidden=s.current===null;
     if(s.current===null)return;
     const step=r.steps[s.current-1];
