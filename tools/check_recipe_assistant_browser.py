@@ -55,6 +55,14 @@ def exercise(site):
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-result").fill("Resultado observado: bien")
+                expect(page.locator("#feedback-preference")).to_be_hidden()
+                expect(page.locator("#feedback-proposal")).to_be_hidden()
+                page.locator("#feedback-optional summary").click()
+                expect(page.locator("#feedback-preference")).to_be_visible()
+                page.locator("#feedback-preference").fill("Conservar la versión original")
+                page.locator("#feedback-proposal").fill("Pendiente de probar: menos sal")
+                page.locator("#feedback-optional summary").click()
+                expect(page.locator("#feedback-preference")).to_be_hidden()
                 expect(page.locator("#feedback-preview")).to_be_hidden()
                 page.locator("#feedback-preview-button").click()
                 expect(page.locator("#feedback-preview")).to_be_visible()
@@ -67,6 +75,8 @@ def exercise(site):
                 exported_note = note_file.read_text(encoding="utf-8")
                 assert "Preparación no confirmada" in exported_note
                 assert "Resultado observado: bien" in exported_note
+                assert "Conservar la versión original" in exported_note
+                assert "Pendiente de probar: menos sal" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
                 assert "Fecha efectiva de preparación: no documentada" in exported_note
                 assert page.locator("#feedback-preview").text_content() == exported_note
