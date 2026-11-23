@@ -211,6 +211,8 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
     fields.status.focus();
   });
   panel.append(previewButton, download, copy, clear, message, preview);
-  host.append(panel);
+  const context = document.getElementById("context");
+  if (context?.parentElement === host) host.insertBefore(panel, context);
+  else host.append(panel);
   return panel;
 }
