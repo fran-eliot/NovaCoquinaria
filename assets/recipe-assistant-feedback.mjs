@@ -57,7 +57,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   heading.id = "preparation-feedback-heading";
   heading.textContent = "Notas tras la preparación";
   const intro = document.createElement("p");
-  intro.textContent = "Exporta una nota para revisar después. No se guarda ni se envía; una propuesta no equivale a una prueba realizada.";
+  intro.textContent = "Copia o descarga la nota antes de salir. No se guarda ni se envía; el navegador avisará si hay cambios sin exportar. Una propuesta no equivale a una prueba realizada.";
   panel.append(heading, intro);
   const fields = {};
   function field(id, labelText, multiline = true) {
