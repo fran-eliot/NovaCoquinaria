@@ -52,6 +52,8 @@ def exercise(site):
                 expect(page.locator("#feedback-message")).to_be_empty()
                 page.locator("#feedback-export").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
+                page.locator("#feedback-copy").click()
+                expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-result").fill("Resultado observado: bien")
                 with page.expect_download() as note_download:
                     page.locator("#feedback-export").click()
