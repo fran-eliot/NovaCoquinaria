@@ -4,8 +4,8 @@ tipo: receta
 titulo: Shrub de frutos rojos y vinagre de manzana
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -53,15 +53,16 @@ Preparación de referencia basada en **maceración refrigerada y mezcla ácida e
 
 ## Diagnóstico
 
-| Observación | Causa probable | Ajuste para otra prueba |
+| Resultado | Posible causa | Ajuste para una próxima prueba |
 |---|---|---|
-| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |
-| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |
-| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |
+| Bebida excesivamente ácida | Vinagre de manzana más intenso que el previsto | Probar el concentrado antes de diluirlo y registrar la marca utilizada |
+| Dulzor dominante | Fruta muy dulce o azúcar añadido sin valorar la acidez | Ajustar el equilibrio de los 75 g de azúcar y los 70 ml de vinagre en una futura prueba documentada |
+| Fruta o semillas en la bebida | Filtrado insuficiente del concentrado | Filtrar según la textura deseada antes de añadir el agua con gas |
+| Pérdida rápida de burbujas | Agua con gas poco fría o incorporada demasiado pronto | Añadir el agua carbonatada fría justo antes del servicio |
 
 ## Conservación
 
-Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.
+Preparar el concentrado con **frutos rojos seguros para consumo y vinagre alimentario**, siguiendo las instrucciones de cocción del proveedor si se emplea fruta congelada que la requiera. Refrigerar el concentrado tapado y consumirlo pronto: su acidez **no lo convierte en una conserva estable** a temperatura ambiente. Añadir el agua con gas refrigerada al servir y no conservar la bebida terminada durante horas fuera de frío.
 
 ## Relaciones dentro del SGCC
 

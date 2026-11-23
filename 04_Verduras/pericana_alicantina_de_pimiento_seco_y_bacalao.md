@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pericana alicantina de pimiento seco y bacalao
 categoria: Verduras
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-18
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-espanola
   - tradicional
@@ -56,15 +56,16 @@ etiquetas:
 
 ## Diagnóstico
 
-| Resultado | Posible causa | Ajuste para próxima prueba |
+| Resultado | Posible causa | Ajuste para una próxima elaboración |
 |---|---|---|
-| Ingrediente principal duro | Tiempo insuficiente o tamaños desiguales | Comprobar el punto interior y ajustar el tiempo |
-| Exceso de humedad | Demasiado líquido o reducción incompleta | Escurrir o reducir suavemente, según el plato |
-| Sabor desequilibrado | Sal, aceite, acidez o especias en exceso | Rectificar tras probar y registrar proporciones |
+| Bacalao demasiado salado | Desalado insuficiente o sal añadida antes de probar | Desalar refrigerado según grosor y probar antes de sazonar |
+| Pimiento seco amargo | Ñoras o pimientos tostados en exceso | Controlar el calor y retirar los pimientos antes de que se quemen |
+| Preparación demasiado aceitosa | Aceite añadido sin valorar la absorción del pescado y pimiento | Incorporarlo gradualmente dentro de los 100–130 ml propuestos |
+| Textura muy seca | Pescado y pimiento con poca humedad después de cocinarlos | Ajustar con pequeñas cantidades de los 20–40 ml de agua caliente previstos |
 
 ## Conservación
 
-Servir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. No mantener durante horas a temperatura ambiente las preparaciones con huevos, lácteos, carnes, pescado, mariscos o verduras cocidas. Recalentar completamente las raciones destinadas al servicio caliente.
+Mantener el **bacalao previamente desalado** refrigerado hasta su cocción y seguir las instrucciones del producto. Consumir preferentemente la pericana recién preparada; si sobra, enfriar rápidamente en recipiente poco profundo y conservar tapada en frigorífico. Recalentar completamente las porciones que se vayan a servir calientes y consumir pronto. El aceite de oliva no convierte el pescado cocinado en una conserva estable.
 
 ## Relaciones dentro del SGCC
 

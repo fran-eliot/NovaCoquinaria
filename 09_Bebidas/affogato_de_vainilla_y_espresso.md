@@ -4,8 +4,8 @@ tipo: receta
 titulo: Affogato de vainilla y espresso
 categoria: Bebidas
 estado: borrador
-version: 1.0.0
-ultima_revision: 2026-11-15
+version: 1.0.1
+ultima_revision: 2026-11-23
 etiquetas:
   - bebidas
   - receta-propuesta
@@ -51,15 +51,16 @@ Preparación de referencia basada en **extracción de espresso y montaje sobre h
 
 ## Diagnóstico
 
-| Observación | Causa probable | Ajuste para otra prueba |
+| Resultado | Posible causa | Ajuste para la próxima prueba |
 |---|---|---|
-| Sabor desequilibrado | Acidez, sal o azúcar en exceso | Incorporar condimentos progresivamente y probar |
-| Textura espesa o separación | Hidratación, temperatura o mezcla insuficiente | Ajustar proporción y volver a mezclar al servir |
-| Aroma plano | Materia prima poco aromática o extracción breve | Revisar frescura y método de extracción |
+| Helado totalmente fundido antes de servir | Espresso vertido con demasiada antelación | Montar y servir inmediatamente para mantener el contraste de temperaturas |
+| Café excesivamente amargo | Extracción demasiado prolongada o café muy concentrado | Revisar la extracción de los espressos antes de cambiar la dosis de helado |
+| Conjunto demasiado dulce | Helado comercial muy azucarado o chocolate opcional en exceso | Probar los productos antes de modificar la proporción entre espresso y helado |
+| Presentación sin contraste | Helado ablandado antes del montaje | Mantener las bolas congeladas y añadir el café justo al servir |
 
 ## Conservación
 
-Preparar con higiene y servir preferiblemente recién hecho. Refrigerar sin demora las bebidas con fruta cortada, lácteos o extractos vegetales, y mantener el helado congelado hasta el montaje. Las maceraciones caseras con vinagre y las bebidas ácidas **no son conservas estables a temperatura ambiente**.
+Mantener el **helado comercial congelado** conforme al etiquetado hasta el montaje y preparar los espressos con agua potable y utensilios limpios. Servir el affogato **en el momento de verter el café**, sin dejar que permanezca durante horas a temperatura ambiente. No volver a congelar una ración ya mezclada y derretida; esta elaboración no incluye fruta cortada ni maceraciones con vinagre.
 
 ## Relaciones dentro del SGCC
 

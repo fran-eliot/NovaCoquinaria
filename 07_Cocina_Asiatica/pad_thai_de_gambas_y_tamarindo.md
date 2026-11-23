@@ -4,8 +4,8 @@ tipo: receta
 titulo: Pad thai de gambas y tamarindo
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-22
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -53,9 +53,9 @@ Preparación de referencia de inspiración asiática centrada en **hidratación 
 
 ## Puntos críticos
 
-- La pasta de tamarindo tiene concentraciones distintas según fabricante; dosificar por acidez real. No servir gambas ni huevo poco cocinados.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- La **pasta de tamarindo** varía mucho en concentración; ajustar acidez y azúcar después de probar la salsa y seguir el envase para hidratar los fideos de arroz.
+- Mantener refrigeradas las **gambas crudas y los huevos** hasta cocinarlos; las gambas deben quedar completamente hechas y el huevo completamente cuajado en esta versión.
+- Lavar y manipular higiénicamente los brotes de soja frescos y evitar contaminación cruzada con marisco crudo. Identificar alérgenos de crustáceos, huevo, pescado y cacahuete.
 
 ## Diagnóstico
 

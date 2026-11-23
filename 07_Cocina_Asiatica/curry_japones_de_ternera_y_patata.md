@@ -4,8 +4,8 @@ tipo: receta
 titulo: Curry japonés de ternera y patata
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-22
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -50,9 +50,9 @@ Preparación de referencia de inspiración asiática centrada en **guiso de tern
 
 ## Puntos críticos
 
-- El roux de curry japonés comercial ya contiene espesantes y sal, y no equivale a polvos de curry amarillo o verde. Añadirlo tras ablandar la carne y las hortalizas; respetar indicaciones del fabricante.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- El **roux japonés comercial** contiene espesantes y sal, y no equivale al curry en polvo; incorporarlo una vez ablandadas la ternera y las hortalizas, respetando la dosificación y los alérgenos del fabricante.
+- Mantener la **ternera cruda refrigerada**, separar utensilios de alimentos crudos y cocinados y comprobar que la carne esté completamente cocinada antes de servir.
+- Si se acompaña con arroz, cocinarlo y conservarlo de forma segura; el arroz no forma parte obligatoria del guiso y requiere atención especial si se prepara con antelación.
 
 ## Diagnóstico
 

@@ -1,5 +1,6 @@
 """Recorridos del planificador, enlaces de catálogo y aislamiento de estado."""
 import argparse
+from datetime import datetime, timezone
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
@@ -26,6 +27,8 @@ def exercise(site):
                 browser=p.chromium.launch()
                 ctx=browser.new_context(viewport={"width":390,"height":844},accept_downloads=True)
                 page=ctx.new_page()
+                # Keep calendar-dependent browser checks deterministic across CI dates.
+                page.clock.set_fixed_time(datetime(2026, 11, 21, 12, 0, tzinfo=timezone.utc))
                 errors=[]
                 page.on("pageerror",lambda e:errors.append(str(e)))
                 base=f"http://127.0.0.1:{server.server_port}/NovaCoquinaria/"
