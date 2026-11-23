@@ -61,6 +61,21 @@ def exercise(site):
                 assert "Preparación no confirmada" in exported_note
                 assert "Resultado observado: bien" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
+                assert "Fecha efectiva de preparación: no documentada" in exported_note
+                expect(page.locator("#feedback-date")).to_be_disabled()
+                page.locator("#feedback-status").select_option("confirmada")
+                expect(page.locator("#feedback-date")).to_be_enabled()
+                page.locator("#feedback-date").fill("2026-11-20")
+                with page.expect_download() as confirmed_download:
+                    page.locator("#feedback-export").click()
+                confirmed_file = root / "confirmed-observation.md"
+                confirmed_download.value.save_as(confirmed_file)
+                confirmed_note = confirmed_file.read_text(encoding="utf-8")
+                assert "Fecha efectiva de preparación: 2026-11-20" in confirmed_note
+                assert "Preparación confirmada" in confirmed_note
+                page.locator("#feedback-status").select_option("no_confirmada")
+                expect(page.locator("#feedback-date")).to_be_disabled()
+                assert page.locator("#feedback-date").input_value() == ""
                 page.locator("#feedback-message").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
                 assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
