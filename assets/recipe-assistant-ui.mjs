@@ -237,7 +237,7 @@ function renderRecipe(r) {
   }
   $("ingredient-only-pending").addEventListener("change",refreshIngredientFilter);
   for(const e of r.ingredients) {
-    if(e.group!==group){group=e.group;groupHeading=node("h3",group??"Sin grupo");$("ingredients").append(groupHeading);}
+    if(groupHeading===null || e.group!==group){group=e.group;groupHeading=node("h3",group??"Sin grupo");$("ingredients").append(groupHeading);}
     const label=node("label",undefined,"check-row"),input=node("input");
     input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();refreshIngredientFilter();});
     const ingredientText=inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]);
