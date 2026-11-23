@@ -356,6 +356,32 @@ def exercise(site):
                 expect(page.locator("#assistant")).to_be_visible(timeout=15000)
                 expect(page.locator("#ingredients input").first).not_to_be_checked()
                 expect(page.locator("#timer-status")).to_have_text("Inactivo")
+                # Matriz responsive de Chromium; no equivale a pruebas en dispositivos físicos.
+                for width, height in [(320, 740), (390, 844), (768, 1024), (1280, 900)]:
+                    page.set_viewport_size({"width": width, "height": height})
+                    expect(page.locator("#assistant")).to_be_visible()
+                    expect(page.locator("#ingredient-progress-bar")).to_be_visible()
+                    expect(page.locator("#step-progress-bar")).to_be_visible()
+                    expect(page.locator("#ingredient-filter-control")).to_be_visible()
+                    expect(page.locator("#step-picker")).to_be_visible()
+                    assert page.evaluate(
+                        "document.documentElement.scrollWidth <= document.documentElement.clientWidth"
+                    ), f"Desbordamiento horizontal a {width}px"
+                    assert page.evaluate("""() => [...document.querySelectorAll(
+                        '#ingredients-section, #steps-section, #preparation-feedback, #context'
+                    )].every(element => element.getBoundingClientRect().width > 0)""")
+                    for href in ["#ingredients-section", "#steps-section",
+                                 "#preparation-feedback", "#context"]:
+                        nav = page.locator(f'.assistant-section-nav a[href="{href}"]')
+                        expect(nav).to_be_visible()
+                        assert page.locator(href).count() == 1
+                page.set_viewport_size({"width": 390, "height": 844})
+                page.locator('.assistant-section-nav a[href="#steps-section"]').click()
+                expect(page).to_have_url(base + "recipe-assistant.html?id=REC-0017#steps-section")
+                expect(page.locator("#steps-section")).to_be_visible()
+                page.locator("#step-picker").select_option("3")
+                expect(page.locator("#step-title")).to_have_text("Paso 3 de 9")
+                expect(page.locator("#step-title")).to_be_focused()
                 page.locator("#source-link").click()
                 assert page.url.startswith(base) and page.url.endswith(".html")
                 expect(page.locator("h1").first).to_be_visible()
