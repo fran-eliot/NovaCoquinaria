@@ -50,11 +50,19 @@ def exercise(site):
                 expect(page.locator("#recipe-title")).to_have_text(recipes[identity]["title"])
                 expect(page.locator("#preparation-feedback")).to_be_visible()
                 expect(page.locator("#feedback-message")).to_be_empty()
+                def warns_on_exit():
+                    return page.evaluate("""() => {
+                        const event = new Event('beforeunload', {cancelable: true});
+                        window.dispatchEvent(event);
+                        return event.defaultPrevented;
+                    }""")
+                assert not warns_on_exit()
                 page.locator("#feedback-export").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-result").fill("Resultado observado: bien")
+                assert warns_on_exit()
                 expect(page.locator("#feedback-preference")).to_be_hidden()
                 expect(page.locator("#feedback-proposal")).to_be_hidden()
                 page.locator("#feedback-optional summary").click()
@@ -73,6 +81,7 @@ def exercise(site):
                 note_file = root / "observation.md"
                 note_download.value.save_as(note_file)
                 exported_note = note_file.read_text(encoding="utf-8")
+                assert not warns_on_exit()
                 assert "Preparación no confirmada" in exported_note
                 assert "Resultado observado: bien" in exported_note
                 assert "Conservar la versión original" in exported_note
@@ -81,6 +90,7 @@ def exercise(site):
                 assert "Fecha efectiva de preparación: no documentada" in exported_note
                 assert page.locator("#feedback-preview").text_content() == exported_note
                 page.locator("#feedback-result").fill("<img src=x onerror=alert(1)>")
+                assert warns_on_exit()
                 expect(page.locator("#feedback-preview")).to_be_hidden()
                 page.locator("#feedback-preview-button").click()
                 expect(page.locator("#feedback-preview")).to_contain_text("<img src=x onerror=alert(1)>")
@@ -90,16 +100,19 @@ def exercise(site):
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
                 copied_note = page.evaluate("navigator.clipboard.readText()")
+                assert not warns_on_exit()
                 assert copied_note == exported_note
                 expect(page.locator("#feedback-date")).to_be_disabled()
                 page.locator("#feedback-status").select_option("confirmada")
                 expect(page.locator("#feedback-date")).to_be_enabled()
                 page.locator("#feedback-date").fill("2026-11-20")
+                assert warns_on_exit()
                 with page.expect_download() as confirmed_download:
                     page.locator("#feedback-export").click()
                 confirmed_file = root / "confirmed-observation.md"
                 confirmed_download.value.save_as(confirmed_file)
                 confirmed_note = confirmed_file.read_text(encoding="utf-8")
+                assert not warns_on_exit()
                 assert "Fecha efectiva de preparación: 2026-11-20" in confirmed_note
                 assert "Preparación confirmada" in confirmed_note
                 page.locator("#feedback-status").select_option("no_confirmada")
@@ -120,6 +133,7 @@ def exercise(site):
                 assert not page.locator("#feedback-optional").evaluate("(element) => element.open")
                 expect(page.locator("#feedback-status")).to_be_focused()
                 expect(page.locator("#feedback-message")).to_contain_text("Formulario limpio")
+                assert not warns_on_exit()
                 page.locator("#feedback-message").is_visible()
                 assert page.url == base + "recipe-assistant.html?id=REC-0017"
                 assert any("recipe-assistant-ui." in u and not u.endswith("-ui.mjs") for u in loaded_modules)
