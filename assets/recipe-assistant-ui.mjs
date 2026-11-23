@@ -254,7 +254,7 @@ function renderRecipe(r) {
     for(const input of inputs)input.checked=false;
     refreshIngredientFilter();
     progress();
-    $("reset-ingredients").focus();
+    $("ingredients-heading").focus();
   });
   for(const e of r.ingredients) {
     if(groupHeading===null || e.group!==group){group=e.group;groupHeading=node("h3",group??"Sin grupo");$("ingredients").append(groupHeading);}
