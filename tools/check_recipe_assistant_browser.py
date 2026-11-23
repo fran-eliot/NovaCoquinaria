@@ -121,8 +121,10 @@ def exercise(site):
                 expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
                 assert warns_on_exit(), "Una edición posterior al inicio de la copia sigue pendiente"
                 page.evaluate("delete navigator.clipboard.writeText")
-                page.locator("#feedback-result").fill("Resultado observado: bien")
+                page.locator("#feedback-result").fill("Otra observación pendiente")
                 assert warns_on_exit()
+                page.locator("#feedback-result").fill("Resultado observado: bien")
+                assert not warns_on_exit(), "La nota vuelve a coincidir con la versión exportada"
                 page.locator("#feedback-message").evaluate("(element) => element.textContent = ''")
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
