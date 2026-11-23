@@ -27,6 +27,7 @@ export function createCookingSession(recipe) {
     if (checked) prepared.add(position); else prepared.delete(position);
     return snapshot();
   }
+  function resetIngredients() { prepared.clear(); return snapshot(); }
   function markStep(order, checked) {
     invariant(Number.isInteger(order) && order>=1 && order<=stepCount &&
       typeof checked==="boolean", "Paso inválido");
@@ -54,7 +55,7 @@ export function createCookingSession(recipe) {
     return snapshot();
   }
   function reset() { prepared.clear(); completed.clear(); current=stepCount?1:null; return snapshot(); }
-  return {snapshot, markIngredient, markStep, move, goToStep, firstPending, jumpToFirstPending, reset};
+  return {snapshot, markIngredient, resetIngredients, markStep, move, goToStep, firstPending, jumpToFirstPending, reset};
 }
 
 export function createManualTimer(now = () => performance.now()) {
