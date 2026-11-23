@@ -180,7 +180,24 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       message.textContent = error instanceof Error ? error.message : "No se pudo generar la vista previa";
     }
   });
-  panel.append(previewButton, download, copy, message, preview);
+  const clear = document.createElement("button");
+  clear.type = "button";
+  clear.id = "feedback-clear";
+  clear.textContent = "Limpiar nota";
+  clear.addEventListener("click", () => {
+    const hasContent = Object.entries(fields).some(([key, control]) =>
+      key !== "status" && typeof control.value === "string" && control.value.trim()) ||
+      fields.status.value !== "no_confirmada";
+    if (hasContent && !window.confirm("¿Descartar la nota actual? Los cambios no se guardan.")) return;
+    for (const [key, control] of Object.entries(fields))
+      control.value = key === "status" ? "no_confirmada" : "";
+    fields.date.disabled = true;
+    optional.open = false;
+    invalidate();
+    message.textContent = "Formulario limpio.";
+    fields.status.focus();
+  });
+  panel.append(previewButton, download, copy, clear, message, preview);
   host.append(panel);
   return panel;
 }
