@@ -17,3 +17,7 @@
 #preparation-feedback #feedback-preview-button{margin-block:.4rem;margin-inline-end:.6rem}
 #preparation-feedback #feedback-preview{white-space:pre-wrap;overflow-wrap:anywhere;max-height:26rem;overflow:auto;padding:1rem;border:1px solid var(--line);border-radius:.5rem;background:var(--bg);font-size:.9rem}
 #preparation-feedback #feedback-preview[hidden]{display:none}
+
+#preparation-feedback .feedback-optional{border-top:1px solid var(--line);margin-block:1rem;padding-top:.75rem}
+#preparation-feedback .feedback-optional summary{cursor:pointer;font-weight:600;padding:.45rem 0}
+#preparation-feedback .feedback-optional summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
