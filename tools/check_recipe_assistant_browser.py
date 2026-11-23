@@ -166,6 +166,24 @@ def exercise(site):
                 expect(page.locator("#context-text")).to_contain_text("74 °C")
                 expect(page.locator("#mise")).to_contain_text("Mise en place")
                 expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
+                assert page.evaluate("""async () => {
+                    const {createCookingSession} = await import('./assets/recipe-assistant-session.mjs');
+                    const recipe = {id:'REC-TEST', ingredients:[],steps:[{order:1},{order:2}]};
+                    const session = createCookingSession(recipe);
+                    if(session.firstPending()!==1) return false;
+                    session.markStep(1,true);
+                    if(session.firstPending()!==2) return false;
+                    session.jumpToFirstPending();
+                    if(session.snapshot().current!==2) return false;
+                    session.markStep(2,true);
+                    if(session.firstPending()!==null) return false;
+                    session.jumpToFirstPending();
+                    if(session.snapshot().current!==2) return false;
+                    session.markStep(1,false);
+                    if(session.firstPending()!==1) return false;
+                    session.jumpToFirstPending();
+                    return session.snapshot().current===1;
+                }""")
                 assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
                 assert page.locator("#context-text script, #context-text iframe").count() == 0
                 page.evaluate("""async () => { const {renderMarkdown}=await import(\'./assets/recipe-assistant-markdown.mjs\'); const div=document.createElement(\'div\'); renderMarkdown(div,\'<img src=x onerror=alert(1)> [texto](javascript:alert(1))\'); if(div.querySelector(\'img,script,a,iframe\')) throw Error(\'HTML activo\'); }""")
@@ -176,6 +194,12 @@ def exercise(site):
                 expect(page.locator("#ingredient-progress")).to_contain_text("1 de ")
                 page.locator("#step-done").check()
                 page.locator("#next-step").click()
+                expect(page.locator("#step-title")).to_have_text("Paso 2 de 9")
+                expect(page.locator("#step-title")).to_be_focused()
+                expect(page.locator("#step-done")).not_to_be_checked()
+                page.locator("#next-step").click()
+                expect(page.locator("#step-title")).to_have_text("Paso 3 de 9")
+                page.locator("#first-pending-step").click()
                 expect(page.locator("#step-title")).to_have_text("Paso 2 de 9")
                 expect(page.locator("#step-title")).to_be_focused()
                 expect(page.locator("#step-done")).not_to_be_checked()
