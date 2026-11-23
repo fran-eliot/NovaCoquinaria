@@ -144,7 +144,33 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
       message.textContent = error instanceof Error ? error.message : "No se pudo copiar la nota";
     }
   });
-  panel.append(download, copy, message);
+  const previewButton = document.createElement("button");
+  previewButton.type = "button";
+  previewButton.id = "feedback-preview-button";
+  previewButton.textContent = "Revisar nota Markdown";
+  const preview = document.createElement("pre");
+  preview.id = "feedback-preview";
+  preview.hidden = true;
+  preview.setAttribute("aria-label", "Vista previa de la nota Markdown");
+  const invalidate = () => {
+    preview.hidden = true;
+    preview.textContent = "";
+  };
+  for (const control of Object.values(fields)) {
+    control.addEventListener("input", invalidate);
+    control.addEventListener("change", invalidate);
+  }
+  previewButton.addEventListener("click", () => {
+    try {
+      preview.textContent = note();
+      preview.hidden = false;
+      message.textContent = "Vista previa actualizada.";
+    } catch (error) {
+      invalidate();
+      message.textContent = error instanceof Error ? error.message : "No se pudo generar la vista previa";
+    }
+  });
+  panel.append(previewButton, download, copy, message, preview);
   host.append(panel);
   return panel;
 }

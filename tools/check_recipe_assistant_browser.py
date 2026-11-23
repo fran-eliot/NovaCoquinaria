@@ -55,6 +55,11 @@ def exercise(site):
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Escribe alguna observación")
                 page.locator("#feedback-result").fill("Resultado observado: bien")
+                expect(page.locator("#feedback-preview")).to_be_hidden()
+                page.locator("#feedback-preview-button").click()
+                expect(page.locator("#feedback-preview")).to_be_visible()
+                expect(page.locator("#feedback-preview")).to_contain_text("Resultado observado: bien")
+                assert page.locator("#feedback-preview img, #feedback-preview script").count() == 0
                 with page.expect_download() as note_download:
                     page.locator("#feedback-export").click()
                 note_file = root / "observation.md"
@@ -64,6 +69,13 @@ def exercise(site):
                 assert "Resultado observado: bien" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
                 assert "Fecha efectiva de preparación: no documentada" in exported_note
+                assert page.locator("#feedback-preview").text_content() == exported_note
+                page.locator("#feedback-result").fill("<img src=x onerror=alert(1)>")
+                expect(page.locator("#feedback-preview")).to_be_hidden()
+                page.locator("#feedback-preview-button").click()
+                expect(page.locator("#feedback-preview")).to_contain_text("<img src=x onerror=alert(1)>")
+                assert page.locator("#feedback-preview img").count() == 0
+                page.locator("#feedback-result").fill("Resultado observado: bien")
                 page.context.grant_permissions(["clipboard-read", "clipboard-write"])
                 page.locator("#feedback-copy").click()
                 expect(page.locator("#feedback-message")).to_contain_text("Nota copiada")
