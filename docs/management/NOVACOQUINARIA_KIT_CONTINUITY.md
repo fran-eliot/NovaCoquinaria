@@ -2,12 +2,39 @@
 id: DOC-CONTINUIDAD-2026
 titulo: Kit de continuidad de NovaCoquinaria
 tipo: gestion
-version: 3.2.0
+version: 3.3.0
 estado: estable
-ultima_revision: 2026-11-22
+ultima_revision: 2026-11-23
 ---
 
 # Kit de continuidad de NovaCoquinaria
+
+## Estado vigente — Consolidación de Recipe Assistant (23-11-2026)
+
+**Este apartado es el corte operativo más reciente y prevalece sobre las propuestas y estados históricos que siguen.** El código y las notas del asistente evolucionaron después del diagnóstico documental CPFL-A; dicho documento sigue siendo evidencia histórica de su corte, no una descripción actual de la interfaz. La revisión de la [PR #401](https://github.com/fran-eliot/NovaCoquinaria/pull/401) confirma su fusión sobre `main` (merge `b1af2e26697036568380935586f2f600ede4e6c4`) y los tres workflows de PR en `success`: `Knowledge integrity`, `Knowledge audit` y `Culinary Explorer site`. Estos resultados **no equivalen a aceptación manual de la web pública ni a pruebas culinarias reales**.
+
+### Capacidades integradas tras el corte 3.2.0
+
+| Área | Evolución incorporada | Referencias |
+|---|---|---|
+| Observaciones culinarias locales | Generación de nota Markdown vinculada a ID, ruta y commit de referencia; declaración explícita de elaboración, fecha opcional solo si confirmada, resultado, diferencias, mejor versión y propuestas por probar | [#382](https://github.com/fran-eliot/NovaCoquinaria/pull/382), [#384](https://github.com/fran-eliot/NovaCoquinaria/pull/384) |
+| Salida y revisión de observaciones | Copia al portapapeles, descarga, vista previa textual segura y sección desplegable para variantes/propuestas; botón para limpiar con confirmación | [#385](https://github.com/fran-eliot/NovaCoquinaria/pull/385)–[#388](https://github.com/fran-eliot/NovaCoquinaria/pull/388) |
+| Protección de cambios | Advertencia del navegador al salir con observaciones sin copiar o descargar; copia asíncrona asociada exactamente a la versión de los campos que se envió al portapapeles | [#389](https://github.com/fran-eliot/NovaCoquinaria/pull/389), [#401](https://github.com/fran-eliot/NovaCoquinaria/pull/401) |
+| Acceso durante la cocina | Enlace al registro de observaciones y navegación directa entre ingredientes, elaboración guiada y contexto | [#390](https://github.com/fran-eliot/NovaCoquinaria/pull/390), [#391](https://github.com/fran-eliot/NovaCoquinaria/pull/391) |
+| Elaboración guiada | Salto al primer paso pendiente, completar y avanzar, selección directa de paso y etiquetas de completado/pendiente | [#392](https://github.com/fran-eliot/NovaCoquinaria/pull/392)–[#395](https://github.com/fran-eliot/NovaCoquinaria/pull/395) |
+| Progreso de sesión | Barras de avance de ingredientes y pasos; filtro de ingredientes pendientes; restablecimientos independientes, marcado conjunto de ingredientes | [#396](https://github.com/fran-eliot/NovaCoquinaria/pull/396)–[#400](https://github.com/fran-eliot/NovaCoquinaria/pull/400) |
+
+### Garantías, límites y decisiones de continuidad
+
+- **Fuente de verdad:** las recetas permanecen en Markdown canónico. Las observaciones exportadas son propuestas para una revisión editorial posterior; no alteran automáticamente las fichas ni autorizan reemplazar la mejor versión conocida.
+- **Evidencia de cocina:** una marca de ingrediente o paso, un temporizador finalizado y una nota no acreditan por sí mismos ejecución real, valoración ni seguridad alimentaria. Mantener separadas elaboraciones confirmadas, recuerdos y ajustes pendientes de probar.
+- **Persistencia:** las marcas de ingredientes y pasos, la navegación y el temporizador son efímeros. El formulario de observaciones no envía ni almacena notas: el usuario debe copiarlas o descargarlas; el aviso de salida depende del navegador. No confundirlo con el almacenamiento local independiente de Pantry, Shopping y Planner.
+- **Pruebas verificadas:** los tres workflows de PR #401 finalizaron correctamente tras una corrección de la regresión Chromium; el recorrido automatizado cubre estados de la interfaz, pero no sustituye una aceptación manual integral en móvil y escritorio de la versión pública.
+- **Publicación:** la última release **documentada y confirmada en el corte previo** es `v1.7.0`; esta sincronización no crea tag ni publica release. Confirmar de nuevo las releases vigentes y completar la revisión de integración antes de recomendar una publicación posterior.
+- **Prioridad inmediata:** cerrar el ciclo funcional con revisión transversal de UX, accesibilidad, navegación móvil, temporizador, copia/descarga, estados vacíos y diferencias entre progreso y evidencia culinaria. Evitar añadir nuevos controles sin una necesidad práctica identificada.
+- **Método:** desarrollo en ramas temáticas y PR; el propietario revisa, fusiona y elimina las ramas remotas. No publicar releases ni fusionar automáticamente.
+
+---
 
 > **Repositorio:** [fran-eliot/NovaCoquinaria](https://github.com/fran-eliot/NovaCoquinaria)  
 > **Arquitectura conceptual:** GASTRO — Sistema de Gestión del Conocimiento Culinario (SGCC)  
