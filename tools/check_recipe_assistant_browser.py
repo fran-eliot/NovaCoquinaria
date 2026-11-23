@@ -176,11 +176,15 @@ def exercise(site):
                 expect(page.locator("#step-picker")).to_have_value("6")
                 page.locator("#step-picker").select_option("1")
                 expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
-                expect(page.locator("#step-title")).to_have_text("Paso 1 de 9")
                 assert page.evaluate("""async () => {
                     const {createCookingSession} = await import('./assets/recipe-assistant-session.mjs');
                     const recipe = {id:'REC-TEST', ingredients:[],steps:[{order:1},{order:2}]};
                     const session = createCookingSession(recipe);
+                    try { session.goToStep(0); return false; } catch(error) {}
+                    try { session.goToStep(3); return false; } catch(error) {}
+                    session.goToStep(2);
+                    if(session.snapshot().current!==2) return false;
+                    session.goToStep(1);
                     if(session.firstPending()!==1) return false;
                     session.markStep(1,true);
                     if(session.firstPending()!==2) return false;
