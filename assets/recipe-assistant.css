@@ -33,3 +33,6 @@
 
 .step-picker{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:.65rem 0 1rem;font-weight:600}
 .step-picker select{max-width:100%;min-height:2.4rem;padding:.35rem .6rem;border:1px solid var(--line);border-radius:.4rem;background:var(--bg);color:inherit;font:inherit}
+
+#ingredient-progress-bar,#step-progress-bar{display:block;width:100%;height:.8rem;accent-color:var(--accent);margin:.5rem 0 1rem}
+#ingredient-progress-bar[hidden],#step-progress-bar[hidden]{display:none}
