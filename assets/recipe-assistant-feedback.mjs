@@ -83,6 +83,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
     wrapper.append(label, control);
     panel.append(wrapper);
     fields[id] = control;
+    return wrapper;
   }
   field("status", "¿Has preparado esta receta?", false);
   const dateWrapper = document.createElement("div");
@@ -103,8 +104,17 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   fields.date = dateInput;
   field("result", "Resultado y valoración (solo si constan)");
   field("differences", "Cambios que realmente realizaste o recuerdas");
-  field("preference", "Mejor versión conocida y variantes");
-  field("proposal", "Ajustes propuestos pendientes de probar");
+  const optional = document.createElement("details");
+  optional.id = "feedback-optional";
+  optional.className = "feedback-optional";
+  const optionalSummary = document.createElement("summary");
+  optionalSummary.textContent = "Variantes y propuestas (opcional)";
+  optional.append(optionalSummary);
+  optional.append(
+    field("preference", "Mejor versión conocida y variantes"),
+    field("proposal", "Ajustes propuestos pendientes de probar")
+  );
+  panel.append(optional);
   const download = document.createElement("button");
   download.type = "button";
   download.id = "feedback-export";
