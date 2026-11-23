@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Cordero al horno con romero y patatas\n\n## Descripción\n\nPreparación de referencia basada en **asado escalonado y control de jugos**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Asado escalonado y control de jugos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1,2 kg de paletilla de cordero con hueso;\n- 600 g de patatas en gajos grandes;\n- 1 cebolla grande (200 g);\n- 4 dientes de ajo;\n- 150 ml de agua o caldo suave;\n- 3 cucharadas de aceite de oliva;\n- 2 ramitas pequeñas de romero;\n- sal y pimienta;\n\n**Alérgenos:** Revisar caldo comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 175 °C, calor arriba y abajo.\n2. Cortar cebolla y patatas, disponer en fuente amplia y aliñar con parte del aceite y la sal.\n3. Secar el cordero y condimentar con ajo, romero, pimienta y aceite restante; colocar encima de las patatas.\n4. Añadir parte del líquido al fondo y asar orientativamente 75–110 minutos según pieza, horno y punto deseado, regando con jugos y añadiendo líquido si se seca.\n5. Comprobar con termómetro el centro de la parte carnosa sin tocar hueso y adecuar la cocción al corte; como referencia de seguridad para piezas enteras, alcanzar al menos 63 °C y reposar 3 minutos, aunque la textura tierna puede requerir más cocción.\n6. Reposar 10 minutos, retirar ramitas de romero y servir con patatas cocinadas y jugos.\n\n## Puntos críticos\n\n- El peso y el hueso alteran el tiempo. Las patatas deben cocinarse completamente; ajustar su tamaño o incorporarlas más tarde si el asado es muy prolongado.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Asado lento en horno](../00_Bases/03_Tecnicas/asado_lento_en_horno.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/cordero_al_horno_con_romero_y_patatas.html",
+  "id": "REC-0264",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "paletilla de cordero con hueso;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.2",
+        "min": "1.2",
+        "raw": "1,2 kg de paletilla de cordero con hueso;",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1,2 kg de paletilla de cordero con hueso;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas en gajos grandes;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de patatas en gajos grandes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de patatas en gajos grandes;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (200 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (200 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (200 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua o caldo suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua o caldo suave;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ramitas pequeñas de romero;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 ramitas pequeñas de romero;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 ramitas pequeñas de romero;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/cordero_al_horno_con_romero_y_patatas.md",
+  "source_sha256": "6cc370367cd578c80d3b8a8a4873871bb2e5de49cb099743aa2fbd07fded92ea",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 175 °C, calor arriba y abajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cortar cebolla y patatas, disponer en fuente amplia y aliñar con parte del aceite y la sal."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Secar el cordero y condimentar con ajo, romero, pimienta y aceite restante; colocar encima de las patatas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Añadir parte del líquido al fondo y asar orientativamente 75–110 minutos según pieza, horno y punto deseado, regando con jugos y añadiendo líquido si se seca."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Comprobar con termómetro el centro de la parte carnosa sin tocar hueso y adecuar la cocción al corte; como referencia de seguridad para piezas enteras, alcanzar al menos 63 °C y reposar 3 minutos, aunque la textura tierna puede requerir más cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Reposar 10 minutos, retirar ramitas de romero y servir con patatas cocinadas y jugos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/asado_lento_en_horno.html",
+      "label": "Asado lento en horno",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/asado_lento_en_horno.md"
+    }
+  ],
+  "title": "Cordero al horno con romero y patatas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

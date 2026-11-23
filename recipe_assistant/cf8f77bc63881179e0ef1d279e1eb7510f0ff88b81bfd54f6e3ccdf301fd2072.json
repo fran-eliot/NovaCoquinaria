@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 116,
+      "start_line": 15
+    },
+    "text": "\n# Calamares rellenos de verduras\n\n## Descripción\n\nTubos de calamar rellenos de un sofrito de hortalizas y tentáculos cocinados, terminados en salsa suave de tomate. El relleno se prepara antes para asegurar cocción uniforme.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 30 minutos |\n| Cocinado | 40–55 minutos |\n| Dificultad | Media |\n| Técnica principal | Relleno y guiso suave |\n\n## Ingredientes\n\n- 4 tubos de calamar medianos limpios, con sus tentáculos (700–850 g en total)\n- 1 cebolla mediana picada\n- 1 zanahoria pequeña en dados finos\n- 1/2 pimiento rojo picado\n- 2 dientes de ajo picados\n- 250 g de tomate triturado\n- 3 cucharadas de aceite de oliva virgen extra\n- 150–250 ml de caldo de pescado o agua\n- 1 cucharada de perejil picado\n- sal y pimienta negra\n- palillos aptos para uso culinario, si hacen falta\n\n**Alérgenos:** Moluscos (calamar); pescado si se utiliza caldo de pescado.\n\n## Mise en place\n\nDescongelar en refrigeración, verificar limpieza interior y retirar pluma; picar tentáculos. Cortar las verduras en dados pequeños y preparar una cazuela donde quepan los tubos sin apilar.\n\n## Elaboración\n\n### 1. Preparar relleno\n\nSofreír media cebolla, zanahoria y pimiento con una cucharada de aceite 8–10 minutos. Añadir los tentáculos picados y cocinarlos hasta que estén completamente hechos; reducir el agua que liberen.\n\n### 2. Templar y rellenar\n\nDejar que el relleno pierda calor intenso. Rellenar cada tubo solo hasta dos tercios de su capacidad, porque encoge al cocinar; cerrar con palillo si hace falta.\n\n### 3. Preparar salsa\n\nPochar el resto de cebolla y ajo con aceite restante; añadir tomate y reducir 8–10 minutos.\n\n### 4. Guisar\n\nIntroducir los calamares rellenos, añadir caldo suficiente para una salsa ligera y cocinar tapados a hervor suave 20–35 minutos, o hasta que el calamar y su interior estén completamente cocinados y tiernos.\n\n### 5. Servir\n\nRetirar palillos, dejar reposar brevemente y servir con salsa. Ajustar sal y perejil.\n\n## Puntos críticos\n\n- No rellenar en exceso: el tubo encoge y puede abrirse.\n- El relleno de tentáculos debe estar previamente cocinado; comprobar cocción final del conjunto.\n- Los palillos se retiran antes de servir para evitar accidentes.\n\n## Perfil esperado\n\nCalamar tierno con relleno vegetal húmedo pero no acuoso y salsa de tomate ligada.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con arroz cocido | Añadir 80 g al relleno tras cocción y refrigeración correctas; no usar arroz abandonado a temperatura ambiente |\n| Con setas | Sustituir parte del pimiento por setas bien doradas |\n| Sin tomate | Usar cebolla pochada y caldo como salsa |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Tubos abiertos | Relleno excesivo | No superar dos tercios |\n| Relleno aguado | Tentáculos y verduras sin reducir | Evaporar antes de montar |\n| Calamar duro | Cocción insuficiente para el tamaño | Prolongar suavemente comprobando textura |\n\n## Conservación\n\nRefrigerar el pescado o marisco crudo hasta su uso y descongelarlo en refrigeración. Enfriar las sobras sin demora, refrigerar en recipientes cerrados y consumirlas en un plazo corto. Recalentar completamente si se sirven de nuevo calientes; no dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Calamar](../11_Despensa/05_Mariscos/calamar.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n\n## Principio de NovaCoquinaria\n\n> En un calamar relleno, controlar la humedad y dejar espacio para la contracción evita que se abra.\n\n## Utilizado por\n\nReceta de referencia del módulo Pescados y Mariscos para relleno y guiso suave."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "30",
+      "min": "30",
+      "phase": "preparation",
+      "raw": "30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "55",
+      "min": "40",
+      "phase": "cooking",
+      "raw": "40–55 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/calamares_rellenos_de_verduras.html",
+  "id": "REC-0135",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tubos de calamar medianos limpios, con sus tentáculos (700–850 g en total)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 tubos de calamar medianos limpios, con sus tentáculos (700–850 g en total)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 tubos de calamar medianos limpios, con sus tentáculos (700–850 g en total)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana picada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria pequeña en dados finos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria pequeña en dados finos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria pequeña en dados finos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 pimiento rojo picado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 pimiento rojo picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado o agua",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de caldo de pescado o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de caldo de pescado o agua",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "palillos aptos para uso culinario, si hacen falta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "palillos aptos para uso culinario, si hacen falta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "palillos aptos para uso culinario, si hacen falta",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDescongelar en refrigeración, verificar limpieza interior y retirar pluma; picar tentáculos. Cortar las verduras en dados pequeños y preparar una cazuela donde quepan los tubos sin apilar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/calamares_rellenos_de_verduras.md",
+  "source_sha256": "658474f46130e1021fb2311ce195f88aa320c2037ad51d5b1433dca6d1c4defc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Preparar relleno\n\nSofreír media cebolla, zanahoria y pimiento con una cucharada de aceite 8–10 minutos. Añadir los tentáculos picados y cocinarlos hasta que estén completamente hechos; reducir el agua que liberen.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Templar y rellenar\n\nDejar que el relleno pierda calor intenso. Rellenar cada tubo solo hasta dos tercios de su capacidad, porque encoge al cocinar; cerrar con palillo si hace falta.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Preparar salsa\n\nPochar el resto de cebolla y ajo con aceite restante; añadir tomate y reducir 8–10 minutos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Guisar\n\nIntroducir los calamares rellenos, añadir caldo suficiente para una salsa ligera y cocinar tapados a hervor suave 20–35 minutos, o hasta que el calamar y su interior estén completamente cocinados y tiernos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRetirar palillos, dejar reposar brevemente y servir con salsa. Ajustar sal y perejil.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Calamares rellenos de verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

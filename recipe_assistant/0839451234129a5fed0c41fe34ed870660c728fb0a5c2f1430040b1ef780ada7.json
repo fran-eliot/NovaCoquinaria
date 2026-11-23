@@ -1,0 +1,343 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Ensalada de alubias blancas con atún\n\n## Descripción\n\nEnsalada de alubias blancas cocidas con atún en conserva, cebolla morada, pimiento y vinagreta cítrica; aporta una preparación fría distinta de las ensaladas de lentejas y garbanzos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | No requiere con alubias cocidas y atún en conserva |\n| Dificultad | Fácil |\n| Técnica principal | Escurrido y aliño en frío |\n\n## Ingredientes\n\n- 650 g de alubias blancas cocidas y escurridas;\n- 160 g de atún en conserva, peso escurrido;\n- 1 pimiento rojo pequeño, en dados;\n- 1/2 cebolla morada, picada fina;\n- 1 tomate firme mediano (150 g), en dados;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 cucharada de zumo de limón;\n- 1 cucharada de vinagre de vino, ajustable;\n- perejil fresco picado, opcional;\n- sal y pimienta negra\n\n**Alérgenos:** **Pescado** (atún). Comprobar ingredientes de conservas y condimentos.\n\n## Mise en place\n\nEscurrir alubias y atún por separado, conservándolos refrigerados hasta preparar la ensalada. Enjuagar las alubias si interesa moderar sal; lavar las hortalizas y preparar utensilios limpios.\n\n## Elaboración\n\n### 1. Preparar alubias\n\nComprobar que estén tiernas, frías y bien escurridas. Colocarlas en un bol amplio sin aplastarlas.\n\n### 2. Cortar hortalizas\n\nPicar pimiento y cebolla fina; cortar el tomate y retirar parte de sus semillas si aporta demasiado líquido.\n\n### 3. Emulsionar aliño\n\nBatir limón, vinagre, pimienta y una pequeña cantidad de sal; añadir aceite poco a poco hasta integrar.\n\n### 4. Mezclar\n\nIncorporar hortalizas y dos tercios del aliño a las alubias. Mezclar de abajo arriba con suavidad.\n\n### 5. Añadir atún\n\nDesmenuzar el atún en lascas grandes y añadirlo al final para evitar que se convierta en pasta. Probar y ajustar el aliño y la sal.\n\n### 6. Servir\n\nTerminar con perejil opcional y servir fría, sin mantenerla fuera de refrigeración prolongadamente.\n\n## Puntos críticos\n\n- Escurrir a fondo evita que la vinagreta quede diluida.\n- El atún ya es salado y se incorpora al final; corregir sal tras mezclar.\n- Usar conservas en buen estado y refrigerar rápidamente las latas abiertas, trasladando el contenido a recipiente adecuado.\n\n## Perfil esperado\n\nAlubias suaves y enteras, atún en lascas reconocibles, hortalizas frescas y aliño ligeramente ácido.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con aceitunas | Añadir 40 g y reducir la sal inicial |\n| Sin tomate | Sustituir por pepino en dados para mayor firmeza |\n| Con huevo cocido | Añadir al servir; incorpora alérgeno huevo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Alubias aguadas | Aliño diluido | Escurrir y secar superficialmente |\n| Atún desmenuzado en exceso | Textura pastosa | Incorporarlo al final |\n| Ensalada salada | Conservas más sal añadida | Probar tras mezclar |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos, refrigerar tapado y consumir en un plazo corto. Congelar en porciones si la preparación lo permite. Recalentar completamente los platos calientes; las ensaladas se mantienen refrigeradas y no deben permanecer largo tiempo a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Alubias blancas](../11_Despensa/02_Legumbres/alubias_blancas.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una ensalada de legumbres y pescado en conserva, la textura depende del escurrido y del orden de mezcla.\n\n## Utilizado por\n\nEnsalada de alubias blancas con atún como preparación de referencia del módulo Legumbres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "No requiere con alubias cocidas y atún en conserva",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_alubias_blancas_con_atun.html",
+  "id": "REC-0109",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas cocidas y escurridas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de alubias blancas cocidas y escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de alubias blancas cocidas y escurridas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva, peso escurrido;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de atún en conserva, peso escurrido;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de atún en conserva, peso escurrido;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo pequeño, en dados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo pequeño, en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo pequeño, en dados;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada, picada fina;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla morada, picada fina;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla morada, picada fina;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate firme mediano (150 g), en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tomate firme mediano (150 g), en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tomate firme mediano (150 g), en dados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, ajustable;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino, ajustable;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino, ajustable;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco picado, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco picado, opcional;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nEscurrir alubias y atún por separado, conservándolos refrigerados hasta preparar la ensalada. Enjuagar las alubias si interesa moderar sal; lavar las hortalizas y preparar utensilios limpios.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/ensalada_alubias_blancas_con_atun.md",
+  "source_sha256": "5d15e7029c4d60e66520af13ff50caf5c179164a0aedd769b2c6a38b45ff59f0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar alubias\n\nComprobar que estén tiernas, frías y bien escurridas. Colocarlas en un bol amplio sin aplastarlas.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Cortar hortalizas\n\nPicar pimiento y cebolla fina; cortar el tomate y retirar parte de sus semillas si aporta demasiado líquido.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Emulsionar aliño\n\nBatir limón, vinagre, pimienta y una pequeña cantidad de sal; añadir aceite poco a poco hasta integrar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Mezclar\n\nIncorporar hortalizas y dos tercios del aliño a las alubias. Mezclar de abajo arriba con suavidad.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Añadir atún\n\nDesmenuzar el atún en lascas grandes y añadirlo al final para evitar que se convierta en pasta. Probar y ajustar el aliño y la sal.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 73
+      },
+      "source_number": 6,
+      "text": "6. Servir\n\nTerminar con perejil opcional y servir fría, sin mantenerla fuera de refrigeración prolongadamente.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Ensalada de alubias blancas con atún",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

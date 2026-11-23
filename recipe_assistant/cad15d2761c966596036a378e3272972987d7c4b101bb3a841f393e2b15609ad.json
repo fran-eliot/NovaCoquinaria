@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 67,
+      "start_line": 13
+    },
+    "text": "\n# Natillas caseras de vainilla\n\n## Descripción\nCrema de leche y yemas espesada suavemente con maicena, aromatizada con vainilla y limón.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 10 min |\n| Cocción | 10–15 min |\n| Técnica | Espesado suave |\n\n## Ingredientes\n- 500 ml de leche entera;\n- 3 yemas de huevo;\n- 65 g de azúcar;\n- 20 g de maicena;\n- 1 cucharadita de extracto de vainilla;\n- piel de limón, opcional;\n- canela molida, opcional.\n\n**Alérgenos:** leche y huevo.\n\n## Elaboración\n1. Calentar 400 ml de leche con vainilla y piel de limón opcional, sin hervir intensamente.\n2. Batir yemas con azúcar y maicena; añadir los 100 ml restantes de leche fría hasta eliminar grumos.\n3. Verter poco a poco parte de leche caliente sobre las yemas, removiendo continuamente.\n4. Devolver la mezcla a la olla y calentar removiendo de manera continua, hasta que espese y alcance una cocción suficiente del huevo y de la maicena; no detenerse solo porque haya espesado. Evitar que se agarre y ajustar el fuego si aparecen grumos.\n5. Retirar la piel de limón y repartir en recipientes poco profundos y limpios para facilitar un enfriado rápido; refrigerar sin demoras.\n6. Refrigerar y servir frías con canela opcional.\n\n## Puntos críticos\n- No verter leche muy caliente de golpe sobre yemas sin remover.\n- La maicena necesita calentarse suficientemente para espesar.\n- El espesado por sí solo no confirma que la preparación con yemas haya alcanzado una cocción suficiente; controlar el calentamiento de toda la mezcla.\n- Mantener higiene en la manipulación de huevo y refrigerar pronto.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Grumos | Calentamiento irregular | Batir y colar si es necesario |\n| Líquidas | Espesado insuficiente | Cocinar un poco más removiendo |\n| Sabor a huevo | Exceso de calor | Reducir temperatura y remover |\n\n## Conservación\nEnfriar rápidamente, mantener refrigeradas y tapadas, y consumir en pocos días. No conservar a temperatura ambiente ni utilizar el olor como único criterio de seguridad.\n\n## Relaciones\n- [Diagnóstico de postres: cremas y espesado](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n- [Bizcocho de yogur](./bizcocho_de_yogur.md)\n\n## Principio de NovaCoquinaria\n> El espesado se controla con calor moderado y removido constante."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/natillas_caseras.html",
+  "id": "REC-0082",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas de huevo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 yemas de huevo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 yemas de huevo;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de maicena;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de maicena;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "extracto de vainilla;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de extracto de vainilla;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de extracto de vainilla;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de limón, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de limón, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de limón, opcional;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida, opcional.",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "canela molida, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "canela molida, opcional.",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/natillas_caseras.md",
+  "source_sha256": "6cef361e3eb43d3d0113c39bf84f4a4fc6fff956dd6e1ee6df3f521a0b63ba3b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Calentar 400 ml de leche con vainilla y piel de limón opcional, sin hervir intensamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Batir yemas con azúcar y maicena; añadir los 100 ml restantes de leche fría hasta eliminar grumos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Verter poco a poco parte de leche caliente sobre las yemas, removiendo continuamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Devolver la mezcla a la olla y calentar removiendo de manera continua, hasta que espese y alcance una cocción suficiente del huevo y de la maicena; no detenerse solo porque haya espesado. Evitar que se agarre y ajustar el fuego si aparecen grumos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Retirar la piel de limón y repartir en recipientes poco profundos y limpios para facilitar un enfriado rápido; refrigerar sin demoras."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Refrigerar y servir frías con canela opcional."
+    }
+  ],
+  "techniques": [],
+  "title": "Natillas caseras de vainilla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

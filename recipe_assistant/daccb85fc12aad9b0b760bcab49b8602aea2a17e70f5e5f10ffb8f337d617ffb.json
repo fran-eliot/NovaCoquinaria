@@ -1,0 +1,293 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Ensalada murciana de tomate en conserva y aceitunas\n\n## Origen y contexto\n\n**Región:** Región de Murcia. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones de entrante |\n| Tiempo orientativo | 20–25 min más 20 min de reposo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de tomate entero pelado en conserva, escurrido\n- 140 g de cebolla dulce o cebolleta\n- 120 g de aceitunas negras sin hueso\n- 160 g de atún en conserva escurrido\n- 2 huevos\n- 45 ml de aceite de oliva virgen extra\n- sal y pimienta negra al gusto\n- 10 ml de vinagre de vino, opcional\n\n**Alérgenos:** Pescado y huevo; revisar posibles sulfitos del vinagre y aditivos de conservas.\n\n## Elaboración\n\n1. Cocer los huevos en agua hirviendo unos 10–11 minutos, enfriar rápidamente, pelar y cortar en cuartos.\n2. Escurrir bien el tomate en conserva y cortar en trozos grandes; reservar un poco de jugo por si fuera necesario ajustar la textura.\n3. Cortar la cebolla en pluma fina y enjuagar brevemente en agua fría si se desea suavizar el picor; escurrirla por completo.\n4. Repartir el tomate con cebolla y aceitunas, incorporar el atún escurrido y mezclar suavemente.\n5. Aliñar con aceite, pimienta y poca sal; agregar vinagre solo si la conserva no aporta suficiente acidez.\n6. Añadir huevo cocido por encima, tapar y dejar reposar unos 20 minutos en frigorífico antes del servicio.\n\n## Puntos críticos\n\n- El tomate en conserva es una característica reconocible de esta ensalada, distinta de la pipirrana y la piriñaca con tomate fresco.\n- El atún y el huevo son perecederos una vez abiertos o cocidos; refrigerar la mezcla y evitar dejarla durante horas fuera del frigorífico.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Ensalada acuosa | Tomate mal escurrido | Escurrir antes de mezclar |\n| Exceso de sal | Aceitunas y atún salados | Probar antes de salar |\n| Cebolla dominante | Corte grueso o mucha cantidad | Cortar fino y reducir proporción |\n\n## Conservación\n\nConservar a 4 °C o menos y consumir preferiblemente dentro de 24 horas después de mezclar los ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Atún en conserva](../11_Despensa/12_Conservas/atun_en_conserva.md): escurrido, salinidad y manejo tras abrir el envase.\n- [Pipirrana jiennense](../04_Verduras/pipirrana_jiennense_con_atun_y_huevo.md)\n- [Piriñaca gaditana](../04_Verduras/pirinaca_gaditana_de_tomate_pimiento_y_cebolla.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20–25 min más 20 min de reposo refrigerado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Región de Murcia. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/ensalada_murciana_de_tomate_en_conserva_y_aceitunas.html",
+  "id": "REC-546",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomate entero pelado en conserva, escurrido",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de tomate entero pelado en conserva, escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de tomate entero pelado en conserva, escurrido",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla dulce o cebolleta",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla dulce o cebolleta",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla dulce o cebolleta",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras sin hueso",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de aceitunas negras sin hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de aceitunas negras sin hueso",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de atún en conserva escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de atún en conserva escurrido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra al gusto",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra al gusto",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 ml de vinagre de vino, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "10 ml de vinagre de vino, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/ensalada_murciana_de_tomate_en_conserva_y_aceitunas.md",
+  "source_sha256": "3eac5ebd287cd13d1b93f37f17334b5453b97102586cbfe1232090b24bda6352",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer los huevos en agua hirviendo unos 10–11 minutos, enfriar rápidamente, pelar y cortar en cuartos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrir bien el tomate en conserva y cortar en trozos grandes; reservar un poco de jugo por si fuera necesario ajustar la textura."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cortar la cebolla en pluma fina y enjuagar brevemente en agua fría si se desea suavizar el picor; escurrirla por completo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Repartir el tomate con cebolla y aceitunas, incorporar el atún escurrido y mezclar suavemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Aliñar con aceite, pimienta y poca sal; agregar vinagre solo si la conserva no aporta suficiente acidez."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Añadir huevo cocido por encima, tapar y dejar reposar unos 20 minutos en frigorífico antes del servicio."
+    }
+  ],
+  "techniques": [],
+  "title": "Ensalada murciana de tomate en conserva y aceitunas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones de entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

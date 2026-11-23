@@ -1,0 +1,291 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Hamburguesas de frijoles negros y avena\n\n## Descripción\n\nPreparación de referencia basada en **secado, machacado, formado y dorado en sartén**. Las cantidades y los tiempos no se atribuyen a una preparación doméstica y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 hamburguesas |\n| Técnica principal | Secado, machacado, formado y dorado en sartén |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de frijoles negros completamente cocidos y bien escurridos\n- 70 g de copos de avena finos\n- 1 huevo L\n- 100 g de cebolla finamente picada\n- 1 diente de ajo\n- ½ cucharadita de comino molido\n- ½ cucharadita de pimentón dulce\n- 2 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Huevo; avena con posible gluten por contaminación cruzada, según certificado.\n\n## Elaboración\n\n1. Escurrir y secar los frijoles cocidos; machacar aproximadamente tres cuartas partes, dejando algunos enteros para textura.\n2. Pochar cebolla y ajo en una cucharadita de aceite hasta que pierdan agua, y dejar templar.\n3. Mezclar frijoles, cebolla, avena, huevo, comino y pimentón; dejar reposar en refrigeración 15–20 minutos.\n4. Dividir en cuatro porciones, formar hamburguesas de 1,5–2 cm y compactarlas con las manos limpias.\n5. Calentar el aceite restante en sartén antiadherente y dorar a fuego medio unos 4–5 minutos por lado, manejando con cuidado.\n6. Comprobar que el interior esté completamente cocinado y caliente, especialmente por contener huevo; servir con una salsa o guarnición.\n\n## Puntos críticos\n\n- Los frijoles deben estar cocidos por completo antes de triturar; usar frijoles secos o semicocidos sería inseguro. El exceso de humedad debilita las hamburguesas; el reposo permite hidratar la avena.\n- Distinguir **legumbre completamente cocida**, **legumbre seca partida** y **harina de legumbre sin cocinar**: los tres productos requieren procedimientos diferentes.\n- Ajustar los tiempos a la variedad, grosor, equipo y temperatura real. Mantener higiene y refrigeración de ingredientes perecederos.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Textura acuosa o estructura débil | Escurrido insuficiente o líquido sobrante | Secar mejor antes de mezclar o reducir el líquido |\n| Exterior tostado y centro poco cocinado | Calor elevado o grosor excesivo | Bajar temperatura, reducir grosor y prolongar cocción |\n| Sabor plano o excesivamente salado | Sazonado prematuro o condimentos concentrados | Probar al final y graduar sal y acidez |\n\n## Conservación\n\nServir preferentemente recién hecho. Enfriar rápidamente los restos y refrigerar sin demora en recipientes tapados y poco profundos. Las mezclas con huevo y las ensaladas con vegetales cortados requieren especial cuidado de higiene y temperatura; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): ligazón y coagulación de la mezcla.\n- [Frijoles refritos con ajo y comino](./frijoles_refritos_con_ajo_y_comino.md)\n- [Hamburguesa asiática](../05_Carnes/hamburguesa_asiatica.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, técnica, temperatura, tiempo, textura y valoración. No sustituye ni modifica versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/hamburguesas_de_frijoles_negros_y_avena.html",
+  "id": "REC-339",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "frijoles negros completamente cocidos y bien escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de frijoles negros completamente cocidos y bien escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de frijoles negros completamente cocidos y bien escurridos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "copos de avena finos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de copos de avena finos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de copos de avena finos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla finamente picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla finamente picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla finamente picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/hamburguesas_de_frijoles_negros_y_avena.md",
+  "source_sha256": "8a07791e93e965cdc1fb1f706be3115099fb0b857f591a96a658b02bd6af4ffe",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Escurrir y secar los frijoles cocidos; machacar aproximadamente tres cuartas partes, dejando algunos enteros para textura."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo en una cucharadita de aceite hasta que pierdan agua, y dejar templar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mezclar frijoles, cebolla, avena, huevo, comino y pimentón; dejar reposar en refrigeración 15–20 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Dividir en cuatro porciones, formar hamburguesas de 1,5–2 cm y compactarlas con las manos limpias."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Calentar el aceite restante en sartén antiadherente y dorar a fuego medio unos 4–5 minutos por lado, manejando con cuidado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar que el interior esté completamente cocinado y caliente, especialmente por contener huevo; servir con una salsa o guarnición."
+    }
+  ],
+  "techniques": [],
+  "title": "Hamburguesas de frijoles negros y avena",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 hamburguesas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Calçots asados al horno con salsa tipo salvitxada\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–70 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 24–32 calçots frescos (aprox. 1,2 kg)\n- 3 tomates maduros (350 g)\n- 1 cabeza pequeña de ajo\n- 50 g de almendra tostada\n- 35 g de avellana tostada\n- 1 ñora seca hidratada\n- 1 rebanada de pan tostado (35 g)\n- 100 ml de aceite de oliva virgen extra\n- 20–30 ml de vinagre de vino\n- sal y agua potable\n\n**Alérgenos:** Almendras, avellanas y trigo/gluten del pan; posibles sulfitos del vinagre.\n\n## Elaboración\n\n1. Limpiar los calçots retirando tierra y raíces; conservar suficientes capas exteriores para protegerlos durante el asado. Precalentar el horno a 230 °C.\n2. Asar tomates y cabeza de ajo durante 25–35 minutos hasta tiernos; retirar y templar. Hidratar la ñora en agua caliente 15–20 minutos, retirar semillas y extraer pulpa.\n3. Disponer calçots en una bandeja amplia, sin amontonarlos; asar 20–30 minutos, girándolos a mitad de cocción, hasta que las capas externas estén muy tostadas y el interior tierno.\n4. Triturar tomates asados pelados, ajo asado, pulpa de ñora, almendras, avellanas, pan, vinagre y una pizca de sal.\n5. Incorporar el aceite poco a poco hasta obtener salsa espesa y emulsionada; ajustar acidez con moderación.\n6. Envolver los calçots recién asados en papel alimentario o recipiente tapado 5 minutos para conservar calor; pelar las capas externas carbonizadas al servir.\n7. Servir calientes con salsa aparte, mojando solo la porción blanca y tierna.\n\n## Puntos críticos\n\n- La calçotada tradicional se realiza con fuego vivo y suele acompañarse de salsa salvitxada; el horno y esta salsa inspirada en la tradición son adaptaciones domésticas expresas.\n- No consumir capas carbonizadas; retirar restos de tierra antes del asado y manipular las bandejas con protección térmica.\n- La salsa contiene frutos secos y pan, y debe identificarse como tal para personas alérgicas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Interior duro | Calçot grueso o poco horno | Prolongar con calor hasta tierno |\n| Salsa líquida | Aceite o líquido excesivo | Añadir aceite gradualmente |\n| Sabor amargo | Ajo o ñora quemados | Asar suavemente y descartar partes chamuscadas |\n\n## Conservación\n\nServir preferiblemente recién asados. Refrigerar salsa y calçots separados a 4 °C o menos; consumir en 24–48 horas y no mantener la salsa varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Escalivada](../04_Verduras/escalivada_de_berenjena_y_pimiento.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "70",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–70 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/calcots_asados_al_horno_con_salsa_romesco.html",
+  "id": "REC-557",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calçots frescos (aprox. 1,2 kg)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "32",
+        "min": "24",
+        "raw": "24–32 calçots frescos (aprox. 1,2 kg)",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "24–32 calçots frescos (aprox. 1,2 kg)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomates maduros (350 g)",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 tomates maduros (350 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 tomates maduros (350 g)",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cabeza pequeña de ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cabeza pequeña de ajo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cabeza pequeña de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra tostada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de almendra tostada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de almendra tostada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "avellana tostada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de avellana tostada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de avellana tostada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ñora seca hidratada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ñora seca hidratada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ñora seca hidratada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada de pan tostado (35 g)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada de pan tostado (35 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada de pan tostado (35 g)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "20",
+        "raw": "20–30 ml de vinagre de vino",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "20–30 ml de vinagre de vino",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y agua potable",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y agua potable",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y agua potable",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/calcots_asados_al_horno_con_salsa_romesco.md",
+  "source_sha256": "28c1a882e681d0fc0c534a0ccef77f4965a08be2b793f930078145891326ff81",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Limpiar los calçots retirando tierra y raíces; conservar suficientes capas exteriores para protegerlos durante el asado. Precalentar el horno a 230 °C."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Asar tomates y cabeza de ajo durante 25–35 minutos hasta tiernos; retirar y templar. Hidratar la ñora en agua caliente 15–20 minutos, retirar semillas y extraer pulpa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Disponer calçots en una bandeja amplia, sin amontonarlos; asar 20–30 minutos, girándolos a mitad de cocción, hasta que las capas externas estén muy tostadas y el interior tierno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Triturar tomates asados pelados, ajo asado, pulpa de ñora, almendras, avellanas, pan, vinagre y una pizca de sal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Incorporar el aceite poco a poco hasta obtener salsa espesa y emulsionada; ajustar acidez con moderación."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Envolver los calçots recién asados en papel alimentario o recipiente tapado 5 minutos para conservar calor; pelar las capas externas carbonizadas al servir."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Servir calientes con salsa aparte, mojando solo la porción blanca y tierna."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Calçots asados al horno con salsa tipo salvitxada",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

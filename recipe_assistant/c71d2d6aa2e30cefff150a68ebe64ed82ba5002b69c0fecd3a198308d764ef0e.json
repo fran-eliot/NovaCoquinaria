@@ -1,0 +1,317 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Arroz caldoso de pollo y setas\n\n## Descripción\n\nReceta de referencia centrada en **guiso ligero y control del caldo final**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Guiso ligero y control del caldo final |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 240 g de arroz redondo;\n- 350 g de contramuslo de pollo deshuesado en dados;\n- 250 g de champiñones o setas frescas;\n- 120 g de cebolla picada;\n- 2 dientes de ajo;\n- 120 g de tomate triturado;\n- 1–1,1 litros de caldo de pollo caliente, ajustables;\n- 2 cucharadas de aceite de oliva;\n- ½ cucharadita de tomillo seco;\n- sal y pimienta;\n\n**Alérgenos:** Revisar caldo de pollo.\n\n## Elaboración\n\n1. Limpiar las setas con poca agua y secarlas; trocear el pollo sobre una tabla separada y refrigerar hasta cocinar.\n2. Dorar el pollo en cazuela con aceite y retirarlo; saltear setas en la misma cazuela para evaporar líquido y retirarlas.\n3. Pochar cebolla y ajo, añadir tomate y tomillo y reducir unos 5–7 minutos.\n4. Devolver pollo y setas, añadir arroz y caldo caliente y llevar a hervor suave.\n5. Cocer unos 16–20 minutos según variedad, añadiendo caldo caliente si hiciera falta para conservar una textura claramente caldosa.\n6. Comprobar que el pollo esté completamente cocinado (74 °C en el centro) y servir inmediatamente, antes de que el arroz absorba más caldo.\n\n## Puntos críticos\n\n- El arroz continúa absorbiendo líquido fuera del fuego: debe servirse enseguida. El pollo se cocina por completo y no se emplea el mismo utensilio para crudos y cocinados.\n- La proporción de líquido varía por variedad de arroz, geometría del recipiente, intensidad del fuego y humedad de los ingredientes. Medir el líquido realmente incorporado.\n- Mantener higiene y conservación adecuadas de carnes, pescados, moluscos y verduras; comprobar la cocción completa de las proteínas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Grano duro | Falta de líquido o tiempo de cocción | Añadir líquido caliente en pequeñas cantidades y revisar el punto |\n| Arroz pasado | Exceso de líquido, tiempo o reposo | Reducir tiempo o líquido según el método |\n| Sabor excesivamente salado | Caldos o salsas ya salados | Probar los líquidos antes de salar |\n| Fondo seco antes de tiempo | Evaporación elevada | Ajustar el fuego y el recipiente |\n\n## Seguridad y conservación\n\nSi no se consume inmediatamente, **enfriar rápidamente el arroz cocido y refrigerarlo sin demora**. Evitar que permanezca horas a temperatura ambiente; el recalentamiento no corrige una conservación insegura previa. No guardar marisco ni pollo cocinado a temperatura ambiente. Refrigerar en recipientes poco profundos y recalentar completamente cuando corresponda.\n\n## Relaciones dentro del SGCC\n\n- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md)\n- [Champiñón](../11_Despensa/07_Setas/champinon.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos realmente utilizados, volumen total de líquidos, equipo, tiempos efectivos, textura final y valoración. No se atribuyen estas cantidades a una experiencia personal anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **guiso ligero y control del caldo final**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_caldoso_de_pollo_y_setas.html",
+  "id": "REC-0252",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de arroz redondo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de arroz redondo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en dados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de contramuslo de pollo deshuesado en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de contramuslo de pollo deshuesado en dados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones o setas frescas;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de champiñones o setas frescas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de champiñones o setas frescas;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo caliente, ajustables;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1.1",
+        "min": "1",
+        "raw": "1–1,1 litros de caldo de pollo caliente, ajustables;",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1–1,1 litros de caldo de pollo caliente, ajustables;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo seco;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo seco;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo seco;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_caldoso_de_pollo_y_setas.md",
+  "source_sha256": "09bb3574a5dc58a938fe5574296f8f09ceac6a308ec1d054802ba53226d86f85",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Limpiar las setas con poca agua y secarlas; trocear el pollo sobre una tabla separada y refrigerar hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Dorar el pollo en cazuela con aceite y retirarlo; saltear setas en la misma cazuela para evaporar líquido y retirarlas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y ajo, añadir tomate y tomillo y reducir unos 5–7 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Devolver pollo y setas, añadir arroz y caldo caliente y llevar a hervor suave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Cocer unos 16–20 minutos según variedad, añadiendo caldo caliente si hiciera falta para conservar una textura claramente caldosa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Comprobar que el pollo esté completamente cocinado (74 °C en el centro) y servir inmediatamente, antes de que el arroz absorba más caldo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.html",
+      "label": "Controlar arroz meloso y caldoso",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md"
+    }
+  ],
+  "title": "Arroz caldoso de pollo y setas",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

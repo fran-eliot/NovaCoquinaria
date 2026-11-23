@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Rabas cántabras de calamar rebozado\n\n## Origen y contexto\n\n**Región:** Cantabria. Formulación doméstica de referencia con los rasgos característicos de esta especialidad regional. No se declara como versión única, ni como receta ya probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como aperitivo |\n| Tiempo orientativo | 30–40 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de calamar limpio en tiras de 1–1,5 cm, seco y refrigerado\n- 120 g de harina de trigo común\n- 40 g de harina de maíz fina, opcional para mayor ligereza\n- 1 huevo L, opcional en variantes de rebozado\n- 120 ml de agua fría, solo si se prepara rebozado húmedo\n- aceite de oliva suave o aceite apto para freír, cantidad suficiente\n- sal y limón opcional\n\n**Alérgenos:** Moluscos y gluten; huevo solo si se usa el rebozado húmedo.\n\n## Elaboración\n\n1. Pedir calamar limpio en pescadería o retirar interior, pluma y partes no comestibles; lavar lo necesario, secar exhaustivamente y mantener refrigerado.\n2. Cortar en tiras uniformes y salar ligeramente justo antes de rebozar.\n3. Para esta variante, mezclar las harinas y enharinar las tiras, retirando muy bien el exceso. Si se prefiere una variante húmeda, batir huevo y agua fría con harina hasta capa fina, sin combinar ambos métodos a la vez.\n4. Calentar el aceite a unos 175–180 °C en sartén profunda, evitando sobrellenar.\n5. Freír las rabas en pequeñas tandas de 2–3 minutos, según grosor, hasta que queden doradas y el calamar completamente cocinado.\n6. Escurrir en rejilla para conservar el crujiente, probar sal y servir inmediatamente con limón opcional.\n\n## Puntos críticos\n\n- El secado del calamar evita salpicaduras y rebozados pastosos. Las rabas cántabras tienen variantes de rebozado; aquí se prioriza la harina seca y la alternativa húmeda se presenta como opción separada. La fritura prolongada endurece el calamar.\n- Ajustar tiempos, cantidades y textura a la materia prima. Respetar las condiciones del producto comercial, la higiene y la cadena de frío; comprobar la cocción completa de los ingredientes animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente preparación |\n|---|---|---|\n| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |\n| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los productos realmente utilizados, pesos, tiempos, temperaturas, textura y valoración personal. No se sustituyen versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/rabas_cantabras_de_calamar_rebozado.html",
+  "id": "REC-498",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calamar limpio en tiras de 1–1,5 cm, seco y refrigerado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de calamar limpio en tiras de 1–1,5 cm, seco y refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de calamar limpio en tiras de 1–1,5 cm, seco y refrigerado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de harina de trigo común",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de maíz fina, opcional para mayor ligereza",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de harina de maíz fina, opcional para mayor ligereza",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de harina de maíz fina, opcional para mayor ligereza",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo L, opcional en variantes de rebozado",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo L, opcional en variantes de rebozado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo L, opcional en variantes de rebozado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría, solo si se prepara rebozado húmedo",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de agua fría, solo si se prepara rebozado húmedo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de agua fría, solo si se prepara rebozado húmedo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o aceite apto para freír, cantidad suficiente",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave o aceite apto para freír, cantidad suficiente",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave o aceite apto para freír, cantidad suficiente",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y limón opcional",
+      "optionality": "unknown",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y limón opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y limón opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/rabas_cantabras_de_calamar_rebozado.md",
+  "source_sha256": "dc5b3ffd80e86dced7ed2bb9c03af664d3d615502d8c75e5b994c421ada6eb75",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Pedir calamar limpio en pescadería o retirar interior, pluma y partes no comestibles; lavar lo necesario, secar exhaustivamente y mantener refrigerado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cortar en tiras uniformes y salar ligeramente justo antes de rebozar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Para esta variante, mezclar las harinas y enharinar las tiras, retirando muy bien el exceso. Si se prefiere una variante húmeda, batir huevo y agua fría con harina hasta capa fina, sin combinar ambos métodos a la vez."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Calentar el aceite a unos 175–180 °C en sartén profunda, evitando sobrellenar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Freír las rabas en pequeñas tandas de 2–3 minutos, según grosor, hasta que queden doradas y el calamar completamente cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Escurrir en rejilla para conservar el crujiente, probar sal y servir inmediatamente con limón opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Rabas cántabras de calamar rebozado",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como aperitivo",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

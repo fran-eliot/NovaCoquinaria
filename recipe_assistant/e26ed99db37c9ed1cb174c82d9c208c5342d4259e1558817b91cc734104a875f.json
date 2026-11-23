@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Yemas de Santa Teresa de Ávila\n\n## Origen y contexto\n\n**Región:** Ávila, Castilla y León. Formulación doméstica de referencia con los rasgos característicos de esta especialidad; no se presenta como única versión regional ni como receta personalmente probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16–20 yemas pequeñas |\n| Tiempo orientativo | 35–45 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 10 yemas de huevo L, unos 180 g\n- 200 g de azúcar blanco\n- 100 ml de agua potable\n- 1 tira de piel de limón lavado, sin blanco, opcional\n- 40 g de azúcar glas para formar y rebozar, ajustar\n\n**Alérgenos:** Huevo.\n\n## Elaboración\n\n1. Separar yemas de claras con utensilios limpios y mantenerlas refrigeradas mientras se prepara el almíbar.\n2. Calentar agua y azúcar con piel de limón opcional hasta obtener un almíbar de hebra ligera, alrededor de 105–108 °C; retirar la piel.\n3. Batir ligeramente las yemas en un cuenco resistente al calor, sin montarlas; añadir el almíbar caliente poco a poco y en hilo, removiendo continuamente.\n4. Volver a poner todo en un cazo de fondo grueso a fuego muy bajo, removiendo sin parar para evitar que se pegue.\n5. Cocer hasta obtener una pasta espesa y moldeable y comprobar con termómetro que la mezcla de yema alcance como mínimo 71 °C. Evitar el fuego fuerte, que cuajaría las yemas de manera granulada.\n6. Extender en una fuente limpia, dejar perder calor rápidamente y refrigerar hasta poder manipular la pasta.\n7. Con manos y utensilios limpios, dividir la pasta en 16–20 pequeñas porciones y formar bolitas con ayuda de azúcar glas; colocar en cápsulas de papel alimentario.\n8. Conservar refrigeradas en recipiente cerrado y consumir como pequeño dulce.\n\n## Puntos críticos\n\n- El almíbar por sí solo **no garantiza la cocción del huevo**. Tras incorporar las yemas, mantener la cocción suave y comprobar que la pasta alcanza la referencia de 71 °C indicada en el procedimiento.\n- Añadir el almíbar en hilo y remover sin interrupción para evitar grumos; la masa y el azúcar calientes pueden provocar quemaduras.\n- Enfriar rápidamente la pasta cocida y mantenerla refrigerada antes de formar las bolitas; manipular con manos y utensilios limpios.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Pasta granulada | Almíbar añadido muy deprisa o fuego demasiado alto al cocinar las yemas | Incorporar en hilo y cocinar a fuego bajo removiendo sin parar |\n| Pasta demasiado fluida para formar | Falta de espesado tras añadir yemas | Comprobar el punto moldeable y la cocción segura antes de enfriar, sin añadir azúcar extra a ciegas |\n| Yemas demasiado duras o secas | Cocción excesiva o reducción intensa | Registrar el punto de la pasta para ajustar la siguiente tanda sin sacrificar la cocción suficiente |\n| Bolitas que se pegan al formar | Pasta todavía templada o enfriado insuficiente | Refrigerar hasta poder manipular y emplear parte del azúcar glas previsto para el formado |\n\n## Conservación\n\nDespués de cocinar y comprobar el punto de las yemas, enfriar rápidamente la pasta y conservar las bolitas **refrigeradas en recipiente cerrado**. Limitar el tiempo fuera de frío durante el formado y el servicio, por su contenido concentrado de huevo. Consumir en un plazo corto según frescura de las yemas y condiciones de manipulación; no tratar el azúcar como garantía de conservación a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Bienmesabe canario](./bienmesabe_canario_de_almendra_y_limon.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar productos y cantidades reales, tiempos, puntos de cocción, textura y valoración. La ficha no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/yemas_de_santa_teresa_de_avila.html",
+  "id": "REC-495",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "yemas de huevo L, unos 180 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 yemas de huevo L, unos 180 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "10 yemas de huevo L, unos 180 g",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar blanco",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de azúcar blanco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de azúcar blanco",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua potable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tira de piel de limón lavado, sin blanco, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tira de piel de limón lavado, sin blanco, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tira de piel de limón lavado, sin blanco, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para formar y rebozar, ajustar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar glas para formar y rebozar, ajustar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar glas para formar y rebozar, ajustar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/yemas_de_santa_teresa_de_avila.md",
+  "source_sha256": "de6a9e27f394c3b3c2cedbf9f4c2f49b2db94a8f0de855be909c5f46ef39af59",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Separar yemas de claras con utensilios limpios y mantenerlas refrigeradas mientras se prepara el almíbar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar agua y azúcar con piel de limón opcional hasta obtener un almíbar de hebra ligera, alrededor de 105–108 °C; retirar la piel."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Batir ligeramente las yemas en un cuenco resistente al calor, sin montarlas; añadir el almíbar caliente poco a poco y en hilo, removiendo continuamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Volver a poner todo en un cazo de fondo grueso a fuego muy bajo, removiendo sin parar para evitar que se pegue."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Cocer hasta obtener una pasta espesa y moldeable y comprobar con termómetro que la mezcla de yema alcance como mínimo 71 °C. Evitar el fuego fuerte, que cuajaría las yemas de manera granulada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Extender en una fuente limpia, dejar perder calor rápidamente y refrigerar hasta poder manipular la pasta."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Con manos y utensilios limpios, dividir la pasta en 16–20 pequeñas porciones y formar bolitas con ayuda de azúcar glas; colocar en cápsulas de papel alimentario."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 8,
+      "text": "Conservar refrigeradas en recipiente cerrado y consumir como pequeño dulce."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Yemas de Santa Teresa de Ávila",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "16–20 yemas pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

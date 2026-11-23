@@ -1,0 +1,307 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Arroz a la cubana con tomate, huevo y plátano\n\n## Descripción\n\nPreparación de referencia basada en **cocción separada, reducción y montaje**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Cocción separada, reducción y montaje |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 240 g de arroz basmati\n- 360–400 ml de agua, según variedad y envase\n- 350 g de tomate triturado\n- 3 huevos L\n- 2 plátanos maduros medianos, de postre\n- 1 diente de ajo\n- 2–3 cucharadas de aceite de oliva\n- sal y una pizca de pimienta\n- ½ cucharadita de azúcar opcional, si el tomate es muy ácido\n\n**Alérgenos:** Huevo.\n\n## Elaboración\n\n1. Cocer el arroz por absorción con su proporción de agua, tapar y reposar hasta que esté suelto y bien cocido.\n2. Cocinar ajo picado en una cucharada de aceite, añadir tomate triturado y reducir 12–15 minutos; ajustar sal y acidez.\n3. Pelar los plátanos, cortarlos por la mitad longitudinalmente y dorarlos suavemente en sartén con algo de aceite, 2–3 minutos por cara hasta tiernos.\n4. En otra sartén limpia, cocinar los huevos individualmente hasta que tanto claras como yemas queden completamente cuajadas para una versión conservadora.\n5. Formar una porción de arroz caliente en cada plato, añadir salsa de tomate, un huevo y porciones de plátano.\n6. Servir inmediatamente, evitando mantener el arroz cocido templado durante periodos prolongados.\n\n## Puntos críticos\n\n- Es una formulación doméstica de arroz a la cubana; el acompañamiento de plátano varía entre hogares. Para huevos poco hechos se requerirían controles adicionales; aquí se propone cuajado completo.\n- Ajustar la proporción de caldo a la variedad de arroz, el recipiente y la evaporación; las cantidades propuestas no garantizan el mismo punto en todos los equipos.\n- Cocinar completamente las proteínas y mantener separados utensilios usados con alimentos crudos y preparados.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Corrección para otra prueba |\n|---|---|---|\n| Arroz duro y seco | Faltó líquido o hubo evaporación excesiva | Ajustar caldo caliente y fuego antes de que se seque |\n| Arroz demasiado blando | Exceso de líquido o cocción prolongada | Medir caldo y comprobar el grano hacia el final |\n| Fondo quemado | Temperatura alta o sofrito demasiado concentrado | Controlar fuego y usar recipiente de fondo uniforme |\n\n## Conservación\n\nServir preferiblemente recién hecho. Si queda arroz, repartir en recipientes poco profundos, **enfriar rápidamente y refrigerar sin demora**. No mantener arroz cocido horas a temperatura ambiente: un recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente antes de servir los restos.\n\n## Relaciones dentro del SGCC\n\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Salsa de tomate reducida base](../12_Plantillas/02_Salsas/salsa_tomate_reducida_base.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes efectivamente utilizados, proporción real de caldo, recipiente, tiempo de cocción, punto del grano y valoración. Ninguna cantidad se atribuye a versiones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **cocción separada, reducción y montaje**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_a_la_cubana_con_tomate_huevo_y_platano.html",
+  "id": "REC-313",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de arroz basmati",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de arroz basmati",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua, según variedad y envase",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "360",
+        "raw": "360–400 ml de agua, según variedad y envase",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "360–400 ml de agua, según variedad y envase",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "plátanos maduros medianos, de postre",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 plátanos maduros medianos, de postre",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 plátanos maduros medianos, de postre",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "2",
+        "raw": "2–3 cucharadas de aceite de oliva",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "2–3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y una pizca de pimienta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y una pizca de pimienta",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal y una pizca de pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional, si el tomate es muy ácido",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de azúcar opcional, si el tomate es muy ácido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de azúcar opcional, si el tomate es muy ácido",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_a_la_cubana_con_tomate_huevo_y_platano.md",
+  "source_sha256": "032f67c71b9ecc20b06f48f28ddd6a824e1c9f4407aa10cf60ad819c0124e83e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer el arroz por absorción con su proporción de agua, tapar y reposar hasta que esté suelto y bien cocido."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Cocinar ajo picado en una cucharada de aceite, añadir tomate triturado y reducir 12–15 minutos; ajustar sal y acidez."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pelar los plátanos, cortarlos por la mitad longitudinalmente y dorarlos suavemente en sartén con algo de aceite, 2–3 minutos por cara hasta tiernos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "En otra sartén limpia, cocinar los huevos individualmente hasta que tanto claras como yemas queden completamente cuajadas para una versión conservadora."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Formar una porción de arroz caliente en cada plato, añadir salsa de tomate, un huevo y porciones de plátano."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente, evitando mantener el arroz cocido templado durante periodos prolongados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz a la cubana con tomate, huevo y plátano",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

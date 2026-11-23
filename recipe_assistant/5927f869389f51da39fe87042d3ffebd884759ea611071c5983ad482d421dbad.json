@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 126,
+      "start_line": 16
+    },
+    "text": "\n# Pasta con tomate y albahaca\n\n## Descripción\n\nPasta con salsa de tomate cocinada brevemente, aceite de oliva y albahaca fresca. La salsa se reduce hasta concentrar su sabor y se integra con la pasta durante los últimos instantes de cocción.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Reducir salsa y terminar pasta en ella |\n\n## Ingredientes\n\n- 200 g de pasta seca, como espaguetis, penne o rigatoni;\n- 400 g de tomate triturado o tomate pelado en conserva;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 1 diente de ajo, ligeramente aplastado;\n- 8–12 hojas de albahaca fresca;\n- sal al gusto;\n- pimienta negra, opcional;\n- una pequeña cantidad de agua de cocción, si es necesaria;\n- Parmigiano Reggiano rallado, opcional para servir.\n\n## Mise en place\n\nPreparar el tomate, aplastar el ajo, lavar y secar la albahaca y disponer una sartén amplia. Si se utiliza tomate entero en conserva, romperlo previamente con las manos limpias o un utensilio.\n\n## Elaboración\n\n### 1. Aromatizar el aceite\n\nCalentar el aceite a fuego medio-bajo y añadir el ajo. Cocinar brevemente hasta que desprenda aroma, evitando que se oscurezca. Retirar el ajo si se desea una salsa más suave.\n\n### 2. Cocinar el tomate\n\nIncorporar el tomate con cuidado para evitar salpicaduras. Añadir una pizca de sal y mantener una cocción suave durante 15–20 minutos, removiendo ocasionalmente.\n\nLa salsa debe perder parte del agua y adquirir una consistencia suficiente para adherirse a la pasta. El tiempo depende de la humedad y la acidez del tomate.\n\n### 3. Cocer la pasta\n\nCocer la pasta en agua salada hasta un punto ligeramente anterior al deseado. Reservar una taza de agua de cocción.\n\n### 4. Terminar en salsa\n\nTransferir la pasta a la sartén y mezclar durante 1–2 minutos a fuego medio-bajo, añadiendo pequeñas cantidades de agua de cocción solo si la salsa lo necesita.\n\n### 5. Incorporar la albahaca\n\nRetirar del fuego y añadir las hojas de albahaca, enteras o rasgadas con las manos. Probar y ajustar la sal. Servir inmediatamente; añadir queso si se desea.\n\n## Puntos críticos\n\n- **Tomate:** una salsa demasiado acuosa no recubre bien la pasta; reducir antes del acabado.\n- **Acidez:** depende del producto; no añadir azúcar automáticamente. Ajustar tras probar la salsa cocinada.\n- **Albahaca:** incorporarla al final preserva mejor su aroma.\n- **Pasta:** terminarla en salsa ayuda a distribuir el tomate y evita servir ambos elementos desconectados.\n\n## Perfil esperado\n\nSalsa roja, concentrada pero jugosa, sabor claro a tomate, albahaca aromática y pasta con textura firme.\n\n## Variantes y sustituciones\n\n| Variante | Cambio | Resultado |\n|---|---|---|\n| Con tomate fresco | Sustituir conserva por tomate maduro | Mayor variabilidad de agua y acidez |\n| Con cebolla | Sofreír una pequeña cantidad antes del tomate | Perfil más dulce |\n| Con chile | Añadir al aceite | Perfil picante |\n| Con mozzarella | Añadir al servir | Mayor cremosidad y humedad |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Corrección |\n|---|---|---|\n| No reducir el tomate | Salsa aguada | Cocinar hasta la consistencia adecuada |\n| Quemar el ajo | Amargor | Controlar el calor |\n| Cocer en exceso la pasta | Textura blanda | Retirar antes y terminar en salsa |\n| Cocinar mucho la albahaca | Pérdida de aroma | Añadir al final |\n\n## Conservación\n\nRefrigerar rápidamente las sobras en un recipiente cerrado. Recalentar con suavidad y un poco de agua si la salsa se ha espesado. La pasta puede perder firmeza.\n\n---\n\n## Principio de NovaCoquinaria\n\n> Una salsa sencilla de tomate mejora con una reducción equilibrada y un acabado conjunto con la pasta.\n\n---\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n- [Relación entre formatos y salsas](../98_Tablas/07_Comparativas/relacion_pasta_salsa.md)\n- [Conservación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n## Utilizado por\n\nReceta de referencia del dominio **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_con_tomate_y_albahaca.html",
+  "id": "REC-0027",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta seca, como espaguetis, penne o rigatoni;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de pasta seca, como espaguetis, penne o rigatoni;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de pasta seca, como espaguetis, penne o rigatoni;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado o tomate pelado en conserva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado o tomate pelado en conserva;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado o tomate pelado en conserva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, ligeramente aplastado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo, ligeramente aplastado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo, ligeramente aplastado;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "albahaca fresca;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "8",
+        "raw": "8–12 hojas de albahaca fresca;",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "8–12 hojas de albahaca fresca;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra, opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "una pequeña cantidad de agua de cocción, si es necesaria;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pequeña cantidad de agua de cocción, si es necesaria;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "una pequeña cantidad de agua de cocción, si es necesaria;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "Parmigiano Reggiano rallado, opcional para servir.",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Parmigiano Reggiano rallado, opcional para servir.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Parmigiano Reggiano rallado, opcional para servir.",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPreparar el tomate, aplastar el ajo, lavar y secar la albahaca y disponer una sartén amplia. Si se utiliza tomate entero en conserva, romperlo previamente con las manos limpias o un utensilio.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/pasta_con_tomate_y_albahaca.md",
+  "source_sha256": "f1f961a1d0dfc028d789b6a3360cdbd206af33b6b468bbe5f0e18801a2b18573",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Aromatizar el aceite\n\nCalentar el aceite a fuego medio-bajo y añadir el ajo. Cocinar brevemente hasta que desprenda aroma, evitando que se oscurezca. Retirar el ajo si se desea una salsa más suave.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Cocinar el tomate\n\nIncorporar el tomate con cuidado para evitar salpicaduras. Añadir una pizca de sal y mantener una cocción suave durante 15–20 minutos, removiendo ocasionalmente.\n\nLa salsa debe perder parte del agua y adquirir una consistencia suficiente para adherirse a la pasta. El tiempo depende de la humedad y la acidez del tomate.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Cocer la pasta\n\nCocer la pasta en agua salada hasta un punto ligeramente anterior al deseado. Reservar una taza de agua de cocción.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Terminar en salsa\n\nTransferir la pasta a la sartén y mezclar durante 1–2 minutos a fuego medio-bajo, añadiendo pequeñas cantidades de agua de cocción solo si la salsa lo necesita.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Incorporar la albahaca\n\nRetirar del fuego y añadir las hojas de albahaca, enteras o rasgadas con las manos. Probar y ajustar la sal. Servir inmediatamente; añadir queso si se desea.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 117,
+        "start_line": 117
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Pasta con tomate y albahaca",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

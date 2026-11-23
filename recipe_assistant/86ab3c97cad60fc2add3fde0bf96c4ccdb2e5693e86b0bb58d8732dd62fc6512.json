@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Galette salado de tomate y mostaza\n\n## Descripción\n\nPreparación de referencia basada en **masa quebrada rústica, barrera de humedad y horneado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 porciones |\n| Técnica | Masa quebrada rústica, barrera de humedad y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 220 g de harina de trigo\n- 110 g de mantequilla fría en dados\n- 65–80 ml de agua muy fría\n- 4 g de sal\n- 450 g de tomates maduros firmes en rodajas\n- 2 cucharaditas de mostaza Dijon\n- 50 g de queso curado rallado\n- 1 cucharada de aceite de oliva\n- tomillo, pimienta y sal\n\n**Alérgenos:** Gluten (trigo), leche y mostaza.\n\n## Elaboración\n\n1. Mezclar harina y sal con mantequilla fría frotando hasta obtener migas gruesas; incorporar agua fría poco a poco solo hasta unir, sin amasar de más.\n2. Envolver y refrigerar la masa 30 minutos. Cortar tomates en rodajas, salar muy ligeramente y dejarlos escurrir 10 minutos sobre colador o papel limpio.\n3. Precalentar horno a 200 °C, calor arriba y abajo. Estirar la masa en círculo de 30 cm sobre papel de horno.\n4. Untar mostaza en la zona central dejando borde libre de unos 4 cm; espolvorear queso y distribuir tomates bien secos en una sola capa.\n5. Plegar los bordes de masa sobre parte del relleno, pincelar los tomates con aceite y añadir tomillo y pimienta.\n6. Hornear 35–45 minutos hasta que la base esté cocida y el borde dorado; reposar 10 minutos antes de cortar.\n\n## Puntos críticos\n\n- El tomate húmedo impide cocer la base. Una capa de queso bajo la fruta crea una barrera parcial, pero no sustituye escurrirla; la mantequilla debe mantenerse fría durante el montaje.\n- El tiempo depende del corte, humedad, bandeja y comportamiento del horno; comprobar el centro y la base antes de terminar.\n- Separar alimentos crudos de los listos para comer, emplear utensilios higiénicos y conservar refrigerados los ingredientes perecederos antes de cocinar.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima elaboración |\n|---|---|---|\n| Base blanda o húmeda | Relleno con agua o exceso de espesor | Escurrir y reducir el relleno; ajustar precocción |\n| Superficie quemada e interior duro | Calor superior elevado o piezas gruesas | Bajar temperatura y precocer cuando proceda |\n| Textura seca | Exceso de horno o relleno insuficiente | Comprobar antes el punto real y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar en recipientes tapados y evitar periodos prolongados a temperatura ambiente. Las preparaciones con quesos frescos o huevo precisan especial cuidado de refrigeración antes y después del horneado.\n\n## Relaciones dentro del SGCC\n\n- [Hornear masas en blanco](../00_Bases/03_Tecnicas/hornear_masas_en_blanco.md)\n- [Quiche de puerros y espinacas](./quiche_de_puerros_y_espinacas.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes utilizados, tamaño real del corte o molde, temperatura, duración, textura y valoración. Estas propuestas no sustituyen recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **masa quebrada rústica, barrera de humedad y horneado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/galette_salado_de_tomate_y_mostaza.html",
+  "id": "REC-331",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de harina de trigo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fría en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de mantequilla fría en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de mantequilla fría en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua muy fría",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "65",
+        "raw": "65–80 ml de agua muy fría",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "65–80 ml de agua muy fría",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "4 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomates maduros firmes en rodajas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de tomates maduros firmes en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de tomates maduros firmes en rodajas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza Dijon",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de mostaza Dijon",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de mostaza Dijon",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de queso curado rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de queso curado rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo, pimienta y sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "tomillo, pimienta y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "tomillo, pimienta y sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/galette_salado_de_tomate_y_mostaza.md",
+  "source_sha256": "6de0e69bf3389c15b6aed366e0a4db0fd1f7cacfdcdf4a72dfe4b8827306b86e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Mezclar harina y sal con mantequilla fría frotando hasta obtener migas gruesas; incorporar agua fría poco a poco solo hasta unir, sin amasar de más."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Envolver y refrigerar la masa 30 minutos. Cortar tomates en rodajas, salar muy ligeramente y dejarlos escurrir 10 minutos sobre colador o papel limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Precalentar horno a 200 °C, calor arriba y abajo. Estirar la masa en círculo de 30 cm sobre papel de horno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Untar mostaza en la zona central dejando borde libre de unos 4 cm; espolvorear queso y distribuir tomates bien secos en una sola capa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Plegar los bordes de masa sobre parte del relleno, pincelar los tomates con aceite y añadir tomillo y pimienta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear 35–45 minutos hasta que la base esté cocida y el borde dorado; reposar 10 minutos antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_masas_en_blanco.html",
+      "label": "Hornear masas en blanco",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_masas_en_blanco.md"
+    }
+  ],
+  "title": "Galette salado de tomate y mostaza",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Lombarda estofada con manzana y vinagre\n\n## Descripción\n\nPreparación de referencia centrada en **estofado tapado de col morada y ajuste ácido**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como guarnición |\n| Técnica | Estofado tapado de col morada y ajuste ácido |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de lombarda cortada fina\n- 220 g de manzana firme en dados\n- 140 g de cebolla en juliana\n- 2 cucharadas de aceite de oliva\n- 100 ml de agua\n- 2 cucharadas de vinagre de manzana\n- 1 hoja de laurel\n- ½ cucharadita de azúcar opcional\n- sal y pimienta\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Retirar hojas exteriores dañadas de la lombarda, lavar, quitar el tronco duro y cortar en tiras finas.\n2. Pochar cebolla con aceite 6–8 minutos en cazuela amplia.\n3. Añadir lombarda y remover 4 minutos, hasta que empiece a perder volumen.\n4. Agregar agua, laurel y una cucharada de vinagre, tapar y estofar suavemente unos 25–35 minutos, removiendo ocasionalmente.\n5. Añadir dados de manzana durante los últimos 10 minutos para conservar algo de textura.\n6. Destapar para evaporar líquido si lo hay y terminar con el vinagre restante, sal, pimienta y azúcar opcional.\n\n## Puntos críticos\n\n- Aunque está emparentada con la col blanca, la lombarda necesita más tiempo y el vinagre ayuda a conservar su tonalidad. Añadir agua solo si hace falta.\n- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.\n- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |\n| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |\n| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Col estofada con manzana y comino](./col_estofada_con_manzana_y_comino.md)\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, equipo, tiempos, textura y valoración. No se modifican ni se presuponen resultados de preparaciones anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **estofado tapado de col morada y ajuste ácido**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/lombarda_estofada_con_manzana_y_vinagre.html",
+  "id": "REC-342",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lombarda cortada fina",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de lombarda cortada fina",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de lombarda cortada fina",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "manzana firme en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de manzana firme en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de manzana firme en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla en juliana",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de manzana",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de vinagre de manzana",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de vinagre de manzana",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de azúcar opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de azúcar opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/lombarda_estofada_con_manzana_y_vinagre.md",
+  "source_sha256": "05e8b2ff2e05f719a9f8a2e1b85f337eeea49523bdcad57742413d151a120011",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Retirar hojas exteriores dañadas de la lombarda, lavar, quitar el tronco duro y cortar en tiras finas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla con aceite 6–8 minutos en cazuela amplia."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir lombarda y remover 4 minutos, hasta que empiece a perder volumen."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Agregar agua, laurel y una cucharada de vinagre, tapar y estofar suavemente unos 25–35 minutos, removiendo ocasionalmente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Añadir dados de manzana durante los últimos 10 minutos para conservar algo de textura."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Destapar para evaporar líquido si lo hay y terminar con el vinagre restante, sal, pimienta y azúcar opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Lombarda estofada con manzana y vinagre",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

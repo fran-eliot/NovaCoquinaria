@@ -1,0 +1,276 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Lacón con grelos y cachelos gallego\n\n## Origen y contexto\n\n**Región:** Galicia. Formulación doméstica de referencia con los rasgos característicos de esta especialidad; no se presenta como única versión regional ni como receta personalmente probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 |\n| Tiempo orientativo | Desalado según producto + 2–3 h de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1–1,2 kg de lacón salado apto para cocinar\n- 650 g de grelos frescos limpios\n- 750 g de patatas para cocer\n- 2 chorizos gallegos aptos para cocción, opcionales\n- agua suficiente para cubrir\n- aceite de oliva virgen extra opcional para servir\n\n**Alérgenos:** Revisar lacón y chorizos por sulfitos u otros alérgenos comerciales.\n\n## Elaboración\n\n1. Verificar las instrucciones del lacón comercial y desalarlo en agua potable dentro del frigorífico el tiempo que requiera su formato y grosor, cambiando el agua cuando corresponda.\n2. Poner el lacón desalado en una olla grande con agua fresca y llevar gradualmente a ebullición. Bajar a hervor suave y cocinar aproximadamente 1½–2½ horas, según pieza, hasta que esté completamente cocido y próximo a tierno.\n3. Lavar los grelos minuciosamente y retirar tallos excesivamente duros; escaldarlos por separado si son muy amargos y escurrir.\n4. Agregar las patatas peladas y cortadas en trozos grandes al caldo cuando falten unos 25–35 minutos.\n5. Incorporar los grelos y, si se usan, los chorizos según instrucciones del fabricante, y cocinar hasta que todo esté completamente hecho.\n6. Extraer el lacón y cortarlo en porciones sin huesos pequeños ni cartílagos; escurrir los grelos y cachelos.\n7. Servir caliente el lacón acompañado de grelos, cachelos y chorizo opcional, con un hilo de aceite si se desea.\n\n## Puntos críticos\n\n- El desalado es variable: un lacón ya cocido no requiere el mismo tratamiento que una pieza salada cruda. Ajustar el tiempo al etiquetado, probar antes de salar y no hervir agresivamente.\n- Ajustar tiempos, líquido y sal a ingredientes y equipo. Mantener higiene y cadena de frío, atender al etiquetado y comprobar la cocción segura de los productos animales y sus rellenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Ingrediente firme o poco hecho | Cocción insuficiente o piezas grandes | Comprobar el interior y prolongar con calor moderado |\n| Preparación demasiado líquida | Exceso de agua o reducción incompleta | Ajustar cantidad y reducir progresivamente |\n| Sabor desequilibrado | Exceso de sal o azúcar | Corregir después de probar y anotar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescado, huevos y lácteos requieren refrigeración y manipulación higiénica. Recalentar completamente las porciones destinadas a consumo caliente, sin mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md): control del hervor en cocciones prolongadas.\n- [Puchero andaluz con pringá](./puchero_andaluz_con_pringa_y_hierbabuena.md)\n- [Caldo gallego con grelos](../03_Legumbres/caldo_gallego_con_grelos_y_alubias.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar productos y cantidades reales, tiempos, puntos de cocción, textura y valoración. La ficha no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "Desalado según producto + 2–3 h de cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/lacon_con_grelos_y_cachelos_gallego.html",
+  "id": "REC-492",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lacón salado apto para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.2",
+        "min": "1",
+        "raw": "1–1,2 kg de lacón salado apto para cocinar",
+        "status": "range",
+        "unit": "kg"
+      },
+      "raw": "1–1,2 kg de lacón salado apto para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "grelos frescos limpios",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de grelos frescos limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de grelos frescos limpios",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas para cocer",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de patatas para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de patatas para cocer",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizos gallegos aptos para cocción, opcionales",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 chorizos gallegos aptos para cocción, opcionales",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 chorizos gallegos aptos para cocción, opcionales",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua suficiente para cubrir",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua suficiente para cubrir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua suficiente para cubrir",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra opcional para servir",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva virgen extra opcional para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva virgen extra opcional para servir",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/lacon_con_grelos_y_cachelos_gallego.md",
+  "source_sha256": "3a3488b9415d7287dfec57e8a9d3075fade0326262a69eba3bc6aa1f38c13d63",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Verificar las instrucciones del lacón comercial y desalarlo en agua potable dentro del frigorífico el tiempo que requiera su formato y grosor, cambiando el agua cuando corresponda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Poner el lacón desalado en una olla grande con agua fresca y llevar gradualmente a ebullición. Bajar a hervor suave y cocinar aproximadamente 1½–2½ horas, según pieza, hasta que esté completamente cocido y próximo a tierno."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Lavar los grelos minuciosamente y retirar tallos excesivamente duros; escaldarlos por separado si son muy amargos y escurrir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Agregar las patatas peladas y cortadas en trozos grandes al caldo cuando falten unos 25–35 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Incorporar los grelos y, si se usan, los chorizos según instrucciones del fabricante, y cocinar hasta que todo esté completamente hecho."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Extraer el lacón y cortarlo en porciones sin huesos pequeños ni cartílagos; escurrir los grelos y cachelos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Servir caliente el lacón acompañado de grelos, cachelos y chorizo opcional, con un hilo de aceite si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Lacón con grelos y cachelos gallego",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4–6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

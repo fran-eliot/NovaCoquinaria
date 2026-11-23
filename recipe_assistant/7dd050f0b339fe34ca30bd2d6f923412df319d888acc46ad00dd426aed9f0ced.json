@@ -1,0 +1,355 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Chili vegetal de frijoles rojos y maíz\n\n## Descripción\n\nPreparación de referencia centrada en **sofrito, reducción de tomate y legumbres cocidas**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Sofrito, reducción de tomate y legumbres cocidas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de frijoles rojos completamente cocidos y escurridos;\n- 250 g de maíz dulce cocido y escurrido;\n- 400 g de tomate triturado;\n- 180 g de cebolla picada;\n- 150 g de pimiento rojo en dados;\n- 2 dientes de ajo picados;\n- 2 cucharadas de aceite de oliva;\n- 1 cucharadita de comino molido;\n- 1 cucharadita de pimentón ahumado;\n- ¼–½ cucharadita de chile molido, ajustable;\n- 200 ml de agua o caldo de verduras;\n- sal y pimienta negra;\n\n**Alérgenos:** Revisar conservas y caldo comercial.\n\n## Elaboración\n\n1. Usar frijoles rojos previamente cocidos o en conserva escurridos; no utilizar frijoles rojos crudos ni insuficientemente hervidos.\n2. Pochar cebolla y pimiento 8 minutos en aceite, añadir ajo durante un minuto y agregar comino, pimentón y chile brevemente.\n3. Incorporar tomate y cocinar 8–10 minutos para reducir y eliminar el sabor crudo.\n4. Añadir frijoles y caldo, cocer a hervor suave 10–12 minutos sin romperlos; machacar una pequeña porción si se busca más cuerpo.\n5. Incorporar maíz cocido y calentar otros 3–4 minutos.\n6. Probar sal y picante al final; servir caliente con arroz u otra guarnición si se desea.\n\n## Puntos críticos\n\n- Los frijoles rojos secos tienen lectinas que requieren remojo y ebullición suficiente: la cocción lenta a baja temperatura no es segura como único tratamiento. Esta receta parte expresamente de frijoles cocidos.\n- Las cantidades de legumbres especificadas se refieren a **producto completamente cocido**; para legumbres secas, consultar la técnica de cocción antes de preparar la receta.\n- Ajustar tiempos y líquido según producto, recipiente e intensidad de fuego; evitar que las legumbres queden frías en el centro o se rompan innecesariamente.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección para una próxima prueba |\n|---|---|---|\n| Salsa aguada | Demasiado caldo o ingredientes sin escurrir | Reducir antes de integrar las legumbres o añadir menos líquido |\n| Granos rotos | Remoción intensa o cocción prolongada | Utilizar fuego suave y movimientos cuidadosos |\n| Sabor demasiado intenso | Exceso de condimentos concentrados | Añadir condimentos por etapas y probar antes de salar |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y tapados. No mantener preparaciones cocinadas durante horas a temperatura ambiente. Recalentar completamente cuando se sirvan calientes y seguir las indicaciones de las legumbres envasadas.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar peso efectivo, producto utilizado, tiempos, resultado y valoración. No atribuir a esta fórmula cantidades o resultados de otras preparaciones domésticas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **sofrito, reducción de tomate y legumbres cocidas**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/chili_vegetal_de_frijoles_rojos_y_maiz.html",
+  "id": "REC-0281",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "frijoles rojos completamente cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de frijoles rojos completamente cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de frijoles rojos completamente cocidos y escurridos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "maíz dulce cocido y escurrido;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de maíz dulce cocido y escurrido;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de maíz dulce cocido y escurrido;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento rojo en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento rojo en dados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón ahumado;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón ahumado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón ahumado;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "chile molido, ajustable;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/4",
+        "raw": "¼–½ cucharadita de chile molido, ajustable;",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "¼–½ cucharadita de chile molido, ajustable;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de verduras;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de agua o caldo de verduras;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de agua o caldo de verduras;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/chili_vegetal_de_frijoles_rojos_y_maiz.md",
+  "source_sha256": "613bd8439311d8d4a72c6e8c089bdc00514f9b38b54f52ee6ee2c7576175f8fc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Usar frijoles rojos previamente cocidos o en conserva escurridos; no utilizar frijoles rojos crudos ni insuficientemente hervidos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento 8 minutos en aceite, añadir ajo durante un minuto y agregar comino, pimentón y chile brevemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate y cocinar 8–10 minutos para reducir y eliminar el sabor crudo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Añadir frijoles y caldo, cocer a hervor suave 10–12 minutos sin romperlos; machacar una pequeña porción si se busca más cuerpo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Incorporar maíz cocido y calentar otros 3–4 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Probar sal y picante al final; servir caliente con arroz u otra guarnición si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Chili vegetal de frijoles rojos y maíz",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

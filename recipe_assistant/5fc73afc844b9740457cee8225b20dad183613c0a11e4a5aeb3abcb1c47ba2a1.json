@@ -1,0 +1,296 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Crema catalana con canela y limón\n\n## Descripción\n\nCrema de leche aromatizada con canela y limón, espesada con yemas y almidón y cubierta con una fina capa de azúcar caramelizado poco antes de servir. Su estructura se obtiene en cazo, no mediante baño maría.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Preparación | 20 minutos, más refrigeración |\n| Cocinado | 12–18 minutos |\n| Dificultad | Media |\n| Técnica principal | Espesado con yemas y caramelización de superficie |\n\n## Ingredientes\n\n- 750 ml de leche entera\n- 5 yemas de huevo\n- 110 g de azúcar para la crema\n- 30 g de maicena\n- 1 rama de canela\n- piel de un limón lavado, sin parte blanca\n- 35–45 g de azúcar adicional para caramelizar\n\n**Alérgenos:** Leche y huevo.\n\n## Mise en place\n\nReservar 150 ml de leche fría para disolver maicena y yemas. Preparar seis cazuelitas resistentes al calor y limpias. Lavar limón antes de pelarlo; disponer de un quemador culinario adecuado si se va a caramelizar la superficie.\n\n## Elaboración\n\n### 1. Infusionar\n\nCalentar 600 ml de leche con canela y piel de limón sin hervor fuerte durante 5 minutos. Retirar del calor y dejar infusionar 5 minutos; colar.\n\n### 2. Preparar yemas\n\nMezclar yemas, 110 g de azúcar, maicena y los 150 ml de leche fría hasta disolver grumos.\n\n### 3. Templar\n\nIncorporar gradualmente parte de la leche caliente a la mezcla de yemas, removiendo sin parar.\n\n### 4. Espesar y cocinar\n\nDevolver al cazo y cocinar a fuego moderado, removiendo con espátula por fondo y esquinas hasta que espese de manera homogénea; continuar el calentamiento suficiente para cocinar el huevo y el almidón, evitando que se agarre. Una textura espesa por sí sola no garantiza seguridad.\n\n### 5. Enfriar\n\nRepartir inmediatamente en cazuelitas, dejar que pierdan algo de calor sin demoras y refrigerar tapadas hasta que estén bien frías y asentadas.\n\n### 6. Caramelizar\n\nPoco antes de servir, distribuir una capa fina de azúcar y caramelizar con quemador culinario siguiendo las instrucciones del equipo, sin quemar el azúcar ni calentar prolongadamente toda la crema. Dejar endurecer unos instantes.\n\n## Puntos críticos\n\n- Las yemas se templan gradualmente para evitar grumos.\n- La mezcla debe cocinarse suficientemente y refrigerarse pronto; no confiar solo en la densidad visual.\n- Caramelizar únicamente poco antes del servicio ayuda a conservar una costra quebradiza.\n\n## Perfil esperado\n\nCrema lisa y fresca, perfumada con limón y canela, cubierta por caramelo fino y crujiente.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin caramelizar | Servir como crema aromatizada, sin costra |\n| Con naranja | Sustituir parte de la piel de limón por naranja |\n| Con menos canela | Acortar infusión según preferencia |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Crema grumosa | Yemas sometidas a calor excesivo o maicena mal disuelta | Templar y remover; colar si hace falta |\n| Crema líquida | Espesado insuficiente | Continuar cocción controlada |\n| Costra blanda | Caramelizado anticipado | Quemar el azúcar justo antes de servir |\n\n## Conservación\n\nTras espesar la crema de leche y yemas, distribuirla en recipientes limpios, enfriar rápidamente y conservar **refrigerada y protegida**. Añadir y caramelizar el azúcar **justo antes de servir** para preservar la costra quebradiza, evitando quemar recipientes no aptos para la fuente de calor. No mantener la crema fuera de frío durante periodos prolongados y consumir en un plazo corto según la frescura de leche y huevos.\n## Relaciones dentro del SGCC\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Natillas caseras](./natillas_caseras.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> La crema se espesa por calentamiento controlado; la costra se crea al final y se sirve crujiente.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para espesado con yemas y caramelización de superficie."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "20 minutos, más refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "18",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–18 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/crema_catalana_con_canela_y_limon.html",
+  "id": "REC-0147",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de leche entera",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas de huevo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 yemas de huevo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "5 yemas de huevo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la crema",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de azúcar para la crema",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de azúcar para la crema",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de maicena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de maicena",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de un limón lavado, sin parte blanca",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de un limón lavado, sin parte blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de un limón lavado, sin parte blanca",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para caramelizar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "35",
+        "raw": "35–45 g de azúcar adicional para caramelizar",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "35–45 g de azúcar adicional para caramelizar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nReservar 150 ml de leche fría para disolver maicena y yemas. Preparar seis cazuelitas resistentes al calor y limpias. Lavar limón antes de pelarlo; disponer de un quemador culinario adecuado si se va a caramelizar la superficie.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/crema_catalana_con_canela_y_limon.md",
+  "source_sha256": "5a19c1a249246e544973c6fb8617fa38d5fee2541670d36868bcb3f80a2903a1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Infusionar\n\nCalentar 600 ml de leche con canela y piel de limón sin hervor fuerte durante 5 minutos. Retirar del calor y dejar infusionar 5 minutos; colar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Preparar yemas\n\nMezclar yemas, 110 g de azúcar, maicena y los 150 ml de leche fría hasta disolver grumos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Templar\n\nIncorporar gradualmente parte de la leche caliente a la mezcla de yemas, removiendo sin parar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Espesar y cocinar\n\nDevolver al cazo y cocinar a fuego moderado, removiendo con espátula por fondo y esquinas hasta que espese de manera homogénea; continuar el calentamiento suficiente para cocinar el huevo y el almidón, evitando que se agarre. Una textura espesa por sí sola no garantiza seguridad.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 5,
+      "text": "5. Enfriar\n\nRepartir inmediatamente en cazuelitas, dejar que pierdan algo de calor sin demoras y refrigerar tapadas hasta que estén bien frías y asentadas.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 6,
+      "text": "6. Caramelizar\n\nPoco antes de servir, distribuir una capa fina de azúcar y caramelizar con quemador culinario siguiendo las instrucciones del equipo, sin quemar el azúcar ni calentar prolongadamente toda la crema. Dejar endurecer unos instantes.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Crema catalana con canela y limón",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Conejo en salmorejo canario\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Formulación doméstica de referencia con los elementos característicos de la preparación. Las proporciones se proponen para una futura prueba, sin atribuirles validez universal ni experiencia ya documentada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Duración orientativa | 12 horas de adobo refrigerado + 50–70 minutos de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de conejo troceado para guisar\n- 5 dientes de ajo\n- 90 ml de vino blanco\n- 45 ml de vinagre de vino blanco\n- 3 cucharadas de aceite de oliva\n- 1 cucharadita de pimentón dulce\n- ½ cucharadita de comino molido\n- 1 cucharadita de orégano seco\n- 1 hoja de laurel\n- 150–250 ml de agua potable para la cocción\n- sal y pimienta\n\n**Alérgenos:** Vino con posible alcohol residual; revisar vinagre por sulfitos.\n\n## Elaboración\n\n1. Revisar los trozos de conejo por fragmentos de hueso y secarlos con papel de cocina.\n2. Majar ajo, comino, orégano, pimentón, vinagre, vino, aceite y sal hasta obtener un adobo; añadir laurel.\n3. Mezclar el conejo con el adobo en recipiente alimentario cerrado y marinar en el frigorífico aproximadamente 8–12 horas, sin dejarlo nunca a temperatura ambiente.\n4. Separar la carne del adobo, reservando el líquido crudo para cocinarlo después; dorar el conejo por tandas en cazuela.\n5. Incorporar todo el adobo reservado y llevarlo a ebullición; añadir agua según necesidad.\n6. Tapar parcialmente y guisar a fuego suave 35–50 minutos hasta que el conejo esté completamente cocinado y tierno, reduciendo luego la salsa hasta consistencia de cobertura.\n7. Probar sal, retirar laurel y servir con papas arrugadas si se desea.\n\n## Puntos críticos\n\n- El salmorejo canario es un adobo de ajo, vinagre, vino y especias, diferente del salmorejo cordobés de tomate. El adobo que ha tocado carne cruda debe cocinarse completamente, nunca usarse como salsa fría.\n- Aplicar higiene de los ingredientes y utensilios, separar productos crudos y cocinados y refrigerar de forma apropiada los perecederos.\n- Comprobar el punto de cocción real de cada ingrediente y registrar ajustes de cantidades, temperatura y tiempo antes de consolidar una versión.\n\n## Diagnóstico\n\n| Observación | Posible causa | Ajuste para próxima elaboración |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |\n| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |\n| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Conejo al ajillo con vino blanco](./conejo_al_ajillo_con_vino_blanco.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Papas arrugadas con mojo picón](../04_Verduras/papas_arrugadas_con_mojo_picon_rojo.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes reales, pesos, tiempos, textura y valoración. Esta propuesta no modifica versiones previamente cocinadas ni declara una mejora sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/conejo_en_salmorejo_canario.html",
+  "id": "REC-439",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "conejo troceado para guisar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de conejo troceado para guisar",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de conejo troceado para guisar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de vino blanco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano seco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano seco",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para la cocción",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de agua potable para la cocción",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de agua potable para la cocción",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/conejo_en_salmorejo_canario.md",
+  "source_sha256": "11f408272e5619c0732c607c606b1756f7612078b4918dfe0032d226ec31f65a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Revisar los trozos de conejo por fragmentos de hueso y secarlos con papel de cocina."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Majar ajo, comino, orégano, pimentón, vinagre, vino, aceite y sal hasta obtener un adobo; añadir laurel."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Mezclar el conejo con el adobo en recipiente alimentario cerrado y marinar en el frigorífico aproximadamente 8–12 horas, sin dejarlo nunca a temperatura ambiente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Separar la carne del adobo, reservando el líquido crudo para cocinarlo después; dorar el conejo por tandas en cazuela."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Incorporar todo el adobo reservado y llevarlo a ebullición; añadir agua según necesidad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Tapar parcialmente y guisar a fuego suave 35–50 minutos hasta que el conejo esté completamente cocinado y tierno, reduciendo luego la salsa hasta consistencia de cobertura."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Probar sal, retirar laurel y servir con papas arrugadas si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Conejo en salmorejo canario",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

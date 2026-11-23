@@ -1,0 +1,325 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 117,
+      "start_line": 15
+    },
+    "text": "\n# Calabaza asada con yogur, comino y limón\n\n## Descripción\n\nDados de calabaza asados hasta obtener bordes ligeramente dorados y pulpa tierna, servidos sobre yogur natural sazonado con limón y comino. El contraste entre verdura caliente y salsa fresca permite un plato completo sin cubrir el dulzor vegetal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como entrante o guarnición |\n| Preparación | 15 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Asado seco y aliño frío |\n\n## Ingredientes\n\n- 800 g de calabaza limpia, sin semillas ni piel dura, en dados de unos 2,5 cm\n- 3 cucharadas de aceite de oliva virgen extra\n- 3/4 cucharadita de comino molido\n- 1/2 cucharadita de pimentón dulce, opcional\n- 150 g de yogur natural sin azúcar\n- 1 cucharadita de zumo de limón, más para ajustar\n- 1 diente de ajo pequeño rallado, opcional\n- sal y pimienta negra\n- perejil fresco o cilantro fresco para terminar, opcional\n\n**Alérgenos:** Leche (yogur). Revisar etiquetado de mezclas de especias.\n\n## Mise en place\n\nPrecalentar el horno a 210 °C, calor arriba y abajo (aprox. 200 °C con ventilador). Secar los dados de calabaza. Disponer de una bandeja amplia y un cuenco para la salsa. Mantener el yogur refrigerado hasta preparar el acompañamiento.\n\n## Elaboración\n\n### 1. Sazonar\n\nMezclar los dados con aceite, comino, pimentón opcional, sal y pimienta. Distribuir en una sola capa, dejando espacio para que se evapore el agua.\n\n### 2. Asar\n\nHornear 25–35 minutos, dando la vuelta una vez; comprobar que el cuchillo entre sin resistencia y que los bordes estén dorados sin quemarse. El tiempo depende del agua de la variedad y del corte.\n\n### 3. Preparar la salsa\n\nMezclar yogur con limón, una pizca de sal y ajo opcional. Añadir unas cucharaditas de agua fría solo si se desea una consistencia vertible.\n\n### 4. Equilibrar\n\nProbar por separado la calabaza y el yogur. Corregir ácido y sal después, teniendo en cuenta que la salsa no debe ocultar el sabor de la verdura.\n\n### 5. Servir\n\nExtender el yogur en una fuente, disponer la calabaza templada encima y terminar con hierbas. No devolver la salsa de yogur al horno.\n\n## Puntos críticos\n\n- El exceso de piezas en la bandeja produce vapor y reduce el dorado.\n- No añadir miel al principio: el azúcar favorece el quemado antes de que el centro se ablande.\n- Usar yogur frío solo al servir y evitar dejar el plato montado muchas horas a temperatura ambiente.\n- El ajo crudo es opcional y conviene dosificarlo con moderación.\n\n## Perfil esperado\n\nCalabaza de centro suave y superficie dorada, sobre una salsa de yogur cremosa, fresca y ligeramente ácida.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con tahini | Añadir 1 cucharadita de tahini al yogur y ajustar con agua; incorpora sésamo. |\n| Sin lácteos | Utilizar una salsa de limón y aceite o yogur vegetal apto; comprobar su composición. |\n| Con frutos secos | Añadir almendra tostada y picada al servir; incorpora frutos de cáscara. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Calabaza cocida, sin dorado | Bandeja saturada | Separar los dados y aumentar superficie |\n| Bordes amargos | Especias o azúcar quemados | Ajustar calor y evitar glaseado inicial |\n| Salsa demasiado líquida | Yogur poco denso o exceso de limón | Añadir cítrico gradualmente y usar yogur espeso |\n\n## Conservación\n\nEnfriar la calabaza cocida sin demoras y refrigerarla separada del yogur. Consumir pronto; recalentar bien la calabaza antes de servir y añadir salsa fría nueva. Evitar dejar yogur y calabaza montados durante largo tiempo fuera de frío.\n\n## Relaciones dentro del SGCC\n\n- [Calabaza](../11_Despensa/06_Verduras/calabaza.md)\n- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md)\n- [Comino](../11_Despensa/08_Especias/comino.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Tahini](../11_Despensa/16_Frutos_Secos/tahini.md)\n\n## Principio de NovaCoquinaria\n\n> El asado concentra el dulzor de la calabaza; un aliño ácido añadido al final crea equilibrio sin frenar el dorado.\n\n## Utilizado por\n\nReferencia para adaptar preparaciones de verduras y legumbres a distintas técnicas de horno y sartén."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/calabaza_asada_con_yogur_y_comino.html",
+  "id": "REC-0166",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabaza limpia, sin semillas ni piel dura, en dados de unos 2,5 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de calabaza limpia, sin semillas ni piel dura, en dados de unos 2,5 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de calabaza limpia, sin semillas ni piel dura, en dados de unos 2,5 cm",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3/4",
+        "min": "3/4",
+        "raw": "3/4 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "3/4 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural sin azúcar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de yogur natural sin azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de yogur natural sin azúcar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, más para ajustar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, más para ajustar",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, más para ajustar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño rallado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño rallado, opcional",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño rallado, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco o cilantro fresco para terminar, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco o cilantro fresco para terminar, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco o cilantro fresco para terminar, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 210 °C, calor arriba y abajo (aprox. 200 °C con ventilador). Secar los dados de calabaza. Disponer de una bandeja amplia y un cuenco para la salsa. Mantener el yogur refrigerado hasta preparar el acompañamiento.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/calabaza_asada_con_yogur_y_comino.md",
+  "source_sha256": "535fcfde60813f1a7bd2113a4788d4f71d4b5d79a7fd127c3480980552b12ab4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Sazonar\n\nMezclar los dados con aceite, comino, pimentón opcional, sal y pimienta. Distribuir en una sola capa, dejando espacio para que se evapore el agua.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Asar\n\nHornear 25–35 minutos, dando la vuelta una vez; comprobar que el cuchillo entre sin resistencia y que los bordes estén dorados sin quemarse. El tiempo depende del agua de la variedad y del corte.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Preparar la salsa\n\nMezclar yogur con limón, una pizca de sal y ajo opcional. Añadir unas cucharaditas de agua fría solo si se desea una consistencia vertible.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Equilibrar\n\nProbar por separado la calabaza y el yogur. Corregir ácido y sal después, teniendo en cuenta que la salsa no debe ocultar el sabor de la verdura.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nExtender el yogur en una fuente, disponer la calabaza templada encima y terminar con hierbas. No devolver la salsa de yogur al horno.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 108,
+        "start_line": 108
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Calabaza asada con yogur, comino y limón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante o guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

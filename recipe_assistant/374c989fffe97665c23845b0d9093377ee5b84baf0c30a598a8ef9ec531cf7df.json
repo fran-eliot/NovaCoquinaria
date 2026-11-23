@@ -1,0 +1,306 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 110,
+      "start_line": 15
+    },
+    "text": "\n# Tofu dorado con jengibre y soja\n\n## Descripción\n\nDados de tofu firme dorados por separado y recubiertos al final con una salsa ligera de soja, jengibre y limón. Adaptación doméstica de sabores asiáticos, centrada en controlar la humedad del tofu.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Preparación | 15 minutos |\n| Cocinado | 15–20 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Secado, dorado y glaseado breve |\n\n## Ingredientes\n\n- 400 g de tofu firme\n- 2 cucharadas de salsa de soja\n- 15 g de jengibre fresco rallado\n- 1 diente de ajo picado\n- 2 cucharadas de aceite neutro\n- 1 cucharadita de miel o azúcar opcional\n- 2 cucharadas de agua\n- 1 cucharadita de zumo de limón\n- 1 cucharadita de semillas de sésamo opcional\n\n**Alérgenos:** Soja; trigo según la salsa de soja; sésamo si se utiliza.\n\n## Mise en place\n\nEscurrir el tofu, envolverlo en papel limpio y presionar suavemente entre dos platos durante unos 10 minutos. Cortar en dados de 2 cm. Mezclar soja, agua y endulzante opcional.\n\n## Elaboración\n\n### 1. Dorar tofu\n\nCalentar una sartén amplia con aceite. Dorar los dados por varias caras durante 8–10 minutos, sin amontonarlos, hasta que se forme superficie firme; reservar.\n\n### 2. Aromatizar\n\nBajar a fuego medio-bajo, añadir ajo y jengibre durante 30–45 segundos sin quemarlos.\n\n### 3. Formar salsa\n\nAgregar la mezcla de soja y agua y dejar hervir suavemente 1–2 minutos.\n\n### 4. Glasear\n\nDevolver el tofu y mover con cuidado hasta que quede recubierto y bien caliente. Apagar y terminar con limón y sésamo opcional.\n\n## Puntos críticos\n\n- El tofu húmedo se cuece al vapor y dora peor.\n- La soja puede concentrarse y salar en exceso; reducir poco tiempo.\n- Si el tofu se incorpora demasiado pronto, el glaseado puede quemarse antes de dorarlo.\n\n## Perfil esperado\n\nTofu con bordes dorados, centro tierno y glaseado fino, salado y ligeramente aromático.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con chile | Añadir una pizca al glaseado |\n| Con brócoli | Añadir brócoli previamente cocido y escurrido al final |\n| Sin sésamo | Omitir la guarnición |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Tofu pálido | Demasiada humedad | Secar y trabajar por tandas |\n| Salsa salada | Reducción excesiva | Diluir y ajustar al probar |\n| Ajo amargo | Calor demasiado alto | Añadir cuando el tofu ya esté dorado |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n\n## Principio de NovaCoquinaria\n\n> Para glasear sin reblandecer, el tofu se dora antes de entrar en contacto con la salsa.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para secado, dorado y glaseado breve."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/tofu_crujiente_con_jengibre_y_soja.html",
+  "id": "REC-0136",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tofu firme",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tofu firme",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tofu firme",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel o azúcar opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel o azúcar opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de sésamo opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de semillas de sésamo opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de semillas de sésamo opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nEscurrir el tofu, envolverlo en papel limpio y presionar suavemente entre dos platos durante unos 10 minutos. Cortar en dados de 2 cm. Mezclar soja, agua y endulzante opcional.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/tofu_crujiente_con_jengibre_y_soja.md",
+  "source_sha256": "012817ca5e0e8976290d6034c77fb89cecbca34538a96a0a7144d7e086fc3c25",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Dorar tofu\n\nCalentar una sartén amplia con aceite. Dorar los dados por varias caras durante 8–10 minutos, sin amontonarlos, hasta que se forme superficie firme; reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar\n\nBajar a fuego medio-bajo, añadir ajo y jengibre durante 30–45 segundos sin quemarlos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Formar salsa\n\nAgregar la mezcla de soja y agua y dejar hervir suavemente 1–2 minutos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Glasear\n\nDevolver el tofu y mover con cuidado hasta que quede recubierto y bien caliente. Apagar y terminar con limón y sésamo opcional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 102,
+        "start_line": 102
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Tofu dorado con jengibre y soja",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

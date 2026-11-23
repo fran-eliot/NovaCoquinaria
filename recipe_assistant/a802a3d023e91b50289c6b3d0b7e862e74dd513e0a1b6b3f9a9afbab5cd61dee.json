@@ -1,0 +1,302 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Urta a la roteña con tomate y pimientos\n\n## Origen y contexto\n\n**Región:** Rota, Cádiz, Andalucía. Formulación doméstica de referencia, pendiente de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 55–65 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de filetes de urta limpios\n- 400 g de tomate maduro\n- 200 g de cebolla\n- 150 g de pimiento verde\n- 150 g de pimiento rojo\n- 3 dientes de ajo\n- 60 ml de aceite de oliva\n- 80 ml de vino blanco seco\n- sal y pimienta\n\n**Alérgenos:** Pescado; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Mantener pescado refrigerado, revisar espinas y secar. Cortar hortalizas en tiras y tomate en dados.\n2. Pochar cebolla y pimientos en aceite 12–15 min; añadir ajo y tomate y guisar otros 10 min.\n3. Añadir vino y reducir unos minutos. Distribuir el sofrito en fuente de horno y colocar los filetes sazonados encima.\n4. Hornear a 190 °C unos 12–20 minutos, según grosor, hasta cocción completa (63 °C en el centro como referencia).\n5. Servir sobre el lecho de verduras con sus jugos, retirando las espinas visibles.\n\n## Puntos críticos\n\n- La preparación roteña combina pescado y hortalizas guisadas; la presentación con filetes es una variante doméstica. Si se usa pargo por disponibilidad, identificarlo como sustitución.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Pescado seco | Exceso de horno | Ajustar al grosor |\n| Sofrito acuoso | Tomate poco reducido | Reducir antes de incorporar pescado |\n\n## Conservación\n\nRefrigerar sin demora a 4 °C o menos y consumir preferiblemente en 24 h; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [merluza a la gallega con ajada](../06_Pescados_y_Mariscos/merluza_a_la_gallega_con_ajada.md)\n- [asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.spain.info/es/receta/urta-la-rotena/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Rota, Cádiz, Andalucía. Formulación doméstica de referencia, pendiente de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/urta_a_la_rotena_con_tomate_y_pimientos.html",
+  "id": "REC-571",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de urta limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de filetes de urta limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de filetes de urta limpios",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate maduro",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate maduro",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento verde",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento rojo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/urta_a_la_rotena_con_tomate_y_pimientos.md",
+  "source_sha256": "8df0f57ac682210cbbccfa12bbc208c9740167970848b70151bf6b4bedbf2782",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Mantener pescado refrigerado, revisar espinas y secar. Cortar hortalizas en tiras y tomate en dados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimientos en aceite 12–15 min; añadir ajo y tomate y guisar otros 10 min."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir vino y reducir unos minutos. Distribuir el sofrito en fuente de horno y colocar los filetes sazonados encima."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Hornear a 190 °C unos 12–20 minutos, según grosor, hasta cocción completa (63 °C en el centro como referencia)."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Servir sobre el lecho de verduras con sus jugos, retirando las espinas visibles."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "asar en horno",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Urta a la roteña con tomate y pimientos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

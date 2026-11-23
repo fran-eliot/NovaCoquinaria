@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Bacalao con garbanzos y pimentón\n\n## Descripción\n\nGuiso breve de bacalao correctamente desalado y garbanzos ya cocidos con ajo, cebolla y pimentón. La legumbre integra el sabor y el bacalao se cocina al final.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos, más desalado previo si corresponde |\n| Cocinado | 20–30 minutos |\n| Dificultad | Media |\n| Técnica principal | Sofrito y cocción escalonada |\n\n## Ingredientes\n\n- 500 g de bacalao desalado, sin espinas y cortado en trozos\n- 600 g de garbanzos cocidos y escurridos\n- 1 cebolla mediana picada\n- 2 dientes de ajo picados\n- 1 cucharadita de pimentón dulce\n- 2 cucharadas de aceite de oliva virgen extra\n- 350–450 ml de caldo de pescado o agua\n- 1 hoja de laurel\n- sal solo si es necesaria\n- perejil fresco opcional\n\n**Alérgenos:** Pescado; revisar el caldo comercial.\n\n## Mise en place\n\nVerificar el desalado del bacalao; si se parte de bacalao salado, seguir la técnica de desalado en refrigeración. Comprobar espinas. Escurrir garbanzos ya cocidos.\n\n## Elaboración\n\n### 1. Preparar sofrito\n\nPochar cebolla 8–10 minutos con aceite. Añadir ajo y cocinar 1 minuto sin quemarlo.\n\n### 2. Añadir pimentón\n\nSeparar la cazuela del calor directo, incorporar pimentón y remover brevemente.\n\n### 3. Formar guiso\n\nAñadir el caldo, laurel y garbanzos cocidos. Cocinar 8–10 minutos a hervor suave.\n\n### 4. Dar cuerpo\n\nSi se quiere un caldo ligado, triturar dos cucharadas de garbanzos con líquido y devolver la mezcla a la cazuela.\n\n### 5. Cocer bacalao\n\nIntroducir los trozos de bacalao y cocinar suavemente hasta que estén completamente hechos y el centro alcance 63 °C. Evitar hervor violento.\n\n### 6. Terminar\n\nRetirar laurel, probar antes de salar y añadir perejil opcional al servir.\n\n## Puntos críticos\n\n- El bacalao salado debe desalarse previamente; el guiso no elimina un exceso de sal.\n- No utilizar garbanzos secos sin cocer en esta versión rápida.\n- Añadir pescado al final evita que las lascas se endurezcan y se rompan.\n\n## Perfil esperado\n\nCaldo sabroso y ligeramente ligado, garbanzos enteros y bacalao jugoso.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con espinacas | Añadir hojas tiernas antes del pescado |\n| Con comino | Incorporar una pizca con el pimentón |\n| Sin laurel | Omitirlo para un perfil más directo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Bacalao muy salado | Desalado insuficiente | Comprobar antes de cocinar |\n| Pescado seco | Cocción larga | Incorporar al final |\n| Garbanzos rotos | Hervor intenso | Mantener cocción suave |\n\n## Conservación\n\nRefrigerar el pescado o marisco crudo hasta su uso y descongelarlo en refrigeración. Enfriar las sobras sin demora, refrigerar en recipientes cerrados y consumirlas en un plazo corto. Recalentar completamente si se sirven de nuevo calientes; no dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao](../11_Despensa/04_Pescados/bacalao.md)\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n\n## Principio de NovaCoquinaria\n\n> La legumbre puede integrarse en un guiso breve; el bacalao necesita su propio tiempo y control de sal.\n\n## Utilizado por\n\nReceta de referencia del módulo Pescados y Mariscos para sofrito y cocción escalonada."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "20 minutos, más desalado previo si corresponde",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "30",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_con_garbanzos_y_pimenton.html",
+  "id": "REC-0132",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao desalado, sin espinas y cortado en trozos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de bacalao desalado, sin espinas y cortado en trozos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de bacalao desalado, sin espinas y cortado en trozos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de garbanzos cocidos y escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de garbanzos cocidos y escurridos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado o agua",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "350",
+        "raw": "350–450 ml de caldo de pescado o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–450 ml de caldo de pescado o agua",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo si es necesaria",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo si es necesaria",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo si es necesaria",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nVerificar el desalado del bacalao; si se parte de bacalao salado, seguir la técnica de desalado en refrigeración. Comprobar espinas. Escurrir garbanzos ya cocidos.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_con_garbanzos_y_pimenton.md",
+  "source_sha256": "7e615fed8e9c9d1693f4366f60e22b4f5564977b3adc9f1cec9e80371bd78238",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Preparar sofrito\n\nPochar cebolla 8–10 minutos con aceite. Añadir ajo y cocinar 1 minuto sin quemarlo.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Añadir pimentón\n\nSeparar la cazuela del calor directo, incorporar pimentón y remover brevemente.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Formar guiso\n\nAñadir el caldo, laurel y garbanzos cocidos. Cocinar 8–10 minutos a hervor suave.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Dar cuerpo\n\nSi se quiere un caldo ligado, triturar dos cucharadas de garbanzos con líquido y devolver la mezcla a la cazuela.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Cocer bacalao\n\nIntroducir los trozos de bacalao y cocinar suavemente hasta que estén completamente hechos y el centro alcance 63 °C. Evitar hervor violento.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 73
+      },
+      "source_number": 6,
+      "text": "6. Terminar\n\nRetirar laurel, probar antes de salar y añadir perejil opcional al servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Bacalao con garbanzos y pimentón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

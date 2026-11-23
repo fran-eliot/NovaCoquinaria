@@ -1,0 +1,359 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Goxua alavés de nata, crema y bizcocho\n\n## Origen y contexto\n\n**Región:** Álava, País Vasco. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 vasitos |\n| Tiempo orientativo | 45–55 minutos más refrigeración |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 ml de nata para montar pasteurizada muy fría\n- 30 g de azúcar glas para la nata\n- 250 g de bizcocho genovés completamente horneado o bizcochos de soletilla\n- 150 ml de café descafeinado suave o almíbar frío para humedecer, según versión doméstica\n- 500 ml de leche entera para la crema\n- 4 yemas L para la crema\n- 90 g de azúcar para la crema\n- 40 g de maicena\n- 1 rama de canela y piel de limón lavada para infusionar\n- 30 g de azúcar adicional para caramelizar la superficie\n\n**Alérgenos:** Leche, huevo y gluten (trigo); revisar bizcocho comercial.\n\n## Elaboración\n\n1. Infusionar la leche con canela y piel de limón, retirar aromáticos y dejar que pierda parte del calor.\n2. Batir yemas con azúcar y maicena; añadir leche infusionada poco a poco y devolver al cazo.\n3. Cocinar removiendo hasta que la crema hierva suavemente y espese durante al menos 1 minuto. Pasar a recipiente bajo, cubrir a contacto y enfriar rápidamente en refrigeración.\n4. Montar la nata fría con azúcar glas hasta formar picos suaves y mantenerla refrigerada.\n5. Colocar nata montada en el fondo de seis vasitos aptos; disponer encima un disco de bizcocho, humedeciéndolo ligeramente con café frío o almíbar.\n6. Distribuir la crema ya fría por encima del bizcocho; refrigerar los vasitos al menos 2 horas para estabilizar las capas.\n7. Espolvorear una fina capa de azúcar y caramelizar con soplete apto para repostería justo antes de servir, solo si los recipientes son resistentes al calor; alternativamente, decorar con caramelo preparado aparte y enfriado.\n8. Servir frío, sin mantener los vasitos con crema y nata a temperatura ambiente.\n\n## Puntos críticos\n\n- El goxua combina nata, bizcocho y crema pastelera, generalmente con superficie caramelizada. El orden y los aromáticos varían según casas. Evitar quemar el azúcar directamente sobre vasos no aptos para soplete.\n- La crema se prepara con **yemas y leche**: cocinar hasta espesar, sin dejar zonas crudas, y enfriar rápidamente antes de montar el postre. Mantener la nata y la crema refrigeradas; no extender el soplete sobre recipientes de vidrio que no indiquen resistencia al choque térmico.\n- La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente elaboración |\n|---|---|---|\n| Crema con grumos | Calor demasiado intenso o incorporación brusca de leche caliente a las yemas | Incorporar la leche poco a poco y cocinar removiendo; en una próxima prueba ajustar el fuego antes de cambiar proporciones |\n| Capas acuosas y bizcocho deshecho | Bizcocho excesivamente empapado o crema incorporada todavía templada | Humedecer el bizcocho ligeramente con café o almíbar fríos y montar solo con la crema enfriada |\n| Nata que pierde volumen | Nata poco fría, exceso de batido o contacto con crema tibia | Montar nata bien fría hasta picos suaves y mantener las capas refrigeradas antes de servir |\n| Azúcar de superficie quemado o recipiente dañado | Calor del soplete excesivo o vaso no adecuado | Caramelizar brevemente solo en recipientes resistentes al calor, o preparar caramelo aparte según la alternativa ya prevista |\n\n## Conservación\n\nPreparar la crema con higiene y **enfriarla rápidamente en refrigeración** antes de montar. Conservar los vasitos de goxua siempre refrigerados y protegidos por contener nata montada, crema de yemas y leche. Caramelizar justo antes de servir cuando el recipiente sea apto; no mantener los vasitos fuera de frío durante periodos prolongados. Consumir en un plazo corto atendiendo a la frescura de los ingredientes, sin tratar el bizcocho húmedo como producto seco de despensa.\n\n## Relaciones dentro del SGCC\n\n- [Crema catalana con canela y limón](./crema_catalana_con_canela_y_limon.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, presentación del ingrediente, cocción, textura, resultado y valoración. Esta ficha no sustituye formulaciones anteriores ni se considera una versión mejorada sin comparación real."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–55 minutos más refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Álava, País Vasco. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/goxua_alaves_de_nata_crema_y_bizcocho.html",
+  "id": "REC-459",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "nata para montar pasteurizada muy fría",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de nata para montar pasteurizada muy fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de nata para montar pasteurizada muy fría",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para la nata",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar glas para la nata",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar glas para la nata",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "bizcocho genovés completamente horneado o bizcochos de soletilla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de bizcocho genovés completamente horneado o bizcochos de soletilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de bizcocho genovés completamente horneado o bizcochos de soletilla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "café descafeinado suave o almíbar frío para humedecer, según versión doméstica",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de café descafeinado suave o almíbar frío para humedecer, según versión doméstica",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de café descafeinado suave o almíbar frío para humedecer, según versión doméstica",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera para la crema",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera para la crema",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera para la crema",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas L para la crema",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 yemas L para la crema",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 yemas L para la crema",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la crema",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar para la crema",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar para la crema",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de maicena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de maicena",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela y piel de limón lavada para infusionar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela y piel de limón lavada para infusionar",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela y piel de limón lavada para infusionar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para caramelizar la superficie",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar adicional para caramelizar la superficie",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar adicional para caramelizar la superficie",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/goxua_alaves_de_nata_crema_y_bizcocho.md",
+  "source_sha256": "8603e28d556b3cd8c3109c6f63a96cdcffc046f14bee87977d237cfb18b38c7a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Infusionar la leche con canela y piel de limón, retirar aromáticos y dejar que pierda parte del calor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Batir yemas con azúcar y maicena; añadir leche infusionada poco a poco y devolver al cazo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Cocinar removiendo hasta que la crema hierva suavemente y espese durante al menos 1 minuto. Pasar a recipiente bajo, cubrir a contacto y enfriar rápidamente en refrigeración."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Montar la nata fría con azúcar glas hasta formar picos suaves y mantenerla refrigerada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Colocar nata montada en el fondo de seis vasitos aptos; disponer encima un disco de bizcocho, humedeciéndolo ligeramente con café frío o almíbar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Distribuir la crema ya fría por encima del bizcocho; refrigerar los vasitos al menos 2 horas para estabilizar las capas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Espolvorear una fina capa de azúcar y caramelizar con soplete apto para repostería justo antes de servir, solo si los recipientes son resistentes al calor; alternativamente, decorar con caramelo preparado aparte y enfriado."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Servir frío, sin mantener los vasitos con crema y nata a temperatura ambiente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Goxua alavés de nata, crema y bizcocho",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 vasitos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "vasito"
+  }
+}

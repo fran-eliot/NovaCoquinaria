@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Arroz con costillas de cerdo y pimiento\n\n## Descripción\n\nReceta de referencia centrada en **dorado de costillas, guiso breve y arroz seco**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Dorado de costillas, guiso breve y arroz seco |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de arroz redondo;\n- 600 g de costillas de cerdo troceadas;\n- 180 g de pimiento rojo;\n- 150 g de cebolla;\n- 2 dientes de ajo;\n- 150 g de tomate rallado o triturado;\n- 850–950 ml de caldo de pollo caliente, orientativo;\n- 3 cucharadas de aceite de oliva;\n- ½ cucharadita de pimentón dulce;\n- sal y pimienta;\n\n**Alérgenos:** Revisar el caldo comercial.\n\n## Elaboración\n\n1. Secar las costillas, salpimentar ligeramente y dorarlas por tandas en cazuela ancha con aceite.\n2. Añadir cebolla y pimiento troceados; pochar 8–10 minutos, incorporando ajo al final.\n3. Retirar un momento del fuego, agregar pimentón y luego tomate; cocinar unos 6 minutos.\n4. Añadir 250 ml de caldo, tapar parcialmente y cocer las costillas unos 25–35 minutos, o hasta que empiecen a estar tiernas; añadir líquido si fuera necesario.\n5. Incorporar el arroz y el resto de caldo caliente calculado para la evaporación de la cazuela, ajustando el volumen que ya quede en el recipiente.\n6. Cocer el arroz 16–19 minutos según variedad, hasta que el grano y las costillas estén cocinados; reposar unos 5 minutos antes de servir.\n\n## Puntos críticos\n\n- Las costillas con hueso necesitan ablandarse antes de añadir el arroz, que se cocina mucho más rápido. No medir el caldo final sin considerar el líquido que queda tras el guiso inicial.\n- La proporción de líquido varía por variedad de arroz, geometría del recipiente, intensidad del fuego y humedad de los ingredientes. Medir el líquido realmente incorporado.\n- Mantener higiene y conservación adecuadas de carnes, pescados, moluscos y verduras; comprobar la cocción completa de las proteínas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Grano duro | Falta de líquido o tiempo de cocción | Añadir líquido caliente en pequeñas cantidades y revisar el punto |\n| Arroz pasado | Exceso de líquido, tiempo o reposo | Reducir tiempo o líquido según el método |\n| Sabor excesivamente salado | Caldos o salsas ya salados | Probar los líquidos antes de salar |\n| Fondo seco antes de tiempo | Evaporación elevada | Ajustar el fuego y el recipiente |\n\n## Seguridad y conservación\n\nSi no se consume inmediatamente, **enfriar rápidamente el arroz cocido y refrigerarlo sin demora**. Evitar que permanezca horas a temperatura ambiente; el recalentamiento no corrige una conservación insegura previa. No guardar marisco ni pollo cocinado a temperatura ambiente. Refrigerar en recipientes poco profundos y recalentar completamente cuando corresponda.\n\n## Relaciones dentro del SGCC\n\n- [Brasear carnes en cazuela](../00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md)\n- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos realmente utilizados, volumen total de líquidos, equipo, tiempos efectivos, textura final y valoración. No se atribuyen estas cantidades a una experiencia personal anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **dorado de costillas, guiso breve y arroz seco**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_costillas_de_cerdo_y_pimiento.html",
+  "id": "REC-0251",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "costillas de cerdo troceadas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de costillas de cerdo troceadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de costillas de cerdo troceadas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento rojo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento rojo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado o triturado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate rallado o triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate rallado o triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo caliente, orientativo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": true,
+        "max": "950",
+        "min": "850",
+        "raw": "850–950 ml de caldo de pollo caliente, orientativo;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "850–950 ml de caldo de pollo caliente, orientativo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_con_costillas_de_cerdo_y_pimiento.md",
+  "source_sha256": "df7a146baffc6ec91d63a12e2b52a2887e93a01d94bb41cc37aaec7890f50a58",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Secar las costillas, salpimentar ligeramente y dorarlas por tandas en cazuela ancha con aceite."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Añadir cebolla y pimiento troceados; pochar 8–10 minutos, incorporando ajo al final."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Retirar un momento del fuego, agregar pimentón y luego tomate; cocinar unos 6 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir 250 ml de caldo, tapar parcialmente y cocer las costillas unos 25–35 minutos, o hasta que empiecen a estar tiernas; añadir líquido si fuera necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar el arroz y el resto de caldo caliente calculado para la evaporación de la cazuela, ajustando el volumen que ya quede en el recipiente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Cocer el arroz 16–19 minutos según variedad, hasta que el grano y las costillas estén cocinados; reposar unos 5 minutos antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.html",
+      "label": "Brasear carnes en cazuela",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/brasear_carnes_en_cazuela.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.html",
+      "label": "Controlar arroz meloso y caldoso",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md"
+    }
+  ],
+  "title": "Arroz con costillas de cerdo y pimiento",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

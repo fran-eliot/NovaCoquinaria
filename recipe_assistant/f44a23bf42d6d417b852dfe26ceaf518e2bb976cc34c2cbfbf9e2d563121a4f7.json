@@ -1,0 +1,248 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 14
+    },
+    "text": "\n# Gambas al ajillo\n\n## Descripción\n\nGambas salteadas con ajo y un toque de guindilla. Se busca carne firme y jugosa sin prolongar la cocción.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2–3 como tapa |\n| Preparación | 10 min |\n| Cocinado | 5–8 min |\n| Técnica | Salteado |\n\n## Ingredientes\n\n- 400 g de gambas peladas, descongeladas si procede;\n- 4 dientes de ajo laminados;\n- 3 cucharadas de aceite de oliva;\n- 1 guindilla pequeña, opcional;\n- perejil picado;\n- sal.\n\n**Alérgeno:** crustáceos.\n\n## Elaboración\n\n1. Descongelar gambas en refrigeración si procede, escurrir y secar bien. Retirar el intestino cuando sea necesario.\n2. Calentar aceite en sartén amplia a fuego medio. Añadir ajo y guindilla opcional y aromatizar brevemente sin dorar en exceso.\n3. Subir ligeramente el fuego e incorporar gambas en una capa; cocinar por tandas si hace falta.\n4. Girar y terminar cuando la carne esté firme, opaca y perlada; evitar cocción excesiva. El tiempo depende del tamaño.\n5. Ajustar sal, añadir perejil y servir de inmediato.\n\n## Puntos críticos\n\n- Las gambas húmedas enfrían la sartén y dificultan el salteado.\n- El ajo se quema con facilidad.\n- No utilizar utensilios de marisco crudo para servir.\n- La cocción excesiva vuelve la carne gomosa.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con limón | Añadir unas gotas al final |\n| Con pimentón | Añadir fuera del fuego para evitar quemado |\n| Con vino blanco | Añadir una pequeña cantidad y reducir adecuadamente |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Gambas gomosas | Exceso de cocción | Retirar antes |\n| Ajo amargo | Quemado | Bajar fuego |\n| Salsa acuosa | Gambas húmedas | Escurrir y cocinar por tandas |\n\n## Conservación\n\nRefrigerar rápidamente las sobras y recalentar completamente. No dejar el marisco cocinado a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n\n## Principio de NovaCoquinaria\n\n> El ajillo debe aromatizar sin quemarse y las gambas necesitan una cocción breve."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "8",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5–8 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/gambas_al_ajillo.html",
+  "id": "REC-0059",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "gambas peladas, descongeladas si procede;",
+      "optionality": "optional",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de gambas peladas, descongeladas si procede;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de gambas peladas, descongeladas si procede;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla pequeña, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla pequeña, opcional;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla pequeña, opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/gambas_al_ajillo.md",
+  "source_sha256": "22698c737f1dbe9dbfed11843adbe2e8c1d7eaba7cd68062e6b6cca2b2075a5e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Descongelar gambas en refrigeración si procede, escurrir y secar bien. Retirar el intestino cuando sea necesario."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en sartén amplia a fuego medio. Añadir ajo y guindilla opcional y aromatizar brevemente sin dorar en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Subir ligeramente el fuego e incorporar gambas en una capa; cocinar por tandas si hace falta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Girar y terminar cuando la carne esté firme, opaca y perlada; evitar cocción excesiva. El tiempo depende del tamaño."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Ajustar sal, añadir perejil y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Gambas al ajillo",
+  "yield": {
+    "max": "3",
+    "min": "2",
+    "raw": "2–3 como tapa",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

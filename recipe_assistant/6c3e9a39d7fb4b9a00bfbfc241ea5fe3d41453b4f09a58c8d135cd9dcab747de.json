@@ -1,0 +1,283 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 16
+    },
+    "text": "\n# Almejas a la marinera gallegas\n\n## Origen y contexto\n\n**Región:** Galicia. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 30–40 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de almejas vivas de comercio autorizado\n- 150 g de cebolla\n- 2 dientes de ajo\n- 40 ml de aceite de oliva\n- 100 ml de vino blanco\n- 10 g de harina de trigo\n- 3 g de pimentón dulce\n- perejil y sal\n\n**Alérgenos:** Moluscos, trigo/gluten y posibles sulfitos.\n\n## Elaboración\n\n1. Mantener almejas refrigeradas y seguir instrucciones del proveedor. Desechar conchas rotas y ejemplares abiertos que no reaccionen al toque.\n2. Pochar cebolla y ajo muy picados en aceite durante 10 minutos; agregar harina y cocinar 1 minuto.\n3. Apartar brevemente del fuego, añadir pimentón y verter vino; remover y cocer unos minutos hasta ligar la salsa.\n4. Incorporar almejas, tapar y cocinar hasta que se abran y estén completamente cocidas; desechar las que permanezcan cerradas.\n5. Ajustar sal después de probar y terminar con perejil.\n\n## Puntos críticos\n\n- El pimentón y la salsa ligada distinguen esta formulación de las almejas en salsa verde. Usar moluscos de procedencia controlada: la cocción no elimina todas las biotoxinas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Salsa espesa | Exceso de harina | Añadir un poco de agua caliente |\n| Almejas duras | Cocción prolongada | Ajustar el tiempo sin comprometer la cocción completa |\n\n## Conservación\n\nServir inmediatamente. Refrigerar sobras sin demora y consumir en 24 h.\n\n## Relaciones dentro del SGCC\n\n- [almejas en salsa verde](../06_Pescados_y_Mariscos/almejas_en_salsa_verde.md)\n- [cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** Galicia. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/almejas_a_la_marinera_gallegas.html",
+  "id": "REC-587",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almejas vivas de comercio autorizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de almejas vivas de comercio autorizado",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de almejas vivas de comercio autorizado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de harina de trigo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 g de pimentón dulce",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "3 g de pimentón dulce",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil y sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil y sal",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/almejas_a_la_marinera_gallegas.md",
+  "source_sha256": "4cecd5d0a5ef02d59db1cdc4eeb8962a08d14a1843c0c30f5a262594220d31bd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Mantener almejas refrigeradas y seguir instrucciones del proveedor. Desechar conchas rotas y ejemplares abiertos que no reaccionen al toque."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo muy picados en aceite durante 10 minutos; agregar harina y cocinar 1 minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Apartar brevemente del fuego, añadir pimentón y verter vino; remover y cocer unos minutos hasta ligar la salsa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Incorporar almejas, tapar y cocinar hasta que se abran y estén completamente cocidas; desechar las que permanezcan cerradas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Ajustar sal después de probar y terminar con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Almejas a la marinera gallegas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Espaguetis con mejillones y tomate\n\n## Descripción\n\nPreparación de pasta que trabaja **apertura de bivalvos y emulsión del fondo**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Apertura de bivalvos y emulsión del fondo |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 270 g de espaguetis secos;\n- 800 g de mejillones vivos de establecimiento autorizado;\n- 250 g de tomate triturado;\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- 60 ml de vino blanco opcional;\n- 1 cucharada de perejil picado;\n- pimienta negra;\n\n**Alérgenos:** Moluscos, trigo (gluten); el vino puede dejar alcohol residual.\n\n## Elaboración\n\n1. Revisar los mejillones, retirar ejemplares rotos y los que no respondan al tacto; conservarlos refrigerados hasta cocinarlos.\n2. Abrir en olla tapada con poca agua y calor suficiente; desechar los que sigan cerrados tras la cocción. Filtrar el jugo para retirar impurezas.\n3. Retirar una parte de las conchas cuando estén templados y reservar la carne refrigerada si no se usa inmediatamente.\n4. Dorar ligeramente ajo en aceite, añadir vino opcional y reducir; incorporar tomate y cocinar 7–9 minutos.\n5. Cocer espaguetis hasta un minuto antes del punto deseado y reservar agua de cocción.\n6. Terminar en salsa con un poco de jugo filtrado y agua de cocción; incorporar mejillones al final para calentarlos brevemente, añadir perejil y servir.\n\n## Puntos críticos\n\n- Los mejillones deben ser de procedencia controlada y los cerrados tras la cocción se descartan. Los jugos pueden ser salados: probar antes de añadir sal.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Mejillones al vapor](../06_Pescados_y_Mariscos/mejillones_al_vapor_con_ajo_y_vino_blanco.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **apertura de bivalvos y emulsión del fondo**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_con_mejillones_y_tomate.html",
+  "id": "REC-0246",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "270",
+        "min": "270",
+        "raw": "270 g de espaguetis secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "270 g de espaguetis secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mejillones vivos de establecimiento autorizado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de mejillones vivos de establecimiento autorizado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de mejillones vivos de establecimiento autorizado;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de vino blanco opcional;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de vino blanco opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/espaguetis_con_mejillones_y_tomate.md",
+  "source_sha256": "d0e647b14a321cbe7e3ec78873588498f9d88cdf3a1ba4e6763955f378f51c5e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Revisar los mejillones, retirar ejemplares rotos y los que no respondan al tacto; conservarlos refrigerados hasta cocinarlos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Abrir en olla tapada con poca agua y calor suficiente; desechar los que sigan cerrados tras la cocción. Filtrar el jugo para retirar impurezas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Retirar una parte de las conchas cuando estén templados y reservar la carne refrigerada si no se usa inmediatamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Dorar ligeramente ajo en aceite, añadir vino opcional y reducir; incorporar tomate y cocinar 7–9 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cocer espaguetis hasta un minuto antes del punto deseado y reservar agua de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Terminar en salsa con un poco de jugo filtrado y agua de cocción; incorporar mejillones al final para calentarlos brevemente, añadir perejil y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    }
+  ],
+  "title": "Espaguetis con mejillones y tomate",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

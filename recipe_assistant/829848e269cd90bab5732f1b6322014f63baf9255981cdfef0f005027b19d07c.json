@@ -1,0 +1,299 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Fusilli con pesto rojo de tomates secos\n\n## Descripción\n\nReceta de referencia centrada en **triturado de salsa y ligado con agua de cocción**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Triturado de salsa y ligado con agua de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de fusilli secos\n- 100 g de tomates secos en aceite escurridos\n- 40 g de almendras tostadas sin sal\n- 35 g de queso curado rallado\n- 1 diente de ajo pequeño\n- 30 ml de aceite de oliva, ajustables según los tomates\n- 1–2 cucharadas de zumo de limón, según acidez\n- 80–120 ml de agua de cocción de pasta, ajustables\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo), almendras y leche.\n\n## Elaboración\n\n1. Poner a cocer los fusilli siguiendo su envase y reservar al menos 150 ml de agua de cocción.\n2. Triturar tomates secos escurridos, almendras, queso, ajo y aceite hasta obtener una pasta espesa; no buscar una emulsión acuosa todavía.\n3. Probar la salinidad y añadir limón gradualmente; los tomates y el queso pueden aportar suficiente sal.\n4. Diluir el pesto rojo con unas cucharadas de agua de cocción caliente hasta obtener textura de salsa adherente.\n5. Pasar la pasta escurrida a una fuente o sartén apartada del fuego, añadir el pesto y mezclar, incorporando más agua si hace falta.\n6. Servir al momento con pimienta negra, sin hervir intensamente la salsa de queso.\n\n## Puntos críticos\n\n- Los tomates secos pueden venir muy salados y en aceites diversos; escurrir y probar antes de salar. Una salsa con queso añadido se separa si se hierve fuerte.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Integrar salsas sensibles al calor](../00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/fusilli_con_pesto_rojo_de_tomates_secos.html",
+  "id": "REC-307",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fusilli secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de fusilli secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de fusilli secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomates secos en aceite escurridos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de tomates secos en aceite escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de tomates secos en aceite escurridos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras tostadas sin sal",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de almendras tostadas sin sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de almendras tostadas sin sal",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de queso curado rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de queso curado rallado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, ajustables según los tomates",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de aceite de oliva, ajustables según los tomates",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de aceite de oliva, ajustables según los tomates",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, según acidez",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de zumo de limón, según acidez",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de zumo de limón, según acidez",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de pasta, ajustables",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "80",
+        "raw": "80–120 ml de agua de cocción de pasta, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–120 ml de agua de cocción de pasta, ajustables",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/fusilli_con_pesto_rojo_de_tomates_secos.md",
+  "source_sha256": "b5b9a96a253efbde1e585b9a10d310fae08d085211888295961260fcf8ba7cf3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Poner a cocer los fusilli siguiendo su envase y reservar al menos 150 ml de agua de cocción."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Triturar tomates secos escurridos, almendras, queso, ajo y aceite hasta obtener una pasta espesa; no buscar una emulsión acuosa todavía."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Probar la salinidad y añadir limón gradualmente; los tomates y el queso pueden aportar suficiente sal."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Diluir el pesto rojo con unas cucharadas de agua de cocción caliente hasta obtener textura de salsa adherente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Pasar la pasta escurrida a una fuente o sartén apartada del fuego, añadir el pesto y mezclar, incorporando más agua si hace falta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Servir al momento con pimienta negra, sin hervir intensamente la salsa de queso."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.html",
+      "label": "Integrar salsas sensibles al calor",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    }
+  ],
+  "title": "Fusilli con pesto rojo de tomates secos",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

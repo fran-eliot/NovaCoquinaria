@@ -1,0 +1,321 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Pollo tailandés con albahaca y chile\n\n## Descripción\n\nInspiración pad kra pao: adaptación con albahaca disponible. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 25–30 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de pollo picado\n- 80 g de cebolla en dados pequeños\n- 3 dientes de ajo picados\n- 1 chile fresco pequeño picado, opcional\n- 2 cucharadas de salsa de soja clara\n- 1 cucharada de salsa de ostras\n- 1 cucharadita de azúcar\n- 2 cucharadas de agua\n- 20 g de hojas de albahaca fresca\n- 1 cucharada de aceite neutro\n\n**Alérgenos:** Soja, moluscos en salsa de ostras, posible trigo.\n\n## Elaboración\n\n1. Mezclar soja, salsa de ostras, azúcar y agua en un cuenco limpio.\n2. Calentar el aceite y saltear ajo, cebolla y chile brevemente, sin quemar el ajo.\n3. Añadir el pollo picado y cocinar separando los grumos hasta que esté completamente hecho, comprobando al menos 74 °C en el centro.\n4. Agregar la salsa, reducir 1–2 minutos hasta que recubra el pollo y probar antes de añadir sal.\n5. Apagar el fuego, incorporar la albahaca y mezclar solo hasta que se ablande. Servir inmediatamente con arroz recién cocido.\n\n## Puntos críticos\n\n- Cocinar completamente el **pollo picado**, separando grumos y verificando al menos los 74 °C previstos antes de incorporar la salsa.\n- Probar la combinación de salsa de soja y salsa de ostras antes de salar: ambas son concentradas y la de ostras introduce alérgeno de moluscos.\n- Incorporar la albahaca **con el fuego apagado**, para preservar su aroma. Esta versión usa albahaca común y no se presenta como equivalente idéntico a la albahaca sagrada tailandesa.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Pollo con grumos poco cocidos | Carne picada no separada durante el salteado | Deshacer los grumos y comprobar cocción completa antes de añadir la salsa |\n| Salsa muy salada | Soja y salsa de ostras concentradas | Probar antes de salar y registrar marcas para futuras pruebas |\n| Glaseado muy seco o quemado | Azúcar y salsas reducidos más de los 1–2 minutos previstos | Moderar el calor y retirar al quedar la salsa adherida al pollo |\n| Aroma de albahaca apagado | Hojas añadidas demasiado pronto y cocidas largo tiempo | Apagar el fuego antes de incorporarlas y mezclar solo hasta ablandarlas |\n\n## Conservación\n\nMantener el pollo picado refrigerado hasta prepararlo y separar los utensilios de carne cruda de las hierbas frescas. Servir el salteado recién hecho o enfriar rápidamente las sobras y refrigerarlas tapadas. Recalentar completamente las porciones destinadas al consumo. Si se acompaña con el arroz recién cocido sugerido, enfriar y refrigerar también ese arroz sin demora y no dejarlo horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Ternera salteada con pimienta negra](./ternera_salteada_con_pimienta_negra_y_cebolla.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades efectivas, producto, temperatura, tiempos, textura y valoración. No modifica preparaciones anteriores ni se considera una versión superior sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "declared_total",
+      "raw": "25–30 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Inspiración pad kra pao: adaptación con albahaca disponible. La ficha es una **propuesta pendiente de prueba doméstica**; ingredientes, cantidades y tiempos no representan una preparación efectivamente valorada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pollo_tailandes_con_albahaca_y_chile.html",
+  "id": "REC-406",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pollo picado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pollo picado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pollo picado",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en dados pequeños",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla en dados pequeños",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo picados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chile fresco pequeño picado, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 chile fresco pequeño picado, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 chile fresco pequeño picado, opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja clara",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja clara",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de ostras",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de ostras",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de ostras",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "hojas de albahaca fresca",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de hojas de albahaca fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de hojas de albahaca fresca",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/pollo_tailandes_con_albahaca_y_chile.md",
+  "source_sha256": "fcd4184d5433373e814b9446a6b7d21bce964c4e91dc87bf9f748222d1e9dfa2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Mezclar soja, salsa de ostras, azúcar y agua en un cuenco limpio."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Calentar el aceite y saltear ajo, cebolla y chile brevemente, sin quemar el ajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir el pollo picado y cocinar separando los grumos hasta que esté completamente hecho, comprobando al menos 74 °C en el centro."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Agregar la salsa, reducir 1–2 minutos hasta que recubra el pollo y probar antes de añadir sal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Apagar el fuego, incorporar la albahaca y mezclar solo hasta que se ablande. Servir inmediatamente con arroz recién cocido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Pollo tailandés con albahaca y chile",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 15
+    },
+    "text": "\n# Cocido madrileño de tres vuelcos\n\n## Origen y contexto\n\n**Ámbito gastronómico:** Comunidad de Madrid. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Tiempo orientativo | 12 h remojo + 2½–4 h cocción orientativa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de garbanzos secos\n- 450 g de morcillo de ternera\n- 350 g de gallina o pollo con hueso\n- 200 g de tocino fresco\n- 1 hueso de jamón salado y 1 hueso de caña, de procedencia alimentaria\n- 2 chorizos para cocinar\n- 350 g de repollo\n- 350 g de patatas\n- 200 g de zanahorias\n- 150 g de fideos finos secos\n- agua suficiente para caldo y cocción\n- sal al final\n\n**Alérgenos:** Gluten (fideos); revisar embutidos y caldo por sulfitos, soja y otros alérgenos.\n\n## Elaboración\n\n1. Remojar los garbanzos 10–12 horas en agua potable, refrigerados cuando proceda; escurrir. Comprobar la sal de los huesos y desalar los que lo precisen.\n2. Poner en una olla grande morcillo, gallina o pollo, tocino y huesos cubiertos con agua; llevar al hervor y retirar la espuma.\n3. Introducir los garbanzos escurridos en el caldo ya caliente, preferiblemente dentro de malla alimentaria, y cocinar a hervor suave hasta ablandar.\n4. Añadir los chorizos atendiendo a sus instrucciones comerciales; continuar la cocción hasta que carnes, embutidos y garbanzos estén completamente cocidos.\n5. Cocer zanahoria y patatas en la olla durante la última media hora aproximadamente, ajustando al tamaño de los trozos. Cocer el repollo por separado hasta tierno, con una pequeña cantidad de caldo si se desea.\n6. Extraer suficiente caldo y colarlo; llevarlo al hervor en cazuela aparte y cocer los fideos según el envase.\n7. Presentar en tres vuelcos: primero sopa de fideos, después garbanzos y verduras, finalmente carnes y embutidos, desechando huesos y fragmentos pequeños.\n8. Ajustar la sal después de probar cada parte; comprobar espinas de ave y huesecillos antes de servir.\n\n## Puntos críticos\n\n- El cocido madrileño tiene variantes domésticas. Separar el caldo de la sopa evita que los fideos absorban el líquido destinado al resto. Los garbanzos deben quedar totalmente tiernos y las aves alcanzar 74 °C.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Garbanzos con bacalao y espinacas](./garbanzos_con_bacalao_y_espinacas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 h remojo + 2½–4 h cocción orientativa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/cocido_madrileno_de_tres_vuelcos.html",
+  "id": "REC-419",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de garbanzos secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de garbanzos secos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "morcillo de ternera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de morcillo de ternera",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de morcillo de ternera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "gallina o pollo con hueso",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de gallina o pollo con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de gallina o pollo con hueso",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tocino fresco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tocino fresco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tocino fresco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hueso de jamón salado y 1 hueso de caña, de procedencia alimentaria",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hueso de jamón salado y 1 hueso de caña, de procedencia alimentaria",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 hueso de jamón salado y 1 hueso de caña, de procedencia alimentaria",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizos para cocinar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 chorizos para cocinar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 chorizos para cocinar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "repollo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de repollo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de repollo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de patatas",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahorias",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de zanahorias",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de zanahorias",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos finos secos",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de fideos finos secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de fideos finos secos",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua suficiente para caldo y cocción",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua suficiente para caldo y cocción",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua suficiente para caldo y cocción",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/cocido_madrileno_de_tres_vuelcos.md",
+  "source_sha256": "f8e94bafc6efdc9312853bac761ff47087b5b4e2f36563bb97031484b8d0f445",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Remojar los garbanzos 10–12 horas en agua potable, refrigerados cuando proceda; escurrir. Comprobar la sal de los huesos y desalar los que lo precisen."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Poner en una olla grande morcillo, gallina o pollo, tocino y huesos cubiertos con agua; llevar al hervor y retirar la espuma."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Introducir los garbanzos escurridos en el caldo ya caliente, preferiblemente dentro de malla alimentaria, y cocinar a hervor suave hasta ablandar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Añadir los chorizos atendiendo a sus instrucciones comerciales; continuar la cocción hasta que carnes, embutidos y garbanzos estén completamente cocidos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Cocer zanahoria y patatas en la olla durante la última media hora aproximadamente, ajustando al tamaño de los trozos. Cocer el repollo por separado hasta tierno, con una pequeña cantidad de caldo si se desea."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Extraer suficiente caldo y colarlo; llevarlo al hervor en cazuela aparte y cocer los fideos según el envase."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Presentar en tres vuelcos: primero sopa de fideos, después garbanzos y verduras, finalmente carnes y embutidos, desechando huesos y fragmentos pequeños."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 8,
+      "text": "Ajustar la sal después de probar cada parte; comprobar espinas de ave y huesecillos antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Cocido madrileño de tres vuelcos",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

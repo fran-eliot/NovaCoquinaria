@@ -1,0 +1,259 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 109,
+      "start_line": 15
+    },
+    "text": "\n# Infusión fría de hibisco y naranja\n\n## Descripción\n\nInfusión de flores secas de hibisco alimentario, enfriada y aromatizada con naranja. La intensidad depende del tiempo de extracción y se ajusta con agua después de colar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 vasos |\n| Preparación | 10 minutos, más enfriado |\n| Cocinado | Infusión de 6–10 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Infusión caliente y enfriamiento |\n\n## Ingredientes\n\n- 12 g de flores secas de hibisco aptas para infusión alimentaria\n- 800 ml de agua potable\n- 1 naranja, lavada y cortada en rodajas\n- 20–40 g de azúcar o miel, opcionales\n- hielo para servir\n\n**Alérgenos:** Sin alérgenos de declaración obligatoria en la formulación base; revisar productos comerciales.\n\n## Mise en place\n\nUtilizar flores de hibisco destinadas expresamente a consumo alimentario, no flores ornamentales tratadas. Lavar la naranja. Preparar una jarra limpia y recipiente para enfriar.\n\n## Elaboración\n\n### 1. Infusionar\n\nLlevar el agua a ebullición, retirar del fuego y añadir el hibisco. Tapar y dejar infusionar unos 6–10 minutos, según intensidad buscada.\n\n### 2. Colar\n\nFiltrar las flores por completo y probar la infusión. Añadir azúcar o miel opcional mientras aún esté templada para disolver.\n\n### 3. Enfriar\n\nPasar a recipiente adecuado y refrigerar sin demoras; no dejar la infusión varias horas a temperatura ambiente.\n\n### 4. Aromatizar\n\nCuando esté fría, incorporar rodajas de naranja y reposar en refrigeración unos 15–30 minutos.\n\n### 5. Servir\n\nRepartir con hielo. Si está demasiado intensa, diluir en pequeñas cantidades de agua fría.\n\n## Puntos críticos\n\n- Una extracción muy larga puede producir astringencia y acidez excesiva.\n- El hibisco es naturalmente ácido; probar antes de endulzar.\n- Las flores deben proceder de un producto apto para infusiones, no de jardinería.\n\n## Perfil esperado\n\nBebida de color rojo intenso, ácida, frutal y refrescante.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con canela | Infusionar un pequeño trozo junto al hibisco |\n| Con lima | Añadir unas gotas al servir, vigilando acidez |\n| Sin azúcar | Mantener el perfil ácido natural |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Demasiado ácido | Infusión concentrada | Acortar extracción o diluir |\n| Sabor áspero | Infusión excesiva | Retirar flores a tiempo |\n| Aroma de naranja apagado | Rodajas añadidas con líquido caliente | Añadir tras enfriar |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n\n## Principio de NovaCoquinaria\n\n> La extracción determina el carácter del hibisco; el dulzor y la dilución se ajustan después.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para infusión caliente y enfriamiento."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "10 minutos, más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Infusión de 6–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/infusion_fria_de_hibisco.html",
+  "id": "REC-0150",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "flores secas de hibisco aptas para infusión alimentaria",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de flores secas de hibisco aptas para infusión alimentaria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de flores secas de hibisco aptas para infusión alimentaria",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "800 ml de agua potable",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "naranja, lavada y cortada en rodajas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 naranja, lavada y cortada en rodajas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 naranja, lavada y cortada en rodajas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel, opcionales",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "20",
+        "raw": "20–40 g de azúcar o miel, opcionales",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "20–40 g de azúcar o miel, opcionales",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nUtilizar flores de hibisco destinadas expresamente a consumo alimentario, no flores ornamentales tratadas. Lavar la naranja. Preparar una jarra limpia y recipiente para enfriar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/infusion_fria_de_hibisco.md",
+  "source_sha256": "fa7b442f946381e8fcd12a5383c45a3c31edc7ecba31458174f55d67eff95944",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Infusionar\n\nLlevar el agua a ebullición, retirar del fuego y añadir el hibisco. Tapar y dejar infusionar unos 6–10 minutos, según intensidad buscada.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Colar\n\nFiltrar las flores por completo y probar la infusión. Añadir azúcar o miel opcional mientras aún esté templada para disolver.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Enfriar\n\nPasar a recipiente adecuado y refrigerar sin demoras; no dejar la infusión varias horas a temperatura ambiente.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Aromatizar\n\nCuando esté fría, incorporar rodajas de naranja y reposar en refrigeración unos 15–30 minutos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRepartir con hielo. Si está demasiado intensa, diluir en pequeñas cantidades de agua fría.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 100,
+        "start_line": 100
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Infusión fría de hibisco y naranja",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "vaso"
+  }
+}

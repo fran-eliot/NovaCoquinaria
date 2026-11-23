@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Sepia a la plancha con ajo y perejil\n\n## Descripción\n\nPreparación de referencia basada en **secado, marcado breve y aceite aromático**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Secado, marcado breve y aceite aromático |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de sepia limpia y descongelada correctamente, si procede\n- 3 dientes de ajo picados muy finos\n- 2 cucharadas de perejil fresco picado\n- 3 cucharadas de aceite de oliva\n- 1 cucharada de zumo de limón opcional\n- sal y pimienta\n\n**Alérgenos:** Moluscos.\n\n## Elaboración\n\n1. Secar muy bien la sepia limpia con papel alimentario, retirar restos de membrana si fuera necesario y cortar piezas de tamaño semejante.\n2. Mezclar ajo y perejil con una cucharada de aceite en recipiente limpio; reservar lejos de la sepia cruda para el acabado.\n3. Calentar una plancha amplia hasta temperatura alta y añadir una película del aceite restante.\n4. Marcar la sepia en tandas, aproximadamente 2–3 minutos por lado para piezas medianas, hasta que esté cocinada y apenas dorada; ajustar al grosor.\n5. Retirar a fuente limpia, incorporar el aliño de ajo y perejil y mezclar brevemente.\n6. Terminar con limón opcional y servir de inmediato.\n\n## Puntos críticos\n\n- Si la sepia está húmeda o se cocina toda de golpe, libera agua y se cuece en vez de dorarse. Asegurar cocción completa; el tiempo depende del grosor.\n- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.\n- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |\n| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |\n| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Sepia](../11_Despensa/05_Mariscos/sepia.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, peso efectivo, método, tiempo, temperatura, resultado y valoración. No se atribuyen estas cantidades a una preparación anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **secado, marcado breve y aceite aromático**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.html",
+  "id": "REC-302",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "sepia limpia y descongelada correctamente, si procede",
+      "optionality": "optional",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de sepia limpia y descongelada correctamente, si procede",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de sepia limpia y descongelada correctamente, si procede",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados muy finos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo picados muy finos",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo picados muy finos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil fresco picado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón opcional",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/sepia_a_la_plancha_con_ajo_y_perejil.md",
+  "source_sha256": "47ecfc6cae43a37eb6847fbec2b2fe7d34f0c09355a3c171cd6a814a34b657c0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Secar muy bien la sepia limpia con papel alimentario, retirar restos de membrana si fuera necesario y cortar piezas de tamaño semejante."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Mezclar ajo y perejil con una cucharada de aceite en recipiente limpio; reservar lejos de la sepia cruda para el acabado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Calentar una plancha amplia hasta temperatura alta y añadir una película del aceite restante."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Marcar la sepia en tandas, aproximadamente 2–3 minutos por lado para piezas medianas, hasta que esté cocinada y apenas dorada; ajustar al grosor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Retirar a fuente limpia, incorporar el aliño de ajo y perejil y mezclar brevemente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Terminar con limón opcional y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Sepia a la plancha con ajo y perejil",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

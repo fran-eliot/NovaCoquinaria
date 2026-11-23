@@ -1,0 +1,227 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Zarangollo murciano de calabacín, cebolla y huevo\n\n## Origen y contexto\n\n**Región:** Región de Murcia. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40–50 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de calabacín\n- 350 g de cebolla\n- 4 huevos L\n- 3 cucharadas de aceite de oliva virgen extra\n- sal y pimienta opcional\n\n**Alérgenos:** Huevo.\n\n## Elaboración\n\n1. Lavar el calabacín y cortarlo en rodajas finas o medias lunas; pelar la cebolla y cortarla en juliana.\n2. Calentar aceite en sartén amplia e incorporar la cebolla a fuego bajo; cocinar aproximadamente 12–15 minutos sin dorar.\n3. Agregar el calabacín, salar moderadamente y pochar tapado unos 15–20 minutos, removiendo ocasionalmente hasta que esté muy tierno.\n4. Destapar y reducir el exceso de agua; las hortalizas deben quedar melosas, no nadar en líquido.\n5. Batir los huevos en un recipiente limpio y verterlos sobre las verduras, removiendo a fuego bajo hasta que queden completamente cuajados.\n6. Rectificar sal y servir recién preparado.\n\n## Puntos críticos\n\n- El zarangollo es un revuelto de hortalizas muy pochadas; no debe quedar crujiente como un salteado. Cocinar el huevo completamente en esta versión doméstica.\n- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |\n| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |\n| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Tortilla de patatas y cebolla](./tortilla_de_patatas_y_cebolla.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Zarangollo murciano (Spain.info)](https://www.spain.info/es/receta/zarangollo-murciano/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/zarangollo_murciano_de_calabacin_cebolla_y_huevo.html",
+  "id": "REC-425",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabacín",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de calabacín",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de calabacín",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta opcional",
+      "optionality": "unknown",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/zarangollo_murciano_de_calabacin_cebolla_y_huevo.md",
+  "source_sha256": "47b11b2adb3b3de7ea6c10e5b7229807edec6656db31749bb5049765e9ea5f48",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar el calabacín y cortarlo en rodajas finas o medias lunas; pelar la cebolla y cortarla en juliana."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en sartén amplia e incorporar la cebolla a fuego bajo; cocinar aproximadamente 12–15 minutos sin dorar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Agregar el calabacín, salar moderadamente y pochar tapado unos 15–20 minutos, removiendo ocasionalmente hasta que esté muy tierno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Destapar y reducir el exceso de agua; las hortalizas deben quedar melosas, no nadar en líquido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Batir los huevos en un recipiente limpio y verterlos sobre las verduras, removiendo a fuego bajo hasta que queden completamente cuajados."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Rectificar sal y servir recién preparado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Zarangollo murciano de calabacín, cebolla y huevo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 14
+    },
+    "text": "\n# Ensalada templada de judiones y pimientos asados\n\n## Descripción\n\nEnsalada templada de judiones enteros con pimientos asados, cebolla y vinagre de vino; sin guiso prolongado.\n\n**Estado de evidencia:** receta propuesta para una futura elaboración; no hay resultado ni valoración doméstica confirmados. Las cantidades son una formulación inicial reproducible, no una reconstrucción de una tanda cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocinado | 5–7 min |\n| Método | Calentamiento breve y vinagreta |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 550 g de judiones cocidos y escurridos;\n- 180 g de pimientos asados en tiras;\n- 60 g de cebolla morada muy picada;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 1 cucharada de vinagre de vino;\n- ½ cucharadita de mostaza, opcional;\n- 1 cucharada de perejil;\n- pimienta negra y sal al gusto;\n\n**Alérgenos:** Mostaza, si se incorpora; comprobar el envase de pimientos preparados.\n\n## Elaboración\n\n1. Escurrir los judiones sin removerlos bruscamente y comprobar que están tiernos.\n2. Mezclar aceite, vinagre, mostaza opcional y pimienta hasta formar vinagreta.\n3. Calentar judiones con 2 cucharadas de agua en sartén tapada hasta que queden completamente calientes, sin tostarlos.\n4. Añadir pimientos asados escurridos y calentarlos brevemente.\n5. Retirar del fuego e integrar cebolla, vinagreta y perejil con movimientos suaves.\n6. Probar y servir templado; refrigerar pronto cualquier sobrante.\n\n## Puntos críticos\n\n- La piel del judión se rompe con un salteado vigoroso; mezclar con espátula amplia. Si los pimientos vienen en conserva, ajustar el vinagre a su acidez.\n- Las cantidades de líquido y los tiempos dependen de presentación y cocción previa; registrar los utilizados en la prueba.\n- Mantener higiene, separación entre alimentos crudos y listos para consumo y las temperaturas adecuadas.\n\n## Perfil esperado y evaluación pendiente\n\nLa textura y el equilibrio final deberán verificarse mediante una elaboración real. Se propone registrar firmeza de la legumbre, densidad del fondo, intensidad de condimentos y valoración global; este perfil no implica un resultado ya conseguido.\n\n## Diagnóstico\n\n| Situación | Posible causa | Acción futura |\n|---|---|---|\n| Legumbre demasiado rota | Removido vigoroso o calentamiento prolongado | Incorporar más tarde y mover la cazuela con suavidad |\n| Plato demasiado seco | Evaporación o absorción | Añadir caldo o agua en pequeñas dosis |\n| Sabor descompensado | Acidez, sal o especias concentradas | Ajustar progresivamente y anotar cantidades |\n\n## Conservación\n\nEnfriar sin demora los sobrantes en recipientes poco profundos y mantenerlos refrigerados. Seguir las instrucciones de seguridad y consumo de legumbres comerciales, huevos o mariscos cuando correspondan. Evitar periodos prolongados a temperatura ambiente y recalentar por completo los platos que se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Pimientos asados y aliñados](../04_Verduras/pimientos_asados_y_aliñados.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n- [Módulo de Legumbres](./README.md)\n\n## Registro de elaboración\n\n**Pendiente de prueba:** registrar ingredientes y gramajes reales, método, tiempos, resultado y posibles mejoras antes de atribuir a la ficha una valoración."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "7",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5–7 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_templada_de_judiones_y_pimientos_asados.html",
+  "id": "REC-0209",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "judiones cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de judiones cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de judiones cocidos y escurridos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimientos asados en tiras;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimientos asados en tiras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimientos asados en tiras;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada muy picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de cebolla morada muy picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de cebolla morada muy picada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de mostaza, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de mostaza, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y sal al gusto;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "pimienta negra y sal al gusto;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/ensalada_templada_de_judiones_y_pimientos_asados.md",
+  "source_sha256": "1fb6bc0544c2776ea97e8872178b9fc902764f4a9504b30221ef17433f1bb7fb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Escurrir los judiones sin removerlos bruscamente y comprobar que están tiernos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Mezclar aceite, vinagre, mostaza opcional y pimienta hasta formar vinagreta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Calentar judiones con 2 cucharadas de agua en sartén tapada hasta que queden completamente calientes, sin tostarlos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Añadir pimientos asados escurridos y calentarlos brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Retirar del fuego e integrar cebolla, vinagreta y perejil con movimientos suaves."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Probar y servir templado; refrigerar pronto cualquier sobrante."
+    }
+  ],
+  "techniques": [],
+  "title": "Ensalada templada de judiones y pimientos asados",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

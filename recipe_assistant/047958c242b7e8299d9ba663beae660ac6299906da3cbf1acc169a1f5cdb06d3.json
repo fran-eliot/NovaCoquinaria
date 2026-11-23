@@ -1,0 +1,273 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Patatas revolconas abulenses con torreznos\n\n## Origen y contexto\n\n**Región:** Ávila, Castilla y León. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40–50 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 850 g de patatas para cocer, peladas\n- 180 g de panceta fresca con piel, en tiras o dados\n- 3 dientes de ajo laminados\n- 1 cucharadita colmada de pimentón dulce de la Vera\n- ¼ cucharadita de pimentón picante, opcional\n- 3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta\n- sal y agua potable para cocer\n\n**Alérgenos:** Revisar el etiquetado de la panceta comercial.\n\n## Elaboración\n\n1. Cortar las patatas en trozos similares, cubrir con agua y una pizca de sal y cocer unos 20–25 minutos hasta que estén muy tiernas.\n2. Escurrir las patatas reservando 100 ml del agua de cocción. Machacarlas groseramente con tenedor; no triturarlas hasta puré fino.\n3. Dorar la panceta en sartén amplia a fuego medio hasta que la carne esté completamente cocinada y la piel crujiente. Retirar y reservar los torreznos.\n4. En la grasa sobrante, añadir ajo laminado y dorar con cuidado. Apartar la sartén del fuego, agregar los dos pimentones y remover unos segundos para que no se quemen.\n5. Mezclar el aceite aromatizado con las patatas machacadas y añadir cucharadas del agua reservada hasta obtener textura melosa, no líquida.\n6. Probar sal, calentar a fuego bajo 2–3 minutos sin dejar de mover y terminar con los torreznos crujientes al servir.\n\n## Puntos críticos\n\n- Los torreznos se reservan para conservar su textura. El pimentón se amarga si se quema. Las patatas revolconas se machacan, no se convierten en crema lisa.\n- Verificar las instrucciones específicas de productos comerciales y la cocción de carnes, huevos, pescados y mariscos. Mantener higiene y cadena de frío en todos los productos perecederos.\n- La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente elaboración |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o corte desigual | Comprobar el interior y adaptar tiempo o grosor |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir sin perder jugos esenciales |\n| Sabor demasiado salado | Curados, fumet o adobos concentrados | Ajustar sal al final y probar previamente |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con lácteos, huevo, pescados y carnes deben conservarse en frío; las raciones calientes se recalientan completamente cuando corresponda. No mantener alimentos perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Patatas a la riojana](./patatas_a_la_riojana_con_chorizo.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, presentación del ingrediente, cocción, textura, resultado y valoración. Esta ficha no sustituye formulaciones anteriores ni se considera una versión mejorada sin comparación real."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Ávila, Castilla y León. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/patatas_revolconas_abulenses_con_torreznos.html",
+  "id": "REC-454",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas para cocer, peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 g de patatas para cocer, peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "850 g de patatas para cocer, peladas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca con piel, en tiras o dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de panceta fresca con piel, en tiras o dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de panceta fresca con piel, en tiras o dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "colmada de pimentón dulce de la Vera",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita colmada de pimentón dulce de la Vera",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita colmada de pimentón dulce de la Vera",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón picante, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "¼ cucharadita de pimentón picante, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¼ cucharadita de pimentón picante, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, ajustar según la grasa de la panceta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva, ajustar según la grasa de la panceta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y agua potable para cocer",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y agua potable para cocer",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y agua potable para cocer",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/patatas_revolconas_abulenses_con_torreznos.md",
+  "source_sha256": "aa59c8d760c0105f4cd99f1ccbdd06e40eabc78ec261f6152a199e9ce8ff9c1b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Cortar las patatas en trozos similares, cubrir con agua y una pizca de sal y cocer unos 20–25 minutos hasta que estén muy tiernas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Escurrir las patatas reservando 100 ml del agua de cocción. Machacarlas groseramente con tenedor; no triturarlas hasta puré fino."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Dorar la panceta en sartén amplia a fuego medio hasta que la carne esté completamente cocinada y la piel crujiente. Retirar y reservar los torreznos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "En la grasa sobrante, añadir ajo laminado y dorar con cuidado. Apartar la sartén del fuego, agregar los dos pimentones y remover unos segundos para que no se quemen."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Mezclar el aceite aromatizado con las patatas machacadas y añadir cucharadas del agua reservada hasta obtener textura melosa, no líquida."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Probar sal, calentar a fuego bajo 2–3 minutos sin dejar de mover y terminar con los torreznos crujientes al servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Patatas revolconas abulenses con torreznos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 120,
+      "start_line": 15
+    },
+    "text": "\n# Pasta e ceci con garbanzos\n\n## Descripción\n\nPreparación italiana de cuchara de pasta corta y garbanzos, donde parte de la legumbre triturada y el almidón de la pasta ligan el caldo. Versión doméstica de las numerosas variantes de pasta e ceci.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos con garbanzos cocidos |\n| Cocinado | 25–30 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Cocción de pasta en caldo y espesado con legumbre |\n\n## Ingredientes\n\n- 220 g de pasta corta seca, como ditalini\n- 550 g de garbanzos cocidos, escurridos\n- 1 cebolla pequeña, picada\n- 1 zanahoria pequeña, en dados\n- 2 dientes de ajo, picados\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de tomate concentrado, opcional\n- 900–1100 ml de agua o caldo vegetal caliente, ajustables\n- 1 ramita pequeña de romero, opcional\n- sal y pimienta negra\n\n**Alérgenos:** **Gluten** (pasta de trigo). Revisar el caldo comercial.\n\n## Mise en place\n\nUsar garbanzos completamente cocidos; si son de conserva, escurrirlos y ajustar la sal. Preparar el caldo caliente, elegir pasta pequeña y reservar 150 g de garbanzos para triturar.\n\n## Elaboración\n\n### 1. Sofreír hortalizas\n\nCalentar el aceite en una cazuela, cocinar cebolla y zanahoria 6–8 minutos; añadir ajo y remover 1 minuto.\n\n### 2. Desarrollar sabor\n\nAñadir el tomate concentrado opcional y cocinar 1 minuto, sin quemarlo.\n\n### 3. Crear el cuerpo\n\nTriturar 150 g de garbanzos con 150 ml del caldo hasta formar una crema; añadirla a la cazuela con los restantes garbanzos y 750 ml de caldo.\n\n### 4. Cocer pasta en el guiso\n\nLlevar a hervor suave e incorporar la pasta. Cocinar según el formato, removiendo para evitar que se pegue y añadiendo caldo caliente si espesa antes de estar tierna.\n\n### 5. Ajustar\n\nCuando la pasta esté al dente, retirar el romero y comprobar la densidad. Añadir más caldo si se busca una versión caldosa; salpimentar al final.\n\n### 6. Servir\n\nDejar reposar 1–2 minutos y servir; el conjunto seguirá espesando y puede necesitar algo de líquido adicional.\n\n## Puntos críticos\n\n- La pasta absorbe líquido durante la cocción y el reposo; mantener caldo caliente de reserva.\n- La receta requiere garbanzos previamente cocidos; el tiempo de la pasta no sirve para cocinar garbanzos secos.\n- Remover con frecuencia, especialmente al añadir puré de garbanzos, para evitar adherencias.\n\n## Perfil esperado\n\nPlato de cuchara con pasta tierna pero no deshecha, garbanzos enteros y caldo espeso, no pastoso.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Más caldosa | Aumentar el caldo al final |\n| Con espinacas | Añadir hojas en los últimos minutos y cocinar hasta tiernas |\n| Sin tomate | Omitir concentrado y potenciar romero en pequeña cantidad |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pasta pastosa | Demasiado reposo o poca agua | Servir recién cocida con caldo de reserva |\n| Fondo pegado | Caldo reducido y almidón | Remover y añadir líquido caliente |\n| Garbanzos duros | Legumbre insuficientemente cocida | Usar solo garbanzos cocidos |\n\n## Conservación\n\nConsumir preferiblemente recién preparada. Enfriar las sobras sin demoras y refrigerar en recipientes tapados y poco profundos. Recalentar completamente cuando corresponda; la salsa puede perder textura y requerir algo de líquido. No dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La legumbre y la pasta pueden compartir el mismo caldo, pero sus estados de cocción deben coordinarse.\n\n## Utilizado por\n\nReceta de referencia del módulo **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos con garbanzos cocidos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_e_ceci.html",
+  "id": "REC-0115",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta corta seca, como ditalini",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de pasta corta seca, como ditalini",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de pasta corta seca, como ditalini",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "garbanzos cocidos, escurridos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de garbanzos cocidos, escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de garbanzos cocidos, escurridos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña, picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña, picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña, picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria pequeña, en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria pequeña, en dados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria pequeña, en dados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate concentrado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de tomate concentrado, opcional",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de tomate concentrado, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal caliente, ajustables",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1100",
+        "min": "900",
+        "raw": "900–1100 ml de agua o caldo vegetal caliente, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "900–1100 ml de agua o caldo vegetal caliente, ajustables",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita pequeña de romero, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita pequeña de romero, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita pequeña de romero, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nUsar garbanzos completamente cocidos; si son de conserva, escurrirlos y ajustar la sal. Preparar el caldo caliente, elegir pasta pequeña y reservar 150 g de garbanzos para triturar.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/pasta_e_ceci.md",
+  "source_sha256": "04607f39d39a9559602f6022c1812555fcaebb63d786cc90556713c2eee37132",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Sofreír hortalizas\n\nCalentar el aceite en una cazuela, cocinar cebolla y zanahoria 6–8 minutos; añadir ajo y remover 1 minuto.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Desarrollar sabor\n\nAñadir el tomate concentrado opcional y cocinar 1 minuto, sin quemarlo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Crear el cuerpo\n\nTriturar 150 g de garbanzos con 150 ml del caldo hasta formar una crema; añadirla a la cazuela con los restantes garbanzos y 750 ml de caldo.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Cocer pasta en el guiso\n\nLlevar a hervor suave e incorporar la pasta. Cocinar según el formato, removiendo para evitar que se pegue y añadiendo caldo caliente si espesa antes de estar tierna.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Ajustar\n\nCuando la pasta esté al dente, retirar el romero y comprobar la densidad. Añadir más caldo si se busca una versión caldosa; salpimentar al final.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 73
+      },
+      "source_number": 6,
+      "text": "6. Servir\n\nDejar reposar 1–2 minutos y servir; el conjunto seguirá espesando y puede necesitar algo de líquido adicional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Pasta e ceci con garbanzos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

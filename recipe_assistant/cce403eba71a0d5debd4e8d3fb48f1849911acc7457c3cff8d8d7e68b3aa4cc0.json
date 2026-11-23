@@ -1,0 +1,266 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Trucha a la navarra rellena de jamón\n\n## Origen y contexto\n\n**Región:** Navarra. Formulación doméstica de referencia con los rasgos característicos de esta especialidad; no se presenta como única versión regional ni como receta personalmente probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 truchas de ración de 250–300 g cada una, abiertas y evisceradas por pescadería\n- 100–120 g de jamón serrano en lonchas finas\n- 65 g de harina de trigo para rebozado ligero\n- 3 cucharadas de aceite de oliva, añadir si hace falta\n- 1 limón para acompañar\n- sal moderada, pimienta y perejil opcional\n\n**Alérgenos:** Pescado y gluten (trigo); revisar jamón comercial.\n\n## Elaboración\n\n1. Comprobar que las truchas están bien evisceradas, sin restos y refrigeradas. Secarlas por dentro y fuera con papel de cocina.\n2. Introducir una o dos lonchas finas de jamón dentro de la cavidad de cada trucha, sin rellenarla en exceso.\n3. Salpimentar con moderación, dado el aporte salino del jamón, y pasar las truchas por una capa fina de harina, retirando el exceso.\n4. Calentar aceite a fuego medio en sartén grande y cocinar las truchas unos 5–7 minutos por cada lado, según grosor, evitando fuego excesivo para que no se queme la harina.\n5. Comprobar que el centro de cada trucha alcance unos 63 °C como referencia conservadora y que la carne se separe en lascas opacas.\n6. Retirar con cuidado para no romperlas, escurrir y servir con limón opcional.\n7. Indicar a los comensales que la trucha contiene espinas; retirarlas minuciosamente al comer.\n\n## Puntos críticos\n\n- La pieza debe abrirse suficientemente para introducir el jamón, pero mantenerse entera para la fritura. El jamón puede aportar la sal necesaria. El dorado exterior no sustituye la comprobación interior.\n- Ajustar tiempos, líquido y sal a ingredientes y equipo. Mantener higiene y cadena de frío, atender al etiquetado y comprobar la cocción segura de los productos animales y sus rellenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Ingrediente firme o poco hecho | Cocción insuficiente o piezas grandes | Comprobar el interior y prolongar con calor moderado |\n| Preparación demasiado líquida | Exceso de agua o reducción incompleta | Ajustar cantidad y reducir progresivamente |\n| Sabor desequilibrado | Exceso de sal o azúcar | Corregir después de probar y anotar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescado, huevos y lácteos requieren refrigeración y manipulación higiénica. Recalentar completamente las porciones destinadas a consumo caliente, sin mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Merluza en salsa verde](./merluza_en_salsa_verde.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar productos y cantidades reales, tiempos, puntos de cocción, textura y valoración. La ficha no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.html",
+  "id": "REC-493",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "truchas de ración de 250–300 g cada una, abiertas y evisceradas por pescadería",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 truchas de ración de 250–300 g cada una, abiertas y evisceradas por pescadería",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 truchas de ración de 250–300 g cada una, abiertas y evisceradas por pescadería",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano en lonchas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "100",
+        "raw": "100–120 g de jamón serrano en lonchas finas",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "100–120 g de jamón serrano en lonchas finas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para rebozado ligero",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de harina de trigo para rebozado ligero",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de harina de trigo para rebozado ligero",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva, añadir si hace falta",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva, añadir si hace falta",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva, añadir si hace falta",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "limón para acompañar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón para acompañar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón para acompañar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada, pimienta y perejil opcional",
+      "optionality": "unknown",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada, pimienta y perejil opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada, pimienta y perejil opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md",
+  "source_sha256": "940c1c19ad26c628c5043226137fcfb84d67fc27579f16c37d050b3ec1c40642",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Comprobar que las truchas están bien evisceradas, sin restos y refrigeradas. Secarlas por dentro y fuera con papel de cocina."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Introducir una o dos lonchas finas de jamón dentro de la cavidad de cada trucha, sin rellenarla en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Salpimentar con moderación, dado el aporte salino del jamón, y pasar las truchas por una capa fina de harina, retirando el exceso."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Calentar aceite a fuego medio en sartén grande y cocinar las truchas unos 5–7 minutos por cada lado, según grosor, evitando fuego excesivo para que no se queme la harina."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Comprobar que el centro de cada trucha alcance unos 63 °C como referencia conservadora y que la carne se separe en lascas opacas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Retirar con cuidado para no romperlas, escurrir y servir con limón opcional."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Indicar a los comensales que la trucha contiene espinas; retirarlas minuciosamente al comer."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Trucha a la navarra rellena de jamón",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

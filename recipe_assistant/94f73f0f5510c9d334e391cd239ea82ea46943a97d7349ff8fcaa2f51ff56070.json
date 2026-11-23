@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Pulpo cocido a la gallega con cachelos\n\n## Descripción\n\nPreparación de referencia basada en **calentamiento de pulpo ya cocido y guarnición de patata**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Calentamiento de pulpo ya cocido y guarnición de patata |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de pulpo ya cocido, de origen autorizado y conservado según etiqueta\n- 500 g de patatas medianas\n- 3 cucharadas de aceite de oliva virgen extra\n- ½ cucharadita de pimentón dulce\n- una pizca de pimentón picante opcional\n- sal gruesa con moderación\n\n**Alérgenos:** Moluscos.\n\n## Elaboración\n\n1. Confirmar que el pulpo adquirido está completamente cocido, y seguir las instrucciones del envase para su conservación y calentamiento.\n2. Lavar las patatas y cocerlas enteras con piel en agua hasta tiernas, unos 20–30 minutos según tamaño.\n3. Escurrir, dejar templar lo justo para manipular y cortar las patatas en rodajas gruesas.\n4. Calentar el pulpo ya cocido suavemente en agua caliente o al vapor, solo el tiempo suficiente para servirlo bien caliente según el etiquetado.\n5. Cortar el pulpo en rodajas con tijeras limpias y disponerlo sobre las patatas.\n6. Terminar con aceite de oliva, pimentón dulce, picante opcional y una pizca de sal; servir inmediatamente.\n\n## Puntos críticos\n\n- Esta fórmula parte de pulpo previamente cocido; para pulpo crudo no son válidos estos tiempos. No recalentar repetidamente el producto y comprobar siempre las instrucciones del fabricante.\n- Mantener pescado y marisco refrigerados hasta cocinarlos; descongelar en frigorífico cuando proceda y separar utensilios para producto crudo y listo para comer.\n- Adaptar los tiempos al grosor, tamaño y condiciones reales del alimento. En pescados, comprobar el punto interior con termómetro cuando sea posible.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Textura seca o correosa | Cocción excesiva | Reducir tiempo y comprobar el punto antes |\n| Falta de dorado | Superficie húmeda o sartén saturada | Secar y trabajar por tandas |\n| Sabor excesivamente salado | Fondos o condimentos concentrados | Probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras, refrigerarlas sin demora en recipiente cerrado y seguir las indicaciones de conservación del producto. No dejar pescado, marisco ni salsas perecederas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Patata](../11_Despensa/06_Verduras/patata.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, peso efectivo, método, tiempo, temperatura, resultado y valoración. No se atribuyen estas cantidades a una preparación anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **calentamiento de pulpo ya cocido y guarnición de patata**. No consta elaboración doméstica ni valoración de esta formulación, por lo que las cantidades y los tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/pulpo_cocido_a_la_gallega_con_cachelos.html",
+  "id": "REC-301",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pulpo ya cocido, de origen autorizado y conservado según etiqueta",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pulpo ya cocido, de origen autorizado y conservado según etiqueta",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pulpo ya cocido, de origen autorizado y conservado según etiqueta",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas medianas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de patatas medianas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de patatas medianas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de pimentón picante opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de pimentón picante opcional",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de pimentón picante opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal gruesa con moderación",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal gruesa con moderación",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal gruesa con moderación",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/pulpo_cocido_a_la_gallega_con_cachelos.md",
+  "source_sha256": "d36004f5583d469ca617e0685a8403b727cf5f03a7bfa060a2785d8f61f24fd3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Confirmar que el pulpo adquirido está completamente cocido, y seguir las instrucciones del envase para su conservación y calentamiento."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Lavar las patatas y cocerlas enteras con piel en agua hasta tiernas, unos 20–30 minutos según tamaño."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Escurrir, dejar templar lo justo para manipular y cortar las patatas en rodajas gruesas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Calentar el pulpo ya cocido suavemente en agua caliente o al vapor, solo el tiempo suficiente para servirlo bien caliente según el etiquetado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Cortar el pulpo en rodajas con tijeras limpias y disponerlo sobre las patatas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Terminar con aceite de oliva, pimentón dulce, picante opcional y una pizca de sal; servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Pulpo cocido a la gallega con cachelos",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Té verde frío con melocotón\n\n## Descripción\n\nBebida doméstica de referencia basada en **infusión controlada, enfriamiento y fruta triturada**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 vasos |\n| Técnica | Infusión controlada, enfriamiento y fruta triturada |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 ml de agua potable;\n- 6 g de té verde en hojas o cantidad equivalente en bolsitas;\n- 1 melocotón maduro de aproximadamente 150 g de pulpa;\n- 1–2 cucharaditas de zumo de limón;\n- 15–25 g de azúcar opcional;\n- hielo de agua potable para servir;\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Preparación\n\n1. Calentar el agua a unos 75–80 °C, sin hervir las hojas de té.\n2. Infusionar el té verde 2–3 minutos y filtrar inmediatamente para evitar exceso de amargor.\n3. Enfriar rápidamente la infusión, transferirla a recipiente cerrado y refrigerar.\n4. Lavar el melocotón, pelarlo si se desea, retirar el hueso y triturar la pulpa con limón hasta puré fino.\n5. Mezclar el puré con el té frío; ajustar dulzor solo después de probar.\n6. Servir con hielo y remover, manteniendo refrigerada la mezcla sobrante.\n\n## Puntos críticos\n\n- El té verde contiene cafeína y una infusión demasiado larga genera astringencia. La fruta fresca triturada acorta la conservación: preparar para consumo cercano.\n- Utilizar agua potable, lavar la fruta e higienizar batidora, vasos y recipientes.\n- Ajustar dulzor y acidez tras probar, sin asumir que el tipo de fruta o de café será idéntico en futuras elaboraciones.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Té amargo o astringente | Agua demasiado caliente o infusión más larga de lo previsto | Mantener los 75–80 °C y filtrar a los 2–3 minutos orientativos |\n| Bebida poco aromática a melocotón | Fruta poco madura o triturado insuficiente | Elegir fruta madura, retirar el hueso y triturar finamente la pulpa |\n| Bebida demasiado dulce | Azúcar añadido sin valorar el dulzor del melocotón | Mezclar primero el puré con el té frío y endulzar solo después de probar |\n| Separación de pulpa y líquido | Reposo de fruta triturada dentro del té | Remover antes de servir y mantener refrigerada la mezcla hasta el consumo |\n\n## Conservación\n\nEnfriar rápidamente la infusión filtrada y conservarla **tapada y refrigerada**. Lavar y preparar el melocotón con utensilios limpios, mezclar su pulpa con el té ya frío cerca del servicio y consumir pronto. La fruta fresca triturada acorta el tiempo de conservación respecto a una infusión sola; no dejar la bebida durante horas a temperatura ambiente. Recordar que el té verde contiene cafeína.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Té frío con limón](./te_frio_con_limon.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **infusión controlada, enfriamiento y fruta triturada**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/te_verde_frio_con_melocoton.html",
+  "id": "REC-0260",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua potable;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 ml de agua potable;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "600 ml de agua potable;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "té verde en hojas o cantidad equivalente en bolsitas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de té verde en hojas o cantidad equivalente en bolsitas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de té verde en hojas o cantidad equivalente en bolsitas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "melocotón maduro de aproximadamente 150 g de pulpa;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": true,
+        "max": "1",
+        "min": "1",
+        "raw": "1 melocotón maduro de aproximadamente 150 g de pulpa;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 melocotón maduro de aproximadamente 150 g de pulpa;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de zumo de limón;",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de zumo de limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "15",
+        "raw": "15–25 g de azúcar opcional;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "15–25 g de azúcar opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo de agua potable para servir;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo de agua potable para servir;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo de agua potable para servir;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/te_verde_frio_con_melocoton.md",
+  "source_sha256": "cc70ccdf3a5034738192d6ecbb00ea5f524f6aa3a18ab79633133395babd73ed",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Calentar el agua a unos 75–80 °C, sin hervir las hojas de té."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Infusionar el té verde 2–3 minutos y filtrar inmediatamente para evitar exceso de amargor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Enfriar rápidamente la infusión, transferirla a recipiente cerrado y refrigerar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Lavar el melocotón, pelarlo si se desea, retirar el hueso y triturar la pulpa con limón hasta puré fino."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Mezclar el puré con el té frío; ajustar dulzor solo después de probar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir con hielo y remover, manteniendo refrigerada la mezcla sobrante."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Té verde frío con melocotón",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

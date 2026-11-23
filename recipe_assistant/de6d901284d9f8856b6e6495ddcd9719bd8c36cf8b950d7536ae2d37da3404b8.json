@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Frit mallorquí de cordero, patata y verduras\n\n## Origen y contexto\n\n**Región:** Mallorca, Illes Balears. La ficha propone una formulación doméstica con rasgos reconocibles de la especialidad regional. No consta como receta cocinada ni valorada personalmente, y se identifican las adaptaciones respecto a versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 65–80 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de carne magra de cordero en dados pequeños\n- 180 g de hígado de cordero de origen autorizado, opcional\n- 450 g de patatas\n- 180 g de pimiento rojo\n- 120 g de pimiento verde\n- 150 g de cebolla\n- 3 dientes de ajo\n- 140 g de guisantes completamente cocidos\n- 2 cucharadas de hinojo fresco picado o una pizca de semillas de hinojo\n- 3 cucharadas de aceite de oliva más lo necesario para freír patata\n- 2 hojas de laurel\n- sal y pimienta\n\n**Alérgenos:** Revisar ingredientes comerciales; sin alérgenos principales añadidos.\n\n## Elaboración\n\n1. Preparar por separado carne magra e hígado opcional, manteniéndolos refrigerados y evitando contaminación cruzada con las verduras.\n2. Pelar y cortar las patatas en dados de 1,5–2 cm, freírlas por tandas hasta que queden tiernas y doradas, y escurrir.\n3. En otra sartén amplia, dorar la carne de cordero en poco aceite y cocinar hasta estar completamente hecha; retirar.\n4. Si se utiliza hígado, cocinarlo por separado hasta que esté completamente hecho, sin zonas crudas o rosadas en el centro; reservar.\n5. Pochar cebolla y pimientos en dados con ajo y laurel durante 10–12 minutos hasta estar tiernos.\n6. Incorporar carne, hígado opcional, guisantes ya cocidos e hinojo; saltear hasta que todo esté completamente caliente.\n7. Añadir patatas fritas al final, mezclar suavemente 2–3 minutos, retirar laurel y servir.\n\n## Puntos críticos\n\n- El frit mallorquí tiene variantes con distintas vísceras y verduras; esta versión utiliza carne de cordero e hígado opcional. Las vísceras requieren origen seguro, higiene estricta y cocción completa, y no deben dejarse semicrudas.\n- Ajustar cocción y cantidades al tamaño, madurez o presentación comercial del ingrediente. Mantener la cadena de frío de perecederos, separar crudos y cocinados y controlar alérgenos y tratamientos seguros.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Patatas blandas o deshechas al mezclar | Fritura insuficiente o incorporación demasiado temprana al conjunto | Dorar y escurrir por separado; añadir durante los últimos 2–3 minutos indicados |\n| Cordero duro | Trozos desiguales o cocción insuficiente | Cortar en dados pequeños uniformes y comprobar la cocción completa antes de mezclarlos con las verduras |\n| Hígado seco o con zonas crudas, si se emplea | Piezas desiguales o control insuficiente de la cocción | Cocinar por separado y comprobar que quede completamente hecho sin prolongar innecesariamente |\n| Conjunto excesivamente graso | Patatas mal escurridas o aceite acumulado al saltear | Escurrir bien la patata y controlar el aceite de la sartén antes del mezclado final |\n\n## Conservación\n\nServir el frit mallorquí preferentemente recién hecho. Enfriar sin demora las sobras de **cordero, hígado opcional, patata y verduras cocinadas** en recipientes poco profundos, conservarlas tapadas y refrigeradas y recalentar completamente solo lo que se vaya a consumir. Mantener las vísceras crudas separadas del resto de ingredientes hasta su cocción. No dejar esta preparación con carne varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cordero estofado con garbanzos](./cordero_estofado_con_garbanzos_y_comino.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, procedencia de materias primas, tiempo efectivo, resultado y valoración. No se sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "80",
+      "min": "65",
+      "phase": "declared_total",
+      "raw": "65–80 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/frit_mallorqui_de_cordero_patata_y_verduras.html",
+  "id": "REC-468",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "carne magra de cordero en dados pequeños",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de carne magra de cordero en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de carne magra de cordero en dados pequeños",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "hígado de cordero de origen autorizado, opcional",
+      "optionality": "optional",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de hígado de cordero de origen autorizado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de hígado de cordero de origen autorizado, opcional",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de patatas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento rojo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes completamente cocidos",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de guisantes completamente cocidos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de guisantes completamente cocidos",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "hinojo fresco picado o una pizca de semillas de hinojo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de hinojo fresco picado o una pizca de semillas de hinojo",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de hinojo fresco picado o una pizca de semillas de hinojo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva más lo necesario para freír patata",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva más lo necesario para freír patata",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva más lo necesario para freír patata",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/frit_mallorqui_de_cordero_patata_y_verduras.md",
+  "source_sha256": "c4b383fbcd5a24c5c24e0e83cd10e35e0bf31611d2c4c5a02d98953089018ef5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Preparar por separado carne magra e hígado opcional, manteniéndolos refrigerados y evitando contaminación cruzada con las verduras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pelar y cortar las patatas en dados de 1,5–2 cm, freírlas por tandas hasta que queden tiernas y doradas, y escurrir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "En otra sartén amplia, dorar la carne de cordero en poco aceite y cocinar hasta estar completamente hecha; retirar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Si se utiliza hígado, cocinarlo por separado hasta que esté completamente hecho, sin zonas crudas o rosadas en el centro; reservar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Pochar cebolla y pimientos en dados con ajo y laurel durante 10–12 minutos hasta estar tiernos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Incorporar carne, hígado opcional, guisantes ya cocidos e hinojo; saltear hasta que todo esté completamente caliente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Añadir patatas fritas al final, mezclar suavemente 2–3 minutos, retirar laurel y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Frit mallorquí de cordero, patata y verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

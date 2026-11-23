@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 14
+    },
+    "text": "\n# Calamares guisados en salsa de tomate\n\n## Descripción\n\nCalamares guisados lentamente en sofrito de cebolla y tomate. A diferencia de la plancha rápida, aquí se busca ablandar mediante cocción húmeda prolongada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocción | 45–70 minutos, orientativos |\n| Técnica | Sofrito y guiso suave |\n\n## Ingredientes\n\n- 800 g de calamares limpios en anillas o trozos;\n- 1 cebolla grande (180 g);\n- 1 pimiento verde (120 g);\n- 2 dientes de ajo;\n- 300 g de tomate triturado;\n- 2 cucharadas de aceite de oliva;\n- 100 ml de caldo o agua, según necesidad;\n- 1 hoja de laurel;\n- sal y pimienta.\n\n**Alérgeno:** moluscos. Revisar también el caldo utilizado.\n\n## Elaboración\n\n1. Descongelar calamares en refrigeración si procede. Limpiar, retirar partes no comestibles y cortar uniformemente.\n2. Pochar cebolla y pimiento en aceite 10–12 minutos; añadir ajo brevemente.\n3. Incorporar tomate y reducir 8–10 minutos.\n4. Añadir calamares, laurel y una pequeña cantidad de caldo. Los calamares liberan agua: no añadir todo el líquido de golpe.\n5. Cocinar tapado parcialmente a hervor suave aproximadamente 25–45 minutos, hasta que estén tiernos y bien cocinados. Ajustar líquido durante el proceso.\n6. Retirar laurel, reducir salsa destapada si está aguada y corregir sal al final.\n\n## Puntos críticos\n\n- El tiempo depende del tamaño y especie de calamar.\n- No confundir la cocción rápida de plancha con la cocción prolongada del guiso.\n- Evitar ebullición fuerte y controlar evaporación.\n- Mantener utensilios de producto crudo separados de los de servicio.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con vino blanco | Reducir 100 ml después del sofrito |\n| Con guindilla | Añadir al sofrito |\n| Con guisantes | Incorporar cocidos hacia el final |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Calamares duros | Cocción húmeda aún insuficiente | Continuar a hervor suave |\n| Salsa líquida | Agua liberada | Reducir destapada |\n| Fondo pegado | Calor excesivo o poco líquido | Bajar fuego y vigilar |\n\n## Conservación\n\nEnfriar rápidamente en recipientes poco profundos y refrigerar. Recalentar completamente. Congelar porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Diagnóstico de pescados y mariscos](../98_Tablas/07_Comparativas/diagnostico_pescados_y_mariscos.md)\n\n## Principio de NovaCoquinaria\n\n> Para el calamar existen dos estrategias distintas: cocción breve y caliente, o guiso suave hasta ablandar."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "45–70 minutos, orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/calamares_en_salsa.html",
+  "id": "REC-0062",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calamares limpios en anillas o trozos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de calamares limpios en anillas o trozos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de calamares limpios en anillas o trozos;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde (120 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde (120 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde (120 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo o agua, según necesidad;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de caldo o agua, según necesidad;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de caldo o agua, según necesidad;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/calamares_en_salsa.md",
+  "source_sha256": "3cf98e154ef115bf154f68c495625620044378b4c798acfbcc6120411e62edcb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Descongelar calamares en refrigeración si procede. Limpiar, retirar partes no comestibles y cortar uniformemente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite 10–12 minutos; añadir ajo brevemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate y reducir 8–10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir calamares, laurel y una pequeña cantidad de caldo. Los calamares liberan agua: no añadir todo el líquido de golpe."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Cocinar tapado parcialmente a hervor suave aproximadamente 25–45 minutos, hasta que estén tiernos y bien cocinados. Ajustar líquido durante el proceso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Retirar laurel, reducir salsa destapada si está aguada y corregir sal al final."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Calamares guisados en salsa de tomate",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

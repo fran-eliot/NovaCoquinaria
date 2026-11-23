@@ -1,0 +1,333 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 66,
+      "start_line": 13
+    },
+    "text": "\n# Curry amarillo de garbanzos y verduras\n\n## Descripción\nCurry vegetal de inspiración tailandesa con garbanzos cocidos, pasta de curry amarillo y leche de coco. Adaptación práctica, no presentación de una receta tradicional específica.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 min |\n| Cocción | 20–25 min |\n| Técnica | Sofrito y curry |\n\n## Ingredientes\n- 500 g de garbanzos cocidos y escurridos;\n- 400 ml de leche de coco;\n- 1 cebolla;\n- 1 pimiento rojo;\n- 1 zanahoria;\n- 1–2 cucharadas de pasta de curry amarillo;\n- 1 cucharada de aceite neutro;\n- 100 ml de agua o caldo vegetal;\n- zumo de medio limón o lima;\n- cilantro, opcional.\n\n**Alérgenos:** algunas pastas de curry incluyen crustáceos o pescado. Elegir una pasta etiquetada como apta para dieta vegetal si se requiere.\n\n## Elaboración\n1. Si se utilizan garbanzos secos, cocerlos previamente siguiendo la técnica de legumbres; si son de conserva, escurrir y aclarar según preferencia.\n2. Pochar cebolla, zanahoria y pimiento en aceite 6–8 minutos.\n3. Añadir pasta de curry y cocinar brevemente sin quemarla.\n4. Incorporar leche de coco y caldo; mantener hervor suave 8–10 minutos.\n5. Añadir garbanzos cocidos y cocinar 5–7 minutos para integrar y calentar completamente.\n6. Ajustar espesor con caldo y terminar con lima o limón y cilantro opcional.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Salsa aguada | Mucho caldo | Reducir destapada |\n| Curry demasiado fuerte | Pasta concentrada | Reducir cantidad y añadir coco |\n| Verduras blandas | Cocción prolongada | Acortar fase inicial |\n\n## Conservación\nEnfriar rápidamente en recipientes poco profundos, refrigerar y recalentar completamente.\n\n## Relaciones\n- [Curry amarillo](../11_Despensa/08_Especias/curry_amarillo.md)\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n\n## Principio de NovaCoquinaria\n> Un curry vegetal equilibrado depende del sofrito, la pasta y la reducción de la salsa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/curry_amarillo_de_garbanzos.html",
+  "id": "REC-0074",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de garbanzos cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de leche de coco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de leche de coco;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pasta de curry amarillo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de pasta de curry amarillo;",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de pasta de curry amarillo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo vegetal;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo vegetal;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de medio limón o lima;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de medio limón o lima;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de medio limón o lima;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro, opcional.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/curry_amarillo_de_garbanzos.md",
+  "source_sha256": "fca54ea63df4913bb42da902ba9ba5c73bfc46a09b852178a5c7e9f2921a7179",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Si se utilizan garbanzos secos, cocerlos previamente siguiendo la técnica de legumbres; si son de conserva, escurrir y aclarar según preferencia."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla, zanahoria y pimiento en aceite 6–8 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Añadir pasta de curry y cocinar brevemente sin quemarla."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Incorporar leche de coco y caldo; mantener hervor suave 8–10 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Añadir garbanzos cocidos y cocinar 5–7 minutos para integrar y calentar completamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Ajustar espesor con caldo y terminar con lima o limón y cilantro opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar curry",
+      "source_location": {
+        "end_line": 63,
+        "start_line": 63
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Curry amarillo de garbanzos y verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 15
+    },
+    "text": "\n# Chorizo a la sidra asturiano\n\n## Origen y contexto\n\n**Región:** Asturias. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como tapa |\n| Tiempo orientativo | 25–35 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de chorizos frescos aptos para cocinar\n- 350 ml de sidra natural asturiana\n- 1 hoja de laurel, opcional\n- pan para acompañar, opcional\n\n**Alérgenos:** Revisar chorizo comercial por gluten, soja, sulfitos u otros ingredientes; gluten si se acompaña de pan.\n\n## Elaboración\n\n1. Comprobar que los chorizos son frescos y necesitan cocción, o seguir las indicaciones del fabricante si tienen otra presentación.\n2. Poner los chorizos enteros en una cazuela pequeña y cubrir parcialmente con sidra natural; agregar laurel opcional.\n3. Llevar a un hervor suave y mantener unos 20–30 minutos, girando las piezas si no quedan totalmente cubiertas.\n4. Comprobar que los chorizos están completamente cocinados hasta el centro; no depender solo del color rojizo del embutido.\n5. Retirar laurel, cortar los chorizos en rodajas gruesas y servir calientes con parte de la sidra reducida.\n6. Si se desea, acompañar con pan y mantener el líquido caliente solo durante el servicio.\n\n## Puntos críticos\n\n- La sidra se utiliza para cocer el chorizo y no garantiza ausencia total de alcohol residual. El tiempo depende del tamaño y estado comercial; el interior debe quedar completamente cocinado.\n- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |\n| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |\n| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Carcamusas toledanas](./carcamusas_toledanas_de_magro_de_cerdo.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "35",
+      "min": "25",
+      "phase": "declared_total",
+      "raw": "25–35 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/chorizo_a_la_sidra_asturiano.html",
+  "id": "REC-482",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chorizos frescos aptos para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de chorizos frescos aptos para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de chorizos frescos aptos para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "sidra natural asturiana",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 ml de sidra natural asturiana",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "350 ml de sidra natural asturiana",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel, opcional",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel, opcional",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel, opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pan para acompañar, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pan para acompañar, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pan para acompañar, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/chorizo_a_la_sidra_asturiano.md",
+  "source_sha256": "781a6fe055ea31de2f110b1df4bd9d450f016a8248c6f418779b5013c84d7483",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Comprobar que los chorizos son frescos y necesitan cocción, o seguir las indicaciones del fabricante si tienen otra presentación."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Poner los chorizos enteros en una cazuela pequeña y cubrir parcialmente con sidra natural; agregar laurel opcional."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Llevar a un hervor suave y mantener unos 20–30 minutos, girando las piezas si no quedan totalmente cubiertas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Comprobar que los chorizos están completamente cocinados hasta el centro; no depender solo del color rojizo del embutido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Retirar laurel, cortar los chorizos en rodajas gruesas y servir calientes con parte de la sidra reducida."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Si se desea, acompañar con pan y mantener el líquido caliente solo durante el servicio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Chorizo a la sidra asturiano",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como tapa",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

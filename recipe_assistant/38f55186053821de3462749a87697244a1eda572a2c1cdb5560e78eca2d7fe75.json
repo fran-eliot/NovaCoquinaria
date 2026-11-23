@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Sopa de picadillo andaluza de pollo y jamón\n\n## Origen y contexto\n\n**Región:** Andalucía. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 5 raciones |\n| Tiempo orientativo | 65–85 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de muslos de pollo con hueso\n- 120 g de jamón serrano\n- 3 huevos\n- 120 g de fideos finos de trigo\n- 150 g de zanahoria\n- 120 g de puerro\n- 90 g de apio\n- 1,8 l de agua potable\n- sal y perejil fresco lavado\n\n**Alérgenos:** Huevo, trigo/gluten y apio; comprobar alérgenos del jamón envasado.\n\n## Elaboración\n\n1. Lavar y cortar zanahoria, puerro y apio. Colocar pollo y hortalizas en cazuela grande con agua fría; llevar a hervor y retirar espuma de la superficie.\n2. Cocer a hervor suave 40–55 minutos, hasta que el pollo esté completamente hecho (al menos 74 °C en la zona gruesa sin tocar hueso) y pueda desmenuzarse.\n3. En otra cazuela cocer los huevos 10–11 minutos, enfriar rápidamente, pelar y picar.\n4. Retirar el pollo del caldo, desechar huesos, piel y cartílagos, y desmenuzar la carne sobre superficie limpia.\n5. Colar o retirar las verduras del caldo a gusto y devolver a hervor; incorporar fideos y cocinar el tiempo indicado por el fabricante.\n6. Agregar pollo desmenuzado y jamón en dados pequeños para calentarlos completamente durante 2–3 minutos; comprobar sazón teniendo en cuenta la sal del jamón.\n7. Servir muy caliente con huevo cocido picado y perejil en cada plato.\n\n## Puntos críticos\n\n- Es una sopa con caldo de pollo y picadillo de carne, jamón y huevo, distinta de la sopa castellana de ajo y pan.\n- No introducir utensilios empleados con pollo crudo en el caldo cocinado. El huevo picado debe mantenerse refrigerado hasta el servicio.\n- El jamón aporta sal; probar el caldo antes de rectificar.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Caldo turbio | Hervor muy fuerte | Mantener cocción suave y espumar |\n| Fideos blandos | Demasiado reposo en caldo | Añadir justo antes de servir |\n| Sopa salada | Jamón y sal añadida | Ajustar sazón al final |\n\n## Conservación\n\nEnfriar el caldo y guarniciones rápidamente, refrigerar a 4 °C o menos hasta 2 días; mantener fideos separados si se anticipan sobras. Recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Sopa castellana de ajo y pan](../04_Verduras/sopa_castellana_de_ajo_y_pan_con_huevo.md)\n- [Preparar caldos culinarios](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "85",
+      "min": "65",
+      "phase": "declared_total",
+      "raw": "65–85 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/sopa_de_picadillo_andaluza_de_pollo_y_jamon.html",
+  "id": "REC-558",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos de pollo con hueso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de muslos de pollo con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de muslos de pollo con hueso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de jamón serrano",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de jamón serrano",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos finos de trigo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de fideos finos de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de fideos finos de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de zanahoria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de zanahoria",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de puerro",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de puerro",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "apio",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de apio",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de apio",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1.8",
+        "min": "1.8",
+        "raw": "1,8 l de agua potable",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1,8 l de agua potable",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y perejil fresco lavado",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y perejil fresco lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y perejil fresco lavado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/sopa_de_picadillo_andaluza_de_pollo_y_jamon.md",
+  "source_sha256": "86dce63796b54fa00c3c2573f35408f0cc5adf0a73407f0f3add5e89f5fc7678",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar y cortar zanahoria, puerro y apio. Colocar pollo y hortalizas en cazuela grande con agua fría; llevar a hervor y retirar espuma de la superficie."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cocer a hervor suave 40–55 minutos, hasta que el pollo esté completamente hecho (al menos 74 °C en la zona gruesa sin tocar hueso) y pueda desmenuzarse."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "En otra cazuela cocer los huevos 10–11 minutos, enfriar rápidamente, pelar y picar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Retirar el pollo del caldo, desechar huesos, piel y cartílagos, y desmenuzar la carne sobre superficie limpia."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Colar o retirar las verduras del caldo a gusto y devolver a hervor; incorporar fideos y cocinar el tiempo indicado por el fabricante."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Agregar pollo desmenuzado y jamón en dados pequeños para calentarlos completamente durante 2–3 minutos; comprobar sazón teniendo en cuenta la sal del jamón."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir muy caliente con huevo cocido picado y perejil en cada plato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.html",
+      "label": "Preparar caldos culinarios",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.md"
+    }
+  ],
+  "title": "Sopa de picadillo andaluza de pollo y jamón",
+  "yield": {
+    "max": "5",
+    "min": "5",
+    "raw": "5 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

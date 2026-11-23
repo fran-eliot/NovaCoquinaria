@@ -1,0 +1,218 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 15
+    },
+    "text": "\n# Zarajos conquenses a la plancha\n\n## Origen y contexto\n\n**Región:** Cuenca, Castilla-La Mancha. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tapas |\n| Tiempo orientativo | 20–30 min con producto precocido |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 zarajos comerciales previamente cocidos, de origen autorizado\n- 20 ml de aceite de oliva\n- 1 limón\n- sal al gusto\n\n**Alérgenos:** Consultar la etiqueta del producto comercial y posibles ingredientes del adobo.\n\n## Elaboración\n\n1. Comprobar que los zarajos están profesionalmente limpios, precocidos y aptos para terminar a la plancha; respetar su etiqueta y refrigeración.\n2. Cortar en rodajas gruesas si el formato lo permite y retirar cualquier soporte no comestible.\n3. Calentar una plancha con una película de aceite; dorar las piezas por ambos lados en pequeñas tandas.\n4. Verificar calentamiento completo del centro, al menos 74 °C como objetivo de recalentamiento; ajustar el tiempo según tamaño e instrucciones.\n5. Servir inmediatamente con limón aparte.\n\n## Puntos críticos\n\n- Los zarajos tradicionales emplean intestino de cordero enrollado. Esta ficha se limita al acabado de producto precocido de origen autorizado; no aborda limpieza ni elaboración desde víscera cruda.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Exterior quemado | Plancha demasiado caliente | Reducir temperatura |\n| Centro frío | Rodajas gruesas | Ajustar grosor y tiempo |\n\n## Conservación\n\nConsumir recién hechos. Refrigerar sobras rápidamente a 4 °C o menos y consumir en 24 h, recalentando por completo.\n\n## Relaciones dentro del SGCC\n\n- [patorrillo riojano de cordero](../05_Carnes/patorrillo_riojano_de_cordero.md)\n- [sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.turismocastillalamancha.es/es/enogastronomia/raiz-culinaria/recetas/zarajo-de-cuenca)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "30",
+      "min": "20",
+      "phase": "declared_total",
+      "raw": "20–30 min con producto precocido",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cuenca, Castilla-La Mancha. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/zarajos_conquenses.html",
+  "id": "REC-581",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "zarajos comerciales previamente cocidos, de origen autorizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 zarajos comerciales previamente cocidos, de origen autorizado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 zarajos comerciales previamente cocidos, de origen autorizado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "20 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "limón",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/zarajos_conquenses.md",
+  "source_sha256": "e299d6edb6c39cbbcf96903be061754d447ac53362eb93136551d51814557d75",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Comprobar que los zarajos están profesionalmente limpios, precocidos y aptos para terminar a la plancha; respetar su etiqueta y refrigeración."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Cortar en rodajas gruesas si el formato lo permite y retirar cualquier soporte no comestible."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Calentar una plancha con una película de aceite; dorar las piezas por ambos lados en pequeñas tandas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Verificar calentamiento completo del centro, al menos 74 °C como objetivo de recalentamiento; ajustar el tiempo según tamaño e instrucciones."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Servir inmediatamente con limón aparte."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 65,
+        "start_line": 65
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    }
+  ],
+  "title": "Zarajos conquenses a la plancha",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tapas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

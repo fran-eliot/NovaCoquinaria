@@ -1,0 +1,351 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 13
+    },
+    "text": "\n# Verduras salteadas con hoisin y sésamo\n\n## Descripción\n\nSalteado de verduras con acabado dulce-salado de salsa hoisin y aceite de sésamo, adaptable a la despensa doméstica.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocción | 10–12 min |\n| Técnica | Salteado por tandas |\n\n## Ingredientes\n\n- 250 g de brócoli;\n- 1 pimiento rojo;\n- 1 zanahoria;\n- 1/2 cebolla;\n- 1 cucharada y media de salsa hoisin;\n- 1 cucharada de salsa de soja;\n- 3 cucharadas de agua;\n- 1 cucharada de aceite neutro;\n- 1 cucharadita de aceite de sésamo tostado;\n- 1 diente de ajo.\n\n**Alérgenos:** soja, sésamo y posible trigo; comprobar la composición de hoisin.\n\n## Elaboración\n\n1. Cortar verduras en piezas similares; escurrir y secar bien.\n2. Mezclar hoisin, soja y agua en recipiente limpio.\n3. Calentar sartén amplia y saltear zanahoria y brócoli por tandas.\n4. Añadir pimiento y cebolla, cocinando hasta que estén tiernos y ligeramente crujientes.\n5. Incorporar ajo brevemente sin quemarlo.\n6. Añadir salsa, mezclar hasta que cubra verduras y retirar del fuego.\n7. Terminar con aceite de sésamo y servir.\n\n## Puntos críticos\n\n- Hoisin y soja aportan sal y dulzor; no añadir sal sin probar.\n- Cocinar por tandas para evitar vapor excesivo.\n- El aceite de sésamo tostado se usa como acabado aromático.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Verduras blandas | Cocción prolongada | Reducir tiempo |\n| Salsa pegajosa | Reducción excesiva | Añadir agua |\n| Muy dulce | Exceso de hoisin | Reducir cantidad |\n\n## Relaciones\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n- [Brócoli](../11_Despensa/06_Verduras/brocoli.md)\n\n## Principio de NovaCoquinaria\n\n> La hoisin es un acabado intenso: usarla con moderación y ajustar antes de reducir."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "12",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–12 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/verduras_salteadas_con_hoisin.html",
+  "id": "REC-0078",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "brócoli;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de brócoli;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de brócoli;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa hoisin;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1 cucharada y media de salsa hoisin;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada y media de salsa hoisin;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de agua;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de agua;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo tostado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo tostado;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo.",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo.",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/verduras_salteadas_con_hoisin.md",
+  "source_sha256": "678cb99ef23cc593eb629d95a4d130b09e0739c072524fe2c9d001ecaf127490",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Cortar verduras en piezas similares; escurrir y secar bien."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Mezclar hoisin, soja y agua en recipiente limpio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Calentar sartén amplia y saltear zanahoria y brócoli por tandas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Añadir pimiento y cebolla, cocinando hasta que estén tiernos y ligeramente crujientes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar ajo brevemente sin quemarlo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Añadir salsa, mezclar hasta que cubra verduras y retirar del fuego."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Terminar con aceite de sésamo y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Verduras salteadas con hoisin y sésamo",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

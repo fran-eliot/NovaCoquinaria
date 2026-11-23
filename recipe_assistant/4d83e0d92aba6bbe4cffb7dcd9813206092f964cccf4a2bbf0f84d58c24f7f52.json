@@ -1,0 +1,287 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 109,
+      "start_line": 15
+    },
+    "text": "\n# Setas salteadas con salsa de ostras\n\n## Descripción\n\nChampiñones y setas cultivadas salteados con salsa de ostras, ajo y jengibre. La humedad se evapora antes de incorporar el aliño, para obtener setas doradas y una salsa ligera.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 como guarnición |\n| Preparación | 15 minutos |\n| Cocinado | 12–18 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Dorado y glaseado ligero |\n\n## Ingredientes\n\n- 500 g de champiñones y setas cultivadas, troceados\n- 1 cucharada de salsa de ostras\n- 1 cucharada de salsa de soja\n- 10 g de jengibre rallado\n- 2 dientes de ajo picados\n- 2 cucharadas de aceite neutro\n- 2–3 cucharadas de agua\n- 1 cebolleta, opcional\n\n**Alérgenos:** Moluscos (ostras), soja y posible trigo; revisar las etiquetas.\n\n## Mise en place\n\nLimpiar setas de procedencia segura con cepillo o paño y secarlas. No emplear setas silvestres sin identificación experta. Mezclar salsa de ostras, soja y agua antes de calentar la sartén.\n\n## Elaboración\n\n### 1. Dorar setas\n\nCalentar una sartén amplia con aceite. Incorporar las setas por tandas y cocinar 6–9 minutos hasta evaporar agua y dorar sus bordes.\n\n### 2. Aromatizar\n\nBajar a fuego medio, incorporar ajo y jengibre y cocinar unos 30–45 segundos, removiendo.\n\n### 3. Glasear\n\nAñadir la mezcla de salsas y remover durante 1–2 minutos hasta que recubra las setas sin dejar líquido abundante.\n\n### 4. Servir\n\nComprobar que todas las setas estén bien cocinadas, probar antes de añadir sal y terminar con cebolleta opcional.\n\n## Puntos críticos\n\n- La salsa de ostras no es vegetariana; comprobar alérgeno moluscos.\n- Las setas deben estar completamente cocinadas según su variedad.\n- La salsa comercial puede contener mucho sodio y azúcar: añadir al final y ajustar.\n\n## Perfil esperado\n\nSetas tiernas con bordes dorados, brillo ligero y sabor umami sin líquido acumulado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin salsa de ostras | Usar una salsa vegetal de setas y revisar su composición; cambia el perfil |\n| Con brócoli | Añadir floretes previamente cocidos y escurridos |\n| Con chile | Incorporar una pizca con el ajo |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Setas acuosas | Sartén saturada | Dorar por tandas |\n| Salsa pegajosa | Reducción excesiva | Añadir unas gotas de agua y retirar del calor |\n| Preparación demasiado salada | Salsas concentradas | No salar hasta probar |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n\n## Principio de NovaCoquinaria\n\n> Las setas se doran primero; la salsa umami solo necesita un acabado breve.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para dorado y glaseado ligero."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "18",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–18 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/setas_salteadas_con_salsa_de_ostras.html",
+  "id": "REC-0141",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "champiñones y setas cultivadas, troceados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de champiñones y setas cultivadas, troceados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de champiñones y setas cultivadas, troceados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de ostras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de ostras",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de ostras",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre rallado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "2",
+        "raw": "2–3 cucharadas de agua",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "2–3 cucharadas de agua",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLimpiar setas de procedencia segura con cepillo o paño y secarlas. No emplear setas silvestres sin identificación experta. Mezclar salsa de ostras, soja y agua antes de calentar la sartén.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/setas_salteadas_con_salsa_de_ostras.md",
+  "source_sha256": "b9b715552863c65d5146ea9069f0cf4483a51d02e14106d91f2d69b45e7b1be9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Dorar setas\n\nCalentar una sartén amplia con aceite. Incorporar las setas por tandas y cocinar 6–9 minutos hasta evaporar agua y dorar sus bordes.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar\n\nBajar a fuego medio, incorporar ajo y jengibre y cocinar unos 30–45 segundos, removiendo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Glasear\n\nAñadir la mezcla de salsas y remover durante 1–2 minutos hasta que recubra las setas sin dejar líquido abundante.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Servir\n\nComprobar que todas las setas estén bien cocinadas, probar antes de añadir sal y terminar con cebolleta opcional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 101,
+        "start_line": 101
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Setas salteadas con salsa de ostras",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

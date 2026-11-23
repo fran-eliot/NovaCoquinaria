@@ -1,0 +1,326 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Bizcocho de tres leches y vainilla\n\n## Descripción\n\nReceta de referencia centrada en **bizcocho aireado, perforado y remojo refrigerado**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica | Bizcocho aireado, perforado y remojo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 huevos L\n- 130 g de harina de trigo\n- 130 g de azúcar\n- 1 cucharadita de impulsor químico\n- 1 cucharadita de vainilla\n- 200 ml de leche evaporada\n- 180 g de leche condensada\n- 160 ml de leche entera\n- 200 ml de nata para montar pasteurizada, opcional para la cobertura\n- 15 g de azúcar glas opcionales\n\n**Alérgenos:** Huevo, gluten (trigo), leche.\n\n## Elaboración\n\n1. Precalentar horno a 175 °C y forrar un molde de unos 20 × 25 cm.\n2. Batir huevos con azúcar 6–8 minutos hasta que aumenten de volumen; incorporar vainilla.\n3. Añadir harina e impulsor tamizados en dos tandas, con movimientos envolventes.\n4. Hornear 22–30 minutos hasta centro cocido y prueba de palillo limpia; dejar templar.\n5. Mezclar leche evaporada, condensada y entera. Perforar ligeramente la superficie y repartir gradualmente las tres leches sobre el bizcocho.\n6. Enfriar rápidamente en refrigeración y dejar reposar tapado 4–6 horas para absorber líquido.\n7. Montar nata pasteurizada fría con azúcar glas opcional y extender justo antes de servir, manteniendo el pastel refrigerado.\n\n## Puntos críticos\n\n- El bizcocho debe quedar cocido antes del remojo y estar en recipiente adecuado para líquidos. La cobertura y la mezcla láctea son perecederas; no reposar a temperatura ambiente.\n- Ajustar tiempos al molde, grosor y horno; comprobar la cocción real, especialmente en preparaciones con huevo.\n- Manipular huevos, fruta y lácteos con higiene y mantener los ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Bizcocho se deshace al incorporar las tres leches | Base insuficientemente cocida o líquido vertido de golpe sobre un bizcocho frágil | Verificar la cocción antes de remojar, perforar ligeramente y repartir el líquido por tandas en vez de verterlo de una vez |\n| Zonas secas tras el reposo | Reparto desigual de la mezcla de leches o absorción todavía incompleta | Distribuir el remojo gradualmente por toda la superficie y comprobar tras las 4–6 horas orientativas de frío; registrar el resultado antes de aumentar el líquido |\n| Líquido acumulado y corte poco estable | Capacidad de absorción de la miga insuficiente para la mezcla o falta de tiempo de reposo | Mantener refrigerado y comprobar la absorción; en otra prueba ajustar el remojo según la miga realmente obtenida, sin cambiar ingredientes sin evidencia |\n| Cobertura de nata pierde consistencia | Nata o bizcocho demasiado templados al montar y extender | Montar la nata pasteurizada bien fría y cubrir el pastel frío justo antes de servir |\n\n## Conservación\n\nTras añadir la mezcla de tres leches, **refrigerar el bizcocho sin demora** en un recipiente apto para retener el líquido y mantenerlo protegido durante el reposo de 4–6 horas. Conservar refrigerado también después de añadir la nata montada, servir porciones sin dejar la tarta fuera de frío prolongadamente y devolver las sobras al frigorífico. Consumir pronto, según frescura y condiciones de los lácteos utilizados; esta elaboración húmeda no se conserva como un bizcocho seco.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Bizcocho de yogur y limón](./bizcocho_de_yogur.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes realmente utilizados, molde, tiempos, temperatura, textura y valoración. No se modifica ni atribuye esta propuesta a una receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **bizcocho aireado, perforado y remojo refrigerado**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bizcocho_tres_leches_de_vainilla.html",
+  "id": "REC-353",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de harina de trigo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de impulsor químico",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de impulsor químico",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vainilla",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vainilla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche evaporada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de leche evaporada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de leche evaporada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "leche condensada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de leche condensada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de leche condensada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "160 ml de leche entera",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar pasteurizada, opcional para la cobertura",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de nata para montar pasteurizada, opcional para la cobertura",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de nata para montar pasteurizada, opcional para la cobertura",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas opcionales",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de azúcar glas opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de azúcar glas opcionales",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/bizcocho_tres_leches_de_vainilla.md",
+  "source_sha256": "6522e3971c8859e0ce009bd17c40be3e0e915f13d7530c188b0d874e0572cd41",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 175 °C y forrar un molde de unos 20 × 25 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Batir huevos con azúcar 6–8 minutos hasta que aumenten de volumen; incorporar vainilla."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir harina e impulsor tamizados en dos tandas, con movimientos envolventes."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Hornear 22–30 minutos hasta centro cocido y prueba de palillo limpia; dejar templar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Mezclar leche evaporada, condensada y entera. Perforar ligeramente la superficie y repartir gradualmente las tres leches sobre el bizcocho."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Enfriar rápidamente en refrigeración y dejar reposar tapado 4–6 horas para absorber líquido."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Montar nata pasteurizada fría con azúcar glas opcional y extender justo antes de servir, manteniendo el pastel refrigerado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bizcocho de tres leches y vainilla",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

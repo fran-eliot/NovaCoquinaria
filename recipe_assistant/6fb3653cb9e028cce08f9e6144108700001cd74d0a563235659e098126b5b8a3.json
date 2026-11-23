@@ -1,0 +1,295 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 108,
+      "start_line": 14
+    },
+    "text": "\n# Pisto de verduras\n\n## Descripción\n\nPreparación doméstica de verduras pochadas con tomate, de textura melosa y sabor concentrado. No pretende fijar una única versión regional.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 min |\n| Cocinado | 40–55 min |\n| Dificultad | Fácil |\n| Técnica principal | Pochado escalonado y reducción |\n\n## Ingredientes\n\n- 1 cebolla grande (180 g);\n- 1 pimiento rojo (180 g);\n- 1 pimiento verde (150 g);\n- 1 calabacín (300 g);\n- 400 g de tomate triturado;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 2 dientes de ajo;\n- Sal y pimienta;\n- 1 pizca de azúcar, solo si hiciera falta equilibrar la acidez;\n\n## Elaboración\n\n### 1. Preparar\n\nLavar y secar las hortalizas. Cortar cebolla, pimientos y calabacín en dados medianos; picar el ajo.\n\n### 2. Pochar la base\n\nCalentar el aceite a fuego medio-bajo y cocinar cebolla y pimientos durante 12–15 minutos, removiendo hasta que estén tiernos.\n\n### 3. Añadir calabacín\n\nIncorporar calabacín y ajo; cocinar 8–10 minutos más. Evitar que el ajo se queme.\n\n### 4. Reducir el tomate\n\nAñadir tomate triturado, mezclar y cocinar destapado a fuego suave durante 20–30 minutos, hasta que la salsa se concentre.\n\n### 5. Terminar\n\nAjustar sal y pimienta. Corregir acidez solo después de probar. Reposar unos minutos antes de servir.\n\n## Puntos críticos\n\n- No confundir pochado con salteado: se busca ablandamiento y concentración, no un dorado intenso.\n- Reducir destapado evita un pisto excesivamente líquido.\n- Los tiempos dependen del corte y del agua de las verduras.\n\n## Perfil esperado\n\nPreparación doméstica de verduras pochadas con tomate, de textura melosa y sabor concentrado. No pretende fijar una única versión regional.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con berenjena | Incorporar dados de berenjena y prolongar cocción según textura. |\n| Con huevo | Servir con huevo cocinado aparte y ajustar alérgenos. |\n| Más concentrado | Reducir tomate unos minutos más sin quemar el fondo. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Corrección |\n|---|---|---|\n| Pisto aguado | Reducción insuficiente | Cocinar destapado y ajustar fuego. |\n| Verduras deshechas | Cortes pequeños o cocción excesiva | Cortar uniforme y controlar el punto. |\n| Sabor ácido | Tomate poco reducido | Cocinar y probar antes de corregir. |\n\n## Conservación\n\nEnfriar las sobras rápidamente, refrigerar en recipientes adecuados y recalentar completamente cuando proceda. Si se congela, porcionar y valorar posibles cambios de textura tras descongelar.\n\n## Relaciones dentro del SGCC\n\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Calabacín](../11_Despensa/06_Verduras/calabacin.md)\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> La textura del pisto se construye pochando por etapas y reduciendo el tomate hasta concentrar el conjunto.\n\n## Utilizado por\n\nGuarniciones, primeros platos y preparaciones vegetales."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "55",
+      "min": "40",
+      "phase": "cooking",
+      "raw": "40–55 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/pisto_de_verduras.html",
+  "id": "REC-0041",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (180 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde (150 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde (150 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde (150 g);",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín (300 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín (300 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín (300 g);",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "Sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Sal y pimienta;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, solo si hiciera falta equilibrar la acidez;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de azúcar, solo si hiciera falta equilibrar la acidez;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de azúcar, solo si hiciera falta equilibrar la acidez;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/pisto_de_verduras.md",
+  "source_sha256": "0d3bd05c672d6c7b55d40f6174c1866c963ca54632487c832d8b2280f89dc51d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "1. Preparar\n\nLavar y secar las hortalizas. Cortar cebolla, pimientos y calabacín en dados medianos; picar el ajo.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "2. Pochar la base\n\nCalentar el aceite a fuego medio-bajo y cocinar cebolla y pimientos durante 12–15 minutos, removiendo hasta que estén tiernos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 3,
+      "text": "3. Añadir calabacín\n\nIncorporar calabacín y ajo; cocinar 8–10 minutos más. Evitar que el ajo se queme.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 4,
+      "text": "4. Reducir el tomate\n\nAñadir tomate triturado, mezclar y cocinar destapado a fuego suave durante 20–30 minutos, hasta que la salsa se concentre.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nAjustar sal y pimienta. Corregir acidez solo después de probar. Reposar unos minutos antes de servir.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Pisto de verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Arroz a la zamorana con productos del cerdo\n\n## Origen y contexto\n\n**Región:** Zamora, Castilla y León. Formulación de referencia adaptada a cocina doméstica, inspirada en rasgos regionales. No consta como preparación realizada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–5 raciones |\n| Tiempo orientativo | 85–110 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de arroz redondo\n- 350 g de costilla fresca de cerdo troceada\n- 180 g de magro de cerdo troceado\n- 100 g de oreja de cerdo cocida y apta para consumir caliente, opcional\n- 110 g de chorizo para cocinar\n- 160 g de cebolla\n- 140 g de pimiento rojo\n- 250 g de tomate rallado\n- 3 dientes de ajo\n- 50 ml de aceite de oliva\n- 1,1–1,3 l de caldo caliente de carne bajo en sal, ajustable\n- 1 cucharadita de pimentón dulce (3 g)\n- 1 hoja de laurel\n- sal y pimienta\n\n**Alérgenos:** Comprobar alérgenos de chorizo y caldo comercial.\n\n## Elaboración\n\n1. Secar costilla y magro y dorar en aceite por tandas dentro de una cazuela amplia; salpimentar moderadamente.\n2. Añadir cebolla y pimiento picados y sofreír 10 minutos; incorporar ajo y tomate rallado y reducir 8–10 minutos.\n3. Retirar un instante del fuego, incorporar el pimentón sin quemarlo y agregar chorizo cortado, laurel y unos 500 ml de caldo.\n4. Cocer tapado a fuego suave unos 35–50 minutos, hasta que las carnes estén completamente hechas y tiernas; incorporar oreja comercial cocida durante los últimos 10 minutos si se emplea.\n5. Añadir el arroz y 650–800 ml de caldo caliente (ajustando por el líquido que quede en la cazuela); remover suavemente y cocinar 17–20 minutos según variedad.\n6. Comprobar que la textura queda jugosa, no seca; añadir pequeñas cantidades de caldo caliente durante la cocción si es preciso.\n7. Retirar laurel, comprobar cocción de carne y arroz, ajustar sal y reposar 3 minutos antes de servir.\n\n## Puntos críticos\n\n- Esta formulación doméstica de arroz a la zamorana utiliza distintas piezas del cerdo y pimentón, rasgos que la diferencian de un arroz con costillas genérico.\n- Los embutidos y la oreja deben proceder de establecimientos autorizados; verificar si están precocidos o requieren cocción completa. No salar intensamente antes de añadir chorizo.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Arroz seco | Evaporación elevada | Añadir caldo caliente poco a poco |\n| Costilla dura | Guiso previo insuficiente | Prolongar antes de incorporar arroz |\n| Exceso de sal | Chorizo o caldo salado | Salar al final |\n\n## Conservación\n\nEnfriar rápidamente arroz y carne en recipientes poco profundos, refrigerar a 4 °C o menos y consumir preferiblemente en 24 horas; recalentar completamente una sola vez.\n\n## Relaciones dentro del SGCC\n\n- [Arroz con costillas de cerdo](../01_Arroces/arroz_con_costillas_de_cerdo_y_pimiento.md)\n- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, tiempos, textura y valoración tras la elaboración. Esta propuesta no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "110",
+      "min": "85",
+      "phase": "declared_total",
+      "raw": "85–110 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_a_la_zamorana_con_productos_del_cerdo.html",
+  "id": "REC-556",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de arroz redondo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "costilla fresca de cerdo troceada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de costilla fresca de cerdo troceada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de costilla fresca de cerdo troceada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "magro de cerdo troceado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de magro de cerdo troceado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de magro de cerdo troceado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "oreja de cerdo cocida y apta para consumir caliente, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de oreja de cerdo cocida y apta para consumir caliente, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de oreja de cerdo cocida y apta para consumir caliente, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de chorizo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de chorizo para cocinar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de cebolla",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de pimiento rojo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate rallado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo caliente de carne bajo en sal, ajustable",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1.3",
+        "min": "1.1",
+        "raw": "1,1–1,3 l de caldo caliente de carne bajo en sal, ajustable",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1,1–1,3 l de caldo caliente de carne bajo en sal, ajustable",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_a_la_zamorana_con_productos_del_cerdo.md",
+  "source_sha256": "12214c87b9161bfa4f30999abf25ba0feb181d642c0b49545730812e7029acbb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "Secar costilla y magro y dorar en aceite por tandas dentro de una cazuela amplia; salpimentar moderadamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "Añadir cebolla y pimiento picados y sofreír 10 minutos; incorporar ajo y tomate rallado y reducir 8–10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 3,
+      "text": "Retirar un instante del fuego, incorporar el pimentón sin quemarlo y agregar chorizo cortado, laurel y unos 500 ml de caldo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 4,
+      "text": "Cocer tapado a fuego suave unos 35–50 minutos, hasta que las carnes estén completamente hechas y tiernas; incorporar oreja comercial cocida durante los últimos 10 minutos si se emplea."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 5,
+      "text": "Añadir el arroz y 650–800 ml de caldo caliente (ajustando por el líquido que quede en la cazuela); remover suavemente y cocinar 17–20 minutos según variedad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 6,
+      "text": "Comprobar que la textura queda jugosa, no seca; añadir pequeñas cantidades de caldo caliente durante la cocción si es preciso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 57
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, comprobar cocción de carne y arroz, ajustar sal y reposar 3 minutos antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.html",
+      "label": "Controlar arroz meloso y caldoso",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_path": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md"
+    }
+  ],
+  "title": "Arroz a la zamorana con productos del cerdo",
+  "yield": {
+    "max": "5",
+    "min": "4",
+    "raw": "4–5 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

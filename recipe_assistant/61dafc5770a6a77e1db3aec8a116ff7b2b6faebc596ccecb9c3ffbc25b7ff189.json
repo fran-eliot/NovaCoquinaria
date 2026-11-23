@@ -1,0 +1,170 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 62,
+      "start_line": 13
+    },
+    "text": "\n# Café con leche equilibrado\n\n## Descripción\nCafé con leche de intensidad ajustable, utilizando café preparado por el método disponible.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 1 |\n| Preparación | 5–8 min |\n| Técnica | Extracción y calentamiento |\n\n## Ingredientes\n- 100 ml de café preparado, relativamente intenso;\n- 150 ml de leche;\n- azúcar, opcional.\n\n**Alérgeno:** leche. Contiene cafeína.\n\n## Elaboración\n1. Preparar 100 ml de café con el método habitual, evitando sobreextracción.\n2. Calentar la leche sin dejar que hierva violentamente; espumar si se desea.\n3. Verter café y leche en taza templada.\n4. Probar y ajustar proporción antes de endulzar.\n\n## Variantes\n| Preferencia | Ajuste |\n|---|---|\n| Más intenso | Aumentar café |\n| Más suave | Aumentar leche |\n| Sin lactosa | Utilizar leche sin lactosa |\n| Vegetal | Sustituir por bebida vegetal adecuada |\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Poco sabor a café | Mucha leche | Aumentar café |\n| Amargo | Café sobreextraído | Revisar extracción |\n| Leche con sabor cocido | Calentamiento excesivo | Calentar suavemente |\n\n## Conservación\nConsumir recién preparado. Si se conserva, enfriar rápidamente y refrigerar.\n\n## Relaciones\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café frío](./cafe_frio.md)\n\n## Principio de NovaCoquinaria\n> El equilibrio se ajusta en la taza, partiendo de un café bien extraído."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "8",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5–8 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/cafe_con_leche.html",
+  "id": "REC-0091",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "café preparado, relativamente intenso;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de café preparado, relativamente intenso;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de café preparado, relativamente intenso;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de leche;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, opcional.",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar, opcional.",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/cafe_con_leche.md",
+  "source_sha256": "49359530039eb4c4ddca39e3b0cd2b194a08ec6ea36c8f97a250be0dc9d7ad15",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      },
+      "source_number": 1,
+      "text": "Preparar 100 ml de café con el método habitual, evitando sobreextracción."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      },
+      "source_number": 2,
+      "text": "Calentar la leche sin dejar que hierva violentamente; espumar si se desea."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 3,
+      "text": "Verter café y leche en taza templada."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 4,
+      "text": "Probar y ajustar proporción antes de endulzar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 58,
+        "start_line": 58
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Café con leche equilibrado",
+  "yield": {
+    "max": "1",
+    "min": "1",
+    "raw": "1",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

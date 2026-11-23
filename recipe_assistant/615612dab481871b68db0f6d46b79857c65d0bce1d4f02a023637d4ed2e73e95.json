@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Quesada pasiega de queso fresco y canela\n\n## Origen y contexto\n\n**Región:** Cantabria, Valles Pasiegos. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Tiempo orientativo | 15 min preparación + 35–45 min horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de queso fresco de vaca escurrido, apto para hornear\n- 3 huevos L\n- 170 g de azúcar blanco\n- 70 g de harina de trigo\n- 60 g de mantequilla fundida y templada\n- ralladura fina de medio limón lavado\n- ½ cucharadita de canela molida\n- mantequilla adicional para engrasar\n\n**Alérgenos:** Leche, huevo y gluten (trigo).\n\n## Elaboración\n\n1. Precalentar horno a 185 °C y engrasar un molde rectangular de unos 20 × 25 cm.\n2. Escurrir el queso fresco si tiene suero y desmenuzarlo o triturarlo ligeramente.\n3. Batir huevos y azúcar, añadir mantequilla fundida templada y mezclar.\n4. Incorporar queso fresco, ralladura de limón y canela; mezclar sin buscar una espuma abundante.\n5. Agregar harina tamizada e integrar solo hasta que no queden grumos secos.\n6. Verter en el molde, procurando que la masa no sea demasiado alta, y hornear 35–45 minutos hasta superficie dorada y centro completamente cuajado.\n7. Dejar templar antes de cortar y refrigerar lo que no se consuma enseguida.\n\n## Puntos críticos\n\n- Esta formulación con queso fresco escurrido es una adaptación doméstica de referencia; se busca una quesada baja y cuajada, no una tarta de queso alta.\n- Escurrir el suero del queso antes de preparar la masa. Su humedad afecta directamente al punto de la quesada, pero no justifica cambiar cantidades antes de evaluar una elaboración real.\n- Utilizar el molde de 20 × 25 cm propuesto y comprobar que el centro con huevo esté completamente cuajado; refrigerar las porciones no consumidas después del enfriado inicial.\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Quesada demasiado acuosa | Queso fresco insuficientemente escurrido o cuajado incompleto | Escurrir el suero antes de mezclar y comprobar el centro al terminar el horno |\n| Textura demasiado densa o gomosa | Mezcla trabajada en exceso o variación notable de humedad del queso | Integrar la harina solo hasta desaparecer los grumos secos y registrar la textura del queso utilizado |\n| Superficie dorada y centro líquido | Calor exterior intenso o masa más alta de lo previsto | Mantener una altura moderada en el molde y ajustar el tiempo de horneado según el cuajado real |\n| Aroma de canela o limón dominante | Diferencia de intensidad entre ingredientes | Valorar la primera tanda antes de ajustar los aromáticos en una versión posterior |\n## Conservación\n\nDejar templar la quesada tras el horneado y **refrigerar pronto** las porciones restantes en un recipiente limpio y protegido, por su contenido de queso fresco y huevo. Servir fría o atemperar brevemente la porción destinada al consumo, sin mantener el conjunto a temperatura ambiente durante periodos prolongados. Consumir en un plazo corto de acuerdo con la frescura del queso empleado.\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Tarta de queso al horno](./tarta_de_queso_al_horno.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Quesada pasiega (Spain.info)](https://www.spain.info/es/receta/quesada-pasiega/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "15 min preparación + 35–45 min horneado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/quesada_pasiega_de_queso_fresco_y_canela.html",
+  "id": "REC-429",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "queso fresco de vaca escurrido, apto para hornear",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de queso fresco de vaca escurrido, apto para hornear",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de queso fresco de vaca escurrido, apto para hornear",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar blanco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de azúcar blanco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de azúcar blanco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de harina de trigo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida y templada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de mantequilla fundida y templada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de mantequilla fundida y templada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela molida",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla adicional para engrasar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "mantequilla adicional para engrasar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "mantequilla adicional para engrasar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/quesada_pasiega_de_queso_fresco_y_canela.md",
+  "source_sha256": "5b31c392605ad67908c6ce63627e08988d8820dc5c8ece86a5bc91a45f7f0948",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 185 °C y engrasar un molde rectangular de unos 20 × 25 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrir el queso fresco si tiene suero y desmenuzarlo o triturarlo ligeramente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Batir huevos y azúcar, añadir mantequilla fundida templada y mezclar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar queso fresco, ralladura de limón y canela; mezclar sin buscar una espuma abundante."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Agregar harina tamizada e integrar solo hasta que no queden grumos secos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Verter en el molde, procurando que la masa no sea demasiado alta, y hornear 35–45 minutos hasta superficie dorada y centro completamente cuajado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Dejar templar antes de cortar y refrigerar lo que no se consuma enseguida."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Quesada pasiega de queso fresco y canela",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

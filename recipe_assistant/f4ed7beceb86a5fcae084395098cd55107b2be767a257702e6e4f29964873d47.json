@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Bonito encebollado con vino blanco\n\n## Descripción\n\nElaboración de referencia centrada en **cebolla pochada y cocción corta del pescado**. Se incorpora como propuesta nueva sin experiencia doméstica ni valoración confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Cebolla pochada y cocción corta del pescado |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 500 g de bonito fresco en tacos gruesos, limpio de espinas;\n- 2 cebollas grandes (350 g) en juliana;\n- 2 dientes de ajo;\n- 70 ml de vino blanco;\n- 80 ml de agua o caldo suave;\n- 2 cucharadas de aceite de oliva;\n- 1 hoja de laurel;\n- sal y pimienta negra;\n\n**Alérgenos:** Pescado; revisar caldo.\n\n## Elaboración\n\n1. Secar el bonito y reservarlo refrigerado mientras se prepara la salsa.\n2. Pochar cebolla con aceite y una pizca de sal 15–20 minutos a fuego medio-bajo hasta muy tierna, sin quemarla.\n3. Añadir el ajo picado durante 1 minuto y el vino; reducir unos minutos. Agregar caldo y laurel.\n4. Cocer el fondo 4–5 minutos hasta obtener salsa con cebolla ligada.\n5. Introducir el bonito en tacos y cocinar suavemente por ambas caras hasta que el centro esté completamente cocinado, sin hervir violentamente.\n6. Retirar laurel, probar la salsa y servir inmediatamente.\n\n## Puntos críticos\n\n- El bonito es magro en su zona muscular y se seca al sobrecocer; la cebolla debe estar hecha antes de incorporar el pescado.\n- Mantener el pescado o marisco refrigerado hasta el momento de cocinar. Revisar espinas, limpieza y procedencia, y separar utensilios de crudos y cocinados.\n- Los tiempos son orientativos; comprobar la cocción completa y ajustar a grosor y temperatura de partida.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Bonito seco o fibroso | Pescado incorporado demasiado pronto o cocción excesiva | Pochar y reducir la cebolla primero; introducir el bonito al final y comprobar la cocción completa sin prolongarla innecesariamente |\n| Cebolla todavía firme | Pochado inicial insuficiente | Respetar los 15–20 minutos orientativos antes de agregar vino y pescado |\n| Salsa demasiado reducida o salada | Vino y caldo evaporados en exceso | Ajustar con pequeñas cantidades del agua o caldo previsto y probar antes de salar |\n| Tacos de bonito deshechos | Hervor violento o manipulación brusca | Cocinar suavemente por ambas caras sin remover en exceso |\n\n## Conservación\n\nMantener el bonito fresco refrigerado hasta incorporarlo a la cebolla ya pochada. Servir el plato inmediatamente tras la cocción o enfriar rápidamente las sobras en recipientes poco profundos y conservarlas tapadas **en frigorífico**. Consumir en un plazo corto y recalentar completamente las porciones previstas para servir, procurando no resecar el pescado. El vino de la salsa no convierte esta preparación en una conserva.\n\n## Relaciones dentro del SGCC\n\n- [Pochar cebolla](../00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades realmente usadas, tiempos, resultado y valoración antes de considerar la preparación una receta doméstica probada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bonito_encebollado_con_vino_blanco.html",
+  "id": "REC-0239",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bonito fresco en tacos gruesos, limpio de espinas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de bonito fresco en tacos gruesos, limpio de espinas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de bonito fresco en tacos gruesos, limpio de espinas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollas grandes (350 g) en juliana;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebollas grandes (350 g) en juliana;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebollas grandes (350 g) en juliana;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de vino blanco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de vino blanco;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de agua o caldo suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de agua o caldo suave;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/bonito_encebollado_con_vino_blanco.md",
+  "source_sha256": "50277ec71dfc43fcfcb7692c1b85e8adc4866ac1c962330b5c801c26b4c7a36d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Secar el bonito y reservarlo refrigerado mientras se prepara la salsa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla con aceite y una pizca de sal 15–20 minutos a fuego medio-bajo hasta muy tierna, sin quemarla."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir el ajo picado durante 1 minuto y el vino; reducir unos minutos. Agregar caldo y laurel."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Cocer el fondo 4–5 minutos hasta obtener salsa con cebolla ligada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Introducir el bonito en tacos y cocinar suavemente por ambas caras hasta que el centro esté completamente cocinado, sin hervir violentamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Retirar laurel, probar la salsa y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.html",
+      "label": "Pochar cebolla",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/pochar_y_caramelizar_cebolla.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bonito encebollado con vino blanco",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

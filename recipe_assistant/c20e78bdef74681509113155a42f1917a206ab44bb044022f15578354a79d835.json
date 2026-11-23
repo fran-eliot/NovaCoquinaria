@@ -1,0 +1,288 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Gratén de patata, puerro y nata\n\n## Descripción\n\nPreparación de referencia basada en **laminado fino y horneado lento en lácteo**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Técnica principal | Laminado fino y horneado lento en lácteo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de patatas peladas\n- 220 g de puerro limpio\n- 220 ml de nata para cocinar pasteurizada\n- 180 ml de leche entera\n- 70 g de queso curado rallado\n- 1 diente de ajo\n- 15 g de mantequilla\n- sal, pimienta y una pizca de nuez moscada\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Precalentar horno a 180 °C. Frotar la fuente con ajo cortado y engrasar con mantequilla.\n2. Lavar bien el puerro y cortarlo en rodajas muy finas; cortar las patatas en láminas uniformes de 2–3 mm.\n3. Calentar nata y leche con sal moderada, pimienta y nuez moscada sin llegar a hervir intensamente.\n4. Alternar capas de patata y puerro en fuente de unos 20 × 25 cm y verter la mezcla láctea hasta cubrir casi la última capa.\n5. Cubrir con papel de aluminio apto y hornear 45–55 minutos, hasta que la patata se atraviese fácilmente con cuchillo.\n6. Retirar el aluminio, repartir queso y gratinar otros 12–18 minutos hasta dorar.\n7. Reposar 10 minutos antes de cortar para asentar el líquido.\n\n## Puntos críticos\n\n- La patata cruda laminada necesita tiempo suficiente: el dorado de la superficie no garantiza un centro tierno. Un puerro grueso o con tierra estropea el resultado.\n- Ajustar los tiempos según el grosor, el recipiente y la temperatura real del horno. Verificar la cocción completa, especialmente de pescados y rellenos.\n- Lavar y manipular los ingredientes con higiene, separar utensilios para productos crudos y cocinados y mantener refrigerados los perecederos.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior dorado e interior firme | Temperatura elevada o piezas gruesas | Reducir calor, precocer o prolongar con protección |\n| Relleno acuoso | Verduras o lácteos sin escurrir | Reducir y escurrir antes del montaje |\n| Textura seca | Tiempo prolongado o falta de humedad | Comprobar antes el punto y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos y cerrados. Mantener refrigeradas las preparaciones con quesos frescos y no dejar productos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md)\n- [Pastel de patata y carne al horno](./pastel_de_patata_y_carne_al_horno.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, molde o bandeja, temperatura, duración, textura y valoración. No se modifica ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **laminado fino y horneado lento en lácteo**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/graten_de_patata_puerro_y_nata.html",
+  "id": "REC-383",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas peladas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de patatas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de patatas peladas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro limpio",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de puerro limpio",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de puerro limpio",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para cocinar pasteurizada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 ml de nata para cocinar pasteurizada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "220 ml de nata para cocinar pasteurizada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de leche entera",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "queso curado rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de queso curado rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de queso curado rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de mantequilla",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y una pizca de nuez moscada",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y una pizca de nuez moscada",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal, pimienta y una pizca de nuez moscada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/graten_de_patata_puerro_y_nata.md",
+  "source_sha256": "39f03e9e205158e52b4634c50177b6cf37824fe79b00fa888cb4866fcca6bc04",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 180 °C. Frotar la fuente con ajo cortado y engrasar con mantequilla."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Lavar bien el puerro y cortarlo en rodajas muy finas; cortar las patatas en láminas uniformes de 2–3 mm."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Calentar nata y leche con sal moderada, pimienta y nuez moscada sin llegar a hervir intensamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Alternar capas de patata y puerro en fuente de unos 20 × 25 cm y verter la mezcla láctea hasta cubrir casi la última capa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cubrir con papel de aluminio apto y hornear 45–55 minutos, hasta que la patata se atraviese fácilmente con cuchillo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Retirar el aluminio, repartir queso y gratinar otros 12–18 minutos hasta dorar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Reposar 10 minutos antes de cortar para asentar el líquido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.html",
+      "label": "Gratinar coberturas sin quemar",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md"
+    }
+  ],
+  "title": "Gratén de patata, puerro y nata",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

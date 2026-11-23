@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Coliflor rebozada en sartén\n\n## Descripción\n\nPreparación de referencia para cocina doméstica basada en **precocción y fritura por tandas**. Esta ficha no procede de una elaboración del propietario confirmada; sus cantidades y tiempos son propuestas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Método | Precocción y fritura por tandas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de coliflor en ramilletes;\n- 2 huevos;\n- 90 g de harina de trigo;\n- 70–100 ml de agua fría para ajustar el rebozado;\n- aceite de oliva o cacahuete suficiente para freír sin desbordar la sartén;\n- ½ cucharadita de pimentón dulce;\n- sal al gusto;\n- limón para servir opcional;\n\n**Alérgenos:** Huevo y trigo (gluten).\n\n## Elaboración\n\n1. Lavar y cortar la coliflor en ramilletes similares.\n2. Cocer al vapor 6–9 minutos aproximadamente hasta que esté tierna pero firme; escurrir y secar bien.\n3. Batir huevos y harina con parte del agua, sal y pimentón hasta obtener rebozado que recubra el alimento sin gotear excesivamente.\n4. Calentar aceite en sartén a unos 170–175 °C; pasar ramilletes por el rebozado y freír en tandas pequeñas.\n5. Girar para dorar uniformemente, comprobar rebozado completamente cocinado y escurrir en rejilla. Servir caliente.\n\n## Puntos críticos\n\n- Secar la coliflor evita salpicaduras y rebozado que se despega. Ajustar aceite y número de piezas para mantener temperatura estable.\n- Los tiempos son orientativos: ajustar a tamaño de piezas, equipo, presentación de los ingredientes y punto real de cocción.\n- Mantener higiene, refrigeración adecuada de productos perecederos y separación entre alimentos crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Textura demasiado blanda | Cocción prolongada o exceso de líquido | Reducir tiempo o escurrir mejor en una futura prueba |\n| Sabor poco equilibrado | Condimentos añadidos sin comprobar | Ajustar sal y acidez gradualmente |\n| Superficie demasiado oscura | Temperatura excesiva | Regular el fuego y comprobar el interior |\n\n## Conservación\n\nEnfriar sin demora las sobras perecederas y refrigerarlas en recipientes tapados y poco profundos. No mantener la preparación varias horas a temperatura ambiente. Los platos con huevo, pan remojado u otros ingredientes sensibles requieren especial atención a su conservación. Seguir las instrucciones de los productos utilizados.\n\n## Relaciones dentro del SGCC\n\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Blanquear verduras](../00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md)\n- [Índice de Verduras](./README.md).\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente utilizados, temperatura y tiempos efectivos, resultado y valoración. No considerar esta propuesta una receta doméstica probada hasta registrar la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/coliflor_rebozada_en_sarten.html",
+  "id": "REC-0223",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "coliflor en ramilletes;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de coliflor en ramilletes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de coliflor en ramilletes;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de harina de trigo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría para ajustar el rebozado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "70",
+        "raw": "70–100 ml de agua fría para ajustar el rebozado;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "70–100 ml de agua fría para ajustar el rebozado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva o cacahuete suficiente para freír sin desbordar la sartén;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva o cacahuete suficiente para freír sin desbordar la sartén;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva o cacahuete suficiente para freír sin desbordar la sartén;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "limón para servir opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "limón para servir opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "limón para servir opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/coliflor_rebozada_en_sarten.md",
+  "source_sha256": "01684d12b92ab2291396a4dc644a876a735a0688f8ed6b8973876cc461ca9727",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Lavar y cortar la coliflor en ramilletes similares."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Cocer al vapor 6–9 minutos aproximadamente hasta que esté tierna pero firme; escurrir y secar bien."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Batir huevos y harina con parte del agua, sal y pimentón hasta obtener rebozado que recubra el alimento sin gotear excesivamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar aceite en sartén a unos 170–175 °C; pasar ramilletes por el rebozado y freír en tandas pequeñas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Girar para dorar uniformemente, comprobar rebozado completamente cocinado y escurrir en rejilla. Servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.html",
+      "label": "Blanquear verduras",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md"
+    }
+  ],
+  "title": "Coliflor rebozada en sartén",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

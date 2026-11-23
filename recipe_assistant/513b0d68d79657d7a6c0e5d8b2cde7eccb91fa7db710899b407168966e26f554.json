@@ -1,0 +1,282 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Crema de guisantes partidos con puerro y menta\n\n## Descripción\n\nPreparación de referencia basada en **cocción de legumbre seca partida y triturado**. Las cantidades y los tiempos no se atribuyen a una preparación doméstica y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica principal | Cocción de legumbre seca partida y triturado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de guisantes partidos secos, verdes o amarillos\n- 180 g de puerro limpio en rodajas\n- 120 g de zanahoria en dados\n- 1 diente de ajo\n- 900 ml de agua o caldo vegetal, más lo necesario\n- 2 cucharadas de aceite de oliva\n- 6 hojas pequeñas de menta fresca lavadas, opcionales\n- sal y pimienta\n\n**Alérgenos:** Revisar caldo comercial.\n\n## Elaboración\n\n1. Revisar y enjuagar los guisantes partidos secos; seguir las instrucciones del envase sobre remojo si las hubiera.\n2. Pochar el puerro y la zanahoria en aceite durante 6–8 minutos; añadir ajo brevemente.\n3. Agregar los guisantes escurridos y 900 ml de agua o caldo, llevar a ebullición y bajar a hervor suave.\n4. Cocinar unos 40–60 minutos, o el tiempo indicado por el fabricante, hasta que los guisantes estén totalmente tiernos; añadir líquido caliente si fuera necesario.\n5. Triturar hasta obtener una crema homogénea, rectificar la densidad con caldo caliente y sazonar.\n6. Incorporar menta picada opcional al final, sin hervirla largo tiempo.\n\n## Puntos críticos\n\n- Los guisantes partidos secos no son guisantes verdes frescos ni están precocidos; necesitan cocción completa. Controlar el volumen de agua porque espesan notablemente.\n- Distinguir **legumbre completamente cocida**, **legumbre seca partida** y **harina de legumbre sin cocinar**: los tres productos requieren procedimientos diferentes.\n- Ajustar los tiempos a la variedad, grosor, equipo y temperatura real. Mantener higiene y refrigeración de ingredientes perecederos.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Guisantes aún duros tras el tiempo previsto | Variedad seca o cocción insuficiente | Seguir las instrucciones del envase y prolongar el hervor suave hasta que estén completamente tiernos antes de triturar |\n| Crema demasiado espesa | La legumbre partida ha absorbido gran parte de los 900 ml iniciales | Incorporar gradualmente líquido caliente y registrar el volumen final para una próxima prueba |\n| Crema demasiado líquida | Exceso de caldo añadido antes del triturado | Reducir suavemente antes de ajustar la densidad, sin intentar escurrir una crema ya preparada |\n| Aroma de menta apagado | Hojas añadidas demasiado pronto y hervidas en exceso | Incorporar la menta opcional al final, como indica la preparación |\n\n## Conservación\n\nEnfriar sin demoras las sobras de crema de **legumbre cocida**, en porciones poco profundas, y refrigerar tapadas. La crema espesa al enfriarse: al recalentar completamente la porción destinada al consumo, ajustar con un poco de agua o caldo si fuera necesario. No dejar la crema a temperatura ambiente durante periodos prolongados y consumir en un plazo corto.\n\n## Relaciones dentro del SGCC\n\n- [Crema de lentejas rojas, zanahoria y jengibre](./crema_lentejas_rojas_zanahoria_jengibre.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, técnica, temperatura, tiempo, textura y valoración. No sustituye ni modifica versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/crema_de_guisantes_partidos_con_puerro_y_menta.html",
+  "id": "REC-337",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "guisantes partidos secos, verdes o amarillos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de guisantes partidos secos, verdes o amarillos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de guisantes partidos secos, verdes o amarillos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro limpio en rodajas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de puerro limpio en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de puerro limpio en rodajas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de zanahoria en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de zanahoria en dados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal, más lo necesario",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 ml de agua o caldo vegetal, más lo necesario",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "900 ml de agua o caldo vegetal, más lo necesario",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeñas de menta fresca lavadas, opcionales",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 hojas pequeñas de menta fresca lavadas, opcionales",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "6 hojas pequeñas de menta fresca lavadas, opcionales",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/crema_de_guisantes_partidos_con_puerro_y_menta.md",
+  "source_sha256": "4b4094ecfac67f3416f494a56655981214869f70f9767b43f6a2b784df98bb1b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Revisar y enjuagar los guisantes partidos secos; seguir las instrucciones del envase sobre remojo si las hubiera."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar el puerro y la zanahoria en aceite durante 6–8 minutos; añadir ajo brevemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Agregar los guisantes escurridos y 900 ml de agua o caldo, llevar a ebullición y bajar a hervor suave."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Cocinar unos 40–60 minutos, o el tiempo indicado por el fabricante, hasta que los guisantes estén totalmente tiernos; añadir líquido caliente si fuera necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Triturar hasta obtener una crema homogénea, rectificar la densidad con caldo caliente y sazonar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Incorporar menta picada opcional al final, sin hervirla largo tiempo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Crema de guisantes partidos con puerro y menta",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

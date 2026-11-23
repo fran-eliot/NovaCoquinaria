@@ -1,0 +1,275 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Nevaditos castellanos de manteca y vino blanco\n\n## Origen y contexto\n\n**Región:** Repostería tradicional castellana. Formulación doméstica de referencia con los rasgos característicos de esta especialidad regional. No se declara como versión única, ni como receta ya probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 22–26 unidades |\n| Tiempo orientativo | 35–45 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de harina de trigo común\n- 200 g de manteca de cerdo a temperatura ambiente\n- 100 ml de vino blanco seco\n- 35 g de azúcar para la masa, opcional\n- 1 pizca de sal\n- 100 g de azúcar glas para espolvorear abundantemente\n\n**Alérgenos:** Gluten (trigo); verificar la manteca comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y preparar una bandeja con papel de horno.\n2. Mezclar la manteca blanda con el vino blanco y azúcar opcional hasta homogeneizar parcialmente.\n3. Incorporar harina tamizada y sal; mezclar y amasar solo hasta formar una masa uniforme, sin trabajarla en exceso.\n4. Reposar la masa 15–20 minutos en frío si está demasiado blanda para estirarla.\n5. Extender entre papeles a un grosor de 1,5–2 cm y cortar cuadrados o círculos pequeños; colocarlos separados en la bandeja.\n6. Hornear aproximadamente 20–27 minutos, según grosor, hasta que las piezas estén cocidas, firmes y ligeramente doradas en la base, sin tostarlas en exceso.\n7. Enfriar completamente sobre rejilla antes de espolvorear azúcar glas abundante para conseguir la cobertura blanca característica.\n8. Guardar en recipiente seco y cerrado, comprobando que no retengan calor ni humedad.\n\n## Puntos críticos\n\n- Mantener el grosor propuesto de 1,5–2 cm: la textura hojaldrada corta procede de la manteca y de una mezcla breve, no de un hojaldre laminado.\n- Trabajar la masa solo hasta integrar y refrigerarla brevemente si está demasiado blanda para cortar; el centro debe estar completamente cocido.\n- Espolvorear el azúcar glas **cuando estén fríos** para evitar que se humedezca. El vino blanco de la fórmula puede dejar alcohol residual.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Nevaditos duros o compactos | Amasado prolongado o piezas demasiado finas | Mezclar solo hasta integrar y mantener el grosor de referencia |\n| Centro poco cocido con base dorada | Piezas demasiado gruesas o tiempo insuficiente | Comprobar el centro y ajustar el horneado con incrementos cortos |\n| Piezas que pierden la forma antes de entrar al horno | Masa demasiado templada o blanda | Aplicar el reposo frío orientativo de 15–20 minutos si hace falta |\n| Azúcar glas que se disuelve al cubrir | Piezas todavía calientes o con humedad superficial | Enfriar completamente sobre rejilla antes de espolvorear |\n\n## Conservación\n\nDejar enfriar totalmente los nevaditos y guardarlos en un recipiente limpio, seco y bien cerrado para mantener su textura y el acabado de azúcar glas. Conservarlos en lugar fresco y alejado de la humedad durante un periodo breve acorde con los ingredientes empleados, verificando su estado antes de servir. No aplicar indicaciones de refrigeración y recalentado de carne o marisco a estos dulces secos.\n\n## Relaciones dentro del SGCC\n\n- [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los productos realmente utilizados, pesos, tiempos, temperaturas, textura y valoración personal. No se sustituyen versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 minutos más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/nevaditos_castellanos_de_manteca_y_vino_blanco.html",
+  "id": "REC-501",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo a temperatura ambiente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de manteca de cerdo a temperatura ambiente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de manteca de cerdo a temperatura ambiente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la masa, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de azúcar para la masa, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de azúcar para la masa, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para espolvorear abundantemente",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar glas para espolvorear abundantemente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar glas para espolvorear abundantemente",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/nevaditos_castellanos_de_manteca_y_vino_blanco.md",
+  "source_sha256": "d4968d690af74b5b246e5faf91e1cc5a42021f0885598ecb7ebd1ebe5991cfc2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y preparar una bandeja con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Mezclar la manteca blanda con el vino blanco y azúcar opcional hasta homogeneizar parcialmente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Incorporar harina tamizada y sal; mezclar y amasar solo hasta formar una masa uniforme, sin trabajarla en exceso."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Reposar la masa 15–20 minutos en frío si está demasiado blanda para estirarla."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Extender entre papeles a un grosor de 1,5–2 cm y cortar cuadrados o círculos pequeños; colocarlos separados en la bandeja."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear aproximadamente 20–27 minutos, según grosor, hasta que las piezas estén cocidas, firmes y ligeramente doradas en la base, sin tostarlas en exceso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Enfriar completamente sobre rejilla antes de espolvorear azúcar glas abundante para conseguir la cobertura blanca característica."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 8,
+      "text": "Guardar en recipiente seco y cerrado, comprobando que no retengan calor ni humedad."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Nevaditos castellanos de manteca y vino blanco",
+  "yield": {
+    "max": "26",
+    "min": "22",
+    "raw": "22–26 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

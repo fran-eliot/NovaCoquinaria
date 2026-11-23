@@ -1,0 +1,3380 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de Gestión del Conocimiento Culinario">
+      
+      
+        <meta name="author" content="Fran Ramírez">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>ESPECIFICACIÓN DEL MODELO DOCUMENTAL - NovaCoquinaria</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#especificacion-del-modelo-documental" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../../index.html" title="NovaCoquinaria" class="md-header__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NovaCoquinaria
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ESPECIFICACIÓN DEL MODELO DOCUMENTAL
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../index.html" title="NovaCoquinaria" class="md-nav__button md-logo" aria-label="NovaCoquinaria" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    NovaCoquinaria
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fran-eliot/NovaCoquinaria" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    NovaCoquinaria
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../MANIFESTO.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifiesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CHANGELOG.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CONTRIBUTING.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../QUALITY.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arquitectura
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../VISION.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visión
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ARQUITECTURA.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ROADMAP.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/01_Fundamentos/mise_en_place.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mise en place
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/saltear.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Saltear
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/sofreir.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sofreír
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Bases/03_Tecnicas/wok.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wok
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tablas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tablas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/01_Cocciones/tiempos_coccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiempos de cocción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/02_Hornos/temperaturas_horno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Temperaturas de horno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/03_Conversiones/conversiones_unidades.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conversiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/04_Conservacion/conservacion_congelacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conservación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/05_Seguridad/seguridad_alimentaria.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seguridad alimentaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Tablas/06_Sustituciones/sustituciones_ingredientes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sustituciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroces
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arroces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_chaufa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz Chaufa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_higadillos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz con higadillos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Arroces/arroz_caldoso_alcachofas_marisco.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arroz caldoso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verduras
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verduras
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/brocoli.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brócoli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/champi%C3%B1ones_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/champi%C3%B1ones_sichuan.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Champiñones Sichuan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Verduras/habas_jamon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Habas con jamón
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carnes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Carnes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/lomo_asiatico.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lomo asiático
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/ternera_bambu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con bambú
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/ternera_salsa_ostras.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ternera con salsa de ostras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/hamburguesa_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/hamburguesa_especiada.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hamburguesa especiada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Carnes/medallones_solomillo_asiaticos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medallones asiáticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pescados y mariscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pescados y mariscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/caballa_japonesa.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caballa japonesa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/gambas_ajillo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gambas al ajillo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Pescados_y_Mariscos/tintorera_asiatica.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tintorera asiática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="especificacion-del-modelo-documental">ESPECIFICACIÓN DEL MODELO DOCUMENTAL<a class="headerlink" href="#especificacion-del-modelo-documental" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Proyecto:</strong> NovaCoquinaria<br />
+<strong>Release:</strong> v1.4 – Knowledge Governance<br />
+<strong>Sistema:</strong> GASTRO – Sistema de Gestión del Conocimiento Culinario (SGCC)<br />
+<strong>Especificación:</strong> v3.0.0</p>
+</blockquote>
+<hr />
+<h1 id="objetivo">Objetivo<a class="headerlink" href="#objetivo" title="Permanent link">&para;</a></h1>
+<p>Este documento define el <strong>modelo documental oficial</strong> del Sistema de Gestión del Conocimiento Culinario (SGCC).</p>
+<p>Su finalidad es establecer las normas que regulan cómo se representan, identifican, estructuran, relacionan y evolucionan los documentos que forman parte del conocimiento gestionado por el sistema.</p>
+<p>Esta especificación constituye el contrato normativo que deberán respetar:</p>
+<ul>
+<li>los colaboradores del proyecto;</li>
+<li>las herramientas de automatización;</li>
+<li>las aplicaciones consumidoras del conocimiento;</li>
+<li>los asistentes basados en inteligencia artificial;</li>
+<li>cualquier sistema que interactúe con el SGCC.</li>
+</ul>
+<p>Todo documento integrado en NovaCoquinaria deberá ser compatible con esta especificación.</p>
+<hr />
+<h1 id="alcance">Alcance<a class="headerlink" href="#alcance" title="Permanent link">&para;</a></h1>
+<p>Esta especificación define:</p>
+<ul>
+<li>el modelo documental del SGCC;</li>
+<li>los principios que gobiernan la documentación;</li>
+<li>la taxonomía documental;</li>
+<li>el modelo de metadatos;</li>
+<li>las reglas de identificación;</li>
+<li>la estructura general de los documentos;</li>
+<li>las relaciones entre documentos;</li>
+<li>el ciclo de vida documental;</li>
+<li>los criterios de validación;</li>
+<li>las condiciones de conformidad.</li>
+</ul>
+<p>No forma parte del alcance de este documento:</p>
+<ul>
+<li>las normas editoriales;</li>
+<li>los criterios de redacción;</li>
+<li>el contenido culinario;</li>
+<li>las decisiones arquitectónicas particulares.</li>
+</ul>
+<p>Estos aspectos se documentan en sus respectivas especificaciones o documentos de referencia.</p>
+<hr />
+<h1 id="definiciones">Definiciones<a class="headerlink" href="#definiciones" title="Permanent link">&para;</a></h1>
+<p>Esta sección establece el vocabulario oficial utilizado por el Sistema de Gestión del Conocimiento Culinario (SGCC).</p>
+<p>Las definiciones aquí descritas constituyen la referencia para el resto de especificaciones del proyecto.</p>
+<hr />
+<h2 id="activo-de-conocimiento">Activo de conocimiento<a class="headerlink" href="#activo-de-conocimiento" title="Permanent link">&para;</a></h2>
+<p>Entidad capaz de representar conocimiento reutilizable dentro del SGCC.</p>
+<p>Un activo de conocimiento puede materializarse mediante uno o varios documentos y mantiene su identidad independientemente de su representación física.</p>
+<p>Ejemplos de activos de conocimiento:</p>
+<ul>
+<li>una receta;</li>
+<li>un ingrediente;</li>
+<li>una técnica culinaria;</li>
+<li>una plantilla;</li>
+<li>una tabla de referencia;</li>
+<li>una decisión arquitectónica.</li>
+</ul>
+<hr />
+<h2 id="documento">Documento<a class="headerlink" href="#documento" title="Permanent link">&para;</a></h2>
+<p>Unidad mínima de conocimiento persistente gestionada por el SGCC.</p>
+<p>Cada documento representa un único activo de conocimiento o una parte claramente delimitada de este.</p>
+<p>Todo documento posee:</p>
+<ul>
+<li>una responsabilidad definida;</li>
+<li>un identificador permanente;</li>
+<li>un conjunto de metadatos canónicos;</li>
+<li>contenido estructurado;</li>
+<li>relaciones explícitas con otros documentos cuando resulte necesario.</li>
+</ul>
+<hr />
+<h2 id="tipo-documental">Tipo documental<a class="headerlink" href="#tipo-documental" title="Permanent link">&para;</a></h2>
+<p>Clasificación funcional que determina el propósito de un documento dentro del sistema.</p>
+<p>El tipo documental define:</p>
+<ul>
+<li>su responsabilidad;</li>
+<li>su estructura recomendada;</li>
+<li>sus relaciones habituales;</li>
+<li>su papel dentro del modelo de conocimiento.</li>
+</ul>
+<hr />
+<h2 id="front-matter">Front Matter<a class="headerlink" href="#front-matter" title="Permanent link">&para;</a></h2>
+<p>Bloque YAML situado al comienzo del documento que contiene los metadatos oficiales utilizados por las herramientas del proyecto.</p>
+<p>El Front Matter constituye la fuente canónica de información estructural del documento.</p>
+<hr />
+<h2 id="identificador">Identificador<a class="headerlink" href="#identificador" title="Permanent link">&para;</a></h2>
+<p>Clave única, permanente e inmutable que identifica un documento.</p>
+<p>El identificador permanece estable durante toda la vida del documento, independientemente de:</p>
+<ul>
+<li>su nombre;</li>
+<li>su ubicación;</li>
+<li>la organización física del repositorio;</li>
+<li>la evolución de la arquitectura del proyecto.</li>
+</ul>
+<hr />
+<h2 id="relacion-documental">Relación documental<a class="headerlink" href="#relacion-documental" title="Permanent link">&para;</a></h2>
+<p>Vínculo explícito entre dos o más activos de conocimiento.</p>
+<p>Las relaciones forman parte del modelo lógico del SGCC y no dependen de la organización física de los archivos.</p>
+<hr />
+<h2 id="repositorio">Repositorio<a class="headerlink" href="#repositorio" title="Permanent link">&para;</a></h2>
+<p>Representación física del conjunto de documentos que implementan el modelo de conocimiento.</p>
+<p>El repositorio constituye únicamente un mecanismo de almacenamiento y organización.</p>
+<p>No define el conocimiento.</p>
+<hr />
+<h2 id="modelo-documental">Modelo documental<a class="headerlink" href="#modelo-documental" title="Permanent link">&para;</a></h2>
+<p>Conjunto de normas que describen cómo deben estructurarse, identificarse y relacionarse los documentos del SGCC.</p>
+<p>El modelo documental garantiza la coherencia del conocimiento y permite su evolución sostenible.</p>
+<hr />
+<h1 id="principios-del-modelo-documental">Principios del modelo documental<a class="headerlink" href="#principios-del-modelo-documental" title="Permanent link">&para;</a></h1>
+<p>Todo documento integrado en el SGCC deberá respetar los principios descritos en esta sección.</p>
+<p>Estos principios constituyen las reglas fundamentales que gobiernan la evolución del conocimiento del proyecto.</p>
+<hr />
+<h2 id="responsabilidad-unica">Responsabilidad única<a class="headerlink" href="#responsabilidad-unica" title="Permanent link">&para;</a></h2>
+<p>Cada documento responderá a una única necesidad principal.</p>
+<p>Un documento no deberá asumir responsabilidades pertenecientes a otros tipos documentales.</p>
+<p>Esta separación favorece la claridad, la reutilización y la mantenibilidad del conocimiento.</p>
+<hr />
+<h2 id="reutilizacion">Reutilización<a class="headerlink" href="#reutilizacion" title="Permanent link">&para;</a></h2>
+<p>El conocimiento deberá escribirse una única vez.</p>
+<p>Cuando un concepto ya exista en otro documento, este deberá reutilizarse mediante referencias explícitas en lugar de duplicar información.</p>
+<hr />
+<h2 id="independencia">Independencia<a class="headerlink" href="#independencia" title="Permanent link">&para;</a></h2>
+<p>Cada documento deberá poder evolucionar de forma autónoma.</p>
+<p>La modificación de un documento no deberá requerir cambios innecesarios en otros documentos salvo cuando exista una dependencia explícita.</p>
+<hr />
+<h2 id="persistencia">Persistencia<a class="headerlink" href="#persistencia" title="Permanent link">&para;</a></h2>
+<p>La identidad de un documento deberá mantenerse durante todo su ciclo de vida.</p>
+<p>Los cambios de ubicación, nombre o estructura del repositorio nunca justificarán la modificación de su identificador.</p>
+<hr />
+<h2 id="trazabilidad">Trazabilidad<a class="headerlink" href="#trazabilidad" title="Permanent link">&para;</a></h2>
+<p>Todo documento deberá poder identificarse de forma inequívoca.</p>
+<p>Su evolución deberá poder reconstruirse mediante:</p>
+<ul>
+<li>su identificador;</li>
+<li>su historial;</li>
+<li>sus relaciones;</li>
+<li>su versionado.</li>
+</ul>
+<hr />
+<h2 id="conectividad">Conectividad<a class="headerlink" href="#conectividad" title="Permanent link">&para;</a></h2>
+<p>Los documentos podrán establecer relaciones explícitas con otros activos del conocimiento.</p>
+<p>Estas relaciones deberán facilitar la navegación, la reutilización y la comprensión del sistema.</p>
+<hr />
+<h2 id="automatizacion">Automatización<a class="headerlink" href="#automatizacion" title="Permanent link">&para;</a></h2>
+<p>Toda la información estructural necesaria para interpretar un documento deberá poder procesarse automáticamente.</p>
+<p>Este principio permite el desarrollo de:</p>
+<ul>
+<li>herramientas de validación;</li>
+<li>sistemas de publicación;</li>
+<li>asistentes inteligentes;</li>
+<li>motores de búsqueda;</li>
+<li>grafos de conocimiento;</li>
+<li>procesos automáticos de mantenimiento.</li>
+</ul>
+<hr />
+<h2 id="evolucion-sostenible">Evolución sostenible<a class="headerlink" href="#evolucion-sostenible" title="Permanent link">&para;</a></h2>
+<p>El modelo documental deberá favorecer la incorporación continua de nuevo conocimiento sin comprometer la coherencia del sistema.</p>
+<p>Toda evolución deberá preservar, siempre que resulte posible:</p>
+<ul>
+<li>la compatibilidad;</li>
+<li>la reutilización;</li>
+<li>la estabilidad de los identificadores;</li>
+<li>la calidad del conocimiento existente.</li>
+</ul>
+<hr />
+<h1 id="taxonomia-documental">Taxonomía documental<a class="headerlink" href="#taxonomia-documental" title="Permanent link">&para;</a></h1>
+<p>El SGCC organiza sus documentos mediante una taxonomía funcional.</p>
+<p>Cada familia documental responde a una responsabilidad claramente diferenciada y ocupa un papel específico dentro de la arquitectura del conocimiento.</p>
+<p>La clasificación documental no depende de la organización física del repositorio.</p>
+<hr />
+<h2 id="documentacion-estrategica">Documentación estratégica<a class="headerlink" href="#documentacion-estrategica" title="Permanent link">&para;</a></h2>
+<p>Define la identidad del proyecto y establece su propósito, visión y principios fundamentales.</p>
+<p>Incluye documentos como:</p>
+<ul>
+<li>VISION</li>
+<li>MANIFESTO</li>
+<li>NovaCoquinaria</li>
+</ul>
+<p>Su finalidad consiste en responder a la pregunta:</p>
+<blockquote>
+<p>¿Por qué existe el proyecto?</p>
+</blockquote>
+<hr />
+<h2 id="arquitectura">Arquitectura<a class="headerlink" href="#arquitectura" title="Permanent link">&para;</a></h2>
+<p>Describe el diseño conceptual y estructural del SGCC.</p>
+<p>Incluye documentos como:</p>
+<ul>
+<li>ARQUITECTURA</li>
+<li>MODELO_DE_CONOCIMIENTO</li>
+<li>AUTOMATION</li>
+<li>TOOLS_FRAMEWORK</li>
+</ul>
+<p>Su finalidad consiste en responder a la pregunta:</p>
+<blockquote>
+<p>¿Cómo está diseñado el sistema?</p>
+</blockquote>
+<hr />
+<h2 id="gobernanza">Gobernanza<a class="headerlink" href="#gobernanza" title="Permanent link">&para;</a></h2>
+<p>Define las normas que regulan la evolución del conocimiento y la toma de decisiones arquitectónicas.</p>
+<p>Incluye:</p>
+<ul>
+<li>Architecture Decision Records (ADR);</li>
+<li>QUALITY;</li>
+<li>KNOWLEDGE_DEBT;</li>
+<li>KNOWLEDGE_MATURITY;</li>
+<li>KNOWLEDGE_STRATEGY;</li>
+<li>GOBERNANCE_MODEL.</li>
+</ul>
+<p>Su finalidad consiste en responder a la pregunta:</p>
+<blockquote>
+<p>¿Cómo evoluciona el sistema?</p>
+</blockquote>
+<hr />
+<h2 id="gestion">Gestión<a class="headerlink" href="#gestion" title="Permanent link">&para;</a></h2>
+<p>Documenta el estado operativo del proyecto y su planificación.</p>
+<p>Incluye:</p>
+<ul>
+<li>ROADMAP;</li>
+<li>PROJECT_STATUS;</li>
+<li>BITÁCORA;</li>
+<li>DEVELOPMENT_WORKFLOW;</li>
+<li>PROJECT_ONBOARDING.</li>
+</ul>
+<p>Su finalidad consiste en responder a la pregunta:</p>
+<blockquote>
+<p>¿Cuál es la situación actual del proyecto y cómo debe gestionarse?</p>
+</blockquote>
+<hr />
+<h2 id="especificaciones">Especificaciones<a class="headerlink" href="#especificaciones" title="Permanent link">&para;</a></h2>
+<p>Definen contratos técnicos y modelos formales utilizados por el SGCC.</p>
+<p>Incluyen documentos como:</p>
+<ul>
+<li>ESPECIFICACION_DE_DOCUMENTOS;</li>
+<li>ESPECIFICACION_DE_COLECCIONES;</li>
+<li>futuras especificaciones del modelo de conocimiento.</li>
+</ul>
+<p>Estas especificaciones poseen carácter normativo y constituyen la referencia oficial para el diseño y validación del sistema.</p>
+<hr />
+<h2 id="conocimiento-culinario">Conocimiento culinario<a class="headerlink" href="#conocimiento-culinario" title="Permanent link">&para;</a></h2>
+<p>Representa el dominio funcional gestionado por NovaCoquinaria.</p>
+<p>Incluye:</p>
+<ul>
+<li>bases culinarias;</li>
+<li>técnicas;</li>
+<li>ingredientes;</li>
+<li>recetas;</li>
+<li>plantillas;</li>
+<li>tablas;</li>
+<li>cualquier otro activo culinario reutilizable.</li>
+</ul>
+<p>Su finalidad consiste en representar el conocimiento culinario del sistema de forma estructurada y reutilizable.</p>
+<hr />
+<h2 id="recursos-auxiliares">Recursos auxiliares<a class="headerlink" href="#recursos-auxiliares" title="Permanent link">&para;</a></h2>
+<p>Incluyen aquellos documentos que apoyan el funcionamiento del proyecto sin formar parte del conocimiento principal.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>plantillas de documentación;</li>
+<li>recursos gráficos;</li>
+<li>documentación generada automáticamente;</li>
+<li>materiales de apoyo.</li>
+</ul>
+<p>Estos documentos facilitan el mantenimiento y evolución del proyecto, pero no constituyen activos de conocimiento del dominio culinario.</p>
+<hr />
+<h1 id="modelo-documental_1">Modelo documental<a class="headerlink" href="#modelo-documental_1" title="Permanent link">&para;</a></h1>
+<p>El modelo documental define la estructura conceptual común a todos los documentos gestionados por el SGCC.</p>
+<p>Cada documento representa una manifestación persistente de un activo de conocimiento y combina información estructural, contenido y relaciones.</p>
+<div class="highlight"><pre><span></span><code>Activo de conocimiento
+        │
+        ▼
+Documento
+        │
+        ├── Metadatos
+        ├── Contenido
+        └── Relaciones
+                │
+                ▼
+        Knowledge Graph
+</code></pre></div>
+<p>El modelo documental es independiente del formato físico utilizado para almacenar o publicar el conocimiento.</p>
+<p>En la implementación actual, los documentos se representan principalmente mediante archivos Markdown con Front Matter YAML.</p>
+<p>Esta representación podrá evolucionar en el futuro sin alterar la identidad ni el significado lógico de los activos de conocimiento.</p>
+<hr />
+<h2 id="componentes-de-un-documento">Componentes de un documento<a class="headerlink" href="#componentes-de-un-documento" title="Permanent link">&para;</a></h2>
+<p>Todo documento del SGCC se compone, conceptualmente, de los siguientes elementos:</p>
+<ul>
+<li>identidad;</li>
+<li>tipo documental;</li>
+<li>metadatos;</li>
+<li>contenido;</li>
+<li>relaciones;</li>
+<li>estado;</li>
+<li>versión.</li>
+</ul>
+<p>Estos componentes podrán expresarse de forma explícita o derivarse mediante las herramientas del sistema.</p>
+<hr />
+<h2 id="identidad">Identidad<a class="headerlink" href="#identidad" title="Permanent link">&para;</a></h2>
+<p>La identidad permite reconocer un documento de forma inequívoca durante todo su ciclo de vida.</p>
+<p>Se materializa mediante un identificador permanente y no depende de:</p>
+<ul>
+<li>la ruta del archivo;</li>
+<li>el nombre del documento;</li>
+<li>su posición dentro del repositorio;</li>
+<li>el sistema utilizado para publicarlo.</li>
+</ul>
+<hr />
+<h2 id="metadatos">Metadatos<a class="headerlink" href="#metadatos" title="Permanent link">&para;</a></h2>
+<p>Los metadatos describen las propiedades estructurales del documento.</p>
+<p>Permiten:</p>
+<ul>
+<li>identificarlo;</li>
+<li>clasificarlo;</li>
+<li>conocer su versión;</li>
+<li>determinar su estado;</li>
+<li>automatizar su validación;</li>
+<li>integrarlo en sistemas externos.</li>
+</ul>
+<p>Los metadatos canónicos se expresan mediante Front Matter YAML.</p>
+<hr />
+<h2 id="contenido">Contenido<a class="headerlink" href="#contenido" title="Permanent link">&para;</a></h2>
+<p>El contenido representa el conocimiento desarrollado por el documento.</p>
+<p>Deberá ajustarse a:</p>
+<ul>
+<li>la responsabilidad del tipo documental;</li>
+<li>la Guía de Estilo;</li>
+<li>las especificaciones aplicables;</li>
+<li>los principios del modelo de conocimiento.</li>
+</ul>
+<p>El contenido no deberá duplicar conocimiento que ya exista en otro documento cuando pueda reutilizarse mediante una relación explícita.</p>
+<hr />
+<h2 id="relaciones">Relaciones<a class="headerlink" href="#relaciones" title="Permanent link">&para;</a></h2>
+<p>Las relaciones conectan el documento con otros activos de conocimiento.</p>
+<p>Permiten representar dependencias, reutilización, complementariedad, evolución o sustitución.</p>
+<p>Las relaciones forman parte del modelo lógico del SGCC y podrán utilizarse para construir el Knowledge Graph.</p>
+<hr />
+<h1 id="modelo-de-metadatos">Modelo de metadatos<a class="headerlink" href="#modelo-de-metadatos" title="Permanent link">&para;</a></h1>
+<p>Todo documento sujeto a esta especificación deberá comenzar con un bloque Front Matter YAML válido.</p>
+<p>El Front Matter constituye la fuente canónica de información estructural del documento.</p>
+<p>Deberá situarse al comienzo del archivo, sin contenido previo, y estar delimitado mediante tres guiones.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nn">---</span>
+<span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DOC-0019</span>
+<span class="nt">tipo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">especificacion</span>
+<span class="nt">titulo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Especificación del Modelo Documental</span>
+<span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3.0.0</span>
+<span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">estable</span>
+<span class="nt">ultima_revision</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2026-07-30</span>
+<span class="nn">---</span>
+</code></pre></div>
+<hr />
+<h2 id="campos-obligatorios">Campos obligatorios<a class="headerlink" href="#campos-obligatorios" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Formato</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>cadena</td>
+<td><code>PREFIJO-NNNN</code></td>
+<td>Identificador permanente y único</td>
+</tr>
+<tr>
+<td><code>tipo</code></td>
+<td>cadena controlada</td>
+<td>minúsculas</td>
+<td>Tipo funcional del documento</td>
+</tr>
+<tr>
+<td><code>titulo</code></td>
+<td>cadena</td>
+<td>texto no vacío</td>
+<td>Título oficial del documento</td>
+</tr>
+<tr>
+<td><code>version</code></td>
+<td>cadena</td>
+<td>SemVer</td>
+<td>Versión documental</td>
+</tr>
+<tr>
+<td><code>ultima_revision</code></td>
+<td>fecha</td>
+<td><code>AAAA-MM-DD</code></td>
+<td>Fecha de la última revisión significativa</td>
+</tr>
+</tbody>
+</table>
+<p>Todos los campos obligatorios deberán contener un valor válido.</p>
+<p>No se permiten campos obligatorios vacíos.</p>
+<hr />
+<h2 id="campo-id">Campo <code>id</code><a class="headerlink" href="#campo-id" title="Permanent link">&para;</a></h2>
+<p>Identifica permanentemente el documento.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REC-0017</span>
+</code></pre></div>
+<p>Reglas:</p>
+<ul>
+<li>deberá ser único en el conjunto documental canónico;</li>
+<li>no podrá estar vacío;</li>
+<li>deberá respetar el prefijo asignado a su familia documental;</li>
+<li>no podrá reutilizarse tras la retirada de un documento;</li>
+<li>no cambiará por movimientos o renombrados.</li>
+</ul>
+<hr />
+<h2 id="campo-tipo">Campo <code>tipo</code><a class="headerlink" href="#campo-tipo" title="Permanent link">&para;</a></h2>
+<p>Declara la clasificación funcional del documento.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">tipo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">especificacion</span>
+</code></pre></div>
+<p>El valor deberá pertenecer al vocabulario controlado del SGCC.</p>
+<p>Valores habituales:</p>
+<div class="highlight"><pre><span></span><code>arquitectura
+base
+especificacion
+gestion
+gobernanza
+ingrediente
+nota
+plantilla
+receta
+tabla
+tecnica
+</code></pre></div>
+<p>La ampliación del vocabulario deberá documentarse y mantener compatibilidad con las herramientas existentes.</p>
+<hr />
+<h2 id="campo-titulo">Campo <code>titulo</code><a class="headerlink" href="#campo-titulo" title="Permanent link">&para;</a></h2>
+<p>Contiene el nombre oficial y legible del documento.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">titulo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Especificación del Modelo Documental</span>
+</code></pre></div>
+<p>El título deberá:</p>
+<ul>
+<li>describir con claridad la responsabilidad del documento;</li>
+<li>coincidir conceptualmente con el encabezado principal;</li>
+<li>evitar abreviaturas ambiguas;</li>
+<li>mantenerse estable siempre que no cambie la identidad conceptual del documento.</li>
+</ul>
+<hr />
+<h2 id="campo-version">Campo <code>version</code><a class="headerlink" href="#campo-version" title="Permanent link">&para;</a></h2>
+<p>Representa la versión independiente del documento.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3.0.0</span>
+</code></pre></div>
+<p>El versionado documental deberá seguir el esquema SemVer:</p>
+<div class="highlight"><pre><span></span><code>MAYOR.MENOR.PARCHE
+</code></pre></div>
+<p>Donde:</p>
+<ul>
+<li><code>MAYOR</code> indica cambios incompatibles o una redefinición sustancial del contrato;</li>
+<li><code>MENOR</code> indica ampliaciones compatibles;</li>
+<li><code>PARCHE</code> indica correcciones menores sin impacto semántico significativo.</li>
+</ul>
+<p>La versión documental es independiente de la release general de NovaCoquinaria.</p>
+<hr />
+<h2 id="campo-ultima_revision">Campo <code>ultima_revision</code><a class="headerlink" href="#campo-ultima_revision" title="Permanent link">&para;</a></h2>
+<p>Indica la fecha de la última modificación significativa del documento.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">ultima_revision</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2026-07-30</span>
+</code></pre></div>
+<p>Deberá utilizar el formato ISO 8601:</p>
+<div class="highlight"><pre><span></span><code>AAAA-MM-DD
+</code></pre></div>
+<p>No será necesario modificarla por cambios puramente mecánicos que no alteren el contenido ni la estructura del documento.</p>
+<hr />
+<h2 id="campos-opcionales">Campos opcionales<a class="headerlink" href="#campos-opcionales" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Finalidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>estado</code></td>
+<td>cadena controlada</td>
+<td>Indicar el estado del ciclo de vida</td>
+</tr>
+<tr>
+<td><code>autor</code></td>
+<td>cadena o lista</td>
+<td>Registrar la autoría o responsabilidad principal</td>
+</tr>
+<tr>
+<td><code>etiquetas</code></td>
+<td>lista</td>
+<td>Facilitar clasificación, búsqueda y análisis</td>
+</tr>
+<tr>
+<td><code>dominio</code></td>
+<td>cadena o lista</td>
+<td>Identificar el dominio funcional</td>
+</tr>
+<tr>
+<td><code>release</code></td>
+<td>cadena</td>
+<td>Asociar el documento a una release del proyecto</td>
+</tr>
+<tr>
+<td><code>sustituye_a</code></td>
+<td>identificador o lista</td>
+<td>Declarar sustitución documental</td>
+</tr>
+<tr>
+<td><code>relacionados</code></td>
+<td>lista de identificadores</td>
+<td>Declarar relaciones explícitas</td>
+</tr>
+<tr>
+<td><code>deprecado_desde</code></td>
+<td>versión o fecha</td>
+<td>Registrar el inicio de la obsolescencia</td>
+</tr>
+</tbody>
+</table>
+<p>Los campos opcionales no deberán utilizarse para duplicar información que pueda derivarse automáticamente.</p>
+<hr />
+<h2 id="campo-estado">Campo <code>estado</code><a class="headerlink" href="#campo-estado" title="Permanent link">&para;</a></h2>
+<p>Declara el estado documental.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">estable</span>
+</code></pre></div>
+<p>Los valores recomendados son:</p>
+<div class="highlight"><pre><span></span><code>borrador
+en_revision
+estable
+obsoleto
+archivado
+</code></pre></div>
+<p>Las herramientas deberán interpretar estos valores de forma homogénea.</p>
+<hr />
+<h2 id="extensibilidad">Extensibilidad<a class="headerlink" href="#extensibilidad" title="Permanent link">&para;</a></h2>
+<p>Podrán incorporarse nuevos campos cuando exista una necesidad real y documentada.</p>
+<p>Toda ampliación deberá:</p>
+<ul>
+<li>utilizar nombres claros;</li>
+<li>evitar duplicidades semánticas;</li>
+<li>preservar la compatibilidad hacia atrás;</li>
+<li>actualizar las herramientas afectadas;</li>
+<li>documentarse en esta especificación o en una especificación especializada.</li>
+</ul>
+<hr />
+<h1 id="identificadores-documentales">Identificadores documentales<a class="headerlink" href="#identificadores-documentales" title="Permanent link">&para;</a></h1>
+<p>Cada documento canónico del SGCC deberá disponer de un identificador permanente.</p>
+<p>El identificador constituye la referencia principal del activo de conocimiento.</p>
+<hr />
+<h2 id="formato">Formato<a class="headerlink" href="#formato" title="Permanent link">&para;</a></h2>
+<p>El formato general será:</p>
+<div class="highlight"><pre><span></span><code>PREFIJO-NNNN
+</code></pre></div>
+<p>Donde:</p>
+<ul>
+<li><code>PREFIJO</code> representa la familia documental;</li>
+<li><code>NNNN</code> representa una secuencia numérica de cuatro dígitos.</li>
+</ul>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>ADR-0019
+ARC-0018
+DOC-0019
+ING-0023
+PLA-0008
+REC-0022
+TAB-0006
+</code></pre></div>
+<hr />
+<h2 id="prefijos">Prefijos<a class="headerlink" href="#prefijos" title="Permanent link">&para;</a></h2>
+<p>Los prefijos deberán asignarse según la naturaleza documental, no según la carpeta donde se encuentre el archivo.</p>
+<p>Prefijos actuales:</p>
+<table>
+<thead>
+<tr>
+<th>Prefijo</th>
+<th>Familia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ADR</code></td>
+<td>Decisiones arquitectónicas</td>
+</tr>
+<tr>
+<td><code>ARC</code></td>
+<td>Arquitectura</td>
+</tr>
+<tr>
+<td><code>BAS</code></td>
+<td>Bases y técnicas fundamentales</td>
+</tr>
+<tr>
+<td><code>DOC</code></td>
+<td>Documentación transversal</td>
+</tr>
+<tr>
+<td><code>GOV</code></td>
+<td>Gobernanza</td>
+</tr>
+<tr>
+<td><code>ING</code></td>
+<td>Ingredientes</td>
+</tr>
+<tr>
+<td><code>MGT</code></td>
+<td>Gestión</td>
+</tr>
+<tr>
+<td><code>PLA</code></td>
+<td>Plantillas culinarias</td>
+</tr>
+<tr>
+<td><code>REC</code></td>
+<td>Recetas</td>
+</tr>
+<tr>
+<td><code>TAB</code></td>
+<td>Tablas de referencia</td>
+</tr>
+</tbody>
+</table>
+<p>La incorporación de nuevos prefijos deberá estar justificada y documentada.</p>
+<hr />
+<h2 id="unicidad">Unicidad<a class="headerlink" href="#unicidad" title="Permanent link">&para;</a></h2>
+<p>No podrán existir dos documentos canónicos con el mismo identificador.</p>
+<p>Las copias generadas para publicación podrán conservar el identificador original, siempre que:</p>
+<ul>
+<li>no se consideren fuente canónica;</li>
+<li>estén excluidas de la validación de unicidad;</li>
+<li>puedan rastrearse hasta el documento fuente.</li>
+</ul>
+<hr />
+<h2 id="inmutabilidad">Inmutabilidad<a class="headerlink" href="#inmutabilidad" title="Permanent link">&para;</a></h2>
+<p>El identificador no cambiará como consecuencia de:</p>
+<ul>
+<li>mover el documento;</li>
+<li>renombrar el archivo;</li>
+<li>cambiar su carpeta;</li>
+<li>reorganizar el repositorio;</li>
+<li>modificar su estado;</li>
+<li>publicar el contenido en otro formato.</li>
+</ul>
+<p>Solo podrá asignarse un identificador diferente cuando se cree un activo de conocimiento nuevo y conceptualmente distinto.</p>
+<hr />
+<h2 id="no-reutilizacion">No reutilización<a class="headerlink" href="#no-reutilizacion" title="Permanent link">&para;</a></h2>
+<p>Un identificador retirado no podrá asignarse a otro documento.</p>
+<p>Cuando un documento quede obsoleto o archivado, su identificador continuará reservado.</p>
+<p>Esta regla preserva la trazabilidad histórica y evita ambigüedades en relaciones antiguas.</p>
+<hr />
+<h2 id="asignacion">Asignación<a class="headerlink" href="#asignacion" title="Permanent link">&para;</a></h2>
+<p>La asignación deberá seguir el procedimiento oficial del proyecto.</p>
+<p>Como mínimo deberá comprobarse:</p>
+<ul>
+<li>que el prefijo sea adecuado;</li>
+<li>que el número no esté utilizado;</li>
+<li>que no exista ya un documento equivalente;</li>
+<li>que el nuevo documento represente una responsabilidad independiente.</li>
+</ul>
+<p>La creación automática de identificadores podrá incorporarse mediante herramientas específicas.</p>
+<hr />
+<h1 id="estructura-documental">Estructura documental<a class="headerlink" href="#estructura-documental" title="Permanent link">&para;</a></h1>
+<p>Cada documento deberá presentar una estructura coherente con su tipo y responsabilidad.</p>
+<p>La estructura concreta podrá variar, pero deberá respetar un contrato mínimo común.</p>
+<hr />
+<h2 id="estructura-minima">Estructura mínima<a class="headerlink" href="#estructura-minima" title="Permanent link">&para;</a></h2>
+<p>Todo documento deberá contener:</p>
+<ol>
+<li>Front Matter válido;</li>
+<li>un encabezado principal;</li>
+<li>una definición clara de su objetivo o responsabilidad;</li>
+<li>contenido organizado mediante secciones;</li>
+<li>referencias cuando existan dependencias relevantes.</li>
+</ol>
+<p>Ejemplo conceptual:</p>
+<div class="highlight"><pre><span></span><code>---
+<span class="gu">metadatos</span>
+<span class="gu">---</span>
+
+<span class="gh"># Título</span>
+
+<span class="gh"># Objetivo</span>
+
+<span class="gh"># Contenido principal</span>
+
+<span class="gh"># Referencias</span>
+</code></pre></div>
+<hr />
+<h2 id="encabezado-principal">Encabezado principal<a class="headerlink" href="#encabezado-principal" title="Permanent link">&para;</a></h2>
+<p>Todo documento deberá contener un único encabezado de nivel 1.</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Título del documento</span>
+</code></pre></div>
+<p>El encabezado deberá ser coherente con el campo <code>titulo</code> del Front Matter.</p>
+<hr />
+<h2 id="jerarquia-de-secciones">Jerarquía de secciones<a class="headerlink" href="#jerarquia-de-secciones" title="Permanent link">&para;</a></h2>
+<p>Las secciones deberán utilizar una jerarquía coherente.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># Documento</span>
+
+<span class="gu">## Sección</span>
+
+<span class="gu">### Subsección</span>
+
+<span class="gu">#### Detalle</span>
+</code></pre></div>
+<p>No deberán omitirse niveles sin una razón justificada.</p>
+<hr />
+<h2 id="secciones-normativas-y-recomendadas">Secciones normativas y recomendadas<a class="headerlink" href="#secciones-normativas-y-recomendadas" title="Permanent link">&para;</a></h2>
+<p>Las especificaciones podrán definir:</p>
+<ul>
+<li>secciones obligatorias;</li>
+<li>secciones recomendadas;</li>
+<li>secciones opcionales.</li>
+</ul>
+<p>La ausencia de una sección obligatoria constituirá una no conformidad.</p>
+<p>Las secciones recomendadas podrán omitirse cuando no resulten aplicables.</p>
+<hr />
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h2>
+<p>Cuando un documento dependa conceptualmente de otro, deberá enlazarlo o referenciarlo de manera explícita.</p>
+<p>Siempre que sea posible, las relaciones lógicas deberán expresarse mediante identificadores persistentes, además de los enlaces físicos necesarios para la navegación.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>Esta especificación amplía el modelo definido en <span class="sb">`ARC-0018`</span>.
+</code></pre></div>
+<hr />
+<h2 id="contenido-generado">Contenido generado<a class="headerlink" href="#contenido-generado" title="Permanent link">&para;</a></h2>
+<p>El contenido generado automáticamente deberá identificarse como tal.</p>
+<p>No deberá editarse manualmente salvo que la herramienta responsable lo permita expresamente.</p>
+<p>Las fuentes canónicas deberán permanecer separadas de las representaciones generadas.</p>
+<hr />
+<h2 id="documentos-indice">Documentos índice<a class="headerlink" href="#documentos-indice" title="Permanent link">&para;</a></h2>
+<p>Los documentos índice, como determinados <code>index.md</code>, podrán utilizar una estructura simplificada.</p>
+<p>Su finalidad será:</p>
+<ul>
+<li>describir una colección física;</li>
+<li>facilitar navegación;</li>
+<li>enlazar documentos;</li>
+<li>proporcionar contexto local.</li>
+</ul>
+<p>Cuando formen parte del corpus canónico, deberán cumplir los requisitos de metadatos establecidos por el proyecto.</p>
+<hr />
+<h1 id="ciclo-de-vida-documental">Ciclo de vida documental<a class="headerlink" href="#ciclo-de-vida-documental" title="Permanent link">&para;</a></h1>
+<p>Todo documento evoluciona mediante un ciclo de vida controlado.</p>
+<div class="highlight"><pre><span></span><code>Borrador
+    │
+    ▼
+En revisión
+    │
+    ▼
+Estable
+    │
+    ├───────────────┐
+    ▼               ▼
+Obsoleto        Nueva versión
+    │
+    ▼
+Archivado
+</code></pre></div>
+<hr />
+<h2 id="borrador">Borrador<a class="headerlink" href="#borrador" title="Permanent link">&para;</a></h2>
+<p>Estado inicial de un documento en construcción.</p>
+<p>Características:</p>
+<ul>
+<li>contenido incompleto o provisional;</li>
+<li>estructura todavía sujeta a cambios;</li>
+<li>no debe considerarse referencia normativa;</li>
+<li>puede requerir validaciones parciales.</li>
+</ul>
+<p>Front Matter:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">borrador</span>
+</code></pre></div>
+<hr />
+<h2 id="en-revision">En revisión<a class="headerlink" href="#en-revision" title="Permanent link">&para;</a></h2>
+<p>El documento dispone de contenido suficiente para ser evaluado.</p>
+<p>Características:</p>
+<ul>
+<li>está pendiente de validación técnica o editorial;</li>
+<li>puede recibir cambios relevantes;</li>
+<li>no debe utilizarse aún como referencia definitiva.</li>
+</ul>
+<p>Front Matter:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">en_revision</span>
+</code></pre></div>
+<hr />
+<h2 id="estable">Estable<a class="headerlink" href="#estable" title="Permanent link">&para;</a></h2>
+<p>El documento ha sido validado y se considera referencia vigente.</p>
+<p>Características:</p>
+<ul>
+<li>cumple las especificaciones aplicables;</li>
+<li>supera las validaciones oficiales;</li>
+<li>puede utilizarse como fuente normativa o de conocimiento;</li>
+<li>cualquier cambio significativo deberá reflejarse en su versión.</li>
+</ul>
+<p>Front Matter:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">estable</span>
+</code></pre></div>
+<hr />
+<h2 id="obsoleto">Obsoleto<a class="headerlink" href="#obsoleto" title="Permanent link">&para;</a></h2>
+<p>El documento ya no representa la referencia preferente, pero se conserva por razones de trazabilidad.</p>
+<p>Características:</p>
+<ul>
+<li>puede haber sido sustituido;</li>
+<li>no debe utilizarse para nuevas implementaciones;</li>
+<li>deberá indicar, cuando sea posible, el documento sucesor;</li>
+<li>conserva su identificador.</li>
+</ul>
+<p>Front Matter:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">obsoleto</span>
+<span class="nt">sustituido_por</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DOC-XXXX</span>
+</code></pre></div>
+<hr />
+<h2 id="archivado">Archivado<a class="headerlink" href="#archivado" title="Permanent link">&para;</a></h2>
+<p>El documento deja de formar parte del conocimiento operativo.</p>
+<p>Características:</p>
+<ul>
+<li>se conserva únicamente como registro histórico;</li>
+<li>no deberá recibir evolución funcional;</li>
+<li>mantiene su identificador y su trazabilidad;</li>
+<li>podrá excluirse de determinadas publicaciones.</li>
+</ul>
+<p>Front Matter:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">estado</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">archivado</span>
+</code></pre></div>
+<hr />
+<h2 id="transiciones">Transiciones<a class="headerlink" href="#transiciones" title="Permanent link">&para;</a></h2>
+<p>Las transiciones deberán producirse de forma explícita.</p>
+<p>Transiciones habituales:</p>
+<div class="highlight"><pre><span></span><code>borrador → en_revision
+en_revision → estable
+estable → obsoleto
+obsoleto → archivado
+</code></pre></div>
+<p>Un documento podrá volver de <code>en_revision</code> a <code>borrador</code> si requiere una reformulación sustancial.</p>
+<p>Un documento estable podrá recibir una nueva versión sin abandonar dicho estado cuando el cambio mantenga su vigencia.</p>
+<hr />
+<h2 id="sustitucion">Sustitución<a class="headerlink" href="#sustitucion" title="Permanent link">&para;</a></h2>
+<p>La sustitución se produce cuando un documento deja de ser la referencia principal y otro asume su responsabilidad.</p>
+<p>La sustitución deberá:</p>
+<ul>
+<li>conservar ambos identificadores;</li>
+<li>declarar la relación entre los documentos;</li>
+<li>evitar eliminar el documento sustituido sin trazabilidad;</li>
+<li>actualizar las referencias cuando corresponda.</li>
+</ul>
+<hr />
+<h1 id="relaciones-documentales">Relaciones documentales<a class="headerlink" href="#relaciones-documentales" title="Permanent link">&para;</a></h1>
+<p>Las relaciones documentales representan vínculos semánticos entre activos de conocimiento.</p>
+<p>No deben confundirse con la proximidad física entre archivos.</p>
+<hr />
+<h2 id="relaciones-logicas">Relaciones lógicas<a class="headerlink" href="#relaciones-logicas" title="Permanent link">&para;</a></h2>
+<p>Las relaciones lógicas describen el significado del vínculo.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>depende de;</li>
+<li>amplía;</li>
+<li>implementa;</li>
+<li>reutiliza;</li>
+<li>sustituye;</li>
+<li>complementa;</li>
+<li>contradice;</li>
+<li>deriva de;</li>
+<li>relacionado con.</li>
+</ul>
+<p>Ejemplo conceptual:</p>
+<div class="highlight"><pre><span></span><code>REC-0017
+    reutiliza
+PLA-0002
+</code></pre></div>
+<p>Estas relaciones podrán representarse en el Knowledge Graph.</p>
+<hr />
+<h2 id="relaciones-fisicas">Relaciones físicas<a class="headerlink" href="#relaciones-fisicas" title="Permanent link">&para;</a></h2>
+<p>Las relaciones físicas permiten navegar entre archivos concretos.</p>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">Consultar la plantilla</span>](<span class="na">../../../12_Plantillas/04_Cocciones/curry_base.md</span>)
+</code></pre></div>
+<p>Una ruta física puede cambiar como consecuencia de una reorganización del repositorio.</p>
+<p>La relación lógica deberá permanecer estable aunque cambie el enlace físico.</p>
+<hr />
+<h2 id="direccion">Dirección<a class="headerlink" href="#direccion" title="Permanent link">&para;</a></h2>
+<p>Las relaciones podrán ser:</p>
+<ul>
+<li>unidireccionales;</li>
+<li>bidireccionales;</li>
+<li>simétricas;</li>
+<li>asimétricas.</li>
+</ul>
+<p>Ejemplos:</p>
+<div class="highlight"><pre><span></span><code>A sustituye a B
+</code></pre></div>
+<p>es una relación dirigida.</p>
+<div class="highlight"><pre><span></span><code>A está relacionado con B
+</code></pre></div>
+<p>puede considerarse simétrica.</p>
+<p>La semántica concreta deberá definirse en la futura especificación de relaciones.</p>
+<hr />
+<h2 id="cardinalidad">Cardinalidad<a class="headerlink" href="#cardinalidad" title="Permanent link">&para;</a></h2>
+<p>Una relación podrá conectar:</p>
+<ul>
+<li>un documento con otro;</li>
+<li>un documento con varios;</li>
+<li>varios documentos con un dominio;</li>
+<li>una colección con múltiples activos.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>PLA-0001
+    es reutilizada por
+REC-0001
+REC-0004
+REC-0018
+</code></pre></div>
+<hr />
+<h2 id="integridad">Integridad<a class="headerlink" href="#integridad" title="Permanent link">&para;</a></h2>
+<p>Toda relación explícita deberá apuntar a un activo existente o declarar claramente que se trata de una referencia externa.</p>
+<p>Las herramientas deberán detectar, siempre que sea posible:</p>
+<ul>
+<li>enlaces rotos;</li>
+<li>identificadores inexistentes;</li>
+<li>referencias circulares problemáticas;</li>
+<li>relaciones incompatibles;</li>
+<li>documentos huérfanos.</li>
+</ul>
+<hr />
+<h2 id="no-duplicacion">No duplicación<a class="headerlink" href="#no-duplicacion" title="Permanent link">&para;</a></h2>
+<p>Las relaciones deberán utilizarse para reutilizar conocimiento, no para justificar duplicaciones.</p>
+<p>Cuando un documento necesite información ya desarrollada en otro, deberá:</p>
+<ol>
+<li>referenciar el activo existente;</li>
+<li>resumir únicamente el contexto imprescindible;</li>
+<li>evitar reproducir secciones completas sin necesidad.</li>
+</ol>
+<hr />
+<h2 id="evolucion-de-las-relaciones">Evolución de las relaciones<a class="headerlink" href="#evolucion-de-las-relaciones" title="Permanent link">&para;</a></h2>
+<p>Las relaciones deberán mantenerse actualizadas durante el ciclo de vida documental.</p>
+<p>Cuando un documento sea sustituido, movido, dividido o consolidado, deberán revisarse:</p>
+<ul>
+<li>sus enlaces entrantes;</li>
+<li>sus enlaces salientes;</li>
+<li>sus relaciones por identificador;</li>
+<li>su representación en el Knowledge Graph.</li>
+</ul>
+<hr />
+<h1 id="reglas-de-validacion">Reglas de validación<a class="headerlink" href="#reglas-de-validacion" title="Permanent link">&para;</a></h1>
+<p>Las reglas de validación determinan si un documento puede considerarse válido dentro del SGCC.</p>
+<p>La validación combina controles estructurales, semánticos y relacionales.</p>
+<p>Su objetivo no consiste únicamente en detectar errores técnicos, sino en preservar:</p>
+<ul>
+<li>la coherencia documental;</li>
+<li>la integridad del conocimiento;</li>
+<li>la trazabilidad;</li>
+<li>la interoperabilidad;</li>
+<li>la mantenibilidad del sistema.</li>
+</ul>
+<hr />
+<h2 id="niveles-de-validacion">Niveles de validación<a class="headerlink" href="#niveles-de-validacion" title="Permanent link">&para;</a></h2>
+<p>La validación documental se organiza en varios niveles complementarios.</p>
+<h3 id="validacion-sintactica">Validación sintáctica<a class="headerlink" href="#validacion-sintactica" title="Permanent link">&para;</a></h3>
+<p>Comprueba que el documento pueda interpretarse correctamente.</p>
+<p>Incluye:</p>
+<ul>
+<li>sintaxis Markdown válida;</li>
+<li>Front Matter YAML correctamente delimitado;</li>
+<li>metadatos legibles;</li>
+<li>fechas y versiones con formato válido.</li>
+</ul>
+<hr />
+<h3 id="validacion-estructural">Validación estructural<a class="headerlink" href="#validacion-estructural" title="Permanent link">&para;</a></h3>
+<p>Comprueba que el documento contenga los elementos requeridos por su tipo.</p>
+<p>Incluye:</p>
+<ul>
+<li>Front Matter obligatorio;</li>
+<li>encabezado principal;</li>
+<li>secciones mínimas;</li>
+<li>campos obligatorios;</li>
+<li>jerarquía coherente de encabezados.</li>
+</ul>
+<hr />
+<h3 id="validacion-de-identidad">Validación de identidad<a class="headerlink" href="#validacion-de-identidad" title="Permanent link">&para;</a></h3>
+<p>Comprueba la integridad de los identificadores.</p>
+<p>Incluye:</p>
+<ul>
+<li>existencia del identificador;</li>
+<li>formato correcto;</li>
+<li>unicidad;</li>
+<li>correspondencia del prefijo con la familia documental;</li>
+<li>ausencia de reutilización de identificadores retirados.</li>
+</ul>
+<hr />
+<h3 id="validacion-relacional">Validación relacional<a class="headerlink" href="#validacion-relacional" title="Permanent link">&para;</a></h3>
+<p>Comprueba la integridad de las relaciones y referencias.</p>
+<p>Incluye:</p>
+<ul>
+<li>enlaces internos válidos;</li>
+<li>identificadores referenciados existentes;</li>
+<li>relaciones de sustitución consistentes;</li>
+<li>referencias externas correctamente diferenciadas;</li>
+<li>ausencia de documentos huérfanos cuando su tipo requiera relaciones.</li>
+</ul>
+<hr />
+<h3 id="validacion-semantica">Validación semántica<a class="headerlink" href="#validacion-semantica" title="Permanent link">&para;</a></h3>
+<p>Comprueba que el documento cumpla su responsabilidad conceptual.</p>
+<p>Incluye:</p>
+<ul>
+<li>coherencia entre <code>tipo</code>, título y contenido;</li>
+<li>ausencia de duplicaciones innecesarias;</li>
+<li>uso correcto del vocabulario;</li>
+<li>correspondencia con el modelo de conocimiento;</li>
+<li>respeto de los límites del tipo documental.</li>
+</ul>
+<p>La validación semántica podrá requerir revisión humana o asistencia basada en inteligencia artificial.</p>
+<hr />
+<h2 id="requisitos-minimos-de-validez">Requisitos mínimos de validez<a class="headerlink" href="#requisitos-minimos-de-validez" title="Permanent link">&para;</a></h2>
+<p>Un documento se considera válido cuando:</p>
+<ul>
+<li>dispone de Front Matter válido cuando resulte obligatorio;</li>
+<li>contiene todos los campos requeridos;</li>
+<li>posee un identificador único y correctamente formado;</li>
+<li>utiliza un título coherente;</li>
+<li>declara una versión válida;</li>
+<li>informa de una fecha de revisión válida;</li>
+<li>mantiene una estructura compatible con su tipo;</li>
+<li>no contiene enlaces internos rotos;</li>
+<li>respeta las especificaciones aplicables;</li>
+<li>supera las herramientas oficiales de validación.</li>
+</ul>
+<hr />
+<h2 id="severidad-de-los-resultados">Severidad de los resultados<a class="headerlink" href="#severidad-de-los-resultados" title="Permanent link">&para;</a></h2>
+<p>Las herramientas podrán clasificar sus resultados según su impacto.</p>
+<h3 id="error">Error<a class="headerlink" href="#error" title="Permanent link">&para;</a></h3>
+<p>Incumplimiento que impide considerar válido el documento.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>identificador duplicado;</li>
+<li>Front Matter inválido;</li>
+<li>campo obligatorio ausente;</li>
+<li>enlace interno roto;</li>
+<li>formato de identificador incorrecto.</li>
+</ul>
+<hr />
+<h3 id="advertencia">Advertencia<a class="headerlink" href="#advertencia" title="Permanent link">&para;</a></h3>
+<p>Situación que no invalida necesariamente el documento, pero requiere revisión.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>sección recomendada ausente;</li>
+<li>documento sin relaciones;</li>
+<li>versión potencialmente desactualizada;</li>
+<li>terminología inconsistente;</li>
+<li>posible duplicación de contenido.</li>
+</ul>
+<hr />
+<h3 id="informacion">Información<a class="headerlink" href="#informacion" title="Permanent link">&para;</a></h3>
+<p>Observación que facilita el mantenimiento sin representar una no conformidad.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>sugerencia de mejora;</li>
+<li>relación adicional posible;</li>
+<li>campo opcional no utilizado;</li>
+<li>oportunidad de automatización.</li>
+</ul>
+<hr />
+<h2 id="herramientas-oficiales">Herramientas oficiales<a class="headerlink" href="#herramientas-oficiales" title="Permanent link">&para;</a></h2>
+<p>Las herramientas de validación constituyen la implementación automatizada de esta especificación.</p>
+<p>La validación integral deberá poder ejecutarse mediante:</p>
+<div class="highlight"><pre><span></span><code><span class="n">python</span> <span class="n">tools</span><span class="p">/</span><span class="n">validate_all</span><span class="p">.</span><span class="n">py</span>
+</code></pre></div>
+<p>El pipeline podrá incluir, entre otras, las siguientes comprobaciones:</p>
+<ul>
+<li>Front Matter;</li>
+<li>identificadores únicos;</li>
+<li>enlaces internos;</li>
+<li>estructura documental;</li>
+<li>relaciones;</li>
+<li>documentos huérfanos;</li>
+<li>coherencia semántica;</li>
+<li>generación del Knowledge Graph.</li>
+</ul>
+<p>La ausencia temporal de una comprobación automatizada no elimina la obligatoriedad de la norma correspondiente.</p>
+<hr />
+<h2 id="fuente-normativa-y-codigo-de-validacion">Fuente normativa y código de validación<a class="headerlink" href="#fuente-normativa-y-codigo-de-validacion" title="Permanent link">&para;</a></h2>
+<p>Esta especificación constituye la fuente normativa del modelo documental.</p>
+<p>Las herramientas implementan sus reglas, pero no las sustituyen.</p>
+<p>Cuando exista una discrepancia entre la especificación y el comportamiento de una herramienta, deberá determinarse si:</p>
+<ul>
+<li>la herramienta contiene un defecto;</li>
+<li>la especificación necesita actualizarse;</li>
+<li>existe una excepción documental no formalizada.</li>
+</ul>
+<p>La discrepancia deberá resolverse explícitamente y no mediante excepciones silenciosas.</p>
+<hr />
+<h2 id="validacion-antes-de-integracion">Validación antes de integración<a class="headerlink" href="#validacion-antes-de-integracion" title="Permanent link">&para;</a></h2>
+<p>Antes de integrar cambios en la rama principal deberán ejecutarse las validaciones oficiales aplicables.</p>
+<p>Una contribución documental no deberá integrarse cuando existan errores conocidos sin justificar.</p>
+<p>Las excepciones, si resultan imprescindibles, deberán:</p>
+<ul>
+<li>documentarse;</li>
+<li>indicar su alcance;</li>
+<li>asignarse como deuda de conocimiento o incidencia;</li>
+<li>resolverse en una iteración posterior.</li>
+</ul>
+<hr />
+<h1 id="conformidad">Conformidad<a class="headerlink" href="#conformidad" title="Permanent link">&para;</a></h1>
+<p>La conformidad expresa el grado en que un documento cumple esta especificación.</p>
+<hr />
+<h2 id="documento-conforme">Documento conforme<a class="headerlink" href="#documento-conforme" title="Permanent link">&para;</a></h2>
+<p>Un documento se considera conforme cuando:</p>
+<ul>
+<li>respeta el modelo documental;</li>
+<li>incorpora los metadatos obligatorios;</li>
+<li>mantiene una identidad válida;</li>
+<li>cumple la estructura definida para su tipo;</li>
+<li>respeta el ciclo de vida;</li>
+<li>mantiene relaciones íntegras;</li>
+<li>supera las validaciones oficiales;</li>
+<li>conserva coherencia con el modelo de conocimiento.</li>
+</ul>
+<hr />
+<h2 id="documento-parcialmente-conforme">Documento parcialmente conforme<a class="headerlink" href="#documento-parcialmente-conforme" title="Permanent link">&para;</a></h2>
+<p>Un documento podrá considerarse parcialmente conforme cuando:</p>
+<ul>
+<li>pertenece a una fase de migración;</li>
+<li>conserva una estructura histórica;</li>
+<li>no puede adaptarse inmediatamente sin riesgo;</li>
+<li>existe una excepción documentada.</li>
+</ul>
+<p>La conformidad parcial deberá ser temporal.</p>
+<p>Toda desviación deberá registrar:</p>
+<ul>
+<li>norma incumplida;</li>
+<li>motivo;</li>
+<li>impacto;</li>
+<li>plan de regularización.</li>
+</ul>
+<hr />
+<h2 id="documento-no-conforme">Documento no conforme<a class="headerlink" href="#documento-no-conforme" title="Permanent link">&para;</a></h2>
+<p>Un documento será no conforme cuando incumpla requisitos obligatorios y no exista una excepción aprobada.</p>
+<p>Un documento no conforme:</p>
+<ul>
+<li>no deberá utilizarse como referencia normativa;</li>
+<li>no deberá publicarse como contenido estable;</li>
+<li>no deberá incorporarse a procesos automáticos que dependan de su validez;</li>
+<li>deberá corregirse o clasificarse adecuadamente.</li>
+</ul>
+<hr />
+<h2 id="conformidad-de-representaciones-generadas">Conformidad de representaciones generadas<a class="headerlink" href="#conformidad-de-representaciones-generadas" title="Permanent link">&para;</a></h2>
+<p>Las representaciones derivadas, como <code>site_docs</code>, no necesitan cumplir necesariamente todos los requisitos de la fuente canónica si:</p>
+<ul>
+<li>se generan automáticamente;</li>
+<li>pueden rastrearse hasta su fuente;</li>
+<li>no se consideran editables;</li>
+<li>no participan en la validación de unicidad;</li>
+<li>preservan el significado del contenido original.</li>
+</ul>
+<hr />
+<h1 id="compatibilidad">Compatibilidad<a class="headerlink" href="#compatibilidad" title="Permanent link">&para;</a></h1>
+<p>El modelo documental deberá facilitar la interoperabilidad del SGCC con herramientas presentes y futuras.</p>
+<hr />
+<h2 id="compatibilidad-hacia-atras">Compatibilidad hacia atrás<a class="headerlink" href="#compatibilidad-hacia-atras" title="Permanent link">&para;</a></h2>
+<p>Las modificaciones del modelo deberán preservar, siempre que sea posible, la interpretación de documentos existentes.</p>
+<p>Los cambios incompatibles requerirán:</p>
+<ul>
+<li>incremento de versión mayor;</li>
+<li>estrategia de migración;</li>
+<li>actualización de validadores;</li>
+<li>documentación del impacto;</li>
+<li>registro de la decisión arquitectónica cuando corresponda.</li>
+</ul>
+<hr />
+<h2 id="compatibilidad-entre-representaciones">Compatibilidad entre representaciones<a class="headerlink" href="#compatibilidad-entre-representaciones" title="Permanent link">&para;</a></h2>
+<p>Un activo de conocimiento podrá representarse mediante distintos formatos.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>Markdown;</li>
+<li>HTML;</li>
+<li>JSON;</li>
+<li>YAML;</li>
+<li>RDF;</li>
+<li>base de datos;</li>
+<li>API;</li>
+<li>representación vectorial;</li>
+<li>contexto para RAG.</li>
+</ul>
+<p>La transformación entre representaciones deberá preservar:</p>
+<ul>
+<li>identidad;</li>
+<li>significado;</li>
+<li>relaciones;</li>
+<li>trazabilidad;</li>
+<li>metadatos esenciales.</li>
+</ul>
+<hr />
+<h2 id="compatibilidad-con-publicacion">Compatibilidad con publicación<a class="headerlink" href="#compatibilidad-con-publicacion" title="Permanent link">&para;</a></h2>
+<p>El modelo deberá permitir generar sitios web y otros canales de publicación sin modificar las fuentes canónicas.</p>
+<p>Las representaciones publicadas podrán:</p>
+<ul>
+<li>cambiar la navegación;</li>
+<li>adaptar el formato visual;</li>
+<li>generar índices;</li>
+<li>incorporar búsquedas;</li>
+<li>resolver enlaces;</li>
+<li>ocultar metadatos internos.</li>
+</ul>
+<p>No podrán alterar el significado del conocimiento.</p>
+<hr />
+<h2 id="compatibilidad-con-knowledge-graph">Compatibilidad con Knowledge Graph<a class="headerlink" href="#compatibilidad-con-knowledge-graph" title="Permanent link">&para;</a></h2>
+<p>Los identificadores, metadatos y relaciones deberán poder transformarse en nodos y aristas de un Knowledge Graph.</p>
+<p>Cada documento podrá representarse como un nodo identificado de forma persistente.</p>
+<p>Las relaciones documentales podrán convertirse en aristas semánticas.</p>
+<hr />
+<h2 id="compatibilidad-con-sistemas-de-inteligencia-artificial">Compatibilidad con sistemas de inteligencia artificial<a class="headerlink" href="#compatibilidad-con-sistemas-de-inteligencia-artificial" title="Permanent link">&para;</a></h2>
+<p>La estructura documental deberá facilitar:</p>
+<ul>
+<li>recuperación semántica;</li>
+<li>segmentación;</li>
+<li>generación de embeddings;</li>
+<li>sistemas RAG;</li>
+<li>asistentes especializados;</li>
+<li>agentes de mantenimiento;</li>
+<li>validación semántica asistida;</li>
+<li>generación de conocimiento derivado.</li>
+</ul>
+<p>Los sistemas de inteligencia artificial deberán respetar la distinción entre:</p>
+<ul>
+<li>conocimiento canónico;</li>
+<li>inferencias;</li>
+<li>contenido generado;</li>
+<li>propuestas pendientes de validación.</li>
+</ul>
+<hr />
+<h2 id="compatibilidad-con-apis">Compatibilidad con APIs<a class="headerlink" href="#compatibilidad-con-apis" title="Permanent link">&para;</a></h2>
+<p>Los documentos podrán exponerse mediante APIs documentales.</p>
+<p>La API deberá preservar, como mínimo:</p>
+<ul>
+<li>identificador;</li>
+<li>tipo;</li>
+<li>título;</li>
+<li>versión;</li>
+<li>estado;</li>
+<li>contenido;</li>
+<li>relaciones relevantes.</li>
+</ul>
+<p>La ruta de acceso de la API no deberá utilizarse como sustituto del identificador persistente.</p>
+<hr />
+<h1 id="evolucion-de-la-especificacion">Evolución de la especificación<a class="headerlink" href="#evolucion-de-la-especificacion" title="Permanent link">&para;</a></h1>
+<p>Esta especificación podrá evolucionar conforme maduren las necesidades del SGCC.</p>
+<p>Toda evolución deberá preservar la coherencia del modelo documental y mantener una trazabilidad clara.</p>
+<hr />
+<h2 id="tipos-de-cambio">Tipos de cambio<a class="headerlink" href="#tipos-de-cambio" title="Permanent link">&para;</a></h2>
+<h3 id="cambio-de-parche">Cambio de parche<a class="headerlink" href="#cambio-de-parche" title="Permanent link">&para;</a></h3>
+<p>Incluye:</p>
+<ul>
+<li>correcciones tipográficas;</li>
+<li>aclaraciones;</li>
+<li>mejoras de redacción;</li>
+<li>ejemplos adicionales;</li>
+<li>correcciones sin impacto normativo.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>3.0.0 → 3.0.1
+</code></pre></div>
+<hr />
+<h3 id="cambio-menor">Cambio menor<a class="headerlink" href="#cambio-menor" title="Permanent link">&para;</a></h3>
+<p>Incluye:</p>
+<ul>
+<li>nuevos campos opcionales;</li>
+<li>ampliaciones compatibles;</li>
+<li>nuevas recomendaciones;</li>
+<li>incorporación de tipos documentales compatibles;</li>
+<li>nuevas reglas que no invaliden documentos existentes.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>3.0.0 → 3.1.0
+</code></pre></div>
+<hr />
+<h3 id="cambio-mayor">Cambio mayor<a class="headerlink" href="#cambio-mayor" title="Permanent link">&para;</a></h3>
+<p>Incluye:</p>
+<ul>
+<li>modificación de campos obligatorios;</li>
+<li>redefinición de identificadores;</li>
+<li>cambios incompatibles en estados o tipos;</li>
+<li>alteración sustancial del contrato documental;</li>
+<li>invalidación de documentos previamente conformes.</li>
+</ul>
+<p>Ejemplo:</p>
+<div class="highlight"><pre><span></span><code>3.0.0 → 4.0.0
+</code></pre></div>
+<hr />
+<h2 id="procedimiento-de-evolucion">Procedimiento de evolución<a class="headerlink" href="#procedimiento-de-evolucion" title="Permanent link">&para;</a></h2>
+<p>Todo cambio relevante deberá:</p>
+<ol>
+<li>identificar la necesidad;</li>
+<li>evaluar su impacto;</li>
+<li>revisar la compatibilidad;</li>
+<li>actualizar la especificación;</li>
+<li>adaptar las herramientas;</li>
+<li>migrar los documentos afectados;</li>
+<li>ejecutar las validaciones;</li>
+<li>registrar el cambio.</li>
+</ol>
+<p>Cuando el cambio afecte a principios arquitectónicos, deberá evaluarse mediante una ADR.</p>
+<hr />
+<h2 id="migraciones">Migraciones<a class="headerlink" href="#migraciones" title="Permanent link">&para;</a></h2>
+<p>Las migraciones documentales deberán diseñarse para ser:</p>
+<ul>
+<li>reproducibles;</li>
+<li>verificables;</li>
+<li>reversibles cuando resulte posible;</li>
+<li>trazables;</li>
+<li>automatizables.</li>
+</ul>
+<p>Una migración no deberá modificar identificadores persistentes salvo que se esté creando un activo nuevo.</p>
+<hr />
+<h2 id="deprecacion-de-reglas">Deprecación de reglas<a class="headerlink" href="#deprecacion-de-reglas" title="Permanent link">&para;</a></h2>
+<p>Una regla podrá declararse obsoleta antes de eliminarse.</p>
+<p>La deprecación deberá indicar:</p>
+<ul>
+<li>regla afectada;</li>
+<li>versión desde la que queda obsoleta;</li>
+<li>alternativa recomendada;</li>
+<li>fecha o versión prevista para su retirada.</li>
+</ul>
+<hr />
+<h1 id="gobernanza-del-modelo-documental">Gobernanza del modelo documental<a class="headerlink" href="#gobernanza-del-modelo-documental" title="Permanent link">&para;</a></h1>
+<p>El modelo documental forma parte de la gobernanza del conocimiento del SGCC.</p>
+<p>Su mantenimiento deberá coordinarse con:</p>
+<ul>
+<li>el modelo de conocimiento;</li>
+<li>la arquitectura;</li>
+<li>las herramientas;</li>
+<li>el sistema de calidad;</li>
+<li>la estrategia de conocimiento;</li>
+<li>el ciclo de releases.</li>
+</ul>
+<hr />
+<h2 id="autoridad-normativa">Autoridad normativa<a class="headerlink" href="#autoridad-normativa" title="Permanent link">&para;</a></h2>
+<p>Esta especificación define el contrato general de los documentos.</p>
+<p>Las especificaciones especializadas podrán ampliar sus reglas, pero no contradecirlas sin:</p>
+<ul>
+<li>declarar explícitamente la excepción;</li>
+<li>justificarla;</li>
+<li>registrar su alcance;</li>
+<li>aprobar la decisión correspondiente.</li>
+</ul>
+<hr />
+<h2 id="jerarquia-de-aplicacion">Jerarquía de aplicación<a class="headerlink" href="#jerarquia-de-aplicacion" title="Permanent link">&para;</a></h2>
+<p>Las normas se aplicarán siguiendo este orden:</p>
+<div class="highlight"><pre><span></span><code>Principios estratégicos
+        │
+        ▼
+Decisiones arquitectónicas
+        │
+        ▼
+Especificación documental general
+        │
+        ▼
+Especificaciones especializadas
+        │
+        ▼
+Guías y procedimientos
+        │
+        ▼
+Implementaciones y herramientas
+</code></pre></div>
+<p>Una herramienta no podrá redefinir por sí sola el modelo normativo.</p>
+<hr />
+<h2 id="responsabilidad-de-mantenimiento">Responsabilidad de mantenimiento<a class="headerlink" href="#responsabilidad-de-mantenimiento" title="Permanent link">&para;</a></h2>
+<p>Toda modificación de esta especificación deberá revisar su impacto sobre:</p>
+<ul>
+<li>documentos existentes;</li>
+<li>validadores;</li>
+<li>procesos de publicación;</li>
+<li>Knowledge Graph;</li>
+<li>asistentes de IA;</li>
+<li>documentación de onboarding;</li>
+<li>futuras especificaciones.</li>
+</ul>
+<hr />
+<h1 id="referencias_1">Referencias<a class="headerlink" href="#referencias_1" title="Permanent link">&para;</a></h1>
+<p>Esta especificación se relaciona con los siguientes documentos del proyecto.</p>
+<table>
+<thead>
+<tr>
+<th>Documento</th>
+<th>Responsabilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>VISION</code></td>
+<td>Propósito y dirección estratégica</td>
+</tr>
+<tr>
+<td><code>MANIFESTO</code></td>
+<td>Principios fundamentales</td>
+</tr>
+<tr>
+<td><code>ARQUITECTURA</code></td>
+<td>Arquitectura general del SGCC</td>
+</tr>
+<tr>
+<td><code>MODELO_DE_CONOCIMIENTO</code></td>
+<td>Modelo conceptual del conocimiento</td>
+</tr>
+<tr>
+<td><code>GOBERNANCE_MODEL</code></td>
+<td>Gobernanza general</td>
+</tr>
+<tr>
+<td><code>QUALITY</code></td>
+<td>Criterios de calidad</td>
+</tr>
+<tr>
+<td><code>GUIA_DE_ESTILO</code></td>
+<td>Normas editoriales</td>
+</tr>
+<tr>
+<td><code>AUTOMATION</code></td>
+<td>Automatización del sistema</td>
+</tr>
+<tr>
+<td><code>TOOLS_FRAMEWORK</code></td>
+<td>Arquitectura de herramientas</td>
+</tr>
+<tr>
+<td><code>QUALITY_PIPELINE</code></td>
+<td>Pipeline de calidad</td>
+</tr>
+<tr>
+<td><code>ESPECIFICACION_DE_COLECCIONES</code></td>
+<td>Modelo de colecciones</td>
+</tr>
+<tr>
+<td><code>ADR-0008</code></td>
+<td>Identidad persistente</td>
+</tr>
+<tr>
+<td><code>ADR-0019</code></td>
+<td>Independencia entre modelo lógico y representación física</td>
+</tr>
+</tbody>
+</table>
+<p>Las rutas físicas concretas deberán mantenerse mediante enlaces internos válidos en la implementación final del documento.</p>
+<hr />
+<h1 id="conformidad-de-esta-especificacion">Conformidad de esta especificación<a class="headerlink" href="#conformidad-de-esta-especificacion" title="Permanent link">&para;</a></h1>
+<p>La presente especificación deberá cumplir las mismas normas que define.</p>
+<p>En particular:</p>
+<ul>
+<li>posee un identificador persistente;</li>
+<li>declara su tipo;</li>
+<li>mantiene versionado independiente;</li>
+<li>registra su estado;</li>
+<li>participa en las validaciones oficiales;</li>
+<li>conserva relaciones explícitas con otros documentos;</li>
+<li>evoluciona mediante un ciclo controlado.</li>
+</ul>
+<p>Esta autorreferencia permite verificar que el modelo documental es aplicable a sus propios documentos normativos.</p>
+<hr />
+<h1 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h1>
+<p>El modelo documental constituye el contrato estructural y normativo del Sistema de Gestión del Conocimiento Culinario.</p>
+<p>Gracias a esta especificación, los documentos del SGCC pueden:</p>
+<ul>
+<li>identificarse de manera persistente;</li>
+<li>estructurarse de forma homogénea;</li>
+<li>relacionarse semánticamente;</li>
+<li>validarse automáticamente;</li>
+<li>evolucionar con trazabilidad;</li>
+<li>publicarse en diferentes formatos;</li>
+<li>integrarse en grafos de conocimiento;</li>
+<li>utilizarse mediante sistemas de inteligencia artificial.</li>
+</ul>
+<p>La independencia entre identidad, conocimiento y representación física permite que NovaCoquinaria evolucione sin quedar vinculada a una tecnología, estructura de directorios o canal de publicación concreto.</p>
+<p>Esta especificación establece así la base normativa necesaria para que el conocimiento del SGCC pueda ser comprendido, reutilizado, validado y ampliado de forma coherente por colaboradores humanos, herramientas automatizadas y sistemas inteligentes.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

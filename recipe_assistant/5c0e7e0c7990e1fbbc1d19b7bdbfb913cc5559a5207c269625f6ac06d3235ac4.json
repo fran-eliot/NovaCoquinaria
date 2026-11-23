@@ -1,0 +1,283 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 15
+    },
+    "text": "\n# Atún con tomate a la andaluza\n\n## Origen y contexto\n\n**Región:** Andalucía. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–55 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de atún fresco en dados de 3 cm\n- 600 g de tomate triturado\n- 180 g de cebolla\n- 120 g de pimiento verde\n- 2 dientes de ajo\n- 45 ml de aceite de oliva\n- sal y pimienta\n- 1 hoja de laurel\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Mantener el atún refrigerado, revisar espinas y secar los dados.\n2. Pochar cebolla y pimiento con aceite 10–12 minutos; añadir ajo, tomate y laurel.\n3. Reducir a fuego suave 20–25 minutos hasta salsa espesa y ajustar sal.\n4. Incorporar los dados de atún y cocinar suavemente unos 5–8 minutos según tamaño hasta cocción completa (63 °C en el centro como referencia).\n5. Retirar laurel y servir enseguida, evitando prolongar cocción con el pescado dentro.\n\n## Puntos críticos\n\n- A diferencia del bonito encebollado, la salsa de tomate reducida constituye el elemento principal. Mantener cadena de frío: cocinar no elimina histamina previamente formada. Identificar especie y seguir recomendaciones de AESAN sobre mercurio, especialmente si es atún rojo.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Atún seco | Cocción prolongada | Añadir al final |\n| Salsa líquida | Tomate poco reducido | Reducir antes de añadir pescado |\n\n## Conservación\n\nRefrigerar sin demora a 4 °C o menos y consumir preferiblemente en 24 horas.\n\n## Relaciones dentro del SGCC\n\n- [bonito encebollado con vino blanco](../06_Pescados_y_Mariscos/bonito_encebollado_con_vino_blanco.md)\n- [reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "55",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–55 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Andalucía. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/atun_con_tomate_a_la_andaluza.html",
+  "id": "REC-577",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "atún fresco en dados de 3 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de atún fresco en dados de 3 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de atún fresco en dados de 3 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/atun_con_tomate_a_la_andaluza.md",
+  "source_sha256": "a90b1373f40b868b7c20cc601de5a7f51df93e3b8a62db1e976f8f58549064e1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Mantener el atún refrigerado, revisar espinas y secar los dados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento con aceite 10–12 minutos; añadir ajo, tomate y laurel."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Reducir a fuego suave 20–25 minutos hasta salsa espesa y ajustar sal."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar los dados de atún y cocinar suavemente unos 5–8 minutos según tamaño hasta cocción completa (63 °C en el centro como referencia)."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Retirar laurel y servir enseguida, evitando prolongar cocción con el pescado dentro."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "reducir y ligar salsas",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Atún con tomate a la andaluza",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

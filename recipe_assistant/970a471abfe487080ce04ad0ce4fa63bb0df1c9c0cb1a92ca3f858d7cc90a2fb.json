@@ -1,0 +1,340 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Ajo mataero albaceteño de hígado y pan\n\n## Origen y contexto\n\n**Región:** Albacete, Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 raciones |\n| Tiempo orientativo | 45–60 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de hígado de cerdo de origen autorizado\n- 180 g de panceta fresca\n- 200 g de miga de pan asentado\n- 5 dientes de ajo\n- 500–650 ml de agua caliente\n- 35 ml de aceite de oliva\n- 5 g de pimentón dulce\n- 1 g de comino\n- 1 pizca de canela\n- 25 g de piñones\n- sal y pimienta\n\n**Alérgenos:** Trigo/gluten; piñones.\n\n## Elaboración\n\n1. Cortar panceta e hígado en trozos pequeños. Dorar panceta en cazuela con aceite y reservar parte para el acabado.\n2. Añadir ajo laminado e hígado y cocinar completamente, hasta al menos 71 °C en el centro; retirar y triturar hígado y ajo con parte del agua.\n3. Apartar la cazuela del fuego, añadir pimentón y miga desmenuzada; incorporar el triturado, comino, canela y agua gradualmente.\n4. Cocinar a fuego suave 12–18 minutos, removiendo hasta formar una crema espesa y homogénea. Ajustar sal.\n5. Tostar piñones aparte, distribuirlos con panceta reservada bien caliente y servir con pan.\n\n## Puntos críticos\n\n- Es una preparación de matanza de textura untuosa. La casquería debe ser inspeccionada y cocinarse completamente; no usar hígado crudo. Las cantidades y el triturado son una adaptación doméstica.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Textura seca | Poco líquido | Añadir agua caliente gradualmente |\n| Sabor amargo | Pimentón quemado | Añadir fuera del fuego |\n| Textura granulosa | Triturado insuficiente | Triturar antes de ligar |\n\n## Conservación\n\nEnfriar pronto, refrigerar a 4 °C o menos y consumir en 1–2 días; recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [patorrillo riojano de cordero](../05_Carnes/patorrillo_riojano_de_cordero.md)\n- [reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://rincondelamancha.es/recetas-manchegas/receta-de-ajo-mataero/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "60",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–60 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Albacete, Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/ajo_mataero_albaceteno_de_higado_y_pan.html",
+  "id": "REC-570",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "hígado de cerdo de origen autorizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de hígado de cerdo de origen autorizado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de hígado de cerdo de origen autorizado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de panceta fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de panceta fresca",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miga de pan asentado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de miga de pan asentado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de miga de pan asentado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "500",
+        "raw": "500–650 ml de agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–650 ml de agua caliente",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de pimentón dulce",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de pimentón dulce",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "comino",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 g de comino",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "1 g de comino",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de canela",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de canela",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "piñones",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de piñones",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de piñones",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/ajo_mataero_albaceteno_de_higado_y_pan.md",
+  "source_sha256": "8d29fe5e2d116027c816b2ce71454c2ee276d6e1877a3802cdb67a1d440e9e8a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Cortar panceta e hígado en trozos pequeños. Dorar panceta en cazuela con aceite y reservar parte para el acabado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Añadir ajo laminado e hígado y cocinar completamente, hasta al menos 71 °C en el centro; retirar y triturar hígado y ajo con parte del agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Apartar la cazuela del fuego, añadir pimentón y miga desmenuzada; incorporar el triturado, comino, canela y agua gradualmente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Cocinar a fuego suave 12–18 minutos, removiendo hasta formar una crema espesa y homogénea. Ajustar sal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Tostar piñones aparte, distribuirlos con panceta reservada bien caliente y servir con pan."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "reducir y ligar salsas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Ajo mataero albaceteño de hígado y pan",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

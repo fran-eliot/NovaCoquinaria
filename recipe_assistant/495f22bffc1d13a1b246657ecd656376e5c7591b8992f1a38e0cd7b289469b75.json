@@ -1,0 +1,195 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 14
+    },
+    "text": "\n# Pasta fresca al huevo casera\n\n## Descripción\n\nReceta de referencia centrada en **amasado, reposo, laminado y cocción breve**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Técnica | Amasado, reposo, laminado y cocción breve |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo de uso común o tipo 00\n- 3 huevos L (aproximadamente 160–180 g sin cáscara)\n- harina extra para espolvorear, solo la necesaria\n- 1 pizca de sal opcional\n\n**Alérgenos:** Huevo y gluten (trigo).\n\n## Elaboración\n\n1. Colocar harina sobre una superficie limpia, hacer un hueco central e incorporar los huevos.\n2. Batir los huevos con tenedor y recoger harina poco a poco, evitando que el líquido se escape.\n3. Amasar 8–12 minutos hasta que la masa esté lisa y cohesiva; si está muy seca, humedecer las manos con unas gotas de agua.\n4. Envolver y dejar reposar 30 minutos a temperatura fresca para relajar el gluten; si se prolonga el reposo, refrigerar.\n5. Dividir, aplanar y laminar con rodillo o máquina hasta grosor uniforme. Espolvorear mínimamente para evitar que se adhiera.\n6. Cortar tallarines o láminas y cocer inmediatamente en agua hirviendo con sal unos 2–4 minutos según grosor, comprobando la textura; integrar con salsa ya preparada.\n\n## Puntos críticos\n\n- La hidratación depende del tamaño de los huevos y absorción de harina: no añadir grandes cantidades de agua de golpe. La pasta contiene huevo crudo y requiere manipulación higiénica y cocción completa.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_fresca_al_huevo_casera.html",
+  "id": "REC-306",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo de uso común o tipo 00",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo de uso común o tipo 00",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo de uso común o tipo 00",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L (aproximadamente 160–180 g sin cáscara)",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": true,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L (aproximadamente 160–180 g sin cáscara)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L (aproximadamente 160–180 g sin cáscara)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina extra para espolvorear, solo la necesaria",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "harina extra para espolvorear, solo la necesaria",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "harina extra para espolvorear, solo la necesaria",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/pasta_fresca_al_huevo_casera.md",
+  "source_sha256": "d8855b716373eb34795bd7d67bc07dd8f8fa61d75c8d4cf217081055ae10d7ee",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Colocar harina sobre una superficie limpia, hacer un hueco central e incorporar los huevos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Batir los huevos con tenedor y recoger harina poco a poco, evitando que el líquido se escape."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Amasar 8–12 minutos hasta que la masa esté lisa y cohesiva; si está muy seca, humedecer las manos con unas gotas de agua."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Envolver y dejar reposar 30 minutos a temperatura fresca para relajar el gluten; si se prolonga el reposo, refrigerar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Dividir, aplanar y laminar con rodillo o máquina hasta grosor uniforme. Espolvorear mínimamente para evitar que se adhiera."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Cortar tallarines o láminas y cocer inmediatamente en agua hirviendo con sal unos 2–4 minutos según grosor, comprobando la textura; integrar con salsa ya preparada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    }
+  ],
+  "title": "Pasta fresca al huevo casera",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Baklava de nueces y miel con pasta filo\n\n## Descripción\n\nPreparación de referencia basada en **montaje de capas finas, horneado y almíbar**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16 porciones pequeñas |\n| Técnica principal | Montaje de capas finas, horneado y almíbar |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de pasta filo refrigerada comercial\n- 220 g de nueces picadas\n- 90 g de mantequilla fundida\n- 90 g de azúcar\n- 110 g de miel\n- 130 ml de agua\n- 1 cucharadita de zumo de limón\n- ½ cucharadita de canela molida\n\n**Alérgenos:** Nueces, gluten (trigo) y leche; revisar pasta filo comercial.\n\n## Elaboración\n\n1. Preparar un almíbar calentando agua, azúcar, miel y limón durante 7–9 minutos; retirar y dejar enfriar completamente.\n2. Precalentar el horno a 175 °C y preparar una fuente de unos 20 × 25 cm.\n3. Mezclar nueces picadas con canela.\n4. Disponer varias hojas de filo en la fuente, pincelando cada una ligeramente con mantequilla fundida y manteniendo las hojas sin utilizar cubiertas con paño limpio ligeramente húmedo.\n5. Distribuir la mitad de las nueces, añadir varias hojas pinceladas, repartir el resto de frutos secos y cerrar con las hojas restantes, siempre pinceladas.\n6. Cortar en rombos antes de hornear, con cuchillo afilado, y hornear unos 30–40 minutos hasta dorado uniforme y capas bien cocidas.\n7. Verter gradualmente el almíbar frío sobre la baklava recién horneada, evitando salpicaduras; dejar reposar hasta que se absorba.\n\n## Puntos críticos\n\n- La filo se seca rápidamente y se rompe si se deja descubierta. No empapar con demasiada mantequilla; el almíbar debe ser absorbido sin formar una base encharcada.\n- Ajustar el tiempo de cocción al recipiente, al grosor y al horno. Manipular huevo y lácteos con higiene y mantener frías las preparaciones perecederas.\n- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Textura líquida o poco firme | Cuajado o enfriado insuficiente | Comprobar proporción, tiempo de cocción y reposo |\n| Masa seca o hundida | Exceso o defecto de humedad y temperatura | Controlar dosificación, punto y método de horneado |\n| Capas desiguales | Montaje con componentes a temperaturas diferentes | Enfriar o templar las mezclas según corresponda |\n\n## Conservación\n\nEnfriar rápidamente los postres con huevo o lácteos y refrigerarlos sin demora en recipientes tapados. Las tartas frías, las cremas y los postres con queso deben conservarse refrigerados. Las galletas horneadas completamente y frías pueden guardarse en recipiente limpio, seco y cerrado, según ingredientes y humedad.\n\n## Relaciones dentro del SGCC\n\n- [Hojaldres de manzana y canela](./hojaldres_de_manzana_y_canela.md)\n- [Tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes utilizados realmente, recipientes, cantidades, tiempos, textura y valoración. La formulación no altera las versiones domésticas anteriores ni acredita una comparación con ellas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **montaje de capas finas, horneado y almíbar**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/baklava_de_nueces_y_miel_con_pasta_filo.html",
+  "id": "REC-413",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta filo refrigerada comercial",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de pasta filo refrigerada comercial",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de pasta filo refrigerada comercial",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces picadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de nueces picadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de nueces picadas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de mantequilla fundida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de mantequilla fundida",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "miel",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de miel",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de miel",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "130 ml de agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela molida",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/baklava_de_nueces_y_miel_con_pasta_filo.md",
+  "source_sha256": "11aa058e2ef67e38a39af641fa3b69edf0ba9f5a3b3a3ccc15b8c8d276c0450d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Preparar un almíbar calentando agua, azúcar, miel y limón durante 7–9 minutos; retirar y dejar enfriar completamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Precalentar el horno a 175 °C y preparar una fuente de unos 20 × 25 cm."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Mezclar nueces picadas con canela."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Disponer varias hojas de filo en la fuente, pincelando cada una ligeramente con mantequilla fundida y manteniendo las hojas sin utilizar cubiertas con paño limpio ligeramente húmedo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Distribuir la mitad de las nueces, añadir varias hojas pinceladas, repartir el resto de frutos secos y cerrar con las hojas restantes, siempre pinceladas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cortar en rombos antes de hornear, con cuchillo afilado, y hornear unos 30–40 minutos hasta dorado uniforme y capas bien cocidas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Verter gradualmente el almíbar frío sobre la baklava recién horneada, evitando salpicaduras; dejar reposar hasta que se absorba."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "Tostar frutos secos y semillas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Baklava de nueces y miel con pasta filo",
+  "yield": {
+    "max": "16",
+    "min": "16",
+    "raw": "16 porciones pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

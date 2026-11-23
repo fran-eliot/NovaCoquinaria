@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Croquetas caseras de jamón serrano\n\n## Origen y contexto\n\n**Región:** España, tradición de aprovechamiento. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 22–26 unidades |\n| Tiempo orientativo | 60 min activos más 6–12 h en frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 150 g de jamón serrano picado\n- 80 g de mantequilla\n- 80 g de harina de trigo\n- 700 ml de leche entera\n- 30 g de cebolla muy picada, opcional\n- nuez moscada y pimienta\n- 2 huevos\n- 120 g de pan rallado\n- 40 g de harina para rebozar\n- aceite para freír\n\n**Alérgenos:** Leche, trigo/gluten y huevo.\n\n## Elaboración\n\n1. Fundir mantequilla y pochar cebolla si se utiliza durante 5 min. Añadir jamón y saltear brevemente.\n2. Incorporar los 80 g de harina, remover 2 min y añadir leche templada en varias tandas sin dejar de batir.\n3. Cocer suavemente unos 15–20 min hasta masa espesa que se separe de la cazuela; ajustar nuez moscada y pimienta, probar sal.\n4. Extender en recipiente limpio y poco profundo, cubrir y enfriar rápidamente; refrigerar 6–12 h a 4 °C o menos.\n5. Formar porciones de 30–35 g, pasar por harina, huevo batido y pan rallado; mantener refrigeradas hasta freír.\n6. Freír en tandas a 175–180 °C, 3–5 min según tamaño, hasta doradas y centro bien caliente. Escurrir y servir.\n\n## Puntos críticos\n\n- La bechamel debe estar espesa y completamente cocida antes de enfriar; reducir la sal por el jamón.\n- No dejar masa de leche a temperatura ambiente durante el reposo; separar huevo crudo y croquetas fritas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Croquetas abiertas | Masa blanda o rebozado irregular | Cocer más la bechamel y sellar cobertura |\n| Grumos | Leche añadida de golpe | Añadir gradualmente y batir |\n| Centro frío | Piezas grandes | Reducir tamaño y ajustar fritura |\n\n## Conservación\n\nRefrigerar masa o croquetas preparadas a 4 °C o menos hasta 2 días; congelar porciones rebozadas si se necesita más tiempo. Cocinar completamente tras descongelar en frigorífico.\n\n## Relaciones dentro del SGCC\n\n- [Bechamel sin grumos](../00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras su elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "60 min activos más 6–12 h en frío",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** España, tradición de aprovechamiento. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/croquetas_caseras_de_jamon_serrano.html",
+  "id": "REC-563",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "jamón serrano picado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de jamón serrano picado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de jamón serrano picado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de mantequilla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de harina de trigo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "700 ml de leche entera",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla muy picada, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de cebolla muy picada, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de cebolla muy picada, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "nuez moscada y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "nuez moscada y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "nuez moscada y pimienta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pan rallado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "harina para rebozar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de harina para rebozar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de harina para rebozar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/croquetas_caseras_de_jamon_serrano.md",
+  "source_sha256": "dfa1411a9cbbc20bdc39c012c4da8da4a1bf32e7ab7708fd3b26d171e2da3164",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Fundir mantequilla y pochar cebolla si se utiliza durante 5 min. Añadir jamón y saltear brevemente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Incorporar los 80 g de harina, remover 2 min y añadir leche templada en varias tandas sin dejar de batir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Cocer suavemente unos 15–20 min hasta masa espesa que se separe de la cazuela; ajustar nuez moscada y pimienta, probar sal."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Extender en recipiente limpio y poco profundo, cubrir y enfriar rápidamente; refrigerar 6–12 h a 4 °C o menos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Formar porciones de 30–35 g, pasar por harina, huevo batido y pan rallado; mantener refrigeradas hasta freír."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Freír en tandas a 175–180 °C, 3–5 min según tamaño, hasta doradas y centro bien caliente. Escurrir y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.html",
+      "label": "Bechamel sin grumos",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_bechamel_sin_grumos.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Croquetas caseras de jamón serrano",
+  "yield": {
+    "max": "26",
+    "min": "22",
+    "raw": "22–26 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

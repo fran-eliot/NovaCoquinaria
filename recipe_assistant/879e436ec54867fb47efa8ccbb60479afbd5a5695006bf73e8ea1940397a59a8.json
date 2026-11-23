@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Arroz con pollo, judías verdes y garrofón de inspiración valenciana\n\n## Descripción\n\nPreparación de referencia basada en **dorado, fondo en paella y cocción seca**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica principal | Dorado, fondo en paella y cocción seca |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de arroz redondo\n- 550 g de pollo troceado con hueso\n- 180 g de judías verdes planas en trozos\n- 140 g de garrofón completamente cocido y escurrido\n- 160 g de tomate rallado\n- 3 cucharadas de aceite de oliva\n- una pizca de azafrán\n- 900–1050 ml de agua o caldo caliente, ajustables a paella y fuego\n- sal y una ramita de romero opcional\n\n**Alérgenos:** Revisar el caldo comercial.\n\n## Elaboración\n\n1. Calentar el aceite en una paella amplia, dorar los trozos de pollo por todas sus caras y comprobar que no quedan fragmentos pequeños de hueso.\n2. Incorporar las judías verdes y rehogar 4–5 minutos; añadir tomate rallado y reducir hasta que pierda buena parte del agua.\n3. Verter el agua o caldo, añadir azafrán, sal y garrofón ya cocido; cocer suavemente unos 15–20 minutos para completar el fondo y avanzar la cocción del pollo.\n4. Comprobar que el pollo está completamente cocinado, al menos 74 °C en sus partes más gruesas, y rectificar el volumen de líquido antes de incorporar el arroz.\n5. Repartir el arroz en la paella y cocinar sin remover durante unos 16–19 minutos según variedad, combinando hervor medio y fuego más suave al final.\n6. Dejar reposar 4–5 minutos fuera del fuego; verificar grano cocido y servir.\n\n## Puntos críticos\n\n- Es una adaptación doméstica de inspiración valenciana, no una declaración de receta canónica. La evaporación de una paella ancha cambia mucho según su diámetro y el fuego. El garrofón debe estar completamente cocido.\n- Ajustar la proporción de caldo al tipo de arroz, superficie de la cazuela, potencia del fuego y tiempo real de cocción.\n- Mantener separados los alimentos crudos y los cocinados, comprobar la cocción completa de las proteínas y seguir el etiquetado de productos comerciales.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Arroz seco o duro | Evaporación excesiva o tiempo insuficiente | Revisar volumen de caldo y potencia del fuego |\n| Arroz pastoso | Exceso de líquido, manipulación o reposo prolongado | Medir líquido y respetar el método de cocción |\n| Fondo excesivamente tostado | Calor demasiado intenso o poco líquido | Moderar temperatura y utilizar un recipiente apropiado |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si sobra arroz cocido, distribuirlo en recipientes poco profundos, **enfriarlo rápidamente y refrigerarlo sin demora**. No mantenerlo durante horas a temperatura ambiente: el recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Arroz seco en cazuela base](../12_Plantillas/05_Arroces/arroz_seco_en_cazuela_base.md)\n- [Arroz con pollo y verduras](./arroz_con_pollo_y_verduras.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar los pesos efectivos, variedad de arroz, proporción real de líquido, equipo, tiempo, textura y valoración. No se modifica ni se presupone el resultado de recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado, fondo en paella y cocción seca**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_de_pollo_judias_verdes_y_garrofon_inspiracion_valenciana.html",
+  "id": "REC-370",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pollo troceado con hueso",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de pollo troceado con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de pollo troceado con hueso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "judías verdes planas en trozos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de judías verdes planas en trozos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de judías verdes planas en trozos",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "garrofón completamente cocido y escurrido",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de garrofón completamente cocido y escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de garrofón completamente cocido y escurrido",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de tomate rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de azafrán",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de azafrán",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de azafrán",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo caliente, ajustables a paella y fuego",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1050",
+        "min": "900",
+        "raw": "900–1050 ml de agua o caldo caliente, ajustables a paella y fuego",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "900–1050 ml de agua o caldo caliente, ajustables a paella y fuego",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y una ramita de romero opcional",
+      "optionality": "unknown",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y una ramita de romero opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y una ramita de romero opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_de_pollo_judias_verdes_y_garrofon_inspiracion_valenciana.md",
+  "source_sha256": "c827aca810ef4bcd6a2bcf023df6c034c4f55d9ea71d59572f3eb40382ad7b4c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Calentar el aceite en una paella amplia, dorar los trozos de pollo por todas sus caras y comprobar que no quedan fragmentos pequeños de hueso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Incorporar las judías verdes y rehogar 4–5 minutos; añadir tomate rallado y reducir hasta que pierda buena parte del agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Verter el agua o caldo, añadir azafrán, sal y garrofón ya cocido; cocer suavemente unos 15–20 minutos para completar el fondo y avanzar la cocción del pollo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Comprobar que el pollo está completamente cocinado, al menos 74 °C en sus partes más gruesas, y rectificar el volumen de líquido antes de incorporar el arroz."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Repartir el arroz en la paella y cocinar sin remover durante unos 16–19 minutos según variedad, combinando hervor medio y fuego más suave al final."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Dejar reposar 4–5 minutos fuera del fuego; verificar grano cocido y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Arroz con pollo, judías verdes y garrofón de inspiración valenciana",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

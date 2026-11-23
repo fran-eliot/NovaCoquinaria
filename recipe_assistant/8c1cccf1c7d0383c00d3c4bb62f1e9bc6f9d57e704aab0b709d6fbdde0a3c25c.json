@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Caldo gallego con grelos y alubias\n\n## Origen y contexto\n\n**Región:** Galicia. La ficha propone una versión doméstica basada en la tradición regional; las variantes y las cantidades exactas pueden diferir según localidad y familia. No consta preparación ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Tiempo estimado | 12 h de remojo y 2–3 h de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de alubias blancas secas\n- 450 g de patatas para cocer\n- 350 g de grelos limpios\n- 150–200 g de lacón salado, desalado según producto\n- 1 hueso de jamón de uso alimentario\n- 25 g de unto, opcionales\n- 2–2,5 l de agua potable, según evaporación\n- sal solo al final\n\n**Alérgenos:** Verificar los ingredientes de carnes curadas comerciales.\n\n## Elaboración\n\n1. Remojar las alubias secas 10–12 horas en abundante agua potable; escurrir. Desalar el lacón si corresponde, por separado y refrigerado.\n2. Poner alubias, lacón y hueso de jamón con agua fría en una olla grande; llevar gradualmente a ebullición, retirar espuma y cocer a hervor suave.\n3. Mantener la cocción hasta que las alubias estén próximas a tiernas; el tiempo varía según variedad y antigüedad.\n4. Lavar bien los grelos, retirar tallos muy duros y escaldarlos por separado 2–3 minutos si presentan amargor intenso; escurrir.\n5. Incorporar patatas cascadas en trozos medianos, grelos y unto opcional al caldo. Cocinar 20–30 minutos más hasta que patatas y alubias estén completamente tiernas.\n6. Retirar huesos y fragmentos duros, cortar la carne cocida y devolverla al caldo. Probar antes de añadir sal.\n7. Servir caliente con caldo ligeramente ligado por la patata, conservando la verdura reconocible.\n\n## Puntos críticos\n\n- No confundir las alubias secas con legumbre cocida de conserva: sus tiempos cambian radicalmente. El unto, los huesos y el lacón pueden aportar mucha sal. No dejar huesecillos en las raciones.\n- Comprobar la cocción del ingrediente principal, las instrucciones de alimentos comerciales y el manejo higiénico de productos perecederos.\n- Ajustar agua, tiempos y tamaño de las piezas en la primera elaboración antes de fijar cantidades definitivas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Próximo ajuste |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o tamaño desigual | Comprobar el punto, prolongar o igualar los cortes |\n| Caldo o salsa desequilibrados | Sal previa o reducción excesiva | Salar al final y ajustar con líquido adecuado |\n| Textura demasiado blanda | Sobrecocción o excesiva agitación | Incorporar al final los ingredientes delicados |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Los preparados con huevos, lácteos, carnes y pescados requieren conservación refrigerada y manipulación higiénica; recalentar completamente las raciones que se vayan a consumir calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Alubias blancas estofadas](./alubias_estofadas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.spain.info/es/receta/caldo-gallego/)\n\n## Registro de prueba\n\nPendiente de anotar materia prima concreta, cantidades efectivas, tiempos, textura, resultado y valoración; ninguna versión propuesta sustituye elaboraciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/caldo_gallego_con_grelos_y_alubias.html",
+  "id": "REC-430",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas secas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de alubias blancas secas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de alubias blancas secas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas para cocer",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de patatas para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de patatas para cocer",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "grelos limpios",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de grelos limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de grelos limpios",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "lacón salado, desalado según producto",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "150",
+        "raw": "150–200 g de lacón salado, desalado según producto",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "150–200 g de lacón salado, desalado según producto",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "hueso de jamón de uso alimentario",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hueso de jamón de uso alimentario",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 hueso de jamón de uso alimentario",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "unto, opcionales",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de unto, opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de unto, opcionales",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable, según evaporación",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2.5",
+        "min": "2",
+        "raw": "2–2,5 l de agua potable, según evaporación",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "2–2,5 l de agua potable, según evaporación",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo al final",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo al final",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/caldo_gallego_con_grelos_y_alubias.md",
+  "source_sha256": "28e44aab9411ba726dc58d5eddfb1abddff3b723930f1b578e71deacb0516bdb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Remojar las alubias secas 10–12 horas en abundante agua potable; escurrir. Desalar el lacón si corresponde, por separado y refrigerado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Poner alubias, lacón y hueso de jamón con agua fría en una olla grande; llevar gradualmente a ebullición, retirar espuma y cocer a hervor suave."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mantener la cocción hasta que las alubias estén próximas a tiernas; el tiempo varía según variedad y antigüedad."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Lavar bien los grelos, retirar tallos muy duros y escaldarlos por separado 2–3 minutos si presentan amargor intenso; escurrir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Incorporar patatas cascadas en trozos medianos, grelos y unto opcional al caldo. Cocinar 20–30 minutos más hasta que patatas y alubias estén completamente tiernas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Retirar huesos y fragmentos duros, cortar la carne cocida y devolverla al caldo. Probar antes de añadir sal."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir caliente con caldo ligeramente ligado por la patata, conservando la verdura reconocible."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Caldo gallego con grelos y alubias",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

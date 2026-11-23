@@ -1,0 +1,278 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Tahdig de arroz con azafrán y yogur, de inspiración persa\n\n## Descripción\n\nPreparación de referencia basada en **cocción parcial, escurrido y formación de costra de arroz**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica principal | Cocción parcial, escurrido y formación de costra de arroz |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de arroz basmati\n- 70 g de yogur natural sin azúcar\n- 1 yema de huevo pasteurizada, opcional\n- 1 pizca generosa de azafrán\n- 2 cucharadas de agua caliente para infusionar\n- 40 g de mantequilla o aceite de oliva\n- sal y agua abundante para hervir\n\n**Alérgenos:** Leche; huevo si se emplea yema.\n\n## Elaboración\n\n1. Enjuagar el arroz varias veces y dejarlo en remojo 20–30 minutos si lo recomienda su envase; escurrir.\n2. Infusionar el azafrán en dos cucharadas de agua caliente durante 5 minutos.\n3. Hervir el arroz en agua ligeramente salada unos 5–7 minutos, hasta que el exterior esté flexible pero el centro aún firme; escurrir por completo.\n4. Mezclar aproximadamente una tercera parte del arroz con yogur, azafrán y yema pasteurizada opcional.\n5. Calentar grasa en cazuela antiadherente de fondo grueso a fuego medio-bajo; repartir la mezcla de arroz con yogur compactándola ligeramente y colocar encima el arroz restante suelto.\n6. Tapar la cazuela con tapa bien ajustada y paño apropiado colocado de forma que nunca toque la llama ni las resistencias; cocinar a fuego muy bajo 25–35 minutos.\n7. Apagar y reposar unos minutos. Volcar con cuidado o servir levantando la costra dorada sin romperla; comprobar que el arroz esté completamente cocido.\n\n## Puntos críticos\n\n- Es una aproximación doméstica de inspiración persa. La costra necesita fondo bien repartido y fuego bajo; un fuego excesivo la quema antes de cocer el arroz. Si se emplea yema, debe estar pasteurizada y la mezcla debe cocinarse completamente.\n- Ajustar la proporción de caldo al tipo de arroz, superficie de la cazuela, potencia del fuego y tiempo real de cocción.\n- Mantener separados los alimentos crudos y los cocinados, comprobar la cocción completa de las proteínas y seguir el etiquetado de productos comerciales.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Arroz seco o duro | Evaporación excesiva o tiempo insuficiente | Revisar volumen de caldo y potencia del fuego |\n| Arroz pastoso | Exceso de líquido, manipulación o reposo prolongado | Medir líquido y respetar el método de cocción |\n| Fondo excesivamente tostado | Calor demasiado intenso o poco líquido | Moderar temperatura y utilizar un recipiente apropiado |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si sobra arroz cocido, distribuirlo en recipientes poco profundos, **enfriarlo rápidamente y refrigerarlo sin demora**. No mantenerlo durante horas a temperatura ambiente: el recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati por absorción](./arroz_basmati_por_absorcion.md)\n- [Cocer arroz por absorción](../00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar los pesos efectivos, variedad de arroz, proporción real de líquido, equipo, tiempo, textura y valoración. No se modifica ni se presupone el resultado de recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **cocción parcial, escurrido y formación de costra de arroz**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/tahdig_persa_de_arroz_con_azafran_y_yogur.html",
+  "id": "REC-373",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz basmati",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz basmati",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural sin azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de yogur natural sin azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de yogur natural sin azúcar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "yema de huevo pasteurizada, opcional",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 yema de huevo pasteurizada, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 yema de huevo pasteurizada, opcional",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "generosa de azafrán",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca generosa de azafrán",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca generosa de azafrán",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua caliente para infusionar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua caliente para infusionar",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua caliente para infusionar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla o aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de mantequilla o aceite de oliva",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de mantequilla o aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y agua abundante para hervir",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y agua abundante para hervir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y agua abundante para hervir",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/tahdig_persa_de_arroz_con_azafran_y_yogur.md",
+  "source_sha256": "a29ffb112268f0b73b353c825f08ce8fa42e45276127fc163ddbd667be0cb95e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Enjuagar el arroz varias veces y dejarlo en remojo 20–30 minutos si lo recomienda su envase; escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Infusionar el azafrán en dos cucharadas de agua caliente durante 5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Hervir el arroz en agua ligeramente salada unos 5–7 minutos, hasta que el exterior esté flexible pero el centro aún firme; escurrir por completo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Mezclar aproximadamente una tercera parte del arroz con yogur, azafrán y yema pasteurizada opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Calentar grasa en cazuela antiadherente de fondo grueso a fuego medio-bajo; repartir la mezcla de arroz con yogur compactándola ligeramente y colocar encima el arroz restante suelto."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Tapar la cazuela con tapa bien ajustada y paño apropiado colocado de forma que nunca toque la llama ni las resistencias; cocinar a fuego muy bajo 25–35 minutos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Apagar y reposar unos minutos. Volcar con cuidado o servir levantando la costra dorada sin romperla; comprobar que el arroz esté completamente cocido."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.html",
+      "label": "Cocer arroz por absorción",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_arroz_por_absorcion.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Tahdig de arroz con azafrán y yogur, de inspiración persa",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

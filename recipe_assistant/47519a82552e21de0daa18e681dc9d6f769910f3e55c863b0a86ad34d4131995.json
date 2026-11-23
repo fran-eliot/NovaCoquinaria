@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Espárragos verdes con salsa de yogur y limón\n\n## Descripción\n\nPreparación de referencia centrada en **plancha rápida y salsa fría**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Plancha rápida y salsa fría |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de espárragos verdes;\n- 160 g de yogur natural;\n- 1 cucharada de zumo de limón;\n- 1 cucharada de aceite de oliva;\n- ½ diente de ajo rallado, opcional;\n- sal, pimienta y perejil picado;\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Lavar los espárragos y retirar la parte inferior leñosa de los tallos.\n2. Secarlos bien y calentar plancha o sartén amplia con aceite a fuego medio-alto.\n3. Cocinar los espárragos 6–9 minutos orientativos, dándoles la vuelta hasta que queden tiernos y ligeramente dorados.\n4. Mezclar yogur frío con limón, ajo opcional, sal y pimienta hasta obtener una salsa uniforme.\n5. Probar la salsa y ajustar acidez antes de usarla.\n6. Servir los espárragos calientes con la salsa fría al lado y perejil opcional.\n\n## Puntos críticos\n\n- Los tallos gruesos requieren más tiempo; los finos se queman antes. Mantener la salsa de yogur refrigerada hasta servir.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |\n| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |\n| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Yogur natural](../11_Despensa/14_Huevos_Lacteos/yogur_natural.md)\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **plancha rápida y salsa fría**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/esparragos_verdes_con_salsa_de_yogur_y_limon.html",
+  "id": "REC-0287",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espárragos verdes;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de espárragos verdes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de espárragos verdes;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de yogur natural;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de yogur natural;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo rallado, opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ diente de ajo rallado, opcional;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "½ diente de ajo rallado, opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y perejil picado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y perejil picado;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y perejil picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/esparragos_verdes_con_salsa_de_yogur_y_limon.md",
+  "source_sha256": "94d792bcf60c605cd683d5c97ae467a84ff31490b4059781d7bd3cc223439f89",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar los espárragos y retirar la parte inferior leñosa de los tallos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Secarlos bien y calentar plancha o sartén amplia con aceite a fuego medio-alto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Cocinar los espárragos 6–9 minutos orientativos, dándoles la vuelta hasta que queden tiernos y ligeramente dorados."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Mezclar yogur frío con limón, ajo opcional, sal y pimienta hasta obtener una salsa uniforme."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Probar la salsa y ajustar acidez antes de usarla."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir los espárragos calientes con la salsa fría al lado y perejil opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Espárragos verdes con salsa de yogur y limón",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

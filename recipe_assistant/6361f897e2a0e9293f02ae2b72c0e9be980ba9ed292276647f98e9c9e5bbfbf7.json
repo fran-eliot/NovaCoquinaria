@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Okonomiyaki de col y cebolleta\n\n## Descripción\n\nPreparación de referencia de inspiración asiática centrada en **masa ligada con huevo y cocción en sartén**. No consta que esta fórmula se haya elaborado ni valorado en casa. Las cantidades son una base de prueba y las adaptaciones de ingredientes se distinguen de las versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Técnica | Masa ligada con huevo y cocción en sartén |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de repollo o col blanca finamente cortada;\n- 2 huevos L;\n- 100 g de harina de trigo;\n- 100 ml de agua o caldo suave;\n- 60 g de cebolleta picada;\n- 2 cucharaditas de salsa de soja clara;\n- 1 cucharada de aceite neutro;\n- 2 cucharadas de salsa tipo okonomiyaki o mezcla de Worcestershire y tomate como adaptación;\n- mayonesa opcional para servir;\n\n**Alérgenos:** Huevo, gluten (trigo), soja; pescado según Worcestershire o salsa comercial; huevo en mayonesa.\n\n## Elaboración\n\n1. Lavar y cortar col muy fina y cebolleta; escurrir bien.\n2. Batir huevos con agua y soja, añadir harina y mezclar hasta una masa sin grumos grandes.\n3. Integrar col y cebolleta, procurando que las verduras queden ligadas pero no sumergidas en líquido.\n4. Calentar sartén antiadherente de 22–24 cm con aceite y verter la mitad de la mezcla formando tortita de 2 cm aproximadamente.\n5. Cocinar a fuego medio-bajo 5–7 minutos, dar la vuelta con espátula ancha o plato y cocinar otros 5–7 minutos hasta masa y huevo completamente cocidos.\n6. Repetir con el resto y servir con salsa y mayonesa opcionales.\n\n## Puntos críticos\n\n- Cocinar el **centro de la tortita de col, harina y huevo** completamente; un exterior dorado no garantiza que el interior esté cuajado.\n- Conservar la **masa cruda con huevo refrigerada** hasta cocinarla y evitar contaminación cruzada con verduras destinadas a consumirse listas.\n- Comprobar alérgenos de soja, trigo y huevo, y de la salsa comercial; la combinación de Worcestershire con tomate es una adaptación, no una reproducción exacta de la salsa específica.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Centro de la tortita crudo | Masa demasiado gruesa o fuego demasiado fuerte | Mantener aproximadamente 2 cm de grosor, cocinar a fuego medio-bajo y comprobar el centro con huevo y harina |\n| Tortita que se rompe al darle la vuelta | Mezcla poco ligada o giro prematuro | Distribuir bien col y masa y usar una espátula ancha o plato cuando la primera cara tenga estructura |\n| Mezcla demasiado acuosa | Col mal escurrida o exceso de líquido respecto a la harina | Escurrir las verduras antes de incorporarlas y registrar la textura de la primera tanda |\n| Cobertura demasiado salada | Salsa comercial de okonomiyaki o Worcestershire concentrada | Probar la salsa por separado y dosificarla al servir; no atribuir el problema a miso que esta fórmula no contiene |\n\n## Conservación\n\nMantener la masa cruda con huevo refrigerada hasta cocinarla. Servir las tortitas recién hechas o enfriar rápidamente las sobrantes y guardarlas tapadas en frigorífico; conservar por separado las salsas y la mayonesa opcional conforme a sus etiquetas. Recalentar completamente las porciones y comprobar que la masa esté cocida en el centro; esta receta no lleva arroz y no requiere indicaciones específicas de arroz cocido.\n\n## Relaciones dentro del SGCC\n\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, marca y concentración de salsas, tiempo, resultado y valoración antes de clasificar la receta como cocinada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/okonomiyaki_de_col_y_cebolleta.html",
+  "id": "REC-275",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "repollo o col blanca finamente cortada;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de repollo o col blanca finamente cortada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de repollo o col blanca finamente cortada;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo suave;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta picada;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de cebolleta picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de cebolleta picada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de salsa de soja clara;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de salsa de soja clara;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa tipo okonomiyaki o mezcla de Worcestershire y tomate como adaptación;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa tipo okonomiyaki o mezcla de Worcestershire y tomate como adaptación;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa tipo okonomiyaki o mezcla de Worcestershire y tomate como adaptación;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "mayonesa opcional para servir;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "mayonesa opcional para servir;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "mayonesa opcional para servir;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/okonomiyaki_de_col_y_cebolleta.md",
+  "source_sha256": "e6af11734f79e0a9d1995cddab156a9afc0f3671cd1fe75a7c3bc38daccf559f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Lavar y cortar col muy fina y cebolleta; escurrir bien."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Batir huevos con agua y soja, añadir harina y mezclar hasta una masa sin grumos grandes."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Integrar col y cebolleta, procurando que las verduras queden ligadas pero no sumergidas en líquido."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar sartén antiadherente de 22–24 cm con aceite y verter la mitad de la mezcla formando tortita de 2 cm aproximadamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Cocinar a fuego medio-bajo 5–7 minutos, dar la vuelta con espátula ancha o plato y cocinar otros 5–7 minutos hasta masa y huevo completamente cocidos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Repetir con el resto y servir con salsa y mayonesa opcionales."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Okonomiyaki de col y cebolleta",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Canelones de Sant Esteve de carnes asadas\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación doméstica de referencia basada en los rasgos del plato; no se atribuye elaboración ni valoración previas y se identifican adaptaciones cuando corresponde.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 raciones, 18 canelones |\n| Tiempo orientativo | 90–110 min usando carnes cocinadas y refrigeradas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 18 placas de canelones secos\n- 450 g de carnes asadas sobrantes, sin huesos ni piel, correctamente conservadas\n- 180 g de cebolla\n- 2 cucharadas de aceite de oliva\n- 500 ml de leche entera para bechamel\n- 45 g de mantequilla\n- 45 g de harina de trigo\n- 90 g de queso rallado para gratinar\n- 100–150 ml de caldo de carne suave para ligar el relleno\n- nuez moscada, pimienta y sal\n\n**Alérgenos:** Gluten (trigo), leche; revisar pasta y queso comerciales.\n\n## Elaboración\n\n1. Utilizar únicamente carnes asadas previamente cocinadas, refrigeradas oportunamente y dentro de su periodo seguro de conservación; retirar huesos, cartílagos y piel gruesa.\n2. Cocer las placas de canelones según el envase o hidratar si son precocidas. Separar sobre superficie limpia.\n3. Pochar cebolla finamente picada en aceite 10 minutos; triturar o picar las carnes con la cebolla y añadir caldo gradualmente hasta obtener relleno jugoso pero consistente.\n4. Para la bechamel, derretir mantequilla, cocinar harina 2 minutos y añadir leche caliente poco a poco sin dejar de remover; cocinar hasta que espese, condimentando con nuez moscada y sal.\n5. Rellenar las placas y enrollar 18 canelones. Disponerlos en fuente apta para horno sobre una capa delgada de bechamel.\n6. Cubrir con la bechamel restante y espolvorear queso rallado.\n7. Hornear a 190 °C durante 20–30 minutos, hasta que el centro esté completamente caliente (74 °C como objetivo conservador para sobras recalentadas) y la superficie gratinada.\n8. Reposar brevemente y servir, sin reutilizar repetidamente las sobras.\n\n## Puntos críticos\n\n- La tradición de Sant Esteve aprovecha carnes del asado festivo, pero solo si se conservaron correctamente. Esta ficha no presupone disponibilidad de sobras seguras; pueden asarse carnes frescas para el relleno. La temperatura del centro importa más que el dorado del queso.\n- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima preparación |\n|---|---|---|\n| Interior firme o poco cocido | Calor o tiempo insuficientes | Comprobar el centro y ajustar la cocción |\n| Preparación demasiado húmeda | Líquido excesivo o escurrido insuficiente | Corregir hidratación y reducción |\n| Sabor desequilibrado | Sal o condimentos excesivos | Probar y rectificar gradualmente |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. Los platos con pescado, huevos, carnes cocinadas o leche requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Canelones de espinacas y setas gratinados](./canelones_de_espinacas_y_setas_gratinados.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades y materias primas realmente utilizadas, tiempos, texturas y valoración. No se sustituye ninguna versión anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "90–110 min usando carnes cocinadas y refrigeradas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/canelones_de_sant_esteve_de_carnes_asadas.html",
+  "id": "REC-511",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "placas de canelones secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "18",
+        "min": "18",
+        "raw": "18 placas de canelones secos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "18 placas de canelones secos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "carnes asadas sobrantes, sin huesos ni piel, correctamente conservadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de carnes asadas sobrantes, sin huesos ni piel, correctamente conservadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de carnes asadas sobrantes, sin huesos ni piel, correctamente conservadas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera para bechamel",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera para bechamel",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera para bechamel",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de mantequilla",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de harina de trigo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado para gratinar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de queso rallado para gratinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de queso rallado para gratinar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne suave para ligar el relleno",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 ml de caldo de carne suave para ligar el relleno",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–150 ml de caldo de carne suave para ligar el relleno",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "nuez moscada, pimienta y sal",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "nuez moscada, pimienta y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "nuez moscada, pimienta y sal",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/canelones_de_sant_esteve_de_carnes_asadas.md",
+  "source_sha256": "0ff959c11b9d58fd4689cb13f922776993629f9e1ab9fe470d2d14aa12a6e852",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Utilizar únicamente carnes asadas previamente cocinadas, refrigeradas oportunamente y dentro de su periodo seguro de conservación; retirar huesos, cartílagos y piel gruesa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Cocer las placas de canelones según el envase o hidratar si son precocidas. Separar sobre superficie limpia."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla finamente picada en aceite 10 minutos; triturar o picar las carnes con la cebolla y añadir caldo gradualmente hasta obtener relleno jugoso pero consistente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Para la bechamel, derretir mantequilla, cocinar harina 2 minutos y añadir leche caliente poco a poco sin dejar de remover; cocinar hasta que espese, condimentando con nuez moscada y sal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Rellenar las placas y enrollar 18 canelones. Disponerlos en fuente apta para horno sobre una capa delgada de bechamel."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Cubrir con la bechamel restante y espolvorear queso rallado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Hornear a 190 °C durante 20–30 minutos, hasta que el centro esté completamente caliente (74 °C como objetivo conservador para sobras recalentadas) y la superficie gratinada."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Reposar brevemente y servir, sin reutilizar repetidamente las sobras."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Canelones de Sant Esteve de carnes asadas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "6 raciones, 18 canelones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

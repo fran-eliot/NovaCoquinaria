@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Pasta con ricotta y limón\n\n## Descripción\n\nPasta cremosa con ricotta, limón y pimienta, integrada fuera del fuego. Es una preparación rápida cuya salsa se forma sin nata mediante la humedad de la pasta y el queso fresco.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 12–15 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Ligado suave con queso fresco y calor residual |\n\n## Ingredientes\n\n- 200 g de linguine o pasta corta seca\n- 150 g de ricotta fresca pasteurizada, bien refrigerada\n- ralladura fina de 1 limón lavado\n- 1–2 cucharadas de zumo de limón, ajustables\n- 20 g de Parmigiano Reggiano rallado, opcional\n- 1 cucharada de aceite de oliva virgen extra\n- pimienta negra al gusto\n- sal para la pasta\n- agua de cocción reservada\n\n**Alérgenos:** **Gluten** y **leche**.\n\n## Mise en place\n\nLavar el limón antes de rallarlo, evitando la parte blanca amarga. Preparar ricotta fría y queso opcional en un bol grande. Conservar los lácteos refrigerados hasta el momento de uso.\n\n## Elaboración\n\n### 1. Preparar mezcla\n\nMezclar ricotta con ralladura de limón, aceite, pimienta y un poco de queso rallado opcional; reservar el zumo para ajustar al final.\n\n### 2. Cocer la pasta\n\nCocer en agua salada hasta el punto deseado; reservar una taza de agua de cocción antes de escurrir.\n\n### 3. Ajustar crema\n\nAñadir al bol 2–3 cucharadas de agua de cocción que haya perdido el calor intenso, batiendo hasta lograr una crema capaz de recubrir la pasta.\n\n### 4. Mezclar fuera del fuego\n\nAñadir la pasta caliente al bol y mover con rapidez. Incorporar pequeñas cantidades de agua templada si es necesario; evitar cocinar directamente la ricotta a fuego fuerte.\n\n### 5. Equilibrar\n\nAñadir el zumo de limón poco a poco, probar y corregir sal y pimienta. Servir inmediatamente con más ralladura opcional.\n\n## Puntos críticos\n\n- El queso fresco puede granear o soltar agua si se somete a calor excesivo.\n- La acidez del limón varía: añadir el zumo progresivamente.\n- No dejar la ricotta mucho tiempo fuera de refrigeración durante la mise en place.\n\n## Perfil esperado\n\nPasta untuosa y fresca, con notas cítricas delicadas y salsa blanca adherida sin exceso de líquido.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con espinacas | Añadir 100 g de hojas cocinadas y bien escurridas |\n| Con guisantes | Añadir 100 g de guisantes cocidos y calientes antes de mezclar |\n| Sin Parmigiano | Omitirlo y ajustar sal al final |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Salsa granulosa | Exceso de calor | Mezclar en bol fuera del fuego |\n| Salsa agria | Demasiado limón | Añadir poco a poco y probar |\n| Pasta seca | Poca fase acuosa | Reservar y añadir agua de cocción gradualmente |\n\n## Conservación\n\nConsumir preferiblemente recién preparada. Enfriar las sobras sin demoras y refrigerar en recipientes tapados y poco profundos. Recalentar completamente cuando corresponda; la salsa puede perder textura y requerir algo de líquido. No dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Integrar salsas sensibles al calor](../00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md)\n- [Pasta con salsa](../12_Plantillas/04_Cocciones/pasta_con_salsa.md)\n- [Diagnóstico de pasta y salsas](../98_Tablas/07_Comparativas/diagnostico_pasta_y_salsas.md)\n\n## Principio de NovaCoquinaria\n\n> En una salsa de ricotta, la textura se gobierna con humedad y calor residual, no con hervor.\n\n## Utilizado por\n\nReceta de referencia del módulo **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/pasta_limon_ricotta.html",
+  "id": "REC-0116",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "linguine o pasta corta seca",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de linguine o pasta corta seca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de linguine o pasta corta seca",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta fresca pasteurizada, bien refrigerada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de ricotta fresca pasteurizada, bien refrigerada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de ricotta fresca pasteurizada, bien refrigerada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de 1 limón lavado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de 1 limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de 1 limón lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, ajustables",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de zumo de limón, ajustables",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de zumo de limón, ajustables",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "Parmigiano Reggiano rallado, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de Parmigiano Reggiano rallado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de Parmigiano Reggiano rallado, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra al gusto",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "pimienta negra al gusto",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal para la pasta",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal para la pasta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal para la pasta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción reservada",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua de cocción reservada",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua de cocción reservada",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar el limón antes de rallarlo, evitando la parte blanca amarga. Preparar ricotta fría y queso opcional en un bol grande. Conservar los lácteos refrigerados hasta el momento de uso.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/pasta_limon_ricotta.md",
+  "source_sha256": "76b085218f51f686c13f1e098c57731c97e895c2460239bf75eeecf98d527dd1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Preparar mezcla\n\nMezclar ricotta con ralladura de limón, aceite, pimienta y un poco de queso rallado opcional; reservar el zumo para ajustar al final.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Cocer la pasta\n\nCocer en agua salada hasta el punto deseado; reservar una taza de agua de cocción antes de escurrir.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Ajustar crema\n\nAñadir al bol 2–3 cucharadas de agua de cocción que haya perdido el calor intenso, batiendo hasta lograr una crema capaz de recubrir la pasta.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Mezclar fuera del fuego\n\nAñadir la pasta caliente al bol y mover con rapidez. Incorporar pequeñas cantidades de agua templada si es necesario; evitar cocinar directamente la ricotta a fuego fuerte.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Equilibrar\n\nAñadir el zumo de limón poco a poco, probar y corregir sal y pimienta. Servir inmediatamente con más ralladura opcional.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.html",
+      "label": "Integrar salsas sensibles al calor",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md"
+    }
+  ],
+  "title": "Pasta con ricotta y limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

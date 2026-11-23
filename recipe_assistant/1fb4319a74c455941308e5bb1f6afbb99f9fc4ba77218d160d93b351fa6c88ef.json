@@ -1,0 +1,313 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 14
+    },
+    "text": "\n# Bacalao al horno con patatas y cebolla\n\n## Descripción\n\nBacalao sobre patatas y cebolla previamente horneadas. Se escalonan los tiempos para que la guarnición quede tierna sin resecar el pescado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 min |\n| Horneado | 40–55 min en total, orientativos |\n| Técnica | Horno escalonado |\n\n## Ingredientes\n\n- 650–750 g de bacalao fresco o desalado, listo para cocinar;\n- 600 g de patatas;\n- 1 cebolla grande (180 g);\n- 3 cucharadas de aceite de oliva;\n- 2 dientes de ajo;\n- 100 ml de agua o caldo, opcional;\n- perejil y pimienta;\n- sal solo después de comprobar el bacalao.\n\n**Alérgeno:** pescado. Revisar caldo si se utiliza.\n\n## Elaboración\n\n1. Si el bacalao está en salazón, desalar previamente en refrigeración según grosor e instrucciones del producto. Descongelar en refrigeración si procede.\n2. Precalentar horno a **200 °C, calor arriba y abajo**.\n3. Cortar patatas en rodajas finas y cebolla en juliana. Mezclar con aceite y pimienta.\n4. Hornear verduras 25–35 minutos, removiendo con cuidado; comprobar que las patatas están casi tiernas. Añadir un poco de agua o caldo si se secan demasiado.\n5. Colocar bacalao seco y sin espinas sobre la guarnición. Añadir ajo laminado y un hilo de aceite.\n6. Hornear unos 10–18 minutos adicionales, según grosor, hasta alcanzar **63 °C en el centro** como referencia conservadora.\n7. Probar, ajustar sal y terminar con perejil.\n\n## Puntos críticos\n\n- No introducir bacalao al inicio: se secaría antes de que las patatas estén listas.\n- El bacalao desalado puede aportar sal.\n- Revisar espinas.\n- Evitar que el ajo se queme.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con pimiento | Hornear con las patatas |\n| Con vino blanco | Añadir una pequeña cantidad a la guarnición |\n| Con limón | Incorporar al servir |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Patatas duras | Corte grueso o poco horneado previo | Prolongar antes del pescado |\n| Bacalao seco | Entró demasiado pronto | Escalonar |\n| Demasiado salado | Desalado insuficiente | Revisar proceso |\n\n## Conservación\n\nRefrigerar rápidamente y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao](../11_Despensa/04_Pescados/bacalao.md)\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n\n## Principio de NovaCoquinaria\n\n> La guarnición se adelanta; el bacalao entra al final para conservar lascas jugosas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "55",
+      "min": "40",
+      "phase": "baking",
+      "raw": "40–55 min en total, orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/bacalao_al_horno_con_patatas.html",
+  "id": "REC-0064",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bacalao fresco o desalado, listo para cocinar;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "650",
+        "raw": "650–750 g de bacalao fresco o desalado, listo para cocinar;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "650–750 g de bacalao fresco o desalado, listo para cocinar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de patatas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de patatas;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo, opcional;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil y pimienta;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo después de comprobar el bacalao.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo después de comprobar el bacalao.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo después de comprobar el bacalao.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/bacalao_al_horno_con_patatas.md",
+  "source_sha256": "d926a39a863b217b7d8e0e8ed795979e32e2b4af26d91c810f514b75fe8d7ed1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Si el bacalao está en salazón, desalar previamente en refrigeración según grosor e instrucciones del producto. Descongelar en refrigeración si procede."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Precalentar horno a **200 °C, calor arriba y abajo**."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cortar patatas en rodajas finas y cebolla en juliana. Mezclar con aceite y pimienta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Hornear verduras 25–35 minutos, removiendo con cuidado; comprobar que las patatas están casi tiernas. Añadir un poco de agua o caldo si se secan demasiado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Colocar bacalao seco y sin espinas sobre la guarnición. Añadir ajo laminado y un hilo de aceite."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 10–18 minutos adicionales, según grosor, hasta alcanzar **63 °C en el centro** como referencia conservadora."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Probar, ajustar sal y terminar con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 83,
+        "start_line": 83
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 84,
+        "start_line": 84
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Bacalao al horno con patatas y cebolla",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

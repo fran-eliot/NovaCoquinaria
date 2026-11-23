@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 14
+    },
+    "text": "\n# Koftas de ternera al horno con comino\n\n## Descripción\n\nPreparación de referencia basada en **mezcla de carne condimentada, formado y horno**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Mezcla de carne condimentada, formado y horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de ternera picada;\n- 100 g de cebolla rallada y bien escurrida;\n- 2 dientes de ajo picados;\n- 1 cucharadita de comino molido;\n- 1 cucharadita de pimentón dulce;\n- 1 cucharada de perejil picado;\n- 1 cucharada de aceite de oliva;\n- sal y pimienta;\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Precalentar el horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel apto.\n2. Mezclar ternera picada fría, cebolla escurrida, ajo, comino, pimentón, perejil, sal y pimienta hasta distribuir uniformemente sin amasar en exceso.\n3. Formar 8 cilindros compactos de tamaño parecido y disponer separados sobre la bandeja; pincelar ligeramente con aceite.\n4. Hornear 12–18 minutos orientativos según grosor, volteando una vez para dorar de forma uniforme.\n5. Comprobar que el centro de la carne picada alcance al menos 71 °C; prolongar si hace falta sin confiar solo en el color.\n6. Reposar brevemente y servir con verduras y salsa fría aparte si se desea.\n\n## Puntos críticos\n\n- La carne picada necesita alcanzar temperatura interior segura; la cebolla húmeda puede romper el formado. Para brochetas de madera, seguir las indicaciones de remojo y uso.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Comino](../11_Despensa/08_Especias/comino.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/koftas_de_ternera_al_horno_con_comino.html",
+  "id": "REC-0266",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "ternera picada;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de ternera picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de ternera picada;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla rallada y bien escurrida;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla rallada y bien escurrida;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla rallada y bien escurrida;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/koftas_de_ternera_al_horno_con_comino.md",
+  "source_sha256": "3e61688818f18c4ad37316a64dab12a72bb211efcd48c291096b953691d60d3a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel apto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Mezclar ternera picada fría, cebolla escurrida, ajo, comino, pimentón, perejil, sal y pimienta hasta distribuir uniformemente sin amasar en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Formar 8 cilindros compactos de tamaño parecido y disponer separados sobre la bandeja; pincelar ligeramente con aceite."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Hornear 12–18 minutos orientativos según grosor, volteando una vez para dorar de forma uniforme."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Comprobar que el centro de la carne picada alcance al menos 71 °C; prolongar si hace falta sin confiar solo en el color."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Reposar brevemente y servir con verduras y salsa fría aparte si se desea."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Koftas de ternera al horno con comino",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

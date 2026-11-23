@@ -1,0 +1,313 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Porra antequerana de tomate y pan\n\n## Origen y contexto\n\n**Región:** Antequera, Málaga, Andalucía. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 cuencos |\n| Tiempo orientativo | 25 min más 2 h de refrigeración |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de tomates maduros\n- 180 g de pan blanco asentado, sin corteza dura\n- 1 pimiento verde pequeño de 90 g\n- 1 diente de ajo pequeño\n- 80 ml de aceite de oliva virgen extra\n- 20 ml de vinagre de vino, opcional y ajustable\n- 2 huevos L para guarnición\n- 80 g de jamón serrano, opcional\n- sal y agua fría solo si es imprescindible\n\n**Alérgenos:** Gluten (pan), huevo; posibles sulfitos en vinagre y alérgenos de jamón comercial.\n\n## Elaboración\n\n1. Lavar los tomates y el pimiento y pelar el ajo. Retirar del pimiento las semillas y las partes duras.\n2. Triturar tomates, pimiento y ajo hasta obtener una base uniforme. Pasar por colador si se desea retirar pieles y semillas.\n3. Incorporar el pan en trozos y dejarlo hidratar 5–10 minutos en la mezcla; triturar hasta que espese.\n4. Agregar el aceite de oliva poco a poco mientras se sigue triturando para emulsionar una crema densa. Añadir vinagre opcional y sal al gusto.\n5. Cocer los huevos hasta que claras y yemas estén completamente cuajadas; enfriar, pelar y picar.\n6. Refrigerar la porra durante al menos 2 horas en recipiente tapado; no dejarla a temperatura ambiente.\n7. Servir muy fría con huevo cocido picado y jamón opcional.\n\n## Puntos críticos\n\n- La porra antequerana suele ser más densa que el gazpacho. Hidratar el pan con el propio tomate antes de decidir si necesita agua.\n- Incorporar el aceite en hilo mientras se tritura para obtener una emulsión uniforme. La textura debe sostener la guarnición.\n- Cocer completamente los huevos de guarnición y enfriarlos antes de añadirlos; la base de tomate se prepara en frío.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Crema demasiado espesa | Pan muy seco o tomate poco jugoso | Dejar hidratar el pan y ajustar con pequeñas cantidades de agua fría solo si es imprescindible |\n| Crema aguada | Tomate muy acuoso o hidratación excesiva | Evitar añadir agua, dejar hidratar el pan y revisar su proporción en la próxima prueba |\n| Aceite separado | Incorporación demasiado rápida | Volver a triturar brevemente e incorporar el aceite gradualmente en la próxima elaboración |\n| Ajo o vinagre dominantes | Condimentos intensos | Añadir de forma gradual, probar y registrar el ajuste |\n\n## Conservación\n\nRefrigerar la porra tapada tras triturarla y mantenerla fría hasta servir. Conservar el huevo cocido y el jamón opcional refrigerados y añadirlos al emplatar. Guardar las sobras sin demora en el frigorífico; no recalentar. Consumir preferentemente el día de elaboración.\n\n## Relaciones dentro del SGCC\n\n- [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md): selección según madurez, jugosidad y acidez.\n- [Salmorejo cordobés](./salmorejo_cordobes_con_huevo.md)\n- [Gazpacho andaluz](./gazpacho_andaluz_de_tomate_y_pimiento.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25 min más 2 h de refrigeración",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/porra_antequerana_de_tomate_y_pan.html",
+  "id": "REC-480",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomates maduros",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de tomates maduros",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de tomates maduros",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pan blanco asentado, sin corteza dura",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pan blanco asentado, sin corteza dura",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pan blanco asentado, sin corteza dura",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde pequeño de 90 g",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde pequeño de 90 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde pequeño de 90 g",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional y ajustable",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 ml de vinagre de vino, opcional y ajustable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "20 ml de vinagre de vino, opcional y ajustable",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para guarnición",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L para guarnición",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L para guarnición",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de jamón serrano, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de jamón serrano, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y agua fría solo si es imprescindible",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y agua fría solo si es imprescindible",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y agua fría solo si es imprescindible",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/porra_antequerana_de_tomate_y_pan.md",
+  "source_sha256": "bd35fdef9a87e62ac232e45c8e79d9ac65e8d12151bc10b9451b4ad749ee0cb0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar los tomates y el pimiento y pelar el ajo. Retirar del pimiento las semillas y las partes duras."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Triturar tomates, pimiento y ajo hasta obtener una base uniforme. Pasar por colador si se desea retirar pieles y semillas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar el pan en trozos y dejarlo hidratar 5–10 minutos en la mezcla; triturar hasta que espese."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Agregar el aceite de oliva poco a poco mientras se sigue triturando para emulsionar una crema densa. Añadir vinagre opcional y sal al gusto."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Cocer los huevos hasta que claras y yemas estén completamente cuajadas; enfriar, pelar y picar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Refrigerar la porra durante al menos 2 horas en recipiente tapado; no dejarla a temperatura ambiente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir muy fría con huevo cocido picado y jamón opcional."
+    }
+  ],
+  "techniques": [],
+  "title": "Porra antequerana de tomate y pan",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 cuencos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "cuenco"
+  }
+}

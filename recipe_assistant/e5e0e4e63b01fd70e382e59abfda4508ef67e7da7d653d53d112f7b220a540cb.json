@@ -1,0 +1,396 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Arroz con liebre manchego\n\n## Origen y contexto\n\n**Región:** Castilla-La Mancha. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 100–140 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 liebre de origen autorizado, limpia y troceada (aprox. 1–1,3 kg con hueso)\n- 340 g de arroz redondo\n- 180 g de cebolla\n- 120 g de pimiento verde\n- 200 g de tomate rallado\n- 3 dientes de ajo\n- 100 ml de vino blanco seco\n- 1,3–1,6 l de caldo de carne caliente bajo en sal, ajustable\n- 45 ml de aceite de oliva\n- 1 hoja de laurel\n- 1 ramita de tomillo\n- 4 hebras de azafrán, opcionales\n- sal y pimienta negra\n\n**Alérgenos:** Posibles sulfitos del vino; comprobar ingredientes del caldo.\n\n## Elaboración\n\n1. Adquirir liebre inspeccionada y apta para consumo, ya eviscerada; mantener en frío y evitar manipular animales de caza sin controles sanitarios.\n2. Secar los trozos de carne con papel, salpimentar y dorarlos en una cazuela con aceite por tandas.\n3. Añadir cebolla y pimiento picados, sofreír unos 10 minutos y agregar ajo y tomate; reducir 8 minutos.\n4. Verter el vino, dejar hervir unos minutos y cubrir la liebre con parte del caldo, laurel y tomillo.\n5. Cocer tapado a hervor suave durante 55–90 minutos, según edad y tamaño de la carne, hasta que resulte tierna y esté completamente cocinada; añadir caldo cuando haga falta.\n6. Retirar huesos sueltos visibles, medir aproximadamente 1,1–1,3 l del líquido caliente en la cazuela, añadir arroz y azafrán si se emplea.\n7. Cocer unos 17–20 minutos, añadiendo líquido caliente si se busca textura caldosa; comprobar punto de arroz y carne, reposar 3 minutos y servir.\n\n## Puntos críticos\n\n- La liebre salvaje puede conllevar riesgos de tularemia: utilizar únicamente producto obtenido y controlado legalmente, y cocinar completamente; nunca manipular ejemplares encontrados muertos o enfermos.\n- El arroz con liebre tiene sabor y cocción propios; no es una mera sustitución directa del conejo en el arroz con conejo existente.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Liebre dura | Carne necesita más estofado | Prolongar cocción antes del arroz |\n| Arroz excesivamente seco | Pérdida de líquido durante el estofado | Medir caldo justo antes de incorporar arroz |\n| Sabor muy intenso | Caldo demasiado reducido | Añadir líquido sin sal y ajustar al final |\n\n## Conservación\n\nEnfriar arroz y carne rápidamente en recipientes poco profundos; refrigerar a 4 °C o menos y consumir preferiblemente en 24 horas. Recalentar completamente una sola vez.\n\n## Relaciones dentro del SGCC\n\n- [Arroz con conejo y romero](../01_Arroces/arroz_con_conejo_y_romero.md)\n- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "140",
+      "min": "100",
+      "phase": "declared_total",
+      "raw": "100–140 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Castilla-La Mancha. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_liebre_manchego.html",
+  "id": "REC-544",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "liebre de origen autorizado, limpia y troceada (aprox. 1–1,3 kg con hueso)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 liebre de origen autorizado, limpia y troceada (aprox. 1–1,3 kg con hueso)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 liebre de origen autorizado, limpia y troceada (aprox. 1–1,3 kg con hueso)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz redondo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "340",
+        "min": "340",
+        "raw": "340 g de arroz redondo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "340 g de arroz redondo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne caliente bajo en sal, ajustable",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1.6",
+        "min": "1.3",
+        "raw": "1,3–1,6 l de caldo de carne caliente bajo en sal, ajustable",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1,3–1,6 l de caldo de carne caliente bajo en sal, ajustable",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita de tomillo",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita de tomillo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita de tomillo",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "hebras de azafrán, opcionales",
+      "optionality": "optional",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 hebras de azafrán, opcionales",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 hebras de azafrán, opcionales",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_con_liebre_manchego.md",
+  "source_sha256": "8ba6d13272956dcc0189b3c569f36891a2668e2292706c753ed611faa18c439e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "Adquirir liebre inspeccionada y apta para consumo, ya eviscerada; mantener en frío y evitar manipular animales de caza sin controles sanitarios."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "Secar los trozos de carne con papel, salpimentar y dorarlos en una cazuela con aceite por tandas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 3,
+      "text": "Añadir cebolla y pimiento picados, sofreír unos 10 minutos y agregar ajo y tomate; reducir 8 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 4,
+      "text": "Verter el vino, dejar hervir unos minutos y cubrir la liebre con parte del caldo, laurel y tomillo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 5,
+      "text": "Cocer tapado a hervor suave durante 55–90 minutos, según edad y tamaño de la carne, hasta que resulte tierna y esté completamente cocinada; añadir caldo cuando haga falta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 6,
+      "text": "Retirar huesos sueltos visibles, medir aproximadamente 1,1–1,3 l del líquido caliente en la cazuela, añadir arroz y azafrán si se emplea."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 7,
+      "text": "Cocer unos 17–20 minutos, añadiendo líquido caliente si se busca textura caldosa; comprobar punto de arroz y carne, reposar 3 minutos y servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.html",
+      "label": "Controlar arroz meloso y caldoso",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md"
+    }
+  ],
+  "title": "Arroz con liebre manchego",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Espinacas con pasas y piñones\n\n## Descripción\n\nPreparación de referencia para cocina doméstica basada en **salteado de verduras y frutos secos**. Esta ficha no procede de una elaboración del propietario confirmada; sus cantidades y tiempos son propuestas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Método | Salteado de verduras y frutos secos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de espinacas frescas o congeladas;\n- 45 g de pasas;\n- 35 g de piñones;\n- 2 dientes de ajo laminados;\n- 2 cucharadas de aceite de oliva;\n- 30 ml de agua para hidratar las pasas, opcional;\n- sal y pimienta;\n\n**Alérgenos:** Piñones; revisar posibles trazas de frutos secos.\n\n## Elaboración\n\n1. Si se usan espinacas congeladas, descongelar en refrigeración o cocinar según envase y eliminar exceso de agua; lavar las frescas.\n2. Hidratar pasas 10 minutos con agua tibia si están secas y escurrir.\n3. Tostar suavemente los piñones en sartén seca, sin dejar que se quemen, y retirarlos.\n4. Calentar aceite y cocinar ajo hasta dorado claro; añadir espinacas por tandas y reducir humedad.\n5. Incorporar pasas y piñones, saltear 1–2 minutos y ajustar sal y pimienta. Servir caliente.\n\n## Puntos críticos\n\n- Evitar añadir espinacas muy húmedas; la evaporación antes de incorporar pasas y piñones mantiene el contraste de texturas.\n- Los tiempos son orientativos: ajustar a tamaño de piezas, equipo, presentación de los ingredientes y punto real de cocción.\n- Mantener higiene, refrigeración adecuada de productos perecederos y separación entre alimentos crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Textura demasiado blanda | Cocción prolongada o exceso de líquido | Reducir tiempo o escurrir mejor en una futura prueba |\n| Sabor poco equilibrado | Condimentos añadidos sin comprobar | Ajustar sal y acidez gradualmente |\n| Superficie demasiado oscura | Temperatura excesiva | Regular el fuego y comprobar el interior |\n\n## Conservación\n\nEnfriar sin demora las sobras perecederas y refrigerarlas en recipientes tapados y poco profundos. No mantener la preparación varias horas a temperatura ambiente. Los platos con huevo, pan remojado u otros ingredientes sensibles requieren especial atención a su conservación. Seguir las instrucciones de los productos utilizados.\n\n## Relaciones dentro del SGCC\n\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Índice de Verduras](./README.md).\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente utilizados, temperatura y tiempos efectivos, resultado y valoración. No considerar esta propuesta una receta doméstica probada hasta registrar la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/espinacas_con_pasas_y_pinones.html",
+  "id": "REC-0224",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espinacas frescas o congeladas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de espinacas frescas o congeladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de espinacas frescas o congeladas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pasas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 g de pasas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "45 g de pasas;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "piñones;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de piñones;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de piñones;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para hidratar las pasas, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de agua para hidratar las pasas, opcional;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de agua para hidratar las pasas, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/espinacas_con_pasas_y_pinones.md",
+  "source_sha256": "d5f04314a58e209f0611010bd5892263390af74dcafe9f3a881cf83f915781fd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Si se usan espinacas congeladas, descongelar en refrigeración o cocinar según envase y eliminar exceso de agua; lavar las frescas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Hidratar pasas 10 minutos con agua tibia si están secas y escurrir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Tostar suavemente los piñones en sartén seca, sin dejar que se quemen, y retirarlos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Calentar aceite y cocinar ajo hasta dorado claro; añadir espinacas por tandas y reducir humedad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Incorporar pasas y piñones, saltear 1–2 minutos y ajustar sal y pimienta. Servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Espinacas con pasas y piñones",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

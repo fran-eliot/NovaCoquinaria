@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Pollo con salsa satay y lima\n\n## Descripción\n\nPollo en salsa cremosa de cacahuete, con salsa satay comercial y lima. Adaptación doméstica, no receta tradicional canónica.\n\n**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 minutos |\n| Cocinado | 15–18 minutos |\n| Método | Dorado y salsa de cacahuete |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 350 g de contramuslo de pollo deshuesado en tiras;\n- 1 cucharada de aceite de cacahuete o de oliva;\n- 70 g de salsa satay comercial;\n- 100 ml de leche de coco;\n- 50 ml de agua;\n- 1 cucharadita de zumo de lima, más al gusto;\n- 1 diente de ajo picado;\n- ½ cucharadita de jengibre rallado;\n\n**Alérgenos:** cacahuete; posibles soja, trigo, crustáceos y otros según el producto. Revisar los envases y evitar contaminación cruzada.\n\n## Elaboración\n\n1. Secar y trocear el pollo; mantener refrigerado hasta cocinar.\n2. Dorar el pollo en una sartén amplia con aceite, por tandas si es necesario.\n3. Bajar a fuego medio; añadir ajo y jengibre, removiendo 30 segundos sin quemar.\n4. Incorporar salsa satay, leche de coco y agua; remover y hervir suavemente hasta obtener una salsa homogénea.\n5. Cocinar hasta que el pollo esté completamente hecho (referencia de seguridad: 74 °C en el centro); añadir agua si la salsa espesa demasiado.\n6. Apagar el fuego y ajustar con lima; probar antes de añadir sal porque la salsa comercial puede contener bastante.\n\n## Puntos críticos\n\n- La salsa satay comercial varía mucho en sal, picante y proporción de cacahuete; ajustar según la etiqueta.\n- Mantener una higiene adecuada y respetar las indicaciones de conservación y cocción de cada producto.\n- Ajustar la sal y el picante después de probar las salsas comerciales; no asumir concentraciones uniformes.\n\n## Diagnóstico\n\n| Situación | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Salsa satay demasiado espesa o pegada al fondo | Cacahuete y leche de coco concentrados por reducción | Cocinar a fuego moderado y añadir pequeñas cantidades de los 50 ml de agua previstos si se espesa |\n| Salsa excesivamente salada o picante | Producto satay comercial de alta concentración | Probar la salsa antes de añadir sal o más picante y registrar la marca utilizada |\n| Pollo sin cocción completa | Tiras de diferente grosor o cocción insuficiente en la salsa | Comprobar los 74 °C en la parte gruesa de los trozos antes de servir |\n| Sabor ácido dominante | Lima añadida en exceso al final | Incorporar las dosis de lima gradualmente y valorar el resultado antes de ajustar la formulación |\n\n## Conservación\n\nMantener refrigerado el pollo crudo y conservar la salsa satay abierta según las instrucciones del fabricante. Tras cocinar por completo el pollo en salsa de cacahuete y coco, enfriar rápidamente las sobras en porciones poco profundas y refrigerarlas tapadas. Recalentar completamente lo que se vaya a consumir, removiendo con suavidad y ajustando con agua si la salsa ha espesado. No dejar este plato con carne y salsa perecedera durante periodos prolongados a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Cocina Asiática](./README.md)\n\n## Registro de prueba\n\n**Pendiente:** anotar presentación exacta de ingredientes, cantidades realmente utilizadas, textura, equilibrio de sabores y valoración antes de convertir esta propuesta en una receta probada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "18",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–18 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 31,
+          "start_line": 31
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pollo_con_salsa_satay_y_lima.html",
+  "id": "REC-0199",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en tiras;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de contramuslo de pollo deshuesado en tiras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de contramuslo de pollo deshuesado en tiras;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete o de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete o de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete o de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa satay comercial;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de salsa satay comercial;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de salsa satay comercial;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de leche de coco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de leche de coco;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de agua;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima, más al gusto;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de lima, más al gusto;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de lima, más al gusto;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre rallado;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de jengibre rallado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de jengibre rallado;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/pollo_con_salsa_satay_y_lima.md",
+  "source_sha256": "2a51169698b8862ee6ebd318bc54d22bdf818f0f9819fa08e4d2449593bf9a02",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Secar y trocear el pollo; mantener refrigerado hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Dorar el pollo en una sartén amplia con aceite, por tandas si es necesario."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Bajar a fuego medio; añadir ajo y jengibre, removiendo 30 segundos sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Incorporar salsa satay, leche de coco y agua; remover y hervir suavemente hasta obtener una salsa homogénea."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Cocinar hasta que el pollo esté completamente hecho (referencia de seguridad: 74 °C en el centro); añadir agua si la salsa espesa demasiado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Apagar el fuego y ajustar con lima; probar antes de añadir sal porque la salsa comercial puede contener bastante."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar curry",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Pollo con salsa satay y lima",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

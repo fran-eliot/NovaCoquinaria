@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 70,
+      "start_line": 13
+    },
+    "text": "\n# Tom yum de gambas\n\n## Descripción\nAdaptación doméstica de sopa tailandesa ácida y picante con gambas, lemongrass, jengibre y lima. El jengibre sustituye aquí a la galanga cuando no se dispone de ella.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocción | 15–20 min |\n| Técnica | Caldo aromático y cocción breve de marisco |\n\n## Ingredientes\n- 450 g de gambas peladas;\n- 850 ml de agua o caldo suave;\n- 2 tallos de lemongrass;\n- 20 g de jengibre en láminas;\n- 150 g de champiñones;\n- 1–2 chiles pequeños, al gusto;\n- 1–2 cucharadas de salsa de pescado;\n- 2 cucharadas de zumo de lima o limón;\n- cilantro fresco, opcional.\n\n**Alérgenos:** crustáceos y pescado. Revisar también el caldo.\n\n## Elaboración\n1. Descongelar gambas en refrigeración si procede y mantenerlas frías hasta su uso.\n2. Golpear ligeramente lemongrass y cortar en tramos grandes fáciles de retirar.\n3. Hervir suavemente caldo con lemongrass, jengibre y chile 8–10 minutos.\n4. Añadir champiñones y cocinar 4–5 minutos.\n5. Incorporar gambas al final; cocinar hasta que la carne esté **firme, opaca y perlada**.\n6. Retirar tallos fibrosos; ajustar con salsa de pescado y zumo de lima fuera del hervor intenso.\n7. Servir con cilantro opcional.\n\n## Puntos críticos\n- El lemongrass fibroso se usa para infusionar y se retira antes de comer.\n- Añadir gambas al final evita textura gomosa.\n- Ajustar picante, salinidad y acidez gradualmente.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Gambas gomosas | Cocción excesiva | Añadir más tarde |\n| Sopa muy ácida | Exceso de lima | Diluir y reajustar |\n| Poco aroma | Infusión insuficiente | Prolongar antes de añadir gambas |\n\n## Conservación\nEnfriar rápidamente y refrigerar; recalentar completamente evitando periodos prolongados fuera de frío.\n\n## Relaciones\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md)\n- [Preparar sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md)\n\n## Principio de NovaCoquinaria\n> Primero extraer los aromas del caldo; después cocinar brevemente las gambas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/tom_yum_de_gambas.html",
+  "id": "REC-0073",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "gambas peladas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de gambas peladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de gambas peladas;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 ml de agua o caldo suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "850 ml de agua o caldo suave;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "tallos de lemongrass;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 tallos de lemongrass;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 tallos de lemongrass;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre en láminas;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de jengibre en láminas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de jengibre en láminas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de champiñones;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de champiñones;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chiles pequeños, al gusto;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 chiles pequeños, al gusto;",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "1–2 chiles pequeños, al gusto;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de salsa de pescado;",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de salsa de pescado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima o limón;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de lima o limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de lima o limón;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco, opcional.",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro fresco, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro fresco, opcional.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/tom_yum_de_gambas.md",
+  "source_sha256": "03ab0153342284ca32c2d3d5e6e863b75f0a05bf39867e886048823b3dd966fb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Descongelar gambas en refrigeración si procede y mantenerlas frías hasta su uso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Golpear ligeramente lemongrass y cortar en tramos grandes fáciles de retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Hervir suavemente caldo con lemongrass, jengibre y chile 8–10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Añadir champiñones y cocinar 4–5 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Incorporar gambas al final; cocinar hasta que la carne esté **firme, opaca y perlada**."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Retirar tallos fibrosos; ajustar con salsa de pescado y zumo de lima fuera del hervor intenso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 7,
+      "text": "Servir con cilantro opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.html",
+      "label": "Preparar sopas asiáticas",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md"
+    }
+  ],
+  "title": "Tom yum de gambas",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

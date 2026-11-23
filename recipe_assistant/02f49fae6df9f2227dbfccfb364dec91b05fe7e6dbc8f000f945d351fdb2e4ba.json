@@ -1,0 +1,269 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Col estofada con manzana y comino\n\n## Descripción\n\nPreparación de referencia centrada en **sudado y cocción húmeda breve**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Sudado y cocción húmeda breve |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 550 g de col blanca cortada fina;\n- 200 g de manzana pelada en dados;\n- 140 g de cebolla en juliana;\n- 2 cucharadas de aceite de oliva;\n- 100 ml de agua o caldo de verduras;\n- 1 cucharadita de semillas de comino o ½ cucharadita molido;\n- 1 cucharada de vinagre de manzana;\n- sal y pimienta;\n\n**Alérgenos:** Revisar el caldo comercial.\n\n## Elaboración\n\n1. Retirar hojas exteriores dañadas de la col, lavarla y cortarla en tiras finas.\n2. Pochar cebolla en aceite durante unos 7 minutos a fuego medio-bajo.\n3. Añadir comino y col; remover durante 3–4 minutos para que pierda algo de volumen.\n4. Agregar agua o caldo, tapar parcialmente y estofar 12–18 minutos hasta obtener col tierna, añadiendo algo de agua si se seca.\n5. Incorporar los dados de manzana los últimos 5 minutos para conservar parte de su forma.\n6. Terminar con vinagre, sal y pimienta, destapando si hace falta evaporar líquido sobrante.\n\n## Puntos críticos\n\n- Una manzana muy madura puede deshacerse; incorporarla al final para preservar contraste de textura. No confundir estofado corto con fermentación.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Col todavía dura | Tiras demasiado gruesas o estofado insuficiente | Cortar la col fina y comprobar su punto al finalizar los 12–18 minutos orientativos |\n| Preparación con exceso de caldo | Líquido añadido en exceso o cocción demasiado tapada | Destapar al final para evaporar sin resecar ni quemar la col |\n| Manzana convertida en puré | Manzana muy madura o incorporada demasiado pronto | Añadirla los últimos cinco minutos para conservar parte de su forma |\n| Comino amargo o demasiado intenso | Especia quemada o concentración excesiva | Incorporarlo junto a la col con calor moderado y valorar el sabor antes de ajustar dosis |\n\n## Conservación\n\nEnfriar sin demoras las sobras de **col y manzana estofadas** en recipientes poco profundos y refrigerar tapadas. Recalentar completamente la porción destinada al consumo, teniendo en cuenta que la manzana puede perder firmeza con un nuevo calentamiento. Consumir en un plazo corto; no aplicar instrucciones de aliños lácteos a esta receta sin lácteos.\n\n## Relaciones dentro del SGCC\n\n- [Manzana](../11_Despensa/17_Frutas/manzana.md)\n- [Comino](../11_Despensa/08_Especias/comino.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **sudado y cocción húmeda breve**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/col_estofada_con_manzana_y_comino.html",
+  "id": "REC-0290",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "col blanca cortada fina;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de col blanca cortada fina;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de col blanca cortada fina;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "manzana pelada en dados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de manzana pelada en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de manzana pelada en dados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla en juliana;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla en juliana;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de verduras;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo de verduras;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo de verduras;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de comino o 1/2 cucharadita molido;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de semillas de comino o ½ cucharadita molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de semillas de comino o ½ cucharadita molido;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de manzana;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de manzana;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de manzana;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/col_estofada_con_manzana_y_comino.md",
+  "source_sha256": "6335a0bf9cac253766d96e63d085dd7f112e1b4484a54e5a26f8ba36e5e9cba8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Retirar hojas exteriores dañadas de la col, lavarla y cortarla en tiras finas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite durante unos 7 minutos a fuego medio-bajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir comino y col; remover durante 3–4 minutos para que pierda algo de volumen."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Agregar agua o caldo, tapar parcialmente y estofar 12–18 minutos hasta obtener col tierna, añadiendo algo de agua si se seca."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Incorporar los dados de manzana los últimos 5 minutos para conservar parte de su forma."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Terminar con vinagre, sal y pimienta, destapando si hace falta evaporar líquido sobrante."
+    }
+  ],
+  "techniques": [],
+  "title": "Col estofada con manzana y comino",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

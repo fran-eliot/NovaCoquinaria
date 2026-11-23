@@ -1,0 +1,296 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Brownie de chocolate y nueces\n\n## Descripción\n\nBrownie de miga densa y húmeda, elaborado con chocolate, mantequilla y poca harina. El objetivo no es la aireación de un bizcocho, sino una estructura compacta que termine de asentarse durante el enfriado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 9 porciones |\n| Preparación | 15 minutos |\n| Cocinado | 22–30 minutos |\n| Dificultad | Media |\n| Técnica principal | Emulsión de chocolate y horneado breve |\n\n## Ingredientes\n\n- 160 g de chocolate negro para postres\n- 110 g de mantequilla\n- 130 g de azúcar\n- 2 huevos medianos\n- 65 g de harina común de trigo\n- 60 g de nueces troceadas opcionales\n- 1 pizca de sal\n- 1 cucharadita de vainilla opcional\n\n**Alérgenos:** Huevo, leche, gluten (trigo) y frutos de cáscara si se añaden nueces; comprobar el chocolate.\n\n## Mise en place\n\nPrecalentar el horno a 175 °C, calor arriba y abajo. Forrar un molde cuadrado de unos 20 cm con papel de horno. Mantener los huevos refrigerados hasta su uso.\n\n## Elaboración\n\n### 1. Fundir\n\nDerretir chocolate y mantequilla al baño maría o en microondas en tandas cortas, removiendo. Dejar templar para no cuajar los huevos al mezclar.\n\n### 2. Batir huevos\n\nMezclar huevos, azúcar y vainilla opcional hasta integrar; no es necesario montar con mucho aire.\n\n### 3. Unir mezclas\n\nIncorporar el chocolate templado a los huevos removiendo. Añadir harina y sal y mezclar solo hasta que desaparezcan los restos secos. Agregar nueces opcionales.\n\n### 4. Hornear\n\nVerter en el molde y hornear aproximadamente 22–30 minutos. La superficie debe estar asentada y el centro sin mezcla líquida cruda; unas migas húmedas en el palillo son normales.\n\n### 5. Enfriar y cortar\n\nDejar enfriar completamente antes de porcionar; la miga se estabiliza al enfriar. Refrigerar si se retrasa el consumo.\n\n## Puntos críticos\n\n- No interpretar un palillo con chocolate fundido como prueba suficiente de cocción: comprobar que el centro no contenga masa cruda.\n- El chocolate demasiado caliente puede coagular el huevo.\n- Hornear en exceso da una textura seca y más próxima a bizcocho.\n\n## Perfil esperado\n\nCorte compacto, chocolate intenso y miga húmeda, con superficie fina y ligeramente quebrada.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin nueces | Omitirlas sin cambiar la formulación base |\n| Con café | Añadir una cucharadita de café soluble a la mezcla de chocolate |\n| Más amargo | Utilizar chocolate con mayor cacao y ajustar azúcar según dulzor |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Centro líquido | Cocción insuficiente | Prolongar por intervalos cortos |\n| Miga seca | Horneado excesivo | Reducir tiempo y comprobar antes |\n| Textura dura | Batido excesivo tras la harina | Mezclar lo justo |\n\n## Conservación\n\nEnfriar las elaboraciones perecederas sin demoras y mantenerlas refrigeradas en recipientes limpios y tapados. Consumir en un plazo corto, respetar la cadena de frío y evitar mantener preparaciones húmedas con lácteos o huevo a temperatura ambiente. Los postres congelados deben conservarse congelados sin ciclos repetidos de descongelación.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Bizcocho de yogur](./bizcocho_de_yogur.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> Un brownie necesita estructura suficiente para cortarse, pero no la miga aireada de un bizcocho.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para emulsión de chocolate y horneado breve."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "22",
+      "phase": "cooking",
+      "raw": "22–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/brownie_de_chocolate_y_nueces.html",
+  "id": "REC-0143",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chocolate negro para postres",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de chocolate negro para postres",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de chocolate negro para postres",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de mantequilla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de azúcar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos medianos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos medianos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos medianos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina común de trigo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de harina común de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de harina común de trigo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces troceadas opcionales",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de nueces troceadas opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de nueces troceadas opcionales",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vainilla opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vainilla opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 175 °C, calor arriba y abajo. Forrar un molde cuadrado de unos 20 cm con papel de horno. Mantener los huevos refrigerados hasta su uso.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/brownie_de_chocolate_y_nueces.md",
+  "source_sha256": "0bcf809d6362230b82defd319ef1ba0539d73ca8e2c2e98860a3cc8e85d928bb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Fundir\n\nDerretir chocolate y mantequilla al baño maría o en microondas en tandas cortas, removiendo. Dejar templar para no cuajar los huevos al mezclar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Batir huevos\n\nMezclar huevos, azúcar y vainilla opcional hasta integrar; no es necesario montar con mucho aire.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Unir mezclas\n\nIncorporar el chocolate templado a los huevos removiendo. Añadir harina y sal y mezclar solo hasta que desaparezcan los restos secos. Agregar nueces opcionales.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Hornear\n\nVerter en el molde y hornear aproximadamente 22–30 minutos. La superficie debe estar asentada y el centro sin mezcla líquida cruda; unas migas húmedas en el palillo son normales.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Enfriar y cortar\n\nDejar enfriar completamente antes de porcionar; la miga se estabiliza al enfriar. Refrigerar si se retrasa el consumo.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 103,
+        "start_line": 103
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Brownie de chocolate y nueces",
+  "yield": {
+    "max": "9",
+    "min": "9",
+    "raw": "9 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

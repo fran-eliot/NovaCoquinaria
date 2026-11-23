@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Rosquillas tontas de San Isidro\n\n## Origen y contexto\n\n**Región:** Madrid. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16–20 rosquillas |\n| Tiempo orientativo | 25 minutos más 45–60 de reposo y 15–20 de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo común\n- 3 huevos M (unos 150 g sin cáscara)\n- 90 g de azúcar\n- 50 ml de aceite de oliva suave\n- 4 g de anís en grano ligeramente machacado\n- 1 huevo adicional para pintar\n- 1 pizca de sal\n- 5 g de impulsor químico, opcional en esta adaptación doméstica\n\n**Alérgenos:** Trigo/gluten y huevo; comprobar impulsor si se emplea.\n\n## Elaboración\n\n1. Batir ligeramente tres huevos con el azúcar y aceite hasta integrar, sin necesidad de montar completamente.\n2. Añadir anís y sal; incorporar harina y, si se utiliza, impulsor, hasta conseguir una masa blanda pero trabajable.\n3. Tapar y dejar reposar entre 45 y 60 minutos para facilitar el formado; si está muy pegajosa, trabajar con manos ligeramente aceitadas en vez de añadir grandes cantidades de harina.\n4. Precalentar horno a 190 °C y preparar una bandeja con papel.\n5. Dividir la masa en 16–20 porciones y formar roscas con agujero central amplio para que no se cierre al crecer.\n6. Pincelar finamente con huevo batido; hornear 15–20 minutos, hasta rosquillas cocidas y ligeramente doradas.\n7. Enfriar sobre rejilla. Servir sin glaseado: la ausencia de cobertura distingue las tontas de las listas.\n\n## Puntos críticos\n\n- Las rosquillas tontas son tradicionales de San Isidro; las listas se diferencian por una cobertura azucarada, no solamente por el moldeado.\n- No consumir masa cruda con huevo y harina; adaptar tiempos a tamaño y horno. El impulsor es opcional y se presenta como recurso doméstico.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Rosquilla dura | Demasiada harina o exceso de horno | Evitar añadir harina sin necesidad y reducir cocción |\n| Agujero cerrado | Abertura pequeña o formado grueso | Abrir más el centro antes de hornear |\n| Interior poco cocido | Rosquillas grandes | Comprobar sección y prolongar ligeramente |\n\n## Conservación\n\nConservar una vez frías en recipiente hermético en lugar fresco y seco durante 2–3 días; congelar si se prevé más tiempo.\n\n## Relaciones dentro del SGCC\n\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md): ligazón y estructura de la masa durante el horneado.\n- [Rosquillas listas de San Isidro](../08_Postres/rosquillas_listas_de_san_isidro_con_glasa.md)\n- [Rosquillas de anís al horno](../08_Postres/rosquillas_de_anis_al_horno.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://www.rtve.es/television/20240514/receta-rosquillas-listas-tontas-san-isidro/16102373.shtml)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración tras su elaboración. Esta propuesta no sustituye ninguna versión doméstica anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25 minutos más 45–60 de reposo y 15–20 de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Madrid. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/rosquillas_tontas_de_san_isidro.html",
+  "id": "REC-536",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M (unos 150 g sin cáscara)",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos M (unos 150 g sin cáscara)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos M (unos 150 g sin cáscara)",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano ligeramente machacado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 g de anís en grano ligeramente machacado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "4 g de anís en grano ligeramente machacado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo adicional para pintar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo adicional para pintar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo adicional para pintar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico, opcional en esta adaptación doméstica",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de impulsor químico, opcional en esta adaptación doméstica",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de impulsor químico, opcional en esta adaptación doméstica",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/rosquillas_tontas_de_san_isidro.md",
+  "source_sha256": "a64ea28ebd5338af1254aa25cfec52dae2e1acafbf440665706022913df60da9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Batir ligeramente tres huevos con el azúcar y aceite hasta integrar, sin necesidad de montar completamente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Añadir anís y sal; incorporar harina y, si se utiliza, impulsor, hasta conseguir una masa blanda pero trabajable."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Tapar y dejar reposar entre 45 y 60 minutos para facilitar el formado; si está muy pegajosa, trabajar con manos ligeramente aceitadas en vez de añadir grandes cantidades de harina."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Precalentar horno a 190 °C y preparar una bandeja con papel."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Dividir la masa en 16–20 porciones y formar roscas con agujero central amplio para que no se cierre al crecer."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Pincelar finamente con huevo batido; hornear 15–20 minutos, hasta rosquillas cocidas y ligeramente doradas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Enfriar sobre rejilla. Servir sin glaseado: la ausencia de cobertura distingue las tontas de las listas."
+    }
+  ],
+  "techniques": [],
+  "title": "Rosquillas tontas de San Isidro",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "16–20 rosquillas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Olla gitana murciana de garbanzos y calabaza\n\n## Origen y contexto\n\n**Región:** Región de Murcia y sureste peninsular. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–5 raciones |\n| Tiempo orientativo | 55–65 min con legumbres cocidas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de garbanzos completamente cocidos\n- 300 g de alubias blancas completamente cocidas\n- 400 g de calabaza pelada en dados\n- 220 g de judías verdes en trozos\n- 1 pera firme de 160 g, pelada y sin corazón\n- 200 g de tomate triturado\n- 130 g de cebolla picada\n- 2 dientes de ajo\n- ½ cucharadita de pimentón dulce\n- una pizca de hierbabuena seca o 5 hojas frescas\n- 2 cucharadas de aceite de oliva\n- 500–700 ml de agua o caldo vegetal bajo en sal\n- sal\n\n**Alérgenos:** Revisar caldo comercial; sin alérgenos mayores en la formulación básica.\n\n## Elaboración\n\n1. Confirmar que garbanzos y alubias están completamente cocidos; si proceden de conserva, escurrirlos y enjuagarlos.\n2. Pochar cebolla y ajo en el aceite durante 7–9 minutos y agregar tomate; cocinar 8 minutos hasta reducir.\n3. Separar un momento del fuego y añadir pimentón dulce, mezclando sin quemarlo.\n4. Incorporar calabaza, judías verdes y pera cortada en gajos gruesos, añadir 500 ml de agua o caldo y llevar a hervor suave.\n5. Cocinar 12–18 minutos hasta que judías y calabaza estén casi tiernas, sin deshacerse por completo.\n6. Añadir garbanzos y alubias completamente cocidos y continuar unos 10 minutos para integrar. Ajustar líquido a guiso caldoso, no sopa muy diluida.\n7. Agregar hierbabuena al final, probar sal y servir caliente.\n\n## Puntos críticos\n\n- La fruta, especialmente la pera, forma parte de variantes tradicionales de olla gitana. Las legumbres deben estar previamente cocidas; el tiempo de este guiso no sustituye remojo y cocción de legumbre seca.\n- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |\n| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |\n| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos con espinacas](./garbanzos_con_espinacas.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "65",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–65 min con legumbres cocidas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/olla_gitana_murciana_de_garbanzos_y_calabaza.html",
+  "id": "REC-450",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de garbanzos completamente cocidos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de garbanzos completamente cocidos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "alubias blancas completamente cocidas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de alubias blancas completamente cocidas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de alubias blancas completamente cocidas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza pelada en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de calabaza pelada en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de calabaza pelada en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "judías verdes en trozos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de judías verdes en trozos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de judías verdes en trozos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pera firme de 160 g, pelada y sin corazón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pera firme de 160 g, pelada y sin corazón",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pera firme de 160 g, pelada y sin corazón",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de cebolla picada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de hierbabuena seca o 5 hojas frescas",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de hierbabuena seca o 5 hojas frescas",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de hierbabuena seca o 5 hojas frescas",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal bajo en sal",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "500",
+        "raw": "500–700 ml de agua o caldo vegetal bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "500–700 ml de agua o caldo vegetal bajo en sal",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/olla_gitana_murciana_de_garbanzos_y_calabaza.md",
+  "source_sha256": "5c12131c90ba63c667de10f426ca6f7687985a5fb4476b847b94354d73c0d4ab",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "Confirmar que garbanzos y alubias están completamente cocidos; si proceden de conserva, escurrirlos y enjuagarlos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo en el aceite durante 7–9 minutos y agregar tomate; cocinar 8 minutos hasta reducir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 3,
+      "text": "Separar un momento del fuego y añadir pimentón dulce, mezclando sin quemarlo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 4,
+      "text": "Incorporar calabaza, judías verdes y pera cortada en gajos gruesos, añadir 500 ml de agua o caldo y llevar a hervor suave."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 5,
+      "text": "Cocinar 12–18 minutos hasta que judías y calabaza estén casi tiernas, sin deshacerse por completo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 6,
+      "text": "Añadir garbanzos y alubias completamente cocidos y continuar unos 10 minutos para integrar. Ajustar líquido a guiso caldoso, no sopa muy diluida."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 56
+      },
+      "source_number": 7,
+      "text": "Agregar hierbabuena al final, probar sal y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Olla gitana murciana de garbanzos y calabaza",
+  "yield": {
+    "max": "5",
+    "min": "4",
+    "raw": "4–5 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

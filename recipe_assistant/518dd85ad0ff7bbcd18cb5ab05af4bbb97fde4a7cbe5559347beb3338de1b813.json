@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Panecillos rápidos de yogur y hierbas\n\n## Descripción\n\nPreparación de horno doméstico mediante **masa con impulsor químico sin fermentación**. Formulación propuesta, sin elaboración o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Temperatura inicial | 200 °C, calor arriba y abajo |\n| Técnica | Masa con impulsor químico sin fermentación |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 250 g de harina de trigo;\n- 150 g de yogur natural;\n- 60 ml de leche;\n- 25 ml de aceite de oliva;\n- 10 g de impulsor químico;\n- ½ cucharadita de sal;\n- 1 cucharadita de orégano;\n- ½ cucharadita de tomillo;\n\n**Alérgenos:** Trigo (gluten) y leche. Revisar ingredientes comerciales.\n\n## Elaboración\n\n1. Precalentar el horno a 200 °C y forrar la bandeja con papel apto.\n2. Mezclar harina, impulsor, sal y hierbas; mezclar aparte yogur, leche y aceite.\n3. Integrar ambas mezclas sin amasar en exceso; ajustar con una cucharada adicional de leche si queda quebradiza.\n4. Formar seis panecillos de tamaño similar y distribuir sobre la bandeja.\n5. Hornear 20–25 minutos hasta dorar y comprobar que el interior no esté crudo; enfriar sobre rejilla.\n\n## Puntos críticos\n\n- El impulsor reacciona al hidratarse; hornear pronto. No equivale a levadura de panadería.\n- Ajustar tiempos y temperatura a grosor, recipiente y horno. Los tiempos indicados no sustituyen el control del punto real de cocción.\n- Usar utensilios aptos y evitar la contaminación cruzada entre ingredientes crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Superficie quemada | Horno alto o temperatura excesiva | Bajar bandeja o proteger antes del final |\n| Centro insuficientemente cocido | Piezas grandes | Prolongar y comprobar el centro |\n| Fondo húmedo | Ingredientes sin reducir o escurrir | Eliminar el exceso de agua antes de hornear |\n\n## Conservación\n\nRefrigerar rápidamente las sobras perecederas en recipientes poco profundos y consumirlas dentro de un plazo seguro según sus ingredientes. Evitar mantener preparaciones con huevo, carne, pescado o lácteos varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar y gratinar en horno doméstico](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Índice de Horno](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente empleadas, recipiente, temperatura, tiempo, textura, resultado y valoración. Una descripción del resultado esperado no acredita una prueba."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/panecillos_rapidos_de_yogur_y_hierbas.html",
+  "id": "REC-0215",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de yogur natural;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de yogur natural;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de leche;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de aceite de oliva;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de impulsor químico;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de sal;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de sal;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/panecillos_rapidos_de_yogur_y_hierbas.md",
+  "source_sha256": "ed05bf368e6f3b729ff8f14ad59f1c489f0041d1106aae5bd80ea8204e7f48c7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 200 °C y forrar la bandeja con papel apto."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, impulsor, sal y hierbas; mezclar aparte yogur, leche y aceite."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Integrar ambas mezclas sin amasar en exceso; ajustar con una cucharada adicional de leche si queda quebradiza."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Formar seis panecillos de tamaño similar y distribuir sobre la bandeja."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Hornear 20–25 minutos hasta dorar y comprobar que el interior no esté crudo; enfriar sobre rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar en horno doméstico",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Panecillos rápidos de yogur y hierbas",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

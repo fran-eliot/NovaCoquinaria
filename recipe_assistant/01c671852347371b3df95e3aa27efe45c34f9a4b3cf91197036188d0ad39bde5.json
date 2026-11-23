@@ -1,0 +1,273 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Morcilla de Burgos frita con pimientos\n\n## Origen y contexto\n\n**Región:** Burgos, Castilla y León. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones de aperitivo |\n| Tiempo orientativo | 30–40 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de morcilla de Burgos apta para cocinar, en rodajas de 2 cm\n- 300 g de pimiento rojo\n- 150 g de pimiento verde\n- 180 g de cebolla\n- 35 ml de aceite de oliva\n- 20 g de harina de trigo, opcional para rebozado ligero\n- sal y pimienta negra\n\n**Alérgenos:** Posible trigo/gluten en la morcilla según formulación o en la harina opcional; revisar etiquetado, especialmente arroz, especias y aditivos.\n\n## Elaboración\n\n1. Leer el etiquetado de la morcilla para comprobar si está precocida y las instrucciones de cocción; mantener refrigerada hasta usar.\n2. Cortar pimientos y cebolla en tiras finas y sofreír con 20 ml de aceite durante 15–20 minutos a fuego medio-bajo hasta quedar tiernos.\n3. Cortar la morcilla en rodajas gruesas con cuchillo bien afilado, manteniendo la tripa cuando ayude a sostener el relleno.\n4. Si se desea más costra, pasar las caras por una capa muy fina de harina y sacudir el sobrante.\n5. Calentar el aceite restante en sartén antiadherente y dorar la morcilla por tandas durante 2–4 minutos por lado, ajustando según grosor y especificaciones del fabricante; garantizar cocción completa.\n6. Escurrir brevemente sobre papel limpio y servir de inmediato con pimientos y cebolla pochados.\n\n## Puntos críticos\n\n- La morcilla de Burgos contiene arroz y sangre; su grado de precocción depende del producto. Seguir la etiqueta y no asumir que basta con dorar por fuera.\n- La fritura puede provocar salpicaduras y roturas por exceso de calor: utilizar fuego medio y manipular con espátula ancha.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Rodajas deshechas | Corte fino o calor excesivo | Cortar más grueso y mover poco |\n| Pimiento crudo | Pochado insuficiente | Cocinar por separado antes de morcilla |\n| Superficie quemada | Sartén demasiado caliente | Reducir temperatura y comprobar centro |\n\n## Conservación\n\nConsumir recién hecho. Refrigerar sobras a 4 °C o menos dentro de 2 horas como máximo, preferiblemente antes, y consumir en 24–48 horas tras recalentarlas completamente.\n\n## Relaciones dentro del SGCC\n\n- [Olla podrida burgalesa](../03_Legumbres/olla_podrida_burgalesa_de_alubias_rojas_y_compango.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "declared_total",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Burgos, Castilla y León. Formulación doméstica de referencia inspirada en una tradición regional, pendiente de prueba. No se atribuye elaboración ni valoración confirmadas."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/morcilla_de_burgos_frita_con_pimientos.html",
+  "id": "REC-547",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "morcilla de Burgos apta para cocinar, en rodajas de 2 cm",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de morcilla de Burgos apta para cocinar, en rodajas de 2 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de morcilla de Burgos apta para cocinar, en rodajas de 2 cm",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de pimiento rojo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento verde",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo, opcional para rebozado ligero",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de harina de trigo, opcional para rebozado ligero",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de harina de trigo, opcional para rebozado ligero",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/morcilla_de_burgos_frita_con_pimientos.md",
+  "source_sha256": "de753580c3ab2f5f3af824ced3079b2a1cea32aa6fdee75756504cc86d8e43db",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Leer el etiquetado de la morcilla para comprobar si está precocida y las instrucciones de cocción; mantener refrigerada hasta usar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cortar pimientos y cebolla en tiras finas y sofreír con 20 ml de aceite durante 15–20 minutos a fuego medio-bajo hasta quedar tiernos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Cortar la morcilla en rodajas gruesas con cuchillo bien afilado, manteniendo la tripa cuando ayude a sostener el relleno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Si se desea más costra, pasar las caras por una capa muy fina de harina y sacudir el sobrante."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Calentar el aceite restante en sartén antiadherente y dorar la morcilla por tandas durante 2–4 minutos por lado, ajustando según grosor y especificaciones del fabricante; garantizar cocción completa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Escurrir brevemente sobre papel limpio y servir de inmediato con pimientos y cebolla pochados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Morcilla de Burgos frita con pimientos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones de aperitivo",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

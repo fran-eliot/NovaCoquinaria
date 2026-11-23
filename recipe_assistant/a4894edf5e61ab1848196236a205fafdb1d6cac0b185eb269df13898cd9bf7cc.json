@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 193,
+      "start_line": 26
+    },
+    "text": "\n# Arroz chaufa\n\n## Contexto de la receta y estado de prueba\n\nEsta elaboración fue solicitada como receta de arroz chaufa, pero **no consta una valoración posterior de una tanda cocinada en casa**. Las cantidades de la ficha describen una versión de referencia y no una medición contrastada de una preparación personal.\n\nPara registrar una futura prueba doméstica conviene anotar: peso del arroz **ya cocido y enfriado** (no confundirlo con peso en seco), proteína utilizada, cantidad real de soja, intensidad del fuego, número de tandas y valoración de grano suelto y sazón.\n\n## Descripción\n\nEl arroz chaufa es uno de los platos más representativos de la cocina **chifa**, nacida de la fusión entre la gastronomía china cantonesa y la peruana.\n\nComparte gran parte de su técnica con el arroz frito chino tradicional, pero incorpora ingredientes y matices propios como abundante cebolleta, salsa de soja, aceite de sésamo y, con frecuencia, lomo de cerdo.\n\nEsta receta implementa la plantilla **Arroz frito base**, adaptándola a las características propias del chaufa.\n\n---\n\n# Ingredientes\n\n## Base\n\n- 300 g de arroz jazmín o basmati cocido y completamente frío\n- 200 g de lomo de cerdo\n- 2 huevos\n- 2 cebolletas\n- 1 diente de ajo\n- Un trozo pequeño de jengibre\n- 2 cucharadas de aceite vegetal\n\n## Sazonado\n\n- 2 cucharadas de salsa de soja\n- 1 cucharadita de aceite de sésamo\n- 1 cucharadita de mirin (opcional)\n- Pimienta blanca\n\n---\n\n# Preparación\n\nSeguir el procedimiento descrito en:\n\n- [PLA-0015 · Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n\nAplicando las siguientes particularidades:\n\n1. Cortar el lomo de cerdo en dados pequeños.\n2. Saltearlo en tandas hasta dorarlo y cocinarlo por completo; comprobar el punto del cerdo, sin asumir que el dorado superficial garantiza una cocción suficiente.\n3. Reservarlo temporalmente.\n4. Preparar el arroz siguiendo la plantilla base.\n5. Incorporar abundante cebolleta durante el último minuto de cocinado.\n6. Añadir nuevamente el cerdo y el huevo cocinado según la plantilla; mezclar hasta que el conjunto esté bien caliente antes de servir.\n7. Finalizar con unas gotas de aceite de sésamo.\n\n---\n\n# Características del chaufa\n\nA diferencia del arroz frito chino más clásico:\n\n- utiliza una mayor cantidad de cebolleta;\n- suele incorporar cerdo como proteína principal;\n- presenta una influencia peruana en el equilibrio de sabores;\n- busca un marcado aroma a wok manteniendo una elaboración sencilla y rápida.\n\n---\n\n# Variantes\n\nSon habituales las versiones con:\n\n- pollo;\n- gambas;\n- ternera;\n- marisco mixto;\n- char siu;\n- combinación de varias proteínas.\n\n---\n\n# Maridaje\n\nCombina especialmente bien con:\n\n- wantán frito;\n- sopa wantán;\n- tallarines saltados;\n- salsa de ají peruano.\n\n---\n\n# Conservación\n\n- Consumir preferentemente recién preparado.\n- Si se conserva, enfriar rápidamente en porciones poco profundas y refrigerar sin demora; mantener siempre la cadena de frío.\n- Recalentar de forma uniforme hasta que todo el arroz y el cerdo estén muy calientes, sin confiar únicamente en que el fuego sea fuerte.\n- Evitar ciclos repetidos de enfriado y recalentado. Si el arroz cocido ha permanecido horas a temperatura ambiente o se desconoce su conservación, desecharlo: el recalentamiento no garantiza eliminar las toxinas de *Bacillus cereus*.\n- La congelación puede ser viable tras un enfriado seguro, pero no corrige una conservación previa inadecuada.\n\n---\n\n# Consejos\n\n- Utilizar arroz previamente cocido, enfriado con rapidez y conservado refrigerado; no es imprescindible que sea del día anterior.\n- Mantener el wok muy caliente.\n- No remover continuamente el arroz.\n- Incorporar la cebolleta casi al final para conservar su frescura.\n\n---\n\n# Errores frecuentes\n\n- Utilizar arroz recién cocido.\n- Cocinar demasiado el cerdo.\n- Exceso de salsa de soja.\n- Sobrecargar el wok.\n- Cocinar a temperatura insuficiente.\n\n---\n\n# Relaciones SGCC\n\n## Implementa\n\n- [PLA-0015 · Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n\n## Utiliza\n\n### Ingredientes\n\n- Arroz jazmín o basmati\n- Lomo de cerdo\n- Huevo\n- Cebolleta\n- Ajo\n- Jengibre\n\n### Condimentos\n\n- Salsa de soja\n- Aceite de sésamo\n- Mirin\n\n### Técnicas\n\n- Salteado al wok\n- Mise en place\n\n---\n\n# Referencias\n\n- Plantilla: Arroz frito base\n- [Técnica: saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- Ingrediente: Arroz jazmín\n- Ingrediente: Arroz basmati\n- Ingrediente: Salsa de soja\n\n---\n\n# Historial\n\n| Versión | Fecha | Cambios |\n|----------|------------|----------------------------------------------|\n| 2.0.0 | 2026-07-17 | Adaptación al modelo SGCC basado en plantillas reutilizables. |\n| 1.0.0 | 2026-07-03 | Primera versión de la receta. |"
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 17,
+        "start_line": 17
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 18,
+        "start_line": 18
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_chaufa.html",
+  "id": "REC-0001",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Base",
+      "name": "arroz jazmín o basmati cocido y completamente frío",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de arroz jazmín o basmati cocido y completamente frío",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de arroz jazmín o basmati cocido y completamente frío",
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      }
+    },
+    {
+      "group": "Base",
+      "name": "lomo de cerdo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de lomo de cerdo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de lomo de cerdo",
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      }
+    },
+    {
+      "group": "Base",
+      "name": "huevos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      }
+    },
+    {
+      "group": "Base",
+      "name": "cebolletas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cebolletas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 cebolletas",
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      }
+    },
+    {
+      "group": "Base",
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      }
+    },
+    {
+      "group": "Base",
+      "name": "Un trozo pequeño de jengibre",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Un trozo pequeño de jengibre",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Un trozo pequeño de jengibre",
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      }
+    },
+    {
+      "group": "Base",
+      "name": "aceite vegetal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite vegetal",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite vegetal",
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja",
+      "source_location": {
+        "end_line": 59,
+        "start_line": 59
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "aceite de sésamo",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "mirin (opcional)",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mirin (opcional)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mirin (opcional)",
+      "source_location": {
+        "end_line": 61,
+        "start_line": 61
+      }
+    },
+    {
+      "group": "Sazonado",
+      "name": "Pimienta blanca",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Pimienta blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Pimienta blanca",
+      "source_location": {
+        "end_line": 62,
+        "start_line": 62
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_chaufa.md",
+  "source_sha256": "f80d585db3588d2720ecbf8f36ebd453bf2cbc51c68ce7b9c43068ad5d45e61a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_number": 1,
+      "text": "Cortar el lomo de cerdo en dados pequeños."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_number": 2,
+      "text": "Saltearlo en tandas hasta dorarlo y cocinarlo por completo; comprobar el punto del cerdo, sin asumir que el dorado superficial garantiza una cocción suficiente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_number": 3,
+      "text": "Reservarlo temporalmente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_number": 4,
+      "text": "Preparar el arroz siguiendo la plantilla base."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_number": 5,
+      "text": "Incorporar abundante cebolleta durante el último minuto de cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_number": 6,
+      "text": "Añadir nuevamente el cerdo y el huevo cocinado según la plantilla; mezclar hasta que el conjunto esté bien caliente antes de servir."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 80,
+        "start_line": 80
+      },
+      "source_number": 7,
+      "text": "Finalizar con unas gotas de aceite de sésamo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Técnica: saltear en wok",
+      "source_location": {
+        "end_line": 181,
+        "start_line": 181
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Arroz chaufa",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "frontmatter",
+    "source_location": {
+      "end_line": 19,
+      "start_line": 19
+    },
+    "unit": "racion"
+  }
+}

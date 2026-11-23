@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Calabacines rellenos de arroz y setas\n\n## Descripción\n\nMitades de calabacín asadas y rellenas de arroz cocido, setas doradas y tomate. El vaciado y el precocinado evitan que el relleno quede húmedo o el calabacín crudo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 25 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Vaciado, precocción y horneado |\n\n## Ingredientes\n\n- 2 calabacines grandes (700–800 g)\n- 240 g de arroz cocido, previamente refrigerado de forma segura si se preparó con antelación\n- 200 g de champiñones picados\n- 1 cebolla pequeña picada\n- 150 g de tomate triturado\n- 2 dientes de ajo picados\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 cucharadita de orégano\n- sal y pimienta negra\n- 40 g de queso rallado opcional\n\n**Alérgenos:** Leche si se añade queso. Revisar el etiquetado del queso comercial.\n\n## Mise en place\n\nLavar los calabacines, cortarlos longitudinalmente y retirar parte de la pulpa con una cuchara sin perforar la piel. Picar la pulpa. Precalentar el horno a 200 °C, calor arriba y abajo. Utilizar arroz bien cocido y correctamente conservado.\n\n## Elaboración\n\n### 1. Precocer las barquitas\n\nPincelar las mitades con algo de aceite, colocarlas en fuente y hornear 12–15 minutos hasta que empiecen a ablandarse; retirar el líquido acumulado.\n\n### 2. Dorar las setas\n\nSaltear las setas en una sartén amplia 5–7 minutos hasta evaporar humedad; reservar.\n\n### 3. Preparar el relleno\n\nEn la misma sartén, cocinar cebolla y pulpa picada 6–8 minutos; añadir ajo y tomate, y reducir 5 minutos.\n\n### 4. Mezclar\n\nIncorporar setas, arroz cocido, orégano y pimienta. Calentar completamente el relleno y rectificar sal.\n\n### 5. Rellenar y hornear\n\nDistribuir el relleno en las barquitas; añadir queso opcional. Hornear 12–18 minutos, hasta que el calabacín esté tierno y el centro del relleno bien caliente. Gratinar brevemente solo si se desea.\n\n## Puntos críticos\n\n- No perforar la piel al vaciar, para que contenga el relleno.\n- Reducir el agua de la pulpa y las setas antes de incorporar el arroz.\n- El arroz cocido debe enfriarse rápidamente y mantenerse refrigerado; no reutilizar arroz que haya permanecido largo tiempo a temperatura ambiente.\n\n## Perfil esperado\n\nBarquitas tiernas que mantienen la forma, con relleno suelto, jugoso y sin líquido acumulado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con lentejas cocidas | Sustituir parte del arroz por lentejas cocidas bien escurridas |\n| Sin queso | Omitir el gratinado lácteo |\n| Con hierbas frescas | Añadir perejil al terminar |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Base dura | Precocción insuficiente | Ajustar el primer horneado |\n| Relleno aguado | Setas o calabacín sin evaporar | Reducir antes de montar |\n| Relleno seco | Exceso de horno | Vigilar el punto y añadir tomate si hace falta |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos y refrigerar tapado. Consumir en un plazo corto y no mantener a temperatura ambiente durante periodos prolongados. Recalentar completamente si se sirve de nuevo caliente, asumiendo cambios de textura.\n\n## Relaciones dentro del SGCC\n\n- [Calabacín](../11_Despensa/06_Verduras/calabacin.md)\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una verdura rellena, la humedad se controla antes del montaje y la cocción se completa en el horno.\n\n## Utilizado por\n\nPreparación de referencia de calabacines rellenos de arroz y setas en el módulo Verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "preparation",
+      "raw": "25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/calabacines_rellenos_de_arroz_y_setas.html",
+  "id": "REC-0118",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabacines grandes (700–800 g)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 calabacines grandes (700–800 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 calabacines grandes (700–800 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz cocido, previamente refrigerado de forma segura si se preparó con antelación",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de arroz cocido, previamente refrigerado de forma segura si se preparó con antelación",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de arroz cocido, previamente refrigerado de forma segura si se preparó con antelación",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones picados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de champiñones picados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de champiñones picados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña picada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "queso rallado opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de queso rallado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de queso rallado opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar los calabacines, cortarlos longitudinalmente y retirar parte de la pulpa con una cuchara sin perforar la piel. Picar la pulpa. Precalentar el horno a 200 °C, calor arriba y abajo. Utilizar arroz bien cocido y correctamente conservado.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/calabacines_rellenos_de_arroz_y_setas.md",
+  "source_sha256": "d6d94cf9f6210835f83041071aaf17f6a3ab10fb6e8a64ca81a15604589e6487",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Precocer las barquitas\n\nPincelar las mitades con algo de aceite, colocarlas en fuente y hornear 12–15 minutos hasta que empiecen a ablandarse; retirar el líquido acumulado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Dorar las setas\n\nSaltear las setas en una sartén amplia 5–7 minutos hasta evaporar humedad; reservar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Preparar el relleno\n\nEn la misma sartén, cocinar cebolla y pulpa picada 6–8 minutos; añadir ajo y tomate, y reducir 5 minutos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Mezclar\n\nIncorporar setas, arroz cocido, orégano y pimienta. Calentar completamente el relleno y rectificar sal.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Rellenar y hornear\n\nDistribuir el relleno en las barquitas; añadir queso opcional. Hornear 12–18 minutos, hasta que el calabacín esté tierno y el centro del relleno bien caliente. Gratinar brevemente solo si se desea.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Calabacines rellenos de arroz y setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

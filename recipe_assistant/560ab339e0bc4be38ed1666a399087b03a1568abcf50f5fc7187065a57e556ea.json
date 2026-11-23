@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 114,
+      "start_line": 15
+    },
+    "text": "\n# Pollo al ajillo con vino blanco\n\n## Descripción\n\nPollo en trozos dorado con ajos y terminado en una salsa corta de vino blanco y caldo. Se busca piel dorada, ajo aromático sin amargor y cocción completa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Media |\n| Técnica principal | Dorado y cocción en salsa |\n\n## Ingredientes\n\n- 800 g de muslos o contramuslos de pollo troceados\n- 8 dientes de ajo, enteros y ligeramente aplastados\n- 120 ml de vino blanco seco\n- 150–200 ml de caldo de pollo o agua\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 hoja de laurel\n- 1 cucharadita de zumo de limón, opcional\n- sal y pimienta negra\n- perejil fresco, opcional\n\n**Alérgenos:** Revisar el caldo comercial y sus alérgenos.\n\n## Mise en place\n\nSecar el pollo con papel desechable, sin lavarlo. Separar utensilios para el pollo crudo y otros ingredientes. Aplastar los ajos con piel, si se desea un sabor más suave. Tener a mano un termómetro alimentario.\n\n## Elaboración\n\n### 1. Dorar el pollo\n\nCalentar el aceite en cazuela amplia. Dorar el pollo por tandas, 3–5 minutos por lado, sin pretender cocinarlo por completo. Reservar.\n\n### 2. Aromatizar\n\nBajar a fuego medio-bajo. Incorporar los ajos y cocinarlos 2–3 minutos, evitando que se oscurezcan demasiado.\n\n### 3. Desglasar\n\nAñadir el vino, raspar suavemente el fondo y hervir unos minutos para reducir parcialmente el líquido; no asumir que la reducción elimina todo el alcohol.\n\n### 4. Terminar la cocción\n\nDevolver el pollo, incorporar laurel y caldo. Tapar parcialmente y cocinar a hervor suave 15–25 minutos, según tamaño y presencia de hueso. Medir al menos 74 °C en la zona más gruesa sin tocar hueso.\n\n### 5. Concentrar y servir\n\nRetirar laurel. Destapar y reducir la salsa brevemente si está demasiado líquida, sin secar el pollo. Ajustar sal, limón y perejil opcionales.\n\n## Puntos críticos\n\n- No usar el color de la piel ni de los jugos para determinar si el pollo está cocinado: comprobar 74 °C.\n- Una cazuela saturada impide dorar correctamente; trabajar por tandas.\n- El ajo quemado amarga; retirarlo y rehacer la base si se carboniza.\n\n## Perfil esperado\n\nPollo jugoso, ajo suave y salsa breve, brillante, con notas de vino y laurel.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Sin vino | Sustituir por caldo y un poco más de limón al final; cambia el perfil |\n| Con tomillo | Añadir una ramita durante la cocción |\n| Sin piel | Dorar menos tiempo y vigilar para no resecar |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Ajo amargo | Dorado excesivo | Aromatizar a fuego moderado |\n| Pollo crudo en el centro | Cocción insuficiente | Verificar 74 °C con termómetro |\n| Salsa aguada | Exceso de caldo | Reducir al final sin prolongar excesivamente la cocción |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos y refrigerar tapadas. Consumir en un plazo corto, recalentar completamente antes de servir y no mantener carne cocinada largo tiempo a temperatura ambiente. Congelar en porciones si procede.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Marinar carnes](../00_Bases/03_Tecnicas/marinar_carnes.md)\n- [Diagnóstico de carnes](../98_Tablas/07_Comparativas/diagnostico_carnes.md)\n\n## Principio de NovaCoquinaria\n\n> Dorar aporta sabor, pero la seguridad del pollo se confirma al completar la cocción interior.\n\n## Utilizado por\n\nReceta de referencia del módulo Carnes para dorado y cocción en salsa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_al_ajillo_con_vino_blanco.html",
+  "id": "REC-0124",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos o contramuslos de pollo troceados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de muslos o contramuslos de pollo troceados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de muslos o contramuslos de pollo troceados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, enteros y ligeramente aplastados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 dientes de ajo, enteros y ligeramente aplastados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "8 dientes de ajo, enteros y ligeramente aplastados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo o agua",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "150",
+        "raw": "150–200 ml de caldo de pollo o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–200 ml de caldo de pollo o agua",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSecar el pollo con papel desechable, sin lavarlo. Separar utensilios para el pollo crudo y otros ingredientes. Aplastar los ajos con piel, si se desea un sabor más suave. Tener a mano un termómetro alimentario.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_al_ajillo_con_vino_blanco.md",
+  "source_sha256": "d50044c580637dd116e2e8da339e3dc21f9584284a1ae7f717f71bfb7de2f64c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Dorar el pollo\n\nCalentar el aceite en cazuela amplia. Dorar el pollo por tandas, 3–5 minutos por lado, sin pretender cocinarlo por completo. Reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar\n\nBajar a fuego medio-bajo. Incorporar los ajos y cocinarlos 2–3 minutos, evitando que se oscurezcan demasiado.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Desglasar\n\nAñadir el vino, raspar suavemente el fondo y hervir unos minutos para reducir parcialmente el líquido; no asumir que la reducción elimina todo el alcohol.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Terminar la cocción\n\nDevolver el pollo, incorporar laurel y caldo. Tapar parcialmente y cocinar a hervor suave 15–25 minutos, según tamaño y presencia de hueso. Medir al menos 74 °C en la zona más gruesa sin tocar hueso.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Concentrar y servir\n\nRetirar laurel. Destapar y reducir la salsa brevemente si está demasiado líquida, sin secar el pollo. Ajustar sal, limón y perejil opcionales.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/marinar_carnes.html",
+      "label": "Marinar carnes",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/marinar_carnes.md"
+    }
+  ],
+  "title": "Pollo al ajillo con vino blanco",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

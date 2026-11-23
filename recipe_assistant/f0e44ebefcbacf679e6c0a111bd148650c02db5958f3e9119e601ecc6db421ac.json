@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Albóndigas de pollo en salsa de almendras\n\n## Descripción\n\nPreparación de referencia basada en **formado de carne picada y ligado de salsa**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Formado de carne picada y ligado de salsa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de pollo picado;\n- 1 huevo M;\n- 35 g de pan rallado;\n- 2 dientes de ajo picados;\n- 80 g de almendras sin sal;\n- 140 g de cebolla picada;\n- 300 ml de caldo de pollo;\n- 3 cucharadas de aceite de oliva;\n- perejil picado y pimienta;\n- sal moderada;\n\n**Alérgenos:** Huevo, trigo (gluten), almendras; revisar caldo.\n\n## Elaboración\n\n1. Mezclar pollo picado frío, huevo, pan rallado, la mitad del ajo, perejil y pimienta; formar albóndigas pequeñas con manos limpias.\n2. Dorar ligeramente las albóndigas por tandas con una cucharada de aceite, sin considerar terminado el interior; retirar.\n3. Tostar almendras suavemente en sartén y reservar.\n4. Pochar cebolla y ajo restante con aceite, incorporar caldo y almendras; cocer 5 minutos y triturar hasta salsa ligeramente granulada.\n5. Devolver las albóndigas y cocinar a hervor suave unos 12–18 minutos, según tamaño, hasta alcanzar 74 °C en su interior.\n6. Ajustar espesor con caldo y sal al final; servir con salsa.\n\n## Puntos críticos\n\n- La carne picada de pollo necesita cocción completa. Lavar utensilios y manos tras manipularla y no probar la mezcla cruda.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/albondigas_de_pollo_en_salsa_de_almendras.html",
+  "id": "REC-0265",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pollo picado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de pollo picado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de pollo picado;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo M;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo M;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo M;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de pan rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de pan rallado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras sin sal;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de almendras sin sal;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de almendras sin sal;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de cebolla picada;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de caldo de pollo;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de caldo de pollo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado y pimienta;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado y pimienta;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/albondigas_de_pollo_en_salsa_de_almendras.md",
+  "source_sha256": "7464e7cfb5078ee956b457bee45b6adbcde83565ab8c1bbc511481f7da2a46ef",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Mezclar pollo picado frío, huevo, pan rallado, la mitad del ajo, perejil y pimienta; formar albóndigas pequeñas con manos limpias."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Dorar ligeramente las albóndigas por tandas con una cucharada de aceite, sin considerar terminado el interior; retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Tostar almendras suavemente en sartén y reservar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Pochar cebolla y ajo restante con aceite, incorporar caldo y almendras; cocer 5 minutos y triturar hasta salsa ligeramente granulada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Devolver las albóndigas y cocinar a hervor suave unos 12–18 minutos, según tamaño, hasta alcanzar 74 °C en su interior."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Ajustar espesor con caldo y sal al final; servir con salsa."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Albóndigas de pollo en salsa de almendras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

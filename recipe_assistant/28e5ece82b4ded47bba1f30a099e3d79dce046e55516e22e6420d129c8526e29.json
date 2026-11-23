@@ -1,0 +1,391 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 121,
+      "start_line": 15
+    },
+    "text": "\n# Lentejas guisadas con calabaza y setas\n\n## Descripción\n\nLentejas pardinas con calabaza y setas, donde el dulzor vegetal se equilibra con el dorado de los hongos y un acabado ligeramente ácido.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 35–55 minutos, según lenteja |\n| Dificultad | Fácil |\n| Técnica principal | Dorado de setas y cocción suave de lentejas |\n\n## Ingredientes\n\n- 300 g de lentejas pardinas secas;\n- 300 g de calabaza pelada, en dados de 2 cm;\n- 250 g de champiñones o setas cultivadas, troceados;\n- 1 cebolla mediana, picada;\n- 1 zanahoria mediana, en dados;\n- 2 dientes de ajo, picados;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 cucharadita de pimentón dulce;\n- 1 hoja de laurel;\n- 900–1100 ml de agua o caldo vegetal, ajustables;\n- sal y pimienta negra;\n- 1 cucharadita de vinagre de vino, opcional al final\n\n**Alérgenos:** Revisar ingredientes y trazas del caldo comercial.\n\n## Mise en place\n\nRevisar y enjuagar las lentejas; comprobar indicaciones de remojo del fabricante. Secar las setas para favorecer su dorado y cortar la calabaza de tamaño uniforme.\n\n## Elaboración\n\n### 1. Dorar las setas\n\nCalentar 1 cucharada de aceite en cazuela amplia; dorar las setas por tandas 5–7 minutos y reservar.\n\n### 2. Preparar el sofrito\n\nAñadir el aceite restante, cebolla y zanahoria; cocinar 7–9 minutos. Agregar ajo durante 1 minuto y después pimentón fuera del fuego directo.\n\n### 3. Cocer lentejas\n\nIncorporar las lentejas, laurel y 900 ml de agua o caldo. Llevar a ebullición y mantener hervor suave; revisar el punto regularmente.\n\n### 4. Incorporar calabaza\n\nCuando las lentejas estén parcialmente ablandadas, añadir la calabaza y continuar la cocción unos 12–18 minutos, ajustando según tamaño del dado y variedad de lenteja.\n\n### 5. Integrar setas\n\nDevolver las setas cuando ambos ingredientes estén casi tiernos. Añadir agua caliente si hace falta y cocinar 3–5 minutos más.\n\n### 6. Terminar\n\nComprobar varias lentejas y la calabaza; ajustar sal y pimienta. Añadir vinagre opcional fuera del fuego y servir.\n\n## Puntos críticos\n\n- No añadir la calabaza demasiado pronto si las lentejas de ese lote necesitan cocción prolongada: podría deshacerse.\n- Dorar las setas aparte evita que hiervan y pierdan profundidad de sabor.\n- El vinagre se reserva para el final, cuando la lenteja ya esté tierna.\n\n## Perfil esperado\n\nLentejas tiernas y reconocibles, dados de calabaza suaves pero no deshechos y setas doradas en caldo ligero.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con comino | Añadir una pizca al sofrito |\n| Con lentejas ya cocidas | Usar unos 650–750 g escurridos y reducir caldo y tiempo; cocinar antes la calabaza |\n| Sin pimentón | Sustituir por tomillo o romero en poca cantidad |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Calabaza deshecha | Guiso excesivamente dulce y espeso | Añadirla cuando las lentejas lleven parte de la cocción |\n| Setas pálidas | Menos sabor | Dorar por tandas antes del guiso |\n| Lentejas duras | Textura incompleta | Prolongar cocción y reponer agua |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos, refrigerar tapado y consumir en un plazo corto. Congelar en porciones si la preparación lo permite. Recalentar completamente los platos calientes; las ensaladas se mantienen refrigeradas y no deben permanecer largo tiempo a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Lentejas secas](../11_Despensa/02_Legumbres/lentejas.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n\n## Principio de NovaCoquinaria\n\n> Coordinar los momentos de incorporación permite conservar la identidad de cada ingrediente en un guiso.\n\n## Utilizado por\n\nLentejas guisadas con calabaza y setas como preparación de referencia del módulo Legumbres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "35–55 minutos, según lenteja",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/lentejas_con_calabaza_y_setas.html",
+  "id": "REC-0107",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lentejas pardinas secas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de lentejas pardinas secas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de lentejas pardinas secas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza pelada, en dados de 2 cm;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de calabaza pelada, en dados de 2 cm;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de calabaza pelada, en dados de 2 cm;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones o setas cultivadas, troceados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de champiñones o setas cultivadas, troceados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de champiñones o setas cultivadas, troceados;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, picada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria mediana, en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria mediana, en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria mediana, en dados;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal, ajustables;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1100",
+        "min": "900",
+        "raw": "900–1100 ml de agua o caldo vegetal, ajustables;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "900–1100 ml de agua o caldo vegetal, ajustables;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional al final",
+      "optionality": "optional",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de vino, opcional al final",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de vino, opcional al final",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nRevisar y enjuagar las lentejas; comprobar indicaciones de remojo del fabricante. Secar las setas para favorecer su dorado y cortar la calabaza de tamaño uniforme.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/lentejas_con_calabaza_y_setas.md",
+  "source_sha256": "b332bb14e2e0541faf6e648b00f9310f0fa2a4fa1676f31ea88504f578553416",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 1,
+      "text": "1. Dorar las setas\n\nCalentar 1 cucharada de aceite en cazuela amplia; dorar las setas por tandas 5–7 minutos y reservar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 2,
+      "text": "2. Preparar el sofrito\n\nAñadir el aceite restante, cebolla y zanahoria; cocinar 7–9 minutos. Agregar ajo durante 1 minuto y después pimentón fuera del fuego directo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 3,
+      "text": "3. Cocer lentejas\n\nIncorporar las lentejas, laurel y 900 ml de agua o caldo. Llevar a ebullición y mantener hervor suave; revisar el punto regularmente.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 4,
+      "text": "4. Incorporar calabaza\n\nCuando las lentejas estén parcialmente ablandadas, añadir la calabaza y continuar la cocción unos 12–18 minutos, ajustando según tamaño del dado y variedad de lenteja.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 74,
+        "start_line": 71
+      },
+      "source_number": 5,
+      "text": "5. Integrar setas\n\nDevolver las setas cuando ambos ingredientes estén casi tiernos. Añadir agua caliente si hace falta y cocinar 3–5 minutos más.\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 78,
+        "start_line": 75
+      },
+      "source_number": 6,
+      "text": "6. Terminar\n\nComprobar varias lentejas y la calabaza; ajustar sal y pimienta. Añadir vinagre opcional fuera del fuego y servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 112,
+        "start_line": 112
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Lentejas guisadas con calabaza y setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

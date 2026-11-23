@@ -1,0 +1,242 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Gambones al horno con ajo, limón y perejil\n\n## Descripción\n\nPreparación de referencia basada en **asado breve de crustáceos enteros y aliño final**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica | Asado breve de crustáceos enteros y aliño final |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 12 gambones crudos enteros, unos 750–900 g\n- 4 dientes de ajo finamente picados\n- 3 cucharadas de aceite de oliva\n- 2 cucharadas de zumo de limón\n- 2 cucharadas de perejil fresco picado\n- sal gruesa y pimienta al gusto\n\n**Alérgenos:** Crustáceos.\n\n## Elaboración\n\n1. Precalentar el horno a 210 °C, calor arriba y abajo, y preparar bandeja amplia.\n2. Comprobar la frescura de los gambones y secarlos ligeramente; mantenerlos refrigerados hasta el montaje.\n3. Mezclar aceite con ajo y la mitad del perejil, repartir por la bandeja y colocar los gambones en una sola capa.\n4. Hornear unos 7–11 minutos según tamaño, dando la vuelta si el calentamiento no es uniforme, hasta que la carne esté opaca y completamente cocinada.\n5. Retirar la bandeja en cuanto estén hechos para evitar que se sequen; añadir el zumo de limón fuera del horno.\n6. Terminar con perejil restante, poca sal y servir inmediatamente.\n\n## Puntos críticos\n\n- Los gambones se hornean enteros en una sola capa: el calibre determina el tiempo y el color del caparazón no demuestra por sí solo que la carne esté cocida.\n- Mantener refrigerados los crustáceos crudos y separar superficies y utensilios antes y después de cocinar. Comprobar que la carne esté opaca y completamente hecha, evitando prolongar el asado hasta volverla correosa.\n- Añadir el limón **fuera del horno**, como establece la receta, y sazonar con moderación para no ocultar el sabor del marisco.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Gambones correosos o secos | Exceso de horno para su calibre | Revisar la cocción de la carne antes del límite orientativo de 7–11 minutos |\n| Carne todavía translúcida | Piezas grandes o tiempo insuficiente | Prolongar el asado de manera gradual hasta cocción completa, sin guiarse solo por el caparazón |\n| Ajo demasiado tostado | Ajo picado expuesto demasiado tiempo al calor intenso | Repartir el aliño uniformemente y vigilar su dorado en una próxima preparación |\n| Sabor excesivamente ácido o salado | Limón o sal añadidos sin probar | Añadir el limón al terminar y ajustar la sal con moderación antes de servir |\n\n## Conservación\n\nServir los gambones preferentemente recién hechos. Mantener el marisco crudo refrigerado hasta el horno; enfriar rápidamente las sobras ya cocidas y guardarlas tapadas **en frigorífico**, sin dejarlas durante periodos prolongados fuera de frío. Consumir en un plazo corto y recalentar completamente únicamente las porciones que se vayan a servir, teniendo en cuenta que pueden perder jugosidad.\n\n## Relaciones dentro del SGCC\n\n- [Gambas al ajillo](./gambas_al_ajillo.md)\n- [Pescado al horno base](../12_Plantillas/04_Cocciones/pescado_al_horno_base.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar producto, pesos reales, método, temperatura, tiempos, textura y valoración. No se modifican versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **asado breve de crustáceos enteros y aliño final**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/gambones_al_horno_con_ajo_limon_y_perejil.html",
+  "id": "REC-363",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "gambones crudos enteros, unos 750–900 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 gambones crudos enteros, unos 750–900 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "12 gambones crudos enteros, unos 750–900 g",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo finamente picados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo finamente picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo finamente picados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de limón",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil fresco picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil fresco picado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal gruesa y pimienta al gusto",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal gruesa y pimienta al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal gruesa y pimienta al gusto",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/gambones_al_horno_con_ajo_limon_y_perejil.md",
+  "source_sha256": "f5c5fe1d150d0fd9c68b037906a5d616efbc919b331aa863b574a0f6f9e8feff",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 210 °C, calor arriba y abajo, y preparar bandeja amplia."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Comprobar la frescura de los gambones y secarlos ligeramente; mantenerlos refrigerados hasta el montaje."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Mezclar aceite con ajo y la mitad del perejil, repartir por la bandeja y colocar los gambones en una sola capa."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Hornear unos 7–11 minutos según tamaño, dando la vuelta si el calentamiento no es uniforme, hasta que la carne esté opaca y completamente cocinada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Retirar la bandeja en cuanto estén hechos para evitar que se sequen; añadir el zumo de limón fuera del horno."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Terminar con perejil restante, poca sal y servir inmediatamente."
+    }
+  ],
+  "techniques": [],
+  "title": "Gambones al horno con ajo, limón y perejil",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

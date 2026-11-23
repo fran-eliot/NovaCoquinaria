@@ -1,0 +1,195 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 72,
+      "start_line": 14
+    },
+    "text": "\n# Crema de limón y nata estilo posset\n\n## Descripción\n\nPropuesta de repostería basada en **reducción breve de nata y cuajado por acidez**. La formulación es de referencia y no se dispone de una preparación o valoración doméstica confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasitos |\n| Técnica principal | Reducción breve de nata y cuajado por acidez |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 ml de nata para montar con al menos 35 % de materia grasa;\n- 110 g de azúcar;\n- 70 ml de zumo de limón colado;\n- ralladura fina de medio limón, opcional;\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Lavar limones, exprimir y colar el zumo. Preparar cuatro vasitos limpios.\n2. Calentar nata y azúcar a fuego medio, removiendo hasta disolver el azúcar.\n3. Cuando hierva suavemente, mantener hervor moderado aproximadamente 3 minutos, sin dejar que se desborde ni se pegue.\n4. Apartar del fuego, incorporar el zumo de limón poco a poco y mezclar hasta homogeneizar. Agregar ralladura opcional.\n5. Repartir entre los vasitos y dejar perder el calor excesivo durante un tiempo breve.\n6. Tapar, refrigerar al menos 4 horas y servir frío cuando tenga consistencia de crema cuajada.\n\n## Puntos críticos\n\n- El cuajado se produce por la combinación de nata suficientemente grasa y acidez del limón, **sin horno ni huevo**. Medir los 70 ml de zumo y no sustituir la nata por leche ni diluir la mezcla con agua.\n- Mantener el hervor moderado aproximado de 3 minutos propuesto, removiendo para que la nata no se pegue ni se desborde. Incorporar el zumo fuera del fuego y repartir en recipientes limpios.\n- Refrigerar los vasitos después de perder el calor excesivo durante un tiempo breve. El reposo orientativo de 4 horas permite valorar la consistencia; no equivale a un tiempo de cocción.\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en una siguiente preparación |\n|---|---|---|\n| Crema demasiado fluida tras el reposo | Nata con poca grasa, zumo mal medido o enfriamiento insuficiente | Verificar porcentaje graso y volumen de limón y respetar el reposo en frío antes de reformular |\n| Separación de líquido | Equilibrio de nata y acidez alterado o mezcla diluida | No añadir agua ni sustituir nata por leche; registrar ingredientes y aspecto al incorporar el limón |\n| Textura demasiado firme | Reducción excesiva o proporción distinta de los ingredientes | En otra prueba controlar el hervor y medir los volúmenes, sin atribuir una causa única sin observación |\n| Acidez o dulzor desequilibrados | Variabilidad del limón y percepción de los 110 g de azúcar | Valorar la fórmula preparada antes de ajustar el azúcar o el zumo en una repetición |\n## Conservación\n\nRepartir la crema recién preparada en vasitos limpios, evitar enfriamientos prolongados a temperatura ambiente y **refrigerar tapados** una vez que hayan perdido el calor excesivo. Mantener siempre frío este postre de nata, servirlo directamente desde el frigorífico y consumir en un plazo corto según la frescura y conservación del lácteo. No aplicar indicaciones para bizcochos u horneados secos a esta crema cuajada por acidez.\n## Relaciones dentro del SGCC\n\n- [Limón](../11_Despensa/11_Condimentos/limon.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nQuedan por registrar las cantidades efectivas, el equipo, los tiempos, el resultado sensorial y la valoración. No se presupone que esta propuesta supere una versión doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/crema_de_limon_con_nata_estilo_posset.html",
+  "id": "REC-294",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "nata para montar con al menos 35 % de materia grasa;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de nata para montar con al menos 35 % de materia grasa;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de nata para montar con al menos 35 % de materia grasa;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de azúcar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón colado;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de zumo de limón colado;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de zumo de limón colado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón, opcional;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/crema_de_limon_con_nata_estilo_posset.md",
+  "source_sha256": "d8a6268926bb97a78ec42eab8c1f4bbd5f7b869245e34678dbd522af92a562db",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Lavar limones, exprimir y colar el zumo. Preparar cuatro vasitos limpios."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Calentar nata y azúcar a fuego medio, removiendo hasta disolver el azúcar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Cuando hierva suavemente, mantener hervor moderado aproximadamente 3 minutos, sin dejar que se desborde ni se pegue."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Apartar del fuego, incorporar el zumo de limón poco a poco y mezclar hasta homogeneizar. Agregar ralladura opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Repartir entre los vasitos y dejar perder el calor excesivo durante un tiempo breve."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Tapar, refrigerar al menos 4 horas y servir frío cuando tenga consistencia de crema cuajada."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 66,
+        "start_line": 66
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Crema de limón y nata estilo posset",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasitos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vasito"
+  }
+}

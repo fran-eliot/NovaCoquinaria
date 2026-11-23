@@ -1,0 +1,246 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Porrusalda vasca de puerro, patata y calabaza\n\n## Origen y contexto\n\n**Región:** País Vasco. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–55 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de puerros limpios\n- 400 g de patatas peladas\n- 300 g de calabaza limpia\n- 1,1 l de agua o caldo vegetal suave, orientativos\n- 3 cucharadas de aceite de oliva virgen extra\n- sal\n\n**Alérgenos:** Revisar alérgenos del caldo comercial si se utiliza.\n\n## Elaboración\n\n1. Lavar el puerro abriéndolo longitudinalmente en la zona verde y retirar toda la tierra entre las capas; cortar en rodajas gruesas.\n2. Pelar las patatas y cascarlas en trozos medianos; cortar la calabaza en dados algo grandes.\n3. Calentar agua o caldo en una cazuela y añadir el puerro; mantener un hervor moderado unos 10 minutos.\n4. Incorporar patatas y calabaza; cocinar a hervor suave aproximadamente 20–25 minutos, hasta que las patatas estén tiernas y la calabaza cocinada sin deshacerse del todo.\n5. Añadir aceite, ajustar sal después de probar el caldo y mantener unos minutos al fuego para integrar.\n6. Servir caliente, con las verduras reconocibles y caldo ligeramente ligado por la patata.\n\n## Puntos críticos\n\n- La porrusalda admite variantes, algunas con bacalao; esta ficha es vegetal. No confundir una sopa de puerro y patata con una crema triturada: aquí se conserva el corte.\n- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |\n| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |\n| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Puerros con vinagreta de mostaza](./puerros_templados_con_vinagreta_de_mostaza.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Porrusalda (Spain.info)](https://www.spain.info/es/receta/porrusalda/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "55",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–55 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/porrusalda_vasca_de_puerro_patata_y_calabaza.html",
+  "id": "REC-424",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "puerros limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de puerros limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de puerros limpios",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas peladas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de patatas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de patatas peladas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza limpia",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de calabaza limpia",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de calabaza limpia",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal suave, orientativos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": true,
+        "max": "1.1",
+        "min": "1.1",
+        "raw": "1,1 l de agua o caldo vegetal suave, orientativos",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1,1 l de agua o caldo vegetal suave, orientativos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/porrusalda_vasca_de_puerro_patata_y_calabaza.md",
+  "source_sha256": "153eb29648b8c9060b57de394b97e134b216749ff42e5f55b16c0a66d5f272b1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Lavar el puerro abriéndolo longitudinalmente en la zona verde y retirar toda la tierra entre las capas; cortar en rodajas gruesas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Pelar las patatas y cascarlas en trozos medianos; cortar la calabaza en dados algo grandes."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Calentar agua o caldo en una cazuela y añadir el puerro; mantener un hervor moderado unos 10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Incorporar patatas y calabaza; cocinar a hervor suave aproximadamente 20–25 minutos, hasta que las patatas estén tiernas y la calabaza cocinada sin deshacerse del todo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Añadir aceite, ajustar sal después de probar el caldo y mantener unos minutos al fuego para integrar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Servir caliente, con las verduras reconocibles y caldo ligeramente ligado por la patata."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Porrusalda vasca de puerro, patata y calabaza",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

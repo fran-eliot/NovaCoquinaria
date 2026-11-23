@@ -1,0 +1,296 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Arroz frito con kimchi y huevo\n\n## Descripción\n\nArroz frito de inspiración coreana con kimchi, huevo y un toque de soja. El arroz previamente enfriado y refrigerado permite separar los granos y reduce los riesgos asociados al almacenamiento inadecuado del arroz cocido.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 minutos con arroz ya cocido |\n| Cocinado | 10–15 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Salteado por tandas y acabado con huevo |\n\n## Ingredientes\n\n- 350 g de arroz cocido, enfriado rápidamente y mantenido refrigerado\n- 120 g de kimchi comercial escurrido y picado\n- 2 huevos\n- 1 cebolleta picada\n- 1 cucharada de salsa de soja, ajustable\n- 2 cucharadas de aceite neutro\n- 1 cucharadita de aceite de sésamo tostado opcional\n- 1 cucharada de líquido del kimchi, opcional y solo si está bien conservado\n\n**Alérgenos:** Huevo, soja y posible trigo; el kimchi comercial puede contener pescado, crustáceos u otros alérgenos según su formulación.\n\n## Mise en place\n\nUsar arroz cocido que se haya enfriado rápidamente y conservado refrigerado; no utilizar arroz dejado a temperatura ambiente. Revisar el etiquetado del kimchi y separar el huevo crudo de otros alimentos.\n\n## Elaboración\n\n### 1. Preparar ingredientes\n\nSeparar el arroz frío con un tenedor, escurrir el kimchi y batir los huevos.\n\n### 2. Cuajar huevo\n\nCalentar media cucharada de aceite y cocinar el huevo hasta que esté completamente cuajado. Retirar a un plato limpio.\n\n### 3. Saltear kimchi\n\nAñadir otra media cucharada de aceite y saltear el kimchi 2–3 minutos, hasta que pierda algo de humedad.\n\n### 4. Incorporar arroz\n\nSubir el fuego de forma controlada, añadir el aceite restante y el arroz. Saltear 3–5 minutos moviendo para separar granos y conseguir que se caliente completamente.\n\n### 5. Terminar\n\nAñadir soja y líquido de kimchi opcional en pequeñas cantidades. Incorporar el huevo cocinado, cebolleta y aceite de sésamo opcional; calentar el conjunto y servir inmediatamente.\n\n## Puntos críticos\n\n- El arroz cocido mal enfriado o mal conservado puede presentar riesgos que el recalentado no elimina necesariamente.\n- Escurrir el kimchi evita apelmazar el arroz.\n- Ajustar la soja tras probar el kimchi, que puede ser salado.\n\n## Perfil esperado\n\nGranos separados, sabor fermentado y picante moderado, huevo repartido y ausencia de líquido libre.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tofu | Añadir tofu dorado por separado |\n| Más suave | Reducir kimchi y añadir algo más de arroz |\n| Sin huevo | Omitirlo y ajustar la proporción de kimchi |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Arroz pastoso | Kimchi muy húmedo o arroz recién cocido | Escurrir y utilizar arroz refrigerado correctamente |\n| Plato demasiado salado | Kimchi y soja | Incorporar soja poco a poco |\n| Arroz conservado incorrectamente | Riesgo de intoxicación | Desechar si no se puede confirmar enfriamiento y refrigeración seguros |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n\n## Principio de NovaCoquinaria\n\n> En el arroz frito, la gestión segura del arroz cocido forma parte de la técnica.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para salteado por tandas y acabado con huevo."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos con arroz ya cocido",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/arroz_frito_con_kimchi_y_huevo.html",
+  "id": "REC-0137",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz cocido, enfriado rápidamente y mantenido refrigerado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de arroz cocido, enfriado rápidamente y mantenido refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de arroz cocido, enfriado rápidamente y mantenido refrigerado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "kimchi comercial escurrido y picado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de kimchi comercial escurrido y picado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de kimchi comercial escurrido y picado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolleta picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolleta picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolleta picada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja, ajustable",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja, ajustable",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja, ajustable",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite de sésamo tostado opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite de sésamo tostado opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "líquido del kimchi, opcional y solo si está bien conservado",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de líquido del kimchi, opcional y solo si está bien conservado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de líquido del kimchi, opcional y solo si está bien conservado",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nUsar arroz cocido que se haya enfriado rápidamente y conservado refrigerado; no utilizar arroz dejado a temperatura ambiente. Revisar el etiquetado del kimchi y separar el huevo crudo de otros alimentos.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/arroz_frito_con_kimchi_y_huevo.md",
+  "source_sha256": "9ee7cc4eb3b408aa46bcef94299bc8be95c8c59db869420e7cddd4fd495a994c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Preparar ingredientes\n\nSeparar el arroz frío con un tenedor, escurrir el kimchi y batir los huevos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Cuajar huevo\n\nCalentar media cucharada de aceite y cocinar el huevo hasta que esté completamente cuajado. Retirar a un plato limpio.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Saltear kimchi\n\nAñadir otra media cucharada de aceite y saltear el kimchi 2–3 minutos, hasta que pierda algo de humedad.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Incorporar arroz\n\nSubir el fuego de forma controlada, añadir el aceite restante y el arroz. Saltear 3–5 minutos moviendo para separar granos y conseguir que se caliente completamente.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nAñadir soja y líquido de kimchi opcional en pequeñas cantidades. Incorporar el huevo cocinado, cebolleta y aceite de sésamo opcional; calentar el conjunto y servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Arroz frito con kimchi y huevo",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

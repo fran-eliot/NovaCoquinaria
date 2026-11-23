@@ -1,0 +1,332 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Leche frita tradicional con canela\n\n## Origen y contexto\n\n**Región:** Tradición repostera castellana. Fórmula doméstica de referencia con los rasgos más reconocibles del plato. No se considera una receta cocinada y valorada ni una reproducción certificada de las especialidades protegidas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 porciones |\n| Tiempo orientativo | 45–55 minutos más 4 horas de reposo frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 ml de leche entera\n- 120 g de azúcar\n- 90 g de maicena\n- piel de 1 limón lavado, solo parte amarilla\n- 1 rama de canela\n- 2 huevos L para rebozar\n- 90 g de harina de trigo para rebozar\n- aceite suave para freír\n- 40 g de azúcar y 1 cucharadita de canela molida para terminar\n\n**Alérgenos:** Leche, huevo y gluten (trigo).\n\n## Elaboración\n\n1. Separar 150 ml de leche fría y disolver la maicena completamente, sin grumos.\n2. Calentar los otros 600 ml de leche con azúcar, piel de limón y canela; mantener un hervor muy suave 5 minutos para infusionar y retirar aromáticos.\n3. Incorporar la leche con maicena en hilo sin dejar de remover; cocinar a fuego medio-bajo hasta espesar notablemente y hervir suavemente al menos 1–2 minutos, removiendo para cocer el almidón.\n4. Verter en fuente rectangular limpia de unos 18 × 24 cm previamente humedecida o forrada; extender a unos 2–3 cm de grosor, cubrir a contacto y enfriar rápidamente en refrigeración.\n5. Refrigerar al menos 4 horas hasta que la crema sea firme y permita cortarla en porciones rectangulares.\n6. Desmoldar con cuidado, cortar, pasar cada pieza por harina y huevo batido.\n7. Freír pocas porciones en aceite a unos 170–175 °C hasta dorar por ambas caras y cuajar completamente el rebozado; escurrir.\n8. Espolvorear con azúcar y canela y servir templada, refrigerando de inmediato las sobras.\n\n## Puntos críticos\n\n- La crema requiere suficiente cocción y enfriado para no abrirse en la fritura. Mantener refrigerada la mezcla láctea; los trozos no deben pasarse por huevo mucho antes de freírlos.\n- Ajustar tiempo, tamaño de pieza, ingredientes comerciales y cantidad de líquido al equipo empleado. Comprobar la cocción, prevenir contaminación cruzada y refrigerar los perecederos sin demora.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Crema con grumos antes de enfriar | Maicena mal disuelta o incorporada sin remover | Disolver completamente en los 150 ml de leche fría e incorporar en hilo sin dejar de remover |\n| Porciones que se rompen al cortarlas | Crema poco cocida o refrigeración insuficiente | Cocer el almidón hasta espesar y respetar las 4 horas orientativas de frío antes de cortar |\n| Rebozado que se desprende | Piezas húmedas o pasadas por harina y huevo con demasiada antelación | Rebozar justo antes de freír, manipulando las porciones frías con cuidado |\n| Exterior oscuro e interior sin calentar adecuadamente | Aceite demasiado caliente o piezas de grosor desigual | Mantener el intervalo orientativo de 170–175 °C y formar piezas similares, comprobando el interior |\n## Conservación\n\nEnfriar rápidamente la crema de leche cocida y conservarla **refrigerada y protegida** durante su cuajado. Freír las porciones rebozadas cerca del servicio; no dejar durante periodos prolongados a temperatura ambiente las piezas con leche y huevo. Refrigerar pronto las sobras en un recipiente limpio y consumir en un plazo corto según la frescura de los ingredientes. El acabado de azúcar y canela no convierte la leche frita en un dulce estable de despensa.\n## Relaciones dentro del SGCC\n\n- [Natillas caseras](./natillas_caseras.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar materia prima, cantidades reales, temperatura, duración, textura y valoración. No sustituye recetas anteriores ni presupone una versión mejorada sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–55 minutos más 4 horas de reposo frío",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/leche_frita_tradicional_con_canela.html",
+  "id": "REC-476",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de leche entera",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de maicena",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de maicena",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de 1 limón lavado, solo parte amarilla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de 1 limón lavado, solo parte amarilla",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de 1 limón lavado, solo parte amarilla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para rebozar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L para rebozar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L para rebozar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para rebozar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de harina de trigo para rebozar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de harina de trigo para rebozar",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite suave para freír",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite suave para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite suave para freír",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar y 1 cucharadita de canela molida para terminar",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar y 1 cucharadita de canela molida para terminar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar y 1 cucharadita de canela molida para terminar",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/leche_frita_tradicional_con_canela.md",
+  "source_sha256": "30c6e032d1a0db56d8cc7e01f520f01f10c59276a70b9a8a2dede99f4e043551",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Separar 150 ml de leche fría y disolver la maicena completamente, sin grumos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Calentar los otros 600 ml de leche con azúcar, piel de limón y canela; mantener un hervor muy suave 5 minutos para infusionar y retirar aromáticos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar la leche con maicena en hilo sin dejar de remover; cocinar a fuego medio-bajo hasta espesar notablemente y hervir suavemente al menos 1–2 minutos, removiendo para cocer el almidón."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Verter en fuente rectangular limpia de unos 18 × 24 cm previamente humedecida o forrada; extender a unos 2–3 cm de grosor, cubrir a contacto y enfriar rápidamente en refrigeración."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Refrigerar al menos 4 horas hasta que la crema sea firme y permita cortarla en porciones rectangulares."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Desmoldar con cuidado, cortar, pasar cada pieza por harina y huevo batido."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Freír pocas porciones en aceite a unos 170–175 °C hasta dorar por ambas caras y cuajar completamente el rebozado; escurrir."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 8,
+      "text": "Espolvorear con azúcar y canela y servir templada, refrigerando de inmediato las sobras."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Leche frita tradicional con canela",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

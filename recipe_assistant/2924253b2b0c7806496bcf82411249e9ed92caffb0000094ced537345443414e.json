@@ -1,0 +1,195 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 14
+    },
+    "text": "\n# Affogato de vainilla y espresso\n\n## Descripción\n\nPreparación de referencia basada en **extracción de espresso y montaje sobre helado**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 copas |\n| Técnica principal | Extracción de espresso y montaje sobre helado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 bolas de helado de vainilla comercial, 70–90 g cada una\n- 2 espressos de 30–40 ml cada uno\n- 10 g de chocolate negro rallado opcional\n\n**Alérgenos:** Leche; revisar helado y chocolate comerciales por huevo, soja y frutos de cáscara.\n\n## Elaboración\n\n1. Comprobar que el helado se ha conservado congelado según su envase.\n2. Enfriar previamente dos copas resistentes al contraste de temperaturas.\n3. Preparar dos espressos inmediatamente antes de servir.\n4. Colocar una bola de helado de vainilla en cada copa fría.\n5. Verter el espresso caliente sobre el helado en el momento de consumir, con precaución para evitar salpicaduras.\n6. Añadir chocolate rallado opcional y servir de inmediato con cuchara.\n\n## Puntos críticos\n\n- El contraste de temperatura es parte de la preparación: el café se vierte en el momento del servicio y el helado empieza a fundirse enseguida. No congelar de nuevo el postre ya mezclado.\n- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.\n- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Helado totalmente fundido antes de servir | Espresso vertido con demasiada antelación | Montar y servir inmediatamente para mantener el contraste de temperaturas |\n| Café excesivamente amargo | Extracción demasiado prolongada o café muy concentrado | Revisar la extracción de los espressos antes de cambiar la dosis de helado |\n| Conjunto demasiado dulce | Helado comercial muy azucarado o chocolate opcional en exceso | Probar los productos antes de modificar la proporción entre espresso y helado |\n| Presentación sin contraste | Helado ablandado antes del montaje | Mantener las bolas congeladas y añadir el café justo al servir |\n\n## Conservación\n\nMantener el **helado comercial congelado** conforme al etiquetado hasta el montaje y preparar los espressos con agua potable y utensilios limpios. Servir el affogato **en el momento de verter el café**, sin dejar que permanezca durante horas a temperatura ambiente. No volver a congelar una ración ya mezclada y derretida; esta elaboración no incluye fruta cortada ni maceraciones con vinagre.\n\n## Relaciones dentro del SGCC\n\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café bombón con leche condensada](./cafe_bombon_con_leche_condensada.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar productos y cantidades efectivas, temperatura, tiempos, textura, ajustes y valoración. No se modifica ni presupone ningún resultado doméstico anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **extracción de espresso y montaje sobre helado**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/affogato_de_vainilla_y_espresso.html",
+  "id": "REC-391",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bolas de helado de vainilla comercial, 70–90 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 bolas de helado de vainilla comercial, 70–90 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 bolas de helado de vainilla comercial, 70–90 g cada una",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espressos de 30–40 ml cada uno",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 espressos de 30–40 ml cada uno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 espressos de 30–40 ml cada uno",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate negro rallado opcional",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de chocolate negro rallado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de chocolate negro rallado opcional",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/affogato_de_vainilla_y_espresso.md",
+  "source_sha256": "71e573b1db1426e09548fa8edfdb5d2f4b7e4e9942f3fbe9e5d14bbbf7eab509",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Comprobar que el helado se ha conservado congelado según su envase."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Enfriar previamente dos copas resistentes al contraste de temperaturas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Preparar dos espressos inmediatamente antes de servir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Colocar una bola de helado de vainilla en cada copa fría."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Verter el espresso caliente sobre el helado en el momento de consumir, con precaución para evitar salpicaduras."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Añadir chocolate rallado opcional y servir de inmediato con cuchara."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Affogato de vainilla y espresso",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "2 copas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

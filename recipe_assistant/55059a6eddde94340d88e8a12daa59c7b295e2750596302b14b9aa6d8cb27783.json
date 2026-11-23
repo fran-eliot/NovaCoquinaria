@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Trucha escabechada a la aragonesa\n\n## Origen y contexto\n\n**Región:** Aragón. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40–50 minutos más 12–24 h de reposo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 truchas evisceradas de 250–300 g cada una\n- 200 ml de aceite de oliva\n- 120 ml de vinagre de vino blanco\n- 180 ml de agua potable\n- 5 dientes de ajo\n- 2 hojas de laurel\n- 1 cucharadita de pimentón dulce (3 g)\n- 8 granos de pimienta negra\n- 50 g de harina de trigo para enharinar ligeramente, opcional\n- sal\n\n**Alérgenos:** Pescado; trigo/gluten si se utiliza harina.\n\n## Elaboración\n\n1. Adquirir truchas evisceradas de origen autorizado; mantenerlas en frío, revisar escamas, lavar solo si es necesario evitando salpicaduras y secar con papel.\n2. Salar las truchas; si se desea una costra ligera, pasarlas por poca harina y retirar el exceso.\n3. Calentar 70 ml de aceite en sartén y cocinar las truchas por ambos lados, sin quemarlas, hasta que alcancen cocción completa (referencia conservadora 63 °C en el centro); pasar a un recipiente alimentario.\n4. En cazuela limpia, calentar el resto del aceite a fuego suave; aromatizar con ajos golpeados, laurel y pimienta durante 4–5 minutos sin quemar.\n5. Apartar brevemente del calor para añadir pimentón; verter con precaución vinagre y agua y devolver a hervor suave 5 minutos.\n6. Cubrir las truchas con el escabeche caliente, dejar perder temperatura sin demoras y refrigerar en recipiente poco profundo.\n7. Reposar 12–24 horas siempre refrigerado y servir frío o templado después de comprobar y retirar espinas.\n\n## Puntos críticos\n\n- La trucha presenta espinas finas; verificar cuidadosamente al servir, especialmente a niños.\n- El escabeche **no constituye una conserva esterilizada** ni garantiza estabilidad a temperatura ambiente: mantener siempre en frigorífico. El vertido de vinagre sobre grasa muy caliente puede producir salpicaduras.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Pescado deshecho | Exceso de manipulación | Mover por las piezas con espátula ancha |\n| Escabeche amargo | Ajo o pimentón quemado | Controlar temperatura y apartar antes de pimentón |\n| Acidez excesiva | Vinagre dominante | Ajustar proporción en la próxima tanda, sin intentar conservar fuera del frío |\n\n## Conservación\n\nConservar a 4 °C o menos y consumir preferiblemente en 48 horas. No almacenar a temperatura ambiente ni tratar como conserva.\n\n## Relaciones dentro del SGCC\n\n- [Trucha a la navarra](../06_Pescados_y_Mariscos/trucha_a_la_navarra_rellena_de_jamon.md)\n- [Sardinas en escabeche](../06_Pescados_y_Mariscos/sardinas_en_escabeche_suave.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración tras su elaboración. Esta propuesta no sustituye ninguna versión doméstica anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40–50 minutos más 12–24 h de reposo refrigerado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Aragón. Propuesta doméstica de referencia, basada en una tradición culinaria regional y pendiente de prueba; no se atribuyen elaboraciones ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/trucha_escabechada_aragonesa.html",
+  "id": "REC-535",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "truchas evisceradas de 250–300 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 truchas evisceradas de 250–300 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 truchas evisceradas de 250–300 g cada una",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "180 ml de agua potable",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "granos de pimienta negra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 granos de pimienta negra",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 granos de pimienta negra",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para enharinar ligeramente, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de harina de trigo para enharinar ligeramente, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de harina de trigo para enharinar ligeramente, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/trucha_escabechada_aragonesa.md",
+  "source_sha256": "a93fedb180607c039462ff3eac0713ed0792cdc4e4b94079113bd4427c1df6de",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Adquirir truchas evisceradas de origen autorizado; mantenerlas en frío, revisar escamas, lavar solo si es necesario evitando salpicaduras y secar con papel."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Salar las truchas; si se desea una costra ligera, pasarlas por poca harina y retirar el exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Calentar 70 ml de aceite en sartén y cocinar las truchas por ambos lados, sin quemarlas, hasta que alcancen cocción completa (referencia conservadora 63 °C en el centro); pasar a un recipiente alimentario."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "En cazuela limpia, calentar el resto del aceite a fuego suave; aromatizar con ajos golpeados, laurel y pimienta durante 4–5 minutos sin quemar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Apartar brevemente del calor para añadir pimentón; verter con precaución vinagre y agua y devolver a hervor suave 5 minutos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Cubrir las truchas con el escabeche caliente, dejar perder temperatura sin demoras y refrigerar en recipiente poco profundo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Reposar 12–24 horas siempre refrigerado y servir frío o templado después de comprobar y retirar espinas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Trucha escabechada a la aragonesa",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

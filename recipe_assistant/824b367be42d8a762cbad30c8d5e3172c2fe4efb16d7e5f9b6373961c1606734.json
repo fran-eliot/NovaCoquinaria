@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Flan de coco al baño maría\n\n## Descripción\n\nReceta de referencia centrada en **caramelo y cuajado suave de huevos y coco**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 flanes |\n| Técnica | Caramelo y cuajado suave de huevos y coco |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 3 huevos L\n- 300 ml de leche de coco sin azúcar\n- 200 ml de leche entera\n- 85 g de azúcar para la mezcla\n- 65 g de azúcar para el caramelo\n- 25 ml de agua para el caramelo\n- 35 g de coco rallado sin azúcar\n\n**Alérgenos:** Huevo y leche; revisar leche de coco envasada.\n\n## Elaboración\n\n1. Precalentar horno a 155–160 °C. Preparar seis flaneras resistentes al calor.\n2. Calentar los 65 g de azúcar con 25 ml de agua hasta lograr caramelo ámbar; repartir con precaución en flaneras.\n3. Batir suavemente huevos con 85 g de azúcar, incorporar leches y coco rallado sin introducir mucho aire.\n4. Repartir la mezcla en las flaneras y colocarlas dentro de fuente profunda.\n5. Verter agua caliente en la fuente hasta la mitad de altura de los moldes, sin que entre en ellos.\n6. Hornear 35–50 minutos, hasta que los centros estén cuajados y alcancen una temperatura segura para la mezcla de huevo (aprox. 71 °C).\n7. Retirar del baño, enfriar rápidamente y refrigerar al menos 4 horas antes de desmoldar.\n\n## Puntos críticos\n\n- El caramelo produce quemaduras graves y el agua del baño maría no debe entrar en las flaneras. Evitar ebullición fuerte que origine una textura agujereada.\n- Ajustar tiempos al molde, grosor y horno; comprobar la cocción real, especialmente en preparaciones con huevo.\n- Manipular huevos, fruta y lácteos con higiene y mantener los ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Flan con agujeros grandes o textura áspera | Baño maría demasiado caliente o mezcla batida incorporando mucho aire | Mantener el baño suave y mezclar los huevos sin montar; registrar temperatura y molde antes de variar la fórmula |\n| Centro aún líquido | Tiempo insuficiente para el tamaño de las flaneras | Comprobar el centro y la referencia de cocción de la propia receta; prolongar gradualmente sin hacer hervir el baño |\n| Caramelo muy amargo | Azúcar demasiado oscuro durante su elaboración | Retirarlo al tono ámbar indicado y manipularlo con precaución por riesgo de quemaduras |\n| Distribución desigual del coco | Coco rallado acumulado en algunas flaneras | Repartir la mezcla uniformemente, removiendo suavemente durante el llenado sin generar espuma |\n## Conservación\n\nRetirar las flaneras del baño maría con cuidado, enfriarlas sin demoras innecesarias y refrigerarlas protegidas durante el reposo indicado. Mantener los flanes de huevo y leche **refrigerados**, desmoldar preferentemente cerca del servicio y devolver las porciones sobrantes al frío. Consumir en un plazo corto según la frescura de los ingredientes empleados; no tratarlos como postres secos de despensa.\n## Relaciones dentro del SGCC\n\n- [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)\n- [Flan de huevo](./flan_de_huevo.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes realmente utilizados, molde, tiempos, temperatura, textura y valoración. No se modifica ni atribuye esta propuesta a una receta doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **caramelo y cuajado suave de huevos y coco**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/flan_de_coco_al_bano_maria.html",
+  "id": "REC-355",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco sin azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de leche de coco sin azúcar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de leche de coco sin azúcar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de leche entera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la mezcla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "85",
+        "min": "85",
+        "raw": "85 g de azúcar para la mezcla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "85 g de azúcar para la mezcla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el caramelo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar para el caramelo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar para el caramelo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para el caramelo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de agua para el caramelo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de agua para el caramelo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "coco rallado sin azúcar",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de coco rallado sin azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de coco rallado sin azúcar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/flan_de_coco_al_bano_maria.md",
+  "source_sha256": "77c66d3c2ea30009bfa76c4123b47494c0b95b2108f63dde326ad3b2b3a466f8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 155–160 °C. Preparar seis flaneras resistentes al calor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar los 65 g de azúcar con 25 ml de agua hasta lograr caramelo ámbar; repartir con precaución en flaneras."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Batir suavemente huevos con 85 g de azúcar, incorporar leches y coco rallado sin introducir mucho aire."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Repartir la mezcla en las flaneras y colocarlas dentro de fuente profunda."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Verter agua caliente en la fuente hasta la mitad de altura de los moldes, sin que entre en ellos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear 35–50 minutos, hasta que los centros estén cuajados y alcancen una temperatura segura para la mezcla de huevo (aprox. 71 °C)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Retirar del baño, enfriar rápidamente y refrigerar al menos 4 horas antes de desmoldar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.html",
+      "label": "Cocinar al baño maría",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.md"
+    }
+  ],
+  "title": "Flan de coco al baño maría",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "6 flanes",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

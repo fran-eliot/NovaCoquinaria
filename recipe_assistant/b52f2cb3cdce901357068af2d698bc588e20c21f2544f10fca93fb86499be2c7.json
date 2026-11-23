@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Solomillo de cerdo relleno de espinacas y queso\n\n## Descripción\n\nPreparación de referencia basada en **apertura en libro, relleno y asado**. No se dispone de una elaboración ni valoración doméstica confirmada; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Apertura en libro, relleno y asado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 solomillo de cerdo de 600–700 g;\n- 200 g de espinacas frescas;\n- 100 g de queso crema;\n- 1 diente de ajo;\n- 1 cucharada de aceite de oliva;\n- 1 cucharadita de mostaza suave opcional;\n- sal, pimienta y nuez moscada;\n\n**Alérgenos:** Leche; mostaza opcional.\n\n## Elaboración\n\n1. Precalentar el horno a 185 °C, calor arriba y abajo.\n2. Saltear espinacas con ajo y aceite, evaporar bien el agua y dejar templar; mezclar con queso crema y nuez moscada.\n3. Abrir el solomillo en libro sobre tabla de carne cruda, sin separar totalmente las dos mitades; aplanar suavemente hasta grosor uniforme.\n4. Distribuir relleno sin llegar a los bordes, enrollar y atar con hilo alimentario; pincelar de mostaza opcional.\n5. Dorar por fuera brevemente en sartén apta y pasar a horno durante unos 18–28 minutos, ajustando al grosor.\n6. Comprobar temperatura en la zona central del relleno y cocinar hasta un mínimo conservador de 74 °C por ser una pieza rellena; reposar 5 minutos, retirar hilo y cortar.\n\n## Puntos críticos\n\n- El interior relleno es el punto crítico: las temperaturas recomendadas para una pieza entera sin rellenar no bastan como referencia para el centro de un rollo relleno. Evitar rellenar con espinacas húmedas.\n- Ajustar tiempos al grosor y al equipo, utilizando termómetro de alimentos en vez de interpretar solo el color exterior.\n- Mantener carne cruda refrigerada y separar tablas, utensilios y superficies de alimentos ya cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior muy dorado e interior insuficiente | Fuego o temperatura altos para el grosor | Reducir calor y comprobar el centro |\n| Salsa demasiado espesa | Reducción excesiva | Corregir con líquido en pequeñas cantidades |\n| Preparación seca | Cocción excesiva | Controlar temperatura interna y reposo |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes tapados y poco profundos. Evitar la permanencia durante horas a temperatura ambiente y recalentar completamente antes de consumir los restos. Seguir el etiquetado de productos envasados y no reutilizar marinadas crudas sin cocción suficiente.\n\n## Relaciones dentro del SGCC\n\n- [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar el peso y grosor efectivos, los tiempos, la temperatura central comprobada, el resultado y la valoración. Ninguna cantidad propuesta se atribuye a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/solomillo_de_cerdo_relleno_de_espinacas_y_queso.html",
+  "id": "REC-0267",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "solomillo de cerdo de 600–700 g;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 solomillo de cerdo de 600–700 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 solomillo de cerdo de 600–700 g;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espinacas frescas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espinacas frescas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "queso crema;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de queso crema;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de queso crema;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza suave opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza suave opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza suave opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y nuez moscada;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y nuez moscada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y nuez moscada;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/solomillo_de_cerdo_relleno_de_espinacas_y_queso.md",
+  "source_sha256": "fb3bdb1e58ea5689305b14e5be936d85147800bddc4e3551117c361a9e072d47",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 185 °C, calor arriba y abajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Saltear espinacas con ajo y aceite, evaporar bien el agua y dejar templar; mezclar con queso crema y nuez moscada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Abrir el solomillo en libro sobre tabla de carne cruda, sin separar totalmente las dos mitades; aplanar suavemente hasta grosor uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Distribuir relleno sin llegar a los bordes, enrollar y atar con hilo alimentario; pincelar de mostaza opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Dorar por fuera brevemente en sartén apta y pasar a horno durante unos 18–28 minutos, ajustando al grosor."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Comprobar temperatura en la zona central del relleno y cocinar hasta un mínimo conservador de 74 °C por ser una pieza rellena; reposar 5 minutos, retirar hilo y cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "Sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Solomillo de cerdo relleno de espinacas y queso",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

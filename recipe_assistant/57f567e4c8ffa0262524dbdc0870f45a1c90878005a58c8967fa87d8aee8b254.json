@@ -1,0 +1,242 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Lubina a la espalda con ajo y guindilla\n\n## Descripción\n\nPreparación de referencia basada en **asado breve de pescado abierto y refrito de ajo**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 2 |\n| Técnica | Asado breve de pescado abierto y refrito de ajo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 lubina de 650–800 g abierta en mariposa, limpia y sin vísceras\n- 3 dientes de ajo laminados\n- 3 cucharadas de aceite de oliva\n- 1 guindilla seca pequeña, opcional\n- 1 cucharada de vinagre de vino blanco\n- sal y perejil picado\n\n**Alérgenos:** Pescado; revisar el vinagre comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 200 °C. Secar bien la lubina y comprobar que esté limpia; mantener refrigerada hasta usar.\n2. Colocar en fuente con piel hacia abajo, salar ligeramente y pincelar con una cucharada de aceite.\n3. Asar 12–18 minutos según grosor, hasta que alcance 63 °C en la zona más gruesa, sin tocar la espina.\n4. Mientras, calentar las dos cucharadas restantes de aceite en sartén pequeña y dorar ajo y guindilla a fuego medio, sin quemarlos.\n5. Apartar la sartén del fuego antes de agregar vinagre, con cuidado por posibles salpicaduras.\n6. Repartir el refrito sobre la lubina cocinada y servir con perejil, retirando cuidadosamente espinas al comer.\n\n## Puntos críticos\n\n- La lubina abierta se cocina mucho más rápido que una pieza entera; el tiempo es orientativo. El aceite caliente salpica al entrar en contacto con vinagre o jugos de la fuente.\n- Mantener los productos refrigerados antes de cocinarlos, emplear utensilios separados para crudo y cocinado y adaptar tiempo y temperatura al grosor del alimento.\n- En piezas de pescado, comprobar la cocción completa; 63 °C en el centro es una referencia conservadora cuando resulte aplicable.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Pescado seco o marisco correoso | Cocción prolongada | Comprobar el centro antes y reducir tiempo |\n| Salsa líquida | Evaporación insuficiente | Reducir separadamente sin sobrecocinar el pescado |\n| Sabor salado | Desalado insuficiente o salsa concentrada | Revisar condimentos y probar antes de salar |\n\n## Conservación\n\nServir preferentemente recién elaborado. Enfriar rápidamente las sobras y refrigerar sin demora en recipientes cerrados y poco profundos. No mantener pescado o marisco varias horas a temperatura ambiente. Las salsas o escabeches caseros no sustituyen una refrigeración adecuada.\n\n## Relaciones dentro del SGCC\n\n- [Pescado al horno base](../12_Plantillas/04_Cocciones/pescado_al_horno_base.md)\n- [Dorada a la sal en horno](./dorada_a_la_sal_en_horno.md)\n- [Índice de Pescados y Mariscos](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar producto, pesos reales, método, temperatura, tiempos, textura y valoración. No se modifican versiones domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **asado breve de pescado abierto y refrito de ajo**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/lubina_a_la_espalda_con_ajo_y_guindilla.html",
+  "id": "REC-358",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lubina de 650–800 g abierta en mariposa, limpia y sin vísceras",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 lubina de 650–800 g abierta en mariposa, limpia y sin vísceras",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 lubina de 650–800 g abierta en mariposa, limpia y sin vísceras",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo laminados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo laminados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla seca pequeña, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla seca pequeña, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla seca pequeña, opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y perejil picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y perejil picado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y perejil picado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/lubina_a_la_espalda_con_ajo_y_guindilla.md",
+  "source_sha256": "d9432c5aa53434a3a5581b53cb08931c9facff18e7ef675a629a92f76602c615",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 200 °C. Secar bien la lubina y comprobar que esté limpia; mantener refrigerada hasta usar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Colocar en fuente con piel hacia abajo, salar ligeramente y pincelar con una cucharada de aceite."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Asar 12–18 minutos según grosor, hasta que alcance 63 °C en la zona más gruesa, sin tocar la espina."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Mientras, calentar las dos cucharadas restantes de aceite en sartén pequeña y dorar ajo y guindilla a fuego medio, sin quemarlos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Apartar la sartén del fuego antes de agregar vinagre, con cuidado por posibles salpicaduras."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Repartir el refrito sobre la lubina cocinada y servir con perejil, retirando cuidadosamente espinas al comer."
+    }
+  ],
+  "techniques": [],
+  "title": "Lubina a la espalda con ajo y guindilla",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

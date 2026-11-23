@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Judías verdes salteadas con almendras y ajo\n\n## Descripción\n\nPreparación de referencia centrada en **escaldado, salteado y tostado de almendras**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Escaldado, salteado y tostado de almendras |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de judías verdes frescas o congeladas;\n- 55 g de almendras laminadas;\n- 2 dientes de ajo laminados;\n- 2 cucharadas de aceite de oliva;\n- 1 cucharadita de ralladura de limón;\n- sal y pimienta;\n\n**Alérgenos:** Almendras (frutos de cáscara).\n\n## Elaboración\n\n1. Retirar puntas de judías frescas y trocearlas; si son congeladas, seguir las instrucciones de preparación.\n2. Cocer o escaldar en agua hirviendo hasta tiernas pero firmes, unos 5–8 minutos según grosor; escurrir y secar.\n3. Tostar las almendras en sartén seca a fuego medio-bajo hasta dorar suavemente y reservar.\n4. Calentar aceite, cocinar ajo brevemente sin quemarlo y agregar las judías escurridas.\n5. Saltear 3–4 minutos para evaporar humedad y dar algo de dorado.\n6. Incorporar las almendras y ralladura de limón fuera del fuego; salpimentar al final.\n\n## Puntos críticos\n\n- Una judía demasiado húmeda no se dorará; las almendras se añaden al final para que no se quemen.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |\n| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |\n| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)\n- [Blanquear y escaldar verduras](../00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **escaldado, salteado y tostado de almendras**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/judias_verdes_salteadas_con_almendras_y_ajo.html",
+  "id": "REC-0288",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "judías verdes frescas o congeladas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de judías verdes frescas o congeladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de judías verdes frescas o congeladas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras laminadas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 g de almendras laminadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "55 g de almendras laminadas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de limón;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de ralladura de limón;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de ralladura de limón;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/judias_verdes_salteadas_con_almendras_y_ajo.md",
+  "source_sha256": "058b22790c8e4726d6b5a70d88747927016e2b89e52ad362ccec1d6e04d4deb5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Retirar puntas de judías frescas y trocearlas; si son congeladas, seguir las instrucciones de preparación."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Cocer o escaldar en agua hirviendo hasta tiernas pero firmes, unos 5–8 minutos según grosor; escurrir y secar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Tostar las almendras en sartén seca a fuego medio-bajo hasta dorar suavemente y reservar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Calentar aceite, cocinar ajo brevemente sin quemarlo y agregar las judías escurridas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Saltear 3–4 minutos para evaporar humedad y dar algo de dorado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Incorporar las almendras y ralladura de limón fuera del fuego; salpimentar al final."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.html",
+      "label": "Blanquear y escaldar verduras",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/blanquear_y_escaldar_verduras.md"
+    }
+  ],
+  "title": "Judías verdes salteadas con almendras y ajo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

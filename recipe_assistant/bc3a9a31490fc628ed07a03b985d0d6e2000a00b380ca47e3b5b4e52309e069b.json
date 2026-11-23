@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Acelgas rehogadas con patata y pimentón\n\n## Descripción\n\nPreparación de referencia centrada en **cocción escalonada y rehogado**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Cocción escalonada y rehogado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de acelgas limpias, pencas y hojas separadas;\n- 350 g de patatas peladas en dados;\n- 3 dientes de ajo laminados;\n- 3 cucharadas de aceite de oliva;\n- ½ cucharadita de pimentón dulce;\n- sal y pimienta;\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Elaboración\n\n1. Lavar las acelgas cuidadosamente para retirar tierra, separar pencas y hojas y cortarlas en trozos regulares.\n2. Cocer las patatas en agua con sal unos 8 minutos antes de agregar las pencas troceadas.\n3. Añadir las pencas y continuar 5–8 minutos; incorporar hojas durante los últimos 3–5 minutos hasta que todo esté tierno.\n4. Escurrir muy bien las verduras y patatas, reservando una cucharada de agua de cocción si fuera necesario.\n5. Dorar suavemente el ajo en aceite, apartar la sartén del fuego para añadir pimentón sin quemarlo.\n6. Incorporar patatas y acelgas, rehogar 2–3 minutos y servir tras ajustar sal.\n\n## Puntos críticos\n\n- Las pencas y hojas tienen tiempos distintos. El pimentón se quema fácilmente si se añade sobre aceite demasiado caliente.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |\n| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |\n| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Pimentón](../11_Despensa/08_Especias/pimenton.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **cocción escalonada y rehogado**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/acelgas_rehogadas_con_patata_y_pimenton.html",
+  "id": "REC-0289",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "acelgas limpias, pencas y hojas separadas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de acelgas limpias, pencas y hojas separadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de acelgas limpias, pencas y hojas separadas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas peladas en dados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de patatas peladas en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de patatas peladas en dados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/acelgas_rehogadas_con_patata_y_pimenton.md",
+  "source_sha256": "162662418a08591414721154329549a2110affcb309187f24fb18dfb82109aa6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar las acelgas cuidadosamente para retirar tierra, separar pencas y hojas y cortarlas en trozos regulares."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Cocer las patatas en agua con sal unos 8 minutos antes de agregar las pencas troceadas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Añadir las pencas y continuar 5–8 minutos; incorporar hojas durante los últimos 3–5 minutos hasta que todo esté tierno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Escurrir muy bien las verduras y patatas, reservando una cucharada de agua de cocción si fuera necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Dorar suavemente el ajo en aceite, apartar la sartén del fuego para añadir pimentón sin quemarlo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Incorporar patatas y acelgas, rehogar 2–3 minutos y servir tras ajustar sal."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Acelgas rehogadas con patata y pimentón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

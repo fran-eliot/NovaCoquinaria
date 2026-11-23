@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Tarta de almendra estilo Santiago\n\n## Descripción\n\nElaboración de referencia que trabaja **batido de huevos y horneado de almendra**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica | Batido de huevos y horneado de almendra |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de almendra molida;\n- 220 g de azúcar;\n- 5 huevos M;\n- ralladura fina de un limón sin parte blanca;\n- ½ cucharadita de canela en polvo;\n- mantequilla y papel para el molde;\n- azúcar glas para decorar, opcional;\n\n**Alérgenos:** Almendra (frutos de cáscara), huevo, leche si se engrasa el molde con mantequilla.\n\n## Elaboración\n\n1. Precalentar horno a 175 °C, calor arriba y abajo, y preparar un molde de 22 cm con papel de horno.\n2. Mezclar almendra molida, azúcar, canela y ralladura para distribuir bien los aromas.\n3. Batir ligeramente los huevos y añadirlos a los ingredientes secos; remover hasta conseguir masa homogénea sin montar excesivamente.\n4. Verter en el molde y nivelar la superficie.\n5. Hornear 30–40 minutos, según molde, hasta que el centro quede cocido y una brocheta salga sin masa líquida.\n6. Enfriar completamente, desmoldar y espolvorear azúcar glas opcional antes de servir.\n\n## Puntos críticos\n\n- La almendra molida aporta la estructura; no añadir harina de trigo a esta formulación. Es una versión doméstica de referencia, no certificación de la indicación geográfica protegida.\n- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.\n- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Centro todavía líquido con bordes dorados | Cocción insuficiente en el molde de 22 cm o calor exterior excesivo | Comprobar el centro con brocheta y prolongar el horneado por intervalos cortos si es necesario |\n| Tarta excesivamente seca | Tiempo de horno prolongado para el grosor de la masa | Revisar antes de agotar el intervalo orientativo y registrar textura una vez fría |\n| Mezcla con zonas de almendra sin integrar | Distribución desigual de los ingredientes secos o de los huevos | Mezclar almendra, azúcar, canela y ralladura antes de añadir los huevos, sin montar excesivamente |\n| Dulzor excesivo | Proporción de 220 g de azúcar y posible acabado con azúcar glas | Valorar la tanda antes de proponer un ajuste; el azúcar glas decorativo es opcional |\n## Conservación\n\nEnfriar completamente la tarta de almendra antes de desmoldar y cubrirla para evitar condensación. Al no llevar relleno ni crema perecedera, conservarla protegida durante un periodo breve en un lugar fresco y seco, adaptándolo a la humedad y temperatura del ambiente; refrigerar si las condiciones no permiten esa conservación. Una variante con cobertura láctea requerirá revisar el almacenamiento. No atribuir prueba doméstica a esta formulación todavía pendiente de cocinar.\n## Relaciones dentro del SGCC\n\n- [Almendras](../11_Despensa/16_Frutos_Secos/almendras.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tarta_de_santiago_de_almendra.html",
+  "id": "REC-0234",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendra molida;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almendra molida;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almendra molida;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de azúcar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 huevos M;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "5 huevos M;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de un limón sin parte blanca;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de un limón sin parte blanca;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de un limón sin parte blanca;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "canela en polvo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela en polvo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela en polvo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla y papel para el molde;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "mantequilla y papel para el molde;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "mantequilla y papel para el molde;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para decorar, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar glas para decorar, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar glas para decorar, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/tarta_de_santiago_de_almendra.md",
+  "source_sha256": "439b5bf16232b3ec19254a4cb6661910011a6e8cd32d372f71c656e9937b13d8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 175 °C, calor arriba y abajo, y preparar un molde de 22 cm con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Mezclar almendra molida, azúcar, canela y ralladura para distribuir bien los aromas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Batir ligeramente los huevos y añadirlos a los ingredientes secos; remover hasta conseguir masa homogénea sin montar excesivamente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Verter en el molde y nivelar la superficie."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Hornear 30–40 minutos, según molde, hasta que el centro quede cocido y una brocheta salga sin masa líquida."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Enfriar completamente, desmoldar y espolvorear azúcar glas opcional antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Tarta de almendra estilo Santiago",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

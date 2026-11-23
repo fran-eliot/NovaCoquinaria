@@ -1,0 +1,193 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Agua de tamarindo casera\n\n## Descripción\n\nPreparación de referencia basada en **hidratación de pulpa, extracción y filtrado**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica principal | Hidratación de pulpa, extracción y filtrado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 130 g de pulpa de tamarindo sin cáscara, sin semillas añadidas y apta para consumo\n- 900 ml de agua potable en total\n- 45–70 g de azúcar, ajustables según acidez de la pulpa\n- hielo para servir, opcional\n\n**Alérgenos:** Revisar composición de la pulpa comercial.\n\n## Elaboración\n\n1. Comprobar en la etiqueta si la pulpa de tamarindo está azucarada o concentrada; ajustar las cantidades de azúcar y agua antes de empezar.\n2. Calentar 350 ml de agua hasta casi hervir y añadir la pulpa.\n3. Mantener 5–8 minutos a calor suave para ablandar, apagar y dejar templar.\n4. Deshacer la pulpa con cuchara o batidor y pasar por un colador fino, retirando fibras y cualquier fragmento de semilla.\n5. Disolver azúcar en el concentrado todavía templado y mezclar con los 550 ml de agua restantes.\n6. Enfriar rápidamente, refrigerar y servir con hielo después de probar el equilibrio de acidez y dulzor.\n\n## Puntos críticos\n\n- La concentración del tamarindo varía mucho entre pulpas y pastas comerciales; no aplicar estas cantidades sin ajuste a concentrados muy potentes. Retirar semillas y fibras duras.\n- Utilizar agua potable, utensilios limpios y materias primas aptas para el tipo de preparación; no sustituir las recomendaciones de conservación por una elevada acidez o una temperatura de servicio fría.\n- Adaptar el dulzor y la dilución tras probar: la intensidad de los productos frescos y comerciales puede variar entre tandas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Bebida demasiado ácida | Pulpa de tamarindo más concentrada de lo previsto | Identificar el tipo de producto y graduar dilución y azúcar tras probar el concentrado |\n| Fibras o restos de semillas | Pulpa insuficientemente deshecha o filtrado grueso | Ablandar con agua caliente y colar cuidadosamente antes de diluir |\n| Bebida demasiado espesa | Concentrado intenso o falta de agua tras el filtrado | Registrar el rendimiento del filtrado y ajustar el agua potable restante |\n| Dulzor excesivo | Pulpa comercial ya azucarada o azúcar añadido sin comprobar | Leer el etiquetado y probar antes de incorporar el azúcar previsto |\n\n## Conservación\n\nTras hidratar y filtrar la pulpa, enfriar **rápidamente** el concentrado, diluirlo con agua potable y refrigerar la bebida tapada. Servir preferiblemente recién hecha o consumir pronto bajo refrigeración. La acidez natural del tamarindo y el azúcar añadido no convierten esta preparación doméstica en una conserva estable a temperatura ambiente; no corresponden referencias a helados o lácteos ausentes de la receta.\n\n## Relaciones dentro del SGCC\n\n- [Diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md): ajuste de acidez, dilución y filtrado.\n- [Limonada casera](./limonada_casera.md)\n- [Agua fresca de sandía y lima](./agua_fresca_de_sandia_y_lima.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar productos y cantidades efectivas, temperatura, tiempos, textura, ajustes y valoración. No se modifica ni presupone ningún resultado doméstico anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **hidratación de pulpa, extracción y filtrado**. Esta formulación aún no consta como elaborada ni valorada en casa; las cantidades quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/agua_de_tamarindo_casera.html",
+  "id": "REC-389",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pulpa de tamarindo sin cáscara, sin semillas añadidas y apta para consumo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de pulpa de tamarindo sin cáscara, sin semillas añadidas y apta para consumo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de pulpa de tamarindo sin cáscara, sin semillas añadidas y apta para consumo",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable en total",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 ml de agua potable en total",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "900 ml de agua potable en total",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustables según acidez de la pulpa",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "45",
+        "raw": "45–70 g de azúcar, ajustables según acidez de la pulpa",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "45–70 g de azúcar, ajustables según acidez de la pulpa",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/agua_de_tamarindo_casera.md",
+  "source_sha256": "8ba51dbda5cf57f084eec31c583b524f0ce32558424faaeb9039ae9a8c10e053",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Comprobar en la etiqueta si la pulpa de tamarindo está azucarada o concentrada; ajustar las cantidades de azúcar y agua antes de empezar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Calentar 350 ml de agua hasta casi hervir y añadir la pulpa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Mantener 5–8 minutos a calor suave para ablandar, apagar y dejar templar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Deshacer la pulpa con cuchara o batidor y pasar por un colador fino, retirando fibras y cualquier fragmento de semilla."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Disolver azúcar en el concentrado todavía templado y mezclar con los 550 ml de agua restantes."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Enfriar rápidamente, refrigerar y servir con hielo después de probar el equilibrio de acidez y dulzor."
+    }
+  ],
+  "techniques": [],
+  "title": "Agua de tamarindo casera",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

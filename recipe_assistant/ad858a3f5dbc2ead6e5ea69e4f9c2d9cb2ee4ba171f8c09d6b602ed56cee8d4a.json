@@ -1,0 +1,248 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 13
+    },
+    "text": "\n# Secreto de cerdo a la plancha\n\n## Descripción\n\nSecreto de cerdo dorado en sartén, aprovechando su infiltración grasa y evitando añadir aceite innecesario.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Cocción | Variable según grosor |\n| Técnica | Plancha |\n\n## Ingredientes\n\n- 400–450 g de secreto de cerdo;\n- sal y pimienta negra;\n- 1 cucharadita de aceite, solo si la sartén lo requiere;\n- unas gotas de limón, opcionales;\n- tomillo, opcional.\n\n## Elaboración\n\n1. Secar la pieza con papel desechable y sazonar. No lavar carne cruda.\n2. Calentar sartén a fuego medio-alto; añadir aceite solo si es necesario.\n3. Cocinar la pieza dejando que la grasa se funda y la superficie se dore. Girar para cocinar de forma uniforme.\n4. Ajustar fuego si el exterior se oscurece antes de completar la cocción.\n5. Medir en el centro: para una pieza entera de cerdo, referencia de **63 °C y reposo de 3 minutos**; seguir las indicaciones específicas del producto.\n6. Cortar transversalmente a las fibras y terminar con limón o tomillo opcionales.\n\n## Puntos críticos\n\n- El secreto tiene grosor irregular: medir la parte más gruesa.\n- La grasa infiltrada facilita el dorado; evitar saturar de aceite.\n- El color exterior no confirma cocción interior.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con pimentón | Añadir moderadamente al final |\n| Con ajo | Dorar ajo aparte para evitar quemado |\n| Con verduras | Acompañar con verduras asadas |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Exceso de grasa en sartén | Fusión de grasa propia | Retirar parte con precaución |\n| Exterior quemado | Calor excesivo | Moderar fuego |\n| Centro poco cocinado | Pieza irregular | Medir y prolongar según necesidad |\n\n## Conservación\n\nRefrigerar rápidamente las sobras, guardar cerrado y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Verduras asadas](../04_Verduras/verduras_asadas_al_horno.md)\n\n## Principio de NovaCoquinaria\n\n> La grasa propia del secreto aporta sabor; el control del fuego permite dorar sin quemar."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Variable según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/secreto_de_cerdo_a_la_plancha.html",
+  "id": "REC-0053",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "secreto de cerdo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "400",
+        "raw": "400–450 g de secreto de cerdo;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "400–450 g de secreto de cerdo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite, solo si la sartén lo requiere;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite, solo si la sartén lo requiere;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite, solo si la sartén lo requiere;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "unas gotas de limón, opcionales;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de limón, opcionales;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de limón, opcionales;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo, opcional.",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "tomillo, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "tomillo, opcional.",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/secreto_de_cerdo_a_la_plancha.md",
+  "source_sha256": "0349b4a2b4cffbccc649a62c8f4c0082c8dae994b94d4c7a090cc27b6279a226",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Secar la pieza con papel desechable y sazonar. No lavar carne cruda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Calentar sartén a fuego medio-alto; añadir aceite solo si es necesario."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Cocinar la pieza dejando que la grasa se funda y la superficie se dore. Girar para cocinar de forma uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Ajustar fuego si el exterior se oscurece antes de completar la cocción."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 5,
+      "text": "Medir en el centro: para una pieza entera de cerdo, referencia de **63 °C y reposo de 3 minutos**; seguir las indicaciones específicas del producto."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 6,
+      "text": "Cortar transversalmente a las fibras y terminar con limón o tomillo opcionales."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "Sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    }
+  ],
+  "title": "Secreto de cerdo a la plancha",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Pochas navarras estofadas con verduras\n\n## Origen y contexto\n\n**Región:** Navarra. La ficha describe una formulación doméstica de referencia; las variantes familiares y regionales pueden utilizar otras proporciones o acabados. No consta como elaboración personal probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–65 minutos, usando pochas frescas o congeladas sin cocer |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de pochas frescas desgranadas o congeladas sin cocer\n- 150 g de cebolla\n- 120 g de pimiento verde\n- 160 g de zanahoria\n- 180 g de tomate maduro rallado\n- 2 dientes de ajo\n- 3 cucharadas de aceite de oliva\n- 1 hoja de laurel\n- agua para cubrir y sal al final\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica.\n\n## Elaboración\n\n1. Revisar las pochas y comprobar su presentación comercial: frescas o congeladas sin cocer; seguir las instrucciones del envase cuando corresponda.\n2. Poner las pochas con agua fresca suficiente para cubrirlas y el laurel en cazuela; llevarlas gradualmente a hervor suave.\n3. Picar cebolla, pimiento, zanahoria y ajo; pochar en sartén con aceite durante unos 10 minutos.\n4. Agregar el tomate rallado y reducir 7–8 minutos; verter el sofrito en la cazuela de las pochas.\n5. Cocer a hervor suave unos 30–50 minutos, según variedad y madurez, añadiendo agua caliente cuando sea necesario.\n6. Comprobar que todas las pochas estén completamente tiernas; ajustar la sal al final y mover la cazuela con vaivén para evitar romperlas.\n7. Servir calientes con caldo ligeramente ligado.\n\n## Puntos críticos\n\n- Las pochas son alubias recolectadas antes de secarse por completo: sus tiempos no son los de las alubias secas, pero requieren una cocción completa. No confundir pochas sin cocer con conserva ya cocida.\n- Ajustar las cantidades de líquido, calor y tiempos a la materia prima y al equipo utilizados. Mantener higiene, separar crudos y cocinados y atender a las instrucciones de los productos comerciales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Pochas duras después del tiempo orientativo | Variedad, madurez o cocción insuficiente de alubia fresca o congelada | Mantener hervor suave hasta que el interior de todas las pochas esté completamente tierno, sin equipararlas a legumbres de conserva |\n| Pochas abiertas o deshechas | Ebullición intensa o remoción brusca | Mover la cazuela suavemente y comprobar el punto con antelación |\n| Caldo demasiado aguado | Agua inicial excesiva o sofrito de tomate insuficientemente reducido | Ajustar el líquido caliente poco a poco y mantener un hervor suave sin secar las pochas |\n| Sabor demasiado salado | Sal añadida antes de reducir el guiso | Sazonar al final, una vez comprobada la cocción de la legumbre |\n\n## Conservación\n\nMantener **pochas frescas o congeladas sin cocer** según su presentación comercial y cocinarlas completamente antes del consumo. Tras el estofado, enfriar rápidamente las sobras de pochas y hortalizas en recipientes poco profundos y conservarlas tapadas en frigorífico. No dejarlas durante horas a temperatura ambiente y recalentar completamente las porciones destinadas al servicio. El manejo higiénico y el frío siguen siendo necesarios también para un guiso exclusivamente vegetal.\n\n## Relaciones dentro del SGCC\n\n- [Alubias estofadas](./alubias_estofadas.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, cantidades efectivas, tiempos, temperatura, textura y valoración. No se sustituyen otras versiones sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45–65 minutos, usando pochas frescas o congeladas sin cocer",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/pochas_navarras_estofadas_con_verduras.html",
+  "id": "REC-462",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pochas frescas desgranadas o congeladas sin cocer",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de pochas frescas desgranadas o congeladas sin cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de pochas frescas desgranadas o congeladas sin cocer",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de zanahoria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de zanahoria",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para cubrir y sal al final",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua para cubrir y sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua para cubrir y sal al final",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/pochas_navarras_estofadas_con_verduras.md",
+  "source_sha256": "f211a5fad9f152eecf171e1ad0aea9b1781f11257e85e39b8dd01bbb70dfb596",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Revisar las pochas y comprobar su presentación comercial: frescas o congeladas sin cocer; seguir las instrucciones del envase cuando corresponda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Poner las pochas con agua fresca suficiente para cubrirlas y el laurel en cazuela; llevarlas gradualmente a hervor suave."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Picar cebolla, pimiento, zanahoria y ajo; pochar en sartén con aceite durante unos 10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Agregar el tomate rallado y reducir 7–8 minutos; verter el sofrito en la cazuela de las pochas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Cocer a hervor suave unos 30–50 minutos, según variedad y madurez, añadiendo agua caliente cuando sea necesario."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Comprobar que todas las pochas estén completamente tiernas; ajustar la sal al final y mover la cazuela con vaivén para evitar romperlas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir calientes con caldo ligeramente ligado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Pochas navarras estofadas con verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

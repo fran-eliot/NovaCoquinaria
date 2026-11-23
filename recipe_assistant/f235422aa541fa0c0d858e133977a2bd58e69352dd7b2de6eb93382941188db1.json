@@ -1,0 +1,283 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 75,
+      "start_line": 16
+    },
+    "text": "\n# Capón asado relleno de manzana y ciruelas\n\n## Origen y contexto\n\n**Región:** Galicia y tradición navideña española. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6–8 raciones |\n| Tiempo orientativo | 3–4 h |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 capón limpio de 2,5–3 kg\n- 2 manzanas\n- 100 g de ciruelas pasas sin hueso\n- 150 g de cebolla\n- 40 ml de aceite de oliva\n- 150 ml de vino blanco\n- 200 ml de caldo de ave\n- sal, pimienta y tomillo\n\n**Alérgenos:** Posibles sulfitos del vino y alérgenos del caldo.\n\n## Elaboración\n\n1. Precalentar el horno a 175 °C. Secar el capón sin lavarlo y sazonar por dentro y fuera.\n2. Cortar manzanas y cebolla; mezclar con ciruelas y rellenar la cavidad sin comprimir. Preparar inmediatamente antes de asar.\n3. Colocar en fuente con aceite, vino y caldo. Asar aproximadamente 2–3 horas, regando ocasionalmente con los jugos.\n4. Comprobar con termómetro al menos 74 °C en pechuga, muslo y centro del relleno, sin tocar hueso. Prolongar la cocción si es necesario.\n5. Reposar 15 minutos, trinchar y servir con los jugos desgrasados.\n\n## Puntos críticos\n\n- Adaptación doméstica del capón festivo, sin atribuir origen certificado de Vilalba. El tiempo es orientativo: manda la temperatura interna.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Pechuga seca | Asado excesivo | Controlar temperatura y cubrir si se dora pronto |\n| Relleno frío | Cavidad demasiado compacta | Rellenar sin prensar y verificar temperatura |\n\n## Conservación\n\nSeparar carne y relleno y refrigerar en recipientes poco profundos antes de dos horas, a 4 °C o menos; consumir en 2 días o congelar.\n\n## Relaciones dentro del SGCC\n\n- [pollo asado con patatas](../10_Horno/pollo_asado_con_patatas.md)\n- [asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "4",
+      "min": "3",
+      "phase": "declared_total",
+      "raw": "3–4 h",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "h"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** Galicia y tradición navideña española. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/capon_asado_relleno_de_manzana_y_ciruelas.html",
+  "id": "REC-586",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "capón limpio de 2,5–3 kg",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 capón limpio de 2,5–3 kg",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 capón limpio de 2,5–3 kg",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "manzanas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 manzanas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 manzanas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ciruelas pasas sin hueso",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de ciruelas pasas sin hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de ciruelas pasas sin hueso",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de vino blanco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de ave",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de caldo de ave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de caldo de ave",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y tomillo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y tomillo",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y tomillo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/capon_asado_relleno_de_manzana_y_ciruelas.md",
+  "source_sha256": "41292303da6a269956b38f5aa76d8c694bec9b8629a06066289ca1515035dc8e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 175 °C. Secar el capón sin lavarlo y sazonar por dentro y fuera."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cortar manzanas y cebolla; mezclar con ciruelas y rellenar la cavidad sin comprimir. Preparar inmediatamente antes de asar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Colocar en fuente con aceite, vino y caldo. Asar aproximadamente 2–3 horas, regando ocasionalmente con los jugos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Comprobar con termómetro al menos 74 °C en pechuga, muslo y centro del relleno, sin tocar hueso. Prolongar la cocción si es necesario."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Reposar 15 minutos, trinchar y servir con los jugos desgrasados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "asar en horno",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Capón asado relleno de manzana y ciruelas",
+  "yield": {
+    "max": "8",
+    "min": "6",
+    "raw": "6–8 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Fricandó catalán de ternera con setas\n\n## Origen y contexto\n\n**Región:** Cataluña. Formulación doméstica de referencia con los elementos característicos de la preparación. Las proporciones se proponen para una futura prueba, sin atribuirles validez universal ni experiencia ya documentada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Duración orientativa | 85–110 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de filetes finos de ternera para guisar, por ejemplo llata\n- 220 g de setas frescas limpias o 25 g de moixernons secos rehidratados\n- 200 g de cebolla picada\n- 260 g de tomate maduro rallado\n- 120 ml de vino blanco seco\n- 400–550 ml de caldo de carne caliente\n- 40 g de harina de trigo para enharinar ligeramente\n- 3 cucharadas de aceite de oliva\n- 1 hoja de laurel\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo), posibles sulfitos del vino y alérgenos del caldo comercial.\n\n## Elaboración\n\n1. Si se usan moixernons secos, rehidratarlos según el proveedor y colar su agua de remojo si se incorpora al guiso; limpiar bien las setas frescas.\n2. Secar los filetes, salpimentar y enharinar muy ligeramente; sacudir exceso.\n3. Dorarlos brevemente por tandas en cazuela con aceite y reservar; no necesitan quedar totalmente cocinados en esta fase.\n4. Pochar cebolla unos 10 minutos, incorporar tomate y reducir otros 8–10 minutos.\n5. Agregar vino, dejar evaporar parte del alcohol y raspar los fondos dorados de la cazuela.\n6. Reincorporar la ternera, añadir laurel y caldo caliente hasta cubrir casi la carne. Guisar a hervor suave aproximadamente 45–65 minutos hasta que la ternera esté bien cocinada y tierna.\n7. Saltear las setas por separado si son frescas para evaporar humedad y sumarlas en los últimos 15–20 minutos; ajustar la densidad de la salsa y la sal.\n8. Reposar unos minutos y servir caliente.\n\n## Puntos críticos\n\n- El corte fino de carne, la harina y el hervor suave definen la salsa. Los moixernons son tradicionales en muchas versiones, pero la seta disponible condiciona aroma y cantidad de líquido.\n- Aplicar higiene de los ingredientes y utensilios, separar productos crudos y cocinados y refrigerar de forma apropiada los perecederos.\n- Comprobar el punto de cocción real de cada ingrediente y registrar ajustes de cantidades, temperatura y tiempo antes de consolidar una versión.\n\n## Diagnóstico\n\n| Observación | Posible causa | Ajuste para próxima elaboración |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas irregulares | Prolongar la cocción y comprobar el interior |\n| Caldo o salsa poco ligado | Exceso de líquido o falta de reducción | Ajustar la hidratación y reducir suavemente |\n| Sabor desequilibrado | Sal o acidez excesiva | Añadir condimentos gradualmente y probar al final |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los preparados con carnes, pescados, huevos o lácteos deben mantenerse refrigerados y recalentarse completamente cuando corresponda; las cremas frías no deben exponerse durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Ternera guisada con verduras](./ternera_guisada_con_verduras.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes reales, pesos, tiempos, textura y valoración. Esta propuesta no modifica versiones previamente cocinadas ni declara una mejora sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/fricando_catalan_de_ternera_con_setas.html",
+  "id": "REC-438",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes finos de ternera para guisar, por ejemplo llata",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de filetes finos de ternera para guisar, por ejemplo llata",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de filetes finos de ternera para guisar, por ejemplo llata",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "setas frescas limpias o 25 g de moixernons secos rehidratados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de setas frescas limpias o 25 g de moixernons secos rehidratados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de setas frescas limpias o 25 g de moixernons secos rehidratados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "260",
+        "min": "260",
+        "raw": "260 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "260 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de carne caliente",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "400",
+        "raw": "400–550 ml de caldo de carne caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "400–550 ml de caldo de carne caliente",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para enharinar ligeramente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de harina de trigo para enharinar ligeramente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de harina de trigo para enharinar ligeramente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/fricando_catalan_de_ternera_con_setas.md",
+  "source_sha256": "a98bfcfc78f3b75df731131034ecc7727fad3cd32c25bbfe3568979d016853c5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Si se usan moixernons secos, rehidratarlos según el proveedor y colar su agua de remojo si se incorpora al guiso; limpiar bien las setas frescas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Secar los filetes, salpimentar y enharinar muy ligeramente; sacudir exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Dorarlos brevemente por tandas en cazuela con aceite y reservar; no necesitan quedar totalmente cocinados en esta fase."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Pochar cebolla unos 10 minutos, incorporar tomate y reducir otros 8–10 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Agregar vino, dejar evaporar parte del alcohol y raspar los fondos dorados de la cazuela."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Reincorporar la ternera, añadir laurel y caldo caliente hasta cubrir casi la carne. Guisar a hervor suave aproximadamente 45–65 minutos hasta que la ternera esté bien cocinada y tierna."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Saltear las setas por separado si son frescas para evaporar humedad y sumarlas en los últimos 15–20 minutos; ajustar la densidad de la salsa y la sal."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Reposar unos minutos y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Fricandó catalán de ternera con setas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

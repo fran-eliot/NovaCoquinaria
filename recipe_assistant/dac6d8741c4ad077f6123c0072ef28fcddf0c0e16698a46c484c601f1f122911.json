@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Rabo de toro a la cordobesa con vino tinto\n\n## Origen y contexto\n\n**Región:** Córdoba, Andalucía. Versión doméstica de referencia de una especialidad regional; no se declara como receta única ni como preparación ya probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 3–4 h con cocción lenta |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1,5 kg de rabo de toro o de vacuno troceado por las articulaciones\n- 350 g de cebolla picada\n- 200 g de zanahoria en rodajas\n- 120 g de puerro picado\n- 2 dientes de ajo\n- 500 ml de vino tinto\n- 350–500 ml de agua o caldo de carne caliente\n- 2 hojas de laurel\n- 1 cucharadita de pimentón dulce, opcional\n- 3 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Sulfitos posibles del vino; apio si aparece en el caldo comercial.\n\n## Elaboración\n\n1. Secar los trozos de rabo y salpimentarlos; dorarlos bien por tandas en aceite caliente hasta que tomen color. Reservar.\n2. Pochar cebolla, puerro, zanahoria y ajo en el fondo de cocción unos 12–15 minutos.\n3. Añadir vino tinto y reducir a hervor abierto unos 8–10 minutos para concentrar el sabor, sin asumir eliminación total del alcohol.\n4. Devolver el rabo, incorporar laurel y caldo suficiente para cubrir parcialmente; tapar y cocer a fuego suave unas 2½–3½ horas o hasta que la carne se separe con facilidad del hueso.\n5. Retirar los trozos de carne con cuidado. Quitar laurel y triturar o pasar la salsa si se desea un resultado fino.\n6. Reducir la salsa hasta espesor meloso, desgrasando parte de la superficie; devolver el rabo a la cazuela y calentar completamente.\n7. Servir con la salsa, vigilando los fragmentos de hueso y cartílago.\n\n## Puntos críticos\n\n- La gelatinización requiere cocción lenta prolongada; no intentar conseguir ternura elevando violentamente el hervor. La denominación tradicional no obliga a utilizar carne de toro de lidia; documentar el producto real.\n- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste de una próxima tanda |\n|---|---|---|\n| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |\n| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |\n| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Ternera guisada con verduras](./ternera_guisada_con_verduras.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades realmente empleadas, proceso, tiempos, textura y valoración. No sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "4",
+      "min": "3",
+      "phase": "declared_total",
+      "raw": "3–4 h con cocción lenta",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "h"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/rabo_de_toro_a_la_cordobesa_con_vino_tinto.html",
+  "id": "REC-445",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rabo de toro o de vacuno troceado por las articulaciones",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.5",
+        "min": "1.5",
+        "raw": "1,5 kg de rabo de toro o de vacuno troceado por las articulaciones",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1,5 kg de rabo de toro o de vacuno troceado por las articulaciones",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en rodajas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de zanahoria en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de zanahoria en rodajas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de puerro picado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de puerro picado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino tinto",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de vino tinto",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de vino tinto",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo de carne caliente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "350",
+        "raw": "350–500 ml de agua o caldo de carne caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–500 ml de agua o caldo de carne caliente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/rabo_de_toro_a_la_cordobesa_con_vino_tinto.md",
+  "source_sha256": "1d07ab4f098a0a27c70303df6ad27786898aebe5a62e8966fa8a99060021867e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Secar los trozos de rabo y salpimentarlos; dorarlos bien por tandas en aceite caliente hasta que tomen color. Reservar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla, puerro, zanahoria y ajo en el fondo de cocción unos 12–15 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Añadir vino tinto y reducir a hervor abierto unos 8–10 minutos para concentrar el sabor, sin asumir eliminación total del alcohol."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Devolver el rabo, incorporar laurel y caldo suficiente para cubrir parcialmente; tapar y cocer a fuego suave unas 2½–3½ horas o hasta que la carne se separe con facilidad del hueso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Retirar los trozos de carne con cuidado. Quitar laurel y triturar o pasar la salsa si se desea un resultado fino."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Reducir la salsa hasta espesor meloso, desgrasando parte de la superficie; devolver el rabo a la cazuela y calentar completamente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Servir con la salsa, vigilando los fragmentos de hueso y cartílago."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Rabo de toro a la cordobesa con vino tinto",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Arroz con mejillones y azafrán\n\n## Descripción\n\nReceta de referencia centrada en **apertura de bivalvos, filtrado de jugo y arroz seco**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Apertura de bivalvos, filtrado de jugo y arroz seco |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 240 g de arroz redondo;\n- 900 g de mejillones vivos de origen autorizado;\n- 120 g de cebolla picada;\n- 100 g de pimiento verde;\n- 2 dientes de ajo;\n- 140 g de tomate rallado;\n- 600–700 ml de líquido caliente total, combinando jugo filtrado de mejillones y fumet o agua;\n- unas hebras de azafrán;\n- 2 cucharadas de aceite de oliva;\n- sal solo después de probar el jugo;\n\n**Alérgenos:** Moluscos y pescado si se usa fumet.\n\n## Elaboración\n\n1. Limpiar y revisar los mejillones vivos; retirar los de concha rota y los que no respondan al tacto. Mantenerlos fríos hasta cocinar.\n2. Abrirlos al vapor en olla tapada; desechar los cerrados tras la cocción. Filtrar el jugo a través de colador fino para eliminar restos de arena.\n3. Separar parte de la carne de las conchas y reservar refrigerada. Completar el líquido con fumet o agua hasta el volumen total previsto y calentarlo.\n4. Pochar cebolla y pimiento con aceite, añadir ajo y tomate y cocinar hasta concentrar; infusionar el azafrán en parte del caldo.\n5. Incorporar arroz y caldo caliente, distribuir en cazuela ancha y cocer unos 16–19 minutos según variedad.\n6. Añadir los mejillones ya abiertos cerca del final solo para calentarlos y servir tras reposo corto.\n\n## Puntos críticos\n\n- Solo usar mejillones procedentes de establecimientos autorizados; la salinidad del jugo filtrado varía mucho. Evitar recocer los moluscos.\n- La proporción de líquido varía por variedad de arroz, geometría del recipiente, intensidad del fuego y humedad de los ingredientes. Medir el líquido realmente incorporado.\n- Mantener higiene y conservación adecuadas de carnes, pescados, moluscos y verduras; comprobar la cocción completa de las proteínas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Grano duro | Falta de líquido o tiempo de cocción | Añadir líquido caliente en pequeñas cantidades y revisar el punto |\n| Arroz pasado | Exceso de líquido, tiempo o reposo | Reducir tiempo o líquido según el método |\n| Sabor excesivamente salado | Caldos o salsas ya salados | Probar los líquidos antes de salar |\n| Fondo seco antes de tiempo | Evaporación elevada | Ajustar el fuego y el recipiente |\n\n## Seguridad y conservación\n\nSi no se consume inmediatamente, **enfriar rápidamente el arroz cocido y refrigerarlo sin demora**. Evitar que permanezca horas a temperatura ambiente; el recalentamiento no corrige una conservación insegura previa. No guardar marisco ni pollo cocinado a temperatura ambiente. Refrigerar en recipientes poco profundos y recalentar completamente cuando corresponda.\n\n## Relaciones dentro del SGCC\n\n- [Mejillones](../11_Despensa/05_Mariscos/mejillones.md)\n- [Azafrán](../11_Despensa/08_Especias/azafran.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos realmente utilizados, volumen total de líquidos, equipo, tiempos efectivos, textura final y valoración. No se atribuyen estas cantidades a una experiencia personal anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **apertura de bivalvos, filtrado de jugo y arroz seco**. No consta elaboración ni valoración doméstica de esta fórmula; cantidades y tiempos son propuestas iniciales reproducibles."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_mejillones_y_azafran.html",
+  "id": "REC-0254",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de arroz redondo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de arroz redondo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mejillones vivos de origen autorizado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 g de mejillones vivos de origen autorizado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "900 g de mejillones vivos de origen autorizado;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de tomate rallado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de tomate rallado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "líquido caliente total, combinando jugo filtrado de mejillones y fumet o agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "600",
+        "raw": "600–700 ml de líquido caliente total, combinando jugo filtrado de mejillones y fumet o agua;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "600–700 ml de líquido caliente total, combinando jugo filtrado de mejillones y fumet o agua;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "unas hebras de azafrán;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas hebras de azafrán;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "unas hebras de azafrán;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo después de probar el jugo;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo después de probar el jugo;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo después de probar el jugo;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_con_mejillones_y_azafran.md",
+  "source_sha256": "ec02b36253ada4f0e519aecd9054e77942fe10aee799d348d6dc79184d02b46a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Limpiar y revisar los mejillones vivos; retirar los de concha rota y los que no respondan al tacto. Mantenerlos fríos hasta cocinar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Abrirlos al vapor en olla tapada; desechar los cerrados tras la cocción. Filtrar el jugo a través de colador fino para eliminar restos de arena."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Separar parte de la carne de las conchas y reservar refrigerada. Completar el líquido con fumet o agua hasta el volumen total previsto y calentarlo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Pochar cebolla y pimiento con aceite, añadir ajo y tomate y cocinar hasta concentrar; infusionar el azafrán en parte del caldo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Incorporar arroz y caldo caliente, distribuir en cazuela ancha y cocer unos 16–19 minutos según variedad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Añadir los mejillones ya abiertos cerca del final solo para calentarlos y servir tras reposo corto."
+    }
+  ],
+  "techniques": [],
+  "title": "Arroz con mejillones y azafrán",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

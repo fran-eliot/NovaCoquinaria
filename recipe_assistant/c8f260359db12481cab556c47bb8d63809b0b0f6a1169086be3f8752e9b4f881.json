@@ -1,0 +1,315 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 114,
+      "start_line": 15
+    },
+    "text": "\n# Empanada de atún y pimientos\n\n## Descripción\n\nEmpanada doméstica de dos láminas de masa rellena con sofrito de cebolla, pimiento, tomate y atún en conserva. El relleno se enfría antes de montar para preservar la estructura de la masa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6–8 |\n| Preparación | 30 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Media |\n| Técnica principal | Reducción del relleno, montaje y horneado |\n\n## Ingredientes\n\n- 2 láminas rectangulares de masa para empanada, de unos 250 g cada una\n- 250 g de atún en conserva escurrido\n- 1 cebolla grande, picada\n- 1 pimiento rojo, en dados pequeños\n- 1 pimiento verde, en dados pequeños\n- 250 g de tomate triturado\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 huevo batido para pincelar, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Pescado; gluten según la masa; huevo si se pincela. Revisar masa comercial.\n\n## Mise en place\n\nPrecalentar el horno a 200 °C. Escurrir el atún y preparar una bandeja con papel de horno apto. Mantener la masa refrigerada hasta montar. Disponer de una rejilla para enfriar el relleno.\n\n## Elaboración\n\n### 1. Pochar verduras\n\nCalentar aceite y cocinar cebolla y pimientos 10–12 minutos a fuego medio hasta tiernos.\n\n### 2. Reducir el tomate\n\nAñadir tomate triturado y cocinar 8–12 minutos hasta que no quede líquido libre en exceso. Salpimentar moderadamente.\n\n### 3. Incorporar atún\n\nRetirar del fuego, añadir atún en lascas y mezclar sin deshacerlo. Extender en recipiente limpio para que enfríe sin demoras.\n\n### 4. Montar empanada\n\nColocar una lámina sobre la bandeja; repartir relleno frío dejando 2 cm libres en los bordes. Cubrir con la segunda lámina, cerrar los extremos y abrir un pequeño orificio central de salida de vapor.\n\n### 5. Hornear\n\nPincelar con huevo opcional y hornear 25–35 minutos hasta que la masa esté completamente cocida y dorada, también por la base. Reposar unos minutos antes de cortar.\n\n## Puntos críticos\n\n- El relleno caliente o acuoso reblandece la masa y dificulta el sellado.\n- Escurrir el atún y reducir tomate evita exceso de humedad.\n- La superficie dorada no garantiza que el fondo esté cocido; comprobar la base.\n\n## Perfil esperado\n\nMasa dorada y firme, relleno jugoso pero no líquido, sabor equilibrado a tomate y atún.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con aceitunas | Añadir unas aceitunas picadas y reducir sal |\n| Con huevo cocido | Añadir dados al relleno frío; incorpora huevo |\n| Con masa casera | Utilizar una masa apta para empanadas y ajustar horneado a su grosor |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Base blanda | Relleno húmedo o caliente | Reducir y enfriar antes de montar |\n| Costura abierta | Bordes con relleno | Dejar margen y sellar |\n| Superficie quemada | Horno alto o bandeja muy alta | Bajar altura y cubrir si hace falta |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> En una empanada, la calidad de la masa depende de la humedad y la temperatura del relleno.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: reducción del relleno, montaje y horneado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "30",
+      "min": "30",
+      "phase": "preparation",
+      "raw": "30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/empanada_de_atun_y_pimientos.html",
+  "id": "REC-0162",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "láminas rectangulares de masa para empanada, de unos 250 g cada una",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 láminas rectangulares de masa para empanada, de unos 250 g cada una",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 láminas rectangulares de masa para empanada, de unos 250 g cada una",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de atún en conserva escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de atún en conserva escurrido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande, picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande, picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande, picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo, en dados pequeños",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo, en dados pequeños",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo, en dados pequeños",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde, en dados pequeños",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento verde, en dados pequeños",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento verde, en dados pequeños",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de tomate triturado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pincelar, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pincelar, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pincelar, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 200 °C. Escurrir el atún y preparar una bandeja con papel de horno apto. Mantener la masa refrigerada hasta montar. Disponer de una rejilla para enfriar el relleno.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 46
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/empanada_de_atun_y_pimientos.md",
+  "source_sha256": "730c789cd9dcb0aa787771888373fea3fc0d04bb1b00a28dbef7cceb387f9a90",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 1,
+      "text": "1. Pochar verduras\n\nCalentar aceite y cocinar cebolla y pimientos 10–12 minutos a fuego medio hasta tiernos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 2,
+      "text": "2. Reducir el tomate\n\nAñadir tomate triturado y cocinar 8–12 minutos hasta que no quede líquido libre en exceso. Salpimentar moderadamente.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 3,
+      "text": "3. Incorporar atún\n\nRetirar del fuego, añadir atún en lascas y mezclar sin deshacerlo. Extender en recipiente limpio para que enfríe sin demoras.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 4,
+      "text": "4. Montar empanada\n\nColocar una lámina sobre la bandeja; repartir relleno frío dejando 2 cm libres en los bordes. Cubrir con la segunda lámina, cerrar los extremos y abrir un pequeño orificio central de salida de vapor.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 68
+      },
+      "source_number": 5,
+      "text": "5. Hornear\n\nPincelar con huevo opcional y hornear 25–35 minutos hasta que la masa esté completamente cocida y dorada, también por la base. Reposar unos minutos antes de cortar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Empanada de atún y pimientos",
+  "yield": {
+    "max": "8",
+    "min": "6",
+    "raw": "6–8",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

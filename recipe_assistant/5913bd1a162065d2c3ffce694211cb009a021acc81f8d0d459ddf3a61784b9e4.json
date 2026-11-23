@@ -1,0 +1,320 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Pollo al chilindrón con pimientos\n\n## Descripción\n\nPreparación de referencia basada en **dorado y guiso de pollo en sofrito de pimientos y tomate**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 55–70 min |\n| Técnica principal | Dorado y guiso de pollo en sofrito de pimientos y tomate |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 850 g de contramuslos de pollo deshuesados, sin piel\n- 220 g de pimiento rojo en tiras\n- 180 g de pimiento verde en tiras\n- 180 g de cebolla en juliana\n- 2 dientes de ajo\n- 350 g de tomate triturado\n- 100 ml de vino blanco opcional\n- 2 cucharadas de aceite de oliva\n- 1 hoja de laurel\n- sal y pimienta negra\n\n**Alérgenos:** Revisar vino y tomate comercial según ingredientes; contiene alcohol residual si se usa vino.\n\n## Elaboración\n\n1. Secar los contramuslos con papel apto, salpimentar y dorar por tandas con una cucharada de aceite. Retirar sin considerar el dorado una cocción completa.\n2. Pochar cebolla y pimientos en el aceite restante 10–12 minutos, hasta reducir su volumen y desarrollar aroma.\n3. Incorporar ajo picado durante 30 segundos; añadir vino si se usa y reducir 2–3 minutos.\n4. Agregar tomate y laurel, cocinar 8 minutos para concentrar y recuperar los fondos del recipiente.\n5. Devolver el pollo con sus jugos, tapar parcialmente y guisar suavemente 18–25 minutos, hasta que el centro alcance 74 °C.\n6. Destapar al final si la salsa está líquida, reducir brevemente, retirar el laurel y ajustar sal.\n\n## Puntos críticos\n\n- No introducir el pollo crudo en una salsa casi terminada si después se reduce muy poco. La cocción completa del ave debe comprobarse; los pimientos pierden agua y requieren reducción antes de terminar.\n- El tiempo varía según tamaño, corte, recipiente y calor; comprobar la cocción completa y, cuando proceda, utilizar termómetro.\n- Evitar la contaminación cruzada entre carne cruda y alimentos listos para comer.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Carne poco tierna | Cocción insuficiente para el corte o hervor demasiado intenso | Adaptar el tiempo y utilizar calor suave en guisos |\n| Salsa demasiado líquida | Ingredientes con humedad o reducción escasa | Reducir la salsa antes del servicio, sin resecar la carne |\n| Exterior demasiado tostado | Fuego intenso o condimentos azucarados añadidos pronto | Moderar el calor y aplicar glaseados al final |\n\n## Conservación\n\nServir recién cocinado o enfriar rápidamente las sobras en recipientes poco profundos y refrigerar sin demora. Los adobos y escabeches caseros no sustituyen refrigeración, controles de temperatura ni técnicas validadas de conservación. Recalentar completamente las porciones destinadas a servirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Pollo guisado con tomate y pimiento](./pollo_guisado_con_tomate.md)\n- [Sofrito mediterráneo](../12_Plantillas/01_Bases_Mediterraneas/sofrito_mediterraneo.md)\n- [Índice de Carnes](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, corte, equipo, temperatura interior, tiempos, textura y valoración. No se atribuye esta fórmula a preparaciones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "70",
+      "min": "55",
+      "phase": "declared_total",
+      "raw": "55–70 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado y guiso de pollo en sofrito de pimientos y tomate**. No consta una elaboración doméstica o valoración de esta formulación. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_al_chilindron_con_pimientos.html",
+  "id": "REC-322",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados, sin piel",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 g de contramuslos de pollo deshuesados, sin piel",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "850 g de contramuslos de pollo deshuesados, sin piel",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo en tiras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de pimiento rojo en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de pimiento rojo en tiras",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde en tiras",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pimiento verde en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pimiento verde en tiras",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en juliana",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla en juliana",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla en juliana",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate triturado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_al_chilindron_con_pimientos.md",
+  "source_sha256": "6997f48ef05570b97357cecbb3a50e1babce87fb63e2b64ae7be27f753adcc53",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Secar los contramuslos con papel apto, salpimentar y dorar por tandas con una cucharada de aceite. Retirar sin considerar el dorado una cocción completa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimientos en el aceite restante 10–12 minutos, hasta reducir su volumen y desarrollar aroma."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar ajo picado durante 30 segundos; añadir vino si se usa y reducir 2–3 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Agregar tomate y laurel, cocinar 8 minutos para concentrar y recuperar los fondos del recipiente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Devolver el pollo con sus jugos, tapar parcialmente y guisar suavemente 18–25 minutos, hasta que el centro alcance 74 °C."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Destapar al final si la salsa está líquida, reducir brevemente, retirar el laurel y ajustar sal."
+    }
+  ],
+  "techniques": [],
+  "title": "Pollo al chilindrón con pimientos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

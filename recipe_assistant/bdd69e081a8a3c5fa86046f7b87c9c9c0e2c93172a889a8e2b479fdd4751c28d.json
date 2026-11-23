@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Pudin de pan con caramelo\n\n## Descripción\n\nElaboración de referencia que trabaja **aprovechamiento de pan y baño maría**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 porciones |\n| Técnica | Aprovechamiento de pan y baño maría |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 180 g de pan blanco del día anterior;\n- 500 ml de leche entera;\n- 3 huevos L;\n- 110 g de azúcar para la mezcla;\n- 65 g de azúcar y 20 ml de agua para el caramelo;\n- ½ cucharadita de vainilla;\n- ralladura fina de ½ limón, opcional;\n\n**Alérgenos:** Gluten (trigo), leche, huevo.\n\n## Elaboración\n\n1. Calentar horno a 170 °C y preparar un molde de aproximadamente 1 litro y una bandeja honda para baño maría.\n2. Calentar en un cazo 65 g de azúcar con 20 ml de agua sin remover excesivamente hasta caramelo dorado; verter en el molde con precaución.\n3. Templar la leche, agregar el pan troceado y dejar hidratar 10–15 minutos.\n4. Batir los huevos con 110 g de azúcar y vainilla; integrar con el pan hidratado y ralladura opcional.\n5. Verter en el molde caramelizado y colocar dentro de la bandeja con agua caliente hasta media altura del molde.\n6. Hornear 45–60 minutos orientativos hasta cuajado completo en el centro; enfriar, refrigerar y desmoldar frío.\n\n## Puntos críticos\n\n- El caramelo provoca quemaduras graves; no tocar ni probar caliente. El centro debe cuajarse completamente y el baño maría no debe entrar en la masa.\n- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.\n- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Trozos de pan secos o aislados | Hidratación desigual durante los 10–15 minutos de remojo | Trocear el pan de forma uniforme y comprobar que absorba la leche templada antes de mezclarlo con el huevo |\n| Centro líquido al terminar el horno | Cuajado insuficiente en el molde de aproximadamente 1 litro | Verificar el centro y prolongar gradualmente el baño maría sin ebullición violenta |\n| Textura agujereada o gomosa | Baño maría demasiado caliente o exceso de mezcla al batir | Evitar hervores fuertes y batir los huevos solo lo necesario para integrarlos |\n| Caramelo amargo | Azúcar calentado más allá del dorado previsto | Detener el caramelo cuando esté dorado; no tocarlo ni probarlo caliente |\n## Conservación\n\nTras completar el cuajado, retirar el pudin del baño maría, dejar que pierda calor sin demoras innecesarias y **refrigerarlo protegido** antes de desmoldar, como indica la elaboración. Al llevar pan empapado en leche y huevo, mantener el pudin refrigerado hasta servir, no en la despensa como pan horneado seco. Consumir en un plazo corto según las condiciones de preparación y la frescura de leche y huevos.\n## Relaciones dentro del SGCC\n\n- [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/pudin_de_pan_con_caramelo.html",
+  "id": "REC-0233",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pan blanco del día anterior;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de pan blanco del día anterior;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de pan blanco del día anterior;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la mezcla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de azúcar para la mezcla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de azúcar para la mezcla;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar y 20 ml de agua para el caramelo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar y 20 ml de agua para el caramelo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar y 20 ml de agua para el caramelo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de vainilla;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de vainilla;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de ½ limón, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de ½ limón, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de ½ limón, opcional;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/pudin_de_pan_con_caramelo.md",
+  "source_sha256": "787b2336f30547884924a5dfbd99352e846635c8780863fc791453466a27414a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Calentar horno a 170 °C y preparar un molde de aproximadamente 1 litro y una bandeja honda para baño maría."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Calentar en un cazo 65 g de azúcar con 20 ml de agua sin remover excesivamente hasta caramelo dorado; verter en el molde con precaución."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Templar la leche, agregar el pan troceado y dejar hidratar 10–15 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Batir los huevos con 110 g de azúcar y vainilla; integrar con el pan hidratado y ralladura opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Verter en el molde caramelizado y colocar dentro de la bandeja con agua caliente hasta media altura del molde."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear 45–60 minutos orientativos hasta cuajado completo en el centro; enfriar, refrigerar y desmoldar frío."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.html",
+      "label": "Cocinar al baño maría",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Pudin de pan con caramelo",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

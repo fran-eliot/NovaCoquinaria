@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Culinary Explorer | NovaCoquinaria</title>
+<link rel="stylesheet" href="assets/culinary-explorer.3ef4cae485d21026eed8.css">
+<script type="module" src="assets/culinary-explorer-ui.3ef4cae485d21026eed8.mjs"></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+<main id="main-content" tabindex="-1">
+<header><a href="index.html">NovaCoquinaria</a><h1>Explorador culinario</h1><p><a href="culinary-pantry.html">Mi despensa</a> · <a href="culinary-planner.html">Mi planificador</a></p>
+<p>Encuentra recetas por título, ingredientes mencionados y módulo culinario.</p></header>
+<p class="notice">Las menciones no acreditan disponibilidad, compatibilidad ni seguridad alimentaria. La evidencia de elaboración no valida necesariamente la fórmula actual.</p>
+<noscript>Activa JavaScript para consultar el catálogo.</noscript>
+<p id="pantry-notice" role="status"></p>
+<form id="filters">
+<fieldset id="controls" disabled>
+<legend>Buscar recetas</legend>
+<div class="fields">
+<label>Título <input id="title" type="text" placeholder="Ej. arroz"></label>
+<label>Modalidad del título <select id="title-mode"><option value="terms">Términos completos</option><option value="exact">Título exacto</option></select></label>
+<label>Ingredientes mencionados (uno por línea) <textarea id="ingredients" rows="3" placeholder="ajo&#10;salsa de soja"></textarea></label>
+<label>Módulo <select id="module"><option value="">Todos</option></select></label>
+<label>Evidencia de elaboración <select id="evidence"><option value="">Todas</option><option value="prepared">Elaboración registrada</option><option value="pending">Pendiente de prueba</option><option value="unknown">Desconocida</option></select></label>
+</div>
+<p class="help">Todos los ingredientes introducidos deben aparecer en la receta. Se conservan los acentos; no se amplían sinónimos ni plurales.</p>
+<div class="actions"><button type="submit">Buscar</button><button type="reset" class="secondary">Limpiar filtros</button></div>
+</fieldset>
+</form>
+<p id="status" role="status" aria-live="polite" aria-atomic="true">Cargando catálogo…</p>
+<section aria-labelledby="results-heading" id="results-section" hidden>
+<h2 id="results-heading" tabindex="-1">Resultados</h2>
+<div id="results" class="results"></div>
+<nav aria-label="Paginación" id="pagination" hidden><button id="prev" type="button">Anterior</button><span id="page"></span><button id="next" type="button">Siguiente</button></nav>
+</section>
+<footer id="provenance"></footer>
+</main></body></html>

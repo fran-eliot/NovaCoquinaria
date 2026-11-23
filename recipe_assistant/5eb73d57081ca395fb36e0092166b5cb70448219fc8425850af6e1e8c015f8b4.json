@@ -1,0 +1,359 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Borrachuelos malagueños de cabello de ángel\n\n## Origen y contexto\n\n**Región:** Málaga, Andalucía. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–22 unidades |\n| Tiempo orientativo | 75 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de harina de trigo\n- 90 ml de aceite de oliva suave\n- 60 ml de vino dulce\n- 30 ml de anís seco\n- 40 ml de zumo de naranja\n- 30 g de azúcar\n- 5 g de anís en grano\n- 10 g de sésamo\n- ralladura de naranja\n- 200 g de cabello de ángel comercial\n- aceite para freír\n- 70 g de azúcar para acabado\n\n**Alérgenos:** Trigo/gluten, sésamo y posibles sulfitos del vino.\n\n## Elaboración\n\n1. Calentar los 90 ml de aceite con anís en grano y sésamo brevemente, sin quemar, y dejar templar.\n2. Mezclar harina, azúcar, ralladura, aceite aromatizado, vino, anís seco y zumo. Amasar hasta obtener masa manejable y reposar tapada 20 minutos.\n3. Dividir en porciones de unos 30 g, estirar finas y colocar una cucharadita de cabello de ángel en el centro.\n4. Doblar y sellar bordes con tenedor, expulsando aire; evitar sobrecargar el relleno.\n5. Freír a 170–175 °C en tandas pequeñas hasta dorados y completamente cocidos; escurrir y rebozar en azúcar mientras están templados.\n\n## Puntos críticos\n\n- El relleno distingue esta preparación de los pestiños. Existen variantes de batata y acabado en miel; esta es de cabello de ángel y azúcar. La fritura no garantiza eliminación total del alcohol.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Se abren al freír | Bordes mal sellados o exceso de cabello de ángel | Expulsar aire, colocar solo una cucharadita de relleno y presionar bien los bordes |\n| Masa aceitosa | Aceite poco caliente o exceso de piezas por tanda | Mantener los 170–175 °C orientativos y freír en tandas pequeñas |\n| Exterior tostado con masa todavía cruda | Aceite demasiado caliente o masa estirada de forma desigual | Estirar porciones finas y comprobar que la masa esté completamente cocida |\n| Acabado de azúcar irregular | Piezas demasiado frías o mal escurridas al rebozar | Escurrir primero y rebozar cuando estén templadas, como propone la elaboración |\n\n## Conservación\n\nDejar enfriar los borrachuelos antes de guardarlos en recipiente limpio y cerrado, protegidos de la humedad. Respetar especialmente las **instrucciones de conservación del cabello de ángel comercial** una vez abierto o empleado como relleno; refrigerar el producto terminado si así lo requieren el fabricante o las condiciones ambientales. Consumir en un plazo corto y recordar que la fritura no garantiza la desaparición total del alcohol del vino y del anís.\n\n## Relaciones dentro del SGCC\n\n- [pestinos andaluces con miel y ajonjoli](../08_Postres/pestinos_andaluces_con_miel_y_ajonjoli.md)\n- [freir en sarten con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://academiagastronomica.com/platos/borrachuelos/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "75",
+      "phase": "declared_total",
+      "raw": "75 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Málaga, Andalucía. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/borrachuelos_malaguenos_de_cabello_de_angel.html",
+  "id": "REC-584",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de harina de trigo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino dulce",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de vino dulce",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de vino dulce",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "anís seco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de anís seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de anís seco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de zumo de naranja",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de zumo de naranja",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de anís en grano",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de anís en grano",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sésamo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de sésamo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de sésamo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de naranja",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de naranja",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de naranja",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cabello de ángel comercial",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de cabello de ángel comercial",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de cabello de ángel comercial",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para acabado",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de azúcar para acabado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de azúcar para acabado",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/borrachuelos_malaguenos_de_cabello_de_angel.md",
+  "source_sha256": "233ce275d9d97a4fbdb565aa262f5412096827e748e24358aaf42ebd127f0009",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Calentar los 90 ml de aceite con anís en grano y sésamo brevemente, sin quemar, y dejar templar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, azúcar, ralladura, aceite aromatizado, vino, anís seco y zumo. Amasar hasta obtener masa manejable y reposar tapada 20 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Dividir en porciones de unos 30 g, estirar finas y colocar una cucharadita de cabello de ángel en el centro."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Doblar y sellar bordes con tenedor, expulsando aire; evitar sobrecargar el relleno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Freír a 170–175 °C en tandas pequeñas hasta dorados y completamente cocidos; escurrir y rebozar en azúcar mientras están templados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "freir en sarten con control de temperatura",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Borrachuelos malagueños de cabello de ángel",
+  "yield": {
+    "max": "22",
+    "min": "18",
+    "raw": "18–22 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

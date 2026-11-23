@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Pollo en pepitoria con almendras y azafrán\n\n## Origen y contexto\n\n**Ámbito gastronómico:** Tradición castellana y cocina española. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Tiempo orientativo | 65–75 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 850 g de pollo troceado con hueso\n- 180 g de cebolla picada\n- 2 dientes de ajo\n- 35 g de almendras crudas peladas\n- 1 rebanada de pan de 35 g\n- 2 huevos L\n- 90 ml de vino blanco seco\n- 350–450 ml de caldo de ave caliente\n- 1 pizca de azafrán en hebra\n- 3 cucharadas de aceite de oliva\n- sal, pimienta y perejil\n\n**Alérgenos:** Almendras (frutos de cáscara), huevo y gluten (trigo); vino con posible alcohol residual.\n\n## Elaboración\n\n1. Cocer los huevos en agua hirviendo hasta que la clara y la yema estén completamente cuajadas; enfriar, pelar y separar las yemas.\n2. Secar y salpimentar el pollo; dorarlo en cazuela con aceite por tandas y retirar.\n3. Tostar ligeramente la rebanada de pan, las almendras y el ajo sin quemarlos; reservar para el majado.\n4. Pochar la cebolla en la cazuela, añadir vino blanco y reducir brevemente, despegando los jugos del fondo.\n5. Devolver el pollo, añadir caldo caliente y mantener un hervor suave 25–35 minutos, hasta que el ave esté completamente cocinada (74 °C en la zona más gruesa).\n6. Machacar o triturar pan, almendras, ajo, yemas y azafrán con un poco de caldo; incorporar el majado a la cazuela.\n7. Cocinar 5–8 minutos más hasta que la salsa ligue. Picar las claras cocidas y añadirlas al servir con perejil.\n\n## Puntos críticos\n\n- El majado de almendras, pan y yema espesa sin nata; evitar un hervor violento después de incorporarlo. La pepitoria presenta variantes con gallina, otros frutos secos y diferentes cortes.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Desglasar fondos de cocción](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md)\n- [Pollo al ajillo con vino blanco](./pollo_al_ajillo_con_vino_blanco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia de tradición y técnica:** [Pollo en pepitoria, RTVE](https://www.rtve.es/television/20160307/receta-pollo-pepitoria/1314480.shtml)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "65",
+      "phase": "declared_total",
+      "raw": "65–75 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_en_pepitoria_con_almendras_y_azafran.html",
+  "id": "REC-420",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pollo troceado con hueso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "850",
+        "min": "850",
+        "raw": "850 g de pollo troceado con hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "850 g de pollo troceado con hueso",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras crudas peladas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de almendras crudas peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de almendras crudas peladas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "rebanada de pan de 35 g",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rebanada de pan de 35 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 rebanada de pan de 35 g",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de ave caliente",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "350",
+        "raw": "350–450 ml de caldo de ave caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–450 ml de caldo de ave caliente",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azafrán en hebra",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de azafrán en hebra",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de azafrán en hebra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y perejil",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y perejil",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y perejil",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_en_pepitoria_con_almendras_y_azafran.md",
+  "source_sha256": "b86e2b2c8c8a045a09f5593b1bf0f81bd97dec11ec8c40268514f105d7294773",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Cocer los huevos en agua hirviendo hasta que la clara y la yema estén completamente cuajadas; enfriar, pelar y separar las yemas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Secar y salpimentar el pollo; dorarlo en cazuela con aceite por tandas y retirar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Tostar ligeramente la rebanada de pan, las almendras y el ajo sin quemarlos; reservar para el majado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Pochar la cebolla en la cazuela, añadir vino blanco y reducir brevemente, despegando los jugos del fondo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Devolver el pollo, añadir caldo caliente y mantener un hervor suave 25–35 minutos, hasta que el ave esté completamente cocinada (74 °C en la zona más gruesa)."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Machacar o triturar pan, almendras, ajo, yemas y azafrán con un poco de caldo; incorporar el majado a la cazuela."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Cocinar 5–8 minutos más hasta que la salsa ligue. Picar las claras cocidas y añadirlas al servir con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.html",
+      "label": "Desglasar fondos de cocción",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md"
+    }
+  ],
+  "title": "Pollo en pepitoria con almendras y azafrán",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Coquinas al ajillo de Huelva\n\n## Origen y contexto\n\n**Región:** Huelva, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones de aperitivo |\n| Tiempo orientativo | 20–30 min más depuración comercial previa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de coquinas vivas depuradas procedentes de circuito comercial autorizado\n- 5 dientes de ajo\n- 55 ml de aceite de oliva virgen extra\n- 80 ml de vino blanco seco\n- 10 g de perejil fresco lavado\n- 1 guindilla pequeña, opcional\n- limón, opcional\n\n**Alérgenos:** Moluscos; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Comprar coquinas vivas y depuradas, con identificación sanitaria; conservarlas refrigeradas según el vendedor. No confiar en un remojo doméstico para sustituir la depuración profesional.\n2. Revisar piezas con concha rota y desechar las que no estén vivas según las indicaciones del proveedor. Escurrir sin dejarlas en agua dulce.\n3. Laminar los ajos y calentarlos lentamente en aceite en sartén amplia; incorporar guindilla opcional sin quemar.\n4. Añadir las coquinas y el vino, cubrir y cocinar a fuego vivo moderado unos minutos, agitando la sartén hasta que abran y estén completamente cocinadas.\n5. Retirar del fuego, descartar todas las coquinas que sigan cerradas tras la cocción y evitar prolongar innecesariamente el calor en las abiertas.\n6. Espolvorear perejil y servir inmediatamente con el jugo filtrado si contiene arena; ofrecer limón aparte.\n\n## Puntos críticos\n\n- Los bivalvos deben provenir de zonas autorizadas y depuración controlada; la cocción no elimina necesariamente todas las biotoxinas marinas.\n- No conservar para consumo las piezas que permanecen cerradas. No confundir coquinas con almejas grandes en salsa verde.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Arena en el plato | Producto mal depurado o jugo con sedimento | Usar proveedor autorizado y filtrar jugo |\n| Carne reseca | Cocción prolongada | Retirar cuando abran y estén hechas |\n| Ajo amargo | Ajo quemado | Calentar suavemente antes de añadir coquinas |\n\n## Conservación\n\nConsumir recién cocinadas. Si quedan sobras, enfriar rápidamente, refrigerar a 4 °C o menos y consumir preferiblemente dentro de 24 horas, recalentando completamente.\n\n## Relaciones dentro del SGCC\n\n- [Almejas en salsa verde](../06_Pescados_y_Mariscos/almejas_en_salsa_verde.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20–30 min más depuración comercial previa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Huelva, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/coquinas_al_ajillo_de_huelva.html",
+  "id": "REC-554",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "coquinas vivas depuradas procedentes de circuito comercial autorizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de coquinas vivas depuradas procedentes de circuito comercial autorizado",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de coquinas vivas depuradas procedentes de circuito comercial autorizado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "55 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de perejil fresco lavado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de perejil fresco lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla pequeña, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla pequeña, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla pequeña, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "limón, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "limón, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "limón, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/coquinas_al_ajillo_de_huelva.md",
+  "source_sha256": "1ac6db66fe16a6456e9c5c0ee78421cdf3a9820beba92dfb7e6c601caafca0d9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Comprar coquinas vivas y depuradas, con identificación sanitaria; conservarlas refrigeradas según el vendedor. No confiar en un remojo doméstico para sustituir la depuración profesional."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Revisar piezas con concha rota y desechar las que no estén vivas según las indicaciones del proveedor. Escurrir sin dejarlas en agua dulce."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Laminar los ajos y calentarlos lentamente en aceite en sartén amplia; incorporar guindilla opcional sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Añadir las coquinas y el vino, cubrir y cocinar a fuego vivo moderado unos minutos, agitando la sartén hasta que abran y estén completamente cocinadas."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Retirar del fuego, descartar todas las coquinas que sigan cerradas tras la cocción y evitar prolongar innecesariamente el calor en las abiertas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Espolvorear perejil y servir inmediatamente con el jugo filtrado si contiene arena; ofrecer limón aparte."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Coquinas al ajillo de Huelva",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones de aperitivo",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

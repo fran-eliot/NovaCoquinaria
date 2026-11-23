@@ -1,0 +1,246 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Berenjenas fritas con miel de caña cordobesas\n\n## Origen y contexto\n\n**Región:** Córdoba, Andalucía. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones como tapa |\n| Tiempo orientativo | 40–55 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de berenjenas\n- 100 g de harina de trigo para rebozar ligeramente\n- 300–500 ml de agua muy fría para remojo opcional\n- aceite adecuado para freír, suficiente\n- 80 g de miel de caña o melaza de caña alimentaria\n- sal\n\n**Alérgenos:** Gluten (trigo); revisar la miel de caña comercial.\n\n## Elaboración\n\n1. Lavar y cortar las berenjenas en bastones de 1 cm de grosor o rodajas finas regulares; mantener la piel si es tierna.\n2. Espolvorear ligeramente con sal y reposar 15 minutos para que suelten parte del agua; secar cuidadosamente con papel limpio. El remojo en agua fría es opcional, pero obliga a escurrir y secar muy bien después.\n3. Enharinar las berenjenas ligeramente y retirar el exceso para evitar costra gruesa y residuos en el aceite.\n4. Calentar aceite a unos 175 °C; freír por tandas pequeñas hasta que estén doradas y completamente tiernas, unos 3–5 minutos según corte.\n5. Escurrir sobre rejilla o papel adecuado, sin amontonar las piezas, y salar con moderación.\n6. Templar muy suavemente la miel de caña si está demasiado espesa, sin hervirla, y añadirla en hilo justo antes de servir.\n\n## Puntos críticos\n\n- La miel de caña es melaza vegetal, no miel de abeja. El aceite no debe enfriarse por exceso de berenjena y las piezas necesitan secado para evitar salpicaduras.\n- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima prueba |\n|---|---|---|\n| Ingrediente principal firme | Cocción incompleta o piezas grandes | Ajustar tamaño y prolongar hasta el punto adecuado |\n| Masa o salsa demasiado líquida | Exceso de líquido o poco reposo | Ajustar hidratación y espesado progresivamente |\n| Sabor desequilibrado | Sal, azúcar, acidez o grasa excesivos | Rectificar después de probar y anotar cantidades |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Mantener en frío las preparaciones con carne, huevo, productos lácteos y crustáceos; recalentar completamente las raciones destinadas a servirse calientes y evitar permanencias prolongadas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Escalivada de berenjena y pimiento](./escalivada_de_berenjena_y_pimiento.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "55",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–55 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/berenjenas_fritas_con_miel_de_cana_cordobesas.html",
+  "id": "REC-486",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de berenjenas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de berenjenas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo para rebozar ligeramente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo para rebozar ligeramente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo para rebozar ligeramente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua muy fría para remojo opcional",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "300",
+        "raw": "300–500 ml de agua muy fría para remojo opcional",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "300–500 ml de agua muy fría para remojo opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite adecuado para freír, suficiente",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite adecuado para freír, suficiente",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite adecuado para freír, suficiente",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "miel de caña o melaza de caña alimentaria",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de miel de caña o melaza de caña alimentaria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de miel de caña o melaza de caña alimentaria",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/berenjenas_fritas_con_miel_de_cana_cordobesas.md",
+  "source_sha256": "b824ea0d7db71ed4d9a99c5bd3391bc7ae3a16c9145ca8ee7289d7a5a59e4d08",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Lavar y cortar las berenjenas en bastones de 1 cm de grosor o rodajas finas regulares; mantener la piel si es tierna."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Espolvorear ligeramente con sal y reposar 15 minutos para que suelten parte del agua; secar cuidadosamente con papel limpio. El remojo en agua fría es opcional, pero obliga a escurrir y secar muy bien después."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Enharinar las berenjenas ligeramente y retirar el exceso para evitar costra gruesa y residuos en el aceite."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Calentar aceite a unos 175 °C; freír por tandas pequeñas hasta que estén doradas y completamente tiernas, unos 3–5 minutos según corte."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Escurrir sobre rejilla o papel adecuado, sin amontonar las piezas, y salar con moderación."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Templar muy suavemente la miel de caña si está demasiado espesa, sin hervirla, y añadirla en hilo justo antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Berenjenas fritas con miel de caña cordobesas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones como tapa",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

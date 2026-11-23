@@ -1,0 +1,281 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Gazpacho de tomate y pimiento\n\n## Descripción\n\nPreparación de referencia para cocina doméstica basada en **triturado y emulsión en frío**. Esta ficha no procede de una elaboración del propietario confirmada; sus cantidades y tiempos son propuestas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Método | Triturado y emulsión en frío |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 800 g de tomates maduros;\n- 120 g de pepino pelado;\n- 100 g de pimiento verde;\n- 30 g de cebolla;\n- ½ diente de ajo sin germen, opcional;\n- 35 ml de aceite de oliva virgen extra;\n- 20 ml de vinagre de vino, ajustables;\n- 80–150 ml de agua muy fría;\n- sal al gusto;\n\n**Alérgenos:** No contiene alérgenos principales en la fórmula básica; verificar contaminación cruzada.\n\n## Elaboración\n\n1. Lavar tomates, pepino y pimiento y retirar las partes no comestibles.\n2. Trocear las hortalizas y triturarlas con ajo opcional y parte del agua hasta una mezcla fina.\n3. Añadir vinagre y sal, seguir triturando e incorporar el aceite en hilo para emulsionar.\n4. Ajustar espesor con el agua restante; pasar por colador fino solo si se desea una textura más lisa.\n5. Refrigerar en recipiente cerrado y servir bien frío; remover antes de repartir.\n\n## Puntos críticos\n\n- El agua y el colado cambian el cuerpo del gazpacho: añadir agua gradualmente, no compensar después con más aceite.\n- Los tiempos son orientativos: ajustar a tamaño de piezas, equipo, presentación de los ingredientes y punto real de cocción.\n- Mantener higiene, refrigeración adecuada de productos perecederos y separación entre alimentos crudos y cocinados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección |\n|---|---|---|\n| Textura demasiado blanda | Cocción prolongada o exceso de líquido | Reducir tiempo o escurrir mejor en una futura prueba |\n| Sabor poco equilibrado | Condimentos añadidos sin comprobar | Ajustar sal y acidez gradualmente |\n| Superficie demasiado oscura | Temperatura excesiva | Regular el fuego y comprobar el interior |\n\n## Conservación\n\nEnfriar sin demora las sobras perecederas y refrigerarlas en recipientes tapados y poco profundos. No mantener la preparación varias horas a temperatura ambiente. Los platos con huevo, pan remojado u otros ingredientes sensibles requieren especial atención a su conservación. Seguir las instrucciones de los productos utilizados.\n\n## Relaciones dentro del SGCC\n\n- [Tomate fresco](../11_Despensa/06_Verduras/tomate_fresco.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice de Verduras](./README.md).\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente utilizados, temperatura y tiempos efectivos, resultado y valoración. No considerar esta propuesta una receta doméstica probada hasta registrar la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/gazpacho_andaluz_de_tomate_y_pimiento.html",
+  "id": "REC-0220",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomates maduros;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de tomates maduros;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de tomates maduros;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino pelado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pepino pelado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pepino pelado;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de cebolla;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de cebolla;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo sin germen, opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ diente de ajo sin germen, opcional;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "½ diente de ajo sin germen, opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 ml de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "35 ml de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, ajustables;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 ml de vinagre de vino, ajustables;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "20 ml de vinagre de vino, ajustables;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua muy fría;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "80",
+        "raw": "80–150 ml de agua muy fría;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "80–150 ml de agua muy fría;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/gazpacho_andaluz_de_tomate_y_pimiento.md",
+  "source_sha256": "64911d05eb8c0bd3bff8ea83270844b769d3ef0eff80af41ba0a96285266bbd0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar tomates, pepino y pimiento y retirar las partes no comestibles."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Trocear las hortalizas y triturarlas con ajo opcional y parte del agua hasta una mezcla fina."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir vinagre y sal, seguir triturando e incorporar el aceite en hilo para emulsionar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Ajustar espesor con el agua restante; pasar por colador fino solo si se desea una textura más lisa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Refrigerar en recipiente cerrado y servir bien frío; remover antes de repartir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Gazpacho de tomate y pimiento",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

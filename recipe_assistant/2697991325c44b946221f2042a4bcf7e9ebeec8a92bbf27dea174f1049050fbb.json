@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Pollo en bolsa de asado con limón y tomillo\n\n## Descripción\n\nPreparación de referencia centrada en **cocción cerrada y dorado final**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Cocción cerrada y dorado final |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de muslos y contramuslos de pollo;\n- 1 limón en rodajas;\n- 1 cebolla grande (200 g);\n- 3 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- 1 cucharadita de tomillo seco;\n- 100 ml de agua o caldo suave;\n- sal y pimienta;\n- 1 bolsa para asar apta para horno, compatible con la temperatura elegida;\n\n**Alérgenos:** Revisar caldo comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y verificar las instrucciones de temperatura, perforación y cierre de la bolsa utilizada.\n2. Secar el pollo, salpimentar y colocarlo dentro de la bolsa apta con cebolla cortada, ajo, limón, tomillo, aceite y líquido.\n3. Cerrar siguiendo el fabricante y situar la bolsa en una bandeja de horno, evitando contacto con resistencias o paredes calientes.\n4. Hornear unos 45–65 minutos orientativos según tamaño de las piezas, sin confiar únicamente en el tiempo: comprobar 74 °C en la zona más gruesa sin tocar hueso.\n5. Abrir la bolsa con extrema precaución por el vapor; si se busca dorado, pasar el pollo a bandeja limpia y gratinar unos minutos vigilando continuamente.\n6. Servir con las verduras y jugos bien cocinados.\n\n## Puntos críticos\n\n- Solo emplear bolsas específicamente aptas para horno y respetar las condiciones del fabricante. Al abrir, el vapor puede provocar quemaduras; el pollo debe alcanzar temperatura interior segura.\n- Los tiempos y temperaturas de horno son orientativos; ajustar según el tamaño, el recipiente y el equipo. Comprobar siempre el punto del interior cuando corresponda.\n- Mantener condiciones higiénicas al manipular carnes, pescados y alimentos perecederos, y separar los utensilios usados en crudo.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en una próxima prueba |\n|---|---|---|\n| Superficie muy oscura | Exceso de calor superior o tiempo largo | Cubrir temporalmente o reducir el grill |\n| Interior poco cocinado | Piezas gruesas o temperatura inadecuada | Comprobar el centro y prolongar la cocción |\n| Preparación seca | Exceso de tiempo o humedad insuficiente | Corregir tiempo o líquido en otra elaboración |\n\n## Conservación\n\nEnfriar rápidamente las sobras cocinadas y refrigerarlas en recipientes tapados y poco profundos. No dejar ingredientes perecederos ni arroz cocido varias horas a temperatura ambiente. Recalentar completamente cuando corresponda y seguir las indicaciones del fabricante en masas, conservas y productos envasados.\n\n## Relaciones dentro del SGCC\n\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Pollo asado con patatas](./pollo_asado_con_patatas.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los pesos, ajustes, tiempo y temperatura reales, el punto de cocción, el resultado y su valoración. Estas cantidades no se atribuyen a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **cocción cerrada y dorado final**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/pollo_en_bolsa_de_asado_con_limon_y_tomillo.html",
+  "id": "REC-269",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "muslos y contramuslos de pollo;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de muslos y contramuslos de pollo;",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de muslos y contramuslos de pollo;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "limón en rodajas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón en rodajas;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón en rodajas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (200 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (200 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (200 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo seco;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo seco;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo seco;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo suave;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "bolsa para asar apta para horno, compatible con la temperatura elegida;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 bolsa para asar apta para horno, compatible con la temperatura elegida;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 bolsa para asar apta para horno, compatible con la temperatura elegida;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pollo_en_bolsa_de_asado_con_limon_y_tomillo.md",
+  "source_sha256": "9bc1e116974f9e57bc19fc59e52a5d56450bd13a073717423475d28470793b07",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y verificar las instrucciones de temperatura, perforación y cierre de la bolsa utilizada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Secar el pollo, salpimentar y colocarlo dentro de la bolsa apta con cebolla cortada, ajo, limón, tomillo, aceite y líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cerrar siguiendo el fabricante y situar la bolsa en una bandeja de horno, evitando contacto con resistencias o paredes calientes."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Hornear unos 45–65 minutos orientativos según tamaño de las piezas, sin confiar únicamente en el tiempo: comprobar 74 °C en la zona más gruesa sin tocar hueso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Abrir la bolsa con extrema precaución por el vapor; si se busca dorado, pasar el pollo a bandeja limpia y gratinar unos minutos vigilando continuamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Servir con las verduras y jugos bien cocinados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Pollo en bolsa de asado con limón y tomillo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

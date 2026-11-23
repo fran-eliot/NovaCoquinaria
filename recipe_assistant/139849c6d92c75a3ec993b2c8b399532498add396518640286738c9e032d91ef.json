@@ -1,0 +1,371 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Pestiños andaluces con miel y ajonjolí\n\n## Origen y contexto\n\n**Región:** Andalucía. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 20–24 piezas |\n| Tiempo orientativo | 65–80 min más reposo de masa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de harina de trigo común\n- 100 ml de aceite de oliva suave para la masa\n- 100 ml de vino blanco\n- 50 ml de zumo de naranja\n- 10 g de ajonjolí o sésamo\n- 1 cucharadita de anís en grano\n- piel de media naranja lavada, sin parte blanca\n- 1 pizca de sal\n- 250 g de miel para el baño\n- 75 ml de agua para aligerar la miel\n- aceite adecuado para fritura, cantidad suficiente\n\n**Alérgenos:** Gluten (trigo), sésamo; el vino puede dejar alcohol residual.\n\n## Elaboración\n\n1. Calentar suavemente los 100 ml de aceite con la piel de naranja y el anís en grano durante 3–4 minutos, sin quemar. Retirar, enfriar y quitar la piel.\n2. Mezclar harina, ajonjolí y sal; agregar aceite aromatizado templado, vino y zumo de naranja. Amasar hasta obtener una masa manejable que no se pegue en exceso.\n3. Cubrir y reposar 25–30 minutos a temperatura ambiente si la cocina es fresca, evitando exposición prolongada.\n4. Dividir en porciones pequeñas y estirar cada una muy fina, aproximadamente 2 mm; cortar cuadrados o rectángulos y plegar dos esquinas opuestas, presionando bien para que no se abran.\n5. Freír por tandas en aceite a unos 170–175 °C, girando hasta dorado uniforme y masa totalmente cocida; escurrir.\n6. Calentar miel y agua en cazo a fuego suave hasta mezcla fluida, sin caramelizar en exceso.\n7. Bañar los pestiños escurridos en miel tibia por tandas y dejarlos enfriar sobre rejilla con bandeja inferior.\n\n## Puntos críticos\n\n- Estirar la masa a unos 2 mm y cerrar bien las esquinas para que no se abran durante la fritura; comprobar que el interior quede cocido.\n- Mantener el aceite cerca de los 170–175 °C previstos y freír pocas piezas cada vez. La miel caliente y el aceite pueden provocar quemaduras.\n- El ajonjolí es sésamo y debe identificarse como alérgeno; el vino blanco de la masa puede dejar alcohol residual.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Pestiños que se abren al freír | Esquinas poco presionadas o masa excesivamente gruesa | Estirar fino y cerrar bien las dos esquinas antes de introducir en el aceite |\n| Masa grasienta o poco crujiente | Aceite insuficientemente caliente o demasiadas piezas a la vez | Mantener la temperatura y freír por tandas pequeñas |\n| Exterior oscuro e interior crudo | Aceite demasiado caliente o masa demasiado gruesa | Comprobar el grosor aproximado de 2 mm y la cocción interior |\n| Baño de miel desigual o demasiado líquido | Miel y agua poco integradas o exceso de líquido en la cobertura | Calentar suavemente la proporción prevista, bañar por tandas y escurrir sobre rejilla |\n\n## Conservación\n\nDejar enfriar completamente los pestiños ya bañados en miel sobre rejilla antes de guardarlos en recipiente alimentario limpio y protegido. Mantenerlos en lugar fresco y seco durante un plazo prudente, según condiciones de humedad y temperatura; comprobar que no haya signos de deterioro. La miel no implica estabilidad comercial validada ni justifica prolongar indefinidamente su conservación. No aplicar a esta receta consejos de enfriado de arroz o conservación de carnes.\n\n## Relaciones dentro del SGCC\n\n- [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "65–80 min más reposo de masa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/pestinos_andaluces_con_miel_y_ajonjoli.html",
+  "id": "REC-452",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave para la masa",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de aceite de oliva suave para la masa",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de aceite de oliva suave para la masa",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de zumo de naranja",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de zumo de naranja",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajonjolí o sésamo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de ajonjolí o sésamo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de ajonjolí o sésamo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de anís en grano",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de anís en grano",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de media naranja lavada, sin parte blanca",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de media naranja lavada, sin parte blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de media naranja lavada, sin parte blanca",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "miel para el baño",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de miel para el baño",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de miel para el baño",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para aligerar la miel",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 ml de agua para aligerar la miel",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "75 ml de agua para aligerar la miel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite adecuado para fritura, cantidad suficiente",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite adecuado para fritura, cantidad suficiente",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "aceite adecuado para fritura, cantidad suficiente",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/pestinos_andaluces_con_miel_y_ajonjoli.md",
+  "source_sha256": "14d120f5ae0f609cf97a052c11ec8c7a4f5f154091a591912b1cf4d74f7b810e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Calentar suavemente los 100 ml de aceite con la piel de naranja y el anís en grano durante 3–4 minutos, sin quemar. Retirar, enfriar y quitar la piel."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, ajonjolí y sal; agregar aceite aromatizado templado, vino y zumo de naranja. Amasar hasta obtener una masa manejable que no se pegue en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Cubrir y reposar 25–30 minutos a temperatura ambiente si la cocina es fresca, evitando exposición prolongada."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Dividir en porciones pequeñas y estirar cada una muy fina, aproximadamente 2 mm; cortar cuadrados o rectángulos y plegar dos esquinas opuestas, presionando bien para que no se abran."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Freír por tandas en aceite a unos 170–175 °C, girando hasta dorado uniforme y masa totalmente cocida; escurrir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Calentar miel y agua en cazo a fuego suave hasta mezcla fluida, sin caramelizar en exceso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Bañar los pestiños escurridos en miel tibia por tandas y dejarlos enfriar sobre rejilla con bandeja inferior."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Pestiños andaluces con miel y ajonjolí",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "20–24 piezas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

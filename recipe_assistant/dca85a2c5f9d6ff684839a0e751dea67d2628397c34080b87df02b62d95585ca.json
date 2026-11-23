@@ -1,0 +1,307 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 13
+    },
+    "text": "\n# Flan de huevo al baño maría\n\n## Descripción\n\nFlan tradicional de huevo y leche, cuajado suavemente al baño maría con caramelo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Preparación | 15 min |\n| Horneado | 40–60 min, según molde |\n| Reposo | Refrigeración de varias horas |\n\n## Ingredientes\n\n- 500 ml de leche entera;\n- 4 huevos;\n- 90 g de azúcar para el flan;\n- 80 g de azúcar para el caramelo;\n- 2 cucharadas de agua para el caramelo;\n- vainilla, opcional.\n\n**Alérgenos:** huevo y leche.\n\n## Elaboración\n\n1. Precalentar horno a **160 °C**, calor arriba y abajo.\n2. Calentar azúcar del caramelo con agua en cazo hasta obtener tono ámbar. Verter con mucho cuidado en moldes resistentes al calor; el caramelo produce quemaduras graves.\n3. Batir huevos con azúcar suavemente. Añadir leche y vainilla sin incorporar demasiada espuma.\n4. Colar la mezcla si se desea textura más fina y repartir en moldes.\n5. Situar moldes en bandeja profunda y añadir agua caliente hasta media altura.\n6. Hornear aproximadamente 40–60 minutos según tamaño, hasta que el centro esté cuajado y tiemble ligeramente sin líquido crudo. Como referencia conservadora, comprobar **71 °C en el centro** de una preparación de huevo.\n7. Retirar los moldes del baño maría con cuidado, sin salpicaduras de agua caliente. Dejar perder el calor intenso brevemente y refrigerar sin demoras, evitando una permanencia prolongada a temperatura ambiente.\n8. Desmoldar después de varias horas en frío.\n\n## Puntos críticos\n\n- El caramelo caliente nunca debe tocarse ni probarse.\n- Evitar hervor violento del baño maría.\n- No batir excesivamente los huevos.\n- El tiempo depende de moldes individuales o uno grande.\n- El temblor del centro es una señal de textura, no una comprobación suficiente de cocción segura: cuando se utilice termómetro, medir en el centro sin tocar el molde.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Agujeros grandes | Exceso de temperatura | Bajar horno |\n| Centro líquido | Cocción insuficiente | Continuar horneado |\n| Caramelo amargo | Exceso de tostado | Preparar de nuevo |\n\n## Conservación\n\nMantener refrigerado en recipientes tapados y consumir en pocos días. No dejar fuera de frío durante periodos prolongados; si se ha perdido el control de la conservación, no confiar en el aspecto o el olor para decidir su consumo.\n\n## Relaciones\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Natillas caseras](./natillas_caseras.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n\n## Principio de NovaCoquinaria\n\n> El baño maría modera el calor y favorece un flan uniforme y sedoso."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "40–60 min, según molde",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "rest",
+      "raw": "Refrigeración de varias horas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/flan_de_huevo.html",
+  "id": "REC-0083",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el flan;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar para el flan;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar para el flan;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el caramelo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de azúcar para el caramelo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de azúcar para el caramelo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para el caramelo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua para el caramelo;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua para el caramelo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla, opcional.",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "vainilla, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "vainilla, opcional.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/flan_de_huevo.md",
+  "source_sha256": "fece1c8de4bbdfada61544195672cf5eaf0d52d56f32aedc40d5026a7879e496",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **160 °C**, calor arriba y abajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Calentar azúcar del caramelo con agua en cazo hasta obtener tono ámbar. Verter con mucho cuidado en moldes resistentes al calor; el caramelo produce quemaduras graves."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Batir huevos con azúcar suavemente. Añadir leche y vainilla sin incorporar demasiada espuma."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Colar la mezcla si se desea textura más fina y repartir en moldes."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Situar moldes en bandeja profunda y añadir agua caliente hasta media altura."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Hornear aproximadamente 40–60 minutos según tamaño, hasta que el centro esté cuajado y tiemble ligeramente sin líquido crudo. Como referencia conservadora, comprobar **71 °C en el centro** de una preparación de huevo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Retirar los moldes del baño maría con cuidado, sin salpicaduras de agua caliente. Dejar perder el calor intenso brevemente y refrigerar sin demoras, evitando una permanencia prolongada a temperatura ambiente."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 8,
+      "text": "Desmoldar después de varias horas en frío."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Flan de huevo al baño maría",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

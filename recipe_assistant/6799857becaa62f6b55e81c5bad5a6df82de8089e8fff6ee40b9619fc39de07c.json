@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Sopa de tomate extremeña con pan y pimiento\n\n## Origen y contexto\n\n**Región:** Extremadura. Formulación doméstica de referencia con los rasgos característicos de esta especialidad; no se presenta como única versión regional ni como receta personalmente probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Tiempo orientativo | 40–50 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 750 g de tomate maduro triturado\n- 160 g de pan candeal asentado en rebanadas finas\n- 150 g de pimiento verde\n- 170 g de cebolla\n- 2 dientes de ajo\n- 600–750 ml de agua o caldo vegetal suave\n- 3 cucharadas de aceite de oliva\n- ½ cucharadita de pimentón dulce, opcional\n- sal\n\n**Alérgenos:** Gluten (trigo); revisar el caldo comercial.\n\n## Elaboración\n\n1. Lavar tomates y pimiento; picar finamente cebolla, ajo y pimiento.\n2. Pochar cebolla y pimiento en aceite a fuego medio-bajo durante 10–12 minutos y añadir el ajo sin dejar que se queme.\n3. Incorporar tomate triturado y cocinar unos 12–15 minutos, removiendo hasta que se reduzca y concentre.\n4. Apartar un momento del fuego para incorporar pimentón opcional sin quemarlo; verter agua o caldo caliente.\n5. Llevar a hervor suave durante 8–10 minutos y ajustar la sal.\n6. Distribuir el pan asentado en cazuelitas o incorporarlo a la olla durante 2–4 minutos para que se empape sin deshacerse por completo.\n7. Servir la sopa caliente y espesa, regulando el caldo según la capacidad de absorción del pan.\n\n## Puntos críticos\n\n- La sopa extremeña es caliente y utiliza pan para adquirir cuerpo; no debe confundirse con una sopa fría de tomate. El pan asentado absorbe más caldo de lo previsto.\n- Ajustar tiempos, líquido y sal a ingredientes y equipo. Mantener higiene y cadena de frío, atender al etiquetado y comprobar la cocción segura de los productos animales y sus rellenos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima elaboración |\n|---|---|---|\n| Ingrediente firme o poco hecho | Cocción insuficiente o piezas grandes | Comprobar el interior y prolongar con calor moderado |\n| Preparación demasiado líquida | Exceso de agua o reducción incompleta | Ajustar cantidad y reducir progresivamente |\n| Sabor desequilibrado | Exceso de sal o azúcar | Corregir después de probar y anotar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con carnes, pescado, huevos y lácteos requieren refrigeración y manipulación higiénica. Recalentar completamente las porciones destinadas a consumo caliente, sin mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Sopa castellana de ajo](./sopa_castellana_de_ajo_y_pan_con_huevo.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar productos y cantidades reales, tiempos, puntos de cocción, textura y valoración. La ficha no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/sopa_de_tomate_extremena_con_pan_y_pimiento.html",
+  "id": "REC-490",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tomate maduro triturado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de tomate maduro triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de tomate maduro triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pan candeal asentado en rebanadas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de pan candeal asentado en rebanadas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de pan candeal asentado en rebanadas finas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento verde",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de cebolla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal suave",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "600",
+        "raw": "600–750 ml de agua o caldo vegetal suave",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "600–750 ml de agua o caldo vegetal suave",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/sopa_de_tomate_extremena_con_pan_y_pimiento.md",
+  "source_sha256": "bb5c0eb952f5880e82f222818e85e7811798ee0de6bf83aad93a49314b690bad",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Lavar tomates y pimiento; picar finamente cebolla, ajo y pimiento."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento en aceite a fuego medio-bajo durante 10–12 minutos y añadir el ajo sin dejar que se queme."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Incorporar tomate triturado y cocinar unos 12–15 minutos, removiendo hasta que se reduzca y concentre."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Apartar un momento del fuego para incorporar pimentón opcional sin quemarlo; verter agua o caldo caliente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Llevar a hervor suave durante 8–10 minutos y ajustar la sal."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Distribuir el pan asentado en cazuelitas o incorporarlo a la olla durante 2–4 minutos para que se empape sin deshacerse por completo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir la sopa caliente y espesa, regulando el caldo según la capacidad de absorción del pan."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Sopa de tomate extremeña con pan y pimiento",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

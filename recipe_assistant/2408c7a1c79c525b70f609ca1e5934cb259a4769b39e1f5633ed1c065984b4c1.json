@@ -1,0 +1,260 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Pan casero de aceitunas y romero\n\n## Descripción\n\nPreparación de referencia centrada en **amasado, fermentación y horneado**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 1 hogaza mediana |\n| Técnica | Amasado, fermentación y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de harina de trigo panificable;\n- 270 ml de agua templada;\n- 7 g de levadura seca de panadería o 20 g fresca;\n- 8 g de sal;\n- 90 g de aceitunas verdes o negras sin hueso, escurridas y troceadas;\n- 1 cucharadita de romero picado;\n- 1 cucharada de aceite de oliva;\n\n**Alérgenos:** Gluten (trigo); revisar aceitunas.\n\n## Elaboración\n\n1. Mezclar harina, levadura, agua y aceite; añadir la sal y amasar 8–10 minutos hasta conseguir masa elástica.\n2. Incorporar aceitunas bien escurridas y romero de forma uniforme, evitando desgarrar demasiado la masa.\n3. Tapar y dejar fermentar hasta aumentar aproximadamente al doble, 60–100 minutos orientativos según temperatura.\n4. Desgasificar suavemente, formar una hogaza y dejar una segunda fermentación de unos 35–55 minutos.\n5. Precalentar el horno a 220 °C con bandeja de cocción; realizar un corte superficial en la hogaza.\n6. Hornear 10 minutos a 220 °C y unos 20–25 minutos más a 195–200 °C, hasta corteza bien formada e interior cocido; enfriar sobre rejilla antes de cortar.\n\n## Puntos críticos\n\n- Las aceitunas aportan sal y humedad, por lo que conviene escurrirlas bien. La fermentación se determina por el crecimiento de la masa más que por un tiempo fijo.\n- Los tiempos y temperaturas de horno son orientativos; ajustar según el tamaño, el recipiente y el equipo. Comprobar siempre el punto del interior cuando corresponda.\n- Mantener condiciones higiénicas al manipular carnes, pescados y alimentos perecederos, y separar los utensilios usados en crudo.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en una próxima prueba |\n|---|---|---|\n| Superficie muy oscura | Exceso de calor superior o tiempo largo | Cubrir temporalmente o reducir el grill |\n| Interior poco cocinado | Piezas gruesas o temperatura inadecuada | Comprobar el centro y prolongar la cocción |\n| Preparación seca | Exceso de tiempo o humedad insuficiente | Corregir tiempo o líquido en otra elaboración |\n\n## Conservación\n\nEnfriar rápidamente las sobras cocinadas y refrigerarlas en recipientes tapados y poco profundos. No dejar ingredientes perecederos ni arroz cocido varias horas a temperatura ambiente. Recalentar completamente cuando corresponda y seguir las indicaciones del fabricante en masas, conservas y productos envasados.\n\n## Relaciones dentro del SGCC\n\n- [Fermentar masas hidratadas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Romero](../11_Despensa/08_Especias/romero.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los pesos, ajustes, tiempo y temperatura reales, el punto de cocción, el resultado y su valoración. Estas cantidades no se atribuyen a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **amasado, fermentación y horneado**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/pan_de_aceitunas_y_romero.html",
+  "id": "REC-270",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo panificable;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de harina de trigo panificable;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de harina de trigo panificable;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "270",
+        "min": "270",
+        "raw": "270 ml de agua templada;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "270 ml de agua templada;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería o 20 g fresca;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería o 20 g fresca;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería o 20 g fresca;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de sal;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de sal;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas verdes o negras sin hueso, escurridas y troceadas;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de aceitunas verdes o negras sin hueso, escurridas y troceadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de aceitunas verdes o negras sin hueso, escurridas y troceadas;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "romero picado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de romero picado;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de romero picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pan_de_aceitunas_y_romero.md",
+  "source_sha256": "7d31677efa4ef0a7a94aa3e457d9dc02ec547d22af7727994c10cda7a572e54e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, levadura, agua y aceite; añadir la sal y amasar 8–10 minutos hasta conseguir masa elástica."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Incorporar aceitunas bien escurridas y romero de forma uniforme, evitando desgarrar demasiado la masa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Tapar y dejar fermentar hasta aumentar aproximadamente al doble, 60–100 minutos orientativos según temperatura."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Desgasificar suavemente, formar una hogaza y dejar una segunda fermentación de unos 35–55 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Precalentar el horno a 220 °C con bandeja de cocción; realizar un corte superficial en la hogaza."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Hornear 10 minutos a 220 °C y unos 20–25 minutos más a 195–200 °C, hasta corteza bien formada e interior cocido; enfriar sobre rejilla antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Pan casero de aceitunas y romero",
+  "yield": {
+    "max": "1",
+    "min": "1",
+    "raw": "1 hogaza mediana",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

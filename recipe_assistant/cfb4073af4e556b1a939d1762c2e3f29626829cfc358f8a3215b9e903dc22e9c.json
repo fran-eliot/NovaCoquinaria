@@ -1,0 +1,309 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Ensalada de lentejas con granada y nueces\n\n## Descripción\n\nPreparación de referencia basada en **escurrido, contraste de texturas y vinagreta**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Técnica principal | Escurrido, contraste de texturas y vinagreta |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de lentejas cocidas de grano firme y escurridas\n- 140 g de granos de granada\n- 70 g de nueces\n- 100 g de pepino en dados\n- 60 g de cebolla morada picada\n- 3 cucharadas de aceite de oliva\n- 1½ cucharadas de zumo de limón\n- ½ cucharadita de comino molido\n- perejil, sal y pimienta\n\n**Alérgenos:** Nueces (frutos de cáscara).\n\n## Elaboración\n\n1. Enjuagar y escurrir bien las lentejas completamente cocidas; enfriarlas rápidamente en refrigeración si parten de una cocción reciente.\n2. Lavar y cortar pepino y cebolla en dados pequeños y separar los granos de granada, descartando fragmentos de piel amarga.\n3. Tostar ligeramente las nueces en sartén seca y dejar enfriar; trocearlas.\n4. Emulsionar aceite, limón, comino, sal y pimienta.\n5. Mezclar lentejas, pepino, cebolla y granada, añadir la vinagreta y remover suavemente.\n6. Añadir nueces y perejil justo antes de servir para mantener el contraste crujiente.\n\n## Puntos críticos\n\n- Las lentejas deben ser firmes y estar bien escurridas. Las nueces se añaden al final para evitar que pierdan textura; mantener la ensalada fría.\n- Distinguir las legumbres secas de las cocidas. Los tiempos de salteado, horneado o aliño no sustituyen la cocción segura de las legumbres secas.\n- Adaptar líquidos y tiempos al grosor, variedad y recipiente; utilizar utensilios limpios y refrigerar ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Lentejas pastosas o rotas | Legumbre recocida o mezclada con fuerza | Partir de lentejas completamente cocidas pero firmes y remover suavemente |\n| Líquido acumulado en la fuente | Lentejas mal escurridas o pepino con mucha agua | Escurrir y enfriar los ingredientes antes de aliñar; no intentar reducir al fuego una ensalada fría |\n| Nueces blandas | Incorporación demasiado temprana a la vinagreta | Tostar, dejar enfriar y añadir las nueces al final, justo antes del servicio |\n| Acidez dominante | Exceso de limón respecto al conjunto | Emulsionar el aliño y graduarlo tras probar, registrando el resultado antes de cambiar la fórmula |\n\n## Conservación\n\nMantener **refrigerada y tapada** la ensalada de lentejas cocidas, granada, pepino y cebolla. Añadir las nueces tostadas cerca del servicio para preservar su textura; si se prepara con antelación, conservar el aliño aparte cuando sea posible. Consumir en un plazo corto y no dejar las legumbres cocidas ni los vegetales cortados durante horas fuera de frío.\n\n## Relaciones dentro del SGCC\n\n- [Ensalada de lentejas](./ensalada_de_lentejas.md)\n- [Tostar y activar especias](../00_Bases/03_Tecnicas/tostar_y_activar_especias.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades, variedad, tiempo de cocción, textura y valoración. Esta propuesta no sustituye ninguna preparación doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **escurrido, contraste de texturas y vinagreta**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/ensalada_de_lentejas_con_granada_y_nueces.html",
+  "id": "REC-397",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lentejas cocidas de grano firme y escurridas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de lentejas cocidas de grano firme y escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de lentejas cocidas de grano firme y escurridas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "granos de granada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de granos de granada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de granos de granada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de nueces",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de nueces",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino en dados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pepino en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pepino en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de cebolla morada picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de cebolla morada picada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1½ cucharadas de zumo de limón",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1½ cucharadas de zumo de limón",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil, sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil, sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil, sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/ensalada_de_lentejas_con_granada_y_nueces.md",
+  "source_sha256": "739a6eff8f92c7daa880e49adb0b677a00f3bd4f0592c6cbc3964bee5e8430e4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Enjuagar y escurrir bien las lentejas completamente cocidas; enfriarlas rápidamente en refrigeración si parten de una cocción reciente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Lavar y cortar pepino y cebolla en dados pequeños y separar los granos de granada, descartando fragmentos de piel amarga."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Tostar ligeramente las nueces en sartén seca y dejar enfriar; trocearlas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Emulsionar aceite, limón, comino, sal y pimienta."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Mezclar lentejas, pepino, cebolla y granada, añadir la vinagreta y remover suavemente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Añadir nueces y perejil justo antes de servir para mantener el contraste crujiente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_y_activar_especias.html",
+      "label": "Tostar y activar especias",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_y_activar_especias.md"
+    }
+  ],
+  "title": "Ensalada de lentejas con granada y nueces",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

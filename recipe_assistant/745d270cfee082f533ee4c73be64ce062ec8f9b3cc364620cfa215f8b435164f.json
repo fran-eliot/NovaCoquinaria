@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Macarrones con chorizo y pimiento\n\n## Descripción\n\nPreparación de pasta que trabaja **sofrito, salsa concentrada y acabado de pasta**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Sofrito, salsa concentrada y acabado de pasta |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 270 g de macarrones secos;\n- 120 g de chorizo fresco apto para cocinar, sin piel y en dados;\n- 1 cebolla (140 g) picada;\n- 1 pimiento rojo (140 g) en dados;\n- 300 g de tomate triturado;\n- 1 cucharada de aceite de oliva;\n- ½ cucharadita de orégano seco;\n- sal y pimienta negra;\n\n**Alérgenos:** Trigo (gluten); revisar composición de chorizo.\n\n## Elaboración\n\n1. Poner abundante agua a hervir para la pasta y preparar los ingredientes.\n2. Pochar cebolla y pimiento con aceite 8–10 minutos a fuego medio.\n3. Añadir el chorizo fresco y cocinarlo completamente, desmenuzando y retirando parte de la grasa si es excesiva.\n4. Incorporar tomate y orégano; reducir 10–12 minutos hasta una salsa espesa.\n5. Cocer macarrones hasta uno o dos minutos antes del punto deseado y reservar un vaso del agua de cocción.\n6. Terminar la pasta en la salsa 1–2 minutos con agua reservada en pequeñas dosis. Probar antes de salar por el chorizo.\n\n## Puntos críticos\n\n- El chorizo fresco debe cocinarse completamente; no confundirlo con embutido curado listo para consumir.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Terminar pasta en salsa](../00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **sofrito, salsa concentrada y acabado de pasta**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/macarrones_con_chorizo_y_pimiento.html",
+  "id": "REC-0244",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "macarrones secos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "270",
+        "min": "270",
+        "raw": "270 g de macarrones secos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "270 g de macarrones secos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo fresco apto para cocinar, sin piel y en dados;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chorizo fresco apto para cocinar, sin piel y en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chorizo fresco apto para cocinar, sin piel y en dados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (140 g) picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla (140 g) picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla (140 g) picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (140 g) en dados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (140 g) en dados;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (140 g) en dados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate triturado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de orégano seco;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de orégano seco;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/macarrones_con_chorizo_y_pimiento.md",
+  "source_sha256": "3df9c5c196355a9b85583591654aeabd6a534f8a1bf31041a8aecc8b4666e506",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Poner abundante agua a hervir para la pasta y preparar los ingredientes."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y pimiento con aceite 8–10 minutos a fuego medio."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Añadir el chorizo fresco y cocinarlo completamente, desmenuzando y retirando parte de la grasa si es excesiva."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Incorporar tomate y orégano; reducir 10–12 minutos hasta una salsa espesa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Cocer macarrones hasta uno o dos minutos antes del punto deseado y reservar un vaso del agua de cocción."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Terminar la pasta en la salsa 1–2 minutos con agua reservada en pequeñas dosis. Probar antes de salar por el chorizo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.html",
+      "label": "Terminar pasta en salsa",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/terminar_pasta_en_salsa.md"
+    }
+  ],
+  "title": "Macarrones con chorizo y pimiento",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

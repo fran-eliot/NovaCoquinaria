@@ -1,0 +1,214 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 14
+    },
+    "text": "\n# Té verde con menta de inspiración magrebí\n\n## Descripción\n\nBebida de referencia basada en **infusión escalonada y servicio caliente**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 tazas |\n| Técnica | Infusión escalonada y servicio caliente |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 10 g de té verde en hojas, preferiblemente gunpowder\n- 900 ml de agua potable\n- 20–25 g de menta fresca lavada\n- 25–45 g de azúcar, opcionales y ajustables\n\n**Alérgenos:** Sin alérgenos principales en la formulación básica.\n\n## Elaboración\n\n1. Lavar la menta y calentar agua a unos 80–85 °C, evitando hervir el té verde de forma prolongada.\n2. Enjuagar brevemente las hojas de té con una pequeña cantidad del agua caliente y desechar el agua de enjuague si se busca suavizar el amargor.\n3. Añadir el resto del agua al té y dejar infusionar 2–3 minutos.\n4. Incorporar la menta y el azúcar opcional, tapar 2–3 minutos más y probar.\n5. Colar o servir desde una tetera con filtro, sin dejar las hojas indefinidamente en el líquido.\n6. Ajustar en otra preparación la cantidad de té, menta y azúcar según el equilibrio deseado.\n\n## Puntos críticos\n\n- El agua excesivamente caliente o una extracción demasiado larga producen amargor y astringencia. Contiene cafeína por el té verde.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Síntoma | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Sabor amargo o astringente | Infusión larga, hierba intensa o extracción caliente excesiva | Reducir dosis, tiempo o temperatura de extracción |\n| Bebida aguada | Hielo excesivo o fruta poco concentrada | Reducir agua inicial y servir más fría |\n| Sedimento o separación | Filtrado insuficiente o diferencia de densidades | Filtrar mejor o mezclar justo antes de servir |\n\n## Conservación\n\nPreparar con higiene y consumir preferiblemente recién hecho. Enfriar rápidamente las infusiones destinadas a servicio frío, refrigerar inmediatamente las bebidas de fruta, cereal remojado o leche de coco, y evitar maceraciones prolongadas a temperatura ambiente. No dejar bebidas perecederas durante horas fuera del frigorífico.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Té frío con limón y menta](./te_frio_con_limon.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **infusión escalonada y servicio caliente**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/te_verde_con_menta_estilo_magrebi.html",
+  "id": "REC-316",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "té verde en hojas, preferiblemente gunpowder",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de té verde en hojas, preferiblemente gunpowder",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de té verde en hojas, preferiblemente gunpowder",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "900 ml de agua potable",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "menta fresca lavada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "20",
+        "raw": "20–25 g de menta fresca lavada",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "20–25 g de menta fresca lavada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, opcionales y ajustables",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "25",
+        "raw": "25–45 g de azúcar, opcionales y ajustables",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "25–45 g de azúcar, opcionales y ajustables",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/te_verde_con_menta_estilo_magrebi.md",
+  "source_sha256": "da9e13706d71839decfb6434d2fd77c9c7744a64c3a87a7e38e5c3bc04924a82",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 1,
+      "text": "Lavar la menta y calentar agua a unos 80–85 °C, evitando hervir el té verde de forma prolongada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 2,
+      "text": "Enjuagar brevemente las hojas de té con una pequeña cantidad del agua caliente y desechar el agua de enjuague si se busca suavizar el amargor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 3,
+      "text": "Añadir el resto del agua al té y dejar infusionar 2–3 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 4,
+      "text": "Incorporar la menta y el azúcar opcional, tapar 2–3 minutos más y probar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 5,
+      "text": "Colar o servir desde una tetera con filtro, sin dejar las hojas indefinidamente en el líquido."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 6,
+      "text": "Ajustar en otra preparación la cantidad de té, menta y azúcar según el equilibrio deseado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Té verde con menta de inspiración magrebí",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 tazas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

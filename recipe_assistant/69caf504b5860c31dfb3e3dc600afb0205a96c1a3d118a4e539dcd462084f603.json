@@ -1,0 +1,333 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 90,
+      "start_line": 14
+    },
+    "text": "\n# Gambas al curry con leche de coco\n\n## Descripción\n\nGambas cocinadas brevemente en una salsa de curry y leche de coco. El curry se desarrolla primero; el marisco se añade al final para evitar una textura gomosa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Cocinado | 15–20 min |\n| Técnica | Sofrito, curry y cocción breve |\n\n## Ingredientes\n\n- 450 g de gambas peladas;\n- 300 ml de leche de coco;\n- 1 cebolla pequeña (120 g);\n- 1 cucharada de pasta de curry amarillo;\n- 1 cucharada de aceite neutro;\n- 1 diente de ajo;\n- 10 g de jengibre;\n- 1 cucharadita de salsa de pescado, opcional;\n- zumo de 1/2 lima o limón;\n- cilantro, opcional.\n\n**Alérgenos:** crustáceos; pescado si se utiliza salsa de pescado. La pasta de curry puede contener crustáceos u otros alérgenos: comprobar etiquetado.\n\n## Elaboración\n\n1. Descongelar gambas en refrigeración si procede, escurrir y secar. Preparar verduras en utensilios limpios.\n2. Pochar cebolla en aceite 5–7 minutos. Añadir ajo y jengibre durante un minuto.\n3. Incorporar pasta de curry y cocinar brevemente, removiendo sin quemarla.\n4. Añadir leche de coco y cocinar a hervor suave 5–7 minutos para integrar sabores.\n5. Incorporar gambas y cocinar brevemente hasta que estén **firmes, opacas y perladas**. Evitar prolongar.\n6. Ajustar con salsa de pescado opcional y zumo de lima o limón. Servir con arroz.\n\n## Puntos críticos\n\n- No hervir mucho tiempo las gambas en la salsa.\n- La intensidad y salinidad de las pastas de curry varía por marca.\n- La leche de coco puede separarse con ebullición intensa.\n- Evitar contaminación cruzada con marisco crudo.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Curry verde | Sustituir pasta y ajustar picante |\n| Con pimiento | Saltear con cebolla |\n| Sin salsa de pescado | Ajustar sal con cuidado |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Gambas gomosas | Cocción excesiva | Añadir al final |\n| Salsa muy líquida | Reducción insuficiente | Reducir antes del marisco |\n| Demasiado picante | Pasta concentrada | Reducir cantidad y aumentar coco |\n\n## Conservación\n\nRefrigerar rápidamente y recalentar completamente, procurando no prolongar el calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Curry amarillo](../11_Despensa/08_Especias/curry_amarillo.md)\n- [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa de curry se desarrolla antes de incorporar las gambas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/gambas_al_curry_con_coco.html",
+  "id": "REC-0065",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "gambas peladas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de gambas peladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de gambas peladas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de leche de coco;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de leche de coco;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña (120 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña (120 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña (120 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pasta de curry amarillo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de pasta de curry amarillo;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de pasta de curry amarillo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de jengibre;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de jengibre;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado, opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de pescado, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de pescado, opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de 1/2 lima o limón;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de 1/2 lima o limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de 1/2 lima o limón;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro, opcional.",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/gambas_al_curry_con_coco.md",
+  "source_sha256": "a28287ac0dbcbdfa9eab754560a8644a68d85573c663c55f77ff61a71c515e7d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Descongelar gambas en refrigeración si procede, escurrir y secar. Preparar verduras en utensilios limpios."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite 5–7 minutos. Añadir ajo y jengibre durante un minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar pasta de curry y cocinar brevemente, removiendo sin quemarla."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir leche de coco y cocinar a hervor suave 5–7 minutos para integrar sabores."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Incorporar gambas y cocinar brevemente hasta que estén **firmes, opacas y perladas**. Evitar prolongar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Ajustar con salsa de pescado opcional y zumo de lima o limón. Servir con arroz."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar curry",
+      "source_location": {
+        "end_line": 86,
+        "start_line": 86
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Gambas al curry con leche de coco",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

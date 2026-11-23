@@ -1,0 +1,367 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Garbanzos con langostinos gaditanos\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 45–55 min con garbanzos ya cocidos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de garbanzos completamente cocidos, escurridos\n- 450 g de langostinos crudos enteros\n- 170 g de cebolla\n- 150 g de pimiento rojo\n- 220 g de tomate rallado\n- 3 dientes de ajo\n- 40 ml de aceite de oliva\n- 750 ml de agua potable para caldo de cabezas y cáscaras\n- 1 hoja de laurel\n- 1 cucharadita de pimentón dulce (3 g)\n- sal, pimienta y perejil\n\n**Alérgenos:** Crustáceos; posibles sulfitos declarados en langostinos comerciales.\n\n## Elaboración\n\n1. Mantener los langostinos refrigerados y pelarlos separando las colas de cabezas y cáscaras; retirar el intestino de las colas.\n2. Saltear cabezas y cáscaras 2 minutos con una cucharada del aceite, cubrir con agua y hervir suavemente 12–15 minutos. Colar con malla fina sin presionar en exceso.\n3. Pochar cebolla y pimiento picados con el aceite restante unos 10 minutos; incorporar ajo y tomate y reducir 8–10 minutos.\n4. Agregar pimentón fuera del fuego y verter unos 500 ml de caldo colado; incorporar laurel y garbanzos ya completamente cocidos.\n5. Cocer a fuego suave 10–12 minutos; machacar una pequeña porción de garbanzos para ligar el caldo sin añadir harina.\n6. Añadir colas de langostinos y cocinar unos 3–5 minutos, según tamaño, hasta opacas y completamente hechas.\n7. Retirar laurel, ajustar sal y acabar con perejil lavado y picado; servir caliente.\n\n## Puntos críticos\n\n- La receta parte de garbanzos **ya cocidos**: el guiso corto no sirve para cocinar garbanzos secos o insuficientemente cocinados.\n- El caldo de cabezas debe cocinarse y colarse adecuadamente; no dejar langostinos crudos fuera del frío. Diferenciar de los garbanzos con bacalao del catálogo.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Langostinos gomosos | Cocción prolongada | Añadir al final |\n| Caldo demasiado líquido | Poco ligado | Machacar unos garbanzos cocidos |\n| Sabor plano | Caldo de caparazones poco concentrado | Reducir caldo antes de añadir legumbre |\n\n## Conservación\n\nEnfriar sin demora y refrigerar a 4 °C o menos; consumir preferiblemente en 24 horas. Recalentar totalmente sin prolongar la cocción de los langostinos.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos con bacalao y espinacas](../03_Legumbres/garbanzos_con_bacalao_y_espinacas.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "55",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–55 min con garbanzos ya cocidos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cádiz, Andalucía. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_con_langostinos_gaditanos.html",
+  "id": "REC-551",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos, escurridos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de garbanzos completamente cocidos, escurridos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de garbanzos completamente cocidos, escurridos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "langostinos crudos enteros",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de langostinos crudos enteros",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de langostinos crudos enteros",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de pimiento rojo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de pimiento rojo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de tomate rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para caldo de cabezas y cáscaras",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua potable para caldo de cabezas y cáscaras",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua potable para caldo de cabezas y cáscaras",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y perejil",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y perejil",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y perejil",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/garbanzos_con_langostinos_gaditanos.md",
+  "source_sha256": "bb090bc5d8fa3f26305ed843549d46bc96f470e71c970297e5fd33a84ca05862",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Mantener los langostinos refrigerados y pelarlos separando las colas de cabezas y cáscaras; retirar el intestino de las colas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Saltear cabezas y cáscaras 2 minutos con una cucharada del aceite, cubrir con agua y hervir suavemente 12–15 minutos. Colar con malla fina sin presionar en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento picados con el aceite restante unos 10 minutos; incorporar ajo y tomate y reducir 8–10 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Agregar pimentón fuera del fuego y verter unos 500 ml de caldo colado; incorporar laurel y garbanzos ya completamente cocidos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Cocer a fuego suave 10–12 minutos; machacar una pequeña porción de garbanzos para ligar el caldo sin añadir harina."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Añadir colas de langostinos y cocinar unos 3–5 minutos, según tamaño, hasta opacas y completamente hechas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, ajustar sal y acabar con perejil lavado y picado; servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Garbanzos con langostinos gaditanos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

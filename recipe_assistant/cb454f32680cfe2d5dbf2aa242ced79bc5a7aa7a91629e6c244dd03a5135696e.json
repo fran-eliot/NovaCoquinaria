@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Pilaf de arroz con azafrán, pasas y almendras\n\n## Descripción\n\nPreparación de referencia basada en **nacarado, cocción tapada y acabado crujiente**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 como guarnición |\n| Técnica principal | Nacarado, cocción tapada y acabado crujiente |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de arroz basmati\n- 450 ml de agua o caldo vegetal caliente, ajustables a variedad\n- 80 g de cebolla muy picada\n- 50 g de pasas\n- 50 g de almendras laminadas\n- 2 cucharadas de aceite de oliva suave\n- 8–10 hebras de azafrán\n- ½ cucharadita de comino en grano, opcional\n- sal al gusto\n\n**Alérgenos:** Almendras (frutos de cáscara); revisar caldo comercial.\n\n## Elaboración\n\n1. Lavar el basmati hasta que el agua salga bastante clara y escurrir; respetar la indicación de hidratación del envase.\n2. Infusionar azafrán en 3 cucharadas del líquido caliente durante 5 minutos.\n3. Pochar cebolla en aceite durante 5 minutos; incorporar comino opcional y arroz escurrido y nacarar suavemente 1–2 minutos.\n4. Añadir líquido caliente medido, infusión de azafrán y pasas; llevar a hervor, tapar y cocinar a fuego bajo aproximadamente 11–13 minutos.\n5. Apagar y reposar tapado 8–10 minutos, sin destapar continuamente.\n6. Tostar las almendras aparte, soltar el arroz con tenedor y añadirlas justo antes de servir para mantener contraste.\n\n## Puntos críticos\n\n- Las proporciones de líquido cambian con la variedad y el lavado; ajustar según envase y recipiente. Tostar las almendras aparte evita que se ablanden o quemen.\n- Ajustar la proporción de caldo a la variedad de arroz, el recipiente y la evaporación; las cantidades propuestas no garantizan el mismo punto en todos los equipos.\n- Cocinar completamente las proteínas y mantener separados utensilios usados con alimentos crudos y preparados.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Corrección para otra prueba |\n|---|---|---|\n| Arroz duro y seco | Faltó líquido o hubo evaporación excesiva | Ajustar caldo caliente y fuego antes de que se seque |\n| Arroz demasiado blando | Exceso de líquido o cocción prolongada | Medir caldo y comprobar el grano hacia el final |\n| Fondo quemado | Temperatura alta o sofrito demasiado concentrado | Controlar fuego y usar recipiente de fondo uniforme |\n\n## Conservación\n\nServir preferiblemente recién hecho. Si queda arroz, repartir en recipientes poco profundos, **enfriar rápidamente y refrigerar sin demora**. No mantener arroz cocido horas a temperatura ambiente: un recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente antes de servir los restos.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati por absorción](./arroz_basmati_por_absorcion.md)\n- [Arroz pilaf con cebolla](./arroz_pilaf_con_cebolla.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes efectivamente utilizados, proporción real de caldo, recipiente, tiempo de cocción, punto del grano y valoración. Ninguna cantidad se atribuye a versiones domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **nacarado, cocción tapada y acabado crujiente**. Esta formulación no consta como elaborada ni valorada en casa; cantidades y tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/pilaf_de_arroz_con_azafran_pasasy_almendras.html",
+  "id": "REC-312",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de arroz basmati",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de arroz basmati",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal caliente, ajustables a variedad",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 ml de agua o caldo vegetal caliente, ajustables a variedad",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "450 ml de agua o caldo vegetal caliente, ajustables a variedad",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla muy picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla muy picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla muy picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pasas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de pasas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de pasas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "almendras laminadas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de almendras laminadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de almendras laminadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva suave",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva suave",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "hebras de azafrán",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "8",
+        "raw": "8–10 hebras de azafrán",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "8–10 hebras de azafrán",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino en grano, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino en grano, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino en grano, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/pilaf_de_arroz_con_azafran_pasasy_almendras.md",
+  "source_sha256": "fdc01ffa61ef61d01556be9600416906ee39fdac1577f3a356d400343ca619cb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Lavar el basmati hasta que el agua salga bastante clara y escurrir; respetar la indicación de hidratación del envase."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Infusionar azafrán en 3 cucharadas del líquido caliente durante 5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla en aceite durante 5 minutos; incorporar comino opcional y arroz escurrido y nacarar suavemente 1–2 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Añadir líquido caliente medido, infusión de azafrán y pasas; llevar a hervor, tapar y cocinar a fuego bajo aproximadamente 11–13 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Apagar y reposar tapado 8–10 minutos, sin destapar continuamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Tostar las almendras aparte, soltar el arroz con tenedor y añadirlas justo antes de servir para mantener contraste."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Pilaf de arroz con azafrán, pasas y almendras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

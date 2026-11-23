@@ -1,0 +1,240 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 109,
+      "start_line": 15
+    },
+    "text": "\n# Café cold brew por inmersión\n\n## Descripción\n\nConcentrado de café extraído con agua fría mediante inmersión prolongada en refrigeración. Difiere del café preparado caliente y enfriado: la extracción se desarrolla íntegramente en frío.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4–6 vasos al diluir |\n| Preparación | 10 minutos, más extracción |\n| Cocinado | Sin calentamiento; extracción 12–16 horas |\n| Dificultad | Fácil |\n| Técnica principal | Extracción fría por inmersión y filtrado |\n\n## Ingredientes\n\n- 80 g de café de tueste para filtro, molido grueso y recién molido si es posible\n- 640 ml de agua potable fría\n- agua o leche fría para diluir, según preferencia\n- hielo opcional\n\n**Alérgenos:** La base no contiene alérgenos de declaración obligatoria; leche si se utiliza para diluir.\n\n## Mise en place\n\nUtilizar recipiente limpio con tapa y filtro de café o colador fino. Moler grueso, evitando polvo excesivo. Mantener recipiente en refrigeración durante toda la extracción.\n\n## Elaboración\n\n### 1. Combinar\n\nAñadir café molido al recipiente y verter 640 ml de agua fría, removiendo suavemente para humedecer todo el café.\n\n### 2. Extraer\n\nTapar y refrigerar entre 12 y 16 horas. Probar el resultado filtrado en pequeñas cantidades si se necesita ajustar futuras preparaciones.\n\n### 3. Filtrar\n\nFiltrar primero con colador y después con filtro de papel si se busca una bebida más limpia. No apretar intensamente los posos.\n\n### 4. Diluir\n\nServir una parte de concentrado con una cantidad similar de agua o leche fría como punto de partida; ajustar según intensidad real del café y preferencia.\n\n### 5. Servir\n\nAñadir hielo opcional y consumir frío. Mantener el concentrado filtrado refrigerado.\n\n## Puntos críticos\n\n- El concentrado puede aportar cantidades elevadas de cafeína según grano, molienda y dilución; no equiparar una ración de concentrado a una taza normal.\n- La extracción en refrigeración reduce riesgos de conservación frente a una jarra abandonada a temperatura ambiente.\n- Una molienda demasiado fina dificulta el filtrado y puede añadir sedimentos.\n\n## Perfil esperado\n\nCafé frío de extracción suave, de cuerpo medio y concentración adaptable mediante dilución.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Más ligero | Diluir con más agua fría |\n| Con leche | Combinar con leche fría y mantener refrigerado |\n| Con canela | Añadir una pequeña rama durante la extracción y retirarla al filtrar |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Sabor débil | Extracción corta o excesiva dilución | Ajustar tiempo y proporción |\n| Sedimentos | Filtrado insuficiente | Usar filtro de papel |\n| Sabor áspero | Molienda fina o extracción demasiado prolongada | Moler grueso y controlar tiempo |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar café](../00_Bases/03_Tecnicas/preparar_cafe.md)\n- [Café frío con hielo](./cafe_frio.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n\n## Principio de NovaCoquinaria\n\n> En cold brew, la molienda, la proporción y el tiempo sustituyen al calor como variables principales de extracción.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para extracción fría por inmersión y filtrado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "10 minutos, más extracción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Sin calentamiento; extracción 12–16 horas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/cafe_cold_brew.html",
+  "id": "REC-0152",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "café de tueste para filtro, molido grueso y recién molido si es posible",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de café de tueste para filtro, molido grueso y recién molido si es posible",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de café de tueste para filtro, molido grueso y recién molido si es posible",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "640",
+        "min": "640",
+        "raw": "640 ml de agua potable fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "640 ml de agua potable fría",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o leche fría para diluir, según preferencia",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua o leche fría para diluir, según preferencia",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua o leche fría para diluir, según preferencia",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nUtilizar recipiente limpio con tapa y filtro de café o colador fino. Moler grueso, evitando polvo excesivo. Mantener recipiente en refrigeración durante toda la extracción.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 41
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/cafe_cold_brew.md",
+  "source_sha256": "80e4e5874a9e1c7f8836ca54c5f5991eadb6230c9809e726fcca03bd5a14d9fb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "1. Combinar\n\nAñadir café molido al recipiente y verter 640 ml de agua fría, removiendo suavemente para humedecer todo el café.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "2. Extraer\n\nTapar y refrigerar entre 12 y 16 horas. Probar el resultado filtrado en pequeñas cantidades si se necesita ajustar futuras preparaciones.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 3,
+      "text": "3. Filtrar\n\nFiltrar primero con colador y después con filtro de papel si se busca una bebida más limpia. No apretar intensamente los posos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 4,
+      "text": "4. Diluir\n\nServir una parte de concentrado con una cantidad similar de agua o leche fría como punto de partida; ajustar según intensidad real del café y preferencia.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nAñadir hielo opcional y consumir frío. Mantener el concentrado filtrado refrigerado.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café",
+      "source_location": {
+        "end_line": 99,
+        "start_line": 99
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Café cold brew por inmersión",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 vasos al diluir",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "vaso"
+  }
+}

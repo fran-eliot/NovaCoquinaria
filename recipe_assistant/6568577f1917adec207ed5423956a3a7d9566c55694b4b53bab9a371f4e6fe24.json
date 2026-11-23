@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Bica gallega mantecada de mantequilla\n\n## Origen y contexto\n\n**Región:** Galicia. Versión doméstica de referencia basada en rasgos regionales reconocibles, con adaptaciones identificadas cuando procede. No consta como receta ya preparada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 porciones |\n| Tiempo orientativo | 20 minutos de preparación más 35–45 de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo común\n- 250 g de azúcar\n- 200 g de mantequilla blanda\n- 4 huevos L\n- 170 ml de nata para montar\n- 10 g de impulsor químico de repostería\n- ralladura fina de un limón lavado, opcional\n- 30 g de azúcar extra para superficie\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y forrar un molde rectangular de unos 20 × 28 cm con papel de horno.\n2. Batir mantequilla blanda con azúcar hasta obtener textura cremosa; incorporar los huevos uno a uno.\n3. Añadir nata a temperatura fresca y ralladura de limón opcional; mezclar hasta homogeneizar.\n4. Tamizar harina con impulsor químico y añadir en dos tandas, mezclando suavemente para no trabajar demasiado la masa.\n5. Verter en el molde y espolvorear azúcar extra de manera uniforme para formar una corteza fina.\n6. Hornear unos 35–45 minutos según profundidad hasta que el centro esté completamente cocido y la superficie dorada.\n7. Enfriar en rejilla y cortar en cuadrados sin presionar la miga.\n\n## Puntos críticos\n\n- Existen distintas bicas gallegas: esta versión doméstica es mantecada, con mantequilla y nata; no debe confundirse con la bica blanca elaborada principalmente con claras y nata. El grosor del molde determina el tiempo.\n- Adaptar tiempos y cantidades a la materia prima y al equipo; seguir las indicaciones de productos comerciales y garantizar higiene, cadena de frío y cocción completa de ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la próxima elaboración |\n|---|---|---|\n| Centro húmedo sin cocer y superficie dorada | Grosor del molde o horneado insuficiente | Comprobar el centro antes de retirar y ajustar gradualmente el tiempo, protegiendo la superficie si hace falta |\n| Miga compacta | Batido prolongado tras incorporar los 300 g de harina | Integrar harina e impulsor suavemente en las dos tandas indicadas |\n| Superficie de azúcar demasiado oscura | Calor exterior intenso o capa superficial irregular | Repartir los 30 g de azúcar extra de manera uniforme y vigilar el dorado sin dejar el centro crudo |\n| Mezcla con aspecto cortado al añadir huevos o nata | Ingredientes a temperaturas diferentes o incorporación brusca | Incorporar huevos uno a uno y la nata progresivamente; registrar el comportamiento antes de variar la fórmula |\n## Conservación\n\nDejar enfriar completamente la bica sobre rejilla antes de cortar y tapar, evitando condensación que ablande la costra de azúcar. **Sin rellenos ni coberturas perecederas**, puede conservarse protegida brevemente en lugar fresco y seco, según temperatura y humedad ambiental; refrigerar si las condiciones no permiten mantenerla así. No aplicar pautas de recalentado de carnes ni refrigeración obligatoria de una crema fría a esta bica ya horneada. Si se añadiese una cobertura láctea, revisar la conservación.\n## Relaciones dentro del SGCC\n\n- [Coca de llanda valenciana](./coca_de_llanda_valenciana_con_limon_y_canela.md)\n- [Sobaos pasiegos](./sobaos_pasiegos_de_mantequilla.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, cantidades, cocción, textura y valoración. Esta propuesta no sustituye versiones previas sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 minutos de preparación más 35–45 de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bica_gallega_mantecada_de_mantequilla.html",
+  "id": "REC-524",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla blanda",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de mantequilla blanda",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de mantequilla blanda",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 ml de nata para montar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "170 ml de nata para montar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico de repostería",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "10",
+        "min": "10",
+        "raw": "10 g de impulsor químico de repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "10 g de impulsor químico de repostería",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de un limón lavado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de un limón lavado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de un limón lavado, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar extra para superficie",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar extra para superficie",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar extra para superficie",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/bica_gallega_mantecada_de_mantequilla.md",
+  "source_sha256": "3e6ac998c7397fbbcc318ff9f5aaf7ddf73c78a48a90440e087d05968b6dd35b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y forrar un molde rectangular de unos 20 × 28 cm con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Batir mantequilla blanda con azúcar hasta obtener textura cremosa; incorporar los huevos uno a uno."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir nata a temperatura fresca y ralladura de limón opcional; mezclar hasta homogeneizar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Tamizar harina con impulsor químico y añadir en dos tandas, mezclando suavemente para no trabajar demasiado la masa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Verter en el molde y espolvorear azúcar extra de manera uniforme para formar una corteza fina."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 35–45 minutos según profundidad hasta que el centro esté completamente cocido y la superficie dorada."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Enfriar en rejilla y cortar en cuadrados sin presionar la miga."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bica gallega mantecada de mantequilla",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

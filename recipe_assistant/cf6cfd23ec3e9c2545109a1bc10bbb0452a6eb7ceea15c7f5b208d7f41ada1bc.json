@@ -1,0 +1,292 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Flores manchegas fritas con canela\n\n## Origen y contexto\n\n**Región:** Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–24 unidades |\n| Tiempo orientativo | 45–60 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 200 g de harina de trigo\n- 250 ml de leche\n- 2 huevos\n- 20 g de azúcar\n- ralladura de medio limón\n- 1 pizca de sal\n- aceite para freír\n- 60 g de azúcar y 3 g de canela para acabado\n\n**Alérgenos:** Trigo/gluten, leche y huevo.\n\n## Elaboración\n\n1. Batir huevos, leche, azúcar y ralladura; incorporar harina y sal hasta una masa fluida y sin grumos. Reposar 15 min refrigerada.\n2. Calentar aceite a 175–180 °C en recipiente profundo y calentar dentro un molde metálico específico de flores con mango largo.\n3. Escurrir el aceite del molde y sumergirlo en la masa sin cubrir su borde superior.\n4. Introducir el molde en aceite caliente hasta que la flor se desprenda; si hace falta, ayudar cuidadosamente con utensilio largo resistente al calor.\n5. Dorar por ambos lados, escurrir en rejilla y volver a calentar el molde antes de repetir.\n6. Rebozar las flores templadas en azúcar y canela; dejar enfriar antes de servir.\n\n## Puntos críticos\n\n- Usar el molde específico caliente y sumergirlo en la masa **sin cubrir el borde superior**, para que la flor pueda desprenderse durante la fritura.\n- Mantener el mango y las manos secos, evitar salpicaduras y no tocar el molde metálico caliente. No consumir la masa cruda con huevo y leche.\n- Freír en tandas con el aceite alrededor de los 175–180 °C orientativos; escurrir sobre rejilla para conservar la textura ligera.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Flor no se desprende | Molde frío o masa cubriendo borde | Recalentar molde y sumergir solo parcialmente |\n| Flor aceitosa | Temperatura baja | Ajustar aceite a 175–180 °C |\n| Masa gruesa | Mezcla poco fluida | Añadir pequeñas cantidades de leche |\n\n## Conservación\n\nDejar enfriar por completo las flores fritas sobre rejilla antes de guardarlas en recipiente limpio, seco y cerrado. Conservarlas alejadas de la humedad y consumirlas preferentemente en 1–2 días, conforme al criterio prudente ya indicado para esta fórmula. La **masa cruda con huevo y leche debe permanecer refrigerada** durante el reposo y hasta su uso; no confundir su conservación con la de las flores ya fritas.\n\n## Relaciones dentro del SGCC\n\n- [Pestiños andaluces](../08_Postres/pestinos_andaluces_con_miel_y_ajonjoli.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras su elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "60",
+      "min": "45",
+      "phase": "declared_total",
+      "raw": "45–60 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Castilla-La Mancha. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/flores_manchegas_fritas_con_canela.html",
+  "id": "REC-566",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de leche",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de leche",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de medio limón",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de medio limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de medio limón",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar y 3 g de canela para acabado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de azúcar y 3 g de canela para acabado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de azúcar y 3 g de canela para acabado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/flores_manchegas_fritas_con_canela.md",
+  "source_sha256": "fa8eb70bd10ebe3f8872d859a373f62f91db3b9269753323279c163d93a15f32",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Batir huevos, leche, azúcar y ralladura; incorporar harina y sal hasta una masa fluida y sin grumos. Reposar 15 min refrigerada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Calentar aceite a 175–180 °C en recipiente profundo y calentar dentro un molde metálico específico de flores con mango largo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Escurrir el aceite del molde y sumergirlo en la masa sin cubrir su borde superior."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Introducir el molde en aceite caliente hasta que la flor se desprenda; si hace falta, ayudar cuidadosamente con utensilio largo resistente al calor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Dorar por ambos lados, escurrir en rejilla y volver a calentar el molde antes de repetir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Rebozar las flores templadas en azúcar y canela; dejar enfriar antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Flores manchegas fritas con canela",
+  "yield": {
+    "max": "24",
+    "min": "18",
+    "raw": "18–24 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 93,
+      "start_line": 14
+    },
+    "text": "\n# Pollo guisado con tomate y pimiento\n\n## Descripción\n\nGuiso de pollo con sofrito de cebolla, pimiento y tomate. La cocción suave desarrolla una salsa concentrada sin necesidad de espesarla con harina.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 40–55 minutos, orientativos |\n| Técnica | Dorado, sofrito y guiso |\n\n## Ingredientes\n\n- 800–900 g de contramuslos de pollo deshuesados;\n- 1 cebolla grande (180 g);\n- 1 pimiento rojo (180 g);\n- 2 dientes de ajo;\n- 400 g de tomate triturado;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 100–150 ml de agua o caldo;\n- 1 hoja de laurel;\n- 1/2 cucharadita de pimentón dulce, opcional;\n- sal y pimienta.\n\n## Elaboración\n\n1. Preparar verduras y reservar. Manipular el pollo crudo con utensilios separados; no lavarlo.\n2. Calentar aceite en cazuela y dorar contramuslos por tandas. Reservar en recipiente destinado a producto crudo o parcialmente cocinado.\n3. En la misma cazuela, cocinar cebolla y pimiento a fuego medio 8–10 minutos. Añadir ajo y pimentón opcional brevemente.\n4. Incorporar tomate triturado y cocinar 8–10 minutos para reducir parte del agua.\n5. Devolver pollo y jugos de su recipiente a la cazuela. Añadir laurel y 100 ml de caldo; tapar parcialmente.\n6. Cocinar a hervor suave unos 20–30 minutos, ajustando líquido. Comprobar **74 °C en el centro de las piezas más gruesas** con termómetro.\n7. Retirar laurel, ajustar sal y reducir la salsa destapada si se desea más espesa.\n\n## Puntos críticos\n\n- Dorar no equivale a cocinar completamente el pollo.\n- El tomate necesita reducirse para concentrar sabor.\n- Evitar hervores fuertes que resequen el pollo.\n- No reutilizar utensilios de pollo crudo para servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con champiñones | Saltear previamente y añadir al guiso |\n| Con aceitunas | Añadir al final y reducir sal |\n| Con vino blanco | Incorporar tras sofrito y reducir antes del tomate |\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Salsa aguada | Exceso de líquido | Reducir destapada |\n| Pollo seco | Cocción prolongada | Controlar temperatura |\n| Tomate ácido | Reducción insuficiente | Cocinar y ajustar tras probar |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar en recipientes poco profundos y recalentar completamente. Congelar porciones si se desea.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Tomate triturado](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El sofrito construye la salsa; el termómetro confirma la cocción segura del pollo.\n\n## Utilizado por\n\nGuisos de cuchara y preparaciones por lotes."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "40–55 minutos, orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_guisado_con_tomate.html",
+  "id": "REC-0050",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "800",
+        "raw": "800–900 g de contramuslos de pollo deshuesados;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "800–900 g de contramuslos de pollo deshuesados;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g);",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g);",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (180 g);",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo (180 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo (180 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 ml de agua o caldo;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–150 ml de agua o caldo;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce, opcional;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_guisado_con_tomate.md",
+  "source_sha256": "e380ce1bba673063bea68003b8d6506f97d7c166c4ae876d5850a35f2c15ae68",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Preparar verduras y reservar. Manipular el pollo crudo con utensilios separados; no lavarlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en cazuela y dorar contramuslos por tandas. Reservar en recipiente destinado a producto crudo o parcialmente cocinado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "En la misma cazuela, cocinar cebolla y pimiento a fuego medio 8–10 minutos. Añadir ajo y pimentón opcional brevemente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Incorporar tomate triturado y cocinar 8–10 minutos para reducir parte del agua."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Devolver pollo y jugos de su recipiente a la cazuela. Añadir laurel y 100 ml de caldo; tapar parcialmente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Cocinar a hervor suave unos 20–30 minutos, ajustando líquido. Comprobar **74 °C en el centro de las piezas más gruesas** con termómetro."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Retirar laurel, ajustar sal y reducir la salsa destapada si se desea más espesa."
+    }
+  ],
+  "techniques": [],
+  "title": "Pollo guisado con tomate y pimiento",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

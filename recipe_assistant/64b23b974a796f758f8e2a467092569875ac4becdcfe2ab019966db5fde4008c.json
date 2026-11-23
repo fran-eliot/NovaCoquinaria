@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Pan de pita casero al horno\n\n## Descripción\n\nPreparación de referencia basada en **fermentación, estirado y golpe de calor**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 piezas |\n| Técnica principal | Fermentación, estirado y golpe de calor |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de harina de trigo panificable\n- 250 ml de agua templada\n- 6 g de levadura seca de panadería\n- 8 g de sal\n- 15 ml de aceite de oliva\n- 5 g de azúcar opcionales\n\n**Alérgenos:** Gluten (trigo).\n\n## Elaboración\n\n1. Mezclar harina, levadura, agua, aceite y azúcar opcional. Añadir sal y amasar 8–10 minutos hasta lograr masa lisa.\n2. Tapar y fermentar 60–90 minutos a temperatura moderada hasta que aumente claramente su volumen.\n3. Dividir en ocho porciones, bolear y reposar tapadas 15 minutos.\n4. Precalentar el horno a 250 °C con una bandeja metálica o piedra apta dentro durante al menos 25 minutos.\n5. Estirar cada bola en disco uniforme de unos 4–5 mm, sin perforar la superficie.\n6. Hornear por tandas sobre la bandeja caliente unos 3–5 minutos, hasta que se inflen y estén cocidos, evitando un dorado excesivo.\n7. Retirar con utensilios adecuados y cubrir brevemente con un paño limpio para conservar flexibilidad.\n\n## Puntos críticos\n\n- El horno y la bandeja deben alcanzar alta temperatura; discos irregulares o perforados pueden no hincharse. El tiempo de fermentación varía con la temperatura ambiente.\n- Ajustar los tiempos según el grosor, el recipiente y la temperatura real del horno. Verificar la cocción completa, especialmente de pescados y rellenos.\n- Lavar y manipular los ingredientes con higiene, separar utensilios para productos crudos y cocinados y mantener refrigerados los perecederos.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior dorado e interior firme | Temperatura elevada o piezas gruesas | Reducir calor, precocer o prolongar con protección |\n| Relleno acuoso | Verduras o lácteos sin escurrir | Reducir y escurrir antes del montaje |\n| Textura seca | Tiempo prolongado o falta de humedad | Comprobar antes el punto y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos y cerrados. Mantener refrigeradas las preparaciones con quesos frescos y no dejar productos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Fermentar masas hidratadas de pan](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Focaccia de romero y aceite](./focaccia_de_romero_y_aceite.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, molde o bandeja, temperatura, duración, textura y valoración. No se modifica ninguna receta doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **fermentación, estirado y golpe de calor**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/pan_de_pita_casero_al_horno.html",
+  "id": "REC-382",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo panificable",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de harina de trigo panificable",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de harina de trigo panificable",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua templada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua templada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua templada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de sal",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "15 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar opcionales",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de azúcar opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de azúcar opcionales",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pan_de_pita_casero_al_horno.md",
+  "source_sha256": "e172d969c7eeafb455e1a2afc41f79d6e8fd3e3acc78c1d14aac8a1e0e2cc95b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, levadura, agua, aceite y azúcar opcional. Añadir sal y amasar 8–10 minutos hasta lograr masa lisa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Tapar y fermentar 60–90 minutos a temperatura moderada hasta que aumente claramente su volumen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Dividir en ocho porciones, bolear y reposar tapadas 15 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Precalentar el horno a 250 °C con una bandeja metálica o piedra apta dentro durante al menos 25 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Estirar cada bola en disco uniforme de unos 4–5 mm, sin perforar la superficie."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Hornear por tandas sobre la bandeja caliente unos 3–5 minutos, hasta que se inflen y estén cocidos, evitando un dorado excesivo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Retirar con utensilios adecuados y cubrir brevemente con un paño limpio para conservar flexibilidad."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "Fermentar masas hidratadas de pan",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Pan de pita casero al horno",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "8 piezas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

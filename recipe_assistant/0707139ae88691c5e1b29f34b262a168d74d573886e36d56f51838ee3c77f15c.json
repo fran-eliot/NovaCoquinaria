@@ -1,0 +1,239 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 112,
+      "start_line": 15
+    },
+    "text": "\n# Infusión de naranja y romero\n\n## Descripción\n\nBebida de agua caliente perfumada con piel de naranja y una pequeña ramita de romero culinario. Se busca aroma cítrico y herbáceo sin amargor de la parte blanca ni exceso de romero.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 tazas |\n| Preparación | 10 minutos |\n| Cocinado | 5–8 minutos de infusión |\n| Dificultad | Fácil–media |\n| Técnica principal | Infusión aromática y filtrado |\n\n## Ingredientes\n\n- 750 ml de agua potable\n- 1 naranja bien lavada, solo 4–5 tiras finas de piel sin albedo blanco\n- 1 ramita pequeña de romero fresco apto para consumo (3–4 cm) o una pizca de romero seco\n- 1 cucharadita de zumo de naranja, opcional\n- miel o azúcar, opcionales y ajustables\n\n**Alérgenos:** Sin los alérgenos principales en la formulación base; revisar productos preparados. No dar miel a menores de 12 meses.\n\n## Mise en place\n\nLavar la naranja y el romero bajo agua potable. Retirar solo la parte coloreada de la piel con pelador; no incluir zonas blancas gruesas. Preparar un cazo o jarra resistente al calor y un colador.\n\n## Elaboración\n\n### 1. Calentar agua\n\nLlevar agua a ebullición y retirar del fuego.\n\n### 2. Infusionar\n\nAñadir piel de naranja y romero y tapar. Dejar 4–6 minutos, controlando intensidad.\n\n### 3. Filtrar\n\nRetirar la ramita y filtrar la piel para evitar que la infusión se vuelva amarga o resinosa.\n\n### 4. Equilibrar\n\nAñadir zumo de naranja opcional y probar antes de endulzar.\n\n### 5. Servir\n\nServir caliente. Para tomar fría, enfriar rápidamente y refrigerar en un recipiente limpio y tapado.\n\n## Puntos críticos\n\n- Usar romero culinario identificado; no sustituir por plantas ornamentales desconocidas.\n- El albedo blanco de la naranja puede aportar amargor.\n- Una infusión demasiado larga de romero da notas resinosas fuertes.\n- Al no contener té ni café, la fórmula base no aporta cafeína por esos ingredientes.\n\n## Perfil esperado\n\nInfusión ligera de notas cítricas y herbáceas, sin sabor resinoso dominante.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con canela | Añadir un trocito pequeño durante la infusión. |\n| Con limón | Sustituir parte de la piel de naranja por limón lavado. |\n| Fría con hielo | Refrigerar antes de añadir hielo para evitar dilución y mantener conservación segura. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Prevención |\n|---|---|---|\n| Amargor | Demasiada parte blanca de naranja | Pelar fino |\n| Aroma muy intenso de romero | Ramita grande o infusión larga | Reducir cantidad y tiempo |\n| Sabor débil | Piel insuficiente o muy envejecida | Usar naranja fresca y cubrir al infusionar |\n\n## Conservación\n\nConsumir preferentemente recién hecha. Si se prepara con antelación, enfriar pronto y guardar refrigerada y tapada; no dejar la infusión húmeda durante muchas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Naranja](../11_Despensa/17_Frutas/naranja.md)\n- [Romero](../11_Despensa/08_Especias/romero.md)\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Infusión de jengibre y limón](./infusion_de_jengibre_y_limon.md)\n\n## Principio de NovaCoquinaria\n\n> En una infusión de hierbas y cítricos, la dosis y el tiempo permiten extraer aroma sin volver el líquido amargo.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Bebidas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "8",
+      "min": "5",
+      "phase": "cooking",
+      "raw": "5–8 minutos de infusión",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/infusion_de_naranja_y_romero.html",
+  "id": "REC-0188",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua potable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "naranja bien lavada, solo 4–5 tiras finas de piel sin albedo blanco",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 naranja bien lavada, solo 4–5 tiras finas de piel sin albedo blanco",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 naranja bien lavada, solo 4–5 tiras finas de piel sin albedo blanco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita pequeña de romero fresco apto para consumo (3–4 cm) o una pizca de romero seco",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita pequeña de romero fresco apto para consumo (3–4 cm) o una pizca de romero seco",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita pequeña de romero fresco apto para consumo (3–4 cm) o una pizca de romero seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de naranja, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de naranja, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de naranja, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar, opcionales y ajustables",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "miel o azúcar, opcionales y ajustables",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "miel o azúcar, opcionales y ajustables",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar la naranja y el romero bajo agua potable. Retirar solo la parte coloreada de la piel con pelador; no incluir zonas blancas gruesas. Preparar un cazo o jarra resistente al calor y un colador.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/infusion_de_naranja_y_romero.md",
+  "source_sha256": "25b0b1f23464a91502fb6f0f364ecfa7b7aa62f82370b58f6bf0f3369ad93e46",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Calentar agua\n\nLlevar agua a ebullición y retirar del fuego.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Infusionar\n\nAñadir piel de naranja y romero y tapar. Dejar 4–6 minutos, controlando intensidad.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Filtrar\n\nRetirar la ramita y filtrar la piel para evitar que la infusión se vuelva amarga o resinosa.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Equilibrar\n\nAñadir zumo de naranja opcional y probar antes de endulzar.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nServir caliente. Para tomar fría, enfriar rápidamente y refrigerar en un recipiente limpio y tapado.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 103,
+        "start_line": 103
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Infusión de naranja y romero",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4 tazas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Botillo del Bierzo con cachelos y berza\n\n## Origen y contexto\n\n**Región:** El Bierzo, León, Castilla y León. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 raciones |\n| Tiempo orientativo | 2–3 horas según peso y etiquetado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 botillo del Bierzo comercial de unos 900–1200 g, listo para cocinar\n- 700 g de patatas de cocción, peladas\n- 500 g de berza o repollo limpios\n- agua potable para cubrir el botillo\n- sal solo si fuera necesaria al final\n\n**Alérgenos:** Comprobar embutido comercial por sulfitos, soja u otros alérgenos.\n\n## Elaboración\n\n1. Leer la etiqueta del botillo para comprobar si es crudo curado, precocido o ya cocido y respetar el tiempo y tratamiento de seguridad indicado por el fabricante.\n2. Si el botillo es crudo curado y requiere cocción, introducirlo entero en una olla amplia, cubrir de agua fría y llevar a un hervor muy suave, evitando pinchar o romper la tripa.\n3. Mantener un hervor suave aproximadamente 2–3 horas según tamaño e instrucciones del proveedor; reponer agua caliente si disminuye demasiado.\n4. Lavar la berza o repollo, retirar partes muy duras y añadirla cuando falten unos 30–40 minutos de cocción, o cocerla por separado si falta espacio.\n5. Añadir las patatas peladas y cortadas en trozos grandes durante los últimos 20–30 minutos, hasta que queden completamente tiernas.\n6. Confirmar que el botillo está completamente cocinado en su parte más gruesa según las instrucciones del producto. Extraerlo con cuidado, reposar brevemente y abrir la envoltura lejos de la cara por el vapor.\n7. Servir la carne troceada con los cachelos y la berza, probando la sal antes de añadirla.\n\n## Puntos críticos\n\n- **La etiqueta del botillo comercial manda**: distinguir producto crudo curado, precocido o ya cocido y seguir el tratamiento de seguridad del fabricante. El curado no equivale a cocción completa.\n- Mantener hervor muy suave para evitar roturas de la envoltura y quemaduras por salpicaduras; abrir el botillo cocinado lejos de la cara por la salida de vapor.\n- Añadir berza y patatas según sus tiempos propios para que estén tiernas cuando el botillo esté completamente cocinado. Probar el caldo antes de añadir sal, por tratarse de un producto curado.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente elaboración |\n|---|---|---|\n| Botillo con interior insuficientemente cocido | Tratamiento o tiempo inadecuados para su presentación comercial | Verificar etiqueta, grosor y cocción completa del producto antes de servir |\n| Envoltura rota y carne dispersa | Ebullición violenta o manipulación brusca | Mantener hervor suave y extraer el botillo con cuidado |\n| Cachelos duros y botillo listo | Patatas incorporadas demasiado tarde o trozos grandes | Ajustar su incorporación a los 20–30 minutos orientativos finales, comprobando su ternura |\n| Conjunto muy salado | Sal propia del botillo curado o adición de sal antes de probar | Sazonar solo al final, después de evaluar el caldo y el producto |\n\n## Conservación\n\nSeguir las condiciones de conservación indicadas para el **botillo comercial antes de cocinarlo**. Tras cocinarlo completamente, enfriar rápidamente las sobras de carne, cachelos y berza en porciones poco profundas y mantenerlas tapadas en refrigeración. Recalentar completamente las porciones destinadas a servirse calientes y consumir pronto; no considerar el curado original como garantía de conservación del plato ya cocinado.\n\n## Relaciones dentro del SGCC\n\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Pote asturiano con berza y fabes](../03_Legumbres/pote_asturiano_con_berza_y_fabes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, presentación del ingrediente, cocción, textura, resultado y valoración. Esta ficha no sustituye formulaciones anteriores ni se considera una versión mejorada sin comparación real."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "2–3 horas según peso y etiquetado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** El Bierzo, León, Castilla y León. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/botillo_del_bierzo_con_cachelos_y_berza.html",
+  "id": "REC-455",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "botillo del Bierzo comercial de unos 900–1200 g, listo para cocinar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 botillo del Bierzo comercial de unos 900–1200 g, listo para cocinar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 botillo del Bierzo comercial de unos 900–1200 g, listo para cocinar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas de cocción, peladas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de patatas de cocción, peladas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de patatas de cocción, peladas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "berza o repollo limpios",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de berza o repollo limpios",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de berza o repollo limpios",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para cubrir el botillo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable para cubrir el botillo",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable para cubrir el botillo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo si fuera necesaria al final",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo si fuera necesaria al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo si fuera necesaria al final",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/botillo_del_bierzo_con_cachelos_y_berza.md",
+  "source_sha256": "2b0352990237a0212124221347476530a9b5f7c98f5bdcb98c9494c72589c8ee",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Leer la etiqueta del botillo para comprobar si es crudo curado, precocido o ya cocido y respetar el tiempo y tratamiento de seguridad indicado por el fabricante."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Si el botillo es crudo curado y requiere cocción, introducirlo entero en una olla amplia, cubrir de agua fría y llevar a un hervor muy suave, evitando pinchar o romper la tripa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Mantener un hervor suave aproximadamente 2–3 horas según tamaño e instrucciones del proveedor; reponer agua caliente si disminuye demasiado."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Lavar la berza o repollo, retirar partes muy duras y añadirla cuando falten unos 30–40 minutos de cocción, o cocerla por separado si falta espacio."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Añadir las patatas peladas y cortadas en trozos grandes durante los últimos 20–30 minutos, hasta que queden completamente tiernas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Confirmar que el botillo está completamente cocinado en su parte más gruesa según las instrucciones del producto. Extraerlo con cuidado, reposar brevemente y abrir la envoltura lejos de la cara por el vapor."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Servir la carne troceada con los cachelos y la berza, probando la sal antes de añadirla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Botillo del Bierzo con cachelos y berza",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

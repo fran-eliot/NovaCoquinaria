@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Calamares salteados con kimchi\n\n## Descripción\n\nCalamares con kimchi y cebolla: acidez fermentada, picante moderado y cocción rápida para mantener la textura.\n\n**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 minutos |\n| Cocinado | 7–9 minutos |\n| Método | Salteado rápido y reducción |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 350 g de calamar limpio, descongelado si procede;\n- 120 g de kimchi escurrido, troceado;\n- 100 g de cebolla en plumas;\n- 1 diente de ajo picado;\n- 1 cucharada de aceite de cacahuete;\n- 1 cucharadita de salsa de soja clara, opcional;\n- 30 ml de agua si fuera necesario;\n- ½ cucharadita de aceite de sésamo tostado para terminar;\n\n**Alérgenos:** moluscos, sésamo, soja y posibles pescado/crustáceos según kimchi. Revisar los envases y evitar contaminación cruzada.\n\n## Elaboración\n\n1. Descongelar el calamar en frigorífico, secarlo y cortarlo en anillas o tiras de grosor uniforme.\n2. Escurrir ligeramente el kimchi, reservando una cucharada del jugo.\n3. Saltear la cebolla con aceite 2–3 minutos y añadir ajo unos segundos.\n4. Elevar el fuego, incorporar calamar bien escurrido y saltear brevemente hasta que esté cocinado; retirar si la sartén se llena de líquido.\n5. Añadir kimchi y el jugo reservado a la sartén; reducir 1–2 minutos sin quemar. Solo si el fondo se seca demasiado o se pega antes de completar la reducción, añadir poco a poco **hasta 30 ml de agua** para despegarlo, evitando diluir una salsa que ya esté líquida. Es un ajuste propuesto pendiente de prueba, no una cantidad utilizada en una elaboración confirmada.\n6. Reincorporar el calamar, mezclar, comprobar cocción completa, ajustar soja solo si hace falta y terminar con sésamo.\n\n## Puntos críticos\n\n- Calamares y kimchi pueden soltar agua: secar y cocinar por tandas. Si el calamar es grueso, ajustar cocción; no extrapolar tiempos sin comprobar.\n- Mantener una higiene adecuada y respetar las indicaciones de conservación y cocción de cada producto.\n- Ajustar la sal y el picante después de probar las salsas comerciales; no asumir concentraciones uniformes.\n\n## Diagnóstico\n\n| Situación | Causa probable | Ajuste para la próxima prueba |\n|---|---|---|\n| Salsa excesivamente salada | Condimentos concentrados | Reducir primero la salsa comercial o aumentar base sin sal |\n| Fondo demasiado líquido | Agua liberada o exceso de dilución | Evaporar antes de añadir ingredientes sensibles; reducir por separado |\n| Sabor poco equilibrado | Proporciones aún no contrastadas | Anotar dosis reales y corregir acidez, salinidad y grasa gradualmente |\n\n## Conservación\n\nRefrigerar sin demora las sobras de calamares con kimchi en recipientes poco profundos y respetar los plazos de conservación de los ingredientes utilizados. No dejar el plato cocinado varias horas a temperatura ambiente; recalentar completamente las porciones que se sirvan calientes. Esta indicación se limita a la preparación descrita y no presupone que se acompañe con arroz.\n\n## Relaciones dentro del SGCC\n\n- [Kimchi](../11_Despensa/12_Conservas/kimchi.md)\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Cocina Asiática](./README.md)\n\n## Registro de prueba\n\n**Pendiente:** anotar presentación exacta de ingredientes, cantidades realmente utilizadas, textura, equilibrio de sabores y valoración antes de convertir esta propuesta en una receta probada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "9",
+      "min": "7",
+      "phase": "cooking",
+      "raw": "7–9 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Estado de evidencia:** formulación propuesta; no consta elaboración doméstica ni valoración de resultado. Las cantidades son orientativas para una primera prueba reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 31,
+          "start_line": 31
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/calamares_salteados_con_kimchi.html",
+  "id": "REC-0201",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calamar limpio, descongelado si procede;",
+      "optionality": "optional",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de calamar limpio, descongelado si procede;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de calamar limpio, descongelado si procede;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "kimchi escurrido, troceado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de kimchi escurrido, troceado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de kimchi escurrido, troceado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en plumas;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla en plumas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla en plumas;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja clara, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de salsa de soja clara, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de salsa de soja clara, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua si fuera necesario;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 ml de agua si fuera necesario;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "30 ml de agua si fuera necesario;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de sésamo tostado para terminar;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de aceite de sésamo tostado para terminar;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de aceite de sésamo tostado para terminar;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/calamares_salteados_con_kimchi.md",
+  "source_sha256": "3d39f9a13a4c53930c58c09b4d4a5265c9796de48f7487e74349302998639101",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Descongelar el calamar en frigorífico, secarlo y cortarlo en anillas o tiras de grosor uniforme."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Escurrir ligeramente el kimchi, reservando una cucharada del jugo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Saltear la cebolla con aceite 2–3 minutos y añadir ajo unos segundos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Elevar el fuego, incorporar calamar bien escurrido y saltear brevemente hasta que esté cocinado; retirar si la sartén se llena de líquido."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Añadir kimchi y el jugo reservado a la sartén; reducir 1–2 minutos sin quemar. Solo si el fondo se seca demasiado o se pega antes de completar la reducción, añadir poco a poco **hasta 30 ml de agua** para despegarlo, evitando diluir una salsa que ya esté líquida. Es un ajuste propuesto pendiente de prueba, no una cantidad utilizada en una elaboración confirmada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Reincorporar el calamar, mezclar, comprobar cocción completa, ajustar soja solo si hace falta y terminar con sésamo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Calamares salteados con kimchi",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Flaó ibicenco de queso y hierbabuena\n\n## Origen y contexto\n\n**Región:** Ibiza, Illes Balears. Formulación doméstica de referencia con los rasgos característicos de la especialidad regional, sin atribuir experiencia previa ni autenticidad exclusiva.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Tiempo orientativo | 30 minutos preparación + 45–55 minutos de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 220 g de harina de trigo para la base\n- 70 g de manteca de cerdo o mantequilla para la base\n- 70 ml de agua para la base, ajustar\n- 20 g de azúcar para la base\n- 1 cucharadita de anís en grano, opcional\n- 500 g de queso fresco de oveja o cabra apto para hornear, escurrido\n- 4 huevos L\n- 170 g de azúcar para el relleno\n- 12–16 hojas de hierbabuena lavadas y picadas\n\n**Alérgenos:** Leche, huevo y gluten (trigo).\n\n## Elaboración\n\n1. Precalentar el horno a 175–180 °C y preparar un molde bajo de 22–24 cm, engrasado.\n2. Mezclar harina, manteca o mantequilla, agua, azúcar y anís opcional; amasar brevemente hasta obtener una masa manejable. Reposar tapada 15 minutos.\n3. Estirar la masa y forrar base y paredes bajas del molde, pinchando la base con tenedor.\n4. Desmenuzar el queso fresco y mezclarlo con huevos, azúcar y hierbabuena picada hasta obtener un relleno homogéneo. Evitar incorporar exceso de aire.\n5. Verter el relleno sobre la masa y hornear durante 45–55 minutos, según grosor y horno, hasta que el centro esté completamente cuajado y la superficie ligeramente dorada.\n6. Dejar templar, desmoldar con cuidado y refrigerar lo que no vaya a consumirse de inmediato.\n7. Servir a temperatura fresca, con el sabor de hierbabuena integrado en el queso.\n\n## Puntos críticos\n\n- La hierbabuena es un rasgo característico del flaó ibicenco; no es una tarta de queso neutra. La elección del queso altera humedad y cuajado: registrar el queso utilizado. No debe quedar huevo líquido en el centro.\n- Adaptar tiempos y cantidades a los alimentos y equipos utilizados, seguir el etiquetado comercial y mantener medidas de higiene y conservación para alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Relleno acuoso o sin cuajar | Queso fresco con exceso de suero o cocción insuficiente | Escurrir el queso y comprobar el centro con huevo antes de retirar del horno |\n| Base de masa poco cocida | Masa demasiado gruesa o humedad del relleno | Estirar uniformemente en el molde bajo y verificar también el punto de la base |\n| Relleno demasiado firme o agrietado | Exceso de calor o prolongación del horneado | Ajustar el tiempo al grosor real sin dejar el centro crudo |\n| Aroma de hierbabuena demasiado intenso o débil | Diferencias entre hojas frescas o su picado | Registrar la variedad y cantidad utilizada antes de ajustar las 12–16 hojas en otra preparación |\n\n## Conservación\n\nDejar templar el flaó después de comprobar que el relleno está cocido y refrigerar pronto las porciones no consumidas, protegidas en recipiente limpio. El **queso fresco y los huevos** requieren conservar el postre refrigerado; servir a temperatura fresca sin mantener la tarta durante periodos prolongados fuera de frío. Consumir en un plazo corto conforme a la frescura del queso empleado.\n\n## Relaciones dentro del SGCC\n\n- [Quesada pasiega](./quesada_pasiega_de_queso_fresco_y_canela.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes realmente utilizados, tiempos, textura, ajuste de cantidades y valoración. No sustituye preparaciones anteriores ni declara mejoras sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "30 minutos preparación + 45–55 minutos de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/flao_ibicenco_de_queso_y_hierbabuena.html",
+  "id": "REC-488",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo para la base",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de harina de trigo para la base",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de harina de trigo para la base",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo o mantequilla para la base",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de manteca de cerdo o mantequilla para la base",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de manteca de cerdo o mantequilla para la base",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para la base, ajustar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de agua para la base, ajustar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de agua para la base, ajustar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para la base",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de azúcar para la base",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de azúcar para la base",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de anís en grano, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de anís en grano, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "queso fresco de oveja o cabra apto para hornear, escurrido",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de queso fresco de oveja o cabra apto para hornear, escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de queso fresco de oveja o cabra apto para hornear, escurrido",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el relleno",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de azúcar para el relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de azúcar para el relleno",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "hierbabuena lavadas y picadas",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "16",
+        "min": "12",
+        "raw": "12–16 hojas de hierbabuena lavadas y picadas",
+        "status": "range",
+        "unit": "hoja"
+      },
+      "raw": "12–16 hojas de hierbabuena lavadas y picadas",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/flao_ibicenco_de_queso_y_hierbabuena.md",
+  "source_sha256": "253054acd7b29f7c31cc076be40b5b62548b25e2882abc2364fa9c13106a1591",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 175–180 °C y preparar un molde bajo de 22–24 cm, engrasado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, manteca o mantequilla, agua, azúcar y anís opcional; amasar brevemente hasta obtener una masa manejable. Reposar tapada 15 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Estirar la masa y forrar base y paredes bajas del molde, pinchando la base con tenedor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Desmenuzar el queso fresco y mezclarlo con huevos, azúcar y hierbabuena picada hasta obtener un relleno homogéneo. Evitar incorporar exceso de aire."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Verter el relleno sobre la masa y hornear durante 45–55 minutos, según grosor y horno, hasta que el centro esté completamente cuajado y la superficie ligeramente dorada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Dejar templar, desmoldar con cuidado y refrigerar lo que no vaya a consumirse de inmediato."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Servir a temperatura fresca, con el sabor de hierbabuena integrado en el queso."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Flaó ibicenco de queso y hierbabuena",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "porcion"
+  }
+}

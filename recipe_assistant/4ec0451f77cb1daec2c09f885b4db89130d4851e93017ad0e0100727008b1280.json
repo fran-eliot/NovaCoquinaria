@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Pimientos del piquillo rellenos de bacalao\n\n## Origen y contexto\n\n**Región:** Navarra. Versión doméstica de referencia, basada en los rasgos reconocibles de esta preparación regional. Las cantidades no constituyen una prueba realizada ni una formulación única y oficial.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones; 12 pimientos |\n| Tiempo orientativo | 60–70 min sin contar desalado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 12 pimientos del piquillo enteros en conserva, escurridos, unos 350–400 g\n- 400 g de bacalao desalado sin piel ni espinas\n- 180 g de cebolla picada\n- 2 dientes de ajo\n- 35 g de mantequilla o aceite de oliva\n- 40 g de harina de trigo\n- 300 ml de leche entera caliente\n- 200 g de tomate triturado para salsa\n- 120 ml de caldo de pescado suave o agua\n- 2 cucharadas de aceite de oliva\n- pimienta y sal solo tras probar\n\n**Alérgenos:** Pescado, leche, gluten (trigo); revisar pimientos y caldo comerciales.\n\n## Elaboración\n\n1. Si el bacalao está salado, desalarlo por completo en refrigeración según grosor y el proveedor. Revisar y retirar espinas visibles; mantenerlo frío hasta usar.\n2. Pochar la mitad de la cebolla y un diente de ajo en una cucharada de aceite durante 6–8 minutos; añadir el bacalao desmigado y cocinar hasta que esté completamente hecho.\n3. Añadir mantequilla o aceite, incorporar harina y cocinar 1–2 minutos removiendo. Verter leche caliente poco a poco y cocer hasta conseguir un relleno espeso y estable.\n4. Dejar templar la mezcla sin mantenerla a temperatura ambiente prolongadamente. Rellenar los pimientos escurridos con cuchara o manga limpia, sin romperlos.\n5. Para la salsa, pochar la cebolla y el ajo restantes, añadir tomate triturado, reducir 10 minutos y añadir caldo hasta densidad adecuada. Triturar opcionalmente.\n6. Disponer los pimientos rellenos en la salsa caliente y cocinar a hervor muy suave durante 8–12 minutos, hasta calentar completamente el conjunto, sin abrirlos al remover.\n7. Comprobar que el pescado esté cocinado (63 °C en el centro como referencia conservadora), probar la sal y servir calientes.\n\n## Puntos críticos\n\n- Los pimientos de conserva ya están cocinados y se rompen con facilidad. El desalado del bacalao condiciona toda la sazón; la bechamel debe quedar suficientemente espesa para sostener el relleno.\n- Ajustar tiempo, potencia, cantidad de líquido y salinidad al equipo y al producto realmente utilizado. Comprobar ingredientes de conserva y respetar la higiene y conservación de los productos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción insuficiente o cortes desiguales | Igualar el tamaño y comprobar la cocción interior |\n| Salsa aguada o preparación apelmazada | Hidratación excesiva o evaporación insuficiente | Corregir líquido y calor gradualmente |\n| Sabor excesivamente salado | Caldo, producto curado o conserva salina | Salar solo después de probar |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Los platos con pescado, carne, huevo o lácteos requieren conservación refrigerada y prácticas higiénicas; recalentar por completo las porciones que se sirvan calientes. El arroz cocido debe enfriarse y refrigerarse rápidamente para reducir riesgos de proliferación microbiana.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao ajoarriero navarro](./bacalao_ajoarriero_navarro_con_pimiento_choricero.md)\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos, productos, tiempos, punto de cocción, ajustes y valoración real. No se modifica ninguna receta anterior ni se afirma una comparación aún no realizada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "70",
+      "min": "60",
+      "phase": "declared_total",
+      "raw": "60–70 min sin contar desalado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/pimientos_del_piquillo_rellenos_de_bacalao.html",
+  "id": "REC-449",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pimientos del piquillo enteros en conserva, escurridos, unos 350–400 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 pimientos del piquillo enteros en conserva, escurridos, unos 350–400 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "12 pimientos del piquillo enteros en conserva, escurridos, unos 350–400 g",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado sin piel ni espinas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de bacalao desalado sin piel ni espinas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de bacalao desalado sin piel ni espinas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla o aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "35",
+        "raw": "35 g de mantequilla o aceite de oliva",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "35 g de mantequilla o aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de harina de trigo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera caliente",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de leche entera caliente",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de leche entera caliente",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado para salsa",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado para salsa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado para salsa",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pescado suave o agua",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de caldo de pescado suave o agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de caldo de pescado suave o agua",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal solo tras probar",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal solo tras probar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal solo tras probar",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/pimientos_del_piquillo_rellenos_de_bacalao.md",
+  "source_sha256": "397ffd7e88cc0288476d6ccc34c29aefb56df2bbde853fe48742d35d391f9a2b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Si el bacalao está salado, desalarlo por completo en refrigeración según grosor y el proveedor. Revisar y retirar espinas visibles; mantenerlo frío hasta usar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Pochar la mitad de la cebolla y un diente de ajo en una cucharada de aceite durante 6–8 minutos; añadir el bacalao desmigado y cocinar hasta que esté completamente hecho."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Añadir mantequilla o aceite, incorporar harina y cocinar 1–2 minutos removiendo. Verter leche caliente poco a poco y cocer hasta conseguir un relleno espeso y estable."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Dejar templar la mezcla sin mantenerla a temperatura ambiente prolongadamente. Rellenar los pimientos escurridos con cuchara o manga limpia, sin romperlos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Para la salsa, pochar la cebolla y el ajo restantes, añadir tomate triturado, reducir 10 minutos y añadir caldo hasta densidad adecuada. Triturar opcionalmente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Disponer los pimientos rellenos en la salsa caliente y cocinar a hervor muy suave durante 8–12 minutos, hasta calentar completamente el conjunto, sin abrirlos al remover."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Comprobar que el pescado esté cocinado (63 °C en el centro como referencia conservadora), probar la sal y servir calientes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Pimientos del piquillo rellenos de bacalao",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 raciones; 12 pimientos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

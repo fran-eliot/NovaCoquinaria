@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 16
+    },
+    "text": "\n# Roscón de Reyes casero sin relleno\n\n## Origen y contexto\n\n**Región:** España. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 1 roscón de 8–10 porciones |\n| Tiempo orientativo | 45 min activos más 4–6 h de levado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de harina de fuerza\n- 150 ml de leche\n- 2 huevos M\n- 90 g de azúcar\n- 80 g de mantequilla blanda\n- 7 g de levadura seca de panadería\n- 6 g de sal\n- 15 ml de agua de azahar alimentaria\n- ralladura de naranja y limón\n- 1 huevo para pintar\n- fruta confitada y almendra laminada para decorar\n\n**Alérgenos:** Trigo/gluten, leche, huevo y almendra.\n\n## Elaboración\n\n1. Mezclar harina, leche, huevos, azúcar, levadura, sal, azahar y ralladuras. Amasar hasta desarrollar elasticidad.\n2. Incorporar mantequilla poco a poco y amasar hasta masa lisa. Tapar y dejar fermentar hasta que aumente notablemente de volumen, aproximadamente 2–3 horas.\n3. Formar una bola y abrir un agujero amplio en el centro; colocar sobre bandeja y dejar fermentar tapado otras 1–2 horas hasta esponjoso.\n4. Pintar con huevo y decorar con fruta y almendra. Hornear a 175 °C durante 25–35 minutos hasta dorado y cocido; comprobar centro de la miga aproximadamente a 92–95 °C.\n5. Enfriar en rejilla. Servir sin relleno; no introducir sorpresas no aptas para contacto alimentario.\n\n## Puntos críticos\n\n- El levado depende de temperatura y harina, no solo del reloj. Se documenta la versión sin relleno; la nata u otras cremas exigirían refrigeración.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Miga compacta | Fermentación insuficiente | Esperar aumento visible de volumen |\n| Agujero cerrado | Forma inicial demasiado estrecha | Ampliar antes del segundo levado |\n\n## Conservación\n\nGuardar frío y bien cubierto hasta 1–2 días, o congelar porciones.\n\n## Relaciones dentro del SGCC\n\n- [ensaimada mallorquina lisa de manteca](../10_Horno/ensaimada_mallorquina_lisa_de_manteca.md)\n- [fermentar masas hidratadas](../00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45 min activos más 4–6 h de levado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 21,
+          "start_line": 21
+        },
+        "text": "**Región:** España. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 29,
+          "start_line": 29
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/roscon_de_reyes_casero_sin_relleno.html",
+  "id": "REC-591",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de fuerza",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de harina de fuerza",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de harina de fuerza",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de leche",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de leche",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos M",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos M",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla blanda",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de mantequilla blanda",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de mantequilla blanda",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "6",
+        "raw": "6 g de sal",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "6 g de sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de azahar alimentaria",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 ml de agua de azahar alimentaria",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "15 ml de agua de azahar alimentaria",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de naranja y limón",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de naranja y limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de naranja y limón",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo para pintar",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo para pintar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo para pintar",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "fruta confitada y almendra laminada para decorar",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "fruta confitada y almendra laminada para decorar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "fruta confitada y almendra laminada para decorar",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/roscon_de_reyes_casero_sin_relleno.md",
+  "source_sha256": "2f16bd8f3dc37b76934d9bdb63cc84b25b0577bea592d0116db942a8e10c38a4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, leche, huevos, azúcar, levadura, sal, azahar y ralladuras. Amasar hasta desarrollar elasticidad."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Incorporar mantequilla poco a poco y amasar hasta masa lisa. Tapar y dejar fermentar hasta que aumente notablemente de volumen, aproximadamente 2–3 horas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Formar una bola y abrir un agujero amplio en el centro; colocar sobre bandeja y dejar fermentar tapado otras 1–2 horas hasta esponjoso."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Pintar con huevo y decorar con fruta y almendra. Hornear a 175 °C durante 25–35 minutos hasta dorado y cocido; comprobar centro de la miga aproximadamente a 92–95 °C."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Enfriar en rejilla. Servir sin relleno; no introducir sorpresas no aptas para contacto alimentario."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.html",
+      "label": "fermentar masas hidratadas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/fermentar_masas_hidratadas.md"
+    }
+  ],
+  "title": "Roscón de Reyes casero sin relleno",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "1 roscón de 8–10 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": null
+  }
+}

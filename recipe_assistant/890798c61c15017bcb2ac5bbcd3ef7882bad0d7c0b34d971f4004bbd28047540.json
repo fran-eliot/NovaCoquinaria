@@ -1,0 +1,342 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Frangollo canario de maíz, leche y canela\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Formulación doméstica de referencia basada en los rasgos del plato; no se atribuye elaboración ni valoración previas y se identifican adaptaciones cuando corresponde.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 cuencos |\n| Tiempo orientativo | 40–50 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 160 g de frangollo de maíz alimentario (maíz partido o molido grueso, no harina fina)\n- 750 ml de leche entera\n- 250 ml de agua potable\n- 110 g de azúcar\n- 50 g de pasas, opcionales\n- 40 g de almendra picada, opcional\n- 1 rama de canela\n- piel fina de medio limón lavado\n- 25 g de mantequilla, opcional\n- sal, una pizca\n\n**Alérgenos:** Leche; almendras si se incorporan; revisar el maíz comercial por trazas.\n\n## Elaboración\n\n1. Comprobar en el envase el grosor y modo de cocción del frangollo: la molienda de maíz determina la absorción y el tiempo.\n2. Calentar leche y agua con canela, piel de limón y una pizca de sal; retirar aromáticos después de infusionar.\n3. Añadir el frangollo gradualmente mientras se remueve para evitar grumos, y cocer a fuego bajo siguiendo el tiempo indicado por el fabricante, habitualmente 20–35 minutos.\n4. Remover con frecuencia para evitar que se pegue, incorporando un poco más de leche o agua caliente si espesa antes de que el maíz esté totalmente tierno.\n5. Añadir azúcar, pasas y almendras opcionales en el último tramo de cocción; incorporar mantequilla opcional y mezclar.\n6. Comprobar que el maíz está completamente cocinado y la textura es cremosa, sin granos duros.\n7. Repartir en cuencos poco profundos, enfriar rápidamente y refrigerar hasta servir fresco.\n\n## Puntos críticos\n\n- El frangollo tradicional se elabora con maíz de molienda gruesa; no sustituir por maicena, que produce otra textura. Los tiempos del envase prevalecen sobre los estimados aquí.\n- Ajustar los tiempos al equipo y a la materia prima y seguir las instrucciones comerciales. Respetar cadena de frío, higiene de superficies y cocción completa de alimentos perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Granos duros pese a que la mezcla está espesa | Molienda gruesa o cocción insuficiente respecto al producto comercial | Respetar el tiempo del fabricante y añadir pequeñas cantidades de leche o agua calientes si espesa antes de ablandarse |\n| Grumos compactos al añadir el maíz | Incorporación demasiado rápida o poco movimiento | Incorporar el frangollo gradualmente mientras se remueve |\n| Fondo pegado o tostado | Fuego demasiado alto o mezcla sin remover | Cocinar a fuego bajo y remover con frecuencia, especialmente al final |\n| Textura demasiado líquida tras la cocción | Absorción menor de la prevista o cocción incompleta | Comprobar primero que el maíz esté tierno; registrar molienda y proporción antes de cambiar líquidos en una repetición |\n## Conservación\n\nTras comprobar que el maíz está cocido, repartir el frangollo en cuencos poco profundos, enfriar rápidamente y mantener **refrigerado y tapado** por su contenido de leche. Servir fresco sin dejar las porciones durante periodos prolongados a temperatura ambiente. Consumir en un plazo corto según la frescura de la leche y de los acompañamientos incorporados; no conservarlo como si fuera un cereal seco.\n## Relaciones dentro del SGCC\n\n- [Quesada pasiega](./quesada_pasiega_de_queso_fresco_y_canela.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades y materias primas realmente utilizadas, tiempos, texturas y valoración. No se sustituye ninguna versión anterior sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40–50 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/frangollo_canario_de_maiz_leche_y_canela.html",
+  "id": "REC-513",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "frangollo de maíz alimentario (maíz partido o molido grueso, no harina fina)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de frangollo de maíz alimentario (maíz partido o molido grueso, no harina fina)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de frangollo de maíz alimentario (maíz partido o molido grueso, no harina fina)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de leche entera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de agua potable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pasas, opcionales",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de pasas, opcionales",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de pasas, opcionales",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra picada, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de almendra picada, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de almendra picada, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "piel fina de medio limón lavado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel fina de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel fina de medio limón lavado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de mantequilla, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de mantequilla, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, una pizca",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, una pizca",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal, una pizca",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/frangollo_canario_de_maiz_leche_y_canela.md",
+  "source_sha256": "859b371cbad8fd9fba78f28ed890393383737ceea3eefd6d97f76f6b8dfcb950",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Comprobar en el envase el grosor y modo de cocción del frangollo: la molienda de maíz determina la absorción y el tiempo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Calentar leche y agua con canela, piel de limón y una pizca de sal; retirar aromáticos después de infusionar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir el frangollo gradualmente mientras se remueve para evitar grumos, y cocer a fuego bajo siguiendo el tiempo indicado por el fabricante, habitualmente 20–35 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Remover con frecuencia para evitar que se pegue, incorporando un poco más de leche o agua caliente si espesa antes de que el maíz esté totalmente tierno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Añadir azúcar, pasas y almendras opcionales en el último tramo de cocción; incorporar mantequilla opcional y mezclar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Comprobar que el maíz está completamente cocinado y la textura es cremosa, sin granos duros."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Repartir en cuencos poco profundos, enfriar rápidamente y refrigerar hasta servir fresco."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Frangollo canario de maíz, leche y canela",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 cuencos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "cuenco"
+  }
+}

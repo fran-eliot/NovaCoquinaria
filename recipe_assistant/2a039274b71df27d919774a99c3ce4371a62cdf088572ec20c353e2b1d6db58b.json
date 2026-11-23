@@ -1,0 +1,287 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 109,
+      "start_line": 15
+    },
+    "text": "\n# Merluza con costra de hierbas y pan\n\n## Descripción\n\nLomos de merluza horneados bajo una cobertura fina de pan rallado, perejil y limón. La costra aporta textura mientras el pescado se cocina suavemente sin resecarse.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 12–20 minutos |\n| Dificultad | Media |\n| Técnica principal | Horneado con cobertura crujiente |\n\n## Ingredientes\n\n- 4 lomos de merluza de unos 150 g cada uno, sin espinas aparentes\n- 55 g de pan rallado\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de perejil picado\n- ralladura fina de medio limón lavado\n- 1 diente de ajo pequeño picado\n- sal y pimienta negra\n- 1–2 cucharadas de agua para la fuente, si hace falta\n\n**Alérgenos:** Pescado y gluten (pan de trigo); revisar el pan rallado.\n\n## Mise en place\n\nDescongelar la merluza en refrigeración si procede, secarla y comprobar espinas. Precalentar el horno a 190 °C. Mezclar en un cuenco pan, aceite, perejil, ralladura y ajo hasta obtener migas húmedas.\n\n## Elaboración\n\n### 1. Preparar fuente\n\nAceitar ligeramente una fuente apta para horno. Colocar los lomos separados, con su parte más gruesa hacia el exterior de la fuente si favorece un calentamiento uniforme.\n\n### 2. Añadir costra\n\nSazonar ligeramente el pescado y distribuir una capa fina de pan aromatizado sobre cada lomo, presionando apenas.\n\n### 3. Hornear\n\nHornear 12–20 minutos según grosor, hasta que el centro del pescado alcance 63 °C y la costra quede dorada. Vigilar el dorado y cubrir flojamente si se tuesta demasiado pronto.\n\n### 4. Reposar y servir\n\nRetirar con espátula ancha, reposar 2 minutos y servir inmediatamente con limón opcional al lado.\n\n## Puntos críticos\n\n- La costra puede dorarse antes de que el pescado esté cocido; verificar el centro con termómetro.\n- El pan rallado debe formar una capa fina para no impedir que el calor alcance el pescado.\n- No añadir demasiado líquido a la fuente, porque humedecería la costra.\n\n## Perfil esperado\n\nMerluza jugosa en lascas, con cobertura aromática crujiente y sin fondo acuoso.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomillo | Sustituir parte del perejil por tomillo |\n| Con queso curado | Añadir 15 g al pan; incorpora leche y cambia el perfil |\n| Con pan sin gluten | Utilizar pan rallado certificado y revisar alérgenos |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Costra quemada | Calor superior elevado | Reducir posición y cubrir si hace falta |\n| Pescado seco | Horneado prolongado | Comprobar 63 °C |\n| Costra húmeda | Exceso de líquido | Secar lomos y no encharcar la fuente |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Merluza](../11_Despensa/04_Pescados/merluza.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> La cobertura se dora mientras el pescado alcanza su punto: ambos procesos deben terminar juntos.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: horneado con cobertura crujiente."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "20",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/merluza_con_costra_de_hierbas_y_pan.html",
+  "id": "REC-0164",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza de unos 150 g cada uno, sin espinas aparentes",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 lomos de merluza de unos 150 g cada uno, sin espinas aparentes",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 lomos de merluza de unos 150 g cada uno, sin espinas aparentes",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "55 g de pan rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil picado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil picado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño picado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño picado",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño picado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para la fuente, si hace falta",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de agua para la fuente, si hace falta",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de agua para la fuente, si hace falta",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nDescongelar la merluza en refrigeración si procede, secarla y comprobar espinas. Precalentar el horno a 190 °C. Mezclar en un cuenco pan, aceite, perejil, ralladura y ajo hasta obtener migas húmedas.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/merluza_con_costra_de_hierbas_y_pan.md",
+  "source_sha256": "309a86a33d65d7117abda134b431f0907f4bfefd93b1f0562956bcf1977d85d5",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Preparar fuente\n\nAceitar ligeramente una fuente apta para horno. Colocar los lomos separados, con su parte más gruesa hacia el exterior de la fuente si favorece un calentamiento uniforme.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Añadir costra\n\nSazonar ligeramente el pescado y distribuir una capa fina de pan aromatizado sobre cada lomo, presionando apenas.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Hornear\n\nHornear 12–20 minutos según grosor, hasta que el centro del pescado alcance 63 °C y la costra quede dorada. Vigilar el dorado y cubrir flojamente si se tuesta demasiado pronto.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Reposar y servir\n\nRetirar con espátula ancha, reposar 2 minutos y servir inmediatamente con limón opcional al lado.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 100,
+        "start_line": 100
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza con costra de hierbas y pan",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

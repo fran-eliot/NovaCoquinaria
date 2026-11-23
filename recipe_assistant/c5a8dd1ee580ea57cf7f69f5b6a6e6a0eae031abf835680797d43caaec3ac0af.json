@@ -1,0 +1,222 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Horchata casera de chufa\n\n## Descripción\n\nBebida doméstica de referencia basada en **remojo refrigerado, triturado y filtrado**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Remojo refrigerado, triturado y filtrado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de chufas secas aptas para consumo alimentario;\n- 900 ml de agua potable fría para triturar;\n- agua potable adicional para el remojo;\n- 50–70 g de azúcar, según preferencia;\n- una pizca de canela opcional;\n\n**Alérgenos:** Revisar posibles trazas del producto comercial.\n\n## Preparación\n\n1. Seleccionar chufas aptas para consumo, descartar las dañadas y lavarlas varias veces con agua potable.\n2. Dejar en remojo cubiertas de agua en recipiente limpio dentro del frigorífico durante 12–24 horas, cambiando el agua si procede y manteniendo siempre el frío.\n3. Escurrir y desechar el agua de remojo. Triturar las chufas hidratadas con unos 450 ml de agua potable fría, hasta obtener una pasta fina.\n4. Añadir el resto del agua poco a poco, mezclar y filtrar con un paño alimentario limpio o bolsa de filtrado, presionando con cuidado.\n5. Disolver el azúcar en la bebida y añadir canela opcional. Ajustar el cuerpo con pequeñas cantidades de agua fría.\n6. Refrigerar inmediatamente en recipiente cerrado, remover antes de servir y consumir muy fresca.\n\n## Puntos críticos\n\n- Seleccionar **chufas alimentarias** de proveedor fiable, descartar las dañadas y lavarlas bien antes de iniciar el remojo.\n- Mantener el remojo de 12–24 horas **siempre en frigorífico**, descartar el agua utilizada y emplear agua potable limpia para triturar y diluir.\n- Esta horchata casera no está pasteurizada: higienizar batidora, filtros y envases, refrigerar inmediatamente y preparar para consumo cercano.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Horchata arenosa o con posos gruesos | Chufas insuficientemente trituradas o filtrado poco fino | Triturar bien las chufas remojadas y filtrar con material alimentario limpio |\n| Horchata demasiado diluida | Exceso de agua añadida en relación con el extracto | Incorporar gradualmente el agua prevista y registrar el volumen obtenido tras filtrar |\n| Horchata excesivamente dulce | Azúcar añadida sin probar la extracción | Disolver y ajustar dentro del intervalo de 50–70 g según el resultado de la primera prueba |\n| Separación de fases durante el reposo | Partículas vegetales sedimentadas | Remover antes de servir manteniendo la bebida refrigerada; no confundir separación con seguridad microbiológica |\n\n## Conservación\n\nLa **horchata casera sin pasteurizar** requiere higiene y refrigeración continua: mantener el remojo en frío, descartar esa agua, triturar con agua potable nueva y filtrar con utensilios limpios. Refrigerar la bebida inmediatamente en recipiente cerrado y consumir preferentemente **el mismo día**. No dejarla durante periodos prolongados a temperatura ambiente; el azúcar añadido no garantiza conservación segura.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Azúcar blanco](../11_Despensa/15_Reposteria/azucar_blanco.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades reales, tiempo de preparación, temperatura, resultado y valoración. No se atribuye a esta propuesta una experiencia doméstica previa."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida doméstica de referencia basada en **remojo refrigerado, triturado y filtrado**. La fórmula no procede de una elaboración personal confirmada y queda pendiente de prueba y valoración."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/horchata_casera_de_chufa.html",
+  "id": "REC-0256",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chufas secas aptas para consumo alimentario;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de chufas secas aptas para consumo alimentario;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de chufas secas aptas para consumo alimentario;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría para triturar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 ml de agua potable fría para triturar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "900 ml de agua potable fría para triturar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable adicional para el remojo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable adicional para el remojo;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable adicional para el remojo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, según preferencia;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "50",
+        "raw": "50–70 g de azúcar, según preferencia;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "50–70 g de azúcar, según preferencia;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de canela opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de canela opcional;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de canela opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/horchata_casera_de_chufa.md",
+  "source_sha256": "8f1650f44e811bb35332a3016e8f6ee29cb61ad02fb35e29f1eb99d18cae20e1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Seleccionar chufas aptas para consumo, descartar las dañadas y lavarlas varias veces con agua potable."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Dejar en remojo cubiertas de agua en recipiente limpio dentro del frigorífico durante 12–24 horas, cambiando el agua si procede y manteniendo siempre el frío."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Escurrir y desechar el agua de remojo. Triturar las chufas hidratadas con unos 450 ml de agua potable fría, hasta obtener una pasta fina."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Añadir el resto del agua poco a poco, mezclar y filtrar con un paño alimentario limpio o bolsa de filtrado, presionando con cuidado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Disolver el azúcar en la bebida y añadir canela opcional. Ajustar el cuerpo con pequeñas cantidades de agua fría."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Refrigerar inmediatamente en recipiente cerrado, remover antes de servir y consumir muy fresca."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Horchata casera de chufa",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

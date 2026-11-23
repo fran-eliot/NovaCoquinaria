@@ -1,0 +1,212 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Semifrío de plátano y cacao sin huevo\n\n## Descripción\n\nReceta de referencia centrada en **triturado de fruta congelada y servicio semicongelado**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasitos |\n| Técnica | Triturado de fruta congelada y servicio semicongelado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de plátano maduro pelado en rodajas\n- 20 g de cacao puro en polvo sin azúcar\n- 100 g de yogur natural pasteurizado, frío\n- 1 cucharadita de miel opcional\n- 30 g de chocolate negro picado opcional\n\n**Alérgenos:** Leche; revisar chocolate comercial y trazas.\n\n## Elaboración\n\n1. Pelar los plátanos, cortarlos en rodajas y congelarlos en una capa dentro de recipiente apto hasta sólidos, unas 4–6 horas.\n2. Colocar el plátano congelado en procesador adecuado, añadiendo yogur poco a poco para ayudar a triturar sin forzar el equipo.\n3. Incorporar cacao y triturar por pulsaciones hasta obtener crema espesa y uniforme, deteniendo la máquina para bajar mezcla cuando sea necesario.\n4. Probar y añadir miel opcional solo si la fruta necesita dulzor.\n5. Repartir en vasitos y servir inmediatamente como crema fría muy espesa, o congelar 20–30 minutos para mayor firmeza.\n6. Añadir chocolate negro picado opcional al servir.\n\n## Puntos críticos\n\n- La madurez y la temperatura del plátano determinan dulzor y firmeza. Añadir el yogur frío gradualmente, sin forzar el procesador.\n- Triturar por pulsaciones y detener el equipo antes de bajar la mezcla de las paredes. No necesita cocción ni cuajado térmico.\n- Preparar los vasitos cerca del servicio; mantener la mezcla fría durante la manipulación.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Crema demasiado blanda | Fruta parcialmente descongelada o exceso de yogur | Incorporar el yogur poco a poco y dar el reposo breve en congelador previsto |\n| Textura granulosa o trozos duros | Triturado incompleto o rodajas muy gruesas | Cortar rodajas uniformes y triturar por pulsaciones |\n| Sabor amargo | Plátano poco maduro o cacao intenso | Probar antes de añadir la miel opcional |\n\n## Conservación\n\nPreferir el consumo inmediato. Mantener el yogur refrigerado y los vasitos en frío hasta servir. Si se guardan congelados, taparlos y prever que la textura puede endurecerse; atemperar brevemente en refrigeración antes de servir. No recongelar una mezcla que haya permanecido fuera de frío durante un tiempo inseguro.\n\n## Relaciones dentro del SGCC\n\n- [Plátano](../11_Despensa/17_Frutas/platano.md): madurez, dulzor y textura al triturar fruta congelada.\n- [Sorbete de limón sin huevo](./sorbete_de_limon_sin_huevo.md)\n- [Bizcocho de plátano y nueces](./bizcocho_de_platano_y_nueces.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes realmente utilizados, molde, tiempos, temperatura, textura y valoración. No se modifica ni atribuye esta propuesta a una receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **triturado de fruta congelada y servicio semicongelado**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/semifrio_de_platano_y_cacao_sin_huevo.html",
+  "id": "REC-356",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "plátano maduro pelado en rodajas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de plátano maduro pelado en rodajas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de plátano maduro pelado en rodajas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro en polvo sin azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de cacao puro en polvo sin azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de cacao puro en polvo sin azúcar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural pasteurizado, frío",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de yogur natural pasteurizado, frío",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de yogur natural pasteurizado, frío",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel opcional",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate negro picado opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de chocolate negro picado opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de chocolate negro picado opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/semifrio_de_platano_y_cacao_sin_huevo.md",
+  "source_sha256": "8014a47609766700bcab4e70114cea2f03a7c8302a13c8eae7435f848d132564",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Pelar los plátanos, cortarlos en rodajas y congelarlos en una capa dentro de recipiente apto hasta sólidos, unas 4–6 horas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Colocar el plátano congelado en procesador adecuado, añadiendo yogur poco a poco para ayudar a triturar sin forzar el equipo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Incorporar cacao y triturar por pulsaciones hasta obtener crema espesa y uniforme, deteniendo la máquina para bajar mezcla cuando sea necesario."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Probar y añadir miel opcional solo si la fruta necesita dulzor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Repartir en vasitos y servir inmediatamente como crema fría muy espesa, o congelar 20–30 minutos para mayor firmeza."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Añadir chocolate negro picado opcional al servir."
+    }
+  ],
+  "techniques": [],
+  "title": "Semifrío de plátano y cacao sin huevo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasitos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vasito"
+  }
+}

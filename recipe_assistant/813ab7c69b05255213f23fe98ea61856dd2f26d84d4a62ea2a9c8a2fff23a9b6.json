@@ -1,0 +1,375 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Rajma masala de alubias rojas\n\n## Descripción\n\nPreparación de referencia basada en **sofrito de especias y cocción en salsa**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 |\n| Técnica principal | Sofrito de especias y cocción en salsa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de alubias rojas completamente cocidas, de conserva o correctamente hervidas\n- 300 g de tomate triturado\n- 180 g de cebolla picada\n- 2 dientes de ajo\n- 15 g de jengibre fresco rallado\n- 2 cucharadas de aceite neutro\n- 1 cucharadita de comino molido\n- 1 cucharadita de cilantro molido\n- ½ cucharadita de garam masala\n- ½ cucharadita de cúrcuma\n- 150–220 ml de agua potable\n- sal y chile opcional\n\n**Alérgenos:** Revisar especias y alubias comerciales.\n\n## Elaboración\n\n1. Usar alubias rojas comerciales ya cocidas o secas remojadas y hervidas vigorosamente hasta cocción segura, siguiendo pautas específicas de su variedad.\n2. Pochar cebolla en aceite 8–10 minutos, añadir ajo y jengibre y cocinar un minuto.\n3. Incorporar comino, cilantro y cúrcuma y remover brevemente, evitando quemar las especias.\n4. Agregar tomate triturado y reducir 10–12 minutos hasta salsa concentrada.\n5. Incorporar alubias ya cocidas y 150 ml de agua; hervir suavemente 12–15 minutos, machacando algunas para dar cuerpo.\n6. Terminar con garam masala y chile opcional, ajustar densidad y sal y servir caliente.\n\n## Puntos críticos\n\n- Las alubias rojas secas contienen fitohemaglutinina y requieren hervor vigoroso antes de un guiso o cocción lenta; nunca cocerlas crudas solo a baja temperatura. Las de conserva ya están cocidas.\n- Distinguir las legumbres secas de las cocidas. Los tiempos de salteado, horneado o aliño no sustituyen la cocción segura de las legumbres secas.\n- Adaptar líquidos y tiempos al grosor, variedad y recipiente; utilizar utensilios limpios y refrigerar ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste para otra elaboración |\n|---|---|---|\n| Legumbre demasiado firme | Cocción previa insuficiente | Terminar la cocción antes de preparar el plato |\n| Salsa aguada | Exceso de caldo o verduras húmedas | Reducir por separado o destapar al final |\n| Textura pastosa | Triturado o mezclado excesivo | Reservar parte de los ingredientes sin triturar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las ensaladas y cremas frías elaboradas con legumbres cocidas requieren higiene y conservación refrigerada; no dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Cocinar curry](../00_Bases/03_Tecnicas/cocinar_curry.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades, variedad, tiempo de cocción, textura y valoración. Esta propuesta no sustituye ninguna preparación doméstica anterior."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **sofrito de especias y cocción en salsa**. No consta elaboración doméstica ni valoración de esta fórmula; las cantidades y tiempos están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/rajma_masala_de_alubias_rojas.html",
+  "id": "REC-395",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias rojas completamente cocidas, de conserva o correctamente hervidas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de alubias rojas completamente cocidas, de conserva o correctamente hervidas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de alubias rojas completamente cocidas, de conserva o correctamente hervidas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate triturado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla picada",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre fresco rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre fresco rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro molido",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de cilantro molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de cilantro molido",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "garam masala",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de garam masala",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de garam masala",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "cúrcuma",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de cúrcuma",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de cúrcuma",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "150",
+        "raw": "150–220 ml de agua potable",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–220 ml de agua potable",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y chile opcional",
+      "optionality": "unknown",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y chile opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y chile opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/rajma_masala_de_alubias_rojas.md",
+  "source_sha256": "373f7ba3f8b0afcccaa543d8a10df851f9106a3abbd696f5c3804cb1cce830b0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Usar alubias rojas comerciales ya cocidas o secas remojadas y hervidas vigorosamente hasta cocción segura, siguiendo pautas específicas de su variedad."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite 8–10 minutos, añadir ajo y jengibre y cocinar un minuto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Incorporar comino, cilantro y cúrcuma y remover brevemente, evitando quemar las especias."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Agregar tomate triturado y reducir 10–12 minutos hasta salsa concentrada."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Incorporar alubias ya cocidas y 150 ml de agua; hervir suavemente 12–15 minutos, machacando algunas para dar cuerpo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Terminar con garam masala y chile opcional, ajustar densidad y sal y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_curry.html",
+      "label": "Cocinar curry",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_curry.md"
+    }
+  ],
+  "title": "Rajma masala de alubias rojas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

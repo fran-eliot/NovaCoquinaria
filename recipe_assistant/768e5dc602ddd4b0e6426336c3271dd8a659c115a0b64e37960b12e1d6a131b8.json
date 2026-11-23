@@ -1,0 +1,294 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 78,
+      "start_line": 15
+    },
+    "text": "\n# Bienmesabe canario de almendra y limón\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Formulación doméstica de referencia con los rasgos característicos de esta especialidad; no se presenta como única versión regional ni como receta personalmente probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 raciones pequeñas |\n| Tiempo orientativo | 35–45 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de almendras crudas peladas y molidas finas\n- 240 g de azúcar\n- 200 ml de agua potable\n- 4 yemas de huevo L\n- ralladura fina de un limón lavado\n- ½ cucharadita de canela molida\n- bizcocho horneado o helado para acompañar, opcional\n\n**Alérgenos:** Almendras y huevo; revisar acompañamientos por leche y gluten.\n\n## Elaboración\n\n1. Triturar las almendras peladas hasta obtener grano fino, evitando trabajar tanto que se conviertan en mantequilla.\n2. Preparar un almíbar calentando agua y azúcar hasta que el azúcar se disuelva y la mezcla hierva suavemente unos 3–5 minutos.\n3. Agregar las almendras molidas y cocinar a fuego bajo 5–8 minutos, removiendo hasta formar una pasta húmeda sin que se pegue.\n4. Retirar momentáneamente del fuego y dejar templar parte de la pasta. Batir las yemas en un cuenco limpio.\n5. Incorporar pequeñas cantidades de pasta templada a las yemas para igualar temperaturas y devolver todo al cazo.\n6. Cocinar suavemente sin dejar de remover hasta que la mezcla alcance temperatura segura de cocción de huevo (al menos 71 °C como referencia conservadora), espese y no queden yemas crudas.\n7. Incorporar ralladura de limón y canela, pasar a recipiente bajo y enfriar rápidamente antes de refrigerar.\n8. Servir frío en porciones pequeñas, solo o con bizcocho/helado opcional.\n\n## Puntos críticos\n\n- El bienmesabe es una crema densa de almendra y yemas: no debe tratarse como un bizcocho ni como una salsa salada.\n- Incorporar la pasta de almendra templada poco a poco a las yemas y cocinar removiendo sin ebullición violenta, comprobando que la mezcla con huevo alcance la referencia de cocción indicada en la elaboración.\n- Tras espesar, pasar la crema a un recipiente bajo, enfriar rápidamente y mantener refrigerada. Los acompañamientos opcionales tienen condiciones propias de conservación.\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Crema con grumos de yema | Pasta demasiado caliente al incorporar las yemas o calentamiento posterior excesivo | Igualar temperaturas gradualmente y cocinar removiendo a fuego suave |\n| Pasta excesivamente líquida | Almíbar poco reducido o falta de espesado con almendra | Comprobar la textura durante los pasos de almíbar y cocción, sin añadir más azúcar antes de probar |\n| Pasta demasiado espesa o que se pega | Reducción intensa o fuego alto | Mantener el fuego bajo y remover, registrando la textura para una futura comparación |\n| Dulzor intenso | Proporción de azúcar y almendra de esta fórmula | Valorar la primera preparación antes de reducir azúcar en una variante no probada |\n## Conservación\n\nEnfriar rápidamente el bienmesabe después de cocinar las yemas y conservarlo **tapado y refrigerado** por su contenido en huevo. Servir porciones pequeñas frías y devolver al frigorífico lo que no se consuma, evitando permanencias prolongadas a temperatura ambiente. Consumir pronto según la frescura de los ingredientes; si se sirve con helado, mantener este congelado hasta el servicio.\n## Relaciones dentro del SGCC\n\n- [Tarta de Santiago de almendra](./tarta_de_santiago_de_almendra.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar productos y cantidades reales, tiempos, puntos de cocción, textura y valoración. La ficha no sustituye versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35–45 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bienmesabe_canario_de_almendra_y_limon.html",
+  "id": "REC-494",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendras crudas peladas y molidas finas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almendras crudas peladas y molidas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almendras crudas peladas y molidas finas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de agua potable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas de huevo L",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 yemas de huevo L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 yemas de huevo L",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de un limón lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de un limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de un limón lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela molida",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "bizcocho horneado o helado para acompañar, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "bizcocho horneado o helado para acompañar, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "bizcocho horneado o helado para acompañar, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/bienmesabe_canario_de_almendra_y_limon.md",
+  "source_sha256": "fa182ac6258718081cb7148db3abf4fde35ce2d77f4c0db5d9dc87d70e8d70de",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Triturar las almendras peladas hasta obtener grano fino, evitando trabajar tanto que se conviertan en mantequilla."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Preparar un almíbar calentando agua y azúcar hasta que el azúcar se disuelva y la mezcla hierva suavemente unos 3–5 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Agregar las almendras molidas y cocinar a fuego bajo 5–8 minutos, removiendo hasta formar una pasta húmeda sin que se pegue."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Retirar momentáneamente del fuego y dejar templar parte de la pasta. Batir las yemas en un cuenco limpio."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Incorporar pequeñas cantidades de pasta templada a las yemas para igualar temperaturas y devolver todo al cazo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cocinar suavemente sin dejar de remover hasta que la mezcla alcance temperatura segura de cocción de huevo (al menos 71 °C como referencia conservadora), espese y no queden yemas crudas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Incorporar ralladura de limón y canela, pasar a recipiente bajo y enfriar rápidamente antes de refrigerar."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 8,
+      "text": "Servir frío en porciones pequeñas, solo o con bizcocho/helado opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Bienmesabe canario de almendra y limón",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 raciones pequeñas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

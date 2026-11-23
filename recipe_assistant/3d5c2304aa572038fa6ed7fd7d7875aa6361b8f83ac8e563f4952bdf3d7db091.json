@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Fabes con almejas a la asturiana\n\n## Origen y contexto\n\n**Región:** Asturias. Esta ficha recoge una formulación doméstica de referencia basada en los rasgos reconocibles de la especialidad, sin presentarse como versión única ni afirmar que haya sido probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 10–12 h remojo + 2–3 h cocción de fabes |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de fabes secas, preferiblemente de la Granja\n- 500 g de almejas vivas de origen autorizado\n- 180 g de cebolla\n- 2 dientes de ajo\n- 100 ml de vino blanco seco\n- 750–1100 ml de agua de cocción o caldo de pescado suave, ajustar\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 hoja de laurel\n- perejil y sal solo al final\n\n**Alérgenos:** Moluscos (almejas), pescado si se utiliza caldo; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Poner las fabes a remojo 10–12 horas en agua potable abundante, refrigeradas si la temperatura ambiente es elevada; escurrir y enjuagar.\n2. Poner las fabes en una cazuela ancha con cebolla entera, laurel y agua fría que las cubra unos centímetros; llevar lentamente al hervor.\n3. Espumar y cocer a hervor muy suave hasta que las fabes estén completamente tiernas, unas 2–3 horas orientativas, ajustando con agua caliente y moviendo la olla sin remover con cuchara.\n4. Lavar las almejas y descartar las rotas o las que no cierren al tocarlas estando vivas. Mantenerlas refrigeradas hasta su uso.\n5. Pochar ajo picado en aceite sin quemarlo; añadir vino blanco y dejar hervir unos minutos. Incorporar las almejas y tapar hasta que se abran completamente; desechar las que sigan cerradas.\n6. Colar cuidadosamente el líquido desprendido por las almejas y sumarlo a las fabes; incorporar también las almejas abiertas, sin sobrecocerlas.\n7. Dar un hervor suave de integración de 2–3 minutos, comprobar la sal, añadir perejil y servir caliente.\n\n## Puntos críticos\n\n- Las almejas se incorporan solo cuando las fabes están tiernas. No utilizar almejas rotas o que no se abran al cocinar; colar el jugo para evitar arena. El caldo de pescado comercial puede aportar sal.\n- Adaptar tiempos y cantidades a los ingredientes utilizados; seguir el etiquetado comercial, respetar cadena de frío y comprobar la cocción completa de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste siguiente |\n|---|---|---|\n| Textura demasiado firme | Falta de cocción o piezas grandes | Prolongar a calor suave y comprobar el interior |\n| Preparación aguada | Exceso de líquido o reducción insuficiente | Ajustar cantidad o reducir de forma controlada |\n| Sabor desequilibrado | Sal o condimentos concentrados | Ajustar después de probar y registrar proporciones |\n\n## Conservación\n\nConsumir preferiblemente recién hecho. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Las preparaciones con carne, almejas, huevos y lácteos requieren cadena de frío y manipulación higiénica; recalentar completamente las porciones destinadas a servicio caliente. No mantener alimentos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Fabada asturiana](./fabada_asturiana_con_compango.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos reales, materia prima, tiempos, puntos de cocción y valoración. Ninguna ficha reemplaza recetas anteriores ni declara una mejora no verificada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "10–12 h remojo + 2–3 h cocción de fabes",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/fabes_con_almejas_a_la_asturiana.html",
+  "id": "REC-478",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fabes secas, preferiblemente de la Granja",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de fabes secas, preferiblemente de la Granja",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de fabes secas, preferiblemente de la Granja",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "almejas vivas de origen autorizado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de almejas vivas de origen autorizado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de almejas vivas de origen autorizado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción o caldo de pescado suave, ajustar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1100",
+        "min": "750",
+        "raw": "750–1100 ml de agua de cocción o caldo de pescado suave, ajustar",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "750–1100 ml de agua de cocción o caldo de pescado suave, ajustar",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil y sal solo al final",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil y sal solo al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil y sal solo al final",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/fabes_con_almejas_a_la_asturiana.md",
+  "source_sha256": "50758eace2c4a32224f73cccb3f55d8d86449c80a5a9dc82f7138544037eec0b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Poner las fabes a remojo 10–12 horas en agua potable abundante, refrigeradas si la temperatura ambiente es elevada; escurrir y enjuagar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Poner las fabes en una cazuela ancha con cebolla entera, laurel y agua fría que las cubra unos centímetros; llevar lentamente al hervor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Espumar y cocer a hervor muy suave hasta que las fabes estén completamente tiernas, unas 2–3 horas orientativas, ajustando con agua caliente y moviendo la olla sin remover con cuchara."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Lavar las almejas y descartar las rotas o las que no cierren al tocarlas estando vivas. Mantenerlas refrigeradas hasta su uso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Pochar ajo picado en aceite sin quemarlo; añadir vino blanco y dejar hervir unos minutos. Incorporar las almejas y tapar hasta que se abran completamente; desechar las que sigan cerradas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Colar cuidadosamente el líquido desprendido por las almejas y sumarlo a las fabes; incorporar también las almejas abiertas, sin sobrecocerlas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 7,
+      "text": "Dar un hervor suave de integración de 2–3 minutos, comprobar la sal, añadir perejil y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Fabes con almejas a la asturiana",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

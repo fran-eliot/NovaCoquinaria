@@ -1,0 +1,342 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 13
+    },
+    "text": "\n# Verduras asadas con garbanzos y comino\n\n## Descripción\n\nBandeja vegetal con garbanzos cocidos y especias, con contraste entre verduras tiernas y bordes tostados.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 15 min |\n| Horneado | 30–40 min |\n\n## Ingredientes\n\n- 400 g de garbanzos cocidos y escurridos;\n- 1 calabacín mediano;\n- 1 pimiento rojo;\n- 1 cebolla;\n- 1 zanahoria;\n- 3 cucharadas de aceite de oliva;\n- 1 cucharadita de comino molido;\n- 1/2 cucharadita de pimentón dulce;\n- zumo de medio limón;\n- pimienta y sal moderada.\n\n## Elaboración\n\n1. Precalentar horno a **205 °C**.\n2. Lavar y cortar verduras en trozos uniformes; secar los garbanzos.\n3. Mezclar verduras con aceite, comino, pimentón y pimienta.\n4. Repartir en bandeja amplia, sin amontonar, y hornear **15 minutos**.\n5. Incorporar garbanzos, remover y hornear **15–25 minutos más**, hasta que las verduras estén tiernas y los garbanzos ligeramente tostados.\n6. Ajustar sal y añadir limón al servir.\n\n## Puntos críticos\n\n- Escurrir y secar garbanzos para favorecer el dorado.\n- El exceso de ingredientes en una bandeja genera vapor.\n- Añadir limón al final conserva frescura.\n- Si se usan garbanzos secos, deben cocinarse completamente antes de entrar en esta receta.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Aguadas | Bandeja saturada | Dividir en dos |\n| Garbanzos secos | Horneado excesivo | Añadir más tarde |\n| Verdura dura | Trozos grandes | Cortar más pequeños |\n\n## Relaciones\n\n- [Asar y gratinar](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> Los garbanzos ya cocidos necesitan tostarse, no volver a cocerse desde cero."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "baking",
+      "raw": "30–40 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/verduras_asadas_con_garbanzos.html",
+  "id": "REC-0100",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de garbanzos cocidos y escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín mediano;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín mediano;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín mediano;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de medio limón;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de medio limón;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de medio limón;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/verduras_asadas_con_garbanzos.md",
+  "source_sha256": "1231cc6ab4e5db573cce4af0107add74b9e5e7aa6a64fb23fd56fdeecae69c60",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **205 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Lavar y cortar verduras en trozos uniformes; secar los garbanzos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Mezclar verduras con aceite, comino, pimentón y pimienta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Repartir en bandeja amplia, sin amontonar, y hornear **15 minutos**."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Incorporar garbanzos, remover y hornear **15–25 minutos más**, hasta que las verduras estén tiernas y los garbanzos ligeramente tostados."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Ajustar sal y añadir limón al servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Verduras asadas con garbanzos y comino",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

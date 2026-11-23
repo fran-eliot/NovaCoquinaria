@@ -1,0 +1,328 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Mapo tofu de inspiración Sichuán\n\n## Descripción\n\nPreparación de referencia de inspiración asiática centrada en **sofrito picante y tofu guisado con salsa ligada**. No consta que esta fórmula se haya elaborado ni valorado en casa. Las cantidades son una base de prueba y las adaptaciones de ingredientes se distinguen de las versiones tradicionales.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Sofrito picante y tofu guisado con salsa ligada |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de tofu firme en dados de 2 cm;\n- 180 g de carne picada de cerdo o ternera, opcional;\n- 2 dientes de ajo picados;\n- 15 g de jengibre picado;\n- 1–2 cucharaditas de pasta picante de habas fermentadas (doubanjiang) o chile y miso como adaptación;\n- 1 cucharada de soja clara;\n- 200 ml de caldo o agua;\n- 1 cucharadita de maicena disuelta en 2 cucharadas de agua fría;\n- 1 cucharada de aceite de cacahuete o neutro;\n- ¼ cucharadita de pimienta de Sichuán molida opcional;\n- cebollino para terminar opcional;\n\n**Alérgenos:** Soja; trigo según soja y pasta fermentada; habas según doubanjiang.\n\n## Elaboración\n\n1. Escurrir el tofu y cortar en dados iguales; mantener refrigerado hasta su uso.\n2. Calentar aceite en sartén profunda y dorar la carne picada si se usa; cocinarla completamente y desmenuzar.\n3. Añadir ajo, jengibre y doubanjiang; saltear 30–60 segundos, sin quemar el chile.\n4. Incorporar caldo o agua y soja, mezclando para disolver los condimentos.\n5. Añadir el tofu cuidadosamente y cocinar a hervor muy suave 5–7 minutos para impregnar sin romperlo.\n6. Agregar la maicena disuelta por pequeñas dosis, cocer 1–2 minutos para ligar y ajustar textura; terminar con pimienta de Sichuán opcional y cebollino.\n\n## Puntos críticos\n\n- El **doubanjiang** es pasta de habas fermentadas con chile: miso y chile constituyen una adaptación distinta. Probar la salinidad de los condimentos comerciales antes de corregir la salsa.\n- Mantener refrigerado el **tofu abierto** y, si se usa la carne picada opcional, conservarla separada y cocinarla completamente antes de incorporar el tofu.\n- Añadir el tofu con suavidad y evitar remover enérgicamente para conservar los dados; disolver la maicena en agua fría antes de incorporarla a la salsa.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Dados de tofu rotos | Hervor fuerte o remoción excesiva | Incorporar con cuidado y mantener hervor muy suave durante los 5–7 minutos previstos |\n| Salsa con grumos de almidón | Maicena añadida sin disolver o toda de golpe | Disolver primero en agua fría e incorporar gradualmente, cocinando 1–2 minutos |\n| Salsa demasiado salada o picante | Doubanjiang o salsa de soja comercial muy concentrados | Comprobar etiquetas y ajustar después de probar; distinguir la sustitución con miso y chile como variante |\n| Carne picada opcional sin cocción completa | Sofrito de carne demasiado breve antes de añadir la salsa | Cocinar completamente la carne por separado antes de incorporar condimentos y tofu |\n\n## Conservación\n\nMantener refrigerado el tofu y, si se utiliza, la carne picada cruda hasta su preparación. Enfriar pronto las sobras de mapo tofu en recipientes poco profundos y refrigerarlas tapadas; recalentar completamente las porciones, removiendo con cuidado para no romper el tofu. Respetar las indicaciones de conservación de la pasta fermentada y del tofu abierto. No aplicar precauciones de arroz cocido salvo que se sirva una guarnición de arroz.\n\n## Relaciones dentro del SGCC\n\n- [Tofu firme](../11_Despensa/02_Legumbres/tofu_firme.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, marca y concentración de salsas, tiempo, resultado y valoración antes de clasificar la receta como cocinada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/mapo_tofu_de_inspiracion_sichuan.html",
+  "id": "REC-274",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tofu firme en dados de 2 cm;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tofu firme en dados de 2 cm;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tofu firme en dados de 2 cm;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "carne picada de cerdo o ternera, opcional;",
+      "optionality": "optional",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de carne picada de cerdo o ternera, opcional;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de carne picada de cerdo o ternera, opcional;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre picado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre picado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre picado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pasta picante de habas fermentadas (doubanjiang) o chile y miso como adaptación;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de pasta picante de habas fermentadas (doubanjiang) o chile y miso como adaptación;",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de pasta picante de habas fermentadas (doubanjiang) o chile y miso como adaptación;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "soja clara;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de soja clara;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de soja clara;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo o agua;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 ml de caldo o agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "200 ml de caldo o agua;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena disuelta en 2 cucharadas de agua fría;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena disuelta en 2 cucharadas de agua fría;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena disuelta en 2 cucharadas de agua fría;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete o neutro;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de cacahuete o neutro;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de cacahuete o neutro;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta de Sichuán molida opcional;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "¼ cucharadita de pimienta de Sichuán molida opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "¼ cucharadita de pimienta de Sichuán molida opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "cebollino para terminar opcional;",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebollino para terminar opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebollino para terminar opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/mapo_tofu_de_inspiracion_sichuan.md",
+  "source_sha256": "59f23035a3de35786a92b5cd857b93cc0c2efaa91abc35627807b7085b8357cd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Escurrir el tofu y cortar en dados iguales; mantener refrigerado hasta su uso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Calentar aceite en sartén profunda y dorar la carne picada si se usa; cocinarla completamente y desmenuzar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir ajo, jengibre y doubanjiang; saltear 30–60 segundos, sin quemar el chile."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Incorporar caldo o agua y soja, mezclando para disolver los condimentos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Añadir el tofu cuidadosamente y cocinar a hervor muy suave 5–7 minutos para impregnar sin romperlo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Agregar la maicena disuelta por pequeñas dosis, cocer 1–2 minutos para ligar y ajustar textura; terminar con pimienta de Sichuán opcional y cebollino."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Mapo tofu de inspiración Sichuán",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

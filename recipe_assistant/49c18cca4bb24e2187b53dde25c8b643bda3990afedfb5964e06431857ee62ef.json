@@ -1,0 +1,240 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 105,
+      "start_line": 15
+    },
+    "text": "\n# Matcha latte frío\n\n## Descripción\n\nBebida fría de té verde matcha dispersado previamente en poca agua y mezclado con leche. La pasta inicial evita grumos de polvo y permite controlar la intensidad del té.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 1 vaso grande |\n| Preparación | 7–10 minutos |\n| Cocinado | Sin cocción directa |\n| Dificultad | Fácil |\n| Técnica principal | Dispersión de polvo fino y mezcla en frío |\n\n## Ingredientes\n\n- 2 g de té matcha de calidad alimentaria (aproximadamente 1 cucharadita rasa, según densidad)\n- 40 ml de agua potable a unos 70–80 °C\n- 180–220 ml de leche fría o bebida vegetal apta para consumo\n- 1 cucharadita de azúcar o sirope, opcional\n- hielo, al gusto\n\n**Alérgenos:** Leche si se emplea leche animal; revisar alérgenos de bebidas vegetales.\n\n## Mise en place\n\nTamizar el matcha en un cuenco para deshacer terrones. Preparar agua caliente que no esté hirviendo, leche fría y vaso limpio. El matcha contiene cafeína.\n\n## Elaboración\n\n### 1. Dispersar\n\nVerter poco a poco el agua caliente sobre el matcha tamizado. Batir enérgicamente con batidor de bambú o varillas pequeñas hasta que no queden grumos visibles.\n\n### 2. Endulzar\n\nDisolver azúcar o sirope opcional en la mezcla todavía templada.\n\n### 3. Enfriar parcialmente\n\nDejar perder el calor intenso unos minutos antes de ponerlo sobre el hielo para evitar dilución excesiva.\n\n### 4. Montar bebida\n\nColocar hielo en el vaso, añadir la leche fría y verter lentamente la mezcla de matcha. Remover antes de beber si se desea uniformidad.\n\n## Puntos críticos\n\n- El polvo añadido directamente a mucha leche fría forma grumos con facilidad.\n- El agua hirviendo puede acentuar el amargor y perjudicar el perfil delicado del matcha.\n- El matcha aporta cafeína; no se presenta como infusión libre de estimulantes.\n\n## Perfil esperado\n\nBebida verde, suave y cremosa, con notas vegetales de té y dulzor opcional.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Caliente | Calentar leche sin hervirla y mezclar con matcha dispersado |\n| Con avena | Usar bebida de avena y revisar alérgenos |\n| Más intenso | Aumentar matcha ligeramente sin incrementar azúcar automáticamente |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Grumos | Polvo sin dispersar | Tamizar y batir con poca agua primero |\n| Amargor excesivo | Agua demasiado caliente o dosis alta | Reducir temperatura y dosificar |\n| Muy aguado | Exceso de hielo derretido | Enfriar la mezcla antes del montaje |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n\n## Principio de NovaCoquinaria\n\n> La dispersión del matcha se resuelve en un volumen pequeño antes de diluirlo en leche.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para dispersión de polvo fino y mezcla en frío."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "7",
+      "phase": "preparation",
+      "raw": "7–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Sin cocción directa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/matcha_latte_frio.html",
+  "id": "REC-0149",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "té matcha de calidad alimentaria (aproximadamente 1 cucharadita rasa, según densidad)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": true,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de té matcha de calidad alimentaria (aproximadamente 1 cucharadita rasa, según densidad)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de té matcha de calidad alimentaria (aproximadamente 1 cucharadita rasa, según densidad)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable a unos 70–80 °C",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de agua potable a unos 70–80 °C",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de agua potable a unos 70–80 °C",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "leche fría o bebida vegetal apta para consumo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "180",
+        "raw": "180–220 ml de leche fría o bebida vegetal apta para consumo",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "180–220 ml de leche fría o bebida vegetal apta para consumo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o sirope, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de azúcar o sirope, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de azúcar o sirope, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo, al gusto",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo, al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "hielo, al gusto",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nTamizar el matcha en un cuenco para deshacer terrones. Preparar agua caliente que no esté hirviendo, leche fría y vaso limpio. El matcha contiene cafeína.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/matcha_latte_frio.md",
+  "source_sha256": "4e0d859f5084745ad9115db8ea18c28a2afd51c4262801041d6482dd2748b221",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Dispersar\n\nVerter poco a poco el agua caliente sobre el matcha tamizado. Batir enérgicamente con batidor de bambú o varillas pequeñas hasta que no queden grumos visibles.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Endulzar\n\nDisolver azúcar o sirope opcional en la mezcla todavía templada.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Enfriar parcialmente\n\nDejar perder el calor intenso unos minutos antes de ponerlo sobre el hielo para evitar dilución excesiva.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Montar bebida\n\nColocar hielo en el vaso, añadir la leche fría y verter lentamente la mezcla de matcha. Remover antes de beber si se desea uniformidad.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 96,
+        "start_line": 96
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Matcha latte frío",
+  "yield": {
+    "max": "1",
+    "min": "1",
+    "raw": "1 vaso grande",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "vaso"
+  }
+}

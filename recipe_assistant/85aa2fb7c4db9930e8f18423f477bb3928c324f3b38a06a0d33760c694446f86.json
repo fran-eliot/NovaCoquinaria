@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Fusilli con crema de pimientos asados y nueces\n\n## Descripción\n\nFórmula de referencia centrada en **triturado de hortaliza asada y emulsión de pasta**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Triturado de hortaliza asada y emulsión de pasta |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de fusilli secos\n- 320 g de pimiento rojo asado y pelado, bien escurrido\n- 50 g de nueces sin cáscara\n- 1 diente de ajo pequeño\n- 25 g de parmesano rallado, opcional\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de vinagre de vino blanco\n- 100–150 ml de agua de cocción de pasta, ajustables\n- sal y pimienta\n\n**Alérgenos:** Nueces (frutos de cáscara), gluten (trigo); leche si se usa parmesano.\n\n## Elaboración\n\n1. Si los pimientos son caseros, asarlos, pelarlos y escurrirlos por completo; si son en conserva, comprobar el contenido de sal y escurrir.\n2. Tostar ligeramente las nueces en sartén seca, retirar y dejar templar.\n3. Cocer los fusilli en agua hirviendo con sal siguiendo el paquete y reservar un vaso de agua de cocción.\n4. Triturar pimiento, nueces, ajo, aceite y vinagre con una parte pequeña del agua de cocción hasta obtener crema homogénea.\n5. Calentar la crema en sartén a fuego suave, incorporar la pasta escurrida y ajustar densidad con agua almidonada.\n6. Retirar del fuego antes de añadir parmesano opcional, mezclar y servir con pimienta.\n\n## Puntos críticos\n\n- El pimiento asado puede retener mucha agua; escurrirlo antes de triturar. Las nueces aportan cuerpo y un amargor que conviene equilibrar con acidez.\n- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.\n- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |\n| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |\n| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pimientos asados y aliñados](../04_Verduras/pimientos_asados_y_aliñados.md)\n- [Integrar salsas sensibles al calor](../00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **triturado de hortaliza asada y emulsión de pasta**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/fusilli_con_crema_de_pimientos_asados_y_nueces.html",
+  "id": "REC-368",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fusilli secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de fusilli secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de fusilli secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo asado y pelado, bien escurrido",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de pimiento rojo asado y pelado, bien escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de pimiento rojo asado y pelado, bien escurrido",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces sin cáscara",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de nueces sin cáscara",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de nueces sin cáscara",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "parmesano rallado, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de parmesano rallado, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de parmesano rallado, opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de pasta, ajustables",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 ml de agua de cocción de pasta, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–150 ml de agua de cocción de pasta, ajustables",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/fusilli_con_crema_de_pimientos_asados_y_nueces.md",
+  "source_sha256": "eabc7e295a8e1c1b22c9e2efd587db301c698f1e322c7313aadf53b6342ba75b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Si los pimientos son caseros, asarlos, pelarlos y escurrirlos por completo; si son en conserva, comprobar el contenido de sal y escurrir."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Tostar ligeramente las nueces en sartén seca, retirar y dejar templar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cocer los fusilli en agua hirviendo con sal siguiendo el paquete y reservar un vaso de agua de cocción."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Triturar pimiento, nueces, ajo, aceite y vinagre con una parte pequeña del agua de cocción hasta obtener crema homogénea."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Calentar la crema en sartén a fuego suave, incorporar la pasta escurrida y ajustar densidad con agua almidonada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Retirar del fuego antes de añadir parmesano opcional, mezclar y servir con pimienta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.html",
+      "label": "Integrar salsas sensibles al calor",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md"
+    }
+  ],
+  "title": "Fusilli con crema de pimientos asados y nueces",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

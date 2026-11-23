@@ -1,0 +1,290 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Bizcocho de plátano y nueces\n\n## Descripción\n\nElaboración de referencia que trabaja **aprovechamiento de fruta madura y horneado**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica | Aprovechamiento de fruta madura y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de plátano maduro pelado;\n- 200 g de harina de trigo;\n- 2 huevos L;\n- 95 g de azúcar;\n- 75 ml de aceite de oliva suave;\n- 70 g de nueces troceadas;\n- 8 g de impulsor químico;\n- ½ cucharadita de canela;\n- 1 pizca de sal;\n\n**Alérgenos:** Huevo, gluten (trigo), nueces (frutos de cáscara).\n\n## Elaboración\n\n1. Precalentar a 175 °C, calor arriba y abajo, y forrar un molde rectangular de unos 22 × 11 cm.\n2. Machacar los plátanos con tenedor hasta puré con pequeños trozos.\n3. Batir huevos y azúcar brevemente; incorporar aceite y puré de plátano.\n4. Mezclar harina, impulsor, canela y sal; añadir a los líquidos sin batir en exceso.\n5. Integrar las nueces y verter en el molde, nivelando la masa.\n6. Hornear unos 40–50 minutos hasta que la brocheta salga sin masa cruda; dejar templar 10 minutos y enfriar sobre rejilla.\n\n## Puntos críticos\n\n- El plátano cambia de dulzor y humedad según madurez; ajustar azúcar solo tras una prueba. Trocear nueces para repartirlas sin hundirlas demasiado.\n- Ajustar los tiempos al tamaño de las porciones, el material del molde y el funcionamiento real del horno o del equipo empleado.\n- Mantener una buena higiene con huevos y lácteos; comprobar el cuajado o cocción cuando corresponda.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Miga apelmazada o muy húmeda en el centro | Plátano con mucha humedad o cocción insuficiente en el molde | Verificar el centro antes de desmoldar; en otra prueba registrar madurez y peso neto de plátano, sin cambiar varios ingredientes a la vez |\n| Corteza oscura con centro aún crudo | Calor exterior intenso o molde con profundidad diferente | Proteger la superficie si se dora antes de que el centro esté cocido y ajustar el tiempo según el molde real |\n| Nueces concentradas en una zona | Reparto desigual al incorporar los trozos | Integrarlas de forma uniforme al final, sin prolongar el batido de la harina |\n| Dulzor excesivo | Madurez del plátano y azúcar añadido | Valorar primero el resultado real; considerar reducir azúcar **solo en una prueba posterior** |\n\n## Conservación\n\nDejar templar el bizcocho unos 10 minutos, desmoldar y enfriar sobre rejilla antes de envolverlo para evitar condensación. Por su contenido de fruta y humedad, conservarlo protegido, en un lugar fresco solo si las condiciones y el tiempo de consumo lo permiten; refrigerar si hace calor, hay humedad elevada o se retrasa el consumo, y desechar ante signos de deterioro. Si se añade una cobertura perecedera, adaptar la conservación a ella.\n\n## Relaciones dentro del SGCC\n\n- [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bizcocho_de_platano_y_nueces.html",
+  "id": "REC-0237",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "plátano maduro pelado;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de plátano maduro pelado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de plátano maduro pelado;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de harina de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de harina de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "95",
+        "min": "95",
+        "raw": "95 g de azúcar;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "95 g de azúcar;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 ml de aceite de oliva suave;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "75 ml de aceite de oliva suave;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces troceadas;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de nueces troceadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de nueces troceadas;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de impulsor químico;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de impulsor químico;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/bizcocho_de_platano_y_nueces.md",
+  "source_sha256": "a59b2a1a31afccba5f28d0ef844313ad2f99640793174eb22684bc64a12d0d83",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar a 175 °C, calor arriba y abajo, y forrar un molde rectangular de unos 22 × 11 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Machacar los plátanos con tenedor hasta puré con pequeños trozos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Batir huevos y azúcar brevemente; incorporar aceite y puré de plátano."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Mezclar harina, impulsor, canela y sal; añadir a los líquidos sin batir en exceso."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Integrar las nueces y verter en el molde, nivelando la masa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 40–50 minutos hasta que la brocheta salga sin masa cruda; dejar templar 10 minutos y enfriar sobre rejilla."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Bizcocho de plátano y nueces",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

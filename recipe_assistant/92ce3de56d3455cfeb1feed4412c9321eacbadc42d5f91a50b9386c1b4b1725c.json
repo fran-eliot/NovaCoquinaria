@@ -1,0 +1,389 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 136,
+      "start_line": 23
+    },
+    "text": "\n# Champiñones Sichuan\n\n## Descripción\n\nChampiñones salteados al wok con una salsa intensa de inspiración Sichuan.\n\nEs una receta rápida, sabrosa y muy adecuada como guarnición o plato ligero.\n\n---\n\n# Ingredientes\n\n## Base\n\n* 300 g de champiñones.\n* 1 diente de ajo.\n* Aceite para saltear.\n\n## Salsa\n\n* 1 cucharada de salsa de soja.\n* 1 cucharadita de vinagre negro chino.\n* 1 cucharadita de mirin o azúcar.\n* Chile al gusto.\n* Unas gotas de aceite de sésamo al final.\n\nOpcional:\n\n* salsa de ostras;\n* pimienta de Sichuan;\n* cebollino.\n\n---\n\n# Mise en place\n\nAntes de comenzar:\n\n* limpiar y cortar los champiñones;\n* picar el ajo;\n* preparar la salsa;\n* calentar bien el wok o sartén.\n\n---\n\n# Elaboración\n\n1. Calentar el wok o sartén.\n2. Añadir aceite y saltear los champiñones a fuego alto.\n3. Cocinar hasta que pierdan parte de su agua y empiecen a dorarse.\n4. Añadir el ajo y saltear brevemente.\n5. Incorporar la salsa.\n6. Reducir 30–60 segundos.\n7. Finalizar con aceite de sésamo.\n8. Servir inmediatamente.\n\n---\n\n# Variantes\n\nPuede prepararse con:\n\n* setas shiitake;\n* portobello;\n* mezcla de setas;\n* tofu;\n* brócoli.\n\n---\n\n# Presentación\n\nServir como:\n\n* guarnición;\n* tapa asiática;\n* acompañamiento de arroz;\n* parte de un menú con varios platos.\n\n---\n\n# Conservación\n\nMejor consumir recién hecho.\n\nPuede conservarse 1–2 días en refrigeración, aunque perderá textura.\n\n---\n\n# Referencias\n\n## Técnicas\n\n* [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n* [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n* [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Plantillas\n\n* [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n* [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)\n\n## Ingredientes\n\n* [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n* [Vinagre negro chino](../11_Despensa/11_Condimentos/vinagre_negro_chino.md)\n* [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n\n---\n\n# Principio de NovaCoquinaria\n\n> Las setas necesitan espacio y calor alto; si se amontonan, se cuecen en lugar de saltearse."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 10,
+        "start_line": 10
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 11,
+        "start_line": 11
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "04_Verduras/champi%C3%B1ones_sichuan.html",
+  "id": "REC-0010",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Base",
+      "name": "champiñones.",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de champiñones.",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de champiñones.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": "Base",
+      "name": "ajo.",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo.",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": "Base",
+      "name": "Aceite para saltear.",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Aceite para saltear.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Aceite para saltear.",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "salsa de soja.",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de soja.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de soja.",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "vinagre negro chino.",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre negro chino.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre negro chino.",
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "mirin o azúcar.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mirin o azúcar.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mirin o azúcar.",
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "Chile al gusto.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Chile al gusto.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Chile al gusto.",
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "Unas gotas de aceite de sésamo al final.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Unas gotas de aceite de sésamo al final.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Unas gotas de aceite de sésamo al final.",
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "salsa de ostras;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "salsa de ostras;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "salsa de ostras;",
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "pimienta de Sichuan;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta de Sichuan;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta de Sichuan;",
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "cebollino.",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebollino.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebollino.",
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nAntes de comenzar:\n\n* limpiar y cortar los champiñones;\n* picar el ajo;\n* preparar la salsa;\n* calentar bien el wok o sartén.\n\n---\n",
+      "heading": "Mise en place",
+      "level": 1,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 58
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/champiñones_sichuan.md",
+  "source_sha256": "c4927ea0a6ca87f2f3a0b3f0ad73dc5027751f31b1d47ab81407fb0e407f9cb4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_number": 1,
+      "text": "Calentar el wok o sartén."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_number": 2,
+      "text": "Añadir aceite y saltear los champiñones a fuego alto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_number": 3,
+      "text": "Cocinar hasta que pierdan parte de su agua y empiecen a dorarse."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_number": 4,
+      "text": "Añadir el ajo y saltear brevemente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_number": 5,
+      "text": "Incorporar la salsa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_number": 6,
+      "text": "Reducir 30–60 segundos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_number": 7,
+      "text": "Finalizar con aceite de sésamo."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_number": 8,
+      "text": "Servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 118,
+        "start_line": 118
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 119,
+        "start_line": 119
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    }
+  ],
+  "title": "Champiñones Sichuan",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "frontmatter",
+    "source_location": {
+      "end_line": 12,
+      "start_line": 12
+    },
+    "unit": "racion"
+  }
+}

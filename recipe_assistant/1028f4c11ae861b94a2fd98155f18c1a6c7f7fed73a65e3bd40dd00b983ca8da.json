@@ -1,0 +1,350 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Carbayones de Oviedo de hojaldre, almendra y yema\n\n## Origen y contexto\n\n**Región:** Oviedo, Asturias. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 10–12 unidades |\n| Tiempo orientativo | 70–100 min más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 320 g de hojaldre comercial refrigerado\n- 150 g de almendra molida\n- 140 g de azúcar para el relleno\n- 2 huevos M\n- 1 yema adicional para relleno\n- ralladura de 1 limón lavado\n- 65 ml de agua y 80 g de azúcar para la crema de yema\n- 3 yemas pasteurizadas para la crema de yema\n- 100 g de azúcar glas y 18–25 ml de agua para glaseado blanco\n- mantequilla o aceite neutro para moldes\n\n**Alérgenos:** Trigo/gluten, almendra, huevo; posibles lácteos en el hojaldre comercial.\n\n## Elaboración\n\n1. Precalentar el horno a 185 °C; forrar 10–12 moldes pequeños y alargados con hojaldre, sin estirar excesivamente la masa.\n2. Mezclar almendra molida, azúcar, dos huevos, la yema y ralladura hasta obtener un relleno espeso homogéneo.\n3. Rellenar los moldes sin llegar al borde y hornear 23–30 minutos, hasta que hojaldre y relleno estén hechos y levemente dorados. Dejar templar y desmoldar.\n4. Para la crema de yema, calentar 80 g de azúcar con 65 ml de agua hasta disolución; dejar templar. Batir las tres yemas pasteurizadas y agregar el almíbar poco a poco, removiendo.\n5. Cocinar la crema a fuego muy suave, removiendo continuamente, hasta espesar y alcanzar al menos 75 °C; retirar inmediatamente para evitar que cuaje en grumos.\n6. Cubrir la superficie de cada pastel frío con una capa fina de crema de yema cocida y refrigerar hasta que tome cuerpo.\n7. Mezclar azúcar glas y pequeñas cantidades de agua para un glaseado espeso; extender una película superficial y dejar secar en frío antes de servir.\n\n## Puntos críticos\n\n- El carbayón combina hojaldre, relleno de almendra, cobertura de yema y acabado blanco; se diferencia de las casadielles de nuez.\n- La crema de yema debe cocinarse completamente y mantenerse refrigerada; no utilizar yema cruda como cobertura.\n- Esta versión usa glaseado de azúcar glas como simplificación doméstica, en lugar del baño tradicional de almíbar blanco.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Hojaldre húmedo | Relleno abundante o poco horno | Reducir cantidad y comprobar base |\n| Crema granulada | Exceso de calor | Cocinar suave removiendo y retirar al espesar |\n| Glaseado transparente | Demasiada agua | Añadir azúcar glas gradualmente |\n\n## Conservación\n\nConservar refrigerados a 4 °C o menos, cubiertos, y consumir en 24–48 horas; evitar dejarlos a temperatura ambiente durante largos periodos.\n\n## Relaciones dentro del SGCC\n\n- [Casadielles asturianas](../08_Postres/casadielles_asturianas_de_nueces_y_anis.md)\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://oviedo.vivirasturias.com/cocina-asturiana/i/60812244/fonts.googleapis.com)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "70–100 min más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Oviedo, Asturias. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/carbayones_de_oviedo_hojaldre_almendra_yema.html",
+  "id": "REC-542",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "hojaldre comercial refrigerado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de hojaldre comercial refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de hojaldre comercial refrigerado",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de almendra molida",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para el relleno",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de azúcar para el relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de azúcar para el relleno",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos M",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos M",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos M",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "yema adicional para relleno",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 yema adicional para relleno",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 yema adicional para relleno",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de 1 limón lavado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de 1 limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de 1 limón lavado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua y 80 g de azúcar para la crema de yema",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 ml de agua y 80 g de azúcar para la crema de yema",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "65 ml de agua y 80 g de azúcar para la crema de yema",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "yemas pasteurizadas para la crema de yema",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 yemas pasteurizadas para la crema de yema",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 yemas pasteurizadas para la crema de yema",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas y 18–25 ml de agua para glaseado blanco",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de azúcar glas y 18–25 ml de agua para glaseado blanco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de azúcar glas y 18–25 ml de agua para glaseado blanco",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla o aceite neutro para moldes",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "mantequilla o aceite neutro para moldes",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "mantequilla o aceite neutro para moldes",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/carbayones_de_oviedo_hojaldre_almendra_yema.md",
+  "source_sha256": "dfbb915e06a2eb3928f260d4726b92779345b75c905aa17774027abeed7c7a9d",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 185 °C; forrar 10–12 moldes pequeños y alargados con hojaldre, sin estirar excesivamente la masa."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Mezclar almendra molida, azúcar, dos huevos, la yema y ralladura hasta obtener un relleno espeso homogéneo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Rellenar los moldes sin llegar al borde y hornear 23–30 minutos, hasta que hojaldre y relleno estén hechos y levemente dorados. Dejar templar y desmoldar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Para la crema de yema, calentar 80 g de azúcar con 65 ml de agua hasta disolución; dejar templar. Batir las tres yemas pasteurizadas y agregar el almíbar poco a poco, removiendo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Cocinar la crema a fuego muy suave, removiendo continuamente, hasta espesar y alcanzar al menos 75 °C; retirar inmediatamente para evitar que cuaje en grumos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Cubrir la superficie de cada pastel frío con una capa fina de crema de yema cocida y refrigerar hasta que tome cuerpo."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Mezclar azúcar glas y pequeñas cantidades de agua para un glaseado espeso; extender una película superficial y dejar secar en frío antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Carbayones de Oviedo de hojaldre, almendra y yema",
+  "yield": {
+    "max": "12",
+    "min": "10",
+    "raw": "10–12 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

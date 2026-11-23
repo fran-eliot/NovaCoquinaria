@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Cazón en adobo gaditano frito\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 25–35 min activos más 4–8 h de adobo refrigerado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de cazón limpio y sin piel, cortado en dados\n- 130 ml de vinagre de vino blanco\n- 90 ml de agua potable\n- 4 dientes de ajo machacados\n- 2 hojas de laurel\n- 1 cucharadita de orégano seco (2 g)\n- 1 cucharadita de comino molido (2 g)\n- 1 cucharadita de pimentón dulce (3 g)\n- 100 g de harina de trigo o harina especial para fritura de pescado\n- 400–600 ml de aceite para freír, según sartén\n- sal\n\n**Alérgenos:** Pescado y trigo/gluten si se usa harina de trigo; posibles sulfitos del vinagre.\n\n## Elaboración\n\n1. Adquirir cazón fresco o descongelado en condiciones controladas, apto para consumo cocinado; comprobar que no quedan cartílagos o piel y mantenerlo refrigerado.\n2. Mezclar vinagre, agua, ajos, laurel, orégano, comino, pimentón y sal; colocar el pescado en recipiente alimentario no reactivo y cubrirlo con el adobo.\n3. Tapar y marinar en frigorífico a 4 °C o menos durante 4–8 horas, sin dejar el pescado fuera del frío.\n4. Escurrir muy bien el pescado, retirar ajos y laurel adheridos y secar suavemente con papel antes de enharinar; desechar el líquido de adobo usado.\n5. Pasar por una película fina de harina y sacudir el exceso.\n6. Freír en tandas pequeñas en aceite a unos 175–180 °C durante aproximadamente 3–5 minutos según tamaño, hasta dorado y pescado cocinado por completo (referencia conservadora 63 °C en el centro).\n7. Escurrir sobre rejilla o papel limpio y servir inmediatamente.\n\n## Puntos críticos\n\n- El cazón es un tiburón y puede acumular mercurio: evitarlo en embarazadas, lactantes y menores según recomendaciones sanitarias españolas; para otros consumidores conviene moderar frecuencia y porción.\n- El vinagre del adobo no cocina ni desinfecta por sí solo el pescado. Debe freírse completamente y manipularse con cadena de frío.\n- El cazón puede comercializarse bajo distintos nombres: comprobar especie, procedencia y etiquetado.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Cobertura blanda | Pescado húmedo o aceite frío | Secar y freír por tandas |\n| Excesiva acidez | Adobo largo o fuerte | Reducir tiempo en siguiente prueba |\n| Pescado seco | Exceso de fritura | Ajustar tamaño y tiempo |\n\n## Conservación\n\nConsumir preferiblemente recién frito. Refrigerar sobras sin demora a 4 °C o menos y consumir en 24 horas; no reutilizar adobo crudo.\n\n## Relaciones dentro del SGCC\n\n- [Rabas cántabras](../06_Pescados_y_Mariscos/rabas_cantabras_de_calamar_rebozado.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25–35 min activos más 4–8 h de adobo refrigerado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cádiz, Andalucía. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/cazon_en_adobo_gaditano_frito.html",
+  "id": "REC-541",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cazón limpio y sin piel, cortado en dados",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de cazón limpio y sin piel, cortado en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de cazón limpio y sin piel, cortado en dados",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 ml de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "130 ml de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 ml de agua potable",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "90 ml de agua potable",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo machacados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 dientes de ajo machacados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "4 dientes de ajo machacados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco (2 g)",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano seco (2 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano seco (2 g)",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido (2 g)",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de comino molido (2 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de comino molido (2 g)",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo o harina especial para fritura de pescado",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de harina de trigo o harina especial para fritura de pescado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de harina de trigo o harina especial para fritura de pescado",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír, según sartén",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "400",
+        "raw": "400–600 ml de aceite para freír, según sartén",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "400–600 ml de aceite para freír, según sartén",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/cazon_en_adobo_gaditano_frito.md",
+  "source_sha256": "ee8d54e3fa176621434065d3f54aa54530958c213fe2bb0ed74b4df92c8cbd77",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Adquirir cazón fresco o descongelado en condiciones controladas, apto para consumo cocinado; comprobar que no quedan cartílagos o piel y mantenerlo refrigerado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Mezclar vinagre, agua, ajos, laurel, orégano, comino, pimentón y sal; colocar el pescado en recipiente alimentario no reactivo y cubrirlo con el adobo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Tapar y marinar en frigorífico a 4 °C o menos durante 4–8 horas, sin dejar el pescado fuera del frío."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Escurrir muy bien el pescado, retirar ajos y laurel adheridos y secar suavemente con papel antes de enharinar; desechar el líquido de adobo usado."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Pasar por una película fina de harina y sacudir el exceso."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Freír en tandas pequeñas en aceite a unos 175–180 °C durante aproximadamente 3–5 minutos según tamaño, hasta dorado y pescado cocinado por completo (referencia conservadora 63 °C en el centro)."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Escurrir sobre rejilla o papel limpio y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Cazón en adobo gaditano frito",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Puerros braseados con miso y sésamo\n\n## Descripción\n\nPreparación de referencia basada en **dorado, braseado y glaseado de miso**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 como guarnición |\n| Técnica | Dorado, braseado y glaseado de miso |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 puerros medianos, unos 550 g limpios\n- 1 cucharada de aceite neutro\n- 120 ml de caldo vegetal bajo en sal\n- 20 g de miso claro\n- 1 cucharadita de mirin opcional\n- 1 cucharadita de semillas de sésamo tostado\n- pimienta blanca\n\n**Alérgenos:** Soja y sésamo; posible trigo o cebada según el miso, revisar etiqueta.\n\n## Elaboración\n\n1. Cortar las partes verdes demasiado duras, abrir ligeramente los puerros por arriba y lavarlos bien entre capas para retirar toda la tierra.\n2. Cortar cada puerro en dos o tres cilindros de tamaño similar y secar.\n3. Dorar en sartén ancha con aceite a fuego medio 3–4 minutos por lado sin quemar.\n4. Verter caldo, tapar y cocinar 10–15 minutos hasta que el centro de los puerros esté tierno.\n5. Diluir el miso con un poco del líquido de cocción templado y añadir al final junto con mirin opcional.\n6. Cocinar a calor bajo 1–2 minutos para glasear sin hervir intensamente; terminar con sésamo y pimienta.\n\n## Puntos críticos\n\n- El miso aporta sal y puede perder aroma con ebullición prolongada. El puerro contiene tierra entre capas y requiere lavado minucioso.\n- Los tiempos se ajustan al grosor de la hortaliza, recipiente y equipo. Evitar dar por concluida la cocción únicamente por el dorado superficial.\n- Manipular las hortalizas con higiene y mantener refrigerados los productos perecederos y los platos que se sirvan fríos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Verdura acuosa | Lavado sin secar o exceso de líquido | Escurrir, secar o reducir antes de servir |\n| Exterior oscuro y centro duro | Calor demasiado fuerte o corte desigual | Igualar tamaños y ajustar calor |\n| Salsa separada o desequilibrada | Calor alto o salinidad acumulada | Integrar los aliños al final y corregir tras probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos. Mantener frías las preparaciones con queso o lácteos y las ensaladas de hortalizas cortadas, sin dejarlas horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Puerros templados con vinagreta de mostaza](./puerros_templados_con_vinagreta_de_mostaza.md)\n- [Saltear verduras](../00_Bases/03_Tecnicas/saltear_verduras.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades realmente utilizadas, equipo, tiempos, textura y valoración. No se modifica ninguna receta anterior ni se afirma que esta propuesta haya sido cocinada."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **dorado, braseado y glaseado de miso**. No consta elaboración doméstica ni valoración de esta fórmula. Cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/puerros_braseados_con_miso_y_sesamo.html",
+  "id": "REC-403",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "puerros medianos, unos 550 g limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 puerros medianos, unos 550 g limpios",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 puerros medianos, unos 550 g limpios",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite neutro",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal bajo en sal",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de caldo vegetal bajo en sal",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de caldo vegetal bajo en sal",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "miso claro",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de miso claro",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de miso claro",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "mirin opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mirin opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mirin opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "semillas de sésamo tostado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de semillas de sésamo tostado",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de semillas de sésamo tostado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta blanca",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta blanca",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/puerros_braseados_con_miso_y_sesamo.md",
+  "source_sha256": "aa2c48081db96011dee8c16613a5963a258cb9df88fdf4dcf95edb44799d4407",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Cortar las partes verdes demasiado duras, abrir ligeramente los puerros por arriba y lavarlos bien entre capas para retirar toda la tierra."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Cortar cada puerro en dos o tres cilindros de tamaño similar y secar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Dorar en sartén ancha con aceite a fuego medio 3–4 minutos por lado sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Verter caldo, tapar y cocinar 10–15 minutos hasta que el centro de los puerros esté tierno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Diluir el miso con un poco del líquido de cocción templado y añadir al final junto con mirin opcional."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Cocinar a calor bajo 1–2 minutos para glasear sin hervir intensamente; terminar con sésamo y pimienta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_verduras.html",
+      "label": "Saltear verduras",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_verduras.md"
+    }
+  ],
+  "title": "Puerros braseados con miso y sésamo",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

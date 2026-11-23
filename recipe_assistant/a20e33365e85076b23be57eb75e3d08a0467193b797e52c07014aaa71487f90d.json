@@ -1,0 +1,362 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 119,
+      "start_line": 15
+    },
+    "text": "\n# Arroz meloso de bacalao y espinacas\n\n## Descripción\n\nArroz de grano redondo cocido en fumet suave, con espinacas y dados de bacalao desalado. El pescado se incorpora cerca del final para que conserve sus lascas, mientras se mantiene un fondo ligeramente ligado.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 25–30 minutos |\n| Dificultad | Media |\n| Técnica principal | Sofrito, arroz meloso e incorporación final de pescado |\n\n## Ingredientes\n\n- 320 g de arroz redondo o Albufera\n- 450 g de bacalao desalado sin espinas, en trozos de unos 3 cm\n- 150 g de espinacas frescas o congeladas previamente descongeladas y escurridas\n- 1 cebolla mediana (130 g), picada\n- 1 tomate maduro (120 g), rallado\n- 2 dientes de ajo picados\n- 3 cucharadas de aceite de oliva virgen extra\n- 950–1100 ml de fumet de pescado caliente, ajustable\n- 1/2 cucharadita de pimentón dulce\n- sal solo después de probar el bacalao y el fumet\n- perejil fresco opcional\n\n**Alérgenos:** Pescado (bacalao y fumet). Comprobar otros alérgenos del fondo comercial.\n\n## Mise en place\n\nConfirmar que el bacalao está correctamente desalado mediante un proceso refrigerado y revisar espinas. Si está congelado, descongelar en refrigeración. Preparar el fumet caliente y escurrir bien las espinacas.\n\n## Elaboración\n\n### 1. Sofreír\n\nPochar cebolla en aceite durante 6–8 minutos. Incorporar ajo y tomate rallado, reducir 4–5 minutos.\n\n### 2. Aromatizar\n\nApartar unos segundos del calor, añadir pimentón y remover; mojar enseguida con un poco de fumet para impedir que se queme.\n\n### 3. Cocer arroz\n\nAñadir arroz y el grueso del fumet caliente. Mantener hervor moderado y comenzar a comprobar el punto a partir de 13–14 minutos, removiendo solo lo necesario para evitar que se agarre.\n\n### 4. Añadir espinacas y bacalao\n\nCuando falten aproximadamente 5–7 minutos para terminar el arroz, incorporar espinacas escurridas y dados de bacalao; cocer a hervor suave hasta que el pescado esté completamente hecho y alcance 63 °C en el centro si se comprueba con termómetro.\n\n### 5. Ajustar la textura\n\nAñadir fumet caliente para obtener un arroz meloso sin caldo excesivo; probar la sal únicamente después de incorporar el bacalao. Reposar muy brevemente y servir.\n\n## Puntos críticos\n\n- El pescado desalado y el fumet pueden conservar sal suficiente para sazonar el plato.\n- La merma de fumet depende de la cazuela y del tipo de arroz.\n- El bacalao se rompe al remover fuerte y se endurece si se cocina mucho tiempo.\n- Si se usan espinacas congeladas, escurrirlas evita aguar el caldo.\n\n## Perfil esperado\n\nArroz húmedo y ligeramente ligado, con espinacas integradas y bacalao jugoso en lascas reconocibles.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con guisantes | Añadir 100 g durante la última fase. |\n| Con merluza | Sustituir por trozos sin espinas y ajustar tiempo según grosor. |\n| Sin tomate | Sustituir por puerro pochado para una base más suave. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Bacalao reseco | Pescado añadido al principio | Incorporarlo al final |\n| Arroz caldoso en exceso | Fumet añadido sin controlar reducción | Añadir líquido por tandas |\n| Sal excesiva | Desalado insuficiente o fumet salado | Probar ingredientes antes de corregir |\n\n## Conservación\n\nEnfriar rápidamente en recipientes poco profundos y refrigerar sin demora. Consumir pronto; recalentar completamente solo cuando corresponda. Ni el arroz ni el pescado deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Bacalao](../11_Despensa/04_Pescados/bacalao.md)\n- [Espinacas](../11_Despensa/06_Verduras/espinacas.md)\n- [Fumet de pescado](../11_Despensa/13_Bases_Culinarias/fumet_de_pescado.md)\n- [Controlar arroz meloso y caldoso](../00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md)\n- [Desalar bacalao](../00_Bases/03_Tecnicas/desalar_bacalao.md)\n\n## Principio de NovaCoquinaria\n\n> El arroz absorbe el fondo durante toda la cocción; el bacalao solo necesita entrar a tiempo para cocinarse sin perder sus lascas.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Arroces."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "30",
+      "min": "25",
+      "phase": "cooking",
+      "raw": "25–30 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_meloso_de_bacalao_y_espinacas.html",
+  "id": "REC-0179",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo o Albufera",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo o Albufera",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo o Albufera",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado sin espinas, en trozos de unos 3 cm",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de bacalao desalado sin espinas, en trozos de unos 3 cm",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de bacalao desalado sin espinas, en trozos de unos 3 cm",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o congeladas previamente descongeladas y escurridas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de espinacas frescas o congeladas previamente descongeladas y escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de espinacas frescas o congeladas previamente descongeladas y escurridas",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana (130 g), picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana (130 g), picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana (130 g), picada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro (120 g), rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tomate maduro (120 g), rallado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tomate maduro (120 g), rallado",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado caliente, ajustable",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1100",
+        "min": "950",
+        "raw": "950–1100 ml de fumet de pescado caliente, ajustable",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "950–1100 ml de fumet de pescado caliente, ajustable",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo después de probar el bacalao y el fumet",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo después de probar el bacalao y el fumet",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo después de probar el bacalao y el fumet",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco opcional",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco opcional",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nConfirmar que el bacalao está correctamente desalado mediante un proceso refrigerado y revisar espinas. Si está congelado, descongelar en refrigeración. Preparar el fumet caliente y escurrir bien las espinacas.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_meloso_de_bacalao_y_espinacas.md",
+  "source_sha256": "d0aafc2e3c13d70a671b92124ee5ab44a24c409e49ac721279e18eea71fa69e2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Sofreír\n\nPochar cebolla en aceite durante 6–8 minutos. Incorporar ajo y tomate rallado, reducir 4–5 minutos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar\n\nApartar unos segundos del calor, añadir pimentón y remover; mojar enseguida con un poco de fumet para impedir que se queme.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Cocer arroz\n\nAñadir arroz y el grueso del fumet caliente. Mantener hervor moderado y comenzar a comprobar el punto a partir de 13–14 minutos, removiendo solo lo necesario para evitar que se agarre.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Añadir espinacas y bacalao\n\nCuando falten aproximadamente 5–7 minutos para terminar el arroz, incorporar espinacas escurridas y dados de bacalao; cocer a hervor suave hasta que el pescado esté completamente hecho y alcance 63 °C en el centro si se comprueba con termómetro.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Ajustar la textura\n\nAñadir fumet caliente para obtener un arroz meloso sin caldo excesivo; probar la sal únicamente después de incorporar el bacalao. Reposar muy brevemente y servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.html",
+      "label": "Controlar arroz meloso y caldoso",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/controlar_arroz_meloso_y_caldoso.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/desalar_bacalao.html",
+      "label": "Desalar bacalao",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      },
+      "source_path": "00_Bases/03_Tecnicas/desalar_bacalao.md"
+    }
+  ],
+  "title": "Arroz meloso de bacalao y espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

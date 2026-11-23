@@ -1,0 +1,312 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Pollo vietnamita con lemongrass y salsa de pescado\n\n## Descripción\n\n**Perfil:** Vietnam, marinado aromático y salteado por tandas. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Tiempo orientativo | 35 min más marinado |\n| Estado | Propuesta pendiente de prueba |\n\n## Ingredientes\n\n- 500 g de contramuslo de pollo deshuesado en tiras\n- 2 tallos de lemongrass fresco, parte tierna picada muy fina\n- 2 dientes de ajo picados\n- 1½ cucharadas de salsa de pescado\n- 2 cucharaditas de azúcar\n- 1 cucharada de zumo de lima\n- 1½ cucharadas de aceite de cacahuete o neutro\n- 80 g de cebolla en tiras\n- cilantro fresco opcional para servir\n\n**Alérgenos:** Pescado; cacahuete si se usa su aceite; verificar condimentos comerciales.\n\n## Elaboración\n\n1. Retirar capas exteriores duras del lemongrass y picar solo el corazón tierno. Si se utiliza lemongrass seco, hidratar y ajustar la dosis en otra prueba.\n2. Mezclar lemongrass, ajo, salsa de pescado, azúcar y lima con el pollo en recipiente no reactivo; tapar y refrigerar 30–60 minutos.\n3. Escurrir ligeramente el exceso de marinada y preparar una sartén amplia con aceite caliente.\n4. Saltear el pollo por tandas para que dore sin soltar demasiada agua; añadir la cebolla y cocinar 3–4 minutos.\n5. Devolver todas las tandas a la sartén y cocinar hasta alcanzar 74 °C en el centro de los trozos más gruesos.\n6. Ajustar con unas gotas de lima y cilantro opcional fuera del fuego; servir con arroz cocido recién hecho si se desea.\n\n## Puntos críticos\n\n- La base fibrosa del lemongrass debe eliminarse o picarse muy fino. La marinada que ha tocado pollo crudo no se usa como salsa de mesa; preparar aparte una porción limpia si se desea glaseado.\n- Ajustar el calor y los tiempos al grosor y al equipo real; comprobar siempre la cocción completa de los ingredientes de origen animal.\n- Las salsas de soja, pescado y los fermentados comerciales pueden variar considerablemente en salinidad y alérgenos.\n\n## Diagnóstico\n\n| Resultado observado | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Tiras de pollo sin dorado y con exceso de líquido | Carne con marinada superficial abundante o sartén llena | Escurrir ligeramente y saltear por tandas pequeñas |\n| Trozos fibrosos de lemongrass | Capas exteriores duras o picado grueso | Emplear solo el corazón tierno y picarlo muy fino |\n| Pollo seco | Cocción prolongada tras alcanzar el punto seguro | Comprobar los 74 °C en la parte gruesa sin prolongar innecesariamente |\n| Sabor excesivamente salado | Salsa de pescado más concentrada de lo previsto | Registrar la marca y probar antes de modificar su cantidad en otra tanda |\n\n## Conservación\n\nMarinar el pollo **siempre refrigerado** y mantener separado el líquido que ha estado en contacto con carne cruda de cualquier aliño de servicio. Tras cocinar el pollo por completo, servirlo inmediatamente o enfriar pronto las sobras y refrigerarlas tapadas en recipientes poco profundos. Recalentar completamente las porciones destinadas a comer y consumir en un plazo corto. Si se sirve con arroz, conservar ese acompañamiento según las pautas específicas para arroz cocido.\n\n## Relaciones dentro del SGCC\n\n- [Lemongrass](../11_Despensa/08_Especias/lemongrass.md)\n- [Marinada asiática](../12_Plantillas/03_Marinadas/marinada_asiatica.md)\n- [Índice de Cocina Asiática](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades efectivas, producto, equipo, temperatura o tiempos, textura, ajustes y valoración. No se atribuye esta propuesta a experiencias domésticas anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "35 min más marinado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "**Perfil:** Vietnam, marinado aromático y salteado por tandas. Preparación de referencia que todavía **no consta como cocinada ni valorada en casa**. La fórmula y los tiempos quedan pendientes de contraste doméstico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Propuesta pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/pollo_vietnamita_con_lemongrass_y_salsa_de_pescado.html",
+  "id": "REC-351",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en tiras",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de contramuslo de pollo deshuesado en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de contramuslo de pollo deshuesado en tiras",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "tallos de lemongrass fresco, parte tierna picada muy fina",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 tallos de lemongrass fresco, parte tierna picada muy fina",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 tallos de lemongrass fresco, parte tierna picada muy fina",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1½ cucharadas de salsa de pescado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1½ cucharadas de salsa de pescado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de azúcar",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de lima",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de lima",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de cacahuete o neutro",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1½ cucharadas de aceite de cacahuete o neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1½ cucharadas de aceite de cacahuete o neutro",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en tiras",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla en tiras",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco opcional para servir",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cilantro fresco opcional para servir",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cilantro fresco opcional para servir",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/pollo_vietnamita_con_lemongrass_y_salsa_de_pescado.md",
+  "source_sha256": "530929c0629b61eff92895ccbe7a06fdcd9e124da3a637193b0736c59e7d0ddc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Retirar capas exteriores duras del lemongrass y picar solo el corazón tierno. Si se utiliza lemongrass seco, hidratar y ajustar la dosis en otra prueba."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar lemongrass, ajo, salsa de pescado, azúcar y lima con el pollo en recipiente no reactivo; tapar y refrigerar 30–60 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Escurrir ligeramente el exceso de marinada y preparar una sartén amplia con aceite caliente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Saltear el pollo por tandas para que dore sin soltar demasiada agua; añadir la cebolla y cocinar 3–4 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Devolver todas las tandas a la sartén y cocinar hasta alcanzar 74 °C en el centro de los trozos más gruesos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Ajustar con unas gotas de lima y cilantro opcional fuera del fuego; servir con arroz cocido recién hecho si se desea."
+    }
+  ],
+  "techniques": [],
+  "title": "Pollo vietnamita con lemongrass y salsa de pescado",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 64,
+      "start_line": 13
+    },
+    "text": "\n# Batido de plátano y cacao\n\n## Descripción\nBatido cremoso de plátano, leche y cacao puro, sin necesidad de azúcar añadido.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 5 min |\n| Técnica | Triturado |\n\n## Ingredientes\n- 2 plátanos maduros (unos 220 g pelados);\n- 350 ml de leche fría;\n- 2 cucharaditas de cacao puro sin azúcar;\n- canela, opcional;\n- 2–3 cubitos de hielo, opcionales.\n\n**Alérgeno:** leche; comprobar posibles trazas del cacao.\n\n## Elaboración\n1. Pelar y trocear plátanos.\n2. Poner leche, plátano y cacao en batidora.\n3. Triturar 30–45 segundos hasta obtener textura uniforme.\n4. Probar; ajustar espesor con leche y aroma con canela.\n5. Servir inmediatamente.\n\n## Variantes\n| Objetivo | Ajuste |\n|---|---|\n| Más espeso | Usar plátano previamente congelado en trozos |\n| Sin lactosa | Leche sin lactosa |\n| Vegetal | Bebida vegetal adecuada, revisando alérgenos |\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Muy espeso | Poco líquido | Añadir leche |\n| Poco dulce | Plátano verde | Usar fruta madura |\n| Grumos de cacao | Mezclado insuficiente | Triturar un poco más |\n\n## Conservación\nConsumir recién hecho. Si se guarda, refrigerar inmediatamente y consumir pronto; la fruta puede oscurecerse.\n\n## Relaciones\n- [Diagnóstico de bebidas: proporciones y textura de batidos](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Índice de bebidas](./README.md)\n\n## Principio de NovaCoquinaria\n> La madurez del plátano aporta dulzor y textura sin necesidad de añadir azúcar."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/batido_de_platano_y_cacao.html",
+  "id": "REC-0090",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "plátanos maduros (unos 220 g pelados);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 plátanos maduros (unos 220 g pelados);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 plátanos maduros (unos 220 g pelados);",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "leche fría;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 ml de leche fría;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "350 ml de leche fría;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro sin azúcar;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de cacao puro sin azúcar;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de cacao puro sin azúcar;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "canela, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "canela, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "canela, opcional;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "cubitos de hielo, opcionales.",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "2",
+        "raw": "2–3 cubitos de hielo, opcionales.",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "2–3 cubitos de hielo, opcionales.",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/batido_de_platano_y_cacao.md",
+  "source_sha256": "114b0579b8ad5dc4ce91d40e889312bc9af7f5f0242f9995c031d60fd2842b57",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      },
+      "source_number": 1,
+      "text": "Pelar y trocear plátanos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      },
+      "source_number": 2,
+      "text": "Poner leche, plátano y cacao en batidora."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 3,
+      "text": "Triturar 30–45 segundos hasta obtener textura uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 4,
+      "text": "Probar; ajustar espesor con leche y aroma con canela."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 5,
+      "text": "Servir inmediatamente."
+    }
+  ],
+  "techniques": [],
+  "title": "Batido de plátano y cacao",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

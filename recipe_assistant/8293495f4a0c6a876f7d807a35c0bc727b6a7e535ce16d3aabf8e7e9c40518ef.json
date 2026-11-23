@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 13
+    },
+    "text": "\n# Pollo asado con mostaza y miel\n\n## Descripción\n\nPollo al horno con glaseado de mostaza y miel, aplicado al final para evitar que los azúcares se quemen.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Preparación | 15 min |\n| Horneado | 35–50 min orientativos |\n\n## Ingredientes\n\n- 700–800 g de contramuslos de pollo deshuesados;\n- 2 cucharadas de mostaza;\n- 1 cucharada de miel;\n- 1 cucharada de aceite de oliva;\n- 1 cucharada de zumo de limón;\n- 1 diente de ajo picado;\n- pimienta y sal moderada.\n\n**Alérgeno:** mostaza; revisar etiquetas.\n\n## Elaboración\n\n1. Precalentar horno a **195 °C**.\n2. Mezclar mostaza, miel, aceite, limón y ajo.\n3. Reservar una parte de la salsa **antes de que entre en contacto con el pollo crudo**.\n4. Secar el pollo y untarlo con la parte restante de salsa; disponer en fuente.\n5. Hornear **25–35 minutos**, según grosor.\n6. Pincelar con la salsa reservada y continuar **8–12 minutos**, vigilando el dorado.\n7. Comprobar que la parte más gruesa alcance **74 °C** antes de servir.\n\n## Puntos críticos\n\n- La miel se quema si se expone demasiado tiempo a calor intenso.\n- No utilizar como salsa de mesa la mezcla que haya tocado pollo crudo.\n- El tiempo depende del grosor de los contramuslos.\n- Para piezas con hueso se necesita ajustar tiempo y comprobar temperatura.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Glaseado quemado | Aplicación demasiado temprana | Pincelar al final |\n| Pollo seco | Exceso de cocción | Medir temperatura |\n| Poco sabor | Salsa insuficiente | Ajustar mostaza y limón |\n\n## Relaciones\n\n- [Asar y gratinar](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> Un glaseado dulce se aplica al final para aportar sabor sin quemarse."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "50",
+      "min": "35",
+      "phase": "baking",
+      "raw": "35–50 min orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/pollo_asado_con_mostaza.html",
+  "id": "REC-0102",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "700",
+        "raw": "700–800 g de contramuslos de pollo deshuesados;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "700–800 g de contramuslos de pollo deshuesados;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de mostaza;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de mostaza;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "miel;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de miel;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de miel;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picado;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo picado;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo picado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pollo_asado_con_mostaza.md",
+  "source_sha256": "987e8e76b633403ab4fa32af7d966d4f40b9e831ff41625848ddd689278736d1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **195 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Mezclar mostaza, miel, aceite, limón y ajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Reservar una parte de la salsa **antes de que entre en contacto con el pollo crudo**."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Secar el pollo y untarlo con la parte restante de salsa; disponer en fuente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Hornear **25–35 minutos**, según grosor."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Pincelar con la salsa reservada y continuar **8–12 minutos**, vigilando el dorado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Comprobar que la parte más gruesa alcance **74 °C** antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Pollo asado con mostaza y miel",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

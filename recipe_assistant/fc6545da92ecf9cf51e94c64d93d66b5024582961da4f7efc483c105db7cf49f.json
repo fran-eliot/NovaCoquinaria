@@ -1,0 +1,339 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 15
+    },
+    "text": "\n# Caldero del Mar Menor con ñoras y pescado\n\n## Origen y contexto\n\n**Región:** Región de Murcia. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 75–90 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 360 g de arroz redondo de Calasparra o similar\n- 750 g de pescado de roca variado para elaborar caldo, limpio y apto para cocción\n- 650 g de mújol o dorada en rodajas, limpios y eviscerados\n- 3 ñoras secas sin semillas\n- 350 g de tomate maduro rallado\n- 5 dientes de ajo\n- 75 ml de aceite de oliva virgen extra\n- 1,5–1,8 l de agua potable para el caldo, ajustar tras colar\n- 1 manojo pequeño de perejil\n- sal; alioli comercial refrigerado, opcional\n\n**Alérgenos:** Pescado; huevo y ajo si el alioli contiene huevo, revisar su etiqueta.\n\n## Elaboración\n\n1. Mantener el pescado frío hasta utilizar. Comprobar limpieza, escamas y vísceras; elaborar un caldo con el pescado de roca y agua potable durante 25–30 minutos de hervor suave, espumando si hace falta.\n2. Calentar el aceite en una cazuela ancha, freír las ñoras brevemente sin quemarlas y retirarlas; dorar ligeramente dos ajos.\n3. Majar las ñoras con los ajos y el perejil; agregar el tomate rallado a la cazuela y cocinar 10–12 minutos hasta reducir.\n4. Añadir el majado al tomate, cubrir con el caldo de pescado filtrado y mantener hervor suave 5 minutos.\n5. Cocer las rodajas del pescado de servicio en el caldo aromatizado hasta que estén hechas (referencia conservadora 63 °C en el centro); retirarlas con cuidado y mantenerlas calientes para servir aparte.\n6. Medir 1–1,2 l del caldo aromatizado, completar con agua o caldo caliente si fuese necesario; añadir el arroz y cocer unos 16–20 minutos según variedad, removiendo ocasionalmente para textura melosa.\n7. Reposar brevemente, rectificar sal y servir el arroz con pescado aparte y alioli comercial opcional.\n\n## Puntos críticos\n\n- La ñora no debe quemarse: su amargor domina el caldo.\n- El caldero combina un arroz intensamente aromatizado y pescado que tradicionalmente se sirve aparte; no es lo mismo que el arroz a banda alicantino.\n- El tiempo y volumen de caldo deben adaptarse a la variedad de arroz; el alioli comercial se mantiene refrigerado y se sirve al final.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en la siguiente elaboración |\n|---|---|---|\n| Caldo amargo | Ñora quemada | Freír brevemente y controlar calor |\n| Arroz demasiado seco | Evaporación excesiva | Reservar caldo caliente y ajustar gradualmente |\n| Pescado deshecho | Cocción larga | Retirar al llegar al punto |\n\n## Conservación\n\nRefrigerar arroz y pescado en recipientes poco profundos sin demora a 4 °C o menos; consumir preferentemente dentro de 24 horas y recalentar completamente una sola vez. No dejar arroz cocido varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Arroz a banda alicantino](../01_Arroces/arroz_a_banda_alicantino_con_fumet_de_pescado.md)\n- [Preparar caldos](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md)\n- [Índice del módulo](./README.md)\n- [Referencia gastronómica externa](https://www.turismoregiondemurcia.es/sabores/receta/?post=36)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, tiempos, textura y valoración. Esta propuesta no sustituye recetas domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "90",
+      "min": "75",
+      "phase": "declared_total",
+      "raw": "75–90 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Región de Murcia. Formulación de referencia para cocina doméstica, basada en una tradición regional y pendiente de prueba. No se presenta como versión única ni como elaboración personal confirmada."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/caldero_del_mar_menor_con_noras_y_pescado.html",
+  "id": "REC-538",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo de Calasparra o similar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "360",
+        "min": "360",
+        "raw": "360 g de arroz redondo de Calasparra o similar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "360 g de arroz redondo de Calasparra o similar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pescado de roca variado para elaborar caldo, limpio y apto para cocción",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de pescado de roca variado para elaborar caldo, limpio y apto para cocción",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de pescado de roca variado para elaborar caldo, limpio y apto para cocción",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mújol o dorada en rodajas, limpios y eviscerados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de mújol o dorada en rodajas, limpios y eviscerados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de mújol o dorada en rodajas, limpios y eviscerados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ñoras secas sin semillas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 ñoras secas sin semillas",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 ñoras secas sin semillas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de tomate maduro rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de tomate maduro rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "5 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 ml de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "75 ml de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para el caldo, ajustar tras colar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1.8",
+        "min": "1.5",
+        "raw": "1,5–1,8 l de agua potable para el caldo, ajustar tras colar",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "1,5–1,8 l de agua potable para el caldo, ajustar tras colar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "manojo pequeño de perejil",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 manojo pequeño de perejil",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 manojo pequeño de perejil",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal; alioli comercial refrigerado, opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal; alioli comercial refrigerado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal; alioli comercial refrigerado, opcional",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/caldero_del_mar_menor_con_noras_y_pescado.md",
+  "source_sha256": "450f95c7c1878ca0921c00cb5572e6cfab9960c2898a4e3edca87198dce55b8e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Mantener el pescado frío hasta utilizar. Comprobar limpieza, escamas y vísceras; elaborar un caldo con el pescado de roca y agua potable durante 25–30 minutos de hervor suave, espumando si hace falta."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Calentar el aceite en una cazuela ancha, freír las ñoras brevemente sin quemarlas y retirarlas; dorar ligeramente dos ajos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Majar las ñoras con los ajos y el perejil; agregar el tomate rallado a la cazuela y cocinar 10–12 minutos hasta reducir."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Añadir el majado al tomate, cubrir con el caldo de pescado filtrado y mantener hervor suave 5 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Cocer las rodajas del pescado de servicio en el caldo aromatizado hasta que estén hechas (referencia conservadora 63 °C en el centro); retirarlas con cuidado y mantenerlas calientes para servir aparte."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Medir 1–1,2 l del caldo aromatizado, completar con agua o caldo caliente si fuese necesario; añadir el arroz y cocer unos 16–20 minutos según variedad, removiendo ocasionalmente para textura melosa."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Reposar brevemente, rectificar sal y servir el arroz con pescado aparte y alioli comercial opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.html",
+      "label": "Preparar caldos",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.md"
+    }
+  ],
+  "title": "Caldero del Mar Menor con ñoras y pescado",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Buñuelos valencianos de calabaza\n\n## Origen y contexto\n\n**Región:** Comunitat Valenciana. Formulación doméstica de referencia que distingue los rasgos propios del plato; no se declara receta probada, versión única ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–22 buñuelos |\n| Tiempo orientativo | 65–80 minutos más 1 hora de levado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de calabaza pelada sin semillas\n- 250 g de harina de trigo común\n- 100–140 ml de agua de cocción de calabaza, templada\n- 7 g de levadura seca de panadería\n- 30 g de azúcar para masa, opcional\n- 1 pizca de sal\n- aceite de girasol u oliva suave para freír\n- 60 g de azúcar adicional para rebozar, opcional\n\n**Alérgenos:** Gluten (trigo); revisar levadura y otros ingredientes comerciales.\n\n## Elaboración\n\n1. Cocer o asar la calabaza hasta que esté completamente tierna; escurrirla muy bien y triturar hasta obtener puré espeso. Dejar templar.\n2. Mezclar harina, levadura seca, sal, azúcar opcional y puré de calabaza, añadiendo agua templada gradualmente hasta obtener masa densa, pegajosa y aireable, pero no líquida.\n3. Cubrir el recipiente y dejar fermentar aproximadamente 45–75 minutos en lugar templado hasta que aumente de volumen; no dejar la masa con excesiva calor.\n4. Calentar aceite abundante a 170–175 °C, controlar temperatura y preparar una bandeja con rejilla para escurrir.\n5. Con manos ligeramente humedecidas en agua y utensilios adecuados, tomar pequeñas porciones de masa y formar un agujero central característico, si la textura lo permite.\n6. Freír pocas piezas por tanda, girándolas hasta que estén doradas por todas sus caras y el centro completamente cocido, unos 3–5 minutos según tamaño.\n7. Escurrir, espolvorear azúcar opcional y servir templados.\n\n## Puntos críticos\n\n- El agua de cocción se añade poco a poco porque la calabaza puede contener mucha humedad. Los buñuelos deben quedar hechos por dentro antes de dorarse demasiado; la levadura es de panadería, no impulsor químico.\n- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste de próxima prueba |\n|---|---|---|\n| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |\n| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |\n| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pestiños andaluces](./pestinos_andaluces_con_miel_y_ajonjoli.md)\n- [Freír en sartén con control de temperatura](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes y cantidades realmente utilizados, tiempos, textura, resultado y valoración. No se sustituye ninguna versión previa sin evidencia comparativa."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "65–80 minutos más 1 hora de levado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/bunuelos_valencianos_de_calabaza.html",
+  "id": "REC-507",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabaza pelada sin semillas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de calabaza pelada sin semillas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de calabaza pelada sin semillas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de calabaza, templada",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "100",
+        "raw": "100–140 ml de agua de cocción de calabaza, templada",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–140 ml de agua de cocción de calabaza, templada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura seca de panadería",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "7",
+        "min": "7",
+        "raw": "7 g de levadura seca de panadería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "7 g de levadura seca de panadería",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para masa, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de azúcar para masa, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de azúcar para masa, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de girasol u oliva suave para freír",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de girasol u oliva suave para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de girasol u oliva suave para freír",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar adicional para rebozar, opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de azúcar adicional para rebozar, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de azúcar adicional para rebozar, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/bunuelos_valencianos_de_calabaza.md",
+  "source_sha256": "758e96b01676d436af11d2e3dc0ef56de9363ff4ab888a2c6fa51c2cb90cb47f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer o asar la calabaza hasta que esté completamente tierna; escurrirla muy bien y triturar hasta obtener puré espeso. Dejar templar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar harina, levadura seca, sal, azúcar opcional y puré de calabaza, añadiendo agua templada gradualmente hasta obtener masa densa, pegajosa y aireable, pero no líquida."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Cubrir el recipiente y dejar fermentar aproximadamente 45–75 minutos en lugar templado hasta que aumente de volumen; no dejar la masa con excesiva calor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar aceite abundante a 170–175 °C, controlar temperatura y preparar una bandeja con rejilla para escurrir."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Con manos ligeramente humedecidas en agua y utensilios adecuados, tomar pequeñas porciones de masa y formar un agujero central característico, si la textura lo permite."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Freír pocas piezas por tanda, girándolas hasta que estén doradas por todas sus caras y el centro completamente cocido, unos 3–5 minutos según tamaño."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Escurrir, espolvorear azúcar opcional y servir templados."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén con control de temperatura",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Buñuelos valencianos de calabaza",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "18–22 buñuelos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Papas arrugadas con mojo picón rojo\n\n## Origen y contexto\n\n**Región:** Islas Canarias. Se documenta una preparación regional reconocible mediante una formulación doméstica de referencia, sin presentarla como la única versión tradicional ni atribuirla a una elaboración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones como guarnición |\n| Tiempo orientativo | 35–45 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de papas pequeñas de piel fina\n- 100–150 g de sal marina gruesa para el agua de cocción, no destinada a consumo directo\n- agua potable hasta casi cubrir las papas\n- 2 dientes de ajo\n- 1 pimienta picona pequeña o una pizca de chile, ajustable\n- 1 cucharadita de pimentón dulce\n- ½ cucharadita de comino molido\n- 70 ml de aceite de oliva\n- 25 ml de vinagre de vino\n- 1–2 cucharadas de agua para ajustar el mojo\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica; comprobar condimentos comerciales.\n\n## Elaboración\n\n1. Lavar a fondo las papas sin pelarlas, retirando tierra e imperfecciones.\n2. Colocarlas en una cazuela en una sola capa; añadir sal gruesa y agua hasta casi cubrir, sin exceso.\n3. Cocer tapadas unos 20–25 minutos, según calibre, hasta que el interior esté tierno al pinchar.\n4. Escurrir con cuidado toda el agua salada y volver a poner las papas en la cazuela seca a fuego bajo durante 3–5 minutos, moviendo la olla, hasta que la piel se arrugue y aparezca una película salina.\n5. Para el mojo, majar ajo con comino y pimienta picona; añadir pimentón y vinagre, e incorporar aceite poco a poco hasta ligar, ajustando con agua si hace falta.\n6. Servir las papas enteras con piel y mojo en un cuenco aparte; probar antes de añadir cualquier sal al mojo.\n\n## Puntos críticos\n\n- La sal de cocción se escurre y no debe trasladarse íntegramente al plato. El picante se ajusta a la variedad de pimienta; evitar añadir aceite sobre una sartén recalentada de papas.\n- Ajustar el tiempo y la cantidad de líquido al corte de ingrediente, equipo y tipo de producto. Mantener higiene, evitar contaminación cruzada y comprobar la cocción de los productos animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste en otra prueba |\n|---|---|---|\n| Preparación aguada | Humedad retenida o exceso de caldo | Escurrir o reducir con moderación |\n| Ingredientes demasiado firmes | Corte desigual o cocción insuficiente | Homogeneizar tamaños y comprobar el punto |\n| Sabor desequilibrado | Condimentos o concentración excesiva | Dosificar gradualmente y probar al final |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar las sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Los postres con lácteos, los platos con huevo, el pescado cocinado y las verduras cortadas requieren conservación apropiada y no deben permanecer durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Patatas a la riojana con chorizo](./patatas_a_la_riojana_con_chorizo.md)\n- [Reducir y ligar salsas](../00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia culinaria regional:** [Papas arrugadas y mojo (RTVE)](https://www.rtve.es/television/20240312/receta-para-hacer-unas-buenas-papas-arrugadas-con-mojo-picon/16009039.shtml)\n\n## Registro de prueba\n\nPendiente de anotar cantidades, productos y tiempos efectivos, punto de cocción, textura y valoración. Ninguna propuesta sustituye una versión doméstica previa sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "declared_total",
+      "raw": "35–45 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/papas_arrugadas_con_mojo_picon_rojo.html",
+  "id": "REC-426",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "papas pequeñas de piel fina",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de papas pequeñas de piel fina",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de papas pequeñas de piel fina",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "sal marina gruesa para el agua de cocción, no destinada a consumo directo",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 g de sal marina gruesa para el agua de cocción, no destinada a consumo directo",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "100–150 g de sal marina gruesa para el agua de cocción, no destinada a consumo directo",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable hasta casi cubrir las papas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable hasta casi cubrir las papas",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable hasta casi cubrir las papas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta picona pequeña o una pizca de chile, ajustable",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimienta picona pequeña o una pizca de chile, ajustable",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimienta picona pequeña o una pizca de chile, ajustable",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de vinagre de vino",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de vinagre de vino",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para ajustar el mojo",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de agua para ajustar el mojo",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de agua para ajustar el mojo",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/papas_arrugadas_con_mojo_picon_rojo.md",
+  "source_sha256": "de941bc59e34b9076cfc8f32443dca2154d696e6b0b532a7c6d62e345af346e3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Lavar a fondo las papas sin pelarlas, retirando tierra e imperfecciones."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Colocarlas en una cazuela en una sola capa; añadir sal gruesa y agua hasta casi cubrir, sin exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Cocer tapadas unos 20–25 minutos, según calibre, hasta que el interior esté tierno al pinchar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Escurrir con cuidado toda el agua salada y volver a poner las papas en la cazuela seca a fuego bajo durante 3–5 minutos, moviendo la olla, hasta que la piel se arrugue y aparezca una película salina."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Para el mojo, majar ajo con comino y pimienta picona; añadir pimentón y vinagre, e incorporar aceite poco a poco hasta ligar, ajustando con agua si hace falta."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Servir las papas enteras con piel y mojo en un cuenco aparte; probar antes de añadir cualquier sal al mojo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.html",
+      "label": "Reducir y ligar salsas",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/reducir_y_ligar_salsas.md"
+    }
+  ],
+  "title": "Papas arrugadas con mojo picón rojo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

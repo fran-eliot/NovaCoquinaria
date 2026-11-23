@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 89,
+      "start_line": 13
+    },
+    "text": "\n# Ternera salteada con brócoli\n\n## Descripción\n\nTiras de ternera con brócoli y salsa de soja, ajo y jengibre. Inspiración de salteados chino-estadounidenses, adaptada a una sartén doméstica.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 20 min |\n| Cocción | 12–18 min |\n| Técnica | Escaldado y salteado por tandas |\n\n## Ingredientes\n\n- 450 g de filetes de ternera tierna;\n- 400 g de brócoli;\n- 2 dientes de ajo;\n- 15 g de jengibre;\n- 2 cucharadas de salsa de soja;\n- 1 cucharada de salsa de ostras, opcional;\n- 100 ml de agua o caldo;\n- 1 cucharadita de maicena;\n- 2 cucharadas de aceite neutro.\n\n**Alérgenos:** soja y posible trigo; la salsa de ostras contiene moluscos y puede incluir otros alérgenos. Revisar etiquetado.\n\n## Elaboración\n\n1. Cortar la ternera en tiras finas, a contrapelo. Preparar utensilios separados para carne cruda.\n2. Cortar brócoli en floretes; escaldar 2–3 minutos en agua hirviendo, escurrir y secar.\n3. Mezclar soja, salsa de ostras opcional, agua y maicena en recipiente limpio.\n4. Calentar sartén amplia; saltear ternera en tandas hasta alcanzar el punto seguro correspondiente al producto y grosor; reservar en plato limpio.\n5. Saltear brócoli brevemente; añadir ajo y jengibre sin quemarlos.\n6. Devolver ternera, añadir salsa y remover hasta que espese y todos los ingredientes estén calientes y cocinados.\n7. Servir inmediatamente con arroz.\n\n## Puntos críticos\n\n- No saturar la sartén.\n- Escurrir bien el brócoli.\n- El tiempo de cocción depende del grosor de la carne.\n- No utilizar el color exterior como único criterio de seguridad.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con champiñones | Saltear por separado |\n| Sin salsa de ostras | Aumentar ligeramente soja y ajustar sabor |\n| Con chile | Añadir al final |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Ternera dura | Corte inadecuado o cocción excesiva | Elegir corte tierno y cortar a contrapelo |\n| Brócoli blando | Escaldado excesivo | Reducir tiempo |\n| Salsa grumosa | Maicena mal disuelta | Mezclar en frío |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar y recalentar completamente.\n\n## Relaciones dentro del SGCC\n\n- [Saltear en wok](../00_Bases/03_Tecnicas/saltear_en_wok.md)\n- [Ternera](../11_Despensa/03_Carnes/ternera.md)\n- [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n\n## Principio de NovaCoquinaria\n\n> Ternera y brócoli necesitan tiempos distintos; se integran solo al final."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "18",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–18 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/ternera_con_brocoli.html",
+  "id": "REC-0068",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de ternera tierna;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de filetes de ternera tierna;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de filetes de ternera tierna;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "brócoli;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de brócoli;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de brócoli;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 g de jengibre;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "15 g de jengibre;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de ostras, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de ostras, opcional;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de ostras, opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua o caldo;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua o caldo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro.",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro.",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/ternera_con_brocoli.md",
+  "source_sha256": "8ba8e85493bd10fa81b0280f97e0d734cbfa638477325c85b30fc5e5b505af56",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cortar la ternera en tiras finas, a contrapelo. Preparar utensilios separados para carne cruda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Cortar brócoli en floretes; escaldar 2–3 minutos en agua hirviendo, escurrir y secar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mezclar soja, salsa de ostras opcional, agua y maicena en recipiente limpio."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Calentar sartén amplia; saltear ternera en tandas hasta alcanzar el punto seguro correspondiente al producto y grosor; reservar en plato limpio."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Saltear brócoli brevemente; añadir ajo y jengibre sin quemarlos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Devolver ternera, añadir salsa y remover hasta que espese y todos los ingredientes estén calientes y cocinados."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Servir inmediatamente con arroz."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear_en_wok.html",
+      "label": "Saltear en wok",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear_en_wok.md"
+    }
+  ],
+  "title": "Ternera salteada con brócoli",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

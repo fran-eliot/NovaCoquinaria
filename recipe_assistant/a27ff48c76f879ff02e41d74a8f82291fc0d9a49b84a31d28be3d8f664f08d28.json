@@ -1,0 +1,332 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 15
+    },
+    "text": "\n# Empedrat catalán de alubias y bacalao\n\n## Origen y contexto\n\n**Región:** Cataluña. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como entrante |\n| Tiempo orientativo | 25–30 minutos, más desalado previo si corresponde |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de alubias blancas completamente cocidas y escurridas\n- 220 g de bacalao desalado y listo para cocinar\n- 240 g de tomate maduro en dados\n- 100 g de pimiento rojo en dados pequeños\n- 80 g de cebolla morada picada\n- 60 g de aceitunas negras sin hueso\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 cucharada de vinagre de vino blanco\n- perejil fresco, sal solo tras probar y pimienta\n\n**Alérgenos:** Pescado; comprobar aceitunas y vinagre comerciales por sulfitos.\n\n## Elaboración\n\n1. Si se utiliza bacalao en salazón, desalarlo en refrigeración según su grosor y las instrucciones del proveedor; retirar piel y espinas visibles.\n2. Para esta versión de consumo seguro, escalfar suavemente el bacalao desalado en agua hasta que esté completamente hecho (63 °C en el centro como referencia conservadora); escurrir, enfriar rápidamente y desmenuzar.\n3. Escurrir y enjuagar las alubias completamente cocidas; mantenerlas refrigeradas.\n4. Lavar tomate, pimiento y perejil; cortar tomate, pimiento y cebolla en dados pequeños y retirar huesos de aceitunas si los hubiera.\n5. Batir aceite, vinagre y pimienta para crear el aliño. Mezclar en recipiente limpio alubias, verduras, aceitunas y bacalao ya cocinado.\n6. Añadir la vinagreta y perejil, mezclar suavemente, probar antes de salar y mantener refrigerado hasta servir.\n\n## Puntos críticos\n\n- Hay empedrats que incorporan bacalao desalado sin cocción térmica. Esta propuesta lo escalfa para una preparación doméstica segura; no equiparar el desalado con una garantía de eliminación de anisakis. No confundir alubias cocidas con alubias crudas.\n- Verificar las instrucciones específicas de productos comerciales y la cocción de carnes, huevos, pescados y mariscos. Mantener higiene y cadena de frío en todos los productos perecederos.\n- La primera prueba debe registrar cantidad real de líquido, tiempos y textura antes de fijar ajustes de esta formulación.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente elaboración |\n|---|---|---|\n| Textura demasiado firme | Cocción insuficiente o corte desigual | Comprobar el interior y adaptar tiempo o grosor |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir sin perder jugos esenciales |\n| Sabor demasiado salado | Curados, fumet o adobos concentrados | Ajustar sal al final y probar previamente |\n\n## Conservación\n\nConsumir preferiblemente recién elaborado. Enfriar rápidamente las sobras y refrigerarlas sin demora en recipientes poco profundos. Las preparaciones con lácteos, huevo, pescados y carnes deben conservarse en frío; las raciones calientes se recalientan completamente cuando corresponda. No mantener alimentos perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Ensalada de alubias con atún](./ensalada_alubias_blancas_con_atun.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar cantidades utilizadas, presentación del ingrediente, cocción, textura, resultado y valoración. Esta ficha no sustituye formulaciones anteriores ni se considera una versión mejorada sin comparación real."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25–30 minutos, más desalado previo si corresponde",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cataluña. Se documenta una formulación doméstica de referencia con elementos característicos del plato, distinguiéndola de otras variantes locales. No consta elaboración ni valoración personal."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/empedrat_catalan_de_alubias_y_bacalao.html",
+  "id": "REC-456",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas completamente cocidas y escurridas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de alubias blancas completamente cocidas y escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de alubias blancas completamente cocidas y escurridas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "bacalao desalado y listo para cocinar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de bacalao desalado y listo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de bacalao desalado y listo para cocinar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate maduro en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de tomate maduro en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de tomate maduro en dados",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo en dados pequeños",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento rojo en dados pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento rojo en dados pequeños",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla morada picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de cebolla morada picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de cebolla morada picada",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras sin hueso",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de aceitunas negras sin hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de aceitunas negras sin hueso",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino blanco",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino blanco",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino blanco",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco, sal solo tras probar y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil fresco, sal solo tras probar y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil fresco, sal solo tras probar y pimienta",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/empedrat_catalan_de_alubias_y_bacalao.md",
+  "source_sha256": "6e1d7fb5cca01ccb74f09e74e6f97a1f203172f09f266713b83fbd3a2d45c663",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Si se utiliza bacalao en salazón, desalarlo en refrigeración según su grosor y las instrucciones del proveedor; retirar piel y espinas visibles."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Para esta versión de consumo seguro, escalfar suavemente el bacalao desalado en agua hasta que esté completamente hecho (63 °C en el centro como referencia conservadora); escurrir, enfriar rápidamente y desmenuzar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Escurrir y enjuagar las alubias completamente cocidas; mantenerlas refrigeradas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Lavar tomate, pimiento y perejil; cortar tomate, pimiento y cebolla en dados pequeños y retirar huesos de aceitunas si los hubiera."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Batir aceite, vinagre y pimienta para crear el aliño. Mezclar en recipiente limpio alubias, verduras, aceitunas y bacalao ya cocinado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 6,
+      "text": "Añadir la vinagreta y perejil, mezclar suavemente, probar antes de salar y mantener refrigerado hasta servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Empedrat catalán de alubias y bacalao",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como entrante",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

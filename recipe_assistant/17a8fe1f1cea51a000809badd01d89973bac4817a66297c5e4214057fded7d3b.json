@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 118,
+      "start_line": 15
+    },
+    "text": "\n# Pollo guisado con limón y aceitunas\n\n## Descripción\n\nContramuslos de pollo dorados y terminados en una salsa corta con cebolla, limón y aceitunas negras. Se busca equilibrar la acidez y salinidad sin reducir excesivamente el fondo.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 35–45 minutos |\n| Dificultad | Media |\n| Técnica principal | Dorado y cocción suave en fondo cítrico |\n\n## Ingredientes\n\n- 800–900 g de contramuslos de pollo deshuesados o con hueso, ajustando tiempos\n- 1 cebolla grande (180 g), en juliana\n- 2 dientes de ajo picados\n- 80 g de aceitunas negras sin hueso, escurridas\n- 1 limón lavado: 2 cucharadas de zumo y un poco de ralladura\n- 180–250 ml de caldo de pollo bajo en sal o agua\n- 3 cucharadas de aceite de oliva virgen extra\n- 1 hoja de laurel\n- 1/2 cucharadita de tomillo seco, opcional\n- sal moderada y pimienta negra\n\n**Alérgenos:** Revisar el caldo comercial y posibles ingredientes de las aceitunas preparadas.\n\n## Mise en place\n\nNo lavar el pollo crudo. Secar con papel desechable, preparar utensilios separados y tener termómetro alimentario. Escurrir aceitunas y lavar el limón antes de obtener la ralladura.\n\n## Elaboración\n\n### 1. Dorar el pollo\n\nCalentar aceite y dorar por tandas durante unos 3–4 minutos por cara, sin pretender completar la cocción. Retirar.\n\n### 2. Pochar cebolla\n\nBajar el fuego, añadir cebolla y cocinar 8–10 minutos. Incorporar ajo y tomillo opcional unos 30 segundos, evitando quemarlos.\n\n### 3. Construir salsa\n\nAñadir caldo y laurel, raspar el fondo y devolver el pollo. Tapar parcialmente y cocinar a hervor suave durante 15–25 minutos o hasta que la parte más gruesa alcance 74 °C.\n\n### 4. Añadir aceitunas\n\nIncorporar las aceitunas escurridas en los últimos 5 minutos y ajustar líquido para una salsa breve, sin concentrar demasiado la sal.\n\n### 5. Equilibrar y servir\n\nRetirar laurel; apagar el fuego y añadir zumo y ralladura de limón poco a poco. Probar antes de salar y servir con la salsa.\n\n## Puntos críticos\n\n- La seguridad del pollo se confirma con termómetro a 74 °C, no por color.\n- Las aceitunas y caldo pueden aportar suficiente sal; rectificar al final.\n- Añadir limón al final conserva frescura y evita que la salsa quede excesivamente ácida tras reducirse.\n- No dejar una olla grande de pollo cocinado enfriándose durante horas.\n\n## Perfil esperado\n\nPollo completamente cocinado y tierno, salsa brillante y suave con contrapunto salino de aceitunas y acidez de limón.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con pimiento | Pochar medio pimiento rojo con cebolla. |\n| Con alcaparras | Sustituir una parte de las aceitunas, ajustando sal. |\n| Sin aceitunas | Utilizar más cebolla y limón: será una salsa cítrica distinta. |\n\n## Errores frecuentes\n\n| Problema | Causa probable | Corrección |\n|---|---|---|\n| Pollo poco cocido | Tiempo insuficiente según grosor | Verificar 74 °C |\n| Salsa demasiado salada | Caldo y aceitunas concentrados | Usar fondo sin sal y probar tarde |\n| Salsa demasiado ácida | Limón añadido antes de reducir | Incorporar al final y gradualmente |\n\n## Conservación\n\nRefrigerar las sobras tras enfriarlas rápidamente en recipientes poco profundos. Consumir pronto o congelar porciones y recalentar completamente; no dejar ave cocinada a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Aceitunas negras](../11_Despensa/11_Condimentos/aceitunas_negras.md)\n- [Limón](../11_Despensa/11_Condimentos/limon.md)\n- [Caldo de pollo](../11_Despensa/13_Bases_Culinarias/caldo_de_pollo.md)\n- [Desglasar fondos de cocción](../00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md)\n\n## Principio de NovaCoquinaria\n\n> Una salsa con aceitunas se sala al final: el contraste entre cítrico y salinidad debe ajustarse después de cocinar el pollo.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Carnes."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "35",
+      "phase": "cooking",
+      "raw": "35–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_guisado_con_limon_y_aceitunas.html",
+  "id": "REC-0181",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "contramuslos de pollo deshuesados o con hueso, ajustando tiempos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "800",
+        "raw": "800–900 g de contramuslos de pollo deshuesados o con hueso, ajustando tiempos",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "800–900 g de contramuslos de pollo deshuesados o con hueso, ajustando tiempos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla grande (180 g), en juliana",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla grande (180 g), en juliana",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla grande (180 g), en juliana",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo picados",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo picados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras sin hueso, escurridas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de aceitunas negras sin hueso, escurridas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de aceitunas negras sin hueso, escurridas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "limón lavado: 2 cucharadas de zumo y un poco de ralladura",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón lavado: 2 cucharadas de zumo y un poco de ralladura",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón lavado: 2 cucharadas de zumo y un poco de ralladura",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo bajo en sal o agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "180",
+        "raw": "180–250 ml de caldo de pollo bajo en sal o agua",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "180–250 ml de caldo de pollo bajo en sal o agua",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo seco, opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de tomillo seco, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de tomillo seco, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal moderada y pimienta negra",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal moderada y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal moderada y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nNo lavar el pollo crudo. Secar con papel desechable, preparar utensilios separados y tener termómetro alimentario. Escurrir aceitunas y lavar el limón antes de obtener la ralladura.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_guisado_con_limon_y_aceitunas.md",
+  "source_sha256": "c0c427c85e0ede05f5103a98298b0e2d1c5e9c1989c67a6a8e8ae838da845e52",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Dorar el pollo\n\nCalentar aceite y dorar por tandas durante unos 3–4 minutos por cara, sin pretender completar la cocción. Retirar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Pochar cebolla\n\nBajar el fuego, añadir cebolla y cocinar 8–10 minutos. Incorporar ajo y tomillo opcional unos 30 segundos, evitando quemarlos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Construir salsa\n\nAñadir caldo y laurel, raspar el fondo y devolver el pollo. Tapar parcialmente y cocinar a hervor suave durante 15–25 minutos o hasta que la parte más gruesa alcance 74 °C.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Añadir aceitunas\n\nIncorporar las aceitunas escurridas en los últimos 5 minutos y ajustar líquido para una salsa breve, sin concentrar demasiado la sal.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Equilibrar y servir\n\nRetirar laurel; apagar el fuego y añadir zumo y ralladura de limón poco a poco. Probar antes de salar y servir con la salsa.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.html",
+      "label": "Desglasar fondos de cocción",
+      "source_location": {
+        "end_line": 110,
+        "start_line": 110
+      },
+      "source_path": "00_Bases/03_Tecnicas/desglasar_fondos_de_coccion.md"
+    }
+  ],
+  "title": "Pollo guisado con limón y aceitunas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

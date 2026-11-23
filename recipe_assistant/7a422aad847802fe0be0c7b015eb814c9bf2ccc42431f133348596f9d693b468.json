@@ -1,0 +1,361 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Rosquillas listas de San Isidro con glasa\n\n## Origen y contexto\n\n**Región:** Madrid. Fórmula doméstica orientativa que recoge rasgos reconocibles de la tradición regional. Se diferencia de preparaciones relacionadas cuando corresponde, sin atribuir prueba ni valoración previa.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 16–20 rosquillas |\n| Tiempo orientativo | 50–65 minutos más enfriado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de harina de trigo común\n- 3 huevos L para la masa\n- 65 g de azúcar\n- 75 ml de aceite de oliva suave\n- 25 ml de licor de anís o anís infusionado sin alcohol, opcional\n- 1 cucharadita de anís en grano, ligeramente machacado\n- 5 g de impulsor químico de repostería\n- 140 g de azúcar glas para glasa\n- 25–35 ml de zumo de limón o agua para glasa\n- 1 clara de huevo pasteurizada, opcional únicamente para una glasa elaborada con producto pasteurizado\n\n**Alérgenos:** Gluten (trigo), huevo; el licor opcional puede conservar alcohol residual.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y forrar una bandeja con papel de horno.\n2. Batir huevos con azúcar, aceite, anís aromático y licor opcional hasta integrar.\n3. Mezclar harina con impulsor y añadir gradualmente a los líquidos hasta formar masa pegajosa pero moldeable; reposar cubierta 10–15 minutos.\n4. Dividir en 16–20 porciones, dar forma de cordones con manos ligeramente aceitadas y unir los extremos en anillos, dejando un agujero central.\n5. Hornear entre 18 y 24 minutos hasta que las rosquillas estén completamente cocidas y ligeramente doradas; dejar enfriar sobre rejilla.\n6. Preparar una glasa espesa con azúcar glas y zumo de limón o agua, añadiendo líquido en cucharadas pequeñas; si se usa clara, emplear exclusivamente clara pasteurizada y seguir su etiquetado.\n7. Bañar la parte superior de las rosquillas ya frías con la glasa y dejar secar por completo antes de guardar.\n8. Consumir como dulce de temporada y registrar el acabado de glasa preferido para siguientes pruebas.\n\n## Puntos críticos\n\n- La diferencia característica frente a las rosquillas tontas es la glasa: aplicarla únicamente sobre las rosquillas ya horneadas y frías, y dejarla secar antes de guardarlas.\n- Añadir los 25–35 ml de zumo de limón o agua **poco a poco** al azúcar glas para controlar la consistencia. La clara es opcional y, si se utiliza en cobertura sin nuevo horneado, debe ser pasteurizada y manejarse conforme a la etiqueta.\n- Formar 16–20 aros de tamaño similar y comprobar que la masa con huevo está completamente cocida antes de glasear.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una futura prueba |\n|---|---|---|\n| Rosquillas excesivamente duras | Demasiada harina añadida al formar o cocción prolongada | Manejar la masa pegajosa con manos ligeramente aceitadas y vigilar el intervalo de 18–24 minutos |\n| Glasa que escurre y no cubre | Exceso de líquido en relación con el azúcar glas | Añadir líquido en cantidades pequeñas hasta obtener cobertura espesa |\n| Glasa irregular o que tarda en secar | Rosquillas todavía templadas o cobertura muy líquida | Dejar enfriar totalmente las piezas y secar antes de guardar |\n| Aros con centro poco cocido | Piezas desiguales o agujero central demasiado pequeño | Formar anillos similares y comprobar el centro antes de retirarlos del horno |\n\n## Conservación\n\nDejar secar por completo la glasa sobre las rosquillas frías antes de guardarlas protegidas en un recipiente limpio y seco. Si se prepara la versión con **clara pasteurizada**, aplicar también las instrucciones de uso y conservación de ese ovoproducto; no atribuir a todas las glasas la misma estabilidad. Mantener alejadas de la humedad y consumir en un plazo prudente según los ingredientes efectivamente utilizados.\n\n## Relaciones dentro del SGCC\n\n- [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar las cantidades, tiempos, producto utilizado, resultado y valoración reales. Esta formulación no sustituye preparaciones anteriores sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "50–65 minutos más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/rosquillas_listas_de_san_isidro_con_glasa.html",
+  "id": "REC-519",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L para la masa",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L para la masa",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L para la masa",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "75 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "licor de anís o anís infusionado sin alcohol, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 ml de licor de anís o anís infusionado sin alcohol, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "25 ml de licor de anís o anís infusionado sin alcohol, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "anís en grano, ligeramente machacado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de anís en grano, ligeramente machacado",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de anís en grano, ligeramente machacado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico de repostería",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de impulsor químico de repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de impulsor químico de repostería",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas para glasa",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de azúcar glas para glasa",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de azúcar glas para glasa",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón o agua para glasa",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "35",
+        "min": "25",
+        "raw": "25–35 ml de zumo de limón o agua para glasa",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "25–35 ml de zumo de limón o agua para glasa",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "clara de huevo pasteurizada, opcional únicamente para una glasa elaborada con producto pasteurizado",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 clara de huevo pasteurizada, opcional únicamente para una glasa elaborada con producto pasteurizado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 clara de huevo pasteurizada, opcional únicamente para una glasa elaborada con producto pasteurizado",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/rosquillas_listas_de_san_isidro_con_glasa.md",
+  "source_sha256": "7a2894973035074ebfa1bb585ccc83352b28ae808d68ae83f82ca50f526d7363",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y forrar una bandeja con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Batir huevos con azúcar, aceite, anís aromático y licor opcional hasta integrar."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Mezclar harina con impulsor y añadir gradualmente a los líquidos hasta formar masa pegajosa pero moldeable; reposar cubierta 10–15 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Dividir en 16–20 porciones, dar forma de cordones con manos ligeramente aceitadas y unir los extremos en anillos, dejando un agujero central."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Hornear entre 18 y 24 minutos hasta que las rosquillas estén completamente cocidas y ligeramente doradas; dejar enfriar sobre rejilla."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Preparar una glasa espesa con azúcar glas y zumo de limón o agua, añadiendo líquido en cucharadas pequeñas; si se usa clara, emplear exclusivamente clara pasteurizada y seguir su etiquetado."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Bañar la parte superior de las rosquillas ya frías con la glasa y dejar secar por completo antes de guardar."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 8,
+      "text": "Consumir como dulce de temporada y registrar el acabado de glasa preferido para siguientes pruebas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Rosquillas listas de San Isidro con glasa",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "16–20 rosquillas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

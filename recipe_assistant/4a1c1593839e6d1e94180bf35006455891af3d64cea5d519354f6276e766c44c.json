@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Calabaza rellena de lentejas y verduras\n\n## Descripción\n\nPreparación de referencia centrada en **asado de mitades y relleno de legumbre cocida**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Asado de mitades y relleno de legumbre cocida |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 calabaza pequeña tipo cacahuete de 900–1.100 g;\n- 350 g de lentejas previamente cocidas y escurridas;\n- 1 cebolla (150 g) picada;\n- 1 pimiento rojo pequeño (120 g);\n- 150 g de tomate triturado;\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- ½ cucharadita de comino molido;\n- sal, pimienta y perejil opcional;\n\n**Alérgenos:** Revisar el tomate o las lentejas envasadas.\n\n## Elaboración\n\n1. Precalentar el horno a 195 °C. Cortar la calabaza a lo largo con cuchillo estable y retirar las semillas.\n2. Pincelar los cortes con parte del aceite y asar las mitades boca abajo unos 30–40 minutos, hasta que la pulpa esté casi tierna.\n3. Mientras, pochar cebolla, pimiento y ajo; añadir tomate y comino y reducir unos 8 minutos.\n4. Mezclar el sofrito con las lentejas ya cocidas, ajustar la sal y retirar algo de pulpa de la calabaza si hace falta para aumentar el hueco.\n5. Rellenar las mitades y hornear otros 12–18 minutos hasta que la calabaza esté tierna y el conjunto bien caliente.\n6. Añadir perejil opcional y servir por mitades o porciones.\n\n## Puntos críticos\n\n- Partir la calabaza cruda requiere buena estabilidad y cuidado. Utilizar lentejas completamente cocidas, no crudas, para el relleno.\n- Los tiempos y temperaturas de horno son orientativos; ajustar según el tamaño, el recipiente y el equipo. Comprobar siempre el punto del interior cuando corresponda.\n- Mantener condiciones higiénicas al manipular carnes, pescados y alimentos perecederos, y separar los utensilios usados en crudo.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en una próxima prueba |\n|---|---|---|\n| Superficie muy oscura | Exceso de calor superior o tiempo largo | Cubrir temporalmente o reducir el grill |\n| Interior poco cocinado | Piezas gruesas o temperatura inadecuada | Comprobar el centro y prolongar la cocción |\n| Preparación seca | Exceso de tiempo o humedad insuficiente | Corregir tiempo o líquido en otra elaboración |\n\n## Conservación\n\nEnfriar rápidamente las sobras cocinadas y refrigerarlas en recipientes tapados y poco profundos. No dejar ingredientes perecederos ni arroz cocido varias horas a temperatura ambiente. Recalentar completamente cuando corresponda y seguir las indicaciones del fabricante en masas, conservas y productos envasados.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Lentejas](../11_Despensa/02_Legumbres/lentejas.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los pesos, ajustes, tiempo y temperatura reales, el punto de cocción, el resultado y su valoración. Estas cantidades no se atribuyen a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **asado de mitades y relleno de legumbre cocida**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/calabaza_rellena_de_lentejas_y_verduras.html",
+  "id": "REC-273",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "calabaza pequeña tipo cacahuete de 900–1.100 g;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabaza pequeña tipo cacahuete de 900–1.100 g;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabaza pequeña tipo cacahuete de 900–1.100 g;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "lentejas previamente cocidas y escurridas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de lentejas previamente cocidas y escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de lentejas previamente cocidas y escurridas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (150 g) picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla (150 g) picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla (150 g) picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo pequeño (120 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo pequeño (120 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo pequeño (120 g);",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino molido;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino molido;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y perejil opcional;",
+      "optionality": "unknown",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y perejil opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y perejil opcional;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/calabaza_rellena_de_lentejas_y_verduras.md",
+  "source_sha256": "c2bb99294f44cb68fb29ff4797fd29e77b0eacc9285eeebb976db35740b7aac4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 195 °C. Cortar la calabaza a lo largo con cuchillo estable y retirar las semillas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pincelar los cortes con parte del aceite y asar las mitades boca abajo unos 30–40 minutos, hasta que la pulpa esté casi tierna."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Mientras, pochar cebolla, pimiento y ajo; añadir tomate y comino y reducir unos 8 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Mezclar el sofrito con las lentejas ya cocidas, ajustar la sal y retirar algo de pulpa de la calabaza si hace falta para aumentar el hueco."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Rellenar las mitades y hornear otros 12–18 minutos hasta que la calabaza esté tierna y el conjunto bien caliente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Añadir perejil opcional y servir por mitades o porciones."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Calabaza rellena de lentejas y verduras",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

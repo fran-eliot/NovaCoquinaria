@@ -1,0 +1,279 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Clafoutis de cerezas al horno\n\n## Descripción\n\nReceta de referencia centrada en **batido fluido y cuajado de fruta al horno**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 porciones |\n| Técnica | Batido fluido y cuajado de fruta al horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de cerezas deshuesadas\n- 3 huevos L\n- 250 ml de leche entera\n- 90 g de harina de trigo\n- 85 g de azúcar\n- 25 g de mantequilla fundida, más para engrasar\n- 1 cucharadita de extracto de vainilla\n- una pizca de sal\n\n**Alérgenos:** Huevo, leche y gluten (trigo).\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y engrasar una fuente de unos 24 cm.\n2. Lavar, secar y deshuesar las cerezas; distribuirlas en la fuente.\n3. Batir huevos y azúcar hasta integrar sin necesidad de montarlos.\n4. Incorporar harina tamizada y sal, después leche, vainilla y mantequilla fundida templada hasta conseguir masa fluida.\n5. Verter sobre las cerezas y hornear unos 35–45 minutos, hasta centro cuajado y superficie ligeramente dorada.\n6. Dejar templar 15 minutos antes de servir; el centro se asentará al enfriarse.\n\n## Puntos críticos\n\n- La masa es fluida y no debe hornearse como un bizcocho seco; verificar el cuajado completo del huevo y evitar sobrecocción. Retirar todos los huesos de la fruta.\n- Ajustar tiempos al molde, grosor y horno; comprobar la cocción real, especialmente en preparaciones con huevo.\n- Manipular huevos, fruta y lácteos con higiene y mantener los ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Centro líquido mientras los bordes están dorados | Falta de cuajado en el centro o fuente más profunda que la prevista | Comprobar el centro de la mezcla con huevo y prolongar suavemente el horneado si es necesario |\n| Textura gomosa en lugar de cremosa | Horneado excesivo o batido demasiado intenso | Batir huevos y azúcar solo hasta integrar y revisar el punto antes de que el conjunto se seque |\n| Grumos de harina | Harina incorporada bruscamente a los líquidos | Integrar primero la harina tamizada y añadir la leche gradualmente como indica la elaboración |\n| Zonas muy acuosas junto a la fruta | Cerezas húmedas o distribución desigual | Secar bien las cerezas deshuesadas y repartirlas uniformemente, sin alterar la proporción antes de probarla |\n## Conservación\n\nEl clafoutis contiene leche, mantequilla y huevo y conserva humedad de la fruta. Tras el templado previsto para servir, **refrigerar pronto** las porciones que no se consuman, tapadas y en recipiente limpio. Mantenerlas refrigeradas y consumir en un plazo corto según la frescura de los ingredientes; no guardar esta elaboración húmeda como si fuera un bizcocho seco. Revisar que no queden huesos de cereza al servir.\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Pastel de manzana](./pastel_de_manzana.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes realmente utilizados, molde, tiempos, temperatura, textura y valoración. No se modifica ni atribuye esta propuesta a una receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Receta de referencia centrada en **batido fluido y cuajado de fruta al horno**. No consta prueba doméstica ni valoración de esta formulación; las cantidades y los tiempos son orientativos."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/clafoutis_de_cerezas_al_horno.html",
+  "id": "REC-352",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "cerezas deshuesadas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de cerezas deshuesadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de cerezas deshuesadas",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 huevos L",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de leche entera",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de leche entera",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de harina de trigo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "85",
+        "min": "85",
+        "raw": "85 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "85 g de azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida, más para engrasar",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de mantequilla fundida, más para engrasar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de mantequilla fundida, más para engrasar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "extracto de vainilla",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de extracto de vainilla",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de extracto de vainilla",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/clafoutis_de_cerezas_al_horno.md",
+  "source_sha256": "9f30ae386d23084698304032b7ffc8784133c897e372ba50b53ce94c1aa22995",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y engrasar una fuente de unos 24 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Lavar, secar y deshuesar las cerezas; distribuirlas en la fuente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Batir huevos y azúcar hasta integrar sin necesidad de montarlos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Incorporar harina tamizada y sal, después leche, vainilla y mantequilla fundida templada hasta conseguir masa fluida."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Verter sobre las cerezas y hornear unos 35–45 minutos, hasta centro cuajado y superficie ligeramente dorada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Dejar templar 15 minutos antes de servir; el centro se asentará al enfriarse."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Clafoutis de cerezas al horno",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

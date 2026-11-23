@@ -1,0 +1,299 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Ensalada de pasta con atún y verduras\n\n## Descripción\n\nPreparación de pasta que trabaja **cocción y enfriamiento rápido de pasta**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Cocción y enfriamiento rápido de pasta |\n| Estado | Pendiente de elaboración doméstica |\n\n## Ingredientes\n\n- 240 g de pasta corta seca;\n- 160 g de atún en conserva escurrido;\n- 150 g de tomates cherry partidos;\n- 120 g de pepino en dados;\n- 80 g de pimiento rojo en dados;\n- 50 g de aceitunas negras;\n- 2 cucharadas de aceite de oliva virgen extra;\n- 1 cucharada de vinagre de vino o zumo de limón;\n- pimienta negra y sal ajustable;\n\n**Alérgenos:** Trigo (gluten), pescado; revisar conservas.\n\n## Elaboración\n\n1. Cocer la pasta en abundante agua hasta tierna y firme, según envase.\n2. Escurrir, extender en recipiente poco profundo y enfriar rápidamente; refrigerar sin demora y no dejar pasta cocida tibia a temperatura ambiente.\n3. Lavar y cortar tomate, pepino y pimiento; escurrir atún y aceitunas.\n4. Mezclar aceite, vinagre o limón y pimienta para preparar vinagreta.\n5. Cuando la pasta esté fría, integrar verduras y atún, aliñar y probar sal al final.\n6. Mantener refrigerada hasta servir y sacar solo la cantidad necesaria.\n\n## Puntos críticos\n\n- La pasta cocida es alimento perecedero: enfriar rápidamente y refrigerar, evitando largos periodos a temperatura ambiente.\n- Ajustar tiempos de cocción al tipo de pasta, grosor y método; los tiempos son orientativos.\n- Mantener higiene en la manipulación de alimentos crudos y cocinados; refrigerar sin demora los platos perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en otra elaboración |\n|---|---|---|\n| Pasta pastosa | Cocción prolongada | Cocer menos antes de terminarla o enfriarla |\n| Salsa acuosa | Exceso de líquido o ingredientes sin escurrir | Reducir el fondo o añadir menos líquido por tanda |\n| Salsa seca | Poca agua almidonada en acabado | Incorporar agua reservada en cucharadas |\n| Sabor desequilibrado | Exceso de sal, acidez o grasa | Ajustar al final y registrar los cambios |\n\n## Conservación\n\nEnfriar sin demora las sobras en recipientes poco profundos y refrigerarlas. Evitar mantener pasta cocida varias horas a temperatura ambiente; para preparaciones frías, conservar refrigeradas hasta servir. Recalentar completamente los platos calientes según sus ingredientes y evitar sucesivos ciclos de enfriamiento y calentamiento.\n\n## Relaciones dentro del SGCC\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar pesos realmente utilizados, tiempos y utensilio, resultado, valoración y ajustes de la preparación. No se atribuyen a estas cantidades resultados obtenidos en otras recetas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de pasta que trabaja **cocción y enfriamiento rápido de pasta**. Es una formulación de referencia pendiente de prueba, sin experiencia ni valoración doméstica confirmadas."
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/ensalada_de_pasta_con_atun_y_verduras.html",
+  "id": "REC-0247",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pasta corta seca;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "240",
+        "min": "240",
+        "raw": "240 g de pasta corta seca;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "240 g de pasta corta seca;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de atún en conserva escurrido;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de atún en conserva escurrido;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomates cherry partidos;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomates cherry partidos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomates cherry partidos;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pepino en dados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pepino en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pepino en dados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de pimiento rojo en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de pimiento rojo en dados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de aceitunas negras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de aceitunas negras;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino o zumo de limón;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino o zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino o zumo de limón;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y sal ajustable;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y sal ajustable;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra y sal ajustable;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/ensalada_de_pasta_con_atun_y_verduras.md",
+  "source_sha256": "cc2cd071d59e369abe67bc680207e44d0e9a29abb9a82c9c10958f3f6915c6d9",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Cocer la pasta en abundante agua hasta tierna y firme, según envase."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrir, extender en recipiente poco profundo y enfriar rápidamente; refrigerar sin demora y no dejar pasta cocida tibia a temperatura ambiente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Lavar y cortar tomate, pepino y pimiento; escurrir atún y aceitunas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Mezclar aceite, vinagre o limón y pimienta para preparar vinagreta."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Cuando la pasta esté fría, integrar verduras y atún, aliñar y probar sal al final."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Mantener refrigerada hasta servir y sacar solo la cantidad necesaria."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Ensalada de pasta con atún y verduras",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

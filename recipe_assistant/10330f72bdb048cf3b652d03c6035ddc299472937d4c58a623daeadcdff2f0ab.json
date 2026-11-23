@@ -1,0 +1,288 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Rollitos de berenjena con ricotta y tomate\n\n## Descripción\n\nPreparación de referencia basada en **asado previo de láminas y gratinado de relleno**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Técnica principal | Asado previo de láminas y gratinado de relleno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 berenjenas grandes, unos 700 g\n- 260 g de ricotta escurrida\n- 420 g de tomate triturado\n- 80 g de mozzarella rallada\n- 1 diente de ajo\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de orégano seco\n- sal, pimienta y hojas de albahaca opcionales\n\n**Alérgenos:** Leche.\n\n## Elaboración\n\n1. Precalentar horno a 200 °C. Cortar las berenjenas longitudinalmente en láminas de unos 5 mm.\n2. Colocar las láminas sobre bandeja, pincelar con aceite y hornear 15–20 minutos hasta que sean flexibles sin deshacerse.\n3. Mientras, reducir tomate con ajo y orégano en sartén durante 12–15 minutos; dejar templar ligeramente.\n4. Mezclar ricotta bien escurrida con pimienta y una pizca de sal.\n5. Extender una cucharada de ricotta en cada lámina, enrollar y disponer los rollitos sobre una capa fina de tomate en la fuente.\n6. Cubrir con salsa restante y mozzarella y hornear a 190 °C unos 18–22 minutos hasta que el relleno esté muy caliente y la cobertura dorada.\n7. Reposar 5 minutos antes de servir; añadir albahaca opcional.\n\n## Puntos críticos\n\n- La berenjena debe estar flexible antes de enrollar y el tomate bien reducido. La ricotta húmeda puede aguar la fuente; escurrirla.\n- Ajustar los tiempos según el grosor, el recipiente y la temperatura real del horno. Verificar la cocción completa, especialmente de pescados y rellenos.\n- Lavar y manipular los ingredientes con higiene, separar utensilios para productos crudos y cocinados y mantener refrigerados los perecederos.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior dorado e interior firme | Temperatura elevada o piezas gruesas | Reducir calor, precocer o prolongar con protección |\n| Relleno acuoso | Verduras o lácteos sin escurrir | Reducir y escurrir antes del montaje |\n| Textura seca | Tiempo prolongado o falta de humedad | Comprobar antes el punto y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos y cerrados. Mantener refrigeradas las preparaciones con quesos frescos y no dejar productos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Berenjenas al horno](../04_Verduras/berenjenas_al_horno.md)\n- [Gratinar coberturas sin quemar](../00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, molde o bandeja, temperatura, duración, textura y valoración. No se modifica ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **asado previo de láminas y gratinado de relleno**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/rollitos_de_berenjena_con_ricotta_y_tomate.html",
+  "id": "REC-385",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "berenjenas grandes, unos 700 g",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 berenjenas grandes, unos 700 g",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 berenjenas grandes, unos 700 g",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta escurrida",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "260",
+        "min": "260",
+        "raw": "260 g de ricotta escurrida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "260 g de ricotta escurrida",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "420",
+        "min": "420",
+        "raw": "420 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "420 g de tomate triturado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mozzarella rallada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de mozzarella rallada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de mozzarella rallada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "orégano seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de orégano seco",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de orégano seco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y hojas de albahaca opcionales",
+      "optionality": "unknown",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y hojas de albahaca opcionales",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y hojas de albahaca opcionales",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/rollitos_de_berenjena_con_ricotta_y_tomate.md",
+  "source_sha256": "02de259da5aebe9a4250c6ecbd841e3b1a661ab21e63d2a997cfa41960dad4b2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 200 °C. Cortar las berenjenas longitudinalmente en láminas de unos 5 mm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Colocar las láminas sobre bandeja, pincelar con aceite y hornear 15–20 minutos hasta que sean flexibles sin deshacerse."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Mientras, reducir tomate con ajo y orégano en sartén durante 12–15 minutos; dejar templar ligeramente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Mezclar ricotta bien escurrida con pimienta y una pizca de sal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Extender una cucharada de ricotta en cada lámina, enrollar y disponer los rollitos sobre una capa fina de tomate en la fuente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Cubrir con salsa restante y mozzarella y hornear a 190 °C unos 18–22 minutos hasta que el relleno esté muy caliente y la cobertura dorada."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Reposar 5 minutos antes de servir; añadir albahaca opcional."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.html",
+      "label": "Gratinar coberturas sin quemar",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/gratinar_coberturas_sin_quemar.md"
+    }
+  ],
+  "title": "Rollitos de berenjena con ricotta y tomate",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

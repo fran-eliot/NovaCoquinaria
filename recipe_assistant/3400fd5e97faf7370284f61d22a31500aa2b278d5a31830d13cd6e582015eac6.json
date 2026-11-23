@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Batido de piña, coco y lima\n\n## Descripción\n\nBebida de referencia basada en **triturado de fruta y ajuste de cremosidad**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 vasos |\n| Técnica | Triturado de fruta y ajuste de cremosidad |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de piña natural limpia en dados, refrigerada\n- 250 ml de leche de coco refrigerada\n- 150 ml de agua potable fría, ajustables\n- 1 cucharada de zumo de lima\n- hielo picado opcional\n- 1 cucharadita de miel opcional si la piña es muy ácida\n\n**Alérgenos:** Revisar leche de coco comercial y posibles trazas; miel opcional.\n\n## Elaboración\n\n1. Pelar y limpiar la piña retirando partes duras del corazón, y refrigerar los dados.\n2. Agitar o mezclar la leche de coco en su envase según las instrucciones para homogeneizar su fase grasa.\n3. Triturar piña con leche de coco y la mitad del agua hasta obtener textura uniforme.\n4. Añadir zumo de lima y ajustar con agua restante en pequeñas dosis para una textura bebible.\n5. Probar antes de endulzar; incorporar miel opcional solo si resulta necesaria.\n6. Servir inmediatamente en vasos fríos, con hielo opcional.\n\n## Puntos críticos\n\n- La cantidad de agua depende de si la leche de coco es espesa de cocina o una bebida ligera. No mantener fruta triturada varias horas a temperatura ambiente.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para otra elaboración |\n|---|---|---|\n| Batido demasiado espeso | Leche de coco culinaria concentrada o pulpa de piña fibrosa | Añadir el agua de la fórmula gradualmente y registrar el tipo de leche de coco |\n| Bebida excesivamente diluida | Uso de bebida de coco ligera más el agua prevista | Comprobar la composición del producto antes de añadir toda el agua |\n| Acidez dominante | Piña muy ácida o exceso de lima | Probar la piña triturada antes de añadir el cítrico |\n| Fibras o separación al reposar | Triturado insuficiente o sedimentación de la fruta | Triturar hasta homogeneizar y remover antes de servir, manteniendo el frío |\n\n## Conservación\n\nEmplear piña apta y bien manipulada, agua potable y leche de coco conservada según su envase. Servir el batido **recién triturado y frío** o refrigerarlo tapado de inmediato. Consumir pronto: la fruta triturada y la leche de coco abierta no deben permanecer durante horas a temperatura ambiente. No aplicar instrucciones de infusiones calientes a esta bebida sin cocción.\n\n## Relaciones dentro del SGCC\n\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Lassi de mango y yogur](./lassi_de_mango_y_yogur.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **triturado de fruta y ajuste de cremosidad**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/batido_de_pina_coco_y_lima.html",
+  "id": "REC-320",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "piña natural limpia en dados, refrigerada",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de piña natural limpia en dados, refrigerada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de piña natural limpia en dados, refrigerada",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco refrigerada",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de leche de coco refrigerada",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de leche de coco refrigerada",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría, ajustables",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 ml de agua potable fría, ajustables",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "150 ml de agua potable fría, ajustables",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de lima",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de lima",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo picado opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo picado opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo picado opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional si la piña es muy ácida",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel opcional si la piña es muy ácida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel opcional si la piña es muy ácida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/batido_de_pina_coco_y_lima.md",
+  "source_sha256": "c2751137f74c8257b441e5f34e3e33af9477b255d7065e171328182ec263290f",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Pelar y limpiar la piña retirando partes duras del corazón, y refrigerar los dados."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Agitar o mezclar la leche de coco en su envase según las instrucciones para homogeneizar su fase grasa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Triturar piña con leche de coco y la mitad del agua hasta obtener textura uniforme."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Añadir zumo de lima y ajustar con agua restante en pequeñas dosis para una textura bebible."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Probar antes de endulzar; incorporar miel opcional solo si resulta necesaria."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente en vasos fríos, con hielo opcional."
+    }
+  ],
+  "techniques": [],
+  "title": "Batido de piña, coco y lima",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

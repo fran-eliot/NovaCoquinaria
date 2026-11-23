@@ -1,0 +1,223 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 14
+    },
+    "text": "\n# Dorada a la sal en horno\n\n## Descripción\n\nElaboración de referencia centrada en **horneado bajo costra de sal**. Se incorpora como propuesta nueva sin experiencia doméstica ni valoración confirmada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Técnica | Horneado bajo costra de sal |\n| Estado | Pendiente de prueba |\n\n## Ingredientes\n\n- 1 dorada entera de 700–850 g, eviscerada y con piel y escamas íntegras;\n- 1,2–1,5 kg de sal gruesa especial para hornear, según fuente;\n- 60–100 ml de agua para humedecer la sal;\n- limón al servir, opcional;\n- 1 cucharada de aceite de oliva virgen extra opcional;\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Pedir la dorada eviscerada para cocinar a la sal y mantener la piel y escamas íntegras; secar el exterior.\n2. Precalentar horno a 200 °C, calor arriba y abajo.\n3. Humedecer ligeramente la sal con agua hasta que compacte al presionar, sin dejarla empapada.\n4. Formar una cama de sal en una fuente, colocar la dorada y cubrirla por completo sin introducir sal en la cavidad abdominal.\n5. Hornear orientativamente 25–35 minutos según el tamaño, hasta que el pescado esté completamente cocinado en la zona más gruesa; usar termómetro cuando sea posible.\n6. Reposar 3–5 minutos, romper la costra con cuidado, retirar piel y sal superficial, sacar los lomos y servir con aceite o limón opcionales.\n\n## Puntos críticos\n\n- La cantidad de sal es material de cobertura y no se ingiere; evitar que la sal entre en la cavidad. El tiempo debe ajustarse al peso y al horno.\n- Mantener el pescado o marisco refrigerado hasta el momento de cocinar. Revisar espinas, limpieza y procedencia, y separar utensilios de crudos y cocinados.\n- Los tiempos son orientativos; comprobar la cocción completa y ajustar a grosor y temperatura de partida.\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Pescado seco | Calor excesivo o tiempo prolongado | Comprobar el centro y reducir el tiempo innecesario |\n| Salsa demasiado concentrada | Evaporación excesiva | Añadir líquido en pequeñas dosis y probar sal |\n| Piel sin dorar | Humedad superficial o temperatura insuficiente | Secar antes y controlar el fuego |\n\n## Conservación\n\nRefrigerar sin demora los sobrantes en recipientes poco profundos. Los escabeches preparados en casa **no son conservas esterilizadas** y se mantienen refrigerados. Consumir los platos con pescado o marisco en un plazo corto, siguiendo las indicaciones del producto; no dejar varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de documentar cantidades realmente usadas, tiempos, resultado y valoración antes de considerar la preparación una receta doméstica probada."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/dorada_a_la_sal_en_horno.html",
+  "id": "REC-0240",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "dorada entera de 700–850 g, eviscerada y con piel y escamas íntegras;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 dorada entera de 700–850 g, eviscerada y con piel y escamas íntegras;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 dorada entera de 700–850 g, eviscerada y con piel y escamas íntegras;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sal gruesa especial para hornear, según fuente;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1.5",
+        "min": "1.2",
+        "raw": "1,2–1,5 kg de sal gruesa especial para hornear, según fuente;",
+        "status": "range",
+        "unit": "kg"
+      },
+      "raw": "1,2–1,5 kg de sal gruesa especial para hornear, según fuente;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para humedecer la sal;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "60",
+        "raw": "60–100 ml de agua para humedecer la sal;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "60–100 ml de agua para humedecer la sal;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "limón al servir, opcional;",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "limón al servir, opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "limón al servir, opcional;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra opcional;",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva virgen extra opcional;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva virgen extra opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/dorada_a_la_sal_en_horno.md",
+  "source_sha256": "e9b07c9ce3f6ec4d76bc24e25b7551db677ad4b4b0f30ca8e46f615c03e35626",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Pedir la dorada eviscerada para cocinar a la sal y mantener la piel y escamas íntegras; secar el exterior."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Precalentar horno a 200 °C, calor arriba y abajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Humedecer ligeramente la sal con agua hasta que compacte al presionar, sin dejarla empapada."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Formar una cama de sal en una fuente, colocar la dorada y cubrirla por completo sin introducir sal en la cavidad abdominal."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Hornear orientativamente 25–35 minutos según el tamaño, hasta que el pescado esté completamente cocinado en la zona más gruesa; usar termómetro cuando sea posible."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Reposar 3–5 minutos, romper la costra con cuidado, retirar piel y sal superficial, sacar los lomos y servir con aceite o limón opcionales."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Dorada a la sal en horno",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

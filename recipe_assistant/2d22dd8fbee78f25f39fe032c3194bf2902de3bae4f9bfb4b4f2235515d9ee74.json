@@ -1,0 +1,550 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 480,
+      "start_line": 15
+    },
+    "text": "\n# Pollo salteado con verduras\n\n## Descripción\n\nEl pollo salteado con verduras constituye una de las recetas más representativas de la cocina asiática cotidiana. Basada en la técnica del salteado al wok, combina una cocción muy rápida con ingredientes frescos y una salsa ligera que realza el sabor sin ocultar los ingredientes principales.\n\nDentro del SGCC esta receta representa la implementación canónica del patrón **Salteado Asiático**.\n\n---\n\n# Objetivo\n\nPreparar un salteado equilibrado que permita obtener:\n\n- pollo jugoso;\n- verduras ligeramente crujientes;\n- salsa brillante;\n- cocción rápida;\n- aromas intensos.\n\nLa receta sirve además como referencia para desarrollar numerosas variantes del dominio Wok.\n\n---\n\n# Patrón reutilizado\n\nEsta receta implementa la plantilla:\n\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n\ny reutiliza las técnicas:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n---\n\n# Información general\n\n| Aspecto | Valor |\n|----------|-------|\n| Raciones | 2 |\n| Preparación | 15 min |\n| Cocción | 10 min |\n| Tiempo total | 25 min |\n| Dificultad | Fácil |\n| Cocina | Asiática |\n\n---\n\n# Ingredientes estructurales\n\n## Proteína\n\n- 300 g de [pollo](../11_Despensa/03_Carnes/pollo.md) (preferiblemente contramuslo deshuesado o pechuga)\n\n---\n\n## Verduras\n\n- ½ [cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- ½ pimiento rojo\n- ½ pimiento verde\n- 1 zanahoria\n- 4-6 champiñones (opcional)\n\nLas verduras deben cortarse en piezas de tamaño similar para favorecer una cocción uniforme.\n\n---\n\n## Aromáticos\n\n- 2 dientes de [ajo](../11_Despensa/06_Verduras/ajo.md)\n- 2 cm de [jengibre](../11_Despensa/06_Verduras/jengibre.md) fresco rallado\n\n---\n\n## Salsa\n\nMezclar previamente:\n\n- 2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- 1 cucharada de [salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n- 1 cucharada de [mirin](../11_Despensa/09_Salsas/mirin.md)\n- 2 cucharadas de agua\n\nOpcionalmente:\n\n- 1 cucharadita de maicena disuelta en una cucharada de agua para obtener una salsa más brillante y ligeramente espesa.\n\n---\n\n## Grasa de cocción\n\n- 1 cucharada de aceite vegetal\n- 1 cucharadita de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md) (solo al finalizar)\n\n---\n\n## Acabado\n\nOpcionalmente:\n\n- cebollino picado;\n- semillas de sésamo tostadas.\n\n---\n\n# Preparación\n\n## 1. Mise en place\n\nPreparar todos los ingredientes antes de comenzar.\n\n- Cortar el pollo en tiras o dados de tamaño uniforme.\n- Cortar las verduras en piezas similares.\n- Picar el ajo.\n- Rallar el jengibre.\n- Mezclar previamente todos los ingredientes de la salsa.\n\nConsultar:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n---\n\n## 2. Calentar el wok\n\nCalentar el wok o una sartén amplia hasta alcanzar una temperatura elevada.\n\nAñadir el aceite vegetal únicamente cuando el recipiente esté caliente.\n\nConsultar:\n\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n---\n\n## 3. Cocinar el pollo\n\nIncorporar el pollo.\n\nSaltear durante 2–4 minutos, dependiendo del tamaño de los trozos, hasta que el pollo quede dorado por el exterior y prácticamente cocinado por el interior.\n\nRetirar temporalmente.\n\n**¿Por qué se retira?**\n\nPermite evitar una sobrecocción mientras se preparan las verduras y ayuda a conservar una carne más jugosa.\n\n---\n\n## 4. Cocinar las verduras\n\nAñadir por este orden:\n\n1. zanahoria;\n2. cebolla;\n3. pimientos;\n4. champiñones (si se utilizan).\n\nSaltear continuamente durante 3 o 4 minutos.\n\nLas verduras deben conservar parte de su textura (\"al dente\"), evitando una cocción excesiva que las vuelva blandas.\n\n---\n\n## 5. Incorporar los aromáticos\n\nAñadir:\n\n- ajo;\n- jengibre.\n\nSaltear únicamente durante 20–30 segundos para evitar que el ajo se queme y conservar el aroma fresco del jengibre.\n\n---\n\n## 6. Finalizar\n\nIncorporar nuevamente el pollo.\n\nAñadir la salsa preparada.\n\nRemover durante aproximadamente un minuto hasta que todos los ingredientes queden ligeramente glaseados.\n\nFinalizar con unas gotas de aceite de sésamo.\n\nServir inmediatamente.\n\n---\n\n# Servicio\n\nServir inmediatamente tras finalizar la cocción.\n\nPuede acompañarse de:\n\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- arroz jazmín;\n- noodles;\n- verduras salteadas.\n\n---\n\n# Variantes\n\nEsta receta admite numerosas variantes reutilizando la misma plantilla.\n\n## Proteína\n\nPuede sustituirse el pollo por:\n\n- ternera;\n- cerdo;\n- gambas;\n- tofu;\n- seitán.\n\n## Verduras\n\nPuede utilizarse cualquier combinación adecuada para salteado:\n\n- brócoli;\n- calabacín;\n- tirabeques;\n- pak choi;\n- col china;\n- bambú;\n- brotes de soja.\n\n## Salsa\n\nPuede modificarse incorporando:\n\n- salsa de pescado;\n- salsa hoisin;\n- chile;\n- pasta de curry;\n- zumo de lima.\n\n---\n\n# Conservación\n\n## Refrigeración\n\nHasta 2 días en recipiente hermético.\n\n## Congelación\n\nNo recomendable cuando contenga verduras de cocción rápida, ya que pueden perder textura.\n\n## Recalentado\n\nPreferentemente en wok o sartén muy caliente durante pocos minutos.\n\n---\n\n# Información nutricional\n\nAproximadamente por ración:\n\n| Nutriente | Cantidad aproximada |\n|-----------|--------------------:|\n| Energía | 340–390 kcal |\n| Proteínas | 30–35 g |\n| Grasas | 14–18 g |\n| Hidratos de carbono | 12–18 g |\n\nLos valores son orientativos y dependen de los ingredientes utilizados.\n\n---\n\n# Equipamiento\n\n- Wok o sartén amplia.\n- Espátula o pala para wok.\n- Tabla de cortar.\n- Cuchillo de chef.\n- Bol para preparar la salsa.\n\n---\n\n# Consejos NovaCoquinaria\n\n- Tener todos los ingredientes preparados antes de encender el fuego.\n- Cocinar en tandas si el wok está demasiado lleno.\n- Incorporar la salsa únicamente al final.\n- Añadir el aceite de sésamo fuera del fuego para conservar mejor su aroma.\n- Servir inmediatamente para mantener la textura de las verduras.\n\n---\n\n# Errores frecuentes\n\n- Sobrecargar el wok.\n- Utilizar fuego insuficiente.\n- Incorporar ingredientes húmedos.\n- Cocinar demasiado tiempo las verduras.\n- Añadir la salsa demasiado pronto.\n- No preparar previamente la mise en place.\n\n---\n\n# Conocimiento reutilizado\n\n## Plantillas\n\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n\n## Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Ingredientes\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n- [Mirin](../11_Despensa/09_Salsas/mirin.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n\n---\n\n# Adaptaciones\n\n## Versión vegetariana\n\nSustituir el pollo por:\n\n- tofu firme;\n- tempeh;\n- seitán.\n\nMantener el resto del procedimiento.\n\n---\n\n## Versión picante\n\nAñadir durante el salteado:\n\n- chile fresco;\n- copos de chile;\n- salsa sriracha;\n- aceite de chile.\n\n---\n\n## Versión baja en sodio\n\n- Reducir la cantidad de salsa de soja.\n- Utilizar salsa de soja baja en sal.\n- Omitir la salsa de ostras si se desea.\n\n---\n\n# Coste aproximado\n\n| Concepto | Coste |\n|----------|-------:|\n| Pollo | Medio |\n| Verduras | Bajo |\n| Salsa | Bajo |\n| Total | Bajo-Medio |\n\nEl coste dependerá principalmente de la proteína y de las verduras de temporada.\n\n---\n\n# Planificación\n\nIdeal para:\n\n- comidas diarias;\n- batch cooking;\n- preparación rápida entre semana.\n\nPuede cocinarse en unos 25 minutos teniendo preparada la mise en place.\n\n---\n\n# Nivel de reutilización\n\nEsta receta reutiliza directamente:\n\n- 1 plantilla culinaria;\n- 3 técnicas;\n- 8 ingredientes documentados;\n- varias tablas del SGCC.\n\nConstituye una de las recetas de referencia para el dominio **Wok**.\n\n---\n\n# Relaciones dentro del SGCC\n\n## Dominio\n\n- Cocina asiática\n- Wok\n- Salteados\n\n## Plantillas\n\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n\n## Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Ingredientes\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n- [Mirin](../11_Despensa/09_Salsas/mirin.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n\n## Tablas\n\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n- [Sustituciones de ingredientes](../98_Tablas/06_Sustituciones/sustituciones_ingredientes.md)\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n# Observaciones\n\nEsta receta representa la implementación de referencia de la plantilla **Salteado Asiático** dentro del SGCC.\n\nLa estructura permite desarrollar fácilmente nuevas variantes sustituyendo la proteína, las verduras o la salsa, sin modificar la secuencia general de trabajo.\n\n---\n\n# Referencias\n\n## Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Plantillas\n\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n\n## Ingredientes\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)"
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 59,
+        "start_line": 59
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "25",
+      "phase": "declared_total",
+      "raw": "25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 61,
+        "start_line": 61
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pollo_salteado_con_verduras.html",
+  "id": "REC-0018",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Proteína",
+      "name": "pollo (preferiblemente contramuslo deshuesado o pechuga)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de [pollo](../11_Despensa/03_Carnes/pollo.md) (preferiblemente contramuslo deshuesado o pechuga)",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de [pollo](../11_Despensa/03_Carnes/pollo.md) (preferiblemente contramuslo deshuesado o pechuga)",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ [cebolla](../11_Despensa/06_Verduras/cebolla.md)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ [cebolla](../11_Despensa/06_Verduras/cebolla.md)",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "pimiento rojo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ pimiento rojo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ pimiento rojo",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ pimiento verde",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ pimiento verde",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria",
+      "source_location": {
+        "end_line": 80,
+        "start_line": 80
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "champiñones (opcional)",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "6",
+        "min": "4",
+        "raw": "4-6 champiñones (opcional)",
+        "status": "range",
+        "unit": "unidad"
+      },
+      "raw": "4-6 champiñones (opcional)",
+      "source_location": {
+        "end_line": 81,
+        "start_line": 81
+      }
+    },
+    {
+      "group": "Aromáticos",
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de [ajo](../11_Despensa/06_Verduras/ajo.md)",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de [ajo](../11_Despensa/06_Verduras/ajo.md)",
+      "source_location": {
+        "end_line": 89,
+        "start_line": 89
+      }
+    },
+    {
+      "group": "Aromáticos",
+      "name": "jengibre fresco rallado",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cm de [jengibre](../11_Despensa/06_Verduras/jengibre.md) fresco rallado",
+        "status": "exact",
+        "unit": "cm"
+      },
+      "raw": "2 cm de [jengibre](../11_Despensa/06_Verduras/jengibre.md) fresco rallado",
+      "source_location": {
+        "end_line": 90,
+        "start_line": 90
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)",
+      "source_location": {
+        "end_line": 98,
+        "start_line": 98
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "salsa de ostras",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de [salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de [salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)",
+      "source_location": {
+        "end_line": 99,
+        "start_line": 99
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "mirin",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de [mirin](../11_Despensa/09_Salsas/mirin.md)",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de [mirin](../11_Despensa/09_Salsas/mirin.md)",
+      "source_location": {
+        "end_line": 100,
+        "start_line": 100
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "agua",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de agua",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de agua",
+      "source_location": {
+        "end_line": 101,
+        "start_line": 101
+      }
+    },
+    {
+      "group": "Salsa",
+      "name": "maicena disuelta en una cucharada de agua para obtener una salsa más brillante y ligeramente espesa.",
+      "optionality": "optional",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena disuelta en una cucharada de agua para obtener una salsa más brillante y ligeramente espesa.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena disuelta en una cucharada de agua para obtener una salsa más brillante y ligeramente espesa.",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      }
+    },
+    {
+      "group": "Grasa de cocción",
+      "name": "aceite vegetal",
+      "optionality": "required",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite vegetal",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite vegetal",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      }
+    },
+    {
+      "group": "Grasa de cocción",
+      "name": "aceite de sésamo (solo al finalizar)",
+      "optionality": "required",
+      "position": 14,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md) (solo al finalizar)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md) (solo al finalizar)",
+      "source_location": {
+        "end_line": 112,
+        "start_line": 112
+      }
+    },
+    {
+      "group": "Acabado",
+      "name": "cebollino picado;",
+      "optionality": "optional",
+      "position": 15,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "cebollino picado;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "cebollino picado;",
+      "source_location": {
+        "end_line": 120,
+        "start_line": 120
+      }
+    },
+    {
+      "group": "Acabado",
+      "name": "semillas de sésamo tostadas.",
+      "optionality": "optional",
+      "position": 16,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "semillas de sésamo tostadas.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "semillas de sésamo tostadas.",
+      "source_location": {
+        "end_line": 121,
+        "start_line": 121
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pollo_salteado_con_verduras.md",
+  "source_sha256": "8e9ae9a65d3b7c26f9cd3956cdb5c2fddf8898941510e9496ed7ab239e8bf62a",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 142,
+        "start_line": 127
+      },
+      "source_number": 1,
+      "text": "1. Mise en place\n\nPreparar todos los ingredientes antes de comenzar.\n\n- Cortar el pollo en tiras o dados de tamaño uniforme.\n- Cortar las verduras en piezas similares.\n- Picar el ajo.\n- Rallar el jengibre.\n- Mezclar previamente todos los ingredientes de la salsa.\n\nConsultar:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n---\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 154,
+        "start_line": 143
+      },
+      "source_number": 2,
+      "text": "2. Calentar el wok\n\nCalentar el wok o una sartén amplia hasta alcanzar una temperatura elevada.\n\nAñadir el aceite vegetal únicamente cuando el recipiente esté caliente.\n\nConsultar:\n\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n---\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 168,
+        "start_line": 155
+      },
+      "source_number": 3,
+      "text": "3. Cocinar el pollo\n\nIncorporar el pollo.\n\nSaltear durante 2–4 minutos, dependiendo del tamaño de los trozos, hasta que el pollo quede dorado por el exterior y prácticamente cocinado por el interior.\n\nRetirar temporalmente.\n\n**¿Por qué se retira?**\n\nPermite evitar una sobrecocción mientras se preparan las verduras y ayuda a conservar una carne más jugosa.\n\n---\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 183,
+        "start_line": 169
+      },
+      "source_number": 4,
+      "text": "4. Cocinar las verduras\n\nAñadir por este orden:\n\n1. zanahoria;\n2. cebolla;\n3. pimientos;\n4. champiñones (si se utilizan).\n\nSaltear continuamente durante 3 o 4 minutos.\n\nLas verduras deben conservar parte de su textura (\"al dente\"), evitando una cocción excesiva que las vuelva blandas.\n\n---\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 194,
+        "start_line": 184
+      },
+      "source_number": 5,
+      "text": "5. Incorporar los aromáticos\n\nAñadir:\n\n- ajo;\n- jengibre.\n\nSaltear únicamente durante 20–30 segundos para evitar que el ajo se queme y conservar el aroma fresco del jengibre.\n\n---\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 208,
+        "start_line": 195
+      },
+      "source_number": 6,
+      "text": "6. Finalizar\n\nIncorporar nuevamente el pollo.\n\nAñadir la salsa preparada.\n\nRemover durante aproximadamente un minuto hasta que todos los ingredientes queden ligeramente glaseados.\n\nFinalizar con unas gotas de aceite de sésamo.\n\nServir inmediatamente.\n\n---\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 151,
+        "start_line": 151
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 331,
+        "start_line": 331
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 332,
+        "start_line": 332
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 433,
+        "start_line": 433
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 434,
+        "start_line": 434
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 468,
+        "start_line": 468
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 469,
+        "start_line": 469
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    }
+  ],
+  "title": "Pollo salteado con verduras",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 58,
+      "start_line": 58
+    },
+    "unit": "racion"
+  }
+}

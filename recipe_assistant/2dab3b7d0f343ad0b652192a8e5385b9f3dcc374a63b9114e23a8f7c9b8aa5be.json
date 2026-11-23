@@ -1,0 +1,369 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Papas con choco gaditanas\n\n## Origen y contexto\n\n**Región:** Cádiz, Andalucía. Formulación doméstica de referencia con los rasgos característicos de esta especialidad regional. No se declara como versión única, ni como receta ya probada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 60–75 minutos |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 700 g de choco o sepia limpia en dados medianos\n- 750 g de patatas peladas y chascadas\n- 180 g de cebolla\n- 120 g de pimiento verde\n- 200 g de tomate rallado\n- 2 dientes de ajo\n- 100 ml de vino blanco seco\n- 600–800 ml de fumet de pescado suave o agua caliente\n- 1 hoja de laurel\n- ½ cucharadita de pimentón dulce\n- 3 cucharadas de aceite de oliva\n- sal y pimienta\n\n**Alérgenos:** Moluscos (sepia), pescado si se utiliza fumet; posibles sulfitos del vino.\n\n## Elaboración\n\n1. Comprobar que el choco está limpio y preparado para cocinar; cortarlo en dados homogéneos y mantenerlo refrigerado.\n2. Pochar cebolla, pimiento y ajo picados con aceite durante 10 minutos.\n3. Añadir tomate rallado y cocinar unos 8–10 minutos hasta concentrar el sofrito.\n4. Incorporar el choco y saltear 3–4 minutos. Agregar vino, hervir brevemente y añadir laurel.\n5. Cubrir parcialmente con fumet o agua y guisar a fuego suave 20–30 minutos, según tamaño del choco.\n6. Añadir pimentón fuera del calor directo y las patatas chascadas; continuar 20–25 minutos hasta que patatas y choco estén completamente tiernos.\n7. Ajustar el caldo a consistencia de guiso, comprobar la sal y servir caliente.\n\n## Puntos críticos\n\n- El choco suele necesitar más cocción que la patata, por lo que se incorpora antes. Las patatas chascadas contribuyen a ligar el caldo. No confundir esta preparación con el marmitako de bonito.\n- Ajustar tiempos, cantidades y textura a la materia prima. Respetar las condiciones del producto comercial, la higiene y la cadena de frío; comprobar la cocción completa de los ingredientes animales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente preparación |\n|---|---|---|\n| Interior demasiado firme | Tiempo insuficiente o piezas gruesas | Prolongar la cocción suavemente y comprobar el centro |\n| Preparación acuosa | Exceso de líquido o escurrido insuficiente | Reducir o escurrir antes de servir |\n| Sabor desequilibrado | Sal, especias, grasa o azúcar en exceso | Ajustar gradualmente después de probar |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar rápidamente las sobras en recipientes poco profundos y refrigerarlas sin demora. Mantener refrigerados carnes, pescado, marisco, huevo, lácteos y preparaciones con crema. Recalentar completamente las porciones destinadas a consumirse calientes; no dejar perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Suquet de peix catalán](./suquet_de_peix_catalan_con_patatas_y_picada.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los productos realmente utilizados, pesos, tiempos, temperaturas, textura y valoración personal. No se sustituyen versiones anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "75",
+      "min": "60",
+      "phase": "declared_total",
+      "raw": "60–75 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/papas_con_choco_gaditanas.html",
+  "id": "REC-499",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "choco o sepia limpia en dados medianos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de choco o sepia limpia en dados medianos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de choco o sepia limpia en dados medianos",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "patatas peladas y chascadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 g de patatas peladas y chascadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "750 g de patatas peladas y chascadas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de pimiento verde",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de pimiento verde",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "fumet de pescado suave o agua caliente",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "600",
+        "raw": "600–800 ml de fumet de pescado suave o agua caliente",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "600–800 ml de fumet de pescado suave o agua caliente",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/papas_con_choco_gaditanas.md",
+  "source_sha256": "7cc1077df0a09beb652b0084c645ffff51c4f95047698badd4415190c860caf7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Comprobar que el choco está limpio y preparado para cocinar; cortarlo en dados homogéneos y mantenerlo refrigerado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla, pimiento y ajo picados con aceite durante 10 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Añadir tomate rallado y cocinar unos 8–10 minutos hasta concentrar el sofrito."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "Incorporar el choco y saltear 3–4 minutos. Agregar vino, hervir brevemente y añadir laurel."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Cubrir parcialmente con fumet o agua y guisar a fuego suave 20–30 minutos, según tamaño del choco."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Añadir pimentón fuera del calor directo y las patatas chascadas; continuar 20–25 minutos hasta que patatas y choco estén completamente tiernos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Ajustar el caldo a consistencia de guiso, comprobar la sal y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 77,
+        "start_line": 77
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Papas con choco gaditanas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

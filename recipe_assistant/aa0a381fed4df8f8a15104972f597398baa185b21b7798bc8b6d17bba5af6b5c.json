@@ -1,0 +1,377 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Patorrillo riojano de cordero\n\n## Origen y contexto\n\n**Región:** La Rioja. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 120–160 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 kg de manitas y tripas de cordero limpias de establecimiento autorizado, preparadas para guisar\n- 180 g de cebolla\n- 200 g de tomate triturado\n- 3 dientes de ajo\n- 80 g de chorizo para cocinar, opcional\n- 45 ml de aceite de oliva\n- 100 ml de vino blanco seco\n- 600–900 ml de agua o caldo caliente bajo en sal\n- 2 hojas de laurel\n- 1 cucharadita de pimentón dulce (3 g)\n- 1 guindilla seca pequeña, opcional\n- sal y pimienta negra\n\n**Alérgenos:** Posibles sulfitos del vino; revisar chorizo y caldo comercial.\n\n## Elaboración\n\n1. Adquirir casquería de cordero ya limpiada e inspeccionada en comercio autorizado; seguir las instrucciones del vendedor para tratamiento previo. Mantenerla refrigerada y evitar contaminación cruzada.\n2. Disponer las manitas y tripas en una olla, cubrir con agua potable y llevar a hervor; desechar el agua inicial si lo recomienda el proveedor y escurrir con cuidado.\n3. Cubrir con agua nueva, añadir laurel y cocer a hervor suave 60–100 minutos, o hasta que la casquería esté completamente cocida y tierna; ajustar a piezas y proveedor.\n4. En cazuela aparte pochar cebolla con aceite unos 10 minutos, añadir ajo, tomate y guindilla opcional, y reducir 10 minutos.\n5. Añadir pimentón fuera del fuego, vino y chorizo opcional, hervir unos minutos sin asumir eliminación total de alcohol.\n6. Incorporar la casquería cocida y parte del caldo colado; guisar 20–30 minutos para ligar salsa, comprobar ternura y ajustar sal.\n7. Servir bien caliente, con piezas claramente cocidas y salsa trabada; retirar laurel.\n\n## Puntos críticos\n\n- La casquería exige materia prima inspeccionada, limpieza profesional y cocción completa; **no** se recomienda preparar el plato a partir de vísceras sin procesar o de origen no controlado.\n- El patorrillo tiene identidad propia por manitas y tripas de cordero; no es una variante menor de los callos madrileños de vacuno.\n- Los tiempos son orientativos; seguir tratamiento y cocción sugeridos por el proveedor para las piezas comercializadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para siguiente elaboración |\n|---|---|---|\n| Casquería firme | Cocción insuficiente | Prolongar cocción suave antes de unir a salsa |\n| Salsa poco ligada | Exceso de líquido | Reducir sin quemar |\n| Sabor excesivamente fuerte | Materia prima o tratamiento inicial inadecuados | Comprar casquería profesionalmente limpia y revisar preparación |\n\n## Conservación\n\nEnfriar rápidamente y refrigerar a 4 °C o menos hasta 2 días; recalentar completamente y no mantener templado durante horas.\n\n## Relaciones dentro del SGCC\n\n- [Callos a la madrileña](../05_Carnes/callos_a_la_madrilena_con_chorizo_y_morcilla.md)\n- [Estofar carnes](../00_Bases/03_Tecnicas/estofar_carnes.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar pesos efectivos, tiempos, textura y valoración después de elaborarla. No sustituye versiones domésticas anteriores sin comparación documentada."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "160",
+      "min": "120",
+      "phase": "declared_total",
+      "raw": "120–160 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** La Rioja. Formulación doméstica de referencia inspirada en una especialidad regional, pendiente de prueba. No se atribuyen ensayos ni valoraciones anteriores."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/patorrillo_riojano_de_cordero.html",
+  "id": "REC-553",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "manitas y tripas de cordero limpias de establecimiento autorizado, preparadas para guisar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 kg de manitas y tripas de cordero limpias de establecimiento autorizado, preparadas para guisar",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1 kg de manitas y tripas de cordero limpias de establecimiento autorizado, preparadas para guisar",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de cebolla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de cebolla",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 g de chorizo para cocinar, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "80 g de chorizo para cocinar, opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "45",
+        "min": "45",
+        "raw": "45 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "45 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de vino blanco seco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de vino blanco seco",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo caliente bajo en sal",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "600",
+        "raw": "600–900 ml de agua o caldo caliente bajo en sal",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "600–900 ml de agua o caldo caliente bajo en sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 hojas de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "2 hojas de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce (3 g)",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce (3 g)",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce (3 g)",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla seca pequeña, opcional",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla seca pequeña, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla seca pequeña, opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/patorrillo_riojano_de_cordero.md",
+  "source_sha256": "61a8bba7d03551ff81ab3c5448acf7b6a768fc957209d90f34098b794316dbb8",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "Adquirir casquería de cordero ya limpiada e inspeccionada en comercio autorizado; seguir las instrucciones del vendedor para tratamiento previo. Mantenerla refrigerada y evitar contaminación cruzada."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 2,
+      "text": "Disponer las manitas y tripas en una olla, cubrir con agua potable y llevar a hervor; desechar el agua inicial si lo recomienda el proveedor y escurrir con cuidado."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 3,
+      "text": "Cubrir con agua nueva, añadir laurel y cocer a hervor suave 60–100 minutos, o hasta que la casquería esté completamente cocida y tierna; ajustar a piezas y proveedor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 4,
+      "text": "En cazuela aparte pochar cebolla con aceite unos 10 minutos, añadir ajo, tomate y guindilla opcional, y reducir 10 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 5,
+      "text": "Añadir pimentón fuera del fuego, vino y chorizo opcional, hervir unos minutos sin asumir eliminación total de alcohol."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 6,
+      "text": "Incorporar la casquería cocida y parte del caldo colado; guisar 20–30 minutos para ligar salsa, comprobar ternura y ajustar sal."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 7,
+      "text": "Servir bien caliente, con piezas claramente cocidas y salsa trabada; retirar laurel."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/estofar_carnes.html",
+      "label": "Estofar carnes",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/estofar_carnes.md"
+    }
+  ],
+  "title": "Patorrillo riojano de cordero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

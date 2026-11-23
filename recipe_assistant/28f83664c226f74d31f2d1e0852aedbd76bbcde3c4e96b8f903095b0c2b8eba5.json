@@ -1,0 +1,261 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Tortellini en caldo de verduras\n\n## Descripción\n\nReceta de referencia centrada en **caldo limpio y cocción final de pasta rellena**. No se dispone de una elaboración ni valoración doméstica confirmada; las cantidades y los tiempos son puntos de partida para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Caldo limpio y cocción final de pasta rellena |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300–350 g de tortellini frescos refrigerados de relleno comercial, según el envase\n- 900 ml de caldo de verduras suave\n- 100 g de zanahoria en dados muy pequeños\n- 70 g de puerro en rodajas finas\n- 1 cucharada de aceite de oliva\n- perejil picado opcional\n- sal y pimienta al gusto\n\n**Alérgenos:** Según tortellini: típicamente gluten, huevo y leche; puede contener carne, frutos secos o soja.\n\n## Elaboración\n\n1. Comprobar el etiquetado de los tortellini, especialmente tipo de relleno, alérgenos, conservación y tiempo mínimo de cocción.\n2. Pochar zanahoria y puerro en aceite unos 5 minutos, sin dorar en exceso.\n3. Añadir caldo, llevar a hervor suave y cocer 8–10 minutos hasta que las hortalizas estén tiernas.\n4. Incorporar tortellini frescos y cocinar el tiempo que indique el fabricante, con hervor moderado, hasta que relleno y pasta estén completamente calientes y cocinados.\n5. Probar el caldo antes de añadir sal, pues la pasta rellena y el caldo comercial pueden aportar bastante.\n6. Servir inmediatamente con perejil y pimienta opcionales; no dejar la pasta en el caldo durante mucho tiempo porque se hinchará.\n\n## Puntos críticos\n\n- Los tiempos dependen del relleno y fabricante; no asumir que toda pasta rellena está precocida. Mantener la pasta fresca refrigerada y cocinar completamente el relleno.\n- Ajustar los tiempos según el fabricante, el formato, grosor y cantidad de pasta. Reservar agua de cocción para ligar salsas cuando corresponda.\n- Mantener productos perecederos refrigerados y separar utensilios que toquen alimento crudo de los ya cocinados.\n\n## Diagnóstico\n\n| Problema | Causa posible | Ajuste para otra prueba |\n|---|---|---|\n| Pasta pasada | Exceso de cocción antes de integrar la salsa | Restar tiempo en el agua y terminar en salsa |\n| Salsa acuosa | Reducción incompleta o demasiada agua de cocción | Añadir líquido gradualmente y ajustar al final |\n| Salsa separada o seca | Exceso de temperatura o poca emulsión | Reducir el calor e integrar agua almidonada poco a poco |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si se guarda, refrigerar rápidamente en recipientes tapados y poco profundos. No dejar pescados, moluscos, pasta rellena fresca ni preparaciones con huevo a temperatura ambiente durante periodos prolongados. Seguir el etiquetado de productos comerciales.\n\n## Relaciones dentro del SGCC\n\n- [Cocer pasta](../00_Bases/03_Tecnicas/cocer_pasta.md)\n- [Preparar caldos culinarios](../00_Bases/03_Tecnicas/preparar_caldos_culinarios.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, pesos efectivos, tiempos, textura, resultado y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/tortellini_en_caldo_de_verduras.html",
+  "id": "REC-309",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "tortellini frescos refrigerados de relleno comercial, según el envase",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "300",
+        "raw": "300–350 g de tortellini frescos refrigerados de relleno comercial, según el envase",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "300–350 g de tortellini frescos refrigerados de relleno comercial, según el envase",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de verduras suave",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 ml de caldo de verduras suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "900 ml de caldo de verduras suave",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados muy pequeños",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de zanahoria en dados muy pequeños",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de zanahoria en dados muy pequeños",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro en rodajas finas",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de puerro en rodajas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de puerro en rodajas finas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta al gusto",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal y pimienta al gusto",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/tortellini_en_caldo_de_verduras.md",
+  "source_sha256": "3e82b221e8db4b0b3c999ca1de7948aa6826215231806352027f7cdee4985191",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Comprobar el etiquetado de los tortellini, especialmente tipo de relleno, alérgenos, conservación y tiempo mínimo de cocción."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Pochar zanahoria y puerro en aceite unos 5 minutos, sin dorar en exceso."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Añadir caldo, llevar a hervor suave y cocer 8–10 minutos hasta que las hortalizas estén tiernas."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Incorporar tortellini frescos y cocinar el tiempo que indique el fabricante, con hervor moderado, hasta que relleno y pasta estén completamente calientes y cocinados."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Probar el caldo antes de añadir sal, pues la pasta rellena y el caldo comercial pueden aportar bastante."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente con perejil y pimienta opcionales; no dejar la pasta en el caldo durante mucho tiempo porque se hinchará."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_pasta.html",
+      "label": "Cocer pasta",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.html",
+      "label": "Preparar caldos culinarios",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_caldos_culinarios.md"
+    }
+  ],
+  "title": "Tortellini en caldo de verduras",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

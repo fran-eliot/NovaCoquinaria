@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 13
+    },
+    "text": "\n# Merluza al horno con verduras y limón\n\n## Descripción\n\nMerluza sobre una cama de verduras precocinadas, para evitar que el pescado se seque mientras las verduras terminan de hacerse.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 min |\n| Horneado | 30–40 min en total |\n\n## Ingredientes\n\n- 2 lomos de merluza, 350–400 g en total;\n- 1 calabacín pequeño;\n- 1 pimiento rojo pequeño;\n- 1 cebolla;\n- 2 cucharadas de aceite de oliva;\n- 1 limón;\n- perejil, pimienta y sal moderada.\n\n**Alérgeno:** pescado.\n\n## Elaboración\n\n1. Precalentar horno a **200 °C**.\n2. Cortar verduras en tiras finas, mezclarlas con aceite y repartir en fuente.\n3. Hornear verduras **18–22 minutos**, hasta que comiencen a ablandarse.\n4. Secar los lomos de merluza, colocarlos encima y añadir pimienta, sal moderada y rodajas de limón.\n5. Hornear **10–15 minutos adicionales**, ajustando al grosor del pescado.\n6. Comprobar que el pescado alcance **63 °C en el centro** o esté opaco y se separe fácilmente; prolongar si fuera necesario.\n7. Terminar con perejil y unas gotas de limón.\n\n## Puntos críticos\n\n- Descongelar el pescado en refrigeración si procede.\n- Las verduras entran antes que la merluza.\n- No usar solo el tiempo como indicador de cocción.\n- Evitar contaminación cruzada.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Pescado seco | Exceso de tiempo | Añadir más tarde |\n| Verduras duras | Precocción insuficiente | Prolongar primera fase |\n| Mucha agua | Ingredientes húmedos | Secar y espaciar |\n\n## Relaciones\n\n- [Asar y gratinar](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Merluza](../11_Despensa/04_Pescados/merluza.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> El pescado se añade al final porque necesita menos tiempo que las verduras."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "baking",
+      "raw": "30–40 min en total",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/merluza_al_horno_con_verduras.html",
+  "id": "REC-0101",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza, 350–400 g en total;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 lomos de merluza, 350–400 g en total;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 lomos de merluza, 350–400 g en total;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín pequeño;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 calabacín pequeño;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 calabacín pequeño;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo pequeño;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo pequeño;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo pequeño;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "limón;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil, pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil, pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil, pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/merluza_al_horno_con_verduras.md",
+  "source_sha256": "2ca382e9ed8331e07dcb632ec7e2ef5ea27ef5b187c60ef0f6c66f8a55af6364",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **200 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Cortar verduras en tiras finas, mezclarlas con aceite y repartir en fuente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Hornear verduras **18–22 minutos**, hasta que comiencen a ablandarse."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Secar los lomos de merluza, colocarlos encima y añadir pimienta, sal moderada y rodajas de limón."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Hornear **10–15 minutos adicionales**, ajustando al grosor del pescado."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Comprobar que el pescado alcance **63 °C en el centro** o esté opaco y se separe fácilmente; prolongar si fuera necesario."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Terminar con perejil y unas gotas de limón."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar y gratinar",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    }
+  ],
+  "title": "Merluza al horno con verduras y limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

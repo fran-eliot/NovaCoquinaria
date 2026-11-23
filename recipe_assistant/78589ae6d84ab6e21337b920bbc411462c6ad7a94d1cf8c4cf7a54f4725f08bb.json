@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Sopa de coco con pollo y lima\n\n## Descripción\n\nSopa doméstica de inspiración tailandesa con pollo, leche de coco, jengibre, setas y lima. No se presenta como una fórmula regional de tom kha gai; utiliza ingredientes accesibles y una cocción suave.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Infusión aromática y cocción suave de ave |\n\n## Ingredientes\n\n- 450 g de pechuga de pollo en tiras medianas\n- 400 ml de leche de coco sin azúcar\n- 500 ml de caldo de pollo o agua\n- 200 g de champiñones laminados\n- 20 g de jengibre fresco en láminas\n- 1 tallo de lemongrass, ligeramente golpeado, opcional\n- 1 cucharada de salsa de pescado, opcional\n- 2 cucharadas de zumo de lima, ajustables\n- 1 guindilla pequeña opcional\n- sal al gusto\n\n**Alérgenos:** Pescado si se usa salsa de pescado; revisar el caldo comercial.\n\n## Mise en place\n\nCortar el pollo con utensilios separados y conservarlo refrigerado. Lavar el lemongrass si se usa; preparar el jengibre y las setas. No lavar pollo crudo.\n\n## Elaboración\n\n### 1. Infusionar\n\nCalentar caldo con jengibre, lemongrass opcional y chile opcional durante 5–7 minutos a hervor suave.\n\n### 2. Incorporar setas\n\nAñadir champiñones y cocinar 4–5 minutos hasta que estén tiernos.\n\n### 3. Añadir coco\n\nVerter leche de coco y calentar sin hervor violento para mantener la textura de la sopa.\n\n### 4. Cocinar pollo\n\nIntroducir el pollo y mantener hervor suave hasta que las piezas alcancen 74 °C en el centro, comprobando las más gruesas.\n\n### 5. Equilibrar\n\nRetirar lemongrass y láminas gruesas de jengibre si se desea. Añadir salsa de pescado opcional y lima fuera del fuego; probar antes de salar.\n\n## Puntos críticos\n\n- La seguridad del pollo exige una temperatura interna de 74 °C, no solo un color exterior claro.\n- La lima se incorpora al final para conservar su aroma y ajustar acidez.\n- La salsa de pescado y el caldo pueden aportar bastante sal.\n\n## Perfil esperado\n\nCaldo cremoso ligero, aromático, ácido y suavemente picante, con pollo jugoso y setas tiernas.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tofu | Sustituir pollo por tofu firme y ajustar alérgeno soja |\n| Con espinacas | Añadir hojas al final hasta tiernas |\n| Sin salsa de pescado | Ajustar sal; cambiará el perfil umami |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pollo insuficientemente hecho | Cocción corta | Medir 74 °C |\n| Sopa muy salada | Exceso de salsa de pescado | Añadir gradualmente |\n| Lima dominante | Dosis excesiva | Probar tras cada adición |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n- [Preparar sopas asiáticas](../00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md)\n- [Salsa de pescado](../11_Despensa/09_Salsas/salsa_de_pescado.md)\n\n## Principio de NovaCoquinaria\n\n> La infusión aromatiza el caldo; la proteína se incorpora después y se cocina hasta su punto seguro.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para infusión aromática y cocción suave de ave."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/sopa_de_coco_con_pollo_y_lima.html",
+  "id": "REC-0138",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pechuga de pollo en tiras medianas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de pechuga de pollo en tiras medianas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de pechuga de pollo en tiras medianas",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche de coco sin azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 ml de leche de coco sin azúcar",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "400 ml de leche de coco sin azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo o agua",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de caldo de pollo o agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de caldo de pollo o agua",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "champiñones laminados",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de champiñones laminados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de champiñones laminados",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre fresco en láminas",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de jengibre fresco en láminas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de jengibre fresco en láminas",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tallo de lemongrass, ligeramente golpeado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 tallo de lemongrass, ligeramente golpeado, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 tallo de lemongrass, ligeramente golpeado, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de pescado, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de salsa de pescado, opcional",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de salsa de pescado, opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de lima, ajustables",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de lima, ajustables",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de lima, ajustables",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla pequeña opcional",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 guindilla pequeña opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 guindilla pequeña opcional",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nCortar el pollo con utensilios separados y conservarlo refrigerado. Lavar el lemongrass si se usa; preparar el jengibre y las setas. No lavar pollo crudo.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/sopa_de_coco_con_pollo_y_lima.md",
+  "source_sha256": "a8d35a9cc217ad2e7190c373a09f266795c08d9ed687b655a8462bfbeff98e93",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Infusionar\n\nCalentar caldo con jengibre, lemongrass opcional y chile opcional durante 5–7 minutos a hervor suave.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Incorporar setas\n\nAñadir champiñones y cocinar 4–5 minutos hasta que estén tiernos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Añadir coco\n\nVerter leche de coco y calentar sin hervor violento para mantener la textura de la sopa.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Cocinar pollo\n\nIntroducir el pollo y mantener hervor suave hasta que las piezas alcancen 74 °C en el centro, comprobando las más gruesas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Equilibrar\n\nRetirar lemongrass y láminas gruesas de jengibre si se desea. Añadir salsa de pescado opcional y lima fuera del fuego; probar antes de salar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.html",
+      "label": "Preparar sopas asiáticas",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_sopas_asiaticas.md"
+    }
+  ],
+  "title": "Sopa de coco con pollo y lima",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Panellets catalanes de piñones\n\n## Origen y contexto\n\n**Región:** Cataluña, tradición de Todos los Santos. Formulación doméstica de referencia, pendiente de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 24–28 unidades |\n| Tiempo orientativo | 45 min activos más 2 h de reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de almendra molida\n- 200 g de azúcar\n- 1 huevo M\n- ralladura de medio limón\n- 150 g de piñones\n- 1 huevo adicional para el acabado\n\n**Alérgenos:** Almendras, huevo y piñones.\n\n## Elaboración\n\n1. Mezclar almendra, azúcar, ralladura y huevo hasta una masa compacta. No probar en crudo.\n2. Tapar y refrigerar 2 h. Dividir en bolitas de unos 18–22 g.\n3. Batir el huevo adicional, humedecer ligeramente las bolitas y cubrir con piñones presionando con suavidad.\n4. Pincelar con una capa fina de huevo y hornear en bandeja a 190 °C durante 10–15 min, hasta dorados y completamente cocidos.\n5. Enfriar en rejilla; manipular con cuidado mientras estén calientes.\n\n## Puntos críticos\n\n- Se elige una base de mazapán sin patata ni boniato; existen otras fórmulas domésticas. Evitar exceso de huevo para que la masa mantenga forma.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Se aplanan | Masa húmeda | Refrigerar y ajustar con almendra |\n| Piñones se desprenden | Poca adherencia | Humedecer con huevo y presionar |\n| Exterior quemado | Horno alto | Vigilar el dorado |\n\n## Conservación\n\nGuardar completamente fríos en recipiente cerrado y fresco; consumir en 2–3 días, refrigerar si el ambiente es cálido.\n\n## Relaciones dentro del SGCC\n\n- [marquesas de almendra de navidad](../08_Postres/marquesas_de_almendra_de_navidad.md)\n- [tostar frutos secos y semillas](../00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.inclusion.gob.es/ca/web/cartaespana/w/-panellets-dulces-de-todos-los-santos)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "45 min activos más 2 h de reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Cataluña, tradición de Todos los Santos. Formulación doméstica de referencia, pendiente de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/panellets_catalanes_de_pinones.html",
+  "id": "REC-572",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "almendra molida",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de almendra molida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de almendra molida",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo M",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo M",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo M",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura de medio limón",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura de medio limón",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura de medio limón",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "piñones",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de piñones",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de piñones",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo adicional para el acabado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo adicional para el acabado",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo adicional para el acabado",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/panellets_catalanes_de_pinones.md",
+  "source_sha256": "e77eb88806a767536701bdd7b77583e1daaa1ebfab7a65aca174daae401b1087",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Mezclar almendra, azúcar, ralladura y huevo hasta una masa compacta. No probar en crudo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Tapar y refrigerar 2 h. Dividir en bolitas de unos 18–22 g."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Batir el huevo adicional, humedecer ligeramente las bolitas y cubrir con piñones presionando con suavidad."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Pincelar con una capa fina de huevo y hornear en bandeja a 190 °C durante 10–15 min, hasta dorados y completamente cocidos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Enfriar en rejilla; manipular con cuidado mientras estén calientes."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.html",
+      "label": "tostar frutos secos y semillas",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/tostar_frutos_secos_y_semillas.md"
+    }
+  ],
+  "title": "Panellets catalanes de piñones",
+  "yield": {
+    "max": "28",
+    "min": "24",
+    "raw": "24–28 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

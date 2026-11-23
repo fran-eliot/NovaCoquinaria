@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Pimientos rellenos de arroz y atún al horno\n\n## Descripción\n\nPreparación de referencia centrada en **relleno precocido y asado de hortaliza**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Relleno precocido y asado de hortaliza |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 pimientos rojos medianos, de unos 200 g cada uno;\n- 160 g de arroz redondo seco;\n- 160 g de atún en conserva escurrido;\n- 150 g de tomate triturado;\n- 120 g de cebolla picada;\n- 2 dientes de ajo;\n- 450 ml de agua o caldo suave para el arroz, ajustables;\n- 2 cucharadas de aceite de oliva;\n- sal, pimienta y orégano;\n\n**Alérgenos:** Pescado; revisar caldo.\n\n## Elaboración\n\n1. Precalentar horno a 190 °C y preparar fuente profunda.\n2. Pochar cebolla y ajo en aceite, incorporar tomate y reducir unos 6 minutos.\n3. Añadir arroz y parte del agua o caldo; cocinar unos 8–10 minutos, dejando el grano parcialmente hecho y con humedad suficiente para terminar en el horno.\n4. Retirar del fuego, añadir el atún escurrido, mezclar y ajustar sal con moderación.\n5. Cortar la parte superior de los pimientos, retirar semillas y rellenar sin compactar totalmente, dejando margen para expansión del arroz.\n6. Colocar en fuente con un fondo de líquido, tapar con papel apto y hornear 30–45 minutos, destapando al final; comprobar que el arroz esté completamente cocido y el pimiento tierno.\n\n## Puntos críticos\n\n- El relleno parcialmente cocinado precisa suficiente líquido y tiempo de horno. No dejar arroz precocinado horas a temperatura ambiente.\n- Los tiempos y temperaturas de horno son orientativos; ajustar según el tamaño, el recipiente y el equipo. Comprobar siempre el punto del interior cuando corresponda.\n- Mantener condiciones higiénicas al manipular carnes, pescados y alimentos perecederos, y separar los utensilios usados en crudo.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección en una próxima prueba |\n|---|---|---|\n| Superficie muy oscura | Exceso de calor superior o tiempo largo | Cubrir temporalmente o reducir el grill |\n| Interior poco cocinado | Piezas gruesas o temperatura inadecuada | Comprobar el centro y prolongar la cocción |\n| Preparación seca | Exceso de tiempo o humedad insuficiente | Corregir tiempo o líquido en otra elaboración |\n\n## Conservación\n\nEnfriar rápidamente las sobras cocinadas y refrigerarlas en recipientes tapados y poco profundos. No dejar ingredientes perecederos ni arroz cocido varias horas a temperatura ambiente. Recalentar completamente cuando corresponda y seguir las indicaciones del fabricante en masas, conservas y productos envasados.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati por absorción](../01_Arroces/arroz_basmati_por_absorcion.md)\n- [Asar verduras](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar los pesos, ajustes, tiempo y temperatura reales, el punto de cocción, el resultado y su valoración. Estas cantidades no se atribuyen a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **relleno precocido y asado de hortaliza**. No consta elaboración ni valoración doméstica de esta versión; cantidades y tiempos se proponen para una primera prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/pimientos_rellenos_de_arroz_y_atun_al_horno.html",
+  "id": "REC-271",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pimientos rojos medianos, de unos 200 g cada uno;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 pimientos rojos medianos, de unos 200 g cada uno;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 pimientos rojos medianos, de unos 200 g cada uno;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "arroz redondo seco;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de arroz redondo seco;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de arroz redondo seco;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de atún en conserva escurrido;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de atún en conserva escurrido;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de cebolla picada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo suave para el arroz, ajustables;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 ml de agua o caldo suave para el arroz, ajustables;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "450 ml de agua o caldo suave para el arroz, ajustables;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta y orégano;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta y orégano;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta y orégano;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pimientos_rellenos_de_arroz_y_atun_al_horno.md",
+  "source_sha256": "195f26ea4fd2801d7fd932dae66090883e4e9fb892a1348dbeebe0c3dc951aea",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 190 °C y preparar fuente profunda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla y ajo en aceite, incorporar tomate y reducir unos 6 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir arroz y parte del agua o caldo; cocinar unos 8–10 minutos, dejando el grano parcialmente hecho y con humedad suficiente para terminar en el horno."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Retirar del fuego, añadir el atún escurrido, mezclar y ajustar sal con moderación."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Cortar la parte superior de los pimientos, retirar semillas y rellenar sin compactar totalmente, dejando margen para expansión del arroz."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Colocar en fuente con un fondo de líquido, tapar con papel apto y hornear 30–45 minutos, destapando al final; comprobar que el arroz esté completamente cocido y el pimiento tierno."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Pimientos rellenos de arroz y atún al horno",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

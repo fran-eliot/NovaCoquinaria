@@ -1,0 +1,268 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 114,
+      "start_line": 15
+    },
+    "text": "\n# Chocolate frío con cacao y canela\n\n## Descripción\n\nBebida fría de cacao puro, leche y canela, preparada con una base caliente pequeña para disolver el cacao antes de añadir el resto de la leche. Es distinta de un chocolate caliente espeso: se busca una textura fluida y homogénea.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 vasos de unos 250 ml |\n| Preparación | 10 minutos más enfriado |\n| Cocinado | 3–5 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Dispersión de cacao en caliente y enfriado rápido |\n\n## Ingredientes\n\n- 500 ml de leche entera, semidesnatada o bebida vegetal según preferencia\n- 20 g de cacao puro en polvo sin azúcar\n- 15–25 g de azúcar, ajustable\n- 1/4 cucharadita de canela molida\n- 1 pizca de sal\n- hielo para servir, opcional\n\n**Alérgenos:** Leche si se usa leche animal; revisar bebida vegetal y etiquetado del cacao.\n\n## Mise en place\n\nMedir cacao y azúcar. Reservar 350 ml de leche refrigerada y preparar cazo, varillas y jarra limpia resistente al calor. Usar hielo apto para consumo si se desea.\n\n## Elaboración\n\n### 1. Preparar pasta\n\nMezclar cacao, azúcar y sal con 2–3 cucharadas de leche fría hasta obtener una pasta sin grumos.\n\n### 2. Calentar base\n\nCalentar 150 ml de leche en cazo sin hervir de forma agresiva. Incorporar la pasta de cacao y canela, batiendo 1–2 minutos hasta integrar por completo.\n\n### 3. Completar\n\nRetirar del fuego y añadir la leche fría restante en varias tandas, mezclando hasta quedar homogéneo.\n\n### 4. Enfriar\n\nPasar a jarra limpia y enfriar con rapidez antes de refrigerar; no dejar una jarra grande templada durante horas.\n\n### 5. Servir\n\nRemover de nuevo y repartir en vasos fríos; añadir hielo al final. Ajustar dulzor tras probar, recordando que el frío atenúa su percepción.\n\n## Puntos críticos\n\n- El cacao se dispersa primero en poca leche para evitar grumos.\n- No es necesario espesar la bebida con almidón.\n- La leche preparada debe enfriarse rápidamente y mantenerse refrigerada.\n- Si se utiliza cacao ya azucarado, reducir el azúcar añadido según etiqueta.\n\n## Perfil esperado\n\nBebida fría de cacao intenso, ligeramente especiada, fluida y sin grumos ni sedimentos excesivos.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con vainilla | Añadir una pequeña cantidad de extracto adecuado al final; revisar posible alcohol. |\n| Sin leche animal | Utilizar bebida vegetal apta, ajustando el dulzor. |\n| Con café | Añadir una dosis pequeña de café frío previamente preparado; incorporará cafeína. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Prevención |\n|---|---|---|\n| Grumos de cacao | Polvo añadido directamente a mucha leche | Preparar pasta primero |\n| Bebida espesa | Cocción prolongada o espesantes | Calentar solo para dispersar |\n| Sabor plano | Poca cantidad de cacao | Ajustar proporción sin añadir azúcar por defecto |\n\n## Conservación\n\nMantener refrigerada y tapada; consumir pronto como cualquier bebida con leche preparada. No dejarla a temperatura ambiente durante horas. Remover antes de servir porque el cacao puede sedimentar.\n\n## Relaciones dentro del SGCC\n\n- [Cacao puro](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md)\n- [Leche entera](../11_Despensa/14_Huevos_Lacteos/leche_entera.md)\n- [Canela](../11_Despensa/08_Especias/canela.md)\n- [Chocolate caliente](./chocolate_caliente.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n\n## Principio de NovaCoquinaria\n\n> Dispersar primero el cacao en una base pequeña permite enfriar después una bebida homogénea sin necesidad de espesantes.\n\n## Utilizado por\n\nPreparaciones de referencia del módulo Bebidas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "10 minutos más enfriado",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "5",
+      "min": "3",
+      "phase": "cooking",
+      "raw": "3–5 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/chocolate_frio_con_canela.html",
+  "id": "REC-0189",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche entera, semidesnatada o bebida vegetal según preferencia",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 ml de leche entera, semidesnatada o bebida vegetal según preferencia",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "500 ml de leche entera, semidesnatada o bebida vegetal según preferencia",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro en polvo sin azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de cacao puro en polvo sin azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de cacao puro en polvo sin azúcar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustable",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "15",
+        "raw": "15–25 g de azúcar, ajustable",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "15–25 g de azúcar, ajustable",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "1/4 cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/4 cucharadita de canela molida",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nMedir cacao y azúcar. Reservar 350 ml de leche refrigerada y preparar cazo, varillas y jarra limpia resistente al calor. Usar hielo apto para consumo si se desea.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/chocolate_frio_con_canela.md",
+  "source_sha256": "9ff13ea727e14feae0c668cdc2b209d045bdf6234eebc22b2165814f12afde55",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Preparar pasta\n\nMezclar cacao, azúcar y sal con 2–3 cucharadas de leche fría hasta obtener una pasta sin grumos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Calentar base\n\nCalentar 150 ml de leche en cazo sin hervir de forma agresiva. Incorporar la pasta de cacao y canela, batiendo 1–2 minutos hasta integrar por completo.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Completar\n\nRetirar del fuego y añadir la leche fría restante en varias tandas, mezclando hasta quedar homogéneo.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 4,
+      "text": "4. Enfriar\n\nPasar a jarra limpia y enfriar con rapidez antes de refrigerar; no dejar una jarra grande templada durante horas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 5,
+      "text": "5. Servir\n\nRemover de nuevo y repartir en vasos fríos; añadir hielo al final. Ajustar dulzor tras probar, recordando que el frío atenúa su percepción.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Chocolate frío con cacao y canela",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "2 vasos de unos 250 ml",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

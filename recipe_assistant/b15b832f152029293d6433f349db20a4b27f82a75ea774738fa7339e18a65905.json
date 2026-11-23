@@ -1,0 +1,214 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 14
+    },
+    "text": "\n# Mousse de chocolate sin huevo crudo\n\n## Descripción\n\nElaboración de referencia que trabaja **emulsión de chocolate y nata montada**, sin atribuirla a una tanda doméstica ya realizada. Las cantidades constituyen una propuesta de partida para una prueba reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 5 vasitos |\n| Técnica | Emulsión de chocolate y nata montada |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 180 g de chocolate negro para fundir (aprox. 60–70 % cacao);\n- 300 ml de nata para montar bien fría, con materia grasa adecuada para montar;\n- 25 g de azúcar glas, ajustable al chocolate;\n- 40 ml de leche;\n- 1 pizca de sal;\n\n**Alérgenos:** Leche; soja y frutos secos posibles según el chocolate.\n\n## Elaboración\n\n1. Picar el chocolate y fundirlo suavemente al baño maría o en microondas en pulsos cortos, sin quemarlo.\n2. Calentar 40 ml de leche e incorporarla al chocolate hasta obtener una ganache lisa; dejar templar hasta que esté fluida, no caliente.\n3. Montar la nata fría con el azúcar glas hasta picos suaves, sin convertirla en mantequilla.\n4. Mezclar una cuarta parte de la nata montada con el chocolate para igualar densidades.\n5. Integrar el resto con movimientos envolventes, repartir entre cinco vasitos y refrigerar tapados al menos 4 horas.\n6. Servir frío; registrar firmeza y dulzor para ajustar la siguiente repetición.\n\n## Puntos críticos\n\n- La ganache debe estar templada y todavía fluida antes de mezclarla con la nata montada: demasiado caliente deshace la espuma y demasiado fría forma grumos de chocolate.\n- Montar la nata fría hasta **picos suaves**, incorporar primero una cuarta parte para igualar densidades y añadir el resto con movimientos envolventes. Esta mousse **no se hornea ni contiene huevo crudo**.\n- Mantener la nata en frío y refrigerar los vasitos después del montaje, sin dejarlos a temperatura ambiente durante un tiempo prolongado.\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en una prueba posterior |\n|---|---|---|\n| Mousse líquida o sin aire | Ganache demasiado caliente o nata poco montada | Dejar templar el chocolate y montar nata fría hasta picos suaves antes de incorporarla |\n| Grumos sólidos de chocolate | Ganache demasiado fría al combinar con la nata | Integrar mientras esté fluida y templada, sin recalentar la mousse ya montada |\n| Textura granulosa o grasa | Nata excesivamente batida | Detener el batido en picos suaves y trabajar la mezcla sin sobrebatir |\n| Mousse demasiado dulce | Azúcar glas añadido a un chocolate ya dulce | Evaluar la primera tanda antes de ajustar los 25 g de azúcar glas en otra prueba |\n## Conservación\n\nRefrigerar **tapados** los cinco vasitos durante el reposo indicado y mantener la mousse de nata y chocolate siempre en frío. Servir sin prolongar su exposición a temperatura ambiente y devolver al frigorífico cualquier porción sobrante. Consumir en un plazo corto de acuerdo con la frescura de la nata empleada; no tratarla como una elaboración de chocolate estable a temperatura ambiente.\n## Relaciones dentro del SGCC\n\n- [Cacao puro](../11_Despensa/15_Reposteria/cacao_puro_en_polvo.md)\n- [Cocinar al baño maría](../00_Bases/03_Tecnicas/cocinar_al_bano_maria.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar pesos realmente empleados, utensilio, tiempos, resultado sensorial y valoración antes de considerar probada la receta. La formulación se conserva separada de las versiones domésticas preferidas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/mousse_de_chocolate_sin_huevo_crudo.html",
+  "id": "REC-0236",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "chocolate negro para fundir (aprox. 60–70 % cacao);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de chocolate negro para fundir (aprox. 60–70 % cacao);",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de chocolate negro para fundir (aprox. 60–70 % cacao);",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar bien fría, con materia grasa adecuada para montar;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de nata para montar bien fría, con materia grasa adecuada para montar;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de nata para montar bien fría, con materia grasa adecuada para montar;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas, ajustable al chocolate;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "25",
+        "min": "25",
+        "raw": "25 g de azúcar glas, ajustable al chocolate;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "25 g de azúcar glas, ajustable al chocolate;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "40 ml de leche;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "sal;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal;",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/mousse_de_chocolate_sin_huevo_crudo.md",
+  "source_sha256": "9c45f675d3ba543475e1c8e7467780fa89ffe4ba0b7af9e98425cc22c5aee3bf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Picar el chocolate y fundirlo suavemente al baño maría o en microondas en pulsos cortos, sin quemarlo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Calentar 40 ml de leche e incorporarla al chocolate hasta obtener una ganache lisa; dejar templar hasta que esté fluida, no caliente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Montar la nata fría con el azúcar glas hasta picos suaves, sin convertirla en mantequilla."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Mezclar una cuarta parte de la nata montada con el chocolate para igualar densidades."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Integrar el resto con movimientos envolventes, repartir entre cinco vasitos y refrigerar tapados al menos 4 horas."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Servir frío; registrar firmeza y dulzor para ajustar la siguiente repetición."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.html",
+      "label": "Cocinar al baño maría",
+      "source_location": {
+        "end_line": 67,
+        "start_line": 67
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_al_bano_maria.md"
+    }
+  ],
+  "title": "Mousse de chocolate sin huevo crudo",
+  "yield": {
+    "max": "5",
+    "min": "5",
+    "raw": "5 vasitos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vasito"
+  }
+}

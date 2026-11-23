@@ -1,0 +1,280 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Espaguetis con gambas, ajo y limón\n\n## Descripción\n\nEspaguetis con gambas salteadas brevemente, aceite aromatizado de ajo y limón añadido al final. El punto clave es retirar el marisco mientras se liga la pasta para evitar que se seque.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Tiempo total orientativo | 20–25 minutos |\n| Dificultad | Media |\n| Técnica principal | Salteado breve de marisco y emulsión |\n\n## Ingredientes\n\n- 200 g de espaguetis\n- 250 g de gambas peladas y limpias, refrigeradas o descongeladas en frío\n- 2 dientes de ajo laminados finos\n- 3 cucharadas de aceite de oliva virgen extra\n- 1/2 limón, ralladura fina y 1 cucharada de zumo, ajustable\n- 1 cucharada de perejil fresco picado, opcional\n- 1 pizca de guindilla, opcional\n- sal, pimienta negra y agua de cocción\n\n**Alérgenos:** Gluten (pasta de trigo) y crustáceos (gambas).\n\n## Mise en place\n\nMantener las gambas frías y secarlas bien. Revisar y retirar vena intestinal si procede. Lavar el limón, rallar sin incluir parte blanca y preparar una sartén amplia; evitar contaminación cruzada con marisco crudo.\n\n## Elaboración\n\n### 1. Cocer espaguetis\n\nPoner a hervir agua con sal moderada y cocer la pasta ligeramente antes del punto al dente. Reservar una taza de agua de cocción.\n\n### 2. Aromatizar aceite\n\nCalentar 2 cucharadas de aceite a fuego moderado y cocinar el ajo durante 30–60 segundos; añadir guindilla opcional sin quemarla.\n\n### 3. Saltear gambas\n\nSubir ligeramente el fuego, incorporar las gambas secas en una capa y cocinarlas por tandas si es necesario, aproximadamente 1–2 minutos por lado según tamaño, hasta que estén completamente cocinadas, firmes y opacas. Reservar.\n\n### 4. Emulsionar pasta\n\nIncorporar espaguetis a la sartén, aceite restante y unas cucharadas de agua almidonada. Mover 1–2 minutos hasta que la pasta se recubra de un brillo ligero.\n\n### 5. Terminar\n\nDevolver las gambas solo para calentarlas brevemente. Apagar el fuego, incorporar limón y perejil, ajustar sal y servir inmediatamente.\n\n## Puntos críticos\n\n- Secar las gambas facilita dorado y reduce salpicaduras.\n- No mantener gambas en el fuego mientras se termina la pasta.\n- El zumo ácido se añade tras apagar el fuego para conservar frescura.\n- La salsa brillante surge de aceite y agua de cocción, no de agregar grandes cantidades de aceite solo.\n\n## Perfil esperado\n\nEspaguetis brillantes, sin grasa separada, con gambas jugosas y un aroma nítido de limón y ajo.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con calabacín | Saltear 100 g en tiras antes de las gambas y reservar. |\n| Con chile | Añadir una pizca a la grasa del ajo sin quemarla. |\n| Con alcaparras | Añadir una cucharadita escurrida y reducir sal final. |\n\n## Errores frecuentes\n\n| Error | Causa probable | Prevención |\n|---|---|---|\n| Gambas secas | Cocción prolongada | Reservarlas mientras se liga la pasta |\n| Salsa aceitosa | Poca agua de pasta | Emulsionar moviendo con líquido almidonado |\n| Ajo amargo | Ajo tostado en exceso | Controlar calor y retirarlo si oscurece demasiado |\n\n## Conservación\n\nConsumir preferiblemente al momento. Enfriar rápidamente cualquier sobra y refrigerar en envase tapado; recalentar por completo, asumiendo pérdida de jugosidad. No mantener marisco cocinado muchas horas templado.\n\n## Relaciones dentro del SGCC\n\n- [Gambas](../11_Despensa/05_Mariscos/gambas.md)\n- [Limón](../11_Despensa/11_Condimentos/limon.md)\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n\n## Principio de NovaCoquinaria\n\n> La pasta se liga por separado y las gambas regresan al final: un marisco de cocción corta no necesita esperar a la salsa.\n\n## Utilizado por\n\nPreparaciones de referencia de pastas y sus técnicas relacionadas."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_con_gambas_y_limon.html",
+  "id": "REC-0174",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espaguetis",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espaguetis",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "gambas peladas y limpias, refrigeradas o descongeladas en frío",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de gambas peladas y limpias, refrigeradas o descongeladas en frío",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de gambas peladas y limpias, refrigeradas o descongeladas en frío",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados finos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados finos",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados finos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "limón, ralladura fina y 1 cucharada de zumo, ajustable",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 limón, ralladura fina y 1 cucharada de zumo, ajustable",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 limón, ralladura fina y 1 cucharada de zumo, ajustable",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil fresco picado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de perejil fresco picado, opcional",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de perejil fresco picado, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "guindilla, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de guindilla, opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de guindilla, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, pimienta negra y agua de cocción",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal, pimienta negra y agua de cocción",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal, pimienta negra y agua de cocción",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nMantener las gambas frías y secarlas bien. Revisar y retirar vena intestinal si procede. Lavar el limón, rallar sin incluir parte blanca y preparar una sartén amplia; evitar contaminación cruzada con marisco crudo.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/espaguetis_con_gambas_y_limon.md",
+  "source_sha256": "e0d6f48f6a13d7abf594fb59277d1c894f7a2bb6cc39bff3dc96fcf83a5207e2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Cocer espaguetis\n\nPoner a hervir agua con sal moderada y cocer la pasta ligeramente antes del punto al dente. Reservar una taza de agua de cocción.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Aromatizar aceite\n\nCalentar 2 cucharadas de aceite a fuego moderado y cocinar el ajo durante 30–60 segundos; añadir guindilla opcional sin quemarla.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Saltear gambas\n\nSubir ligeramente el fuego, incorporar las gambas secas en una capa y cocinarlas por tandas si es necesario, aproximadamente 1–2 minutos por lado según tamaño, hasta que estén completamente cocinadas, firmes y opacas. Reservar.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Emulsionar pasta\n\nIncorporar espaguetis a la sartén, aceite restante y unas cucharadas de agua almidonada. Mover 1–2 minutos hasta que la pasta se recubra de un brillo ligero.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nDevolver las gambas solo para calentarlas brevemente. Apagar el fuego, incorporar limón y perejil, ajustar sal y servir inmediatamente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 106,
+        "start_line": 106
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Espaguetis con gambas, ajo y limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

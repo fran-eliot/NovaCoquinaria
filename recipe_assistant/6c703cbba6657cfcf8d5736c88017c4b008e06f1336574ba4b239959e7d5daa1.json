@@ -1,0 +1,252 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Hinojo asado con naranja y aceitunas\n\n## Descripción\n\nPreparación de referencia centrada en **asado escalonado y acabado cítrico**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 como guarnición |\n| Técnica | Asado escalonado y acabado cítrico |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 2 bulbos de hinojo, unos 600 g limpios\n- 1 naranja grande\n- 60 g de aceitunas negras deshuesadas\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de miel opcional\n- sal y pimienta\n\n**Alérgenos:** Revisar aceitunas comerciales.\n\n## Elaboración\n\n1. Precalentar el horno a 200 °C, calor arriba y abajo.\n2. Lavar los bulbos, retirar partes exteriores dañadas y cortar en gajos de 1,5–2 cm manteniendo algo de base para que no se separen.\n3. Disponer en una bandeja amplia, mezclar con aceite, sal y pimienta y asar 20 minutos.\n4. Dar la vuelta a los gajos y hornear otros 12–18 minutos hasta que estén tiernos y dorados.\n5. Mientras, rallar una pequeña cantidad de piel de naranja y exprimir 60 ml de zumo; reducir el zumo 2–3 minutos en un cazo si se desea concentrar.\n6. Mezclar hinojo asado con zumo, ralladura, aceitunas y miel opcional, y servir templado.\n\n## Puntos críticos\n\n- No incorporar zumo desde el inicio: incrementa la humedad y dificulta el dorado. Las aceitunas aportan sal; corregir al final.\n- Los tiempos dependen del tamaño, variedad y equipo; comprobar la textura de cada hortaliza antes de servir.\n- Lavar y manipular con higiene los productos frescos; evitar contaminación cruzada y refrigerar los ingredientes perecederos.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Textura acuosa | Verdura húmeda o líquido excesivo | Escurrir y reducir antes de terminar |\n| Exterior oscuro e interior duro | Calor excesivo o cortes gruesos | Reducir calor y ajustar grosor o precocción |\n| Condimento desequilibrado | Sal o acidez incorporadas demasiado pronto | Ajustar al final tras probar |\n\n## Conservación\n\nServir preferiblemente recién preparado. Enfriar rápidamente las sobras cocinadas y refrigerar sin demora en recipientes poco profundos. Mantener refrigerados los platos con queso o lácteos y las hortalizas cortadas destinadas al consumo en frío. No dejarlos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras al horno](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Pimientos asados y aliñados](./pimientos_asados_y_aliñados.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, equipo, tiempos, textura y valoración. No se modifican ni se presuponen resultados de preparaciones anteriores."
+  },
+  "diagnostics": [
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      }
+    }
+  ],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **asado escalonado y acabado cítrico**. No consta una elaboración doméstica ni valoración de esta fórmula; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/hinojo_asado_con_naranja_y_aceitunas.html",
+  "id": "REC-341",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "bulbos de hinojo, unos 600 g limpios",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 bulbos de hinojo, unos 600 g limpios",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 bulbos de hinojo, unos 600 g limpios",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "naranja grande",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 naranja grande",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 naranja grande",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceitunas negras deshuesadas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de aceitunas negras deshuesadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de aceitunas negras deshuesadas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel opcional",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/hinojo_asado_con_naranja_y_aceitunas.md",
+  "source_sha256": "b0241e12e210296abc6a17587240a99dc999f465c563a78ca96925398b94ab7e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 200 °C, calor arriba y abajo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Lavar los bulbos, retirar partes exteriores dañadas y cortar en gajos de 1,5–2 cm manteniendo algo de base para que no se separen."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Disponer en una bandeja amplia, mezclar con aceite, sal y pimienta y asar 20 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Dar la vuelta a los gajos y hornear otros 12–18 minutos hasta que estén tiernos y dorados."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Mientras, rallar una pequeña cantidad de piel de naranja y exprimir 60 ml de zumo; reducir el zumo 2–3 minutos en un cazo si se desea concentrar."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Mezclar hinojo asado con zumo, ralladura, aceitunas y miel opcional, y servir templado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras al horno",
+      "source_location": {
+        "end_line": 69,
+        "start_line": 69
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    }
+  ],
+  "title": "Hinojo asado con naranja y aceitunas",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "4 como guarnición",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": null
+  }
+}

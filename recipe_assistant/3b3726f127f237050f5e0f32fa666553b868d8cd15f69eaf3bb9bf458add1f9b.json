@@ -1,0 +1,286 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 13
+    },
+    "text": "\n# Lomo de cerdo con salsa de mostaza\n\n## Descripción\n\nFiletes de lomo de cerdo con salsa suave de mostaza y caldo, preparados en sartén sin prolongar innecesariamente la cocción de la carne magra.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 10 min |\n| Cocción | 15–20 min, orientativos |\n| Técnica | Dorado y salsa corta |\n\n## Ingredientes\n\n- 450 g de lomo de cerdo en filetes;\n- 1 cucharada de aceite de oliva;\n- 1/2 cebolla (80 g), picada;\n- 1 cucharada de mostaza de Dijon;\n- 120 ml de caldo;\n- 50 ml de nata de cocinar, opcional;\n- sal y pimienta negra.\n\n**Alérgenos:** mostaza; leche si se utiliza nata. Comprobar también el caldo comercial.\n\n## Elaboración\n\n1. Preparar cebolla en utensilios limpios. Secar y sazonar el lomo, manteniendo higiene con la carne cruda.\n2. Dorar filetes en sartén con aceite, sin amontonar. Cocinar hasta alcanzar **63 °C en el centro y reposar 3 minutos** como referencia para piezas enteras de cerdo, siguiendo las indicaciones del producto.\n3. Reservar en plato limpio. Pochar cebolla a fuego medio-bajo unos 5 minutos.\n4. Incorporar caldo y mostaza, remover y reducir unos minutos.\n5. Añadir nata opcional a fuego suave, sin hervir violentamente.\n6. Incorporar el lomo ya cocinado brevemente para recubrir con salsa sin resecar.\n\n## Puntos críticos\n\n- El lomo es magro y puede secarse si se prolonga la cocción.\n- La mostaza aporta acidez y sal: ajustar al final.\n- La nata puede separarse con ebullición intensa.\n- Evitar contaminación cruzada.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin nata | Reducir caldo para salsa ligera |\n| Con champiñones | Saltear antes de incorporar caldo |\n| Con tomillo | Añadir al pochado |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Lomo seco | Cocción prolongada | Controlar temperatura |\n| Salsa líquida | Reducción insuficiente | Reducir antes de añadir nata |\n| Salsa cortada | Calor alto tras lácteo | Cocinar suavemente |\n\n## Conservación\n\nEnfriar y refrigerar rápidamente. Recalentar completamente, con fuego suave para proteger la salsa.\n\n## Relaciones dentro del SGCC\n\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Sellar y cocinar filetes](../00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa se termina después de cocinar el lomo para evitar resecar una carne magra."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "15–20 min, orientativos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/lomo_de_cerdo_con_mostaza.html",
+  "id": "REC-0054",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomo de cerdo en filetes;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de lomo de cerdo en filetes;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de lomo de cerdo en filetes;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla (80 g), picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cebolla (80 g), picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 cebolla (80 g), picada;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de mostaza de Dijon;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de mostaza de Dijon;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de caldo;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de caldo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nata de cocinar, opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de nata de cocinar, opcional;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de nata de cocinar, opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/lomo_de_cerdo_con_mostaza.md",
+  "source_sha256": "c8239379cd33ef7c313f8ccc97998af313889b679c915cc9ab0bde0c31452704",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Preparar cebolla en utensilios limpios. Secar y sazonar el lomo, manteniendo higiene con la carne cruda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Dorar filetes en sartén con aceite, sin amontonar. Cocinar hasta alcanzar **63 °C en el centro y reposar 3 minutos** como referencia para piezas enteras de cerdo, siguiendo las indicaciones del producto."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Reservar en plato limpio. Pochar cebolla a fuego medio-bajo unos 5 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Incorporar caldo y mostaza, remover y reducir unos minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Añadir nata opcional a fuego suave, sin hervir violentamente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Incorporar el lomo ya cocinado brevemente para recubrir con salsa sin resecar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.html",
+      "label": "Sellar y cocinar filetes",
+      "source_location": {
+        "end_line": 80,
+        "start_line": 80
+      },
+      "source_path": "00_Bases/03_Tecnicas/sellar_y_cocinar_filetes.md"
+    }
+  ],
+  "title": "Lomo de cerdo con salsa de mostaza",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

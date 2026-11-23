@@ -1,0 +1,277 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 59,
+      "start_line": 13
+    },
+    "text": "\n# Té chai especiado con leche\n\n## Descripción\nAdaptación doméstica de masala chai: té negro cocido con especias y terminado con leche.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 5 min |\n| Cocción | 10–15 min |\n\n## Ingredientes\n- 300 ml de agua;\n- 250 ml de leche;\n- 2 cucharaditas de té negro;\n- 3 vainas de cardamomo ligeramente abiertas;\n- 1 rama pequeña de canela;\n- 2 rodajas de jengibre fresco;\n- 2 clavos de olor, opcionales;\n- azúcar al gusto.\n\n**Alérgeno:** leche. El té negro contiene cafeína.\n\n## Elaboración\n1. Llevar agua y especias a hervor suave durante 5–8 minutos.\n2. Añadir té negro y dejar infusionar 2–3 minutos.\n3. Incorporar leche y azúcar; calentar suavemente 2–3 minutos, vigilando que no se desborde.\n4. Colar y servir caliente.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Amargo | Té sobreextraído | Reducir tiempo |\n| Poco especiado | Infusión breve | Cocer especias antes de añadir té |\n| Leche desbordada | Hervor fuerte | Reducir fuego |\n\n## Conservación\nRefrigerar pronto si no se consume inmediatamente; recalentar completamente y evitar múltiples ciclos de calentamiento.\n\n## Relaciones\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Índice de bebidas](./README.md)\n\n## Principio de NovaCoquinaria\n> Las especias se extraen antes que el té para evitar amargor."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": "15",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10–15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/te_chai.html",
+  "id": "REC-0088",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "agua;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de agua;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de agua;",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "leche;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de leche;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de leche;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "té negro;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de té negro;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de té negro;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "vainas de cardamomo ligeramente abiertas;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 vainas de cardamomo ligeramente abiertas;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "3 vainas de cardamomo ligeramente abiertas;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "pequeña de canela;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama pequeña de canela;",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama pequeña de canela;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "rodajas de jengibre fresco;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 rodajas de jengibre fresco;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 rodajas de jengibre fresco;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "clavos de olor, opcionales;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 clavos de olor, opcionales;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 clavos de olor, opcionales;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar al gusto.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar al gusto.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "azúcar al gusto.",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/te_chai.md",
+  "source_sha256": "a2ffd81f746e7b93a1217fd08d0447fcb8e6b8f10a48de59a41d4f6b1294c6c6",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 1,
+      "text": "Llevar agua y especias a hervor suave durante 5–8 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 2,
+      "text": "Añadir té negro y dejar infusionar 2–3 minutos."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 3,
+      "text": "Incorporar leche y azúcar; calentar suavemente 2–3 minutos, vigilando que no se desborde."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 4,
+      "text": "Colar y servir caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Té chai especiado con leche",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

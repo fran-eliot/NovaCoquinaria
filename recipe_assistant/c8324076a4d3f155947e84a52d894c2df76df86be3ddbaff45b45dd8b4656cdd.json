@@ -1,0 +1,248 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 111,
+      "start_line": 15
+    },
+    "text": "\n# Espaguetis cacio e pepe\n\n## Descripción\n\nPreparación romana de pasta con Pecorino Romano y pimienta negra. Su carácter depende del ligado del queso rallado con agua de cocción y del control de temperatura, sin nata.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocinado | 12–18 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Emulsión de queso y agua de pasta |\n\n## Ingredientes\n\n- 200 g de espaguetis secos\n- 75 g de Pecorino Romano finamente rallado\n- 1–1½ cucharaditas de pimienta negra recién molida, al gusto\n- agua para cocer la pasta\n- sal para el agua, con moderación por el queso\n\n**Alérgenos:** **Gluten** (pasta de trigo) y **leche** (queso).\n\n## Mise en place\n\nRallar el queso muy fino y dejarlo a temperatura ambiente durante la preparación. Moler la pimienta y reservar una sartén amplia; no añadir queso directamente a una sartén excesivamente caliente.\n\n## Elaboración\n\n### 1. Tostar la pimienta\n\nCalentar la pimienta en una sartén seca a fuego moderado 30–60 segundos, solo hasta que desprenda aroma; incorporar unas cucharadas de agua para detener el tostado.\n\n### 2. Cocer la pasta\n\nCocer los espaguetis en agua moderadamente salada hasta poco antes del punto deseado. Reservar al menos 250 ml de agua almidonada antes de transferirlos.\n\n### 3. Acabar la cocción\n\nPasar la pasta a la sartén con pimienta y un poco de agua de cocción; mover 1–2 minutos hasta alcanzar el punto y apagar el fuego.\n\n### 4. Preparar el queso\n\nMezclar el queso rallado en un bol con pequeñas cucharadas de agua de cocción que haya perdido el calor intenso, hasta formar una crema espesa sin grumos.\n\n### 5. Ligar fuera del fuego\n\nEsperar a que la sartén deje de emitir calor excesivo. Añadir la crema de queso mientras se mueve la pasta continuamente; incorporar agua templada de cocción poco a poco hasta formar una película cremosa. Servir enseguida.\n\n## Puntos críticos\n\n- El queso puede apelmazarse si se incorpora con temperatura excesiva; retirar del calor no garantiza por sí solo que la sartén esté suficientemente templada.\n- La cantidad de agua necesaria depende del queso, el almidón y la evaporación: ajustar en tandas.\n- El Pecorino ya es salado; probar antes de añadir sal.\n\n## Perfil esperado\n\nSalsa lisa y adherente, sabor marcado a queso de oveja y pimienta aromática, sin charcos de grasa ni grumos.\n\n## Variantes y sustituciones\n\n| Variante | Ajuste |\n|---|---|\n| Con tonnarelli | Usar pasta larga de sección cuadrada y ajustar la cocción |\n| Menos intensa | Reducir ligeramente pimienta, conservando el protagonismo del Pecorino |\n| Adaptación con otro queso curado | Cambiará el sabor y la facilidad de emulsión; no es la formulación romana clásica |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Queso en grumos | Exceso de calor | Crear crema aparte e incorporar fuera del fuego con control térmico |\n| Salsa aguada | Demasiada agua | Añadir líquido en dosis pequeñas |\n| Salsa seca | Insuficiente fase acuosa | Añadir pequeñas cantidades de agua almidonada |\n\n## Conservación\n\nConsumir preferiblemente recién preparada. Enfriar las sobras sin demoras y refrigerar en recipientes tapados y poco profundos. Recalentar completamente cuando corresponda; la salsa puede perder textura y requerir algo de líquido. No dejar a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Pasta seca](../11_Despensa/01_Cereales/pasta_seca.md)\n- [Integrar salsas sensibles al calor](../00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Diagnóstico de problemas de pasta](../98_Tablas/07_Comparativas/diagnostico_pasta_y_salsas.md)\n\n## Principio de NovaCoquinaria\n\n> En cacio e pepe, el equilibrio entre temperatura, queso y agua es la verdadera técnica.\n\n## Utilizado por\n\nReceta de referencia del módulo **Pastas**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "18",
+      "min": "12",
+      "phase": "cooking",
+      "raw": "12–18 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "02_Pastas/espaguetis_cacio_e_pepe.html",
+  "id": "REC-0112",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "espaguetis secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de espaguetis secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de espaguetis secos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "Pecorino Romano finamente rallado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 g de Pecorino Romano finamente rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "75 g de Pecorino Romano finamente rallado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra recién molida, al gusto",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "1",
+        "raw": "1–1½ cucharaditas de pimienta negra recién molida, al gusto",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–1½ cucharaditas de pimienta negra recién molida, al gusto",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para cocer la pasta",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua para cocer la pasta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua para cocer la pasta",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal para el agua, con moderación por el queso",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal para el agua, con moderación por el queso",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal para el agua, con moderación por el queso",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nRallar el queso muy fino y dejarlo a temperatura ambiente durante la preparación. Moler la pimienta y reservar una sartén amplia; no añadir queso directamente a una sartén excesivamente caliente.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 42
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/espaguetis_cacio_e_pepe.md",
+  "source_sha256": "d3d0a3de5dc7e950454a1324a82e58c3e98671e5de673844c6f4c4928470e1fc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "1. Tostar la pimienta\n\nCalentar la pimienta en una sartén seca a fuego moderado 30–60 segundos, solo hasta que desprenda aroma; incorporar unas cucharadas de agua para detener el tostado.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 52
+      },
+      "source_number": 2,
+      "text": "2. Cocer la pasta\n\nCocer los espaguetis en agua moderadamente salada hasta poco antes del punto deseado. Reservar al menos 250 ml de agua almidonada antes de transferirlos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 59,
+        "start_line": 56
+      },
+      "source_number": 3,
+      "text": "3. Acabar la cocción\n\nPasar la pasta a la sartén con pimienta y un poco de agua de cocción; mover 1–2 minutos hasta alcanzar el punto y apagar el fuego.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 63,
+        "start_line": 60
+      },
+      "source_number": 4,
+      "text": "4. Preparar el queso\n\nMezclar el queso rallado en un bol con pequeñas cucharadas de agua de cocción que haya perdido el calor intenso, hasta formar una crema espesa sin grumos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 67,
+        "start_line": 64
+      },
+      "source_number": 5,
+      "text": "5. Ligar fuera del fuego\n\nEsperar a que la sartén deje de emitir calor excesivo. Añadir la crema de queso mientras se mueve la pasta continuamente; incorporar agua templada de cocción poco a poco hasta formar una película cremosa. Servir enseguida.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.html",
+      "label": "Integrar salsas sensibles al calor",
+      "source_location": {
+        "end_line": 101,
+        "start_line": 101
+      },
+      "source_path": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 102,
+        "start_line": 102
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    }
+  ],
+  "title": "Espaguetis cacio e pepe",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

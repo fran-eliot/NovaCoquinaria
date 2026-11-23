@@ -1,0 +1,211 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 105,
+      "start_line": 15
+    },
+    "text": "\n# Arroz basmati por absorción\n\n## Descripción\n\nCocción de arroz basmati en una cantidad medida de agua, con tapa y reposo final. Permite obtener granos sueltos sin escurrido, ajustando la proporción a la variedad y al recipiente.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 guarniciones |\n| Preparación | 10 minutos |\n| Cocinado | 12–16 minutos, más reposo |\n| Dificultad | Fácil–media |\n| Técnica principal | Cocción por absorción |\n\n## Ingredientes\n\n- 280 g de arroz basmati seco\n- 420 ml de agua potable, cantidad inicial orientativa para arroz lavado\n- 1/2 cucharadita de sal, al gusto\n- 1 cucharadita de aceite neutro o mantequilla, opcional\n\n**Alérgenos:** Leche solo si se añade mantequilla.\n\n## Mise en place\n\nLavar el arroz en varias aguas hasta reducir la turbidez y escurrirlo bien. Medir agua y utilizar cazuela con tapa que cierre correctamente.\n\n## Elaboración\n\n### 1. Combinar\n\nPoner arroz escurrido, agua medida y sal en cazuela. Añadir grasa opcional y llevar a hervor suave.\n\n### 2. Tapar\n\nEn cuanto hierva, tapar y reducir al fuego mínimo. Cocinar 10–12 minutos sin levantar repetidamente la tapa.\n\n### 3. Comprobar\n\nApartar del fuego cuando el líquido se haya absorbido y los granos estén tiernos. Si todavía están firmes, añadir unas cucharadas de agua caliente y continuar brevemente tapado.\n\n### 4. Reposar\n\nDejar reposar tapado 5–10 minutos fuera del fuego; soltar con tenedor y servir.\n\n## Puntos críticos\n\n- La cantidad de agua depende de lavado, variedad, remojo previo y hermeticidad de la tapa; utilizar la referencia como punto de partida.\n- Levantar la tapa constantemente modifica la evaporación.\n- El reposo termina de distribuir la humedad sin remover en exceso.\n\n## Perfil esperado\n\nGranos aromáticos, cocidos y separados, sin agua libre ni fondo quemado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con cardamomo | Añadir una vaina ligeramente abierta durante la cocción y retirarla |\n| Con limón | Añadir ralladura al servir |\n| Con arroz sin lavar | Ajustar líquido según fabricante y observar el resultado |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Arroz duro | Falta de agua o calor insuficiente | Añadir poca agua caliente y continuar tapado |\n| Arroz pastoso | Exceso de agua o cocción prolongada | Medir y respetar reposo |\n| Fondo pegado | Fuego alto | Reducir al mínimo tras hervir |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Para guardar sobrantes de arroz cocido, enfriar rápidamente en recipientes poco profundos y refrigerar sin demoras; no dejarlo durante horas a temperatura ambiente. Recalentar completamente y evitar ciclos repetidos de enfriado y recalentamiento. El arroz mantenido de forma insegura puede contener toxinas que el recalentado no elimina.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En la absorción, el arroz y el agua forman un sistema cerrado: medir, tapar y reposar importa más que remover.\n\n## Utilizado por\n\nPreparación de referencia del dominio Arroces: cocción por absorción."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "12–16 minutos, más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_basmati_por_absorcion.html",
+  "id": "REC-0154",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz basmati seco",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "280",
+        "min": "280",
+        "raw": "280 g de arroz basmati seco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "280 g de arroz basmati seco",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable, cantidad inicial orientativa para arroz lavado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": true,
+        "max": "420",
+        "min": "420",
+        "raw": "420 ml de agua potable, cantidad inicial orientativa para arroz lavado",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "420 ml de agua potable, cantidad inicial orientativa para arroz lavado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal, al gusto",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de sal, al gusto",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de sal, al gusto",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro o mantequilla, opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de aceite neutro o mantequilla, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de aceite neutro o mantequilla, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar el arroz en varias aguas hasta reducir la turbidez y escurrirlo bien. Medir agua y utilizar cazuela con tapa que cierre correctamente.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 41
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_basmati_por_absorcion.md",
+  "source_sha256": "d01d321303b484696093895e87a1e5dec49a3a8a958c46d31f11838607e8c6d4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "1. Combinar\n\nPoner arroz escurrido, agua medida y sal en cazuela. Añadir grasa opcional y llevar a hervor suave.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "2. Tapar\n\nEn cuanto hierva, tapar y reducir al fuego mínimo. Cocinar 10–12 minutos sin levantar repetidamente la tapa.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 3,
+      "text": "3. Comprobar\n\nApartar del fuego cuando el líquido se haya absorbido y los granos estén tiernos. Si todavía están firmes, añadir unas cucharadas de agua caliente y continuar brevemente tapado.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 4,
+      "text": "4. Reposar\n\nDejar reposar tapado 5–10 minutos fuera del fuego; soltar con tenedor y servir.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Arroz basmati por absorción",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 guarniciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

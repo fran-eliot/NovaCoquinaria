@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Fabada asturiana con compango\n\n## Origen y contexto\n\n**Ámbito gastronómico:** Asturias. Se documenta una fórmula doméstica de referencia que conserva los rasgos reconocibles del plato, sin presentarla como la única versión existente ni afirmar una preparación personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 6 |\n| Tiempo orientativo | 12 h remojo + 2–3 h cocción orientativa |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 500 g de fabes asturianas secas\n- 2 chorizos asturianos (unos 200 g)\n- 2 morcillas asturianas (unos 180–200 g)\n- 200 g de panceta curada\n- 200 g de lacón salado, desalado según producto\n- una pizca de azafrán en hebra\n- agua fría para cubrir y mantener el hervor suave\n- sal solo si hace falta al terminar\n\n**Alérgenos:** Revisar compango comercial por sulfitos, soja, gluten u otros componentes.\n\n## Elaboración\n\n1. Poner las fabes a remojo en abundante agua potable durante 10–12 horas, preferiblemente refrigeradas si hace calor. Desalar el lacón por separado siguiendo sus características y cambiando el agua cuando corresponda.\n2. Escurrir y enjuagar las fabes; colocarlas en una olla ancha con panceta, lacón y chorizos. Cubrir ligeramente con agua fría y llevar gradualmente al hervor.\n3. Retirar la espuma y bajar a un hervor muy suave. Añadir el azafrán infusionado en un poco de caldo.\n4. Cocinar lentamente unas 2–3 horas, añadiendo agua si es necesario para mantener las fabes cubiertas y moviendo la olla con movimientos suaves en lugar de remover enérgicamente.\n5. Incorporar la morcilla con cuidado para que no se rompa, atendiendo a si el fabricante indica que es cruda, precocida o apta para calentar; asegurar la cocción o calentamiento completos de todas las carnes.\n6. Comprobar que las fabes estén totalmente tiernas y que las piezas de compango estén bien cocinadas. Probar el caldo antes de salar.\n7. Reposar unos minutos y servir las fabes con porciones de compango.\n\n## Puntos críticos\n\n- El grosor y frescura de las fabes secas alteran el tiempo. La morcilla puede romperse y enturbiar el caldo; incorporar con cuidado. El lacón y los embutidos aportan sal.\n- Respetar la naturaleza del ingrediente principal (seco, cocido, crudo, salado o precocido), la higiene de crudos y cocinados y la temperatura interna de aves y productos marinos cuando proceda.\n- Los tiempos, volúmenes de caldo y puntos de cocción dependen del formato comercial, recipiente y equipo; anotar ajustes reales antes de consolidar una versión.\n\n## Diagnóstico\n\n| Incidencia | Posible causa | Ajuste para una próxima tanda |\n|---|---|---|\n| Ingrediente principal demasiado firme | Cocción previa insuficiente o líquido mal ajustado | Prolongar a calor adecuado y verificar textura |\n| Salsa o caldo desequilibrado | Sal de conservas, embutidos o evaporación | Salar al final y corregir con líquido caliente |\n| Textura demasiado espesa o rota | Remover con fuerza o evaporar en exceso | Adaptar movimiento de cazuela y cantidad de caldo |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar las sobras rápidamente en recipientes poco profundos y refrigerarlas sin demora. No mantener caldos, legumbres cocidas, carnes, pescado ni fideos varias horas a temperatura ambiente. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Alubias estofadas](./alubias_estofadas.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- **Referencia de tradición y técnica:** [Legumbres Españolas, MAPA](https://www.mapa.gob.es/dam/mapa/contenido/alimentacion/temas/calidad-agroalimentaria/2017-calidad-diferenciada/4-informacion-de-interes/estudios-e-informes--es-ue-otros-organ./espana/librodelegumbresespanolas24abr17.pdf)\n\n## Registro de prueba\n\nPendiente de registrar ingrediente y marca efectivamente empleados, pesos, técnica, cantidades de agua o caldo, tiempo real, textura y valoración. Ninguna formulación previa se reemplaza por defecto."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 h remojo + 2–3 h cocción orientativa",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/fabada_asturiana_con_compango.html",
+  "id": "REC-418",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "fabes asturianas secas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de fabes asturianas secas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de fabes asturianas secas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizos asturianos (unos 200 g)",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 chorizos asturianos (unos 200 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 chorizos asturianos (unos 200 g)",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "morcillas asturianas (unos 180–200 g)",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 morcillas asturianas (unos 180–200 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 morcillas asturianas (unos 180–200 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta curada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de panceta curada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de panceta curada",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "lacón salado, desalado según producto",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de lacón salado, desalado según producto",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de lacón salado, desalado según producto",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de azafrán en hebra",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de azafrán en hebra",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de azafrán en hebra",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "agua fría para cubrir y mantener el hervor suave",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua fría para cubrir y mantener el hervor suave",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua fría para cubrir y mantener el hervor suave",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal solo si hace falta al terminar",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal solo si hace falta al terminar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal solo si hace falta al terminar",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/fabada_asturiana_con_compango.md",
+  "source_sha256": "e99b44ab25a7ce1d87909e2436f107e2f6994fe15a634470fe196d221e7c90df",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Poner las fabes a remojo en abundante agua potable durante 10–12 horas, preferiblemente refrigeradas si hace calor. Desalar el lacón por separado siguiendo sus características y cambiando el agua cuando corresponda."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Escurrir y enjuagar las fabes; colocarlas en una olla ancha con panceta, lacón y chorizos. Cubrir ligeramente con agua fría y llevar gradualmente al hervor."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Retirar la espuma y bajar a un hervor muy suave. Añadir el azafrán infusionado en un poco de caldo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Cocinar lentamente unas 2–3 horas, añadiendo agua si es necesario para mantener las fabes cubiertas y moviendo la olla con movimientos suaves en lugar de remover enérgicamente."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Incorporar la morcilla con cuidado para que no se rompa, atendiendo a si el fabricante indica que es cruda, precocida o apta para calentar; asegurar la cocción o calentamiento completos de todas las carnes."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Comprobar que las fabes estén totalmente tiernas y que las piezas de compango estén bien cocinadas. Probar el caldo antes de salar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Reposar unos minutos y servir las fabes con porciones de compango."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Fabada asturiana con compango",
+  "yield": {
+    "max": "6",
+    "min": "6",
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

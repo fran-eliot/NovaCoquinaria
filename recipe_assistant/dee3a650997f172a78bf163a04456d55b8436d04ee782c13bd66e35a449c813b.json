@@ -1,0 +1,324 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Alubias blancas con tomate y romero\n\n## Descripción\n\nGuiso breve de alubias blancas cocidas con tomate reducido, ajo y romero. Es una alternativa aromática al estofado clásico de alubia seca.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Reducción de tomate e integración de legumbre cocida |\n\n## Ingredientes\n\n- 700 g de alubias blancas cocidas y escurridas;\n- 400 g de tomate triturado en conserva;\n- 1 cebolla mediana, picada;\n- 2 dientes de ajo, picados;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 ramita pequeña de romero fresco o 1/4 cucharadita seco;\n- 150–250 ml de agua o caldo vegetal;\n- 1 hoja de laurel, opcional;\n- sal y pimienta negra;\n- 1 cucharadita de vinagre de vino, opcional\n\n**Alérgenos:** Revisar el etiquetado del caldo y del tomate envasado.\n\n## Mise en place\n\nEscurrir las alubias cocidas y comprobar su punto; enjuagarlas si se necesita reducir la sal. Medir el tomate y el caldo, picar cebolla y ajo y preparar el romero sin tallos sueltos.\n\n## Elaboración\n\n### 1. Sofreír\n\nCalentar el aceite y cocinar la cebolla 7–9 minutos a fuego medio-bajo hasta transparente. Incorporar ajo durante el último minuto.\n\n### 2. Reducir el tomate\n\nAñadir tomate triturado, romero y laurel opcional. Cocinar 10–12 minutos, removiendo, hasta que pierda parte del sabor crudo y se concentre.\n\n### 3. Ajustar el medio\n\nAñadir 150 ml de agua o caldo para recuperar una consistencia de guiso y evitar que la salsa se pegue.\n\n### 4. Integrar alubias\n\nIncorporar las alubias cocidas y mantener hervor suave 6–8 minutos, moviendo la cazuela para no romperlas.\n\n### 5. Rectificar\n\nRetirar la rama de romero y el laurel. Añadir líquido si espesa en exceso; ajustar sal, pimienta y vinagre opcional al final.\n\n## Puntos críticos\n\n- Las alubias de la receta deben estar previamente cocidas; el tomate ácido no es adecuado para terminar de ablandar alubias secas.\n- Usar poco romero y retirar la rama antes de servir evita que domine el plato.\n- Mover la cazuela en vez de remover de forma brusca conserva las pieles.\n\n## Perfil esperado\n\nAlubias enteras y mantecosas en salsa de tomate concentrada, con aroma de romero perceptible pero moderado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con espinacas | Añadir hojas al final y cocinar hasta tiernas |\n| Con pimentón | Añadir 1/2 cucharadita tras el sofrito, evitando quemarlo |\n| Con alubias secas | Remojar y cocer completamente por separado antes de incorporarlas al tomate |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Salsa muy ácida | Tomate poco reducido | Prolongar la reducción antes de incorporar alubias |\n| Romero dominante | Perfume resinoso excesivo | Usar una rama pequeña y retirarla |\n| Alubias rotas | Textura pastosa | Hervor suave sin remover enérgicamente |\n\n## Conservación\n\nEnfriar sin demoras en recipientes poco profundos, refrigerar tapado y consumir en un plazo corto. Congelar en porciones si la preparación lo permite. Recalentar completamente los platos calientes; las ensaladas se mantienen refrigeradas y no deben permanecer largo tiempo a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Alubias blancas](../11_Despensa/02_Legumbres/alubias_blancas.md)\n- [Tomate triturado en conserva](../11_Despensa/12_Conservas/tomate_triturado.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n\n## Principio de NovaCoquinaria\n\n> Una legumbre previamente cocida permite concentrar primero la salsa y unir los sabores sin sobrecocer el grano.\n\n## Utilizado por\n\nAlubias blancas con tomate y romero como preparación de referencia del módulo Legumbres."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/alubias_blancas_con_tomate_y_romero.html",
+  "id": "REC-0108",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas cocidas y escurridas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 g de alubias blancas cocidas y escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "700 g de alubias blancas cocidas y escurridas;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado en conserva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de tomate triturado en conserva;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de tomate triturado en conserva;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana, picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana, picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana, picada;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo, picados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo, picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo, picados;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ramita pequeña de romero fresco o 1/4 cucharadita seco;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 ramita pequeña de romero fresco o 1/4 cucharadita seco;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 ramita pequeña de romero fresco o 1/4 cucharadita seco;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "150",
+        "raw": "150–250 ml de agua o caldo vegetal;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–250 ml de agua o caldo vegetal;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel, opcional;",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel, opcional;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel, opcional;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino, opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de vinagre de vino, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de vinagre de vino, opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nEscurrir las alubias cocidas y comprobar su punto; enjuagarlas si se necesita reducir la sal. Medir el tomate y el caldo, picar cebolla y ajo y preparar el romero sin tallos sueltos.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/alubias_blancas_con_tomate_y_romero.md",
+  "source_sha256": "0392cabf111289418e915fbfc9c866642a682440d2b383c033209cf66c684ddc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Sofreír\n\nCalentar el aceite y cocinar la cebolla 7–9 minutos a fuego medio-bajo hasta transparente. Incorporar ajo durante el último minuto.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Reducir el tomate\n\nAñadir tomate triturado, romero y laurel opcional. Cocinar 10–12 minutos, removiendo, hasta que pierda parte del sabor crudo y se concentre.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Ajustar el medio\n\nAñadir 150 ml de agua o caldo para recuperar una consistencia de guiso y evitar que la salsa se pegue.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Integrar alubias\n\nIncorporar las alubias cocidas y mantener hervor suave 6–8 minutos, moviendo la cazuela para no romperlas.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Rectificar\n\nRetirar la rama de romero y el laurel. Añadir líquido si espesa en exceso; ajustar sal, pimienta y vinagre opcional al final.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Alubias blancas con tomate y romero",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

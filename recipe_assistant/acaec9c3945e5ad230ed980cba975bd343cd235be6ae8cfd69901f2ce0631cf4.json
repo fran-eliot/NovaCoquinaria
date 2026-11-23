@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 116,
+      "start_line": 15
+    },
+    "text": "\n# Arroz con pollo y verduras en cazuela\n\n## Descripción\n\nArroz mediterráneo de cazuela con pollo, pimiento, judías verdes y tomate, construido a partir de un sofrito y un caldo ajustado a la variedad de grano.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 30–40 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Sofrito, dorado de pollo y cocción de arroz |\n\n## Ingredientes\n\n- 320 g de arroz redondo adecuado para guiso\n- 550 g de contramuslo de pollo deshuesado en dados\n- 1 pimiento rojo pequeño, en dados\n- 180 g de judías verdes en trozos\n- 1 cebolla pequeña picada\n- 150 g de tomate triturado\n- 2 dientes de ajo\n- 3 cucharadas de aceite de oliva virgen extra\n- 900–1100 ml de caldo de pollo caliente, ajustables\n- 1/2 cucharadita de pimentón dulce\n- sal y pimienta negra\n\n**Alérgenos:** Revisar alérgenos del caldo.\n\n## Mise en place\n\nSeparar utensilios para pollo crudo y verduras; no lavar el pollo. Mantener caldo caliente y preparar un termómetro alimentario. Ajustar proporción de caldo al arroz y al acabado deseado.\n\n## Elaboración\n\n### 1. Dorar pollo\n\nDorar el pollo en cazuela con parte del aceite, por tandas, sin darlo por cocinado; reservar en plato limpio.\n\n### 2. Sofreír\n\nAñadir aceite restante, cebolla, pimiento y judías y cocinar 6–8 minutos. Incorporar ajo y tomate, reduciendo 4–5 minutos.\n\n### 3. Aromatizar\n\nRetirar brevemente del fuego para añadir pimentón sin quemarlo. Incorporar arroz y remover 1 minuto.\n\n### 4. Cocer\n\nVerter caldo caliente y devolver pollo. Cocinar a hervor moderado según la variedad de arroz, generalmente 16–20 minutos, añadiendo caldo caliente si necesita más tiempo.\n\n### 5. Comprobar y reposar\n\nVerificar que el arroz esté tierno y el pollo alcance al menos 74 °C en su parte más gruesa. Reposar 3 minutos y servir.\n\n## Puntos críticos\n\n- El pollo debe alcanzar 74 °C: ni el dorado inicial ni los minutos de arroz demuestran por sí solos una cocción segura.\n- El volumen de caldo cambia según diámetro de cazuela, variedad y acabado.\n- Una vez añadido el arroz, evitar remover en exceso si se busca grano definido.\n\n## Perfil esperado\n\nArroz sabroso, suelto pero ligeramente meloso, verduras reconocibles y pollo completamente cocinado.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con alcachofas | Añadir corazones limpios al sofrito y ajustar su tiempo de cocción |\n| Con azafrán | Infusionar una pequeña cantidad en el caldo |\n| Sin tomate | Omitirlo y reforzar el sofrito de verduras |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pollo insuficientemente cocinado | Piezas gruesas o tiempo escaso | Medir 74 °C y continuar si hace falta |\n| Arroz duro | Falta de caldo | Añadir caldo caliente |\n| Arroz empastado | Líquido excesivo o remoción continua | Medir proporción y comprobar punto |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Para guardar sobrantes de arroz cocido, enfriar rápidamente en recipientes poco profundos y refrigerar sin demoras; no dejarlo durante horas a temperatura ambiente. Recalentar completamente y evitar ciclos repetidos de enfriado y recalentamiento. El arroz mantenido de forma insegura puede contener toxinas que el recalentado no elimina.\n\n## Relaciones dentro del SGCC\n\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Sofreír](../00_Bases/03_Tecnicas/sofreir.md)\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n\n## Principio de NovaCoquinaria\n\n> El pollo y el arroz comparten cazuela, pero cada uno exige su propio punto de cocción.\n\n## Utilizado por\n\nPreparación de referencia del dominio Arroces: sofrito, dorado de pollo y cocción de arroz."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "40",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–40 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_con_pollo_y_verduras.html",
+  "id": "REC-0157",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz redondo adecuado para guiso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "320",
+        "min": "320",
+        "raw": "320 g de arroz redondo adecuado para guiso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "320 g de arroz redondo adecuado para guiso",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "contramuslo de pollo deshuesado en dados",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de contramuslo de pollo deshuesado en dados",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de contramuslo de pollo deshuesado en dados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo pequeño, en dados",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo pequeño, en dados",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo pequeño, en dados",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "judías verdes en trozos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de judías verdes en trozos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de judías verdes en trozos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla pequeña picada",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla pequeña picada",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla pequeña picada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de pollo caliente, ajustables",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1100",
+        "min": "900",
+        "raw": "900–1100 ml de caldo de pollo caliente, ajustables",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "900–1100 ml de caldo de pollo caliente, ajustables",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de pimentón dulce",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de pimentón dulce",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSeparar utensilios para pollo crudo y verduras; no lavar el pollo. Mantener caldo caliente y preparar un termómetro alimentario. Ajustar proporción de caldo al arroz y al acabado deseado.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_con_pollo_y_verduras.md",
+  "source_sha256": "30a7ef2e27543a416df55e6c2dca227ed4b640df1a2698c1713fae204735f681",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Dorar pollo\n\nDorar el pollo en cazuela con parte del aceite, por tandas, sin darlo por cocinado; reservar en plato limpio.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Sofreír\n\nAñadir aceite restante, cebolla, pimiento y judías y cocinar 6–8 minutos. Incorporar ajo y tomate, reduciendo 4–5 minutos.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Aromatizar\n\nRetirar brevemente del fuego para añadir pimentón sin quemarlo. Incorporar arroz y remover 1 minuto.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Cocer\n\nVerter caldo caliente y devolver pollo. Cocinar a hervor moderado según la variedad de arroz, generalmente 16–20 minutos, añadiendo caldo caliente si necesita más tiempo.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Comprobar y reposar\n\nVerificar que el arroz esté tierno y el pollo alcance al menos 74 °C en su parte más gruesa. Reposar 3 minutos y servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/sofreir.html",
+      "label": "Sofreír",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/sofreir.md"
+    }
+  ],
+  "title": "Arroz con pollo y verduras en cazuela",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

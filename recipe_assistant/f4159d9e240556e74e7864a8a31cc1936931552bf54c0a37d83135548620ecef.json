@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 14
+    },
+    "text": "\n# Besugo a la sal con hierbas\n\n## Descripción\n\nPreparación de referencia basada en **asado de pescado entero bajo costra de sal**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 3 raciones |\n| Técnica principal | Asado de pescado entero bajo costra de sal |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 1 besugo entero de 900–1100 g, eviscerado y con escamas, preparado en pescadería\n- 1,6–2 kg de sal gruesa para horno\n- 100–140 ml de agua para compactar la sal, orientativos\n- 2 ramitas de tomillo\n- 1 limón para servir\n\n**Alérgenos:** Pescado.\n\n## Elaboración\n\n1. Precalentar horno a 200 °C y comprobar que el pescado está correctamente eviscerado y limpio, manteniendo la piel y escamas.\n2. Humedecer la sal en un cuenco con agua poco a poco hasta textura de arena que se compacta.\n3. Extender una base de sal de 1 cm en bandeja, colocar el besugo con tomillo en la cavidad y cubrir por completo con sal compactada, evitando que entre excesivamente en la cavidad.\n4. Hornear aproximadamente 25–35 minutos según peso, grosor y horno.\n5. Comprobar la cocción completa con termómetro en zona gruesa hasta 63 °C como referencia conservadora, evitando la espina; recomponer la costra si se abre para medir.\n6. Reposar 5 minutos, romper cuidadosamente la costra, retirar sal y piel, y extraer lomos comprobando espinas.\n7. Servir con limón, sin añadir sal hasta probar.\n\n## Puntos críticos\n\n- La sal gruesa forma una costra y no se come. Evitar cubrir con sal un pescado ya fileteado, porque podría quedar excesivamente salado. Controlar espinas y fragmentos de costra.\n- Ajustar los tiempos según el grosor, el recipiente y la temperatura real del horno. Verificar la cocción completa, especialmente de pescados y rellenos.\n- Lavar y manipular los ingredientes con higiene, separar utensilios para productos crudos y cocinados y mantener refrigerados los perecederos.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima prueba |\n|---|---|---|\n| Exterior dorado e interior firme | Temperatura elevada o piezas gruesas | Reducir calor, precocer o prolongar con protección |\n| Relleno acuoso | Verduras o lácteos sin escurrir | Reducir y escurrir antes del montaje |\n| Textura seca | Tiempo prolongado o falta de humedad | Comprobar antes el punto y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién hecho. Enfriar rápidamente las sobras cocinadas y refrigerarlas sin demora en recipientes poco profundos y cerrados. Mantener refrigeradas las preparaciones con quesos frescos y no dejar productos perecederos durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Dorada a la sal en horno](../06_Pescados_y_Mariscos/dorada_a_la_sal_en_horno.md)\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, molde o bandeja, temperatura, duración, textura y valoración. No se modifica ninguna receta doméstica anterior."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **asado de pescado entero bajo costra de sal**. Esta fórmula no consta como elaborada ni valorada en casa; las cantidades y los tiempos son orientativos y quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/besugo_a_la_sal_con_hierbas.html",
+  "id": "REC-386",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "besugo entero de 900–1100 g, eviscerado y con escamas, preparado en pescadería",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 besugo entero de 900–1100 g, eviscerado y con escamas, preparado en pescadería",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 besugo entero de 900–1100 g, eviscerado y con escamas, preparado en pescadería",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "sal gruesa para horno",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1.6",
+        "raw": "1,6–2 kg de sal gruesa para horno",
+        "status": "range",
+        "unit": "kg"
+      },
+      "raw": "1,6–2 kg de sal gruesa para horno",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua para compactar la sal, orientativos",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": true,
+        "max": "140",
+        "min": "100",
+        "raw": "100–140 ml de agua para compactar la sal, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–140 ml de agua para compactar la sal, orientativos",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ramitas de tomillo",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 ramitas de tomillo",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 ramitas de tomillo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "limón para servir",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón para servir",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón para servir",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/besugo_a_la_sal_con_hierbas.md",
+  "source_sha256": "add59804d4f2daab0f8225a977e8356e93cef2a2bfd47f5231e6e34aa070060e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 200 °C y comprobar que el pescado está correctamente eviscerado y limpio, manteniendo la piel y escamas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Humedecer la sal en un cuenco con agua poco a poco hasta textura de arena que se compacta."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Extender una base de sal de 1 cm en bandeja, colocar el besugo con tomillo en la cavidad y cubrir por completo con sal compactada, evitando que entre excesivamente en la cavidad."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Hornear aproximadamente 25–35 minutos según peso, grosor y horno."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Comprobar la cocción completa con termómetro en zona gruesa hasta 63 °C como referencia conservadora, evitando la espina; recomponer la costra si se abre para medir."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Reposar 5 minutos, romper cuidadosamente la costra, retirar sal y piel, y extraer lomos comprobando espinas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 7,
+      "text": "Servir con limón, sin añadir sal hasta probar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Besugo a la sal con hierbas",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Tiramisú sin huevo crudo con mascarpone\n\n## Descripción\n\nPreparación de referencia basada en **montaje por capas y estabilización refrigerada**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 8 porciones |\n| Técnica principal | Montaje por capas y estabilización refrigerada |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de mascarpone pasteurizado\n- 300 ml de nata para montar pasteurizada, muy fría\n- 65 g de azúcar glas\n- 200 g de bizcochos de soletilla\n- 250 ml de café fuerte preparado y enfriado\n- 12 g de cacao puro para espolvorear\n- ½ cucharadita de vainilla, opcional\n\n**Alérgenos:** Leche y gluten (trigo); revisar los bizcochos comerciales por huevo y soja.\n\n## Elaboración\n\n1. Preparar el café, enfriarlo rápidamente y conservarlo refrigerado mientras se organiza el postre.\n2. Batir la nata fría con el azúcar glas hasta picos suaves, sin llegar a mantequilla.\n3. Ablandar el mascarpone con una espátula y mezclarlo con la nata mediante movimientos envolventes; añadir vainilla opcional.\n4. Remojar muy brevemente la mitad de los bizcochos en café frío y disponerlos en una fuente de unos 18 × 24 cm.\n5. Cubrir con la mitad de la crema, montar otra capa de bizcochos remojados y terminar con el resto de la crema.\n6. Tapar y refrigerar al menos 4–6 horas, preferiblemente hasta que las capas estén asentadas.\n7. Espolvorear cacao puro justo antes de servir y cortar con utensilio limpio.\n\n## Puntos críticos\n\n- Usar café frío y nata muy fría. El mascarpone debe estar maleable, sin calentarlo; incorporar la nata con movimientos envolventes.\n- Remojar los bizcochos brevemente para que absorban café sin deshacerse. El asentamiento depende del reposo refrigerado, no de la cocción.\n- Esta formulación prescinde de huevo crudo; no se atribuye por ello a una versión tradicional concreta.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Crema poco firme | Nata insuficientemente montada o mezcla demasiado trabajada | Alcanzar picos suaves e incorporar el mascarpone con suavidad |\n| Líquido en el fondo | Bizcochos demasiado empapados | Acortar el remojo y evitar verter café sobrante en la fuente |\n| Capas poco definidas | Reposo insuficiente o montaje irregular | Distribuir la crema uniformemente y respetar el reposo refrigerado |\n| Crema granulosa | Nata sobrebatida | Detener el batido al alcanzar picos suaves |\n\n## Conservación\n\nMantener tapado y refrigerado desde el montaje hasta el servicio. Sacar solo las porciones necesarias con utensilio limpio y devolver el resto al frigorífico sin demora. Respetar la caducidad y las indicaciones de los lácteos utilizados; la ausencia de huevo crudo no elimina la necesidad de cadena de frío.\n\n## Relaciones dentro del SGCC\n\n- [Preparar café por extracción](../00_Bases/03_Tecnicas/preparar_cafe.md): control de intensidad y extracción del café para el remojo.\n- [Tarta de galletas y natillas con café y Amaretto](./tarta_de_galletas_natillas_cafe_amaretto.md)\n- [Mousse de chocolate sin huevo crudo](./mousse_de_chocolate_sin_huevo_crudo.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes utilizados realmente, recipientes, cantidades, tiempos, textura y valoración. La formulación no altera las versiones domésticas anteriores ni acredita una comparación con ellas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **montaje por capas y estabilización refrigerada**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tiramisu_sin_huevo_crudo_con_mascarpone.html",
+  "id": "REC-412",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "mascarpone pasteurizado",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de mascarpone pasteurizado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de mascarpone pasteurizado",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar pasteurizada, muy fría",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 ml de nata para montar pasteurizada, muy fría",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "300 ml de nata para montar pasteurizada, muy fría",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar glas",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "65",
+        "min": "65",
+        "raw": "65 g de azúcar glas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "65 g de azúcar glas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "bizcochos de soletilla",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de bizcochos de soletilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de bizcochos de soletilla",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "café fuerte preparado y enfriado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 ml de café fuerte preparado y enfriado",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "250 ml de café fuerte preparado y enfriado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cacao puro para espolvorear",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 g de cacao puro para espolvorear",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "12 g de cacao puro para espolvorear",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de vainilla, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de vainilla, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/tiramisu_sin_huevo_crudo_con_mascarpone.md",
+  "source_sha256": "92182a2ded0fc258c697084910d161354125979831412e31bb5f6188a3acd3bc",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Preparar el café, enfriarlo rápidamente y conservarlo refrigerado mientras se organiza el postre."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Batir la nata fría con el azúcar glas hasta picos suaves, sin llegar a mantequilla."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Ablandar el mascarpone con una espátula y mezclarlo con la nata mediante movimientos envolventes; añadir vainilla opcional."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Remojar muy brevemente la mitad de los bizcochos en café frío y disponerlos en una fuente de unos 18 × 24 cm."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Cubrir con la mitad de la crema, montar otra capa de bizcochos remojados y terminar con el resto de la crema."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Tapar y refrigerar al menos 4–6 horas, preferiblemente hasta que las capas estén asentadas."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 7,
+      "text": "Espolvorear cacao puro justo antes de servir y cortar con utensilio limpio."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_cafe.html",
+      "label": "Preparar café por extracción",
+      "source_location": {
+        "end_line": 72,
+        "start_line": 72
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_cafe.md"
+    }
+  ],
+  "title": "Tiramisú sin huevo crudo con mascarpone",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

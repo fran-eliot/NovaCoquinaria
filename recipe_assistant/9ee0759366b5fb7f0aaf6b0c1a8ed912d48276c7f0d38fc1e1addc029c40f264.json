@@ -1,0 +1,371 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 83,
+      "start_line": 15
+    },
+    "text": "\n# Cocido montañés con alubias, berza y compango\n\n## Origen y contexto\n\n**Región:** Cantabria. Versión doméstica de referencia de una especialidad regional; no se declara como receta única ni como preparación ya probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 |\n| Tiempo orientativo | 10–12 h remojo + 2–3 h cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de alubias blancas secas\n- 500 g de berza limpia\n- 200 g de chorizo para cocinar\n- 170 g de morcilla para cocinar\n- 200 g de costilla de cerdo\n- 150 g de tocino fresco\n- 1 cebolla mediana\n- 2 dientes de ajo\n- 1 hoja de laurel\n- 2–2,5 l de agua potable orientativos\n- sal al final\n\n**Alérgenos:** Revisar embutidos por posibles alérgenos y sulfitos.\n\n## Elaboración\n\n1. Remojar las alubias blancas en abundante agua potable entre 10 y 12 horas; escurrirlas y desechar el agua.\n2. Colocar las alubias con cebolla, ajo, laurel, costilla y tocino en olla amplia y cubrir con agua fresca; llevar a ebullición.\n3. Bajar a hervor suave y cocer hasta que las alubias comiencen a estar tiernas, retirando espuma y añadiendo agua caliente si es necesario.\n4. Lavar la berza y cortar hojas y nervios más tiernos; añadirla y continuar la cocción.\n5. Incorporar los embutidos atendiendo a su presentación comercial y cocinar hasta que tanto estos como la costilla estén completamente hechos.\n6. Continuar hasta que alubias y berza estén tiernas, aproximadamente 30–45 minutos desde añadir la berza, ajustando según producto.\n7. Probar antes de salar y servir las alubias y berza con porciones del compango, sin huesecillos sueltos.\n\n## Puntos críticos\n\n- El cocido montañés se prepara con alubias, no con garbanzos, y no se sirve obligatoriamente en tres vuelcos. Se parece al pote asturiano, pero mantiene identidad regional y variantes de compango.\n- Ajustar los tiempos, hidratación, cantidad de grasa y salinidad a los ingredientes utilizados. Evitar contaminación cruzada y comprobar cocción completa de carnes y huevos.\n\n## Diagnóstico\n\n| Resultado | Causa probable | Ajuste de una próxima tanda |\n|---|---|---|\n| Textura demasiado seca | Falta de hidratación o cocción prolongada | Ajustar agua y calor gradualmente |\n| Exceso de humedad | Escurrido insuficiente o recipiente abarrotado | Escurrir y reducir antes de terminar |\n| Sabor demasiado salado | Embutido o caldo concentrado | Salar al final y comprobar ingredientes comerciales |\n\n## Conservación\n\nConsumir preferentemente recién preparado. Refrigerar sin demora las sobras una vez enfriadas rápidamente en recipientes poco profundos; conservar perecederos en frío y recalentar completamente las porciones que se consuman calientes. No mantener huevos, carnes o legumbres cocidas varias horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Pote asturiano con berza y fabes](./pote_asturiano_con_berza_y_fabes.md)\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n- [Referencia culinaria regional](https://www.elcorteingles.es/supermercado/recetas/cocido-montanes/)\n\n## Registro de prueba\n\nPendiente de anotar cantidades realmente empleadas, proceso, tiempos, textura y valoración. No sustituye ninguna receta previa sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "10–12 h remojo + 2–3 h cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/cocido_montanes_con_alubias_berza_y_compango.html",
+  "id": "REC-446",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas secas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de alubias blancas secas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de alubias blancas secas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "berza limpia",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "500",
+        "raw": "500 g de berza limpia",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "500 g de berza limpia",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo para cocinar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de chorizo para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de chorizo para cocinar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "morcilla para cocinar",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "170",
+        "min": "170",
+        "raw": "170 g de morcilla para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "170 g de morcilla para cocinar",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "costilla de cerdo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de costilla de cerdo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de costilla de cerdo",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tocino fresco",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tocino fresco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tocino fresco",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable orientativos",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": true,
+        "max": "2.5",
+        "min": "2",
+        "raw": "2–2,5 l de agua potable orientativos",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "2–2,5 l de agua potable orientativos",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/cocido_montanes_con_alubias_berza_y_compango.md",
+  "source_sha256": "6f933bf5d8a2df4ebc8d74529fc968fa57f26263420bf1fe903e8493801ea9b7",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Remojar las alubias blancas en abundante agua potable entre 10 y 12 horas; escurrirlas y desechar el agua."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Colocar las alubias con cebolla, ajo, laurel, costilla y tocino en olla amplia y cubrir con agua fresca; llevar a ebullición."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Bajar a hervor suave y cocer hasta que las alubias comiencen a estar tiernas, retirando espuma y añadiendo agua caliente si es necesario."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Lavar la berza y cortar hojas y nervios más tiernos; añadirla y continuar la cocción."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Incorporar los embutidos atendiendo a su presentación comercial y cocinar hasta que tanto estos como la costilla estén completamente hechos."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Continuar hasta que alubias y berza estén tiernas, aproximadamente 30–45 minutos desde añadir la berza, ajustando según producto."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Probar antes de salar y servir las alubias y berza con porciones del compango, sin huesecillos sueltos."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 76,
+        "start_line": 76
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Cocido montañés con alubias, berza y compango",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

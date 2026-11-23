@@ -1,0 +1,323 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 87,
+      "start_line": 14
+    },
+    "text": "\n# Garbanzos con tomate y huevos en sartén\n\n## Descripción\n\nSartén completa de garbanzos cocidos, tomate especiado y huevos, inspirada en el método de cocinar huevos sobre una salsa.\n\n**Estado de evidencia:** receta propuesta para una futura elaboración; no hay resultado ni valoración doméstica confirmados. Las cantidades son una formulación inicial reproducible, no una reconstrucción de una tanda cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 min |\n| Cocinado | 20–25 min |\n| Método | Reducción de tomate y cuajado de huevo |\n| Prueba | Pendiente |\n\n## Ingredientes\n\n- 350 g de garbanzos cocidos, escurridos;\n- 300 g de tomate triturado;\n- 100 g de cebolla en dados;\n- ½ pimiento rojo (90 g);\n- 2 huevos;\n- 1 cucharada y media de aceite de oliva;\n- ½ cucharadita de comino;\n- ½ cucharadita de pimentón dulce;\n- 50 ml de agua si hace falta;\n- sal y pimienta;\n\n**Alérgenos:** Huevo.\n\n## Elaboración\n\n1. Pochar cebolla y pimiento 7–8 minutos con aceite.\n2. Apartar un momento del calor para incorporar pimentón y comino; añadir tomate y cocinar 8–10 minutos hasta reducir.\n3. Integrar garbanzos cocidos y un poco de agua si se seca; calentar por completo.\n4. Practicar dos huecos, cascar los huevos individualmente y depositarlos en la salsa.\n5. Tapar la sartén y cocinar hasta que claras y yemas estén completamente cuajadas; comprobar el punto de seguridad, especialmente para personas vulnerables.\n6. Probar y servir inmediatamente, sin confundir el tiempo de cuajado con la cocción previa de los garbanzos.\n\n## Puntos críticos\n\n- Los huevos no deben quedar crudos en una preparación destinada a conservarse. Usar huevos pasteurizados si la preparación o el comensal lo requiere.\n- Las cantidades de líquido y los tiempos dependen de presentación y cocción previa; registrar los utilizados en la prueba.\n- Mantener higiene, separación entre alimentos crudos y listos para consumo y las temperaturas adecuadas.\n\n## Perfil esperado y evaluación pendiente\n\nLa textura y el equilibrio final deberán verificarse mediante una elaboración real. Se propone registrar firmeza de la legumbre, densidad del fondo, intensidad de condimentos y valoración global; este perfil no implica un resultado ya conseguido.\n\n## Diagnóstico\n\n| Situación | Posible causa | Acción futura |\n|---|---|---|\n| Legumbre demasiado rota | Removido vigoroso o calentamiento prolongado | Incorporar más tarde y mover la cazuela con suavidad |\n| Plato demasiado seco | Evaporación o absorción | Añadir caldo o agua en pequeñas dosis |\n| Sabor descompensado | Acidez, sal o especias concentradas | Ajustar progresivamente y anotar cantidades |\n\n## Conservación\n\nEnfriar sin demora los sobrantes en recipientes poco profundos y mantenerlos refrigerados. Seguir las instrucciones de seguridad y consumo de legumbres comerciales, huevos o mariscos cuando correspondan. Evitar periodos prolongados a temperatura ambiente y recalentar por completo los platos que se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Módulo de Legumbres](./README.md)\n\n## Registro de elaboración\n\n**Pendiente de prueba:** registrar ingredientes y gramajes reales, método, tiempos, resultado y posibles mejoras antes de atribuir a la ficha una valoración."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_con_tomate_y_huevos_en_sarten.html",
+  "id": "REC-0208",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos, escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de garbanzos cocidos, escurridos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de garbanzos cocidos, escurridos;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de tomate triturado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla en dados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla en dados;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo (90 g);",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ pimiento rojo (90 g);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "½ pimiento rojo (90 g);",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "3/2",
+        "min": "3/2",
+        "raw": "1 cucharada y media de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada y media de aceite de oliva;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "comino;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "agua si hace falta;",
+      "optionality": "optional",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de agua si hace falta;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de agua si hace falta;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/garbanzos_con_tomate_y_huevos_en_sarten.md",
+  "source_sha256": "4f617e3f1949967b918244c8c64cca29ebb47fd114caa16597ed444905e30439",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "Pochar cebolla y pimiento 7–8 minutos con aceite."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 2,
+      "text": "Apartar un momento del calor para incorporar pimentón y comino; añadir tomate y cocinar 8–10 minutos hasta reducir."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 3,
+      "text": "Integrar garbanzos cocidos y un poco de agua si se seca; calentar por completo."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 4,
+      "text": "Practicar dos huecos, cascar los huevos individualmente y depositarlos en la salsa."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 5,
+      "text": "Tapar la sartén y cocinar hasta que claras y yemas estén completamente cuajadas; comprobar el punto de seguridad, especialmente para personas vulnerables."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 55,
+        "start_line": 55
+      },
+      "source_number": 6,
+      "text": "Probar y servir inmediatamente, sin confundir el tiempo de cuajado con la cocción previa de los garbanzos."
+    }
+  ],
+  "techniques": [],
+  "title": "Garbanzos con tomate y huevos en sartén",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 27,
+      "start_line": 27
+    },
+    "unit": "racion"
+  }
+}

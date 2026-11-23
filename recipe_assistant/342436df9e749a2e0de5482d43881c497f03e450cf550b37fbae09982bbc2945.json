@@ -1,0 +1,353 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 120,
+      "start_line": 15
+    },
+    "text": "\n# Garbanzos guisados con espinacas\n\n## Descripción\n\nPotaje vegetal rápido a partir de garbanzos ya cocidos, espinacas, ajo, cebolla y pimentón. Permite construir un guiso de cuchara sin repetir la cocción larga de la legumbre seca.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Sofrito, incorporación tardía de legumbre cocida |\n\n## Ingredientes\n\n- 650–700 g de garbanzos cocidos y escurridos;\n- 250 g de espinacas frescas o congeladas;\n- 1 cebolla mediana picada;\n- 3 dientes de ajo picados;\n- 3 cucharadas de aceite de oliva virgen extra;\n- 1 cucharadita de pimentón dulce;\n- 1/2 cucharadita de comino molido, opcional;\n- 150 g de tomate triturado;\n- 350–500 ml de agua o caldo vegetal, según consistencia;\n- sal y pimienta negra;\n- zumo de limón al servir, opcional.\n\n**Alérgenos:** revisar el caldo comercial y posibles trazas de los productos utilizados.\n\n## Mise en place\n\nSi se utilizan garbanzos en conserva, escurrirlos y enjuagarlos cuando interese reducir la sal o el líquido de gobierno. Si las espinacas se descongelan previamente, hacerlo en refrigeración y escurrir el exceso de agua; también pueden añadirse directamente congeladas si las instrucciones del producto lo permiten, prolongando la cocción hasta que estén bien calientes. Preparar las verduras.\n\n## Elaboración\n\n### 1. Cocinar la base aromática\n\nCalentar el aceite en una cazuela a fuego medio-bajo. Añadir cebolla y cocinar 7–9 minutos. Incorporar el ajo y cocinar brevemente sin dorarlo en exceso.\n\n### 2. Añadir especias y tomate\n\nRetirar momentáneamente del fuego, añadir pimentón y comino si se utiliza, y remover. Incorporar el tomate y cocinar 5–7 minutos para concentrar su sabor.\n\n### 3. Incorporar líquido y garbanzos\n\nAñadir 350 ml de agua o caldo y llevar a hervor suave. Incorporar los garbanzos cocidos y cocinar unos 8–10 minutos para que se integren los sabores.\n\n### 4. Añadir espinacas\n\nIncorporar las espinacas frescas en tandas para facilitar que pierdan volumen; cocinar aproximadamente 3–5 minutos hasta que estén tiernas. Si se usan congeladas, deshacer los bloques según se ablanden y prolongar la cocción hasta que no queden zonas frías; ajustar el agua del guiso en función del líquido que liberen.\n\n### 5. Ajustar y servir\n\nPara un caldo más espeso, triturar 2–3 cucharadas de garbanzos con algo de líquido y devolver la mezcla a la cazuela; cocinar 2 minutos más para integrar. Probar antes de salar, especialmente si se usa conserva o caldo comercial. Terminar con unas gotas de limón fuera del fuego para ajustar la acidez sin dominar el pimentón.\n\n## Puntos críticos\n\n- Los garbanzos ya cocidos se incorporan tarde para evitar que se deshagan.\n- El pimentón se quema con facilidad y amarga.\n- Las espinacas congeladas pueden aportar agua adicional.\n- Los garbanzos secos requieren remojo y cocción completa antes de utilizar esta versión rápida.\n\n## Perfil esperado\n\nGarbanzos enteros y tiernos, espinacas integradas y caldo sabroso, ligeramente trabado y con notas de pimentón.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con huevo duro | Añadir al servir |\n| Con pan tostado | Incorporar picada para espesar |\n| Con bacalao desalado | Incorporar trozos de bacalao correctamente desalado hacia el final y cocinar hasta que estén completamente hechos; comprobar la sal antes de ajustar y declarar pescado como alérgeno |\n| Sin tomate | Sustituir por algo más de caldo y ajustar acidez |\n| Con acelgas | Adaptar tiempo de cocción de pencas y hojas |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Garbanzos cocidos durante demasiado tiempo | Se deshacen | Incorporar después del sofrito |\n| Espinacas muy húmedas | Caldo aguado | Escurrir o reducir |\n| Pimentón quemado | Amargor | Apartar del calor al añadirlo |\n| Salar antes de probar | Exceso de sal | Ajustar al final |\n\n## Conservación\n\nEnfriar y refrigerar rápidamente en recipientes poco profundos. Congelar en porciones si procede. Recalentar completamente, ajustando el líquido.\n\n## Principio de NovaCoquinaria\n\n> Una legumbre ya cocida necesita integración de sabor, no repetir su cocción completa.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Plantilla de guiso de legumbres](../12_Plantillas/04_Cocciones/guiso_de_legumbres.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Utilizado por\n\nReceta de referencia del dominio **Legumbres**."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "03_Legumbres/garbanzos_con_espinacas.html",
+  "id": "REC-0033",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos cocidos y escurridos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "650",
+        "raw": "650–700 g de garbanzos cocidos y escurridos;",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "650–700 g de garbanzos cocidos y escurridos;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas o congeladas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de espinacas frescas o congeladas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de espinacas frescas o congeladas;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana picada;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana picada;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana picada;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo picados;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 dientes de ajo picados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "3 dientes de ajo picados;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "3",
+        "min": "3",
+        "raw": "3 cucharadas de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "3 cucharadas de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "comino molido, opcional;",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de comino molido, opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de comino molido, opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de tomate triturado;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo vegetal, según consistencia;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "350",
+        "raw": "350–500 ml de agua o caldo vegetal, según consistencia;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "350–500 ml de agua o caldo vegetal, según consistencia;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón al servir, opcional.",
+      "optionality": "optional",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "zumo de limón al servir, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "zumo de limón al servir, opcional.",
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSi se utilizan garbanzos en conserva, escurrirlos y enjuagarlos cuando interese reducir la sal o el líquido de gobierno. Si las espinacas se descongelan previamente, hacerlo en refrigeración y escurrir el exceso de agua; también pueden añadirse directamente congeladas si las instrucciones del producto lo permiten, prolongando la cocción hasta que estén bien calientes. Preparar las verduras.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 48
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/garbanzos_con_espinacas.md",
+  "source_sha256": "2377d093a58ae5ead5ba4f94d3d88faefca34d30bdf482538d7cb94c5ae19f95",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 1,
+      "text": "1. Cocinar la base aromática\n\nCalentar el aceite en una cazuela a fuego medio-bajo. Añadir cebolla y cocinar 7–9 minutos. Incorporar el ajo y cocinar brevemente sin dorarlo en exceso.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 2,
+      "text": "2. Añadir especias y tomate\n\nRetirar momentáneamente del fuego, añadir pimentón y comino si se utiliza, y remover. Incorporar el tomate y cocinar 5–7 minutos para concentrar su sabor.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 3,
+      "text": "3. Incorporar líquido y garbanzos\n\nAñadir 350 ml de agua o caldo y llevar a hervor suave. Incorporar los garbanzos cocidos y cocinar unos 8–10 minutos para que se integren los sabores.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 69,
+        "start_line": 66
+      },
+      "source_number": 4,
+      "text": "4. Añadir espinacas\n\nIncorporar las espinacas frescas en tandas para facilitar que pierdan volumen; cocinar aproximadamente 3–5 minutos hasta que estén tiernas. Si se usan congeladas, deshacer los bloques según se ablanden y prolongar la cocción hasta que no queden zonas frías; ajustar el agua del guiso en función del líquido que liberen.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 73,
+        "start_line": 70
+      },
+      "source_number": 5,
+      "text": "5. Ajustar y servir\n\nPara un caldo más espeso, triturar 2–3 cucharadas de garbanzos con algo de líquido y devolver la mezcla a la cazuela; cocinar 2 minutos más para integrar. Probar antes de salar, especialmente si se usa conserva o caldo comercial. Terminar con unas gotas de limón fuera del fuego para ajustar la acidez sin dominar el pimentón.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 114,
+        "start_line": 114
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Garbanzos guisados con espinacas",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

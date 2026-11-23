@@ -1,0 +1,267 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 85,
+      "start_line": 14
+    },
+    "text": "\n# Merluza al horno con limón y ajo\n\n## Descripción\n\nLomos de merluza horneados con limón, ajo y perejil. Preparación sencilla que prioriza la textura jugosa y evita que el pescado se reseque.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Preparación | 10 min |\n| Horneado | 12–20 min, según grosor |\n| Técnica | Horno |\n\n## Ingredientes\n\n- 600 g de lomos de merluza, descongelados si procede;\n- 2 cucharadas de aceite de oliva;\n- 2 dientes de ajo laminados;\n- 1 limón;\n- 2 cucharadas de perejil picado;\n- sal y pimienta.\n\n**Alérgeno:** pescado.\n\n## Elaboración\n\n1. Descongelar la merluza en refrigeración si es congelada. Escurrir, secar y revisar espinas.\n2. Precalentar horno a **190 °C, calor arriba y abajo**.\n3. Disponer los lomos en bandeja ligeramente aceitada, separados.\n4. Condimentar con sal, pimienta y parte del aceite. Añadir ajo alrededor, evitando que quede expuesto a quemarse.\n5. Hornear unos 12–20 minutos según grosor; comprobar que el centro alcance **63 °C** como referencia conservadora de seguridad.\n6. Retirar, añadir zumo de limón y perejil y servir inmediatamente.\n\n## Puntos críticos\n\n- Los tiempos son orientativos y dependen del grosor.\n- No confundir dorado superficial con cocción segura.\n- La merluza se deshace fácilmente; manipular con espátula amplia.\n- Revisar espinas antes de servir.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con pimentón | Añadir una pizca al aceite |\n| Con verduras | Hornear verduras antes e incorporar pescado al final |\n| Con vino blanco | Añadir pequeña cantidad a bandeja y ajustar líquido |\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Merluza seca | Cocción excesiva | Retirar al alcanzar temperatura |\n| Lomo deshecho | Manipulación excesiva | Usar espátula |\n| Ajo amargo | Quemado | Añadir más tarde |\n\n## Conservación\n\nRefrigerar rápidamente las sobras y recalentar completamente. Evitar dejar pescado cocinado a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pescado y marisco](../00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> Incorporar el limón al final permite conservar frescura sin prolongar la cocción."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "12–20 min, según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "06_Pescados_y_Mariscos/merluza_al_horno_con_limon.html",
+  "id": "REC-0057",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza, descongelados si procede;",
+      "optionality": "optional",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de lomos de merluza, descongelados si procede;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de lomos de merluza, descongelados si procede;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo laminados;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo laminados;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo laminados;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 limón;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 limón;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de perejil picado;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de perejil picado;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta.",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "06_Pescados_y_Mariscos/merluza_al_horno_con_limon.md",
+  "source_sha256": "c810420a55080bbac817cde6f7cdb3e3be32b492f77c169f2351753876073cf1",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Descongelar la merluza en refrigeración si es congelada. Escurrir, secar y revisar espinas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Precalentar horno a **190 °C, calor arriba y abajo**."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Disponer los lomos en bandeja ligeramente aceitada, separados."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Condimentar con sal, pimienta y parte del aceite. Añadir ajo alrededor, evitando que quede expuesto a quemarse."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Hornear unos 12–20 minutos según grosor; comprobar que el centro alcance **63 °C** como referencia conservadora de seguridad."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Retirar, añadir zumo de limón y perejil y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.html",
+      "label": "Cocinar pescado y marisco",
+      "source_location": {
+        "end_line": 79,
+        "start_line": 79
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_y_marisco.md"
+    }
+  ],
+  "title": "Merluza al horno con limón y ajo",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

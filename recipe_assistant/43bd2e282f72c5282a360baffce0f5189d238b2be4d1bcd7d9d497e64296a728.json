@@ -1,0 +1,334 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 115,
+      "start_line": 15
+    },
+    "text": "\n# Cerdo agridulce con pimientos\n\n## Descripción\n\nTiras de lomo de cerdo con pimiento y piña en una salsa agridulce de vinagre, soja y tomate. Adaptación doméstica sin rebozado, centrada en equilibrio entre acidez y dulzor.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 20 minutos |\n| Cocinado | 20–25 minutos |\n| Dificultad | Fácil–media |\n| Técnica principal | Dorado por tandas y reducción de salsa |\n\n## Ingredientes\n\n- 550 g de lomo de cerdo en tiras de tamaño uniforme\n- 1 pimiento rojo y 1 verde, en trozos\n- 150 g de piña natural o en conserva escurrida\n- 2 cucharadas de salsa de soja\n- 2 cucharadas de vinagre de arroz\n- 2 cucharadas de tomate triturado\n- 1 cucharada de azúcar, ajustable\n- 100 ml de agua\n- 2 cucharadas de aceite neutro\n- 1 cucharadita de maicena disuelta en 1 cucharada de agua, opcional\n\n**Alérgenos:** Soja y posible trigo, según la salsa empleada.\n\n## Mise en place\n\nSeparar utensilios para carne cruda. Mezclar soja, vinagre, tomate, azúcar y agua. Escurrir bien la piña; preparar pimientos antes de empezar el salteado.\n\n## Elaboración\n\n### 1. Dorar carne\n\nCalentar una sartén amplia con una cucharada de aceite y dorar el cerdo por tandas, evitando amontonar. Reservar sin considerarlo terminado si el centro aún está crudo.\n\n### 2. Saltear verduras\n\nAñadir el aceite restante y saltear pimientos 4–6 minutos hasta que empiecen a ablandarse pero conserven firmeza.\n\n### 3. Formar salsa\n\nIncorporar la mezcla agridulce y llevar a hervor moderado 2–3 minutos. Añadir piña.\n\n### 4. Terminar cerdo\n\nDevolver el cerdo y cocinar hasta que el corte entero alcance 63 °C en la parte más gruesa y repose 3 minutos; ajustar el tiempo al grosor y comprobar con termómetro.\n\n### 5. Ligar y servir\n\nSi se desea una salsa más espesa, añadir maicena diluida poco a poco y hervir brevemente para activar. Probar acidez y dulzor antes de servir.\n\n## Puntos críticos\n\n- La piña de conserva en almíbar añade azúcar: reducir el azúcar de la salsa si se utiliza.\n- La seguridad del cerdo depende de la temperatura interna y reposo, no de los minutos exactos.\n- La maicena debe añadirse disuelta en frío para evitar grumos.\n\n## Perfil esperado\n\nCerdo jugoso, verduras aún reconocibles y salsa brillante con equilibrio ácido-dulce.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Sin piña | Usar zanahoria en láminas y ajustar dulzor |\n| Con chile | Añadir al salteado de pimientos |\n| Con vinagre blanco | Utilizar menos inicialmente y rectificar por su diferente acidez |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Salsa empalagosa | Azúcar excesivo | Ajustar tras considerar la piña |\n| Cerdo seco | Cocción prolongada | Dorar por tandas y controlar temperatura |\n| Maicena en grumos | Añadida seca | Disolver en agua fría antes |\n\n## Conservación\n\nEnfriar las sobras sin demoras en recipientes poco profundos, refrigerar tapadas y consumir en un plazo corto. Recalentar completamente cuando corresponda y no mantener los alimentos cocinados a temperatura ambiente durante periodos prolongados. La textura puede perder calidad tras el recalentado.\n\n## Relaciones dentro del SGCC\n\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Equilibrar salsas asiáticas](../00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md)\n\n## Principio de NovaCoquinaria\n\n> La salsa agridulce se ajusta después de considerar el dulzor y la acidez de todos sus ingredientes.\n\n## Utilizado por\n\nReceta de referencia del módulo Cocina Asiática para dorado por tandas y reducción de salsa."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "20",
+      "min": "20",
+      "phase": "preparation",
+      "raw": "20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "25",
+      "min": "20",
+      "phase": "cooking",
+      "raw": "20–25 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "07_Cocina_Asiatica/cerdo_agridulce_con_pimientos.html",
+  "id": "REC-0139",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomo de cerdo en tiras de tamaño uniforme",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "550",
+        "min": "550",
+        "raw": "550 g de lomo de cerdo en tiras de tamaño uniforme",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "550 g de lomo de cerdo en tiras de tamaño uniforme",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento rojo y 1 verde, en trozos",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pimiento rojo y 1 verde, en trozos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 pimiento rojo y 1 verde, en trozos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "piña natural o en conserva escurrida",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de piña natural o en conserva escurrida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de piña natural o en conserva escurrida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "salsa de soja",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de salsa de soja",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de salsa de soja",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de arroz",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de vinagre de arroz",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de vinagre de arroz",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de tomate triturado",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de tomate triturado",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustable",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de azúcar, ajustable",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de azúcar, ajustable",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite neutro",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite neutro",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite neutro",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    },
+    {
+      "group": null,
+      "name": "maicena disuelta en 1 cucharada de agua, opcional",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de maicena disuelta en 1 cucharada de agua, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de maicena disuelta en 1 cucharada de agua, opcional",
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nSeparar utensilios para carne cruda. Mezclar soja, vinagre, tomate, azúcar y agua. Escurrir bien la piña; preparar pimientos antes de empezar el salteado.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 47
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "07_Cocina_Asiatica/cerdo_agridulce_con_pimientos.md",
+  "source_sha256": "54ba3d1697deeb63f3bf3cb5e7405537ba5aa7f76bcd7bf4d7b2a0bea79161bf",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 1,
+      "text": "1. Dorar carne\n\nCalentar una sartén amplia con una cucharada de aceite y dorar el cerdo por tandas, evitando amontonar. Reservar sin considerarlo terminado si el centro aún está crudo.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 2,
+      "text": "2. Saltear verduras\n\nAñadir el aceite restante y saltear pimientos 4–6 minutos hasta que empiecen a ablandarse pero conserven firmeza.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 3,
+      "text": "3. Formar salsa\n\nIncorporar la mezcla agridulce y llevar a hervor moderado 2–3 minutos. Añadir piña.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 68,
+        "start_line": 65
+      },
+      "source_number": 4,
+      "text": "4. Terminar cerdo\n\nDevolver el cerdo y cocinar hasta que el corte entero alcance 63 °C en la parte más gruesa y repose 3 minutos; ajustar el tiempo al grosor y comprobar con termómetro.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 72,
+        "start_line": 69
+      },
+      "source_number": 5,
+      "text": "5. Ligar y servir\n\nSi se desea una salsa más espesa, añadir maicena diluida poco a poco y hervir brevemente para activar. Probar acidez y dulzor antes de servir.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.html",
+      "label": "Equilibrar salsas asiáticas",
+      "source_location": {
+        "end_line": 107,
+        "start_line": 107
+      },
+      "source_path": "00_Bases/03_Tecnicas/equilibrar_salsas_asiaticas.md"
+    }
+  ],
+  "title": "Cerdo agridulce con pimientos",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

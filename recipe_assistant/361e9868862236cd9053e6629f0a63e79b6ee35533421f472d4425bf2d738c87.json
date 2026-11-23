@@ -1,0 +1,267 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 88,
+      "start_line": 14
+    },
+    "text": "\n# Pechuga de pollo a la plancha con limón\n\n## Descripción\n\nPechuga de pollo dorada con un acabado ligero de limón y perejil. La uniformidad del grosor y la comprobación de temperatura interior ayudan a evitar que quede seca o insuficientemente cocinada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 10 minutos |\n| Cocción | Variable según grosor, aproximadamente 8–14 minutos |\n| Dificultad | Fácil |\n| Técnica | Plancha |\n\n## Ingredientes\n\n- 2 filetes de pechuga de pollo, 300–350 g en total;\n- 1 cucharada de aceite de oliva virgen extra;\n- 1 diente de ajo pequeño, opcional;\n- 1 cucharada de zumo de limón;\n- sal y pimienta negra;\n- perejil picado, opcional.\n\n## Elaboración\n\n1. Preparar una zona limpia para manipular pollo crudo. Igualar el grosor de los filetes si es necesario.\n2. Secar con papel desechable, sazonar y calentar una sartén con el aceite.\n3. Cocinar a fuego medio-alto hasta que se forme dorado; girar y ajustar el fuego para completar la cocción sin quemar.\n4. Comprobar **74 °C en la parte más gruesa** con termómetro alimentario. El tiempo es solo orientativo.\n5. Retirar a un plato limpio. Añadir ajo brevemente a la sartén si se utiliza, sin quemarlo; retirar del fuego e incorporar limón.\n6. Verter el acabado sobre el pollo y terminar con perejil.\n\n## Puntos críticos\n\n- No lavar el pollo crudo.\n- No utilizar utensilios que tocaron pollo crudo para servir.\n- El limón se incorpora al final para conservar frescura.\n- No prolongar innecesariamente la cocción una vez alcanzada la temperatura segura.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con tomillo | Añadir una pizca al sazonar |\n| Con pimentón | Añadir poco y evitar quemarlo |\n| Con verduras | Servir con [salteado de calabacín y pimiento](../04_Verduras/salteado_de_calabacin_y_pimiento.md) |\n\n## Diagnóstico\n\n| Problema | Causa probable | Ajuste |\n|---|---|---|\n| Pechuga seca | Cocción excesiva | Medir temperatura |\n| Exterior quemado | Calor demasiado alto | Moderar fuego |\n| Poco dorado | Sartén húmeda o saturada | Secar y separar |\n\n## Conservación\n\nEnfriar y refrigerar rápidamente. Guardar en recipiente cerrado y recalentar completamente. Evitar contaminación cruzada con pollo crudo.\n\n## Relaciones dentro del SGCC\n\n- [Cocinar pollo a la plancha](../00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md)\n- [Pollo](../11_Despensa/03_Carnes/pollo.md)\n- [Aceite de oliva virgen extra](../11_Despensa/10_Aceites/aceite_de_oliva_virgen_extra.md)\n\n## Principio de NovaCoquinaria\n\n> Una pechuga uniforme y una medición fiable permiten combinar dorado, seguridad y jugosidad.\n\n## Utilizado por\n\nPlatos principales rápidos y preparaciones con guarnición."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Variable según grosor, aproximadamente 8–14 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "05_Carnes/pechuga_de_pollo_a_la_plancha.html",
+  "id": "REC-0047",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes de pechuga de pollo, 300–350 g en total;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 filetes de pechuga de pollo, 300–350 g en total;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 filetes de pechuga de pollo, 300–350 g en total;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva virgen extra;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva virgen extra;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva virgen extra;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo pequeño, opcional;",
+      "optionality": "optional",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo pequeño, opcional;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo pequeño, opcional;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de zumo de limón;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de zumo de limón;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta negra;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta negra;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta negra;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado, opcional.",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado, opcional.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado, opcional.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/pechuga_de_pollo_a_la_plancha.md",
+  "source_sha256": "6ccd2f6f675ef5d35cc490146191e0fd49cead2094e3e4d1706033eaf69e5c64",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Preparar una zona limpia para manipular pollo crudo. Igualar el grosor de los filetes si es necesario."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Secar con papel desechable, sazonar y calentar una sartén con el aceite."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Cocinar a fuego medio-alto hasta que se forme dorado; girar y ajustar el fuego para completar la cocción sin quemar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Comprobar **74 °C en la parte más gruesa** con termómetro alimentario. El tiempo es solo orientativo."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Retirar a un plato limpio. Añadir ajo brevemente a la sartén si se utiliza, sin quemarlo; retirar del fuego e incorporar limón."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Verter el acabado sobre el pollo y terminar con perejil."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.html",
+      "label": "Cocinar pollo a la plancha",
+      "source_location": {
+        "end_line": 78,
+        "start_line": 78
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pollo_a_la_plancha.md"
+    }
+  ],
+  "title": "Pechuga de pollo a la plancha con limón",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

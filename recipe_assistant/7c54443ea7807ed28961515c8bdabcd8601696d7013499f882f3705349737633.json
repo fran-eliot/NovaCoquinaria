@@ -1,0 +1,231 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Rigatoni alla gricia\n\n## Descripción\n\nFórmula de referencia centrada en **fundido de guanciale y emulsión de queso con agua de cocción**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica | Fundido de guanciale y emulsión de queso con agua de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de rigatoni secos\n- 130 g de guanciale en tiras\n- 85 g de pecorino romano recién rallado\n- 1 cucharadita de pimienta negra recién molida\n- 150–200 ml de agua de cocción de pasta, dosificados\n\n**Alérgenos:** Gluten (trigo), leche; revisar elaboración del guanciale.\n\n## Elaboración\n\n1. Poner agua a hervir y salar ligeramente, teniendo en cuenta el guanciale y el queso.\n2. Colocar el guanciale en sartén fría y calentarlo a fuego medio-bajo durante 7–10 minutos hasta que suelte grasa y esté dorado. Retirar la parte crujiente y reservar la grasa.\n3. Cocer los rigatoni hasta 1–2 minutos antes del tiempo indicado. Reservar abundante agua de cocción.\n4. Tostar la pimienta brevemente en la grasa del guanciale fuera del fuego fuerte e incorporar un poco de agua de pasta.\n5. Pasar la pasta a la sartén y terminarla con pequeñas adiciones de agua hasta que esté al dente.\n6. Apartar del fuego, dejar moderar la temperatura y agregar el pecorino poco a poco, mezclando hasta formar una emulsión sin grumos.\n7. Añadir el guanciale reservado, ajustar con agua de cocción si hace falta y servir inmediatamente.\n\n## Puntos críticos\n\n- El pecorino se apelmaza con calor intenso. La gricia no lleva tomate ni nata y requiere especial control de grasa, sal y agua almidonada.\n- Adaptar tiempos al formato y al fabricante; comprobar que la pasta y los ingredientes de origen animal estén completamente cocinados.\n- Mantener refrigerados los productos perecederos y utilizar utensilios separados para crudos y cocinados.\n\n## Diagnóstico\n\n| Incidencia | Causa posible | Corrección para otra prueba |\n|---|---|---|\n| Pasta demasiado blanda | Precocción excesiva o reposo prolongado | Restar tiempo previo y servir sin demora |\n| Salsa líquida o separada | Agua excesiva o calor inapropiado | Incorporar líquido gradualmente y controlar temperatura |\n| Preparación seca | Poca agua de cocción o absorción prolongada | Reservar caldo o agua almidonada para corregir |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar sin demora en recipientes poco profundos y tapados, y recalentar completamente las porciones destinadas a servirse calientes. No mantener preparaciones con huevo, pollo, pescado o quesos frescos a temperatura ambiente durante periodos prolongados.\n\n## Relaciones dentro del SGCC\n\n- [Espaguetis cacio e pepe](./espaguetis_cacio_e_pepe.md)\n- [Bucatini all’amatriciana](./bucatini_amatriciana.md)\n- [Emulsionar salsa para pasta](../00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md)\n- [Índice de Pastas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar ingredientes reales, tiempos, temperatura, textura, posibles ajustes y valoración. Esta formulación no sustituye experiencias ni versiones anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Fórmula de referencia centrada en **fundido de guanciale y emulsión de queso con agua de cocción**. Esta versión no consta como elaborada ni valorada en casa; cantidades y tiempos orientativos pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "02_Pastas/rigatoni_alla_gricia.html",
+  "id": "REC-364",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rigatoni secos",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de rigatoni secos",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de rigatoni secos",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "guanciale en tiras",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "130",
+        "min": "130",
+        "raw": "130 g de guanciale en tiras",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "130 g de guanciale en tiras",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pecorino romano recién rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "85",
+        "min": "85",
+        "raw": "85 g de pecorino romano recién rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "85 g de pecorino romano recién rallado",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra recién molida",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de pimienta negra recién molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de pimienta negra recién molida",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua de cocción de pasta, dosificados",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "150",
+        "raw": "150–200 ml de agua de cocción de pasta, dosificados",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "150–200 ml de agua de cocción de pasta, dosificados",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "02_Pastas/rigatoni_alla_gricia.md",
+  "source_sha256": "70379c6efd32264174cdf8470b34ffbcf7827c0e6e7aee0f6eeced23014e9243",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 1,
+      "text": "Poner agua a hervir y salar ligeramente, teniendo en cuenta el guanciale y el queso."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 2,
+      "text": "Colocar el guanciale en sartén fría y calentarlo a fuego medio-bajo durante 7–10 minutos hasta que suelte grasa y esté dorado. Retirar la parte crujiente y reservar la grasa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 3,
+      "text": "Cocer los rigatoni hasta 1–2 minutos antes del tiempo indicado. Reservar abundante agua de cocción."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 4,
+      "text": "Tostar la pimienta brevemente en la grasa del guanciale fuera del fuego fuerte e incorporar un poco de agua de pasta."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 5,
+      "text": "Pasar la pasta a la sartén y terminarla con pequeñas adiciones de agua hasta que esté al dente."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 6,
+      "text": "Apartar del fuego, dejar moderar la temperatura y agregar el pecorino poco a poco, mezclando hasta formar una emulsión sin grumos."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 7,
+      "text": "Añadir el guanciale reservado, ajustar con agua de cocción si hace falta y servir inmediatamente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.html",
+      "label": "Emulsionar salsa para pasta",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_salsa_para_pasta.md"
+    }
+  ],
+  "title": "Rigatoni alla gricia",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

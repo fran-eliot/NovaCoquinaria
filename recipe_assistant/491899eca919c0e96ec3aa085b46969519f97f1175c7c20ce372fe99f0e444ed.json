@@ -1,0 +1,306 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 113,
+      "start_line": 15
+    },
+    "text": "\n# Torrijas de leche y canela\n\n## Descripción\n\nRebanadas de pan empapadas en leche aromatizada, rebozadas en huevo y cocinadas en sartén. El reto consiste en hidratar el pan sin romperlo y cocinar completamente el huevo exterior.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 8 torrijas |\n| Preparación | 20 minutos, más reposo |\n| Cocinado | 15–20 minutos |\n| Dificultad | Media |\n| Técnica principal | Infusión, remojo y fritura |\n\n## Ingredientes\n\n- 8 rebanadas gruesas de pan del día anterior (aproximadamente 350 g)\n- 600 ml de leche\n- 90 g de azúcar, dividido entre leche y acabado\n- 2 huevos medianos\n- 1 rama de canela\n- piel de medio limón sin parte blanca\n- aceite de oliva suave o neutro suficiente para freír\n- 1 cucharadita de canela molida para terminar\n\n**Alérgenos:** Gluten (pan de trigo), leche y huevo; revisar el pan comercial.\n\n## Mise en place\n\nPreparar las rebanadas y un recipiente amplio. Lavar limón antes de retirar piel. Mantener huevos refrigerados y utilizar plato limpio para las torrijas cocinadas.\n\n## Elaboración\n\n### 1. Infusionar leche\n\nCalentar leche con rama de canela, piel de limón y 50 g de azúcar hasta disolver, sin hervir intensamente. Retirar aromáticos y dejar templar.\n\n### 2. Empapar pan\n\nDistribuir las rebanadas en fuente y verter leche templada poco a poco. Reposar 5–10 minutos según densidad del pan, volteando con cuidado hasta que estén hidratadas sin deshacerse.\n\n### 3. Preparar sartén\n\nBatir los huevos. Calentar aceite en sartén a temperatura media, evitando humo o calentamiento excesivo.\n\n### 4. Rebozar y cocinar\n\nPasar cada rebanada por huevo y freír por tandas hasta dorar ambas caras y cocinar completamente la capa de huevo. Escurrir en rejilla o papel apto para alimentos.\n\n### 5. Terminar\n\nMezclar azúcar restante con canela molida y espolvorear ligeramente. Servir templadas o enfriar sin demoras y refrigerar.\n\n## Puntos críticos\n\n- Un pan demasiado blando puede romperse durante el remojo.\n- El huevo debe quedar completamente cocinado; el dorado no siempre garantiza el punto si la torrija es muy gruesa.\n- No reutilizar leche de remojo contaminada con huevo crudo sin tratamiento térmico adecuado.\n\n## Perfil esperado\n\nExterior dorado y fragante, interior húmedo y suave sin desprender líquido en exceso.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Al horno | Hornear sobre bandeja ligeramente aceitada, volteando, hasta que la cobertura de huevo quede completamente cocinada |\n| Con naranja | Sustituir piel de limón por piel de naranja |\n| Con miel | Añadir un hilo al servir y reducir azúcar final |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Pan roto | Remojo excesivo | Usar pan firme y empapar gradualmente |\n| Exterior quemado | Aceite muy caliente | Moderarlo y cocinar por tandas |\n| Centro seco | Poco remojo | Ajustar hidratación al grosor |\n\n## Conservación\n\nServir las torrijas preferentemente templadas después de freír y comprobar que el rebozado de huevo está completamente cocinado. Enfriar sin demoras las que no se consuman y conservarlas **tapadas y refrigeradas** por su contenido de leche y huevo y la humedad del pan empapado. Consumir en un plazo corto según la frescura de los ingredientes; si se atemperan o calientan de nuevo, hacerlo solo con las porciones destinadas a servir. No aplicar instrucciones de postres congelados a estas torrijas sin una congelación expresamente prevista.\n\n## Relaciones dentro del SGCC\n\n- [Cuajar cremas y flanes](../00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md)\n- [Diagnóstico de postres](../98_Tablas/07_Comparativas/diagnostico_postres.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El remojo proporciona jugosidad; la cocción exterior fija la estructura sin secar el interior.\n\n## Utilizado por\n\nReceta de referencia del módulo Postres para infusión, remojo y fritura."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "preparation",
+      "raw": "20 minutos, más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    },
+    {
+      "max": "20",
+      "min": "15",
+      "phase": "cooking",
+      "raw": "15–20 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "08_Postres/torrijas_de_leche_y_canela.html",
+  "id": "REC-0145",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "rebanadas gruesas de pan del día anterior (aproximadamente 350 g)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": true,
+        "max": "8",
+        "min": "8",
+        "raw": "8 rebanadas gruesas de pan del día anterior (aproximadamente 350 g)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "8 rebanadas gruesas de pan del día anterior (aproximadamente 350 g)",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "leche",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 ml de leche",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "600 ml de leche",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, dividido entre leche y acabado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar, dividido entre leche y acabado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar, dividido entre leche y acabado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos medianos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos medianos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos medianos",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "piel de medio limón sin parte blanca",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "piel de medio limón sin parte blanca",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "piel de medio limón sin parte blanca",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave o neutro suficiente para freír",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite de oliva suave o neutro suficiente para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite de oliva suave o neutro suficiente para freír",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida para terminar",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida para terminar",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida para terminar",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPreparar las rebanadas y un recipiente amplio. Lavar limón antes de retirar piel. Mantener huevos refrigerados y utilizar plato limpio para las torrijas cocinadas.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 45
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/torrijas_de_leche_y_canela.md",
+  "source_sha256": "8e8159d262c22c39d9186948088be3ca4c8120d96a0de6fa52189695d7d853f3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 51
+      },
+      "source_number": 1,
+      "text": "1. Infusionar leche\n\nCalentar leche con rama de canela, piel de limón y 50 g de azúcar hasta disolver, sin hervir intensamente. Retirar aromáticos y dejar templar.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 58,
+        "start_line": 55
+      },
+      "source_number": 2,
+      "text": "2. Empapar pan\n\nDistribuir las rebanadas en fuente y verter leche templada poco a poco. Reposar 5–10 minutos según densidad del pan, volteando con cuidado hasta que estén hidratadas sin deshacerse.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 62,
+        "start_line": 59
+      },
+      "source_number": 3,
+      "text": "3. Preparar sartén\n\nBatir los huevos. Calentar aceite en sartén a temperatura media, evitando humo o calentamiento excesivo.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 66,
+        "start_line": 63
+      },
+      "source_number": 4,
+      "text": "4. Rebozar y cocinar\n\nPasar cada rebanada por huevo y freír por tandas hasta dorar ambas caras y cocinar completamente la capa de huevo. Escurrir en rejilla o papel apto para alimentos.\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 70,
+        "start_line": 67
+      },
+      "source_number": 5,
+      "text": "5. Terminar\n\nMezclar azúcar restante con canela molida y espolvorear ligeramente. Servir templadas o enfriar sin demoras y refrigerar.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.html",
+      "label": "Cuajar cremas y flanes",
+      "source_location": {
+        "end_line": 103,
+        "start_line": 103
+      },
+      "source_path": "00_Bases/03_Tecnicas/cuajar_cremas_y_flanes.md"
+    }
+  ],
+  "title": "Torrijas de leche y canela",
+  "yield": {
+    "max": "8",
+    "min": "8",
+    "raw": "8 torrijas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

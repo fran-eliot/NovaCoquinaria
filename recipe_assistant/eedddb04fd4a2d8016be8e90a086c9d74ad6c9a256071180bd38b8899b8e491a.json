@@ -1,0 +1,302 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 15
+    },
+    "text": "\n# Costillas con papas y piña de millo\n\n## Origen y contexto\n\n**Región:** Tenerife, Canarias. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 90–120 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 900 g de costilla de cerdo salada apta para cocer\n- 800 g de papas\n- 2 mazorcas de maíz frescas cortadas en mitades\n- agua potable\n- 30 g de cilantro fresco\n- 2 dientes de ajo\n- 60 ml de aceite de oliva\n- 15 ml de vinagre de vino\n- 2 g de comino y sal al gusto\n\n**Alérgenos:** Posibles sulfitos del vinagre; comprobar etiquetado de costillas.\n\n## Elaboración\n\n1. Desalar las costillas según su etiquetado en el frigorífico, cambiando el agua cuando lo indique el proveedor.\n2. Cubrir con agua limpia y cocer suavemente durante 45–60 minutos, retirando espuma y verificando que la carne quede tierna y completamente cocinada.\n3. Añadir las mazorcas y las papas peladas; cocer 20–30 minutos más, hasta que todos los componentes estén tiernos.\n4. Triturar cilantro lavado, ajo, comino, aceite y vinagre para elaborar un mojo verde sencillo; corregir sal al final.\n5. Escurrir las costillas, papas y millo y servir calientes con mojo aparte.\n\n## Puntos críticos\n\n- Piña de millo significa mazorca, no piña tropical. La costilla salada necesita desalado controlado; no salar el caldo sin probar.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Carne salada | Desalado corto | Seguir instrucciones del proveedor |\n| Papa deshecha | Cocción excesiva | Añadir más tarde |\n\n## Conservación\n\nEnfriar rápidamente, refrigerar a 4 °C o menos hasta 2 días y recalentar completamente. Guardar mojo por separado y consumir en 24 h.\n\n## Relaciones dentro del SGCC\n\n- [costillas de cerdo al horno con miel y mostaza](../05_Carnes/costillas_de_cerdo_al_horno_con_miel_y_mostaza.md)\n- [hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice del módulo](./README.md)\n\n## Referencias\n\n- [Referencia de la tradición gastronómica](https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/costillas-con-papas-y-pi%C3%B1a-de-millo/)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "120",
+      "min": "90",
+      "phase": "declared_total",
+      "raw": "90–120 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Tenerife, Canarias. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/costillas_con_papas_y_pina_de_millo_canarias.html",
+  "id": "REC-580",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "costilla de cerdo salada apta para cocer",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "900",
+        "min": "900",
+        "raw": "900 g de costilla de cerdo salada apta para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "900 g de costilla de cerdo salada apta para cocer",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "papas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "800",
+        "min": "800",
+        "raw": "800 g de papas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "800 g de papas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "mazorcas de maíz frescas cortadas en mitades",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 mazorcas de maíz frescas cortadas en mitades",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 mazorcas de maíz frescas cortadas en mitades",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "agua potable",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "agua potable",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "cilantro fresco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de cilantro fresco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de cilantro fresco",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 ml de aceite de oliva",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "60 ml de aceite de oliva",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "15",
+        "min": "15",
+        "raw": "15 ml de vinagre de vino",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "15 ml de vinagre de vino",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "comino y sal al gusto",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 g de comino y sal al gusto",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "2 g de comino y sal al gusto",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/costillas_con_papas_y_pina_de_millo_canarias.md",
+  "source_sha256": "cedf55770f9ae9ab699af01eaa53f25fd4f3dc7aeeb5769d02004be3795c3f4e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 1,
+      "text": "Desalar las costillas según su etiquetado en el frigorífico, cambiando el agua cuando lo indique el proveedor."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 2,
+      "text": "Cubrir con agua limpia y cocer suavemente durante 45–60 minutos, retirando espuma y verificando que la carne quede tierna y completamente cocinada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 3,
+      "text": "Añadir las mazorcas y las papas peladas; cocer 20–30 minutos más, hasta que todos los componentes estén tiernos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 4,
+      "text": "Triturar cilantro lavado, ajo, comino, aceite y vinagre para elaborar un mojo verde sencillo; corregir sal al final."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 5,
+      "text": "Escurrir las costillas, papas y millo y servir calientes con mojo aparte."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Costillas con papas y piña de millo",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

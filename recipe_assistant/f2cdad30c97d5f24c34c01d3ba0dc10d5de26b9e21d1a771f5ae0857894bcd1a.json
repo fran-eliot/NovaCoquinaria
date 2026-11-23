@@ -1,0 +1,241 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Agua de arroz y canela de inspiración horchata\n\n## Descripción\n\nBebida de referencia basada en **remojo refrigerado, triturado, filtrado y dilución**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 vasos |\n| Técnica | Remojo refrigerado, triturado, filtrado y dilución |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 120 g de arroz blanco seco\n- 750 ml de agua potable para remojo, que se desecha\n- 700 ml de agua potable fría para triturar y diluir\n- 1 rama de canela\n- 40–60 g de azúcar, ajustables\n- ½ cucharadita de vainilla opcional\n\n**Alérgenos:** Sin alérgenos principales en la fórmula básica; revisar vainilla comercial.\n\n## Elaboración\n\n1. Lavar el arroz seco con agua potable y desechar el agua del lavado.\n2. Colocar el arroz y la canela en recipiente tapado con 750 ml de agua; remojar **en frigorífico** 6–8 horas.\n3. Escurrir y desechar toda el agua de remojo; retirar la canela si ha soltado fragmentos duros.\n4. Triturar el arroz hidratado con parte del agua nueva y el azúcar hasta desmenuzar el grano; pasar por filtro fino o paño limpio apto para alimentos.\n5. Añadir el resto del agua limpia, mezclar y ajustar el dulzor; no servir sedimentos duros del grano.\n6. Refrigerar inmediatamente y consumir preferiblemente el mismo día, removiendo antes de servir.\n\n## Puntos críticos\n\n- Esta es una bebida filtrada de cereal crudo remojado, no un método de cocción del arroz. El remojo en agua a temperatura ambiente es desaconsejable por riesgo microbiológico; utilizar higiene estricta, agua potable y refrigeración continua. Para personas vulnerables, optar por una versión con arroz previamente cocido y enfriado correctamente.\n- Ajustar las cantidades de agua, endulzante y ácido según la concentración de los productos y la temperatura de servicio.\n- Lavar fruta y hierbas, utilizar agua potable y mantener ingredientes perecederos refrigerados.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Sedimento duro o textura arenosa | Arroz hidratado insuficientemente triturado o filtro demasiado grueso | Respetar el remojo refrigerado, triturar bien y filtrar con paño apto antes de servir |\n| Bebida demasiado diluida | Exceso de agua de dilución respecto al extracto filtrado | Registrar el rendimiento real del filtrado antes de ajustar los 700 ml previstos |\n| Dulzor o canela dominantes | Azúcar o extracción de canela intensos para el gusto buscado | Probar después de filtrar y registrar el resultado antes de cambiar la fórmula |\n| Separación de fases en el vaso | Partículas finas del cereal sedimentadas | Remover antes del servicio; no confundir sedimentación con garantía de inocuidad |\n\n## Conservación\n\nEsta bebida contiene **arroz crudo remojado y triturado, sin cocción ni pasteurización**. Mantener todo el remojo de 6–8 horas refrigerado, desechar su agua, utilizar agua potable nueva y utensilios higienizados. Filtrar y refrigerar inmediatamente la bebida resultante; consumir preferiblemente **el mismo día** y no dejarla durante periodos prolongados a temperatura ambiente. Para personas especialmente vulnerables, considerar una preparación alternativa con arroz completamente cocido y manejo seguro, sin atribuirla a esta fórmula.\n\n## Relaciones dentro del SGCC\n\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Bebidas](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar producto, cantidades reales, temperatura, extracción, dulzor, textura y valoración. No se atribuye esta fórmula a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Bebida de referencia basada en **remojo refrigerado, triturado, filtrado y dilución**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y procedimientos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "09_Bebidas/agua_de_arroz_con_canela_estilo_horchata.html",
+  "id": "REC-318",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz blanco seco",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de arroz blanco seco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de arroz blanco seco",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable para remojo, que se desecha",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "750",
+        "min": "750",
+        "raw": "750 ml de agua potable para remojo, que se desecha",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "750 ml de agua potable para remojo, que se desecha",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría para triturar y diluir",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "700",
+        "min": "700",
+        "raw": "700 ml de agua potable fría para triturar y diluir",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "700 ml de agua potable fría para triturar y diluir",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 rama de canela",
+        "status": "exact",
+        "unit": "rama"
+      },
+      "raw": "1 rama de canela",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar, ajustables",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "40",
+        "raw": "40–60 g de azúcar, ajustables",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "40–60 g de azúcar, ajustables",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "vainilla opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de vainilla opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de vainilla opcional",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/agua_de_arroz_con_canela_estilo_horchata.md",
+  "source_sha256": "9b2dabf751bea842392c10a53f8c42a791c82a45fa0d4d79a1c768c47e6ed2ab",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Lavar el arroz seco con agua potable y desechar el agua del lavado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Colocar el arroz y la canela en recipiente tapado con 750 ml de agua; remojar **en frigorífico** 6–8 horas."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Escurrir y desechar toda el agua de remojo; retirar la canela si ha soltado fragmentos duros."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Triturar el arroz hidratado con parte del agua nueva y el azúcar hasta desmenuzar el grano; pasar por filtro fino o paño limpio apto para alimentos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Añadir el resto del agua limpia, mezclar y ajustar el dulzor; no servir sedimentos duros del grano."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Refrigerar inmediatamente y consumir preferiblemente el mismo día, removiendo antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Agua de arroz y canela de inspiración horchata",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 vasos",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "vaso"
+  }
+}

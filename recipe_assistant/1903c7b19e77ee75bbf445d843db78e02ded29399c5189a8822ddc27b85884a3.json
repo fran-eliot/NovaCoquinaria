@@ -1,0 +1,316 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Risotto de puerro y gorgonzola\n\n## Descripción\n\nPreparación de referencia basada en **caldo progresivo y mantecadatura de queso azul**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 |\n| Técnica principal | Caldo progresivo y mantecadatura de queso azul |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de arroz arborio o carnaroli\n- 220 g de puerro limpio en rodajas finas\n- 75 g de gorgonzola\n- 750–900 ml de caldo vegetal caliente, orientativos\n- 30 g de mantequilla\n- 1 cucharada de aceite de oliva\n- 50 ml de vino blanco seco, opcional\n- 20 g de parmesano opcional\n- pimienta negra y sal\n\n**Alérgenos:** Leche; vino con posible alcohol residual.\n\n## Elaboración\n\n1. Lavar cuidadosamente el puerro entre sus capas para retirar tierra y cortarlo en rodajas finas.\n2. Pochar el puerro con aceite y media mantequilla unos 8–10 minutos, sin dorarlo intensamente.\n3. Añadir arroz seco sin lavar, nacarar durante 1–2 minutos y evaporar el vino blanco opcional.\n4. Agregar caldo caliente por tandas, removiendo suavemente y reponiendo líquido conforme lo absorba, durante unos 16–20 minutos según variedad.\n5. Comprobar el punto de grano y una textura fluida; retirar la cazuela del fuego.\n6. Añadir mantequilla restante, gorgonzola y parmesano opcional, mezclar hasta integrar sin hervir y reposar 1 minuto.\n7. Corregir pimienta y sal después de probar el queso, y servir de inmediato.\n\n## Puntos críticos\n\n- El gorgonzola ya aporta bastante sal y grasa. Una cocción fuerte después de añadir queso azul puede provocar separación de la salsa.\n- Ajustar la proporción de caldo al tipo de arroz, superficie de la cazuela, potencia del fuego y tiempo real de cocción.\n- Mantener separados los alimentos crudos y los cocinados, comprobar la cocción completa de las proteínas y seguir el etiquetado de productos comerciales.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste para otra prueba |\n|---|---|---|\n| Arroz seco o duro | Evaporación excesiva o tiempo insuficiente | Revisar volumen de caldo y potencia del fuego |\n| Arroz pastoso | Exceso de líquido, manipulación o reposo prolongado | Medir líquido y respetar el método de cocción |\n| Fondo excesivamente tostado | Calor demasiado intenso o poco líquido | Moderar temperatura y utilizar un recipiente apropiado |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Si sobra arroz cocido, distribuirlo en recipientes poco profundos, **enfriarlo rápidamente y refrigerarlo sin demora**. No mantenerlo durante horas a temperatura ambiente: el recalentamiento no corrige un almacenamiento inseguro. Recalentar completamente las porciones que vayan a consumirse calientes.\n\n## Relaciones dentro del SGCC\n\n- [Mantecar un risotto](../00_Bases/03_Tecnicas/mantecar_risotto.md)\n- [Risotto de setas](./risotto_de_setas.md)\n- [Enfriar y recalentar arroz cocido](../00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md)\n- [Índice de Arroces](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar los pesos efectivos, variedad de arroz, proporción real de líquido, equipo, tiempo, textura y valoración. No se modifica ni se presupone el resultado de recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **caldo progresivo y mantecadatura de queso azul**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos son orientativos y están pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "01_Arroces/risotto_de_puerro_y_gorgonzola.html",
+  "id": "REC-372",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "arroz arborio o carnaroli",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de arroz arborio o carnaroli",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de arroz arborio o carnaroli",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro limpio en rodajas finas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de puerro limpio en rodajas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de puerro limpio en rodajas finas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "gorgonzola",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 g de gorgonzola",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "75 g de gorgonzola",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo vegetal caliente, orientativos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": true,
+        "max": "900",
+        "min": "750",
+        "raw": "750–900 ml de caldo vegetal caliente, orientativos",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "750–900 ml de caldo vegetal caliente, orientativos",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "30",
+        "raw": "30 g de mantequilla",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "30 g de mantequilla",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco seco, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 ml de vino blanco seco, opcional",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "50 ml de vino blanco seco, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "parmesano opcional",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de parmesano opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de parmesano opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra y sal",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra y sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra y sal",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/risotto_de_puerro_y_gorgonzola.md",
+  "source_sha256": "afacb839fdfd8f866e3d4b0e39d10cd78d437d69d1070a266f2debacdf8134b0",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Lavar cuidadosamente el puerro entre sus capas para retirar tierra y cortarlo en rodajas finas."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar el puerro con aceite y media mantequilla unos 8–10 minutos, sin dorarlo intensamente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Añadir arroz seco sin lavar, nacarar durante 1–2 minutos y evaporar el vino blanco opcional."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Agregar caldo caliente por tandas, removiendo suavemente y reponiendo líquido conforme lo absorba, durante unos 16–20 minutos según variedad."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Comprobar el punto de grano y una textura fluida; retirar la cazuela del fuego."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Añadir mantequilla restante, gorgonzola y parmesano opcional, mezclar hasta integrar sin hervir y reposar 1 minuto."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Corregir pimienta y sal después de probar el queso, y servir de inmediato."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/mantecar_risotto.html",
+      "label": "Mantecar un risotto",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/mantecar_risotto.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.html",
+      "label": "Enfriar y recalentar arroz cocido",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/enfriar_y_recalentar_arroz_cocido.md"
+    }
+  ],
+  "title": "Risotto de puerro y gorgonzola",
+  "yield": {
+    "max": "3",
+    "min": "3",
+    "raw": "3",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

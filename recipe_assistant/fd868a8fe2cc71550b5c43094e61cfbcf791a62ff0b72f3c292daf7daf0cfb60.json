@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 65,
+      "start_line": 13
+    },
+    "text": "\n# Merluza en papillote con verduras\n\n## Descripción\nMerluza horneada en paquete cerrado con verduras finas y limón, aprovechando el vapor generado por sus propios jugos.\n\n## Información general\n| Dato | Valor |\n|---|---|\n| Raciones | 2 |\n| Preparación | 15 min |\n| Horneado | 15–22 min, según grosor |\n\n## Ingredientes\n- 2 lomos de merluza descongelados en refrigeración (300–400 g en total);\n- 1 zanahoria pequeña;\n- 1/2 calabacín;\n- 1/2 puerro;\n- 1 cucharada de aceite de oliva;\n- 2 rodajas de limón;\n- perejil, pimienta y sal moderada.\n\n**Alérgeno:** pescado.\n\n## Elaboración\n1. Precalentar horno a **190 °C**.\n2. Cortar zanahoria, calabacín y puerro en juliana fina. Si la zanahoria es gruesa, precocer brevemente.\n3. Preparar dos hojas de papel de horno apto para la temperatura indicada por su fabricante.\n4. Repartir verduras, colocar merluza encima, añadir aceite, limón y condimentos.\n5. Cerrar paquetes dejando espacio para vapor, con pliegues firmes y sin contacto con resistencias.\n6. Hornear 15–22 minutos según grosor; abrir con cuidado para evitar quemaduras por vapor.\n7. Comprobar cocción completa del pescado: como referencia, **63 °C en el centro** o carne opaca que se separa fácilmente; prolongar si hace falta.\n\n## Puntos críticos\n- Cortar verduras muy finas para que se cocinen junto al pescado.\n- No usar film plástico convencional.\n- Abrir paquetes alejándolos de la cara.\n- Ajustar tiempo al grosor, no solo al peso.\n\n## Diagnóstico\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Verdura dura | Corte grueso | Precocer o afinar corte |\n| Pescado seco | Exceso de cocción | Comprobar antes |\n| Paquete abierto | Cierre deficiente | Reforzar pliegues |\n\n## Relaciones\n- [Asar en horno](../00_Bases/03_Tecnicas/asar_en_horno.md)\n- [Merluza](../11_Despensa/04_Pescados/merluza.md)\n- [Cocinar pescado al vapor](../00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md)\n\n## Principio de NovaCoquinaria\n> El papillote concentra aromas y conserva humedad mediante vapor contenido."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 23,
+        "start_line": 23
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "baking",
+      "raw": "15–22 min, según grosor",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 24,
+        "start_line": 24
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/pescado_en_papillote.html",
+  "id": "REC-0097",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "lomos de merluza descongelados en refrigeración (300–400 g en total);",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 lomos de merluza descongelados en refrigeración (300–400 g en total);",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 lomos de merluza descongelados en refrigeración (300–400 g en total);",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria pequeña;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 zanahoria pequeña;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 zanahoria pequeña;",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "group": null,
+      "name": "calabacín;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 calabacín;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 calabacín;",
+      "source_location": {
+        "end_line": 29,
+        "start_line": 29
+      }
+    },
+    {
+      "group": null,
+      "name": "puerro;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 puerro;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1/2 puerro;",
+      "source_location": {
+        "end_line": 30,
+        "start_line": 30
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "rodajas de limón;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 rodajas de limón;",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 rodajas de limón;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil, pimienta y sal moderada.",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil, pimienta y sal moderada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil, pimienta y sal moderada.",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/pescado_en_papillote.md",
+  "source_sha256": "6beba5c4b85daab1413c006dcd9fde559953ac70076141de90981c7c42a9447c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **190 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      },
+      "source_number": 2,
+      "text": "Cortar zanahoria, calabacín y puerro en juliana fina. Si la zanahoria es gruesa, precocer brevemente."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      },
+      "source_number": 3,
+      "text": "Preparar dos hojas de papel de horno apto para la temperatura indicada por su fabricante."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      },
+      "source_number": 4,
+      "text": "Repartir verduras, colocar merluza encima, añadir aceite, limón y condimentos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 5,
+      "text": "Cerrar paquetes dejando espacio para vapor, con pliegues firmes y sin contacto con resistencias."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 6,
+      "text": "Hornear 15–22 minutos según grosor; abrir con cuidado para evitar quemaduras por vapor."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 7,
+      "text": "Comprobar cocción completa del pescado: como referencia, **63 °C en el centro** o carne opaca que se separa fácilmente; prolongar si hace falta."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_en_horno.html",
+      "label": "Asar en horno",
+      "source_location": {
+        "end_line": 60,
+        "start_line": 60
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_en_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.html",
+      "label": "Cocinar pescado al vapor",
+      "source_location": {
+        "end_line": 62,
+        "start_line": 62
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocinar_pescado_al_vapor.md"
+    }
+  ],
+  "title": "Merluza en papillote con verduras",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 22,
+      "start_line": 22
+    },
+    "unit": "racion"
+  }
+}

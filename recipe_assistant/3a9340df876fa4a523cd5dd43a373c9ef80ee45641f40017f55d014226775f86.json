@@ -1,0 +1,268 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 108,
+      "start_line": 15
+    },
+    "text": "\n# Manzanas asadas con canela y nueces\n\n## Descripción\n\nManzanas enteras descorazonadas, horneadas con canela, nueces y una pequeña cantidad de agua. El horneado ablanda la fruta sin convertirla en compota y concentra su dulzor natural.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Preparación | 15 minutos |\n| Cocinado | 30–45 minutos |\n| Dificultad | Media |\n| Técnica principal | Asado de fruta entera |\n\n## Ingredientes\n\n- 4 manzanas firmes medianas, preferiblemente de tamaño similar\n- 40 g de nueces picadas\n- 1 cucharadita de canela molida\n- 20 g de mantequilla opcional\n- 2 cucharaditas de miel o azúcar, opcionales\n- 100 ml de agua\n- 1 cucharadita de zumo de limón opcional\n\n**Alérgenos:** Frutos de cáscara (nueces); leche si se añade mantequilla.\n\n## Mise en place\n\nPrecalentar el horno a 180 °C. Lavar las manzanas, retirar el corazón con descorazonador sin perforar totalmente el fondo y colocarlas en fuente donde queden estables.\n\n## Elaboración\n\n### 1. Preparar relleno\n\nMezclar nueces, canela y miel o azúcar opcionales. Repartir el relleno entre las cavidades, sin comprimir.\n\n### 2. Añadir humedad\n\nColocar un pequeño trozo de mantequilla opcional encima de cada manzana. Verter 100 ml de agua en el fondo de la fuente, sin cubrir la fruta.\n\n### 3. Hornear\n\nHornear durante 30–45 minutos, según variedad y tamaño, hasta que un cuchillo entre sin resistencia apreciable pero la manzana mantenga su forma.\n\n### 4. Reposar y servir\n\nReposar 5–10 minutos; regar con un poco de jugo de la fuente y añadir limón opcional. Servir templadas.\n\n## Puntos críticos\n\n- No vaciar completamente la base para evitar que escape el relleno.\n- Las manzanas de tamaño diferente necesitan tiempos distintos; comprobar el punto individualmente.\n- Una fuente sin algo de agua puede quemar los jugos antes de ablandar la fruta.\n\n## Perfil esperado\n\nFruta muy tierna pero todavía entera, aroma de canela y contraste de nueces.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con pasas | Añadir 25 g de pasas hidratadas al relleno |\n| Sin frutos secos | Sustituir nueces por dados finos de pera |\n| Con jengibre | Añadir una pizca al relleno |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Fruta dura | Horneado insuficiente | Prolongar y comprobar centro |\n| Manzana deshecha | Cocción excesiva | Retirar al primer punto tierno |\n| Jugo quemado | Falta de agua en fuente | Mantener humedad mínima |\n\n## Conservación\n\nEnfriar las sobras sin demoras y conservar en recipientes tapados y refrigerados cuando se trate de preparaciones perecederas. Consumir en un plazo corto y recalentar completamente los platos salados si se sirven de nuevo calientes. Las masas horneadas sin relleno perecedero pueden conservarse en lugar fresco y seco por periodos breves; adaptar la conservación a sus ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> El asado de fruta busca concentrar dulzor conservando forma y jugosidad.\n\n## Utilizado por\n\nPreparación de referencia del módulo Horno: asado de fruta entera."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "45",
+      "min": "30",
+      "phase": "cooking",
+      "raw": "30–45 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/manzanas_asadas_con_canela_y_nueces.html",
+  "id": "REC-0165",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "manzanas firmes medianas, preferiblemente de tamaño similar",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 manzanas firmes medianas, preferiblemente de tamaño similar",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 manzanas firmes medianas, preferiblemente de tamaño similar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces picadas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de nueces picadas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de nueces picadas",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla opcional",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "20",
+        "min": "20",
+        "raw": "20 g de mantequilla opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "20 g de mantequilla opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar, opcionales",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de miel o azúcar, opcionales",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de miel o azúcar, opcionales",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "agua",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 ml de agua",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "100 ml de agua",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de zumo de limón opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de zumo de limón opcional",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nPrecalentar el horno a 180 °C. Lavar las manzanas, retirar el corazón con descorazonador sin perforar totalmente el fondo y colocarlas en fuente donde queden estables.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 44
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/manzanas_asadas_con_canela_y_nueces.md",
+  "source_sha256": "2c9f9f17a17d6abc0487efe469e634879aa1e962438ec3ecf3e7dc2beb7f8944",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 50
+      },
+      "source_number": 1,
+      "text": "1. Preparar relleno\n\nMezclar nueces, canela y miel o azúcar opcionales. Repartir el relleno entre las cavidades, sin comprimir.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 57,
+        "start_line": 54
+      },
+      "source_number": 2,
+      "text": "2. Añadir humedad\n\nColocar un pequeño trozo de mantequilla opcional encima de cada manzana. Verter 100 ml de agua en el fondo de la fuente, sin cubrir la fruta.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 61,
+        "start_line": 58
+      },
+      "source_number": 3,
+      "text": "3. Hornear\n\nHornear durante 30–45 minutos, según variedad y tamaño, hasta que un cuchillo entre sin resistencia apreciable pero la manzana mantenga su forma.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 65,
+        "start_line": 62
+      },
+      "source_number": 4,
+      "text": "4. Reposar y servir\n\nReposar 5–10 minutos; regar con un poco de jugo de la fuente y añadir limón opcional. Servir templadas.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 98,
+        "start_line": 98
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Manzanas asadas con canela y nueces",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

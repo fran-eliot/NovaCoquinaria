@@ -1,0 +1,298 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 79,
+      "start_line": 14
+    },
+    "text": "\n# Empanadillas al horno de espinacas y ricotta\n\n## Descripción\n\nPreparación de referencia basada en **relleno escurrido, sellado y horneado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 unidades |\n| Técnica | Relleno escurrido, sellado y horneado |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 12 obleas de empanadilla refrigeradas, unos 300 g, según fabricante\n- 300 g de espinacas frescas\n- 180 g de ricotta\n- 70 g de cebolla muy picada\n- 1 diente de ajo\n- 1 cucharada de aceite de oliva\n- 1 huevo batido para pincelar, opcional\n- una pizca de nuez moscada\n- sal y pimienta\n\n**Alérgenos:** Gluten (trigo) y leche; huevo si se pincela; verificar obleas.\n\n## Elaboración\n\n1. Precalentar horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel adecuado.\n2. Pochar cebolla en aceite 5–6 minutos; incorporar ajo y espinacas y cocinar hasta que estén hechas y se evapore su humedad.\n3. Escurrir y presionar las espinacas cocinadas si todavía sueltan agua; dejar templar antes de añadir ricotta, nuez moscada, sal y pimienta.\n4. Repartir una cucharada moderada de relleno en cada oblea fría; mojar apenas el borde con agua y cerrarlo, presionando con tenedor.\n5. Distribuir en la bandeja separadas, pincelar con huevo opcional y hacer un pequeño orificio en cada pieza para liberar vapor.\n6. Hornear 15–20 minutos, siguiendo el envase de las obleas, hasta masa totalmente cocida, base dorada e interior caliente.\n\n## Puntos críticos\n\n- Rellenar en exceso o usar espinacas acuosas rompe el cierre y humedece la base. Las obleas pueden requerir distinta temperatura según fabricante.\n- El tiempo depende del corte, humedad, bandeja y comportamiento del horno; comprobar el centro y la base antes de terminar.\n- Separar alimentos crudos de los listos para comer, emplear utensilios higiénicos y conservar refrigerados los ingredientes perecederos antes de cocinar.\n\n## Diagnóstico\n\n| Síntoma | Causa probable | Ajuste para una próxima elaboración |\n|---|---|---|\n| Base blanda o húmeda | Relleno con agua o exceso de espesor | Escurrir y reducir el relleno; ajustar precocción |\n| Superficie quemada e interior duro | Calor superior elevado o piezas gruesas | Bajar temperatura y precocer cuando proceda |\n| Textura seca | Exceso de horno o relleno insuficiente | Comprobar antes el punto real y proteger la superficie |\n\n## Conservación\n\nServir preferiblemente recién elaborado. Enfriar rápidamente las sobras, refrigerar en recipientes tapados y evitar periodos prolongados a temperatura ambiente. Las preparaciones con quesos frescos o huevo precisan especial cuidado de refrigeración antes y después del horneado.\n\n## Relaciones dentro del SGCC\n\n- [Empanada de atún y pimientos](./empanada_de_atun_y_pimientos.md)\n- [Integrar salsas sensibles al calor](../00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md)\n- [Índice de Horno](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar ingredientes utilizados, tamaño real del corte o molde, temperatura, duración, textura y valoración. Estas propuestas no sustituyen recetas domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **relleno escurrido, sellado y horneado**. No consta elaboración doméstica ni valoración de esta fórmula; cantidades y tiempos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "10_Horno/empanadillas_al_horno_de_espinacas_y_ricotta.html",
+  "id": "REC-333",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "obleas de empanadilla refrigeradas, unos 300 g, según fabricante",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "12",
+        "min": "12",
+        "raw": "12 obleas de empanadilla refrigeradas, unos 300 g, según fabricante",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "12 obleas de empanadilla refrigeradas, unos 300 g, según fabricante",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "espinacas frescas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de espinacas frescas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de espinacas frescas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "ricotta",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de ricotta",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de ricotta",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla muy picada",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 g de cebolla muy picada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "70 g de cebolla muy picada",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de ajo",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de aceite de oliva",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de aceite de oliva",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "huevo batido para pincelar, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 huevo batido para pincelar, opcional",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 huevo batido para pincelar, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de nuez moscada",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de nuez moscada",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de nuez moscada",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/empanadillas_al_horno_de_espinacas_y_ricotta.md",
+  "source_sha256": "bff8f2da6bfe5763c6fc2b25ed8f0d961c2c5749fb694cc42e2da8d7a49af1bb",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 200 °C, calor arriba y abajo, y preparar bandeja con papel adecuado."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Pochar cebolla en aceite 5–6 minutos; incorporar ajo y espinacas y cocinar hasta que estén hechas y se evapore su humedad."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Escurrir y presionar las espinacas cocinadas si todavía sueltan agua; dejar templar antes de añadir ricotta, nuez moscada, sal y pimienta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Repartir una cucharada moderada de relleno en cada oblea fría; mojar apenas el borde con agua y cerrarlo, presionando con tenedor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Distribuir en la bandeja separadas, pincelar con huevo opcional y hacer un pequeño orificio en cada pieza para liberar vapor."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear 15–20 minutos, siguiendo el envase de las obleas, hasta masa totalmente cocida, base dorada e interior caliente."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.html",
+      "label": "Integrar salsas sensibles al calor",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/integrar_salsas_sensibles_al_calor.md"
+    }
+  ],
+  "title": "Empanadillas al horno de espinacas y ricotta",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "unidad"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 14
+    },
+    "text": "\n# Remolacha asada con nueces y vinagreta\n\n## Descripción\n\nPreparación de referencia centrada en **asado de raíz entera y aliño**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Asado de raíz entera y aliño |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 600 g de remolachas crudas enteras;\n- 55 g de nueces troceadas;\n- 2 cucharadas de aceite de oliva;\n- 1 cucharada de vinagre de vino o manzana;\n- 1 cucharadita de mostaza de Dijon;\n- 1 cucharadita de miel opcional;\n- sal y pimienta;\n\n**Alérgenos:** Nueces (frutos de cáscara), mostaza.\n\n## Elaboración\n\n1. Lavar bien las remolachas sin pelarlas y retirar hojas dejando unos centímetros de tallo.\n2. Precalentar el horno a 190 °C y envolver las piezas individualmente en papel apto o colocarlas en recipiente tapado con un poco de agua.\n3. Hornear unos 45–75 minutos según tamaño hasta que una brocheta atraviese el centro con facilidad.\n4. Dejar templar, pelar con cuidado y cortar en gajos sobre tabla fácil de limpiar.\n5. Mezclar aceite, vinagre, mostaza y miel opcional hasta emulsionar y aliñar la remolacha.\n6. Tostar las nueces brevemente en sartén seca, enfriar y añadir justo antes de servir.\n\n## Puntos críticos\n\n- El tiempo depende mucho del diámetro de las raíces. El jugo de remolacha tiñe superficies y utensilios; emplear tabla adecuada.\n- Los tiempos dependen del tamaño de los cortes, variedad y equipo; comprobar el punto real antes de servir.\n- Lavar cuidadosamente las hortalizas, separar alimentos crudos de cocinados y mantener salsas perecederas refrigeradas hasta servir.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste en la próxima prueba |\n|---|---|---|\n| Verdura acuosa | Escurrido incompleto o exceso de líquido | Secar mejor y reducir el líquido añadido |\n| Exterior muy tostado e interior duro | Fuego excesivo o cortes gruesos | Precocer o reducir temperatura y ajustar grosor |\n| Condimento amargo | Ajo, especia o fruto seco quemado | Incorporarlo más tarde o usar fuego suave |\n\n## Conservación\n\nRefrigerar sin demora las sobras cocinadas en recipientes poco profundos. Mantener los aliños lácteos refrigerados. No dejar preparaciones perecederas varias horas a temperatura ambiente; recalentar completamente si se sirven calientes.\n\n## Relaciones dentro del SGCC\n\n- [Asar verduras](../00_Bases/03_Tecnicas/asar_verduras_al_horno.md)\n- [Emulsionar vinagretas](../00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md)\n- [Índice de Verduras](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades reales, tamaño del corte, temperatura y tiempos efectivos, textura y valoración. No se atribuyen estas cantidades a experiencias domésticas anteriores."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **asado de raíz entera y aliño**. No consta elaboración o valoración doméstica de esta fórmula; cantidades y tiempos propuestos quedan pendientes de prueba."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/remolacha_asada_con_nueces_y_vinagreta.html",
+  "id": "REC-0291",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "remolachas crudas enteras;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "600",
+        "min": "600",
+        "raw": "600 g de remolachas crudas enteras;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "600 g de remolachas crudas enteras;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces troceadas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "55",
+        "min": "55",
+        "raw": "55 g de nueces troceadas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "55 g de nueces troceadas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "vinagre de vino o manzana;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharada de vinagre de vino o manzana;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "1 cucharada de vinagre de vino o manzana;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "mostaza de Dijon;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mostaza de Dijon;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mostaza de Dijon;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "miel opcional;",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel opcional;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel opcional;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/remolacha_asada_con_nueces_y_vinagreta.md",
+  "source_sha256": "45851f34ad1efc5b2d34ae7dea9d66c825d9fec7b858a597854e96b181bc2524",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 1,
+      "text": "Lavar bien las remolachas sin pelarlas y retirar hojas dejando unos centímetros de tallo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 2,
+      "text": "Precalentar el horno a 190 °C y envolver las piezas individualmente en papel apto o colocarlas en recipiente tapado con un poco de agua."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 3,
+      "text": "Hornear unos 45–75 minutos según tamaño hasta que una brocheta atraviese el centro con facilidad."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 4,
+      "text": "Dejar templar, pelar con cuidado y cortar en gajos sobre tabla fácil de limpiar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 5,
+      "text": "Mezclar aceite, vinagre, mostaza y miel opcional hasta emulsionar y aliñar la remolacha."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 6,
+      "text": "Tostar las nueces brevemente en sartén seca, enfriar y añadir justo antes de servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asar_verduras_al_horno.html",
+      "label": "Asar verduras",
+      "source_location": {
+        "end_line": 70,
+        "start_line": 70
+      },
+      "source_path": "00_Bases/03_Tecnicas/asar_verduras_al_horno.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.html",
+      "label": "Emulsionar vinagretas",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/emulsionar_vinagretas_y_alinos.md"
+    }
+  ],
+  "title": "Remolacha asada con nueces y vinagreta",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 77,
+      "start_line": 15
+    },
+    "text": "\n# Sobaos pasiegos de mantequilla\n\n## Origen y contexto\n\n**Región:** Valles Pasiegos, Cantabria. Fórmula doméstica de referencia con los rasgos más reconocibles del plato. No se considera una receta cocinada y valorada ni una reproducción certificada de las especialidades protegidas.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 unidades medianas |\n| Tiempo orientativo | 20 minutos preparación + 20–28 minutos de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 250 g de mantequilla blanda de buena calidad\n- 230 g de azúcar\n- 250 g de harina de trigo\n- 4 huevos L\n- 8 g de levadura química de repostería\n- ralladura fina de medio limón lavado, opcional\n- una pizca de sal\n\n**Alérgenos:** Gluten (trigo), huevo y leche.\n\n## Elaboración\n\n1. Precalentar el horno a 180 °C y preparar doce moldes de papel tipo sobao, o moldes rectangulares pequeños aptos para horno.\n2. Batir mantequilla blanda con azúcar hasta conseguir una crema homogénea y aireada.\n3. Incorporar los huevos de uno en uno, batiendo lo justo para integrar cada uno y evitar que la masa se corte.\n4. Mezclar harina, levadura química y sal; añadir a la masa con movimientos suaves. Incorporar ralladura opcional.\n5. Repartir la masa en los moldes hasta aproximadamente dos tercios de su altura.\n6. Hornear unos 20–28 minutos, según tamaño, hasta superficie dorada y centro completamente cocido; comprobar con brocheta limpia.\n7. Enfriar sobre rejilla antes de guardar o servir.\n\n## Puntos críticos\n\n- La mantequilla aporta textura y sabor; cambiarla por aceite constituiría otra formulación. Esta receta doméstica no se presenta como producto certificado por la IGP.\n- Incorporar los huevos de uno en uno a la mantequilla batida y repartir la masa en doce moldes hasta aproximadamente dos tercios; evitar batir de más después de añadir harina.\n- Comprobar el centro de las piezas durante el horneado orientativo de 20–28 minutos. El tamaño del molde afecta al punto de cocción y al dorado exterior.\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para la siguiente preparación |\n|---|---|---|\n| Masa con aspecto cortado antes de añadir harina | Huevos incorporados demasiado rápido o ingredientes a distinta temperatura | Añadir los huevos uno a uno, integrando cada uno antes del siguiente |\n| Sobao compacto | Mezcla demasiado trabajada tras añadir la harina | Incorporar los ingredientes secos con suavidad, sin prolongar el batido |\n| Superficie dorada con centro crudo | Molde demasiado lleno o pieza mayor que la prevista | Mantener el llenado en dos tercios y comprobar el centro antes de retirar |\n| Sobaos secos o quebradizos | Horneado prolongado para el tamaño de los moldes | Revisar el punto antes del final del intervalo orientativo y registrar el resultado tras enfriar |\n## Conservación\n\nEnfriar los sobaos horneados sobre rejilla antes de guardarlos para evitar condensación. Al ser piezas horneadas sin relleno perecedero, pueden mantenerse protegidas durante un periodo breve en lugar fresco y seco, dependiendo de la temperatura y humedad ambiental; refrigerar si esas condiciones no se cumplen. No aplicar indicaciones de conservación de carnes o cremas lácteas a estos sobaos ya cocidos.\n## Relaciones dentro del SGCC\n\n- [Quesada pasiega](./quesada_pasiega_de_queso_fresco_y_canela.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de anotar materia prima, cantidades reales, temperatura, duración, textura y valoración. No sustituye recetas anteriores ni presupone una versión mejorada sin comparación."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "20 minutos preparación + 20–28 minutos de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/sobaos_pasiegos_de_mantequilla.html",
+  "id": "REC-477",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "mantequilla blanda de buena calidad",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de mantequilla blanda de buena calidad",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de mantequilla blanda de buena calidad",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "230",
+        "min": "230",
+        "raw": "230 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "230 g de azúcar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de harina de trigo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 huevos L",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 huevos L",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "levadura química de repostería",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "8",
+        "min": "8",
+        "raw": "8 g de levadura química de repostería",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "8 g de levadura química de repostería",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de medio limón lavado, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de medio limón lavado, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de medio limón lavado, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "una pizca de sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pizca de sal",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "una pizca de sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/sobaos_pasiegos_de_mantequilla.md",
+  "source_sha256": "054dd60d70776d93ad0b1c0e108b4e519ba5537e498189fa83c9286202c378a3",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Precalentar el horno a 180 °C y preparar doce moldes de papel tipo sobao, o moldes rectangulares pequeños aptos para horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Batir mantequilla blanda con azúcar hasta conseguir una crema homogénea y aireada."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Incorporar los huevos de uno en uno, batiendo lo justo para integrar cada uno y evitar que la masa se corte."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Mezclar harina, levadura química y sal; añadir a la masa con movimientos suaves. Incorporar ralladura opcional."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Repartir la masa en los moldes hasta aproximadamente dos tercios de su altura."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Hornear unos 20–28 minutos, según tamaño, hasta superficie dorada y centro completamente cocido; comprobar con brocheta limpia."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Enfriar sobre rejilla antes de guardar o servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Sobaos pasiegos de mantequilla",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 unidades medianas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

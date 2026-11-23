@@ -1,0 +1,351 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 84,
+      "start_line": 15
+    },
+    "text": "\n# Casadielles asturianas de nueces y anís\n\n## Origen y contexto\n\n**Región:** Asturias. La ficha describe una formulación doméstica de referencia; las variantes familiares y regionales pueden utilizar otras proporciones o acabados. No consta como elaboración personal probada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 12 unidades |\n| Tiempo orientativo | 75–90 minutos más reposo |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 300 g de harina de trigo común\n- 80 ml de vino blanco\n- 70 ml de aceite de oliva suave\n- 70 ml de agua, ajustar según textura\n- 1 pizca de sal\n- 220 g de nueces picadas finas\n- 90 g de azúcar para relleno\n- 20–30 ml de licor de anís o agua aromatizada con anís para relleno\n- ½ cucharadita de canela\n- aceite adecuado para freír, suficiente para tandas\n- azúcar extra para rebozar\n\n**Alérgenos:** Gluten (trigo), nueces; el licor y el vino pueden conservar alcohol residual.\n\n## Elaboración\n\n1. Mezclar harina, sal, vino, aceite y agua poco a poco; amasar hasta obtener una masa flexible que no se pegue. Cubrir y reposar 25–30 minutos.\n2. Mezclar nueces picadas, azúcar, canela y anís o su alternativa sin alcohol hasta lograr un relleno húmedo pero no líquido.\n3. Dividir la masa en 12 porciones y estirar cada una fina, en forma de rectángulo de unos 12 × 8 cm.\n4. Colocar relleno en el centro dejando bordes libres, plegar la masa sobre sí misma y cerrar bien extremos y unión para evitar fugas durante la fritura.\n5. Calentar aceite a unos 165–170 °C y freír pocas piezas por tanda, girando con cuidado hasta dorar ambas caras y cocinar totalmente la masa.\n6. Escurrir sobre rejilla o papel adecuado, dejar templar y rebozar ligeramente en azúcar.\n7. Dejar enfriar antes de guardar; registrar qué espesor de masa y cantidad de relleno producen el resultado preferido.\n\n## Puntos críticos\n\n- Las casadielles pueden prepararse con distintas masas, incluidas versiones horneadas; esta es una propuesta frita. Sellar bien las uniones y evitar aceite excesivamente caliente, que dora el exterior antes de cocer la masa.\n- Ajustar las cantidades de líquido, calor y tiempos a la materia prima y al equipo utilizados. Mantener higiene, separar crudos y cocinados y atender a las instrucciones de los productos comerciales.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima elaboración |\n|---|---|---|\n| Masa dura o poco laminada | Masa demasiado gruesa o excesivamente trabajada | Respetar el reposo de 25–30 minutos y estirar las doce piezas finas de modo uniforme |\n| Centro de masa crudo y exterior muy dorado | Aceite excesivamente caliente o pieza demasiado gruesa | Mantener el rango orientativo de 165–170 °C y comprobar la cocción completa de la masa |\n| Fugas de nueces y azúcar | Relleno demasiado húmedo o extremos mal cerrados | Conseguir relleno húmedo pero no líquido y sellar bien los bordes antes de freír |\n| Casadielles aceitosas | Aceite poco caliente o fritura por tandas demasiado grandes | Freír pocas unidades y mantener temperatura estable, escurriendo al final |\n\n## Conservación\n\nDejar enfriar las casadielles fritas y conservarlas protegidas en un recipiente limpio, siguiendo las condiciones de temperatura y humedad del lugar y el tiempo previsto hasta el consumo. Por su relleno de nueces y azúcar, con vino y anís opcional, revisar la frescura de los ingredientes y refrigerar si hay calor, humedad elevada o se retrasa el consumo; el frío puede afectar a la textura de la masa frita. No aplicar instrucciones de conservación de carnes o cremas a estas piezas sin tales ingredientes.\n\n## Relaciones dentro del SGCC\n\n- [Nueces](../11_Despensa/16_Frutos_Secos/nueces.md): selección, frescura y picado del relleno.\n- [Frixuelos asturianos](./frixuelos_asturianos_con_limon_y_azucar.md)\n- [Pestiños andaluces](./pestinos_andaluces_con_miel_y_ajonjoli.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar producto, cantidades efectivas, tiempos, temperatura, textura y valoración. No se sustituyen otras versiones sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "75–90 minutos más reposo",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/casadielles_asturianas_de_nueces_y_anis.html",
+  "id": "REC-465",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "vino blanco",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "80",
+        "min": "80",
+        "raw": "80 ml de vino blanco",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "80 ml de vino blanco",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva suave",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de aceite de oliva suave",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de aceite de oliva suave",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "agua, ajustar según textura",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "70",
+        "min": "70",
+        "raw": "70 ml de agua, ajustar según textura",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "70 ml de agua, ajustar según textura",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de sal",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de sal",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "nueces picadas finas",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "220",
+        "min": "220",
+        "raw": "220 g de nueces picadas finas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "220 g de nueces picadas finas",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar para relleno",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "90",
+        "min": "90",
+        "raw": "90 g de azúcar para relleno",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "90 g de azúcar para relleno",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "licor de anís o agua aromatizada con anís para relleno",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "20",
+        "raw": "20–30 ml de licor de anís o agua aromatizada con anís para relleno",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "20–30 ml de licor de anís o agua aromatizada con anís para relleno",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "canela",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de canela",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de canela",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite adecuado para freír, suficiente para tandas",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite adecuado para freír, suficiente para tandas",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite adecuado para freír, suficiente para tandas",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar extra para rebozar",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "azúcar extra para rebozar",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "azúcar extra para rebozar",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/casadielles_asturianas_de_nueces_y_anis.md",
+  "source_sha256": "642e7468b1c1d29754855ef6b3a20b10aea6558733f2d1d475de276bd9d387c2",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Mezclar harina, sal, vino, aceite y agua poco a poco; amasar hasta obtener una masa flexible que no se pegue. Cubrir y reposar 25–30 minutos."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Mezclar nueces picadas, azúcar, canela y anís o su alternativa sin alcohol hasta lograr un relleno húmedo pero no líquido."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Dividir la masa en 12 porciones y estirar cada una fina, en forma de rectángulo de unos 12 × 8 cm."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Colocar relleno en el centro dejando bordes libres, plegar la masa sobre sí misma y cerrar bien extremos y unión para evitar fugas durante la fritura."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Calentar aceite a unos 165–170 °C y freír pocas piezas por tanda, girando con cuidado hasta dorar ambas caras y cocinar totalmente la masa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Escurrir sobre rejilla o papel adecuado, dejar templar y rebozar ligeramente en azúcar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 54,
+        "start_line": 54
+      },
+      "source_number": 7,
+      "text": "Dejar enfriar antes de guardar; registrar qué espesor de masa y cantidad de relleno producen el resultado preferido."
+    }
+  ],
+  "techniques": [],
+  "title": "Casadielles asturianas de nueces y anís",
+  "yield": {
+    "max": "12",
+    "min": "12",
+    "raw": "12 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

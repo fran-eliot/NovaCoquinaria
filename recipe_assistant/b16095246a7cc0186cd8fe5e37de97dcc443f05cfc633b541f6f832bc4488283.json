@@ -1,0 +1,352 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Olla podrida burgalesa de alubias rojas y compango\n\n## Origen y contexto\n\n**Región:** Burgos, Castilla y León. Formulación doméstica de referencia que distingue los rasgos propios del plato; no se declara receta probada, versión única ni valoración personal.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 6 |\n| Tiempo orientativo | 12 horas de remojo y 2½–3½ horas de cocción |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 450 g de alubias rojas secas de buena calidad\n- 250 g de costilla de cerdo adobada apta para cocinar\n- 200 g de panceta fresca\n- 180 g de chorizo apto para cocer\n- 180 g de morcilla de Burgos apta para cocinar\n- 1 cebolla mediana\n- 2 dientes de ajo\n- 1 hoja de laurel\n- 2–2,5 l de agua potable, según absorción\n- sal al final\n\n**Alérgenos:** Revisar costillas adobadas, chorizo y morcilla por sulfitos y alérgenos comerciales.\n\n## Elaboración\n\n1. Remojar las alubias rojas durante 10–12 horas en abundante agua potable, preferiblemente refrigeradas; escurrir y desechar el remojo.\n2. Poner las alubias en una olla con abundante agua fresca; llevar a ebullición vigorosa y mantenerla al menos 10 minutos antes de bajar el fuego, sin usar olla lenta para alubias crudas sin precocción.\n3. Añadir cebolla, ajo, laurel, costilla y panceta, y cocer a hervor suave unas 1½–2½ horas o hasta que las alubias se acerquen a su punto, ajustando agua caliente.\n4. Agregar el chorizo según su presentación comercial y cocinar hasta que esté completamente hecho.\n5. Incorporar la morcilla de Burgos de forma delicada durante la parte final, siguiendo el etiquetado para evitar que se deshaga o quede insuficientemente cocinada.\n6. Comprobar que todas las alubias están totalmente tiernas y que las carnes están completamente cocinadas; ajustar la sal al final.\n7. Servir las alubias caldosas con las carnes y embutidos en porciones, retirando huesos pequeños y laurel.\n\n## Puntos críticos\n\n- Las alubias rojas crudas contienen fitohemaglutinina; es imprescindible una ebullición vigorosa inicial de al menos 10 minutos antes de la cocción lenta. La morcilla de Burgos suele incluir arroz, por lo que la textura difiere de otros cocidos.\n- Adaptar tiempos, cantidades y textura a los ingredientes utilizados. Respetar la higiene, la refrigeración de perecederos, las instrucciones comerciales y las temperaturas de cocción apropiadas.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste de próxima prueba |\n|---|---|---|\n| Interior poco cocido o demasiado firme | Piezas grandes o tiempo insuficiente | Ajustar tamaño, tiempo y temperatura |\n| Preparación demasiado acuosa | Falta de escurrido o reducción | Escurrir o reducir con suavidad |\n| Sabor descompensado | Sal o condimentos excesivos | Ajustar gradualmente y documentar dosis |\n\n## Conservación\n\nConsumir preferiblemente recién preparado. Enfriar sobras rápidamente y refrigerarlas sin demora en recipientes poco profundos. Conservar carne, pescado, rellenos húmedos y preparaciones con productos animales en frío; recalentar completamente las porciones destinadas al servicio caliente. No mantener perecederos horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Cocido montañés](./cocido_montanes_con_alubias_berza_y_compango.md)\n- [Cocer legumbres](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes y cantidades realmente utilizados, tiempos, textura, resultado y valoración. No se sustituye ninguna versión previa sin evidencia comparativa."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "12 horas de remojo y 2½–3½ horas de cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/olla_podrida_burgalesa_de_alubias_rojas_y_compango.html",
+  "id": "REC-504",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias rojas secas de buena calidad",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 g de alubias rojas secas de buena calidad",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "450 g de alubias rojas secas de buena calidad",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "costilla de cerdo adobada apta para cocinar",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "250",
+        "min": "250",
+        "raw": "250 g de costilla de cerdo adobada apta para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "250 g de costilla de cerdo adobada apta para cocinar",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "panceta fresca",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de panceta fresca",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de panceta fresca",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo apto para cocer",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de chorizo apto para cocer",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de chorizo apto para cocer",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "morcilla de Burgos apta para cocinar",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de morcilla de Burgos apta para cocinar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de morcilla de Burgos apta para cocinar",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla mediana",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cebolla mediana",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 cebolla mediana",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable, según absorción",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2.5",
+        "min": "2",
+        "raw": "2–2,5 l de agua potable, según absorción",
+        "status": "range",
+        "unit": "l"
+      },
+      "raw": "2–2,5 l de agua potable, según absorción",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al final",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al final",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal al final",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/olla_podrida_burgalesa_de_alubias_rojas_y_compango.md",
+  "source_sha256": "857c1cc7dc659e65fdb0b4c773754f6a64df6a7a6179ff5065682bae3a94197b",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Remojar las alubias rojas durante 10–12 horas en abundante agua potable, preferiblemente refrigeradas; escurrir y desechar el remojo."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Poner las alubias en una olla con abundante agua fresca; llevar a ebullición vigorosa y mantenerla al menos 10 minutos antes de bajar el fuego, sin usar olla lenta para alubias crudas sin precocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Añadir cebolla, ajo, laurel, costilla y panceta, y cocer a hervor suave unas 1½–2½ horas o hasta que las alubias se acerquen a su punto, ajustando agua caliente."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Agregar el chorizo según su presentación comercial y cocinar hasta que esté completamente hecho."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Incorporar la morcilla de Burgos de forma delicada durante la parte final, siguiendo el etiquetado para evitar que se deshaga o quede insuficientemente cocinada."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Comprobar que todas las alubias están totalmente tiernas y que las carnes están completamente cocinadas; ajustar la sal al final."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 7,
+      "text": "Servir las alubias caldosas con las carnes y embutidos en porciones, retirando huesos pequeños y laurel."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Olla podrida burgalesa de alubias rojas y compango",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "6",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

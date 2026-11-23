@@ -1,0 +1,355 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 82,
+      "start_line": 14
+    },
+    "text": "\n# Alubias blancas con chorizo y calabaza\n\n## Descripción\n\nPreparación de referencia centrada en **sofrito especiado y guiso de legumbre cocida**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Sofrito especiado y guiso de legumbre cocida |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de alubias blancas completamente cocidas y escurridas;\n- 140 g de chorizo fresco para cocinar, en rodajas;\n- 300 g de calabaza pelada, en dados de 2 cm;\n- 150 g de cebolla picada;\n- 100 g de pimiento verde en dados;\n- 2 dientes de ajo;\n- 200 g de tomate triturado;\n- 400–500 ml de caldo suave o agua;\n- 2 cucharadas de aceite de oliva;\n- ½ cucharadita de pimentón dulce;\n- 1 hoja de laurel;\n- sal al gusto;\n\n**Alérgenos:** Revisar chorizo y caldo comerciales.\n\n## Elaboración\n\n1. Preparar las alubias ya cocidas; si son de conserva, escurrir y enjuagar si procede.\n2. Dorar el chorizo fresco en cazuela con una cucharada de aceite hasta cocinarlo completamente. Retirarlo y desechar parte de la grasa si fuera abundante.\n3. Pochar cebolla y pimiento con aceite restante durante 8 minutos. Incorporar ajo, apartar del fuego para añadir pimentón y agregar tomate.\n4. Cocinar el tomate 5–7 minutos, añadir la calabaza, el laurel y 400 ml de caldo. Cocer suavemente 10–15 minutos hasta que la calabaza empiece a ablandar.\n5. Añadir alubias cocidas y chorizo, y guisar otros 8–10 minutos sin remover bruscamente, hasta que esté todo caliente y la calabaza tierna.\n6. Ajustar el caldo y salar al final, teniendo en cuenta el chorizo.\n\n## Puntos críticos\n\n- La receta utiliza alubias ya cocidas; si parten de secas, hay que hidratarlas y cocerlas de forma segura antes de incorporarlas. El chorizo fresco no se trata como embutido listo para comer.\n- Las cantidades de legumbres especificadas se refieren a **producto completamente cocido**; para legumbres secas, consultar la técnica de cocción antes de preparar la receta.\n- Ajustar tiempos y líquido según producto, recipiente e intensidad de fuego; evitar que las legumbres queden frías en el centro o se rompan innecesariamente.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección para una próxima prueba |\n|---|---|---|\n| Salsa aguada | Demasiado caldo o ingredientes sin escurrir | Reducir antes de integrar las legumbres o añadir menos líquido |\n| Granos rotos | Remoción intensa o cocción prolongada | Utilizar fuego suave y movimientos cuidadosos |\n| Sabor demasiado intenso | Exceso de condimentos concentrados | Añadir condimentos por etapas y probar antes de salar |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y tapados. No mantener preparaciones cocinadas durante horas a temperatura ambiente. Recalentar completamente cuando se sirvan calientes y seguir las indicaciones de las legumbres envasadas.\n\n## Relaciones dentro del SGCC\n\n- [Cocer legumbres secas](../00_Bases/03_Tecnicas/cocer_legumbres.md)\n- [Alubias blancas](../11_Despensa/02_Legumbres/alubias_blancas.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar peso efectivo, producto utilizado, tiempos, resultado y valoración. No atribuir a esta fórmula cantidades o resultados de otras preparaciones domésticas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **sofrito especiado y guiso de legumbre cocida**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/alubias_blancas_con_chorizo_y_calabaza.html",
+  "id": "REC-0280",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "alubias blancas completamente cocidas y escurridas;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de alubias blancas completamente cocidas y escurridas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de alubias blancas completamente cocidas y escurridas;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "chorizo fresco para cocinar, en rodajas;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de chorizo fresco para cocinar, en rodajas;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de chorizo fresco para cocinar, en rodajas;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "calabaza pelada, en dados de 2 cm;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de calabaza pelada, en dados de 2 cm;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de calabaza pelada, en dados de 2 cm;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de cebolla picada;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "pimiento verde en dados;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de pimiento verde en dados;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de pimiento verde en dados;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "tomate triturado;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "200",
+        "min": "200",
+        "raw": "200 g de tomate triturado;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "200 g de tomate triturado;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo suave o agua;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "500",
+        "min": "400",
+        "raw": "400–500 ml de caldo suave o agua;",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "400–500 ml de caldo suave o agua;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de pimentón dulce;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "laurel;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 hoja de laurel;",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "1 hoja de laurel;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    },
+    {
+      "group": null,
+      "name": "sal al gusto;",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal al gusto;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "sal al gusto;",
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/alubias_blancas_con_chorizo_y_calabaza.md",
+  "source_sha256": "8d4540520477ba328bbc368255f1f27de318071b28feb9230209c12d136975f4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 1,
+      "text": "Preparar las alubias ya cocidas; si son de conserva, escurrir y enjuagar si procede."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 2,
+      "text": "Dorar el chorizo fresco en cazuela con una cucharada de aceite hasta cocinarlo completamente. Retirarlo y desechar parte de la grasa si fuera abundante."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 3,
+      "text": "Pochar cebolla y pimiento con aceite restante durante 8 minutos. Incorporar ajo, apartar del fuego para añadir pimentón y agregar tomate."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 4,
+      "text": "Cocinar el tomate 5–7 minutos, añadir la calabaza, el laurel y 400 ml de caldo. Cocer suavemente 10–15 minutos hasta que la calabaza empiece a ablandar."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 5,
+      "text": "Añadir alubias cocidas y chorizo, y guisar otros 8–10 minutos sin remover bruscamente, hasta que esté todo caliente y la calabaza tierna."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 53,
+        "start_line": 53
+      },
+      "source_number": 6,
+      "text": "Ajustar el caldo y salar al final, teniendo en cuenta el chorizo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/cocer_legumbres.html",
+      "label": "Cocer legumbres secas",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/cocer_legumbres.md"
+    }
+  ],
+  "title": "Alubias blancas con chorizo y calabaza",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 73,
+      "start_line": 15
+    },
+    "text": "\n# Ensaladilla rusa de patata, atún y mayonesa\n\n## Origen y contexto\n\n**Región:** España, cocina de tapas. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4–6 raciones |\n| Tiempo orientativo | 40 min más enfriamiento |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 650 g de patatas\n- 150 g de zanahoria\n- 100 g de guisantes\n- 160 g de atún en conserva escurrido\n- 2 huevos\n- 180 g de mayonesa comercial refrigerada\n- sal\n\n**Alérgenos:** Huevo, pescado; comprobar mostaza y otros alérgenos de la mayonesa.\n\n## Elaboración\n\n1. Pelar las patatas y zanahorias y cortar en dados regulares de 1,5 cm.\n2. Cocer las patatas en agua con sal hasta tiernas, unos 12–16 minutos; incorporar zanahorias y guisantes según su tiempo de cocción.\n3. Cocer los huevos por separado 10–11 minutos; enfriar, pelar y picar.\n4. Escurrir las verduras y enfriar rápidamente en recipientes poco profundos dentro del frigorífico.\n5. Mezclar verduras frías, atún, huevo y mayonesa. Ajustar sal y refrigerar tapado hasta servir.\n\n## Puntos críticos\n\n- Utilizar mayonesa comercial y mezclar solo con ingredientes enfriados. Mantener la cadena de frío, especialmente durante el servicio.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Textura acuosa | Verduras mal escurridas | Escurrir y enfriar antes del aliño |\n| Patata deshecha | Cocción excesiva | Comprobar ternura con antelación |\n\n## Conservación\n\nRefrigerar a 4 °C o menos y consumir preferiblemente en 24 horas. No congelar.\n\n## Relaciones dentro del SGCC\n\n- [papas alinas gaditanas con cebolleta y perejil](../04_Verduras/papas_alinas_gaditanas_con_cebolleta_y_perejil.md)\n- [hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras la elaboración."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "40 min más enfriamiento",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** España, cocina de tapas. Formulación doméstica de referencia pendiente de prueba, sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "04_Verduras/ensaladilla_rusa_de_patata_atun_y_mayonesa.html",
+  "id": "REC-574",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "patatas",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "650",
+        "min": "650",
+        "raw": "650 g de patatas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "650 g de patatas",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "150",
+        "raw": "150 g de zanahoria",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "150 g de zanahoria",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "guisantes",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de guisantes",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de guisantes",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "atún en conserva escurrido",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de atún en conserva escurrido",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de atún en conserva escurrido",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "mayonesa comercial refrigerada",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de mayonesa comercial refrigerada",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de mayonesa comercial refrigerada",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "sal",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "04_Verduras/ensaladilla_rusa_de_patata_atun_y_mayonesa.md",
+  "source_sha256": "0dec874af48d7bc2cdb54e0dc16de538a87825d7170d6d89eb017a47e709a32e",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Pelar las patatas y zanahorias y cortar en dados regulares de 1,5 cm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Cocer las patatas en agua con sal hasta tiernas, unos 12–16 minutos; incorporar zanahorias y guisantes según su tiempo de cocción."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Cocer los huevos por separado 10–11 minutos; enfriar, pelar y picar."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Escurrir las verduras y enfriar rápidamente en recipientes poco profundos dentro del frigorífico."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Mezclar verduras frías, atún, huevo y mayonesa. Ajustar sal y refrigerar tapado hasta servir."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Ensaladilla rusa de patata, atún y mayonesa",
+  "yield": {
+    "max": "6",
+    "min": "4",
+    "raw": "4–6 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

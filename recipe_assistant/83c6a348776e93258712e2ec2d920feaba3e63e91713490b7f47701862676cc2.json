@@ -1,0 +1,249 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 107,
+      "start_line": 15
+    },
+    "text": "\n# Leche dorada con cúrcuma y jengibre\n\n## Descripción\n\nBebida caliente especiada con leche, cúrcuma, jengibre y canela. Se prepara como elaboración culinaria aromática, sin atribuirle efectos terapéuticos.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 2 tazas |\n| Preparación | 5 minutos |\n| Cocinado | 8–10 minutos |\n| Dificultad | Fácil |\n| Técnica principal | Infusión de especias en lácteo |\n\n## Ingredientes\n\n- 450 ml de leche o bebida vegetal apta para consumo\n- 1/2 cucharadita de cúrcuma molida\n- 1/4 cucharadita de jengibre molido o 5 g de jengibre fresco rallado\n- 1 trozo pequeño de canela en rama\n- 1 pizca de pimienta negra molida, opcional\n- 1–2 cucharaditas de miel o azúcar, opcionales\n\n**Alérgenos:** Leche si se utiliza leche animal; revisar la composición de alternativas vegetales.\n\n## Mise en place\n\nMedir especias y leche; utilizar un cazo de fondo grueso y varillas pequeñas. La cúrcuma puede teñir utensilios y superficies.\n\n## Elaboración\n\n### 1. Dispersar especias\n\nMezclar en el cazo cúrcuma y jengibre con una pequeña cantidad de leche fría hasta formar pasta sin grumos.\n\n### 2. Completar\n\nIncorporar el resto de leche y canela, removiendo para homogeneizar.\n\n### 3. Infusionar\n\nCalentar a fuego medio-bajo durante 6–8 minutos, sin hervor fuerte, removiendo para evitar que se adhiera al fondo.\n\n### 4. Terminar\n\nRetirar la canela, añadir pimienta opcional y probar. Endulzar moderadamente si se desea y servir caliente.\n\n## Puntos críticos\n\n- Dispersar las especias en poco líquido frío evita grumos.\n- Un hervor intenso puede formar película y producir sabor a leche recalentada.\n- Las especias se utilizan en cantidades culinarias; la bebida no sustituye consejo o tratamiento médico.\n\n## Perfil esperado\n\nBebida suave de color amarillo cálido, con aroma de cúrcuma, jengibre y canela.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con leche de coco | Sustituir parte de la leche por leche de coco culinaria y ajustar riqueza |\n| Sin jengibre | Omitirlo para un perfil más suave |\n| Con cardamomo | Añadir una vaina ligeramente abierta durante la infusión |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Polvo en suspensión | Mezcla insuficiente | Dispersar previamente y remover |\n| Sabor amargo | Exceso de cúrcuma | Mantener dosis moderada |\n| Fondo pegado | Calor alto | Usar fuego bajo y remover |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Preparar infusiones](../00_Bases/03_Tecnicas/preparar_infusiones.md)\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Leche de coco](../11_Despensa/13_Bases_Culinarias/leche_de_coco.md)\n\n## Principio de NovaCoquinaria\n\n> Para infusionar especias molidas en leche, primero se dispersan y después se aplica calor suave.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para infusión de especias en lácteo."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "5",
+      "min": "5",
+      "phase": "preparation",
+      "raw": "5 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "8",
+      "phase": "cooking",
+      "raw": "8–10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/leche_dorada_con_curcuma.html",
+  "id": "REC-0153",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "leche o bebida vegetal apta para consumo",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 ml de leche o bebida vegetal apta para consumo",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "450 ml de leche o bebida vegetal apta para consumo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cúrcuma molida",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "1/2 cucharadita de cúrcuma molida",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/2 cucharadita de cúrcuma molida",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "jengibre molido o 5 g de jengibre fresco rallado",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1/4",
+        "min": "1/4",
+        "raw": "1/4 cucharadita de jengibre molido o 5 g de jengibre fresco rallado",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1/4 cucharadita de jengibre molido o 5 g de jengibre fresco rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "trozo pequeño de canela en rama",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 trozo pequeño de canela en rama",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "1 trozo pequeño de canela en rama",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra molida, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de pimienta negra molida, opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de pimienta negra molida, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "miel o azúcar, opcionales",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de miel o azúcar, opcionales",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de miel o azúcar, opcionales",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nMedir especias y leche; utilizar un cazo de fondo grueso y varillas pequeñas. La cúrcuma puede teñir utensilios y superficies.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/leche_dorada_con_curcuma.md",
+  "source_sha256": "76946a3ad1f107194423da688b2e8471506c7b3b8273c1f2f709be236f73fd05",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Dispersar especias\n\nMezclar en el cazo cúrcuma y jengibre con una pequeña cantidad de leche fría hasta formar pasta sin grumos.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Completar\n\nIncorporar el resto de leche y canela, removiendo para homogeneizar.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Infusionar\n\nCalentar a fuego medio-bajo durante 6–8 minutos, sin hervor fuerte, removiendo para evitar que se adhiera al fondo.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 4,
+      "text": "4. Terminar\n\nRetirar la canela, añadir pimienta opcional y probar. Endulzar moderadamente si se desea y servir caliente.\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/preparar_infusiones.html",
+      "label": "Preparar infusiones",
+      "source_location": {
+        "end_line": 97,
+        "start_line": 97
+      },
+      "source_path": "00_Bases/03_Tecnicas/preparar_infusiones.md"
+    }
+  ],
+  "title": "Leche dorada con cúrcuma y jengibre",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2 tazas",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 556,
+      "start_line": 26
+    },
+    "text": "\n# Arroz frito con huevo\n\n## Descripción\n\nPreparación básica de arroz frito en la que el arroz previamente cocido y enfriado se saltea a alta temperatura con huevo, aromáticos y una condimentación ligera.\n\nEs una de las recetas fundamentales de la cocina al wok y constituye la implementación más sencilla del patrón [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md).\n\nLa clave del plato reside en utilizar arroz frío y relativamente seco, mantener una temperatura elevada y evitar el exceso de salsa.\n\n---\n\n## Objetivo\n\nPreparar un arroz frito:\n\n- suelto;\n- aromático;\n- ligeramente tostado;\n- equilibrado;\n- sin exceso de grasa ni humedad.\n\nLa receta sirve como base para futuras variantes con pollo, ternera, gambas, tofu o verduras.\n\n---\n\n## Patrón reutilizado\n\nEsta receta implementa la plantilla:\n\n- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n\ny reutiliza:\n\n### Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n### Plantillas\n\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n- [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)\n\n---\n\n# Información general\n\n**Dificultad**\n\nFácil.\n\n**Tiempo total**\n\n25 minutos, sin contar la cocción y el enfriado previo del arroz.\n\n**Raciones**\n\n2.\n\n---\n\n# Ingredientes estructurales\n\n## Arroz\n\n- 350–400 g de [arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) cocido y completamente frío.\n\nPuede sustituirse por:\n\n- [arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md);\n- otro arroz de grano largo.\n\n---\n\n## Huevo\n\n- 2 [Huevos](../11_Despensa/14_Huevos_Lacteos/huevo.md)\n\n---\n\n## Aromáticos\n\n- 1 diente de [ajo](../11_Despensa/06_Verduras/ajo.md), picado finamente.\n- 20–30 g de [cebolla](../11_Despensa/06_Verduras/cebolla.md) o cebolleta, picada.\n- 1 cucharadita de [jengibre](../11_Despensa/06_Verduras/jengibre.md) picado, opcional.\n\n---\n\n## Verduras\n\n- 50 g de [zanahoria](../11_Despensa/06_Verduras/zanahoria.md), cortada en dados pequeños.\n- 40–50 g de guisantes.\n- 30–50 g de [pimiento](../11_Despensa/06_Verduras/pimiento.md), opcional.\n\n---\n\n## Condimentos\n\n- 1–2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md).\n- Pimienta blanca o negra al gusto.\n- Sal únicamente si resulta necesaria.\n\nOpcionalmente:\n\n- 1 cucharadita de mirin;\n- unas gotas de vinagre de arroz;\n- una pequeña cantidad de glutamato monosódico.\n\n---\n\n## Grasa de cocción\n\n- 1–2 cucharadas de aceite neutro o aceite de cacahuete.\n\n---\n\n## Acabado\n\n- Unas gotas de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md).\n- Cebolleta picada.\n- Semillas de sésamo, opcionales.\n\n---\n\n# Preparación\n\n## 1. Preparar el arroz\n\nEl arroz debe estar:\n\n- cocido previamente;\n- completamente frío;\n- relativamente seco;\n- con los granos separados.\n\nSi presenta grumos, separarlos suavemente con las manos o con una espátula antes de comenzar.\n\nConsultar:\n\n- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n## 2. Mise en place\n\nAntes de encender el fuego:\n\n1. Batir ligeramente los huevos.\n2. Picar los aromáticos.\n3. Cortar las verduras en piezas pequeñas.\n4. Separar los granos de arroz.\n5. Medir los condimentos.\n6. Colocar todos los ingredientes junto al área de cocción.\n7. Precalentar el wok o la sartén.\n\nConsultar:\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n\n---\n\n# Elaboración\n\n## 1. Cocinar el huevo\n\nCalentar el wok o la sartén a temperatura alta.\n\nAñadir una pequeña cantidad de aceite.\n\nIncorporar los huevos batidos y remover rápidamente hasta que estén parcialmente cuajados.\n\nRetirar y reservar.\n\n> El huevo terminará de cocinarse cuando vuelva a incorporarse al arroz.\n\n---\n\n## 2. Saltear los aromáticos\n\nAñadir un poco más de aceite si resulta necesario.\n\nIncorporar:\n\n- ajo;\n- cebolla o cebolleta;\n- jengibre, si se utiliza.\n\nSaltear durante pocos segundos.\n\nLos aromáticos deben liberar su aroma sin llegar a quemarse.\n\n---\n\n## 3. Cocinar las verduras\n\nAñadir primero la zanahoria.\n\nSaltear entre 1 y 2 minutos.\n\nIncorporar:\n\n- guisantes;\n- pimiento, si se utiliza.\n\nCocinar brevemente, manteniendo cierta textura.\n\n---\n\n## 4. Añadir el arroz\n\nIncorporar el arroz frío.\n\nSeparar cualquier grumo con la espátula y distribuir el arroz sobre la superficie caliente.\n\nSaltear entre 2 y 4 minutos, hasta que:\n\n- esté completamente caliente;\n- los granos estén separados;\n- comience a aparecer un ligero aroma tostado.\n\n> El arroz necesita contacto con la superficie caliente; no debe removerse de manera continua e indiscriminada.\n\n---\n\n## 5. Condimentar\n\nAñadir progresivamente:\n\n- salsa de soja;\n- pimienta;\n- mirin o vinagre de arroz, si se utilizan.\n\nMezclar rápidamente.\n\nLa salsa puede añadirse alrededor del borde caliente del wok para favorecer su evaporación inmediata.\n\n> La salsa debe sazonar el arroz, no empaparlo.\n\n---\n\n## 6. Reincorporar el huevo\n\nAñadir nuevamente el huevo reservado.\n\nRomperlo en fragmentos pequeños con la espátula y mezclarlo con el arroz.\n\nCocinar durante aproximadamente 1 minuto.\n\n---\n\n## 7. Finalizar\n\nApagar o reducir el fuego.\n\nAñadir:\n\n- unas gotas de aceite de sésamo;\n- cebolleta;\n- semillas de sésamo, si se utilizan.\n\nMezclar y servir inmediatamente.\n\n---\n\n# Criterios de resultado\n\nEl arroz frito debe presentar:\n\n- granos separados;\n- textura firme pero tierna;\n- huevo distribuido de manera uniforme;\n- verduras cocinadas pero no blandas;\n- condimentación equilibrada;\n- ausencia de exceso de aceite;\n- ausencia de líquido en el fondo del recipiente.\n\n---\n\n# Variantes\n\n## Versión mínima\n\nUtilizar únicamente:\n\n- arroz;\n- huevo;\n- salsa de soja;\n- aceite;\n- cebolleta.\n\nEs la versión más sencilla y permite evaluar directamente la calidad del arroz y la técnica.\n\n---\n\n## Con más verduras\n\nPuede incorporar:\n\n- [pimiento](../11_Despensa/06_Verduras/pimiento.md);\n- [champiñón](../11_Despensa/07_Setas/champinon.md);\n- judías verdes;\n- maíz;\n- brócoli;\n- pak choi.\n\nLas verduras con mayor contenido de agua deben cocinarse antes de añadir el arroz.\n\n---\n\n## Con salsa de ostras\n\nAñadir una pequeña cantidad de:\n\n- [salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md).\n\nDebe reducirse la cantidad de salsa de soja para mantener el equilibrio salino.\n\n---\n\n## Picante\n\nPuede incorporar:\n\n- chile fresco;\n- salsa picante;\n- aceite de chile;\n- pimienta de Sichuan.\n\n---\n\n## Con proteína\n\nLa receta puede evolucionar hacia:\n\n- arroz frito con [pollo](../11_Despensa/03_Carnes/pollo.md);\n- arroz frito con [ternera](../11_Despensa/03_Carnes/ternera.md);\n- arroz frito con gambas;\n- arroz frito con tofu.\n\n---\n\n# Servicio\n\nServir inmediatamente como:\n\n- plato principal ligero;\n- acompañamiento;\n- base para una comida al wok;\n- preparación de aprovechamiento.\n\nPuede acompañarse de:\n\n- verduras salteadas;\n- pollo al wok;\n- ternera con salsa de ostras;\n- tofu;\n- gambas;\n- sopa ligera.\n\n---\n\n# Conservación\n\nConsumir preferentemente recién elaborado.\n\nEn caso de conservación:\n\n1. Enfriar rápidamente.\n2. Refrigerar en un recipiente cerrado.\n3. Consumir en un periodo breve.\n4. Recalentar completamente.\n5. Evitar nuevos ciclos de enfriado y recalentado.\n\nConsultar:\n\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n# Información nutricional\n\nValores aproximados por ración.\n\n| Nutriente | Cantidad |\n|-----------|----------:|\n| Energía | 400–480 kcal |\n| Proteínas | 13–17 g |\n| Grasas | 12–18 g |\n| Hidratos de carbono | 55–65 g |\n\nLos valores dependen especialmente de:\n\n- la cantidad de aceite;\n- el número de huevos;\n- la cantidad de arroz;\n- las salsas utilizadas.\n\n---\n\n# Equipamiento\n\n- Wok o sartén amplia.\n- Espátula.\n- Tabla.\n- Cuchillo de chef.\n- Bol para batir el huevo.\n- Cuencos para la mise en place.\n- Recipiente para el arroz frío.\n\n---\n\n# Consejos NovaCoquinaria\n\n- Utilizar arroz completamente frío.\n- Separar los granos antes de comenzar.\n- Tener toda la mise en place preparada.\n- Mantener el wok a temperatura alta.\n- Cocinar en tandas si el recipiente es pequeño.\n- Añadir la salsa de manera progresiva.\n- Utilizar el aceite de sésamo como acabado.\n- Servir inmediatamente.\n\n---\n\n# Errores frecuentes\n\n- Utilizar arroz recién cocido.\n- Emplear arroz húmedo o apelmazado.\n- Sobrecargar el wok.\n- Añadir demasiada salsa de soja.\n- Cocinar las verduras durante demasiado tiempo.\n- Quemar el ajo o el jengibre.\n- Utilizar demasiado aceite.\n- Añadir el aceite de sésamo al comienzo.\n- Remover sin permitir que el arroz contacte con la superficie caliente.\n\n---\n\n# Nivel de reutilización\n\nEsta receta reutiliza:\n\n- 3 técnicas;\n- 3 plantillas;\n- 8 ingredientes documentados;\n- 1 tabla del SGCC.\n\nConstituye la receta canónica inicial del dominio **Arroces** y la implementación básica del patrón **Arroz frito base**.\n\n---\n\n# Relaciones dentro del SGCC\n\n## Ingredientes\n\n- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Cebolla](../11_Despensa/06_Verduras/cebolla.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Pimiento](../11_Despensa/06_Verduras/pimiento.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Salsa de ostras](../11_Despensa/09_Salsas/salsa_de_ostras.md)\n\n## Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Plantillas\n\n- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n- [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)\n\n## Recetas relacionadas\n\n- [Ternera con salsa de ostras](../05_Carnes/ternera_salsa_ostras.md)\n- Arroz frito con pollo — pendiente\n- Arroz frito con gambas — pendiente\n\n## Tablas\n\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n# Referencias\n\n## Ingredientes\n\n- [Arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md)\n- [Arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md)\n- [Huevo](../11_Despensa/14_Huevos_Lacteos/huevo.md)\n- [Ajo](../11_Despensa/06_Verduras/ajo.md)\n- [Jengibre](../11_Despensa/06_Verduras/jengibre.md)\n- [Zanahoria](../11_Despensa/06_Verduras/zanahoria.md)\n- [Salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md)\n- [Aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md)\n\n## Técnicas\n\n- [Mise en place](../00_Bases/01_Fundamentos/mise_en_place.md)\n- [Saltear](../00_Bases/03_Tecnicas/saltear.md)\n- [Cocinar al wok](../00_Bases/03_Tecnicas/wok.md)\n\n## Plantillas\n\n- [Arroz frito base](../12_Plantillas/05_Arroces/arroz_frito_base.md)\n- [Salteado asiático](../12_Plantillas/04_Cocciones/salteado_asiatico.md)\n- [Salsa china base](../12_Plantillas/02_Salsas/salsa_china_base.md)\n\n## Tablas\n\n- [Tiempos de cocción](../98_Tablas/01_Cocciones/tiempos_coccion.md)\n- [Conservación, congelación y recalentado](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n---\n\n# Principio de NovaCoquinaria\n\n> El arroz frito no se transforma mediante la salsa, sino mediante el calor, la separación del grano y el equilibrio de sus componentes."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25 minutos, sin contar la cocción y el enfriado previo del arroz.",
+      "source_format": "label",
+      "source_location": {
+        "end_line": 82,
+        "start_line": 82
+      },
+      "unit": null
+    },
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 13,
+        "start_line": 13
+      },
+      "unit": "min"
+    },
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "cooking",
+      "raw": "10 min",
+      "source_format": "frontmatter",
+      "source_location": {
+        "end_line": 14,
+        "start_line": 14
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "01_Arroces/arroz_frito_huevo.html",
+  "id": "REC-0020",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": "Arroz",
+      "name": "arroz jazmín cocido y completamente frío.",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "350",
+        "raw": "350–400 g de [arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) cocido y completamente frío.",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "350–400 g de [arroz jazmín](../11_Despensa/01_Cereales/arroz_jazmin.md) cocido y completamente frío.",
+      "source_location": {
+        "end_line": 94,
+        "start_line": 94
+      }
+    },
+    {
+      "group": "Arroz",
+      "name": "arroz basmati;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "[arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md);",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "[arroz basmati](../11_Despensa/01_Cereales/arroz_basmati.md);",
+      "source_location": {
+        "end_line": 98,
+        "start_line": 98
+      }
+    },
+    {
+      "group": "Arroz",
+      "name": "otro arroz de grano largo.",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "otro arroz de grano largo.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "otro arroz de grano largo.",
+      "source_location": {
+        "end_line": 99,
+        "start_line": 99
+      }
+    },
+    {
+      "group": "Huevo",
+      "name": "Huevos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 [Huevos](../11_Despensa/14_Huevos_Lacteos/huevo.md)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 [Huevos](../11_Despensa/14_Huevos_Lacteos/huevo.md)",
+      "source_location": {
+        "end_line": 105,
+        "start_line": 105
+      }
+    },
+    {
+      "group": "Aromáticos",
+      "name": "ajo, picado finamente.",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 diente de [ajo](../11_Despensa/06_Verduras/ajo.md), picado finamente.",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "1 diente de [ajo](../11_Despensa/06_Verduras/ajo.md), picado finamente.",
+      "source_location": {
+        "end_line": 111,
+        "start_line": 111
+      }
+    },
+    {
+      "group": "Aromáticos",
+      "name": "cebolla o cebolleta, picada.",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "30",
+        "min": "20",
+        "raw": "20–30 g de [cebolla](../11_Despensa/06_Verduras/cebolla.md) o cebolleta, picada.",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "20–30 g de [cebolla](../11_Despensa/06_Verduras/cebolla.md) o cebolleta, picada.",
+      "source_location": {
+        "end_line": 112,
+        "start_line": 112
+      }
+    },
+    {
+      "group": "Aromáticos",
+      "name": "jengibre picado, opcional.",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de [jengibre](../11_Despensa/06_Verduras/jengibre.md) picado, opcional.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de [jengibre](../11_Despensa/06_Verduras/jengibre.md) picado, opcional.",
+      "source_location": {
+        "end_line": 113,
+        "start_line": 113
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "zanahoria, cortada en dados pequeños.",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "50",
+        "raw": "50 g de [zanahoria](../11_Despensa/06_Verduras/zanahoria.md), cortada en dados pequeños.",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "50 g de [zanahoria](../11_Despensa/06_Verduras/zanahoria.md), cortada en dados pequeños.",
+      "source_location": {
+        "end_line": 119,
+        "start_line": 119
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "guisantes.",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "40",
+        "raw": "40–50 g de guisantes.",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "40–50 g de guisantes.",
+      "source_location": {
+        "end_line": 120,
+        "start_line": 120
+      }
+    },
+    {
+      "group": "Verduras",
+      "name": "pimiento, opcional.",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": "50",
+        "min": "30",
+        "raw": "30–50 g de [pimiento](../11_Despensa/06_Verduras/pimiento.md), opcional.",
+        "status": "range",
+        "unit": "g"
+      },
+      "raw": "30–50 g de [pimiento](../11_Despensa/06_Verduras/pimiento.md), opcional.",
+      "source_location": {
+        "end_line": 121,
+        "start_line": 121
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "salsa de soja.",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md).",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de [salsa de soja](../11_Despensa/09_Salsas/salsa_de_soja.md).",
+      "source_location": {
+        "end_line": 127,
+        "start_line": 127
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "Pimienta blanca o negra al gusto.",
+      "optionality": "required",
+      "position": 11,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Pimienta blanca o negra al gusto.",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Pimienta blanca o negra al gusto.",
+      "source_location": {
+        "end_line": 128,
+        "start_line": 128
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "Sal únicamente si resulta necesaria.",
+      "optionality": "required",
+      "position": 12,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Sal únicamente si resulta necesaria.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Sal únicamente si resulta necesaria.",
+      "source_location": {
+        "end_line": 129,
+        "start_line": 129
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "mirin;",
+      "optionality": "optional",
+      "position": 13,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de mirin;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de mirin;",
+      "source_location": {
+        "end_line": 133,
+        "start_line": 133
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "unas gotas de vinagre de arroz;",
+      "optionality": "optional",
+      "position": 14,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "unas gotas de vinagre de arroz;",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "unas gotas de vinagre de arroz;",
+      "source_location": {
+        "end_line": 134,
+        "start_line": 134
+      }
+    },
+    {
+      "group": "Condimentos",
+      "name": "una pequeña cantidad de glutamato monosódico.",
+      "optionality": "optional",
+      "position": 15,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "una pequeña cantidad de glutamato monosódico.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "una pequeña cantidad de glutamato monosódico.",
+      "source_location": {
+        "end_line": 135,
+        "start_line": 135
+      }
+    },
+    {
+      "group": "Grasa de cocción",
+      "name": "aceite neutro o aceite de cacahuete.",
+      "optionality": "required",
+      "position": 16,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharadas de aceite neutro o aceite de cacahuete.",
+        "status": "range",
+        "unit": "cucharada"
+      },
+      "raw": "1–2 cucharadas de aceite neutro o aceite de cacahuete.",
+      "source_location": {
+        "end_line": 141,
+        "start_line": 141
+      }
+    },
+    {
+      "group": "Acabado",
+      "name": "Unas gotas de aceite de sésamo.",
+      "optionality": "required",
+      "position": 17,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Unas gotas de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md).",
+        "status": "qualitative",
+        "unit": null
+      },
+      "raw": "Unas gotas de [aceite de sésamo](../11_Despensa/10_Aceites/aceite_de_sesamo.md).",
+      "source_location": {
+        "end_line": 147,
+        "start_line": 147
+      }
+    },
+    {
+      "group": "Acabado",
+      "name": "Cebolleta picada.",
+      "optionality": "required",
+      "position": 18,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Cebolleta picada.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Cebolleta picada.",
+      "source_location": {
+        "end_line": 148,
+        "start_line": 148
+      }
+    },
+    {
+      "group": "Acabado",
+      "name": "Semillas de sésamo, opcionales.",
+      "optionality": "optional",
+      "position": 19,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "Semillas de sésamo, opcionales.",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "Semillas de sésamo, opcionales.",
+      "source_location": {
+        "end_line": 149,
+        "start_line": 149
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "01_Arroces/arroz_frito_huevo.md",
+  "source_sha256": "6864d163b062f1447122582adfb8d5e7a2bee61400be9197f2189cdead8d45fd",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 206,
+        "start_line": 193
+      },
+      "source_number": 1,
+      "text": "1. Cocinar el huevo\n\nCalentar el wok o la sartén a temperatura alta.\n\nAñadir una pequeña cantidad de aceite.\n\nIncorporar los huevos batidos y remover rápidamente hasta que estén parcialmente cuajados.\n\nRetirar y reservar.\n\n> El huevo terminará de cocinarse cuando vuelva a incorporarse al arroz.\n\n---\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 222,
+        "start_line": 207
+      },
+      "source_number": 2,
+      "text": "2. Saltear los aromáticos\n\nAñadir un poco más de aceite si resulta necesario.\n\nIncorporar:\n\n- ajo;\n- cebolla o cebolleta;\n- jengibre, si se utiliza.\n\nSaltear durante pocos segundos.\n\nLos aromáticos deben liberar su aroma sin llegar a quemarse.\n\n---\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 237,
+        "start_line": 223
+      },
+      "source_number": 3,
+      "text": "3. Cocinar las verduras\n\nAñadir primero la zanahoria.\n\nSaltear entre 1 y 2 minutos.\n\nIncorporar:\n\n- guisantes;\n- pimiento, si se utiliza.\n\nCocinar brevemente, manteniendo cierta textura.\n\n---\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 253,
+        "start_line": 238
+      },
+      "source_number": 4,
+      "text": "4. Añadir el arroz\n\nIncorporar el arroz frío.\n\nSeparar cualquier grumo con la espátula y distribuir el arroz sobre la superficie caliente.\n\nSaltear entre 2 y 4 minutos, hasta que:\n\n- esté completamente caliente;\n- los granos estén separados;\n- comience a aparecer un ligero aroma tostado.\n\n> El arroz necesita contacto con la superficie caliente; no debe removerse de manera continua e indiscriminada.\n\n---\n"
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 269,
+        "start_line": 254
+      },
+      "source_number": 5,
+      "text": "5. Condimentar\n\nAñadir progresivamente:\n\n- salsa de soja;\n- pimienta;\n- mirin o vinagre de arroz, si se utilizan.\n\nMezclar rápidamente.\n\nLa salsa puede añadirse alrededor del borde caliente del wok para favorecer su evaporación inmediata.\n\n> La salsa debe sazonar el arroz, no empaparlo.\n\n---\n"
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 279,
+        "start_line": 270
+      },
+      "source_number": 6,
+      "text": "6. Reincorporar el huevo\n\nAñadir nuevamente el huevo reservado.\n\nRomperlo en fragmentos pequeños con la espátula y mezclarlo con el arroz.\n\nCocinar durante aproximadamente 1 minuto.\n\n---\n"
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 293,
+        "start_line": 280
+      },
+      "source_number": 7,
+      "text": "7. Finalizar\n\nApagar o reducir el fuego.\n\nAñadir:\n\n- unas gotas de aceite de sésamo;\n- cebolleta;\n- semillas de sésamo, si se utilizan.\n\nMezclar y servir inmediatamente.\n\n---\n"
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 64,
+        "start_line": 64
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 65,
+        "start_line": 65
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 500,
+        "start_line": 500
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 501,
+        "start_line": 501
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/saltear.html",
+      "label": "Saltear",
+      "source_location": {
+        "end_line": 538,
+        "start_line": 538
+      },
+      "source_path": "00_Bases/03_Tecnicas/saltear.md"
+    },
+    {
+      "href": "00_Bases/03_Tecnicas/wok.html",
+      "label": "Cocinar al wok",
+      "source_location": {
+        "end_line": 539,
+        "start_line": 539
+      },
+      "source_path": "00_Bases/03_Tecnicas/wok.md"
+    }
+  ],
+  "title": "Arroz frito con huevo",
+  "yield": {
+    "max": "2",
+    "min": "2",
+    "raw": "2.",
+    "source_format": "label",
+    "source_location": {
+      "end_line": 86,
+      "start_line": 86
+    },
+    "unit": "racion"
+  }
+}

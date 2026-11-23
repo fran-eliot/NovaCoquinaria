@@ -1,0 +1,259 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 106,
+      "start_line": 15
+    },
+    "text": "\n# Lassi de mango y yogur\n\n## Descripción\n\nBebida fría de yogur y mango maduro, de textura cremosa y acidez suave. La cantidad de agua regula su fluidez sin necesidad de añadir hielo a la batidora.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3 vasos de unos 250 ml |\n| Preparación | 10 minutos |\n| Cocinado | Sin cocción |\n| Dificultad | Fácil |\n| Técnica principal | Triturado y ajuste de densidad |\n\n## Ingredientes\n\n- 300 g de pulpa de mango maduro, sin piel ni hueso\n- 300 g de yogur natural refrigerado\n- 100–150 ml de agua potable fría\n- 1–2 cucharaditas de azúcar o miel, opcionales\n- 1 pizca de cardamomo molido, opcional\n- hielo para servir, opcional\n\n**Alérgenos:** Leche (yogur).\n\n## Mise en place\n\nLavar el mango antes de pelarlo; retirar el hueso y cortar la pulpa. Mantener el yogur refrigerado hasta el momento del triturado.\n\n## Elaboración\n\n### 1. Triturar la fruta\n\nPoner mango, yogur y 100 ml de agua fría en la batidora y triturar hasta lograr una mezcla homogénea.\n\n### 2. Ajustar textura\n\nAñadir agua fría en pequeñas cantidades hasta obtener una bebida vertible que conserve cierta cremosidad.\n\n### 3. Equilibrar\n\nProbar antes de endulzar; añadir azúcar o miel solo si el mango lo necesita. Incorporar cardamomo opcional y triturar unos segundos.\n\n### 4. Servir\n\nRepartir en vasos fríos y servir enseguida, con hielo aparte si se desea.\n\n## Puntos críticos\n\n- La madurez del mango cambia la dulzura y la densidad; ajustar antes de añadir azúcar.\n- Un exceso de agua produce una bebida sin cuerpo.\n- La fruta cortada y el yogur no deben mantenerse largo tiempo fuera del frío.\n\n## Perfil esperado\n\nBebida fría, lisa y cremosa, con mango dominante y una acidez ligera de yogur.\n\n## Variantes\n\n| Variante | Ajuste |\n|---|---|\n| Con bebida vegetal | Sustituir yogur por alternativa vegetal; cambia el cuerpo y los alérgenos |\n| Con lima | Añadir unas gotas al final si el mango es muy dulce |\n| Con mango congelado | Triturar pulpa congelada apta para consumo, añadiendo agua gradualmente |\n\n## Errores frecuentes\n\n| Error | Consecuencia | Prevención |\n|---|---|---|\n| Textura acuosa | Demasiada agua | Incorporar por tandas |\n| Exceso de dulzor | Azúcar antes de probar mango | Endulzar solo al final |\n| Fibra perceptible | Mango fibroso o triturado corto | Triturar más y colar si hace falta |\n\n## Conservación\n\nPreparar con agua potable y utensilios limpios. Servir preferiblemente recién elaborada. Si se prepara con antelación, enfriar sin demoras y conservar tapada en refrigeración; consumir en un plazo corto, especialmente si contiene fruta cortada o lácteos. No mantener bebidas perecederas durante horas a temperatura ambiente.\n\n## Relaciones dentro del SGCC\n\n- [Proporciones y diagnóstico de bebidas](../98_Tablas/07_Comparativas/diagnostico_bebidas.md)\n- [Conservación y congelación](../98_Tablas/04_Conservacion/conservacion_congelacion.md)\n\n## Principio de NovaCoquinaria\n\n> En una bebida de fruta y yogur, la madurez de la fruta determina los ajustes de agua y azúcar.\n\n## Utilizado por\n\nReceta de referencia del módulo Bebidas para triturado y ajuste de densidad."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    },
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      }
+    },
+    {
+      "code": "YIELD_UNPARSED",
+      "description": "Rendimiento conservado sin interpretación numérica.",
+      "field": "yield",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": "10",
+      "min": "10",
+      "phase": "preparation",
+      "raw": "10 minutos",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    },
+    {
+      "max": null,
+      "min": null,
+      "phase": "cooking",
+      "raw": "Sin cocción",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 28,
+        "start_line": 28
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "09_Bebidas/lassi_de_mango_y_yogur.html",
+  "id": "REC-0148",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "pulpa de mango maduro, sin piel ni hueso",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de pulpa de mango maduro, sin piel ni hueso",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de pulpa de mango maduro, sin piel ni hueso",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "yogur natural refrigerado",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "300",
+        "min": "300",
+        "raw": "300 g de yogur natural refrigerado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "300 g de yogur natural refrigerado",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "agua potable fría",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "150",
+        "min": "100",
+        "raw": "100–150 ml de agua potable fría",
+        "status": "range",
+        "unit": "ml"
+      },
+      "raw": "100–150 ml de agua potable fría",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar o miel, opcionales",
+      "optionality": "optional",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "1",
+        "raw": "1–2 cucharaditas de azúcar o miel, opcionales",
+        "status": "range",
+        "unit": "cucharadita"
+      },
+      "raw": "1–2 cucharaditas de azúcar o miel, opcionales",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "cardamomo molido, opcional",
+      "optionality": "optional",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 pizca de cardamomo molido, opcional",
+        "status": "exact",
+        "unit": "pizca"
+      },
+      "raw": "1 pizca de cardamomo molido, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "hielo para servir, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "hielo para servir, opcional",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "hielo para servir, opcional",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [
+    {
+      "content": "\nLavar el mango antes de pelarlo; retirar el hueso y cortar la pulpa. Mantener el yogur refrigerado hasta el momento del triturado.\n",
+      "heading": "Mise en place",
+      "level": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 43
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "09_Bebidas/lassi_de_mango_y_yogur.md",
+  "source_sha256": "e12b0163d93e378581f86d10c423ec29278cbf9eac1f00c4fcda59f3172241ea",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 49
+      },
+      "source_number": 1,
+      "text": "1. Triturar la fruta\n\nPoner mango, yogur y 100 ml de agua fría en la batidora y triturar hasta lograr una mezcla homogénea.\n"
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 56,
+        "start_line": 53
+      },
+      "source_number": 2,
+      "text": "2. Ajustar textura\n\nAñadir agua fría en pequeñas cantidades hasta obtener una bebida vertible que conserve cierta cremosidad.\n"
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 60,
+        "start_line": 57
+      },
+      "source_number": 3,
+      "text": "3. Equilibrar\n\nProbar antes de endulzar; añadir azúcar o miel solo si el mango lo necesita. Incorporar cardamomo opcional y triturar unos segundos.\n"
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 64,
+        "start_line": 61
+      },
+      "source_number": 4,
+      "text": "4. Servir\n\nRepartir en vasos fríos y servir enseguida, con hielo aparte si se desea.\n"
+    }
+  ],
+  "techniques": [],
+  "title": "Lassi de mango y yogur",
+  "yield": {
+    "max": null,
+    "min": null,
+    "raw": "3 vasos de unos 250 ml",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": null
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 14
+    },
+    "text": "\n# Sopa de garbanzos con fideos y limón\n\n## Descripción\n\nPreparación de referencia centrada en **sofrito aromático, caldo y fideos de cocción breve**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 4 |\n| Técnica | Sofrito aromático, caldo y fideos de cocción breve |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 400 g de garbanzos completamente cocidos;\n- 110 g de fideos finos secos de trigo;\n- 1 litro de caldo de verduras o pollo suave;\n- 120 g de zanahoria en dados pequeños;\n- 100 g de cebolla picada;\n- 2 dientes de ajo;\n- 2 cucharadas de aceite de oliva;\n- ½ cucharadita de comino;\n- 2 cucharadas de zumo de limón, ajustables;\n- perejil picado opcional;\n- sal y pimienta;\n\n**Alérgenos:** Gluten (trigo) en fideos; revisar caldo.\n\n## Elaboración\n\n1. Pochar cebolla y zanahoria con aceite en cazuela durante 7–8 minutos; incorporar ajo y comino brevemente.\n2. Añadir caldo, llevar a hervor suave y cocinar 5 minutos para terminar de ablandar la zanahoria.\n3. Incorporar los garbanzos completamente cocidos y calentar 3–4 minutos.\n4. Agregar fideos y cocer según el paquete, aproximadamente 3–6 minutos para los finos, hasta tiernos.\n5. Apagar el fuego y añadir limón poco a poco, comprobando el equilibrio de acidez y sal.\n6. Servir inmediatamente con perejil opcional; si se guarda sopa para después, los fideos seguirán absorbiendo caldo.\n\n## Puntos críticos\n\n- Los fideos siguen absorbiendo líquido tras la cocción; para preparar con antelación, cocinar y conservar los fideos separados del caldo si se desea mantener una sopa fluida.\n- Las cantidades de legumbres especificadas se refieren a **producto completamente cocido**; para legumbres secas, consultar la técnica de cocción antes de preparar la receta.\n- Ajustar tiempos y líquido según producto, recipiente e intensidad de fuego; evitar que las legumbres queden frías en el centro o se rompan innecesariamente.\n\n## Diagnóstico\n\n| Problema | Posible causa | Corrección para una próxima prueba |\n|---|---|---|\n| Salsa aguada | Demasiado caldo o ingredientes sin escurrir | Reducir antes de integrar las legumbres o añadir menos líquido |\n| Granos rotos | Remoción intensa o cocción prolongada | Utilizar fuego suave y movimientos cuidadosos |\n| Sabor demasiado intenso | Exceso de condimentos concentrados | Añadir condimentos por etapas y probar antes de salar |\n\n## Conservación\n\nRefrigerar sin demora las sobras en recipientes poco profundos y tapados. No mantener preparaciones cocinadas durante horas a temperatura ambiente. Recalentar completamente cuando se sirvan calientes y seguir las indicaciones de las legumbres envasadas.\n\n## Relaciones dentro del SGCC\n\n- [Hervir y cocer a fuego suave](../00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md)\n- [Garbanzos](../11_Despensa/02_Legumbres/garbanzos.md)\n- [Índice de Legumbres](./README.md)\n- [Registro de tandas domésticas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de documentar peso efectivo, producto utilizado, tiempos, resultado y valoración. No atribuir a esta fórmula cantidades o resultados de otras preparaciones domésticas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia centrada en **sofrito aromático, caldo y fideos de cocción breve**. Esta formulación no consta como cocinada o valorada en casa; se registra para una primera elaboración reproducible."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "03_Legumbres/sopa_de_garbanzos_con_fideos_y_limon.html",
+  "id": "REC-0284",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "garbanzos completamente cocidos;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "400",
+        "min": "400",
+        "raw": "400 g de garbanzos completamente cocidos;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "400 g de garbanzos completamente cocidos;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "fideos finos secos de trigo;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "110",
+        "min": "110",
+        "raw": "110 g de fideos finos secos de trigo;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "110 g de fideos finos secos de trigo;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "caldo de verduras o pollo suave;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 litro de caldo de verduras o pollo suave;",
+        "status": "exact",
+        "unit": "l"
+      },
+      "raw": "1 litro de caldo de verduras o pollo suave;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "zanahoria en dados pequeños;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de zanahoria en dados pequeños;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de zanahoria en dados pequeños;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "cebolla picada;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de cebolla picada;",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de cebolla picada;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 dientes de ajo;",
+        "status": "exact",
+        "unit": "diente"
+      },
+      "raw": "2 dientes de ajo;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "comino;",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1/2",
+        "min": "1/2",
+        "raw": "½ cucharadita de comino;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "½ cucharadita de comino;",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "zumo de limón, ajustables;",
+      "optionality": "required",
+      "position": 8,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de zumo de limón, ajustables;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de zumo de limón, ajustables;",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    },
+    {
+      "group": null,
+      "name": "perejil picado opcional;",
+      "optionality": "optional",
+      "position": 9,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "perejil picado opcional;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "perejil picado opcional;",
+      "source_location": {
+        "end_line": 40,
+        "start_line": 40
+      }
+    },
+    {
+      "group": null,
+      "name": "sal y pimienta;",
+      "optionality": "required",
+      "position": 10,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "sal y pimienta;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "sal y pimienta;",
+      "source_location": {
+        "end_line": 41,
+        "start_line": 41
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "03_Legumbres/sopa_de_garbanzos_con_fideos_y_limon.md",
+  "source_sha256": "845612fb5070575034d36a0027e4a80df83d4352176f067b573c9ec469e55c81",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 1,
+      "text": "Pochar cebolla y zanahoria con aceite en cazuela durante 7–8 minutos; incorporar ajo y comino brevemente."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 2,
+      "text": "Añadir caldo, llevar a hervor suave y cocinar 5 minutos para terminar de ablandar la zanahoria."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 3,
+      "text": "Incorporar los garbanzos completamente cocidos y calentar 3–4 minutos."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 4,
+      "text": "Agregar fideos y cocer según el paquete, aproximadamente 3–6 minutos para los finos, hasta tiernos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 5,
+      "text": "Apagar el fuego y añadir limón poco a poco, comprobando el equilibrio de acidez y sal."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 52,
+        "start_line": 52
+      },
+      "source_number": 6,
+      "text": "Servir inmediatamente con perejil opcional; si se guarda sopa para después, los fideos seguirán absorbiendo caldo."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.html",
+      "label": "Hervir y cocer a fuego suave",
+      "source_location": {
+        "end_line": 74,
+        "start_line": 74
+      },
+      "source_path": "00_Bases/03_Tecnicas/hervir_y_cocer_a_fuego_suave.md"
+    }
+  ],
+  "title": "Sopa de garbanzos con fideos y limón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "racion"
+  }
+}

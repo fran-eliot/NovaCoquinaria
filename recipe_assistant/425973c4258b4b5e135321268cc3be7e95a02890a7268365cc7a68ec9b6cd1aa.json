@@ -1,0 +1,313 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 74,
+      "start_line": 13
+    },
+    "text": "\n# Costillas de cerdo al horno con especias\n\n## Descripción\n\nCostillas de cerdo cocinadas lentamente tapadas para ablandarse y terminadas con calor alto para dorar.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Raciones | 3–4 |\n| Preparación | 15 min |\n| Horneado | 2–3 horas orientativas |\n| Método | Asado lento y dorado final |\n\n## Ingredientes\n\n- 1,2 kg de costillas de cerdo en una pieza;\n- 2 cucharadas de aceite de oliva;\n- 2 cucharaditas de pimentón dulce;\n- 1 cucharadita de ajo en polvo;\n- 1 cucharadita de tomillo;\n- pimienta y sal moderada;\n- 120 ml de agua o caldo;\n- 1 cucharadita de miel, opcional para acabado.\n\n## Elaboración\n\n1. Precalentar horno a **155 °C**.\n2. Secar costillas, mezclar especias con aceite y untar la pieza.\n3. Colocar en fuente con agua o caldo y tapar bien con aluminio o tapa apta.\n4. Hornear **2–3 horas**, revisando el líquido sin destapar repetidamente. El tiempo depende del grosor.\n5. Comprobar temperatura interna con termómetro y terneza: la carne debe ceder al pinchar. Para costillas tiernas suele necesitarse una cocción más prolongada que el mínimo de seguridad del cerdo.\n6. Destapar; si se usa miel, pincelar ligeramente.\n7. Subir a **220 °C** y dorar **8–12 minutos**, vigilando el azúcar y evitando quemar.\n8. Reposar brevemente antes de cortar.\n\n## Puntos críticos\n\n- La cocción tapada limita la pérdida de humedad.\n- La terneza y la seguridad son comprobaciones distintas.\n- No dejar el asado a temperatura ambiente durante horas después de cocinarlo.\n- La miel puede quemarse con facilidad.\n\n## Diagnóstico\n\n| Problema | Causa | Ajuste |\n|---|---|---|\n| Duras | Tiempo insuficiente | Prolongar tapadas |\n| Secas | Poca humedad o exceso de calor | Revisar líquido y temperatura |\n| Poco doradas | Sin acabado | Gratinar brevemente |\n\n## Relaciones\n\n- [Asado lento](../00_Bases/03_Tecnicas/asado_lento_en_horno.md)\n- [Cerdo](../11_Despensa/03_Carnes/cerdo.md)\n- [Diagnóstico de horno](../98_Tablas/07_Comparativas/diagnostico_horno.md)\n\n## Principio de NovaCoquinaria\n\n> Primero se consigue terneza; después se construye el dorado."
+  },
+  "diagnostics": [
+    {
+      "code": "EVIDENCE_UNDETERMINED",
+      "description": "Declaraciones insuficientes o contradictorias; revisar fuente.",
+      "field": "evidence",
+      "severity": "warning",
+      "source_location": null
+    }
+  ],
+  "durations": [
+    {
+      "max": "15",
+      "min": "15",
+      "phase": "preparation",
+      "raw": "15 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 25,
+        "start_line": 25
+      },
+      "unit": "min"
+    },
+    {
+      "max": "3",
+      "min": "2",
+      "phase": "baking",
+      "raw": "2–3 horas orientativas",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 26,
+        "start_line": 26
+      },
+      "unit": "h"
+    }
+  ],
+  "evidence": {
+    "claims": [],
+    "current_formula_validated": null,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "unknown",
+    "valuation": null
+  },
+  "href": "10_Horno/costillas_de_cerdo_al_horno.html",
+  "id": "REC-0099",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "costillas de cerdo en una pieza;",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "1.2",
+        "min": "1.2",
+        "raw": "1,2 kg de costillas de cerdo en una pieza;",
+        "status": "exact",
+        "unit": "kg"
+      },
+      "raw": "1,2 kg de costillas de cerdo en una pieza;",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite de oliva;",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharadas de aceite de oliva;",
+        "status": "exact",
+        "unit": "cucharada"
+      },
+      "raw": "2 cucharadas de aceite de oliva;",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "pimentón dulce;",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 cucharaditas de pimentón dulce;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "2 cucharaditas de pimentón dulce;",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "ajo en polvo;",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de ajo en polvo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de ajo en polvo;",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "tomillo;",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de tomillo;",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de tomillo;",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta y sal moderada;",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta y sal moderada;",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta y sal moderada;",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "agua o caldo;",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 ml de agua o caldo;",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "120 ml de agua o caldo;",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "miel, opcional para acabado.",
+      "optionality": "optional",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de miel, opcional para acabado.",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de miel, opcional para acabado.",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "10_Horno/costillas_de_cerdo_al_horno.md",
+  "source_sha256": "e07820116c0c83dd6aef7add90ba5737dfdea9685cc0aeee2519af94142e6851",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 42,
+        "start_line": 42
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a **155 °C**."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 43,
+        "start_line": 43
+      },
+      "source_number": 2,
+      "text": "Secar costillas, mezclar especias con aceite y untar la pieza."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 3,
+      "text": "Colocar en fuente con agua o caldo y tapar bien con aluminio o tapa apta."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 4,
+      "text": "Hornear **2–3 horas**, revisando el líquido sin destapar repetidamente. El tiempo depende del grosor."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 5,
+      "text": "Comprobar temperatura interna con termómetro y terneza: la carne debe ceder al pinchar. Para costillas tiernas suele necesitarse una cocción más prolongada que el mínimo de seguridad del cerdo."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 6,
+      "text": "Destapar; si se usa miel, pincelar ligeramente."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 7,
+      "text": "Subir a **220 °C** y dorar **8–12 minutos**, vigilando el azúcar y evitando quemar."
+    },
+    {
+      "order": 8,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 8,
+      "text": "Reposar brevemente antes de cortar."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/asado_lento_en_horno.html",
+      "label": "Asado lento",
+      "source_location": {
+        "end_line": 68,
+        "start_line": 68
+      },
+      "source_path": "00_Bases/03_Tecnicas/asado_lento_en_horno.md"
+    }
+  ],
+  "title": "Costillas de cerdo al horno con especias",
+  "yield": {
+    "max": "4",
+    "min": "3",
+    "raw": "3–4",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 24,
+      "start_line": 24
+    },
+    "unit": "racion"
+  }
+}

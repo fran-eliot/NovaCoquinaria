@@ -1,0 +1,288 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 80,
+      "start_line": 14
+    },
+    "text": "\n# Tarta fría de tres chocolates\n\n## Descripción\n\nPreparación de referencia basada en **cuajado escalonado de tres capas refrigeradas**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 10 porciones |\n| Técnica principal | Cuajado escalonado de tres capas refrigeradas |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 180 g de galletas tipo digestive\n- 75 g de mantequilla fundida\n- 120 g de chocolate negro\n- 120 g de chocolate con leche\n- 120 g de chocolate blanco\n- 450 ml de nata para montar pasteurizada, repartidos en tres partes\n- 450 ml de leche entera, repartidos en tres partes\n- 9 hojas de gelatina alimentaria de 2 g cada una, tres por capa, comprobar fabricante\n\n**Alérgenos:** Leche y gluten (trigo) en la base; soja y frutos de cáscara posibles en chocolates comerciales.\n\n## Elaboración\n\n1. Triturar galletas, mezclar con mantequilla y compactar en la base de un molde desmontable de unos 20 cm; refrigerar.\n2. Hidratar tres hojas de gelatina en agua fría según indicaciones del envase.\n3. Calentar 150 ml de nata con 150 ml de leche sin hervir, incorporar el chocolate negro troceado hasta fundir y disolver la gelatina escurrida fuera del hervor.\n4. Verter cuidadosamente sobre la base y refrigerar hasta que la capa esté firme al tacto, aproximadamente 45–60 minutos.\n5. Repetir con el chocolate con leche y otras tres hojas de gelatina; dejar templar la mezcla antes de verter sobre una cuchara para no romper la primera capa.\n6. Repetir con el chocolate blanco y las tres hojas restantes, sin hervir la gelatina; refrigerar la tarta completa al menos 5 horas antes de desmoldar.\n7. Comprobar que las tres capas están firmes y cortar con cuchillo limpio templado.\n\n## Puntos críticos\n\n- La fuerza de gelificación varía entre hojas y marcas; ajustar según etiqueta, no solo por número de hojas. Si la siguiente mezcla está demasiado caliente, puede fundir la capa anterior.\n- Esta tarta **no se hornea**: el resultado depende de la proporción y fuerza de gelatina, de las temperaturas de vertido y del reposo refrigerado. Mantener la mezcla láctea en condiciones higiénicas y evitar dejar capas a temperatura ambiente más tiempo del necesario.\n- La cantidad y el comportamiento de ingredientes comerciales pueden cambiar según marca, especialmente gelatina, chocolate, bizcochos y masas.\n\n## Diagnóstico\n\n| Problema | Posible causa | Ajuste propuesto |\n|---|---|---|\n| Una capa queda blanda y no sostiene la siguiente | Gelatina no disuelta, fuerza distinta de la prevista o reposo insuficiente | Comprobar indicaciones del fabricante y esperar a que la capa esté firme antes del siguiente vertido; no añadir capas sobre una base líquida |\n| La capa inferior se mezcla con la superior | Nueva mezcla demasiado caliente o vertido directo y brusco | Dejar templar sin que cuaje en el recipiente y verter despacio sobre una cuchara, cuando la capa previa esté firme |\n| Separación entre capas al cortar | Capa inferior excesivamente cuajada antes de añadir la siguiente, o falta de adherencia entre capas | En una prueba posterior ajustar el intervalo entre vertidos manteniendo cada capa suficientemente firme; no asumir una causa única sin observar el corte |\n| Base de galleta se deshace al desmoldar | Triturado o compactación insuficientes, o base poco refrigerada | Compactar de manera uniforme y enfriar la base antes de incorporar el chocolate |\n\n## Conservación\n\nConservar la tarta de tres chocolates **siempre refrigerada**, bien protegida, debido a las capas de leche y nata. Minimizar el tiempo fuera de frío al montar, cortar y servir, y devolver al frigorífico las porciones restantes. No tratar la base de galleta como una galleta seca de despensa: está en contacto con un relleno lácteo húmedo. Consumir en un plazo corto de acuerdo con el estado y las instrucciones de los ingredientes empleados.\n\n## Relaciones dentro del SGCC\n\n- [Hidratar y gelificar con gelatina](../00_Bases/03_Tecnicas/hidratar_y_gelificar_con_gelatina.md)\n- [Panna cotta de vainilla](./panna_cotta_de_vainilla.md)\n- [Índice de Postres](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes utilizados realmente, recipientes, cantidades, tiempos, textura y valoración. La formulación no altera las versiones domésticas anteriores ni acredita una comparación con ellas."
+  },
+  "diagnostics": [],
+  "durations": [],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 19,
+          "start_line": 19
+        },
+        "text": "Preparación de referencia basada en **cuajado escalonado de tres capas refrigeradas**. Esta fórmula no consta como preparada ni valorada en casa; cantidades y tiempos quedan pendientes de contraste práctico."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 27,
+          "start_line": 27
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/tarta_fria_de_tres_chocolates.html",
+  "id": "REC-415",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "galletas tipo digestive",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de galletas tipo digestive",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de galletas tipo digestive",
+      "source_location": {
+        "end_line": 31,
+        "start_line": 31
+      }
+    },
+    {
+      "group": null,
+      "name": "mantequilla fundida",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "75",
+        "min": "75",
+        "raw": "75 g de mantequilla fundida",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "75 g de mantequilla fundida",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate negro",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chocolate negro",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chocolate negro",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate con leche",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chocolate con leche",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chocolate con leche",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "chocolate blanco",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "120",
+        "min": "120",
+        "raw": "120 g de chocolate blanco",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "120 g de chocolate blanco",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "nata para montar pasteurizada, repartidos en tres partes",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 ml de nata para montar pasteurizada, repartidos en tres partes",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "450 ml de nata para montar pasteurizada, repartidos en tres partes",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "leche entera, repartidos en tres partes",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "450",
+        "min": "450",
+        "raw": "450 ml de leche entera, repartidos en tres partes",
+        "status": "exact",
+        "unit": "ml"
+      },
+      "raw": "450 ml de leche entera, repartidos en tres partes",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "gelatina alimentaria de 2 g cada una, tres por capa, comprobar fabricante",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "9",
+        "min": "9",
+        "raw": "9 hojas de gelatina alimentaria de 2 g cada una, tres por capa, comprobar fabricante",
+        "status": "exact",
+        "unit": "hoja"
+      },
+      "raw": "9 hojas de gelatina alimentaria de 2 g cada una, tres por capa, comprobar fabricante",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/tarta_fria_de_tres_chocolates.md",
+  "source_sha256": "f32a1cacea1346ed6dc0c46dadb714c1a6923524cab172afa0f5a72574b23501",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Triturar galletas, mezclar con mantequilla y compactar en la base de un molde desmontable de unos 20 cm; refrigerar."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Hidratar tres hojas de gelatina en agua fría según indicaciones del envase."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Calentar 150 ml de nata con 150 ml de leche sin hervir, incorporar el chocolate negro troceado hasta fundir y disolver la gelatina escurrida fuera del hervor."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Verter cuidadosamente sobre la base y refrigerar hasta que la capa esté firme al tacto, aproximadamente 45–60 minutos."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Repetir con el chocolate con leche y otras tres hojas de gelatina; dejar templar la mezcla antes de verter sobre una cuchara para no romper la primera capa."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Repetir con el chocolate blanco y las tres hojas restantes, sin hervir la gelatina; refrigerar la tarta completa al menos 5 horas antes de desmoldar."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 7,
+      "text": "Comprobar que las tres capas están firmes y cortar con cuchillo limpio templado."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hidratar_y_gelificar_con_gelatina.html",
+      "label": "Hidratar y gelificar con gelatina",
+      "source_location": {
+        "end_line": 73,
+        "start_line": 73
+      },
+      "source_path": "00_Bases/03_Tecnicas/hidratar_y_gelificar_con_gelatina.md"
+    }
+  ],
+  "title": "Tarta fría de tres chocolates",
+  "yield": {
+    "max": "10",
+    "min": "10",
+    "raw": "10 porciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 25,
+      "start_line": 25
+    },
+    "unit": "porcion"
+  }
+}

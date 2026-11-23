@@ -1,0 +1,304 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 81,
+      "start_line": 15
+    },
+    "text": "\n# Perrunillas extremeñas de manteca y limón\n\n## Origen y contexto\n\n**Región:** Extremadura. Versión doméstica de referencia basada en rasgos regionales reconocibles, con adaptaciones identificadas cuando procede. No consta como receta ya preparada o valorada.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 18–22 unidades |\n| Tiempo orientativo | 25 minutos de preparación más 20–25 de horno |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 350 g de harina de trigo común\n- 180 g de manteca de cerdo alimentaria a temperatura ambiente\n- 160 g de azúcar\n- 2 huevos L, separados en yemas y claras\n- ralladura fina de un limón lavado\n- 1 cucharadita de canela molida, opcional\n- 5 g de impulsor químico de repostería, opcional\n- 40 g de azúcar extra para espolvorear\n\n**Alérgenos:** Gluten (trigo) y huevo.\n\n## Elaboración\n\n1. Precalentar horno a 180 °C y forrar una bandeja con papel de horno.\n2. Mezclar manteca blanda con 160 g de azúcar y las yemas hasta integrar, sin calentar en exceso la masa.\n3. Incorporar ralladura de limón, canela opcional, harina e impulsor opcional hasta obtener masa quebradiza pero moldeable.\n4. Formar 18–22 pequeñas porciones ovaladas, ligeramente aplanadas, dejando separación sobre la bandeja.\n5. Batir ligeramente las claras y pincelar la parte superior de cada pieza con una capa fina; espolvorear azúcar extra.\n6. Hornear unos 18–25 minutos, según grosor, hasta que estén cocidas y apenas doradas, sin resecar en exceso.\n7. Enfriar completamente sobre rejilla antes de moverlas con fuerza, pues son delicadas recién horneadas.\n\n## Puntos críticos\n\n- Las perrunillas extremeñas suelen hacerse con manteca de cerdo y acabado azucarado; no son equivalentes a los nevaditos cubiertos de azúcar glas. Las claras usadas para pincelar deben quedar cocidas en el horno.\n- Adaptar tiempos y cantidades a la materia prima y al equipo; seguir las indicaciones de productos comerciales y garantizar higiene, cadena de frío y cocción completa de ingredientes perecederos.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste para una próxima prueba |\n|---|---|---|\n| Piezas que se rompen al moverlas | Manipulación mientras están muy calientes | Enfriar por completo sobre rejilla antes de trasladarlas con fuerza |\n| Perrunillas duras en lugar de quebradizas | Mezcla demasiado trabajada o horneado prolongado | Integrar la harina solo hasta formar masa moldeable y vigilar el punto antes de resecar |\n| Interior crudo con superficie dorada | Piezas de grosor desigual o demasiado grandes | Formar porciones similares y comprobar la cocción interior, incluida la clara del pincelado |\n| Acabado azucarado desigual | Clara mal distribuida o azúcar extra aplicado de forma irregular | Pincelar con capa fina y repartir el azúcar antes de hornear |\n\n## Conservación\n\nEnfriar completamente las perrunillas horneadas sobre rejilla antes de guardarlas en recipiente limpio, cerrado y seco. Mantenerlas protegidas de la humedad y el calor durante un periodo prudente según el ambiente, comprobando su estado antes de consumirlas. La formulación horneada sin crema perecedera no requiere las mismas pautas que un postre lácteo frío; la masa cruda con huevo sí debe manipularse higiénicamente.\n\n## Relaciones dentro del SGCC\n\n- [Nevaditos castellanos](./nevaditos_castellanos_de_manteca_y_vino_blanco.md)\n- [Rosquillas de anís al horno](./rosquillas_de_anis_al_horno.md)\n- [Hornear bizcochos y pasteles](../00_Bases/03_Tecnicas/hornear_bizcochos.md)\n- [Índice del módulo](./README.md)\n- [Registro de tandas](../docs/management/REGISTRO_DE_TANDAS.md)\n\n## Registro de prueba\n\nPendiente de registrar ingredientes efectivos, cantidades, cocción, textura y valoración. Esta propuesta no sustituye versiones previas sin comparación documentada."
+  },
+  "diagnostics": [
+    {
+      "code": "DURATION_UNPARSED",
+      "description": "Duración conservada sin interpretación numérica.",
+      "field": "durations",
+      "severity": "warning",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      }
+    }
+  ],
+  "durations": [
+    {
+      "max": null,
+      "min": null,
+      "phase": "declared_total",
+      "raw": "25 minutos de preparación más 20–25 de horno",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": null
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "08_Postres/perrunillas_extremenas_de_manteca_y_limon.html",
+  "id": "REC-525",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "harina de trigo común",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "350",
+        "min": "350",
+        "raw": "350 g de harina de trigo común",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "350 g de harina de trigo común",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "manteca de cerdo alimentaria a temperatura ambiente",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "180",
+        "min": "180",
+        "raw": "180 g de manteca de cerdo alimentaria a temperatura ambiente",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "180 g de manteca de cerdo alimentaria a temperatura ambiente",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "160",
+        "min": "160",
+        "raw": "160 g de azúcar",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "160 g de azúcar",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos L, separados en yemas y claras",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos L, separados en yemas y claras",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos L, separados en yemas y claras",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "ralladura fina de un limón lavado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "ralladura fina de un limón lavado",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "ralladura fina de un limón lavado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "canela molida, opcional",
+      "optionality": "optional",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": "1",
+        "min": "1",
+        "raw": "1 cucharadita de canela molida, opcional",
+        "status": "exact",
+        "unit": "cucharadita"
+      },
+      "raw": "1 cucharadita de canela molida, opcional",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "impulsor químico de repostería, opcional",
+      "optionality": "optional",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": "5",
+        "min": "5",
+        "raw": "5 g de impulsor químico de repostería, opcional",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "5 g de impulsor químico de repostería, opcional",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    },
+    {
+      "group": null,
+      "name": "azúcar extra para espolvorear",
+      "optionality": "required",
+      "position": 7,
+      "quantity": {
+        "approximate": false,
+        "max": "40",
+        "min": "40",
+        "raw": "40 g de azúcar extra para espolvorear",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "40 g de azúcar extra para espolvorear",
+      "source_location": {
+        "end_line": 39,
+        "start_line": 39
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "08_Postres/perrunillas_extremenas_de_manteca_y_limon.md",
+  "source_sha256": "553f2d9e7b6bc3519649b0c484a945a590798e257ec164a806fe1c7ba010969c",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 1,
+      "text": "Precalentar horno a 180 °C y forrar una bandeja con papel de horno."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 2,
+      "text": "Mezclar manteca blanda con 160 g de azúcar y las yemas hasta integrar, sin calentar en exceso la masa."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 3,
+      "text": "Incorporar ralladura de limón, canela opcional, harina e impulsor opcional hasta obtener masa quebradiza pero moldeable."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 4,
+      "text": "Formar 18–22 pequeñas porciones ovaladas, ligeramente aplanadas, dejando separación sobre la bandeja."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 5,
+      "text": "Batir ligeramente las claras y pincelar la parte superior de cada pieza con una capa fina; espolvorear azúcar extra."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 50,
+        "start_line": 50
+      },
+      "source_number": 6,
+      "text": "Hornear unos 18–25 minutos, según grosor, hasta que estén cocidas y apenas doradas, sin resecar en exceso."
+    },
+    {
+      "order": 7,
+      "source_location": {
+        "end_line": 51,
+        "start_line": 51
+      },
+      "source_number": 7,
+      "text": "Enfriar completamente sobre rejilla antes de moverlas con fuerza, pues son delicadas recién horneadas."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/hornear_bizcochos.html",
+      "label": "Hornear bizcochos y pasteles",
+      "source_location": {
+        "end_line": 75,
+        "start_line": 75
+      },
+      "source_path": "00_Bases/03_Tecnicas/hornear_bizcochos.md"
+    }
+  ],
+  "title": "Perrunillas extremeñas de manteca y limón",
+  "yield": {
+    "max": "22",
+    "min": "18",
+    "raw": "18–22 unidades",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "unidad"
+  }
+}

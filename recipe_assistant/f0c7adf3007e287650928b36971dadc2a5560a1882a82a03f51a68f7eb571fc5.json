@@ -1,0 +1,273 @@
+{
+  "context": {
+    "mode": "full_source",
+    "source_location": {
+      "end_line": 76,
+      "start_line": 15
+    },
+    "text": "\n# Flamenquín cordobés de lomo y jamón\n\n## Origen y contexto\n\n**Región:** Córdoba, Andalucía. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida.\n\n## Información general\n\n| Dato | Valor |\n|---|---|\n| Rendimiento | 4 raciones |\n| Tiempo orientativo | 40–50 min |\n| Estado | Pendiente de prueba doméstica |\n\n## Ingredientes\n\n- 4 filetes finos de lomo de cerdo (600 g en total)\n- 100 g de jamón serrano en lonchas\n- 60 g de harina de trigo\n- 2 huevos\n- 140 g de pan rallado\n- aceite para freír\n- pimienta negra\n\n**Alérgenos:** Trigo/gluten y huevo.\n\n## Elaboración\n\n1. Aplanar entre láminas de papel alimentario los filetes hasta grosor uniforme de unos 4–5 mm.\n2. Repartir jamón sobre cada filete, dejando bordes libres; enrollar firmemente y colocar cierre hacia abajo.\n3. Pasar por harina, huevo batido y pan rallado, cubriendo también los extremos. Refrigerar 15 min.\n4. Freír en tandas con aceite a 165–175 °C unos 6–9 min según grosor, girando para dorar de modo uniforme.\n5. Comprobar cocción completa del cerdo (al menos 71 °C en el centro como objetivo conservador para el rollo); si la cobertura se oscurece antes, terminar en horno a 170 °C.\n6. Escurrir y servir caliente, con ensalada o patatas como guarnición.\n\n## Puntos críticos\n\n- El relleno de referencia es jamón serrano, sin queso; se diferencia del cachopo de ternera por enrollado y tipo de carne.\n- No evaluar la cocción del cerdo solo por el color del pan rallado; verificar el centro.\n\n## Diagnóstico\n\n| Resultado | Posible causa | Ajuste |\n|---|---|---|\n| Rollo abierto | Enrollado flojo | Cerrar con tensión y enfriar antes de freír |\n| Cobertura oscura y centro crudo | Aceite demasiado caliente | Reducir temperatura y terminar al horno |\n| Carne seca | Fritura excesiva | Controlar grosor y temperatura interna |\n\n## Conservación\n\nRefrigerar a 4 °C o menos hasta 2 días después de cocinar, y recalentar completamente. Mejor textura recién frito.\n\n## Relaciones dentro del SGCC\n\n- [Cachopo asturiano](../05_Carnes/cachopo_asturiano_de_ternera_jamon_y_queso.md)\n- [Freír en sartén](../00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md)\n- [Índice del módulo](./README.md)\n\n## Registro de prueba\n\nPendiente de registrar cantidades efectivas, tiempos, textura y valoración tras su elaboración."
+  },
+  "diagnostics": [],
+  "durations": [
+    {
+      "max": "50",
+      "min": "40",
+      "phase": "declared_total",
+      "raw": "40–50 min",
+      "source_format": "table",
+      "source_location": {
+        "end_line": 27,
+        "start_line": 27
+      },
+      "unit": "min"
+    }
+  ],
+  "evidence": {
+    "claims": [
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 20,
+          "start_line": 20
+        },
+        "text": "**Región:** Córdoba, Andalucía. Formulación doméstica de referencia, pendiente de prueba y sin valoración atribuida."
+      },
+      {
+        "kind": "pending",
+        "source_location": {
+          "end_line": 28,
+          "start_line": 28
+        },
+        "text": "| Estado | Pendiente de prueba doméstica |"
+      }
+    ],
+    "current_formula_validated": false,
+    "historical_preparation": null,
+    "scope": "undetermined",
+    "status": "pending",
+    "valuation": null
+  },
+  "href": "05_Carnes/flamenquin_cordobes_de_lomo_y_jamon.html",
+  "id": "REC-564",
+  "index_sha256": "4b75435263de7be587cc49e7128f5f68d2ae7aa68470d280461df19720fb7e49",
+  "index_version": "0.2.0",
+  "ingredients": [
+    {
+      "group": null,
+      "name": "filetes finos de lomo de cerdo (600 g en total)",
+      "optionality": "required",
+      "position": 0,
+      "quantity": {
+        "approximate": false,
+        "max": "4",
+        "min": "4",
+        "raw": "4 filetes finos de lomo de cerdo (600 g en total)",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "4 filetes finos de lomo de cerdo (600 g en total)",
+      "source_location": {
+        "end_line": 32,
+        "start_line": 32
+      }
+    },
+    {
+      "group": null,
+      "name": "jamón serrano en lonchas",
+      "optionality": "required",
+      "position": 1,
+      "quantity": {
+        "approximate": false,
+        "max": "100",
+        "min": "100",
+        "raw": "100 g de jamón serrano en lonchas",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "100 g de jamón serrano en lonchas",
+      "source_location": {
+        "end_line": 33,
+        "start_line": 33
+      }
+    },
+    {
+      "group": null,
+      "name": "harina de trigo",
+      "optionality": "required",
+      "position": 2,
+      "quantity": {
+        "approximate": false,
+        "max": "60",
+        "min": "60",
+        "raw": "60 g de harina de trigo",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "60 g de harina de trigo",
+      "source_location": {
+        "end_line": 34,
+        "start_line": 34
+      }
+    },
+    {
+      "group": null,
+      "name": "huevos",
+      "optionality": "required",
+      "position": 3,
+      "quantity": {
+        "approximate": false,
+        "max": "2",
+        "min": "2",
+        "raw": "2 huevos",
+        "status": "exact",
+        "unit": "unidad"
+      },
+      "raw": "2 huevos",
+      "source_location": {
+        "end_line": 35,
+        "start_line": 35
+      }
+    },
+    {
+      "group": null,
+      "name": "pan rallado",
+      "optionality": "required",
+      "position": 4,
+      "quantity": {
+        "approximate": false,
+        "max": "140",
+        "min": "140",
+        "raw": "140 g de pan rallado",
+        "status": "exact",
+        "unit": "g"
+      },
+      "raw": "140 g de pan rallado",
+      "source_location": {
+        "end_line": 36,
+        "start_line": 36
+      }
+    },
+    {
+      "group": null,
+      "name": "aceite para freír",
+      "optionality": "required",
+      "position": 5,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "aceite para freír",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "aceite para freír",
+      "source_location": {
+        "end_line": 37,
+        "start_line": 37
+      }
+    },
+    {
+      "group": null,
+      "name": "pimienta negra",
+      "optionality": "required",
+      "position": 6,
+      "quantity": {
+        "approximate": false,
+        "max": null,
+        "min": null,
+        "raw": "pimienta negra",
+        "status": "missing",
+        "unit": null
+      },
+      "raw": "pimienta negra",
+      "source_location": {
+        "end_line": 38,
+        "start_line": 38
+      }
+    }
+  ],
+  "mise_en_place": [],
+  "schema_version": "0.1.0",
+  "source_commit": "a5b68c59ab76ba2ffbe09adad7a66526aa282b7b",
+  "source_path": "05_Carnes/flamenquin_cordobes_de_lomo_y_jamon.md",
+  "source_sha256": "013a83ce15fba4606d3b5191a6ec24b5f7926201ad26d7d2a561d464a5d3e2a4",
+  "steps": [
+    {
+      "order": 1,
+      "source_location": {
+        "end_line": 44,
+        "start_line": 44
+      },
+      "source_number": 1,
+      "text": "Aplanar entre láminas de papel alimentario los filetes hasta grosor uniforme de unos 4–5 mm."
+    },
+    {
+      "order": 2,
+      "source_location": {
+        "end_line": 45,
+        "start_line": 45
+      },
+      "source_number": 2,
+      "text": "Repartir jamón sobre cada filete, dejando bordes libres; enrollar firmemente y colocar cierre hacia abajo."
+    },
+    {
+      "order": 3,
+      "source_location": {
+        "end_line": 46,
+        "start_line": 46
+      },
+      "source_number": 3,
+      "text": "Pasar por harina, huevo batido y pan rallado, cubriendo también los extremos. Refrigerar 15 min."
+    },
+    {
+      "order": 4,
+      "source_location": {
+        "end_line": 47,
+        "start_line": 47
+      },
+      "source_number": 4,
+      "text": "Freír en tandas con aceite a 165–175 °C unos 6–9 min según grosor, girando para dorar de modo uniforme."
+    },
+    {
+      "order": 5,
+      "source_location": {
+        "end_line": 48,
+        "start_line": 48
+      },
+      "source_number": 5,
+      "text": "Comprobar cocción completa del cerdo (al menos 71 °C en el centro como objetivo conservador para el rollo); si la cobertura se oscurece antes, terminar en horno a 170 °C."
+    },
+    {
+      "order": 6,
+      "source_location": {
+        "end_line": 49,
+        "start_line": 49
+      },
+      "source_number": 6,
+      "text": "Escurrir y servir caliente, con ensalada o patatas como guarnición."
+    }
+  ],
+  "techniques": [
+    {
+      "href": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.html",
+      "label": "Freír en sartén",
+      "source_location": {
+        "end_line": 71,
+        "start_line": 71
+      },
+      "source_path": "00_Bases/03_Tecnicas/freir_en_sarten_con_control_de_temperatura.md"
+    }
+  ],
+  "title": "Flamenquín cordobés de lomo y jamón",
+  "yield": {
+    "max": "4",
+    "min": "4",
+    "raw": "4 raciones",
+    "source_format": "table",
+    "source_location": {
+      "end_line": 26,
+      "start_line": 26
+    },
+    "unit": "racion"
+  }
+}
