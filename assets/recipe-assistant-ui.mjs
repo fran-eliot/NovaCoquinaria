@@ -245,7 +245,7 @@ function renderRecipe(r) {
     for(const input of inputs)input.checked=true;
     refreshIngredientFilter();
     progress();
-    $("ingredient-progress").focus();
+    $("reset-ingredients").focus();
   });
   $("reset-ingredients").addEventListener("click",()=>{
     if(!session.snapshot().prepared.length)return;
