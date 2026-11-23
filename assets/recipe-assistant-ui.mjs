@@ -223,18 +223,30 @@ function renderRecipe(r) {
       putRecipeSelection(()=>window.sessionStorage,selection);location.assign("culinary-shopping.html");
     }catch(e){$("shopping-status").textContent=e.message;}
   });
-  let group=null;
-  const inputs=[];
+  let group=null,groupHeading=null;
+  const inputs=[],ingredientRows=[];
+  function refreshIngredientFilter(){
+    const onlyPending=$("ingredient-only-pending").checked;
+    const visibleGroups=new Set();
+    for(const entry of ingredientRows){
+      entry.label.hidden=onlyPending && entry.input.checked;
+      if(!entry.label.hidden)visibleGroups.add(entry.heading);
+    }
+    for(const heading of new Set(ingredientRows.map(entry=>entry.heading)))
+      heading.hidden=!visibleGroups.has(heading);
+  }
+  $("ingredient-only-pending").addEventListener("change",refreshIngredientFilter);
   for(const e of r.ingredients) {
-    if(e.group!==group){group=e.group;$("ingredients").append(node("h3",group??"Sin grupo"));}
+    if(e.group!==group){group=e.group;groupHeading=node("h3",group??"Sin grupo");$("ingredients").append(groupHeading);}
     const label=node("label",undefined,"check-row"),input=node("input");
-    input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();});
+    input.type="checkbox";input.addEventListener("change",()=>{session.markIngredient(e.position,input.checked);progress();refreshIngredientFilter();});
     const ingredientText=inline(node("span",undefined,"ingredient-text"),e.raw+" · "+optionality[e.optionality]);
     const hint=node("small",undefined,"scaled-ingredient-hint");
     hint.hidden=true;
     label.append(input,ingredientText,hint);
-    $("ingredients").append(label);inputs.push(input);inlineScaled.set(e.position,hint);
+    $("ingredients").append(label);inputs.push(input);ingredientRows.push({label,input,heading:groupHeading});inlineScaled.set(e.position,hint);
   }
+  $("ingredient-filter-control").hidden=!inputs.length;
   if(!inputs.length) $("ingredients").append(node("p","No se reconocieron ingredientes; consulta la ficha."));
   refreshScaling();
   for(const s of r.mise_en_place) {
@@ -310,7 +322,7 @@ function renderRecipe(r) {
     $(id).addEventListener("click",()=>{timer[method]();refreshTimer();});
   $("reset-session").addEventListener("click",()=>{
     if(!confirm("¿Reiniciar ingredientes, pasos y temporizador?"))return;
-    session.reset();timer.cancel();inputs.forEach(i=>i.checked=false);progress();refreshTimer();
+    session.reset();timer.cancel();inputs.forEach(i=>i.checked=false);$("ingredient-only-pending").checked=false;refreshIngredientFilter();progress();refreshTimer();
   });
   progress();refreshTimer();setInterval(refreshTimer,250);
   document.addEventListener("visibilitychange",refreshTimer);
