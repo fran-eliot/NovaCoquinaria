@@ -158,9 +158,10 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   copy.addEventListener("click", async () => {
     try {
       const markdown = note();
+      const copiedValues = currentValues();
       if (!navigator.clipboard?.writeText) throw new Error("Portapapeles no disponible");
       await navigator.clipboard.writeText(markdown);
-      exportedValues = currentValues();
+      exportedValues = copiedValues;
       message.textContent = "Nota copiada. Revísala antes de incorporarla al recetario.";
     } catch (error) {
       message.textContent = error instanceof Error ? error.message : "No se pudo copiar la nota";
