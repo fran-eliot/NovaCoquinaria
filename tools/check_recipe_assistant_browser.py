@@ -262,6 +262,7 @@ def exercise(site):
                 expect(first).to_be_checked()
                 expect(page.locator("#step-progress")).to_contain_text("2 de 9")
                 page.locator("#ingredient-only-pending").check()
+                page.once("dialog", lambda d: d.accept())
                 page.locator("#reset-ingredients").click()
                 expect(first).not_to_be_checked()
                 expect(page.locator("#ingredient-only-pending")).to_be_checked()
