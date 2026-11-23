@@ -34,6 +34,7 @@ export function createCookingSession(recipe) {
     if (checked) completed.add(order); else completed.delete(order);
     return snapshot();
   }
+  function resetSteps() { completed.clear(); return snapshot(); }
   function move(delta) {
     invariant(delta===1 || delta===-1, "Dirección inválida");
     if (current!==null) current=Math.max(1,Math.min(stepCount,current+delta));
@@ -55,7 +56,7 @@ export function createCookingSession(recipe) {
     return snapshot();
   }
   function reset() { prepared.clear(); completed.clear(); current=stepCount?1:null; return snapshot(); }
-  return {snapshot, markIngredient, resetIngredients, markStep, move, goToStep, firstPending, jumpToFirstPending, reset};
+  return {snapshot, markIngredient, resetIngredients, markStep, resetSteps, move, goToStep, firstPending, jumpToFirstPending, reset};
 }
 
 export function createManualTimer(now = () => performance.now()) {
