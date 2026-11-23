@@ -247,6 +247,16 @@ function renderRecipe(r) {
   renderMarkdown($("context-text"),r.context.text);
   mountPreparationFeedback(r);
   $("provenance").textContent=r.id+" · commit "+r.source_commit+" · esquema "+r.schema_version;
+  for (const step of r.steps) {
+    const option=node("option","Paso "+step.order);
+    option.value=String(step.order);
+    $("step-picker").append(option);
+  }
+  $("step-picker").addEventListener("change",()=>{
+    const order=Number($("step-picker").value);
+    session.goToStep(order);
+    progress();$("step-title").focus();
+  });
   function progress(){
     const s=session.snapshot();
     $("ingredient-progress").textContent=s.prepared.length+" de "+s.ingredientCount+" ingredientes marcados";
@@ -254,6 +264,7 @@ function renderRecipe(r) {
     $("step-controls").hidden=s.current===null;
     if(s.current===null)return;
     const step=r.steps[s.current-1];
+    $("step-picker").value=String(s.current);
     $("step-title").textContent="Paso "+s.current+" de "+s.stepCount;
     renderMarkdown($("step-text"),step.text);
     $("step-location").textContent=line(step.source_location);

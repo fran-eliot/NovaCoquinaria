@@ -30,3 +30,6 @@
 .assistant-section-nav a{display:inline-block;border:1px solid var(--line);border-radius:.5rem;padding:.45rem .7rem;text-decoration:none}
 .assistant-section-nav a:hover,.assistant-section-nav a:focus-visible{border-color:var(--accent);text-decoration:underline}
 #ingredients-section,#steps-section{scroll-margin-top:1rem}
+
+.step-picker{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:.65rem 0 1rem;font-weight:600}
+.step-picker select{max-width:100%;min-height:2.4rem;padding:.35rem .6rem;border:1px solid var(--line);border-radius:.4rem;background:var(--bg);color:inherit;font:inherit}
