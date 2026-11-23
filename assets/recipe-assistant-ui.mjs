@@ -284,6 +284,7 @@ function renderRecipe(r) {
     $("ingredient-progress").textContent=s.prepared.length+" de "+s.ingredientCount+" ingredientes marcados";
     $("reset-ingredients").disabled=s.prepared.length===0;
     $("step-progress").textContent=s.stepCount?s.completed.length+" de "+s.stepCount+" pasos marcados":"No se reconocieron pasos; consulta el contexto completo.";
+    $("reset-steps").disabled=s.completed.length===0;
     for(const [id,count,total] of [
       ["ingredient-progress-bar",s.prepared.length,s.ingredientCount],
       ["step-progress-bar",s.completed.length,s.stepCount]
@@ -310,6 +311,13 @@ function renderRecipe(r) {
     $("complete-next-step").disabled=s.completed.includes(s.current);
   }
   $("step-done").addEventListener("change",()=>{session.markStep(session.snapshot().current,$("step-done").checked);progress();});
+  $("reset-steps").addEventListener("click",()=>{
+    if(!session.snapshot().completed.length)return;
+    if(!confirm("¿Restablecer las marcas de pasos? Los ingredientes, el paso seleccionado y el temporizador se conservarán."))return;
+    session.resetSteps();
+    progress();
+    $("reset-steps").focus();
+  });
   for(const [id,delta] of [["previous",-1],["next-step",1]]) $(id).addEventListener("click",()=>{session.move(delta);progress();$("step-title").focus();});
   $("first-pending-step").addEventListener("click",()=>{session.jumpToFirstPending();progress();$("step-title").focus();});
   $("complete-next-step").addEventListener("click",()=>{
