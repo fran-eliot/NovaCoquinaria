@@ -35,3 +35,9 @@ Quedan fuera del alcance de esta revisión estática: una auditoría WCAG comple
 ## Propuesta de cierre
 
 Una vez CI resulte satisfactorio, revisar manualmente en escritorio y móvil al menos: apertura desde Explorer, filtrado y restablecimientos, selección y navegación de pasos, temporizador, copia/descarga de observaciones, advertencia de salida y acceso a la receta fuente. Registrar los resultados antes de proponer una release posterior a v1.7.0. No publicar automáticamente una nueva versión.
+
+## Ampliación de cobertura responsive — matriz automatizada
+
+Tras la fusión de [PR #403](https://github.com/fran-eliot/NovaCoquinaria/pull/403) y sus tres workflows satisfactorios, el recorrido de `tools/check_recipe_assistant_browser.py` se amplía con una matriz de anchos CSS de **320, 390, 768 y 1280 px** en Chromium. Para cada ancho verifica el contenedor del asistente, barras de progreso, filtro, selector y enlaces a las cuatro secciones, así como la ausencia de desbordamiento horizontal del documento. A 390 px incluye navegación por ancla y selección de un paso con retorno del foco al título.
+
+Esta matriz es **automatización de navegador con viewport simulado**, no validación en dispositivos móviles físicos ni revisión visual exhaustiva. Su resultado se conocerá tras el CI de la PR que introduce la cobertura. No sustituye las tareas manuales pendientes del apartado anterior: lectores de pantalla, navegador móvil real, interacción táctil, legibilidad de textos largos, portapapeles y descargas reales ni aceptación de la URL pública.
