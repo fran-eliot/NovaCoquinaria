@@ -69,7 +69,7 @@ def exercise(site):
                 assert "Resultado observado: bien" in exported_note
                 assert identity in exported_note and manifest["source_commit"] in exported_note
                 assert "Fecha efectiva de preparación: no documentada" in exported_note
-                assert page.locator("#feedback-preview").inner_text() == exported_note.strip()
+                assert page.locator("#feedback-preview").text_content() == exported_note
                 page.locator("#feedback-result").fill("<img src=x onerror=alert(1)>")
                 expect(page.locator("#feedback-preview")).to_be_hidden()
                 page.locator("#feedback-preview-button").click()
