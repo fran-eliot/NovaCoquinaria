@@ -86,7 +86,7 @@ export function mountPreparationFeedback(recipe, host = document.getElementById(
   download.id = "feedback-export";
   download.textContent = "Exportar nota Markdown";
   const message = document.createElement("p");
-  message.id = "feedback-status";
+  message.id = "feedback-message";
   message.setAttribute("role", "status");
   download.addEventListener("click", () => {
     try {
