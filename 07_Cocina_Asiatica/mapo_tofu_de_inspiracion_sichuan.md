@@ -4,8 +4,8 @@ tipo: receta
 titulo: Mapo tofu de inspiración Sichuán
 categoria: Cocina Asiática
 estado: borrador
-version: 1.0.1
-ultima_revision: 2026-11-22
+version: 1.0.2
+ultima_revision: 2026-11-23
 etiquetas:
   - cocina-asiatica
   - receta-propuesta
@@ -53,9 +53,9 @@ Preparación de referencia de inspiración asiática centrada en **sofrito pican
 
 ## Puntos críticos
 
-- Doubanjiang es una pasta específica de habas fermentadas y chile; mezclar miso y chile produce una adaptación, no un sustituto idéntico. Vigilar sal por las pastas fermentadas. Si se usa carne picada, cocerla completamente.
-- Los tiempos y las cantidades pueden variar según el formato de los ingredientes, la intensidad del fuego y el producto comercial utilizado.
-- Mantener los perecederos refrigerados, separar superficies de trabajo y cocinar completamente carnes, gambas y huevos.
+- El **doubanjiang** es pasta de habas fermentadas con chile: miso y chile constituyen una adaptación distinta. Probar la salinidad de los condimentos comerciales antes de corregir la salsa.
+- Mantener refrigerado el **tofu abierto** y, si se usa la carne picada opcional, conservarla separada y cocinarla completamente antes de incorporar el tofu.
+- Añadir el tofu con suavidad y evitar remover enérgicamente para conservar los dados; disolver la maicena en agua fría antes de incorporarla a la salsa.
 
 ## Diagnóstico
 
