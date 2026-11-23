@@ -13,3 +13,7 @@
 #preparation-feedback #feedback-message{min-height:1.5em}
 
 #preparation-feedback #feedback-copy{margin-inline-start:.6rem;margin-block:.4rem}
+
+#preparation-feedback #feedback-preview-button{margin-block:.4rem;margin-inline-end:.6rem}
+#preparation-feedback #feedback-preview{white-space:pre-wrap;overflow-wrap:anywhere;max-height:26rem;overflow:auto;padding:1rem;border:1px solid var(--line);border-radius:.5rem;background:var(--bg);font-size:.9rem}
+#preparation-feedback #feedback-preview[hidden]{display:none}
