@@ -316,7 +316,7 @@ function renderRecipe(r) {
     if(!confirm("¿Restablecer las marcas de pasos? Los ingredientes, el paso seleccionado y el temporizador se conservarán."))return;
     session.resetSteps();
     progress();
-    $("reset-steps").focus();
+    $("step-title").focus();
   });
   for(const [id,delta] of [["previous",-1],["next-step",1]]) $(id).addEventListener("click",()=>{session.move(delta);progress();$("step-title").focus();});
   $("first-pending-step").addEventListener("click",()=>{session.jumpToFirstPending();progress();$("step-title").focus();});
