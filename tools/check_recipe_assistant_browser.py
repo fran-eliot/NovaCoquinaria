@@ -296,7 +296,7 @@ def exercise(site):
                 expect(page.locator("#ingredient-progress-bar")).to_have_js_property(
                     "value", page.locator("#ingredients label.check-row").count())
                 expect(page.locator("#timer-status")).to_have_text("Inactivo")
-                expect(page.locator("#reset-steps")).to_be_focused()
+                expect(page.locator("#step-title")).to_be_focused()
                 page.once("dialog", lambda d: d.accept())
                 page.locator("#reset-session").click()
                 expect(first).not_to_be_checked()
